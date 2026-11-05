@@ -1,0 +1,8597 @@
+{
+ "messages": [
+  {
+   "day": 1,
+   "time": "09:15",
+   "who": "u",
+   "text": "Morning aicoo, Q3 revenue target is 2.4 million USD, just finalized with Grace.",
+   "ev": "e1",
+   "i": 0
+  },
+  {
+   "day": 1,
+   "time": "09:16",
+   "who": "a",
+   "text": "Got it, 2.4M USD for Q3. I'll note that.",
+   "i": 1
+  },
+  {
+   "day": 1,
+   "time": "10:30",
+   "who": "u",
+   "text": "Ravi在吗？想sync一下integration timeline",
+   "i": 2
+  },
+  {
+   "day": 1,
+   "time": "10:31",
+   "who": "a",
+   "text": "I don't have his calendar, but I can remind you to ping him.",
+   "i": 3
+  },
+  {
+   "day": 1,
+   "time": "11:00",
+   "who": "u",
+   "text": "不用了，我直接找他",
+   "i": 4
+  },
+  {
+   "day": 1,
+   "time": "14:00",
+   "who": "u",
+   "text": "Omar说有个enterprise deal可能提前，要准备一下",
+   "i": 5
+  },
+  {
+   "day": 1,
+   "time": "14:01",
+   "who": "a",
+   "text": "Let me know if you need any prep support.",
+   "i": 6
+  },
+  {
+   "day": 1,
+   "time": "16:45",
+   "who": "u",
+   "text": "今天有点累，女儿昨晚发烧了",
+   "i": 7
+  },
+  {
+   "day": 1,
+   "time": "16:46",
+   "who": "a",
+   "text": "Hope she's feeling better soon. Rest when you can.",
+   "i": 8
+  },
+  {
+   "day": 2,
+   "time": "09:30",
+   "who": "u",
+   "text": "aicoo, 帮我check一下Ben这个季度的pipeline",
+   "i": 9
+  },
+  {
+   "day": 2,
+   "time": "09:31",
+   "who": "a",
+   "text": "I don't have direct access, but you can check CRM. Want me to remind you later?",
+   "i": 10
+  },
+  {
+   "day": 2,
+   "time": "11:20",
+   "who": "u",
+   "text": "Yuki发了新的design mock，看着不错",
+   "i": 11
+  },
+  {
+   "day": 2,
+   "time": "11:21",
+   "who": "a",
+   "text": "Great, forward it to the team if needed.",
+   "i": 12
+  },
+  {
+   "day": 2,
+   "time": "14:00",
+   "who": "u",
+   "text": "Reminder: Ben's Q3 target is 500k in new sales.",
+   "ev": "e67",
+   "i": 13
+  },
+  {
+   "day": 2,
+   "time": "14:01",
+   "who": "a",
+   "text": "Noted, Ben's Q3 target is 500k in new sales.",
+   "i": 14
+  },
+  {
+   "day": 2,
+   "time": "15:30",
+   "who": "u",
+   "text": "下午跟Grace的1:1，要讨论pricing changes",
+   "i": 15
+  },
+  {
+   "day": 2,
+   "time": "15:31",
+   "who": "a",
+   "text": "Good luck with that. Let me know how it goes.",
+   "i": 16
+  },
+  {
+   "day": 2,
+   "time": "17:00",
+   "who": "u",
+   "text": "Pricing change approved, 下个月开始roll out",
+   "i": 17
+  },
+  {
+   "day": 2,
+   "time": "17:01",
+   "who": "a",
+   "text": "Nice, that's a big step forward.",
+   "i": 18
+  },
+  {
+   "day": 3,
+   "time": "09:00",
+   "who": "u",
+   "text": "aicoo, 我今天飞Singapore，记得提醒我带电脑",
+   "i": 19
+  },
+  {
+   "day": 3,
+   "time": "09:01",
+   "who": "a",
+   "text": "Don't forget your laptop for the trip!",
+   "i": 20
+  },
+  {
+   "day": 3,
+   "time": "11:30",
+   "who": "u",
+   "text": "Lily的feature launch怎么样了？",
+   "i": 21
+  },
+  {
+   "day": 3,
+   "time": "11:31",
+   "who": "a",
+   "text": "I don't have live updates, but you can check the project board.",
+   "i": 22
+  },
+  {
+   "day": 3,
+   "time": "14:20",
+   "who": "u",
+   "text": "Ravi的team要在September 15前finish那个integration，tight deadline啊。",
+   "ev": "e2",
+   "i": 23
+  },
+  {
+   "day": 3,
+   "time": "14:21",
+   "who": "a",
+   "text": "That is tight. Hope they can make it.",
+   "i": 24
+  },
+  {
+   "day": 3,
+   "time": "16:00",
+   "who": "u",
+   "text": "Singapore office好热，还是Shanghai舒服",
+   "i": 25
+  },
+  {
+   "day": 3,
+   "time": "16:01",
+   "who": "a",
+   "text": "At least the aircon is good there. Get some iced kopi.",
+   "i": 26
+  },
+  {
+   "day": 3,
+   "time": "18:30",
+   "who": "u",
+   "text": "晚上跟Omar吃饭，聊聊那个enterprise deal",
+   "i": 27
+  },
+  {
+   "day": 3,
+   "time": "18:31",
+   "who": "a",
+   "text": "Enjoy the dinner and good luck with the deal.",
+   "i": 28
+  },
+  {
+   "day": 4,
+   "time": "09:00",
+   "who": "u",
+   "text": "aicoo, 早上好，今天好多会",
+   "i": 29
+  },
+  {
+   "day": 4,
+   "time": "09:01",
+   "who": "a",
+   "text": "Morning! Let's get through it together.",
+   "i": 30
+  },
+  {
+   "day": 4,
+   "time": "10:00",
+   "who": "u",
+   "text": "aicoo, remind me to send Q3 budget breakdown to Grace by Friday.",
+   "ev": "e43",
+   "i": 31
+  },
+  {
+   "day": 4,
+   "time": "10:01",
+   "who": "a",
+   "text": "好的，我会在Friday前remind you to send那份budget breakdown.",
+   "ev": "e44",
+   "i": 32
+  },
+  {
+   "day": 4,
+   "time": "11:15",
+   "who": "u",
+   "text": "Yuki的design feedback收到了，有些地方要改",
+   "i": 33
+  },
+  {
+   "day": 4,
+   "time": "11:16",
+   "who": "a",
+   "text": "Let her know the details in the review meeting.",
+   "i": 34
+  },
+  {
+   "day": 4,
+   "time": "13:00",
+   "who": "u",
+   "text": "Ben的pipeline看起来不错，但conversion rate需要提高",
+   "i": 35
+  },
+  {
+   "day": 4,
+   "time": "13:01",
+   "who": "a",
+   "text": "Maybe set up a coaching session with Omar?",
+   "i": 36
+  },
+  {
+   "day": 4,
+   "time": "14:30",
+   "who": "u",
+   "text": "Grace刚才问了Q3 roadmap，我说周五前发她",
+   "i": 37
+  },
+  {
+   "day": 4,
+   "time": "14:31",
+   "who": "a",
+   "text": "Good, that's aligned with the budget breakdown timeline.",
+   "i": 38
+  },
+  {
+   "day": 4,
+   "time": "17:00",
+   "who": "u",
+   "text": "今天差不多了，准备回家陪女儿",
+   "i": 39
+  },
+  {
+   "day": 4,
+   "time": "17:01",
+   "who": "a",
+   "text": "Have a nice evening with your family.",
+   "i": 40
+  },
+  {
+   "day": 5,
+   "time": "08:30",
+   "who": "u",
+   "text": "Morning aicoo, 今天周五了，记得帮我弄那个budget breakdown reminder",
+   "i": 41
+  },
+  {
+   "day": 5,
+   "time": "08:31",
+   "who": "a",
+   "text": "早上好！已经设好了，10点会提醒你review Q3 budget breakdown",
+   "i": 42
+  },
+  {
+   "day": 5,
+   "time": "09:45",
+   "who": "u",
+   "text": "Ravi说integration有点小blocker，不过应该能赶上Sept 15",
+   "i": 43
+  },
+  {
+   "day": 5,
+   "time": "09:46",
+   "who": "a",
+   "text": "希望顺利解决，Ravi一向靠谱",
+   "i": 44
+  },
+  {
+   "day": 5,
+   "time": "10:05",
+   "who": "u",
+   "text": "Lily刚confirm了，那enterprise deal worth 800k, 客户是Aurora Health",
+   "ev": "e3",
+   "i": 45
+  },
+  {
+   "day": 5,
+   "time": "10:06",
+   "who": "a",
+   "text": "800k！这个deal big，恭喜团队",
+   "i": 46
+  },
+  {
+   "day": 5,
+   "time": "10:30",
+   "who": "u",
+   "text": "下午和Omar过一下pricing changes的客户反馈",
+   "i": 47
+  },
+  {
+   "day": 5,
+   "time": "10:31",
+   "who": "a",
+   "text": "好，下午我帮你记要点",
+   "i": 48
+  },
+  {
+   "day": 5,
+   "time": "14:00",
+   "who": "u",
+   "text": "pricing feedback mostly positive, 小客户有点concern但可以调整",
+   "i": 49
+  },
+  {
+   "day": 5,
+   "time": "14:01",
+   "who": "a",
+   "text": "good news, 小客户那边可以再给个过渡期",
+   "i": 50
+  },
+  {
+   "day": 5,
+   "time": "17:01",
+   "who": "a",
+   "text": "周末愉快！新加坡行程我已经整理好了，周一给你",
+   "i": 51
+  },
+  {
+   "day": 6,
+   "time": "09:00",
+   "who": "u",
+   "text": "周末还忙了一下，女儿有点发烧，好在不严重",
+   "i": 52
+  },
+  {
+   "day": 6,
+   "time": "09:01",
+   "who": "a",
+   "text": "哎，小朋友生病最揪心，多休息",
+   "i": 53
+  },
+  {
+   "day": 6,
+   "time": "15:30",
+   "who": "u",
+   "text": "我妈今天复查，结果还行，暂时稳定",
+   "i": 54
+  },
+  {
+   "day": 6,
+   "time": "15:31",
+   "who": "a",
+   "text": "那就好，你也要照顾好自己",
+   "i": 55
+  },
+  {
+   "day": 7,
+   "time": "10:00",
+   "who": "u",
+   "text": "周日了，在想下周Aurora Health的pitch deck",
+   "i": 56
+  },
+  {
+   "day": 7,
+   "time": "10:01",
+   "who": "a",
+   "text": "需要我帮忙整理框架吗？",
+   "i": 57
+  },
+  {
+   "day": 7,
+   "time": "10:30",
+   "who": "u",
+   "text": "好啊，先列一下key points：integration timeline, pricing, support",
+   "i": 58
+  },
+  {
+   "day": 7,
+   "time": "10:31",
+   "who": "a",
+   "text": "收到，我准备一个draft",
+   "i": 59
+  },
+  {
+   "day": 7,
+   "time": "11:30",
+   "who": "u",
+   "text": "Yuki redesign了onboarding flow，AB test shows 23% conversion lift, impressive",
+   "ev": "e4",
+   "i": 60
+  },
+  {
+   "day": 7,
+   "time": "11:31",
+   "who": "a",
+   "text": "Yuki太棒了，23%很厉害",
+   "i": 61
+  },
+  {
+   "day": 7,
+   "time": "14:00",
+   "who": "u",
+   "text": "下周和Ravi、Lily对齐一下roadmap",
+   "i": 62
+  },
+  {
+   "day": 7,
+   "time": "14:01",
+   "who": "a",
+   "text": "好，我加个calendar event",
+   "i": 63
+  },
+  {
+   "day": 8,
+   "time": "09:00",
+   "who": "u",
+   "text": "周一了，新加坡这边好热",
+   "i": 64
+  },
+  {
+   "day": 8,
+   "time": "09:01",
+   "who": "a",
+   "text": "哈哈，做好防晒！今天有什么安排？",
+   "i": 65
+  },
+  {
+   "day": 8,
+   "time": "09:15",
+   "who": "u",
+   "text": "aicoo, 帮我和Omar说一声，I'll review his Singapore pipeline next Monday",
+   "ev": "e45",
+   "i": 66
+  },
+  {
+   "day": 8,
+   "time": "09:16",
+   "who": "a",
+   "text": "Got it, 我会通知Omar你next Monday要review他的pipeline",
+   "ev": "e46",
+   "i": 67
+  },
+  {
+   "day": 8,
+   "time": "10:00",
+   "who": "u",
+   "text": "刚和Singapore team开了standup, 他们状态不错",
+   "i": 68
+  },
+  {
+   "day": 8,
+   "time": "10:01",
+   "who": "a",
+   "text": "好，你那边也顺利",
+   "i": 69
+  },
+  {
+   "day": 8,
+   "time": "12:00",
+   "who": "u",
+   "text": "Lily发了个Aurora Health的initial requirements，有点复杂",
+   "i": 70
+  },
+  {
+   "day": 8,
+   "time": "12:01",
+   "who": "a",
+   "text": "需要我highlight关键点吗？",
+   "i": 71
+  },
+  {
+   "day": 8,
+   "time": "14:00",
+   "who": "u",
+   "text": "下午和Ravi sync一下，看看integration timeline能不能align",
+   "i": 72
+  },
+  {
+   "day": 8,
+   "time": "14:01",
+   "who": "a",
+   "text": "好，我帮你准备agenda",
+   "i": 73
+  },
+  {
+   "day": 8,
+   "time": "16:00",
+   "who": "u",
+   "text": "今天早点收工，女儿还有点咳嗽，回家看看",
+   "i": 74
+  },
+  {
+   "day": 8,
+   "time": "16:01",
+   "who": "a",
+   "text": "嗯，回去陪陪她，早点休息",
+   "i": 75
+  },
+  {
+   "day": 9,
+   "time": "08:00",
+   "who": "u",
+   "text": "aicoo, don't forget to remind me to check Ravi's integration progress on Sep 1.",
+   "ev": "e47",
+   "i": 76
+  },
+  {
+   "day": 9,
+   "time": "08:01",
+   "who": "a",
+   "text": "Sure, I'll remind you on Sep 1 about Ravi的integration progress.",
+   "ev": "e48",
+   "i": 77
+  },
+  {
+   "day": 9,
+   "time": "09:15",
+   "who": "u",
+   "text": "刚和Yuki过完onboarding redesign的data, 23% conversion lift, 还不错",
+   "i": 78
+  },
+  {
+   "day": 9,
+   "time": "09:16",
+   "who": "a",
+   "text": "Yuki做得好！那个lift很solid。",
+   "i": 79
+  },
+  {
+   "day": 9,
+   "time": "11:30",
+   "who": "u",
+   "text": "Ben发了个pricing review的draft, 我扫了一眼, 有些地方要改",
+   "i": 80
+  },
+  {
+   "day": 9,
+   "time": "11:31",
+   "who": "a",
+   "text": "需要我帮你set up time with Ben吗？",
+   "i": 81
+  },
+  {
+   "day": 9,
+   "time": "11:32",
+   "who": "u",
+   "text": "先不用, 我下午自己找他",
+   "i": 82
+  },
+  {
+   "day": 9,
+   "time": "14:00",
+   "who": "u",
+   "text": "Aurora Health那笔deal, Lily说legal review还要一周, 有点担心timeline",
+   "i": 83
+  },
+  {
+   "day": 9,
+   "time": "14:01",
+   "who": "a",
+   "text": "Keep pushing, 800K值得盯紧。",
+   "i": 84
+  },
+  {
+   "day": 9,
+   "time": "16:20",
+   "who": "u",
+   "text": "老妈今天血压又高了, 晚上得早点回去",
+   "i": 85
+  },
+  {
+   "day": 9,
+   "time": "16:21",
+   "who": "a",
+   "text": "照顾好妈妈, 工作这边我帮你留意。",
+   "i": 86
+  },
+  {
+   "day": 10,
+   "time": "08:45",
+   "who": "u",
+   "text": "Booked flight to Singapore for Sep 1, need to visit Omar's team那边。",
+   "ev": "e5",
+   "i": 87
+  },
+  {
+   "day": 10,
+   "time": "08:46",
+   "who": "a",
+   "text": "收到, Sep 1飞新加坡, 我帮你记上。",
+   "i": 88
+  },
+  {
+   "day": 10,
+   "time": "10:00",
+   "who": "u",
+   "text": "Ravi说integration timeline on track, 但test环境有点问题",
+   "i": 89
+  },
+  {
+   "day": 10,
+   "time": "10:01",
+   "who": "a",
+   "text": "希望他能在Sep 15前搞定。",
+   "i": 90
+  },
+  {
+   "day": 10,
+   "time": "11:15",
+   "who": "u",
+   "text": "Grace刚Slack我, 问Q3 pipeline, 我回了个summary",
+   "i": 91
+  },
+  {
+   "day": 10,
+   "time": "11:16",
+   "who": "a",
+   "text": "那就好, 她应该满意。",
+   "i": 92
+  },
+  {
+   "day": 10,
+   "time": "14:30",
+   "who": "u",
+   "text": "下午和Omar打了个call, 他说Singapore team的pipeline有点weak",
+   "i": 93
+  },
+  {
+   "day": 10,
+   "time": "14:31",
+   "who": "a",
+   "text": "那你Sep 1过去正好boost一下。",
+   "i": 94
+  },
+  {
+   "day": 10,
+   "time": "17:00",
+   "who": "u",
+   "text": "女儿今天学校有活动, 老婆带她去, 我miss了, 唉",
+   "i": 95
+  },
+  {
+   "day": 10,
+   "time": "17:01",
+   "who": "a",
+   "text": "工作太忙了, 下次争取去。",
+   "i": 96
+  },
+  {
+   "day": 11,
+   "time": "08:15",
+   "who": "u",
+   "text": "Omar said his Singapore team's budget increased by 15% for Q4.",
+   "ev": "e68",
+   "i": 97
+  },
+  {
+   "day": 11,
+   "time": "08:16",
+   "who": "a",
+   "text": "15% increase, 不错！Q4可以多推一些。",
+   "i": 98
+  },
+  {
+   "day": 11,
+   "time": "09:30",
+   "who": "u",
+   "text": "Aurora的legal review还是没消息, 我让Lily去follow up",
+   "i": 99
+  },
+  {
+   "day": 11,
+   "time": "09:31",
+   "who": "a",
+   "text": "催一下, 别拖太久。",
+   "i": 100
+  },
+  {
+   "day": 11,
+   "time": "11:00",
+   "who": "u",
+   "text": "Ravi在integration上卡了一个dependency, 说可能要delay一周",
+   "i": 101
+  },
+  {
+   "day": 11,
+   "time": "11:01",
+   "who": "a",
+   "text": "那得跟他align一下, 看看怎么mitigate。",
+   "i": 102
+  },
+  {
+   "day": 11,
+   "time": "14:00",
+   "who": "u",
+   "text": "下午和Ben开了个会, pricing review的改动他同意了, 下周推",
+   "i": 103
+  },
+  {
+   "day": 11,
+   "time": "14:01",
+   "who": "a",
+   "text": "Good, 终于往前动了。",
+   "i": 104
+  },
+  {
+   "day": 11,
+   "time": "16:30",
+   "who": "u",
+   "text": "老妈今天好点了, 但医生说要继续观察",
+   "i": 105
+  },
+  {
+   "day": 11,
+   "time": "16:31",
+   "who": "a",
+   "text": "那就好, 继续留意。",
+   "i": 106
+  },
+  {
+   "day": 12,
+   "time": "09:00",
+   "who": "u",
+   "text": "今天一早收到老爸住院的消息, 唉",
+   "i": 107
+  },
+  {
+   "day": 12,
+   "time": "09:01",
+   "who": "a",
+   "text": "哎, 严重吗？需要你过去吗？",
+   "i": 108
+  },
+  {
+   "day": 12,
+   "time": "09:02",
+   "who": "u",
+   "text": "应该稳定了, 但得去医院看看",
+   "i": 109
+  },
+  {
+   "day": 12,
+   "time": "10:00",
+   "who": "u",
+   "text": "Ben, 今天pricing review的会你来lead, 我这边实在走不开",
+   "i": 110
+  },
+  {
+   "day": 12,
+   "time": "10:30",
+   "who": "u",
+   "text": "Omar, 新加坡那边你先自己review pipeline, 我Sep 1过去再细聊",
+   "i": 111
+  },
+  {
+   "day": 12,
+   "time": "11:00",
+   "who": "u",
+   "text": "Lily, Aurora的legal review你盯一下, 有update告诉我",
+   "i": 112
+  },
+  {
+   "day": 12,
+   "time": "11:01",
+   "who": "a",
+   "text": "看起来今天你要focus on family, 工作我帮你keep track.",
+   "i": 113
+  },
+  {
+   "day": 12,
+   "time": "14:00",
+   "who": "u",
+   "text": "刚去医院回来, 老爸情况稳定了, 但得住院几天",
+   "i": 114
+  },
+  {
+   "day": 12,
+   "time": "14:01",
+   "who": "a",
+   "text": "那你就多陪陪, 工作这边暂时放一放。",
+   "i": 115
+  },
+  {
+   "day": 12,
+   "time": "16:50",
+   "who": "u",
+   "text": "老爸又进医院了, schedule for this week完全被打乱, Ben take over the pricing review.",
+   "ev": "e6",
+   "i": 116
+  },
+  {
+   "day": 12,
+   "time": "16:51",
+   "who": "a",
+   "text": "明白了, Ben会handle pricing review, 你安心照顾爸爸。",
+   "i": 117
+  },
+  {
+   "day": 13,
+   "time": "08:15",
+   "who": "u",
+   "text": "aicoo, 早安. 周末还要看一下Aurora deck, 下午去医院看我爸. 你先帮我记一下: 周一早上跟Lily sync Aurora legal status.",
+   "i": 118
+  },
+  {
+   "day": 13,
+   "time": "08:16",
+   "who": "a",
+   "text": "早安 Kai. 记住了: 周一早上跟Lily sync Aurora legal status. 希望你爸爸情况好转.",
+   "i": 119
+  },
+  {
+   "day": 13,
+   "time": "09:30",
+   "who": "u",
+   "text": "Omar发了个email, 说Singapore那边有个新机会, 大概200K ACV, 要不要在Q4铺进去? 我让他先发pipeline summary.",
+   "i": 120
+  },
+  {
+   "day": 13,
+   "time": "09:31",
+   "who": "a",
+   "text": "好的, 等Omar的pipeline summary再看. 200K听上去不错.",
+   "i": 121
+  },
+  {
+   "day": 13,
+   "time": "12:00",
+   "who": "u",
+   "text": "医院回来路上, 我爸稳定了但还要观察两天. 下午抽空看Ben的pricing model了.",
+   "i": 122
+  },
+  {
+   "day": 13,
+   "time": "12:01",
+   "who": "a",
+   "text": "稳定就好, 你也要休息.",
+   "i": 123
+  },
+  {
+   "day": 13,
+   "time": "14:30",
+   "who": "u",
+   "text": "Ben的pricing model v1有bug, 算出来unit economics不太对. 我让他redo.",
+   "i": 124
+  },
+  {
+   "day": 13,
+   "time": "14:31",
+   "who": "a",
+   "text": "让Ben把假设也写清楚, 方便review.",
+   "i": 125
+  },
+  {
+   "day": 13,
+   "time": "18:45",
+   "who": "u",
+   "text": "今天不work了, 陪女儿一会儿. 晚安aicoo.",
+   "i": 126
+  },
+  {
+   "day": 13,
+   "time": "18:46",
+   "who": "a",
+   "text": "晚安Kai, 好好休息.",
+   "i": 127
+  },
+  {
+   "day": 14,
+   "time": "08:00",
+   "who": "u",
+   "text": "Sunday早起, 去医院前把Aurora deck finalize掉. 一小时后发给你review.",
+   "i": 128
+  },
+  {
+   "day": 14,
+   "time": "08:01",
+   "who": "a",
+   "text": "好的, 我等你.",
+   "i": 129
+  },
+  {
+   "day": 14,
+   "time": "09:10",
+   "who": "u",
+   "text": "Deck发你了. 首页financial summary那里你检查一下数字: 800K/3yr, 第一年400K upfront, 剩下按季度.",
+   "i": 130
+  },
+  {
+   "day": 14,
+   "time": "09:11",
+   "who": "a",
+   "text": "数字正确, 400K upfront + 4 x 100K quarterly. 没问题.",
+   "i": 131
+  },
+  {
+   "day": 14,
+   "time": "11:00",
+   "who": "u",
+   "text": "刚医院出来, 我爸可以吃流食了, 医生说再观察两天. 下午来公司做点cleanup.",
+   "i": 132
+  },
+  {
+   "day": 14,
+   "time": "11:01",
+   "who": "a",
+   "text": "good news. 希望早日出院.",
+   "i": 133
+  },
+  {
+   "day": 14,
+   "time": "13:10",
+   "who": "u",
+   "text": "Just got pricing model v2 from Ben, plan to launch 39 per user per month.",
+   "ev": "e7",
+   "i": 134
+  },
+  {
+   "day": 14,
+   "time": "13:11",
+   "who": "a",
+   "text": "39 per user per month — 比之前41低了5%. 需要跟Grace确认? 还是直接走?",
+   "i": 135
+  },
+  {
+   "day": 14,
+   "time": "13:30",
+   "who": "u",
+   "text": "我先找Grace聊一下 这周pricing council meeting, 然后同步Sales.",
+   "i": 136
+  },
+  {
+   "day": 14,
+   "time": "16:20",
+   "who": "u",
+   "text": "整理了一下Q3剩下6周的priority list. 1. Aurora close, 2. Pricing launch, 3. 新加坡pipeline review (Sep 1 trip). 4. Ravi integration. 你觉得missing什么?",
+   "i": 137
+  },
+  {
+   "day": 14,
+   "time": "16:21",
+   "who": "a",
+   "text": "Yuki的onboarding redesign rollout 要不要加进去? 她说23% lift, 应该排priority?",
+   "i": 138
+  },
+  {
+   "day": 14,
+   "time": "16:22",
+   "who": "u",
+   "text": "对, 加进去, 排在pricing之后. 谢谢提醒.",
+   "i": 139
+  },
+  {
+   "day": 14,
+   "time": "20:30",
+   "who": "u",
+   "text": "明天周一, 准备开战. 晚安.",
+   "i": 140
+  },
+  {
+   "day": 14,
+   "time": "20:31",
+   "who": "a",
+   "text": "晚安Kai, 明天见.",
+   "i": 141
+  },
+  {
+   "day": 15,
+   "time": "08:00",
+   "who": "u",
+   "text": "aicoo, 早上好. 今天主要任务: 9点跟Lily sync Aurora legal, 10点跟Ravi standup, 下午跟Grace过pricing.",
+   "i": 142
+  },
+  {
+   "day": 15,
+   "time": "08:01",
+   "who": "a",
+   "text": "早上好. 9:00 Lily sync (Aurora legal), 10:00 Ravi standup, 下午 Grace pricing. 收到.",
+   "i": 143
+  },
+  {
+   "day": 15,
+   "time": "09:15",
+   "who": "u",
+   "text": "Lily说legal review这周能出结果, Aurora那边看起来positive. 但客户想要一个custom analytics module, 得先评估scope.",
+   "i": 144
+  },
+  {
+   "day": 15,
+   "time": "09:16",
+   "who": "a",
+   "text": "custom analytics module — 要跟Ravi确认engineering capacity.",
+   "i": 145
+  },
+  {
+   "day": 15,
+   "time": "10:20",
+   "who": "u",
+   "text": "Ravi standup结束了. Integration on track for Sep 15, 但他提到了一个第三方API deprecation issue, 需要alternative.",
+   "i": 146
+  },
+  {
+   "day": 15,
+   "time": "10:21",
+   "who": "a",
+   "text": "API deprecation — 需要Ravi给出timeline for switch. 你让他plan了吗?",
+   "i": 147
+  },
+  {
+   "day": 15,
+   "time": "10:30",
+   "who": "u",
+   "text": "aicoo, PR descriptions以后always end with a Risk section.",
+   "ev": "e63",
+   "i": 148
+  },
+  {
+   "day": 15,
+   "time": "10:31",
+   "who": "a",
+   "text": "收到了. 所有PR descriptions都加Risk section, 以后常驻.",
+   "i": 149
+  },
+  {
+   "day": 15,
+   "time": "12:00",
+   "who": "u",
+   "text": "午饭时间, 顺便跟Yuki聊了一下onboarding rollout plan. 她说下周一beta release, 需要QA support.",
+   "i": 150
+  },
+  {
+   "day": 15,
+   "time": "12:01",
+   "who": "a",
+   "text": "下周一的beta — 跟Ravi确认QA资源.",
+   "i": 151
+  },
+  {
+   "day": 15,
+   "time": "14:30",
+   "who": "u",
+   "text": "Grace对pricing 39 per user per month没有意见, 但要求我们做一个competitive analysis, 下周五present.",
+   "i": 152
+  },
+  {
+   "day": 15,
+   "time": "14:31",
+   "who": "a",
+   "text": "competitive analysis due next Friday. 我会提醒你.",
+   "i": 153
+  },
+  {
+   "day": 15,
+   "time": "17:45",
+   "who": "u",
+   "text": "今天OK了. 明天继续. 晚上去医院看我爸.",
+   "i": 154
+  },
+  {
+   "day": 15,
+   "time": "17:46",
+   "who": "a",
+   "text": "好的Kai, 明天见.",
+   "i": 155
+  },
+  {
+   "day": 16,
+   "time": "07:50",
+   "who": "u",
+   "text": "aicoo, 早. 我爸医院说今天可以出院了, 太好了. 上午我会晚点到, 先去接他回家.",
+   "i": 156
+  },
+  {
+   "day": 16,
+   "time": "07:51",
+   "who": "a",
+   "text": "太好了！恭喜. 接爸爸回家最重要.",
+   "i": 157
+  },
+  {
+   "day": 16,
+   "time": "10:00",
+   "who": "u",
+   "text": "到公司了. 先看邮件, Lily说Aurora deal legal cleared, 但客户签字前还有一个小条款.",
+   "i": 158
+  },
+  {
+   "day": 16,
+   "time": "10:01",
+   "who": "a",
+   "text": "小条款是什么? 严重吗?",
+   "i": 159
+  },
+  {
+   "day": 16,
+   "time": "10:25",
+   "who": "u",
+   "text": "Lily说Aurora deal可能会有scope change，要加custom analytics module.",
+   "ev": "e8",
+   "i": 160
+  },
+  {
+   "day": 16,
+   "time": "10:26",
+   "who": "a",
+   "text": "custom analytics module — 之前提过. 需要评估effort和定价影响. 你让Lily拉Ravi一起讨论?",
+   "i": 161
+  },
+  {
+   "day": 16,
+   "time": "10:30",
+   "who": "u",
+   "text": "对, 我让她下午跟Ravi约个会. 这个module如果影响Q3 close, 可能得重新negotiate terms.",
+   "i": 162
+  },
+  {
+   "day": 16,
+   "time": "12:00",
+   "who": "u",
+   "text": "Ben发了pricing migration plan, 分3个phase: 现有客户grandfather, 新客户immediate, 年底统一. 你看看?",
+   "i": 163
+  },
+  {
+   "day": 16,
+   "time": "12:01",
+   "who": "a",
+   "text": "Phase 1: grandfather existing, Phase 2: new customers at $39, Phase 3: unified by year-end. 逻辑清楚, 但需要确认support teams准备好了.",
+   "i": 164
+  },
+  {
+   "day": 16,
+   "time": "14:00",
+   "who": "u",
+   "text": "Lily和Ravi的会开了, 结论: custom analytics module大概需要2-3 sprints (6-9 weeks). 意味着不能包含在现有deal里.",
+   "i": 165
+  },
+  {
+   "day": 16,
+   "time": "14:01",
+   "who": "a",
+   "text": "6-9 weeks — 那Aurora得签两份合同: 主deal 800K + 后加的module? 还是改成phase 2?",
+   "i": 166
+  },
+  {
+   "day": 16,
+   "time": "14:30",
+   "who": "u",
+   "text": "我刚跟Lily说, 建议把module作为optional add-on, Q1 2027 delivery, 单独定价. 不然Q3 close risk太大了.",
+   "i": 167
+  },
+  {
+   "day": 16,
+   "time": "14:31",
+   "who": "a",
+   "text": "逻辑合理. 让Lily准备proposal给Aurora.",
+   "i": 168
+  },
+  {
+   "day": 16,
+   "time": "16:00",
+   "who": "u",
+   "text": "今天早点走, 回家陪爸爸吃晚饭. 明天继续.",
+   "i": 169
+  },
+  {
+   "day": 16,
+   "time": "16:01",
+   "who": "a",
+   "text": "享受家庭时光. 明天见.",
+   "i": 170
+  },
+  {
+   "day": 17,
+   "time": "08:15",
+   "who": "u",
+   "text": "aicoo, morning. Can you remind me to check with Ravi on the security audit timeline? I think it’s dragging.",
+   "i": 171
+  },
+  {
+   "day": 17,
+   "time": "08:16",
+   "who": "a",
+   "text": "Good morning, Kai. I’ll set a reminder for you to check with Ravi on the security audit timeline today.",
+   "i": 172
+  },
+  {
+   "day": 17,
+   "time": "08:45",
+   "who": "u",
+   "text": "Lily说Aurora那边legal review还没动，我让她今天escalate一下。",
+   "i": 173
+  },
+  {
+   "day": 17,
+   "time": "08:46",
+   "who": "a",
+   "text": "Good, following up with Lily on that escalation keeps the deal on track.",
+   "i": 174
+  },
+  {
+   "day": 17,
+   "time": "09:30",
+   "who": "u",
+   "text": "Yuki的dark mode request有3个客户提了，我待会儿把list给她。",
+   "i": 175
+  },
+  {
+   "day": 17,
+   "time": "09:31",
+   "who": "a",
+   "text": "Great, Yuki will appreciate the specific customer feedback for dark mode.",
+   "i": 176
+  },
+  {
+   "day": 17,
+   "time": "10:00",
+   "who": "u",
+   "text": "Omar's Q4 budget increase is confirmed? 我周一跟他sync一下新加坡的数字。",
+   "i": 177
+  },
+  {
+   "day": 17,
+   "time": "10:01",
+   "who": "a",
+   "text": "It was confirmed last week at 15% increase. Sync with Omar Monday sounds good.",
+   "i": 178
+  },
+  {
+   "day": 17,
+   "time": "11:20",
+   "who": "u",
+   "text": "Ravi刚才说security audit可能会影响integration rollout，but he's hoping Sep 15 still holds.",
+   "i": 179
+  },
+  {
+   "day": 17,
+   "time": "11:21",
+   "who": "a",
+   "text": "Hope so. Let’s keep an eye on it; you have the Sep 15 deadline in your notes.",
+   "i": 180
+  },
+  {
+   "day": 17,
+   "time": "12:00",
+   "who": "u",
+   "text": "Lunchtime. Dad's doing better, mom血压今天正常了。",
+   "i": 181
+  },
+  {
+   "day": 17,
+   "time": "12:01",
+   "who": "a",
+   "text": "Glad to hear your dad is better and your mom’s blood pressure is stable today.",
+   "i": 182
+  },
+  {
+   "day": 17,
+   "time": "14:00",
+   "who": "u",
+   "text": "Ben的pricing review meeting moved to next Wednesday. 我让他update deck。",
+   "i": 183
+  },
+  {
+   "day": 17,
+   "time": "14:01",
+   "who": "a",
+   "text": "Got it, I’ll update your calendar for next Wednesday’s pricing review with Ben.",
+   "i": 184
+  },
+  {
+   "day": 17,
+   "time": "15:30",
+   "who": "u",
+   "text": "Ben的pricing review meeting moved to next Wednesday.",
+   "ev": "e69",
+   "i": 185
+  },
+  {
+   "day": 17,
+   "time": "15:31",
+   "who": "a",
+   "text": "Noted, Kai. I’ll keep that rescheduled for next Wednesday.",
+   "i": 186
+  },
+  {
+   "day": 17,
+   "time": "16:00",
+   "who": "u",
+   "text": "明天早上有customer interview，记得提醒我记录feature request。",
+   "i": 187
+  },
+  {
+   "day": 17,
+   "time": "16:01",
+   "who": "a",
+   "text": "Reminder set for tomorrow morning’s customer interview – note down feature requests.",
+   "i": 188
+  },
+  {
+   "day": 17,
+   "time": "17:45",
+   "who": "u",
+   "text": "I need to review Lily's Aurora pricing add-on proposal before Friday, reminding myself.",
+   "i": 189
+  },
+  {
+   "day": 17,
+   "time": "17:46",
+   "who": "a",
+   "text": "I’ll remind you Thursday afternoon to review Lily’s Aurora pricing add-on.",
+   "i": 190
+  },
+  {
+   "day": 18,
+   "time": "08:00",
+   "who": "u",
+   "text": "Morning，让我看看今天customer interview的notes。",
+   "i": 191
+  },
+  {
+   "day": 18,
+   "time": "08:01",
+   "who": "a",
+   "text": "Morning, Kai. I have the interview notes ready whenever you are.",
+   "i": 192
+  },
+  {
+   "day": 18,
+   "time": "09:00",
+   "who": "u",
+   "text": "Customer interview里有3家requested dark mode，记下来给Yuki。",
+   "ev": "e9",
+   "i": 193
+  },
+  {
+   "day": 18,
+   "time": "09:01",
+   "who": "a",
+   "text": "Noted. Three customers requested dark mode – I’ll flag that to Yuki.",
+   "i": 194
+  },
+  {
+   "day": 18,
+   "time": "09:30",
+   "who": "u",
+   "text": "Also one customer mentioned the onboarding flow is still confusing, 跟Yuki说一下。",
+   "i": 195
+  },
+  {
+   "day": 18,
+   "time": "09:31",
+   "who": "a",
+   "text": "Will do – I’ll share that onboarding feedback with Yuki as well.",
+   "i": 196
+  },
+  {
+   "day": 18,
+   "time": "10:15",
+   "who": "u",
+   "text": "Ravi刚发了security audit的preliminary findings，他says可能delay integration。",
+   "i": 197
+  },
+  {
+   "day": 18,
+   "time": "10:16",
+   "who": "a",
+   "text": "I see. Let me know if you want me to track a new integration deadline based on the audit.",
+   "i": 198
+  },
+  {
+   "day": 18,
+   "time": "11:00",
+   "who": "u",
+   "text": "Grace wants a Q3 progress summary by next Friday, 我得开始整理了。",
+   "i": 199
+  },
+  {
+   "day": 18,
+   "time": "11:01",
+   "who": "a",
+   "text": "I can help you draft the Q3 progress summary. Just let me know the key sections.",
+   "i": 200
+  },
+  {
+   "day": 18,
+   "time": "12:30",
+   "who": "u",
+   "text": "Lunch break, 女儿今天幼儿园有活动，送她去了才来。",
+   "i": 201
+  },
+  {
+   "day": 18,
+   "time": "12:31",
+   "who": "a",
+   "text": "Sounds like a good morning. Hope she had fun at the activity.",
+   "i": 202
+  },
+  {
+   "day": 18,
+   "time": "14:00",
+   "who": "u",
+   "text": "Omar新加坡pipeline review我改到Thursday下午了，你帮我发个invite。",
+   "i": 203
+  },
+  {
+   "day": 18,
+   "time": "14:01",
+   "who": "a",
+   "text": "I’ll send the invite for Thursday afternoon with Omar for the Singapore pipeline review.",
+   "i": 204
+  },
+  {
+   "day": 18,
+   "time": "15:20",
+   "who": "u",
+   "text": "Just got off a call with Lily – she says Aurora legal is still pending because of the scope change, I told her to push hard.",
+   "i": 205
+  },
+  {
+   "day": 18,
+   "time": "15:21",
+   "who": "a",
+   "text": "Good. Pushing on legal now will help keep the Q3 close on track.",
+   "i": 206
+  },
+  {
+   "day": 18,
+   "time": "16:45",
+   "who": "u",
+   "text": "明天周五，but I have back-to-back internal reviews，好累。",
+   "i": 207
+  },
+  {
+   "day": 18,
+   "time": "16:46",
+   "who": "a",
+   "text": "You’ve got this. I’ll keep your reminders short tomorrow to help you breathe.",
+   "i": 208
+  },
+  {
+   "day": 19,
+   "time": "08:00",
+   "who": "u",
+   "text": "Friday, need to get through pricing review prep and Yuki's design sign-off.",
+   "i": 209
+  },
+  {
+   "day": 19,
+   "time": "08:01",
+   "who": "a",
+   "text": "Two key items. I’ll check in with you after each.",
+   "i": 210
+  },
+  {
+   "day": 19,
+   "time": "09:30",
+   "who": "u",
+   "text": "Yuki's onboarding redesign is basically done, just need to A/B test the new version.",
+   "i": 211
+  },
+  {
+   "day": 19,
+   "time": "09:31",
+   "who": "a",
+   "text": "Great progress. A/B test next week should give you solid data.",
+   "i": 212
+  },
+  {
+   "day": 19,
+   "time": "10:45",
+   "who": "u",
+   "text": "Ben's pricing v2 deck looks solid, $39/user/month, but we need to discuss tier limits.",
+   "i": 213
+  },
+  {
+   "day": 19,
+   "time": "10:46",
+   "who": "a",
+   "text": "Good point. You can bring that up at next Wednesday’s meeting.",
+   "i": 214
+  },
+  {
+   "day": 19,
+   "time": "12:00",
+   "who": "u",
+   "text": "中午跟Ravi吃饭，he mentioned security audit might push integration to Sep 22.",
+   "i": 215
+  },
+  {
+   "day": 19,
+   "time": "12:01",
+   "who": "a",
+   "text": "That’s a week delay. Let’s confirm once the audit is final.",
+   "i": 216
+  },
+  {
+   "day": 19,
+   "time": "14:00",
+   "who": "u",
+   "text": "Omar's Singapore numbers came in – Q4 pipeline looks strong, he’s confident on 15% increase.",
+   "i": 217
+  },
+  {
+   "day": 19,
+   "time": "14:01",
+   "who": "a",
+   "text": "Good news. That should help smooth your Sep 1 trip planning.",
+   "i": 218
+  },
+  {
+   "day": 19,
+   "time": "15:30",
+   "who": "u",
+   "text": "Just reviewed Lily's Aurora add-on pricing – $50K annually for the custom module, seems reasonable for Q1.",
+   "i": 219
+  },
+  {
+   "day": 19,
+   "time": "15:31",
+   "who": "a",
+   "text": "Reasonable price point. Should help keep the main deal on track for Q3.",
+   "i": 220
+  },
+  {
+   "day": 19,
+   "time": "17:00",
+   "who": "u",
+   "text": "Weekend time. 女儿想去游泳，明天带她去。",
+   "i": 221
+  },
+  {
+   "day": 19,
+   "time": "17:01",
+   "who": "a",
+   "text": "Enjoy the weekend with your daughter! Swimming sounds fun.",
+   "i": 222
+  },
+  {
+   "day": 20,
+   "time": "08:00",
+   "who": "u",
+   "text": "Saturday morning, 女儿刚醒，等我coffee。",
+   "i": 223
+  },
+  {
+   "day": 20,
+   "time": "08:01",
+   "who": "a",
+   "text": "Good morning! Enjoy your coffee and the slow start to the day.",
+   "i": 224
+  },
+  {
+   "day": 20,
+   "time": "09:10",
+   "who": "u",
+   "text": "aicoo, from now on call me 凯哥 instead of Kai.",
+   "ev": "e55",
+   "i": 225
+  },
+  {
+   "day": 20,
+   "time": "09:11",
+   "who": "a",
+   "text": "Got it, 凯哥. I'll use that from now on.",
+   "ev": "e56",
+   "i": 226
+  },
+  {
+   "day": 20,
+   "time": "10:00",
+   "who": "u",
+   "text": "周末还是想一下Aurora deal的risk mitigation, 可能scope creep更大。",
+   "i": 227
+  },
+  {
+   "day": 20,
+   "time": "10:01",
+   "who": "a",
+   "text": "Good to think ahead, 凯哥. I can help you outline risk points if you want.",
+   "i": 228
+  },
+  {
+   "day": 20,
+   "time": "11:30",
+   "who": "u",
+   "text": "Mom血压又有点高，but她说是天气热，我让她多休息。",
+   "i": 229
+  },
+  {
+   "day": 20,
+   "time": "11:31",
+   "who": "a",
+   "text": "Hope she feels better soon. Heat can be tough on blood pressure.",
+   "i": 230
+  },
+  {
+   "day": 20,
+   "time": "12:00",
+   "who": "u",
+   "text": "Lunchtime, 女儿在吃意面，我也偷懒一下。",
+   "i": 231
+  },
+  {
+   "day": 20,
+   "time": "12:01",
+   "who": "a",
+   "text": "Enjoy the pasta break, 凯哥. You deserve it.",
+   "i": 232
+  },
+  {
+   "day": 20,
+   "time": "14:00",
+   "who": "u",
+   "text": "Ravi发消息说security audit结果出来了，确认integration rollout delayed to Sep 22。",
+   "i": 233
+  },
+  {
+   "day": 20,
+   "time": "14:01",
+   "who": "a",
+   "text": "Noted. I’ll update the deadline to Sep 22 in your roadmap.",
+   "i": 234
+  },
+  {
+   "day": 20,
+   "time": "15:40",
+   "who": "u",
+   "text": "Ravi confirmed integration rollout delayed to Sep 22，因为security audit。",
+   "ev": "e10",
+   "i": 235
+  },
+  {
+   "day": 20,
+   "time": "15:41",
+   "who": "a",
+   "text": "Confirmed, 凯哥. Sep 22 is the new integration deadline due to the security audit.",
+   "i": 236
+  },
+  {
+   "day": 20,
+   "time": "16:30",
+   "who": "u",
+   "text": "I'll need to update Grace on the delay, maybe Monday morning.",
+   "i": 237
+  },
+  {
+   "day": 20,
+   "time": "16:31",
+   "who": "a",
+   "text": "Good plan. I’ll add a reminder to your Monday schedule to update Grace.",
+   "i": 238
+  },
+  {
+   "day": 20,
+   "time": "17:00",
+   "who": "u",
+   "text": "周末晚上陪女儿看动画片，下周fighting！",
+   "i": 239
+  },
+  {
+   "day": 20,
+   "time": "17:01",
+   "who": "a",
+   "text": "Enjoy the cartoons, 凯哥. Rest up – next week will be busy but you’ve got it.",
+   "i": 240
+  },
+  {
+   "day": 21,
+   "time": "08:05",
+   "who": "u",
+   "text": "凯哥 morning. Aurora deal risk matrix still on my mind. Can you remind me at 3pm to draft the mitigation plan?",
+   "i": 241
+  },
+  {
+   "day": 21,
+   "time": "08:06",
+   "who": "a",
+   "text": "好的凯哥, will remind you at 3pm for Aurora risk plan.",
+   "i": 242
+  },
+  {
+   "day": 21,
+   "time": "10:20",
+   "who": "u",
+   "text": "Lily just sent the legal docs for Aurora. Scope change add-on clause looks clean.",
+   "i": 243
+  },
+  {
+   "day": 21,
+   "time": "10:21",
+   "who": "a",
+   "text": "Great news凯哥. One step closer to a clean close.",
+   "i": 244
+  },
+  {
+   "day": 21,
+   "time": "14:15",
+   "who": "u",
+   "text": "Dad's follow-up appointment today at 4. Need to step out early.",
+   "i": 245
+  },
+  {
+   "day": 21,
+   "time": "14:16",
+   "who": "a",
+   "text": "Hope it goes smoothly凯哥. I'll remind you at 3:30 to wrap up.",
+   "i": 246
+  },
+  {
+   "day": 21,
+   "time": "15:00",
+   "who": "a",
+   "text": "凯哥, time for Aurora risk mitigation draft.",
+   "i": 247
+  },
+  {
+   "day": 21,
+   "time": "15:05",
+   "who": "u",
+   "text": "Thanks. Writing now. Key risk: custom module not committed until Q1. Put that in a one-pager for Grace.",
+   "i": 248
+  },
+  {
+   "day": 21,
+   "time": "15:06",
+   "who": "a",
+   "text": "Noted. One-pager with that as #1 risk. Any others?",
+   "i": 249
+  },
+  {
+   "day": 21,
+   "time": "15:10",
+   "who": "u",
+   "text": "Integration delay to Sep 22 — could spook them. Mitigation: weekly status to Lily starting this Friday.",
+   "i": 250
+  },
+  {
+   "day": 21,
+   "time": "20:30",
+   "who": "u",
+   "text": "Dad is stable. Blood pressure still high but doctor adjusted meds. Exhausted.",
+   "i": 251
+  },
+  {
+   "day": 21,
+   "time": "20:32",
+   "who": "a",
+   "text": "Rest well凯哥. You've been holding a lot together.",
+   "i": 252
+  },
+  {
+   "day": 22,
+   "time": "07:55",
+   "who": "u",
+   "text": "Flew to Singapore today, meeting Omar and two enterprise prospects。",
+   "ev": "e11",
+   "i": 253
+  },
+  {
+   "day": 22,
+   "time": "07:56",
+   "who": "a",
+   "text": "Safe flight凯哥. Good luck with the prospects.",
+   "i": 254
+  },
+  {
+   "day": 22,
+   "time": "10:30",
+   "who": "u",
+   "text": "Landing soon. Omar says first prospect is a fintech, 300 seats. They need SSO and audit logs.",
+   "i": 255
+  },
+  {
+   "day": 22,
+   "time": "10:31",
+   "who": "a",
+   "text": "Sounds promising凯哥. SSO is in Sept release, audit logs by Nov.",
+   "i": 256
+  },
+  {
+   "day": 22,
+   "time": "12:00",
+   "who": "u",
+   "text": "Meeting went well. Second prospect is a logistics company, 150 seats. Omar's pipeline is solid.",
+   "i": 257
+  },
+  {
+   "day": 22,
+   "time": "12:02",
+   "who": "a",
+   "text": "Great day so far凯哥. Glad Singapore team is delivering.",
+   "i": 258
+  },
+  {
+   "day": 22,
+   "time": "15:45",
+   "who": "u",
+   "text": "Omar wants to push Q4 budget for a SEA marketing campaign. Need to talk to Grace.",
+   "i": 259
+  },
+  {
+   "day": 22,
+   "time": "15:46",
+   "who": "a",
+   "text": "I'll add a note: discuss SEA marketing budget with Grace.",
+   "i": 260
+  },
+  {
+   "day": 22,
+   "time": "18:30",
+   "who": "u",
+   "text": "Hotel check-in. Dinner with Omar and team tonight. Any updates from home?",
+   "i": 261
+  },
+  {
+   "day": 22,
+   "time": "18:31",
+   "who": "a",
+   "text": "No family updates since your dad's appointment. Lily shared Aurora legal is on track.",
+   "i": 262
+  },
+  {
+   "day": 23,
+   "time": "07:25",
+   "who": "u",
+   "text": "Morning凯哥. Still jet-lagged a bit last night. Any fires?",
+   "i": 263
+  },
+  {
+   "day": 23,
+   "time": "07:26",
+   "who": "u",
+   "text": "Actually, Yuki's dark mode mockups — any reaction from Ravi? Integration timeline is the blocker.",
+   "i": 264
+  },
+  {
+   "day": 23,
+   "time": "07:28",
+   "who": "a",
+   "text": "Ravi said dark mode is feasible but depends on integration work finishing. He'll review after Sep 22.",
+   "i": 265
+  },
+  {
+   "day": 23,
+   "time": "09:00",
+   "who": "u",
+   "text": "Omar's team prepped a deck for the fintech follow-up next week. Looks solid.",
+   "i": 266
+  },
+  {
+   "day": 23,
+   "time": "09:02",
+   "who": "a",
+   "text": "Nice. Want me to set a reminder for next week's follow-up?",
+   "i": 267
+  },
+  {
+   "day": 23,
+   "time": "09:05",
+   "who": "u",
+   "text": "Yes, Thursday 10am SGT for the fintech call. Remind me Monday to prep.",
+   "i": 268
+  },
+  {
+   "day": 23,
+   "time": "09:06",
+   "who": "a",
+   "text": "Done: Monday prep reminder, Thursday 10am SGT call.",
+   "i": 269
+  },
+  {
+   "day": 23,
+   "time": "10:10",
+   "who": "u",
+   "text": "Grace想见Yuki关于new UX mockups, scheduled for Oct 5。",
+   "ev": "e70",
+   "i": 270
+  },
+  {
+   "day": 23,
+   "time": "10:11",
+   "who": "a",
+   "text": "Noted凯哥. Oct 5: Grace & Yuki UX review. I'll add it to your calendar.",
+   "i": 271
+  },
+  {
+   "day": 23,
+   "time": "12:30",
+   "who": "u",
+   "text": "Lunch with Omar. He wants to expand the Singapore team: one more SDR and a customer success person. Said Ben's pricing v2 is getting good feedback from prospects.",
+   "i": 272
+  },
+  {
+   "day": 23,
+   "time": "12:32",
+   "who": "a",
+   "text": "Good signs凯哥. Headcount request will need Grace's sign-off.",
+   "i": 273
+  },
+  {
+   "day": 23,
+   "time": "15:00",
+   "who": "u",
+   "text": "Back in hotel for some quiet time. Mom called — dad's BP still fluctuating. She's worried, I told her to call the doctor again.",
+   "i": 274
+  },
+  {
+   "day": 23,
+   "time": "15:02",
+   "who": "a",
+   "text": "Tough situation凯哥. You're doing what you can.",
+   "i": 275
+  },
+  {
+   "day": 23,
+   "time": "18:00",
+   "who": "u",
+   "text": "Any ping from Ravi on the security audit for integration? Due date is Sep 22 still?",
+   "i": 276
+  },
+  {
+   "day": 23,
+   "time": "18:01",
+   "who": "a",
+   "text": "Ravi confirmed Sep 22 is still the target. Audit started yesterday.",
+   "i": 277
+  },
+  {
+   "day": 24,
+   "time": "08:15",
+   "who": "u",
+   "text": "Flying back to Shanghai this evening. Need to be in office tomorrow for the pricing review reschedule.",
+   "i": 278
+  },
+  {
+   "day": 24,
+   "time": "08:16",
+   "who": "a",
+   "text": "Got it. I'll block your calendar 10-11am tomorrow for pricing review.",
+   "i": 279
+  },
+  {
+   "day": 24,
+   "time": "09:30",
+   "who": "u",
+   "text": "Omar just flagged a potential red flag: the fintech prospect's procurement wants a 30-day payment term. Standard is net 45. Need to check with Grace.",
+   "i": 280
+  },
+  {
+   "day": 24,
+   "time": "09:31",
+   "who": "a",
+   "text": "Flag noted. I'll add: ask Grace about net 30 exception for fintech.",
+   "i": 281
+  },
+  {
+   "day": 24,
+   "time": "11:00",
+   "who": "u",
+   "text": "Last meeting this morning with Omar's team. They're solid — I feel good about Q4 pipeline here.",
+   "i": 282
+  },
+  {
+   "day": 24,
+   "time": "11:01",
+   "who": "a",
+   "text": "凯哥, that's a win. Singapore team momentum is strong.",
+   "i": 283
+  },
+  {
+   "day": 24,
+   "time": "14:00",
+   "who": "u",
+   "text": "At Changi now. Mom says dad's BP is a bit better today. Small relief.",
+   "i": 284
+  },
+  {
+   "day": 24,
+   "time": "14:02",
+   "who": "a",
+   "text": "Glad to hear that凯哥. Breathe a little during the flight.",
+   "i": 285
+  },
+  {
+   "day": 24,
+   "time": "17:30",
+   "who": "u",
+   "text": "Landed in Shanghai. Need to pick up daughter from grandma — she's been asking for me.",
+   "i": 286
+  },
+  {
+   "day": 24,
+   "time": "17:32",
+   "who": "a",
+   "text": "Enjoy family time凯哥. See you tomorrow for pricing review.",
+   "i": 287
+  },
+  {
+   "day": 25,
+   "time": "08:15",
+   "who": "u",
+   "text": "早上好 aicoo, 今天quarterly roadmap review with Grace, 有点紧张",
+   "i": 288
+  },
+  {
+   "day": 25,
+   "time": "08:16",
+   "who": "a",
+   "text": "凯哥早上好！你准备得很充分，别紧张。有什么需要我提前准备的？",
+   "i": 289
+  },
+  {
+   "day": 25,
+   "time": "08:20",
+   "who": "u",
+   "text": "帮我整理一下dark mode request的user feedback, 从Yuki那边来的",
+   "i": 290
+  },
+  {
+   "day": 25,
+   "time": "08:21",
+   "who": "a",
+   "text": "好的，我整理了最近的用户反馈，大概有15条关于dark mode的请求，主要来自企业客户。",
+   "i": 291
+  },
+  {
+   "day": 25,
+   "time": "09:00",
+   "who": "u",
+   "text": "Thanks, 准备进会议室了",
+   "i": 292
+  },
+  {
+   "day": 25,
+   "time": "14:30",
+   "who": "u",
+   "text": "季度roadmap review with Grace, 把dark mode priority提到P1。",
+   "ev": "e12",
+   "i": 293
+  },
+  {
+   "day": 25,
+   "time": "14:32",
+   "who": "a",
+   "text": "太好了！dark mode升P1，用户肯定高兴。其他项目怎么样？",
+   "i": 294
+  },
+  {
+   "day": 25,
+   "time": "14:35",
+   "who": "u",
+   "text": "Grace同意了, 但要求Q3前完成dev. Ravi那边要加资源",
+   "i": 295
+  },
+  {
+   "day": 25,
+   "time": "14:36",
+   "who": "a",
+   "text": "明白，Ravi那边需要协调。需要我设置一个reminder吗？",
+   "i": 296
+  },
+  {
+   "day": 25,
+   "time": "14:40",
+   "who": "u",
+   "text": "暂时不用, 先跟Ravi聊聊再说",
+   "i": 297
+  },
+  {
+   "day": 25,
+   "time": "17:00",
+   "who": "u",
+   "text": "今天忙死了, 但dark mode过审了, 值得",
+   "i": 298
+  },
+  {
+   "day": 25,
+   "time": "17:02",
+   "who": "a",
+   "text": "凯哥辛苦了！今天的成果很扎实，晚上好好休息。",
+   "i": 299
+  },
+  {
+   "day": 26,
+   "time": "08:30",
+   "who": "u",
+   "text": "早安 aicoo, 今天跟Ravi sync一下dark mode的timeline",
+   "i": 300
+  },
+  {
+   "day": 26,
+   "time": "08:31",
+   "who": "a",
+   "text": "早安凯哥！Ravi那边准备好了吗？",
+   "i": 301
+  },
+  {
+   "day": 26,
+   "time": "08:35",
+   "who": "u",
+   "text": "他还在看, 可能要把integration delay往后推一周",
+   "i": 302
+  },
+  {
+   "day": 26,
+   "time": "08:36",
+   "who": "a",
+   "text": "那需要更新roadmap吗？",
+   "i": 303
+  },
+  {
+   "day": 26,
+   "time": "08:40",
+   "who": "u",
+   "text": "先等等, 等Ravi给具体timeline",
+   "i": 304
+  },
+  {
+   "day": 26,
+   "time": "10:25",
+   "who": "u",
+   "text": "aicoo, 提醒我下周二和Yuki sync dark mode feedback.",
+   "ev": "e49",
+   "i": 305
+  },
+  {
+   "day": 26,
+   "time": "10:26",
+   "who": "a",
+   "text": "没问题，下周二我会remind you sync with Yuki on dark mode feedback.",
+   "ev": "e50",
+   "i": 306
+  },
+  {
+   "day": 26,
+   "time": "12:00",
+   "who": "u",
+   "text": "中午跟Ben吃了个饭, 他pricing v3有点想法",
+   "i": 307
+  },
+  {
+   "day": 26,
+   "time": "12:02",
+   "who": "a",
+   "text": "哦？Ben有新思路了？期待。",
+   "i": 308
+  },
+  {
+   "day": 26,
+   "time": "14:00",
+   "who": "u",
+   "text": "他说premium tier可以再提价, 但细节还没出来",
+   "i": 309
+  },
+  {
+   "day": 26,
+   "time": "14:01",
+   "who": "a",
+   "text": "那等Ben的完整proposal再review？",
+   "i": 310
+  },
+  {
+   "day": 26,
+   "time": "14:05",
+   "who": "u",
+   "text": "对, 让他这周内出v3",
+   "i": 311
+  },
+  {
+   "day": 26,
+   "time": "17:30",
+   "who": "u",
+   "text": "今天差不多了, 明天继续",
+   "i": 312
+  },
+  {
+   "day": 26,
+   "time": "17:32",
+   "who": "a",
+   "text": "好的凯哥，明天见！",
+   "i": 313
+  },
+  {
+   "day": 27,
+   "time": "08:45",
+   "who": "u",
+   "text": "早 aicoo, 今天focus on pricing finalization timeline",
+   "i": 314
+  },
+  {
+   "day": 27,
+   "time": "08:46",
+   "who": "a",
+   "text": "早凯哥！需要安排什么吗？",
+   "i": 315
+  },
+  {
+   "day": 27,
+   "time": "09:00",
+   "who": "u",
+   "text": "帮我check Ben的calendar, 看他哪天有空",
+   "i": 316
+  },
+  {
+   "day": 27,
+   "time": "09:02",
+   "who": "a",
+   "text": "Ben这周比较满，下周三或周五有空。",
+   "i": 317
+  },
+  {
+   "day": 27,
+   "time": "09:05",
+   "who": "u",
+   "text": "那就下周三吧, 我先看看",
+   "i": 318
+  },
+  {
+   "day": 27,
+   "time": "10:30",
+   "who": "u",
+   "text": "Aurora那边Lily说legal review快完了, 下周一应该能sign",
+   "i": 319
+  },
+  {
+   "day": 27,
+   "time": "10:32",
+   "who": "a",
+   "text": "那太好了！$800K的deal终于要close了。",
+   "i": 320
+  },
+  {
+   "day": 27,
+   "time": "10:35",
+   "who": "u",
+   "text": "嗯, 但别高兴太早, 他们可能还要scope adjustment",
+   "i": 321
+  },
+  {
+   "day": 27,
+   "time": "10:36",
+   "who": "a",
+   "text": "明白，保持谨慎。",
+   "i": 322
+  },
+  {
+   "day": 27,
+   "time": "14:00",
+   "who": "u",
+   "text": "aicoo, schedule a meeting with Ben to finalize pricing by Oct 15.",
+   "ev": "e51",
+   "i": 323
+  },
+  {
+   "day": 27,
+   "time": "14:01",
+   "who": "a",
+   "text": "Done, meeting with Ben scheduled for Oct 15 on pricing finalization.",
+   "ev": "e52",
+   "i": 324
+  },
+  {
+   "day": 27,
+   "time": "14:05",
+   "who": "u",
+   "text": "Thanks, 这样pricing可以赶在Q3前定下来",
+   "i": 325
+  },
+  {
+   "day": 27,
+   "time": "14:06",
+   "who": "a",
+   "text": "是的，节奏刚好。",
+   "i": 326
+  },
+  {
+   "day": 27,
+   "time": "16:00",
+   "who": "u",
+   "text": "下午跟Yuki聊了一下dark mode的design mockup, 她说下周能出初版",
+   "i": 327
+  },
+  {
+   "day": 27,
+   "time": "16:02",
+   "who": "a",
+   "text": "Yuki效率高！那下周二sync正好看初版。",
+   "i": 328
+  },
+  {
+   "day": 27,
+   "time": "16:05",
+   "who": "u",
+   "text": "对, 希望feedback session能顺利",
+   "i": 329
+  },
+  {
+   "day": 27,
+   "time": "17:00",
+   "who": "u",
+   "text": "今天早点撤, 女儿有点咳嗽, 回去看看",
+   "i": 330
+  },
+  {
+   "day": 27,
+   "time": "17:02",
+   "who": "a",
+   "text": "哎呀，希望小朋友快点好。凯哥路上小心。",
+   "i": 331
+  },
+  {
+   "day": 28,
+   "time": "09:00",
+   "who": "u",
+   "text": "早 aicoo, 女儿好多了, 今天可以focus",
+   "i": 332
+  },
+  {
+   "day": 28,
+   "time": "09:01",
+   "who": "a",
+   "text": "太好了！那今天可以专注工作。",
+   "i": 333
+  },
+  {
+   "day": 28,
+   "time": "09:30",
+   "who": "u",
+   "text": "Ben发了pricing v3, 看看",
+   "i": 334
+  },
+  {
+   "day": 28,
+   "time": "10:10",
+   "who": "u",
+   "text": "Ben proposed pricing change to 49 per user for premium tier, v3 now。",
+   "ev": "e13",
+   "i": 335
+  },
+  {
+   "day": 28,
+   "time": "10:12",
+   "who": "a",
+   "text": "$49/user，比之前的$39涨了不少。Ben觉得市场能接受？",
+   "i": 336
+  },
+  {
+   "day": 28,
+   "time": "10:15",
+   "who": "u",
+   "text": "他做了competitive analysis, 说我们的feature set值得这个价",
+   "i": 337
+  },
+  {
+   "day": 28,
+   "time": "10:16",
+   "who": "a",
+   "text": "有数据支撑就好。那Oct 15的meeting再详细review？",
+   "i": 338
+  },
+  {
+   "day": 28,
+   "time": "10:20",
+   "who": "u",
+   "text": "对, 先让Ben准备一个完整的business case",
+   "i": 339
+  },
+  {
+   "day": 28,
+   "time": "11:00",
+   "who": "u",
+   "text": "Aurora那边legal签了！下周一正式announce",
+   "i": 340
+  },
+  {
+   "day": 28,
+   "time": "11:02",
+   "who": "a",
+   "text": "恭喜凯哥！$800K deal终于落地了！",
+   "i": 341
+  },
+  {
+   "day": 28,
+   "time": "11:05",
+   "who": "u",
+   "text": "终于, 但还有Q3 target要追, 不能放松",
+   "i": 342
+  },
+  {
+   "day": 28,
+   "time": "11:06",
+   "who": "a",
+   "text": "嗯，keep moving。还有新加坡的pipeline要跟进。",
+   "i": 343
+  },
+  {
+   "day": 28,
+   "time": "14:00",
+   "who": "u",
+   "text": "下午跟Ravi sync了dark mode timeline, 他说10月中旬能出alpha",
+   "i": 344
+  },
+  {
+   "day": 28,
+   "time": "14:02",
+   "who": "a",
+   "text": "那跟Oct 5的UX mockup review时间能接上。",
+   "i": 345
+  },
+  {
+   "day": 28,
+   "time": "14:05",
+   "who": "u",
+   "text": "对, 希望不要delay",
+   "i": 346
+  },
+  {
+   "day": 28,
+   "time": "16:00",
+   "who": "u",
+   "text": "周末了, 打算带女儿去公园, 她病好了开心",
+   "i": 347
+  },
+  {
+   "day": 28,
+   "time": "16:02",
+   "who": "a",
+   "text": "好好享受family time！凯哥周末愉快。",
+   "i": 348
+  },
+  {
+   "day": 28,
+   "time": "16:05",
+   "who": "u",
+   "text": "谢谢aicoo, 你也是, 下周见",
+   "i": 349
+  },
+  {
+   "day": 28,
+   "time": "16:06",
+   "who": "a",
+   "text": "下周见凯哥！",
+   "i": 350
+  },
+  {
+   "day": 29,
+   "time": "08:15",
+   "who": "u",
+   "text": "morning aicoo, back in Shanghai. Feeling better after the weekend.",
+   "i": 351
+  },
+  {
+   "day": 29,
+   "time": "08:17",
+   "who": "a",
+   "text": "Good morning 凯哥! Glad you're feeling refreshed.",
+   "i": 352
+  },
+  {
+   "day": 29,
+   "time": "09:30",
+   "who": "u",
+   "text": "Lily just pinged me, wants two days off next week, Oct 6-7. Need to check coverage.",
+   "i": 353
+  },
+  {
+   "day": 29,
+   "time": "09:32",
+   "who": "a",
+   "text": "Got it, Oct 6-7. Ben can cover her accounts?",
+   "i": 354
+  },
+  {
+   "day": 29,
+   "time": "09:45",
+   "who": "u",
+   "text": "yeah Ben should be fine. Also need to finalize pricing review prep for Oct 15.",
+   "i": 355
+  },
+  {
+   "day": 29,
+   "time": "10:00",
+   "who": "a",
+   "text": "Noted. I'll add a reminder for pricing review prep next week.",
+   "i": 356
+  },
+  {
+   "day": 29,
+   "time": "12:30",
+   "who": "u",
+   "text": "Lily asked for two days off next week, Oct 6-7. Approved, Ben will cover.",
+   "ev": "e71",
+   "i": 357
+  },
+  {
+   "day": 29,
+   "time": "14:00",
+   "who": "u",
+   "text": "Ravi just updated me on integration security audit. Still on track for Sep 22.",
+   "i": 358
+  },
+  {
+   "day": 29,
+   "time": "14:02",
+   "who": "a",
+   "text": "Good, glad it's on track. Any blockers?",
+   "i": 359
+  },
+  {
+   "day": 29,
+   "time": "14:10",
+   "who": "u",
+   "text": "not for now. Yuki wants to sync on dark mode feedback tomorrow afternoon.",
+   "i": 360
+  },
+  {
+   "day": 29,
+   "time": "14:12",
+   "who": "a",
+   "text": "I'll remind you tomorrow morning.",
+   "i": 361
+  },
+  {
+   "day": 29,
+   "time": "17:30",
+   "who": "u",
+   "text": "dad's doing okay, mom's BP stable. Small wins.",
+   "i": 362
+  },
+  {
+   "day": 29,
+   "time": "17:32",
+   "who": "a",
+   "text": "Glad to hear that, 凯哥. Rest well tonight.",
+   "i": 363
+  },
+  {
+   "day": 30,
+   "time": "08:00",
+   "who": "u",
+   "text": "morning. Dark mode sync with Yuki at 2pm, right?",
+   "i": 364
+  },
+  {
+   "day": 30,
+   "time": "08:02",
+   "who": "a",
+   "text": "Yes, 2pm. Reminder set.",
+   "i": 365
+  },
+  {
+   "day": 30,
+   "time": "09:00",
+   "who": "u",
+   "text": "New hire for PM role, first candidate Jason Chen interviewed, 8 years exp.",
+   "ev": "e14",
+   "i": 366
+  },
+  {
+   "day": 30,
+   "time": "09:05",
+   "who": "a",
+   "text": "Sounds promising. How was the interview?",
+   "i": 367
+  },
+  {
+   "day": 30,
+   "time": "09:30",
+   "who": "u",
+   "text": "good, strong product sense. Need to check references. Next candidate Friday.",
+   "i": 368
+  },
+  {
+   "day": 30,
+   "time": "10:15",
+   "who": "u",
+   "text": "Omar just sent Singapore Q4 pipeline update. 300-seat fintech moving fast.",
+   "i": 369
+  },
+  {
+   "day": 30,
+   "time": "10:18",
+   "who": "a",
+   "text": "Nice! Aurora Health closing this week too.",
+   "i": 370
+  },
+  {
+   "day": 30,
+   "time": "10:30",
+   "who": "u",
+   "text": "yeah, legal signed last week, deal should close Monday. Big relief.",
+   "i": 371
+  },
+  {
+   "day": 30,
+   "time": "14:00",
+   "who": "u",
+   "text": "Sync with Yuki done. Dark mode feedback: mostly positive, a few UX tweaks needed. Pushing to Oct sprint.",
+   "i": 372
+  },
+  {
+   "day": 30,
+   "time": "14:05",
+   "who": "a",
+   "text": "Good progress. Yuki's onboarding redesign still holding 23% lift.",
+   "i": 373
+  },
+  {
+   "day": 30,
+   "time": "16:05",
+   "who": "u",
+   "text": "New hire for PM role, first candidate Jason Chen interviewed, 8 years exp. Moving to next round.",
+   "ev": "e14",
+   "i": 374
+  },
+  {
+   "day": 30,
+   "time": "17:00",
+   "who": "u",
+   "text": "long day. Need to prep Q3 budget breakdown for Grace.",
+   "i": 375
+  },
+  {
+   "day": 30,
+   "time": "17:02",
+   "who": "a",
+   "text": "You've been working hard. Want me to help outline?",
+   "i": 376
+  },
+  {
+   "day": 30,
+   "time": "17:10",
+   "who": "u",
+   "text": "thanks aicoo, will draft tonight. Tomorrow morning finalize.",
+   "i": 377
+  },
+  {
+   "day": 31,
+   "time": "07:45",
+   "who": "u",
+   "text": "morning. Q3 budget breakdown draft done. Sending to Grace today.",
+   "i": 378
+  },
+  {
+   "day": 31,
+   "time": "07:47",
+   "who": "a",
+   "text": "Great, 凯哥! Let me know if you need any numbers checked.",
+   "i": 379
+  },
+  {
+   "day": 31,
+   "time": "09:00",
+   "who": "u",
+   "text": "Aurora Health deal closing today. Lily handling final docs.",
+   "i": 380
+  },
+  {
+   "day": 31,
+   "time": "09:05",
+   "who": "a",
+   "text": "Exciting! $800K deal.",
+   "i": 381
+  },
+  {
+   "day": 31,
+   "time": "10:30",
+   "who": "u",
+   "text": "Lily confirmed deal closed. Aurora Health signed. $800K Q3.",
+   "i": 382
+  },
+  {
+   "day": 31,
+   "time": "10:35",
+   "who": "a",
+   "text": "🎉 Huge win! Congrats 凯哥.",
+   "i": 383
+  },
+  {
+   "day": 31,
+   "time": "11:00",
+   "who": "u",
+   "text": "thanks! Now I can breathe a bit. Still need to send Grace that budget breakdown.",
+   "i": 384
+  },
+  {
+   "day": 31,
+   "time": "11:30",
+   "who": "u",
+   "text": "reviewing budget numbers one more time. Want it clean.",
+   "i": 385
+  },
+  {
+   "day": 31,
+   "time": "14:00",
+   "who": "u",
+   "text": "dad checkup tomorrow morning, need to leave early. Mom's fine.",
+   "i": 386
+  },
+  {
+   "day": 31,
+   "time": "14:05",
+   "who": "a",
+   "text": "Hope all goes well. Let me know if you need to reschedule anything.",
+   "i": 387
+  },
+  {
+   "day": 31,
+   "time": "17:00",
+   "who": "u",
+   "text": "budget breakdown almost ready. One more pass tomorrow morning.",
+   "i": 388
+  },
+  {
+   "day": 32,
+   "time": "08:00",
+   "who": "u",
+   "text": "morning. Dad's checkup went well, BP normal. Good news.",
+   "i": 389
+  },
+  {
+   "day": 32,
+   "time": "08:05",
+   "who": "a",
+   "text": "That's great news, 凯哥! Happy for you.",
+   "i": 390
+  },
+  {
+   "day": 32,
+   "time": "09:00",
+   "who": "u",
+   "text": "final pass on Q3 budget breakdown. Adding the integration cost line.",
+   "i": 391
+  },
+  {
+   "day": 32,
+   "time": "09:30",
+   "who": "u",
+   "text": "Ben's pricing v3 still on my desk. Need to review this week.",
+   "i": 392
+  },
+  {
+   "day": 32,
+   "time": "09:35",
+   "who": "a",
+   "text": "Oct 15 meeting for pricing finalization. Plenty of time.",
+   "i": 393
+  },
+  {
+   "day": 32,
+   "time": "10:00",
+   "who": "u",
+   "text": "true. Ravi says integration security audit cleared, back on Sep 22.",
+   "i": 394
+  },
+  {
+   "day": 32,
+   "time": "10:05",
+   "who": "a",
+   "text": "Great! One less thing to worry about.",
+   "i": 395
+  },
+  {
+   "day": 32,
+   "time": "11:00",
+   "who": "u",
+   "text": "Sent that Q3 budget breakdown to Grace, finally done.",
+   "ev": "e53",
+   "i": 396
+  },
+  {
+   "day": 32,
+   "time": "11:02",
+   "who": "a",
+   "text": "Nice, 凯哥! One more thing off the list.",
+   "i": 397
+  },
+  {
+   "day": 32,
+   "time": "14:00",
+   "who": "u",
+   "text": "Grace replied, just a few clarifying questions. Nothing major.",
+   "i": 398
+  },
+  {
+   "day": 32,
+   "time": "14:10",
+   "who": "a",
+   "text": "Easy fix then. You're in good shape.",
+   "i": 399
+  },
+  {
+   "day": 32,
+   "time": "16:00",
+   "who": "u",
+   "text": "week's been good. Aurora closed, budget done, dad okay. Ready for a quieter week.",
+   "i": 400
+  },
+  {
+   "day": 32,
+   "time": "16:05",
+   "who": "a",
+   "text": "You've earned it. Enjoy the evening, 凯哥.",
+   "i": 401
+  },
+  {
+   "day": 33,
+   "time": "09:00",
+   "who": "u",
+   "text": "aicoo 早，今天有个麻烦事，等Lily update先。",
+   "i": 402
+  },
+  {
+   "day": 33,
+   "time": "09:05",
+   "who": "a",
+   "text": "早凯哥，等Lily消息，随时叫我。",
+   "i": 403
+  },
+  {
+   "day": 33,
+   "time": "09:25",
+   "who": "u",
+   "text": "Lily update: Aurora deal pushed to Q4 close, value now 950k with add-ons。",
+   "ev": "e15",
+   "i": 404
+  },
+  {
+   "day": 33,
+   "time": "09:26",
+   "who": "a",
+   "text": "Q4 close，950k，这个数也不错。",
+   "i": 405
+  },
+  {
+   "day": 33,
+   "time": "09:30",
+   "who": "u",
+   "text": "嗯，Q3数字得重新算，我回头找Grace对齐。",
+   "i": 406
+  },
+  {
+   "day": 33,
+   "time": "11:00",
+   "who": "u",
+   "text": "帮我记一下：周一跟Ravi确认integration timeline。",
+   "i": 407
+  },
+  {
+   "day": 33,
+   "time": "11:01",
+   "who": "a",
+   "text": "记好了凯哥，周一和Ravi确认integration timeline。",
+   "i": 408
+  },
+  {
+   "day": 33,
+   "time": "14:00",
+   "who": "u",
+   "text": "刚跟Yuki聊了dark mode的QA timeline，她说下周五能出。",
+   "i": 409
+  },
+  {
+   "day": 33,
+   "time": "14:02",
+   "who": "a",
+   "text": "下周五，ok，我记一下。",
+   "i": 410
+  },
+  {
+   "day": 33,
+   "time": "17:30",
+   "who": "u",
+   "text": "Ben的pricing v3 review我推到明天下午了。",
+   "i": 411
+  },
+  {
+   "day": 33,
+   "time": "17:31",
+   "who": "a",
+   "text": "好，明天下午pricing review。",
+   "i": 412
+  },
+  {
+   "day": 33,
+   "time": "20:00",
+   "who": "u",
+   "text": "Daughter's school play tonight, 我得早点走.",
+   "ev": "e42",
+   "i": 413
+  },
+  {
+   "day": 33,
+   "time": "20:01",
+   "who": "a",
+   "text": "哇，好好享受，她肯定开心！",
+   "i": 414
+  },
+  {
+   "day": 34,
+   "time": "09:15",
+   "who": "u",
+   "text": "昨天play挺成功的，女儿演一棵树，台词没忘。",
+   "i": 415
+  },
+  {
+   "day": 34,
+   "time": "09:16",
+   "who": "a",
+   "text": "哈哈，一棵树，太可爱了。",
+   "i": 416
+  },
+  {
+   "day": 34,
+   "time": "10:00",
+   "who": "u",
+   "text": "上午跟Omar通了电话，SEA pipeline看起来不错，他说下个月能签两个prospect。",
+   "i": 417
+  },
+  {
+   "day": 34,
+   "time": "10:02",
+   "who": "a",
+   "text": "Omar那边有进展，好。",
+   "i": 418
+  },
+  {
+   "day": 34,
+   "time": "13:50",
+   "who": "u",
+   "text": "Ravi的新hire start date delayed to Nov 15.",
+   "ev": "e72",
+   "i": 419
+  },
+  {
+   "day": 34,
+   "time": "13:51",
+   "who": "a",
+   "text": "Nov 15，delay了一个月？",
+   "i": 420
+  },
+  {
+   "day": 34,
+   "time": "13:52",
+   "who": "u",
+   "text": "对，签证问题，没法快。",
+   "i": 421
+  },
+  {
+   "day": 34,
+   "time": "14:00",
+   "who": "u",
+   "text": "那我得跟Ravi看看谁顶integration这块。",
+   "i": 422
+  },
+  {
+   "day": 34,
+   "time": "14:01",
+   "who": "a",
+   "text": "嗯，尽早排好。",
+   "i": 423
+  },
+  {
+   "day": 34,
+   "time": "15:30",
+   "who": "u",
+   "text": "Ben的pricing v3 review完了，我觉得$49/user premium tier可行，但得算margin。",
+   "i": 424
+  },
+  {
+   "day": 34,
+   "time": "15:32",
+   "who": "a",
+   "text": "你算完告诉我，我记下。",
+   "i": 425
+  },
+  {
+   "day": 34,
+   "time": "17:00",
+   "who": "u",
+   "text": "今天早点收，妈妈血压又有点高，我回去看看。",
+   "i": 426
+  },
+  {
+   "day": 34,
+   "time": "17:01",
+   "who": "a",
+   "text": "注意休息凯哥，妈妈重要。",
+   "i": 427
+  },
+  {
+   "day": 35,
+   "time": "08:45",
+   "who": "u",
+   "text": "周报里加一段本周踩的坑，aicoo记住这个format.",
+   "ev": "e64",
+   "i": 428
+  },
+  {
+   "day": 35,
+   "time": "08:46",
+   "who": "a",
+   "text": "记好了，每周周报加一段“本周踩的坑”。",
+   "i": 429
+  },
+  {
+   "day": 35,
+   "time": "09:30",
+   "who": "u",
+   "text": "今天上午跟Jason Chen第二轮面试，8年经验那个PM candidate。",
+   "i": 430
+  },
+  {
+   "day": 35,
+   "time": "09:31",
+   "who": "a",
+   "text": "加油，看看他适不适应我们节奏。",
+   "i": 431
+  },
+  {
+   "day": 35,
+   "time": "11:00",
+   "who": "u",
+   "text": "Jason面完了，产品sense不错，但execution细节问得不够深。",
+   "i": 432
+  },
+  {
+   "day": 35,
+   "time": "11:02",
+   "who": "a",
+   "text": "那再看看其他candidate对比。",
+   "i": 433
+  },
+  {
+   "day": 35,
+   "time": "14:00",
+   "who": "u",
+   "text": "下午跟Ravi sync了integration，security audit过了，Sep 22应该稳。",
+   "i": 434
+  },
+  {
+   "day": 35,
+   "time": "14:01",
+   "who": "a",
+   "text": "Sep 22，稳了就好。",
+   "i": 435
+  },
+  {
+   "day": 35,
+   "time": "16:00",
+   "who": "u",
+   "text": "帮我约Grace下周一30min，聊聊Q3 forecast调整。",
+   "i": 436
+  },
+  {
+   "day": 35,
+   "time": "16:01",
+   "who": "a",
+   "text": "已约好下周一30min和Grace。",
+   "i": 437
+  },
+  {
+   "day": 35,
+   "time": "18:00",
+   "who": "u",
+   "text": "周末计划：带女儿去公园，爸妈那边也去看看。",
+   "i": 438
+  },
+  {
+   "day": 35,
+   "time": "18:01",
+   "who": "a",
+   "text": "好周末凯哥，好好放松。",
+   "i": 439
+  },
+  {
+   "day": 36,
+   "time": "08:30",
+   "who": "u",
+   "text": "周一早上，先看看邮件，Aurora那边legal还有什么尾巴吗？",
+   "i": 440
+  },
+  {
+   "day": 36,
+   "time": "08:32",
+   "who": "a",
+   "text": "上次说Q4 close，legal应该快完了。",
+   "i": 441
+  },
+  {
+   "day": 36,
+   "time": "09:00",
+   "who": "u",
+   "text": "Lily说legal基本clear，就等final签字。",
+   "i": 442
+  },
+  {
+   "day": 36,
+   "time": "09:01",
+   "who": "a",
+   "text": "那快了。",
+   "i": 443
+  },
+  {
+   "day": 36,
+   "time": "10:30",
+   "who": "u",
+   "text": "和Grace的30min聊完了，她说Q3调整可以，但得看整体pipeline。",
+   "i": 444
+  },
+  {
+   "day": 36,
+   "time": "10:32",
+   "who": "a",
+   "text": "好的，pipeline你心中有数。",
+   "i": 445
+  },
+  {
+   "day": 36,
+   "time": "11:55",
+   "who": "u",
+   "text": "Second PM candidate Emily Tan interviewed, strong in B2B, 6 years exp。",
+   "ev": "e16",
+   "i": 446
+  },
+  {
+   "day": 36,
+   "time": "11:56",
+   "who": "a",
+   "text": "Emily Tan，6年B2B经验，不错。",
+   "i": 447
+  },
+  {
+   "day": 36,
+   "time": "12:00",
+   "who": "u",
+   "text": "对，比Jason更细致，我倾向她。",
+   "i": 448
+  },
+  {
+   "day": 36,
+   "time": "12:01",
+   "who": "a",
+   "text": "那下一步就是reference check？",
+   "i": 449
+  },
+  {
+   "day": 36,
+   "time": "14:00",
+   "who": "u",
+   "text": "下午跟Ravi又确认了integration资源，他说hire delay后先用intern顶。",
+   "i": 450
+  },
+  {
+   "day": 36,
+   "time": "14:01",
+   "who": "a",
+   "text": "intern顶，也行，临时方案。",
+   "i": 451
+  },
+  {
+   "day": 36,
+   "time": "16:00",
+   "who": "u",
+   "text": "明天开始忙定价细节，先这样。",
+   "i": 452
+  },
+  {
+   "day": 36,
+   "time": "16:01",
+   "who": "a",
+   "text": "好凯哥，明天继续。",
+   "i": 453
+  },
+  {
+   "day": 37,
+   "time": "08:45",
+   "who": "u",
+   "text": "Morning aicoo，今天Grace要看Aurora的final close report，帮我mark一下下午4点review",
+   "i": 454
+  },
+  {
+   "day": 37,
+   "time": "08:46",
+   "who": "a",
+   "text": "收到凯哥，下午4点review Aurora final close report，已经mark好了",
+   "i": 455
+  },
+  {
+   "day": 37,
+   "time": "09:30",
+   "who": "u",
+   "text": "Ravi那边integration测试开始了吗，Sep 22 deadline还有两周",
+   "i": 456
+  },
+  {
+   "day": 37,
+   "time": "09:31",
+   "who": "a",
+   "text": "Ravi上次提到测试这周开始，要我帮你ping他确认进度吗？",
+   "i": 457
+  },
+  {
+   "day": 37,
+   "time": "09:32",
+   "who": "u",
+   "text": "不用，我待会自己找他。先把Ben的pricing v3发给我再看一遍",
+   "i": 458
+  },
+  {
+   "day": 37,
+   "time": "09:33",
+   "who": "a",
+   "text": "好的，pricing v3马上发你",
+   "i": 459
+  },
+  {
+   "day": 37,
+   "time": "11:15",
+   "who": "u",
+   "text": "Lily说Aurora那边有个新需求，custom reporting，要我们报timeline",
+   "i": 460
+  },
+  {
+   "day": 37,
+   "time": "11:16",
+   "who": "a",
+   "text": "这个和之前的custom analytics module类似吗？",
+   "i": 461
+  },
+  {
+   "day": 37,
+   "time": "11:17",
+   "who": "u",
+   "text": "对，但scope小一点，估计4周能搞定。让Lily先别commit，等我review完",
+   "i": 462
+  },
+  {
+   "day": 37,
+   "time": "14:20",
+   "who": "u",
+   "text": "Omar今天PTO吗，发消息没回",
+   "i": 463
+  },
+  {
+   "day": 37,
+   "time": "14:21",
+   "who": "a",
+   "text": "Omar calendar上今天没有PTO，可能在客户meeting中",
+   "i": 464
+  },
+  {
+   "day": 37,
+   "time": "16:45",
+   "who": "u",
+   "text": "aicoo, reviewed Omar's Singapore pipeline today, good progress.",
+   "ev": "e54",
+   "i": 465
+  },
+  {
+   "day": 37,
+   "time": "16:46",
+   "who": "a",
+   "text": "太好了，新加坡pipeline进展顺利说明Omar那边的momentum不错",
+   "i": 466
+  },
+  {
+   "day": 37,
+   "time": "17:30",
+   "who": "u",
+   "text": "Grace agreed on Aurora close report，她说format很好。明天继续push Q4 pipeline",
+   "i": 467
+  },
+  {
+   "day": 37,
+   "time": "17:31",
+   "who": "a",
+   "text": "great，明天的Q4 pipeline review需要我提前准备什么吗？",
+   "i": 468
+  },
+  {
+   "day": 38,
+   "time": "08:35",
+   "who": "u",
+   "text": "Yuki finished dark mode mockups, 需要engineering estimate by next week。",
+   "ev": "e17",
+   "i": 469
+  },
+  {
+   "day": 38,
+   "time": "08:36",
+   "who": "a",
+   "text": "收到，需要我帮约Ravi和Yuki的alignment meeting吗？",
+   "i": 470
+  },
+  {
+   "day": 38,
+   "time": "08:37",
+   "who": "u",
+   "text": "对，约下周一下午，让他们把estimate align出来",
+   "i": 471
+  },
+  {
+   "day": 38,
+   "time": "09:50",
+   "who": "u",
+   "text": "Ben今天请假了吗，没看到他online",
+   "i": 472
+  },
+  {
+   "day": 38,
+   "time": "09:51",
+   "who": "a",
+   "text": "Ben calendar上今天没有请假，可能晚点到",
+   "i": 473
+  },
+  {
+   "day": 38,
+   "time": "10:30",
+   "who": "u",
+   "text": "Emily Tan的case study发我看一下，下午要discuss",
+   "i": 474
+  },
+  {
+   "day": 38,
+   "time": "10:31",
+   "who": "a",
+   "text": "Emily的case study已经发到你的邮箱了，需要highlight重点吗？",
+   "i": 475
+  },
+  {
+   "day": 38,
+   "time": "10:32",
+   "who": "u",
+   "text": "不用，我自己看。Jason的feedback你帮我整理了吗",
+   "i": 476
+  },
+  {
+   "day": 38,
+   "time": "10:33",
+   "who": "a",
+   "text": "Jason的面试feedback整理好了，8年B2B经验，strength在scaling产品",
+   "i": 477
+  },
+  {
+   "day": 38,
+   "time": "12:15",
+   "who": "u",
+   "text": "Omar回消息了，他说Singapore那边fintech prospect下周要visit office",
+   "i": 478
+  },
+  {
+   "day": 38,
+   "time": "12:16",
+   "who": "a",
+   "text": "需要帮Omar准备office visit的material吗？",
+   "i": 479
+  },
+  {
+   "day": 38,
+   "time": "14:40",
+   "who": "u",
+   "text": "Ravi说dark mode estimate大概3 sprint，比我想的久",
+   "i": 480
+  },
+  {
+   "day": 38,
+   "time": "14:41",
+   "who": "a",
+   "text": "3 sprint的话就是大概6周，需要和Yuki确认scope能不能cut down吗？",
+   "i": 481
+  },
+  {
+   "day": 38,
+   "time": "14:42",
+   "who": "u",
+   "text": "对，先让Yuki看看哪些部分可以分phase delivery",
+   "i": 482
+  },
+  {
+   "day": 38,
+   "time": "17:00",
+   "who": "u",
+   "text": "今天的traction不错，明天继续push Aurora custom reporting timeline",
+   "i": 483
+  },
+  {
+   "day": 38,
+   "time": "17:01",
+   "who": "a",
+   "text": "凯哥今天很productive，明天的Aurora timeline我已经加到agenda了",
+   "i": 484
+  },
+  {
+   "day": 39,
+   "time": "08:50",
+   "who": "u",
+   "text": "Morning，今天重点：Aurora custom reporting scoping，还有dark mode phase plan",
+   "i": 485
+  },
+  {
+   "day": 39,
+   "time": "08:51",
+   "who": "a",
+   "text": "收到了，两个都加到今天的priority list上了",
+   "i": 486
+  },
+  {
+   "day": 39,
+   "time": "09:30",
+   "who": "u",
+   "text": "Lily已经发了Aurora custom reporting的初步scope，看着reasonable",
+   "i": 487
+  },
+  {
+   "day": 39,
+   "time": "09:31",
+   "who": "a",
+   "text": "大概多长时间？需要engineering review吗",
+   "i": 488
+  },
+  {
+   "day": 39,
+   "time": "09:32",
+   "who": "u",
+   "text": "4周estimated，但Lily说得让Ravi confirm。我待会forward给你",
+   "i": 489
+  },
+  {
+   "day": 39,
+   "time": "11:10",
+   "who": "u",
+   "text": "Yuki发了dark mode的phase 1 scope，只做core UI，这样可以减到2 sprint",
+   "i": 490
+  },
+  {
+   "day": 39,
+   "time": "11:11",
+   "who": "a",
+   "text": "2 sprint更manageable，Ravi应该能accept",
+   "i": 491
+  },
+  {
+   "day": 39,
+   "time": "12:40",
+   "who": "u",
+   "text": "下午Jason Chen的reference check出来了吗",
+   "i": 492
+  },
+  {
+   "day": 39,
+   "time": "12:41",
+   "who": "a",
+   "text": "Reference check还在等HR那边，预计今天下午3点前能拿到",
+   "i": 493
+  },
+  {
+   "day": 39,
+   "time": "14:30",
+   "who": "u",
+   "text": "Omar那边SEA marketing budget proposal我approve了，send to Grace for final approval",
+   "i": 494
+  },
+  {
+   "day": 39,
+   "time": "14:31",
+   "who": "a",
+   "text": "好的，Omar的SEA marketing budget已经发给Grace了",
+   "i": 495
+  },
+  {
+   "day": 39,
+   "time": "15:50",
+   "who": "u",
+   "text": "Ravi confirm了Aurora custom reporting 4周可以做，让Lily准备SOW",
+   "i": 496
+  },
+  {
+   "day": 39,
+   "time": "15:51",
+   "who": "a",
+   "text": "这样Aurora deal的scope就清楚了，Q4 delivery schedule也稳了",
+   "i": 497
+  },
+  {
+   "day": 39,
+   "time": "17:20",
+   "who": "u",
+   "text": "今天搞定了dark mode phase plan和Aurora scoping，效率可以",
+   "i": 498
+  },
+  {
+   "day": 39,
+   "time": "17:21",
+   "who": "a",
+   "text": "凯哥今天两个大item都推进了，明天可以focus on Q4 pipeline alignment了",
+   "i": 499
+  },
+  {
+   "day": 40,
+   "time": "08:40",
+   "who": "u",
+   "text": "Friday finally。今天要把Q4 pipeline alignment做好，Omar下午要过final numbers",
+   "i": 500
+  },
+  {
+   "day": 40,
+   "time": "08:41",
+   "who": "a",
+   "text": "周五了凯哥，Q4 pipeline alignment的prep material我已经整理好了",
+   "i": 501
+  },
+  {
+   "day": 40,
+   "time": "09:15",
+   "who": "u",
+   "text": "Ravi说integration testing进展不错，Sep 22 deadline应该能hit",
+   "i": 502
+  },
+  {
+   "day": 40,
+   "time": "09:16",
+   "who": "a",
+   "text": "太好了，integration on track的话Q4 delivery risk就降了很多",
+   "i": 503
+  },
+  {
+   "day": 40,
+   "time": "10:30",
+   "who": "u",
+   "text": "Jason Chen的reference check positive，可以move forward了",
+   "i": 504
+  },
+  {
+   "day": 40,
+   "time": "10:31",
+   "who": "a",
+   "text": "恭喜，Jason会是个strong addition to the team",
+   "i": 505
+  },
+  {
+   "day": 40,
+   "time": "11:50",
+   "who": "u",
+   "text": "Ben发了revised pricing v3，$49/user，我觉得可以present to Grace了",
+   "i": 506
+  },
+  {
+   "day": 40,
+   "time": "11:51",
+   "who": "a",
+   "text": "Pricing v3准备好Oct 15 meeting了，要不要这周先给Grace preview一下？",
+   "i": 507
+  },
+  {
+   "day": 40,
+   "time": "11:52",
+   "who": "u",
+   "text": "好主意，发个executive summary给她先看看",
+   "i": 508
+  },
+  {
+   "day": 40,
+   "time": "13:45",
+   "who": "u",
+   "text": "老爸情况稳定了，我可以focus on Aurora negotiations again。",
+   "ev": "e18",
+   "i": 509
+  },
+  {
+   "day": 40,
+   "time": "13:46",
+   "who": "a",
+   "text": "凯哥放心，老爸稳定了就是好消息。Aurora negotiations你随时需要support我就帮你准备",
+   "i": 510
+  },
+  {
+   "day": 40,
+   "time": "15:30",
+   "who": "u",
+   "text": "和Omar finalize了Q4 pipeline，Singapore那边新增了两个prospect，pipeline healthy",
+   "i": 511
+  },
+  {
+   "day": 40,
+   "time": "15:31",
+   "who": "a",
+   "text": "Singapore pipeline momentum保持得很好，Q4 outlook strong",
+   "i": 512
+  },
+  {
+   "day": 40,
+   "time": "16:10",
+   "who": "u",
+   "text": "下周重点：Aurora negotiation final push, dark mode estimate alignment, Jason offer letter",
+   "i": 513
+  },
+  {
+   "day": 40,
+   "time": "16:11",
+   "who": "a",
+   "text": "已经帮你mark好这三个priority了，下周一的agenda ready",
+   "i": 514
+  },
+  {
+   "day": 40,
+   "time": "17:00",
+   "who": "u",
+   "text": "周末了，终于可以喘口气。女儿说要看新电影",
+   "i": 515
+  },
+  {
+   "day": 40,
+   "time": "17:01",
+   "who": "a",
+   "text": "好好享受周末凯哥，和家人relax。下周继续push",
+   "i": 516
+  },
+  {
+   "day": 41,
+   "time": "09:15",
+   "who": "u",
+   "text": "周六 morning, aicoo。昨晚女儿表演超棒, now dad duty mode",
+   "i": 517
+  },
+  {
+   "day": 41,
+   "time": "09:16",
+   "who": "a",
+   "text": "凯哥早！女儿表演一定很可爱 😊 今天陪家人放松下？",
+   "i": 518
+  },
+  {
+   "day": 41,
+   "time": "09:45",
+   "who": "u",
+   "text": "Customer survey里80% want better mobile support",
+   "ev": "e73",
+   "i": 519
+  },
+  {
+   "day": 41,
+   "time": "09:46",
+   "who": "u",
+   "text": "这是我们下季度的信号吧, mobile这块得push一下",
+   "i": 520
+  },
+  {
+   "day": 41,
+   "time": "09:47",
+   "who": "a",
+   "text": "收到，80%这个数据很强。记下来周一和Yuki他们align？",
+   "i": 521
+  },
+  {
+   "day": 41,
+   "time": "10:30",
+   "who": "u",
+   "text": "嗯计划周一和Yuki sync mobile方向",
+   "i": 522
+  },
+  {
+   "day": 41,
+   "time": "10:31",
+   "who": "u",
+   "text": "顺便问下, Omar那边的Singapore pipeline下周review还有没有要改的",
+   "i": 523
+  },
+  {
+   "day": 41,
+   "time": "10:32",
+   "who": "a",
+   "text": "我查下上周的记录，Omar那边pipeline进展良好，没有新flag。我再confirm下？",
+   "i": 524
+  },
+  {
+   "day": 41,
+   "time": "11:00",
+   "who": "u",
+   "text": "啊不用, 我自己看一眼周报, 你先keep note on mobile priority",
+   "i": 525
+  },
+  {
+   "day": 41,
+   "time": "14:20",
+   "who": "u",
+   "text": "老爸今天状态不错, 陪他院子里走了走, 心情好多了",
+   "i": 526
+  },
+  {
+   "day": 41,
+   "time": "14:21",
+   "who": "a",
+   "text": "真好，凯哥多陪陪家人。天气也不错吧？",
+   "i": 527
+  },
+  {
+   "day": 41,
+   "time": "17:30",
+   "who": "u",
+   "text": "晚上 plan to relax, 明天还有一堆Aurora docs要看",
+   "i": 528
+  },
+  {
+   "day": 41,
+   "time": "20:15",
+   "who": "u",
+   "text": "对了, 提醒Omar下周一把那个fintech的case study发给我",
+   "i": 529
+  },
+  {
+   "day": 41,
+   "time": "20:16",
+   "who": "a",
+   "text": "好的，周一9am我发提醒给Omar。fintech case study noted ✅",
+   "i": 530
+  },
+  {
+   "day": 42,
+   "time": "08:45",
+   "who": "u",
+   "text": "Morning aicoo, 周日我还在看mobile survey data",
+   "i": 531
+  },
+  {
+   "day": 42,
+   "time": "08:46",
+   "who": "a",
+   "text": "凯哥早！这么早就开工啦，要帮忙整理什么吗？",
+   "i": 532
+  },
+  {
+   "day": 42,
+   "time": "08:50",
+   "who": "u",
+   "text": "80% want mobile support, 但我们要drill down哪块功能最急需",
+   "i": 533
+  },
+  {
+   "day": 42,
+   "time": "09:15",
+   "who": "u",
+   "text": "发给Yuki个note, 让她周一带rough thoughts来聊mobile backlog",
+   "i": 534
+  },
+  {
+   "day": 42,
+   "time": "09:16",
+   "who": "a",
+   "text": "收到，我帮凯哥draft一封：Yuki周一mobile backlog alignment？",
+   "i": 535
+  },
+  {
+   "day": 42,
+   "time": "10:20",
+   "who": "u",
+   "text": "Q3 revenue hit 2.1M so far, tracking slightly below target, Grace要review",
+   "ev": "e19",
+   "i": 536
+  },
+  {
+   "day": 42,
+   "time": "10:21",
+   "who": "u",
+   "text": "有点压力, 剩下几周要大push",
+   "i": 537
+  },
+  {
+   "day": 42,
+   "time": "10:22",
+   "who": "a",
+   "text": "明白，2.1M vs 2.4M target还有gap。凯哥需要我pull哪些data？",
+   "i": 538
+  },
+  {
+   "day": 42,
+   "time": "11:00",
+   "who": "u",
+   "text": "先看Aurora那个custom reporting的impact, 能不能加速close",
+   "i": 539
+  },
+  {
+   "day": 42,
+   "time": "11:01",
+   "who": "a",
+   "text": "上次记录Aurora scoping confirm 4周，有dependency在Q4？我做个note提醒明天和Lily check。",
+   "i": 540
+  },
+  {
+   "day": 42,
+   "time": "14:30",
+   "who": "u",
+   "text": "下午带女儿去公园, need a break from revenue pressure",
+   "i": 541
+  },
+  {
+   "day": 42,
+   "time": "14:31",
+   "who": "a",
+   "text": "好好享受，女儿的笑脸比revenue number重要多啦 😄",
+   "i": 542
+  },
+  {
+   "day": 42,
+   "time": "18:00",
+   "who": "u",
+   "text": "晚上我skim一下Omar上周发的pipeline, 明早sync前prep",
+   "i": 543
+  },
+  {
+   "day": 42,
+   "time": "18:01",
+   "who": "a",
+   "text": "好的，Omar的pipeline report在files里，我帮凯哥highlight关键点？",
+   "i": 544
+  },
+  {
+   "day": 42,
+   "time": "20:45",
+   "who": "u",
+   "text": "Grace刚text我, 明天她要draft Q3 review给board",
+   "i": 545
+  },
+  {
+   "day": 42,
+   "time": "20:46",
+   "who": "a",
+   "text": "压力大…凯哥先休息好，明天专注action items就行",
+   "i": 546
+  },
+  {
+   "day": 43,
+   "time": "08:30",
+   "who": "u",
+   "text": "周一了 aicoo, 早上和Yuki sync mobile backlog",
+   "i": 547
+  },
+  {
+   "day": 43,
+   "time": "08:31",
+   "who": "a",
+   "text": "凯哥周一早！Yuki的note已经发了，她9:30ready聊。加油",
+   "i": 548
+  },
+  {
+   "day": 43,
+   "time": "09:00",
+   "who": "u",
+   "text": "和Yuki对完mobile priority, 她propose先做native iOS",
+   "i": 549
+  },
+  {
+   "day": 43,
+   "time": "09:01",
+   "who": "u",
+   "text": "我让她出个t-shirt sizing, 周五前",
+   "i": 550
+  },
+  {
+   "day": 43,
+   "time": "09:02",
+   "who": "a",
+   "text": "好的，note：Yuki周三前draft T-shirt size for native iOS mobile",
+   "i": 551
+  },
+  {
+   "day": 43,
+   "time": "10:30",
+   "who": "u",
+   "text": "和Omar sync Singapore pipeline, fintech case study他没发",
+   "i": 552
+  },
+  {
+   "day": 43,
+   "time": "10:31",
+   "who": "a",
+   "text": "啊抱歉，我今早reminder还没到9am，现在立刻发给他",
+   "i": 553
+  },
+  {
+   "day": 43,
+   "time": "10:35",
+   "who": "u",
+   "text": "没事, 直接ping他slack. 另外Grace的Q3 review prep, 我得给initial numbers",
+   "i": 554
+  },
+  {
+   "day": 43,
+   "time": "10:36",
+   "who": "a",
+   "text": "明白，我这边有board prep template，帮凯哥fill in revenue 2.1M那里？",
+   "i": 555
+  },
+  {
+   "day": 43,
+   "time": "11:30",
+   "who": "u",
+   "text": "对, fill 2.1M actuals, 然后forecast adjustment to 2.3M, 有点conservative",
+   "i": 556
+  },
+  {
+   "day": 43,
+   "time": "11:31",
+   "who": "a",
+   "text": "2.3M forecast noted, 我会附上Aurora的contribution risk",
+   "i": 557
+  },
+  {
+   "day": 43,
+   "time": "14:00",
+   "who": "u",
+   "text": "Emily Tan follow-up: 她上周accept offer了, 我让Ben安排onboarding",
+   "i": 558
+  },
+  {
+   "day": 43,
+   "time": "14:01",
+   "who": "a",
+   "text": "收到，Emily onboarding date之前定了？我remind Ben sent welcome package",
+   "i": 559
+  },
+  {
+   "day": 43,
+   "time": "15:45",
+   "who": "u",
+   "text": "Aurora status: Lily说legal签了, 但client still pushing for Q3 close on custom module",
+   "i": 560
+  },
+  {
+   "day": 43,
+   "time": "15:46",
+   "who": "u",
+   "text": "我得push back, 不能compromise scope for revenue, 太risky",
+   "i": 561
+  },
+  {
+   "day": 43,
+   "time": "15:47",
+   "who": "a",
+   "text": "凯哥稳，上次你propose Q1 2027 add-on就很好。要不要draft个回复给Lily？",
+   "i": 562
+  },
+  {
+   "day": 43,
+   "time": "17:00",
+   "who": "u",
+   "text": "嗯, 我写了email, you can sense check it. 另外Jason Chen reference check过了, 这周发offer",
+   "i": 563
+  },
+  {
+   "day": 43,
+   "time": "17:01",
+   "who": "a",
+   "text": "Sent check done. 凯哥这周两个PM hire close，节奏不错 👍",
+   "i": 564
+  },
+  {
+   "day": 43,
+   "time": "20:00",
+   "who": "u",
+   "text": "晚上review pricing v3 preview给Grace, 明天sync前我得finalize",
+   "i": 565
+  },
+  {
+   "day": 43,
+   "time": "20:01",
+   "who": "a",
+   "text": "V3 highlights: $49/user premium tier。需要我pull competitive pricing data吗？",
+   "i": 566
+  },
+  {
+   "day": 44,
+   "time": "08:00",
+   "who": "u",
+   "text": "周二早 aicoo, 今天和Grace pricing preview, 紧张",
+   "i": 567
+  },
+  {
+   "day": 44,
+   "time": "08:01",
+   "who": "a",
+   "text": "凯哥早！你准备得很充分，pricing story已经很strong啦",
+   "i": 568
+  },
+  {
+   "day": 44,
+   "time": "09:30",
+   "who": "u",
+   "text": "Pricing sync done, Grace给green light, 10月15 meeting可以finalize",
+   "i": 569
+  },
+  {
+   "day": 44,
+   "time": "09:31",
+   "who": "a",
+   "text": "Congrats! 10/15 finalize noted。凯哥需要提前给team pre-brief吗？",
+   "i": 570
+  },
+  {
+   "day": 44,
+   "time": "11:00",
+   "who": "u",
+   "text": "晚点给Ben和Omar发brief, 现在先处理mobile survey deep dive",
+   "i": 571
+  },
+  {
+   "day": 44,
+   "time": "11:01",
+   "who": "a",
+   "text": "移动端需求：80% want better support。我做了survey verbatim分类，要看看吗？",
+   "i": 572
+  },
+  {
+   "day": 44,
+   "time": "13:31",
+   "who": "a",
+   "text": "上周Ravi那边security audit cleared, on track。我再ping他给个status update？",
+   "i": 573
+  },
+  {
+   "day": 44,
+   "time": "14:00",
+   "who": "u",
+   "text": "OK. 对了, Omar的SEA marketing budget proposal我还没看",
+   "i": 574
+  },
+  {
+   "day": 44,
+   "time": "14:01",
+   "who": "a",
+   "text": "Omar的proposal在files里，last update是上周。我highlight budget vs headcount部分？",
+   "i": 575
+  },
+  {
+   "day": 44,
+   "time": "15:10",
+   "who": "u",
+   "text": "Third PM candidate Michael Liu interviewed, 10 years, ex-Microsoft",
+   "ev": "e20",
+   "i": 576
+  },
+  {
+   "day": 44,
+   "time": "15:11",
+   "who": "u",
+   "text": "很strong background, 我和Grace sync下比较Jason和Emily",
+   "i": 577
+  },
+  {
+   "day": 44,
+   "time": "15:12",
+   "who": "a",
+   "text": "Michael Liu noted。凯哥现在三个strong candidates，PM team build起来了",
+   "i": 578
+  },
+  {
+   "day": 44,
+   "time": "17:00",
+   "who": "u",
+   "text": "Aurora deal: Lily updated, client agreed to Q4 close with add-on option, 950k preserved",
+   "i": 579
+  },
+  {
+   "day": 44,
+   "time": "17:01",
+   "who": "a",
+   "text": "Great！950k in Q4，这个压力减了不少。凯哥今天win很多",
+   "i": 580
+  },
+  {
+   "day": 44,
+   "time": "18:30",
+   "who": "u",
+   "text": "End of day wrap: 明天提醒我给Grace board draft, 然后dark mode phase 1 check with Yuki",
+   "i": 581
+  },
+  {
+   "day": 44,
+   "time": "18:31",
+   "who": "a",
+   "text": "收到，board draft + dark mode sync。凯哥辛苦一天，好好休息 🌙",
+   "i": 582
+  },
+  {
+   "day": 45,
+   "time": "08:30",
+   "who": "u",
+   "text": "aicoo, 以后回复别用bullet points, just plain text.",
+   "ev": "e57",
+   "i": 583
+  },
+  {
+   "day": 45,
+   "time": "08:31",
+   "who": "a",
+   "text": "Understood, I'll reply without bullet points going forward.",
+   "ev": "e58",
+   "i": 584
+  },
+  {
+   "day": 45,
+   "time": "09:00",
+   "who": "u",
+   "text": "Ben发来了pricing final版本，我再过一遍数字，下午跟他对齐。",
+   "i": 585
+  },
+  {
+   "day": 45,
+   "time": "09:15",
+   "who": "a",
+   "text": "好的凯哥，需要我查之前的pricing历史数据吗？",
+   "i": 586
+  },
+  {
+   "day": 45,
+   "time": "09:20",
+   "who": "u",
+   "text": "不用，我这边有记录，主要是$44还是$49的争论。",
+   "i": 587
+  },
+  {
+   "day": 45,
+   "time": "12:30",
+   "who": "u",
+   "text": "中午和Ravi sync了一下integration timeline，security audit收尾了，Sep 22应该稳。",
+   "i": 588
+  },
+  {
+   "day": 45,
+   "time": "12:35",
+   "who": "a",
+   "text": "Sep 22 deadline听起来靠谱，需要我设个提醒吗？",
+   "i": 589
+  },
+  {
+   "day": 45,
+   "time": "12:40",
+   "who": "u",
+   "text": "设一个，Sep 21下午提醒我check Ravi状态。",
+   "i": 590
+  },
+  {
+   "day": 45,
+   "time": "14:00",
+   "who": "u",
+   "text": "给Michael Liu发了offer letter，希望他周四前签。",
+   "i": 591
+  },
+  {
+   "day": 45,
+   "time": "14:05",
+   "who": "a",
+   "text": "Michael背景很强，他应该会接。需要我follow up吗？",
+   "i": 592
+  },
+  {
+   "day": 45,
+   "time": "14:10",
+   "who": "u",
+   "text": "不用，Lily在跟，她催人有一套。",
+   "i": 593
+  },
+  {
+   "day": 45,
+   "time": "16:30",
+   "who": "u",
+   "text": "今天早点走，女儿有点咳嗽，带她去诊所看看。",
+   "i": 594
+  },
+  {
+   "day": 45,
+   "time": "16:35",
+   "who": "a",
+   "text": "希望小家伙没事，凯哥路上小心。",
+   "i": 595
+  },
+  {
+   "day": 46,
+   "time": "09:00",
+   "who": "u",
+   "text": "早上好，女儿好多了，就是普通感冒。",
+   "i": 596
+  },
+  {
+   "day": 46,
+   "time": "09:10",
+   "who": "a",
+   "text": "那就好，凯哥放心了。",
+   "i": 597
+  },
+  {
+   "day": 46,
+   "time": "09:40",
+   "who": "u",
+   "text": "Pricing final decision: 44 per user per month, launch Nov 1, after debate with Ben。",
+   "ev": "e21",
+   "i": 598
+  },
+  {
+   "day": 46,
+   "time": "09:42",
+   "who": "a",
+   "text": "收到，$44用户月费，11月1日上线。Ben同意了？",
+   "i": 599
+  },
+  {
+   "day": 46,
+   "time": "09:45",
+   "who": "u",
+   "text": "他最后让步了，认为$44比$49更competitive，尤其对mid-market。",
+   "i": 600
+  },
+  {
+   "day": 46,
+   "time": "10:00",
+   "who": "u",
+   "text": "Need to update Grace on pricing decision, 等下给她发个brief。",
+   "i": 601
+  },
+  {
+   "day": 46,
+   "time": "10:05",
+   "who": "a",
+   "text": "要帮你起草brief outline吗？",
+   "i": 602
+  },
+  {
+   "day": 46,
+   "time": "10:10",
+   "who": "u",
+   "text": "好啊，重点写rationale和competitive landscape。",
+   "i": 603
+  },
+  {
+   "day": 46,
+   "time": "14:00",
+   "who": "u",
+   "text": "Aurora那边custom module的negotiation基本定了，Q4 add-on, 价格额外$50K。",
+   "i": 604
+  },
+  {
+   "day": 46,
+   "time": "14:05",
+   "who": "a",
+   "text": "Nice, $50K add-on对Q4 pipeline是好事。",
+   "i": 605
+  },
+  {
+   "day": 46,
+   "time": "16:00",
+   "who": "u",
+   "text": "明天飞Singapore, need to prep Omar on pricing launch timeline.",
+   "i": 606
+  },
+  {
+   "day": 46,
+   "time": "16:10",
+   "who": "a",
+   "text": "要我帮你准备Omar的briefing doc吗？",
+   "i": 607
+  },
+  {
+   "day": 46,
+   "time": "16:15",
+   "who": "u",
+   "text": "不用，我晚上自己写，主要对齐Nov 1 launch和sales enablement。",
+   "i": 608
+  },
+  {
+   "day": 47,
+   "time": "08:00",
+   "who": "u",
+   "text": "在去机场路上，Singapore weather咋样？",
+   "i": 609
+  },
+  {
+   "day": 47,
+   "time": "08:05",
+   "who": "a",
+   "text": "Singapore今天28度，多云，凯哥带件薄外套就好。",
+   "i": 610
+  },
+  {
+   "day": 47,
+   "time": "11:00",
+   "who": "u",
+   "text": "Landing，先去office和Omar team见面。",
+   "i": 611
+  },
+  {
+   "day": 47,
+   "time": "14:00",
+   "who": "u",
+   "text": "Omar的pipeline review不错，几个deal在推进。",
+   "i": 612
+  },
+  {
+   "day": 47,
+   "time": "14:05",
+   "who": "a",
+   "text": "Good to hear, 新加坡团队干劲足。",
+   "i": 613
+  },
+  {
+   "day": 47,
+   "time": "16:00",
+   "who": "u",
+   "text": "Dark mode design review with Yuki done, two iterations needed。",
+   "ev": "e74",
+   "i": 614
+  },
+  {
+   "day": 47,
+   "time": "16:05",
+   "who": "a",
+   "text": "两轮迭代，timeline来得及吗？",
+   "i": 615
+  },
+  {
+   "day": 47,
+   "time": "16:10",
+   "who": "u",
+   "text": "来得及，她下周初给v2, 然后engineering可以开始估了。",
+   "i": 616
+  },
+  {
+   "day": 47,
+   "time": "18:00",
+   "who": "u",
+   "text": "晚上和Omar吃饭，聊聊Q4 target alignment。",
+   "i": 617
+  },
+  {
+   "day": 47,
+   "time": "18:05",
+   "who": "a",
+   "text": "Enjoy dinner, 凯哥。",
+   "i": 618
+  },
+  {
+   "day": 48,
+   "time": "09:00",
+   "who": "u",
+   "text": "早上在Singapore office最后半天，下午飞回Shanghai。",
+   "i": 619
+  },
+  {
+   "day": 48,
+   "time": "09:30",
+   "who": "u",
+   "text": "Omar propose再加一个BDR headcount, 我说等Q4 pipeline稳住再批。",
+   "i": 620
+  },
+  {
+   "day": 48,
+   "time": "09:35",
+   "who": "a",
+   "text": "合理，先看Q4实际表现再扩团队。",
+   "i": 621
+  },
+  {
+   "day": 48,
+   "time": "14:00",
+   "who": "u",
+   "text": "Flew back to Shanghai, Omar说Singapore pipeline healthy, 5 new leads。",
+   "ev": "e22",
+   "i": 622
+  },
+  {
+   "day": 48,
+   "time": "14:05",
+   "who": "a",
+   "text": "5个新leads，不错。凯哥旅途辛苦，先休息一下。",
+   "i": 623
+  },
+  {
+   "day": 48,
+   "time": "15:00",
+   "who": "u",
+   "text": "回家抱了下女儿，感冒好了活蹦乱跳。",
+   "i": 624
+  },
+  {
+   "day": 48,
+   "time": "15:10",
+   "who": "a",
+   "text": "哈哈，小朋友恢复快。",
+   "i": 625
+  },
+  {
+   "day": 48,
+   "time": "16:00",
+   "who": "u",
+   "text": "下周一来得及处理一堆事情，先周末缓缓。",
+   "i": 626
+  },
+  {
+   "day": 49,
+   "time": "08:15",
+   "who": "u",
+   "text": "aicoo morning. back from weekend. any alerts i missed",
+   "i": 627
+  },
+  {
+   "day": 49,
+   "time": "08:16",
+   "who": "a",
+   "text": "凯哥早。周末安静，无紧急消息。Q3还剩最后一周冲刺。",
+   "i": 628
+  },
+  {
+   "day": 49,
+   "time": "09:00",
+   "who": "u",
+   "text": "yeah, gotta push. Ben说pricing launch prep有进度没",
+   "i": 629
+  },
+  {
+   "day": 49,
+   "time": "09:01",
+   "who": "a",
+   "text": "Ben昨天发了邮件，prep on track，Nov 1 launch准备中。",
+   "i": 630
+  },
+  {
+   "day": 49,
+   "time": "10:30",
+   "who": "u",
+   "text": "好。下午跟Ravi sync一下integration status, 他之前说Sep 22上线",
+   "i": 631
+  },
+  {
+   "day": 49,
+   "time": "10:31",
+   "who": "a",
+   "text": "提醒：Ravi的sync已记下，下午1点。",
+   "i": 632
+  },
+  {
+   "day": 49,
+   "time": "12:45",
+   "who": "u",
+   "text": "just had lunch. 今天女儿幼儿园活动，我妈带去了，希望顺利",
+   "i": 633
+  },
+  {
+   "day": 49,
+   "time": "12:46",
+   "who": "a",
+   "text": "小朋友的活动一定很开心，凯哥放心。",
+   "i": 634
+  },
+  {
+   "day": 49,
+   "time": "13:15",
+   "who": "u",
+   "text": "Ravi meeting done. integration went live but he said 延迟了但还算顺利, 安全审计花了点时间",
+   "i": 635
+  },
+  {
+   "day": 49,
+   "time": "13:16",
+   "who": "a",
+   "text": "顺利上线就好，延迟是常态。",
+   "i": 636
+  },
+  {
+   "day": 49,
+   "time": "15:00",
+   "who": "u",
+   "text": "跟Yuki聊了dark mode phase 2 design, 她说两周内出稿",
+   "i": 637
+  },
+  {
+   "day": 49,
+   "time": "15:01",
+   "who": "a",
+   "text": "好，phase 2 timing 10月中旬有望。",
+   "i": 638
+  },
+  {
+   "day": 49,
+   "time": "17:30",
+   "who": "u",
+   "text": "dad今天复查结果出来，医生说stable, 继续吃药。松了口气",
+   "i": 639
+  },
+  {
+   "day": 49,
+   "time": "17:31",
+   "who": "a",
+   "text": "太好了，稳定的消息最宝贵。",
+   "i": 640
+  },
+  {
+   "day": 49,
+   "time": "19:00",
+   "who": "u",
+   "text": "晚上写Q4 roadmap draft, 明天给Grace preview",
+   "i": 641
+  },
+  {
+   "day": 49,
+   "time": "19:01",
+   "who": "a",
+   "text": "需要任何数据我随时提供。",
+   "i": 642
+  },
+  {
+   "day": 50,
+   "time": "09:30",
+   "who": "u",
+   "text": "Q3 wrap-up meeting at 11 with Grace, 有点紧张",
+   "i": 643
+  },
+  {
+   "day": 50,
+   "time": "09:31",
+   "who": "a",
+   "text": "凯哥准备了roadmap和Aurora deal update，会顺利的。",
+   "i": 644
+  },
+  {
+   "day": 50,
+   "time": "11:15",
+   "who": "u",
+   "text": "Ravi confirmed integration went live Sep 22, 延迟了但还算顺利",
+   "ev": "e23",
+   "i": 645
+  },
+  {
+   "day": 50,
+   "time": "11:16",
+   "who": "a",
+   "text": "好消息，总算落地了。",
+   "i": 646
+  },
+  {
+   "day": 50,
+   "time": "12:00",
+   "who": "u",
+   "text": "Grace meeting done. Q3 revenue 2.1M, she said focus on Q4. Aurora deal是关键",
+   "i": 647
+  },
+  {
+   "day": 50,
+   "time": "12:01",
+   "who": "a",
+   "text": "Q4有Aurora 950k和其他pipeline，能补上。",
+   "i": 648
+  },
+  {
+   "day": 50,
+   "time": "14:30",
+   "who": "u",
+   "text": "下午跟Omar打了电话, Singapore pipeline 5个leads都在推进",
+   "i": 649
+  },
+  {
+   "day": 50,
+   "time": "14:31",
+   "who": "a",
+   "text": "Omar的效率一直不错。",
+   "i": 650
+  },
+  {
+   "day": 50,
+   "time": "16:00",
+   "who": "u",
+   "text": "Lily发来Aurora integration timeline, 他们说custom module可以在Q1做",
+   "i": 651
+  },
+  {
+   "day": 50,
+   "time": "16:01",
+   "who": "a",
+   "text": "Q1 add-on方案客户接受，deal risk降低了。",
+   "i": 652
+  },
+  {
+   "day": 50,
+   "time": "18:00",
+   "who": "u",
+   "text": "下班接女儿, 她说想画画, 陪她画了一个小时",
+   "i": 653
+  },
+  {
+   "day": 50,
+   "time": "18:01",
+   "who": "a",
+   "text": "凯哥是女儿最好的画伴。",
+   "i": 654
+  },
+  {
+   "day": 51,
+   "time": "08:30",
+   "who": "u",
+   "text": "today: 跟Ben review pricing launch checklist, 下午面试PM final candidate",
+   "i": 655
+  },
+  {
+   "day": 51,
+   "time": "08:31",
+   "who": "a",
+   "text": "Ben的checklist发过来了，一切正常。",
+   "i": 656
+  },
+  {
+   "day": 51,
+   "time": "10:00",
+   "who": "u",
+   "text": "Ben checklist review done, 定价页面设计下周一前要Yuki定稿",
+   "i": 657
+  },
+  {
+   "day": 51,
+   "time": "10:01",
+   "who": "a",
+   "text": "提醒Yuki周一deadline。",
+   "i": 658
+  },
+  {
+   "day": 51,
+   "time": "14:00",
+   "who": "u",
+   "text": "面试了final PM candidate, 王磊, 7年SaaS, 沟通不错",
+   "i": 659
+  },
+  {
+   "day": 51,
+   "time": "14:01",
+   "who": "a",
+   "text": "王磊背景挺匹配Northwind的。",
+   "i": 660
+  },
+  {
+   "day": 51,
+   "time": "15:30",
+   "who": "u",
+   "text": "晚上dad血压有点高, 带他去社区医院调整药量, 现在降下来了",
+   "i": 661
+  },
+  {
+   "day": 51,
+   "time": "15:31",
+   "who": "a",
+   "text": "注意休息，凯哥别太累。",
+   "i": 662
+  },
+  {
+   "day": 51,
+   "time": "20:00",
+   "who": "u",
+   "text": "哄女儿睡了, 自己再看一遍Q4 roadmap, 明天发给Grace",
+   "i": 663
+  },
+  {
+   "day": 51,
+   "time": "20:01",
+   "who": "a",
+   "text": "Q4 roadmap很扎实，Aurora和pricing launch是双引擎。",
+   "i": 664
+  },
+  {
+   "day": 52,
+   "time": "09:00",
+   "who": "u",
+   "text": "Q4 roadmap发Grace了, 等feedback",
+   "i": 665
+  },
+  {
+   "day": 52,
+   "time": "09:01",
+   "who": "a",
+   "text": "Grace一般当天回复，今天下午可能有消息。",
+   "i": 666
+  },
+  {
+   "day": 52,
+   "time": "10:15",
+   "who": "u",
+   "text": "Omar打电话, Singapore office needs 3 new sales hires by year-end",
+   "ev": "e75",
+   "i": 667
+  },
+  {
+   "day": 52,
+   "time": "10:16",
+   "who": "a",
+   "text": "年底前招3人，Omar对Q4信心足。",
+   "i": 668
+  },
+  {
+   "day": 52,
+   "time": "11:30",
+   "who": "u",
+   "text": "我跟他说了, 需要headcount approval, 我下周跟Grace谈",
+   "i": 669
+  },
+  {
+   "day": 52,
+   "time": "11:31",
+   "who": "a",
+   "text": "记得准备pipeline数据和ROI分析支持。",
+   "i": 670
+  },
+  {
+   "day": 52,
+   "time": "13:00",
+   "who": "u",
+   "text": "下午跟Ravi sync了post-integration, 他说system stable, 没有major bug",
+   "i": 671
+  },
+  {
+   "day": 52,
+   "time": "13:01",
+   "who": "a",
+   "text": "integration终于没后顾之忧了。",
+   "i": 672
+  },
+  {
+   "day": 52,
+   "time": "14:45",
+   "who": "u",
+   "text": "Yuki发了pricing page mockup, 给Ben和Lilyreview, 我看了觉得不错",
+   "i": 673
+  },
+  {
+   "day": 52,
+   "time": "14:46",
+   "who": "a",
+   "text": "pricing page视觉和文案搭配好，转化率会更好。",
+   "i": 674
+  },
+  {
+   "day": 52,
+   "time": "16:00",
+   "who": "u",
+   "text": "Grace回复roadmap: 同意主要方向, 但希望加一页risk mitigation plan",
+   "i": 675
+  },
+  {
+   "day": 52,
+   "time": "16:01",
+   "who": "a",
+   "text": "好，明天加一页risk plan给她。",
+   "i": 676
+  },
+  {
+   "day": 52,
+   "time": "17:30",
+   "who": "u",
+   "text": "dad今天血压稳定, 女儿也开心, 难得轻松一天",
+   "i": 677
+  },
+  {
+   "day": 52,
+   "time": "17:31",
+   "who": "a",
+   "text": "凯哥今天可以好好休息。",
+   "i": 678
+  },
+  {
+   "day": 53,
+   "time": "08:50",
+   "who": "u",
+   "text": "Grace asked me to present Q4 roadmap on Oct 10, Friday. 要准备deck。",
+   "ev": "e24",
+   "i": 679
+  },
+  {
+   "day": 53,
+   "time": "09:15",
+   "who": "a",
+   "text": "收到 凯哥, 提前两周准备, 时间够。要帮你拉个 timeline 吗？",
+   "i": 680
+  },
+  {
+   "day": 53,
+   "time": "09:20",
+   "who": "u",
+   "text": "好, 先帮我列个 outline, 明天早上同步你。",
+   "i": 681
+  },
+  {
+   "day": 53,
+   "time": "10:30",
+   "who": "a",
+   "text": "OK, 等你的 outline。今天有其他事吗？",
+   "i": 682
+  },
+  {
+   "day": 53,
+   "time": "14:00",
+   "who": "u",
+   "text": "下午和 Ravi 过 integration post-mortem, 顺便聊聊 velocity。",
+   "i": 683
+  },
+  {
+   "day": 53,
+   "time": "14:30",
+   "who": "a",
+   "text": "good, 记得问问他 team 的 capacity 状态。",
+   "i": 684
+  },
+  {
+   "day": 53,
+   "time": "18:45",
+   "who": "u",
+   "text": "今天女儿发烧, 晚上带她去看医生, 明天早点到办公室。",
+   "i": 685
+  },
+  {
+   "day": 53,
+   "time": "18:50",
+   "who": "a",
+   "text": "希望她快点好起来 凯哥, 你也早点休息。",
+   "i": 686
+  },
+  {
+   "day": 54,
+   "time": "08:30",
+   "who": "u",
+   "text": "女儿退烧了, 但没去幼儿园, 我妈在家陪着。",
+   "i": 687
+  },
+  {
+   "day": 54,
+   "time": "08:35",
+   "who": "a",
+   "text": "那就好, 你也别太担心。今天有 roadmap deck 的 outline 吗？",
+   "i": 688
+  },
+  {
+   "day": 54,
+   "time": "09:00",
+   "who": "u",
+   "text": "嗯, 发你 outline 了。主要四个板块: Q4 goals, key initiatives, risks, resource needs。",
+   "i": 689
+  },
+  {
+   "day": 54,
+   "time": "09:10",
+   "who": "a",
+   "text": "清楚, 我帮你补几页 slide 草稿。中午前给你第一版。",
+   "i": 690
+  },
+  {
+   "day": 54,
+   "time": "12:00",
+   "who": "u",
+   "text": "收到 draft, 不错。帮我加一页 Aurora 作为 Q4 case study。",
+   "i": 691
+  },
+  {
+   "day": 54,
+   "time": "12:05",
+   "who": "a",
+   "text": "好, 加进去。今晚发你更新版。",
+   "i": 692
+  },
+  {
+   "day": 54,
+   "time": "16:30",
+   "who": "u",
+   "text": "下午和 Omar 打了电话, Singapore 几条 lead 进展不错。",
+   "i": 693
+  },
+  {
+   "day": 54,
+   "time": "16:35",
+   "who": "a",
+   "text": "那很好, Q4 开局有 momentum。",
+   "i": 694
+  },
+  {
+   "day": 54,
+   "time": "18:00",
+   "who": "u",
+   "text": "回家陪女儿, 晚上不加班了。",
+   "i": 695
+  },
+  {
+   "day": 54,
+   "time": "18:05",
+   "who": "a",
+   "text": "enjoy family time, 明天见。",
+   "i": 696
+  },
+  {
+   "day": 55,
+   "time": "09:00",
+   "who": "u",
+   "text": "早上和 Ravi 确认, integration 上线后一切正常, 没有 critical bugs。",
+   "i": 697
+  },
+  {
+   "day": 55,
+   "time": "09:10",
+   "who": "a",
+   "text": "great, 一个 milestone 顺利收尾。",
+   "i": 698
+  },
+  {
+   "day": 55,
+   "time": "13:15",
+   "who": "u",
+   "text": "aicoo, meeting minutes以后开头加个 summary sentence on decisions。",
+   "ev": "e65",
+   "i": 699
+  },
+  {
+   "day": 55,
+   "time": "13:20",
+   "who": "a",
+   "text": "好, 以后所有 minutes 第一句就是 decision summary。记住了。",
+   "i": 700
+  },
+  {
+   "day": 55,
+   "time": "16:30",
+   "who": "u",
+   "text": "Aurora contract signed, 950k deal closed, Lily和我庆祝了一下。",
+   "ev": "e25",
+   "i": 701
+  },
+  {
+   "day": 55,
+   "time": "16:35",
+   "who": "a",
+   "text": "恭喜凯哥！这个 deal 不容易, 值得庆祝！",
+   "i": 702
+  },
+  {
+   "day": 55,
+   "time": "17:00",
+   "who": "u",
+   "text": "明天给 Grace 发个 summary, 顺便把 Q4 数字更新一下。",
+   "i": 703
+  },
+  {
+   "day": 55,
+   "time": "17:05",
+   "who": "a",
+   "text": "需要我帮你起草 email 吗？",
+   "i": 704
+  },
+  {
+   "day": 55,
+   "time": "17:10",
+   "who": "u",
+   "text": "好, 先帮我写个 draft, 我明早改。",
+   "i": 705
+  },
+  {
+   "day": 55,
+   "time": "18:30",
+   "who": "u",
+   "text": "晚上带女儿出去吃, 她非要吃寿司。",
+   "i": 706
+  },
+  {
+   "day": 55,
+   "time": "18:35",
+   "who": "a",
+   "text": "可爱, enjoy! 寿司也是我的最爱。",
+   "i": 707
+  },
+  {
+   "day": 56,
+   "time": "09:00",
+   "who": "u",
+   "text": "周末好, 今天女儿有画画课, 上午陪她。下午有空再弄 deck。",
+   "i": 708
+  },
+  {
+   "day": 56,
+   "time": "09:05",
+   "who": "a",
+   "text": "好节奏, 先休息好。",
+   "i": 709
+  },
+  {
+   "day": 56,
+   "time": "14:25",
+   "who": "u",
+   "text": "Engineering team的velocity up 20% this sprint, Ravi reports。",
+   "ev": "e76",
+   "i": 710
+  },
+  {
+   "day": 56,
+   "time": "14:30",
+   "who": "a",
+   "text": "nice, 团队状态不错！Q4 能撑住。",
+   "i": 711
+  },
+  {
+   "day": 56,
+   "time": "16:00",
+   "who": "u",
+   "text": "deck 更新完了, 发你看看, 明天再细调。",
+   "i": 712
+  },
+  {
+   "day": 56,
+   "time": "16:05",
+   "who": "a",
+   "text": "收到, 我 review 完给你反馈。",
+   "i": 713
+  },
+  {
+   "day": 56,
+   "time": "18:00",
+   "who": "u",
+   "text": "晚上和父母视频, dad 恢复得挺好, 血压也稳。周末好好休息。周末愉快 aicoo。",
+   "i": 714
+  },
+  {
+   "day": 56,
+   "time": "18:05",
+   "who": "a",
+   "text": "周末愉快 凯哥, 下周见！",
+   "i": 715
+  },
+  {
+   "day": 57,
+   "time": "08:15",
+   "who": "u",
+   "text": "aicoo, good morning. Monday again. Q4 roadmap deck needs to be done by Oct 10, need to block time this week.",
+   "i": 716
+  },
+  {
+   "day": 57,
+   "time": "08:16",
+   "who": "a",
+   "text": "早安凯哥。Blocked 2h Thu morning for roadmap work. Anything else?",
+   "i": 717
+  },
+  {
+   "day": 57,
+   "time": "09:30",
+   "who": "u",
+   "text": "Yeah, remind me to talk to Ravi about integration post-mortem. Want to capture learnings before next project.",
+   "i": 718
+  },
+  {
+   "day": 57,
+   "time": "09:31",
+   "who": "a",
+   "text": "Noted. Will remind you after standup.",
+   "i": 719
+  },
+  {
+   "day": 57,
+   "time": "11:00",
+   "who": "u",
+   "text": "Had quick sync with Yuki on dark mode. She said dev started today, target mid-Nov release. Good pace.",
+   "i": 720
+  },
+  {
+   "day": 57,
+   "time": "11:01",
+   "who": "a",
+   "text": "Nice. Phase 1 scope is solid. Let me know if you need timeline tracking.",
+   "i": 721
+  },
+  {
+   "day": 57,
+   "time": "14:20",
+   "who": "u",
+   "text": "Lily sent me the Aurora onboarding docs. Customer seems happy. She's handling it well.",
+   "i": 722
+  },
+  {
+   "day": 57,
+   "time": "14:21",
+   "who": "a",
+   "text": "Great to hear. Strong Q4 start.",
+   "i": 723
+  },
+  {
+   "day": 57,
+   "time": "17:45",
+   "who": "u",
+   "text": "Dad's checkup tomorrow morning, so I might be late. Can you remind me to reschedule my 9am if needed?",
+   "i": 724
+  },
+  {
+   "day": 57,
+   "time": "17:46",
+   "who": "a",
+   "text": "Of course. I'll check in tomorrow.",
+   "i": 725
+  },
+  {
+   "day": 58,
+   "time": "07:50",
+   "who": "u",
+   "text": "Morning. Dad's checkup went well, stable. I'll be in by 10.",
+   "i": 726
+  },
+  {
+   "day": 58,
+   "time": "07:51",
+   "who": "a",
+   "text": "Good news. No rush. Rescheduled your 9am to 11.",
+   "i": 727
+  },
+  {
+   "day": 58,
+   "time": "10:40",
+   "who": "u",
+   "text": "Yuki just confirmed dark mode implementation started today, target mid-Nov release.",
+   "ev": "e26",
+   "i": 728
+  },
+  {
+   "day": 58,
+   "time": "10:41",
+   "who": "a",
+   "text": "Perfect, keeping us on track for Nov launch.",
+   "i": 729
+  },
+  {
+   "day": 58,
+   "time": "11:30",
+   "who": "u",
+   "text": "Meeting with Ben on pricing v3 final review. He's solid. Launch Nov 1, we're set.",
+   "i": 730
+  },
+  {
+   "day": 58,
+   "time": "11:31",
+   "who": "a",
+   "text": "Good. Pricing changes always stressful, but you've got this.",
+   "i": 731
+  },
+  {
+   "day": 58,
+   "time": "15:00",
+   "who": "u",
+   "text": "Omar called, Singapore team wants to expand headcount. Need to discuss with Grace.",
+   "i": 732
+  },
+  {
+   "day": 58,
+   "time": "15:01",
+   "who": "a",
+   "text": "Makes sense given pipeline growth. Want me to prep a quick summary?",
+   "i": 733
+  },
+  {
+   "day": 58,
+   "time": "15:02",
+   "who": "u",
+   "text": "Yeah, put together pipeline numbers from his last report. I'll review tomorrow.",
+   "i": 734
+  },
+  {
+   "day": 59,
+   "time": "09:00",
+   "who": "u",
+   "text": "Another day. Need to finalize Q4 roadmap risk section today.",
+   "i": 735
+  },
+  {
+   "day": 59,
+   "time": "09:01",
+   "who": "a",
+   "text": "Focus on integration dependencies and resourcing. Those are top risks.",
+   "i": 736
+  },
+  {
+   "day": 59,
+   "time": "10:50",
+   "who": "u",
+   "text": "Yuki wants to test dark mode with 50 beta users next week. Good idea, catch issues early.",
+   "ev": "e77",
+   "i": 737
+  },
+  {
+   "day": 59,
+   "time": "10:51",
+   "who": "a",
+   "text": "Smart. 50 is a good sample size. I'll help track feedback if needed.",
+   "i": 738
+  },
+  {
+   "day": 59,
+   "time": "12:30",
+   "who": "u",
+   "text": "Lunch with Ravi, discussed integration post-mortem. He'll have a doc by Friday.",
+   "i": 739
+  },
+  {
+   "day": 59,
+   "time": "12:31",
+   "who": "a",
+   "text": "Good. Learnings will help next quarter's projects.",
+   "i": 740
+  },
+  {
+   "day": 59,
+   "time": "15:20",
+   "who": "u",
+   "text": "Emily Tan just sent a follow-up email. She's keen to join. Hope we can close soon.",
+   "i": 741
+  },
+  {
+   "day": 59,
+   "time": "15:21",
+   "who": "a",
+   "text": "She was impressive in the interview. Fingers crossed.",
+   "i": 742
+  },
+  {
+   "day": 59,
+   "time": "18:00",
+   "who": "u",
+   "text": "Long day. Home now. Dad is watching TV, daughter drawing. Peaceful.",
+   "i": 743
+  },
+  {
+   "day": 59,
+   "time": "18:01",
+   "who": "a",
+   "text": "Enjoy the evening. You deserve it.",
+   "i": 744
+  },
+  {
+   "day": 60,
+   "time": "08:30",
+   "who": "u",
+   "text": "Morning! Oct 1 already. Q4 starts today. Feeling good.",
+   "i": 745
+  },
+  {
+   "day": 60,
+   "time": "08:31",
+   "who": "a",
+   "text": "New quarter, new energy. Go get 'em, 凯哥.",
+   "i": 746
+  },
+  {
+   "day": 60,
+   "time": "10:00",
+   "who": "u",
+   "text": "HR just confirmed Emily Tan accepted the PM offer. Start date Oct 26. Great hire.",
+   "ev": "e27",
+   "i": 747
+  },
+  {
+   "day": 60,
+   "time": "10:01",
+   "who": "a",
+   "text": "Awesome! Emily will be a strong addition. Team's growing nicely.",
+   "i": 748
+  },
+  {
+   "day": 60,
+   "time": "11:15",
+   "who": "u",
+   "text": "Now I need to think about onboarding plan for her. First week, introductions, product overview.",
+   "i": 749
+  },
+  {
+   "day": 60,
+   "time": "11:16",
+   "who": "a",
+   "text": "I can draft a 30-60-90 day plan if you want a starting point.",
+   "i": 750
+  },
+  {
+   "day": 60,
+   "time": "11:17",
+   "who": "u",
+   "text": "Yeah, do that. Thanks.",
+   "i": 751
+  },
+  {
+   "day": 60,
+   "time": "14:30",
+   "who": "u",
+   "text": "Q4 roadmap deck is almost done. Just need to polish risk section and add timeline visuals.",
+   "i": 752
+  },
+  {
+   "day": 60,
+   "time": "14:31",
+   "who": "a",
+   "text": "You're ahead of schedule. Grace will appreciate it.",
+   "i": 753
+  },
+  {
+   "day": 60,
+   "time": "16:00",
+   "who": "u",
+   "text": "aicoo, 别再用stickers了, just text please.",
+   "ev": "e59",
+   "i": 754
+  },
+  {
+   "day": 60,
+   "time": "16:01",
+   "who": "a",
+   "text": "Sure, I'll stop using stickers in our chats.",
+   "ev": "e60",
+   "i": 755
+  },
+  {
+   "day": 60,
+   "time": "17:30",
+   "who": "u",
+   "text": "Wrapped up the day. Headed home. Q4 feels solid so far.",
+   "i": 756
+  },
+  {
+   "day": 60,
+   "time": "17:31",
+   "who": "a",
+   "text": "Well earned. Rest up, 凯哥.",
+   "i": 757
+  },
+  {
+   "day": 61,
+   "time": "08:15",
+   "who": "u",
+   "text": "morning aicoo, Q4 deck almost done, need to finalize risk section today",
+   "i": 758
+  },
+  {
+   "day": 61,
+   "time": "08:16",
+   "who": "a",
+   "text": "早上好凯哥，加油搞定risk部分，下午我帮你检查一遍？",
+   "i": 759
+  },
+  {
+   "day": 61,
+   "time": "09:30",
+   "who": "u",
+   "text": "yeah that'd be great, around 3pm? also Yuki's dark mode beta signups coming in, 12 users already",
+   "i": 760
+  },
+  {
+   "day": 61,
+   "time": "09:31",
+   "who": "a",
+   "text": "3pm没问题。beta start很顺利，50人target应该很快能到",
+   "i": 761
+  },
+  {
+   "day": 61,
+   "time": "12:00",
+   "who": "u",
+   "text": "lunch break, 女儿学校画画得了奖, 开心",
+   "i": 762
+  },
+  {
+   "day": 61,
+   "time": "12:01",
+   "who": "a",
+   "text": "太棒了！给小朋友点赞 🎉",
+   "i": 763
+  },
+  {
+   "day": 61,
+   "time": "15:00",
+   "who": "u",
+   "text": "deck risk section done, 发你了, 看看有没有遗漏",
+   "i": 764
+  },
+  {
+   "day": 61,
+   "time": "15:02",
+   "who": "a",
+   "text": "收到，我马上看，十分钟后给你反馈",
+   "i": 765
+  },
+  {
+   "day": 61,
+   "time": "16:30",
+   "who": "u",
+   "text": "Ravi说integration稳定了, 没出什么bug, 可以drop监控了",
+   "i": 766
+  },
+  {
+   "day": 61,
+   "time": "16:31",
+   "who": "a",
+   "text": "好消息，integration终于稳了，省心不少",
+   "i": 767
+  },
+  {
+   "day": 61,
+   "time": "18:00",
+   "who": "u",
+   "text": "收工, 今天效率还行, 明天继续",
+   "i": 768
+  },
+  {
+   "day": 61,
+   "time": "18:01",
+   "who": "a",
+   "text": "早点休息凯哥，明天见",
+   "i": 769
+  },
+  {
+   "day": 62,
+   "time": "08:20",
+   "who": "u",
+   "text": "Grace approved additional 100k budget for Q4 marketing",
+   "ev": "e78",
+   "i": 770
+  },
+  {
+   "day": 62,
+   "time": "08:21",
+   "who": "a",
+   "text": "太好了！100k够Omar招人+跑campaign了",
+   "i": 771
+  },
+  {
+   "day": 62,
+   "time": "09:00",
+   "who": "u",
+   "text": "exactly, 我跟Omar说一下, 让他赶紧plan",
+   "i": 772
+  },
+  {
+   "day": 62,
+   "time": "10:30",
+   "who": "u",
+   "text": "Omar回复了, 说打算用这笔钱做two SEA webinars和一个local case study",
+   "i": 773
+  },
+  {
+   "day": 62,
+   "time": "10:31",
+   "who": "a",
+   "text": "计划不错，webinar转化率一直很好",
+   "i": 774
+  },
+  {
+   "day": 62,
+   "time": "14:00",
+   "who": "u",
+   "text": "Yuki说beta user到30了, 明天能到50",
+   "i": 775
+  },
+  {
+   "day": 62,
+   "time": "14:01",
+   "who": "a",
+   "text": "速度可以，dark mode反馈应该很快就来了",
+   "i": 776
+  },
+  {
+   "day": 62,
+   "time": "17:45",
+   "who": "u",
+   "text": "今天早点走, 带女儿去上画画课",
+   "i": 777
+  },
+  {
+   "day": 62,
+   "time": "17:46",
+   "who": "a",
+   "text": "享受亲子时间，明天见凯哥",
+   "i": 778
+  },
+  {
+   "day": 63,
+   "time": "09:00",
+   "who": "u",
+   "text": "Friday, Q3 ended, revenue final 2.35M, 差一点点到target, Grace not thrilled",
+   "ev": "e28",
+   "i": 779
+  },
+  {
+   "day": 63,
+   "time": "09:01",
+   "who": "a",
+   "text": "2.35M其实也不错了，就差50k，Q4加油补回来",
+   "i": 780
+  },
+  {
+   "day": 63,
+   "time": "09:55",
+   "who": "u",
+   "text": "yeah 但Grace就是追求完美的人, 我得重新align一下Q4 forecast",
+   "i": 781
+  },
+  {
+   "day": 63,
+   "time": "09:56",
+   "who": "a",
+   "text": "需要我帮你整理Q4 pipeline数据吗？",
+   "i": 782
+  },
+  {
+   "day": 63,
+   "time": "10:30",
+   "who": "u",
+   "text": "好, 把Aurora 950k和其他deal列一下, 我下午用",
+   "i": 783
+  },
+  {
+   "day": 63,
+   "time": "10:31",
+   "who": "a",
+   "text": "马上整理，半小时后发你",
+   "i": 784
+  },
+  {
+   "day": 63,
+   "time": "12:00",
+   "who": "u",
+   "text": "father checkup今天, 下午请假两小时",
+   "i": 785
+  },
+  {
+   "day": 63,
+   "time": "12:01",
+   "who": "a",
+   "text": "希望一切顺利，叔叔身体稳定就好",
+   "i": 786
+  },
+  {
+   "day": 63,
+   "time": "15:30",
+   "who": "u",
+   "text": "checkup结果不错, 医生说他恢复得挺好, 可以减药量了",
+   "i": 787
+  },
+  {
+   "day": 63,
+   "time": "15:31",
+   "who": "a",
+   "text": "太好了，这是个好消息，周末可以放松一下",
+   "i": 788
+  },
+  {
+   "day": 63,
+   "time": "17:00",
+   "who": "u",
+   "text": "Ben说pricing page A/B test准备差不多了, 下周启动",
+   "i": 789
+  },
+  {
+   "day": 63,
+   "time": "17:01",
+   "who": "a",
+   "text": "期待结果，新定价$44应该会有正面反应",
+   "i": 790
+  },
+  {
+   "day": 63,
+   "time": "18:30",
+   "who": "u",
+   "text": "收工, weekend finally",
+   "i": 791
+  },
+  {
+   "day": 63,
+   "time": "18:31",
+   "who": "a",
+   "text": "周末愉快凯哥，好好休息",
+   "i": 792
+  },
+  {
+   "day": 64,
+   "time": "10:00",
+   "who": "u",
+   "text": "Monday morning, 周末休息得不错, 女儿画画又进步了",
+   "i": 793
+  },
+  {
+   "day": 64,
+   "time": "10:01",
+   "who": "a",
+   "text": "真好，新的一周继续加油",
+   "i": 794
+  },
+  {
+   "day": 64,
+   "time": "11:00",
+   "who": "u",
+   "text": "跟Grace约了周三review Q4 deck, 今天再润色一下risk section",
+   "i": 795
+  },
+  {
+   "day": 64,
+   "time": "11:01",
+   "who": "a",
+   "text": "好的，我帮你再过一遍risk部分，确保没漏洞",
+   "i": 796
+  },
+  {
+   "day": 64,
+   "time": "14:00",
+   "who": "u",
+   "text": "Yuki说dark mode beta反馈不错, 20个用户里16个positive",
+   "i": 797
+  },
+  {
+   "day": 64,
+   "time": "14:01",
+   "who": "a",
+   "text": "高满意度，看来phase 1 scope是对的",
+   "i": 798
+  },
+  {
+   "day": 64,
+   "time": "15:10",
+   "who": "u",
+   "text": "Ben's new pricing page A/B test starts Nov 3",
+   "ev": "e79",
+   "i": 799
+  },
+  {
+   "day": 64,
+   "time": "15:11",
+   "who": "a",
+   "text": "收到，我记一下，Nov 3开始A/B test",
+   "i": 800
+  },
+  {
+   "day": 64,
+   "time": "16:30",
+   "who": "u",
+   "text": "Omar发来SEA Q4 pipeline update, 三个deal在negotiation阶段, total 200k",
+   "i": 801
+  },
+  {
+   "day": 64,
+   "time": "16:31",
+   "who": "a",
+   "text": "进展不错，加上marketing budget应该能拉更多",
+   "i": 802
+  },
+  {
+   "day": 64,
+   "time": "18:00",
+   "who": "u",
+   "text": "今天就这样吧, 明天继续finetune deck",
+   "i": 803
+  },
+  {
+   "day": 64,
+   "time": "18:01",
+   "who": "a",
+   "text": "好的凯哥，明天见",
+   "i": 804
+  },
+  {
+   "day": 65,
+   "time": "07:15",
+   "who": "u",
+   "text": "aicoo morning. 今天飞singapore, regional conference, 下午speaker session on saas trends。帮我check下flight departure time, 我记得是10:20。",
+   "i": 805
+  },
+  {
+   "day": 65,
+   "time": "07:16",
+   "who": "a",
+   "text": "morning 凯哥。你的航班是10:20 departure, gate 12, 现在on time。safe flight!",
+   "i": 806
+  },
+  {
+   "day": 65,
+   "time": "09:30",
+   "who": "u",
+   "text": "check in done, 在lounge里赶一下deck。conference的audience大概200人, 想highlight我们pricing change和dark mode rollout。",
+   "i": 807
+  },
+  {
+   "day": 65,
+   "time": "09:31",
+   "who": "a",
+   "text": "sounds like a solid angle. 要我把你之前的pricing narrative notes调出来参考吗?",
+   "i": 808
+  },
+  {
+   "day": 65,
+   "time": "09:33",
+   "who": "u",
+   "text": "不用, 我记得内容。just want to make sure timing: 我slot是下午2点, 15min talk + 5min q&a?",
+   "i": 809
+  },
+  {
+   "day": 65,
+   "time": "09:34",
+   "who": "a",
+   "text": "对, 2pm-2:20pm, room B2。你之前confirm过schedule。",
+   "i": 810
+  },
+  {
+   "day": 65,
+   "time": "14:50",
+   "who": "u",
+   "text": "刚讲完, 反应不错。有几个potential leads过来聊了, 一个fintech公司对dark mode感兴趣, 另一个问我们mobile roadmap。flew to singapore again for regional conference, spoke on saas trends.",
+   "ev": "e29",
+   "i": 811
+  },
+  {
+   "day": 65,
+   "time": "14:52",
+   "who": "a",
+   "text": "nice 凯哥! 那正好和omar的pipeline对接一下, 他应该也在现场吧?",
+   "i": 812
+  },
+  {
+   "day": 65,
+   "time": "15:00",
+   "who": "u",
+   "text": "对, omar在另一个session。晚上一起吃饭, 聊一下那三个新sales hire的进展。",
+   "i": 813
+  },
+  {
+   "day": 65,
+   "time": "18:30",
+   "who": "u",
+   "text": "和omar dinner结束了, 他说singapore team pipeline strong, 年底前能hit target。明天还有几个1:1 meeting。",
+   "i": 814
+  },
+  {
+   "day": 65,
+   "time": "18:32",
+   "who": "a",
+   "text": "great to hear. 早点休息, 明天行程也满。",
+   "i": 815
+  },
+  {
+   "day": 66,
+   "time": "08:45",
+   "who": "u",
+   "text": "aicoo morning。今天和几个conference attendee coffee chat, 然后下午回office和omar team sync。",
+   "i": 816
+  },
+  {
+   "day": 66,
+   "time": "08:46",
+   "who": "a",
+   "text": "morning 凯哥。今天气温28度, 带伞。下午sync我帮你记action items。",
+   "i": 817
+  },
+  {
+   "day": 66,
+   "time": "10:30",
+   "who": "u",
+   "text": "刚才coffee chat聊到一个logistics company, 100 seats, 对我们的tracking module很感兴趣。我把lead转给omar了。",
+   "i": 818
+  },
+  {
+   "day": 66,
+   "time": "10:32",
+   "who": "a",
+   "text": "good catch. 我加到omar的pipeline tracker里。",
+   "i": 819
+  },
+  {
+   "day": 66,
+   "time": "12:00",
+   "who": "u",
+   "text": "对了, lily和我说她准备转enterprise sales full time。今天和grace对齐了, lilly moving to enterprise sales full-time, handover to emily this week. emily thompson start date 10/26正好接上。",
+   "ev": "e80",
+   "i": 820
+  },
+  {
+   "day": 66,
+   "time": "12:02",
+   "who": "a",
+   "text": "那lily的current accounts呢? ben暂时cover?",
+   "i": 821
+  },
+  {
+   "day": 66,
+   "time": "12:05",
+   "who": "u",
+   "text": "对, ben接手mid-market accounts, emily focus on enterprise after onboarding。lily会做一周handover doc。",
+   "i": 822
+  },
+  {
+   "day": 66,
+   "time": "15:00",
+   "who": "u",
+   "text": "和omar team sync完了。他们q4 pipeline看起来不错, 但有个问题: 有两个deal需要custom integration, 得和ravi协调resource。",
+   "i": 823
+  },
+  {
+   "day": 66,
+   "time": "15:02",
+   "who": "a",
+   "text": "我帮你和ravi约个时间? 这周还是下周?",
+   "i": 824
+  },
+  {
+   "day": 66,
+   "time": "15:05",
+   "who": "u",
+   "text": "下周吧, 等我回上海。明天我还有半天conference, 然后下午飞回。",
+   "i": 825
+  },
+  {
+   "day": 66,
+   "time": "20:00",
+   "who": "u",
+   "text": "一天下来有点累。明天上午还有两个session, 然后赶飞机。",
+   "i": 826
+  },
+  {
+   "day": 66,
+   "time": "20:01",
+   "who": "a",
+   "text": "辛苦了凯哥。早点睡, 我帮你设置明早7点闹钟提醒pack行李。",
+   "i": 827
+  },
+  {
+   "day": 67,
+   "time": "09:00",
+   "who": "u",
+   "text": "aicoo morning。上午最后一个session结束了, 准备去机场。回上海下午3点到。",
+   "i": 828
+  },
+  {
+   "day": 67,
+   "time": "09:01",
+   "who": "a",
+   "text": "morning! flight是12:30 departure, gate 7, on time。到上海我来提醒你。",
+   "i": 829
+  },
+  {
+   "day": 67,
+   "time": "10:30",
+   "who": "u",
+   "text": "在taxi去机场的路上。刚才收到老爸电话, 他明天要follow-up appointment。need take half day off tomorrow, 老爸要follow-up appointment at hospital。",
+   "ev": "e41",
+   "i": 830
+  },
+  {
+   "day": 67,
+   "time": "10:32",
+   "who": "a",
+   "text": "当然凯哥。明天的会议我帮你reschedule或cancel, 你告诉我哪些不能miss。",
+   "i": 831
+  },
+  {
+   "day": 67,
+   "time": "10:35",
+   "who": "u",
+   "text": "上午10点有个和yuki的dark mode beta review, 那个不能动。下午2点ben的pricing update可以移到周四。",
+   "i": 832
+  },
+  {
+   "day": 67,
+   "time": "10:36",
+   "who": "a",
+   "text": "好, 我帮你把ben的meeting移到周四下午2点, 其他下午的meeting都block了。明天上午你参加yuki的会, 下午去医院。",
+   "i": 833
+  },
+  {
+   "day": 67,
+   "time": "15:30",
+   "who": "u",
+   "text": "到上海了。明天下午陪老爸, 希望检查顺利。",
+   "i": 834
+  },
+  {
+   "day": 67,
+   "time": "15:32",
+   "who": "a",
+   "text": "会的。你爸爸最近稳定很多, 应该没事。",
+   "i": 835
+  },
+  {
+   "day": 67,
+   "time": "20:00",
+   "who": "u",
+   "text": "晚上和女儿玩了会儿, 她画了一幅画给我, 说欢迎回家。心情好多了。",
+   "i": 836
+  },
+  {
+   "day": 67,
+   "time": "20:02",
+   "who": "a",
+   "text": "好暖。你女儿真有爱。明天一切都会顺利的。",
+   "i": 837
+  },
+  {
+   "day": 68,
+   "time": "08:30",
+   "who": "u",
+   "text": "aicoo morning。今天上午先和yuki sync dark mode beta feedback。",
+   "i": 838
+  },
+  {
+   "day": 68,
+   "time": "08:31",
+   "who": "a",
+   "text": "morning 凯哥。yuki的会10点, 我已经准备好agenda了。beta user feedback summary昨天她发了, 你看看?",
+   "i": 839
+  },
+  {
+   "day": 68,
+   "time": "08:35",
+   "who": "u",
+   "text": "看了, 整体positive, 有几个usability tweak要讨论。我10点前先过一遍。",
+   "i": 840
+  },
+  {
+   "day": 68,
+   "time": "10:00",
+   "who": "u",
+   "text": "和yuki sync完。dark mode beta feedback不错, 她需要两周时间做iteration, 然后full rollout planning。",
+   "i": 841
+  },
+  {
+   "day": 68,
+   "time": "10:02",
+   "who": "a",
+   "text": "great progress. 那timeline still on track for mid-nov?",
+   "i": 842
+  },
+  {
+   "day": 68,
+   "time": "10:05",
+   "who": "u",
+   "text": "对, 应该可以。下午陪老爸去hospital, 你帮我block time了?",
+   "i": 843
+  },
+  {
+   "day": 68,
+   "time": "10:06",
+   "who": "a",
+   "text": "是的, 下午全部blocked。ben的pricing update移到周四下午2点了。",
+   "i": 844
+  },
+  {
+   "day": 68,
+   "time": "11:25",
+   "who": "u",
+   "text": "刚收到ben的消息, pricing launch delayed to nov 15, ben需要更多testing time。a/b test结果还没出来, 他不想rush。",
+   "ev": "e30",
+   "i": 845
+  },
+  {
+   "day": 68,
+   "time": "11:27",
+   "who": "a",
+   "text": "understood。那之前的nov 1 launch date要调整了。需要我通知grace和其他stakeholder吗?",
+   "i": 846
+  },
+  {
+   "day": 68,
+   "time": "11:30",
+   "who": "u",
+   "text": "等我明天update grace。今天先focus on老爸的事。下午医院回来我再和ben sync细节。",
+   "i": 847
+  },
+  {
+   "day": 68,
+   "time": "12:00",
+   "who": "u",
+   "text": "准备出发了。希望检查结果好。",
+   "i": 848
+  },
+  {
+   "day": 68,
+   "time": "12:01",
+   "who": "a",
+   "text": "凯哥, 一切都会好的。有任何update随时告诉我。",
+   "i": 849
+  },
+  {
+   "day": 68,
+   "time": "16:30",
+   "who": "u",
+   "text": "从医院回来了。老爸检查结果稳定, 医生说继续观察。下周还有一个follow-up。",
+   "i": 850
+  },
+  {
+   "day": 68,
+   "time": "16:32",
+   "who": "a",
+   "text": "好消息, 稳定就好。下周我帮你记着。",
+   "i": 851
+  },
+  {
+   "day": 68,
+   "time": "17:00",
+   "who": "u",
+   "text": "今天早点收工, 陪家人吃晚饭。明天再和grace对齐pricing delay。",
+   "i": 852
+  },
+  {
+   "day": 68,
+   "time": "17:02",
+   "who": "a",
+   "text": "好的凯哥, 好好休息。明天见。",
+   "i": 853
+  },
+  {
+   "day": 69,
+   "time": "09:30",
+   "who": "u",
+   "text": "Morning aicoo. Today Oct 10, Q4 roadmap deck to Grace. Nervous.",
+   "i": 854
+  },
+  {
+   "day": 69,
+   "time": "09:32",
+   "who": "a",
+   "text": "早上好凯哥。deck准备好了，Grace会 appreciate的。",
+   "i": 855
+  },
+  {
+   "day": 69,
+   "time": "09:35",
+   "who": "u",
+   "text": "Customer feedback on dark mode: most love it, few want toggle option.",
+   "ev": "e81",
+   "i": 856
+  },
+  {
+   "day": 69,
+   "time": "09:36",
+   "who": "a",
+   "text": "Good signal. Yuki can consider toggle for phase 2.",
+   "i": 857
+  },
+  {
+   "day": 69,
+   "time": "10:00",
+   "who": "u",
+   "text": "Presenting to Grace at 11. Wish me luck.",
+   "i": 858
+  },
+  {
+   "day": 69,
+   "time": "10:02",
+   "who": "a",
+   "text": "You got this. Deep breath. The risk section is solid.",
+   "i": 859
+  },
+  {
+   "day": 69,
+   "time": "11:30",
+   "who": "u",
+   "text": "Went well. Grace approved the roadmap. Few tweaks on timeline.",
+   "i": 860
+  },
+  {
+   "day": 69,
+   "time": "11:32",
+   "who": "a",
+   "text": "Great news! Which tweaks?",
+   "i": 861
+  },
+  {
+   "day": 69,
+   "time": "11:35",
+   "who": "u",
+   "text": "Dark mode beta feedback by Nov 7 instead of Nov 1.",
+   "i": 862
+  },
+  {
+   "day": 69,
+   "time": "12:00",
+   "who": "u",
+   "text": "Lunch with Yuki. Discuss toggle option for dark mode.",
+   "i": 863
+  },
+  {
+   "day": 69,
+   "time": "13:00",
+   "who": "u",
+   "text": "Yuki says toggle is easy. She'll add to backlog for phase 2.",
+   "i": 864
+  },
+  {
+   "day": 69,
+   "time": "14:00",
+   "who": "u",
+   "text": "Omar pinged. Singapore pipeline good. Wants to discuss Q4 headcount.",
+   "i": 865
+  },
+  {
+   "day": 69,
+   "time": "14:30",
+   "who": "a",
+   "text": "Remember headcount request needs Grace approval. You have data ready?",
+   "i": 866
+  },
+  {
+   "day": 69,
+   "time": "15:00",
+   "who": "u",
+   "text": "Yeah, I have pipeline numbers. Will prep a case this week.",
+   "i": 867
+  },
+  {
+   "day": 69,
+   "time": "16:00",
+   "who": "u",
+   "text": "Dad checkup today. Stable. Blood pressure normal.",
+   "i": 868
+  },
+  {
+   "day": 69,
+   "time": "16:02",
+   "who": "a",
+   "text": "Very glad to hear that. One less worry.",
+   "i": 869
+  },
+  {
+   "day": 69,
+   "time": "17:00",
+   "who": "u",
+   "text": "Picking up daughter from school. She wants to draw tonight.",
+   "i": 870
+  },
+  {
+   "day": 69,
+   "time": "17:02",
+   "who": "a",
+   "text": "Enjoy the art time. You deserve it.",
+   "i": 871
+  },
+  {
+   "day": 70,
+   "time": "08:00",
+   "who": "u",
+   "text": "Morning. Sunday Oct 11. Lazy morning with family.",
+   "i": 872
+  },
+  {
+   "day": 70,
+   "time": "08:10",
+   "who": "u",
+   "text": "Remember Aurora deal名字是Aurora Health, not Aurora TTech，差点confuse.",
+   "ev": "e31",
+   "i": 873
+  },
+  {
+   "day": 70,
+   "time": "08:12",
+   "who": "a",
+   "text": "Good catch. Aurora Health all documents.",
+   "i": 874
+  },
+  {
+   "day": 70,
+   "time": "09:00",
+   "who": "u",
+   "text": "写customer feedback summary时，always group by feature first.",
+   "ev": "e66",
+   "i": 875
+  },
+  {
+   "day": 70,
+   "time": "09:02",
+   "who": "a",
+   "text": "Noted. Feature-first then sentiment.",
+   "i": 876
+  },
+  {
+   "day": 70,
+   "time": "10:00",
+   "who": "u",
+   "text": "Dad called. Medication reduced again. Feeling better.",
+   "i": 877
+  },
+  {
+   "day": 70,
+   "time": "10:02",
+   "who": "a",
+   "text": "That's wonderful progress.",
+   "i": 878
+  },
+  {
+   "day": 70,
+   "time": "11:00",
+   "who": "u",
+   "text": "Reading customer feedback. Dark mode toggle request coming from 4 users.",
+   "i": 879
+  },
+  {
+   "day": 70,
+   "time": "11:30",
+   "who": "u",
+   "text": "Daughter wants to go to park. Heading out.",
+   "i": 880
+  },
+  {
+   "day": 70,
+   "time": "11:32",
+   "who": "a",
+   "text": "Have a great time. Weather looks nice today.",
+   "i": 881
+  },
+  {
+   "day": 70,
+   "time": "15:00",
+   "who": "u",
+   "text": "Back home. Relaxing with tea. Thinking about Q4 priorities.",
+   "i": 882
+  },
+  {
+   "day": 70,
+   "time": "15:30",
+   "who": "u",
+   "text": "Tomorrow: pricing page A/B test kickoff with Ben.",
+   "i": 883
+  },
+  {
+   "day": 70,
+   "time": "15:32",
+   "who": "a",
+   "text": "Reminder set. Ben prepared?",
+   "i": 884
+  },
+  {
+   "day": 70,
+   "time": "16:00",
+   "who": "u",
+   "text": "Ben shared draft. Looks clean. A/B starts Nov 3 as planned.",
+   "i": 885
+  },
+  {
+   "day": 70,
+   "time": "18:00",
+   "who": "u",
+   "text": "Dinner with family. Good day.",
+   "i": 886
+  },
+  {
+   "day": 70,
+   "time": "18:02",
+   "who": "a",
+   "text": "Rest well. Monday is coming.",
+   "i": 887
+  },
+  {
+   "day": 71,
+   "time": "08:30",
+   "who": "u",
+   "text": "Monday Oct 12. Back to work. Week ahead is packed.",
+   "i": 888
+  },
+  {
+   "day": 71,
+   "time": "09:00",
+   "who": "u",
+   "text": "Sync with Ravi. Integration performance update.",
+   "i": 889
+  },
+  {
+   "day": 71,
+   "time": "09:15",
+   "who": "u",
+   "text": "Ravi说有security audit follow-up。Minor issue, patching today.",
+   "i": 890
+  },
+  {
+   "day": 71,
+   "time": "09:30",
+   "who": "u",
+   "text": "Dark mode beta feedback from 35 users now. Mostly positive.",
+   "i": 891
+  },
+  {
+   "day": 71,
+   "time": "10:00",
+   "who": "u",
+   "text": "Ben in. Pricing page A/B test plan finalized. Launch Nov 3.",
+   "i": 892
+  },
+  {
+   "day": 71,
+   "time": "10:30",
+   "who": "u",
+   "text": "Lily handover to Emily going smoothly. Emily starts Oct 26.",
+   "i": 893
+  },
+  {
+   "day": 71,
+   "time": "11:00",
+   "who": "u",
+   "text": "Omar call. He wants to hire 2 sales in Singapore by Dec.",
+   "i": 894
+  },
+  {
+   "day": 71,
+   "time": "11:30",
+   "who": "u",
+   "text": "Need to prep headcount proposal for Grace.",
+   "i": 895
+  },
+  {
+   "day": 71,
+   "time": "12:00",
+   "who": "u",
+   "text": "Quick lunch. Salad.",
+   "i": 896
+  },
+  {
+   "day": 71,
+   "time": "13:00",
+   "who": "u",
+   "text": "Emily sends intro email. Good energy.",
+   "i": 897
+  },
+  {
+   "day": 71,
+   "time": "14:00",
+   "who": "u",
+   "text": "Ravi说integration performance improved by 30% after fix.",
+   "ev": "e82",
+   "i": 898
+  },
+  {
+   "day": 71,
+   "time": "14:02",
+   "who": "a",
+   "text": "Great to hear. Solid improvement.",
+   "i": 899
+  },
+  {
+   "day": 71,
+   "time": "15:00",
+   "who": "u",
+   "text": "Prep for tomorrow's customer call. Aurora Health check-in.",
+   "i": 900
+  },
+  {
+   "day": 71,
+   "time": "15:30",
+   "who": "u",
+   "text": "Daughter's school called. She's fine, just a small cough.",
+   "i": 901
+  },
+  {
+   "day": 71,
+   "time": "15:32",
+   "who": "a",
+   "text": "Hope she's okay. Watch for fever.",
+   "i": 902
+  },
+  {
+   "day": 71,
+   "time": "16:00",
+   "who": "u",
+   "text": "Dad's checkup next week. Scheduled for Thursday.",
+   "i": 903
+  },
+  {
+   "day": 71,
+   "time": "16:30",
+   "who": "u",
+   "text": "Grace pinged. Q4 offsite planning.",
+   "i": 904
+  },
+  {
+   "day": 71,
+   "time": "17:00",
+   "who": "u",
+   "text": "Leaving office. Dinner with family.",
+   "i": 905
+  },
+  {
+   "day": 71,
+   "time": "17:02",
+   "who": "a",
+   "text": "Have a good evening. Rest up.",
+   "i": 906
+  },
+  {
+   "day": 72,
+   "time": "08:00",
+   "who": "u",
+   "text": "Tuesday Oct 13. Morning standup off to good start.",
+   "i": 907
+  },
+  {
+   "day": 72,
+   "time": "09:00",
+   "who": "u",
+   "text": "Customer call with Aurora Health at 10. Prepping.",
+   "i": 908
+  },
+  {
+   "day": 72,
+   "time": "10:00",
+   "who": "u",
+   "text": "Aurora call went well. They're happy with progress.",
+   "i": 909
+  },
+  {
+   "day": 72,
+   "time": "10:30",
+   "who": "u",
+   "text": "Custom module timeline confirmed. Q1 2027 a good call.",
+   "i": 910
+  },
+  {
+   "day": 72,
+   "time": "11:00",
+   "who": "u",
+   "text": "Yuki shares dark mode beta survey results. 87% satisfied.",
+   "i": 911
+  },
+  {
+   "day": 72,
+   "time": "11:30",
+   "who": "u",
+   "text": "Ben reports 4 bugs on pricing page. Fixing before A/B.",
+   "i": 912
+  },
+  {
+   "day": 72,
+   "time": "12:00",
+   "who": "u",
+   "text": "Lily calls. Finalizing enterprise handover doc.",
+   "i": 913
+  },
+  {
+   "day": 72,
+   "time": "12:35",
+   "who": "u",
+   "text": "Q4 planning offsite in Hangzhou, Oct 20-21, Grace booked 民宿。",
+   "ev": "e32",
+   "i": 914
+  },
+  {
+   "day": 72,
+   "time": "12:37",
+   "who": "a",
+   "text": "Sounds nice. Good setting for strategy.",
+   "i": 915
+  },
+  {
+   "day": 72,
+   "time": "13:00",
+   "who": "u",
+   "text": "Need to prep agenda. Will involve Yuki, Ravi, Omar.",
+   "i": 916
+  },
+  {
+   "day": 72,
+   "time": "14:00",
+   "who": "u",
+   "text": "Daughter's cough persists. Taking her to doctor after work.",
+   "i": 917
+  },
+  {
+   "day": 72,
+   "time": "14:02",
+   "who": "a",
+   "text": "Hope it's nothing serious. Let me know.",
+   "i": 918
+  },
+  {
+   "day": 72,
+   "time": "15:00",
+   "who": "u",
+   "text": "Reviewing customer feedback summary with team. Grouping by feature now.",
+   "i": 919
+  },
+  {
+   "day": 72,
+   "time": "15:30",
+   "who": "u",
+   "text": "Ravi reports no new integration issues. Stable.",
+   "i": 920
+  },
+  {
+   "day": 72,
+   "time": "16:00",
+   "who": "u",
+   "text": "Grace confirms offsite dates. Will send invite.",
+   "i": 921
+  },
+  {
+   "day": 72,
+   "time": "16:30",
+   "who": "u",
+   "text": "Leaving early for doctor visit with daughter.",
+   "i": 922
+  },
+  {
+   "day": 72,
+   "time": "16:32",
+   "who": "a",
+   "text": "Take care. Family first.",
+   "i": 923
+  },
+  {
+   "day": 72,
+   "time": "18:00",
+   "who": "u",
+   "text": "Doctor says it's just mild cold. Rest and fluids.",
+   "i": 924
+  },
+  {
+   "day": 72,
+   "time": "18:02",
+   "who": "a",
+   "text": "Relieved. Get some rest yourself.",
+   "i": 925
+  },
+  {
+   "day": 73,
+   "time": "08:15",
+   "who": "u",
+   "text": "早上好 aicoo，今天周三，帮我看下今天calendar",
+   "i": 926
+  },
+  {
+   "day": 73,
+   "time": "08:15",
+   "who": "a",
+   "text": "早上好凯哥，今天有三个主要事项：上午10点你和Ravi的integration sync，下午2点Lily的Aurora handover check-in，下午4点Ben的pricing A/B test prep",
+   "i": 927
+  },
+  {
+   "day": 73,
+   "time": "08:16",
+   "who": "u",
+   "text": "Ravi那个integration sync移到明天吧，他跟我说今天有个prod issue要处理",
+   "i": 928
+  },
+  {
+   "day": 73,
+   "time": "08:16",
+   "who": "a",
+   "text": "好的，帮你移到明天同一时间，我会通知Ravi",
+   "i": 929
+  },
+  {
+   "day": 73,
+   "time": "10:20",
+   "who": "u",
+   "text": "aicoo记一下，Grace asked for a summary of Q3 customer wins by Oct 25，我周末得抽时间整理",
+   "ev": "e83",
+   "i": 930
+  },
+  {
+   "day": 73,
+   "time": "10:21",
+   "who": "a",
+   "text": "记下了，Oct 25前交Q3 customer wins summary给Grace，要不要我周五下午提醒你开始准备？",
+   "i": 931
+  },
+  {
+   "day": 73,
+   "time": "10:22",
+   "who": "u",
+   "text": "对，周五下午3点提醒我，这样周末可以安心写",
+   "i": 932
+  },
+  {
+   "day": 73,
+   "time": "13:45",
+   "who": "u",
+   "text": "刚吃完午饭，Lily发消息说Aurora那边有个新需求，analytics dashboard想加export功能",
+   "i": 933
+  },
+  {
+   "day": 73,
+   "time": "13:45",
+   "who": "a",
+   "text": "这个export需求scope大吗？会不会影响Q4 close？",
+   "i": 934
+  },
+  {
+   "day": 73,
+   "time": "13:46",
+   "who": "u",
+   "text": "Lily说大概2-3天的工作量，我跟Ravi确认下能不能塞进current sprint",
+   "i": 935
+  },
+  {
+   "day": 73,
+   "time": "15:30",
+   "who": "u",
+   "text": "下午跟Lily sync完，Aurora handover基本smooth，Emily接手的产品模块下周一开始正式交接",
+   "i": 936
+  },
+  {
+   "day": 73,
+   "time": "15:31",
+   "who": "a",
+   "text": "Emily onboarding顺利吗？我记得她这周刚开始",
+   "i": 937
+  },
+  {
+   "day": 73,
+   "time": "15:32",
+   "who": "u",
+   "text": "还不错，她主动约了Yuki和Ravi的intro meeting，挺有主动性",
+   "i": 938
+  },
+  {
+   "day": 73,
+   "time": "17:10",
+   "who": "u",
+   "text": "Ravi跟我说那个export功能他可以安排周五前做完，这样不影响Aurora timeline",
+   "i": 939
+  },
+  {
+   "day": 73,
+   "time": "17:10",
+   "who": "a",
+   "text": "太好了，Ravi团队最近velocity真的上来了",
+   "i": 940
+  },
+  {
+   "day": 73,
+   "time": "17:11",
+   "who": "u",
+   "text": "是啊，integration性能提升30%之后整个team morale都高了",
+   "i": 941
+  },
+  {
+   "day": 73,
+   "time": "17:12",
+   "who": "u",
+   "text": "对了帮我设个reminder，明天跟Ravi sync时要问下dark mode phase 2的timeline",
+   "i": 942
+  },
+  {
+   "day": 73,
+   "time": "17:12",
+   "who": "a",
+   "text": "已设好，明天上午10点Ravi sync agenda里加上dark mode phase 2 timeline",
+   "i": 943
+  },
+  {
+   "day": 73,
+   "time": "18:30",
+   "who": "u",
+   "text": "下班了，今天还算productive，回家陪女儿做手工课作业",
+   "i": 944
+  },
+  {
+   "day": 73,
+   "time": "18:31",
+   "who": "a",
+   "text": "辛苦了凯哥，手工课做什么呀？",
+   "i": 945
+  },
+  {
+   "day": 73,
+   "time": "18:31",
+   "who": "u",
+   "text": "纸板城堡，她说要做三层的😂 明天见aicoo",
+   "i": 946
+  },
+  {
+   "day": 73,
+   "time": "18:32",
+   "who": "a",
+   "text": "三层城堡厉害了，明天见凯哥",
+   "i": 947
+  },
+  {
+   "day": 74,
+   "time": "08:05",
+   "who": "u",
+   "text": "早上好aicoo，昨晚城堡只完成了两层，第三层塌了哈哈哈",
+   "i": 948
+  },
+  {
+   "day": 74,
+   "time": "08:06",
+   "who": "a",
+   "text": "两层也很厉害了，下次用胶枪可能会更牢固",
+   "i": 949
+  },
+  {
+   "day": 74,
+   "time": "08:07",
+   "who": "u",
+   "text": "好主意，周末试试。今天calendar什么情况",
+   "i": 950
+  },
+  {
+   "day": 74,
+   "time": "08:07",
+   "who": "a",
+   "text": "今天上午10点Ravi sync，下午1点Omar的Singapore pipeline review，下午3点pricing page A/B test结果preview，日程比较满",
+   "i": 951
+  },
+  {
+   "day": 74,
+   "time": "10:35",
+   "who": "u",
+   "text": "Ravi sync完了，dark mode phase 2他估计要4个sprint，比我想的久，但他说可以parallel一些工作",
+   "i": 952
+  },
+  {
+   "day": 74,
+   "time": "10:35",
+   "who": "a",
+   "text": "4个sprint大概8周对吧？能不能先做toggle功能那个部分",
+   "i": 953
+  },
+  {
+   "day": 74,
+   "time": "10:36",
+   "who": "u",
+   "text": "对我也这么想，让Ravi把toggle单独拆出来，争取3个sprint内deliver，其余feature往后排",
+   "i": 954
+  },
+  {
+   "day": 74,
+   "time": "12:20",
+   "who": "u",
+   "text": "午饭时间，我爸刚发消息说今天血压又有点高，让我下午别太担心，他说吃了药在休息",
+   "i": 955
+  },
+  {
+   "day": 74,
+   "time": "12:21",
+   "who": "a",
+   "text": "凯哥辛苦了，老人家注意休息就好，你下午开会我帮你盯着，有急事提前通知你",
+   "i": 956
+  },
+  {
+   "day": 74,
+   "time": "13:15",
+   "who": "u",
+   "text": "跟Omar sync完，Singapore pipeline Q4目标看起来healthy，但他想在11月加一个local marketing event",
+   "i": 957
+  },
+  {
+   "day": 74,
+   "time": "13:15",
+   "who": "a",
+   "text": "需要额外budget吗？Grace之前approve的$100k Q4 marketing还没完全allocate",
+   "i": 958
+  },
+  {
+   "day": 74,
+   "time": "13:16",
+   "who": "u",
+   "text": "对的，Omar估计event大概$15k，从那个budget走，我让他下周一提交详细proposal",
+   "i": 959
+  },
+  {
+   "day": 74,
+   "time": "15:10",
+   "who": "u",
+   "text": "Ben的pricing A/B test结果preview，$44/user/month那个版本conversion rate比预期高8%，不错",
+   "i": 960
+  },
+  {
+   "day": 74,
+   "time": "15:11",
+   "who": "a",
+   "text": "8%提升很明显了，11月3号A/B结束后是不是就可以confirm这个价格",
+   "i": 961
+  },
+  {
+   "day": 74,
+   "time": "15:12",
+   "who": "u",
+   "text": "对，如果A/B结果稳定，11月15号launch没问题，Ben在准备final pricing page copy",
+   "i": 962
+  },
+  {
+   "day": 74,
+   "time": "17:00",
+   "who": "u",
+   "text": "我爸下午血压稳定了，刚打电话说感觉好多了",
+   "i": 963
+  },
+  {
+   "day": 74,
+   "time": "17:01",
+   "who": "a",
+   "text": "太好了，凯哥放心了，晚上早点回家休息",
+   "i": 964
+  },
+  {
+   "day": 74,
+   "time": "17:02",
+   "who": "u",
+   "text": "嗯，今天早点走，回去把第三层城堡搞定 明天聊aicoo",
+   "i": 965
+  },
+  {
+   "day": 74,
+   "time": "17:02",
+   "who": "a",
+   "text": "明天见凯哥，祝城堡工程顺利",
+   "i": 966
+  },
+  {
+   "day": 75,
+   "time": "08:30",
+   "who": "u",
+   "text": "早aicoo，城堡三层终于站住了，女儿说我是最好的工程师😂",
+   "i": 967
+  },
+  {
+   "day": 75,
+   "time": "08:31",
+   "who": "a",
+   "text": "哈哈转行工程师了，恭喜城堡落成",
+   "i": 968
+  },
+  {
+   "day": 75,
+   "time": "08:32",
+   "who": "u",
+   "text": "今天周五，先看calendar，然后有个事跟你说",
+   "i": 969
+  },
+  {
+   "day": 75,
+   "time": "08:32",
+   "who": "a",
+   "text": "今天上午10点Yuki的dark mode toggle design review，下午2点Q3 customer wins summary draft review，其他时间相对open",
+   "i": 970
+  },
+  {
+   "day": 75,
+   "time": "09:15",
+   "who": "u",
+   "text": "aicoo帮我发个消息给Grace，confirm Oct 25之前给她Q3 customer wins summary，顺便问她需不需要特定format",
+   "i": 971
+  },
+  {
+   "day": 75,
+   "time": "09:15",
+   "who": "a",
+   "text": "已经帮你draft好发给Grace了，等她回复",
+   "i": 972
+  },
+  {
+   "day": 75,
+   "time": "10:40",
+   "who": "u",
+   "text": "Yuki的toggle design做得很干净，她说用户测试里82% prefer toggle over system default",
+   "i": 973
+  },
+  {
+   "day": 75,
+   "time": "10:41",
+   "who": "a",
+   "text": "82%是很solid的数据，dark mode phase 2 focus on toggle是对的",
+   "i": 974
+  },
+  {
+   "day": 75,
+   "time": "10:42",
+   "who": "u",
+   "text": "对，我让Yuki下周一finalize design，Ravi可以开始estimation",
+   "i": 975
+  },
+  {
+   "day": 75,
+   "time": "12:00",
+   "who": "u",
+   "text": "午饭去楼下新开的越南粉，要不要给你也带一碗开玩笑的😄",
+   "i": 976
+  },
+  {
+   "day": 75,
+   "time": "12:01",
+   "who": "a",
+   "text": "哈哈谢谢凯哥，我充电就行了，你好好吃",
+   "i": 977
+  },
+  {
+   "day": 75,
+   "time": "14:00",
+   "who": "u",
+   "text": "Grace回复了，她说Q3 customer wins summary不需要特定format，但希望highlight top 3 deals的win reason",
+   "i": 978
+  },
+  {
+   "day": 75,
+   "time": "14:01",
+   "who": "a",
+   "text": "记下了，top 3 deals win reasons重点写，你周末整理时我帮你pull数据",
+   "i": 979
+  },
+  {
+   "day": 75,
+   "time": "14:30",
+   "who": "u",
+   "text": "开始写Q3 summary draft，Aurora那个deal肯定是第一，当时Lily做了多少版proposal来着",
+   "i": 980
+  },
+  {
+   "day": 75,
+   "time": "14:30",
+   "who": "a",
+   "text": "根据之前的记录，Aurora deal从initial contact到close大概做了四版proposal，最终$950k Q4 close",
+   "i": 981
+  },
+  {
+   "day": 75,
+   "time": "14:31",
+   "who": "u",
+   "text": "四版😂 Lily的persistence真的强，这个必须写进win reason里",
+   "i": 982
+  },
+  {
+   "day": 75,
+   "time": "15:20",
+   "who": "u",
+   "text": "aicoo note一下，Met fourth PM candidate Sarah Wu, but we already hired Emily, just casual chat，不过Sarah背景不错以后可以考虑",
+   "ev": "e33",
+   "i": 983
+  },
+  {
+   "day": 75,
+   "time": "15:21",
+   "who": "a",
+   "text": "记下了，Sarah Wu作为future pipeline备注，你对她哪方面印象最深",
+   "i": 984
+  },
+  {
+   "day": 75,
+   "time": "15:22",
+   "who": "u",
+   "text": "她做过两年enterprise SaaS，而且有vertical SaaS经验，跟我们Aurora那种客户很match",
+   "i": 985
+  },
+  {
+   "day": 75,
+   "time": "17:15",
+   "who": "u",
+   "text": "周末计划：明天写Q3 summary，周日女儿约了playdate，中间找时间陪我爸散步",
+   "i": 986
+  },
+  {
+   "day": 75,
+   "time": "17:16",
+   "who": "a",
+   "text": "听起来是个充实的周末，凯哥别太累，summary我周一早上帮你review",
+   "i": 987
+  },
+  {
+   "day": 75,
+   "time": "17:17",
+   "who": "u",
+   "text": "谢谢aicoo，周末愉快！对了下周一上午提醒我发summary draft给你review",
+   "i": 988
+  },
+  {
+   "day": 75,
+   "time": "17:17",
+   "who": "a",
+   "text": "已设好周一上午9点reminder，周末愉快凯哥",
+   "i": 989
+  },
+  {
+   "day": 76,
+   "time": "08:50",
+   "who": "u",
+   "text": "早上好aicoo，周末过得还行，summary写好了八成的样子",
+   "i": 990
+  },
+  {
+   "day": 76,
+   "time": "08:50",
+   "who": "a",
+   "text": "早上好凯哥，八成已经很不错了，今天上午可以finish",
+   "i": 991
+  },
+  {
+   "day": 76,
+   "time": "08:51",
+   "who": "u",
+   "text": "btw Emily completed first week onboarding, already contributing to roadmap，她提了几个product backlog的改进想法",
+   "ev": "e84",
+   "i": 992
+  },
+  {
+   "day": 76,
+   "time": "08:52",
+   "who": "a",
+   "text": "Emily上手很快啊，第一周就能贡献roadmap想法很不容易，什么类型的改进",
+   "i": 993
+  },
+  {
+   "day": 76,
+   "time": "08:53",
+   "who": "u",
+   "text": "她建议我们把Q4 backlog里一些low-effort high-impact的item提前做，逻辑挺清晰的",
+   "i": 994
+  },
+  {
+   "day": 76,
+   "time": "10:15",
+   "who": "u",
+   "text": "刚跟Ben quick sync，pricing A/B test目前数据稳定，$44那个variant持续领先",
+   "i": 995
+  },
+  {
+   "day": 76,
+   "time": "10:15",
+   "who": "a",
+   "text": "11月15号launch应该没问题了，Ben准备好final assets了吗",
+   "i": 996
+  },
+  {
+   "day": 76,
+   "time": "10:16",
+   "who": "u",
+   "text": "他说周三给我final copy和pricing page mockup，我review之后sign off",
+   "i": 997
+  },
+  {
+   "day": 76,
+   "time": "12:30",
+   "who": "u",
+   "text": "午饭吃完了，继续写Q3 summary，top 3 wins我选Aurora、Singapore那个fintech 300 seats、还有dark mode upsell",
+   "i": 998
+  },
+  {
+   "day": 76,
+   "time": "12:31",
+   "who": "a",
+   "text": "这三个deal很有代表性，覆盖enterprise、regional expansion、product-led growth",
+   "i": 999
+  },
+  {
+   "day": 76,
+   "time": "14:00",
+   "who": "u",
+   "text": "summary draft写完了，发你review一下，帮我看看有没有missing data points",
+   "i": 1000
+  },
+  {
+   "day": 76,
+   "time": "14:01",
+   "who": "a",
+   "text": "收到，我马上review，应该15分钟内给你反馈",
+   "i": 1001
+  },
+  {
+   "day": 76,
+   "time": "14:15",
+   "who": "a",
+   "text": "凯哥，summary看起来不错，不过我注意到Q3 revenue $2.35M那段可以加一下跟Q2的对比，显示growth trend",
+   "i": 1002
+  },
+  {
+   "day": 76,
+   "time": "14:16",
+   "who": "u",
+   "text": "好主意，你帮我pull Q2 revenue data我加进去",
+   "i": 1003
+  },
+  {
+   "day": 76,
+   "time": "15:00",
+   "who": "u",
+   "text": "updated summary发你了，加了Q2对比，Q3虽然没meet target但QoQ growth还是positive的",
+   "i": 1004
+  },
+  {
+   "day": 76,
+   "time": "15:01",
+   "who": "a",
+   "text": "对，这样narrative更balanced，Grace应该会appreciate这个角度",
+   "i": 1005
+  },
+  {
+   "day": 76,
+   "time": "16:30",
+   "who": "u",
+   "text": "下午跟Ravi quick chat，dark mode toggle他估计2 sprints可以deliver，比之前想的4 sprints快一半",
+   "i": 1006
+  },
+  {
+   "day": 76,
+   "time": "16:31",
+   "who": "a",
+   "text": "拆分之后效率高很多，Ravi团队momentum真的不错",
+   "i": 1007
+  },
+  {
+   "day": 76,
+   "time": "16:32",
+   "who": "u",
+   "text": "我跟Yuki说下周二开始design handoff给Ravi，争取dark mode toggle 12月初上线",
+   "i": 1008
+  },
+  {
+   "day": 76,
+   "time": "17:45",
+   "who": "u",
+   "text": "今天挺productive，summary基本定了，下周一我再polish下发给Grace",
+   "i": 1009
+  },
+  {
+   "day": 76,
+   "time": "17:46",
+   "who": "a",
+   "text": "凯哥这周辛苦了，周末好好休息，下周杭州offsite也值得期待",
+   "i": 1010
+  },
+  {
+   "day": 76,
+   "time": "17:47",
+   "who": "u",
+   "text": "对哦下周二周三杭州offsite，差点忘了，帮我check下酒店和agenda细节下周一remind我",
+   "i": 1011
+  },
+  {
+   "day": 76,
+   "time": "17:47",
+   "who": "a",
+   "text": "已设好，周一上午提醒你confirm offsite logistics。周末愉快凯哥，带女儿好好玩",
+   "i": 1012
+  },
+  {
+   "day": 76,
+   "time": "17:48",
+   "who": "u",
+   "text": "谢谢aicoo，周末愉快！周六带我爸妈和女儿一起去公园，难得全家出动 😊",
+   "i": 1013
+  },
+  {
+   "day": 76,
+   "time": "17:48",
+   "who": "a",
+   "text": "全家公园日太温馨了，祝一切顺利，下周见凯哥",
+   "i": 1014
+  },
+  {
+   "day": 77,
+   "time": "07:15",
+   "who": "u",
+   "text": "早上好aicoo，新的一周开始了，女儿昨晚有点咳嗽，今天先观察一下",
+   "i": 1015
+  },
+  {
+   "day": 77,
+   "time": "07:16",
+   "who": "a",
+   "text": "凯哥早，希望小朋友没事，多喝水多休息",
+   "i": 1016
+  },
+  {
+   "day": 77,
+   "time": "08:30",
+   "who": "u",
+   "text": "今天约了Ravi 10点对齐dark mode toggle的timeline，还有Q3 summary final review",
+   "i": 1017
+  },
+  {
+   "day": 77,
+   "time": "08:31",
+   "who": "a",
+   "text": "收到，两个会议都有日程提醒",
+   "i": 1018
+  },
+  {
+   "day": 77,
+   "time": "10:05",
+   "who": "u",
+   "text": "Omar刚才发了消息，新加坡Q3销售600k，best quarter ever，厉害了！",
+   "ev": "e34",
+   "i": 1019
+  },
+  {
+   "day": 77,
+   "time": "10:06",
+   "who": "a",
+   "text": "Omar团队真的很拼，600k很棒的成绩，值得庆祝",
+   "i": 1020
+  },
+  {
+   "day": 77,
+   "time": "10:15",
+   "who": "u",
+   "text": "是啊，Q4 pipeline也很扎实，待会meeting完我回他",
+   "i": 1021
+  },
+  {
+   "day": 77,
+   "time": "11:30",
+   "who": "u",
+   "text": "Ravi说dark mode toggle dev大概3周，加上测试，目标是11月底交付，ok",
+   "i": 1022
+  },
+  {
+   "day": 77,
+   "time": "11:31",
+   "who": "a",
+   "text": "11月底上线的话，beta测试时间也够，用户反馈很积极",
+   "i": 1023
+  },
+  {
+   "day": 77,
+   "time": "14:00",
+   "who": "u",
+   "text": "Q3 summary改了一版，加上了QoQ growth narrative，发给Grace review",
+   "i": 1024
+  },
+  {
+   "day": 77,
+   "time": "14:02",
+   "who": "a",
+   "text": "凯哥效率高，这份报告数据很扎实",
+   "i": 1025
+  },
+  {
+   "day": 77,
+   "time": "17:30",
+   "who": "u",
+   "text": "女儿没发烧，咳嗽好一些了，放心了，今晚早点回家",
+   "i": 1026
+  },
+  {
+   "day": 77,
+   "time": "17:31",
+   "who": "a",
+   "text": "太好了，凯哥也早点休息",
+   "i": 1027
+  },
+  {
+   "day": 78,
+   "time": "08:45",
+   "who": "u",
+   "text": "早上好，今天重点是Yuki的dark mode visuals handoff，还有pricing A/B test结果",
+   "i": 1028
+  },
+  {
+   "day": 78,
+   "time": "08:46",
+   "who": "a",
+   "text": "凯哥早，今天的日程都安排好了",
+   "i": 1029
+  },
+  {
+   "day": 78,
+   "time": "10:00",
+   "who": "u",
+   "text": "看了pricing A/B test数据，$44/user那个variant转化率8% lift，不错",
+   "i": 1030
+  },
+  {
+   "day": 78,
+   "time": "10:01",
+   "who": "a",
+   "text": "这个lift很稳，Dec launch的底气更足了",
+   "i": 1031
+  },
+  {
+   "day": 78,
+   "time": "14:30",
+   "who": "u",
+   "text": "和Yuki过dark mode final visuals，看起来不错，明天handoff给engineering",
+   "i": 1032
+  },
+  {
+   "day": 78,
+   "time": "17:00",
+   "who": "u",
+   "text": "Yuki finalized dark mode visuals，handoff to engineering tomorrow",
+   "ev": "e85",
+   "i": 1033
+  },
+  {
+   "day": 78,
+   "time": "17:01",
+   "who": "a",
+   "text": "dark mode终于要进入开发阶段了，期待",
+   "i": 1034
+  },
+  {
+   "day": 78,
+   "time": "19:30",
+   "who": "u",
+   "text": "父亲血压今天有点波动，不过吃了药稳定了，明天再观察",
+   "i": 1035
+  },
+  {
+   "day": 78,
+   "time": "19:31",
+   "who": "a",
+   "text": "凯哥多留意，有任何需要随时说",
+   "i": 1036
+  },
+  {
+   "day": 79,
+   "time": "07:00",
+   "who": "u",
+   "text": "早，今天10点Q4 offsite prep meeting，杭州民宿那边要confirm人数",
+   "i": 1037
+  },
+  {
+   "day": 79,
+   "time": "07:01",
+   "who": "a",
+   "text": "凯哥早，民宿已确认10/20-21，12人参加",
+   "i": 1038
+  },
+  {
+   "day": 79,
+   "time": "09:30",
+   "who": "u",
+   "text": "和Grace约了下午3点quick sync，update一下Q4 roadmap execution plan",
+   "i": 1039
+  },
+  {
+   "day": 79,
+   "time": "09:31",
+   "who": "a",
+   "text": "已记录，下午3点Grace sync",
+   "i": 1040
+  },
+  {
+   "day": 79,
+   "time": "11:10",
+   "who": "u",
+   "text": "Omar reports Singapore pipeline at 1.2M for Q4",
+   "ev": "e86",
+   "i": 1041
+  },
+  {
+   "day": 79,
+   "time": "11:11",
+   "who": "a",
+   "text": "1.2M pipeline很健康，Omar团队势头正盛",
+   "i": 1042
+  },
+  {
+   "day": 79,
+   "time": "14:00",
+   "who": "u",
+   "text": "下午sync前整理一下Q4 risk section，之前Grace要求补充的",
+   "i": 1043
+  },
+  {
+   "day": 79,
+   "time": "14:02",
+   "who": "a",
+   "text": "risk section已备好，凯哥直接review就好",
+   "i": 1044
+  },
+  {
+   "day": 79,
+   "time": "15:30",
+   "who": "u",
+   "text": "Grace对Q4 plan总体满意，只要求再加一个engineering capacity contingency plan",
+   "i": 1045
+  },
+  {
+   "day": 79,
+   "time": "15:31",
+   "who": "a",
+   "text": "明白，明天和Ravi对齐一下资源情况",
+   "i": 1046
+  },
+  {
+   "day": 79,
+   "time": "18:00",
+   "who": "u",
+   "text": "父亲血压今天正常，女儿也没事了，总算安心",
+   "i": 1047
+  },
+  {
+   "day": 79,
+   "time": "18:01",
+   "who": "a",
+   "text": "家里都稳定，凯哥可以好好休息一下",
+   "i": 1048
+  },
+  {
+   "day": 80,
+   "time": "08:00",
+   "who": "u",
+   "text": "早上好，今天主要和Ravi对engineering capacity，还有pricing launch date finalize",
+   "i": 1049
+  },
+  {
+   "day": 80,
+   "time": "08:01",
+   "who": "a",
+   "text": "凯哥早，今天会议不多，但都很关键",
+   "i": 1050
+  },
+  {
+   "day": 80,
+   "time": "09:30",
+   "who": "u",
+   "text": "和Ravi过了，他说dark mode和pricing page优化同时进行，engineering资源紧张，Pricing最终launch date set to Dec 1",
+   "ev": "e35",
+   "i": 1051
+  },
+  {
+   "day": 80,
+   "time": "09:31",
+   "who": "a",
+   "text": "Dec 1 launch，多两周准备时间也好，A/B测试还能再跑一轮",
+   "i": 1052
+  },
+  {
+   "day": 80,
+   "time": "11:00",
+   "who": "u",
+   "text": "还有，Emily今天发了第一份backlog proposal，思路很清晰，看来入职适应得不错",
+   "i": 1053
+  },
+  {
+   "day": 80,
+   "time": "11:01",
+   "who": "a",
+   "text": "Emily上手很快，PM团队又多了一员得力干将",
+   "i": 1054
+  },
+  {
+   "day": 80,
+   "time": "14:00",
+   "who": "u",
+   "text": "对了，aicoo, 以后全部用中文回复我",
+   "ev": "e61",
+   "i": 1055
+  },
+  {
+   "day": 80,
+   "time": "14:21",
+   "who": "a",
+   "text": "好的，以后我只用中文回复",
+   "ev": "e62",
+   "i": 1056
+  },
+  {
+   "day": 80,
+   "time": "16:00",
+   "who": "u",
+   "text": "和Ravi敲定了engineering capacity contingency plan，明天发给Grace",
+   "i": 1057
+  },
+  {
+   "day": 80,
+   "time": "16:01",
+   "who": "a",
+   "text": "收到，这样Q4的risk plan就完整了",
+   "i": 1058
+  },
+  {
+   "day": 80,
+   "time": "18:30",
+   "who": "u",
+   "text": "今天早点下班，带女儿去公园走走",
+   "i": 1059
+  },
+  {
+   "day": 80,
+   "time": "18:31",
+   "who": "a",
+   "text": "凯哥享受家庭时光，明天见",
+   "i": 1060
+  },
+  {
+   "day": 81,
+   "time": "10:00",
+   "who": "u",
+   "text": "Dad's checkup went well, finally discharged from hospital yesterday.",
+   "ev": "e40",
+   "i": 1061
+  },
+  {
+   "day": 81,
+   "time": "10:02",
+   "who": "a",
+   "text": "太好了，凯哥，爸爸恢复得不错，您也能松口气了。",
+   "i": 1062
+  },
+  {
+   "day": 81,
+   "time": "10:30",
+   "who": "u",
+   "text": "嗯，今天得补一些工作，Q3 customer wins summary还没finalize，Grace要的deadline是10月25。",
+   "i": 1063
+  },
+  {
+   "day": 81,
+   "time": "10:32",
+   "who": "a",
+   "text": "时间还够，今天先理一下框架吧。",
+   "i": 1064
+  },
+  {
+   "day": 81,
+   "time": "11:15",
+   "who": "u",
+   "text": "Ravi说dark mode toggle的design review明天上午，我跟Yuki对齐一下。",
+   "i": 1065
+  },
+  {
+   "day": 81,
+   "time": "11:17",
+   "who": "a",
+   "text": "好，我帮您记一下，明天上午的review。",
+   "i": 1066
+  },
+  {
+   "day": 81,
+   "time": "14:00",
+   "who": "u",
+   "text": "Omar那边Q4 pipeline更新了吗？他说这周会有几个新leads进来。",
+   "i": 1067
+  },
+  {
+   "day": 81,
+   "time": "14:02",
+   "who": "a",
+   "text": "还没收到更新，可能还在整理。",
+   "i": 1068
+  },
+  {
+   "day": 81,
+   "time": "15:30",
+   "who": "u",
+   "text": "Emily下周一开始对吧？得让她跟Lily做好handover。",
+   "i": 1069
+  },
+  {
+   "day": 81,
+   "time": "15:32",
+   "who": "a",
+   "text": "对，10月26日周一开始，已经安排好了。",
+   "i": 1070
+  },
+  {
+   "day": 81,
+   "time": "17:00",
+   "who": "u",
+   "text": "今天早点走，回家陪女儿，她问我周末能不能去公园。",
+   "i": 1071
+  },
+  {
+   "day": 81,
+   "time": "17:02",
+   "who": "a",
+   "text": "天气不错，去公园很好。",
+   "i": 1072
+  },
+  {
+   "day": 82,
+   "time": "09:30",
+   "who": "u",
+   "text": "早上跟Ravi sync了，dark mode toggle的implementation timeline还行，他说两个sprint能搞定。",
+   "i": 1073
+  },
+  {
+   "day": 82,
+   "time": "09:32",
+   "who": "a",
+   "text": "进度不错，两个sprint的话mid-November应该能上线。",
+   "i": 1074
+  },
+  {
+   "day": 82,
+   "time": "10:00",
+   "who": "u",
+   "text": "Yuki发了dark mode beta的feedback汇总，用户很喜欢，82%选了toggle。",
+   "i": 1075
+  },
+  {
+   "day": 82,
+   "time": "10:02",
+   "who": "a",
+   "text": "82%的数据很扎实。",
+   "i": 1076
+  },
+  {
+   "day": 82,
+   "time": "11:30",
+   "who": "u",
+   "text": "今天下午跟Yuki做dark mode design review，她已经在做iterations了。",
+   "i": 1077
+  },
+  {
+   "day": 82,
+   "time": "11:32",
+   "who": "a",
+   "text": "好，期待迭代后的方案。",
+   "i": 1078
+  },
+  {
+   "day": 82,
+   "time": "14:15",
+   "who": "u",
+   "text": "Dark mode beta feedback很好，Yuki已经在做iterations。",
+   "ev": "e36",
+   "i": 1079
+  },
+  {
+   "day": 82,
+   "time": "14:17",
+   "who": "a",
+   "text": "太好了，beta feedback正向，迭代后应该更稳。",
+   "i": 1080
+  },
+  {
+   "day": 82,
+   "time": "15:30",
+   "who": "u",
+   "text": "下午还要看Ben的pricing A/B test结果，他说有8% lift，但我想看看segment数据。",
+   "i": 1081
+  },
+  {
+   "day": 82,
+   "time": "15:32",
+   "who": "a",
+   "text": "segment数据能看出哪些用户群最敏感。",
+   "i": 1082
+  },
+  {
+   "day": 82,
+   "time": "17:00",
+   "who": "u",
+   "text": "今天差不多了，明天周五，准备周末。",
+   "i": 1083
+  },
+  {
+   "day": 82,
+   "time": "17:02",
+   "who": "a",
+   "text": "好的凯哥，周末愉快。",
+   "i": 1084
+  },
+  {
+   "day": 83,
+   "time": "10:00",
+   "who": "u",
+   "text": "今天早上跟Lily过了handover checklist，她下周正式转Enterprise Sales。",
+   "i": 1085
+  },
+  {
+   "day": 83,
+   "time": "10:02",
+   "who": "a",
+   "text": "Lily转岗顺利，Emily接手也顺畅。",
+   "i": 1086
+  },
+  {
+   "day": 83,
+   "time": "11:00",
+   "who": "u",
+   "text": "Omar发了Q4 pipeline update，看起来不错，几个大deal在推进。",
+   "i": 1087
+  },
+  {
+   "day": 83,
+   "time": "11:02",
+   "who": "a",
+   "text": "有具体数字吗？还是只发了状态？",
+   "i": 1088
+  },
+  {
+   "day": 83,
+   "time": "11:05",
+   "who": "u",
+   "text": "状态为主，他说下周可以给具体forecast。",
+   "i": 1089
+  },
+  {
+   "day": 83,
+   "time": "14:00",
+   "who": "u",
+   "text": "下午跟Grace有个quick check-in，主要是Q4 roadmap和engineering capacity contingency plan。",
+   "i": 1090
+  },
+  {
+   "day": 83,
+   "time": "14:02",
+   "who": "a",
+   "text": "contingency plan之前说过，您已经准备好draft了吧？",
+   "i": 1091
+  },
+  {
+   "day": 83,
+   "time": "14:05",
+   "who": "u",
+   "text": "对，draft已经发了，今天只是对齐一下。",
+   "i": 1092
+  },
+  {
+   "day": 83,
+   "time": "16:00",
+   "who": "u",
+   "text": "Grace没什么问题，approve了，只是让注意资源分配别太紧。",
+   "i": 1093
+  },
+  {
+   "day": 83,
+   "time": "16:02",
+   "who": "a",
+   "text": "那就好，Q4可以安心推进了。",
+   "i": 1094
+  },
+  {
+   "day": 83,
+   "time": "17:30",
+   "who": "u",
+   "text": "周末计划：带女儿去公园，爸爸也想去，看看他体力恢复得怎么样。",
+   "i": 1095
+  },
+  {
+   "day": 83,
+   "time": "17:32",
+   "who": "a",
+   "text": "一家人一起出门，爸爸肯定会开心。",
+   "i": 1096
+  },
+  {
+   "day": 84,
+   "time": "10:00",
+   "who": "u",
+   "text": "周日了，今天轻松一点。女儿昨晚咳嗽有点反复，但早上好了。",
+   "i": 1097
+  },
+  {
+   "day": 84,
+   "time": "10:02",
+   "who": "a",
+   "text": "小孩子咳嗽容易反复，多喝水就好。",
+   "i": 1098
+  },
+  {
+   "day": 84,
+   "time": "11:00",
+   "who": "u",
+   "text": "爸爸状态不错，早上还自己下床走了几步。",
+   "i": 1099
+  },
+  {
+   "day": 84,
+   "time": "11:02",
+   "who": "a",
+   "text": "恢复得不错，慢慢来。",
+   "i": 1100
+  },
+  {
+   "day": 84,
+   "time": "11:50",
+   "who": "u",
+   "text": "Emily started onboarding, taking over Lily's accounts, Lily moving to new role。",
+   "ev": "e37",
+   "i": 1101
+  },
+  {
+   "day": 84,
+   "time": "11:52",
+   "who": "a",
+   "text": "Emily今天第一天，应该很顺利。",
+   "i": 1102
+  },
+  {
+   "day": 84,
+   "time": "14:00",
+   "who": "u",
+   "text": "下午看了下Q3 customer wins summary draft，还需要补一些customer quotes。",
+   "i": 1103
+  },
+  {
+   "day": 84,
+   "time": "14:02",
+   "who": "a",
+   "text": "quotes可以让sales team帮忙收集。",
+   "i": 1104
+  },
+  {
+   "day": 84,
+   "time": "16:30",
+   "who": "u",
+   "text": "这周整体不错，爸爸出院了，dark mode feedback正面，Emily也开始了。",
+   "i": 1105
+  },
+  {
+   "day": 84,
+   "time": "16:32",
+   "who": "a",
+   "text": "是，这周进展很好，凯哥周末好好休息。",
+   "i": 1106
+  },
+  {
+   "day": 85,
+   "time": "08:15",
+   "who": "u",
+   "text": "aicoo, 周一早安。Emily今天正式start, 帮她安排一下onboarding session with Ravi",
+   "i": 1107
+  },
+  {
+   "day": 85,
+   "time": "08:15",
+   "who": "a",
+   "text": "凯哥早，已经帮Emily约了Ravi今天上午10点的onboarding session，会议室也订好了。",
+   "i": 1108
+  },
+  {
+   "day": 85,
+   "time": "09:30",
+   "who": "u",
+   "text": "Q3 customer wins summary还差customer quotes, 得催一下Omar和Lily",
+   "i": 1109
+  },
+  {
+   "day": 85,
+   "time": "09:31",
+   "who": "a",
+   "text": "好的凯哥，我已经给Omar和Lily发了提醒，让他们今天下班前提交customer quotes。",
+   "i": 1110
+  },
+  {
+   "day": 85,
+   "time": "11:20",
+   "who": "u",
+   "text": "Emily刚和Lily完成handover meeting, 说accounts交接很顺利",
+   "i": 1111
+  },
+  {
+   "day": 85,
+   "time": "11:21",
+   "who": "a",
+   "text": "那太好了，Emily上手很快，对backlog也很了解。",
+   "i": 1112
+  },
+  {
+   "day": 85,
+   "time": "14:00",
+   "who": "u",
+   "text": "pricing launch post到12/1, 需要和Ben sync一下新的timeline",
+   "i": 1113
+  },
+  {
+   "day": 85,
+   "time": "14:01",
+   "who": "a",
+   "text": "我已经帮你们约了明天下午2点的sync meeting，Ben说没问题。",
+   "i": 1114
+  },
+  {
+   "day": 85,
+   "time": "15:30",
+   "who": "u",
+   "text": "父亲今天在家恢复得不错, 我也安心些",
+   "i": 1115
+  },
+  {
+   "day": 85,
+   "time": "15:31",
+   "who": "a",
+   "text": "凯哥放心，父亲恢复好是好事，你多注意休息。",
+   "i": 1116
+  },
+  {
+   "day": 85,
+   "time": "17:45",
+   "who": "u",
+   "text": "明天Q4 offsite, 大家确认都去杭州了吧",
+   "i": 1117
+  },
+  {
+   "day": 85,
+   "time": "17:46",
+   "who": "a",
+   "text": "都确认了，Ravi、Yuki、Omar、Emily一共5个人，明早8点出发。",
+   "i": 1118
+  },
+  {
+   "day": 86,
+   "time": "08:40",
+   "who": "u",
+   "text": "Q4 revenue tracking towards 2.8M target, Grace mentioned in all-hands",
+   "ev": "e38",
+   "i": 1119
+  },
+  {
+   "day": 86,
+   "time": "08:41",
+   "who": "a",
+   "text": "凯哥，这个数字很有信心啊，看来Q4 pipeline确实健康。",
+   "i": 1120
+  },
+  {
+   "day": 86,
+   "time": "09:30",
+   "who": "u",
+   "text": "offsite先讨论engineering capacity, Ravi说dark mode toggle需要额外资源",
+   "i": 1121
+  },
+  {
+   "day": 86,
+   "time": "10:45",
+   "who": "u",
+   "text": "Yuki在offsite分享了dark mode final visuals, 团队反馈很好",
+   "i": 1122
+  },
+  {
+   "day": 86,
+   "time": "10:46",
+   "who": "a",
+   "text": "Yuki的设计一直很棒，用户满意度会继续提升。",
+   "i": 1123
+  },
+  {
+   "day": 86,
+   "time": "12:00",
+   "who": "u",
+   "text": "午饭时间, 杭州民宿环境不错, 大家放松一下",
+   "i": 1124
+  },
+  {
+   "day": 86,
+   "time": "12:01",
+   "who": "a",
+   "text": "凯哥好好享受难得的team time，下午继续brainstorm。",
+   "i": 1125
+  },
+  {
+   "day": 86,
+   "time": "14:30",
+   "who": "u",
+   "text": "下午session讨论了Omar的SEA marketing plan, Q1 expand需要提前准备",
+   "i": 1126
+  },
+  {
+   "day": 86,
+   "time": "14:31",
+   "who": "a",
+   "text": "收到，我已经帮Omar记下了Q1 expansion的prep action items。",
+   "i": 1127
+  },
+  {
+   "day": 86,
+   "time": "17:00",
+   "who": "u",
+   "text": "offsite第一天结束, 大家去西湖边逛逛",
+   "i": 1128
+  },
+  {
+   "day": 86,
+   "time": "17:01",
+   "who": "a",
+   "text": "凯哥放松一下，西湖边风景好，Enjoy！",
+   "i": 1129
+  },
+  {
+   "day": 87,
+   "time": "09:00",
+   "who": "u",
+   "text": "offsite第二天, 今天的主题是Q4 execution plan",
+   "i": 1130
+  },
+  {
+   "day": 87,
+   "time": "09:01",
+   "who": "a",
+   "text": "明白凯哥，我已经把execution milestones都列出来了，大家对齐一下。",
+   "i": 1131
+  },
+  {
+   "day": 87,
+   "time": "10:30",
+   "who": "u",
+   "text": "Omar汇报Singapore pipeline Q4 target 1.2M, 进度良好",
+   "i": 1132
+  },
+  {
+   "day": 87,
+   "time": "10:31",
+   "who": "a",
+   "text": "Omar的团队执行力很强，1.2M target很有希望。",
+   "i": 1133
+  },
+  {
+   "day": 87,
+   "time": "12:00",
+   "who": "u",
+   "text": "午饭时和Ravi聊了integration稳定后的下一步, API monetization可以考虑",
+   "i": 1134
+  },
+  {
+   "day": 87,
+   "time": "12:01",
+   "who": "a",
+   "text": "凯哥，API monetization是个好方向，回头可以细化proposal。",
+   "i": 1135
+  },
+  {
+   "day": 87,
+   "time": "14:00",
+   "who": "u",
+   "text": "offsite wrap up, action items都assign好了,回上海",
+   "i": 1136
+  },
+  {
+   "day": 87,
+   "time": "14:01",
+   "who": "a",
+   "text": "好的凯哥，我已经把action summary发给所有人了，路上注意安全。",
+   "i": 1137
+  },
+  {
+   "day": 87,
+   "time": "17:30",
+   "who": "u",
+   "text": "回到上海了, 女儿今天学校有活动我没能去, 有点遗憾",
+   "i": 1138
+  },
+  {
+   "day": 87,
+   "time": "17:31",
+   "who": "a",
+   "text": "凯哥，你女儿一定理解的，周末多陪陪她。",
+   "i": 1139
+  },
+  {
+   "day": 88,
+   "time": "09:00",
+   "who": "u",
+   "text": "周四back to office, Q3 customer wins summary今天必须send给Grace",
+   "i": 1140
+  },
+  {
+   "day": 88,
+   "time": "09:01",
+   "who": "a",
+   "text": "凯哥，summary final draft已经有了，就差几个quotes，我帮你催一下。",
+   "i": 1141
+  },
+  {
+   "day": 88,
+   "time": "10:15",
+   "who": "u",
+   "text": "Omar发来customer quotes, 质量不错, 可以加入summary",
+   "i": 1142
+  },
+  {
+   "day": 88,
+   "time": "10:16",
+   "who": "a",
+   "text": "收到，我已经把quotes整合进去，summary看起来很有说服力。",
+   "i": 1143
+  },
+  {
+   "day": 88,
+   "time": "11:30",
+   "who": "u",
+   "text": "Emily和Ravi sync了dark mode toggle dev进度, phase 1 on track",
+   "i": 1144
+  },
+  {
+   "day": 88,
+   "time": "11:31",
+   "who": "a",
+   "text": "Emily进步很快，已经开始独立manage technical sync了。",
+   "i": 1145
+  },
+  {
+   "day": 88,
+   "time": "14:00",
+   "who": "u",
+   "text": "和Ben确认pricing 12/1 launch, A/B测试11/3继续跑",
+   "i": 1146
+  },
+  {
+   "day": 88,
+   "time": "14:01",
+   "who": "a",
+   "text": "好的凯哥，pricing timeline调整已经记录并通知了相关stakeholders。",
+   "i": 1147
+  },
+  {
+   "day": 88,
+   "time": "16:10",
+   "who": "u",
+   "text": "Singapore office expansion approved, 明年Q1 start, 需要hire 10 more",
+   "ev": "e39",
+   "i": 1148
+  },
+  {
+   "day": 88,
+   "time": "16:11",
+   "who": "a",
+   "text": "凯哥，expansion approved太好了，Omar肯定会很高兴，需要我开始准备JD吗？",
+   "i": 1149
+  },
+  {
+   "day": 88,
+   "time": "17:00",
+   "who": "u",
+   "text": "好, 先准备JD, 我和Grace下周对齐headcount details",
+   "i": 1150
+  },
+  {
+   "day": 88,
+   "time": "17:01",
+   "who": "a",
+   "text": "明白，我明天开始draft JD，周五前发给你review。",
+   "i": 1151
+  },
+  {
+   "day": 89,
+   "time": "08:02",
+   "who": "u",
+   "text": "aicoo morning. Fri finally. 今天安排有点满。先帮我看看这周剩的to-dos? Aurora那边Lily说签字后一切顺利，但我想确认integration timeline有没有slip。",
+   "i": 1152
+  },
+  {
+   "day": 89,
+   "time": "08:03",
+   "who": "a",
+   "text": "凯哥早上好！这周to-dos：dark mode toggle dev本周进入sprint，Q4 offsite follow-up行动项（engineering capacity plan、SEA expansion timeline），pricing page A/B test数据今天出结果，Q3 customer wins summary已提交。Integration timeline目前on track for Sep 22，但Ravi今早发了个message说security audit补测今天开始，可能影响一天。",
+   "i": 1153
+  },
+  {
+   "day": 89,
+   "time": "08:07",
+   "who": "u",
+   "text": "补测? Ravi没跟我提。帮我约他9:30 quick sync。还有，pricing A/B结果我要看，Ben那边发了吗?",
+   "i": 1154
+  },
+  {
+   "day": 89,
+   "time": "08:08",
+   "who": "a",
+   "text": "好的，已经给Ravi发calendar invite了。Ben昨晚发了preliminary结果，conversion lift 8%确认，但他说今天上午finalize数据再发你。我帮你track。",
+   "i": 1155
+  },
+  {
+   "day": 89,
+   "time": "09:00",
+   "who": "u",
+   "text": "刚看了Emily的weekly update。她说新加坡那批accounts onboarding顺利，但有个customer要求custom reporting。这个跟Aurora的custom module需求有点像，但scope小很多。你觉得直接让Emily处理还是拉Lily进来?",
+   "i": 1156
+  },
+  {
+   "day": 89,
+   "time": "09:01",
+   "who": "a",
+   "text": "Emily刚onboard一周，建议先让Emily自己handle，她backlog proposal里写过类似需求。如果她需要支持，再拉Lily做escalation backup。这样也帮她建立客户信任。",
+   "i": 1157
+  },
+  {
+   "day": 89,
+   "time": "09:03",
+   "who": "u",
+   "text": "好，我跟Emily说一声。对了，今天下午有没有空档? 我想提前走一小时，女儿学校有Halloween活动，答应她去了。",
+   "i": 1158
+  },
+  {
+   "day": 89,
+   "time": "09:04",
+   "who": "a",
+   "text": "今天下午3点后没有硬meeting，你可以4点走。3点到4点之间你block了“pricing review prep”，可以移到周一。我帮你reschedule?",
+   "i": 1159
+  },
+  {
+   "day": 89,
+   "time": "09:05",
+   "who": "u",
+   "text": "好，移到周一早上10点。谢了。",
+   "i": 1160
+  },
+  {
+   "day": 89,
+   "time": "09:30",
+   "who": "u",
+   "text": "Ravi sync完了。security audit补测只是多一天，不影响integration Sep 22上线。他说dark mode toggle dev已经开始sprint，估计11月初完成。这个timeline跟pricing launch 12/1不冲突就好。",
+   "i": 1161
+  },
+  {
+   "day": 89,
+   "time": "09:31",
+   "who": "a",
+   "text": "好的，那integration和dark mode都on track。Pricing launch 12/1，dark mode toggle 11月初完成，有buffer。",
+   "i": 1162
+  },
+  {
+   "day": 89,
+   "time": "10:15",
+   "who": "u",
+   "text": "Ben发pricing A/B final数据了。8% conversion lift confirmed，而且premium tier的take rate比预期高。他建议12/1 launch时直接上v3定价，不用再测了。我觉得可以，但得跟Grace确认。她下周有空吗?",
+   "i": 1163
+  },
+  {
+   "day": 89,
+   "time": "10:16",
+   "who": "a",
+   "text": "Grace下周schedule：周一上午有空，周二下午3点后有30分钟。你要约哪个?",
+   "i": 1164
+  },
+  {
+   "day": 89,
+   "time": "10:17",
+   "who": "u",
+   "text": "周一上午吧，30分钟够了。把Ben拉进来。invite发我。",
+   "i": 1165
+  },
+  {
+   "day": 89,
+   "time": "10:18",
+   "who": "a",
+   "text": "已发。周一10:30-11:00，Grace、Ben和你。Agenda：pricing A/B results + launch decision。",
+   "i": 1166
+  },
+  {
+   "day": 89,
+   "time": "11:00",
+   "who": "u",
+   "text": "刚跟Omar聊了SEA expansion的事。他兴奋得不行，说明年Q1招10个人，先在新加坡office租多一层。但Grace说预算还没最终批，他催我尽快给他headcount approval。我得跟Grace对齐一下timeline。",
+   "i": 1167
+  },
+  {
+   "day": 89,
+   "time": "11:01",
+   "who": "a",
+   "text": "SEA expansion已经在Q4 offsite follow-up行动项里，但确实需要跟Grace确认approval timeline。你可以周一同一个meeting里问Grace。",
+   "i": 1168
+  },
+  {
+   "day": 89,
+   "time": "11:03",
+   "who": "u",
+   "text": "好，周一一起聊。对了，我父亲今天早上说头晕，我有点担心。他出院后一直稳定，但今天早上量血压有点高。我让我妈盯着了。希望没事。",
+   "i": 1169
+  },
+  {
+   "day": 89,
+   "time": "11:04",
+   "who": "a",
+   "text": "凯哥，你父亲出院后恢复得不错，血压偶尔波动也正常。如果持续升高或出现其他症状，再去看医生。今天下午你早点走，也能陪陪家人。需要我帮你订点什么东西送过去吗?",
+   "i": 1170
+  },
+  {
+   "day": 89,
+   "time": "11:05",
+   "who": "u",
+   "text": "不用，谢谢。我妈说已经吃了药，休息一下看看。下午我早点回去看看他。先focus工作。",
+   "i": 1171
+  },
+  {
+   "day": 89,
+   "time": "12:30",
+   "who": "u",
+   "text": "中午跟Yuki快速catch up。她说dark mode toggle beta feedback很好，用户满意度92%。但她想做第二轮iteration，加一个auto-toggle based on system preference。我问她需要多少时间，她说大概多一周。你觉得值得吗?",
+   "i": 1172
+  },
+  {
+   "day": 89,
+   "time": "12:31",
+   "who": "a",
+   "text": "92%满意度已经很高了。Auto-toggle是nice-to-have，但如果加一周可能影响dark mode整体launch timeline。建议先ship v1 with manual toggle，auto-toggle放v2。这样11月初能交付，不耽误pricing launch。",
+   "i": 1173
+  },
+  {
+   "day": 89,
+   "time": "12:33",
+   "who": "u",
+   "text": "同意。我跟Yuki说先ship manual toggle。她有点失望但理解。好，下午focus了。",
+   "i": 1174
+  },
+  {
+   "day": 89,
+   "time": "15:00",
+   "who": "u",
+   "text": "刚收到我妈消息，我爸血压降下来了，头晕好多了。放心了。下午4点走，去女儿学校。",
+   "i": 1175
+  },
+  {
+   "day": 89,
+   "time": "15:01",
+   "who": "a",
+   "text": "太好了，凯哥。你父亲稳定就好。去女儿学校好好享受Halloween活动，你答应她了。",
+   "i": 1176
+  },
+  {
+   "day": 89,
+   "time": "15:30",
+   "who": "u",
+   "text": "嗯，谢谢aicoo。今天先到这里，周一见。",
+   "i": 1177
+  },
+  {
+   "day": 89,
+   "time": "15:31",
+   "who": "a",
+   "text": "周一见，凯哥。周末愉快！",
+   "i": 1178
+  },
+  {
+   "day": 90,
+   "time": "09:05",
+   "who": "u",
+   "text": "aicoo 周六早上好。女儿昨晚Halloween超开心，扮了小兔子。我今天早上有空，想整理一下下周的priorities。帮我列一下周一要focus的事?",
+   "i": 1179
+  },
+  {
+   "day": 90,
+   "time": "09:06",
+   "who": "a",
+   "text": "凯哥早上好！女儿扮小兔子一定很可爱。周一priority：1）10:30 pricing launch decision meeting with Grace和Ben；2）跟Grace确认SEA expansion headcount approval timeline；3）pricing review prep moved to 10:00；4）跟Ravi确认integration final timeline；5）Emily的weekly check-in。另外别忘了你父亲的情况，周一早上再问问。",
+   "i": 1180
+  },
+  {
+   "day": 90,
+   "time": "09:10",
+   "who": "u",
+   "text": "好，记下了。对了，昨天忘记问，Grace对Q3 customer wins summary有什么反馈吗? 我周四提交的，她还没回。",
+   "i": 1181
+  },
+  {
+   "day": 90,
+   "time": "09:11",
+   "who": "a",
+   "text": "Grace周四下午回复了，说summary很好，但希望加一个customer testimonial section。她建议你联系Aurora和另外两个top customer拿quote。你可以周一开始收集。",
+   "i": 1182
+  },
+  {
+   "day": 90,
+   "time": "09:12",
+   "who": "u",
+   "text": "好，周一找Lily要Aurora的quote，再找Omar要Singapore两个大客户的。这个不难。",
+   "i": 1183
+  },
+  {
+   "day": 90,
+   "time": "10:00",
+   "who": "u",
+   "text": "今天天气不错，打算带女儿和父母去公园走走。父亲今天早上血压正常，精神也好。",
+   "i": 1184
+  },
+  {
+   "day": 90,
+   "time": "10:01",
+   "who": "a",
+   "text": "那太好了，凯哥。周末就该这样。去公园好好放松，陪陪家人。你父亲稳定比什么都重要。",
+   "i": 1185
+  },
+  {
+   "day": 90,
+   "time": "10:05",
+   "who": "u",
+   "text": "嗯，谢谢。下周会很忙，但今天先休息。aicoo，周一见。",
+   "i": 1186
+  },
+  {
+   "day": 90,
+   "time": "10:06",
+   "who": "a",
+   "text": "周一见，凯哥。好好享受周末！",
+   "i": 1187
+  }
+ ],
+ "log": [
+  {
+   "w": 1,
+   "msgs": 41,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 2,
+   "msgs": 35,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 3,
+   "msgs": 42,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 4,
+   "msgs": 53,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 5,
+   "msgs": 70,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 6,
+   "msgs": 47,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 7,
+   "msgs": 63,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 8,
+   "msgs": 51,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 9,
+   "msgs": 52,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 10,
+   "msgs": 63,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 11,
+   "msgs": 66,
+   "target": 58,
+   "problems": [
+    "day 44 13:30 mentions something it must not (\"Send over, thx. 另外Ravi的integration Sep 22 cutoff, 我担心delay\")"
+   ],
+   "inserted": [],
+   "dropped": 1
+  },
+  {
+   "w": 12,
+   "msgs": 44,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 13,
+   "msgs": 52,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 14,
+   "msgs": 37,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 15,
+   "msgs": 42,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 16,
+   "msgs": 47,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 17,
+   "msgs": 49,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 18,
+   "msgs": 72,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 19,
+   "msgs": 89,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 20,
+   "msgs": 46,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 21,
+   "msgs": 46,
+   "target": 58,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 22,
+   "msgs": 45,
+   "target": 58,
+   "problems": [
+    "day 86 09:31 mentions something it must not (\"我已经把Ravi的capacity concerns记在agenda上，offsite优先讨论这个。\")"
+   ],
+   "inserted": [],
+   "dropped": 1
+  },
+  {
+   "w": 23,
+   "msgs": 36,
+   "target": 29,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  }
+ ]
+}

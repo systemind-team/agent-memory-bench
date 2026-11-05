@@ -1,0 +1,33 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "when did i have the billing_status panic?",
+ "reply": [
+  "you had it on 30 Aug, during the billing migration — the dropped column was `billing_status`, took 3h to recover. rollback saved you."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing_status panic"
+   },
+   "result": "#236 Sat 29 Aug 18:05 aicoo: nice, asheville here you come\n#237 Sun 30 Aug 08:30 Them: the dropped column was `billing_status`. 3h of panic.\n#238 Sun 30 Aug 08:30 aicoo: critical column. glad rollback worked"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2517,
+   "out": 22,
+   "usd": 0.00002914268
+  },
+  {
+   "in": 2622,
+   "out": 40,
+   "usd": 0.00003486728
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9099
+}

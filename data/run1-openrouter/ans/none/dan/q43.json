@@ -1,0 +1,58 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "what's ade's marathon time goal?",
+ "reply": [
+  "hmm, i don't think you've mentioned ade's marathon time goal in our chat. want me to check any docs or do you have it written somewhere else?",
+  "if not, just tell me when you know — i'll add it to my notes for race day."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "ade marathon time goal"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "ade running marathon time"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "marathon goal"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1139,
+   "out": 22,
+   "usd": 0.000032742
+  },
+  {
+   "in": 1190,
+   "out": 22,
+   "usd": 0.000037332
+  },
+  {
+   "in": 1241,
+   "out": 21,
+   "usd": 0.000041742
+  },
+  {
+   "in": 1291,
+   "out": 63,
+   "usd": 0.000053802
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4194
+}

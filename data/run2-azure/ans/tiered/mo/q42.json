@@ -1,0 +1,58 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "大伟电脑是什么型号？",
+ "reply": [
+  "我没找到大伟电脑型号的记录。之前只提过他带设备去部署驿站，但具体型号没说过。要不要我问一下大伟？或者你记不记得他入职时配的是什么？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 电脑 型号"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 laptop"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 设备"
+   },
+   "result": "#494 Fri 02 Oct 15:00 Them: 10%还行，先跑起来\n#495 Fri 02 Oct 16:30 aicoo: 大伟说下周二带设备过去部署。\n#496 Sat 03 Oct 09:00 Them: 昨天凯旋路驿站反馈怎么样"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5556,
+   "out": 24,
+   "usd": 0.000217896
+  },
+  {
+   "in": 5609,
+   "out": 21,
+   "usd": 0.000227346
+  },
+  {
+   "in": 5659,
+   "out": 22,
+   "usd": 0.000238406
+  },
+  {
+   "in": 5759,
+   "out": 48,
+   "usd": 0.000273966
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10953
+}

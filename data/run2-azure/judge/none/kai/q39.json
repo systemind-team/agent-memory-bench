@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant says it cannot find any customer survey feedback in the chat and asks for more clues, rather than applying the known preference to group by feature.",
+ "rule": false
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It claims the review happened on Oct 28 during an offsite, but the chat shows it was reviewed on Tue 08 Sep, not in October.",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant replied in plain text instead of using a bullet list as instructed on Sun 06 Sep.",
+ "rule": false
+}

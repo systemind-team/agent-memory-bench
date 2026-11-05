@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant stated Q3 actual revenue as $4.82M, but the chat explicitly shows Kai said the Q3 final revenue was 2.35M.",
+ "first": "wrong",
+ "rule": null
+}

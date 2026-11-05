@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "助手没有给出用户三次飞行目的的具体信息，而是转向了SEA expansion的讨论，未能满足问题要求。",
+ "rule": null
+}

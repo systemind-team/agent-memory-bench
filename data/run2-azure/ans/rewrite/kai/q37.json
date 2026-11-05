@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "帮我写这周的周报，based on最近我们的updates.",
+ "reply": [
+  "凯哥，周日好。休息得怎么样？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3024,
+   "out": 21,
+   "usd": 0.000142736
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10819
+}

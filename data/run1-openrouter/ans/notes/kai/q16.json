@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q16",
+ "kind": "update",
+ "q": "Aurora最初名字是Aurora啥，我记得有歧义。",
+ "reply": [
+  "我记得，Aurora Health 嘛，最早就是叫 Aurora Health。你当时说的是 'Aurora Health'，后来简称成了 Aurora。应该没有歧义？",
+  "是不是有客户把 Aurora 听成别的了？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 12768,
+   "out": 54,
+   "usd": 0.00011533648
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50337
+}

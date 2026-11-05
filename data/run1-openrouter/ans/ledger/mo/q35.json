@@ -1,0 +1,47 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "嗨，今天有什么消息？",
+ "reply": [
+  "周六崇明回来大家都挺开心的，没什么特别的新消息。",
+  "下周重点按你上次说的：大伟继续推新渠道，安卓版11月中上线准备，另外红杉视频会议可以提前准备了。",
+  "今天好好休息，周一再开工吧。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周六周日周报消息"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "本周下周计划"
+   },
+   "result": "[161] 12 Sep · promise: Mia和大伟周三前全部定稿（海报、推文、投放计划）  (from #312, #313)\n[214] 23 Sep · plan: 25号上线最终checklist本周定下  (from #401)\n[292] 10 Oct · fact: 代理退了2k差价，本周处理中  (from #555)\n[39] 14 Aug · pref: 周报里加一段「本周风险」，放在最后  → replaced 19 Aug by [51] 周报加用户反馈汇总  (from #69)\n[204] 21 Sep · plan: 本周定下9月25号上线最终checklist  (from #390)\n[159] 11 Sep · fact: 蓝驰尽调今天开始财务部分，小雨在配合，预计本周完  (from #309, #310)\n[69] 24 Aug · feeling: 整体推进还行，下周继续  (from #128)\n[74] 24 Aug · feeling: 整体推进还行，下周继续  (from #69)\n[342] 26 Oct · plan: 下周红杉视频会议准备  (from #659)\n[63] 23 Aug · plan: 高榕会面下周进行，需要准备  (from #122)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2620,
+   "out": 23,
+   "usd": 0.0000250908
+  },
+  {
+   "in": 2672,
+   "out": 21,
+   "usd": 0.0000270396
+  },
+  {
+   "in": 2987,
+   "out": 63,
+   "usd": 0.00003492412
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6684
+}

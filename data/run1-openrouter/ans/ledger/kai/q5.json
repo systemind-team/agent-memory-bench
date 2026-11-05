@@ -1,0 +1,20 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "Aurora那个客户全名叫什么，我老怕写错。",
+ "reply": [
+  "Aurora Health Systems，凯哥。全称是 Aurora Health Systems Inc."
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5104,
+   "out": 23,
+   "usd": 0.00005110728
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14906
+}

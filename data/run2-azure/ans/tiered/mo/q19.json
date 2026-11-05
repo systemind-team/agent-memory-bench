@@ -1,0 +1,46 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "跟蓝驰当面聊具体条款是哪天？",
+ "reply": [
+  "最早约的是9月3号面聊具体条款，当时你说要跟蓝驰当面谈条款，我们模拟了谈判，还建了文档列了底线。\n\n后来9月10号签了TS，估值7500万，10月中第一笔300万到账，上周第二笔也到位了。\n\n现在你想约他们聊什么？下一轮的条款，还是后面合作的节奏？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 条款 面聊 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 面聊"
+   },
+   "result": "#268 Sun 06 Sep 11:00 Them: 今天就这样，总结下发我。\n#269 Sun 06 Sep 11:01 aicoo: 周报已更新，蓝驰面聊和新渠道都标了。\n#270 Mon 07 Sep 16:00 aicoo: 大伟绩效方案我做了三个版本，你看选哪个\n---\n#251 Fri 04 Sep 11:01 aicoo: 健康管理师协会初步同意，等正式对接。\n#252 Fri 04 Sep 14:30 Them: 蓝驰那3号面聊，再模拟一次谈判。\n#253 Fri 04 Sep 14:31 aicoo: 我建个文档，列好底线和问答点。\n---\n#209 Mon 31 Aug 11:00 Them: 蓝驰那边有动静吗？\n#210 Mon 31 Aug 11:15 aicoo: 蓝驰反馈不错，我们9月3号跟他们当面聊具体条款\n#211 Mon 31 Aug 11:16 Them: 好，这个得认真谈。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5560,
+   "out": 27,
+   "usd": 0.000220416
+  },
+  {
+   "in": 5616,
+   "out": 23,
+   "usd": 0.000229936
+  },
+  {
+   "in": 5881,
+   "out": 94,
+   "usd": 0.000325346
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10957
+}

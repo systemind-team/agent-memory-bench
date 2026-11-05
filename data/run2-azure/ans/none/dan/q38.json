@@ -1,0 +1,59 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "can you do meeting notes from that sprint planning?",
+ "reply": [
+  "i don't have notes from that sprint planning — the chat only says you did it last friday and committed to 23 points. did you take notes somewhere i can look up?",
+  "if they're in your docs folder, point me at the file and i'll find what you need."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sprint planning notes"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "meeting notes sprint"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sprint"
+   },
+   "result": "#742 Fri 23 Oct 09:11 aicoo: glad to hear it. biscuit is learning.\n#743 Fri 23 Oct 10:00 Them: sprint planning today. we have 23 points committed.\n#744 Fri 23 Oct 10:01 aicoo: 23 points. ambitious but doable.\n---\n#726 Wed 21 Oct 11:01 aicoo: good. sam is a solid onboarding buddy.\n#727 Wed 21 Oct 14:20 Them: on-call rotation proposal sent to priya. 4 engineers per week. david starts after his first sprint.\n#728 Wed 21 Oct 14:21 aicoo: proposal sent. i will follow up if i don't see a reply by eod.\n---\n#646 Wed 14 Oct 16:05 aicoo: 狗狗生日会, 期待更多细节\n#647 Thu 15 Oct 10:00 Them: standup done, sprint is "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1140,
+   "out": 22,
+   "usd": 0.000068424
+  },
+  {
+   "in": 1191,
+   "out": 22,
+   "usd": 0.000079134
+  },
+  {
+   "in": 1242,
+   "out": 20,
+   "usd": 0.000088724
+  },
+  {
+   "in": 1829,
+   "out": 65,
+   "usd": 0.000237194
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4213
+}

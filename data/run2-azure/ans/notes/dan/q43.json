@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "what's ade's marathon time goal?",
+ "reply": [
+  "i don't think you ever told me a specific time goal. just that she signed up for the Philly marathon (Nov 5) and you're pacing her.",
+  "want me to check your chat with her for a target time?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "ade marathon time goal"
+   },
+   "result": "[running] 03 Oct: Ade signed up for Philadelphia marathon Nov 5; Dan pacing her (was running a marathon)\n[stripe-webhook] 03 Sep: flaky test in CI: test_billing_webhook fails 20% of the time; root cause found (shared state between test cases); fixing with a fresh mock per test\n[about-me] 27 Oct: Ade wants to do a Halloween thing; Dan and Ade to dress up as a pair\n[ade-foster-dog] 31 Oct: Ade revealed the Halloween costume — Dan is butter, Ade is toast, Biscuit gets a bacon costume\n[running] 30 Sep: 12 miles with Ade and Biscuit\n[about-me] 14 Oct: Ade planning Biscuit's party menu\n[running] 23 "
+  }
+ ],
+ "calls": [
+  {
+   "in": 2494,
+   "out": 18,
+   "usd": 0.000121404
+  },
+  {
+   "in": 2764,
+   "out": 54,
+   "usd": 0.000198264
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9090
+}

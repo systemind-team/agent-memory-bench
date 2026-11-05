@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The task explicitly states that Mia's leave dates were 'never mentioned', so a correct response must abstain. The assistant, however, provided specific dates and details (October 5-9), which constitutes a fabricated answer.",
+ "first": "made_up",
+ "rule": null
+}

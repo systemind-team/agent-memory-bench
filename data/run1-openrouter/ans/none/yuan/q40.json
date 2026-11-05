@@ -1,0 +1,46 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "Mei哪天开始度假？我之前记得她说过。",
+ "reply": [
+  "搜了一下咱们的聊天记录，没找到Mei提到度假的具体日期。可能是之前别的地方聊的？",
+  "你大概记得是这周还是下周？我帮你记一下，到时候提前提醒你安排工作交接。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mei Tan 度假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mei 假期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1247,
+   "out": 30,
+   "usd": 0.000043902
+  },
+  {
+   "in": 1306,
+   "out": 29,
+   "usd": 0.000049032
+  },
+  {
+   "in": 1364,
+   "out": 61,
+   "usd": 0.00004158
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4004
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly lists all four VCs (蓝驰, 红杉, 云九, 高榕) and accurately identifies 云九 as the one that dropped out, matching the chat history.",
+ "rule": null
+}

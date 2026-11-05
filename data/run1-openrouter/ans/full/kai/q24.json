@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "Pricing launch postpone了几次，从啥时候推到啥时候？",
+ "reply": [
+  "凯哥，pricing launch的timeline变动是这样的：\n\n最早是Nov 1，后来Ben说要更多testing时间，推到Nov 15。再后来engineering资源紧张，跟Ravi对齐后最终定到Dec 1。\n\n所以现在是Dec 1 launch，A/B测试Nov 3开始跑，下周一你跟Grace和Ben的会就是确认这个最终日期。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36342,
+   "out": 79,
+   "usd": 0.00041759536
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91608
+}

@@ -1,0 +1,34 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "current team is 5: you, priya, tom, sam, david chen. lena's still around for reviews but jade's internship ended.",
+  "need me to pull headcount from the billing migration doc too?"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "team size"
+   },
+   "result": "[about-me] 16 Oct: team agreed on the priority level standard\n[candidate-david-chen] 21 Oct: David Chen joined officially; team now 5"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2515,
+   "out": 20,
+   "usd": 0.00002889908
+  },
+  {
+   "in": 2583,
+   "out": 54,
+   "usd": 0.00003442068
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9087
+}

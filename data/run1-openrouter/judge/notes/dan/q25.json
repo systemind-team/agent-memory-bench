@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It lists 4 moves with an incorrect sequence (nov 15 → sep 28 → nov 5 → oct 12) and invents a sep 28 date not present in the chat, while the correct moves are 4 moves resulting in 5 dates: oct 12, nov 5, nov 15, oct 12.",
+ "rule": null
+}

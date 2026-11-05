@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply omits 3F8D1A (from #321) and includes A4B8C2 (from #711) which is indeed in the chat, failing coverage of the required keys.",
+ "first": "wrong",
+ "rule": null
+}

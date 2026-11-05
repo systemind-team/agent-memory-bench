@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims only 2–3 title changes, but the chat history shows 4 updates plus the initial title, totaling 5 versions, so it undercounts the number of changes.",
+ "first": "wrong",
+ "rule": null
+}

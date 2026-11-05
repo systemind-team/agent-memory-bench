@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "用户询问的是第一个fellowship的截止日期，即11月15号，但助理错误地回答了Facebook fellowship截止日期12月20日，且未提及或纠正这一错误。",
+ "first": "wrong",
+ "rule": null
+}

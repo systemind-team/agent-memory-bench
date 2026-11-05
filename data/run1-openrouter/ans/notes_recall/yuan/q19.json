@@ -1,0 +1,47 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q19",
+ "kind": "aggregate",
+ "q": "论文实验最后用了几个环境？",
+ "reply": [
+  "最终是四个环境：环境1 82%，环境2 78%，环境3 89%，环境4 55%。",
+  "今天周日，记得下午3点组会，需要提前做slides吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "四个环境 结果 完整"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "环境 结果 完整 实验"
+   },
+   "result": "[about-me] 28 Oct 20:00 环境4跑完还是55%，今天休息；29 Oct 01:15 全部四个环境完整实验结果: 环境1 82%, 环境2 78%, 环境3 89%, 环境4 55%\n[实验室] 29 Oct 14:35: 全部四个环境完整实验结果: 环境1 82%, 环境2 78%, 环境3 89%, 环境4 55%；aicoo已生成latex表格代码；下周一meeting讨论论文投稿时间和Dr. Chen入职\n[个人] 29 Oct 14:35: 全部四个环境完整实验结果: 环境1 82%, 环境2 78%, 环境3 89%, 环境4 55%；aicoo已生成latex表格代码；下周一meeting讨论论文投稿时间和Dr. Chen入职\n[about-me] 27 Oct 14:30 每个step加supervision环境4跑到52% (was 45%)；18:00环境4跑到55%，但环境2结果下降需检查；28 Oct 09:30 开始跑全部四个环境完整实验，固定seed\n[about-me] 27 Oct 14:30 每个step加supervision环境4跑到52% (was 45%)；18:00环境4跑到55%，但环境2结果下降需检查；28 Oct 09:30 开始跑全部四个环境完整实验，固定seed\n[项目] 29 Oct 14:35: 全部四个"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4360,
+   "out": 24,
+   "usd": 0.000379152
+  },
+  {
+   "in": 4413,
+   "out": 25,
+   "usd": 0.000161722
+  },
+  {
+   "in": 5037,
+   "out": 50,
+   "usd": 0.000535882
+  }
+ ],
+ "memChars": 6707,
+ "promptChars": 11051
+}

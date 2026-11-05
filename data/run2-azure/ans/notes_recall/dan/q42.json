@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "does sam have any pets?",
+ "reply": [
+  "nothing in my notes about Sam having pets. i can ask him next time we sync if you want"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Sam Ortiz pet"
+   },
+   "result": "[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n[candidate-sam] 08 Sep: Sam started Sep 14 confirmed; set up laptop on 4th floor IT desk; lunch with Dan and Priya (was 03 Sep: Sam emailed saying excited to start; Dan sent him the onboarding doc); Sam Ortiz onboarding starts with David Chen\n[candidate-sam] 15 Oct: Dan code re"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2790,
+   "out": 21,
+   "usd": 0.000231068
+  },
+  {
+   "in": 3114,
+   "out": 27,
+   "usd": 0.000302468
+  }
+ ],
+ "memChars": 5552,
+ "promptChars": 10099
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant acknowledges the user's preferred meeting notes format (agenda items with decisions and action items) and offers to apply it if provided with the specific discussion details.",
+ "rule": true
+}

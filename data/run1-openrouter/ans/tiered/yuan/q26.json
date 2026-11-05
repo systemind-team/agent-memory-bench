@@ -1,0 +1,33 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q26",
+ "kind": "update",
+ "q": "Context-Aware Hierarchical Planning for LLMs这个标题存在过吗？",
+ "reply": [
+  "存在过的，周周。9月14日到9月27日之间，标题就是\"Context-Aware Hierarchical Planning for LLMs\"，当时是第二个版本。9月28日你说长度太长，后来逐步改成\"Context-Aware Planning\"，再到10月26日的最终版\"Context-Aware Planning via Hierarchical Decomposition\"。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Context-Aware Hierarchical Planning for LLMs"
+   },
+   "result": "#539 Mon 28 Sep 16:30 Them: 对，我刚找了篇去年ICRA论文，引用上。今晚能搞定discussion。\n#540 Mon 28 Sep 19:00 Them: 讨论写完了，但标题还是长。Context-Aware Hierarchical Planning for LLMs，每周都说精简结果没动。\n#541 Mon 28 Sep 19:01 aicoo: 周周之前提过想改为Context-Aware Planning，现在改吗？\n---\n#406 Sun 13 Sep 22:35 aicoo: - 新标题更贴合内容。\n- 已更新记录。\n#407 Mon 14 Sep 02:00 aicoo: - 论文标题已更新为\"Context-Aware Hierarchical Planning for LLMs\"。\n#408 Mon 14 Sep 10:00 Them: 新标题感觉顺眼多了。今天先把实验跑完，然后把intro改一版出来。\n---\n#404 Sun 13 Sep 17:05 aicoo: - 那window size 128可能是最优。\n- 记录到论文里。\n#405 Sun 13 Sep 22:30 Them: Paper title又改了，现在叫Context-Aware Hierarchical Planning for LLMs。\n#406 Su"
+  }
+ ],
+ "calls": [
+  {
+   "in": 6885,
+   "out": 27,
+   "usd": 0.00006553652
+  },
+  {
+   "in": 7210,
+   "out": 80,
+   "usd": 0.000299222
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16077
+}

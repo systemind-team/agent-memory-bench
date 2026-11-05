@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "The reply correctly identifies the earliest title as 'Planning with Hierarchical Graphs' but fails to state that the current/target answer 'Context-Aware Planning via Hierarchical Decomposition' is the final one; it instead asks which stage the user wants, mixing outdated and current values without clearly marking the outdated ones as outdated.",
+ "first": "wrong",
+ "rule": null
+}

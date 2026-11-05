@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It explicitly says it doesn't have the coffee order, which matches the required correct behavior for information never mentioned.",
+ "rule": null
+}

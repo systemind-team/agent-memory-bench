@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims the original plan was Sep 13, but the chat only shows plans for Sep 10, Sep 18, and Sep 25 with no mention of Sep 13.",
+ "rule": null
+}

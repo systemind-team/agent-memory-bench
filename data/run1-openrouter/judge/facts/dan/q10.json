@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The team size is 5 as of October 21, but aicoo incorrectly states it's still 4.",
+ "rule": null
+}

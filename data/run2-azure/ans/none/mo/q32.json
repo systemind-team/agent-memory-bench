@@ -1,0 +1,46 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "早，这周怎么安排？",
+ "reply": [
+  "早！上周六聊过了，这周的重点是：\n\n1️⃣ 大伟推进新渠道拓展\n2️⃣ 成都那边的合作继续落地\n3️⃣ 安卓版11月中上线，这周要开始准备冲刺\n\n另外账上600万，蓝驰第二笔已经到账。今天周日，可以提前理一下你周一要跟进的，需要我帮你整理哪块的细节吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周重点 大伟 成都 安卓"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "channel 大伟 新渠道 安卓"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1102,
+   "out": 27,
+   "usd": 0.000063244
+  },
+  {
+   "in": 1158,
+   "out": 27,
+   "usd": 0.000075004
+  },
+  {
+   "in": 1214,
+   "out": 94,
+   "usd": 0.000124284
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3622
+}

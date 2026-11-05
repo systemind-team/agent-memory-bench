@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply contains incorrect dates/claims (e.g., GPTR first ran on 9月9日/10日, not 10月12日; 10月12日 THOR result is about baseline not GPTR; 10月15日 is new scenario not GPTR fix) and omits required items like '没碰改intro', '跑起来差', and the normalization bug found 9月9日 then 9月15日.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q26",
+ "kind": "update",
+ "q": "Context-Aware Hierarchical Planning for LLMs这个标题存在过吗？",
+ "reply": [
+  "存在过的！13 Sep 改成了这个标题，然后 27 Sep 又缩写成 Context-Aware Planning，最后 26 Oct 定下来现在的 Context-Aware Planning via Hierarchical Decomposition。",
+  "所以是三个月前的版本啦，现在这个是 final。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Context-Aware Hierarchical Planning for LLMs"
+   },
+   "result": "[项目] 20 Aug: 论文标题改为Hierarchical Planning with Graph Attention（之前是Planning with Hierarchical Graphs）；13 Sep: 标题改为Context-Aware Hierarchical Planning for LLMs\n[about-me] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[项目] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[项目] 25 Oct 14:00 准备组会slides，放四个环境结果（THOR、real-world scenario、grid world、HotpotQA）；26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）；26 Oct 23:40 确认final title: Context-Aware Plann"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4395,
+   "out": 27,
+   "usd": 0.000388182
+  },
+  {
+   "in": 4894,
+   "out": 62,
+   "usd": 0.000512572
+  }
+ ],
+ "memChars": 7303,
+ "promptChars": 11687
+}

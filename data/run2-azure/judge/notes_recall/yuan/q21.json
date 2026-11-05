@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It incorrectly states the initial title was Planning with Hierarchical Graphs, but the chat only shows that as an early title, not the original one the question asks for.",
+ "rule": null
+}

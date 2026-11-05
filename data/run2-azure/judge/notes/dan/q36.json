@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The PR draft ends with a 'Next steps' section but does not include a 'Risk' section as requested, so it fails to follow the preference stated in the chat.",
+ "rule": false
+}

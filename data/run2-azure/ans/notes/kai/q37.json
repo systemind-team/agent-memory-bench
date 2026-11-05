@@ -1,0 +1,22 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "帮我写这周的周报，based on最近我们的updates.",
+ "reply": [
+  "好，我来看看最近的更新，整理一份周报草稿给你。",
+  "先大致梳理一下这周的关键事项，你确认后我再调整格式。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12743,
+   "out": 39,
+   "usd": 0.000452494
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50341
+}

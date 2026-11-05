@@ -1,0 +1,85 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "周周：看看这周日历有啥？",
+ "reply": [
+  "你今天周日，日历上主要有两件：",
+  "1. 周一9:30跟Prof. Lin线上meeting（链接待他提供），材料已经准备好了",
+  "2. Dr. Chen周二（11月3日）入职，已设10:00提醒带他熟悉环境",
+  "其他时间空着。周日要写写论文的discussion或者放松一下？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周日 meeting 线上 01 Nov"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周日 11月 1日"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "生活"
+   },
+   "result": "生活\n18 Sep: Coco的房租每个月1200，周予安的1400（因为房间大）；30 Sep: Coco说周末去法拉盛买菜，那里东西便宜\n22 Sep Coco去超市，一起去了买点东西\n26 Sep Coco说晚上做火锅\n01 Oct: Coco说“山海”餐厅要提前两周预定，想带她去庆祝论文；aicoo已设提醒Mon 05 Oct 10:00预订\n04 Oct: 今年中秋10月4号，周予安忘了，晚上跟Kevin等人去打保龄球，Kevin最高分\n04 Oct: Coco说明天去法拉盛买月饼，中秋到了\n01 Oct: Coco说山海餐厅需提前两周预订\n14 Oct: 预订了“山海”餐厅，11月20日（之前06 Oct无记录）\n01 Oct: Coco说山海餐厅需提前两周预订；15 Oct: 平时喝blue bottle咖啡，最近打折；17 Oct: 下午和Coco去超市买菜，晚上在家做火锅\n22 Oct 18:00 跟Coco去楼下吃饭；24 Oct 14:00 和Coco去布鲁克林逛了一圈买了点东西\n28 Oct: 纽约开始供暖，暖气费每月多50刀"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周一 meeting Prof. Lin 线上"
+   },
+   "result": "#837 Sat 24 Oct 21:00 Them: 明天周日，组会还是要准备的。今晚早点睡。\n#838 Sun 25 Oct 00:20 Them: 下周一跟Prof. Lin的meeting改成线上，他去出差了。\n#839 Sun 25 Oct 00:21 aicoo: 好的周周，已更新日历。线上meeting链接需要他提供吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周一 线上 meeting 链接"
+   },
+   "result": "#900 Thu 29 Oct 14:40 Them: 先不用，等Prof. Lin安排。meeting改线上了，记得提醒我。\n#901 Thu 29 Oct 14:42 aicoo: - 已设置周一上午9:30提醒线上meeting。\n- 会议链接在日历中。\n#902 Fri 30 Oct 09:00 Them: 今天周末，但想把论文实验部分写完。环境3的结果可以写成一段了。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3708,
+   "out": 25,
+   "usd": 0.000151144
+  },
+  {
+   "in": 3762,
+   "out": 25,
+   "usd": 0.000162484
+  },
+  {
+   "in": 3816,
+   "out": 19,
+   "usd": 0.000170464
+  },
+  {
+   "in": 4115,
+   "out": 25,
+   "usd": 0.000236614
+  },
+  {
+   "in": 4238,
+   "out": 24,
+   "usd": 0.000261884
+  },
+  {
+   "in": 4387,
+   "out": 86,
+   "usd": 0.000236246
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9610
+}

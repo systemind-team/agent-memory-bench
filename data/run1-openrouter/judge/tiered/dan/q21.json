@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The order is correct: Stripe webhooks were completed before Sam's onboarding on September 14.",
+ "rule": null
+}

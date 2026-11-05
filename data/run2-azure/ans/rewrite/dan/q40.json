@@ -1,0 +1,70 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "when is tom's PTO?",
+ "reply": [
+  "dan the builder，我翻了一遍记录，没有找到Tom的PTO信息。他目前没提过请假计划。你记得他说过吗，还是需要我去问问Priya？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom PTO"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom 请假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom vacation"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom"
+   },
+   "result": "#824 Fri 30 Oct 18:35 aicoo: hope you saved some for roasting\n#825 Sat 31 Oct 09:30 Them: tom's stripe refactor v2 is in review. edge cases look covered\n#826 Sat 31 Oct 09:35 aicoo: nice. that should be the last big piece before cutover\n---\n#791 Tue 27 Oct 10:35 aicoo: classic cat behavior. hope the monitor survived\n#792 Tue 27 Oct 14:00 Them: stripe webhook v2 spec looks good. tom addressed my comments\n#793 Tue 27 Oct 14:05 aicoo: smooth review then. should merge soon\n---\n#789 Tue 27 Oct 09:05 aicoo: biscuit's good with other dogs. he'll adapt\n#790 Tue 27 Oct 10:30 Them: tom's cat pixel appar"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2972,
+   "out": 21,
+   "usd": 0.000131816
+  },
+  {
+   "in": 3022,
+   "out": 21,
+   "usd": 0.000142316
+  },
+  {
+   "in": 3072,
+   "out": 20,
+   "usd": 0.000152256
+  },
+  {
+   "in": 3121,
+   "out": 19,
+   "usd": 0.000116162
+  },
+  {
+   "in": 3766,
+   "out": 45,
+   "usd": 0.000266172
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10679
+}

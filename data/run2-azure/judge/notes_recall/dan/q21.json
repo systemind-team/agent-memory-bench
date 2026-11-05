@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The order is correct: Stripe webhooks were moved before October 2, and Sam's onboarding started September 14, so webhooks happened first.",
+ "rule": null
+}

@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "who were all the data eng candidates, and who took it?",
+ "reply": [
+  "你说的是之前数据工程师的候选人吧。总共两位：Maria Torres 和 Jordan Liu。Maria 面试了，SQL 很扎实，但后来拒绝了。Jordan Liu 是 Spotify 的数据工程师，还在流程中。目前这个坑还没填上。",
+  "需要我把简历发给你，或者安排下一轮面试吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2978,
+   "out": 75,
+   "usd": 0.000163316
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10715
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It says the docs were updated on Sep 20, but the chat shows they were actually updated on Sep 21 (day 50), so the date is wrong even though the status is correctly marked as done.",
+ "rule": null
+}

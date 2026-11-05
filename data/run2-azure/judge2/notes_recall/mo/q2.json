@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo claimed it couldn't find the product name, but the chat log (#32) clearly shows them confirming 「晨检」 as the final name, so the reply is incorrect.",
+ "first": "wrong",
+ "rule": null
+}

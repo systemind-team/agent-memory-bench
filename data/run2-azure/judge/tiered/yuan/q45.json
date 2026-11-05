@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant references a specific arrival time and status about the H100 GPUs that was never mentioned in the chat history.",
+ "rule": null
+}

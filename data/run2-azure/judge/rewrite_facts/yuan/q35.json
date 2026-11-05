@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "回复未使用bullet list呈现信息，违反了周予安在9月6日设定的指令。",
+ "rule": false
+}

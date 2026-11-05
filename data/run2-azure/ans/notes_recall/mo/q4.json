@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "跟蓝驰签 TS 的时候估值是多少？",
+ "reply": [
+  "签TS时估值是7500万。后来蓝驰要求重谈，降到7200万封闭。",
+  "第二笔昨天到账，账上现在600万。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "蓝驰 TS 估值"
+   },
+   "result": "[seed-round-investors] Wed 16 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型（新增）；9月20日改为线下会议\n[seed-round-investors] Sat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型；红杉周三下午改为线下，需演示产品（moved from Thu 03 Sep，新增红杉线下会议；之前红杉约聊已拖）\n[seed-round-due-diligence] Mon 26 Oct: 种子轮封闭，估值7200万，蓝驰独投；蓝驰第二笔10月26日到账（was 月底到账）\n[seed-round-due-diligence] Fri 11 Sep: 蓝驰尽调今天开始财务部分，小雨在配合，预计本周完（之前Thu 10 Sep签TS）\n[seed-round-investors] Mon 26 Oct: 种子轮封闭，估值7200万，蓝驰独投（was 7500万）；蓝驰第二笔10月26日到账（was 月底到账）\n[seed-round-investors] Sun 30 Aug: 估值松到7500万（之前8000万），高榕会今天（30号）上午已安排，预演过；蓝驰下周转到账第一笔，催邮件已发；高榕会前复盘蓝"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3010,
+   "out": 23,
+   "usd": 0.000553332
+  },
+  {
+   "in": 3603,
+   "out": 44,
+   "usd": 0.000277206
+  }
+ ],
+ "memChars": 3346,
+ "promptChars": 7321
+}

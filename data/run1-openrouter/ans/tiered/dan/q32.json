@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "morning dan the builder. first day of the new on-call rotation starts today. hope the weekend treated you well.",
+  "biscuit looked perfect as bacon by the way. how did halloween go?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5319,
+   "out": 49,
+   "usd": 0.0000536326
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17885
+}

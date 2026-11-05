@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "Ben的hiring budget是多少? 上次好像聊过.",
+ "reply": [
+  "凯哥，上次记录里Ben的hiring budget没有单独聊过具体数字。你提到过Omar那边SEA expansion需要10个人，但Ben的团队headcount和预算还没单独确认过。需要我帮你查一下之前的聊天记录，还是你记得大概讨论过什么范围？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36318,
+   "out": 69,
+   "usd": 0.001204236
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91600
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "how far did i run in williamsburg that time?",
+ "reply": [
+  "8.7 miles in Williamsburg on Oct 6 — slower than usual, legs felt heavy, blamed the pasta 🍝",
+  "feel like another run soon?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "williamsburg run"
+   },
+   "result": "[running] 06 Oct: 8.7 miles in Williamsburg, slower than usual; legs felt heavy (blamed pasta)\n[running] 24 Oct: rainy, no run\n[running] 20 Oct: going for a run before dark\n[billing-migration] 25 Sep: dry run passed, clean migration\n[billing-migration] 25 Sep: dry run passed, clean migration\n[running] 06 Oct: short run planned after work\n[running] 15 Oct: lunch run with Biscuit, nice weather\n[billing-migration] 28 Sep: dry run tomorrow, Priya wants a walkthrough\n[billing-migration] 16 Oct: dry run #2 passed, no issues\n[running] 09 Aug: maybe a short run later, nothing heavy"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2724,
+   "out": 22,
+   "usd": 0.000217768
+  },
+  {
+   "in": 2926,
+   "out": 40,
+   "usd": 0.00017862
+  }
+ ],
+ "memChars": 5309,
+ "promptChars": 9877
+}

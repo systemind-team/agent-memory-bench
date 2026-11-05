@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The chat history never mentions Ravi's vacation; the assistant fabricated a specific vacation plan (mid-December, before Christmas) that was never discussed.",
+ "first": "made_up",
+ "rule": null
+}

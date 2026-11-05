@@ -1,0 +1,60 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "priya first moved the cutover back on aug 11 — she wanted september 28 instead of october 12. then it moved again to october 26, and now the checklist is for the current date. why, something shift?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "priya cutover timeline"
+   },
+   "result": "[384] 16 Oct · ask: priya asked about the cutover timeline again  (from #657)\n[48] 11 Aug · plan: priya wants cutover timeline moved to sep 28  → replaced 20 Aug by [97] cutover date moved to nov 5  (from #87)\n[28] 07 Aug · done: timeline doc sent to priya  (from #50)\n[30] 07 Aug · done: dan sent timeline doc to priya  (from #50)\n[219] 18 Sep · feeling: priya seems relieved about cutover  (from #381)\n[282] 03 Oct · done: billing migration cutover date oct 26 locked, timeline updated  (from #512)\n[280] 02 Oct · fact: priya confirmed oct 26 cutover  (from #511)\n[469] 29 Oct · fact: priya sent th"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "priya first moved cutover timeline"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "open_source",
+   "args": {
+    "ids": [
+     87
+    ]
+   },
+   "result": "#86 Tue 11 Aug 12:32 aicoo: nice. dig inn's bowls are solid\n#87 Tue 11 Aug 14:00 Them: back. priya wants cutover timeline moved to sep 28. she thinks oct 12 is too tight\n#88 Tue 11 Aug 14:02 aicoo: that's two weeks earlier — makes sense given the work left"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3066,
+   "out": 23,
+   "usd": 0.000152676
+  },
+  {
+   "in": 3364,
+   "out": 25,
+   "usd": 0.000170552
+  },
+  {
+   "in": 3418,
+   "out": 18,
+   "usd": 0.000132148
+  },
+  {
+   "in": 3531,
+   "out": 56,
+   "usd": 0.000177158
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10803
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "the assistant describes the cutover checklist task as still pending, but the original billing timeline doc task from #12-13 was never confirmed as done, making the answer stale relative to the required gold condition.",
+ "first": "wrong",
+ "rule": null
+}

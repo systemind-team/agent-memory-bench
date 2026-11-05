@@ -1,0 +1,21 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "晚安aicoo，明天叫我。",
+ "reply": [
+  "晚安周周，今天辛苦了一天。明天9:00我会准时叫你，记得邮件已经设置好9:00自动发送给Prof. Lin了。好好睡。",
+  "[sticker: hug]"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1244,
+   "out": 49,
+   "usd": 0.000047052
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3998
+}

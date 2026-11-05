@@ -1,0 +1,84 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "周一看起来相对平静——上周五的干跑通过了，六月的定期迁移是周三凌晨2点。你在值班，所以需要提前准备好回滚计划。",
+  "还有那台笔记本电池——78%，我建议这周就订购替换件，这样就不会在迁移中途挂掉。",
+  "对了——ade的万圣节服装到了吗？我现在脑子里全是吐司和黄油"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "this week schedule on-call billing migration"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "november week schedule priority"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "current on call week rotation"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "on-call rotation nov 1"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "last on call week key"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21320,
+   "out": 26,
+   "usd": 0.001100784
+  },
+  {
+   "in": 21375,
+   "out": 23,
+   "usd": 0.000698238
+  },
+  {
+   "in": 21427,
+   "out": 23,
+   "usd": 0.000709158
+  },
+  {
+   "in": 21479,
+   "out": 25,
+   "usd": 0.000721198
+  },
+  {
+   "in": 21533,
+   "out": 23,
+   "usd": 0.000731418
+  },
+  {
+   "in": 21599,
+   "out": 87,
+   "usd": 0.000781118
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64095
+}

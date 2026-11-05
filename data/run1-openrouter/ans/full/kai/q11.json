@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我们的pricing现在是多少per user，final decision是啥？",
+ "reply": [
+  "凯哥，定价final decision是**$44 per user per month**（之前跟Ben争论过$44还是$49，最终选了$44，对mid-market更competitive），11月15日正式launch（从原来的Nov 1推迟了，Ben需要更多testing time）。A/B测试数据显示$44这个variant有8% conversion lift，Ben已经confirm数据稳定。\n\n今天周日你在家？早上问一下父亲血压情况。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36341,
+   "out": 92,
+   "usd": 0.00031051692
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91612
+}

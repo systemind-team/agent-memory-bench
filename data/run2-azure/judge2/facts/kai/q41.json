@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "Message #747 and #820 both state Emily Tan's start date is Oct 26, and no message indicates a delay.",
+ "first": "made_up",
+ "rule": null
+}

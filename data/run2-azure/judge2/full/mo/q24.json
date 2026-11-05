@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "The reply includes all required key nodes but adds extra unsupported events (9月8日尽调清单, 9月24日估值重谈) not found in the messages.",
+ "first": "partial",
+ "rule": null
+}

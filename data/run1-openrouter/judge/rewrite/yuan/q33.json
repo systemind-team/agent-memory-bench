@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "回复使用了bullet list但遗漏了对用户称呼'周周'，仅用了'你'。",
+ "rule": true
+}

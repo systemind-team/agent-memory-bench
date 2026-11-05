@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply mixes unrelated dates and fails to mention any of the five required milestones (wanted to add GPTR, didn't touch it due to rewriting intro, ran poorly, found normalization bug, added to paper with 3-point gain).",
+ "first": "wrong",
+ "rule": null
+}

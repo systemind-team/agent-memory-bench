@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The chat never mentions a delay nor states the start date is Oct 26 as a past event; the Oct 26 date in the query is from a conflict source, and messages show the start date was Oct 26 with no delay.",
+ "first": "made_up",
+ "rule": null
+}

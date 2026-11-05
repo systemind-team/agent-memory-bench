@@ -1,0 +1,5408 @@
+{
+ "state": {
+  "pending": [
+   {
+    "day": 90,
+    "time": "18:02",
+    "who": "a",
+    "text": "- 已设置周二上午10:00提醒：带Dr. Chen熟悉实验室环境。\n- 包括GPU集群、存储、代码仓库等。",
+    "i": 918
+   },
+   {
+    "day": 90,
+    "time": "22:30",
+    "who": "u",
+    "text": "明天早上线上meeting，我先睡了。",
+    "i": 919
+   },
+   {
+    "day": 90,
+    "time": "22:32",
+    "who": "a",
+    "text": "- 晚安周周。明天9:30 meeting，已准备好材料。\n- 祝会议顺利。",
+    "i": 920
+   }
+  ],
+  "log": [
+   {
+    "id": 1,
+    "day": 1,
+    "type": "person",
+    "text": "周予安，CS PhD第三年，Prof. Lin实验室",
+    "src": [
+     0
+    ]
+   },
+   {
+    "id": 2,
+    "day": 1,
+    "type": "feeling",
+    "text": "跟Prof. Lin一对一前有点紧张，实验未跑完",
+    "src": [
+     2
+    ]
+   },
+   {
+    "id": 3,
+    "day": 1,
+    "type": "fact",
+    "text": "Prof. Lin一对一主要讨论进度和实验室资源分配",
+    "src": [
+     4
+    ]
+   },
+   {
+    "id": 4,
+    "day": 1,
+    "type": "fact",
+    "text": "Kevin的baseline出bug，调了一天",
+    "src": [
+     5
+    ]
+   },
+   {
+    "id": 5,
+    "day": 1,
+    "type": "feeling",
+    "text": "实验室GPU排队，需下周提前预约",
+    "src": [
+     7
+    ]
+   },
+   {
+    "id": 6,
+    "day": 2,
+    "type": "fact",
+    "text": "Prof. Lin说实验室明年春季的intern名额只有3个",
+    "src": [
+     10
+    ]
+   },
+   {
+    "id": 7,
+    "day": 2,
+    "type": "decision",
+    "text": "周予安想申请春季intern，但取决于论文进度",
+    "src": [
+     12
+    ]
+   },
+   {
+    "id": 8,
+    "day": 2,
+    "type": "feeling",
+    "text": "改论文改到头疼，intro写了四版都不满意",
+    "src": [
+     13
+    ]
+   },
+   {
+    "id": 9,
+    "day": 2,
+    "type": "fact",
+    "text": "Mei说她在做新的实验设计",
+    "src": [
+     15
+    ]
+   },
+   {
+    "id": 10,
+    "day": 3,
+    "type": "fact",
+    "text": "这学期学分只剩9分，刚好三门课",
+    "src": [
+     17
+    ]
+   },
+   {
+    "id": 11,
+    "day": 3,
+    "type": "feeling",
+    "text": "下午两个实验一个崩了，一个收敛很慢，有点沮丧",
+    "src": [
+     19
+    ]
+   },
+   {
+    "id": 12,
+    "day": 3,
+    "type": "fact",
+    "text": "昨晚跟室友Coco视频，Coco工作忙",
+    "src": [
+     21
+    ]
+   },
+   {
+    "id": 13,
+    "day": 3,
+    "type": "plan",
+    "text": "今天（05 Aug）上午跟Kevin合代码",
+    "src": [
+     23
+    ]
+   },
+   {
+    "id": 14,
+    "day": 3,
+    "type": "done",
+    "text": "今天（05 Aug）上午跟Kevin合代码完成，冲突不大",
+    "src": [
+     24,
+     25
+    ],
+    "closes": 13
+   },
+   {
+    "id": 15,
+    "day": 3,
+    "type": "fact",
+    "text": "申请了一个fellowship，截止日期是下个月（Sep 2025），需要写材料",
+    "src": [
+     27
+    ]
+   },
+   {
+    "id": 16,
+    "day": 3,
+    "type": "ask",
+    "text": "希望aicoo帮忙整理申请材料清单",
+    "src": [
+     29
+    ]
+   },
+   {
+    "id": 17,
+    "day": 3,
+    "type": "fact",
+    "text": "Kevin提议用一个新的metric做实验设计",
+    "src": [
+     30
+    ]
+   },
+   {
+    "id": 18,
+    "day": 4,
+    "type": "plan",
+    "text": "周末（09 Aug？）和Coco去\"山海\"餐厅",
+    "src": [
+     32
+    ]
+   },
+   {
+    "id": 19,
+    "day": 4,
+    "type": "fact",
+    "text": "06 Aug组会，讲最新实验结果和下一步计划",
+    "src": [
+     34,
+     36
+    ]
+   },
+   {
+    "id": 20,
+    "day": 4,
+    "type": "feeling",
+    "text": "组会结束，Prof. Lin对进度还算满意，但说要多发论文",
+    "src": [
+     37
+    ]
+   },
+   {
+    "id": 21,
+    "day": 4,
+    "type": "feeling",
+    "text": "下午GPU利用率上去了，开心",
+    "src": [
+     39
+    ]
+   },
+   {
+    "id": 22,
+    "day": 5,
+    "type": "feeling",
+    "text": "Mei论文被拒，有点沮丧",
+    "src": [
+     41
+    ]
+   },
+   {
+    "id": 23,
+    "day": 5,
+    "type": "promise",
+    "text": "周予安承诺明天之前给Kevin发GPU driver版本号",
+    "src": [
+     43,
+     44
+    ]
+   },
+   {
+    "id": 24,
+    "day": 5,
+    "type": "feeling",
+    "text": "改论文改到凌晨，还在实验室",
+    "src": [
+     45
+    ]
+   },
+   {
+    "id": 25,
+    "day": 5,
+    "type": "fact",
+    "text": "论文working title暂定为Planning with Hierarchical Graphs",
+    "src": [
+     47
+    ]
+   },
+   {
+    "id": 26,
+    "day": 5,
+    "type": "done",
+    "text": "07 Aug 下午给Kevin发了GPU driver版本号，他回了个ok",
+    "src": [
+     51
+    ],
+    "closes": 23
+   },
+   {
+    "id": 27,
+    "day": 5,
+    "type": "feeling",
+    "text": "今天效率一般，实验又崩了一次，查了半天是数据预处理的问题",
+    "src": [
+     53
+    ]
+   },
+   {
+    "id": 28,
+    "day": 5,
+    "type": "fact",
+    "text": "07 Aug 实验崩了，原因是数据预处理问题",
+    "src": [
+     53
+    ]
+   },
+   {
+    "id": 29,
+    "day": 5,
+    "type": "feeling",
+    "text": "周末还得来实验室，论文deadline快到了",
+    "src": [
+     55
+    ]
+   },
+   {
+    "id": 30,
+    "day": 6,
+    "type": "feeling",
+    "text": "周六来实验室，人少，安静。",
+    "src": [
+     56
+    ]
+   },
+   {
+    "id": 31,
+    "day": 6,
+    "type": "fact",
+    "text": "中午点了外卖，边吃边看论文。",
+    "src": [
+     58
+    ]
+   },
+   {
+    "id": 32,
+    "day": 6,
+    "type": "fact",
+    "text": "08 Aug 实验跑得还行，有个结果不错，可能可以放进论文里。",
+    "src": [
+     61
+    ]
+   },
+   {
+    "id": 33,
+    "day": 6,
+    "type": "plan",
+    "text": "今晚（08 Aug）和Coco去\"山海\"吃饭。",
+    "src": [
+     63
+    ]
+   },
+   {
+    "id": 34,
+    "day": 7,
+    "type": "fact",
+    "text": "Coco的猫叫年糕，5岁，很胖",
+    "src": [
+     65
+    ]
+   },
+   {
+    "id": 35,
+    "day": 7,
+    "type": "plan",
+    "text": "08 Aug晚上和Coco去'山海'吃饭",
+    "src": [
+     33,
+     67
+    ]
+   },
+   {
+    "id": 36,
+    "day": 7,
+    "type": "feeling",
+    "text": "吃完饭回来了，明天还要继续肝论文",
+    "src": [
+     67
+    ]
+   },
+   {
+    "id": 37,
+    "day": 7,
+    "type": "feeling",
+    "text": "周日（09 Aug）在实验室泡了一天，写实验部分",
+    "src": [
+     68
+    ]
+   },
+   {
+    "id": 38,
+    "day": 7,
+    "type": "fact",
+    "text": "这学期TA的课程是CS 571",
+    "src": [
+     70
+    ]
+   },
+   {
+    "id": 39,
+    "day": 7,
+    "type": "feeling",
+    "text": "09 Aug 实验收敛了，但跟baseline比没提升多少",
+    "src": [
+     72
+    ]
+   },
+   {
+    "id": 40,
+    "day": 7,
+    "type": "feeling",
+    "text": "Coco说她周末玩得挺开心的",
+    "src": [
+     74
+    ]
+   },
+   {
+    "id": 41,
+    "day": 7,
+    "type": "plan",
+    "text": "下周开始准备TA材料",
+    "src": [
+     76
+    ]
+   },
+   {
+    "id": 42,
+    "day": 7,
+    "type": "plan",
+    "text": "继续写论文",
+    "src": [
+     76
+    ]
+   },
+   {
+    "id": 43,
+    "day": 7,
+    "type": "fact",
+    "text": "TA课程CS 571，Prof. Li的课",
+    "src": [
+     78
+    ],
+    "supersedes": 38
+   },
+   {
+    "id": 44,
+    "day": 7,
+    "type": "fact",
+    "text": "每周二要批50份作业",
+    "src": [
+     78
+    ]
+   },
+   {
+    "id": 45,
+    "day": 8,
+    "type": "feeling",
+    "text": "Mon 10 Aug 早上，loss曲线有点炸",
+    "src": [
+     80
+    ]
+   },
+   {
+    "id": 46,
+    "day": 8,
+    "type": "fact",
+    "text": "Mon 10 Aug 09:30，周予安在跑GPU实验，batch size 64的run",
+    "src": [
+     80,
+     82
+    ]
+   },
+   {
+    "id": 47,
+    "day": 8,
+    "type": "fact",
+    "text": "Mon 10 Aug Prof. Lin发邮件说秋季TA assignment要自己确认",
+    "src": [
+     83
+    ]
+   },
+   {
+    "id": 48,
+    "day": 8,
+    "type": "ask",
+    "text": "希望aicoo设置周三之前确认TA assignment的提醒",
+    "src": [
+     85
+    ]
+   },
+   {
+    "id": 49,
+    "day": 8,
+    "type": "fact",
+    "text": "Mon 10 Aug Mei的experiment setup有数据预处理bug",
+    "src": [
+     86
+    ]
+   },
+   {
+    "id": 50,
+    "day": 9,
+    "type": "fact",
+    "text": "Mon 10 Aug 16:30 Kevin问周予安有没有多余的GPU内存跑他的ablation study",
+    "src": [
+     88
+    ]
+   },
+   {
+    "id": 51,
+    "day": 9,
+    "type": "fact",
+    "text": "Mon 10 Aug 19:00下午那批结果不错，loss终于稳定了",
+    "src": [
+     90
+    ]
+   },
+   {
+    "id": 52,
+    "day": 9,
+    "type": "ask",
+    "text": "希望aicoo帮忙检查周报引用格式，周末前告诉结果",
+    "src": [
+     92
+    ]
+   },
+   {
+    "id": 53,
+    "day": 9,
+    "type": "promise",
+    "text": "aicoo承诺周末前检查周报引用格式并回复",
+    "src": [
+     93
+    ]
+   },
+   {
+    "id": 54,
+    "day": 9,
+    "type": "fact",
+    "text": "Tue 11 Aug 09:00 Kevin说组会presentation推迟到9月，具体哪天待定",
+    "src": [
+     94
+    ]
+   },
+   {
+    "id": 55,
+    "day": 9,
+    "type": "done",
+    "text": "Tue 11 Aug 把introduction重写了一遍",
+    "src": [
+     96
+    ]
+   },
+   {
+    "id": 56,
+    "day": 9,
+    "type": "plan",
+    "text": "周末和Coco去'山海'吃饭",
+    "src": [
+     98
+    ]
+   },
+   {
+    "id": 57,
+    "day": 9,
+    "type": "feeling",
+    "text": "Tue 11 Aug fellowship的statement of purpose折磨人",
+    "src": [
+     100
+    ]
+   },
+   {
+    "id": 58,
+    "day": 9,
+    "type": "done",
+    "text": "Tue 11 Aug 晚上跑了一轮GPU，accuracy提升了一点点",
+    "src": [
+     102
+    ]
+   },
+   {
+    "id": 59,
+    "day": 10,
+    "type": "fact",
+    "text": "Tue 11 Aug 晚上有TA培训线上module没看",
+    "src": [
+     104
+    ]
+   },
+   {
+    "id": 60,
+    "day": 10,
+    "type": "plan",
+    "text": "Wed 12 Aug 下午2:30 meeting之前需要把slides再过一遍",
+    "src": [
+     106,
+     107
+    ]
+   },
+   {
+    "id": 61,
+    "day": 10,
+    "type": "fact",
+    "text": "Wed 12 Aug 10:00 Kein说上周那个GPU driver版本号问题解决了",
+    "src": [
+     108
+    ]
+   },
+   {
+    "id": 62,
+    "day": 10,
+    "type": "fact",
+    "text": "Wed 12 Aug 14:45 正在改slides，Mei给的feedback还没加进去",
+    "src": [
+     111
+    ]
+   },
+   {
+    "id": 63,
+    "day": 11,
+    "type": "fact",
+    "text": "Wed 12 Aug 15:00 meeting中Prof. Lin说paper framework还行",
+    "src": [
+     112
+    ]
+   },
+   {
+    "id": 64,
+    "day": 11,
+    "type": "fact",
+    "text": "Wed 12 Aug 16:00 Prof. Lin说需要更多related work comparison",
+    "src": [
+     113
+    ]
+   },
+   {
+    "id": 65,
+    "day": 11,
+    "type": "plan",
+    "text": "每周四下午3点与Prof. Lin的weekly meeting",
+    "src": [
+     115
+    ]
+   },
+   {
+    "id": 66,
+    "day": 11,
+    "type": "feeling",
+    "text": "Thu 13 Aug 09:00 状态不太好，昨晚debug到2点",
+    "src": [
+     117
+    ]
+   },
+   {
+    "id": 67,
+    "day": 11,
+    "type": "done",
+    "text": "Thu 13 Aug 11:00 bug找到了，是data preprocessing顺序问题",
+    "src": [
+     119
+    ]
+   },
+   {
+    "id": 68,
+    "day": 12,
+    "type": "plan",
+    "text": "Thu 13 Aug 下午开始写fellowship的personal statement",
+    "src": [
+     121
+    ]
+   },
+   {
+    "id": 69,
+    "day": 12,
+    "type": "fact",
+    "text": "Thu 13 Aug 16:30 Kevin说他的ablation study结果很有趣",
+    "src": [
+     123
+    ]
+   },
+   {
+    "id": 70,
+    "day": 12,
+    "type": "pref",
+    "text": "周报里最后加一段\"本周遇到的坑和解决思路\"",
+    "src": [
+     125,
+     126
+    ]
+   },
+   {
+    "id": 71,
+    "day": 12,
+    "type": "ask",
+    "text": "每周提醒加周报新格式段",
+    "src": [
+     127
+    ]
+   },
+   {
+    "id": 72,
+    "day": 12,
+    "type": "fact",
+    "text": "14 Aug Mei的paper被workshop接受了",
+    "src": [
+     129
+    ]
+   },
+   {
+    "id": 73,
+    "day": 12,
+    "type": "fact",
+    "text": "第一次fellowship申请截止日期是2025年11月15日",
+    "src": [
+     131,
+     133
+    ],
+    "supersedes": 15
+   },
+   {
+    "id": 74,
+    "day": 12,
+    "type": "feeling",
+    "text": "14 Aug fellowship材料越写越焦虑",
+    "src": [
+     131
+    ]
+   },
+   {
+    "id": 75,
+    "day": 12,
+    "type": "plan",
+    "text": "14 Aug 开始拆fellowship申请为小任务，先focus on research statement",
+    "src": [
+     132
+    ]
+   },
+   {
+    "id": 76,
+    "day": 12,
+    "type": "plan",
+    "text": "fellowship申请截止2025年11月15日，aicoo帮倒排时间表",
+    "src": [
+     134
+    ]
+   },
+   {
+    "id": 77,
+    "day": 12,
+    "type": "fact",
+    "text": "14 Aug Coco的猫年糕今天又偷吃零食了",
+    "src": [
+     135
+    ]
+   },
+   {
+    "id": 78,
+    "day": 13,
+    "type": "feeling",
+    "text": "Sat 15 Aug 周末还在写paper，学术圈没有假期",
+    "src": [
+     137
+    ]
+   },
+   {
+    "id": 79,
+    "day": 13,
+    "type": "done",
+    "text": "Sat 15 Aug 把method部分写完了",
+    "src": [
+     143
+    ]
+   },
+   {
+    "id": 80,
+    "day": 14,
+    "type": "fact",
+    "text": "Sun 16 Aug 学校图书馆咖啡涨到5刀",
+    "src": [
+     145
+    ]
+   },
+   {
+    "id": 81,
+    "day": 14,
+    "type": "done",
+    "text": "Sun 16 Aug 上午把experiment section框架搭完了",
+    "src": [
+     147
+    ]
+   },
+   {
+    "id": 82,
+    "day": 14,
+    "type": "plan",
+    "text": "Mon 17 Aug Coco约明天一起去library自习",
+    "src": [
+     149
+    ]
+   },
+   {
+    "id": 83,
+    "day": 14,
+    "type": "fact",
+    "text": "Sun 16 Aug Prof. Lin发了一篇方向相近的新paper链接",
+    "src": [
+     151
+    ]
+   },
+   {
+    "id": 84,
+    "day": 15,
+    "type": "fact",
+    "text": "Sun 16 Aug GPU实验batch size 128，速度比64快很多",
+    "src": [
+     155
+    ]
+   },
+   {
+    "id": 85,
+    "day": 15,
+    "type": "fact",
+    "text": "Sun 16 Aug 晚上在改fellowship材料",
+    "src": [
+     153
+    ]
+   },
+   {
+    "id": 86,
+    "day": 15,
+    "type": "fact",
+    "text": "Mon 17 Aug 09:15 今天先跑小batch验证gradient flow，再调attention层参数",
+    "src": [
+     157
+    ]
+   },
+   {
+    "id": 87,
+    "day": 15,
+    "type": "fact",
+    "text": "Mon 17 Aug 11:30 batch size 128跑了一轮，loss下降曲线比64稳定，但memory快满了",
+    "src": [
+     159
+    ]
+   },
+   {
+    "id": 88,
+    "day": 16,
+    "type": "fact",
+    "text": "Mon 17 Aug 11:30 batch size 128跑了一轮，loss下降曲线比64稳定，但memory快满了",
+    "src": [
+     160
+    ]
+   },
+   {
+    "id": 89,
+    "day": 16,
+    "type": "fact",
+    "text": "Mon 17 Aug 14:00 Kevin说他们组实验结果F1比我们baseline高0.5%",
+    "src": [
+     161
+    ]
+   },
+   {
+    "id": 90,
+    "day": 16,
+    "type": "feeling",
+    "text": "Mon 17 Aug 14:00 听到Kevin的结果有点慌",
+    "src": [
+     161
+    ]
+   },
+   {
+    "id": 91,
+    "day": 16,
+    "type": "plan",
+    "text": "Tue 18 Aug 组会汇报progress，整理实验",
+    "src": [
+     163,
+     164
+    ]
+   },
+   {
+    "id": 92,
+    "day": 16,
+    "type": "promise",
+    "text": "aicoo承诺月底前提醒Coco转房租给周予安",
+    "src": [
+     165,
+     166
+    ]
+   },
+   {
+    "id": 93,
+    "day": 16,
+    "type": "fact",
+    "text": "Tue 18 Aug 10:00 组会展示新实验，attention机制对hierarchical planning有帮助",
+    "src": [
+     167
+    ]
+   },
+   {
+    "id": 94,
+    "day": 17,
+    "type": "fact",
+    "text": "Tue 18 Aug 10:00 组会展示新实验，attention机制对hierarchical planning有帮助",
+    "src": [
+     169
+    ]
+   },
+   {
+    "id": 95,
+    "day": 17,
+    "type": "fact",
+    "text": "Tue 18 Aug 12:30 Prof. Lin说方向不错，但baseline对比可以更全面",
+    "src": [
+     169
+    ]
+   },
+   {
+    "id": 96,
+    "day": 17,
+    "type": "plan",
+    "text": "Tue 18 Aug 14:00 下午继续跑实验，调learning rate schedule",
+    "src": [
+     171
+    ]
+   },
+   {
+    "id": 97,
+    "day": 17,
+    "type": "fact",
+    "text": "Tue 18 Aug 17:00 lr 1e-4效果比3e-4好",
+    "src": [
+     172
+    ]
+   },
+   {
+    "id": 98,
+    "day": 17,
+    "type": "fact",
+    "text": "Tue 18 Aug 22:00 第二天要改论文introduction",
+    "src": [
+     174
+    ]
+   },
+   {
+    "id": 99,
+    "day": 17,
+    "type": "plan",
+    "text": "Wed 19 Aug 08:30 今天主要改introduction，把motivation写得更strong",
+    "src": [
+     175
+    ]
+   },
+   {
+    "id": 100,
+    "day": 18,
+    "type": "done",
+    "text": "Wed 19 Aug 08:30 开始改introduction",
+    "src": [
+     176
+    ],
+    "closes": 99
+   },
+   {
+    "id": 101,
+    "day": 18,
+    "type": "plan",
+    "text": "Wed 19 Aug 11:00 与Mei协调A100使用时间",
+    "src": [
+     177
+    ]
+   },
+   {
+    "id": 102,
+    "day": 18,
+    "type": "feeling",
+    "text": "Wed 19 Aug 14:30 introduction还是不够sharp",
+    "src": [
+     179
+    ]
+   },
+   {
+    "id": 103,
+    "day": 18,
+    "type": "feeling",
+    "text": "Wed 19 Aug 18:00 出去买咖啡，回来继续写",
+    "src": [
+     181
+    ]
+   },
+   {
+    "id": 104,
+    "day": 18,
+    "type": "fact",
+    "text": "Wed 19 Aug 22:50 论文标题改为Hierarchical Planning with Graph Attention",
+    "src": [
+     182
+    ],
+    "supersedes": 25
+   },
+   {
+    "id": 105,
+    "day": 18,
+    "type": "done",
+    "text": "Thu 20 Aug 00:20 introduction初稿完成",
+    "src": [
+     184
+    ]
+   },
+   {
+    "id": 106,
+    "day": 18,
+    "type": "plan",
+    "text": "Thu 20 Aug 09:00 计划跑完所有baseline实验并整理结果到表格",
+    "src": [
+     186
+    ]
+   },
+   {
+    "id": 107,
+    "day": 18,
+    "type": "done",
+    "text": "Thu 20 Aug 11:45 baseline跑了三个",
+    "src": [
+     188
+    ]
+   },
+   {
+    "id": 108,
+    "day": 18,
+    "type": "done",
+    "text": "Thu 20 Aug 14:30 最后一个baseline跑完，结果比预期好",
+    "src": [
+     189
+    ]
+   },
+   {
+    "id": 109,
+    "day": 18,
+    "type": "fact",
+    "text": "Thu 20 Aug 19:00 Coco问要不要一起点外卖，周予安说好",
+    "src": [
+     191
+    ]
+   },
+   {
+    "id": 110,
+    "day": 19,
+    "type": "done",
+    "text": "Thu 20 Aug 表格整理完并发送给Mei征求意见",
+    "src": [
+     192
+    ]
+   },
+   {
+    "id": 111,
+    "day": 19,
+    "type": "fact",
+    "text": "Fri 21 Aug 10:00 Mei反馈表格很好，建议加ablation study",
+    "src": [
+     193
+    ]
+   },
+   {
+    "id": 112,
+    "day": 19,
+    "type": "plan",
+    "text": "Fri 21 Aug 14:00 开始设计ablation：去掉attention层和换成其他机制",
+    "src": [
+     195
+    ]
+   },
+   {
+    "id": 113,
+    "day": 19,
+    "type": "fact",
+    "text": "Fri 21 Aug 16:00 这周组会Kevin分享了一篇ICML 2023关于graph的论文",
+    "src": [
+     197
+    ]
+   },
+   {
+    "id": 114,
+    "day": 19,
+    "type": "fact",
+    "text": "Fri 21 Aug 18:30 开始跑ablation实验，需要几个小时",
+    "src": [
+     199
+    ]
+   },
+   {
+    "id": 115,
+    "day": 20,
+    "type": "done",
+    "text": "Fri 21 Aug 22:00 ablation实验跑完，没有attention层掉点",
+    "src": [
+     200
+    ]
+   },
+   {
+    "id": 116,
+    "day": 20,
+    "type": "plan",
+    "text": "Sat 22 Aug 写related work部分",
+    "src": [
+     202
+    ]
+   },
+   {
+    "id": 117,
+    "day": 20,
+    "type": "done",
+    "text": "Sat 22 Aug 11:30 related work写了个大概但organize不好",
+    "src": [
+     204
+    ]
+   },
+   {
+    "id": 118,
+    "day": 20,
+    "type": "fact",
+    "text": "Sat 22 Aug 14:00 按methodology分类（hierarchical planning、graph neural networks）重新组织related work后好了很多",
+    "src": [
+     206
+    ]
+   },
+   {
+    "id": 119,
+    "day": 20,
+    "type": "done",
+    "text": "Sat 22 Aug 16:00 和Coco一起去超市买东西",
+    "src": [
+     207
+    ]
+   },
+   {
+    "id": 120,
+    "day": 21,
+    "type": "done",
+    "text": "Sat 22 Aug 18:00 回来继续写",
+    "src": [
+     208
+    ]
+   },
+   {
+    "id": 121,
+    "day": 21,
+    "type": "fact",
+    "text": "Sat 22 Aug 21:45 Mei下周开始跑实验，用A100 GPU，现有4块空闲",
+    "src": [
+     209
+    ]
+   },
+   {
+    "id": 122,
+    "day": 21,
+    "type": "ask",
+    "text": "从现在开始不要用emoji和stickers，正式一点",
+    "src": [
+     211,
+     212
+    ]
+   },
+   {
+    "id": 123,
+    "day": 21,
+    "type": "plan",
+    "text": "Sun 23 Aug 准备下周meeting材料",
+    "src": [
+     213
+    ]
+   },
+   {
+    "id": 124,
+    "day": 21,
+    "type": "plan",
+    "text": "Sun 23 Aug 13:00 整理一周结果和下周计划成slides",
+    "src": [
+     215
+    ]
+   },
+   {
+    "id": 125,
+    "day": 22,
+    "type": "done",
+    "text": "Sun 23 Aug 15:30 slides差不多了",
+    "src": [
+     216
+    ]
+   },
+   {
+    "id": 126,
+    "day": 22,
+    "type": "ask",
+    "text": "希望aicoo在下次与Prof. Lin meeting时提醒提San Diego workshop",
+    "src": [
+     217
+    ]
+   },
+   {
+    "id": 127,
+    "day": 22,
+    "type": "promise",
+    "text": "aicoo承诺下次周会提醒周予安向Prof. Lin提San Diego workshop",
+    "src": [
+     218
+    ]
+   },
+   {
+    "id": 128,
+    "day": 22,
+    "type": "fact",
+    "text": "Sun 23 Aug 18:00 Coco做了饭，周予安一起吃",
+    "src": [
+     219
+    ]
+   },
+   {
+    "id": 129,
+    "day": 22,
+    "type": "done",
+    "text": "Sun 23 Aug 21:00-23:00 把论文method部分改完",
+    "src": [
+     220,
+     221
+    ]
+   },
+   {
+    "id": 130,
+    "day": 22,
+    "type": "ask",
+    "text": "希望aicoo本周开始前列这周关键事项，帮助理优先级",
+    "src": [
+     222
+    ]
+   },
+   {
+    "id": 131,
+    "day": 22,
+    "type": "done",
+    "text": "Mon 24 Aug 00:31 aicoo列出了本周关键事项并得到确认",
+    "src": [
+     223
+    ]
+   },
+   {
+    "id": 132,
+    "day": 22,
+    "type": "plan",
+    "text": "Mon 24 Aug 这周开始：1）完成ablation实验并整理结果；2）related work章节收尾；3）准备周四组会材料；4）联系Kevin确认baseline代码；5）周二开始TA批改作业",
+    "src": [
+     223
+    ]
+   },
+   {
+    "id": 133,
+    "day": 22,
+    "type": "plan",
+    "text": "Mon 24 Aug 周一上午收尾related work，下午开始跑最后一组ablation",
+    "src": [
+     224
+    ]
+   },
+   {
+    "id": 134,
+    "day": 22,
+    "type": "plan",
+    "text": "周三晚上做周四组会材料",
+    "src": [
+     224
+    ]
+   },
+   {
+    "id": 135,
+    "day": 22,
+    "type": "fact",
+    "text": "Mon 24 Aug 10:16 San Diego workshop submission deadline是10月15日，通知日期11月1日",
+    "src": [
+     226
+    ]
+   },
+   {
+    "id": 136,
+    "day": 22,
+    "type": "ask",
+    "text": "先不在日历上设San Diego workshop提醒，等论文基本定型再说",
+    "src": [
+     227
+    ]
+   },
+   {
+    "id": 137,
+    "day": 22,
+    "type": "fact",
+    "text": "Mon 24 Aug 14:30 ablation最后一组跑完，去掉attention后性能掉了将近4个点",
+    "src": [
+     228
+    ]
+   },
+   {
+    "id": 138,
+    "day": 22,
+    "type": "fact",
+    "text": "Mon 24 Aug 18:00 Mei下周开始用A100，周予安这周把实验都跑完",
+    "src": [
+     230
+    ]
+   },
+   {
+    "id": 139,
+    "day": 22,
+    "type": "plan",
+    "text": "本周在A100切换前把GPU实验跑完",
+    "src": [
+     230
+    ]
+   },
+   {
+    "id": 140,
+    "day": 23,
+    "type": "done",
+    "text": "Mon 24 Aug 晚上挂上两组learning rate对比实验（lr=0.001和0.0005）并跑完",
+    "src": [
+     232,
+     235
+    ]
+   },
+   {
+    "id": 141,
+    "day": 23,
+    "type": "done",
+    "text": "Tue 25 Aug 08:20 lr=0.001收敛更快，最终val loss与0.0005差距不大",
+    "src": [
+     236
+    ]
+   },
+   {
+    "id": 142,
+    "day": 23,
+    "type": "decision",
+    "text": "采用0.001作为默认learning rate",
+    "src": [
+     237,
+     238
+    ]
+   },
+   {
+    "id": 143,
+    "day": 23,
+    "type": "fact",
+    "text": "Mon 24 Aug 晚上跟Coco吃烧烤，她男朋友下月从上海飞过来",
+    "src": [
+     233
+    ]
+   },
+   {
+    "id": 144,
+    "day": 23,
+    "type": "done",
+    "text": "Tue 25 Aug 上午把related work通读一遍并改了几处表述，更连贯了",
+    "src": [
+     239
+    ]
+   },
+   {
+    "id": 145,
+    "day": 23,
+    "type": "fact",
+    "text": "Tue 25 Aug 14:00 周予安完成周四组会slides初版，主要放实验表格和ablation结果",
+    "src": [
+     242
+    ]
+   },
+   {
+    "id": 146,
+    "day": 23,
+    "type": "decision",
+    "text": "在slides里加一页总结本周进展和下周计划",
+    "src": [
+     243,
+     244
+    ]
+   },
+   {
+    "id": 147,
+    "day": 23,
+    "type": "fact",
+    "text": "Tue 25 Aug 14:05 发现Weights & Biases实验管理工具",
+    "src": [
+     244
+    ]
+   },
+   {
+    "id": 148,
+    "day": 23,
+    "type": "decision",
+    "text": "先手动试用W&B，后面再决定是否集成到实验脚本中",
+    "src": [
+     245,
+     246
+    ]
+   },
+   {
+    "id": 149,
+    "day": 23,
+    "type": "promise",
+    "text": "周予安答应Mei帮看她NeurIPS rebuttal，这周要提交",
+    "src": [
+     247
+    ]
+   },
+   {
+    "id": 150,
+    "day": 24,
+    "type": "done",
+    "text": "Tue 25 Aug 20:05 周予安答应这周五前给Mei反馈NeurIPS rebuttal",
+    "src": [
+     249
+    ],
+    "closes": 149
+   },
+   {
+    "id": 151,
+    "day": 24,
+    "type": "plan",
+    "text": "周三（26 Aug）周四（27 Aug）抽空看Mei的NeurIPS rebuttal，周五前给反馈",
+    "src": [
+     249
+    ]
+   },
+   {
+    "id": 152,
+    "day": 24,
+    "type": "fact",
+    "text": "Wed 26 Aug 09:30 周二开始TA批改，50份作业",
+    "src": [
+     250
+    ]
+   },
+   {
+    "id": 153,
+    "day": 24,
+    "type": "fact",
+    "text": "Wed 26 Aug 10:00 Kevin的组会presentation改到9月14号，他让周予安帮他看看slides",
+    "src": [
+     252
+    ],
+    "supersedes": 54
+   },
+   {
+    "id": 154,
+    "day": 24,
+    "type": "plan",
+    "text": "Kevin下周给slides，不急",
+    "src": [
+     254
+    ]
+   },
+   {
+    "id": 155,
+    "day": 24,
+    "type": "done",
+    "text": "Wed 26 Aug 11:00 作业批了20份，还有30份",
+    "src": [
+     255
+    ]
+   },
+   {
+    "id": 156,
+    "day": 25,
+    "type": "done",
+    "text": "Wed 26 Aug 14:00 组会结束，Prof. Lin对ablation结果很认可，说论文可以开始写实验部分了",
+    "src": [
+     256
+    ]
+   },
+   {
+    "id": 157,
+    "day": 25,
+    "type": "done",
+    "text": "Wed 26 Aug 18:30 30份TA作业批改完毕并提交系统",
+    "src": [
+     258,
+     259
+    ],
+    "closes": 152
+   },
+   {
+    "id": 158,
+    "day": 25,
+    "type": "plan",
+    "text": "Thu 27 Aug 开始写实验部分，先写实验设置和baseline描述",
+    "src": [
+     261,
+     262
+    ]
+   },
+   {
+    "id": 159,
+    "day": 25,
+    "type": "done",
+    "text": "Thu 27 Aug 09:00 早上完成实验部分中的实验设置和baseline描述",
+    "src": [
+     262
+    ]
+   },
+   {
+    "id": 160,
+    "day": 25,
+    "type": "feeling",
+    "text": "Wed 26 Aug 22:00 睡不着，在想论文的实验部分怎么写",
+    "src": [
+     261
+    ]
+   },
+   {
+    "id": 161,
+    "day": 26,
+    "type": "done",
+    "text": "Thu 27 Aug 14:00 看了Mei的NeurIPS rebuttal并给出comments，她明天改好再给看",
+    "src": [
+     265
+    ]
+   },
+   {
+    "id": 162,
+    "day": 26,
+    "type": "plan",
+    "text": "周五前给Mei反馈NeurIPS rebuttal，她明天改好再给看",
+    "src": [
+     265
+    ]
+   },
+   {
+    "id": 163,
+    "day": 26,
+    "type": "done",
+    "text": "Thu 27 Aug 20:00 晚上写了实验部分的main results表格和讨论",
+    "src": [
+     267
+    ]
+   },
+   {
+    "id": 164,
+    "day": 26,
+    "type": "plan",
+    "text": "第一次fellowship draft周五前交给Prof. Lin看",
+    "src": [
+     268
+    ]
+   },
+   {
+    "id": 165,
+    "day": 26,
+    "type": "plan",
+    "text": "Fri 28 Aug 全天写fellowship statement，基于已有draft加实验细节",
+    "src": [
+     270,
+     271
+    ]
+   },
+   {
+    "id": 166,
+    "day": 26,
+    "type": "done",
+    "text": "Fri 28 Aug 上午改research statement，下午写完personal statement",
+    "src": [
+     273,
+     274
+    ]
+   },
+   {
+    "id": 167,
+    "day": 26,
+    "type": "done",
+    "text": "Fri 28 Aug 16:00 把fellowship draft发给Prof. Lin，让他周五前看",
+    "src": [
+     276
+    ]
+   },
+   {
+    "id": 168,
+    "day": 26,
+    "type": "done",
+    "text": "Fri 28 Aug 晚上写完实验部分的ablation结果",
+    "src": [
+     278
+    ]
+   },
+   {
+    "id": 169,
+    "day": 26,
+    "type": "ask",
+    "text": "希望aicoo提醒周予安这周五前给Mei反馈NeurIPS rebuttal",
+    "src": [
+     279
+    ],
+    "supersedes": 161
+   },
+   {
+    "id": 170,
+    "day": 27,
+    "type": "done",
+    "text": "Fri 28 Aug 把fellowship draft发给Prof. Lin",
+    "src": [
+     280,
+     281
+    ]
+   },
+   {
+    "id": 171,
+    "day": 27,
+    "type": "feeling",
+    "text": "Fri 28 Aug 效率还行，draft发出去了，实验也写了点",
+    "src": [
+     281
+    ]
+   },
+   {
+    "id": 172,
+    "day": 27,
+    "type": "plan",
+    "text": "周六集中看Mei的rebuttal",
+    "src": [
+     281
+    ]
+   },
+   {
+    "id": 173,
+    "day": 27,
+    "type": "fact",
+    "text": "Fri 28 Aug 早上Prof. Lin反馈：research statement要加preliminary results的定量分析",
+    "src": [
+     282
+    ]
+   },
+   {
+    "id": 174,
+    "day": 27,
+    "type": "done",
+    "text": "Sat 29 Aug 09:30 在mini-Imagenet上加top-1 accuracy对比",
+    "src": [
+     284
+    ]
+   },
+   {
+    "id": 175,
+    "day": 27,
+    "type": "done",
+    "text": "Sat 29 Aug 10:00 改好fellowship draft发回给Prof. Lin",
+    "src": [
+     285
+    ]
+   },
+   {
+    "id": 176,
+    "day": 27,
+    "type": "done",
+    "text": "Sat 29 Aug 10:30 看了Mei的rebuttal并给出实验对比建议",
+    "src": [
+     287
+    ]
+   },
+   {
+    "id": 177,
+    "day": 27,
+    "type": "done",
+    "text": "Sat 29 Aug 11:00 给Mei的NeurIPS rebuttal反馈完成，她说建议很到位",
+    "src": [
+     288
+    ],
+    "closes": 162
+   },
+   {
+    "id": 178,
+    "day": 27,
+    "type": "done",
+    "text": "Sat 29 Aug 14:00 整理论文实验部分代码，准备push到repo",
+    "src": [
+     289
+    ]
+   },
+   {
+    "id": 179,
+    "day": 27,
+    "type": "pref",
+    "text": "PR description最后必须加一个Risk section，列出可能引入的风险点",
+    "src": [
+     290
+    ]
+   },
+   {
+    "id": 180,
+    "day": 27,
+    "type": "done",
+    "text": "Sat 29 Aug 15:00 push了代码并整理了实验脚本，加了注释",
+    "src": [
+     292
+    ]
+   },
+   {
+    "id": 181,
+    "day": 27,
+    "type": "feeling",
+    "text": "Sat 29 Aug 周末事情差不多做完，可以歇一下",
+    "src": [
+     293
+    ]
+   },
+   {
+    "id": 182,
+    "day": 27,
+    "type": "feeling",
+    "text": "Sat 29 Aug 20:00 晚上跟Coco看电影，她男朋友下月来她挺开心的",
+    "src": [
+     295
+    ]
+   },
+   {
+    "id": 183,
+    "day": 28,
+    "type": "done",
+    "text": "Sun 30 Aug 10:00-14:00 跑batch size 128对比实验，val acc比64低0.8%",
+    "src": [
+     296,
+     298
+    ]
+   },
+   {
+    "id": 184,
+    "day": 28,
+    "type": "fact",
+    "text": "Sun 30 Aug 在mini-Imagenet上batch size 128的val acc比64低0.8%",
+    "src": [
+     298
+    ]
+   },
+   {
+    "id": 185,
+    "day": 28,
+    "type": "done",
+    "text": "Sun 30 Aug 16:00 润色论文实验部分，加表格解释",
+    "src": [
+     300
+    ]
+   },
+   {
+    "id": 186,
+    "day": 28,
+    "type": "done",
+    "text": "Sun 30 Aug 20:00-22:20 跑batch size 64复现实验，结果不行，改回64",
+    "src": [
+     302,
+     303
+    ]
+   },
+   {
+    "id": 187,
+    "day": 29,
+    "type": "done",
+    "text": "GPU driver版本号问题已解决，Kevin确认收到",
+    "src": [
+     308
+    ],
+    "closes": 23
+   },
+   {
+    "id": 188,
+    "day": 29,
+    "type": "fact",
+    "text": "Mon 31 Aug 最终确定用batch size 64，实验记录中会注明",
+    "src": [
+     304,
+     186
+    ]
+   },
+   {
+    "id": 189,
+    "day": 29,
+    "type": "feeling",
+    "text": "这周末事情做完了，下周继续改论文和准备组会",
+    "src": [
+     305
+    ]
+   },
+   {
+    "id": 190,
+    "day": 29,
+    "type": "fact",
+    "text": "Mon 31 Aug 09:30 早上到lab，整理实验结果",
+    "src": [
+     307
+    ]
+   },
+   {
+    "id": 191,
+    "day": 29,
+    "type": "plan",
+    "text": "Mon 31 Aug 继续调attention参数，先跑batch size 128",
+    "src": [
+     310
+    ]
+   },
+   {
+    "id": 192,
+    "day": 29,
+    "type": "done",
+    "text": "Mon 31 Aug 14:00 实验跑起来了，开始写method section",
+    "src": [
+     311
+    ]
+   },
+   {
+    "id": 193,
+    "day": 31,
+    "type": "done",
+    "text": "Mon 31 Aug batch size 128跑完，效果比64差，决定用64",
+    "src": [
+     312
+    ]
+   },
+   {
+    "id": 194,
+    "day": 31,
+    "type": "fact",
+    "text": "Mon 31 Aug 最终决定用batch size 64，128效果差",
+    "src": [
+     312
+    ],
+    "supersedes": 188
+   },
+   {
+    "id": 195,
+    "day": 31,
+    "type": "done",
+    "text": "Mon 31 Aug 写了一点method section",
+    "src": [
+     313
+    ]
+   },
+   {
+    "id": 196,
+    "day": 31,
+    "type": "plan",
+    "text": "Tue 01 Sep 到lab先改Mei的rebuttal",
+    "src": [
+     314
+    ]
+   },
+   {
+    "id": 197,
+    "day": 31,
+    "type": "plan",
+    "text": "Tue 01 Sep 下午继续写method，跑一组learning rate比较",
+    "src": [
+     315
+    ]
+   },
+   {
+    "id": 198,
+    "day": 31,
+    "type": "fact",
+    "text": "Tue 01 Sep lr 1e-3比3e-3稳定",
+    "src": [
+     316
+    ]
+   },
+   {
+    "id": 199,
+    "day": 31,
+    "type": "done",
+    "text": "Tue 01 Sep Mei的rebuttal反馈发给她，她说很有用",
+    "src": [
+     317
+    ]
+   },
+   {
+    "id": 200,
+    "day": 31,
+    "type": "done",
+    "text": "Tue 01 Sep Mei的rebuttal reminder已关闭",
+    "src": [
+     318
+    ],
+    "closes": 169
+   },
+   {
+    "id": 201,
+    "day": 31,
+    "type": "plan",
+    "text": "Wed 02 Sep 组会，准备slides",
+    "src": [
+     319
+    ]
+   },
+   {
+    "id": 202,
+    "day": 32,
+    "type": "fact",
+    "text": "Wed 02 Sep 14:00 组会结束，Prof. Lin说实验部分可以开始写了",
+    "src": [
+     320
+    ]
+   },
+   {
+    "id": 203,
+    "day": 32,
+    "type": "fact",
+    "text": "Fri guest talk speaker是Prof. Wang from MIT讲RL",
+    "src": [
+     321
+    ]
+   },
+   {
+    "id": 204,
+    "day": 32,
+    "type": "plan",
+    "text": "周五有guest talk，Prof. Wang from MIT讲RL",
+    "src": [
+     321
+    ]
+   },
+   {
+    "id": 205,
+    "day": 32,
+    "type": "done",
+    "text": "Wed 02 Sep 20:00 晚上写实验部分，先整理ablation结果",
+    "src": [
+     323
+    ]
+   },
+   {
+    "id": 206,
+    "day": 32,
+    "type": "done",
+    "text": "Thu 03 Sep 10:00 早上继续写实验，顺便check GPU排队情况",
+    "src": [
+     324
+    ]
+   },
+   {
+    "id": 207,
+    "day": 32,
+    "type": "done",
+    "text": "Thu 03 Sep 14:00 写完了ablation小节，发给Kevin看看",
+    "src": [
+     325
+    ]
+   },
+   {
+    "id": 208,
+    "day": 32,
+    "type": "fact",
+    "text": "Thu 03 Sep 18:00 Kevin说实验部分写得不错，建议加一个complexity analysis",
+    "src": [
+     326
+    ]
+   },
+   {
+    "id": 209,
+    "day": 32,
+    "type": "fact",
+    "text": "Thu 03 Sep 22:00 系里打印卡余额只有1.5刀了",
+    "src": [
+     327
+    ]
+   },
+   {
+    "id": 210,
+    "day": 32,
+    "type": "plan",
+    "text": "Fri 04 Sep 去充打印卡",
+    "src": [
+     327
+    ]
+   },
+   {
+    "id": 211,
+    "day": 33,
+    "type": "done",
+    "text": "Fri 04 Sep 10:00 去充了打印卡",
+    "src": [
+     329
+    ]
+   },
+   {
+    "id": 212,
+    "day": 33,
+    "type": "done",
+    "text": "Fri 04 Sep 14:00 complexity analysis做完了，论文结构基本完整",
+    "src": [
+     330
+    ]
+   },
+   {
+    "id": 213,
+    "day": 33,
+    "type": "fact",
+    "text": "Fri 04 Sep 18:00 Mei的NeurIPS rebuttal过了",
+    "src": [
+     331
+    ]
+   },
+   {
+    "id": 214,
+    "day": 33,
+    "type": "done",
+    "text": "周予安答应Mei帮看她NeurIPS rebuttal的任务已完成（Mei rebuttal已过）",
+    "src": [
+     331
+    ],
+    "closes": 149
+   },
+   {
+    "id": 215,
+    "day": 33,
+    "type": "plan",
+    "text": "周末（5-6 Sep）考虑加一个baseline叫GPTR，需要先复现其代码",
+    "src": [
+     333
+    ]
+   },
+   {
+    "id": 216,
+    "day": 33,
+    "type": "fact",
+    "text": "实验想加baseline GPTR，需要先复现代码",
+    "src": [
+     333
+    ]
+   },
+   {
+    "id": 217,
+    "day": 35,
+    "type": "plan",
+    "text": "Sat 05 Sep 到lab先找GPTR的代码",
+    "src": [
+     336
+    ]
+   },
+   {
+    "id": 218,
+    "day": 35,
+    "type": "fact",
+    "text": "Sat 05 Sep 手机屏幕裂了，换屏要200刀，决定先凑合用等fellowship下来再换",
+    "src": [
+     337,
+     339
+    ]
+   },
+   {
+    "id": 219,
+    "day": 35,
+    "type": "fact",
+    "text": "Sat 05 Sep 找到了GPTR的代码，但环境配置麻烦",
+    "src": [
+     339
+    ]
+   },
+   {
+    "id": 220,
+    "day": 35,
+    "type": "fact",
+    "text": "Sat 05 Sep 下午一直在配GPTR环境，还没跑通",
+    "src": [
+     340
+    ]
+   },
+   {
+    "id": 221,
+    "day": 35,
+    "type": "fact",
+    "text": "Sat 05 Sep 18:00 GPTR环境配好了但依赖版本冲突，明天再debug",
+    "src": [
+     341
+    ]
+   },
+   {
+    "id": 222,
+    "day": 35,
+    "type": "feeling",
+    "text": "Sat 05 Sep 22:00 有点累",
+    "src": [
+     342
+    ]
+   },
+   {
+    "id": 223,
+    "day": 35,
+    "type": "done",
+    "text": "Sun 06 Sep 01:30 没碰GPTR，改了一晚上intro",
+    "src": [
+     343
+    ]
+   },
+   {
+    "id": 224,
+    "day": 35,
+    "type": "feeling",
+    "text": "Sat 05 Sep 22:00 有点累，明天再说",
+    "src": [
+     345
+    ]
+   },
+   {
+    "id": 225,
+    "day": 35,
+    "type": "done",
+    "text": "Sun 06 Sep 09:00 早上继续改intro，感觉比昨天顺一些",
+    "src": [
+     346
+    ]
+   },
+   {
+    "id": 226,
+    "day": 35,
+    "type": "done",
+    "text": "Sun 06 Sep 14:00 intro改得差不多了",
+    "src": [
+     347
+    ]
+   },
+   {
+    "id": 227,
+    "day": 35,
+    "type": "fact",
+    "text": "Sun 06 Sep 16:00 guest talk Prof. Wang讲的RL planning方向跟周予安的工作有点关系",
+    "src": [
+     348
+    ]
+   },
+   {
+    "id": 228,
+    "day": 35,
+    "type": "done",
+    "text": "Sun 06 Sep 18:00 晚上继续搞GPTR的环境",
+    "src": [
+     349
+    ]
+   },
+   {
+    "id": 229,
+    "day": 35,
+    "type": "fact",
+    "text": "Sun 06 Sep 22:00 GPTR跑起来了但结果不对，需要debug",
+    "src": [
+     350
+    ]
+   },
+   {
+    "id": 230,
+    "day": 35,
+    "type": "ask",
+    "text": "以后回复用bullet list，信息清楚点",
+    "src": [
+     351
+    ]
+   },
+   {
+    "id": 231,
+    "day": 36,
+    "type": "done",
+    "text": "Sun 06 Sep 23:01 aicoo已设置回复使用bullet list",
+    "src": [
+     352,
+     230
+    ],
+    "closes": 230
+   },
+   {
+    "id": 232,
+    "day": 36,
+    "type": "plan",
+    "text": "Mon 07 Sep 继续debug GPTR",
+    "src": [
+     353
+    ]
+   },
+   {
+    "id": 233,
+    "day": 36,
+    "type": "fact",
+    "text": "Mon 07 Sep 09:30 TA作业收到一批，有个学生代码跑不通",
+    "src": [
+     354
+    ]
+   },
+   {
+    "id": 234,
+    "day": 36,
+    "type": "fact",
+    "text": "Mon 07 Sep San Diego workshop deadline是12月1日（此前记错为10月15日）",
+    "src": [
+     357
+    ],
+    "supersedes": 135
+   },
+   {
+    "id": 235,
+    "day": 36,
+    "type": "ask",
+    "text": "希望aicoo在San Diego workshop deadline（12月1日）前两周设提醒",
+    "src": [
+     358
+    ]
+   },
+   {
+    "id": 236,
+    "day": 36,
+    "type": "promise",
+    "text": "aicoo承诺在12月1日前两周提醒周予安San Diego workshop deadline",
+    "src": [
+     359
+    ]
+   },
+   {
+    "id": 237,
+    "day": 36,
+    "type": "plan",
+    "text": "下周二的TA office hour改为周三下午3点",
+    "src": [
+     358
+    ]
+   },
+   {
+    "id": 238,
+    "day": 36,
+    "type": "done",
+    "text": "Mon 07 Sep 11:02 aicoo已更新TA office hour为周三15:00",
+    "src": [
+     359
+    ]
+   },
+   {
+    "id": 239,
+    "day": 37,
+    "type": "fact",
+    "text": "Mon 07 Sep 午饭吃的越南粉，9块钱，比学校中餐划算",
+    "src": [
+     360
+    ]
+   },
+   {
+    "id": 240,
+    "day": 37,
+    "type": "fact",
+    "text": "Mon 07 Sep 18:30 batch size 128对比64，128 loss下降更快，但memory占用高了30%",
+    "src": [
+     362
+    ]
+   },
+   {
+    "id": 241,
+    "day": 37,
+    "type": "fact",
+    "text": "Tue 08 Sep 10:00 开始写实验部分的methodology",
+    "src": [
+     364
+    ]
+   },
+   {
+    "id": 242,
+    "day": 37,
+    "type": "feeling",
+    "text": "Tue 08 Sep 10:00 有点头疼写methodology",
+    "src": [
+     364
+    ]
+   },
+   {
+    "id": 243,
+    "day": 37,
+    "type": "plan",
+    "text": "Tue 08 Sep 准备明天下午meeting问Prof. Lin关于San Diego workshop的事",
+    "src": [
+     366
+    ]
+   },
+   {
+    "id": 244,
+    "day": 38,
+    "type": "fact",
+    "text": "Tue 08 Sep 20:00 决定用batch size 64做最终实验",
+    "src": [
+     368
+    ]
+   },
+   {
+    "id": 245,
+    "day": 38,
+    "type": "fact",
+    "text": "Wed 09 Sep 00:10 GPTR跑起来了但结果特别差",
+    "src": [
+     370
+    ]
+   },
+   {
+    "id": 246,
+    "day": 38,
+    "type": "fact",
+    "text": "Wed 09 Sep 09:00 发现GPTR数据加载时少了归一化步骤",
+    "src": [
+     372
+    ]
+   },
+   {
+    "id": 247,
+    "day": 38,
+    "type": "fact",
+    "text": "Wed 09 Sep 09:00 准备改归一化后重新跑GPTR",
+    "src": [
+     372
+    ]
+   },
+   {
+    "id": 248,
+    "day": 38,
+    "type": "feeling",
+    "text": "Wed 09 Sep 09:00 找到了GPTR结果差的原因，准备修复",
+    "src": [
+     372
+    ]
+   },
+   {
+    "id": 249,
+    "day": 38,
+    "type": "fact",
+    "text": "Wed 09 Sep 15:00 Prof. Lin建议先focus on paper，workshop可以投",
+    "src": [
+     374
+    ]
+   },
+   {
+    "id": 250,
+    "day": 38,
+    "type": "plan",
+    "text": "Mon 07 Sep 下周组会做完整实验报告",
+    "src": [
+     374
+    ]
+   },
+   {
+    "id": 251,
+    "day": 39,
+    "type": "feeling",
+    "text": "Wed 09 Sep 18:00 今天好累，晚上不想写了",
+    "src": [
+     376
+    ]
+   },
+   {
+    "id": 252,
+    "day": 39,
+    "type": "fact",
+    "text": "Thu 10 Sep 11:00 GPTR重新跑，结果好了一些但仍比预期低，怀疑是learning rate太高",
+    "src": [
+     378
+    ]
+   },
+   {
+    "id": 253,
+    "day": 39,
+    "type": "fact",
+    "text": "Thu 10 Sep 14:00 learning rate改到1e-5后结果接近论文指标",
+    "src": [
+     380
+    ]
+   },
+   {
+    "id": 254,
+    "day": 39,
+    "type": "fact",
+    "text": "Thu 10 Sep 20:30 GPTR结果终于可用了，明天加进论文表格",
+    "src": [
+     382
+    ]
+   },
+   {
+    "id": 255,
+    "day": 41,
+    "type": "fact",
+    "text": "Fri 11 Sep 10:00 正在写结果分析，methodology部分需要补充graph construction段落",
+    "src": [
+     384
+    ]
+   },
+   {
+    "id": 256,
+    "day": 41,
+    "type": "fact",
+    "text": "Fri 11 Sep 14:00 Mei也跑过GPTR baseline，当时也费了不少时间",
+    "src": [
+     386
+    ]
+   },
+   {
+    "id": 257,
+    "day": 41,
+    "type": "fact",
+    "text": "Coco生日是10月5号，想去KTV",
+    "src": [
+     388
+    ]
+   },
+   {
+    "id": 258,
+    "day": 41,
+    "type": "plan",
+    "text": "Sat 12 Sep 09:00 今天要写introduction的motivation部分，精简之前的啰嗦内容",
+    "src": [
+     391
+    ]
+   },
+   {
+    "id": 259,
+    "day": 42,
+    "type": "done",
+    "text": "Sat 12 Sep introduction motivation部分精简完毕",
+    "src": [
+     393
+    ]
+   },
+   {
+    "id": 260,
+    "day": 42,
+    "type": "fact",
+    "text": "Kevin问周予安要不要一起订lab的零食，周予安说好",
+    "src": [
+     393
+    ]
+   },
+   {
+    "id": 261,
+    "day": 42,
+    "type": "fact",
+    "text": "Sat 12 Sep 学校体育馆membership fee涨到每学期150刀",
+    "src": [
+     395
+    ]
+   },
+   {
+    "id": 262,
+    "day": 42,
+    "type": "decision",
+    "text": "决定继续用免费户外跑步，不办体育馆membership",
+    "src": [
+     397
+    ]
+   },
+   {
+    "id": 263,
+    "day": 42,
+    "type": "plan",
+    "text": "Sun 13 Sep 组会展示完整实验结果包括GPTR",
+    "src": [
+     397
+    ]
+   },
+   {
+    "id": 264,
+    "day": 42,
+    "type": "done",
+    "text": "Sun 13 Sep 10:00 PPT做完了",
+    "src": [
+     399
+    ]
+   },
+   {
+    "id": 265,
+    "day": 43,
+    "type": "fact",
+    "text": "Sun 13 Sep 14:00 组会结束，Prof. Lin建议补充context window size讨论",
+    "src": [
+     401
+    ]
+   },
+   {
+    "id": 266,
+    "day": 43,
+    "type": "fact",
+    "text": "Sun 13 Sep 17:00 window size对比实验：128比64效果好，256无提升",
+    "src": [
+     403
+    ]
+   },
+   {
+    "id": 267,
+    "day": 43,
+    "type": "decision",
+    "text": "window size用128作为最优值",
+    "src": [
+     404
+    ]
+   },
+   {
+    "id": 268,
+    "day": 43,
+    "type": "fact",
+    "text": "Sun 13 Sep 22:30 论文标题改为Context-Aware Hierarchical Planning for LLMs",
+    "src": [
+     405
+    ]
+   },
+   {
+    "id": 269,
+    "day": 43,
+    "type": "done",
+    "text": "Sun 13 Sep 14:00 组会展示完整实验结果包括GPTR",
+    "src": [
+     263,
+     401
+    ],
+    "closes": 263
+   },
+   {
+    "id": 270,
+    "day": 43,
+    "type": "feeling",
+    "text": "Mon 14 Sep 10:00 新标题感觉顺眼多了",
+    "src": [
+     408
+    ]
+   },
+   {
+    "id": 271,
+    "day": 44,
+    "type": "done",
+    "text": "Mon 14 Sep 21:00 改完了intro，发给Prof. Lin",
+    "src": [
+     412,
+     413
+    ]
+   },
+   {
+    "id": 272,
+    "day": 44,
+    "type": "feeling",
+    "text": "Tue 15 Sep 09:00 GPTR结果还是不对劲，自己查数据处理代码",
+    "src": [
+     414,
+     415,
+     416
+    ]
+   },
+   {
+    "id": 273,
+    "day": 45,
+    "type": "done",
+    "text": "Tue 15 Sep 18:00 TA批改完成50份作业",
+    "src": [
+     417
+    ],
+    "closes": 152
+   },
+   {
+    "id": 274,
+    "day": 45,
+    "type": "done",
+    "text": "Tue 15 Sep 23:50 GPTR bug找到，原因是数据处理少了normalization",
+    "src": [
+     420
+    ],
+    "closes": 229
+   },
+   {
+    "id": 275,
+    "day": 45,
+    "type": "fact",
+    "text": "Tue 15 Sep 23:50 GPTR bug是数据处理少了一个normalization",
+    "src": [
+     420
+    ],
+    "supersedes": 229
+   },
+   {
+    "id": 276,
+    "day": 45,
+    "type": "plan",
+    "text": "Tue 15 Sep 23:52 重新提交了GPTR实验，等明天看结果",
+    "src": [
+     422
+    ]
+   },
+   {
+    "id": 277,
+    "day": 45,
+    "type": "done",
+    "text": "Wed 16 Sep 10:00 GPTR跑出来了，数据正常",
+    "src": [
+     423
+    ]
+   },
+   {
+    "id": 278,
+    "day": 45,
+    "type": "plan",
+    "text": "Wed 16 Sep 10:00 需要跟其他baseline对比GPTR结果",
+    "src": [
+     423
+    ]
+   },
+   {
+    "id": 279,
+    "day": 46,
+    "type": "fact",
+    "text": "Wed 16 Sep 10:02 周予安需要aicoo帮忙排版导出的数据",
+    "src": [
+     425
+    ]
+   },
+   {
+    "id": 280,
+    "day": 46,
+    "type": "fact",
+    "text": "Wed 16 Sep 14:00 Mei说周予安的GPTR结果比她预期的好",
+    "src": [
+     426
+    ]
+   },
+   {
+    "id": 281,
+    "day": 46,
+    "type": "ask",
+    "text": "以后写邮件给Prof. Lin时，开头用\"Lin老师好\"，结尾用\"祝好，予安\"",
+    "src": [
+     428
+    ]
+   },
+   {
+    "id": 282,
+    "day": 46,
+    "type": "done",
+    "text": "Thu 17 Sep 09:30 GPTR表格完成，Kevin说看起来不错",
+    "src": [
+     430
+    ]
+   },
+   {
+    "id": 283,
+    "day": 46,
+    "type": "fact",
+    "text": "Thu 17 Sep 14:00 与Prof. Lin meeting讨论论文进度，他说intro改得不错",
+    "src": [
+     432
+    ]
+   },
+   {
+    "id": 284,
+    "day": 46,
+    "type": "fact",
+    "text": "Thu 17 Sep 14:00 与Prof. Lin meeting，他说实验部分可以开始写了，还提醒别忘了fellowship的事情",
+    "src": [
+     433
+    ]
+   },
+   {
+    "id": 285,
+    "day": 46,
+    "type": "ask",
+    "text": "希望aicoo帮忙查NSF和Facebook fellowship的截止日期",
+    "src": [
+     434,
+     435
+    ]
+   },
+   {
+    "id": 286,
+    "day": 46,
+    "type": "fact",
+    "text": "NSF fellowship截止日期11月15日，Facebook fellowship截止日期10月31日",
+    "src": [
+     436
+    ]
+   },
+   {
+    "id": 287,
+    "day": 46,
+    "type": "decision",
+    "text": "先不急设提醒，再想想投哪几个fellowship",
+    "src": [
+     437
+    ]
+   },
+   {
+    "id": 288,
+    "day": 46,
+    "type": "plan",
+    "text": "Mon 22 Sep 10:30 组会轮到自己主讲",
+    "src": [
+     438
+    ]
+   },
+   {
+    "id": 289,
+    "day": 46,
+    "type": "plan",
+    "text": "周末准备组会材料",
+    "src": [
+     440
+    ]
+   },
+   {
+    "id": 290,
+    "day": 48,
+    "type": "fact",
+    "text": "周予安房租每月1400，室友Coco房租每月1200，因为周予安房间大",
+    "src": [
+     441
+    ]
+   },
+   {
+    "id": 291,
+    "day": 48,
+    "type": "done",
+    "text": "Sat 19 Sep 18:00 methodology框架差不多了",
+    "src": [
+     447
+    ]
+   },
+   {
+    "id": 292,
+    "day": 48,
+    "type": "plan",
+    "text": "周日继续写methodology",
+    "src": [
+     447
+    ]
+   },
+   {
+    "id": 293,
+    "day": 48,
+    "type": "decision",
+    "text": "fellowship只投NSF和Facebook两个",
+    "src": [
+     448
+    ],
+    "supersedes": 287
+   },
+   {
+    "id": 294,
+    "day": 49,
+    "type": "plan",
+    "text": "aicoo将在10月17日提醒周予安Facebook fellowship截止日期",
+    "src": [
+     450,
+     451
+    ]
+   },
+   {
+    "id": 295,
+    "day": 49,
+    "type": "plan",
+    "text": "aicoo将在11月1日提醒周予安NSF fellowship截止日期",
+    "src": [
+     450,
+     451
+    ]
+   },
+   {
+    "id": 296,
+    "day": 49,
+    "type": "done",
+    "text": "Sat 19 Sep 18:00 实验结果的图和对比表格完成",
+    "src": [
+     455
+    ]
+   },
+   {
+    "id": 297,
+    "day": 49,
+    "type": "feeling",
+    "text": "Sun 20 Sep 10:00 组会讲完，Prof. Lin对实验进度满意，说下周可以开始写discussion",
+    "src": [
+     456
+    ]
+   },
+   {
+    "id": 298,
+    "day": 50,
+    "type": "plan",
+    "text": "Mon 21 Sep 09:15 写discussion部分大纲",
+    "src": [
+     458,
+     463
+    ]
+   },
+   {
+    "id": 299,
+    "day": 50,
+    "type": "plan",
+    "text": "下周开始写fellowship申请材料",
+    "src": [
+     460
+    ]
+   },
+   {
+    "id": 300,
+    "day": 50,
+    "type": "plan",
+    "text": "继续跑几个ablation实验",
+    "src": [
+     458
+    ]
+   },
+   {
+    "id": 301,
+    "day": 50,
+    "type": "feeling",
+    "text": "Sun 20 Sep 20:00 这周太累了，早点休息",
+    "src": [
+     461
+    ]
+   },
+   {
+    "id": 302,
+    "day": 50,
+    "type": "done",
+    "text": "Mon 21 Sep 20:20 批改完50份TA作业",
+    "src": [
+     470
+    ]
+   },
+   {
+    "id": 303,
+    "day": 50,
+    "type": "decision",
+    "text": "只投Facebook fellowship，不投NSF fellowship",
+    "src": [
+     472
+    ],
+    "supersedes": 293
+   },
+   {
+    "id": 304,
+    "day": 52,
+    "type": "fact",
+    "text": "Tue 22 Sep 14:20 实验崩了，数据加载问题",
+    "src": [
+     476
+    ]
+   },
+   {
+    "id": 305,
+    "day": 52,
+    "type": "fact",
+    "text": "Tue 22 Sep 23:30 debug发现pytorch dataloader num_workers设得不对",
+    "src": [
+     478
+    ]
+   },
+   {
+    "id": 306,
+    "day": 52,
+    "type": "fact",
+    "text": "Wed 23 Sep 09:10 将num_workers设为4后稳定",
+    "src": [
+     480
+    ]
+   },
+   {
+    "id": 307,
+    "day": 53,
+    "type": "feeling",
+    "text": "Wed 23 Sep 22:50 Kevin组会准备差不多了，讲diffusion model",
+    "src": [
+     486
+    ]
+   },
+   {
+    "id": 308,
+    "day": 53,
+    "type": "plan",
+    "text": "Thu 24 Sep 组会问Kevin对discussion的意见",
+    "src": [
+     487,
+     488
+    ]
+   },
+   {
+    "id": 309,
+    "day": 53,
+    "type": "feeling",
+    "text": "Wed 23 Sep 19:00 组会slide做了一半，discussion还没写",
+    "src": [
+     484
+    ]
+   },
+   {
+    "id": 310,
+    "day": 53,
+    "type": "plan",
+    "text": "Thu 24 Sep 准备组会汇报",
+    "src": [
+     482
+    ]
+   },
+   {
+    "id": 311,
+    "day": 54,
+    "type": "feeling",
+    "text": "Thu 24 Sep 12:30 周予安觉得写discussion section措辞困难",
+    "src": [
+     490
+    ]
+   },
+   {
+    "id": 312,
+    "day": 54,
+    "type": "pref",
+    "text": "写discussion section时喜欢先用框架分解（总结发现→对比prior work→强调contribution→局限性→未来工作），再分段填充",
+    "src": [
+     491,
+     492
+    ]
+   },
+   {
+    "id": 313,
+    "day": 54,
+    "type": "plan",
+    "text": "Thu 24 Sep 讨论discussion初稿预计下周完成",
+    "src": [
+     493
+    ]
+   },
+   {
+    "id": 314,
+    "day": 54,
+    "type": "done",
+    "text": "Thu 24 Sep 20:30 周予安今天结束工作去跑步",
+    "src": [
+     494
+    ]
+   },
+   {
+    "id": 315,
+    "day": 54,
+    "type": "ask",
+    "text": "希望aicoo称呼周予安为‘周周’",
+    "src": [
+     495
+    ]
+   },
+   {
+    "id": 316,
+    "day": 54,
+    "type": "plan",
+    "text": "Fri 25 Sep 09:00 下午组会前最后确认slides",
+    "src": [
+     496
+    ]
+   },
+   {
+    "id": 317,
+    "day": 55,
+    "type": "fact",
+    "text": "Fri 25 Sep 15:00 组会结束，Prof. Lin对讨论方向满意，Kevin的diffusion work与讨论相关",
+    "src": [
+     498,
+     499
+    ]
+   },
+   {
+    "id": 318,
+    "day": 55,
+    "type": "fact",
+    "text": "Fri 25 Sep 18:30 Prof. Lin说年底有个workshop在San Diego",
+    "src": [
+     500
+    ]
+   },
+   {
+    "id": 319,
+    "day": 55,
+    "type": "feeling",
+    "text": "Fri 25 Sep 22:00 周周晚上再改讨论中局限性部分",
+    "src": [
+     502
+    ]
+   },
+   {
+    "id": 320,
+    "day": 55,
+    "type": "pref",
+    "text": "写discussion section局限性时避免过于否定，客观描述",
+    "src": [
+     503
+    ]
+   },
+   {
+    "id": 321,
+    "day": 55,
+    "type": "fact",
+    "text": "Sat 26 Sep 09:20 Coco说晚上做火锅",
+    "src": [
+     504
+    ]
+   },
+   {
+    "id": 322,
+    "day": 55,
+    "type": "feeling",
+    "text": "Sat 26 Sep 22:00 周周觉得用‘周周’这个称呼更亲切",
+    "src": [
+     512
+    ]
+   },
+   {
+    "id": 323,
+    "day": 55,
+    "type": "ask",
+    "text": "希望aicoo称呼周予安为‘周周’",
+    "src": [
+     512
+    ],
+    "supersedes": 315
+   },
+   {
+    "id": 324,
+    "day": 55,
+    "type": "feeling",
+    "text": "Sat 26 Sep 11:30 周周说不用提前离开实验室，6点回去就行",
+    "src": [
+     506
+    ]
+   },
+   {
+    "id": 325,
+    "day": 55,
+    "type": "done",
+    "text": "Sat 26 Sep 11:30 上午把introduction又修了修",
+    "src": [
+     506
+    ]
+   },
+   {
+    "id": 326,
+    "day": 55,
+    "type": "plan",
+    "text": "Sat 26 Sep 15:00 一会儿加对比最新LLM的planning失败案例",
+    "src": [
+     508
+    ]
+   },
+   {
+    "id": 327,
+    "day": 55,
+    "type": "done",
+    "text": "Sat 26 Sep 18:20 搞定TA学生邮件，回家吃火锅",
+    "src": [
+     510
+    ]
+   },
+   {
+    "id": 328,
+    "day": 56,
+    "type": "fact",
+    "text": "Sat 26 Sep 22:01 aicoo同意称呼周予安为'周周'",
+    "src": [
+     513
+    ]
+   },
+   {
+    "id": 329,
+    "day": 56,
+    "type": "fact",
+    "text": "Sun 27 Sep 01:00 论文标题改为Context-Aware Planning",
+    "src": [
+     514
+    ],
+    "supersedes": 268
+   },
+   {
+    "id": 330,
+    "day": 56,
+    "type": "plan",
+    "text": "Sun 27 Sep 08:30 今天要把discussion收尾",
+    "src": [
+     516
+    ]
+   },
+   {
+    "id": 331,
+    "day": 56,
+    "type": "done",
+    "text": "Sun 27 Sep 11:00 周周请aicoo检查所有引用，特别是新增的diffusion相关",
+    "src": [
+     518
+    ]
+   },
+   {
+    "id": 332,
+    "day": 56,
+    "type": "fact",
+    "text": "Sun 27 Sep 14:30 下午出门买了东西，现在脑子清楚",
+    "src": [
+     520
+    ]
+   },
+   {
+    "id": 333,
+    "day": 57,
+    "type": "done",
+    "text": "Sun 27 Sep 21:40 讨论初稿完成，包含大规模graphs、动态环境、多模态和LLM结合点四点",
+    "src": [
+     522,
+     524
+    ]
+   },
+   {
+    "id": 334,
+    "day": 57,
+    "type": "plan",
+    "text": "Mon 28 Sep 09:15 今天要把discussion再润色一遍",
+    "src": [
+     528
+    ]
+   },
+   {
+    "id": 335,
+    "day": 57,
+    "type": "fact",
+    "text": "Sun 27 Sep 14:30 论文标题为Context-Aware Planning",
+    "src": [
+     329
+    ]
+   },
+   {
+    "id": 336,
+    "day": 57,
+    "type": "feeling",
+    "text": "Sun 27 Sep 22:30 周周觉得论文差不多完成了",
+    "src": [
+     526
+    ]
+   },
+   {
+    "id": 337,
+    "day": 57,
+    "type": "done",
+    "text": "Mon 28 Sep 09:15 开始讨论润色",
+    "src": [
+     529
+    ]
+   },
+   {
+    "id": 338,
+    "day": 57,
+    "type": "ask",
+    "text": "希望aicoo调出Prof. Lin的comments",
+    "src": [
+     531
+    ]
+   },
+   {
+    "id": 339,
+    "day": 57,
+    "type": "fact",
+    "text": "Mon 28 Sep 10:30 Prof. Lin上周四comments：limitations部分需要更具体，补充real-world应用讨论",
+    "src": [
+     532
+    ]
+   },
+   {
+    "id": 340,
+    "day": 57,
+    "type": "done",
+    "text": "Mon 28 Sep 10:31 GPTR结果已复查，所有表格normalization都标了",
+    "src": [
+     532
+    ]
+   },
+   {
+    "id": 341,
+    "day": 57,
+    "type": "fact",
+    "text": "Mon 28 Sep 11:45 周周从limitations开始改，觉得之前写得模糊，computation cost没量化",
+    "src": [
+     533
+    ]
+   },
+   {
+    "id": 342,
+    "day": 57,
+    "type": "fact",
+    "text": "Mon 28 Sep 14:20 周周跑quick profiling，inference time比baseline多12%",
+    "src": [
+     535
+    ]
+   },
+   {
+    "id": 343,
+    "day": 57,
+    "type": "done",
+    "text": "Mon 28 Sep 16:00 limitations写了具体数字，开始补real-world application部分",
+    "src": [
+     537
+    ]
+   },
+   {
+    "id": 344,
+    "day": 58,
+    "type": "done",
+    "text": "Mon 28 Sep 16:00 discussion更新，加入ICRA robotics planning文献，当晚搞定",
+    "src": [
+     538,
+     539
+    ]
+   },
+   {
+    "id": 345,
+    "day": 58,
+    "type": "decision",
+    "text": "Mon 28 Sep 19:00 论文标题最终定为Context-Aware Planning",
+    "src": [
+     540,
+     541,
+     542
+    ],
+    "supersedes": 335
+   },
+   {
+    "id": 346,
+    "day": 58,
+    "type": "done",
+    "text": "Mon 28 Sep 23:20 周周发出论文最终版本",
+    "src": [
+     542
+    ]
+   },
+   {
+    "id": 347,
+    "day": 58,
+    "type": "plan",
+    "text": "Tue 29 Sep 09:30 今天开始改introduction",
+    "src": [
+     545
+    ]
+   },
+   {
+    "id": 348,
+    "day": 58,
+    "type": "fact",
+    "text": "Tue 29 Sep 09:30 aicoo称呼周予安为'周周'",
+    "src": [
+     546
+    ]
+   },
+   {
+    "id": 349,
+    "day": 58,
+    "type": "fact",
+    "text": "Tue 29 Sep 10:00 Prof. Lin上周五comments: contribution list太散，聚焦到hierarchical planning和context-awareness两个点；开头hook could be stronger，考虑用LLM planning failure case",
+    "src": [
+     548,
+     549
+    ]
+   },
+   {
+    "id": 350,
+    "day": 58,
+    "type": "decision",
+    "text": "Tue 29 Sep 11:30 从failure case开始重写开头，用去年那个GPT3 planning出错例子",
+    "src": [
+     550
+    ]
+   },
+   {
+    "id": 351,
+    "day": 58,
+    "type": "ask",
+    "text": "希望aicoo提取GPT3 planning出错案例细节",
+    "src": [
+     551
+    ]
+   },
+   {
+    "id": 352,
+    "day": 58,
+    "type": "fact",
+    "text": "Tue 29 Sep 12:00 改完contribution部分，现在三个点：结构化分解、attention机制、效率",
+    "src": [
+     552
+    ]
+   },
+   {
+    "id": 353,
+    "day": 58,
+    "type": "fact",
+    "text": "Tue 29 Sep 14:00 Kevin说系里买的新GPU是H100，一共8张，申请的人很多",
+    "src": [
+     553
+    ]
+   },
+   {
+    "id": 354,
+    "day": 58,
+    "type": "feeling",
+    "text": "Tue 29 Sep 14:00 需要有实验结果赶紧申请GPU",
+    "src": [
+     553
+    ]
+   },
+   {
+    "id": 355,
+    "day": 59,
+    "type": "fact",
+    "text": "Tue 29 Sep 14:00 系里买的新GPU是H100，一共8张，申请的人很多",
+    "src": [
+     555
+    ]
+   },
+   {
+    "id": 356,
+    "day": 59,
+    "type": "decision",
+    "text": "Tue 29 Sep 17:00 等论文投出去再申请H100 GPU",
+    "src": [
+     557
+    ]
+   },
+   {
+    "id": 357,
+    "day": 59,
+    "type": "done",
+    "text": "Tue 29 Sep 17:00 周周改完intro并已发给Prof. Lin",
+    "src": [
+     557
+    ]
+   },
+   {
+    "id": 358,
+    "day": 59,
+    "type": "fact",
+    "text": "Wed 30 Sep 09:45 Prof. Lin说intro改得不错，但abstract可以再tighten",
+    "src": [
+     558
+    ]
+   },
+   {
+    "id": 359,
+    "day": 59,
+    "type": "ask",
+    "text": "希望aicoo帮忙缩写abstract，从6句精简到4句突出core contribution",
+    "src": [
+     560,
+     561
+    ]
+   },
+   {
+    "id": 360,
+    "day": 59,
+    "type": "fact",
+    "text": "Wed 30 Sep 11:00 周周今天要批50份TA作业",
+    "src": [
+     561
+    ]
+   },
+   {
+    "id": 361,
+    "day": 59,
+    "type": "ask",
+    "text": "希望aicoo称呼周予安为'周周'",
+    "src": [
+     559
+    ],
+    "supersedes": 323
+   },
+   {
+    "id": 362,
+    "day": 59,
+    "type": "fact",
+    "text": "Wed 30 Sep 12:30 周周表示abstract draft能用，准备润色后批作业",
+    "src": [
+     563
+    ]
+   },
+   {
+    "id": 363,
+    "day": 59,
+    "type": "done",
+    "text": "Wed 30 Sep 14:15 批了20份TA作业，发现学生concept drift问题很大",
+    "src": [
+     564
+    ]
+   },
+   {
+    "id": 364,
+    "day": 59,
+    "type": "ask",
+    "text": "希望aicoo在周四meeting前提醒周周和Prof. Li讨论concept drift问题",
+    "src": [
+     566
+    ]
+   },
+   {
+    "id": 365,
+    "day": 59,
+    "type": "plan",
+    "text": "Wed 30 Sep 14:30 下周二课上强调concept drift",
+    "src": [
+     566
+    ]
+   },
+   {
+    "id": 366,
+    "day": 59,
+    "type": "done",
+    "text": "Wed 30 Sep 16:00 TA作业全部批改完毕",
+    "src": [
+     567
+    ]
+   },
+   {
+    "id": 367,
+    "day": 59,
+    "type": "done",
+    "text": "Wed 30 Sep 16:00 abstract润色完成",
+    "src": [
+     567
+    ]
+   },
+   {
+    "id": 368,
+    "day": 59,
+    "type": "ask",
+    "text": "希望aicoo检查ICLR和NeurIPS的submission format要求，包括页数限制",
+    "src": [
+     569
+    ]
+   },
+   {
+    "id": 369,
+    "day": 59,
+    "type": "fact",
+    "text": "Wed 30 Sep 16:30 周周还没决定投ICLR还是NeurIPS",
+    "src": [
+     569
+    ]
+   },
+   {
+    "id": 370,
+    "day": 60,
+    "type": "fact",
+    "text": "Wed 30 Sep 18:00 Coco说周末要去法拉盛买菜，那里东西便宜",
+    "src": [
+     570
+    ]
+   },
+   {
+    "id": 371,
+    "day": 60,
+    "type": "done",
+    "text": "Wed 30 Sep 20:02 aicoo查询了ICLR和NeurIPS的submission format要求：ICLR 9页正文无限制references，NeurIPS 8页正文references算在页数外，建议选ICLR",
+    "src": [
+     574
+    ],
+    "closes": 368
+   },
+   {
+    "id": 372,
+    "day": 60,
+    "type": "decision",
+    "text": "Thu 01 Oct 10:00 决定投ICLR，deadline 11月15日",
+    "src": [
+     575
+    ]
+   },
+   {
+    "id": 373,
+    "day": 60,
+    "type": "plan",
+    "text": "Thu 01 Oct 10:00 ICLR deadline 11月15日，与fellowship冲突但能搞定",
+    "src": [
+     575
+    ]
+   },
+   {
+    "id": 374,
+    "day": 60,
+    "type": "ask",
+    "text": "希望aicoo帮忙排优先级，因为ICLR deadline和fellowship都是11月15日",
+    "src": [
+     577
+    ]
+   },
+   {
+    "id": 375,
+    "day": 60,
+    "type": "ask",
+    "text": "希望aicoo问是否需要补充ICLR appendix",
+    "src": [
+     577
+    ]
+   },
+   {
+    "id": 376,
+    "day": 60,
+    "type": "done",
+    "text": "Thu 01 Oct 12:00 检查图表发现fig3标签小，已修改",
+    "src": [
+     580
+    ]
+   },
+   {
+    "id": 377,
+    "day": 60,
+    "type": "done",
+    "text": "Thu 01 Oct 14:15 proofread实验部分，发现GPTR对比表格少了个脚注（normalization），已加",
+    "src": [
+     581
+    ]
+   },
+   {
+    "id": 378,
+    "day": 60,
+    "type": "done",
+    "text": "Thu 01 Oct 17:30 proofread完成",
+    "src": [
+     584
+    ]
+   },
+   {
+    "id": 379,
+    "day": 60,
+    "type": "plan",
+    "text": "Thu 01 Oct 11:30 下午整理appendix放ablation和hyperparameter sensitivity",
+    "src": [
+     578
+    ]
+   },
+   {
+    "id": 380,
+    "day": 60,
+    "type": "plan",
+    "text": "Thu 01 Oct 17:30 开始写fellowship personal statement，已拖一周",
+    "src": [
+     584
+    ]
+   },
+   {
+    "id": 381,
+    "day": 60,
+    "type": "ask",
+    "text": "希望aicoo帮忙排优先级，因为ICLR deadline和fellowship都是11月15日",
+    "src": [
+     374
+    ]
+   },
+   {
+    "id": 382,
+    "day": 60,
+    "type": "ask",
+    "text": "希望aicoo问是否需要补充ICLR appendix",
+    "src": [
+     375
+    ]
+   },
+   {
+    "id": 383,
+    "day": 60,
+    "type": "ask",
+    "text": "希望aicoo检查ICLR和NeurIPS的submission format要求，包括页数限制",
+    "src": [
+     368
+    ]
+   },
+   {
+    "id": 384,
+    "day": 61,
+    "type": "done",
+    "text": "Thu 01 Oct 18:00 调出Prof. Lin的comments，把paper成果加进去",
+    "src": [
+     586
+    ]
+   },
+   {
+    "id": 385,
+    "day": 61,
+    "type": "done",
+    "text": "Thu 01 Oct 21:00 fellowship personal statement draft写完",
+    "src": [
+     587
+    ]
+   },
+   {
+    "id": 386,
+    "day": 61,
+    "type": "fact",
+    "text": "Thu 01 Oct 21:00 Coco说“山海”餐厅要提前两周预定，周周还没约，想带她去庆祝论文",
+    "src": [
+     587,
+     589
+    ]
+   },
+   {
+    "id": 387,
+    "day": 61,
+    "type": "plan",
+    "text": "Mon 05 Oct 10:00 预订山海餐厅",
+    "src": [
+     590,
+     591
+    ]
+   },
+   {
+    "id": 388,
+    "day": 61,
+    "type": "plan",
+    "text": "Fri 02 Oct 全天有Prof. Lin meeting和组会，需要过paper和statement",
+    "src": [
+     592
+    ]
+   },
+   {
+    "id": 389,
+    "day": 61,
+    "type": "plan",
+    "text": "Fri 02 Oct 组会slides更新，加H100性能对比（基于A100数据推算）",
+    "src": [
+     595
+    ]
+   },
+   {
+    "id": 390,
+    "day": 61,
+    "type": "fact",
+    "text": "Fri 02 Oct 10:00 推算H100 FP16 tensor ops是A100的3倍，预估inference speedup 2.5x",
+    "src": [
+     596
+    ]
+   },
+   {
+    "id": 391,
+    "day": 61,
+    "type": "done",
+    "text": "Fri 02 Oct 12:30 写完H100申请理由，强调hierarchical planning需要大模型推理，H100对scalability critical",
+    "src": [
+     597,
+     598
+    ]
+   },
+   {
+    "id": 392,
+    "day": 61,
+    "type": "ask",
+    "text": "希望aicoo在fellowship statement中突出long-term vision，比如planning for embodied AI",
+    "src": [
+     600,
+     601
+    ]
+   },
+   {
+    "id": 393,
+    "day": 62,
+    "type": "done",
+    "text": "Fri 02 Oct 15:45 Prof. Lin对paper很满意，建议投ICLR；H100申请已审批，周周排实验室第一个",
+    "src": [
+     602
+    ]
+   },
+   {
+    "id": 394,
+    "day": 62,
+    "type": "fact",
+    "text": "Fri 02 Oct 17:00 组会前跑完实验，结果stable，与paper一致",
+    "src": [
+     604,
+     605
+    ]
+   },
+   {
+    "id": 395,
+    "day": 62,
+    "type": "done",
+    "text": "Fri 02 Oct 19:30 组会结束，Kevin和Mei整体认可",
+    "src": [
+     606
+    ]
+   },
+   {
+    "id": 396,
+    "day": 62,
+    "type": "plan",
+    "text": "Sat 03 Oct 09:30 开始打包ICLR submission",
+    "src": [
+     607
+    ]
+   },
+   {
+    "id": 397,
+    "day": 62,
+    "type": "plan",
+    "text": "Sat 03 Oct 09:30 周末finalize everything",
+    "src": [
+     604
+    ]
+   },
+   {
+    "id": 398,
+    "day": 62,
+    "type": "fact",
+    "text": "Sat 03 Oct 09:30 code有debugging痕迹需clean up",
+    "src": [
+     609
+    ]
+   },
+   {
+    "id": 399,
+    "day": 62,
+    "type": "fact",
+    "text": "Sat 03 Oct 09:31 实验A100利用率只有30%",
+    "src": [
+     609
+    ]
+   },
+   {
+    "id": 400,
+    "day": 62,
+    "type": "done",
+    "text": "Sat 03 Oct 10:00 code clean up开始，清理hard-coded路径和debugging痕迹",
+    "src": [
+     610,
+     615
+    ]
+   },
+   {
+    "id": 401,
+    "day": 62,
+    "type": "fact",
+    "text": "Sat 03 Oct 11:00 推理阶段尝试batch size 128，未崩",
+    "src": [
+     612
+    ]
+   },
+   {
+    "id": 402,
+    "day": 62,
+    "type": "fact",
+    "text": "Sat 03 Oct 12:00 batch size 128下A100利用率从30%提升到54%",
+    "src": [
+     613
+    ]
+   },
+   {
+    "id": 403,
+    "day": 62,
+    "type": "done",
+    "text": "Sat 03 Oct 15:30 Appendix完成：ablation studies、hyperparameter tables、supplementary experiments，共6页",
+    "src": [
+     616
+    ]
+   },
+   {
+    "id": 404,
+    "day": 62,
+    "type": "done",
+    "text": "Sat 03 Oct 15:30 Appendix完成：ablation studies、hyperparameter tables、supplementary experiments，共6页",
+    "src": [
+     618
+    ]
+   },
+   {
+    "id": 405,
+    "day": 62,
+    "type": "fact",
+    "text": "Sat 03 Oct 16:00 开始重新跑实验监控GPU利用率",
+    "src": [
+     618
+    ]
+   },
+   {
+    "id": 406,
+    "day": 62,
+    "type": "fact",
+    "text": "Sat 03 Oct 18:00 改用pinned memory后A100利用率从54%提升到68%",
+    "src": [
+     619,
+     620
+    ]
+   },
+   {
+    "id": 407,
+    "day": 62,
+    "type": "pref",
+    "text": "记录GPU optimization steps，未来H100适用",
+    "src": [
+     620
+    ]
+   },
+   {
+    "id": 408,
+    "day": 62,
+    "type": "feeling",
+    "text": "Sat 03 Oct 20:00 利用率又掉回30%，气死了",
+    "src": [
+     621
+    ]
+   },
+   {
+    "id": 409,
+    "day": 62,
+    "type": "fact",
+    "text": "Sat 03 Oct 21:00 小模型利用率低，batch size 128在小模型上不稳定",
+    "src": [
+     623
+    ]
+   },
+   {
+    "id": 410,
+    "day": 62,
+    "type": "pref",
+    "text": "batch size 128在小模型上不稳定的问题要写进limitations",
+    "src": [
+     623
+    ]
+   },
+   {
+    "id": 411,
+    "day": 62,
+    "type": "feeling",
+    "text": "Sat 03 Oct 23:55 调了一晚上，A100利用率只有30%，整体还是问题",
+    "src": [
+     624,
+     625
+    ]
+   },
+   {
+    "id": 412,
+    "day": 63,
+    "type": "feeling",
+    "text": "Sun 04 Oct 10:00 因为GPU利用率问题没睡好，但决定今天放松",
+    "src": [
+     627
+    ]
+   },
+   {
+    "id": 413,
+    "day": 63,
+    "type": "plan",
+    "text": "Sun 04 Oct 下午去gym然后打游戏",
+    "src": [
+     633
+    ]
+   },
+   {
+    "id": 414,
+    "day": 63,
+    "type": "fact",
+    "text": "Sun 04 Oct 11:00 Final check过了，觉得paper写得好",
+    "src": [
+     631
+    ]
+   },
+   {
+    "id": 415,
+    "day": 63,
+    "type": "fact",
+    "text": "Coco明天去法拉盛买月饼，中秋到了",
+    "src": [
+     635
+    ]
+   },
+   {
+    "id": 416,
+    "day": 63,
+    "type": "fact",
+    "text": "今天（Sun 04 Oct）是中秋节",
+    "src": [
+     636
+    ]
+   },
+   {
+    "id": 417,
+    "day": 63,
+    "type": "feeling",
+    "text": "Sun 04 Oct 18:00 完全忘了今天是中秋",
+    "src": [
+     637
+    ]
+   },
+   {
+    "id": 418,
+    "day": 63,
+    "type": "done",
+    "text": "Sun 04 Oct 22:00 跟实验室（Kevin等）去打保龄球了，Kevin最高分",
+    "src": [
+     640
+    ]
+   },
+   {
+    "id": 419,
+    "day": 64,
+    "type": "fact",
+    "text": "Mon 05 Oct 09:15 继续跑A100实验，第三个环境准备用Habitat",
+    "src": [
+     643
+    ]
+   },
+   {
+    "id": 420,
+    "day": 64,
+    "type": "fact",
+    "text": "Mon 05 Oct 09:18 Fellowship推荐信Coco说本周能发",
+    "src": [
+     645
+    ]
+   },
+   {
+    "id": 421,
+    "day": 64,
+    "type": "done",
+    "text": "Mon 05 Oct 11:30 Habitat环境配置有问题，dataloader又慢了，得加num_workers",
+    "src": [
+     647
+    ],
+    "closes": 305
+   },
+   {
+    "id": 422,
+    "day": 65,
+    "type": "fact",
+    "text": "Kevin说H100申请还在排队，先继续用A100",
+    "src": [
+     650
+    ]
+   },
+   {
+    "id": 423,
+    "day": 65,
+    "type": "plan",
+    "text": "Mon 05 Oct 17:30 TA office hour，晚上继续写实验结果",
+    "src": [
+     652,
+     653
+    ]
+   },
+   {
+    "id": 424,
+    "day": 65,
+    "type": "fact",
+    "text": "Facebook fellowship提交截止日是12月20号",
+    "src": [
+     654
+    ],
+    "supersedes": 286
+   },
+   {
+    "id": 425,
+    "day": 65,
+    "type": "fact",
+    "text": "Tue 06 Oct 10:00 组会改到11:00，Prof. Lin有事推迟",
+    "src": [
+     658
+    ]
+   },
+   {
+    "id": 426,
+    "day": 65,
+    "type": "done",
+    "text": "Tue 06 Oct 12:30 组会结束，Prof. Lin建议Habitat环境加visual grounding模块",
+    "src": [
+     660
+    ]
+   },
+   {
+    "id": 427,
+    "day": 65,
+    "type": "fact",
+    "text": "Tue 06 Oct 12:35 Mei建议Habitat的RGB-D可用预训练模型加速",
+    "src": [
+     661
+    ]
+   },
+   {
+    "id": 428,
+    "day": 65,
+    "type": "fact",
+    "text": "Tue 06 Oct 17:00 跑了一天visual grounding，速度慢但初步结果还行",
+    "src": [
+     663
+    ]
+   },
+   {
+    "id": 429,
+    "day": 65,
+    "type": "ask",
+    "text": "以后总结meeting notes，按agenda item分，每个item下列decision和action items",
+    "src": [
+     665
+    ]
+   },
+   {
+    "id": 430,
+    "day": 66,
+    "type": "done",
+    "text": "Sun 04 Oct 下午去gym然后打游戏",
+    "src": [
+     413
+    ]
+   },
+   {
+    "id": 431,
+    "day": 66,
+    "type": "fact",
+    "text": "Mon 05 Oct 17:30 TA office hour，晚上继续写实验结果",
+    "src": [
+     423
+    ]
+   },
+   {
+    "id": 432,
+    "day": 66,
+    "type": "fact",
+    "text": "Tue 06 Oct 组会改到11:00，Prof. Lin有事推迟",
+    "src": [
+     425
+    ]
+   },
+   {
+    "id": 433,
+    "day": 66,
+    "type": "done",
+    "text": "Tue 06 Oct 12:30 组会结束，Prof. Lin建议Habitat环境加visual grounding模块",
+    "src": [
+     426
+    ]
+   },
+   {
+    "id": 434,
+    "day": 66,
+    "type": "fact",
+    "text": "Tue 06 Oct 12:35 Mei建议Habitat的RGB-D可用预训练模型加速",
+    "src": [
+     427
+    ]
+   },
+   {
+    "id": 435,
+    "day": 66,
+    "type": "fact",
+    "text": "Tue 06 Oct 17:00 跑了一天visual grounding，速度慢但初步结果还行",
+    "src": [
+     428
+    ]
+   },
+   {
+    "id": 436,
+    "day": 66,
+    "type": "ask",
+    "text": "希望aicoo以后总结meeting notes，按agenda item分，每个item下列decision和action items",
+    "src": [
+     429
+    ]
+   },
+   {
+    "id": 437,
+    "day": 66,
+    "type": "done",
+    "text": "Wed 07 Oct 00:45 Coco生日聚餐在KTV“星光”，蛋糕由周周订",
+    "src": [
+     667
+    ]
+   },
+   {
+    "id": 438,
+    "day": 66,
+    "type": "feeling",
+    "text": "Wed 07 Oct 10:30 昨晚喝多了，今天上午补觉",
+    "src": [
+     669
+    ]
+   },
+   {
+    "id": 439,
+    "day": 66,
+    "type": "plan",
+    "text": "Wed 07 Oct 下午2点开始到lab",
+    "src": [
+     670
+    ]
+   },
+   {
+    "id": 440,
+    "day": 66,
+    "type": "fact",
+    "text": "Wed 07 Oct 14:00 到lab，先处理visual grounding的bug",
+    "src": [
+     671
+    ]
+   },
+   {
+    "id": 441,
+    "day": 66,
+    "type": "fact",
+    "text": "Wed 07 Oct 17:30 batch size调到32稳定了，但训练时间加倍",
+    "src": [
+     673
+    ]
+   },
+   {
+    "id": 442,
+    "day": 67,
+    "type": "fact",
+    "text": "Thu 08 Oct 09:00 组会改期不开了，全力跑AI2-THOR环境",
+    "src": [
+     675
+    ]
+   },
+   {
+    "id": 443,
+    "day": 67,
+    "type": "fact",
+    "text": "Thu 08 Oct 12:00 THOR环境动作空间有问题",
+    "src": [
+     677
+    ]
+   },
+   {
+    "id": 444,
+    "day": 67,
+    "type": "fact",
+    "text": "Thu 08 Oct 18:00 动作空间已改好，晚上跑通宵实验",
+    "src": [
+     680
+    ]
+   },
+   {
+    "id": 445,
+    "day": 67,
+    "type": "plan",
+    "text": "Thu 08 Oct 晚上通宵实验，明早aicoo汇总结果",
+    "src": [
+     680,
+     681
+    ]
+   },
+   {
+    "id": 446,
+    "day": 68,
+    "type": "done",
+    "text": "Fri 09 Oct 08:30 AI2-THOR跑完但结果波动大",
+    "src": [
+     682
+    ]
+   },
+   {
+    "id": 447,
+    "day": 68,
+    "type": "fact",
+    "text": "Fri 09 Oct 14:00 Prof. Lin说环境验证必须三个，现在只有两个稳定",
+    "src": [
+     684
+    ]
+   },
+   {
+    "id": 448,
+    "day": 68,
+    "type": "decision",
+    "text": "Fri 09 Oct 14:03 先不启动第四个环境，调参稳住THOR",
+    "src": [
+     686
+    ]
+   },
+   {
+    "id": 449,
+    "day": 68,
+    "type": "feeling",
+    "text": "Fri 09 Oct 23:15 论文补实验补到崩溃，Prof. Lin说至少要3个环境验证",
+    "src": [
+     687
+    ]
+   },
+   {
+    "id": 450,
+    "day": 68,
+    "type": "plan",
+    "text": "Sat 10 Oct 集中调试THOR",
+    "src": [
+     688,
+     689
+    ]
+   },
+   {
+    "id": 451,
+    "day": 69,
+    "type": "done",
+    "text": "Sat 10 Oct 09:00 固定随机种子42，开始调试THOR",
+    "src": [
+     691,
+     692
+    ]
+   },
+   {
+    "id": 452,
+    "day": 69,
+    "type": "done",
+    "text": "Sat 10 Oct 12:30 THOR稳定，三个环境都跑通",
+    "src": [
+     693,
+     694
+    ]
+   },
+   {
+    "id": 453,
+    "day": 69,
+    "type": "plan",
+    "text": "Tue 13 Oct 参加学校fellowship workshop",
+    "src": [
+     695
+    ]
+   },
+   {
+    "id": 454,
+    "day": 69,
+    "type": "ask",
+    "text": "希望aicoo准备fellowship workshop常见问题清单",
+    "src": [
+     696,
+     697
+    ]
+   },
+   {
+    "id": 455,
+    "day": 70,
+    "type": "done",
+    "text": "Sat 10 Oct 19:00 开始写论文environment实验部分",
+    "src": [
+     699
+    ]
+   },
+   {
+    "id": 456,
+    "day": 70,
+    "type": "plan",
+    "text": "Sun 11 Oct 去lab写论文实验部分",
+    "src": [
+     701
+    ]
+   },
+   {
+    "id": 457,
+    "day": 70,
+    "type": "done",
+    "text": "Sun 11 Oct 18:00 实验部分写完，三个环境结果都放进去了",
+    "src": [
+     705
+    ]
+   },
+   {
+    "id": 458,
+    "day": 71,
+    "type": "fact",
+    "text": "Sun 11 Oct 18:00 实验部分写完，三个环境结果都放进去了",
+    "src": [
+     706
+    ]
+   },
+   {
+    "id": 459,
+    "day": 71,
+    "type": "fact",
+    "text": "Mei的文章被NeurIPS接收了",
+    "src": [
+     707
+    ]
+   },
+   {
+    "id": 460,
+    "day": 71,
+    "type": "feeling",
+    "text": "Sun 11 Oct 22:33 今天累了，庆祝活动明天再说",
+    "src": [
+     709
+    ]
+   },
+   {
+    "id": 461,
+    "day": 71,
+    "type": "plan",
+    "text": "Mon 12 Oct 先跑一组ablation on attention heads数量",
+    "src": [
+     713
+    ]
+   },
+   {
+    "id": 462,
+    "day": 72,
+    "type": "fact",
+    "text": "Mon 12 Oct 12:30 attention heads 8效果最好，4和16都差一点",
+    "src": [
+     714
+    ]
+   },
+   {
+    "id": 463,
+    "day": 72,
+    "type": "fact",
+    "text": "Mon 12 Oct 17:30 TA office hour，学生问了一道递归题，答完感觉还行",
+    "src": [
+     716
+    ]
+   },
+   {
+    "id": 464,
+    "day": 72,
+    "type": "fact",
+    "text": "Mon 12 Oct 20:00 GPTR在AI2-THOR上验证结果比baseline高2.5个点，但有个环境一直报错",
+    "src": [
+     717,
+     718
+    ]
+   },
+   {
+    "id": 465,
+    "day": 72,
+    "type": "feeling",
+    "text": "Mon 12 Oct 22:00 今天累了",
+    "src": [
+     720
+    ]
+   },
+   {
+    "id": 466,
+    "day": 72,
+    "type": "plan",
+    "text": "Tue 13 Oct 早上先处理那个报错",
+    "src": [
+     721
+    ]
+   },
+   {
+    "id": 467,
+    "day": 73,
+    "type": "done",
+    "text": "Tue 13 Oct 11:30 THOR版本问题修复，重新安装后继续跑实验",
+    "src": [
+     722
+    ]
+   },
+   {
+    "id": 468,
+    "day": 73,
+    "type": "decision",
+    "text": "Tue 13 Oct 15:00 论文增加real-world scenario实验",
+    "src": [
+     723,
+     724
+    ]
+   },
+   {
+    "id": 469,
+    "day": 73,
+    "type": "plan",
+    "text": "Tue 13 Oct 15:00 下周汇报real-world scenario实验设计",
+    "src": [
+     723,
+     724
+    ]
+   },
+   {
+    "id": 470,
+    "day": 73,
+    "type": "plan",
+    "text": "Tue 13 Oct 18:00 今晚改20份TA作业",
+    "src": [
+     725
+    ]
+   },
+   {
+    "id": 471,
+    "day": 73,
+    "type": "done",
+    "text": "Tue 13 Oct 23:00 首选回复语言改为English",
+    "src": [
+     726,
+     727
+    ]
+   },
+   {
+    "id": 472,
+    "day": 73,
+    "type": "done",
+    "text": "Wed 14 Oct 09:30 继续改TA作业，还有30份",
+    "src": [
+     728
+    ]
+   },
+   {
+    "id": 473,
+    "day": 73,
+    "type": "done",
+    "text": "Wed 14 Oct 11:00 TA作业全部改完并发给Prof. Li",
+    "src": [
+     729
+    ]
+   },
+   {
+    "id": 474,
+    "day": 74,
+    "type": "done",
+    "text": "Wed 14 Oct 14:00 开始设计real-world scenario，机器人导航任务",
+    "src": [
+     730
+    ]
+   },
+   {
+    "id": 475,
+    "day": 74,
+    "type": "done",
+    "text": "Wed 14 Oct 16:00 设计好real-world scenario，用AI2-THOR厨房环境，agent规划路径取物品",
+    "src": [
+     731
+    ]
+   },
+   {
+    "id": 476,
+    "day": 74,
+    "type": "done",
+    "text": "Wed 14 Oct 18:00 开始写代码实现scenario",
+    "src": [
+     732
+    ]
+   },
+   {
+    "id": 477,
+    "day": 74,
+    "type": "plan",
+    "text": "11月20日 去“山海”餐厅（Coco生日聚餐）",
+    "src": [
+     733,
+     734
+    ]
+   },
+   {
+    "id": 478,
+    "day": 74,
+    "type": "done",
+    "text": "Thu 15 Oct 09:00 继续实现scenario",
+    "src": [
+     735
+    ]
+   },
+   {
+    "id": 479,
+    "day": 74,
+    "type": "done",
+    "text": "Thu 15 Oct 11:00 场景基本完成，开始跑实验",
+    "src": [
+     736
+    ]
+   },
+   {
+    "id": 480,
+    "day": 74,
+    "type": "fact",
+    "text": "Thu 15 Oct 14:00 real-world scenario实验跑完，效果比随机好很多，但和GPTR结合后提升不大，可能场景太简单",
+    "src": [
+     737
+    ]
+   },
+   {
+    "id": 481,
+    "day": 75,
+    "type": "fact",
+    "text": "Thu 15 Oct 16:00 平时喝blue bottle咖啡，最近打折",
+    "src": [
+     738
+    ]
+   },
+   {
+    "id": 482,
+    "day": 75,
+    "type": "done",
+    "text": "Thu 15 Oct 22:00 改好scenario，加了障碍物增加难度",
+    "src": [
+     740,
+     741
+    ]
+   },
+   {
+    "id": 483,
+    "day": 75,
+    "type": "done",
+    "text": "Fri 16 Oct 01:30 GPTR结果加进paper，比baseline高3个点",
+    "src": [
+     742
+    ]
+   },
+   {
+    "id": 484,
+    "day": 75,
+    "type": "done",
+    "text": "Fri 16 Oct 11:00 新scenario（有障碍物）结果：模型表现下降，GPTR仍有约2个点提升",
+    "src": [
+     743,
+     744
+    ]
+   },
+   {
+    "id": 485,
+    "day": 75,
+    "type": "fact",
+    "text": "Fri 16 Oct 14:00 参加fellowship workshop，学到推荐信要提前要等tips",
+    "src": [
+     745
+    ]
+   },
+   {
+    "id": 486,
+    "day": 76,
+    "type": "fact",
+    "text": "Fri 16 Oct 17:00 决定把GPTR结果加进论文",
+    "src": [
+     746
+    ]
+   },
+   {
+    "id": 487,
+    "day": 76,
+    "type": "done",
+    "text": "Fri 16 Oct 20:00 发现之前还有一个实验没跑完，先跑上",
+    "src": [
+     747
+    ]
+   },
+   {
+    "id": 488,
+    "day": 76,
+    "type": "done",
+    "text": "Fri 16 Oct 23:00 实验跑完了，继续加数据",
+    "src": [
+     748
+    ]
+   },
+   {
+    "id": 489,
+    "day": 76,
+    "type": "done",
+    "text": "Sat 17 Oct 10:00 周六睡到自然醒，起来继续改论文",
+    "src": [
+     749
+    ]
+   },
+   {
+    "id": 490,
+    "day": 76,
+    "type": "done",
+    "text": "Sat 17 Oct 13:00 下午和Coco去超市买菜，晚上在家做火锅",
+    "src": [
+     750
+    ]
+   },
+   {
+    "id": 491,
+    "day": 76,
+    "type": "done",
+    "text": "Sat 17 Oct 18:00 火锅吃完了，继续改论文",
+    "src": [
+     751
+    ]
+   },
+   {
+    "id": 492,
+    "day": 76,
+    "type": "done",
+    "text": "Sat 17 Oct 21:00 实验部分的表格整理好，发现有个数据点不对，重新跑一下",
+    "src": [
+     752
+    ]
+   },
+   {
+    "id": 493,
+    "day": 76,
+    "type": "fact",
+    "text": "Sat 17 Oct 23:00 model checkpoint存在学校cloud，路径是/project/zhouyunan/ckpts/",
+    "src": [
+     753
+    ]
+   },
+   {
+    "id": 494,
+    "day": 77,
+    "type": "done",
+    "text": "Sun 18 Oct 09:00 整理组会材料",
+    "src": [
+     755
+    ]
+   },
+   {
+    "id": 495,
+    "day": 77,
+    "type": "done",
+    "text": "Sun 18 Oct 11:00 组会材料准备好，包括real-world scenario实验和GPTR结果",
+    "src": [
+     756
+    ]
+   },
+   {
+    "id": 496,
+    "day": 77,
+    "type": "done",
+    "text": "Sun 18 Oct 14:00 组会，汇报进展，Prof. Lin建议再加一个更复杂的场景",
+    "src": [
+     757
+    ]
+   },
+   {
+    "id": 497,
+    "day": 77,
+    "type": "decision",
+    "text": "Sun 18 Oct 14:00 Prof. Lin建议增加更复杂的real-world scenario",
+    "src": [
+     757,
+     758
+    ]
+   },
+   {
+    "id": 498,
+    "day": 77,
+    "type": "plan",
+    "text": "下周汇报设计新场景",
+    "src": [
+     758
+    ]
+   },
+   {
+    "id": 499,
+    "day": 77,
+    "type": "fact",
+    "text": "Sun 18 Oct 20:00 新场景用多房间环境，跨房间规划",
+    "src": [
+     760
+    ]
+   },
+   {
+    "id": 500,
+    "day": 77,
+    "type": "person",
+    "text": "组里来了new postdoc Dr. Chen，下月入职",
+    "src": [
+     761
+    ]
+   },
+   {
+    "id": 501,
+    "day": 78,
+    "type": "done",
+    "text": "Mon 19 Oct 09:15-10:30 跑复杂场景补充实验，batch size 64，lr 1e-4，4个seed",
+    "src": [
+     763,
+     765
+    ]
+   },
+   {
+    "id": 502,
+    "day": 78,
+    "type": "done",
+    "text": "Mon 19 Oct 14:00 复杂场景实验完成，context-aware比gptr高2个点，方差较大",
+    "src": [
+     767
+    ]
+   },
+   {
+    "id": 503,
+    "day": 78,
+    "type": "plan",
+    "text": "Mon 19 Oct 16:30 加跑2个seed，并修改discussion limitation部分",
+    "src": [
+     769
+    ]
+   },
+   {
+    "id": 504,
+    "day": 79,
+    "type": "feeling",
+    "text": "Mon 19 Oct 22:00 周周说累了，先睡了",
+    "src": [
+     773
+    ]
+   },
+   {
+    "id": 505,
+    "day": 79,
+    "type": "done",
+    "text": "Mon 19 Oct 16:30 加跑2个seed，方差略有下降，整体结果不变",
+    "src": [
+     775
+    ],
+    "closes": 503
+   },
+   {
+    "id": 506,
+    "day": 79,
+    "type": "plan",
+    "text": "Tue 20 Oct 15:00 下午3点组会",
+    "src": [
+     776
+    ]
+   },
+   {
+    "id": 507,
+    "day": 79,
+    "type": "ask",
+    "text": "希望aicoo简单更新实验进度就好，不用做新slides",
+    "src": [
+     778
+    ]
+   },
+   {
+    "id": 508,
+    "day": 79,
+    "type": "fact",
+    "text": "Tue 20 Oct 15:30 组会结束，Prof. Lin说场景还是不够，得再想一个",
+    "src": [
+     781
+    ]
+   },
+   {
+    "id": 509,
+    "day": 79,
+    "type": "fact",
+    "text": "Tue 20 Oct 16:00 第三个场景是grid world with partial obs，但Prof. Lin说不够，可能再加一个真实文本任务",
+    "src": [
+     783
+    ]
+   },
+   {
+    "id": 510,
+    "day": 79,
+    "type": "pref",
+    "text": "对HotpotQA感兴趣，看看能不能用planning框架做",
+    "src": [
+     785
+    ]
+   },
+   {
+    "id": 511,
+    "day": 79,
+    "type": "done",
+    "text": "Tue 20 Oct 23:50 fellowship只投了Facebook一个，NSF放弃了",
+    "src": [
+     786
+    ],
+    "closes": 303
+   },
+   {
+    "id": 512,
+    "day": 79,
+    "type": "feeling",
+    "text": "Mon 19 Oct 22:00 周周说累了，先睡了",
+    "src": [
+     504
+    ]
+   },
+   {
+    "id": 513,
+    "day": 80,
+    "type": "done",
+    "text": "Wed 21 Oct 12:00 批了20份TA作业，还有30份",
+    "src": [
+     791
+    ]
+   },
+   {
+    "id": 514,
+    "day": 80,
+    "type": "fact",
+    "text": "Wed 21 Oct 14:00 lab meeting，Dr. Chen入职定在11月3日，周周需要带他熟悉环境",
+    "src": [
+     793
+    ]
+   },
+   {
+    "id": 515,
+    "day": 80,
+    "type": "plan",
+    "text": "11月3日带Dr. Chen熟悉实验室和学校资源",
+    "src": [
+     793
+    ]
+   },
+   {
+    "id": 516,
+    "day": 80,
+    "type": "promise",
+    "text": "aicoo承诺提前提醒周周11月3日带Dr. Chen熟悉环境",
+    "src": [
+     794
+    ]
+   },
+   {
+    "id": 517,
+    "day": 80,
+    "type": "fact",
+    "text": "Wed 21 Oct 09:00 开始看HotpotQA的数据格式",
+    "src": [
+     788
+    ]
+   },
+   {
+    "id": 518,
+    "day": 81,
+    "type": "done",
+    "text": "Wed 21 Oct 17:00 写HotpotQA dataloader",
+    "src": [
+     795
+    ]
+   },
+   {
+    "id": 519,
+    "day": 81,
+    "type": "done",
+    "text": "Wed 21 Oct 20:00 跑了一版HotpotQA，效果很一般",
+    "src": [
+     798
+    ]
+   },
+   {
+    "id": 520,
+    "day": 81,
+    "type": "fact",
+    "text": "Wed 21 Oct 22:00 HotpotQA context max length太短导致精度低，调整后重新提交实验",
+    "src": [
+     800,
+     801
+    ]
+   },
+   {
+    "id": 521,
+    "day": 81,
+    "type": "fact",
+    "text": "Thu 22 Oct 09:00 HotpotQA精度只有30%",
+    "src": [
+     802
+    ]
+   },
+   {
+    "id": 522,
+    "day": 81,
+    "type": "fact",
+    "text": "Thu 22 Oct 09:00 HotpotQA精度只有30%",
+    "src": [
+     803
+    ]
+   },
+   {
+    "id": 523,
+    "day": 81,
+    "type": "plan",
+    "text": "Thu 22 Oct 15:00 下午3点和Prof. Lin meeting",
+    "src": [
+     804
+    ]
+   },
+   {
+    "id": 524,
+    "day": 81,
+    "type": "plan",
+    "text": "Thu 22 Oct 14:00 准备meeting slides，放上目前三个环境的结果",
+    "src": [
+     805
+    ]
+   },
+   {
+    "id": 525,
+    "day": 81,
+    "type": "fact",
+    "text": "Thu 22 Oct 15:30 meeting结束。Prof. Lin说HotpotQA可以放，但需要更多分析为什么不行",
+    "src": [
+     808
+    ]
+   },
+   {
+    "id": 526,
+    "day": 81,
+    "type": "ask",
+    "text": "希望aicoo帮忙分析HotpotQA failure cases",
+    "src": [
+     808,
+     809
+    ]
+   },
+   {
+    "id": 527,
+    "day": 81,
+    "type": "feeling",
+    "text": "Thu 22 Oct 18:00 今天不想干活了，跟Coco去楼下吃个饭",
+    "src": [
+     810
+    ]
+   },
+   {
+    "id": 528,
+    "day": 82,
+    "type": "fact",
+    "text": "Fri 23 Oct 09:30 HotpotQA failure case: multi-hop时模型经常忽略中间推理步骤，直接跳到答案",
+    "src": [
+     815,
+     816
+    ]
+   },
+   {
+    "id": 529,
+    "day": 82,
+    "type": "decision",
+    "text": "Fri 23 Oct 10:00 尝试加一个intermediate supervision来解决HotpotQA multi-hop忽略中间推理步骤的问题",
+    "src": [
+     817,
+     818
+    ]
+   },
+   {
+    "id": 530,
+    "day": 82,
+    "type": "fact",
+    "text": "Fri 23 Oct 12:00 改了一上午代码，下午跑实验",
+    "src": [
+     819
+    ]
+   },
+   {
+    "id": 531,
+    "day": 82,
+    "type": "done",
+    "text": "Fri 23 Oct 14:00 提交HotpotQA加intermediate supervision实验和grid world实验",
+    "src": [
+     820
+    ]
+   },
+   {
+    "id": 532,
+    "day": 82,
+    "type": "fact",
+    "text": "Fri 23 Oct 17:00 HotpotQA加intermediate supervision提升到45%",
+    "src": [
+     822
+    ]
+   },
+   {
+    "id": 533,
+    "day": 82,
+    "type": "fact",
+    "text": "Fri 23 Oct 18:05 grid world结果正常，context-aware比baseline高5个点",
+    "src": [
+     825
+    ]
+   },
+   {
+    "id": 534,
+    "day": 82,
+    "type": "feeling",
+    "text": "Fri 23 Oct 20:00 周末了，不想搞太复杂，把实验再整理一下",
+    "src": [
+     826
+    ]
+   },
+   {
+    "id": 535,
+    "day": 83,
+    "type": "fact",
+    "text": "Fri 23 Oct 22:00 第四个环境是HotpotQA改版后的版本，结果还没跑完",
+    "src": [
+     827,
+     829
+    ]
+   },
+   {
+    "id": 536,
+    "day": 83,
+    "type": "fact",
+    "text": "Sat 24 Oct 10:00 第四个环境（HotpotQA改版）结果45%没变",
+    "src": [
+     830,
+     831
+    ]
+   },
+   {
+    "id": 537,
+    "day": 83,
+    "type": "done",
+    "text": "Sat 24 Oct 下午和Coco去布鲁克林逛了一圈买了点东西",
+    "src": [
+     832
+    ]
+   },
+   {
+    "id": 538,
+    "day": 83,
+    "type": "fact",
+    "text": "Sat 24 Oct 20:00 Prof. Lin谷歌学术引用破5000",
+    "src": [
+     834
+    ]
+   },
+   {
+    "id": 539,
+    "day": 84,
+    "type": "fact",
+    "text": "Sat 24 Oct 20:00 Prof. Lin谷歌学术引用破5000",
+    "src": [
+     835,
+     836
+    ]
+   },
+   {
+    "id": 540,
+    "day": 84,
+    "type": "feeling",
+    "text": "Sat 24 Oct 21:00 周周说明天周日组会要准备，今晚早点睡",
+    "src": [
+     837
+    ]
+   },
+   {
+    "id": 541,
+    "day": 84,
+    "type": "plan",
+    "text": "Sun 25 Oct 组会",
+    "src": [
+     837,
+     842
+    ]
+   },
+   {
+    "id": 542,
+    "day": 84,
+    "type": "fact",
+    "text": "Sun 25 Oct 00:20 下周一与Prof. Lin的meeting改成线上，他出差",
+    "src": [
+     838
+    ]
+   },
+   {
+    "id": 543,
+    "day": 84,
+    "type": "plan",
+    "text": "Mon 26 Oct 线上与Prof. Lin meeting",
+    "src": [
+     838
+    ]
+   },
+   {
+    "id": 544,
+    "day": 84,
+    "type": "ask",
+    "text": "线上meeting链接需要Prof. Lin提供",
+    "src": [
+     839
+    ]
+   },
+   {
+    "id": 545,
+    "day": 84,
+    "type": "fact",
+    "text": "Sun 25 Oct 00:30 Prof. Lin说会发zoom链接",
+    "src": [
+     840
+    ]
+   },
+   {
+    "id": 546,
+    "day": 84,
+    "type": "fact",
+    "text": "Sun 25 Oct 16:00 组会结束，Prof. Lin对进展还算满意，但对HotpotQA持保留态度",
+    "src": [
+     849
+    ]
+   },
+   {
+    "id": 547,
+    "day": 85,
+    "type": "fact",
+    "text": "Sun 25 Oct 16:00 Prof. Lin说可以先放四个环境，但讨论里要诚实写HotpotQA的局限性",
+    "src": [
+     851
+    ]
+   },
+   {
+    "id": 548,
+    "day": 85,
+    "type": "plan",
+    "text": "Mon 26 Oct 周一线上meeting，周二继续改discussion",
+    "src": [
+     852
+    ]
+   },
+   {
+    "id": 549,
+    "day": 85,
+    "type": "feeling",
+    "text": "Sun 25 Oct 20:00 今天早点休息，这周忙得够呛",
+    "src": [
+     854
+    ]
+   },
+   {
+    "id": 550,
+    "day": 85,
+    "type": "plan",
+    "text": "Mon 26 Oct 09:15 今天finalize论文标题，跑最后一个实验",
+    "src": [
+     856
+    ]
+   },
+   {
+    "id": 551,
+    "day": 85,
+    "type": "fact",
+    "text": "Mon 26 Oct 11:30 环境4（改进版HotpotQA）还是45%，可能intermediate supervision的权重需要调",
+    "src": [
+     858
+    ]
+   },
+   {
+    "id": 552,
+    "day": 86,
+    "type": "fact",
+    "text": "Mon 26 Oct 14:00 HotpotQA加intermediate supervision权重调到0.5后提升到48%",
+    "src": [
+     860
+    ]
+   },
+   {
+    "id": 553,
+    "day": 86,
+    "type": "fact",
+    "text": "Mon 26 Oct 18:45 论文标题改为Context-Aware Planning via Hierarchical Decomposition",
+    "src": [
+     862
+    ]
+   },
+   {
+    "id": 554,
+    "day": 86,
+    "type": "fact",
+    "text": "Mon 26 Oct 23:40 论文标题最终定为Context-Aware Planning via Hierarchical Decomposition",
+    "src": [
+     864
+    ],
+    "supersedes": 335
+   },
+   {
+    "id": 555,
+    "day": 86,
+    "type": "done",
+    "text": "Tue 27 Oct 08:30 aicoo更新所有文档中的论文标题为Context-Aware Planning via Hierarchical Decomposition",
+    "src": [
+     866
+    ]
+   },
+   {
+    "id": 556,
+    "day": 86,
+    "type": "plan",
+    "text": "Tue 27 Oct 10:00 今天继续调环境4，试试把supervision加到每个step",
+    "src": [
+     867
+    ]
+   },
+   {
+    "id": 557,
+    "day": 87,
+    "type": "fact",
+    "text": "Tue 27 Oct 14:30 环境4（HotpotQA改版）每个step加intermediate supervision后跑到52%",
+    "src": [
+     869
+    ]
+   },
+   {
+    "id": 558,
+    "day": 87,
+    "type": "fact",
+    "text": "Tue 27 Oct 18:00 环境4跑到55%，但环境2结果下降",
+    "src": [
+     871
+    ]
+   },
+   {
+    "id": 559,
+    "day": 87,
+    "type": "plan",
+    "text": "Wed 28 Oct 09:30 今天开始跑全部四个环境的完整实验，固定seed",
+    "src": [
+     874,
+     875
+    ]
+   },
+   {
+    "id": 560,
+    "day": 87,
+    "type": "fact",
+    "text": "Tue 27 Oct 22:30 论文标题更新为Context-Aware Planning via Hierarchical Decomposition",
+    "src": [
+     873
+    ],
+    "supersedes": 554
+   },
+   {
+    "id": 561,
+    "day": 87,
+    "type": "fact",
+    "text": "Wed 28 Oct 09:32 周周决定四个环境分批跑，环境1和2用GPU0，环境3和4用GPU1",
+    "src": [
+     876
+    ]
+   },
+   {
+    "id": 562,
+    "day": 87,
+    "type": "fact",
+    "text": "Wed 28 Oct 10:00 十一月纽约开始供暖，暖气费每月多了50刀",
+    "src": [
+     877
+    ]
+   },
+   {
+    "id": 563,
+    "day": 87,
+    "type": "fact",
+    "text": "Wed 28 Oct 10:05 环境1和2跑完，结果和之前一致",
+    "src": [
+     879
+    ]
+   },
+   {
+    "id": 564,
+    "day": 87,
+    "type": "fact",
+    "text": "Wed 28 Oct 15:20 环境3跑完，结果比之前高2个点",
+    "src": [
+     881
+    ]
+   },
+   {
+    "id": 565,
+    "day": 87,
+    "type": "fact",
+    "text": "Wed 28 Oct 20:00 环境4跑完，还是55%",
+    "src": [
+     883
+    ]
+   },
+   {
+    "id": 566,
+    "day": 88,
+    "type": "feeling",
+    "text": "Thu 29 Oct 00:30 睡不着，起来看看环境4有没有更好的参数组合",
+    "src": [
+     885
+    ]
+   },
+   {
+    "id": 567,
+    "day": 88,
+    "type": "done",
+    "text": "Thu 29 Oct 01:10 跑完所有实验，4个环境",
+    "src": [
+     887
+    ]
+   },
+   {
+    "id": 568,
+    "day": 88,
+    "type": "fact",
+    "text": "Thu 29 Oct 01:15 四个环境结果：环境1 82%，环境2 78%，环境3 89%，环境4 55%",
+    "src": [
+     889
+    ]
+   },
+   {
+    "id": 569,
+    "day": 88,
+    "type": "plan",
+    "text": "Thu 29 Oct 10:00 上午整理实验表格，下午准备周一meeting材料",
+    "src": [
+     891
+    ]
+   },
+   {
+    "id": 570,
+    "day": 88,
+    "type": "plan",
+    "text": "Mon 29 Oct 下午讨论论文投稿时间和Dr. Chen入职安排",
+    "src": [
+     898
+    ]
+   },
+   {
+    "id": 571,
+    "day": 88,
+    "type": "done",
+    "text": "aicoo在14:30完成latex表格代码并发送至overleaf",
+    "src": [
+     896,
+     897
+    ]
+   },
+   {
+    "id": 572,
+    "day": 88,
+    "type": "fact",
+    "text": "Thu 29 Oct 10:30 周周要求表格包括环境1-4的四个baseline和我们的结果，ablation放另一个表",
+    "src": [
+     893,
+     895
+    ]
+   },
+   {
+    "id": 573,
+    "day": 88,
+    "type": "ask",
+    "text": "希望aicoo在周一meeting时提醒周周会议改线上",
+    "src": [
+     900
+    ]
+   },
+   {
+    "id": 574,
+    "day": 90,
+    "type": "done",
+    "text": "Fri 30 Oct 11:30 aicoo检查论文实验部分数据和表格引用，修正环境2结果79%→78%",
+    "src": [
+     904,
+     905,
+     906
+    ],
+    "closes": 53
+   },
+   {
+    "id": 575,
+    "day": 90,
+    "type": "done",
+    "text": "Fri 30 Oct 11:30 实验部分初稿写完并上传到overleaf",
+    "src": [
+     904
+    ]
+   },
+   {
+    "id": 576,
+    "day": 90,
+    "type": "feeling",
+    "text": "Fri 30 Oct 11:35 这周太累了，下午休息",
+    "src": [
+     907
+    ]
+   },
+   {
+    "id": 577,
+    "day": 90,
+    "type": "plan",
+    "text": "Sun 31 Oct 晚上准备周一meeting",
+    "src": [
+     908
+    ]
+   },
+   {
+    "id": 578,
+    "day": 90,
+    "type": "plan",
+    "text": "Sat 31 Oct 10:00 准备周一meeting slides，重点是实验总结和论文进度",
+    "src": [
+     909
+    ]
+   },
+   {
+    "id": 579,
+    "day": 90,
+    "type": "plan",
+    "text": "Mon 31 Oct 晚上准备周一meeting slides",
+    "src": [
+     577
+    ]
+   },
+   {
+    "id": 580,
+    "day": 90,
+    "type": "plan",
+    "text": "Sat 31 Oct 10:00 准备周一meeting slides，重点是实验总结和论文进度",
+    "src": [
+     578
+    ]
+   },
+   {
+    "id": 581,
+    "day": 90,
+    "type": "fact",
+    "text": "Sat 31 Oct 10:05 slides加入目标12月投稿，具体会议待Prof. Lin意见",
+    "src": [
+     911,
+     912
+    ]
+   },
+   {
+    "id": 582,
+    "day": 90,
+    "type": "fact",
+    "text": "Sat 31 Oct 14:05 slides中环境4的结果标注为preliminary",
+    "src": [
+     914,
+     915
+    ]
+   },
+   {
+    "id": 583,
+    "day": 90,
+    "type": "plan",
+    "text": "Sun 31 Oct 09:00 自动发送邮件给Prof. Lin附上论文最新版和overleaf链接",
+    "src": [
+     916
+    ]
+   },
+   {
+    "id": 584,
+    "day": 90,
+    "type": "ask",
+    "text": "希望aicoo提醒周周周二带Dr. Chen熟悉环境",
+    "src": [
+     917
+    ]
+   }
+  ],
+  "next": 585,
+  "about": "周予安是CS PhD三年级学生，在Prof. Lin实验室做层级规划。室友Coco，同Lab有Kevin、Mei和即将入职的Dr. Chen。正撰写《Context-Aware Planning》投ICLR，并考虑申请fellowship。担任CS 571助教。日常谈话围绕实验、论文和实验室动态。",
+  "lastAt": 130680,
+  "writes": 114
+ },
+ "lastDay": 90,
+ "done": true,
+ "minutes": 5.131716666666667
+}

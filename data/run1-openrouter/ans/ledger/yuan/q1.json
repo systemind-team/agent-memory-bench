@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "对了，Prof. Lin说过春季intern有几个名额来着？",
+ "reply": [
+  "- Prof. Lin在9月24日组会（msg #326-328）提到春季可能有1-2个intern名额，但具体看经费情况。\n- 当时说优先考虑有planning背景的，和实验室层级规划方向相关的项目。\n- 需要我调出当时组会notes的具体内容吗？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4587,
+   "out": 69,
+   "usd": 0.00005879692
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11682
+}

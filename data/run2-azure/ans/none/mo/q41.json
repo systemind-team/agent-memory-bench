@@ -1,0 +1,46 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "小雨的休假日期记得吗？",
+ "reply": [
+  "翻了一下咱俩的聊天记录，没有提到小雨的具体休假日期。要不要我去确认一下ta的日历或者问一声？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 休假 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Xiaoyu leave date"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1102,
+   "out": 23,
+   "usd": 0.000061004
+  },
+  {
+   "in": 1154,
+   "out": 24,
+   "usd": 0.000072484
+  },
+  {
+   "in": 1207,
+   "out": 33,
+   "usd": 0.000088654
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3624
+}

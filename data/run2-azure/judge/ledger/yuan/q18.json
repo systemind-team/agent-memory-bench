@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It correctly mentions deciding to add GPTR, the intro distraction, and the result in the paper, but misstates the bug as environment config instead of a normalization bug and adds unsupported timeline details.",
+ "rule": null
+}

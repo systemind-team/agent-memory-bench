@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly recalls and states the specific past fact from the chat that there were 4 idle A100 GPUs as of August 22nd.",
+ "rule": null
+}

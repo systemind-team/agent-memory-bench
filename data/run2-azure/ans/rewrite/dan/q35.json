@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "早上好 dan the builder。昨天跑得怎么样，biscuit 还活着没？",
+  "万圣节造型准备好了，今晚就正式登场了吧"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2967,
+   "out": 39,
+   "usd": 0.000140846
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10664
+}

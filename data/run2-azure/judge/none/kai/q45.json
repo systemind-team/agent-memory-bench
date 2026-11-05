@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It says it couldn't find the number in the chat and asks for more context, without stating a specific value.",
+ "rule": null
+}

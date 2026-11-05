@@ -1,0 +1,34 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "what day was the migration incident?",
+ "reply": [
+  "有两个相关的 incident。第一个是 8 月 28 号（周二），那次是误删了 `billing_status` 列，Lena 在 prod 同步前抓住了，回滚了。另一个是 8 月 6 号那周，一个客户的 billing 数据不同步，后来打了补丁。你问的是哪一个？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "migration incident date"
+   },
+   "result": "[billing-migration] 06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[billing-migration] 08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushback; later moved to Oct 12 per Priya (was 28 Aug: migration incident on Tuesday; dropped column `billing_status` instead of renaming; rolled back; Lena caught before prod sync; post-mortem done, root cause: wrong migration file ran)\n[candidate-sam] 08 Oct: Sam asked about old o"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2492,
+   "out": 22,
+   "usd": 0.000123224
+  },
+  {
+   "in": 2829,
+   "out": 82,
+   "usd": 0.000227594
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9094
+}

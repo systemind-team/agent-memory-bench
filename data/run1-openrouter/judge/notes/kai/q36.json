@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The PR description draft ends with a 'Next Steps' section but does not include a 'Risk' section as explicitly requested, violating the user's stated formatting preference.",
+ "rule": false
+}

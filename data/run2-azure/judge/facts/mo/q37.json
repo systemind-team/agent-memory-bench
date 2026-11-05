@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo asks for the update details before drafting the PR, so it doesn't yet produce a PR description that either includes or omits a Risk section.",
+ "rule": true
+}

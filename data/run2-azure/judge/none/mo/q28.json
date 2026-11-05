@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It acknowledges the reminder was set but fails to confirm its open status, instead inferring completion from later events without acknowledging no explicit close record as required.",
+ "rule": null
+}

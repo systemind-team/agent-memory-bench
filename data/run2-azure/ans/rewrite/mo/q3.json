@@ -1,0 +1,59 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "大伟是定在什么时候入职？",
+ "reply": [
+  "大伟是9月1日开始算入职，最早他提过想提前到8月31日，但最终按9月1日起算，底薪1.85万，绩效另算。",
+  "现在是11月，他已经入职满两个月了。需要我帮你调一下他的入职文件和绩效记录吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 入职 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 入职 8月"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 薪资 offer 9月"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4010,
+   "out": 24,
+   "usd": 0.00016818
+  },
+  {
+   "in": 4063,
+   "out": 25,
+   "usd": 0.00017987
+  },
+  {
+   "in": 4117,
+   "out": 26,
+   "usd": 0.00019177
+  },
+  {
+   "in": 4172,
+   "out": 73,
+   "usd": 0.00022964
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8487
+}

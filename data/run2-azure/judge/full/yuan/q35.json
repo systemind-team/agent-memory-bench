@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "回复中未使用bullet list格式，违反了第35天设置的指令。",
+ "rule": false
+}

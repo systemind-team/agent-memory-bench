@@ -1,0 +1,82 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q16",
+ "kind": "update",
+ "q": "阿杰的电脑最后配了什么，多少钱？",
+ "reply": [
+  "最后配的是 MacBook Air，预算从最初的 MacBook Pro 1万8 一路砍下来的。先是降到1万5，后来你说换成 Air 省六千，最终1万成交，省下的钱贴到 iOS 推广了。",
+  "所以阿杰现在用的是 MacBook Air，不是 Pro。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 电脑 MacBook 预算 配 多少钱"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 MacBook Pro 预算"
+   },
+   "result": "#49 Tue 11 Aug 11:05 Them: 对，改1万5，阿杰那个取消。\n#50 Tue 11 Aug 11:06 aicoo: 已更新，阿杰MacBook Pro预算1万5。\n#51 Tue 11 Aug 14:00 Them: 高榕那边有消息吗？\n---\n#46 Tue 11 Aug 10:05 aicoo: 你心里目标多少？我帮她算算成本结构，看看哪里能谈。\n#47 Tue 11 Aug 11:00 Them: 给阿杰配一台MacBook Pro，预算1万5\n#48 Tue 11 Aug 11:02 aicoo: 收到，调整为1万5。那刚才说的1万8要改回1万5吗？\n---\n#42 Mon 10 Aug 15:01 Them: 可以，蓝驰先记上。阿杰的MacBook Pro 15寸，预算改成1万8\n#43 Mon 10 Aug 15:03 aicoo: 好的，预算改为1万8，阿杰的MacBook Pro 15寸。\n#44 Mon 10 Aug 18:00 Them: 今天累了，明天再说。\n---\n#41 Mon 10 Aug 15:00 aicoo: 蓝驰约8月19日上午十点\n#42 Mon 10 Aug 15:01 Them: 可以，蓝驰先记上。阿杰的MacBook Pro 15寸，预算改成1万8\n#43 Mon 10 Aug 15:03 aicoo: 好的，预算"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "MacBook Air 阿杰 1万"
+   },
+   "result": "#182 Fri 28 Aug 14:01 aicoo: 免租期省2万多，装修可以慢慢来\n#183 Fri 28 Aug 15:00 Them: 阿杰电脑换成MacBook Air，省六千，就1万\n#184 Fri 28 Aug 15:01 aicoo: MacBook Air够用，省下的钱贴到iOS推广吧"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "MacBook Pro 涨价 1万6 阿杰"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "MacBook Pro 涨价 阿杰 1万6"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18722,
+   "out": 30,
+   "usd": 0.00023039688
+  },
+  {
+   "in": 18781,
+   "out": 25,
+   "usd": 0.00015755236
+  },
+  {
+   "in": 19173,
+   "out": 27,
+   "usd": 0.00017362996
+  },
+  {
+   "in": 19295,
+   "out": 30,
+   "usd": 0.00017051188
+  },
+  {
+   "in": 19354,
+   "out": 30,
+   "usd": 0.00018122216
+  },
+  {
+   "in": 19427,
+   "out": 72,
+   "usd": 0.0001709666
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35682
+}

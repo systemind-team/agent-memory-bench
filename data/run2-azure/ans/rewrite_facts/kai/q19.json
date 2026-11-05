@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "那个offsite在Hangzhou，日期是Oct 20-21对吗？",
+ "reply": [
+  "凯哥，对，杭州offsite是10月20日（周二）到21日（周三），Grace订的民宿，一共12人。现在已经结束了。",
+  "你还记得吗？那次你们讨论了engineering capacity，Yuki分享了dark mode final visuals，团队反馈特别好。周一需要我跟进什么offsite遗留事项吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3363,
+   "out": 76,
+   "usd": 0.000336374
+  }
+ ],
+ "memChars": 6978,
+ "promptChars": 11699
+}

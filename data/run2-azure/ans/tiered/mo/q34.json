@@ -1,0 +1,48 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, what's on my plate today?",
+ "reply": [
+  "morning ☀️ 今天周日，你说了这周休息，周一才恢复正常节奏。所以今天盘子是空的——不开会、不赶工、不盯数据。",
+  "但周一我帮你排了这几件：大伟新渠道推进、成都合作500单那条线、安卓版11月中上线的准备。这些我周一早会前会把材料备好，你来了直接翻。",
+  "今天好好充电，周一我来敲门。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周重点 周报"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周 重点 大伟 安卓 成都"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5560,
+   "out": 23,
+   "usd": 0.000218176
+  },
+  {
+   "in": 5612,
+   "out": 28,
+   "usd": 0.000231896
+  },
+  {
+   "in": 5669,
+   "out": 102,
+   "usd": 0.000285306
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10977
+}

@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "Aurora那个客户全名叫什么，我老怕写错。",
+ "reply": [
+  "凯哥，Aurora客户全名是Aurora Health，不是Aurora TTech。你之前10月11号确认过的，放心。",
+  "周一找Lily要quote的时候直接说Aurora Health就行。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3025,
+   "out": 57,
+   "usd": 0.000163106
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10811
+}

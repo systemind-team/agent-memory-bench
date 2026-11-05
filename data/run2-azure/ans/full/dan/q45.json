@@ -1,0 +1,58 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "what's priya's coffee order?",
+ "reply": [
+  "我翻了一遍聊天记录，没找到普里亚点咖啡的记录。你跟她一起喝过咖啡吗？还是说我可以帮你记一笔，下次她再点的时候留意一下。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "priya coffee order"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "priya drink"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "priya order"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21323,
+   "out": 22,
+   "usd": 0.000686758
+  },
+  {
+   "in": 21374,
+   "out": 21,
+   "usd": 0.000696908
+  },
+  {
+   "in": 21424,
+   "out": 21,
+   "usd": 0.000707408
+  },
+  {
+   "in": 21474,
+   "out": 45,
+   "usd": 0.000731348
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64100
+}

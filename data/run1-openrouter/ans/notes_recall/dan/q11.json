@@ -1,0 +1,47 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "what's the billing cutover date?",
+ "reply": [
+  "looks like the date got moved around a few times — last solid one was nov 15 from the oct 15 convo, but priya had mentioned oct 12 earlier. the database migration (wed oct 28) completed clean, and you've got a cutover checklist template from priya to fill in. so the real answer is: the cutover hasn't been officially finalized yet — it's next on your list after you finish that checklist and do another dry run.",
+  "want me to pull up the checklist template so you can start filling it in?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "billing-migration"
+   },
+   "result": "Billing migration PR\n03 Aug: PR submitted for billing migration; aicoo reviewing\n06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n07 Aug: timeline doc sent to Priya; right before deadline\n24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n11 Aug: Priya covering backend next week\n14 Aug: Maria out; took another offer; Priya gutted; need to restart interviews; 19 Aug: on-call quiet, one disk space alert overnight\n08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushb"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "billing cutover date"
+   },
+   "result": "[billing-split] 19 Oct: Priya confirmed billing cutover still Oct 12 (was Oct 26)\n[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[billing-split] 18 Sep: cutover moved to Oct 12 (was Nov 15)\n[billing-split] cutover possibly moving again, waiting on legal (Priya mentioned)\n[billing-migration] 09 Oct: Priya asked about cutover checklist; Dan will update it this morning\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[billing-migration] 15 Oct: Priya asked about cutov"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2785,
+   "out": 22,
+   "usd": 0.00004833836
+  },
+  {
+   "in": 3623,
+   "out": 23,
+   "usd": 0.00008244236
+  },
+  {
+   "in": 3895,
+   "out": 121,
+   "usd": 0.0000848134
+  }
+ ],
+ "memChars": 5457,
+ "promptChars": 10013
+}

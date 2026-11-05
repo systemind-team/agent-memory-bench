@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply incorrectly states the first change was from 9A7B2C to 7C2E9B, but the actual first change (per message #321) was to 3F8D1A.",
+ "first": "made_up",
+ "rule": null
+}

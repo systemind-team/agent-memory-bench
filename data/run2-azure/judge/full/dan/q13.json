@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It states the correct final count (3) and lists the three candidates from the chat, with the extra detail about David joining not affecting correctness.",
+ "rule": null
+}

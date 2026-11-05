@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the billing_status panic was on Sep 15, but the chat records specifically state it was August 18 (message #537) and the user's original question asks for the date of that panic.",
+ "first": "wrong",
+ "rule": null
+}

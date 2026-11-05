@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The user asked when the billing_status panic happened. The correct answer is August 18 (per message #537), but the assistant incorrectly replied with August 30.",
+ "first": "wrong",
+ "rule": null
+}

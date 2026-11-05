@@ -1,0 +1,85 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "这周挺满的 周一先确认干跑结果 周三数据库迁移凌晨两点你on-call",
+  "Stripe webhook v2还在review 周一应该能合进来",
+  "另外新的值守轮值今天正式上线 十一月一号开始 四个人一轮 等David跑完第一个sprint才加入",
+  "还有 你周五之前要把cutover清单完成 Priya等着看 记得加上回滚步骤和干跑结果"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "this week schedule tasks"
+   },
+   "result": "- 26 Sep: No new flaky tests this week.\n- 31 Aug: Need to adjust on-call for that week while she's out.\n- 24 Aug: Priya is out all week; Tom is handling billing standup.\n- 30 Sep: On-call rotation next week; Dan is primary, Tom secondary.\n- 10 Aug: PagerDuty rotation starts tomorrow. 12 Aug: Daniel is on-call this week.\n- 05 Oct: Dan had 2 cups of coffee on Monday and felt okay about the week ahead.\n- Daniel Okafor had 17 coffees this week (including 3 on 10 Aug) and considered cutting back.\n- 06 Aug: One customer's data still out of sync due to last week's migration incident.\n- 20 Oct: Billin"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "on-call rotation Nov 1"
+   },
+   "result": "- 21 Oct: Dan sent on-call rotation proposal to Priya: 4 engineers per week, David starts after his first sprint. Priya approved his rotation starting November 1.\n- 30 Sep: On-call rotation next week; Dan is primary, Tom secondary.\n- 10 Aug: PagerDuty rotation starts tomorrow. 12 Aug: Daniel is on-call this week.\n- 27 Sep: Ade is running a marathon in Philadelphia on November 5. 03 Oct: Ade signed up for Philadelphia Marathon on Nov 5; I'm pacing her.\n- 12 Aug: Had one alert about disk space at 3am, but it was a false alarm due to a log rotation issue, with an automated fix now in place.\n- 15 "
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "migration dry run Oct 24 Oct 26"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "dry run Oct 24 26 migration"
+   },
+   "result": "- 16 Oct: billing migration dry run #2 today\n- 24 Oct: Priya approved the rollback plan and wants a dry run on Monday night.\n- 20 Oct: Billing migration dry run report was merged and final run is planned for next week.\n- 28 Aug: Need to add a db migration dry-run step to CI. 01 Sep: Lena picked up the CI dry-run ticket for migration checks.\n- 28 Sep: Dan has a billing migration dry run tomorrow; Priya wants a walkthrough. 29 Sep: Dry run walkthrough with Priya went well with no blockers.\n- Dan has a pending pull request for billing migration dry run results, waiting for Sam's review.\n- 24 Oct:"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "stripe webhook v2 review Tom"
+   },
+   "result": "- 22 Aug: Dan sent the Stripe webhook spec to Tom early. 25 Aug: Tom merged the webhook spec, with one review comment about error codes. 01 Sep: The Stripe webhook spec final review is done and is being merged this afternoon. 16 Sep: Received minor review comments from Tom on the Stripe webhook PR.\n- 02 Oct: need to review the stripe service code Tom PR'd\n- 02 Oct: Tom moved Stripe webhooks to its own service in a weekend. 05 Oct: Tom's PR to split out the webhook service is in review and looks solid.\n- 10 Sep: Daniel opened a PR for Stripe webhook retry logic. 13 Sep: Stripe webhook PR merged"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3277,
+   "out": 22,
+   "usd": 0.00024225
+  },
+  {
+   "in": 3522,
+   "out": 25,
+   "usd": 0.000203732
+  },
+  {
+   "in": 3808,
+   "out": 28,
+   "usd": 0.00035712
+  },
+  {
+   "in": 3865,
+   "out": 26,
+   "usd": 0.000184674
+  },
+  {
+   "in": 4160,
+   "out": 26,
+   "usd": 0.0002008
+  },
+  {
+   "in": 4517,
+   "out": 98,
+   "usd": 0.000270266
+  }
+ ],
+ "memChars": 7224,
+ "promptChars": 11830
+}

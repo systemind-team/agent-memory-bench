@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims a meeting on Monday at 10:30 with Grace and Ben about pricing launch, but the chat only shows a meeting scheduled with Ben for Oct 15 with no Grace or Monday timing mentioned.",
+ "rule": null
+}

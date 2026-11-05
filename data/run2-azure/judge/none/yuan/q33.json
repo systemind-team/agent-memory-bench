@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "回复使用了bullet list格式，但未能符合'叫我周周'的要求（使用了'你'而非'周周'）。",
+ "rule": false
+}

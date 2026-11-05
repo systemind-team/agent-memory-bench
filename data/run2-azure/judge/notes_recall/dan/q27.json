@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims it sent the doc to Priya in August, but the chat only shows a reminder was set to send it by Friday with no confirmation it was actually sent.",
+ "rule": null
+}

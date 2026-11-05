@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It correctly searches memory and, finding nothing, should say it doesn’t know or can’t find it.",
+ "rule": null
+}

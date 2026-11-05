@@ -1,0 +1,58 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "小雨的休假日期记得吗？",
+ "reply": [
+  "翻了聊天记录，小雨之前请年假是9月14号到18号（第354条），另外9月21号那周和10月6号她也请假了，但没有明确起止日期。",
+  "你问的是最近一次还是后面安排的休假？如果还没确定，要不要我帮她记一个？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 休假 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 休假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 假"
+   },
+   "result": "#521 Tue 06 Oct 10:17 aicoo: 明白，我回他们等下一轮\n#522 Tue 06 Oct 14:00 Them: 小雨请假了，客服外包那个响应还行\n#523 Tue 06 Oct 14:01 aicoo: 3万8包半年，性价比能接受\n---\n#393 Mon 21 Sep 11:31 aicoo: 阿杰说是测试环境忘关了，下午能恢复\n#394 Mon 21 Sep 12:15 Them: 客服响应还是慢，小雨请假这周谁盯着\n#395 Mon 21 Sep 12:16 aicoo: 北京兼职主管在跟，今早也培训了两个临时客服\n---\n#373 Sat 19 Sep 14:35 Them: 阿杰 iOS 评审刚过了，总算有点好消息\n#374 Sun 20 Sep 09:00 Them: 小雨下午销假回来，北京主管明早交接\n#375 Sun 20 Sep 09:01 aicoo: 我把客服工单汇总给她，优先处理退款投诉\n---\n#353 Wed 16 Sep 16:55 aicoo: 嗯，带宽超额，我让阿杰压缩图片资源，下周降下来\n#354 Thu 17 Sep 09:00 Them: 小雨下周请年假，9月14号到18号\n#355 Thu 17 Sep 09:05 aicoo: 收到，客服那边我代管几天，放心"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1125,
+   "out": 23,
+   "usd": 0.00001428308
+  },
+  {
+   "in": 1177,
+   "out": 21,
+   "usd": 0.00001623188
+  },
+  {
+   "in": 1227,
+   "out": 21,
+   "usd": 0.00001826188
+  },
+  {
+   "in": 1577,
+   "out": 73,
+   "usd": 0.00002006452
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3624
+}

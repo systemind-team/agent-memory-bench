@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It searched and said there was no record, but the chat clearly shows the product was named 「晨检」 on Sun 09 Aug.",
+ "rule": null
+}

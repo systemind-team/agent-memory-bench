@@ -1,0 +1,70 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "那个offsite在Hangzhou，日期是Oct 20-21对吗？",
+ "reply": [
+  "对，凯哥，就是10月20-21号，杭州那边Grace已经订好了民宿。离现在还有差不多三周，时间上挺充裕的。需要我开始帮你拉agenda框架吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "offsite 杭州 Hangzhou Oct 20"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "杭州 offsite 10月 20"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "offsite 20 10月 民宿"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Hangzhou offsite"
+   },
+   "result": "#913 Tue 13 Oct 12:00 Them: Lily calls. Finalizing enterprise handover doc.\n#914 Tue 13 Oct 12:35 Them: Q4 planning offsite in Hangzhou, Oct 20-21, Grace booked 民宿。\n#915 Tue 13 Oct 12:37 aicoo: Sounds nice. Good setting for strategy."
+  }
+ ],
+ "calls": [
+  {
+   "in": 36322,
+   "out": 27,
+   "usd": 0.001181556
+  },
+  {
+   "in": 36378,
+   "out": 26,
+   "usd": 0.001192756
+  },
+  {
+   "in": 36433,
+   "out": 27,
+   "usd": 0.001204866
+  },
+  {
+   "in": 36489,
+   "out": 23,
+   "usd": 0.001214386
+  },
+  {
+   "in": 36600,
+   "out": 50,
+   "usd": 0.001206992
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91605
+}

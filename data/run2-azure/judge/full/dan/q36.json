@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The PR description ends with a Risk section as preferred by the user.",
+ "rule": true
+}

@@ -1,0 +1,83 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q20",
+ "kind": "aggregate",
+ "q": "Facebook fellowship申请过程怎么变化的？",
+ "reply": [
+  "周周，Facebook fellowship的申请过程变化主要在截止日期上：最初查到的是10月31日截止，10月6日你告诉我实际截止日是12月20日，已经更新到日历了。",
+  "其他方面没变——你9月决定只投Facebook、放弃NSF，10月20日确认只交了这一份。申请材料上，之前说好突出long-term vision（embodied AI planning方向），需要我帮你过一下目前draft的进度吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Facebook fellowship 周周 申请"
+   },
+   "result": "[303] 21 Sep · decision: 只投Facebook fellowship，不投NSF fellowship  (from #472)\n[293] 19 Sep · decision: fellowship只投NSF和Facebook两个  → replaced 21 Sep by [303] 只投Facebook fellowship，不投NSF fellowship  (from #448)\n[424] 06 Oct · fact: Facebook fellowship提交截止日是12月20号  (from #654)\n[299] 21 Sep · plan: 下周开始写fellowship申请材料  (from #460)\n[285] 17 Sep · ask: 希望aicoo帮忙查NSF和Facebook fellowship的截止日期  (from #434, #435)\n[286] 17 Sep · fact: NSF fellowship截止日期11月15日，Facebook fellowship截止日期10月31日  → replaced 06 Oct by [424] Facebook fellowship提交截止日是12月20号  (from #436)\n[511] 20 Oct · done: Tue 20 Oct 23:50 fellow"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship 截止 变化"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship deadline 12月20"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Facebook fellowship 截止日期 12月20"
+   },
+   "result": "[286] 17 Sep · fact: NSF fellowship截止日期11月15日，Facebook fellowship截止日期10月31日  → replaced 06 Oct by [424] Facebook fellowship提交截止日是12月20号  (from #436)\n[424] 06 Oct · fact: Facebook fellowship提交截止日是12月20号  (from #654)\n[294] 20 Sep · plan: aicoo将在10月17日提醒周予安Facebook fellowship截止日期  (from #450, #451)\n[285] 17 Sep · ask: 希望aicoo帮忙查NSF和Facebook fellowship的截止日期  (from #434, #435)\n[73] 14 Aug · fact: 第一次fellowship申请截止日期是2025年11月15日  (from #131, #133)\n[295] 20 Sep · plan: aicoo将在11月1日提醒周予安NSF fellowship截止日期  (from #450, #451)\n[15] 05 Aug · fact: 申请了一个fellowship，截止日期是下个月（Sep 2025），需要写材料  → replaced 14 Au"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship 12月"
+   },
+   "result": "#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。\n#788 Wed 21 Oct 09:00 Them: 周三，开始看HotpotQA的数据格式。\n---\n#653 Mon 05 Oct 17:31 aicoo: 好的，TA office hour是5:30至6:30，我会在结束后提醒实验写作。\n#654 Mon 05 Oct 21:30 Them: Facebook fellowship提交截止日是12月20号，最后期限了。\n#655 Mon 05 Oct 21:32 aicoo: 已添加日历提醒，截止12月20日。需要我协助检查申请材料吗？"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4559,
+   "out": 25,
+   "usd": 0.000192382
+  },
+  {
+   "in": 4930,
+   "out": 24,
+   "usd": 0.000269732
+  },
+  {
+   "in": 4983,
+   "out": 25,
+   "usd": 0.000281422
+  },
+  {
+   "in": 5037,
+   "out": 27,
+   "usd": 0.000202234
+  },
+  {
+   "in": 5439,
+   "out": 23,
+   "usd": 0.000284414
+  },
+  {
+   "in": 5663,
+   "out": 121,
+   "usd": 0.000477982
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11681
+}

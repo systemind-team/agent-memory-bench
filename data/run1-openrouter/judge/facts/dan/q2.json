@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct answer is 9A7B2C, but the assistant incorrectly states it was the old key on Oct 8 and claims a different key was active later, contradicting the provided chat.",
+ "rule": null
+}

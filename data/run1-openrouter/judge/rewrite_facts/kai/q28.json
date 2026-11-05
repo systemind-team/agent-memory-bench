@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the dark mode feedback sync with Yuki was done on Oct 30, but the chat only shows a commitment made on Aug 28 with no later closure, making the stated completion unsupported.",
+ "rule": null
+}

@@ -1,0 +1,47 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q39",
+ "kind": "pref_apply",
+ "q": "把今天重点列一下发我",
+ "reply": [
+  "陈默，今天周日，常规休息日，没有安排会议或紧急事项。",
+  "下周重点是：大伟拓展新渠道、成都合作推进、安卓版11月中上线准备。要不要我把下周的待办清单也发你一份？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周日 重点 列一下 今天"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "陈默 今天 重点 列"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18696,
+   "out": 26,
+   "usd": 0.000641392
+  },
+  {
+   "in": 18751,
+   "out": 26,
+   "usd": 0.000652942
+  },
+  {
+   "in": 18806,
+   "out": 58,
+   "usd": 0.000636588
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35676
+}

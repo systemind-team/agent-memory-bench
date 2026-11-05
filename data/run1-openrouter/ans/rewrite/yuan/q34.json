@@ -1,0 +1,24 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning aicoo, what's my schedule this week?",
+ "reply": [
+  "早上好周周。今天周日，这周比较紧凑：",
+  "- 周一 9:30 线上meeting（Prof. Lin出差），讨论论文投稿时间和Dr. Chen入职安排。论文最新版已设置9:00自动发送。",
+  "- 周二 Dr. Chen（11月3日）入职，10:00记得带他熟悉实验室环境。",
+  "- 另外你上周批了20份作业，还剩30份，有时间可以继续。",
+  "需要我把周一meeting agenda或带Dr. Chen的checklist提前整理出来吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3589,
+   "out": 125,
+   "usd": 0.00004776996
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8778
+}

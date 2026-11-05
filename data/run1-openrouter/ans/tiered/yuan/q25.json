@@ -1,0 +1,36 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q25",
+ "kind": "update",
+ "q": "论文title在改到Context-Aware Planning之后又改了什么？",
+ "reply": [
+  "改过两次。",
+  "1. 9月14日从原标题改为“Context-Aware Hierarchical Planning for LLMs”。",
+  "2. 9月28日简化为“Context-Aware Planning”。",
+  "3. 10月26日最终定为“Context-Aware Planning via Hierarchical Decomposition”。所以“Context-Aware Planning”之后加的是“via Hierarchical Decomposition”这个副标题/后缀。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题 Context-Aware Planning"
+   },
+   "result": "#872 Tue 27 Oct 18:02 aicoo: - 环境2之前是？需要重新跑一次验证。\n- 可能超参数调整影响了其他环境的泛化。\n#873 Tue 27 Oct 22:30 aicoo: 论文标题最终更新为“Context-Aware Planning via Hierarchical Decomposition”。\n#874 Tue 27 Oct 22:32 Them: 收到，明天重新跑一遍所有环境的完整实验。\n---\n#865 Mon 26 Oct 23:42 aicoo: - 已确认。明天上午更新所有文档中的标题。\n#866 Tue 27 Oct 08:30 aicoo: - 论文标题已更新为“Context-Aware Planning via Hierarchical Decomposition”。\n- 包括overleaf、本地文件、周报模板。\n#867 Tue 27 Oct 10:00 Them: 好，今天继续调环境4。试试把supervision加到每个step。\n---\n#542 Mon 28 Sep 23:20 Them: 改吧，就Context-Aware Planning，简洁有力。论文发你最终版本。\n#543 Mon 28 Sep 23:20 aicoo: 论文标题更新为“Context-Aware Planning”。\n#544 Mon 28 "
+  }
+ ],
+ "calls": [
+  {
+   "in": 6884,
+   "out": 31,
+   "usd": 0.00006582072
+  },
+  {
+   "in": 7299,
+   "out": 106,
+   "usd": 0.00008875972
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16064
+}

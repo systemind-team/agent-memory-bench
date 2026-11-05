@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The reply correctly states the valuation at TS signing was 7500万, as per the chat, and correctly notes the later renegotiation to 7200万; the required answer of 7200万 refers to a later stage, not the signing.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "给我阿杰薪资确认那个提醒，还有吗？",
+ "reply": [
+  "阿杰薪资确认那个提醒，你8月20日已经说发过了，我归档了。",
+  "还有其他待办要查吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 薪资 确认 提醒"
+   },
+   "result": "#105 Thu 20 Aug 10:05 Them: 配吧，阿杰要用，不能等了\n#106 Thu 20 Aug 11:00 Them: 阿杰的薪资确认邮件发过了，不用再提醒\n#107 Thu 20 Aug 11:02 aicoo: 好的，已归档\n---\n#29 Sat 08 Aug 09:30 Them: 下周三提醒我给阿杰发薪资确认邮件\n#30 Sat 08 Aug 09:31 aicoo: 好的，下周三提醒你发薪资确认邮件给阿杰\n#31 Sat 08 Aug 10:00 Them: 周末休息，周一继续\n---\n#28 Sat 08 Aug 09:01 aicoo: 1万8+绩效，我草拟offer邮件吧\n#29 Sat 08 Aug 09:30 Them: 下周三提醒我给阿杰发薪资确认邮件\n#30 Sat 08 Aug 09:31 aicoo: 好的，下周三提醒你发薪资确认邮件给阿杰"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1106,
+   "out": 26,
+   "usd": 0.000063524
+  },
+  {
+   "in": 1367,
+   "out": 37,
+   "usd": 0.000124494
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3630
+}

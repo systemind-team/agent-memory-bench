@@ -1,0 +1,20 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "What's Ben's Q3 target in terms of revenue? 我记得好像提到过.",
+ "reply": [
+  "search_memory {\"query\": \"Ben Q3 target revenue\"}"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1833,
+   "out": 14,
+   "usd": 0.00005061196
+  }
+ ],
+ "memChars": 921,
+ "promptChars": 5603
+}

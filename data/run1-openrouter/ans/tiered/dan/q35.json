@@ -1,0 +1,22 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "早安 Dan the Builder。新的一周要开始了，今天有什么计划？",
+  "提醒一下：从今天开始 David Chen 正式加入 on-call 轮换（4 人轮值，每周切换）。你现在的 PagerDuty key 是 A4B8C2。",
+  "另外电池昨天到了 79%，这周记得联系 IT 订一块新的，别让它在 11 月 15 日迁移中途罢工。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5319,
+   "out": 101,
+   "usd": 0.000057855
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17881
+}

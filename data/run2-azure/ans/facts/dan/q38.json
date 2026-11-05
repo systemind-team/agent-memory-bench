@@ -1,0 +1,60 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "can you do meeting notes from that sprint planning?",
+ "reply": [
+  "i don't have the full notes from the 23 Oct sprint planning — i wasn't in the room for that one. from what i remember you said 23 points committed, and called it 'ambitious but doable.'",
+  "anything specific you want me to capture? i can start a draft with what i know and leave blanks for you to fill.",
+  "[sticker: shrug]"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sprint planning 23 Oct notes action items"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "23 Oct sprint planning meeting"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "sprint planning meeting notes 23 Oct"
+   },
+   "result": "- 23 Oct: Sprint planning today with 23 points committed.\n- 23 Sep: When asked for meeting notes, start with Action Items at the top.\n- 23 Oct: Daniel said '23 points. ambitious but doable.' referring to the sprint planning with 23 points committed.\n- 17 Sep: Sprint planning committed to 21 points, 3 more than usual.\n- 16 Oct: on-call handoff notes ready for Lena\n- 09 Oct: Tom's health check PR is up; will review after next meeting.\n- 23 Oct: Feeling better; Biscuit slept through the night.\n- 26 Sep: Ade is planning a trip to Asheville for us in October.\n- 04 Sep: for standup notes, wants bull"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1438,
+   "out": 27,
+   "usd": 0.000179628
+  },
+  {
+   "in": 1494,
+   "out": 23,
+   "usd": 0.000189148
+  },
+  {
+   "in": 1546,
+   "out": 26,
+   "usd": 0.0001101
+  },
+  {
+   "in": 1771,
+   "out": 86,
+   "usd": 0.000145126
+  }
+ ],
+ "memChars": 843,
+ "promptChars": 5360
+}

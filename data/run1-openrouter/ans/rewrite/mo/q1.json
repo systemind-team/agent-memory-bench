@@ -1,0 +1,58 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "说起来，最开始我们账上现金是多少来着？",
+ "reply": [
+  "最开始记录是8月3号，账上现金215万。那是蓝驰第一笔300万到账前，你开始推seed轮的时候。",
+  "再早的数字我没记过，但215万是第一个我记得的起点。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "账上现金 最初 最早 蓝驰 300万"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "现金余额 186万 第一笔 到账 账上 现金"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "账上现金 215万"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4035,
+   "out": 31,
+   "usd": 0.000041615
+  },
+  {
+   "in": 4095,
+   "out": 34,
+   "usd": 0.0000442946
+  },
+  {
+   "in": 4158,
+   "out": 24,
+   "usd": 0.0000460404
+  },
+  {
+   "in": 4211,
+   "out": 57,
+   "usd": 0.0000508718
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8494
+}

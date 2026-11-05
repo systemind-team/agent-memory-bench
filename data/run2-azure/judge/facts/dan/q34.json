@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo used an exclamation mark in 'morning!' despite being told never to use them.",
+ "rule": false
+}

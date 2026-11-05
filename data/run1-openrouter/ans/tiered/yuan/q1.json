@@ -1,0 +1,46 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "对了，Prof. Lin说过春季intern有几个名额来着？",
+ "reply": [
+  "Prof. Lin说过明年春季实验室intern名额只有3个，时间有点久了，不过我记得就是这个数。",
+  "你现在是打算申请吗？还是帮别人问？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "春季 intern 名额"
+   },
+   "result": "#9 Mon 03 Aug 18:47 Them: 先不用，到时候再说。\n#10 Mon 03 Aug 23:30 Them: 今天跟Prof. Lin聊了，他说实验室明年春季的intern名额只有3个。\n#11 Mon 03 Aug 23:31 aicoo: 那竞争应该挺激烈的，你要申请吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Prof. Lin 春季 intern"
+   },
+   "result": "#9 Mon 03 Aug 18:47 Them: 先不用，到时候再说。\n#10 Mon 03 Aug 23:30 Them: 今天跟Prof. Lin聊了，他说实验室明年春季的intern名额只有3个。\n#11 Mon 03 Aug 23:31 aicoo: 那竞争应该挺激烈的，你要申请吗？"
+  }
+ ],
+ "calls": [
+  {
+   "in": 6882,
+   "out": 29,
+   "usd": 0.00006557712
+  },
+  {
+   "in": 6999,
+   "out": 31,
+   "usd": 0.00007048972
+  },
+  {
+   "in": 7118,
+   "out": 49,
+   "usd": 0.00006846784
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16054
+}

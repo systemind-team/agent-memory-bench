@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The reply correctly identifies Jordan Liu as the second candidate but then states they hired David Chen, which is not supported by the chat history.",
+ "rule": null
+}

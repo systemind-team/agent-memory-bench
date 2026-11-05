@@ -1,0 +1,46 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q23",
+ "kind": "update",
+ "q": "第二次改的title是什么？",
+ "reply": [
+  "第二次改的title是 Hierarchical Planning with Graph Attention（8月19日改的）。之后又改了几次：",
+  "后来从那个改到 Context-Aware Hierarchical Planning for LLMs（9月13日）→ Context-Aware Planning（9月27日）→ 最后10月26日定为 Context-Aware Planning via Hierarchical Decomposition。"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "论文标题 最终 Context-Aware Planning"
+   },
+   "result": "[345] 29 Sep · decision: Mon 28 Sep 19:00 论文标题最终定为Context-Aware Planning  (from #540, #541, #542)\n[554] 27 Oct · fact: Mon 26 Oct 23:40 论文标题最终定为Context-Aware Planning via Hierarchical Decomposition  → replaced 28 Oct by [560] Tue 27 Oct 22:30 论文标题更新为Context-Aware Planning via Hierarchical Decomposition  (from #864)\n[335] 28 Sep · fact: Sun 27 Sep 14:30 论文标题为Context-Aware Planning  → replaced 29 Sep by [345] Mon 28 Sep 19:00 论文标题最终定为Context-Aware Planning  (from #329)\n[329] 27 Sep · fact: Sun 27 Sep 01:00 论文标题改为Context-Aware Planning  (from #514)\n[268] 14 Sep · fact: Sun 13 Sep 22:30 论文标题改为Cont"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "第二次改的title"
+   },
+   "result": "[25] 07 Aug · fact: 论文working title暂定为Planning with Hierarchical Graphs  → replaced 20 Aug by [104] Wed 19 Aug 22:50 论文标题改为Hierarchical Planning with Graph Attention  (from #47)\n[98] 19 Aug · fact: Tue 18 Aug 22:00 第二天要改论文introduction  (from #174)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4581,
+   "out": 26,
+   "usd": 0.00004674684
+  },
+  {
+   "in": 5058,
+   "out": 22,
+   "usd": 0.00006578824
+  },
+  {
+   "in": 5176,
+   "out": 90,
+   "usd": 0.00007610064
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11666
+}

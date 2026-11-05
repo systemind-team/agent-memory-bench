@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant fabricated a specific arrival detail ('30号说13:00 8张可用') that never appeared in the chat history.",
+ "first": "made_up",
+ "rule": null
+}

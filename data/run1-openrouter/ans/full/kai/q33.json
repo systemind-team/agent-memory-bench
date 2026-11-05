@@ -1,0 +1,24 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+ "reply": [
+  "凯哥周日好。这周挺关键的，几个deadline集中在周一和周五：",
+  "周一10:30你跟Grace和Ben的pricing launch decision meeting，要确认12/1直接上v3定价。同场可以问SEA expansion headcount approval timeline。",
+  "周五前要收齐Aurora和Singapore两个top客户的testimonial quote，Grace要在Q3 customer wins summary里加一个customer testimonial section。",
+  "另外Ravi的integration security audit补测今天应该结束了，周一可以跟他确认Sep 22 final timeline稳不稳。dark mode toggle dev这周继续sprint，11月初交付，暂时不影响pricing launch。",
+  "你父亲今天血压稳定吧？周末多陪陪他们，周一开战💪"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 36345,
+   "out": 167,
+   "usd": 0.00031676932
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91620
+}

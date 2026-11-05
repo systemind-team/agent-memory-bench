@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "Q3 actual revenue是多少来着，Grace要final number。",
+ "reply": [
+  "Q3 actual revenue是2.35M USD，比target 2.4M差了50k。上周你跟Grace wrap-up时她知道的。要我现在把breakdown发给你吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36317,
+   "out": 47,
+   "usd": 0.001191706
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91613
+}

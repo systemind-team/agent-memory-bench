@@ -1,0 +1,59 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "说起来，最开始我们账上现金是多少来着？",
+ "reply": [
+  "我翻了下记忆，最开始账上现金是215万，8月初的时候。后面交完静安寺押金6.6万变208.4万，折腾这几个月到现在600万，翻了快三倍。",
+  "[sticker: wave]"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "账上现金 215万"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "现金 215万"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "215万"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5560,
+   "out": 24,
+   "usd": 0.001089392
+  },
+  {
+   "in": 5613,
+   "out": 22,
+   "usd": 0.000228746
+  },
+  {
+   "in": 5664,
+   "out": 20,
+   "usd": 0.000192512
+  },
+  {
+   "in": 5713,
+   "out": 61,
+   "usd": 0.000271586
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10962
+}

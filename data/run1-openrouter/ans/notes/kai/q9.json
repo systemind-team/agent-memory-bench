@@ -1,0 +1,20 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "那个PM candidate我们最后hire了谁，名字和start date是啥？",
+ "reply": [
+  "Emily Tan，接受了offer，start date是Oct 26，下周一开始。Jason Chen和Michael Liu没推进。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 12768,
+   "out": 31,
+   "usd": 0.00011346888
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50352
+}

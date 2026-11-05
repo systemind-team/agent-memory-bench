@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "Prof. Wang from MIT那篇论文发表在哪里了？",
+ "reply": [
+  "周周，你是问上次和Prof. Lin讨论时提到的Prof. Wang那篇hierarchical planning for embodied agents的论文吗？",
+  "我翻一下之前的聊天记录和memory，没找到具体引用信息。你是在什么场景下看到的？比如arXiv上、某个会议投稿期，还是上次meeting里Prof. Lin提到的？给我多一点线索我帮你查。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 4587,
+   "out": 86,
+   "usd": 0.00005186244
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11682
+}

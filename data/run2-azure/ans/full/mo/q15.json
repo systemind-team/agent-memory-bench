@@ -1,0 +1,47 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q15",
+ "kind": "update",
+ "q": "大伟薪资最后敲定多少？",
+ "reply": [
+  "1万85，9月1号起薪，绩效另算。合同里批注过的就是这个数。",
+  "后来没有再调过，大伟绩效选了版本B，侧重增长和留存，奖金1万2那次是季度A评的。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 薪资 最终 敲定"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 1万85 薪资"
+   },
+   "result": "#159 Wed 26 Aug 10:31 aicoo: 记住了，9月1号提醒你确认大伟入职手续\n#160 Wed 26 Aug 14:00 Them: 大伟薪资最后谈到1万85，9月1号起算\n#161 Wed 26 Aug 14:01 aicoo: 确认，1万85，9月1号起薪，合同已批注更新"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18697,
+   "out": 27,
+   "usd": 0.000596338
+  },
+  {
+   "in": 18753,
+   "out": 26,
+   "usd": 0.000653362
+  },
+  {
+   "in": 18882,
+   "out": 60,
+   "usd": 0.000653668
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35677
+}

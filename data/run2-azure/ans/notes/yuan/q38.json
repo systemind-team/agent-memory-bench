@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "开个PR，我改了一下data loader，把num_workers从4改成8了。帮我写个description。",
+ "reply": [
+  "好的，PR description我来写。确认一下：这次改动只是从4改成8，没有其他变化？比如要不要提一下为什么改——之前num_workers设4导致环境2和4的dataloader有bottleneck，或者是因为CPU资源够用（12核）想提升吞吐？",
+  "建议的description草稿：```\nIncrease dataloader num_workers from 4 to 8\n\n- On machines with 12 CPU cores, 4 workers were causing a throughput bottleneck for environments 2 and 4\n- Increasing to 8 utilises available cores more effectively, reducing data-loading time during training\n- No other changes to dataloader or data pipeline\n```\n你要直接这样发，还是改一下？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data loader num_workers"
+   },
+   "result": "#646 Mon 05 Oct 09:20 aicoo: 好的，推荐信状态会持续追踪。\n#647 Mon 05 Oct 11:30 Them: Habitat环境配置有问题，dataloader又慢了，得加num_workers。\n#648 Mon 05 Oct 11:31 aicoo: 需要我查上次num_workers bug的修复记录吗？\n---\n#609 Sat 03 Oct 09:31 aicoo: - submission checklist：paper PDF、appendix、code repo link\n- code需要clean up，目前有debugging痕迹\n- 你昨天提到实验A100利用率只有30%\n#610 Sat 03 Oct 10:00 Them: 对，code clean up开始。利用率低是因为num_workers issue，我优化下dataloader。\n#611 Sat 03 Oct 10:01 aicoo: Num_workers上次fix过，但batch size默认设置可能太小。要试128吗？\n---\n#581 Thu 01 Oct 14:15 Them: 午休后proofread实验部分，发现GPTR对比表格少了个脚注，说normalization的事。\n#582 Thu 01 Oct 14:16 aicoo: 已加脚注。另，D"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3724,
+   "out": 23,
+   "usd": 0.000153384
+  },
+  {
+   "in": 4171,
+   "out": 168,
+   "usd": 0.000328454
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9655
+}

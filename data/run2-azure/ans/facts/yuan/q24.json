@@ -1,0 +1,71 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q24",
+ "kind": "temporal",
+ "q": "论文标题第三次改是什么时候？",
+ "reply": [
+  "8月20日凌晨那次——从当时的标题改成了**Hierarchical Planning with Graph Attention**，这是第三次改标题。",
+  "之后9月28日改成Context-Aware Planning，10月27日又finalize成现在的Context-Aware Planning via Hierarchical Decomposition。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "论文标题第三次改"
+   },
+   "result": "- 27 Oct: 今天开始finalize论文标题，跑最后一个实验。最终标题确定为Context-Aware Planning via Hierarchical Decomposition。\n- 28 Sep: 周予安将论文标题从“Context-Aware Hierarchical Planning for LLMs”改为“Context-Aware Planning”。\n- 05 Oct: 今天继续跑A100实验，第三个环境准备用Habitat。\n- 1: 周予安是CS PhD第三年，在Prof. Lin实验室。昵称：周周。希望aicoo称呼自己为'周周'。\n- 20 Oct 16:00: 周予安决定第三个场景是grid world with partial obs，但Prof. Lin认为还是不够。\n- 21 Sep: 先忙论文，晚上再说NSF的事。\n- 17 Oct: 火锅吃完了，继续改论文。\n- 08 Aug: 中午边吃外卖边看论文。\n- 27 Aug: 基本照着ICML的模板写论文。\n- 04 Oct: ICLR submission下周due，今天先final check论文。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题第三次改"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "论文标题改 第三次"
+   },
+   "result": "- 27 Oct: 今天开始finalize论文标题，跑最后一个实验。最终标题确定为Context-Aware Planning via Hierarchical Decomposition。\n- 28 Sep: 周予安将论文标题从“Context-Aware Hierarchical Planning for LLMs”改为“Context-Aware Planning”。\n- 05 Oct: 今天继续跑A100实验，第三个环境准备用Habitat。\n- 1: 周予安是CS PhD第三年，在Prof. Lin实验室。昵称：周周。希望aicoo称呼自己为'周周'。\n- 20 Oct 16:00: 周予安决定第三个场景是grid world with partial obs，但Prof. Lin认为还是不够。\n- 21 Sep: 先忙论文，晚上再说NSF的事。\n- 17 Oct: 火锅吃完了，继续改论文。\n- 08 Aug: 中午边吃外卖边看论文。\n- 27 Aug: 基本照着ICML的模板写论文。\n- 04 Oct: ICLR submission下周due，今天先final check论文。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "标题改"
+   },
+   "result": "#181 Wed 19 Aug 18:00 Them: 出去买杯咖啡，回来继续。\n#182 Wed 19 Aug 22:50 Them: 论文标题改成Hierarchical Planning with Graph Attention吧，感觉更准确。\n#183 Thu 20 Aug 00:15 aicoo: 论文标题已更新为“Hierarchical Planning with Graph Attention”。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1592,
+   "out": 22,
+   "usd": 0.000209168
+  },
+  {
+   "in": 1853,
+   "out": 22,
+   "usd": 0.000126506
+  },
+  {
+   "in": 1904,
+   "out": 23,
+   "usd": 0.000091952
+  },
+  {
+   "in": 2166,
+   "out": 20,
+   "usd": 0.000328588
+  },
+  {
+   "in": 2275,
+   "out": 64,
+   "usd": 0.000146998
+  }
+ ],
+ "memChars": 616,
+ "promptChars": 4903
+}

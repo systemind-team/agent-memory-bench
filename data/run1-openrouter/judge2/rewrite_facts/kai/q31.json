@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo falsely claims the review was done on Thu 10/30 and makes up a non-existent sync, while the chat shows it was completed on Tue 08 Sep (message #465).",
+ "first": "wrong",
+ "rule": null
+}

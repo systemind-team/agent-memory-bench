@@ -1,0 +1,46 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "嗨，今天有什么消息？",
+ "reply": [
+  "陈默早，今天是周日11月1号。我刚看了一下最近的进展，蓝驰的钱已经全部到账，账上600万稳住了。\n\n上周崇明offsite大家都挺开心，这周的重点是大伟拓展新渠道、成都合作推进、安卓版11月中上线准备。另外你之前让我设了今天提醒你做季度复盘，需要现在开始吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "今天 消息 周末 11月"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周日 消息 11月"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18695,
+   "out": 26,
+   "usd": 0.000641182
+  },
+  {
+   "in": 18750,
+   "out": 24,
+   "usd": 0.000651612
+  },
+  {
+   "in": 18803,
+   "out": 87,
+   "usd": 0.000652198
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35676
+}

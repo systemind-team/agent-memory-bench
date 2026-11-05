@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我们的pricing现在是多少per user，final decision是啥？",
+ "reply": [
+  "凯哥，pricing现在是$44/user/month，这是之前定下来的价格。12月1日launch是confirmed的，但11月3日（周一）10:30你和Grace、Ben还有decision meeting，确认A/B测试结果（8% conversion lift）和launch细节。所以final decision严格来说周一才敲定。",
+  "另外提醒你，周一10点先有pricing review prep，然后10:30是meeting。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5102,
+   "out": 103,
+   "usd": 0.00005752208
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14925
+}

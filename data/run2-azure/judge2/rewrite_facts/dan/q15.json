@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply correctly states the key after the first change is 3F8D1A, but then presents 7C2E9B as the current key without indicating it was also subsequently changed, making the answer stale.",
+ "first": "stale",
+ "rule": null
+}

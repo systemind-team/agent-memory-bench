@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q15",
+ "kind": "update",
+ "q": "what was the pagerduty key after the first change?",
+ "reply": [
+  "After the first change, the key was 3F8D1A (from Lena's change on 13 Sep). It later got changed again to 7C2E9B on 25 Sep, and then to A4B8C2 on 20 Oct. But based on what you noted, 7C2E9B was still working fine as of last night's on-call."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "pagerduty key change"
+   },
+   "result": "[374] 14 Oct · fact: lena's pagerduty key was 5B1C6D before the last change  (from #637)\n[27] 07 Aug · fact: pagerduty key for next rotation is 9A7B2C  → replaced 13 Sep by [190] pagerduty key changed per lena: new key is 3F8D1A  (from #48)\n[190] 13 Sep · fact: pagerduty key changed per lena: new key is 3F8D1A  → replaced 25 Sep by [242] pagerduty key changed per lena: new key is 7C2E9B  (from #321)\n[242] 25 Sep · fact: pagerduty key changed per lena: new key is 7C2E9B  (from #434)\n[419] 20 Oct · fact: new pagerduty key for next on-call is A4B8C2  (from #711)\n[186] 12 Sep · fact: pagerduty key"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3069,
+   "out": 24,
+   "usd": 0.000153866
+  },
+  {
+   "in": 3477,
+   "out": 90,
+   "usd": 0.000230682
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10815
+}

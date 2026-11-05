@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It gives 7C2E9B as the earliest recorded key, but the chat clearly shows the first key was 9A7B2C from August 7.",
+ "rule": null
+}

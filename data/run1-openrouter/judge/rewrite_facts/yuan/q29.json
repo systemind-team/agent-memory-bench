@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The dates are incorrect (Aug 28 and Sep 1, not Aug 26/29/30) and the reply claims Aug 29 content that isn't in the chat.",
+ "rule": null
+}

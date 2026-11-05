@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct answer is 14 coffees as stated in the Aug 3 message, but the assistant replied with 17 coffees for a different week.",
+ "rule": null
+}

@@ -1,0 +1,70 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "大伟是定在什么时候入职？",
+ "reply": [
+  "从记录里看，大伟最早是9月1号入职的，后来改到8月31日报到，8月31日当天入职了。他已经在公司两个月了，不是新人了哦～",
+  "怎么突然问这个？是在想试用期或者绩效评估的事吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟入职时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 入职 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 9月1日 入职"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 报到"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5581,
+   "out": 22,
+   "usd": 0.000228375
+  },
+  {
+   "in": 5632,
+   "out": 24,
+   "usd": 0.00005599552
+  },
+  {
+   "in": 5685,
+   "out": 27,
+   "usd": 0.00005839092
+  },
+  {
+   "in": 5741,
+   "out": 22,
+   "usd": 0.00005194364
+  },
+  {
+   "in": 5792,
+   "out": 68,
+   "usd": 0.00006606432
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10955
+}

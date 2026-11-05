@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant listed 5 dates with 2 unsupported ones (sep 28, oct 26), and the correct set is exactly 3 dates: oct 12, nov 5, nov 15.",
+ "rule": null
+}

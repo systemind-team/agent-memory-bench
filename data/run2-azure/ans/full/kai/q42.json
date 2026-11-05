@@ -1,0 +1,22 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "Is Lily going on vacation anytime soon? 她是不是请假了?",
+ "reply": [
+  "凯哥，我查了一下记录。10月下旬Lily提过Oct 6-7请假两天，当时你同意让她休息，Ben负责cover她的accounts。",
+  "但那是10月初的事了，现在已经11月。她最近没有新的请假记录，calendar上也没有PTO。你看到她不在线？还是有什么事情让你觉得她请假了？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36319,
+   "out": 80,
+   "usd": 0.001210606
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91619
+}

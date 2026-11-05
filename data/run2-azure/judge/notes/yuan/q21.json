@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "它给出的最初标题是Planning with Hierarchical Graphs，但问题要求的最初标题应为Context-Aware Planning via Hierarchical Decomposition，且该标题在8月20日之前并未出现。",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The PR description draft does not include a Risk section as required by the preference set on Aug 29.",
+ "rule": false
+}

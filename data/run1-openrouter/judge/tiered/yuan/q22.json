@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It says 3 times but the chat history shows the title was changed 5 times.",
+ "rule": null
+}

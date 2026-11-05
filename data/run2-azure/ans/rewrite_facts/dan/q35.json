@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "早上好 dan the builder。今天周日，休息日，好好放松",
+  "biscuit今天有没有偷苹果的计划，还是说今天主要是散步和睡觉"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2997,
+   "out": 39,
+   "usd": 0.00019297
+  }
+ ],
+ "memChars": 6208,
+ "promptChars": 10794
+}

@@ -1,0 +1,57 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "我们的产品最后定名是什么？",
+ "reply": [
+  "之前的聊天里没找到关于产品定名的记录。上次聊到安卓版11月中上线准备，但没提过叫什么。这个定名我们之前讨论过、有文档吗？我去看看。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "产品定名 名称 命名"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "app名字 叫什么"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "产品 名"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1125,
+   "out": 25,
+   "usd": 0.00001444548
+  },
+  {
+   "in": 1179,
+   "out": 22,
+   "usd": 0.0000496538
+  },
+  {
+   "in": 1230,
+   "out": 21,
+   "usd": 0.00001838368
+  },
+  {
+   "in": 1280,
+   "out": 49,
+   "usd": 0.00002268728
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3626
+}

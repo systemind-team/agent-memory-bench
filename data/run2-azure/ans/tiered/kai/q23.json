@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "PM candidate我们interview了几个人，分别是谁，最后hire了谁？",
+ "reply": [
+  "凯哥周日好。PM candidate你面试了四位：Jason Chen（8年经验，产品sense不错但执行细节欠缺，reference check通过）、Emily Tan（你比较倾向于她，reference check也正面，最终hire了，10月26日start）、Michael Liu（10年经验前微软，offer发了但后来没有接）、Sarah Wu（有enterprise SaaS和vertical SaaS经验，进了future pipeline）。所以最后hire的是Emily Tan。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8793,
+   "out": 100,
+   "usd": 0.000436162
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26052
+}

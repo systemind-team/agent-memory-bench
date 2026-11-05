@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply omits the Nov 15 date that was discussed on Sep 5, and the user asked for all billing cutover dates discussed, not just the final one.",
+ "first": "wrong",
+ "rule": null
+}

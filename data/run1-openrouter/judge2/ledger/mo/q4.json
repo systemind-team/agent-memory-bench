@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The memory search returned the initial TS valuation of 7500万, but the final valuation was renegotiated to 7200万 per later messages.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,84 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "我们接触过哪些 VC，后来哪些出局了？",
+ "reply": [
+  "从记录来看，我们主要接触过两家：蓝驰和红杉。",
+  "蓝驰已经进账了，第一笔300万到账，第二笔也到账了，账上现在600万。红杉那边9月下旬约了一次线下产品演示，但后续我没有看到进展记录——红杉应该就是出局的那家，后来没有收到他们的跟进或投资意向。",
+  "如果是，那目前的股东就蓝驰一家。需要我翻翻其他聊天记录确认吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "VC 接触 投资 出局"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "投资 机构 聊 过"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 到账"
+   },
+   "result": "#706 Sat 31 Oct 09:00 Them: aicoo 周报发一下\n#707 Sat 31 Oct 09:05 aicoo: 本周完成崇明 offsite，蓝驰第二笔到账，账上600万\n#708 Sat 31 Oct 09:10 Them: 下周重点是什么\n---\n#584 Wed 14 Oct 10:00 Them: 蓝驰那边有消息吗？\n#585 Wed 14 Oct 10:05 aicoo: 刚收到通知，蓝驰第一笔300万到账了\n#586 Wed 14 Oct 10:06 Them: 终于来了。现金瞬间舒服很多。\n---\n#470 Tue 29 Sep 09:10 aicoo: 法务在审最终文件，预计这周内签完。第二笔款时间待确认。\n#471 Tue 29 Sep 15:30 Them: 10月15号提醒我确认蓝驰第二笔款到账\n#472 Tue 29 Sep 15:31 aicoo: 明白，10月15号提醒你确认蓝驰第二笔款\n---\n#369 Sat 19 Sep 10:06 aicoo: 财务那边提醒，押金 6 万 6 下周一退\n#370 Sat 19 Sep 10:10 Them: 到账后充现金流，蓝驰第二笔还没定\n#371 Sat 19 Sep 14:30 Them: 红杉周三下午把会议改成线下，要演示产品\n---\n#163 Wed 26 Aug 15:31 "
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 会议 演示"
+   },
+   "result": "#370 Sat 19 Sep 10:10 Them: 到账后充现金流，蓝驰第二笔还没定\n#371 Sat 19 Sep 14:30 Them: 红杉周三下午把会议改成线下，要演示产品\n#372 Sat 19 Sep 14:31 aicoo: 我准备 demo 脚本，侧重展示实时报告功能"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 后续 跟进"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1107,
+   "out": 26,
+   "usd": 0.000063734
+  },
+  {
+   "in": 1162,
+   "out": 25,
+   "usd": 0.000074724
+  },
+  {
+   "in": 1216,
+   "out": 23,
+   "usd": 0.000084944
+  },
+  {
+   "in": 1660,
+   "out": 24,
+   "usd": 0.000178744
+  },
+  {
+   "in": 1774,
+   "out": 24,
+   "usd": 0.000202684
+  },
+  {
+   "in": 1841,
+   "out": 110,
+   "usd": 0.000127442
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3632
+}

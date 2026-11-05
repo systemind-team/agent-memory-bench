@@ -1,0 +1,59 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "Yuki那个onboarding redesign的conversion lift是多少啊，我忘了具体数字。",
+ "reply": [
+  "23% conversion lift，Yuki的onboarding redesign那个A/B测试结果，之前8月就确认了。",
+  "你是不是记成别的metrics了？比如dark mode beta的满意度是87%-92%，不是同一个东西。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Yuki redesign conversion uplift"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Yuki 23% uplift redesign"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Yuki onboarding 23%"
+   },
+   "result": "#372 Tue 01 Sep 14:00 Them: Sync with Yuki done. Dark mode feedback: mostly positive, a few UX tweaks needed. Pushing to Oct sprint.\n#373 Tue 01 Sep 14:05 aicoo: Good progress. Yuki's onboarding redesign still holding 23% lift.\n#374 Tue 01 Sep 16:05 Them: New hire for PM role, first candidate Jason Chen interviewed, 8 years exp. Moving to next round.\n---\n#137 Sun 16 Aug 16:20 Them: 整理了一下Q3剩下6周的priority list. 1. Aurora close, 2. Pricing launch, 3. 新加坡pipeline review (Sep 1 trip). 4. Ravi integration. 你觉得missing什么?\n#138 Sun 16 Aug 16:21 aicoo: Yuki的onboarding redesign rollout 要不要加进去? 她说23% lift,"
+  }
+ ],
+ "calls": [
+  {
+   "in": 8796,
+   "out": 23,
+   "usd": 0.000302024
+  },
+  {
+   "in": 8848,
+   "out": 25,
+   "usd": 0.000314064
+  },
+  {
+   "in": 8902,
+   "out": 23,
+   "usd": 0.000324284
+  },
+  {
+   "in": 9335,
+   "out": 55,
+   "usd": 0.000433134
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26064
+}

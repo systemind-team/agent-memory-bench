@@ -1,0 +1,23 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "晚安aicoo，明天叫我。",
+ "reply": [
+  "晚安周周，明早9:00发论文给Prof. Lin，9:30线上meeting，我会准时提醒你。",
+  "好好休息，明天见。",
+  "[sticker: wave]"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3797,
+   "out": 50,
+   "usd": 0.000275482
+  }
+ ],
+ "memChars": 4993,
+ "promptChars": 9279
+}

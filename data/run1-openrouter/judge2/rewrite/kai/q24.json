@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant incorrectly states initial target as mid-October and misses the two specified postponements (Nov 1 to Nov 15 and Nov 15 to Dec 1), while the gold answer requires those exact delays.",
+ "first": "wrong",
+ "rule": null
+}

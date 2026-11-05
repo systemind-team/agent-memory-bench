@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims the spec was sent, merged, and evolved into a live service, but the chat shows a reminder request with no confirmation it was ever sent, and the gold states we discussed a reminder but didn't confirm it was sent.",
+ "first": "made_up",
+ "rule": null
+}

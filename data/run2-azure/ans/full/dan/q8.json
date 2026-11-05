@@ -1,0 +1,46 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "how much does biscuit weigh now?",
+ "reply": [
+  "你上次提到 biscuit 的体重是 42 磅，那是 oct 14 去看兽医的时候。从那以后你还没提过新的体重数字，所以现在是 42 磅，除非他最近又去称了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "biscuit weighs pounds"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "biscuit 42 pounds"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21323,
+   "out": 23,
+   "usd": 0.000687318
+  },
+  {
+   "in": 21375,
+   "out": 24,
+   "usd": 0.000698798
+  },
+  {
+   "in": 21428,
+   "out": 55,
+   "usd": 0.000727288
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64104
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo correctly identifies the guest talk as being in early September, with Prof. Wang from MIT, and specifies September 6 as the Friday date, which matches the required day.",
+ "rule": null
+}

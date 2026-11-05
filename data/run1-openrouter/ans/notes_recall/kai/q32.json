@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+ "reply": [
+  "凯哥周日早上好！这周节奏挺满的，帮你捋一下：\n\n**周一（今天）是key day：**\n- 10:00 pricing review prep（自己过一遍）\n- 10:30 pricing launch decision meeting with Grace & Ben\n- 顺便跟Grace确认SEA headcount timeline\n- 跟Ravi确认integration最终状态\n- Emily weekly check-in\n- 找Lily拿Aurora quote + 找Omar要Singapore两个大客户quote，补Q3 summary的testimonial section\n\n**后面几天：**\n- 周二周三应该能消化pricing launch决定后的执行细节\n- 周四可以跟Ravi对齐dark mode toggle timeline\n- 周五收尾Q3 customer wins summary，发给Grace final版\n\n另外你父亲刚稳定下来，这周也别忘了关注他的情况。女儿今天应该还沉浸在Halloween的快乐里吧 😊\n\n先过个轻松的周日，明天开工！"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13349,
+   "out": 202,
+   "usd": 0.00016757244
+  }
+ ],
+ "memChars": 47798,
+ "promptChars": 52525
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant answered with 'Hierarchical Planning with Graph Attention' as the initial title, but the chat only records 'Planning with Hierarchical Graphs' as the earliest title, making this an unsupported specific past fact.",
+ "rule": null
+}

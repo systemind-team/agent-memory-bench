@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "我这学期TA的课号是多少？",
+ "reply": [
+  "是CS 571，Prof. Li的课，每周二批50份作业。",
+  "你的office hour是周三下午3点到4点半——今天周日，这周还没开始，好好歇会儿。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "TA课程号 CS"
+   },
+   "result": "[个人] 09 Aug: TA课程CS 571, Prof. Li, 每周二批50份作业\n[个人] 05 Oct: TA office hour 17:30-18:30\n[个人] 21 Sep: 批完50份CS 571作业，眼睛累；20:20已批完\n[人物] 07 Sep: 有个TA学生代码跑不通，需检查依赖\n[个人] 15 Sep: TA批了50份作业，累但GPTR bug找到并修复\n[about-me] 04 Aug: 我是周周, CS PhD第三年, Prof. Lin实验室, 希望aicoo用中文协助记事\n[个人] 07 Sep: TA office hour下周二改为周三下午3点（之前周二）\n[个人] 26 Aug: 下午批完剩下30份CS 571作业（之前26 Aug上午批了20份），晚饭前搞定交系统\n[个人] 13 Oct: THOR报错修复，继续跑实验；今晚改20份CS 571作业（14 Oct改完剩余30份发给Prof. Li）\n[个人] 07 Sep: 早上TA收到一批作业，有个学生代码跑不通，先检查环境依赖"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3987,
+   "out": 22,
+   "usd": 0.000757942
+  },
+  {
+   "in": 4284,
+   "out": 50,
+   "usd": 0.00024028
+  }
+ ],
+ "memChars": 5831,
+ "promptChars": 10175
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply states Priya first moved the cutover to Sep 28 on Aug 11, but by the conversation's end on Oct 29, the current cutover date is Oct 26 (set Oct 2), so Aug 11's Sep 28 is outdated as the first move context.",
+ "first": "stale",
+ "rule": null
+}

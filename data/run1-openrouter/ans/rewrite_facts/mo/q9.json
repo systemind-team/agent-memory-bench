@@ -1,0 +1,47 @@
+{
+ "arm": "rewrite_facts",
+ "id": "mo",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "大伟跑下来的第一家驿站是哪条路上的？",
+ "reply": [
+  "凯旋路驿站，10月2号签约的。分成10%，试用期一个月，后来调到15%试用期延到两个月。首月流水已经破5万了。",
+  "下周说还要再谈一家新驿站，记得跟进一下大伟那边的进度。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 第一家 驿站 凯旋路"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 签约 驿站"
+   },
+   "result": "#490 Fri 02 Oct 09:05 aicoo: 跑了三家，谈下来一家，凯旋路驿站。\n#491 Fri 02 Oct 12:30 aicoo: 大伟跑了上海三家养老驿站，签约一家，凯旋路那个\n#492 Fri 02 Oct 14:00 Them: 签约条件是什么"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4432,
+   "out": 28,
+   "usd": 0.00006580448
+  },
+  {
+   "in": 4489,
+   "out": 24,
+   "usd": 0.00005116412
+  },
+  {
+   "in": 4599,
+   "out": 64,
+   "usd": 0.00007550788
+  }
+ ],
+ "memChars": 5178,
+ "promptChars": 9168
+}

@@ -1,0 +1,59 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "Ben的hiring budget是多少? 上次好像聊过.",
+ "reply": [
+  "凯哥，我翻了一下之前的聊天记录，没找到我们具体聊过Ben的hiring budget数字。可能是在别的文档或者会议上提的，我没记下来。",
+  "你记得大概是在什么场景下聊的吗？比如pricing launch meeting还是SEA expansion那边？我再去查查相关文档。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Ben hiring budget"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Ben 预算"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "hiring budget"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1392,
+   "out": 21,
+   "usd": 0.00007496
+  },
+  {
+   "in": 1442,
+   "out": 21,
+   "usd": 0.00008546
+  },
+  {
+   "in": 1492,
+   "out": 21,
+   "usd": 0.00009596
+  },
+  {
+   "in": 1542,
+   "out": 73,
+   "usd": 0.00013558
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4361
+}

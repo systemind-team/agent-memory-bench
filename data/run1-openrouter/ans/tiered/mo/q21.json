@@ -1,0 +1,81 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "云九和蓝驰，哪家先跟我们谈的？",
+ "reply": [
+  "从记忆来看，是云九先谈的。8月7日定了云九会面在12日下午2点，8月14日他们要求DAU破2000。蓝驰是8月10日约的19日上午，比云九晚几天。后来云九投了竞品项目黄了，蓝驰走到了TS和打款。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 蓝驰 先 谈"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 蓝驰 见面 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 云九 首次 接触"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 会 下午"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九会 12日"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5586,
+   "out": 27,
+   "usd": 0.00005437152
+  },
+  {
+   "in": 5642,
+   "out": 27,
+   "usd": 0.00005664512
+  },
+  {
+   "in": 5698,
+   "out": 27,
+   "usd": 0.00005891872
+  },
+  {
+   "in": 5754,
+   "out": 24,
+   "usd": 0.00005263384
+  },
+  {
+   "in": 5807,
+   "out": 24,
+   "usd": 0.00005478564
+  },
+  {
+   "in": 5874,
+   "out": 82,
+   "usd": 0.00006221544
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10958
+}

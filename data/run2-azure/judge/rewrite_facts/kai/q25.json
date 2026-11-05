@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant lists multiple changes and mentions a custom analytics/reporting module added, but fails to answer the count or state that the scope change was adding the custom analytics module which raised the deal from 800k to 950k.",
+ "rule": null
+}

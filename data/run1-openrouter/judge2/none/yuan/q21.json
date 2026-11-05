@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant answered with 'Planning with Hierarchical Graphs' as the initial title, but the question '论文标题最初叫什么？' from Nov 1 expects the final title as initial context, and the gold requires 'Context-Aware Planning via Hierarchical Decomposition'; the assistant gave the outdated first working title instead.",
+ "first": "stale",
+ "rule": null
+}

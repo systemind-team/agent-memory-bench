@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly identifies that the billing timeline doc for Priya from August was never confirmed as sent, noting the open loop.",
+ "rule": null
+}

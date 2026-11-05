@@ -1,0 +1,22 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q14",
+ "kind": "update",
+ "q": "Aurora deal的value变化，最终是多少？",
+ "reply": [
+  "最终 Aurora deal 是 $950K 带 add-on（custom module $50K 额外），Q4 关的，不是 Q3。你记录上是这样 17 Sep 确认的。",
+  "明天问问 Grace 需不需要更新到 Q3 wins summary 里吧，毕竟签约是 Q4，但 deal origination 在 Q3。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12740,
+   "out": 84,
+   "usd": 0.000477064
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50337
+}

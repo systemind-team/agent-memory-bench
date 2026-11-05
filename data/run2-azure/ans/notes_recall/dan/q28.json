@@ -1,0 +1,47 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "did i ever review lena's on-call draft?",
+ "reply": [
+  "没找到你review过的记录。notes里提到10月16号on-call handoff notes ready给Lena，但没标记你看过。留的评论或回复还在吗？",
+  "要不我翻一下那段聊天？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena on-call draft review"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Lena on-call"
+   },
+   "result": "[stripe-webhook] 16 Oct: on-call handoff notes ready for Lena\n[stripe-webhook] 15 Aug: on-call handoff notes ready; Lena takes over tomorrow\n[billing-split] 31 Aug: Lena PTO Oct 5-9 for wedding; on-call needs adjustment\n[billing-migration] 06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n[billing-split] 17 Aug: billing PR up; Tom's reviewing (was Lena)\n[billing-migration] 08 Oct: quiet on-call day, no alerts\n[checkout-spec] 14 Oct: Lena's PagerDuty key was 5B1C6D before last change\n[candidate-sam] 20 Sep: Da"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2756,
+   "out": 25,
+   "usd": 0.000226168
+  },
+  {
+   "in": 2810,
+   "out": 23,
+   "usd": 0.00014474
+  },
+  {
+   "in": 3089,
+   "out": 55,
+   "usd": 0.000175426
+  }
+ ],
+ "memChars": 5401,
+ "promptChars": 9964
+}

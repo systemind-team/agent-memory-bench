@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Says rollback steps were added yesterday, but user completed the docs on Mon 21 Sep and never mentioned rollback steps; last link sent Sep 29 is fabricated.",
+ "rule": null
+}

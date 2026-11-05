@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The reply claims the docs were updated and sent on Sep 20 with Sam's reaction, but chat shows updates on Sep 13, Sep 20, and Sep 21 with no mention of Sam's reaction on Sep 20, and the gold answer says updated on day 50.",
+ "first": "wrong",
+ "rule": null
+}

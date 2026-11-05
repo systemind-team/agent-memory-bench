@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant says the title was changed three times, but the chat log shows five title changes from 'Planning with Hierarchical Graphs' to the final title, missing two intermediate changes.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,57 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "when is tom's PTO?",
+ "reply": [
+  "I don't have Tom's upcoming PTO in the notes — nothing past the old Aug 24-28 one. Want me to ask him or check the team calendar?"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Tom PTO"
+   },
+   "result": "[billing-migration] 24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n[billing-split] 31 Aug: Lena PTO Oct 5-9 for wedding; on-call needs adjustment\n[tom-pixel] 27 Oct: Pixel tried to climb Tom's monitor; Tom sent a photo\n[stripe-webhook] 25 Aug: webhook spec merged by Tom; one review comment about error codes (was sent to Tom early)\n[stripe-webhook] 08 Oct: Tom and Dan discussed adding a health check endpoint to the webhook service; Tom will write a PR\n[stripe-webhook] 09 Oct: Tom's health check PR is up; Dan reviewed, left two comments on error handling, Tom to pus"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Tom vacation time off"
+   },
+   "result": "[billing-split] 18 Sep: legal signed off; Priya relieved\n[stripe-webhook] 03 Sep: flaky test in CI: test_billing_webhook fails 20% of the time; root cause found (shared state between test cases); fixing with a fresh mock per test\n[tom-pixel] 27 Oct: Pixel tried to climb Tom's monitor; Tom sent a photo\n[stripe-webhook] 25 Aug: webhook spec merged by Tom; one review comment about error codes (was sent to Tom early)\n[stripe-webhook] 08 Oct: Tom and Dan discussed adding a health check endpoint to the webhook service; Tom will write a PR\n[stripe-webhook] 09 Oct: Tom's health check PR is up; Dan rev"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Tom PTO vacation leave"
+   },
+   "result": "[billing-migration] 24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n[billing-split] 31 Aug: Lena PTO Oct 5-9 for wedding; on-call needs adjustment\n[asheville-trip] 20 Oct: Asheville trip Oct 22-25; cabin near Blue Ridge; leave Oct 22 morning; Delta flight booked\n[tom-pixel] 27 Oct: Pixel tried to climb Tom's monitor; Tom sent a photo\n[stripe-webhook] 25 Aug: webhook spec merged by Tom; one review comment about error codes (was sent to Tom early)\n[stripe-webhook] 08 Oct: Tom and Dan discussed adding a health check endpoint to the webhook service; Tom will write a PR"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2515,
+   "out": 21,
+   "usd": 0.00002898028
+  },
+  {
+   "in": 2817,
+   "out": 22,
+   "usd": 0.00004132268
+  },
+  {
+   "in": 3129,
+   "out": 23,
+   "usd": 0.00005407108
+  },
+  {
+   "in": 3452,
+   "out": 41,
+   "usd": 0.00005201672
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9076
+}

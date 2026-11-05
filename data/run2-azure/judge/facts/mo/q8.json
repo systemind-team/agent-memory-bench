@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant recalled 37% from Sep 18 instead of the requested 34% from Sep 22.",
+ "rule": null
+}

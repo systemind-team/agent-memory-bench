@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "Aurora deal最初是多少value来着，我印象中后来加了custom模块涨了。",
+ "reply": [
+  "Aurora deal最开始是$800K，后来加了custom module变成$950K，再后来Q4又加了custom reporting add-on $50K，所以总额现在是$1M。",
+  "周一正式announce的$950K是Q3 closing的金额。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3364,
+   "out": 64,
+   "usd": 0.00006694128
+  }
+ ],
+ "memChars": 7093,
+ "promptChars": 11823
+}

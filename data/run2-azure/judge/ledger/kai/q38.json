@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "The assistant did not draft meeting minutes with the required summary sentence; instead, it explained no formal meeting was found and offered alternatives.",
+ "rule": false
+}

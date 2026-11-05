@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly identifies the column as `billing_status` and references the August incident without adding unsupported details.",
+ "rule": null
+}

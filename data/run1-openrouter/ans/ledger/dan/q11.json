@@ -1,0 +1,69 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "what's the billing cutover date?",
+ "reply": [
+  "the billing cutover is locked for **oct 26** — that was confirmed on oct 2. looks like it stayed after priya moved it from nov 15. do you want me to pull up the current checklist and see if rollback steps match that date?"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "billing cutover date timeline"
+   },
+   "result": "[282] 03 Oct · done: billing migration cutover date oct 26 locked, timeline updated  (from #512)\n[217] 18 Sep · fact: billing cutover final date: oct 12 again  (from #379)\n[97] 20 Aug · fact: cutover date moved to nov 5  → replaced 18 Sep by [217] billing cutover final date: oct 12 again  (from #161)\n[161] 06 Sep · fact: cutover date moved to nov 15  → replaced 30 Sep by [267] priya wants to move cutover to oct 26, says nov 15 is too far  (from #274)\n[384] 16 Oct · ask: priya asked about the cutover timeline again  (from #657)\n[48] 11 Aug · plan: priya wants cutover timeline moved to sep 28  →"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover date oct 26"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "oct 26 cutover"
+   },
+   "result": "#510 Fri 02 Oct 14:01 aicoo: mock did it. flaky test conquered\n#511 Fri 02 Oct 16:00 Them: priya confirmed oct 26 cutover. new timeline set\n#512 Fri 02 Oct 16:01 aicoo: oct 26 locked. timeline updated\n---\n#486 Wed 30 Sep 10:01 aicoo: green across the board. solid\n#487 Wed 30 Sep 11:00 Them: priya wants to move cutover to oct 26. says nov 15 is too far\n#488 Wed 30 Sep 11:01 aicoo: oct 26. closer but doable"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover date nov"
+   },
+   "result": "#160 Wed 19 Aug 10:45 aicoo: glad it was minor. you're off rotation friday, right?\n#161 Wed 19 Aug 14:30 Them: cutover date moved. priya says nov 5 now. gives breathing room.\n#162 Wed 19 Aug 14:31 aicoo: that's huge. less stress."
+  }
+ ],
+ "calls": [
+  {
+   "in": 3087,
+   "out": 24,
+   "usd": 0.00002750244
+  },
+  {
+   "in": 3438,
+   "out": 24,
+   "usd": 0.00004175304
+  },
+  {
+   "in": 3491,
+   "out": 23,
+   "usd": 0.00004382364
+  },
+  {
+   "in": 3672,
+   "out": 22,
+   "usd": 0.00004277616
+  },
+  {
+   "in": 3784,
+   "out": 61,
+   "usd": 0.00004217528
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10797
+}

@@ -1,0 +1,82 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q22",
+ "kind": "aggregate",
+ "q": "how many data eng candidates did we interview total?",
+ "reply": [
+  "three. maria torres, jordan liu, and david chen. david joined, the other two didn't work out."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data eng candidate interview"
+   },
+   "result": "#93 Wed 12 Aug 07:32 aicoo: good luck. who's the candidate?\n#94 Wed 12 Aug 10:00 Them: first interview for new data engineer candidate: maria torres. solid sql.\n#95 Wed 12 Aug 10:02 aicoo: sounds promising. any flags?"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "candidate data engineer interview"
+   },
+   "result": "#93 Wed 12 Aug 07:32 aicoo: good luck. who's the candidate?\n#94 Wed 12 Aug 10:00 Them: first interview for new data engineer candidate: maria torres. solid sql.\n#95 Wed 12 Aug 10:02 aicoo: sounds promising. any flags?"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "david chen data engineer"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "jordan liu data eng"
+   },
+   "result": "#173 Fri 21 Aug 07:30 aicoo: morning. you're off rotation at 5?\n#174 Fri 21 Aug 10:15 Them: new candidate: jordan liu. data eng at spotify before. good take-home.\n#175 Fri 21 Aug 10:16 aicoo: promising. lena might like the experience."
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "david chen interview"
+   },
+   "result": "#294 Tue 08 Sep 15:32 aicoo: that's good. sam can start contributing after onboarding.\n#295 Wed 09 Sep 09:00 Them: david chen interview today at 2\n#296 Wed 09 Sep 09:02 aicoo: good luck with it."
+  }
+ ],
+ "calls": [
+  {
+   "in": 21325,
+   "out": 22,
+   "usd": 0.000687178
+  },
+  {
+   "in": 21429,
+   "out": 23,
+   "usd": 0.000709578
+  },
+  {
+   "in": 21534,
+   "out": 24,
+   "usd": 0.000732188
+  },
+  {
+   "in": 21587,
+   "out": 24,
+   "usd": 0.000743318
+  },
+  {
+   "in": 21701,
+   "out": 23,
+   "usd": 0.000766698
+  },
+  {
+   "in": 21816,
+   "out": 36,
+   "usd": 0.000752304
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64124
+}

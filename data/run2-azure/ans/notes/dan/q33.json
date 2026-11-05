@@ -1,0 +1,84 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "新的一周来啦！这周重点是 cutover 准备。Priya 发来的 checklist 模板等着你填，干跑也得再来一次。",
+  "Tom 的 stripe webhook v2 还在 review 中，他是最后一关。David 上手很快，11 月要进 on-call 轮值。Lena 那边没有新的 flaky test，CI 目前稳定。",
+  "哦对了，电池 79%——你说这周下单，别忘了。要不要今天上午把 checklist 里 rollback 步骤先填了？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "sprint-23oct"
+   },
+   "result": "Sprint planning Oct 23\n23 Oct: sprint planning, 23 points committed\n23 points committed; ambitious but doable (Oct 23)"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "billing-migration"
+   },
+   "result": "Billing migration PR\n03 Aug: PR submitted for billing migration; aicoo reviewing\n06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n07 Aug: timeline doc sent to Priya; right before deadline\n24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n11 Aug: Priya covering backend next week\n14 Aug: Maria out; took another offer; Priya gutted; need to restart interviews; 19 Aug: on-call quiet, one disk space alert overnight\n08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushb"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "stripe-webhook"
+   },
+   "result": "Stripe webhook retry logic\n03 Aug: retry was failing due to idempotency; fixed after reading Stripe docs\n04 Aug: Tom asking about stability; retry fix covers main failure case\n12 Aug: stripe webhook idempotency test passes; coverage back up\n10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved\n14 Aug: Tom pushed a fix for the webhook frontend; Dan's tests pass now\n15 Aug: on-call handoff notes ready; Lena takes over tomorrow\n18 Aug: webhook test flaked again overnight; fixed by bumping jest timeout (was timeout on stripe mock)\n19 Aug: working on stripe webhook error handling\n20 Aug"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "checkout-spec"
+   },
+   "result": "Checkout spec flaky test\n04 Aug: flaky test on checkout_spec; skipped for now; need to investigate root cause later\n07 Aug: flaky test happened again; filing a ticket\n11 Aug: flaky test fixed by Dan; was a race condition in the billing factory; count down to 2; one more flaky in search owned by Lena; 14 Aug: billing flaky test also fixed, count down to 0\n26 Aug: flaky test in CI again — `test_billing_cycle` fails randomly; likely race condition\n28 Sep: flaky test fix still failing; tried exponential backoff on the webhook\n04 Oct: flaky test gone. clean CI (was passed with mock on Oct 2)\n30 Sep"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "candidate-david-chen"
+   },
+   "result": "David Chen candidate\n21 Oct: David Chen joined officially; team now 5\n21 Oct: sitting at desk 12; Sam showing him around\n21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n21 Oct: Priya approved rotation, starts Nov 1\n23 Oct: David had first code review by Tom; solid first PR with some feedback\n25 Oct: David merged his first PR, a small bug fix in the billing service\n28 Oct: David merged his second PR, a billing migration helper"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2490,
+   "out": 19,
+   "usd": 0.000121124
+  },
+  {
+   "in": 2552,
+   "out": 18,
+   "usd": 0.000133584
+  },
+  {
+   "in": 3386,
+   "out": 18,
+   "usd": 0.0002629
+  },
+  {
+   "in": 4411,
+   "out": 18,
+   "usd": 0.000523974
+  },
+  {
+   "in": 4663,
+   "out": 20,
+   "usd": 0.000394718
+  },
+  {
+   "in": 4853,
+   "out": 131,
+   "usd": 0.000267658
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9081
+}

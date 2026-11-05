@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q12",
+ "kind": "update",
+ "q": "what's the pagerduty key for on-call?",
+ "reply": [
+  "你上次存的是 7C2E9B，10月26号用的那个，半夜有一次误报但本身没问题。",
+  "旧的那个 A4B8C2 是10月20号的，如果之前换过轮值要确认一下是不是当前这个。另外检查清单里要不要也放上这个key，省得到时候翻。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "pagerduty-key"
+   },
+   "result": "PagerDuty key\n20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2498,
+   "out": 23,
+   "usd": 0.000125044
+  },
+  {
+   "in": 2590,
+   "out": 80,
+   "usd": 0.000176284
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9095
+}

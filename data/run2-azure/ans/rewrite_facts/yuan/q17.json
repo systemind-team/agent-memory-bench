@@ -1,0 +1,36 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "你最后只投了一个：**Facebook Fellowship**，截止日12月20号。",
+  "NSF那个方向不太对，9月底就决定放弃了，后来也没再捡回来。",
+  "需要我翻一下statement的终稿或者截止前的材料吗？还是接下来有别的fellowship要看？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "fellowship 投 了 哪些 申请"
+   },
+   "result": "- 20 Sep: 下周开始写NSF和Facebook fellowship申请材料。21 Sep: NSF那个方向不太对，最后可能就投Facebook了。05 Oct: Facebook fellowship提交截止日是12月20号，最后期限了。20 Oct 23:50: 周予安只投了Facebook的fellowship，放弃了NSF申请。\n- 11 Aug: fellowship的statement of purpose让用户感到折磨，14 Aug: 第一次fellowship申请截止是11月15号\n- 05 Aug: 今天申请了一个fellowship的截止日期是下个月，得赶紧写材料。\n- 28 Aug: 周四开始改fellowship draft，之前的research statement写得不够具体，要加一些实验细节。28 Aug: 把draft发给Prof. Lin了，让他周五前看。\n- 27 Oct: 每个step加supervision跑到52%了，不错。\n- 29 Sep: 系里新买8张H100 GPU，申请者众多，决定等论文投出去再申请GPU资源。\n- 23 Oct: HotpotQA提升到45%了，还是低，但有进步。\n- 24 Oct: Prof. Lin的谷歌学术引用破5000了。\n- 10 Oct: 需要aicoo准备申请问题清单。\n- 17 Sep: "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3890,
+   "out": 28,
+   "usd": 0.000282692
+  },
+  {
+   "in": 4215,
+   "out": 70,
+   "usd": 0.00023699
+  }
+ ],
+ "memChars": 5326,
+ "promptChars": 9623
+}

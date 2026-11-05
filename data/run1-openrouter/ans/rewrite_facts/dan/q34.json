@@ -1,0 +1,23 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, any updates?",
+ "reply": [
+  "dan the builder, 周日的消息不太多，但有几件事你可以留意一下",
+  "第一，今天开始新的on-call轮值了，David是你的第一周，记得确认他拿到新PagerDuty key A4B8C2，走一遍escalation流程",
+  "另外，你前天说电池79%要下单，这周别忘了。还有Ade的费城马拉松下周了吧，pace plan做好了没"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3058,
+   "out": 97,
+   "usd": 0.00023826
+  }
+ ],
+ "memChars": 6434,
+ "promptChars": 11038
+}

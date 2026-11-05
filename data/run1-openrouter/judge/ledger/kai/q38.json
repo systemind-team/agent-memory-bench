@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The draft meeting minutes start with a 'Decision:' summary sentence, fulfilling the user's preference to begin with a summary of decisions.",
+ "rule": false
+}

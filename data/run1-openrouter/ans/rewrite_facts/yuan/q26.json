@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q26",
+ "kind": "update",
+ "q": "Context-Aware Hierarchical Planning for LLMs这个标题存在过吗？",
+ "reply": [
+  "存在过。9月28号你从『Context-Aware Hierarchical Planning for LLMs』改成了『Context-Aware Planning』，后来10月26号finalize成了现在的『Context-Aware Planning via Hierarchical Decomposition』。",
+  "怎么突然问这个？在想备选标题？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Context-Aware Hierarchical Planning for LLMs 标题"
+   },
+   "result": "- 28 Sep: 周予安将论文标题从“Context-Aware Hierarchical Planning for LLMs”改为“Context-Aware Planning”。\n- 27 Oct: 今天开始finalize论文标题，跑最后一个实验。最终标题确定为Context-Aware Planning via Hierarchical Decomposition。\n- 29 Sep: 周予安决定根据Prof. Lin的意见调整introduction，使contribution更聚焦于hierarchical planning和context-awareness两个点。\n- 27 Sep: 周予安希望aicoo围绕hierarchical planning的scalability来写future work。\n- 19 Oct: 结果出来了，复杂场景下context-aware还是比gptr高2个点，但是方差有点大。\n- 29 Sep: 周予安已完成full pipeline运行且无问题，当天开始修改introduction，并根据Prof. Lin的意见调整，使contribution更聚焦于hierarchical planning和context-awareness两个点。\n- 02 Oct: H100申请理由强调hierarchical planning需要大模型"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3962,
+   "out": 29,
+   "usd": 0.00006343344
+  },
+  {
+   "in": 4308,
+   "out": 69,
+   "usd": 0.00008072904
+  }
+ ],
+ "memChars": 5490,
+ "promptChars": 9816
+}

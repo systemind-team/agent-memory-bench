@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo的回复全程没有使用感叹号，符合用户之前'回复里不要用感叹号'的要求。",
+ "rule": true
+}

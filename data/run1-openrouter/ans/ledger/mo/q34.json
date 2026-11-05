@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, what's on my plate today?",
+ "reply": [
+  "morning, sunday's quiet — no meetings or external calls scheduled",
+  "few things worth a look: iOS DAU crossed 2100, need to decide if you want to follow up on 红杉's interest. 安卓版 timeline to 11月中, 阿杰 should have a dev checkpoint soon. also 徐汇驿站 first month hit 50k, 大伟 wants to sign two more next month",
+  "want me to pull a quick snapshot of the week ahead so you can plan Monday morning?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2624,
+   "out": 113,
+   "usd": 0.0000325612
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6708
+}

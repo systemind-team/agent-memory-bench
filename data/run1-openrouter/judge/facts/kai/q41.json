@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant states Emily's start date as October 26 with no delay, but this information was never mentioned in the chat.",
+ "rule": null
+}

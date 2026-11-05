@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly states the final price as $44/user/month, matching the user's recalled decision.",
+ "rule": null
+}

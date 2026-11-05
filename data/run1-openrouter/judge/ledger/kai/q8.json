@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "正确给出了价格44/user/month，但错误地将launch日期说成12月1日而非11月1日。",
+ "rule": null
+}

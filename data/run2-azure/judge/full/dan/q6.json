@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It states there were 4 engineers before David, which matches the chat message saying the team had 4 engineers.",
+ "rule": null
+}

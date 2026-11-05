@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Lily搞的那个大单，Aurora那个，最后签了多少？",
+ "reply": [
+  "凯哥周日好。Aurora最终签约金额是$950K，Q4 close。Lily那边走完了legal和custom module add-on，整个deal挺完整的。",
+  "你周一找她要customer testimonial的时候可以顺便让她update一下Aurora的onboarding status。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 8817,
+   "out": 67,
+   "usd": 0.0003634106
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26037
+}

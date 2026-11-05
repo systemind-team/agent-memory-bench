@@ -1,0 +1,36 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "dan the builder, 这一周有点意思。周一 dry run 结果要加进 checklist，周三凌晨2点数据库迁移正式跑，rollback plan 已经批了。",
+  "on-call 今天起新轮值，你上周提过的 PagerDuty 新 key A4B8C2 应该上线了，David 这周开始参与轮班。",
+  "哦对了，你周一得提醒自己订 Asheville 的机票，22号早上出发。先喝杯咖啡冷静一下？昨天可是3杯了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "this week schedule tasks"
+   },
+   "result": "- 26 Sep: No new flaky tests this week.\n- 31 Aug: Need to adjust on-call for that week while she's out.\n- 24 Aug: Priya is out all week; Tom is handling billing standup.\n- 30 Sep: On-call rotation next week; Dan is primary, Tom secondary.\n- 10 Aug: PagerDuty rotation starts tomorrow. 12 Aug: Daniel is on-call this week.\n- 05 Oct: Dan had 2 cups of coffee on Monday and felt okay about the week ahead.\n- Daniel Okafor had 17 coffees this week (including 3 on 10 Aug) and considered cutting back.\n- 06 Aug: One customer's data still out of sync due to last week's migration incident.\n- 20 Oct: Billin"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3300,
+   "out": 22,
+   "usd": 0.0000526176
+  },
+  {
+   "in": 3545,
+   "out": 122,
+   "usd": 0.0000706846
+  }
+ ],
+ "memChars": 7224,
+ "promptChars": 11830
+}

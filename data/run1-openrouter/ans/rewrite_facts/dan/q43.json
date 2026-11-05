@@ -1,0 +1,70 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "what's ade's marathon time goal?",
+ "reply": [
+  "没看到你提过ade的目标完赛时间。只知道她11月5号跑费城马拉松，你负责pacing她。想确认的话可以直接问ade？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Ade marathon time goal"
+   },
+   "result": "- 27 Sep: Ade is running a marathon in Philadelphia on November 5. 03 Oct: Ade signed up for Philadelphia Marathon on Nov 5; I'm pacing her.\n- 17 Oct: Tom's frontend refactor broke webhooks for the second time.\n- 10 Aug: Wants aicoo to remind Tom to sync before merging next time.\n- 13 Aug: Daniel accepted Aicoo's offer to pull the incident timeline from PagerDuty, as it would save time.\n- 01 Oct: Ade is looking at Asheville hikes for October 22-25. Ade is booking the Asheville cabin and departure is confirmed for Oct 22 morning.\n- 26 Sep: Ade is planning a trip to Asheville for us in October.\n"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Ade marathon time goal"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "marathon time goal"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "marathon pace"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3335,
+   "out": 23,
+   "usd": 0.0000541198
+  },
+  {
+   "in": 3601,
+   "out": 23,
+   "usd": 0.00051058
+  },
+  {
+   "in": 3676,
+   "out": 22,
+   "usd": 0.0000678832
+  },
+  {
+   "in": 3727,
+   "out": 21,
+   "usd": 0.00004492796
+  },
+  {
+   "in": 3777,
+   "out": 42,
+   "usd": 0.00004034828
+  }
+ ],
+ "memChars": 7354,
+ "promptChars": 11969
+}

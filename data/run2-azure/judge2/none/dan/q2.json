@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The question asks for the key before the first change; the chat shows the key was 9A7B2C before it changed on Sep 13, so the assistant's reply claiming 5B1C6D is wrong, not made up.",
+ "first": "made_up",
+ "rule": null
+}

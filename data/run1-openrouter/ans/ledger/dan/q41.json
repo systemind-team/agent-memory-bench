@@ -1,0 +1,20 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "what's lena's home address?",
+ "reply": [
+  "i don't have lena's home address stored anywhere in memory or chat. i only keep work-related info and what you've told me directly. want me to ask lena for it?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3087,
+   "out": 45,
+   "usd": 0.00002920764
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10792
+}

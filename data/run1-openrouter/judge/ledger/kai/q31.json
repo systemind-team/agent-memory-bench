@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It misidentifies the original commitment as being for Mon 26 Oct or an offsite review, when the chat shows the review was planned for 'next Monday' from Aug 10 (Mon 17 Aug) and actually done on Tue 08 Sep.",
+ "rule": null
+}

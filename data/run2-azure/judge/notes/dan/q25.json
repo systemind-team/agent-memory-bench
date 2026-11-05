@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct answer requires five date changes: oct 12, sep 28, nov 5, nov 15, oct 12, but the assistant only lists three and ends with confusion, not providing the full sequence.",
+ "rule": null
+}

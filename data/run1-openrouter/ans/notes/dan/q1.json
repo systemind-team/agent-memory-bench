@@ -1,0 +1,57 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "how many coffees did i have that first week?",
+ "reply": [
+  "看笔记里最早的咖啡记录是8月9号和11号，但你说的是“第一周”——你是指入职第一周还是开始用aicoo的第一周？如果是8月那周，有记录的是：11号2杯（6点半第一杯），9号是慵懒咖啡日没有数量。另外14、16号也都是2杯。看起来那周基本稳定在2杯左右。"
+ ],
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "coffee"
+   },
+   "result": "Coffee count\n11 Aug: 2 today (first at 6:30, woke at 5 by Biscuit)\n09 Aug: lazy morning, coffee and a book\n12 Aug: 2 today (prepping for interview)\n14 Aug: 2 today (started early on billing refactor)\n16 Aug: 2 today (pre-run coffee and bagel, then 10mi with Ade)\n20 Sep: 2 today (morning coffee, lazy afternoon)\n18 Sep: 2 today (afternoon coffee)\n25 Sep: 2 today (morning and afternoon, trying to stay under 3)\n29 Sep: 2\n30 Sep: 1 today\n02 Oct: 3\n23 Oct: 3 today (woke at 5 by Biscuit, tired, moved from Oct 22)\n09 Oct: 2"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "coffee first week"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "first week coffee"
+   },
+   "result": "[candidate-david-chen] 21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n[candidate-david-chen] 21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n[coffee] 09 Aug: lazy morning, coffee and a book\n[coffee] 18 Sep: 2 today (afternoon coffee)\n[coffee] 20 Sep: 2 today (morning coffee, lazy afternoon)\n[candidate-david-chen] 23 Oct: David had first code review by Tom; solid first PR with some feedback\n[coffee] 16 Aug: 2 today (pre-run coffee and bagel, then 10mi with Ade)\n[running] 30 Aug: lunch "
+  }
+ ],
+ "calls": [
+  {
+   "in": 2519,
+   "out": 20,
+   "usd": 0.00009558052
+  },
+  {
+   "in": 2727,
+   "out": 22,
+   "usd": 0.0000293538
+  },
+  {
+   "in": 2778,
+   "out": 21,
+   "usd": 0.0000313432
+  },
+  {
+   "in": 3043,
+   "out": 91,
+   "usd": 0.00005610108
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9102
+}

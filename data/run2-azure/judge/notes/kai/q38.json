@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The user asked the assistant on Sep 26 to start meeting minutes with a summary sentence on decisions, but on Nov 1 the assistant focused on the meeting not having occurred yet instead of drafting the requested minutes, so the preference wasn't applied.",
+ "rule": false
+}

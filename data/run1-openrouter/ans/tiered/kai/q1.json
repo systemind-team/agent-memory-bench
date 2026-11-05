@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "那个Q3 revenue target我们设了多少来着，Grace问起来我不想翻记录。",
+ "reply": [
+  "凯哥，Q3 revenue target是$2.4M，实际收了$2.35M，差了$50K。Grace之前review时知道这个数，你回复她时可以说\"Q3实际2.35M，差了50K，主要因为Aurora deal推到Q4 close\"。Aurora那单$950K已经签了，Q4补回来没问题。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8818,
+   "out": 83,
+   "usd": 0.00009867424
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26053
+}

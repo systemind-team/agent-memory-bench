@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant does not draft any meeting minutes; it asks for clarification about the meeting time and details.",
+ "rule": false
+}

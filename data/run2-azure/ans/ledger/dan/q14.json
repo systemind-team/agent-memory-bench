@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q14",
+ "kind": "update",
+ "q": "who was the second candidate for data eng?",
+ "reply": [
+  "you've interviewed two data engineer candidates so far: maria torres (solid sql) and jordan liu (from spotify, good take-home). david chen was a contractor candidate later. which one were you thinking of?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "data eng second candidate"
+   },
+   "result": "[52] 12 Aug · fact: interview for data engineer candidate maria torres at 10  (from #92, #94)\n[53] 12 Aug · person: maria torres is a data engineer candidate, solid sql  (from #94)\n[104] 21 Aug · person: jordan liu is a data engineer candidate, was at spotify, good take-home  (from #174, #175)\n[356] 11 Oct · fact: teammate count: 4 eng. dan, tom, lena, sam. priya manages  (from #605)\n[71] 14 Aug · plan: need to restart interviews for data engineer  (from #117)\n[167] 07 Sep · fact: david chen is a candidate, contractor at doordash, knows dbt  (from #283)\n[82] 17 Aug · fact: dan sketched intervi"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3065,
+   "out": 22,
+   "usd": 0.000151906
+  },
+  {
+   "in": 3373,
+   "out": 55,
+   "usd": 0.000189242
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10807
+}

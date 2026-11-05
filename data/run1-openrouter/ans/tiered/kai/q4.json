@@ -1,0 +1,20 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "Customer interview里多少人requested dark mode？我记不清了。",
+ "reply": [
+  "凯哥，周日好！你记的是dark mode beta feedback从35个用户收集的，其中82%选了toggle方案。但如果你问的是更早的customer interview里多少人requested dark mode，我记得Yuki之前提过大概有15个enterprise客户在feedback里提到了dark mode需求。要我去搜一下具体数字吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 8815,
+   "out": 79,
+   "usd": 0.00009822764
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26058
+}

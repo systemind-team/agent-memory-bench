@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "Aurora deal scope change了几次，每次加了啥？",
+ "reply": [
+  "凯哥，我来查一下Aurora deal的scope change记录。\n\n从一开始到现在，Aurora的scope变化大概是这样的：\n\n1. **原始deal（800K，Q3 close）** — 标准产品，custom analytics module作为可选add-on，不能塞进当前deal，你提了Q1 2027单独定价。\n\n2. **加了custom reporting（新增）** — 9月8日Lily说Aurora想要custom reporting，比你之前评估的analytics模块小（约4周），你让Lily别先commit。9月10日Ravi确认4周可行，Lily准备SOW。\n\n3. **Q4 close + add-on（950K）** — 9月4日deal推到Q4，价值从800K升到950K，因为加了add-on。9月15日客户同意Q4 close + add-on option，950K保住。\n\n4. **custom module negotiation完成（额外50K）** — 9月17日custom module作为Q4 add-on签了，额外50K，总价值变1000K。\n\n5. **最终签约（950K deal closed）** — 9月26日Aurora合同签了，确认950K deal closed。10月13日custom module timeline确认Q1 2027。\n\n所以核心scope变化：原始deal → 加了custom reporting（小范围）→ 作为add-on签了额外50K。总价值从800K涨到950K（含add-on 50K）。没有大范围膨胀，但你当时担心的scope creep基本控制住了。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13515,
+   "out": 336,
+   "usd": 0.00018519284
+  }
+ ],
+ "memChars": 48506,
+ "promptChars": 53227
+}

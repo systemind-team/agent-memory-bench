@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claimed the first meeting with 蓝驰 was on 8月21号, but the chat log clearly shows it was scheduled for 8月19日上午十点 on Mon 10 Aug.",
+ "first": "wrong",
+ "rule": null
+}

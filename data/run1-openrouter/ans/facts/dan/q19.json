@@ -1,0 +1,47 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "which came first: sam joining or the migration incident?",
+ "reply": [
+  "migration incident was august. sam joined september 14.",
+  "so the incident came first — you were dealing with the aftermath when sam started.",
+  "you even showed him the rollback script from it on his second day."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam first day migration incident"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Sam started migration incident date"
+   },
+   "result": "- 13 Aug: Daniel plans to draft notes for the migration incident post-mortem. 28 Aug: Daniel will write the post-mortem report for the migration incident.\n- 01 Sep: Sam Ortiz start date is September 14. 11 Sep: Sam starts the day after Labor Day; the office is ready.\n- 13 Aug: Post-mortem concluded that the root cause was a missing index on the subscriptions table during migration. 28 Aug: The root cause of the migration incident was that the wrong migration file was run.\n- 16 Sep: Showed Sam the rollback script for the billing_status drop incident.\n- 06 Aug: One customer's data still out of s"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1565,
+   "out": 23,
+   "usd": 0.00004046196
+  },
+  {
+   "in": 1617,
+   "out": 23,
+   "usd": 0.00004257316
+  },
+  {
+   "in": 1908,
+   "out": 51,
+   "usd": 0.00003171672
+  }
+ ],
+ "memChars": 1367,
+ "promptChars": 5889
+}

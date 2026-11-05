@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply initially claims the panic was on Sep 15, which contradicts the chat evidence confirming it was August 18.",
+ "rule": null
+}

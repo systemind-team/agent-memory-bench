@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "Coco生日是几号来着？",
+ "reply": [
+  "让我查一下之前的记录。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3584,
+   "out": 7,
+   "usd": 0.0001460788
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8746
+}

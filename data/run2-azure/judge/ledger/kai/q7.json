@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant recalled $1.2M, but the correct sales figure from the chat is 600k.",
+ "rule": null
+}

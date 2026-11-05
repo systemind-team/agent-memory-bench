@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "我这学期TA的课号是多少？",
+ "reply": [
+  "你这学期TA的课是 **CS 571**，Prof. Li的课。每周二批50份作业，office hour是17:30-18:30（之前有次临时改到周三，但常规还是周二）。",
+  "明天周一meeting需要我把paper最新版和slides一起打包发你吗？还是你直接share screen讲？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "TA 课程"
+   },
+   "result": "[个人] 09 Aug: TA课程CS 571, Prof. Li, 每周二批50份作业\n[个人] 05 Oct: TA office hour 17:30-18:30\n[人物] 07 Sep: 有个TA学生代码跑不通，需检查依赖\n[个人] 15 Sep: TA批了50份作业，累但GPTR bug找到并修复\n[个人] 07 Sep: TA office hour下周二改为周三下午3点（之前周二）\n[个人] 07 Sep: 早上TA收到一批作业，有个学生代码跑不通，先检查环境依赖\n[个人] 15 Sep: TA批了50份作业；GPTR bug找到，是数据预处理少normalization（之前结果不对），重新提交等结果\n[个人] 12 Oct: 跑完attention heads对比，heads=8最优；GPTR在THOR上高2.5个点但有一个环境报错；下午TA office hour（学生问递归题）\n[about-me] 21 Oct: 继续看HotpotQA数据格式；上午批了20份TA作业，下午批30份；下午lab meeting，Dr. Chen入职定11月3日，Lin让我带他熟悉环境；Facebook fellowship截止12月20日；21 Oct 22:00 HotpotQA dataloader截断问题修复后重新跑\n[个人] 26 Sep: 上午修introducti"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3707,
+   "out": 21,
+   "usd": 0.000148694
+  },
+  {
+   "in": 4120,
+   "out": 82,
+   "usd": 0.000269584
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9611
+}

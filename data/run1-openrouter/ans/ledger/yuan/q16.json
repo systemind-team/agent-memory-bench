@@ -1,0 +1,38 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q16",
+ "kind": "aggregate",
+ "q": "我之前要加的那个baseline GPTR，从开始到现在都经历了什么？",
+ "reply": [
+  "周周，GPTR这个baseline从9月初开始经历了不少：",
+  "• 9月4日：你决定加GPTR作为新baseline，先复现代码",
+  "• 9月7-12日：开始debug，Mei说她之前跑也费了不少时间",
+  "• 10月12日：在AI2-THOR上验证结果比baseline高2.5个点，但有个环境一直报错",
+  "• 10月16日凌晨1:30：最终结果加进paper，比baseline高3个点",
+  "现在论文里已经包含了GPTR的结果。需要我今天在slides里把它跟其他baseline一起标出来吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "GPTR baseline"
+   },
+   "result": "[216] 04 Sep · fact: 实验想加baseline GPTR，需要先复现代码  (from #333)\n[278] 16 Sep · plan: Wed 16 Sep 10:00 需要跟其他baseline对比GPTR结果  (from #423)\n[483] 16 Oct · done: Fri 16 Oct 01:30 GPTR结果加进paper，比baseline高3个点  (from #742)\n[215] 04 Sep · plan: 周末（5-6 Sep）考虑加一个baseline叫GPTR，需要先复现其代码  (from #333)\n[256] 12 Sep · fact: Fri 11 Sep 14:00 Mei也跑过GPTR baseline，当时也费了不少时间  (from #386)\n[464] 13 Oct · fact: Mon 12 Oct 20:00 GPTR在AI2-THOR上验证结果比baseline高2.5个点，但有个环境一直报错  (from #717, #718)\n[4] 03 Aug · fact: Kevin的baseline出bug，调了一天  (from #5)\n[107] 20 Aug · done: Thu 20 Aug 11:45 baseline跑了三个  (from #188)\n[232] 07 Sep · "
+  }
+ ],
+ "calls": [
+  {
+   "in": 4591,
+   "out": 21,
+   "usd": 0.00004674684
+  },
+  {
+   "in": 4955,
+   "out": 153,
+   "usd": 0.00007224364
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11687
+}

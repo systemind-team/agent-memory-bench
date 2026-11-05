@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It accurately recalls the flaky test as test_billing_webhook and provides additional context consistent with the chat.",
+ "rule": null
+}

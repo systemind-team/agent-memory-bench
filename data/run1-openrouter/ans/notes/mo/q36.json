@@ -1,0 +1,62 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q36",
+ "kind": "pref_apply",
+ "q": "帮我写个周报草稿",
+ "reply": [
+  "周报草稿（11月1日，周一前）",
+  "",
+  "本周完成",
+  "- 崇明全员 offsite（10月28-29日），团队氛围不错",
+  "- 蓝驰第二笔到账，现金余额600万",
+  "- 大伟徐汇驿站签约推进中，成都合作稳定300单+/月",
+  "- 晨检iOS稳定，安卓适配进入内测阶段",
+  "",
+  "本周风险",
+  "- 安卓版11月中上线，测试时间紧张",
+  "- 红杉等待反馈，需跟进",
+  "",
+  "下周重点",
+  "- 大伟拓展新渠道，推动徐汇驿站落地",
+  "- 安卓版压测，准备上线",
+  "- 成都协会加单确认",
+  "",
+  "你觉得哪里要改"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周报格式"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "周报 格式"
+   },
+   "result": "[about-me] Sat 31 Oct: 陈默要求aicoo发周报\n[user-feedback-summary] Wed 19 Aug: 周报加用户反馈汇总\n[about-me] Mon 12 Oct: 陈默希望aicoo帮忙整理项目总结格式（新增）\n[about-me] Sun 06 Sep: 他们需要我帮忙盘点和排优先级，直说数据，不啰嗦；周报加「本周风险」；PR描述加Risk部分；称呼为陈默；回复不用感叹号；以后消息每段用空行隔开；不发贴图（moved from Tue 01 Sep，新增风格要求；Sat 19 Sep新增格式要求；Mon 21 Sep新增不发贴图）"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2449,
+   "out": 21,
+   "usd": 0.00002630068
+  },
+  {
+   "in": 2499,
+   "out": 22,
+   "usd": 0.00002841188
+  },
+  {
+   "in": 2691,
+   "out": 162,
+   "usd": 0.00004757508
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6252
+}

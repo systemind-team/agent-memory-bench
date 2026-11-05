@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply does not use the requested name 'dan the builder' in the greeting.",
+ "rule": false
+}

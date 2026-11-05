@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "Emily Tan的start date是几号来着? 是不是delay了?",
+ "reply": [
+  "Emily Tan的start date是10月26号，没有delay。她已经顺利开始onboarding了，上周完成了和Lily的手册交接，自己也主动约了Yuki和Ravi做intro meeting。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13315,
+   "out": 44,
+   "usd": 0.00015336244
+  }
+ ],
+ "memChars": 47637,
+ "promptChars": 52361
+}

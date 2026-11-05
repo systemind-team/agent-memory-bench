@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "The assistant added extra nodes (9/21 video call, 9/24 renegotiation, 9/29 legal review, 10/4 split payment details) not required by the gold answer, and included the 7500→7200 valuation reduction which isn't in the target summary, making the response overly detailed compared to the requested core nodes.",
+ "first": "wrong",
+ "rule": null
+}

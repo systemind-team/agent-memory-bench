@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply contains no bullet points and covers the requested week overview using only facts supported by the chat history.",
+ "rule": true
+}

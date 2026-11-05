@@ -1,0 +1,34 @@
+{
+ "arm": "full",
+ "id": "yuan",
+ "qid": "q13",
+ "kind": "temporal",
+ "q": "周五的guest talk是什么时候的事，speaker是谁？",
+ "reply": [
+  "那场guest talk是9月4日（周五）的事，speaker是MIT的Prof. Wang，主题是RL planning。你说听完觉得跟他做的方向有点关联。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "guest talk Prof. Wang MIT"
+   },
+   "result": "#321 Wed 02 Sep 18:00 Them: 周五有个guest talk，speaker是Prof. Wang from MIT，讲RL。\n#322 Wed 02 Sep 18:05 aicoo: 已记录到日历：周五 guest talk，Prof. Wang from MIT，RL主题。\n#323 Wed 02 Sep 20:00 Them: 晚上写实验部分，先整理ablation结果。\n---\n#320 Wed 02 Sep 14:00 Them: 组会结束了，Prof. Lin说实验部分可以开始写了。\n#321 Wed 02 Sep 18:00 Them: 周五有个guest talk，speaker是Prof. Wang from MIT，讲RL。\n#322 Wed 02 Sep 18:05 aicoo: 已记录到日历：周五 guest talk，Prof. Wang from MIT，RL主题。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 27983,
+   "out": 24,
+   "usd": 0.000895054
+  },
+  {
+   "in": 28197,
+   "out": 50,
+   "usd": 0.000954554
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 59359
+}

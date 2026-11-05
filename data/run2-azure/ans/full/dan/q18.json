@@ -1,0 +1,50 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "what day was the migration incident?",
+ "reply": [
+  "你指的是哪个迁移事故？有三个不同的：",
+  "1. 8月18日左右那次，`billing_status` 列被意外删除，需要回滚。",
+  "2. 8月28日（周二）那次，也是删列而不是重命名，Lena 在生产同步前发现了。",
+  "3. 9月15日那次，同样和 billing_status 有关，事故复盘已经完成，还创建了 CI 预演工单。",
+  "你是想问第一个还是第二个？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "migration incident date"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "dropped column incident"
+   },
+   "result": "#536 Sun 04 Oct 11:01 aicoo: flaky test gone. clean ci\n#537 Sun 04 Oct 12:30 Them: the dropped column incident was august 18. never forget.\n#538 Sun 04 Oct 12:31 aicoo: august 18. scarred into memory. never again\n---\n#217 Thu 27 Aug 17:20 aicoo: maybe he wants a new pair too\n#218 Fri 28 Aug 09:05 Them: migration incident on tuesday. dropped a column instead of renaming. rolled back.\n#219 Fri 28 Aug 09:05 aicoo: ouch. no data loss?"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21322,
+   "out": 22,
+   "usd": 0.000686548
+  },
+  {
+   "in": 21373,
+   "out": 22,
+   "usd": 0.000697258
+  },
+  {
+   "in": 21552,
+   "out": 113,
+   "usd": 0.000785808
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64108
+}

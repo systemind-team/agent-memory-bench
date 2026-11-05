@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant's response says the third change was on 2025-10-26/27, but the correct answer should be day 47 (2026-09-19), showing a wrong year and date.",
+ "rule": null
+}

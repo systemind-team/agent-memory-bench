@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "The reply includes some correct events but misses the key bug fix (normalization) that led to the result and includes an unsupported claim about Mei's help between Sep 7-12.",
+ "first": "partial",
+ "rule": null
+}

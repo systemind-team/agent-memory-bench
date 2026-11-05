@@ -1,0 +1,23 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "Integration rollout和roadmap review，哪个先发生的？",
+ "reply": [
+  "凯哥，我来查一下记录。",
+  "Integration rollout是在Sep 22上线的，当时Ravi确认了security audit cleared，最终上线日期是Sep 22（虽然原本是Sep 15，因为security audit delay了一周）。",
+  "Roadmap review有两个：一是Q3 roadmap review（比较早的），二是你问的应该是Q4 roadmap review？那个是Oct 10你给Grace做的presentation。所以从时间线上看，integration rollout（Sep 22）先于Q4 roadmap review（Oct 10）发生。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36316,
+   "out": 122,
+   "usd": 0.001233496
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91613
+}

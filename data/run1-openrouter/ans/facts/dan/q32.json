@@ -1,0 +1,21 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "morning dan. how was the run and halloween as toast and butter?",
+  "also — today's a good day to wrap that rollback section on the cutover checklist if you haven't yet. toms stripe refactor is in review, so you'll want both ready for monday."
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1296,
+   "out": 66,
+   "usd": 0.00003303216
+  }
+ ],
+ "memChars": 275,
+ "promptChars": 4748
+}

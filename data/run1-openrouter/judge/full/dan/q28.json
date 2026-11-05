@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the user read the draft and maybe gave verbal feedback, but the chat only shows a commitment to review by Wednesday with no follow-up; the correct answer is that the commitment was never closed.",
+ "rule": null
+}

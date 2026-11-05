@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "我这学期TA的课号是多少？",
+ "reply": [
+  "CS 571，Prof. Li的课，每周二批50份作业。",
+  "怎么突然问这个？是又要改作业了还是有其他事？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "TA 课程 CS 571"
+   },
+   "result": "- 下周要开始准备TA材料，下周二（TA课程CS 571）的office hour改为周三下午3点。\n- 13 Oct: 周予安这学期担任TA的课程是CS 571，Prof. Li的课，每周二要批50份作业。今天计划批改20份TA作业，发现学生对concept drift概念理解问题很大。14 Oct: 周三，早上继续改作业，还有30份。\n- 26 Sep: 需要先看TA那边的学生邮件。\n- 1: 周予安是CS PhD第三年，在Prof. Lin实验室。昵称：周周。希望aicoo称呼自己为'周周'。\n- 21 Oct: 上午批了20份TA作业，下午还有30份。\n- 12 Oct: 下午 TA office hour 答了一道递归题，感觉还行。\n- 10 Aug: 周予安需要确认Prof. Lin邮件中的秋季TA assignment。\n- 10 Aug: 周予安要求aicoo设置周三之前的TA确认提醒。\n- 11 Aug: 明天要早起，因为TA培训还有一个线上module没看\n- 26 Aug: 周予安开始TA批改，有50份作业，下午还有组会。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3901,
+   "out": 27,
+   "usd": 0.00006079444
+  },
+  {
+   "in": 4207,
+   "out": 40,
+   "usd": 0.00007427364
+  }
+ ],
+ "memChars": 5111,
+ "promptChars": 9397
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "我和Grace做Q4 roadmap review是几号来着，我记得是个周五。",
+ "reply": [
+  "凯哥，是10月10号周五，那天你present了Q4 roadmap deck给Grace，她approve了，只改了dark mode beta feedback deadline从Nov 1延到Nov 7。",
+  "那天之后你们还去了杭州offsite（10/20-21），整体节奏不错。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 36344,
+   "out": 71,
+   "usd": 0.00030893352
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91610
+}

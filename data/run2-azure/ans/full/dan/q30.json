@@ -1,0 +1,46 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "did i book the asheville flights like i promised ade?",
+ "reply": [
+  "yes, you booked delta flights on aug 29 for oct 22 morning. asheville cabin near blue ridge is booked too for oct 22-25. you're all set."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "asheville flights booked"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "asheville"
+   },
+   "result": "#716 Tue 20 Oct 14:01 aicoo: pixel. excellent name for a cat. waffles might have a new friend.\n#717 Tue 20 Oct 16:00 Them: ade is booking the asheville cabin. wants to confirm we leave oct 22 morning.\n#718 Tue 20 Oct 16:01 aicoo: oct 22 morning departure. delta flight is already booked.\n---\n#622 Mon 12 Oct 16:05 aicoo: 已注意到, 我会追踪\n#623 Tue 13 Oct 09:30 Them: asheville trip booked: oct 22-25. cabin near blue ridge\n#624 Tue 13 Oct 09:35 aicoo: 秋天去蓝岭, 完美时机\n---\n#497 Thu 01 Oct 10:00 Them: ade is looking at asheville hikes. oct 22-25\n#498 Thu 01 Oct 10:01 aicoo: asheville prep. nice\n#499 Thu 01 Oct "
+  }
+ ],
+ "calls": [
+  {
+   "in": 21329,
+   "out": 23,
+   "usd": 0.000688578
+  },
+  {
+   "in": 21381,
+   "out": 21,
+   "usd": 0.00450177
+  },
+  {
+   "in": 22024,
+   "out": 44,
+   "usd": 0.000846288
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64125
+}

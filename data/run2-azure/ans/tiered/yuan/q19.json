@@ -1,0 +1,23 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q19",
+ "kind": "aggregate",
+ "q": "论文实验最后用了几个环境？",
+ "reply": [
+  "周周，最后用了4个环境：",
+  "1. 环境1：82%\n2. 环境2：78%\n3. 环境3：89%（重点结果）\n4. 环境4（HotpotQA改进版）：55%（标注为preliminary）",
+  "今天下午3点组会前，需要我帮你再过一遍slides吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 6854,
+   "out": 87,
+   "usd": 0.000296636
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16037
+}

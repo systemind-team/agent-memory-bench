@@ -1,0 +1,22 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "晚安aicoo，明天叫我。",
+ "reply": [
+  "晚安周周。明天9:30跟Prof. Lin的线上meeting，我会提前叫你的。",
+  "好好睡，这周确实很累。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3922,
+   "out": 40,
+   "usd": 0.000296132
+  }
+ ],
+ "memChars": 5717,
+ "promptChars": 10061
+}

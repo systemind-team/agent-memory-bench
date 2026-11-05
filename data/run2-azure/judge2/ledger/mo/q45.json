@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The chat provides no specific date for the second tranche; #507 says mid-November, #624 says end of month, and #665 confirms arrival on Oct 26, which the assistant misstates as the date while also fabricating details about cash and the Red杉 meeting.",
+ "first": "made_up",
+ "rule": null
+}

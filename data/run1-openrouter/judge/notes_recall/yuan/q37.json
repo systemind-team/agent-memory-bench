@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant's reply drafts an email but does not use the required opening 'Lin老师好' and closing '祝好，予安' that were set on Sep 16.",
+ "rule": false
+}

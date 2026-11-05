@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply correctly lists the contacted VCs (云九, 蓝驰, 高榕, 红杉) and identifies the eliminated ones (云九, 高榕, 红杉) with supported reasons from the chat.",
+ "rule": null
+}

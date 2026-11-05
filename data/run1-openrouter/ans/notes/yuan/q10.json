@@ -1,0 +1,34 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "Dr. Chen入职是哪天？",
+ "reply": [
+  "11月3日，就是这周二。今天已经是周日了，所以后天。",
+  "早上10:00的提醒已经设好了，带你带Dr. Chen走一遍GPU集群、存储和代码仓库。"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Dr. Chen 入职"
+   },
+   "result": "[实验室] 18 Oct: 组里来了new postdoc Dr. Chen，下月入职\n[实验室] 21 Oct: 下午lab meeting，Dr. Chen入职定11月3日，Lin让我带他熟悉环境\n[个人] 30 Oct 11:00: 写完实验部分初稿发到overleaf；31 Oct slides做完，准备下周：Dr. Chen周二入职需带他熟悉环境\n[实验室] 29 Oct 14:35: 全部四个环境完整实验结果: 环境1 82%, 环境2 78%, 环境3 89%, 环境4 55%；aicoo已生成latex表格代码；下周一meeting讨论论文投稿时间和Dr. Chen入职\n[个人] 21 Oct: 上午批了20份CS 571作业，下午继续批30份；下午lab meeting，Dr. Chen入职定11月3日；21 Oct 22:00 HotpotQA跑了一版效果不好，截断问题调整后重新跑\n[个人] 29 Oct 14:35: 全部四个环境完整实验结果: 环境1 82%, 环境2 78%, 环境3 89%, 环境4 55%；aicoo已生成latex表格代码；下周一meeting讨论论文投稿时间和Dr. Chen入职\n[项目] 29 Oct 14:35: 全部四个环境完整实验结果: 环境1 82%, 环境2 78%, 环境3 89%, 环境4 55%；aicoo已生成l"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3729,
+   "out": 19,
+   "usd": 0.00003653188
+  },
+  {
+   "in": 4383,
+   "out": 51,
+   "usd": 0.00006568268
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9612
+}

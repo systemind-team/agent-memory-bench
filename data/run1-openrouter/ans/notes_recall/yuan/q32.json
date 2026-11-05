@@ -1,0 +1,23 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "早上好aicoo，这周什么安排？",
+ "reply": [
+  "早上好周周！睡得好吗？这周事情不少：",
+  "1. 周一9:30线上meeting（Prof. Lin出差，zoom链接还没给，要不要催一下？）\n2. 周二Dr. Chen入职，10:00带他熟悉环境\n3. 论文slides Lin看完后等反馈，准备后续修改\n4. 如果AAAI deadline 12月，现在时间线开始紧了",
+  "另外上周末说好自动发邮件给Lin，已经发了——论文最新版+overleaf链接+实验表格。今天上午可以先看看他有没有回复。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4015,
+   "out": 134,
+   "usd": 0.00007411124
+  }
+ ],
+ "memChars": 5867,
+ "promptChars": 10214
+}

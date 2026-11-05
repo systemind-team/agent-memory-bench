@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The chat only mentions one scope change: add-ons raised value from 800k to 950k, but aicoo incorrectly reports multiple changes including a custom reporting addition and a further rise to 1000K.",
+ "rule": null
+}

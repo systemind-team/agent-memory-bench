@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The reply acknowledges grouping feedback by feature was done before but doesn't apply that structure to the current summary, instead listing by survey channel.",
+ "rule": false
+}

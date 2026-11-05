@@ -1,0 +1,22 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "早上好，dan the builder。cutover checklist 上星期五完成了吗？今天的计划是检查 rollback 步骤还是准备明天的 dry run？",
+  "还有，biscuit 今天乖吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 21317,
+   "out": 49,
+   "usd": 0.000700618
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64075
+}

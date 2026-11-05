@@ -1,0 +1,47 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "小雨招的兼职客服主管，一个月多少钱？",
+ "reply": [
+  "小雨之前招的那个兼职客服主管，月费6千",
+  "你是想问这个人的薪资，还是后来晚班加的那个兼职（每月多4000）"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "兼职客服主管 小雨 工资"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "兼职客服主管 小雨"
+   },
+   "result": "[185] 19 Sep · fact: 小雨请了北京一个兼职客服主管，月费6千  (from #362)\n[186] 19 Sep · fact: 兼职客服主管今天上岗，顶到18号  (from #363)\n[208] 22 Sep · fact: 北京兼职主管在跟客服，今早培训了两个临时客服  (from #395)\n[337] 25 Oct · decision: 客服加一个兼职晚班，每月多4000  (from #652, #653, #654)\n[194] 20 Sep · plan: 小雨下午销假回来，北京主管明早交接  (from #374)\n[184] 18 Sep · feeling: 小雨不在，客服响应慢了，投诉多了  (from #360)\n[274] 06 Oct · fact: 小雨请假了，客服外包响应还行  (from #522)\n[175] 15 Sep · done: 小雨签回客服外包合同，4万2含税  (from #343)\n[131] 02 Sep · decision: 客服预算小雨压到4万2，行，签合同吧  (from #232, #233)\n[207] 22 Sep · ask: 小雨请假期间客服响应慢，问这周谁盯着  (from #394)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2601,
+   "out": 25,
+   "usd": 0.000468562
+  },
+  {
+   "in": 2655,
+   "out": 23,
+   "usd": 0.00011219
+  },
+  {
+   "in": 2972,
+   "out": 40,
+   "usd": 0.00018828
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6692
+}

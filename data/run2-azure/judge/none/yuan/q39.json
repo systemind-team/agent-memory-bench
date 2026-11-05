@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant cannot find the meeting details in chat history and asks the user to provide the content before organizing notes.",
+ "rule": false
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It says the initial cutover was Nov 15 and mentions Oct 12 and Nov 15, but it completely misses Nov 5 and lists the dates in the wrong order.",
+ "rule": null
+}

@@ -1,0 +1,23 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+ "reply": [
+  "凯哥周日好。这周确实很密集，几个关键时间点我帮你理一下：",
+  "周一 10:00 pricing review prep（你自己先过）；10:30 跟Grace和Ben的pricing launch decision meeting，同时问Grace SEA headcount approval timeline。周一还要找Lily要Aurora customer quote、找Omar要Singapore两个大客户的quote，补进Q3 customer wins summary。",
+  "周二到周五：确认Ravi integration final timeline、Emily weekly check-in、pricing A/B final数据确认后12/1 launch路线、如果Grace批了headcount timeline就开始准备Singapore office expansion JD。另外你父亲情况稳定了，但周一早上还是问一下。下午4点女儿学校活动，别忘了。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3342,
+   "out": 163,
+   "usd": 0.00007408688
+  }
+ ],
+ "memChars": 6974,
+ "promptChars": 11710
+}

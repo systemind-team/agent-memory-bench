@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The dates in the reply (Sep 1, Aug 28) don't match the chat, which only shows Aug 28 and Sep 1—not Aug 26/30 as the ground truth requires.",
+ "rule": null
+}

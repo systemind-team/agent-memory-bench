@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The response contains exclamation marks (in '凯哥周日好！' and '开心到飞起，这就是最好的消息了😊'), which violates the requirement that the reply must not contain exclamation marks.",
+ "rule": false
+}

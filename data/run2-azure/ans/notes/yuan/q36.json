@@ -1,0 +1,82 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q36",
+ "kind": "pref_apply",
+ "q": "帮我生成这周的周报草稿，这周主要做了GPTR实验调优，论文intro改完了。",
+ "reply": [
+  "{\"reply\": [\"好，这周周报我按你上周的主要进展来组织。不过我需要确认一下——你说的\" \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "GPTR 实验 调优 论文 intro 改完"
+   },
+   "result": "[实验室] 04 Aug: 论文intro第四版仍不满意\n[个人] 11 Oct: 写完论文实验部分，三个环境结果全部放入（之前10 Oct三个环境跑通）\n14 Oct: 改完50份CS 571作业，发给Prof. Li（13 Oct晚改20份，14 Oct早改完剩余30份）\n[项目] 30 Sep: intro改完发给Prof. Lin，他说改得不错但abstract可精简；30 Sep: 上午aicoo提供abstract draft（LLM gap、框架、hierarchical+attention、实验），已润色完成，论文基本finalize只剩formatting和proofread；01 Oct: 决定投ICLR，deadline 11月15日，与fellowship冲突但能搞定；开始proofread（之前30 Sep未定投哪个）\n[项目] 06 Sep: 早上改intro，下午guest talk，晚上GPTR终于跑起来但结果不对需debug\n[个人] 06 Sep: 早上改intro，下午guest talk，晚上GPTR终于跑起来但结果不对需debug\n[个人] 06 Sep: 早上继续改intro，下午去听guest talk，GPTR跑起来了但结果不对待debug\n[个人] 14 Oct: 改完50份CS 571作业，发给Prof. Li（13 Oct晚改2"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "01 Nov 02 Nov 周报"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "week report 周报"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "31 Oct 01 Nov 周报 这周"
+   },
+   "result": "[人物] 25 Aug: Mei的NeurIPS rebuttal这周要提交，答应帮她看看，周五前给反馈；01 Sep 已发反馈，她说很有用（reminder已关）\n[个人] 20 Sep: 今天早点休息，这周太累了\n[个人] 10 Aug: 需检查周报引用格式，周末前回复\n[个人] 05 Oct: 晚上写实验结果；Facebook fellowship截止日12月20日（moved to Dec 20, was Oct 31）\n[个人] 13 Aug: 周报末尾需加\"本周遇到的坑和解决思路\"段，已记录\n[个人] 14 Aug: 提醒我每周周报末尾加\"本周遇到的坑和解决思路\"段（已记录）\n[个人] 21 Aug: 这周组会Kevin分享了一篇ICML 2023的论文，关于graph的；26 Aug Kevin组会presentation改到9月14号\n[个人] 30 Oct 11:00: 写完实验部分初稿发到overleaf；31 Oct slides做完，准备下周：Dr. Chen周二入职需带他熟悉环境\n[about-me] 30 Oct 11:00: 写完实验部分初稿发到overleaf；aicoo检查数据一致性，修正环境2结果79%→78% (was 79%)；31 Oct slides做完，目标12月投稿\n[个人] 31 Aug: 下午润色论文实验部分，加表格解释"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "intro 改完 论文 intro"
+   },
+   "result": "[实验室] 04 Aug: 论文intro第四版仍不满意\n[项目] 30 Sep: intro改完发给Prof. Lin，他说改得不错但abstract可精简；30 Sep: 上午aicoo提供abstract draft（LLM gap、框架、hierarchical+attention、实验），已润色完成，论文基本finalize只剩formatting和proofread；01 Oct: 决定投ICLR，deadline 11月15日，与fellowship冲突但能搞定；开始proofread（之前30 Sep未定投哪个）\n[个人] 11 Oct: 写完论文实验部分，三个环境结果全部放入（之前10 Oct三个环境跑通）\n14 Oct: 改完50份CS 571作业，发给Prof. Li（13 Oct晚改20份，14 Oct早改完剩余30份）\n[项目] 23 Aug: 改完了，明天再review一遍\n[个人] 23 Aug: 改完了，明天再review一遍\n[个人] 14 Sep: 下午改intro并发给Prof. Lin\n[项目] 14 Sep: intro新版本已发给Prof. Lin\n[项目] 29 Sep: full pipeline跑完无bug，开始改introduction；29 Sep: 收到Prof. Lin comments，contribution聚焦hier"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3723,
+   "out": 31,
+   "usd": 0.000157654
+  },
+  {
+   "in": 4187,
+   "out": 26,
+   "usd": 0.000252294
+  },
+  {
+   "in": 4242,
+   "out": 23,
+   "usd": 0.000262164
+  },
+  {
+   "in": 4294,
+   "out": 29,
+   "usd": 0.000184796
+  },
+  {
+   "in": 4658,
+   "out": 25,
+   "usd": 0.000258996
+  },
+  {
+   "in": 5129,
+   "out": 2000,
+   "usd": 0.001372258
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9636
+}

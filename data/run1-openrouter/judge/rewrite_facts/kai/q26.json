@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct answer requires father hospitalized (Aug 14), daughter's school play (Sep 4), father's follow-up (Oct 8/9), but the reply lists fabricated events like daughter fever in early August and late October cough that don't appear in the chat.",
+ "rule": null
+}

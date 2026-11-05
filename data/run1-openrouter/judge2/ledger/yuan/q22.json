@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims 3 or 4 title changes, but the conversation shows 5 distinct title updates: Planning with Hierarchical Graphs, Hierarchical Planning with Graph Attention, Context-Aware Hierarchical Planning for LLMs, Context-Aware Planning, and Context-Aware Planning via Hierarchical Decomposition.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply gives three trips but the chat only shows two flights in Q3–Q4: the Sep 1 flight and the Oct 6 conference, and it misdates/mischaracterizes both.",
+ "rule": null
+}

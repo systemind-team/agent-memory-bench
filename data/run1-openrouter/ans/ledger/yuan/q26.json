@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q26",
+ "kind": "update",
+ "q": "Context-Aware Hierarchical Planning for LLMs这个标题存在过吗？",
+ "reply": [
+  "存在过，9月14号到27号之间标题是 Context-Aware Hierarchical Planning for LLMs，后来改成了现在的 Context-Aware Planning via Hierarchical Decomposition。",
+  "你记这个是为了一致性检查？需要我把所有文档里过期的标题引用都查一遍吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Context-Aware Hierarchical Planning for LLMs"
+   },
+   "result": "[268] 14 Sep · fact: Sun 13 Sep 22:30 论文标题改为Context-Aware Hierarchical Planning for LLMs  → replaced 27 Sep by [329] Sun 27 Sep 01:00 论文标题改为Context-Aware Planning  (from #405)\n[553] 27 Oct · fact: Mon 26 Oct 18:45 论文标题改为Context-Aware Planning via Hierarchical Decomposition  (from #862)\n[560] 28 Oct · fact: Tue 27 Oct 22:30 论文标题更新为Context-Aware Planning via Hierarchical Decomposition  (from #873)\n[554] 27 Oct · fact: Mon 26 Oct 23:40 论文标题最终定为Context-Aware Planning via Hierarchical Decomposition  → replaced 28 Oct by [560] Tue 27 Oct 22:30 论文标题更新为Context-Aware Planning via Hierarchical Decomposi"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4590,
+   "out": 27,
+   "usd": 0.00004719344
+  },
+  {
+   "in": 5119,
+   "out": 69,
+   "usd": 0.00007208124
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11705
+}

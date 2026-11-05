@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "Ravi那个integration本来due Sep 15，最后哪天go live的？",
+ "reply": [
+  "凯哥，周日好。\n\n你问的是integration go live日期——最后是 **9月22日** 上的线，比原定的9月15号晚了一周，主要是因为security audit的delay。上线后Ravi反馈稳定，10月中还做了performance优化，提升了30%。\n\n今天周日，是不是在陪家人？有什么需要我帮忙的随时说。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12768,
+   "out": 77,
+   "usd": 0.00011720408
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50354
+}

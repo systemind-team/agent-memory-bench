@@ -1,0 +1,46 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "对了，Prof. Lin说过春季intern有几个名额来着？",
+ "reply": [
+  "Prof. Lin说过实验室明年春季的intern名额是**3个**，8月初聊的。",
+  "不过最近没再提这个，是打算开始申请了？需要我帮忙整理一下材料清单吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "intern 春季"
+   },
+   "result": "#9 Mon 03 Aug 18:47 Them: 先不用，到时候再说。\n#10 Mon 03 Aug 23:30 Them: 今天跟Prof. Lin聊了，他说实验室明年春季的intern名额只有3个。\n#11 Mon 03 Aug 23:31 aicoo: 那竞争应该挺激烈的，你要申请吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "spring intern"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3588,
+   "out": 33,
+   "usd": 0.0001483524
+  },
+  {
+   "in": 3709,
+   "out": 20,
+   "usd": 0.0001522094
+  },
+  {
+   "in": 3758,
+   "out": 52,
+   "usd": 0.00004038888
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8764
+}

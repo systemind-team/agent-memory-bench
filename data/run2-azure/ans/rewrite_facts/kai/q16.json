@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q16",
+ "kind": "update",
+ "q": "Aurora最初名字是Aurora啥，我记得有歧义。",
+ "reply": [
+  "Aurora Health，不是Aurora TTech。10月11日你更正过的，已经记下来了。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3300,
+   "out": 31,
+   "usd": 0.000297944
+  }
+ ],
+ "memChars": 6969,
+ "promptChars": 11682
+}

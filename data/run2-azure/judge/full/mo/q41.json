@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "aicoo states a specific vacation date (9月14号到18号, 2020年9月) that was never mentioned in the chat, instead of saying it doesn't know.",
+ "rule": null
+}

@@ -1,0 +1,46 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "what was the old pagerduty key before the first change?",
+ "reply": [
+  "the first key i remember is 3F8D1A — that was the one before the change on 24 Sep to 7C2E9B. there was also 9A7B2C before that but it got revoked after the sep 15 incident. which one were you thinking of?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "PagerDuty key first change old"
+   },
+   "result": "[checkout-spec] 14 Oct: Lena's PagerDuty key was 5B1C6D before last change\n[stripe-webhook] 24 Sep: PagerDuty key changed to 7C2E9B (was 3F8D1A)\n[candidate-sam] 08 Oct: Sam asked about old on-call key 9A7B2C; told it was revoked after Sep 15 incident\n[pagerduty-key] 20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n[stripe-webhook] 10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved\n[pagerduty-key] 26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am\n[candidate-david-chen] 23 Oct: David had first code review by Tom; solid first PR with some "
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "pagerduty-key"
+   },
+   "result": "PagerDuty key\n20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2794,
+   "out": 26,
+   "usd": 0.00014306
+  },
+  {
+   "in": 3116,
+   "out": 23,
+   "usd": 0.000163176
+  },
+  {
+   "in": 3208,
+   "out": 70,
+   "usd": 0.000162992
+  }
+ ],
+ "memChars": 5407,
+ "promptChars": 9986
+}

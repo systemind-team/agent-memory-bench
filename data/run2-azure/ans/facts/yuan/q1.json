@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "对了，Prof. Lin说过春季intern有几个名额来着？",
+ "reply": [
+  "3个名额，8月初的时候他说的。你当时还想试试申请来着，但说要看论文进度。",
+  "现在论文进度不错，实验也基本收尾了，今天meeting可以顺便问问名额是不是还open着？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Prof. Lin 春季 intern 名额"
+   },
+   "result": "- 03 Aug: Prof. Lin说实验室明年春季的intern名额只有3个。\n- 03 Aug: 想试试申请春季intern，但还得看论文进度。\n- 17 Sep: Prof. Lin reminded me about the fellowship.\n- 28 Aug: 第一次fellowship draft周五前要交给Prof. Lin看，已发draft给Prof. Lin。\n- 22 Oct: 下午3点和Prof. Lin meeting。\n- 12 Aug: meeting中，Prof. Lin说paper framework还行\n- 29 Aug: 改好research statement并发回给Prof. Lin。\n- 25 Sep: Prof. Lin对讨论方向满意。\n- 02 Oct: Prof. Lin对paper很满意，建议投ICLR。\n- 17 Sep: Meeting with Prof. Lin completed, experimental part can start being written."
+  }
+ ],
+ "calls": [
+  {
+   "in": 1541,
+   "out": 26,
+   "usd": 0.000246522
+  },
+  {
+   "in": 1755,
+   "out": 56,
+   "usd": 0.000124966
+  }
+ ],
+ "memChars": 586,
+ "promptChars": 4889
+}

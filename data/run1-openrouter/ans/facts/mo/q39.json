@@ -1,0 +1,58 @@
+{
+ "arm": "facts",
+ "id": "mo",
+ "qid": "q39",
+ "kind": "pref_apply",
+ "q": "把今天重点列一下发我",
+ "reply": [
+  "好的，今天周日先给你列个本周（11/2-11/8）重点：",
+  "1. 大伟继续推新渠道拓展，成都合作落地推进\n2. 安卓版 11月中上线准备，盯测试和提审\n3. 蓝驰复盘推到11月，先准备好数据材料\n4. 现金流预测表更新，标好9-10月缺口\n\n要不要我把这些排成每日任务发到群里？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "本周重点"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周重点"
+   },
+   "result": "#707 Sat 31 Oct 09:05 aicoo: 本周完成崇明 offsite，蓝驰第二笔到账，账上600万\n#708 Sat 31 Oct 09:10 Them: 下周重点是什么\n#709 Sat 31 Oct 09:15 aicoo: 大伟拓展新渠道，成都合作推进，安卓版11月中上线准备"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "本周任务 重点 计划"
+   },
+   "result": "- 09 Sep: 陈默让aicoo排好大伟的任务优先级，因为大伟今天在弄增长计划，先别打扰他。\n- 陈默需要蓝驰的现金流预测表，重点标了9-10月缺口\n- 13 Sep: 下周计划上线晨检并推进融资\n- 28 Oct: 陈默安排本周全员offsite去崇明，由aicoo负责\n- 27 Oct: 蓝驰合伙人的复盘从本周推到11月\n- 21 Sep: 要求本周五前由aicoo催大伟提交具体指标。\n- 21 Sep: 客服响应慢，小雨请假，需要明确本周谁盯着。\n- 21 Sep: 必须在本周内确定9月25号上线的最终checklist。\n- 02 Oct: 大伟计划下周二带设备去凯旋路驿站部署。\n- 计划8月底提交iOS审核，9月初上线以赶得上期限，iOS需加把劲拉高DAU。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1395,
+   "out": 19,
+   "usd": 0.00018667
+  },
+  {
+   "in": 1444,
+   "out": 19,
+   "usd": 0.00019304
+  },
+  {
+   "in": 1558,
+   "out": 23,
+   "usd": 0.00020898
+  },
+  {
+   "in": 1811,
+   "out": 104,
+   "usd": 0.00026455
+  }
+ ],
+ "memChars": 361,
+ "promptChars": 4271
+}

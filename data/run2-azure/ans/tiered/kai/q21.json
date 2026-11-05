@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "Pricing那个Nov 1 launch和Nov 15 delay，中间隔了多久？",
+ "reply": [
+  "凯哥，你是指Ben的pricing v3 launch timeline变化对吧？我查了一下记录：原计划是8月定的Nov 1 launch，后来9月Ben提议推迟到Nov 15因为A/B测试需要更多时间。最后10月21日敲定Dec 1正式launch，因为A/B测试8% conversion lift的data要跑满到11月底。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8796,
+   "out": 88,
+   "usd": 0.000338424
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26052
+}

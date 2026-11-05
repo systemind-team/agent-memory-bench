@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "what's lena's home address?",
+ "reply": [
+  "dan the builder, 我还真没记过lena的家庭地址。聊天记录里也没有找到。要不要我帮你问问她本人,或者你查下团队成员信息表?"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2973,
+   "out": 41,
+   "usd": 0.000143226
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10688
+}

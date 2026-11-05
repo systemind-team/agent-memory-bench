@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "aicoo, 早，这周怎么安排的?",
+ "reply": [
+  "凯哥早！周日休息日还来想工作的事啊😄 不过你问了我肯定帮你梳理。",
+  "这周核心几件事：\n1️⃣ 周一10:00 pricing review prep → 10:30跟Grace和Ben确认12/1 launch decision\n2️⃣ 周一跟Grace对齐SEA expansion headcount approval timeline（记得还要draft JD，答应你的）\n3️⃣ 跟Ravi确认integration final timeline + dark mode toggle v1 sprint进度\n4️⃣ 找Lily要Aurora quote，找Omar要Singapore两个大客户的quote，补Q3 customer wins summary的customer quotes section\n5️⃣ Emily的weekly check-in\n\n另外你父亲的情况，周一早上记得问问妈妈。今天先好好休息，公园走走了吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5101,
+   "out": 175,
+   "usd": 0.00006332788
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14901
+}

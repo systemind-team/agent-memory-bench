@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q12",
+ "kind": "update",
+ "q": "Pricing launch date最后定在什么时候了，Ben改了好几次？",
+ "reply": [
+  "凯哥，12月1日。Ben最初说要11月1日，后来因为A/B测试推到11月15日，10月21日offsite上你拍板定在12月1日，Ben也同意了。现在A/B测试11月3日继续跑，conversion lift 8%已确认。",
+  "周一10:30你和Grace、Ben的pricing launch decision meeting，正好可以finalize这个日期。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 8816,
+   "out": 99,
+   "usd": 0.00008326248
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26048
+}

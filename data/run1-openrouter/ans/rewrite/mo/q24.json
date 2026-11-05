@@ -1,0 +1,23 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "蓝驰从第一次接触到打款，关键节点有哪些？",
+ "reply": [
+  "From first contact to money in, the timeline:",
+  "Aug 19: first meeting. Sep 3: talked terms. Sep 10: signed TS at 7500万. Sep 24: they re-cut to 7200万, you accepted. Oct 4: they split into two tranches. Oct 14: first 300万 hit. Oct 26: second 300万 hit.",
+  "Key moments: the Sep 21 user growth model video call and the Sep 24 renegotiation. Total about two and a half months from first meeting to full funding."
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4037,
+   "out": 126,
+   "usd": 0.0001741334
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8495
+}

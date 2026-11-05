@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "list every pagerduty key we used for on-call.",
+ "reply": [
+  "根据我记录的笔记，这里是我们用过的所有PagerDuty on-call key：\n\n1. 旧的key **9A7B2C**（9月15日事件后已撤销）\n2. **3F8D1A**（8月10日前后，后来换了）\n3. **7C2E9B**（9月24日换的，替换了3F8D1A，10月26日测试过没问题）\n4. **5B1C6D**（Lena在10月14日前的key，是临时用的？）\n5. **A4B8C2**（10月20日新key，给下一轮on-call用的）\n\n另外Sam Ortiz 10月8日问过旧key 9A7B2C，你说9月15日事件后已撤销。当前有效的应该是7C2E9B还是A4B8C2？我记得10月26日你记的7C2E9B还在用，但A4B8C2是20号存的新key——需要我帮你确认一下当前轮换用的是哪个吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2841,
+   "out": 260,
+   "usd": 0.0001364566
+  }
+ ],
+ "memChars": 5498,
+ "promptChars": 10067
+}

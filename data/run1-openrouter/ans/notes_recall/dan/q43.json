@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "what's ade's marathon time goal?",
+ "reply": [
+  "didn't mention a specific time goal in our notes, just that she signed up for philly marathon nov 5 and you're pacing her",
+  "have you two talked about target pace? i can add it to your running log if you want"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Ade marathon Philadelphia Nov 5 goal time"
+   },
+   "result": "[running] 03 Oct: Ade signed up for Philadelphia marathon Nov 5; Dan pacing her (was running a marathon)\n[billing-migration] 08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushback; later moved to Oct 12 per Priya (was 28 Aug: migration incident on Tuesday; dropped column `billing_status` instead of renaming; rolled back; Lena caught before prod sync; post-mortem done, root cause: wrong migration file ran)\n[billing-split] 18 Sep: cutover moved to Oct 12 (was Nov 15)\n[candidate-david-chen] 21 Oct: Priya approved rotation, starts Nov 1\n[running] 25 Sep: 5 miles easy, Biscuit "
+  }
+ ],
+ "calls": [
+  {
+   "in": 2781,
+   "out": 27,
+   "usd": 0.00004858196
+  },
+  {
+   "in": 3134,
+   "out": 57,
+   "usd": 0.00006534976
+  }
+ ],
+ "memChars": 5452,
+ "promptChars": 10008
+}

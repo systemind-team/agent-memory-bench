@@ -1,0 +1,35 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "this week is looking full. the big one is the DB migration wed 2am EST — you're on call for that, and the rollback plan is already shared with Priya and Sam. dry run is set for Mon night.",
+  "cutover checklist is almost done, just needs the rollback steps added (include dry run results). Priya asked for it by Fri, so you've got time.",
+  "also: battery at 79%. you said you'd order a new one this week. maybe do that before wed so it's here before cutover."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "week schedule migration cutover"
+   },
+   "result": "#564 Tue 06 Oct 11:05 aicoo: tom mentioned he has one more cleanup pr for the old handler. eta tomorrow\n#565 Tue 06 Oct 14:30 Them: billing migration tickets look green. i want to keep the ci dry run scheduled weekly until cutover\n#566 Tue 06 Oct 14:35 aicoo: done. added a weekly cron reminder every monday at 09:00"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5322,
+   "out": 23,
+   "usd": 0.0000516432
+  },
+  {
+   "in": 5448,
+   "out": 121,
+   "usd": 0.0000647164
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17901
+}

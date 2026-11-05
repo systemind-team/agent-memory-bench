@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant's standup notes use bullet points with timestamps ('yesterday (sat 31 oct)' and 'today (sun 01 nov)'), matching the user's preference from Fri 04 Sep.",
+ "rule": false
+}

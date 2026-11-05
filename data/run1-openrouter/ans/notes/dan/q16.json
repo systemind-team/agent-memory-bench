@@ -1,0 +1,34 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "从聊天记录看，Priya 第一次调整 cutover 时间是在 8月11日，她把原定 10月12日 的日期提前到了 9月28日。她说 10月12日太紧了。",
+  "后来8月19日她又移了一次，推到 11月5日，说要留出缓冲空间。需要我帮你把这两个变动加进 migration 笔记里吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya cutover moved"
+   },
+   "result": "#160 Wed 19 Aug 10:45 aicoo: glad it was minor. you're off rotation friday, right?\n#161 Wed 19 Aug 14:30 Them: cutover date moved. priya says nov 5 now. gives breathing room.\n#162 Wed 19 Aug 14:31 aicoo: that's huge. less stress.\n---\n#86 Tue 11 Aug 12:32 aicoo: nice. dig inn's bowls are solid\n#87 Tue 11 Aug 14:00 Them: back. priya wants cutover timeline moved to sep 28. she thinks oct 12 is too tight\n#88 Tue 11 Aug 14:02 aicoo: that's two weeks earlier — makes sense given the work left"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2518,
+   "out": 19,
+   "usd": 0.00002893968
+  },
+  {
+   "in": 2712,
+   "out": 93,
+   "usd": 0.00004282488
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9096
+}

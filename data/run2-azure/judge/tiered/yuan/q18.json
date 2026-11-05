@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "GPTR复现主要集中在9月，回复却将大部分事件错置到10月，并编造了多处对话中不存在的细节（如修改lr、AI2-THOR验证、real-world scenario等）。",
+ "rule": null
+}

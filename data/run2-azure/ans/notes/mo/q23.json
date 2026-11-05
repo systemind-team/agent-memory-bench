@@ -1,0 +1,49 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "我们接触过哪些 VC，后来哪些出局了？",
+ "reply": [
+  "接触过的VC有三家：云九、蓝驰、红杉。",
+  "云九最早聊完但要求DAU破2000再谈，后来我们达标了，但他们已经投了竞品，凉了出局。",
+  "红杉最早约过一波，后来又找回来推到10月20日，最后又推掉；10月初又联系但都止步在约会议层面，没有实质推进，算是在外围徘徊但没进来。",
+  "蓝驰是唯一签了TS、估值谈到7200万、且两笔都到账的，账上现在600万。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "VC investors seed round"
+   },
+   "result": "[ajie-salary] Sat 22 Aug: 阿杰薪资最终定3万5（之前3万8），期权等seed轮定了再说\n[ajie-salary] Tue 04 Aug: 阿杰薪资谈到税前4万，期权等seed轮定了再说\nSat 08 Aug: 下周三（8月12日）需提醒发薪资确认邮件给阿杰（新增承诺）"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "seed round investors 蓝驰 红杉 云九"
+   },
+   "result": "[seed-round-investors] Sat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型；红杉周三下午改为线下，需演示产品（moved from Thu 03 Sep，新增红杉线下会议；之前红杉约聊已拖）\n[seed-round-investors] Mon 24 Aug: 云九无回音，标记周三（8月26日）再次跟进（之前待定DAU破2000）；砍掉红杉接触，专注蓝驰深聊；蓝驰下周转到账第一笔（需催邮件）\n[seed-round-investors] Wed 16 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型（新增）；9月20日改为线下会议\n[seed-round-investors] Fri 07 Aug: 按云九、蓝驰、高榕排优先级，先约云九，已约云九8月12日下午2点（moved from Mon 03 Aug，新增具体时间）\n[ajie-salary] Sat 22 Aug: 阿杰薪资最终定3万5（之前3万8），期权等seed轮定了再说\n[seed-round-investors] Thu 24 Sep: 蓝驰电话说估值要重新谈，认为用户数据不够支撑7500万；aicoo与蓝驰谈判，估值砍到7200万（对方要求不砍最好，"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2431,
+   "out": 22,
+   "usd": 0.000110414
+  },
+  {
+   "in": 2552,
+   "out": 30,
+   "usd": 0.000140304
+  },
+  {
+   "in": 3155,
+   "out": 134,
+   "usd": 0.000325174
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6263
+}

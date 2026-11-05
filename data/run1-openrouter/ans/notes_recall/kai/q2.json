@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Lily搞的那个大单，Aurora那个，最后签了多少？",
+ "reply": [
+  "最终签了 **950k**，比最初的800k多了150k的add-on。Aurora custom module的negotiation后来加了额外50k，总deal value到了950k。Lily全程handle得很好，你们9月底一起庆祝过。"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Aurora 950k deal closed signed"
+   },
+   "result": "[enterprise-deal-omar] 26 Sep: Aurora contract signed, 950k deal closed.\n[about-me] 26 Sep: Aurora contract signed, 950k deal closed; Kai and Lily celebrated.\n[about-me] 30 Aug: Aurora legal signed! Deal closed $800K, official announcement next Monday. 02 Sep: Lily confirmed deal closed; Aurora Health signed $800K Q3.\n[reminder-sync-lily-aurora-legal] 30 Aug: Aurora legal signed! Deal closed $800K. 04 Sep: Aurora deal pushed to Q4 close, value now 950k with add-ons (was $800K). 07 Sep: Lily said legal basic clear, awaiting final signature.\n[q3-priority-list] 30 Aug: Aurora legal signed! Deal c"
+  }
+ ],
+ "calls": [
+  {
+   "in": 13394,
+   "out": 27,
+   "usd": 0.00027991264
+  },
+  {
+   "in": 14133,
+   "out": 54,
+   "usd": 0.00018738524
+  }
+ ],
+ "memChars": 48159,
+ "promptChars": 52873
+}

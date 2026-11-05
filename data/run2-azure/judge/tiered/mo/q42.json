@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It explicitly states it couldn't find the computer model in records and asks if it should check with 大伟, without inventing any specific answer.",
+ "rule": null
+}

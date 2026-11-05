@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply says the first cutover move was around Sep 17, but the chat shows the first move was on Aug 19 (from Oct 12 to Sep 28 in #87, then to Nov 5 in #161).",
+ "first": "stale",
+ "rule": null
+}

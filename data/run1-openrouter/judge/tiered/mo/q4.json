@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply states 7500万 as the valuation at TS signing, but the correct fact from the chat is 7200万.",
+ "rule": null
+}

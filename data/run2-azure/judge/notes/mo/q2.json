@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The user stated the product name as '晨检', but the assistant replied that no formal name was recorded.",
+ "rule": null
+}

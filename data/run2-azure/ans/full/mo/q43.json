@@ -1,0 +1,59 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "阿杰去日本是几号？",
+ "reply": [
+  "聊天记录里没有提到阿杰去日本的相关信息。最近一次关于阿杰的行程是他在8月10号到15号休过假，但没说是去日本。Mia倒是10月5号到9号去了日本采风。",
+  "你是记混了，还是阿杰私下跟你说过要去？我翻一下看看有没有漏掉的线索。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 日本"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 休假"
+   },
+   "result": "#59 Wed 12 Aug 16:30 Them: 明天约了设计师看晨检UI稿。\n#60 Thu 13 Aug 10:00 Them: 阿杰休假，但他说薪资能不能再谈谈？\n#61 Thu 13 Aug 10:05 aicoo: 他想调多少？之前聊的是税前4万。\n---\n#35 Sun 09 Aug 14:01 aicoo: 列了to-do，明天发你确认\n#36 Mon 10 Aug 09:15 Them: 周一，阿杰休假第一天，服务器谁盯着？\n#37 Mon 10 Aug 09:17 aicoo: 服务器有监控告警，我帮你盯着，有异常马上通知你。\n---\n#20 Thu 06 Aug 14:02 aicoo: 位置不错，方便见投资人和客户\n#21 Thu 06 Aug 16:00 Them: 阿杰8月10号到15号休假\n#22 Thu 06 Aug 16:01 aicoo: 收到，我会避开那段时间安排会议"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "日本"
+   },
+   "result": "#628 Wed 21 Oct 11:02 aicoo: 这个终于有进展了，等公示期过。\n#629 Wed 21 Oct 14:00 Them: Mia日本采风回来了，说设计灵感有了。\n#630 Wed 21 Oct 14:02 aicoo: 期待她新方案。\n---\n#482 Thu 01 Oct 09:35 aicoo: 他计划跑三家：凯旋路、长寿路和虹桥路。\n#483 Thu 01 Oct 11:00 Them: Mia申请10月5号到9号去日本采风\n#484 Thu 01 Oct 11:05 aicoo: 采风理由？她说是为了新UI风格找灵感。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18697,
+   "out": 22,
+   "usd": 0.000639362
+  },
+  {
+   "in": 18748,
+   "out": 22,
+   "usd": 0.000604248
+  },
+  {
+   "in": 19008,
+   "out": 19,
+   "usd": 0.000657168
+  },
+  {
+   "in": 19194,
+   "out": 84,
+   "usd": 0.000686804
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35675
+}

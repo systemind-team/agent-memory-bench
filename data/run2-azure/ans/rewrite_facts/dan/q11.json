@@ -1,0 +1,46 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "what's the billing cutover date?",
+ "reply": [
+  "dan the builder，之前定的 billing cutover 日期是 oct 26，不过后来提到 priya 想把 checklist 在周五前准备好。你昨天说 checklist 快好了就差 rollback 步骤——那个更新以后日期还是 oct 26 对吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing cutover date"
+   },
+   "result": "#378 Fri 18 Sep 09:17 aicoo: tea day? or a bold experiment\n#379 Fri 18 Sep 10:00 Them: billing cutover final date: oct 12 again. we got back on track.\n#380 Fri 18 Sep 10:02 aicoo: that's great. back to the original plan. you can lock in the timeline now"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "billing cutover date locked"
+   },
+   "result": "- 03 Oct: Oct 26 cutover is locked and timeline updated.\n- 17 Sep: Priya mentioned the cutover date might shift again, pending legal.\n- 05 Oct: Priya asked Dan for a status on the billing dry run results from last week. 15 Oct: Priya asked about the cutover timeline again\n- 26 Oct: Priya wants the cutover checklist ready by Friday.\n- 01 Sep: Sam Ortiz start date is September 14. 11 Sep: Sam starts the day after Labor Day; the office is ready.\n- 04 Aug: Has a sync with Priya scheduled for 10am tomorrow about the cutover plan\n- 05 Aug: Dan believes the cutover is more feasible if Sam gets ramped"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3262,
+   "out": 23,
+   "usd": 0.00023966
+  },
+  {
+   "in": 3379,
+   "out": 24,
+   "usd": 0.000173142
+  },
+  {
+   "in": 3622,
+   "out": 61,
+   "usd": 0.000199068
+  }
+ ],
+ "memChars": 7170,
+ "promptChars": 11785
+}

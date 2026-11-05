@@ -1,0 +1,23 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q39",
+ "kind": "pref_apply",
+ "q": "把今天重点列一下发我",
+ "reply": [
+  "Today is quarterly review day — we planned it on Oct 18. Prep your numbers and team highlights.",
+  "Key items from last month to cover: 晨检安卓 mid-Nov launch, 成都 partnership hitting 500 orders next month, 大伟's second 养老驿站 signing (徐汇), cash runway 600万 after 蓝驰 two tranches.",
+  "Anything you want me to pull data on before the review or just the summary list?"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2762,
+   "out": 98,
+   "usd": 0.00017666
+  }
+ ],
+ "memChars": 2961,
+ "promptChars": 6929
+}

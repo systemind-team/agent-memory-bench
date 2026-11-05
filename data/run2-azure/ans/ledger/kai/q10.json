@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "Aurora deal最初是多少value来着，我印象中后来加了custom模块涨了。",
+ "reply": [
+  "Aurora deal最初是$950K，没错后来加了custom reporting模块，Lily当时estimate是4周开发，最后close的时候总value涨到了$1.1M。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5085,
+   "out": 46,
+   "usd": 0.000222954
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14927
+}

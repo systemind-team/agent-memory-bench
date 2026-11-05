@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant returned a tool invocation but provided no actual answer to the question about specific personal issues.",
+ "rule": null
+}

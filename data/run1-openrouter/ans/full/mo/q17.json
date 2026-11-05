@@ -1,0 +1,70 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "和云九第一次见面是哪天？",
+ "reply": [
+  "云九第一次见面是8月12日下午2点。那次是pre-meeting，你当天聊完说还行，问得挺细。",
+  "之后他们说要等DAU破2000再谈，最后投了竞品，我们后来也没再深跟了。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 第一次 见面 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 见面"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 pre-meeting 准备"
+   },
+   "result": "#15 Wed 05 Aug 11:01 aicoo: 8000万，记住了。和投资人沟通时强调产品和团队优势\n#16 Wed 05 Aug 14:00 Them: 今天跟云九的pre-meeting准备得如何？\n#17 Wed 05 Aug 14:01 aicoo: 基本好了，财务模型和用户增长曲线都备齐了"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 下午2点 8月"
+   },
+   "result": "#24 Fri 07 Aug 10:02 aicoo: 这样能加快上线，我先更新开发排期表\n#25 Fri 07 Aug 16:45 aicoo: 约了云九下周三 8月12日下午2点\n#26 Fri 07 Aug 16:46 Them: 好，准备充分"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18720,
+   "out": 26,
+   "usd": 0.0007621432
+  },
+  {
+   "in": 18775,
+   "out": 22,
+   "usd": 0.00015706516
+  },
+  {
+   "in": 18826,
+   "out": 25,
+   "usd": 0.00015937936
+  },
+  {
+   "in": 18946,
+   "out": 27,
+   "usd": 0.00016441376
+  },
+  {
+   "in": 19058,
+   "out": 65,
+   "usd": 0.00016373168
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35678
+}

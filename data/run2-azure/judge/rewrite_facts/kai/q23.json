@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It added an unsupported fifth candidate 王磊 who is not mentioned in the chat history.",
+ "rule": null
+}

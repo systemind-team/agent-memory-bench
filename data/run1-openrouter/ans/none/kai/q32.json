@@ -1,0 +1,22 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+ "reply": [
+  "早上好凯哥！今天周日，没有meetings，你周末继续休息。",
+  "但如果你在想周一的事：明天10:00 pricing review prep，10:30 pricing launch decision meeting（Grace和Ben），然后跟Grace确认SEA headcount approval timeline、跟Ravi确认integration final timeline、找Lily和Omar拿customer quotes。",
+  "父亲今天怎么样？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1421,
+   "out": 87,
+   "usd": 0.0000231826
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4372
+}

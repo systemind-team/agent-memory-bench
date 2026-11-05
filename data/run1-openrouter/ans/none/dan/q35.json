@@ -1,0 +1,34 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "[sticker: wave]",
+  "早上好，Dan。今天周日，预报挺好——记得你周六安排挺满的，要不要我帮你看看这周初的安排？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "早上好"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1132,
+   "out": 20,
+   "usd": 0.000031752
+  },
+  {
+   "in": 1181,
+   "out": 42,
+   "usd": 0.000040122
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4165
+}

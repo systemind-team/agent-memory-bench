@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "Ben的hiring budget是多少? 上次好像聊过.",
+ "reply": [
+  "凯哥，之前你提过的是Emily Tan的headcount，她已经在10/26入职了，是替换你新加坡团队原有空缺，不是新增。Ben没提过自己有hiring budget需求。",
+  "你是想起上次跟Grace聊的SEA expansion headcount吗？那个是Omar要招两个sales，Grace还没批。你周一10:30 meeting上正好问她timeline。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3046,
+   "out": 91,
+   "usd": 0.00003959312
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10818
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "what's the billing cutover date?",
+ "reply": [
+  "it's currently locked to Oct 12 (from Mon Oct 19 when Priya confirmed no more changes). but earlier it was Nov 15, then Oct 26, then Priya locked Oct 12. does that match what you have?"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5302,
+   "out": 56,
+   "usd": 0.0002283
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17910
+}

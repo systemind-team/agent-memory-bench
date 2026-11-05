@@ -1,0 +1,47 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "那个10月15号确认蓝驰款的事，处理了吗？",
+ "reply": [
+  "处理了。蓝驰第二笔300万已于10月26日到账，账上现在600万现金。",
+  "当时10月15日是红杉那边约过时间，已经推掉了，蓝驰的款后来按流程正常到的。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 10月15 打款"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "蓝驰 10月15 打款"
+   },
+   "result": "[ajie-salary] Thu 06 Aug: 阿杰8月10号到15号休假\n[redshirt-meeting] Tue 06 Oct: 红杉又找过来，约10月15号；已回他们等下一轮\n[seed-round-due-diligence] Mon 26 Oct: 种子轮封闭，估值7200万，蓝驰独投；蓝驰第二笔10月26日到账（was 月底到账）\n[seed-round-investors] Mon 26 Oct: 种子轮封闭，估值7200万，蓝驰独投（was 7500万）；蓝驰第二笔10月26日到账（was 月底到账）\n[product-launch] Tue 01 Sep: 晨检iOS测试版昨晚闪退，阿杰在修；上线延期到9月10号（仍按此）；安卓内测改为10月15号（之前10月），阿杰已给排期；小雨成都合作推迟至10月，需自己搞推广，建议先靠抖音小视频拉DAU；成都健康管理师协会9月对接（新增）\n[seed-round-investors] Thu 24 Sep: 蓝驰电话说估值要重新谈，认为用户数据不够支撑7500万；aicoo与蓝驰谈判，估值砍到7200万（对方要求不砍最好，真砍6800万也接受），aicoo强调成都合作马上签约，增长预期有保障，蓝驰明早内部确认；红杉改为10月20日线下（之前9月23日）；Sat 26 Sep红杉手里有健康项目，推掉10月20日会议（m"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2433,
+   "out": 27,
+   "usd": 0.000113634
+  },
+  {
+   "in": 2489,
+   "out": 27,
+   "usd": 0.000125394
+  },
+  {
+   "in": 3108,
+   "out": 59,
+   "usd": 0.000273304
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6265
+}

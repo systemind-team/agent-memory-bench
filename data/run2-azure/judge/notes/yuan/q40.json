@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo states it could not find the date in records and asks for more context or suggests asking Mei directly, which is the correct abstain behavior.",
+ "rule": null
+}

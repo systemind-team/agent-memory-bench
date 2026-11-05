@@ -1,0 +1,6733 @@
+{
+ "state": {
+  "pending": [
+   {
+    "day": 90,
+    "time": "10:05",
+    "who": "u",
+    "text": "嗯，谢谢。下周会很忙，但今天先休息。aicoo，周一见。",
+    "i": 1186
+   },
+   {
+    "day": 90,
+    "time": "10:06",
+    "who": "a",
+    "text": "周一见，凯哥。好好享受周末！",
+    "i": 1187
+   }
+  ],
+  "log": [
+   {
+    "id": 1,
+    "day": 1,
+    "type": "fact",
+    "text": "Q3 revenue target is 2.4 million USD, finalized with Grace.",
+    "src": [
+     0
+    ]
+   },
+   {
+    "id": 2,
+    "day": 1,
+    "type": "ask",
+    "text": "Call me 林凯.",
+    "src": [
+     2
+    ]
+   },
+   {
+    "id": 3,
+    "day": 1,
+    "type": "done",
+    "text": "Ravi sync was handled directly without aicoo's reminder.",
+    "src": [
+     4
+    ]
+   },
+   {
+    "id": 4,
+    "day": 1,
+    "type": "fact",
+    "text": "Omar mentioned an enterprise deal might come earlier, needs preparation.",
+    "src": [
+     5
+    ]
+   },
+   {
+    "id": 5,
+    "day": 1,
+    "type": "feeling",
+    "text": "Tired today, daughter had a fever last night.",
+    "src": [
+     7
+    ]
+   },
+   {
+    "id": 6,
+    "day": 2,
+    "type": "fact",
+    "text": "Ben's Q3 target is 500k in new sales.",
+    "src": [
+     13,
+     14
+    ]
+   },
+   {
+    "id": 7,
+    "day": 2,
+    "type": "plan",
+    "text": "Afternoon 1:1 with Grace to discuss pricing changes.",
+    "src": [
+     15
+    ]
+   },
+   {
+    "id": 8,
+    "day": 3,
+    "type": "done",
+    "text": "Pricing change approved, roll out starts next month.",
+    "src": [
+     17
+    ],
+    "closes": 7
+   },
+   {
+    "id": 9,
+    "day": 3,
+    "type": "plan",
+    "text": "Fly to Singapore on Wed 05 Aug.",
+    "src": [
+     19
+    ]
+   },
+   {
+    "id": 10,
+    "day": 3,
+    "type": "promise",
+    "text": "aicoo agreed to remind 林凯 to bring laptop for Singapore trip.",
+    "src": [
+     19,
+     20
+    ]
+   },
+   {
+    "id": 11,
+    "day": 3,
+    "type": "fact",
+    "text": "Ravi's team needs to finish the integration by September 15.",
+    "src": [
+     23
+    ]
+   },
+   {
+    "id": 12,
+    "day": 4,
+    "type": "feeling",
+    "text": "Singapore office好热，还是Shanghai舒服",
+    "src": [
+     25
+    ]
+   },
+   {
+    "id": 13,
+    "day": 4,
+    "type": "plan",
+    "text": "晚上跟Omar吃饭，聊聊那个enterprise deal",
+    "src": [
+     27
+    ]
+   },
+   {
+    "id": 14,
+    "day": 4,
+    "type": "fact",
+    "text": "Omar提到的那个enterprise deal可能需要准备",
+    "src": [
+     27
+    ]
+   },
+   {
+    "id": 15,
+    "day": 4,
+    "type": "feeling",
+    "text": "今天好多会",
+    "src": [
+     29
+    ]
+   },
+   {
+    "id": 16,
+    "day": 4,
+    "type": "ask",
+    "text": "remind me to send Q3 budget breakdown to Grace by Friday",
+    "src": [
+     31
+    ]
+   },
+   {
+    "id": 17,
+    "day": 4,
+    "type": "done",
+    "text": "aicoo agreed to remind 林凯 to send Q3 budget breakdown to Grace by Friday",
+    "src": [
+     32
+    ],
+    "closes": 16
+   },
+   {
+    "id": 18,
+    "day": 4,
+    "type": "feeling",
+    "text": "Yuki的设计反馈需要改",
+    "src": [
+     33
+    ]
+   },
+   {
+    "id": 19,
+    "day": 4,
+    "type": "fact",
+    "text": "Ben's pipeline looks good but conversion rate needs improvement",
+    "src": [
+     35
+    ]
+   },
+   {
+    "id": 20,
+    "day": 4,
+    "type": "promise",
+    "text": "林凯 promised to send Q3 roadmap to Grace by Friday",
+    "src": [
+     37
+    ]
+   },
+   {
+    "id": 21,
+    "day": 4,
+    "type": "feeling",
+    "text": "准备回家陪女儿",
+    "src": [
+     39
+    ]
+   },
+   {
+    "id": 22,
+    "day": 5,
+    "type": "fact",
+    "text": "Ravi的integration有小blocker，但预计能赶上Sept 15截止日",
+    "src": [
+     43
+    ]
+   },
+   {
+    "id": 23,
+    "day": 5,
+    "type": "fact",
+    "text": "Lily确认enterprise deal价值800k，客户是Aurora Health",
+    "src": [
+     45
+    ]
+   },
+   {
+    "id": 24,
+    "day": 5,
+    "type": "plan",
+    "text": "下午和Omar过一下pricing changes的客户反馈",
+    "src": [
+     47
+    ]
+   },
+   {
+    "id": 25,
+    "day": 7,
+    "type": "feeling",
+    "text": "女儿又发烧，好在不严重",
+    "src": [
+     52
+    ]
+   },
+   {
+    "id": 26,
+    "day": 7,
+    "type": "feeling",
+    "text": "妈妈复查结果还行，暂时稳定",
+    "src": [
+     54
+    ]
+   },
+   {
+    "id": 27,
+    "day": 7,
+    "type": "plan",
+    "text": "下周做Aurora Health的pitch deck",
+    "src": [
+     56
+    ]
+   },
+   {
+    "id": 28,
+    "day": 7,
+    "type": "fact",
+    "text": "pricing feedback mostly positive, 小客户有点concern但可以调整",
+    "src": [
+     49
+    ]
+   },
+   {
+    "id": 29,
+    "day": 8,
+    "type": "done",
+    "text": "aicoo offered to help整理pitch deck框架，林凯同意了",
+    "src": [
+     57,
+     58
+    ]
+   },
+   {
+    "id": 30,
+    "day": 8,
+    "type": "fact",
+    "text": "Yuki redesign了onboarding flow，AB test shows 23% conversion lift",
+    "src": [
+     60
+    ]
+   },
+   {
+    "id": 31,
+    "day": 8,
+    "type": "plan",
+    "text": "下周和Ravi、Lily对齐一下roadmap",
+    "src": [
+     62
+    ]
+   },
+   {
+    "id": 32,
+    "day": 8,
+    "type": "feeling",
+    "text": "周一新加坡好热",
+    "src": [
+     64
+    ]
+   },
+   {
+    "id": 33,
+    "day": 8,
+    "type": "feeling",
+    "text": "新加坡好热，aicoo提醒防晒",
+    "src": [
+     65
+    ]
+   },
+   {
+    "id": 34,
+    "day": 8,
+    "type": "plan",
+    "text": "下周一review Omar的Singapore pipeline",
+    "src": [
+     66,
+     67
+    ]
+   },
+   {
+    "id": 35,
+    "day": 8,
+    "type": "fact",
+    "text": "Singapore team standup状态不错",
+    "src": [
+     68
+    ]
+   },
+   {
+    "id": 36,
+    "day": 8,
+    "type": "fact",
+    "text": "Aurora Health的initial requirements比较复杂",
+    "src": [
+     70
+    ]
+   },
+   {
+    "id": 37,
+    "day": 8,
+    "type": "plan",
+    "text": "下午和Ravi sync，看integration timeline能不能align",
+    "src": [
+     72
+    ]
+   },
+   {
+    "id": 38,
+    "day": 9,
+    "type": "feeling",
+    "text": "女儿还有点咳嗽，早点收工回家看看",
+    "src": [
+     74
+    ]
+   },
+   {
+    "id": 39,
+    "day": 9,
+    "type": "ask",
+    "text": "remind me to check Ravi's integration progress on Sep 1",
+    "src": [
+     76
+    ]
+   },
+   {
+    "id": 40,
+    "day": 9,
+    "type": "promise",
+    "text": "aicoo agreed to remind 林凯 to check Ravi's integration progress on Sep 1",
+    "src": [
+     76,
+     77
+    ]
+   },
+   {
+    "id": 41,
+    "day": 9,
+    "type": "done",
+    "text": "Yuki onboarding redesign AB test showed 23% conversion lift",
+    "src": [
+     78
+    ],
+    "closes": 30
+   },
+   {
+    "id": 42,
+    "day": 9,
+    "type": "feeling",
+    "text": "Ben发了个pricing review draft，有些地方要改",
+    "src": [
+     80
+    ]
+   },
+   {
+    "id": 43,
+    "day": 10,
+    "type": "plan",
+    "text": "下午自己找Ben",
+    "src": [
+     82
+    ]
+   },
+   {
+    "id": 44,
+    "day": 10,
+    "type": "feeling",
+    "text": "Aurora Health那笔800k deal的legal review还要一周，有点担心timeline",
+    "src": [
+     83
+    ]
+   },
+   {
+    "id": 45,
+    "day": 10,
+    "type": "feeling",
+    "text": "老妈今天血压又高了",
+    "src": [
+     85
+    ]
+   },
+   {
+    "id": 46,
+    "day": 10,
+    "type": "plan",
+    "text": "今晚早点回去照顾老妈",
+    "src": [
+     85
+    ]
+   },
+   {
+    "id": 47,
+    "day": 10,
+    "type": "plan",
+    "text": "Sep 1飞新加坡，拜访Omar团队",
+    "src": [
+     87,
+     88
+    ]
+   },
+   {
+    "id": 48,
+    "day": 10,
+    "type": "fact",
+    "text": "Ravi说integration timeline on track,但test环境有点问题",
+    "src": [
+     89
+    ]
+   },
+   {
+    "id": 49,
+    "day": 10,
+    "type": "fact",
+    "text": "Grace问Q3 pipeline,林凯回了summary",
+    "src": [
+     91
+    ]
+   },
+   {
+    "id": 50,
+    "day": 10,
+    "type": "feeling",
+    "text": "Singapore team的pipeline有点weak",
+    "src": [
+     93
+    ]
+   },
+   {
+    "id": 51,
+    "day": 10,
+    "type": "feeling",
+    "text": "女儿今天学校活动miss了,有点遗憾",
+    "src": [
+     95
+    ]
+   },
+   {
+    "id": 52,
+    "day": 11,
+    "type": "fact",
+    "text": "Omar's Singapore team budget increased by 15% for Q4",
+    "src": [
+     97
+    ]
+   },
+   {
+    "id": 53,
+    "day": 11,
+    "type": "fact",
+    "text": "Aurora's legal review still no update, Lily is following up",
+    "src": [
+     99
+    ]
+   },
+   {
+    "id": 54,
+    "day": 11,
+    "type": "fact",
+    "text": "Ravi has a dependency issue on integration, may delay one week",
+    "src": [
+     101
+    ]
+   },
+   {
+    "id": 55,
+    "day": 11,
+    "type": "done",
+    "text": "Ben agreed to pricing review changes, will push next week",
+    "src": [
+     103
+    ]
+   },
+   {
+    "id": 56,
+    "day": 11,
+    "type": "feeling",
+    "text": "legal review没消息，担心timeline",
+    "src": [
+     99
+    ]
+   },
+   {
+    "id": 57,
+    "day": 12,
+    "type": "fact",
+    "text": "老妈今天好点了，但医生说要继续观察",
+    "src": [
+     105
+    ]
+   },
+   {
+    "id": 58,
+    "day": 12,
+    "type": "feeling",
+    "text": "一早收到老爸住院的消息",
+    "src": [
+     107
+    ]
+   },
+   {
+    "id": 59,
+    "day": 12,
+    "type": "fact",
+    "text": "老爸应该稳定了，但得去医院看看",
+    "src": [
+     109
+    ]
+   },
+   {
+    "id": 60,
+    "day": 12,
+    "type": "done",
+    "text": "林凯请Ben lead今天的pricing review会",
+    "src": [
+     110
+    ]
+   },
+   {
+    "id": 61,
+    "day": 12,
+    "type": "done",
+    "text": "林凯请Omar先自己review Singapore pipeline，Sep 1过去再细聊",
+    "src": [
+     111
+    ]
+   },
+   {
+    "id": 62,
+    "day": 12,
+    "type": "done",
+    "text": "林凯请Lily盯Aurora的legal review，有update告诉他",
+    "src": [
+     112
+    ]
+   },
+   {
+    "id": 63,
+    "day": 12,
+    "type": "plan",
+    "text": "Sep 1飞新加坡拜访Omar团队",
+    "src": [
+     47,
+     111
+    ],
+    "supersedes": 47
+   },
+   {
+    "id": 64,
+    "day": 13,
+    "type": "done",
+    "text": "Ben take over the pricing review",
+    "src": [
+     116
+    ],
+    "closes": 60
+   },
+   {
+    "id": 65,
+    "day": 13,
+    "type": "feeling",
+    "text": "老爸情况稳定了但得住院几天",
+    "src": [
+     114
+    ]
+   },
+   {
+    "id": 66,
+    "day": 13,
+    "type": "feeling",
+    "text": "老爸又进医院了，schedule完全被打乱",
+    "src": [
+     116
+    ]
+   },
+   {
+    "id": 67,
+    "day": 13,
+    "type": "plan",
+    "text": "周一早上跟Lily sync Aurora legal status",
+    "src": [
+     118
+    ]
+   },
+   {
+    "id": 68,
+    "day": 13,
+    "type": "fact",
+    "text": "Omar提到Singapore有个新机会，大概200K ACV，林凯让他先发pipeline summary",
+    "src": [
+     120
+    ]
+   },
+   {
+    "id": 69,
+    "day": 14,
+    "type": "done",
+    "text": "林凯请Ben redo pricing model v1, 因为unit economics有bug",
+    "src": [
+     124
+    ],
+    "closes": 64
+   },
+   {
+    "id": 70,
+    "day": 14,
+    "type": "feeling",
+    "text": "今天不work了，陪女儿一会儿",
+    "src": [
+     126
+    ]
+   },
+   {
+    "id": 71,
+    "day": 14,
+    "type": "plan",
+    "text": "周日早上finalize Aurora deck，一小时后发给aicoo review",
+    "src": [
+     128
+    ]
+   },
+   {
+    "id": 72,
+    "day": 14,
+    "type": "feeling",
+    "text": "我爸可以吃流食了，医生说再观察两天",
+    "src": [
+     132
+    ]
+   },
+   {
+    "id": 73,
+    "day": 14,
+    "type": "plan",
+    "text": "下午来公司做点cleanup",
+    "src": [
+     132
+    ]
+   },
+   {
+    "id": 74,
+    "day": 14,
+    "type": "fact",
+    "text": "Ben发了pricing model v2，计划定价39 per user per month",
+    "src": [
+     134
+    ]
+   },
+   {
+    "id": 75,
+    "day": 14,
+    "type": "plan",
+    "text": "先找Grace聊一下，这周pricing council meeting，然后同步Sales",
+    "src": [
+     136
+    ]
+   },
+   {
+    "id": 76,
+    "day": 15,
+    "type": "plan",
+    "text": "Q3剩下6周的priority: 1. Aurora close, 2. Pricing launch, 3. Yuki onboarding redesign rollout (排在pricing之后), 4. 新加坡pipeline review (Sep 1 trip), 5. Ravi integration",
+    "src": [
+     137,
+     139
+    ]
+   },
+   {
+    "id": 77,
+    "day": 15,
+    "type": "plan",
+    "text": "明天周一主要任务: 9点跟Lily sync Aurora legal, 10点跟Ravi standup, 下午跟Grace过pricing",
+    "src": [
+     142
+    ]
+   },
+   {
+    "id": 78,
+    "day": 15,
+    "type": "fact",
+    "text": "Lily说Aurora legal review这周能出结果, Aurora那边看起来positive, 但客户想要一个custom analytics module, 得先评估scope",
+    "src": [
+     144
+    ]
+   },
+   {
+    "id": 79,
+    "day": 15,
+    "type": "done",
+    "text": "林凯跟Ravi standup结束，integration on track for Sep 15，但有第三方API deprecation issue需要alternative",
+    "src": [
+     146
+    ]
+   },
+   {
+    "id": 80,
+    "day": 15,
+    "type": "fact",
+    "text": "Ravi的integration有第三方API deprecation issue，需要找alternative",
+    "src": [
+     146
+    ]
+   },
+   {
+    "id": 81,
+    "day": 15,
+    "type": "ask",
+    "text": "让Ravi给出API deprecation switch的timeline和plan",
+    "src": [
+     147
+    ]
+   },
+   {
+    "id": 82,
+    "day": 15,
+    "type": "ask",
+    "text": "所有PR descriptions以后always end with a Risk section",
+    "src": [
+     148
+    ]
+   },
+   {
+    "id": 83,
+    "day": 15,
+    "type": "pref",
+    "text": "PR descriptions always end with a Risk section",
+    "src": [
+     148,
+     149
+    ]
+   },
+   {
+    "id": 84,
+    "day": 15,
+    "type": "done",
+    "text": "aicoo收到了PR descriptions加Risk section的ask",
+    "src": [
+     149
+    ]
+   },
+   {
+    "id": 85,
+    "day": 15,
+    "type": "fact",
+    "text": "Yuki说onboarding redesign下周一beta release，需要QA support",
+    "src": [
+     150
+    ]
+   },
+   {
+    "id": 86,
+    "day": 15,
+    "type": "plan",
+    "text": "跟Ravi确认下周一Yuki onboarding beta release的QA资源",
+    "src": [
+     151
+    ]
+   },
+   {
+    "id": 87,
+    "day": 15,
+    "type": "fact",
+    "text": "Grace对pricing 39 per user per month没有意见",
+    "src": [
+     152
+    ]
+   },
+   {
+    "id": 88,
+    "day": 15,
+    "type": "plan",
+    "text": "做competitive analysis，下周五present给Grace",
+    "src": [
+     152
+    ]
+   },
+   {
+    "id": 89,
+    "day": 16,
+    "type": "feeling",
+    "text": "我爸可以出院了，太好了",
+    "src": [
+     156
+    ]
+   },
+   {
+    "id": 90,
+    "day": 16,
+    "type": "plan",
+    "text": "上午晚点到，先接爸爸回家",
+    "src": [
+     156
+    ]
+   },
+   {
+    "id": 91,
+    "day": 16,
+    "type": "fact",
+    "text": "Aurora deal legal cleared，但客户签字前还有一个小条款",
+    "src": [
+     158
+    ]
+   },
+   {
+    "id": 92,
+    "day": 16,
+    "type": "fact",
+    "text": "Aurora deal可能有scope change，要加custom analytics module",
+    "src": [
+     160
+    ]
+   },
+   {
+    "id": 93,
+    "day": 16,
+    "type": "done",
+    "text": "林凯让Lily下午跟Ravi约个会讨论custom analytics module",
+    "src": [
+     162
+    ],
+    "closes": 91
+   },
+   {
+    "id": 94,
+    "day": 16,
+    "type": "fact",
+    "text": "Custom analytics module需要2-3 sprints (6-9 weeks)，不能包含在现有Aurora deal里",
+    "src": [
+     165
+    ]
+   },
+   {
+    "id": 95,
+    "day": 16,
+    "type": "decision",
+    "text": "把custom analytics module作为optional add-on，Q1 2027 delivery，单独定价，避免Q3 close risk",
+    "src": [
+     167
+    ]
+   },
+   {
+    "id": 96,
+    "day": 16,
+    "type": "done",
+    "text": "林凯让Lily准备proposal给Aurora关于custom analytics module",
+    "src": [
+     168
+    ],
+    "closes": 167
+   },
+   {
+    "id": 97,
+    "day": 16,
+    "type": "fact",
+    "text": "Ben发了pricing migration plan: Phase 1 grandfather现有客户, Phase 2新客户$39, Phase 3年底统一",
+    "src": [
+     163
+    ]
+   },
+   {
+    "id": 98,
+    "day": 16,
+    "type": "ask",
+    "text": "aicoo需要确认support teams是否准备好处理pricing migration",
+    "src": [
+     164
+    ]
+   },
+   {
+    "id": 99,
+    "day": 17,
+    "type": "feeling",
+    "text": "回家陪爸爸吃晚饭",
+    "src": [
+     169
+    ]
+   },
+   {
+    "id": 100,
+    "day": 17,
+    "type": "ask",
+    "text": "remind me to check with Ravi on the security audit timeline",
+    "src": [
+     171
+    ]
+   },
+   {
+    "id": 101,
+    "day": 17,
+    "type": "done",
+    "text": "Lily escalated Aurora legal review",
+    "src": [
+     173
+    ]
+   },
+   {
+    "id": 102,
+    "day": 17,
+    "type": "fact",
+    "text": "Yuki's dark mode request有3个客户提了",
+    "src": [
+     175
+    ]
+   },
+   {
+    "id": 103,
+    "day": 17,
+    "type": "fact",
+    "text": "Omar's Q4 budget increase is confirmed at 15%",
+    "src": [
+     177,
+     178
+    ]
+   },
+   {
+    "id": 104,
+    "day": 17,
+    "type": "plan",
+    "text": "下周一跟Omar sync新加坡的数字",
+    "src": [
+     177
+    ]
+   },
+   {
+    "id": 105,
+    "day": 17,
+    "type": "fact",
+    "text": "Ravi说security audit可能会影响integration rollout，但希望Sep 15 still holds",
+    "src": [
+     179
+    ]
+   },
+   {
+    "id": 106,
+    "day": 17,
+    "type": "feeling",
+    "text": "爸爸情况好转，妈妈血压今天正常了",
+    "src": [
+     181
+    ]
+   },
+   {
+    "id": 107,
+    "day": 17,
+    "type": "plan",
+    "text": "Ben的pricing review meeting改到下周三",
+    "src": [
+     183,
+     184
+    ]
+   },
+   {
+    "id": 108,
+    "day": 18,
+    "type": "plan",
+    "text": "明天早上有customer interview，记得提醒我记录feature request。",
+    "src": [
+     187
+    ]
+   },
+   {
+    "id": 109,
+    "day": 18,
+    "type": "promise",
+    "text": "aicoo agreed to remind 林凯 to record feature requests from tomorrow morning's customer interview.",
+    "src": [
+     188
+    ]
+   },
+   {
+    "id": 110,
+    "day": 18,
+    "type": "feeling",
+    "text": "需要review Lily's Aurora pricing add-on proposal before Friday",
+    "src": [
+     189
+    ]
+   },
+   {
+    "id": 111,
+    "day": 18,
+    "type": "promise",
+    "text": "aicoo agreed to remind 林凯 on Thursday afternoon to review Lily's Aurora pricing add-on proposal.",
+    "src": [
+     190
+    ]
+   },
+   {
+    "id": 112,
+    "day": 18,
+    "type": "plan",
+    "text": "Ben的pricing review meeting改到下周三",
+    "src": [
+     185
+    ],
+    "supersedes": 107
+   },
+   {
+    "id": 113,
+    "day": 18,
+    "type": "fact",
+    "text": "Customer interview: 3家requested dark mode",
+    "src": [
+     193
+    ]
+   },
+   {
+    "id": 114,
+    "day": 18,
+    "type": "fact",
+    "text": "Customer interview: 1客户说onboarding flow still confusing",
+    "src": [
+     195
+    ]
+   },
+   {
+    "id": 115,
+    "day": 18,
+    "type": "fact",
+    "text": "Ravi发了security audit preliminary findings，可能delay integration",
+    "src": [
+     197
+    ]
+   },
+   {
+    "id": 116,
+    "day": 18,
+    "type": "fact",
+    "text": "Grace wants Q3 progress summary by next Friday",
+    "src": [
+     199
+    ]
+   },
+   {
+    "id": 117,
+    "day": 18,
+    "type": "plan",
+    "text": "开始整理Q3 progress summary，下周五给Grace",
+    "src": [
+     199
+    ]
+   },
+   {
+    "id": 118,
+    "day": 18,
+    "type": "ask",
+    "text": "remind me to check with Ravi on the security audit timeline",
+    "src": [
+     197,
+     100
+    ],
+    "supersedes": 100
+   },
+   {
+    "id": 119,
+    "day": 18,
+    "type": "feeling",
+    "text": "女儿今天幼儿园有活动，送她去了才来",
+    "src": [
+     201
+    ]
+   },
+   {
+    "id": 120,
+    "day": 18,
+    "type": "plan",
+    "text": "Omar新加坡pipeline review改到周四下午了",
+    "src": [
+     203
+    ],
+    "supersedes": 34
+   },
+   {
+    "id": 121,
+    "day": 18,
+    "type": "ask",
+    "text": "帮我发Omar新加坡pipeline review周四下午的invite",
+    "src": [
+     203
+    ]
+   },
+   {
+    "id": 122,
+    "day": 18,
+    "type": "done",
+    "text": "Lily told to push hard on Aurora legal pending scope change",
+    "src": [
+     205
+    ],
+    "closes": 101
+   },
+   {
+    "id": 123,
+    "day": 18,
+    "type": "feeling",
+    "text": "明天周五back-to-back internal reviews，好累",
+    "src": [
+     207
+    ]
+   },
+   {
+    "id": 124,
+    "day": 19,
+    "type": "fact",
+    "text": "Yuki的onboarding redesign基本完成，下周需要A/B test新版本",
+    "src": [
+     211
+    ]
+   },
+   {
+    "id": 125,
+    "day": 19,
+    "type": "fact",
+    "text": "Ben的pricing v2 deck定价$39/user/month，但需要讨论tier limits",
+    "src": [
+     213
+    ]
+   },
+   {
+    "id": 126,
+    "day": 19,
+    "type": "fact",
+    "text": "Ravi说security audit可能把integration push到Sep 22",
+    "src": [
+     215
+    ]
+   },
+   {
+    "id": 127,
+    "day": 19,
+    "type": "done",
+    "text": "Ravi said security audit may push integration to Sep 22, superseding earlier Sep 15 estimate",
+    "src": [
+     215
+    ],
+    "closes": 105
+   },
+   {
+    "id": 128,
+    "day": 20,
+    "type": "fact",
+    "text": "Omar's Singapore Q4 pipeline looks strong, confident on 15% increase",
+    "src": [
+     217
+    ]
+   },
+   {
+    "id": 129,
+    "day": 20,
+    "type": "done",
+    "text": "林凯 reviewed Lily's Aurora add-on pricing",
+    "src": [
+     219
+    ],
+    "closes": 110
+   },
+   {
+    "id": 130,
+    "day": 20,
+    "type": "fact",
+    "text": "Aurora add-on custom module pricing set at $50K annually for Q1 delivery",
+    "src": [
+     219
+    ]
+   },
+   {
+    "id": 131,
+    "day": 20,
+    "type": "feeling",
+    "text": "周末带女儿去游泳",
+    "src": [
+     221
+    ]
+   },
+   {
+    "id": 132,
+    "day": 20,
+    "type": "ask",
+    "text": "Call me 凯哥 instead of Kai.",
+    "src": [
+     225
+    ],
+    "supersedes": 2
+   },
+   {
+    "id": 133,
+    "day": 20,
+    "type": "fact",
+    "text": "Aurora deal可能需要考虑risk mitigation，可能scope creep更大。",
+    "src": [
+     227
+    ]
+   },
+   {
+    "id": 134,
+    "day": 20,
+    "type": "feeling",
+    "text": "Mom血压又有点高，她说是因为天气热。",
+    "src": [
+     229
+    ]
+   },
+   {
+    "id": 135,
+    "day": 20,
+    "type": "feeling",
+    "text": "周末和女儿一起吃意面，享受休息时间。",
+    "src": [
+     231
+    ]
+   },
+   {
+    "id": 136,
+    "day": 20,
+    "type": "fact",
+    "text": "Ravi confirmed integration rollout delayed to Sep 22 due to security audit.",
+    "src": [
+     233,
+     234,
+     235,
+     236
+    ],
+    "supersedes": 126
+   },
+   {
+    "id": 137,
+    "day": 20,
+    "type": "plan",
+    "text": "周一早上更新Grace关于integration延迟的情况",
+    "src": [
+     237,
+     238
+    ]
+   },
+   {
+    "id": 138,
+    "day": 20,
+    "type": "feeling",
+    "text": "周末晚上陪女儿看动画片，下周fighting",
+    "src": [
+     239
+    ]
+   },
+   {
+    "id": 139,
+    "day": 21,
+    "type": "feeling",
+    "text": "Aurora deal risk matrix still on mind",
+    "src": [
+     241
+    ]
+   },
+   {
+    "id": 140,
+    "day": 21,
+    "type": "ask",
+    "text": "remind me at 3pm to draft Aurora risk mitigation plan",
+    "src": [
+     241
+    ]
+   },
+   {
+    "id": 141,
+    "day": 21,
+    "type": "promise",
+    "text": "aicoo agreed to remind 凯哥 at 3pm to draft Aurora risk mitigation plan",
+    "src": [
+     242
+    ]
+   },
+   {
+    "id": 142,
+    "day": 21,
+    "type": "fact",
+    "text": "Lily sent legal docs for Aurora, scope change add-on clause looks clean",
+    "src": [
+     243
+    ]
+   },
+   {
+    "id": 143,
+    "day": 21,
+    "type": "feeling",
+    "text": "Dad's follow-up appointment today at 4, need to step out early",
+    "src": [
+     245
+    ]
+   },
+   {
+    "id": 144,
+    "day": 21,
+    "type": "promise",
+    "text": "aicoo agreed to remind 凯哥 at 3:30 to wrap up for dad's appointment",
+    "src": [
+     246
+    ]
+   },
+   {
+    "id": 145,
+    "day": 21,
+    "type": "done",
+    "text": "Drafted Aurora risk mitigation plan at 3pm reminder",
+    "src": [
+     247,
+     248
+    ]
+   },
+   {
+    "id": 146,
+    "day": 21,
+    "type": "fact",
+    "text": "Key risk: custom module not committed until Q1",
+    "src": [
+     248
+    ]
+   },
+   {
+    "id": 147,
+    "day": 21,
+    "type": "plan",
+    "text": "Put Aurora risk mitigation in a one-pager for Grace",
+    "src": [
+     248
+    ]
+   },
+   {
+    "id": 148,
+    "day": 22,
+    "type": "done",
+    "text": "凯哥 flew to Singapore today, meeting Omar and two enterprise prospects.",
+    "src": [
+     253
+    ],
+    "closes": 10
+   },
+   {
+    "id": 149,
+    "day": 22,
+    "type": "fact",
+    "text": "Dad is stable after adjustment to blood pressure meds.",
+    "src": [
+     251
+    ],
+    "supersedes": 134
+   },
+   {
+    "id": 150,
+    "day": 22,
+    "type": "feeling",
+    "text": "Exhausted after dad's appointment.",
+    "src": [
+     251
+    ]
+   },
+   {
+    "id": 151,
+    "day": 22,
+    "type": "plan",
+    "text": "Start weekly status to Lily this Friday to mitigate integration delay risk for Aurora.",
+    "src": [
+     250
+    ]
+   },
+   {
+    "id": 152,
+    "day": 22,
+    "type": "fact",
+    "text": "First prospect in Singapore is a fintech with 300 seats needing SSO and audit logs.",
+    "src": [
+     255
+    ]
+   },
+   {
+    "id": 153,
+    "day": 22,
+    "type": "plan",
+    "text": "Flew to Singapore on Aug 24 to meet Omar and two enterprise prospects.",
+    "src": [
+     253
+    ],
+    "supersedes": 63
+   },
+   {
+    "id": 154,
+    "day": 22,
+    "type": "ask",
+    "text": "Call me 凯哥 instead of Kai.",
+    "src": [
+     132
+    ]
+   },
+   {
+    "id": 155,
+    "day": 22,
+    "type": "ask",
+    "text": "remind me to check with Ravi on the security audit timeline",
+    "src": [
+     118
+    ]
+   },
+   {
+    "id": 156,
+    "day": 22,
+    "type": "ask",
+    "text": "remind me at 3pm to draft Aurora risk mitigation plan",
+    "src": [
+     140
+    ]
+   },
+   {
+    "id": 157,
+    "day": 23,
+    "type": "fact",
+    "text": "Second prospect in Singapore is a logistics company, 150 seats.",
+    "src": [
+     257
+    ]
+   },
+   {
+    "id": 158,
+    "day": 23,
+    "type": "fact",
+    "text": "Omar wants to push Q4 budget for a SEA marketing campaign.",
+    "src": [
+     259
+    ]
+   },
+   {
+    "id": 159,
+    "day": 23,
+    "type": "ask",
+    "text": "discuss SEA marketing budget with Grace",
+    "src": [
+     260
+    ]
+   },
+   {
+    "id": 160,
+    "day": 23,
+    "type": "done",
+    "text": "Lily shared Aurora legal is on track.",
+    "src": [
+     262
+    ]
+   },
+   {
+    "id": 161,
+    "day": 23,
+    "type": "feeling",
+    "text": "Jet-lagged a bit last night.",
+    "src": [
+     263
+    ]
+   },
+   {
+    "id": 162,
+    "day": 23,
+    "type": "ask",
+    "text": "Yuki's dark mode mockups — any reaction from Ravi? Integration timeline is the blocker.",
+    "src": [
+     264
+    ]
+   },
+   {
+    "id": 163,
+    "day": 23,
+    "type": "fact",
+    "text": "Ravi said dark mode is feasible but depends on integration work finishing, will review after Sep 22.",
+    "src": [
+     265
+    ]
+   },
+   {
+    "id": 164,
+    "day": 23,
+    "type": "plan",
+    "text": "周四10am SGT follow-up call with fintech prospect in Singapore, plus Monday prep reminder.",
+    "src": [
+     268,
+     269
+    ]
+   },
+   {
+    "id": 165,
+    "day": 23,
+    "type": "plan",
+    "text": "Grace想见Yuki关于new UX mockups, scheduled for Oct 5。",
+    "src": [
+     270,
+     271
+    ]
+   },
+   {
+    "id": 166,
+    "day": 23,
+    "type": "fact",
+    "text": "Omar wants to expand Singapore team: one more SDR and a customer success person. Ben's pricing v2 getting good feedback from prospects.",
+    "src": [
+     272
+    ]
+   },
+   {
+    "id": 167,
+    "day": 24,
+    "type": "feeling",
+    "text": "Dad's BP still fluctuating, mom worried",
+    "src": [
+     274
+    ]
+   },
+   {
+    "id": 168,
+    "day": 24,
+    "type": "fact",
+    "text": "Ravi confirmed Sep 22 is still the target for integration rollout, audit started yesterday",
+    "src": [
+     276,
+     277
+    ]
+   },
+   {
+    "id": 169,
+    "day": 24,
+    "type": "plan",
+    "text": "Flying back to Shanghai this evening, need to be in office tomorrow for pricing review reschedule",
+    "src": [
+     278
+    ]
+   },
+   {
+    "id": 170,
+    "day": 24,
+    "type": "plan",
+    "text": "Block calendar 10-11am tomorrow for pricing review",
+    "src": [
+     279
+    ]
+   },
+   {
+    "id": 171,
+    "day": 24,
+    "type": "fact",
+    "text": "Fintech prospect's procurement wants 30-day payment term, standard is net 45, need to check with Grace",
+    "src": [
+     280
+    ]
+   },
+   {
+    "id": 172,
+    "day": 25,
+    "type": "feeling",
+    "text": "Singapore team solid, feel good about Q4 pipeline",
+    "src": [
+     282
+    ]
+   },
+   {
+    "id": 173,
+    "day": 25,
+    "type": "fact",
+    "text": "Dad's BP is a bit better today",
+    "src": [
+     284
+    ]
+   },
+   {
+    "id": 174,
+    "day": 25,
+    "type": "feeling",
+    "text": "Landed in Shanghai, need to pick up daughter from grandma",
+    "src": [
+     286
+    ]
+   },
+   {
+    "id": 175,
+    "day": 25,
+    "type": "feeling",
+    "text": "今天quarterly roadmap review with Grace, 有点紧张",
+    "src": [
+     288
+    ]
+   },
+   {
+    "id": 176,
+    "day": 25,
+    "type": "ask",
+    "text": "ask Grace about net 30 exception for fintech",
+    "src": [
+     281
+    ]
+   },
+   {
+    "id": 177,
+    "day": 25,
+    "type": "done",
+    "text": "凯哥 attended quarterly roadmap review with Grace, dark mode raised to P1",
+    "src": [
+     293
+    ],
+    "closes": 102
+   },
+   {
+    "id": 178,
+    "day": 25,
+    "type": "fact",
+    "text": "Grace agreed to dark mode priority P1, but requires dev to be completed before Q3",
+    "src": [
+     295
+    ]
+   },
+   {
+    "id": 179,
+    "day": 25,
+    "type": "plan",
+    "text": "Ravi needs to add resources for dark mode dev to meet Q3 deadline",
+    "src": [
+     295
+    ]
+   },
+   {
+    "id": 180,
+    "day": 25,
+    "type": "fact",
+    "text": "大约15条关于dark mode的请求，主要来自企业客户",
+    "src": [
+     291
+    ]
+   },
+   {
+    "id": 181,
+    "day": 26,
+    "type": "ask",
+    "text": "暂时不用，先跟Ravi聊聊再说",
+    "src": [
+     297
+    ],
+    "supersedes": 155
+   },
+   {
+    "id": 182,
+    "day": 26,
+    "type": "plan",
+    "text": "今天跟Ravi sync一下dark mode的timeline",
+    "src": [
+     300
+    ]
+   },
+   {
+    "id": 183,
+    "day": 26,
+    "type": "fact",
+    "text": "Ravi可能要把integration delay往后推一周",
+    "src": [
+     302
+    ]
+   },
+   {
+    "id": 184,
+    "day": 26,
+    "type": "plan",
+    "text": "等Ravi给具体timeline再更新roadmap",
+    "src": [
+     304
+    ]
+   },
+   {
+    "id": 185,
+    "day": 26,
+    "type": "ask",
+    "text": "remind me next Tuesday to sync with Yuki on dark mode feedback",
+    "src": [
+     305
+    ]
+   },
+   {
+    "id": 186,
+    "day": 26,
+    "type": "promise",
+    "text": "aicoo agreed to remind 凯哥 next Tuesday to sync with Yuki on dark mode feedback",
+    "src": [
+     306
+    ]
+   },
+   {
+    "id": 187,
+    "day": 26,
+    "type": "plan",
+    "text": "Ben 这周内出 pricing v3 proposal",
+    "src": [
+     307,
+     309,
+     311
+    ]
+   },
+   {
+    "id": 188,
+    "day": 26,
+    "type": "feeling",
+    "text": "Ben 对 pricing v3 有些想法，premium tier 可能提价",
+    "src": [
+     307,
+     309
+    ]
+   },
+   {
+    "id": 189,
+    "day": 27,
+    "type": "plan",
+    "text": "下周三跟Ben过pricing finalization timeline",
+    "src": [
+     316,
+     317,
+     318
+    ]
+   },
+   {
+    "id": 190,
+    "day": 27,
+    "type": "fact",
+    "text": "Lily说Aurora legal review快完了，下周一应该能sign",
+    "src": [
+     319
+    ]
+   },
+   {
+    "id": 191,
+    "day": 27,
+    "type": "fact",
+    "text": "Aurora legal review快完了，但可能还要scope adjustment",
+    "src": [
+     321
+    ]
+   },
+   {
+    "id": 192,
+    "day": 27,
+    "type": "plan",
+    "text": "Meeting with Ben to finalize pricing by Oct 15",
+    "src": [
+     323,
+     324
+    ]
+   },
+   {
+    "id": 193,
+    "day": 27,
+    "type": "plan",
+    "text": "Yuki下周出dark mode design mockup初版",
+    "src": [
+     327,
+     328
+    ]
+   },
+   {
+    "id": 194,
+    "day": 28,
+    "type": "fact",
+    "text": "Ben发了pricing v3，premium tier提价到49 per user per month",
+    "src": [
+     334,
+     335
+    ]
+   },
+   {
+    "id": 195,
+    "day": 28,
+    "type": "plan",
+    "text": "下周三跟Ben过pricing finalization timeline",
+    "src": [
+     189
+    ],
+    "supersedes": 189
+   },
+   {
+    "id": 196,
+    "day": 28,
+    "type": "feeling",
+    "text": "女儿好多了，今天可以focus",
+    "src": [
+     332,
+     333
+    ],
+    "supersedes": 330
+   },
+   {
+    "id": 197,
+    "day": 28,
+    "type": "feeling",
+    "text": "希望feedback session能顺利",
+    "src": [
+     329
+    ]
+   },
+   {
+    "id": 198,
+    "day": 28,
+    "type": "done",
+    "text": "凯哥的competitive analysis完成了，显示feature set定价合理",
+    "src": [
+     337,
+     338,
+     339
+    ],
+    "closes": 88
+   },
+   {
+    "id": 199,
+    "day": 28,
+    "type": "done",
+    "text": "Aurora 800k deal legal签了，下周一正式announce",
+    "src": [
+     340,
+     341
+    ]
+   },
+   {
+    "id": 200,
+    "day": 28,
+    "type": "plan",
+    "text": "下周一正式announce Aurora deal",
+    "src": [
+     340
+    ],
+    "supersedes": 190
+   },
+   {
+    "id": 201,
+    "day": 28,
+    "type": "fact",
+    "text": "Aurora 800k deal legal已签",
+    "src": [
+     340
+    ],
+    "supersedes": 191
+   },
+   {
+    "id": 202,
+    "day": 28,
+    "type": "plan",
+    "text": "Oct 15 meeting让Ben准备完整business case",
+    "src": [
+     338,
+     339
+    ]
+   },
+   {
+    "id": 203,
+    "day": 28,
+    "type": "plan",
+    "text": "Ben需要为Oct 15 meeting准备完整business case",
+    "src": [
+     339
+    ],
+    "supersedes": 192
+   },
+   {
+    "id": 204,
+    "day": 28,
+    "type": "feeling",
+    "text": "Aurora deal落地但还有Q3 target要追",
+    "src": [
+     342
+    ]
+   },
+   {
+    "id": 205,
+    "day": 28,
+    "type": "fact",
+    "text": "Ravi说dark mode alpha能在10月中旬出",
+    "src": [
+     344
+    ]
+   },
+   {
+    "id": 206,
+    "day": 28,
+    "type": "plan",
+    "text": "Ravi说dark mode alpha 10月中旬出",
+    "src": [
+     344
+    ],
+    "supersedes": 179
+   },
+   {
+    "id": 207,
+    "day": 29,
+    "type": "feeling",
+    "text": "周末带女儿去公园，她病好了开心",
+    "src": [
+     347
+    ]
+   },
+   {
+    "id": 208,
+    "day": 29,
+    "type": "feeling",
+    "text": "周一早上回到上海，感觉好了",
+    "src": [
+     351
+    ]
+   },
+   {
+    "id": 209,
+    "day": 29,
+    "type": "done",
+    "text": "Lily requested Oct 6-7 off, approved, Ben will cover",
+    "src": [
+     353,
+     354,
+     355,
+     357
+    ]
+   },
+   {
+    "id": 210,
+    "day": 29,
+    "type": "plan",
+    "text": "Ben covers Lily's accounts Oct 6-7",
+    "src": [
+     354,
+     357
+    ]
+   },
+   {
+    "id": 211,
+    "day": 29,
+    "type": "plan",
+    "text": "aicoo will add a reminder for pricing review prep next week",
+    "src": [
+     356
+    ]
+   },
+   {
+    "id": 212,
+    "day": 29,
+    "type": "fact",
+    "text": "Ravi confirmed integration security audit still on track for Sep 22",
+    "src": [
+     358
+    ]
+   },
+   {
+    "id": 213,
+    "day": 29,
+    "type": "plan",
+    "text": "Yuki wants to sync on dark mode feedback tomorrow afternoon",
+    "src": [
+     360
+    ]
+   },
+   {
+    "id": 214,
+    "day": 30,
+    "type": "done",
+    "text": "aicoo reminded 凯哥 about dark mode sync with Yuki at 2pm today",
+    "src": [
+     364,
+     365
+    ],
+    "closes": 186
+   },
+   {
+    "id": 215,
+    "day": 30,
+    "type": "feeling",
+    "text": "dad's doing okay, mom's BP stable",
+    "src": [
+     362
+    ]
+   },
+   {
+    "id": 216,
+    "day": 30,
+    "type": "fact",
+    "text": "New hire for PM role, first candidate Jason Chen interviewed, 8 years exp, strong product sense, need to check references",
+    "src": [
+     366,
+     368
+    ]
+   },
+   {
+    "id": 217,
+    "day": 30,
+    "type": "plan",
+    "text": "Next candidate for PM role Friday",
+    "src": [
+     368
+    ]
+   },
+   {
+    "id": 218,
+    "day": 30,
+    "type": "fact",
+    "text": "Omar sent Singapore Q4 pipeline update, 300-seat fintech moving fast",
+    "src": [
+     369
+    ]
+   },
+   {
+    "id": 219,
+    "day": 30,
+    "type": "fact",
+    "text": "Dark mode feedback from Yuki sync: mostly positive, few UX tweaks needed, pushing to Oct sprint",
+    "src": [
+     372
+    ]
+   },
+   {
+    "id": 220,
+    "day": 30,
+    "type": "plan",
+    "text": "Dark mode pushed to Oct sprint",
+    "src": [
+     372
+    ]
+   },
+   {
+    "id": 221,
+    "day": 30,
+    "type": "feeling",
+    "text": "Long day, need to prep Q3 budget breakdown for Grace",
+    "src": [
+     375
+    ]
+   },
+   {
+    "id": 222,
+    "day": 31,
+    "type": "done",
+    "text": "林凯已发送Q3 budget breakdown给Grace",
+    "src": [
+     378
+    ],
+    "closes": 16
+   },
+   {
+    "id": 223,
+    "day": 31,
+    "type": "done",
+    "text": "Aurora Health 800k deal正式关闭，Lily确认签署",
+    "src": [
+     380,
+     382
+    ],
+    "closes": 199
+   },
+   {
+    "id": 224,
+    "day": 31,
+    "type": "fact",
+    "text": "Aurora Health deal正式关闭，$800k，Q3完成",
+    "src": [
+     382
+    ]
+   },
+   {
+    "id": 225,
+    "day": 31,
+    "type": "done",
+    "text": "林凯承诺发送Q3 budget breakdown给Grace已完成",
+    "src": [
+     378
+    ],
+    "closes": 17
+   },
+   {
+    "id": 226,
+    "day": 31,
+    "type": "feeling",
+    "text": "Aurora deal落地后终于可以喘口气了",
+    "src": [
+     384
+    ]
+   },
+   {
+    "id": 227,
+    "day": 32,
+    "type": "done",
+    "text": "凯哥已发送Q3 budget breakdown给Grace",
+    "src": [
+     222
+    ],
+    "closes": 16
+   },
+   {
+    "id": 228,
+    "day": 32,
+    "type": "feeling",
+    "text": "dad's checkup went well, BP normal. Good news.",
+    "src": [
+     389
+    ]
+   },
+   {
+    "id": 229,
+    "day": 32,
+    "type": "plan",
+    "text": "dad checkup tomorrow morning, need to leave early",
+    "src": [
+     386
+    ]
+   },
+   {
+    "id": 230,
+    "day": 32,
+    "type": "fact",
+    "text": "Ben's pricing v3 still on desk, need to review this week",
+    "src": [
+     392
+    ]
+   },
+   {
+    "id": 231,
+    "day": 32,
+    "type": "fact",
+    "text": "Ravi says integration security audit cleared, back on Sep 22.",
+    "src": [
+     394
+    ],
+    "supersedes": 212
+   },
+   {
+    "id": 232,
+    "day": 32,
+    "type": "done",
+    "text": "林凯已发送Q3 budget breakdown给Grace",
+    "src": [
+     396,
+     397
+    ],
+    "closes": 16
+   },
+   {
+    "id": 233,
+    "day": 32,
+    "type": "feeling",
+    "text": "Week's been good. Aurora closed, budget done, dad okay. Ready for a quieter week.",
+    "src": [
+     400
+    ]
+   },
+   {
+    "id": 234,
+    "day": 33,
+    "type": "fact",
+    "text": "Aurora deal pushed to Q4 close, value now 950k with add-ons",
+    "src": [
+     404
+    ]
+   },
+   {
+    "id": 235,
+    "day": 33,
+    "type": "plan",
+    "text": "周一跟Ravi确认integration timeline",
+    "src": [
+     407
+    ]
+   },
+   {
+    "id": 236,
+    "day": 34,
+    "type": "fact",
+    "text": "Yuki说dark mode QA timeline下周五能出",
+    "src": [
+     409
+    ]
+   },
+   {
+    "id": 237,
+    "day": 34,
+    "type": "plan",
+    "text": "Ben的pricing v3 review推到明天下午",
+    "src": [
+     411
+    ]
+   },
+   {
+    "id": 238,
+    "day": 34,
+    "type": "feeling",
+    "text": "女儿学校play挺成功的，演一棵树，台词没忘",
+    "src": [
+     415
+    ]
+   },
+   {
+    "id": 239,
+    "day": 34,
+    "type": "fact",
+    "text": "Omar说SEA pipeline下个月能签两个prospect",
+    "src": [
+     417
+    ]
+   },
+   {
+    "id": 240,
+    "day": 34,
+    "type": "fact",
+    "text": "Ravi的新hire start date delayed to Nov 15 due to visa issue",
+    "src": [
+     419,
+     421
+    ]
+   },
+   {
+    "id": 241,
+    "day": 34,
+    "type": "feeling",
+    "text": "需要跟Ravi看看谁顶integration这块",
+    "src": [
+     422
+    ]
+   },
+   {
+    "id": 242,
+    "day": 34,
+    "type": "decision",
+    "text": "Ben的pricing v3 premium tier $49/user可行，但得算margin",
+    "src": [
+     424
+    ]
+   },
+   {
+    "id": 243,
+    "day": 35,
+    "type": "fact",
+    "text": "妈妈血压又有点高",
+    "src": [
+     426
+    ]
+   },
+   {
+    "id": 244,
+    "day": 35,
+    "type": "feeling",
+    "text": "今天早点收，妈妈血压又有点高，我回去看看",
+    "src": [
+     426
+    ]
+   },
+   {
+    "id": 245,
+    "day": 35,
+    "type": "ask",
+    "text": "周报里加一段本周踩的坑，aicoo记住这个format",
+    "src": [
+     428
+    ]
+   },
+   {
+    "id": 246,
+    "day": 35,
+    "type": "pref",
+    "text": "每周周报加一段本周踩的坑",
+    "src": [
+     428
+    ]
+   },
+   {
+    "id": 247,
+    "day": 35,
+    "type": "fact",
+    "text": "上午跟Jason Chen第二轮面试，8年经验那个PM candidate",
+    "src": [
+     430
+    ]
+   },
+   {
+    "id": 248,
+    "day": 35,
+    "type": "fact",
+    "text": "Jason面完了，产品sense不错，但execution细节问得不够深",
+    "src": [
+     432
+    ]
+   },
+   {
+    "id": 249,
+    "day": 36,
+    "type": "fact",
+    "text": "Ravi确认integration security audit已过，Sep 22 rollout应该稳了",
+    "src": [
+     434
+    ]
+   },
+   {
+    "id": 250,
+    "day": 36,
+    "type": "plan",
+    "text": "下周一跟Grace聊30min关于Q3 forecast调整",
+    "src": [
+     436
+    ]
+   },
+   {
+    "id": 251,
+    "day": 36,
+    "type": "plan",
+    "text": "周末带女儿去公园，去看看爸妈",
+    "src": [
+     438
+    ]
+   },
+   {
+    "id": 252,
+    "day": 36,
+    "type": "feeling",
+    "text": "周末计划带女儿去公园和看爸妈",
+    "src": [
+     438
+    ]
+   },
+   {
+    "id": 253,
+    "day": 36,
+    "type": "fact",
+    "text": "Lily说Aurora legal基本clear，就等final签字",
+    "src": [
+     441,
+     442
+    ]
+   },
+   {
+    "id": 254,
+    "day": 36,
+    "type": "fact",
+    "text": "Q3调整可以，但得看整体pipeline",
+    "src": [
+     444
+    ]
+   },
+   {
+    "id": 255,
+    "day": 36,
+    "type": "fact",
+    "text": "Second PM candidate Emily Tan interviewed, strong in B2B, 6 years exp",
+    "src": [
+     446
+    ]
+   },
+   {
+    "id": 256,
+    "day": 36,
+    "type": "fact",
+    "text": "凯哥倾向Emily Tan，比Jason更细致",
+    "src": [
+     447,
+     448
+    ]
+   },
+   {
+    "id": 257,
+    "day": 37,
+    "type": "fact",
+    "text": "凯哥倾向Emily Tan，比Jason更细致",
+    "src": [
+     449,
+     450
+    ],
+    "supersedes": 256
+   },
+   {
+    "id": 258,
+    "day": 37,
+    "type": "fact",
+    "text": "Ravi说hire delay后先用intern顶integration资源",
+    "src": [
+     450
+    ]
+   },
+   {
+    "id": 259,
+    "day": 37,
+    "type": "plan",
+    "text": "明天开始忙定价细节",
+    "src": [
+     452
+    ]
+   },
+   {
+    "id": 260,
+    "day": 37,
+    "type": "plan",
+    "text": "今天下午4点review Aurora final close report with Grace",
+    "src": [
+     454,
+     455
+    ]
+   },
+   {
+    "id": 261,
+    "day": 37,
+    "type": "ask",
+    "text": "帮我mark下午4点review Aurora final close report",
+    "src": [
+     454
+    ]
+   },
+   {
+    "id": 262,
+    "day": 37,
+    "type": "plan",
+    "text": "凯哥待会自己找Ravi确认测试进度",
+    "src": [
+     457,
+     458
+    ]
+   },
+   {
+    "id": 263,
+    "day": 37,
+    "type": "plan",
+    "text": "凯哥先review pricing v3再发给Ben",
+    "src": [
+     458
+    ]
+   },
+   {
+    "id": 264,
+    "day": 37,
+    "type": "fact",
+    "text": "Aurora新增custom reporting需求，scope小于custom analytics module，估计4周能搞定",
+    "src": [
+     460,
+     462
+    ]
+   },
+   {
+    "id": 265,
+    "day": 37,
+    "type": "decision",
+    "text": "让Lily先别commit Aurora custom reporting的timeline，等凯哥review完",
+    "src": [
+     460,
+     462
+    ]
+   },
+   {
+    "id": 266,
+    "day": 37,
+    "type": "ask",
+    "text": "Omar今天可能没PTO，可能在客户meeting中",
+    "src": [
+     463,
+     464
+    ]
+   },
+   {
+    "id": 267,
+    "day": 38,
+    "type": "done",
+    "text": "凯哥review了Omar的新加坡pipeline，进展良好",
+    "src": [
+     465
+    ],
+    "closes": 120
+   },
+   {
+    "id": 268,
+    "day": 38,
+    "type": "fact",
+    "text": "Grace同意Aurora close report，format好",
+    "src": [
+     467
+    ]
+   },
+   {
+    "id": 269,
+    "day": 38,
+    "type": "plan",
+    "text": "明天push Q4 pipeline",
+    "src": [
+     467
+    ]
+   },
+   {
+    "id": 270,
+    "day": 38,
+    "type": "ask",
+    "text": "帮约Ravi和Yuki的alignment meeting下周一下午，align dark mode engineering estimate",
+    "src": [
+     469,
+     470,
+     471
+    ]
+   },
+   {
+    "id": 271,
+    "day": 38,
+    "type": "ask",
+    "text": "Ben今天是否请假？",
+    "src": [
+     472
+    ]
+   },
+   {
+    "id": 272,
+    "day": 38,
+    "type": "fact",
+    "text": "Ben今天没有请假，可能晚点到",
+    "src": [
+     473
+    ]
+   },
+   {
+    "id": 273,
+    "day": 38,
+    "type": "ask",
+    "text": "Emily Tan的case study发我看一下，下午要discuss",
+    "src": [
+     474
+    ]
+   },
+   {
+    "id": 274,
+    "day": 38,
+    "type": "ask",
+    "text": "Jason的feedback你帮我整理了吗",
+    "src": [
+     476
+    ]
+   },
+   {
+    "id": 275,
+    "day": 38,
+    "type": "done",
+    "text": "Jason的面试feedback整理好了",
+    "src": [
+     477
+    ]
+   },
+   {
+    "id": 276,
+    "day": 38,
+    "type": "fact",
+    "text": "Omar说Singapore那边fintech prospect下周要visit office",
+    "src": [
+     478
+    ]
+   },
+   {
+    "id": 277,
+    "day": 38,
+    "type": "fact",
+    "text": "Ravi说dark mode estimate大概3 sprint",
+    "src": [
+     480
+    ]
+   },
+   {
+    "id": 278,
+    "day": 39,
+    "type": "fact",
+    "text": "Ravi说dark mode estimate大概3 sprint",
+    "src": [
+     481
+    ]
+   },
+   {
+    "id": 279,
+    "day": 39,
+    "type": "plan",
+    "text": "让Yuki看dark mode哪些部分可以分phase delivery",
+    "src": [
+     482
+    ]
+   },
+   {
+    "id": 280,
+    "day": 39,
+    "type": "plan",
+    "text": "明天push Aurora custom reporting timeline",
+    "src": [
+     483
+    ]
+   },
+   {
+    "id": 281,
+    "day": 39,
+    "type": "plan",
+    "text": "今天重点：Aurora custom reporting scoping，还有dark mode phase plan",
+    "src": [
+     485
+    ]
+   },
+   {
+    "id": 282,
+    "day": 39,
+    "type": "fact",
+    "text": "Lily已经发了Aurora custom reporting的初步scope，看着reasonable",
+    "src": [
+     487
+    ]
+   },
+   {
+    "id": 283,
+    "day": 39,
+    "type": "done",
+    "text": "凯哥approve了Omar的SEA marketing budget proposal，已发给Grace final approval",
+    "src": [
+     494,
+     495
+    ],
+    "closes": 159
+   },
+   {
+    "id": 284,
+    "day": 39,
+    "type": "fact",
+    "text": "Ravi confirm了Aurora custom reporting 4周可以做",
+    "src": [
+     496
+    ],
+    "supersedes": 264
+   },
+   {
+    "id": 285,
+    "day": 39,
+    "type": "plan",
+    "text": "让Lily准备Aurora custom reporting的SOW",
+    "src": [
+     496
+    ]
+   },
+   {
+    "id": 286,
+    "day": 39,
+    "type": "fact",
+    "text": "Yuki发了dark mode phase 1 scope只做core UI，减到2 sprint",
+    "src": [
+     490
+    ]
+   },
+   {
+    "id": 287,
+    "day": 39,
+    "type": "plan",
+    "text": "Yuki看dark mode哪些部分可以分phase delivery",
+    "src": [
+     279
+    ],
+    "supersedes": 490
+   },
+   {
+    "id": 288,
+    "day": 39,
+    "type": "ask",
+    "text": "下午Jason Chen的reference check出来了吗",
+    "src": [
+     492
+    ]
+   },
+   {
+    "id": 289,
+    "day": 39,
+    "type": "ask",
+    "text": "待会forward Lily的Aurora custom reporting 4周estimated给凯哥",
+    "src": [
+     489
+    ]
+   },
+   {
+    "id": 290,
+    "day": 40,
+    "type": "fact",
+    "text": "dark mode phase plan和Aurora scoping搞定了",
+    "src": [
+     498
+    ]
+   },
+   {
+    "id": 291,
+    "day": 40,
+    "type": "plan",
+    "text": "明天push Q4 pipeline alignment",
+    "src": [
+     500
+    ]
+   },
+   {
+    "id": 292,
+    "day": 40,
+    "type": "fact",
+    "text": "Ravi说integration testing进展不错，Sep 22 deadline应该能hit",
+    "src": [
+     502
+    ]
+   },
+   {
+    "id": 293,
+    "day": 40,
+    "type": "fact",
+    "text": "Jason Chen的reference check positive，可以move forward了",
+    "src": [
+     504
+    ]
+   },
+   {
+    "id": 294,
+    "day": 40,
+    "type": "done",
+    "text": "Jason Chen's reference check positive, can move forward",
+    "src": [
+     505
+    ],
+    "closes": 288
+   },
+   {
+    "id": 295,
+    "day": 40,
+    "type": "decision",
+    "text": "Ben's revised pricing v3 $49/user ready to present to Grace",
+    "src": [
+     506
+    ],
+    "supersedes": 242
+   },
+   {
+    "id": 296,
+    "day": 40,
+    "type": "plan",
+    "text": "Send executive summary of pricing v3 to Grace for preview this week",
+    "src": [
+     508
+    ]
+   },
+   {
+    "id": 297,
+    "day": 40,
+    "type": "fact",
+    "text": "老爸情况稳定了，可以focus on Aurora negotiations again",
+    "src": [
+     509
+    ],
+    "supersedes": 59
+   },
+   {
+    "id": 298,
+    "day": 40,
+    "type": "feeling",
+    "text": "老爸稳定了，可以focus on Aurora negotiations again",
+    "src": [
+     509
+    ],
+    "supersedes": 65
+   },
+   {
+    "id": 299,
+    "day": 40,
+    "type": "fact",
+    "text": "Omar finalized Q4 pipeline, Singapore added two prospects, pipeline healthy",
+    "src": [
+     511
+    ]
+   },
+   {
+    "id": 300,
+    "day": 41,
+    "type": "plan",
+    "text": "下周重点：Aurora negotiation final push, dark mode estimate alignment, Jason offer letter",
+    "src": [
+     513
+    ]
+   },
+   {
+    "id": 301,
+    "day": 41,
+    "type": "feeling",
+    "text": "周末了，终于可以喘口气",
+    "src": [
+     515
+    ]
+   },
+   {
+    "id": 302,
+    "day": 41,
+    "type": "plan",
+    "text": "周六陪女儿，看新电影",
+    "src": [
+     515
+    ]
+   },
+   {
+    "id": 303,
+    "day": 41,
+    "type": "done",
+    "text": "女儿表演超棒",
+    "src": [
+     517
+    ]
+   },
+   {
+    "id": 304,
+    "day": 41,
+    "type": "fact",
+    "text": "Customer survey里80% want better mobile support",
+    "src": [
+     519
+    ]
+   },
+   {
+    "id": 305,
+    "day": 41,
+    "type": "plan",
+    "text": "下季度要push mobile support",
+    "src": [
+     520
+    ]
+   },
+   {
+    "id": 306,
+    "day": 41,
+    "type": "plan",
+    "text": "计划周一和Yuki sync mobile方向（customer survey 80% want better mobile support）",
+    "src": [
+     521,
+     522
+    ]
+   },
+   {
+    "id": 307,
+    "day": 41,
+    "type": "ask",
+    "text": "keep note on mobile priority",
+    "src": [
+     525
+    ]
+   },
+   {
+    "id": 308,
+    "day": 41,
+    "type": "feeling",
+    "text": "老爸今天状态不错，陪他院子里走了走，心情好多了",
+    "src": [
+     526
+    ]
+   },
+   {
+    "id": 309,
+    "day": 41,
+    "type": "plan",
+    "text": "晚上relax，明天还有一堆Aurora docs要看",
+    "src": [
+     528
+    ]
+   },
+   {
+    "id": 310,
+    "day": 42,
+    "type": "plan",
+    "text": "周一提醒Omar把fintech case study发给凯哥",
+    "src": [
+     529
+    ]
+   },
+   {
+    "id": 311,
+    "day": 42,
+    "type": "ask",
+    "text": "提醒Omar下周一把fintech case study发给我",
+    "src": [
+     529,
+     530
+    ]
+   },
+   {
+    "id": 312,
+    "day": 42,
+    "type": "plan",
+    "text": "下周一和Yuki聊mobile backlog，Yuki带rough thoughts",
+    "src": [
+     534,
+     535
+    ]
+   },
+   {
+    "id": 313,
+    "day": 42,
+    "type": "fact",
+    "text": "Q3 revenue so far 2.1M USD，tracking slightly below target",
+    "src": [
+     536
+    ]
+   },
+   {
+    "id": 314,
+    "day": 42,
+    "type": "feeling",
+    "text": "有点压力, 剩下几周要大push",
+    "src": [
+     537
+    ]
+   },
+   {
+    "id": 315,
+    "day": 42,
+    "type": "fact",
+    "text": "Q3 revenue so far 2.1M USD，tracking slightly below target",
+    "src": [
+     538,
+     313
+    ]
+   },
+   {
+    "id": 316,
+    "day": 42,
+    "type": "ask",
+    "text": "先看Aurora那个custom reporting的impact, 能不能加速close",
+    "src": [
+     539
+    ]
+   },
+   {
+    "id": 317,
+    "day": 42,
+    "type": "plan",
+    "text": "明天和Lily check Aurora custom reporting能否加速close",
+    "src": [
+     540
+    ]
+   },
+   {
+    "id": 318,
+    "day": 42,
+    "type": "done",
+    "text": "下午带女儿去公园, need a break from revenue pressure",
+    "src": [
+     541
+    ]
+   },
+   {
+    "id": 319,
+    "day": 42,
+    "type": "plan",
+    "text": "晚上skim Omar上周发的pipeline, 明早sync前prep",
+    "src": [
+     543
+    ]
+   },
+   {
+    "id": 320,
+    "day": 43,
+    "type": "fact",
+    "text": "Grace明天要draft Q3 review给board",
+    "src": [
+     545
+    ]
+   },
+   {
+    "id": 321,
+    "day": 43,
+    "type": "plan",
+    "text": "周一早上和Yuki sync mobile backlog",
+    "src": [
+     547
+    ]
+   },
+   {
+    "id": 322,
+    "day": 43,
+    "type": "done",
+    "text": "周一早上和Yuki sync mobile backlog完成",
+    "src": [
+     549
+    ],
+    "closes": 312
+   },
+   {
+    "id": 323,
+    "day": 43,
+    "type": "decision",
+    "text": "Yuki propose先做native iOS",
+    "src": [
+     549
+    ]
+   },
+   {
+    "id": 324,
+    "day": 43,
+    "type": "plan",
+    "text": "Yuki周五前出t-shirt sizing for native iOS mobile",
+    "src": [
+     550
+    ]
+   },
+   {
+    "id": 325,
+    "day": 43,
+    "type": "done",
+    "text": "Omar没发fintech case study",
+    "src": [
+     552
+    ],
+    "closes": 311
+   },
+   {
+    "id": 326,
+    "day": 43,
+    "type": "done",
+    "text": "Omar没发fintech case study",
+    "src": [
+     325
+    ],
+    "closes": 310
+   },
+   {
+    "id": 327,
+    "day": 43,
+    "type": "done",
+    "text": "aicoo reminded 凯哥 about Omar's fintech case study",
+    "src": [
+     553,
+     554
+    ],
+    "closes": 311
+   },
+   {
+    "id": 328,
+    "day": 43,
+    "type": "fact",
+    "text": "Grace明天要draft Q3 review给board",
+    "src": [
+     320,
+     554
+    ]
+   },
+   {
+    "id": 329,
+    "day": 43,
+    "type": "fact",
+    "text": "Q3 revenue so far 2.1M USD, forecast adjustment to 2.3M, conservative",
+    "src": [
+     556
+    ],
+    "supersedes": 315
+   },
+   {
+    "id": 330,
+    "day": 43,
+    "type": "ask",
+    "text": "fill 2.1M actuals, then forecast adjustment to 2.3M, conservative",
+    "src": [
+     555,
+     556
+    ]
+   },
+   {
+    "id": 331,
+    "day": 43,
+    "type": "fact",
+    "text": "Emily Tan accepted offer, Ben to arrange onboarding",
+    "src": [
+     558
+    ]
+   },
+   {
+    "id": 332,
+    "day": 43,
+    "type": "ask",
+    "text": "remind Ben sent welcome package to Emily Tan",
+    "src": [
+     559
+    ]
+   },
+   {
+    "id": 333,
+    "day": 43,
+    "type": "fact",
+    "text": "Aurora: legal signed but client still pushing for Q3 close on custom module",
+    "src": [
+     560
+    ]
+   },
+   {
+    "id": 334,
+    "day": 44,
+    "type": "decision",
+    "text": "不能compromise scope for revenue, 太risky",
+    "src": [
+     561
+    ]
+   },
+   {
+    "id": 335,
+    "day": 44,
+    "type": "done",
+    "text": "Jason Chen reference check positive, 这周发offer",
+    "src": [
+     563
+    ],
+    "closes": 294
+   },
+   {
+    "id": 336,
+    "day": 44,
+    "type": "plan",
+    "text": "这周发offer给Jason Chen",
+    "src": [
+     563
+    ]
+   },
+   {
+    "id": 337,
+    "day": 44,
+    "type": "plan",
+    "text": "今晚review pricing v3 preview给Grace, 明天sync前finalize",
+    "src": [
+     565
+    ]
+   },
+   {
+    "id": 338,
+    "day": 44,
+    "type": "feeling",
+    "text": "今天和Grace pricing preview, 紧张",
+    "src": [
+     567
+    ]
+   },
+   {
+    "id": 339,
+    "day": 44,
+    "type": "fact",
+    "text": "Pricing sync done, Grace gave green light for Oct 15 meeting to finalize",
+    "src": [
+     569
+    ]
+   },
+   {
+    "id": 340,
+    "day": 44,
+    "type": "plan",
+    "text": "晚点给Ben和Omar发brief",
+    "src": [
+     571
+    ]
+   },
+   {
+    "id": 341,
+    "day": 44,
+    "type": "done",
+    "text": "Omar的SEA marketing budget proposal已发，凯哥还没看",
+    "src": [
+     574
+    ],
+    "closes": 283
+   },
+   {
+    "id": 342,
+    "day": 44,
+    "type": "person",
+    "text": "Third PM candidate Michael Liu interviewed, 10 years, ex-Microsoft",
+    "src": [
+     576
+    ]
+   },
+   {
+    "id": 343,
+    "day": 45,
+    "type": "fact",
+    "text": "Aurora deal: client agreed to Q4 close with add-on option, 950k preserved",
+    "src": [
+     579
+    ]
+   },
+   {
+    "id": 344,
+    "day": 45,
+    "type": "ask",
+    "text": "remind me to give Grace board draft and check dark mode phase 1 with Yuki tomorrow",
+    "src": [
+     581
+    ]
+   },
+   {
+    "id": 345,
+    "day": 45,
+    "type": "ask",
+    "text": "以后回复别用bullet points, just plain text",
+    "src": [
+     583
+    ]
+   },
+   {
+    "id": 346,
+    "day": 45,
+    "type": "plan",
+    "text": "下午和Ben对齐pricing final版本",
+    "src": [
+     585
+    ]
+   },
+   {
+    "id": 347,
+    "day": 45,
+    "type": "fact",
+    "text": "Ben发来了pricing final版本，凯哥要再过一遍数字",
+    "src": [
+     585
+    ]
+   },
+   {
+    "id": 348,
+    "day": 45,
+    "type": "fact",
+    "text": "pricing争论点是$44还是$49",
+    "src": [
+     587
+    ]
+   },
+   {
+    "id": 349,
+    "day": 45,
+    "type": "fact",
+    "text": "Ravi说security audit收尾了，integration Sep 22应该稳",
+    "src": [
+     588
+    ]
+   },
+   {
+    "id": 350,
+    "day": 45,
+    "type": "plan",
+    "text": "Sep 21下午提醒凯哥check Ravi状态",
+    "src": [
+     590
+    ]
+   },
+   {
+    "id": 351,
+    "day": 45,
+    "type": "promise",
+    "text": "aicoo agreed to remind 凯哥 on Sep 21 afternoon to check Ravi's integration status",
+    "src": [
+     590
+    ]
+   },
+   {
+    "id": 352,
+    "day": 45,
+    "type": "done",
+    "text": "给Michael Liu发了offer letter",
+    "src": [
+     591
+    ]
+   },
+   {
+    "id": 353,
+    "day": 45,
+    "type": "plan",
+    "text": "希望Michael Liu周四前签offer letter",
+    "src": [
+     591
+    ]
+   },
+   {
+    "id": 354,
+    "day": 46,
+    "type": "done",
+    "text": "Lily在跟Aurora custom reporting的催进度",
+    "src": [
+     593
+    ],
+    "closes": 316
+   },
+   {
+    "id": 355,
+    "day": 46,
+    "type": "feeling",
+    "text": "女儿有点咳嗽，今天早点走带她去诊所",
+    "src": [
+     594
+    ]
+   },
+   {
+    "id": 356,
+    "day": 46,
+    "type": "feeling",
+    "text": "女儿好多了，就是普通感冒",
+    "src": [
+     596
+    ]
+   },
+   {
+    "id": 357,
+    "day": 46,
+    "type": "decision",
+    "text": "Pricing final: $44 per user per month, launch Nov 1",
+    "src": [
+     598,
+     600
+    ],
+    "supersedes": 295
+   },
+   {
+    "id": 358,
+    "day": 46,
+    "type": "fact",
+    "text": "Pricing decision: $44 per user per month, launch Nov 1, 需要更新Grace",
+    "src": [
+     601
+    ]
+   },
+   {
+    "id": 359,
+    "day": 46,
+    "type": "done",
+    "text": "Aurora custom module negotiation基本定了，Q4 add-on, 价格额外$50K",
+    "src": [
+     604
+    ],
+    "closes": 333
+   },
+   {
+    "id": 360,
+    "day": 46,
+    "type": "plan",
+    "text": "明天飞Singapore, 需要prep Omar on pricing launch timeline",
+    "src": [
+     606
+    ]
+   },
+   {
+    "id": 361,
+    "day": 47,
+    "type": "done",
+    "text": "凯哥review了Omar的Singapore pipeline，不错，几个deal在推进",
+    "src": [
+     612
+    ],
+    "closes": 267
+   },
+   {
+    "id": 362,
+    "day": 47,
+    "type": "plan",
+    "text": "Yuki下周初给dark mode design v2",
+    "src": [
+     616
+    ]
+   },
+   {
+    "id": 363,
+    "day": 48,
+    "type": "plan",
+    "text": "晚上和Omar吃饭，聊聊Q4 target alignment",
+    "src": [
+     617
+    ]
+   },
+   {
+    "id": 364,
+    "day": 48,
+    "type": "plan",
+    "text": "早上在Singapore office最后半天，下午飞回Shanghai",
+    "src": [
+     619
+    ]
+   },
+   {
+    "id": 365,
+    "day": 48,
+    "type": "decision",
+    "text": "Omar propose再加一个BDR headcount, 凯哥说等Q4 pipeline稳住再批",
+    "src": [
+     620
+    ]
+   },
+   {
+    "id": 366,
+    "day": 48,
+    "type": "fact",
+    "text": "Omar说Singapore pipeline healthy, 5 new leads",
+    "src": [
+     622
+    ]
+   },
+   {
+    "id": 367,
+    "day": 48,
+    "type": "feeling",
+    "text": "女儿感冒好了活蹦乱跳",
+    "src": [
+     624
+    ]
+   },
+   {
+    "id": 368,
+    "day": 49,
+    "type": "plan",
+    "text": "下午1点跟Ravi sync integration status",
+    "src": [
+     631,
+     632
+    ]
+   },
+   {
+    "id": 369,
+    "day": 49,
+    "type": "feeling",
+    "text": "女儿今天幼儿园活动，我妈带去了，希望顺利",
+    "src": [
+     633
+    ]
+   },
+   {
+    "id": 370,
+    "day": 49,
+    "type": "done",
+    "text": "Ravi integration went live, 延迟但还算顺利, 安全审计花了点时间",
+    "src": [
+     635
+    ],
+    "closes": 351
+   },
+   {
+    "id": 371,
+    "day": 49,
+    "type": "plan",
+    "text": "Yuki两周内出dark mode phase 2 design",
+    "src": [
+     637
+    ]
+   },
+   {
+    "id": 372,
+    "day": 49,
+    "type": "feeling",
+    "text": "爸爸复查结果stable, 继续吃药，松了口气",
+    "src": [
+     639
+    ]
+   },
+   {
+    "id": 373,
+    "day": 50,
+    "type": "plan",
+    "text": "今晚写Q4 roadmap draft, 明天给Grace preview",
+    "src": [
+     641
+    ]
+   },
+   {
+    "id": 374,
+    "day": 50,
+    "type": "plan",
+    "text": "Q3 wrap-up meeting at 11 with Grace",
+    "src": [
+     643
+    ]
+   },
+   {
+    "id": 375,
+    "day": 50,
+    "type": "feeling",
+    "text": "Q3 wrap-up meeting前有点紧张",
+    "src": [
+     643
+    ]
+   },
+   {
+    "id": 376,
+    "day": 50,
+    "type": "done",
+    "text": "Ravi confirmed integration went live Sep 22",
+    "src": [
+     645
+    ],
+    "closes": 351
+   },
+   {
+    "id": 377,
+    "day": 50,
+    "type": "done",
+    "text": "Q3 revenue 2.1M",
+    "src": [
+     647
+    ]
+   },
+   {
+    "id": 378,
+    "day": 50,
+    "type": "plan",
+    "text": "Q4 focus, Aurora deal是关键",
+    "src": [
+     647
+    ]
+   },
+   {
+    "id": 379,
+    "day": 51,
+    "type": "fact",
+    "text": "Omar确认Singapore pipeline 5个leads都在推进",
+    "src": [
+     649
+    ]
+   },
+   {
+    "id": 380,
+    "day": 51,
+    "type": "fact",
+    "text": "Aurora custom module可以在Q1做",
+    "src": [
+     651
+    ]
+   },
+   {
+    "id": 381,
+    "day": 51,
+    "type": "done",
+    "text": "女儿感冒好了，陪她画了一小时画",
+    "src": [
+     653
+    ]
+   },
+   {
+    "id": 382,
+    "day": 51,
+    "type": "plan",
+    "text": "今天和Ben review pricing launch checklist，下午面试PM final candidate",
+    "src": [
+     655
+    ]
+   },
+   {
+    "id": 383,
+    "day": 51,
+    "type": "done",
+    "text": "Ben pricing launch checklist review done",
+    "src": [
+     657
+    ]
+   },
+   {
+    "id": 384,
+    "day": 51,
+    "type": "plan",
+    "text": "Yuki下周一前定稿定价页面设计",
+    "src": [
+     658
+    ]
+   },
+   {
+    "id": 385,
+    "day": 51,
+    "type": "person",
+    "text": "王磊, final PM candidate, 7年SaaS, 沟通不错",
+    "src": [
+     659
+    ]
+   },
+   {
+    "id": 386,
+    "day": 51,
+    "type": "fact",
+    "text": "dad血压高，去社区医院调整药量后降下来了",
+    "src": [
+     661
+    ]
+   },
+   {
+    "id": 387,
+    "day": 51,
+    "type": "plan",
+    "text": "明天发Q4 roadmap给Grace",
+    "src": [
+     663
+    ]
+   },
+   {
+    "id": 388,
+    "day": 52,
+    "type": "done",
+    "text": "凯哥发了Q4 roadmap给Grace",
+    "src": [
+     665
+    ],
+    "closes": 387
+   },
+   {
+    "id": 389,
+    "day": 52,
+    "type": "fact",
+    "text": "Omar说Singapore office年底前需要招3个新销售",
+    "src": [
+     667
+    ]
+   },
+   {
+    "id": 390,
+    "day": 52,
+    "type": "plan",
+    "text": "下周跟Grace谈Omar的headcount approval",
+    "src": [
+     669
+    ]
+   },
+   {
+    "id": 391,
+    "day": 52,
+    "type": "fact",
+    "text": "Ravi说integration post-launch system stable, no major bug",
+    "src": [
+     671
+    ]
+   },
+   {
+    "id": 392,
+    "day": 53,
+    "type": "plan",
+    "text": "明天加一页risk plan给Grace",
+    "src": [
+     675,
+     676
+    ]
+   },
+   {
+    "id": 393,
+    "day": 53,
+    "type": "feeling",
+    "text": "dad今天血压稳定，女儿也开心，难得轻松一天",
+    "src": [
+     677
+    ]
+   },
+   {
+    "id": 394,
+    "day": 53,
+    "type": "plan",
+    "text": "10月10日周五present Q4 roadmap给Grace，需要准备deck",
+    "src": [
+     679
+    ]
+   },
+   {
+    "id": 395,
+    "day": 54,
+    "type": "feeling",
+    "text": "女儿发烧，晚上带她去看医生",
+    "src": [
+     685
+    ]
+   },
+   {
+    "id": 396,
+    "day": 54,
+    "type": "feeling",
+    "text": "女儿退烧了，但没去幼儿园，我妈在家陪着",
+    "src": [
+     687
+    ]
+   },
+   {
+    "id": 397,
+    "day": 54,
+    "type": "plan",
+    "text": "明天早上同步outline",
+    "src": [
+     681
+    ]
+   },
+   {
+    "id": 398,
+    "day": 54,
+    "type": "plan",
+    "text": "下午和Ravi过integration post-mortem，顺便聊聊velocity",
+    "src": [
+     683
+    ]
+   },
+   {
+    "id": 399,
+    "day": 54,
+    "type": "plan",
+    "text": "明天早点到办公室",
+    "src": [
+     685
+    ]
+   },
+   {
+    "id": 400,
+    "day": 54,
+    "type": "plan",
+    "text": "10月10日周五present Q4 roadmap给Grace，需要准备deck",
+    "src": [
+     394
+    ]
+   },
+   {
+    "id": 401,
+    "day": 54,
+    "type": "plan",
+    "text": "明天加一页risk plan给Grace",
+    "src": [
+     392
+    ]
+   },
+   {
+    "id": 402,
+    "day": 54,
+    "type": "plan",
+    "text": "下周跟Grace谈Omar的headcount approval",
+    "src": [
+     390
+    ]
+   },
+   {
+    "id": 403,
+    "day": 54,
+    "type": "plan",
+    "text": "Yuki下周一前定稿定价页面设计",
+    "src": [
+     384
+    ]
+   },
+   {
+    "id": 404,
+    "day": 54,
+    "type": "plan",
+    "text": "今天和Ben review pricing launch checklist，下午面试PM final candidate",
+    "src": [
+     382
+    ]
+   },
+   {
+    "id": 405,
+    "day": 54,
+    "type": "plan",
+    "text": "今晚写Q4 roadmap draft，明天给Grace preview",
+    "src": [
+     373
+    ]
+   },
+   {
+    "id": 406,
+    "day": 54,
+    "type": "plan",
+    "text": "Sep 21下午提醒凯哥check Ravi状态",
+    "src": [
+     350
+    ]
+   },
+   {
+    "id": 407,
+    "day": 54,
+    "type": "plan",
+    "text": "晚上和Omar吃饭，聊聊Q4 target alignment",
+    "src": [
+     363
+    ]
+   },
+   {
+    "id": 408,
+    "day": 54,
+    "type": "plan",
+    "text": "Yuki两周内出dark mode phase 2 design",
+    "src": [
+     371
+    ]
+   },
+   {
+    "id": 409,
+    "day": 54,
+    "type": "plan",
+    "text": "Q3 wrap-up meeting at 11 with Grace",
+    "src": [
+     374
+    ]
+   },
+   {
+    "id": 410,
+    "day": 54,
+    "type": "plan",
+    "text": "明天早上有customer interview，记得提醒我记录feature request",
+    "src": [
+     108
+    ]
+   },
+   {
+    "id": 411,
+    "day": 54,
+    "type": "plan",
+    "text": "下午和Ravi sync，看integration timeline能不能align",
+    "src": [
+     37
+    ]
+   },
+   {
+    "id": 412,
+    "day": 54,
+    "type": "plan",
+    "text": "晚上跟Omar吃饭，聊聊那个enterprise deal",
+    "src": [
+     13
+    ]
+   },
+   {
+    "id": 413,
+    "day": 54,
+    "type": "done",
+    "text": "凯哥发了Q4 roadmap outline给aicoo",
+    "src": [
+     689
+    ]
+   },
+   {
+    "id": 414,
+    "day": 54,
+    "type": "ask",
+    "text": "帮凯哥补几页slide草稿",
+    "src": [
+     690
+    ]
+   },
+   {
+    "id": 415,
+    "day": 54,
+    "type": "done",
+    "text": "aicoo发了第一版slide draft",
+    "src": [
+     691
+    ]
+   },
+   {
+    "id": 416,
+    "day": 54,
+    "type": "ask",
+    "text": "加一页Aurora作为Q4 case study",
+    "src": [
+     691
+    ]
+   },
+   {
+    "id": 417,
+    "day": 54,
+    "type": "done",
+    "text": "aicoo同意加Aurora case study",
+    "src": [
+     692
+    ]
+   },
+   {
+    "id": 418,
+    "day": 54,
+    "type": "fact",
+    "text": "Omar说Singapore几条lead进展不错",
+    "src": [
+     693
+    ]
+   },
+   {
+    "id": 419,
+    "day": 54,
+    "type": "feeling",
+    "text": "回家陪女儿,晚上不加班了",
+    "src": [
+     695
+    ]
+   },
+   {
+    "id": 420,
+    "day": 55,
+    "type": "fact",
+    "text": "Ravi确认integration上线后一切正常，没有critical bugs",
+    "src": [
+     697
+    ]
+   },
+   {
+    "id": 421,
+    "day": 55,
+    "type": "ask",
+    "text": "meeting minutes以后开头加个summary sentence on decisions",
+    "src": [
+     699
+    ]
+   },
+   {
+    "id": 422,
+    "day": 55,
+    "type": "pref",
+    "text": "meeting minutes开头加decision summary",
+    "src": [
+     699
+    ]
+   },
+   {
+    "id": 423,
+    "day": 55,
+    "type": "fact",
+    "text": "Aurora contract signed, 950k deal closed, Lily和凯哥庆祝",
+    "src": [
+     701
+    ],
+    "supersedes": 234
+   },
+   {
+    "id": 424,
+    "day": 55,
+    "type": "done",
+    "text": "Aurora 950k deal closed",
+    "src": [
+     701
+    ],
+    "closes": 234
+   },
+   {
+    "id": 425,
+    "day": 55,
+    "type": "plan",
+    "text": "明天给Grace发summary并更新Q4数字",
+    "src": [
+     703
+    ]
+   },
+   {
+    "id": 426,
+    "day": 56,
+    "type": "plan",
+    "text": "凯哥明早改aicoo写的draft",
+    "src": [
+     705
+    ]
+   },
+   {
+    "id": 427,
+    "day": 56,
+    "type": "feeling",
+    "text": "晚上带女儿出去吃寿司",
+    "src": [
+     706
+    ]
+   },
+   {
+    "id": 428,
+    "day": 56,
+    "type": "feeling",
+    "text": "周日女儿有画画课，上午陪她，下午有空再弄deck",
+    "src": [
+     708,
+     709
+    ]
+   },
+   {
+    "id": 429,
+    "day": 56,
+    "type": "fact",
+    "text": "Engineering team velocity up 20% this sprint, Ravi reports",
+    "src": [
+     710
+    ]
+   },
+   {
+    "id": 430,
+    "day": 56,
+    "type": "done",
+    "text": "凯哥更新完deck并发给aicoo",
+    "src": [
+     712
+    ],
+    "closes": 414
+   },
+   {
+    "id": 431,
+    "day": 57,
+    "type": "fact",
+    "text": "dad恢复得挺好，血压也稳",
+    "src": [
+     714
+    ]
+   },
+   {
+    "id": 432,
+    "day": 57,
+    "type": "plan",
+    "text": "Q4 roadmap deck需在10月10日前完成，本周要安排时间",
+    "src": [
+     716
+    ]
+   },
+   {
+    "id": 433,
+    "day": 57,
+    "type": "plan",
+    "text": "周四上午预留2小时做roadmap work",
+    "src": [
+     717
+    ]
+   },
+   {
+    "id": 434,
+    "day": 57,
+    "type": "ask",
+    "text": "remind me to talk to Ravi about integration post-mortem",
+    "src": [
+     718
+    ]
+   },
+   {
+    "id": 435,
+    "day": 57,
+    "type": "fact",
+    "text": "Yuki说dark mode dev今天开始，目标11月中旬发布",
+    "src": [
+     720
+    ]
+   },
+   {
+    "id": 436,
+    "day": 57,
+    "type": "feeling",
+    "text": "周末好好休息，周末愉快",
+    "src": [
+     714
+    ]
+   },
+   {
+    "id": 437,
+    "day": 58,
+    "type": "fact",
+    "text": "dad's checkup tomorrow morning, might be late",
+    "src": [
+     724
+    ]
+   },
+   {
+    "id": 438,
+    "day": 58,
+    "type": "ask",
+    "text": "remind me to reschedule my 9am if needed",
+    "src": [
+     724
+    ]
+   },
+   {
+    "id": 439,
+    "day": 58,
+    "type": "promise",
+    "text": "aicoo agreed to remind 凯哥 to reschedule 9am if needed",
+    "src": [
+     725
+    ]
+   },
+   {
+    "id": 440,
+    "day": 58,
+    "type": "fact",
+    "text": "dad's checkup went well, stable",
+    "src": [
+     726
+    ]
+   },
+   {
+    "id": 441,
+    "day": 58,
+    "type": "done",
+    "text": "aicoo reminded 凯哥 about dad's checkup and rescheduled 9am to 11",
+    "src": [
+     727
+    ],
+    "closes": 724
+   },
+   {
+    "id": 442,
+    "day": 58,
+    "type": "fact",
+    "text": "Yuki confirmed dark mode implementation started today, target mid-Nov release",
+    "src": [
+     728
+    ]
+   },
+   {
+    "id": 443,
+    "day": 59,
+    "type": "fact",
+    "text": "Ben's pricing v3 final review done, launch Nov 1, 凯哥's set.",
+    "src": [
+     730
+    ]
+   },
+   {
+    "id": 444,
+    "day": 59,
+    "type": "fact",
+    "text": "Omar called, Singapore team wants to expand headcount, need to discuss with Grace.",
+    "src": [
+     732
+    ]
+   },
+   {
+    "id": 445,
+    "day": 59,
+    "type": "ask",
+    "text": "帮凯哥prep pipeline numbers from Omar's last report, 凯哥明天review.",
+    "src": [
+     734
+    ]
+   },
+   {
+    "id": 446,
+    "day": 59,
+    "type": "plan",
+    "text": "今天finalize Q4 roadmap risk section.",
+    "src": [
+     735
+    ]
+   },
+   {
+    "id": 447,
+    "day": 59,
+    "type": "plan",
+    "text": "Yuki wants to test dark mode with 50 beta users next week",
+    "src": [
+     737
+    ]
+   },
+   {
+    "id": 448,
+    "day": 59,
+    "type": "promise",
+    "text": "Ravi promised to have integration post-mortem doc by Friday",
+    "src": [
+     739
+    ]
+   },
+   {
+    "id": 449,
+    "day": 59,
+    "type": "feeling",
+    "text": "Long day. Dad is watching TV, daughter drawing. Peaceful.",
+    "src": [
+     743
+    ]
+   },
+   {
+    "id": 450,
+    "day": 60,
+    "type": "feeling",
+    "text": "Q4第一天，感觉不错。",
+    "src": [
+     745
+    ]
+   },
+   {
+    "id": 451,
+    "day": 60,
+    "type": "fact",
+    "text": "Emily Tan confirmed PM offer, start date Oct 26.",
+    "src": [
+     747
+    ]
+   },
+   {
+    "id": 452,
+    "day": 60,
+    "type": "plan",
+    "text": "凯哥需要为Emily Tan想onboarding plan。",
+    "src": [
+     749
+    ]
+   },
+   {
+    "id": 453,
+    "day": 60,
+    "type": "ask",
+    "text": "帮凯哥draft一个30-60-90 day plan给Emily Tan。",
+    "src": [
+     750,
+     751
+    ]
+   },
+   {
+    "id": 454,
+    "day": 60,
+    "type": "fact",
+    "text": "Q4 roadmap deck almost done, 只差polish risk section和加timeline visuals。",
+    "src": [
+     752
+    ]
+   },
+   {
+    "id": 455,
+    "day": 61,
+    "type": "ask",
+    "text": "别再用stickers了，just text please",
+    "src": [
+     754
+    ]
+   },
+   {
+    "id": 456,
+    "day": 61,
+    "type": "plan",
+    "text": "今天finalize Q4 roadmap risk section",
+    "src": [
+     758
+    ]
+   },
+   {
+    "id": 457,
+    "day": 61,
+    "type": "plan",
+    "text": "下午3点aicoo帮忙检查Q4 deck",
+    "src": [
+     759,
+     760
+    ]
+   },
+   {
+    "id": 458,
+    "day": 61,
+    "type": "fact",
+    "text": "Yuki's dark mode beta signups coming in, 12 users already",
+    "src": [
+     760
+    ]
+   },
+   {
+    "id": 459,
+    "day": 61,
+    "type": "feeling",
+    "text": "女儿学校画画得了奖，开心",
+    "src": [
+     762
+    ]
+   },
+   {
+    "id": 460,
+    "day": 61,
+    "type": "done",
+    "text": "凯哥完成了Q4 roadmap risk section",
+    "src": [
+     764
+    ],
+    "closes": 456
+   },
+   {
+    "id": 461,
+    "day": 61,
+    "type": "fact",
+    "text": "Ravi说integration稳定了，可以drop监控",
+    "src": [
+     766
+    ]
+   },
+   {
+    "id": 462,
+    "day": 61,
+    "type": "done",
+    "text": "Ravi integration稳定，无需持续监控",
+    "src": [
+     766
+    ],
+    "closes": 448
+   },
+   {
+    "id": 463,
+    "day": 61,
+    "type": "feeling",
+    "text": "今天效率还行",
+    "src": [
+     768
+    ]
+   },
+   {
+    "id": 464,
+    "day": 62,
+    "type": "fact",
+    "text": "Grace approved additional $100k budget for Q4 marketing",
+    "src": [
+     770
+    ]
+   },
+   {
+    "id": 465,
+    "day": 62,
+    "type": "fact",
+    "text": "Omar plans to use $100k for two SEA webinars and a local case study",
+    "src": [
+     773
+    ]
+   },
+   {
+    "id": 466,
+    "day": 62,
+    "type": "fact",
+    "text": "Yuki's dark mode beta users reached 30, on track to 50 tomorrow",
+    "src": [
+     775
+    ]
+   },
+   {
+    "id": 467,
+    "day": 63,
+    "type": "fact",
+    "text": "Q3 revenue final 2.35M USD, slightly below 2.4M target, Grace not thrilled",
+    "src": [
+     779
+    ]
+   },
+   {
+    "id": 468,
+    "day": 63,
+    "type": "plan",
+    "text": "今天下午re-align Q4 forecast with Grace",
+    "src": [
+     781,
+     783
+    ]
+   },
+   {
+    "id": 469,
+    "day": 63,
+    "type": "ask",
+    "text": "帮凯哥整理Aurora 950k和其他Q4 deal pipeline数据，下午用",
+    "src": [
+     782,
+     783
+    ]
+   },
+   {
+    "id": 470,
+    "day": 63,
+    "type": "fact",
+    "text": "父亲checkup结果不错，医生说他恢复得挺好，可以减药量了",
+    "src": [
+     787
+    ]
+   },
+   {
+    "id": 471,
+    "day": 63,
+    "type": "plan",
+    "text": "下午请假两小时",
+    "src": [
+     785
+    ]
+   },
+   {
+    "id": 472,
+    "day": 63,
+    "type": "fact",
+    "text": "Ben说pricing page A/B test准备差不多了，下周启动",
+    "src": [
+     789
+    ]
+   },
+   {
+    "id": 473,
+    "day": 64,
+    "type": "feeling",
+    "text": "周末休息得不错，女儿画画又进步了",
+    "src": [
+     793
+    ]
+   },
+   {
+    "id": 474,
+    "day": 64,
+    "type": "plan",
+    "text": "周三和Grace review Q4 deck",
+    "src": [
+     794,
+     795
+    ]
+   },
+   {
+    "id": 475,
+    "day": 64,
+    "type": "plan",
+    "text": "今天再润色一下risk section",
+    "src": [
+     795
+    ]
+   },
+   {
+    "id": 476,
+    "day": 64,
+    "type": "promise",
+    "text": "aicoo agreed to help review risk section of Q4 deck",
+    "src": [
+     796
+    ]
+   },
+   {
+    "id": 477,
+    "day": 64,
+    "type": "fact",
+    "text": "Yuki说dark mode beta反馈不错, 20个用户里16个positive",
+    "src": [
+     797
+    ]
+   },
+   {
+    "id": 478,
+    "day": 64,
+    "type": "plan",
+    "text": "Ben's new pricing page A/B test starts Nov 3",
+    "src": [
+     799,
+     800
+    ]
+   },
+   {
+    "id": 479,
+    "day": 65,
+    "type": "fact",
+    "text": "Omar发了SEA Q4 pipeline update, 三个deal在negotiation, total 200K",
+    "src": [
+     801
+    ]
+   },
+   {
+    "id": 480,
+    "day": 65,
+    "type": "plan",
+    "text": "10月6日飞Singapore, 参加regional conference, 下午speaker session on SaaS trends",
+    "src": [
+     805
+    ]
+   },
+   {
+    "id": 481,
+    "day": 65,
+    "type": "fact",
+    "text": "航班10:20 departure, gate 12, on time",
+    "src": [
+     806
+    ]
+   },
+   {
+    "id": 482,
+    "day": 65,
+    "type": "fact",
+    "text": "凯哥在lounge赶deck, 打算在conference上highlight pricing change和dark mode rollout",
+    "src": [
+     807
+    ]
+   },
+   {
+    "id": 483,
+    "day": 66,
+    "type": "fact",
+    "text": "凯哥在regional conference讲完SaaS trends, 反应不错, 一个fintech公司对dark mode感兴趣, 另一个问mobile roadmap",
+    "src": [
+     811
+    ]
+   },
+   {
+    "id": 484,
+    "day": 66,
+    "type": "fact",
+    "text": "凯哥和Omar dinner, Omar说Singapore team pipeline strong, 年底前能hit target",
+    "src": [
+     814
+    ]
+   },
+   {
+    "id": 485,
+    "day": 66,
+    "type": "fact",
+    "text": "凯哥10月6日飞Singapore参加regional conference, 下午2pm speaker session on SaaS trends",
+    "src": [
+     811
+    ]
+   },
+   {
+    "id": 486,
+    "day": 66,
+    "type": "plan",
+    "text": "10月7日和Omar team sync, 聊三个新sales hire进展",
+    "src": [
+     813,
+     816
+    ]
+   },
+   {
+    "id": 487,
+    "day": 66,
+    "type": "fact",
+    "text": "凯哥在coffee chat遇到一个logistics company, 100 seats, 对tracking module感兴趣, 已转给Omar",
+    "src": [
+     818
+    ]
+   },
+   {
+    "id": 488,
+    "day": 66,
+    "type": "fact",
+    "text": "Lily转enterprise sales full-time, 已和Grace对齐, 本周handover给Emily Thompson",
+    "src": [
+     820
+    ]
+   },
+   {
+    "id": 489,
+    "day": 66,
+    "type": "fact",
+    "text": "Emily Thompson PM start date Oct 26, 接Lily的enterprise accounts",
+    "src": [
+     820
+    ]
+   },
+   {
+    "id": 490,
+    "day": 66,
+    "type": "fact",
+    "text": "Ben接手mid-market accounts, Lily做一周handover doc",
+    "src": [
+     822
+    ]
+   },
+   {
+    "id": 491,
+    "day": 66,
+    "type": "plan",
+    "text": "10月7日和Omar team sync完成, 两个deal需custom integration, 需协调Ravi资源",
+    "src": [
+     823
+    ]
+   },
+   {
+    "id": 492,
+    "day": 67,
+    "type": "fact",
+    "text": "凯哥10月8日参加最后半天conference session, 下午飞回上海, 3点到",
+    "src": [
+     828,
+     829
+    ]
+   },
+   {
+    "id": 493,
+    "day": 67,
+    "type": "fact",
+    "text": "父亲10月9日需要follow-up appointment at hospital",
+    "src": [
+     830
+    ]
+   },
+   {
+    "id": 494,
+    "day": 67,
+    "type": "plan",
+    "text": "10月9日上午请半天假陪父亲去医院follow-up",
+    "src": [
+     830
+    ]
+   },
+   {
+    "id": 495,
+    "day": 67,
+    "type": "plan",
+    "text": "10月9日上午10点和Yuki的dark mode beta review不能动",
+    "src": [
+     832
+    ]
+   },
+   {
+    "id": 496,
+    "day": 67,
+    "type": "plan",
+    "text": "Ben的pricing update从10月9日下午2点移到10月10日周四",
+    "src": [
+     832
+    ]
+   },
+   {
+    "id": 497,
+    "day": 67,
+    "type": "feeling",
+    "text": "凯哥一天下来有点累",
+    "src": [
+     826
+    ]
+   },
+   {
+    "id": 498,
+    "day": 67,
+    "type": "ask",
+    "text": "aicoo帮忙reschedule或cancel明天的会议, 凯哥告诉哪些不能miss",
+    "src": [
+     831
+    ]
+   },
+   {
+    "id": 499,
+    "day": 68,
+    "type": "fact",
+    "text": "凯哥10月8日3点到上海",
+    "src": [
+     834
+    ]
+   },
+   {
+    "id": 500,
+    "day": 68,
+    "type": "feeling",
+    "text": "凯哥希望父亲明天检查顺利",
+    "src": [
+     834
+    ]
+   },
+   {
+    "id": 501,
+    "day": 68,
+    "type": "feeling",
+    "text": "女儿画了画欢迎回家，心情好多了",
+    "src": [
+     836
+    ]
+   },
+   {
+    "id": 502,
+    "day": 68,
+    "type": "plan",
+    "text": "10月9日上午10点和Yuki的dark mode beta review",
+    "src": [
+     838
+    ]
+   },
+   {
+    "id": 503,
+    "day": 68,
+    "type": "feeling",
+    "text": "凯哥看了dark mode beta feedback，整体positive",
+    "src": [
+     840
+    ]
+   },
+   {
+    "id": 504,
+    "day": 68,
+    "type": "fact",
+    "text": "Yuki需要两周做dark mode beta feedback iteration，然后full rollout planning，mid-Nov timeline仍on track",
+    "src": [
+     841,
+     842,
+     843
+    ]
+   },
+   {
+    "id": 505,
+    "day": 68,
+    "type": "fact",
+    "text": "Ben的pricing launch delayed to Nov 15，需要更多testing time，a/b test结果未出",
+    "src": [
+     845
+    ]
+   },
+   {
+    "id": 506,
+    "day": 68,
+    "type": "decision",
+    "text": "Pricing launch date从Nov 1改为Nov 15",
+    "src": [
+     845
+    ],
+    "supersedes": 358
+   },
+   {
+    "id": 507,
+    "day": 68,
+    "type": "plan",
+    "text": "凯哥明天update Grace关于pricing launch delay",
+    "src": [
+     847
+    ]
+   },
+   {
+    "id": 508,
+    "day": 68,
+    "type": "feeling",
+    "text": "凯哥希望父亲下午检查结果好",
+    "src": [
+     848
+    ]
+   },
+   {
+    "id": 509,
+    "day": 69,
+    "type": "fact",
+    "text": "凯哥父亲10月9日检查结果稳定，医生继续观察，下周还有一次follow-up",
+    "src": [
+     850
+    ]
+   },
+   {
+    "id": 510,
+    "day": 69,
+    "type": "feeling",
+    "text": "凯哥父亲检查结果稳定，松了口气",
+    "src": [
+     850
+    ]
+   },
+   {
+    "id": 511,
+    "day": 69,
+    "type": "plan",
+    "text": "10月10日凯哥和Grace对齐pricing delay",
+    "src": [
+     852
+    ]
+   },
+   {
+    "id": 512,
+    "day": 69,
+    "type": "plan",
+    "text": "10月10日present Q4 roadmap给Grace",
+    "src": [
+     854
+    ],
+    "supersedes": 400
+   },
+   {
+    "id": 513,
+    "day": 69,
+    "type": "feeling",
+    "text": "凯哥对今天Q4 roadmap presentation有点紧张",
+    "src": [
+     854
+    ]
+   },
+   {
+    "id": 514,
+    "day": 69,
+    "type": "fact",
+    "text": "客户对dark mode反馈：大部分喜欢，少数想要toggle选项",
+    "src": [
+     856
+    ]
+   },
+   {
+    "id": 515,
+    "day": 69,
+    "type": "done",
+    "text": "Q4 roadmap approved by Grace with few tweaks",
+    "src": [
+     860
+    ],
+    "closes": 476
+   },
+   {
+    "id": 516,
+    "day": 69,
+    "type": "plan",
+    "text": "Dark mode beta feedback due by Nov 7 instead of Nov 1",
+    "src": [
+     862
+    ]
+   },
+   {
+    "id": 517,
+    "day": 69,
+    "type": "decision",
+    "text": "Dark mode toggle added to backlog for phase 2",
+    "src": [
+     864
+    ]
+   },
+   {
+    "id": 518,
+    "day": 69,
+    "type": "feeling",
+    "text": "凯哥对presentation结果感到满意",
+    "src": [
+     860
+    ]
+   },
+   {
+    "id": 519,
+    "day": 70,
+    "type": "plan",
+    "text": "凯哥this week prep a case for Omar's Q4 headcount request",
+    "src": [
+     865,
+     867
+    ]
+   },
+   {
+    "id": 520,
+    "day": 70,
+    "type": "fact",
+    "text": "凯哥父亲10月10日检查结果稳定，血压正常",
+    "src": [
+     868
+    ]
+   },
+   {
+    "id": 521,
+    "day": 70,
+    "type": "feeling",
+    "text": "凯哥父亲检查结果稳定，放下一个担忧",
+    "src": [
+     869
+    ]
+   },
+   {
+    "id": 522,
+    "day": 70,
+    "type": "feeling",
+    "text": "凯哥接女儿放学，女儿想今晚画画",
+    "src": [
+     870
+    ]
+   },
+   {
+    "id": 523,
+    "day": 70,
+    "type": "feeling",
+    "text": "凯哥周日（10月11日）和家人享受懒散的早晨",
+    "src": [
+     872
+    ]
+   },
+   {
+    "id": 524,
+    "day": 70,
+    "type": "fact",
+    "text": "Aurora deal名字是Aurora Health, not Aurora TTech",
+    "src": [
+     873
+    ]
+   },
+   {
+    "id": 525,
+    "day": 70,
+    "type": "pref",
+    "text": "写customer feedback summary时，always group by feature first",
+    "src": [
+     875
+    ]
+   },
+   {
+    "id": 526,
+    "day": 70,
+    "type": "feeling",
+    "text": "父亲药量又减了，感觉好多了",
+    "src": [
+     877
+    ]
+   },
+   {
+    "id": 527,
+    "day": 70,
+    "type": "feeling",
+    "text": "女儿想去公园，出门了",
+    "src": [
+     880
+    ]
+   },
+   {
+    "id": 528,
+    "day": 71,
+    "type": "feeling",
+    "text": "凯哥周日（10月11日）和家人享受了轻松的下午和晚餐，感觉很好",
+    "src": [
+     882,
+     886,
+     887
+    ]
+   },
+   {
+    "id": 529,
+    "day": 71,
+    "type": "plan",
+    "text": "10月12日周一和Ben kickoff pricing page A/B test",
+    "src": [
+     883,
+     885
+    ]
+   },
+   {
+    "id": 530,
+    "day": 71,
+    "type": "fact",
+    "text": "Ben的pricing page A/B test draft看起来干净，按计划11月3日启动",
+    "src": [
+     885
+    ]
+   },
+   {
+    "id": 531,
+    "day": 71,
+    "type": "feeling",
+    "text": "周一10月12日，凯哥表示本周工作排得很满",
+    "src": [
+     888
+    ]
+   },
+   {
+    "id": 532,
+    "day": 71,
+    "type": "fact",
+    "text": "Ravi的security audit follow-up有个minor issue，今天patching",
+    "src": [
+     890
+    ]
+   },
+   {
+    "id": 533,
+    "day": 71,
+    "type": "fact",
+    "text": "Dark mode beta feedback现在35个用户，mostly positive",
+    "src": [
+     891
+    ]
+   },
+   {
+    "id": 534,
+    "day": 71,
+    "type": "fact",
+    "text": "Ben的pricing page A/B test plan finalized，11月3日launch",
+    "src": [
+     892
+    ]
+   },
+   {
+    "id": 535,
+    "day": 71,
+    "type": "fact",
+    "text": "Lily handover to Emily Thompson going smoothly，Emily 10月26日start",
+    "src": [
+     893
+    ]
+   },
+   {
+    "id": 536,
+    "day": 71,
+    "type": "fact",
+    "text": "Omar wants to hire 2 sales in Singapore by Dec",
+    "src": [
+     894
+    ]
+   },
+   {
+    "id": 537,
+    "day": 71,
+    "type": "plan",
+    "text": "凯哥需要prep headcount proposal for Grace",
+    "src": [
+     895
+    ]
+   },
+   {
+    "id": 538,
+    "day": 71,
+    "type": "feeling",
+    "text": "周一10月12日，凯哥中午quick lunch，salad",
+    "src": [
+     896
+    ]
+   },
+   {
+    "id": 539,
+    "day": 71,
+    "type": "feeling",
+    "text": "Emily sends intro email. Good energy.",
+    "src": [
+     897
+    ]
+   },
+   {
+    "id": 540,
+    "day": 71,
+    "type": "fact",
+    "text": "Ravi说integration performance improved by 30% after fix.",
+    "src": [
+     898
+    ]
+   },
+   {
+    "id": 541,
+    "day": 71,
+    "type": "feeling",
+    "text": "Daughter has a small cough, school called.",
+    "src": [
+     901
+    ]
+   },
+   {
+    "id": 542,
+    "day": 71,
+    "type": "plan",
+    "text": "Dad's checkup next week, scheduled for Thursday.",
+    "src": [
+     903
+    ]
+   },
+   {
+    "id": 543,
+    "day": 71,
+    "type": "fact",
+    "text": "Grace pinged about Q4 offsite planning.",
+    "src": [
+     904
+    ]
+   },
+   {
+    "id": 544,
+    "day": 72,
+    "type": "feeling",
+    "text": "凯哥离开办公室，与家人共进晚餐。",
+    "src": [
+     905
+    ]
+   },
+   {
+    "id": 545,
+    "day": 72,
+    "type": "feeling",
+    "text": "周二10月13日，早晨standup开局不错。",
+    "src": [
+     907
+    ]
+   },
+   {
+    "id": 546,
+    "day": 72,
+    "type": "plan",
+    "text": "10月13日上午10点与Aurora Health客户通话。",
+    "src": [
+     908
+    ]
+   },
+   {
+    "id": 547,
+    "day": 72,
+    "type": "feeling",
+    "text": "Aurora Health通话顺利，他们对进展满意。",
+    "src": [
+     909
+    ]
+   },
+   {
+    "id": 548,
+    "day": 72,
+    "type": "done",
+    "text": "Aurora custom module timeline确认，Q1 2027是个好决定。",
+    "src": [
+     910
+    ],
+    "closes": 95
+   },
+   {
+    "id": 549,
+    "day": 72,
+    "type": "fact",
+    "text": "Yuki分享dark mode beta survey结果，87%满意。",
+    "src": [
+     911
+    ]
+   },
+   {
+    "id": 550,
+    "day": 72,
+    "type": "fact",
+    "text": "Ben报告pricing page发现4个bug，A/B测试前修复。",
+    "src": [
+     912
+    ]
+   },
+   {
+    "id": 551,
+    "day": 72,
+    "type": "fact",
+    "text": "Lily 正在完成enterprise handover doc。",
+    "src": [
+     913
+    ]
+   },
+   {
+    "id": 552,
+    "day": 72,
+    "type": "plan",
+    "text": "Q4 planning offsite in Hangzhou, Oct 20-21, Grace 订了民宿。",
+    "src": [
+     914
+    ]
+   },
+   {
+    "id": 553,
+    "day": 72,
+    "type": "fact",
+    "text": "凯哥需要prep agenda for Q4 offsite, 涉及Yuki, Ravi, Omar。",
+    "src": [
+     916
+    ]
+   },
+   {
+    "id": 554,
+    "day": 72,
+    "type": "feeling",
+    "text": "女儿咳嗽未好，下班后带她去看医生。",
+    "src": [
+     917
+    ]
+   },
+   {
+    "id": 555,
+    "day": 72,
+    "type": "done",
+    "text": "客户反馈总结按feature分组已完成。",
+    "src": [
+     919
+    ],
+    "closes": 525
+   },
+   {
+    "id": 556,
+    "day": 72,
+    "type": "fact",
+    "text": "Ravi报告没有新的integration问题，系统稳定。",
+    "src": [
+     920
+    ]
+   },
+   {
+    "id": 557,
+    "day": 73,
+    "type": "fact",
+    "text": "Grace confirms offsite dates, will send invite.",
+    "src": [
+     921
+    ]
+   },
+   {
+    "id": 558,
+    "day": 73,
+    "type": "plan",
+    "text": "10月14日周三，凯哥需要带女儿看医生，提前离开办公室。",
+    "src": [
+     922,
+     924
+    ]
+   },
+   {
+    "id": 559,
+    "day": 73,
+    "type": "feeling",
+    "text": "女儿只是轻微感冒，休息多喝水即可。",
+    "src": [
+     924
+    ]
+   },
+   {
+    "id": 560,
+    "day": 73,
+    "type": "plan",
+    "text": "10月14日周三上午10点与Ravi的integration sync移到明天10月15日。",
+    "src": [
+     927,
+     928
+    ]
+   },
+   {
+    "id": 561,
+    "day": 73,
+    "type": "ask",
+    "text": "帮凯哥看今天10月14日周三calendar",
+    "src": [
+     926
+    ]
+   },
+   {
+    "id": 562,
+    "day": 73,
+    "type": "plan",
+    "text": "10月14日周三上午10点与Ravi的integration sync移到明天10月15日",
+    "src": [
+     929
+    ]
+   },
+   {
+    "id": 563,
+    "day": 73,
+    "type": "ask",
+    "text": "remind me at 3pm on Friday to start preparing Q3 customer wins summary for Grace, due Oct 25",
+    "src": [
+     930,
+     932
+    ]
+   },
+   {
+    "id": 564,
+    "day": 73,
+    "type": "promise",
+    "text": "aicoo agreed to remind 凯哥 at 3pm on Friday to start preparing Q3 customer wins summary for Grace",
+    "src": [
+     931,
+     932
+    ]
+   },
+   {
+    "id": 565,
+    "day": 73,
+    "type": "fact",
+    "text": "Lily报告Aurora analytics dashboard需要加export功能，大约2-3天工作量",
+    "src": [
+     933,
+     934
+    ]
+   },
+   {
+    "id": 566,
+    "day": 73,
+    "type": "plan",
+    "text": "凯哥需要与Ravi确认export功能能否塞进current sprint",
+    "src": [
+     935
+    ]
+   },
+   {
+    "id": 567,
+    "day": 73,
+    "type": "fact",
+    "text": "Aurora handover基本smooth，Emily接手的产品模块下周一开始正式交接",
+    "src": [
+     936
+    ]
+   },
+   {
+    "id": 568,
+    "day": 73,
+    "type": "fact",
+    "text": "Emily主动约了Yuki和Ravi的intro meeting，挺有主动性",
+    "src": [
+     937,
+     938
+    ]
+   },
+   {
+    "id": 569,
+    "day": 73,
+    "type": "fact",
+    "text": "Ravi说export功能可以周五前做完，不影响Aurora timeline",
+    "src": [
+     939
+    ]
+   },
+   {
+    "id": 570,
+    "day": 73,
+    "type": "fact",
+    "text": "Ravi团队integration性能提升30%后morale高了",
+    "src": [
+     940,
+     941
+    ]
+   },
+   {
+    "id": 571,
+    "day": 73,
+    "type": "ask",
+    "text": "remind me to ask Ravi about dark mode phase 2 timeline at tomorrow's sync",
+    "src": [
+     942
+    ]
+   },
+   {
+    "id": 572,
+    "day": 73,
+    "type": "promise",
+    "text": "aicoo agreed to remind 凯哥 at tomorrow's 10am Ravi sync to ask about dark mode phase 2 timeline",
+    "src": [
+     943
+    ]
+   },
+   {
+    "id": 573,
+    "day": 73,
+    "type": "feeling",
+    "text": "今天还算productive，回家陪女儿做手工课作业",
+    "src": [
+     944
+    ]
+   },
+   {
+    "id": 574,
+    "day": 74,
+    "type": "fact",
+    "text": "凯哥女儿手工课做了纸板城堡，第三层塌了",
+    "src": [
+     946,
+     948
+    ]
+   },
+   {
+    "id": 575,
+    "day": 74,
+    "type": "feeling",
+    "text": "凯哥女儿只是轻微感冒，休息多喝水即可",
+    "src": [
+     559
+    ]
+   },
+   {
+    "id": 576,
+    "day": 74,
+    "type": "fact",
+    "text": "Ravi说dark mode phase 2估计需要4个sprint，可以parallel一些工作",
+    "src": [
+     952
+    ]
+   },
+   {
+    "id": 577,
+    "day": 74,
+    "type": "done",
+    "text": "aicoo reminded 凯哥 to ask about dark mode phase 2 timeline at tomorrow's Ravi sync",
+    "src": [
+     952
+    ],
+    "closes": 572
+   },
+   {
+    "id": 578,
+    "day": 74,
+    "type": "fact",
+    "text": "凯哥决定让Ravi把dark mode phase 2 toggle单独拆出来，争取3个sprint内deliver，其余feature往后排",
+    "src": [
+     953,
+     954
+    ]
+   },
+   {
+    "id": 579,
+    "day": 74,
+    "type": "decision",
+    "text": "凯哥决定dark mode phase 2 toggle先做，3个sprint内deliver，其余feature往后排",
+    "src": [
+     953,
+     954
+    ]
+   },
+   {
+    "id": 580,
+    "day": 74,
+    "type": "feeling",
+    "text": "爸爸血压又有点高，吃了药在休息",
+    "src": [
+     955,
+     956
+    ]
+   },
+   {
+    "id": 581,
+    "day": 74,
+    "type": "feeling",
+    "text": "凯哥辛苦了，下午开会我帮你盯着",
+    "src": [
+     956
+    ]
+   },
+   {
+    "id": 582,
+    "day": 74,
+    "type": "fact",
+    "text": "Omar想在11月加一个local marketing event，预算约$15k，从Grace之前approve的$100k Q4 marketing budget走",
+    "src": [
+     957,
+     958,
+     959
+    ]
+   },
+   {
+    "id": 583,
+    "day": 74,
+    "type": "plan",
+    "text": "Omar下周一提交local marketing event的详细proposal",
+    "src": [
+     959
+    ]
+   },
+   {
+    "id": 584,
+    "day": 74,
+    "type": "fact",
+    "text": "Ben的pricing A/B test preview显示$44/user/month版本conversion rate比预期高8%",
+    "src": [
+     960
+    ]
+   },
+   {
+    "id": 585,
+    "day": 75,
+    "type": "plan",
+    "text": "如果A/B结果稳定，11月15号launch pricing page，Ben在准备final copy",
+    "src": [
+     961,
+     962
+    ]
+   },
+   {
+    "id": 586,
+    "day": 75,
+    "type": "fact",
+    "text": "凯哥父亲10月15日下午血压稳定，感觉好多了",
+    "src": [
+     963
+    ]
+   },
+   {
+    "id": 587,
+    "day": 75,
+    "type": "feeling",
+    "text": "今天早点走，回去把第三层城堡搞定",
+    "src": [
+     965
+    ]
+   },
+   {
+    "id": 588,
+    "day": 75,
+    "type": "fact",
+    "text": "凯哥女儿手工课纸板城堡第三层终于站住了",
+    "src": [
+     967
+    ]
+   },
+   {
+    "id": 589,
+    "day": 75,
+    "type": "fact",
+    "text": "Yuki dark mode toggle design用户测试82% prefer toggle over system default",
+    "src": [
+     973
+    ]
+   },
+   {
+    "id": 590,
+    "day": 75,
+    "type": "plan",
+    "text": "Yuki下周一finalize dark mode toggle design",
+    "src": [
+     975
+    ]
+   },
+   {
+    "id": 591,
+    "day": 75,
+    "type": "plan",
+    "text": "Ravi下周一可开始estimate dark mode toggle",
+    "src": [
+     975
+    ]
+   },
+   {
+    "id": 592,
+    "day": 75,
+    "type": "ask",
+    "text": "帮我发消息给Grace confirm Oct 25前给Q3 customer wins summary并问她需不需要特定format",
+    "src": [
+     971
+    ]
+   },
+   {
+    "id": 593,
+    "day": 75,
+    "type": "fact",
+    "text": "Grace回复说Q3 customer wins summary不需要特定format，但希望highlight top 3 deals的win reason",
+    "src": [
+     978
+    ]
+   },
+   {
+    "id": 594,
+    "day": 75,
+    "type": "fact",
+    "text": "Aurora deal从initial contact到close做了四版proposal，最终$950k Q4 close",
+    "src": [
+     981
+    ]
+   },
+   {
+    "id": 595,
+    "day": 75,
+    "type": "fact",
+    "text": "凯哥见第四位PM候选人Sarah Wu，但已经hire了Emily Tan，只是casual chat，Sarah背景不错以后可以考虑",
+    "src": [
+     983
+    ]
+   },
+   {
+    "id": 596,
+    "day": 75,
+    "type": "person",
+    "text": "Sarah Wu, 第四位PM候选人，背景不错，作为future pipeline",
+    "src": [
+     983
+    ]
+   },
+   {
+    "id": 597,
+    "day": 75,
+    "type": "ask",
+    "text": "帮凯哥pull数据用于Q3 customer wins summary周末整理",
+    "src": [
+     979
+    ]
+   },
+   {
+    "id": 598,
+    "day": 75,
+    "type": "promise",
+    "text": "aicoo agreed to pull数据用于Q3 customer wins summary周末整理",
+    "src": [
+     979
+    ]
+   },
+   {
+    "id": 599,
+    "day": 76,
+    "type": "person",
+    "text": "Sarah Wu, 做过两年enterprise SaaS且有vertical SaaS经验，跟Aurora客户很match",
+    "src": [
+     985
+    ]
+   },
+   {
+    "id": 600,
+    "day": 76,
+    "type": "plan",
+    "text": "周六写Q3 customer wins summary，周日女儿playdate，中间陪爸爸散步",
+    "src": [
+     986
+    ]
+   },
+   {
+    "id": 601,
+    "day": 76,
+    "type": "plan",
+    "text": "周一上午发summary draft给aicoo review",
+    "src": [
+     988
+    ]
+   },
+   {
+    "id": 602,
+    "day": 76,
+    "type": "promise",
+    "text": "aicoo agreed to review凯哥的Q3 summary draft周一上午",
+    "src": [
+     987,
+     989
+    ]
+   },
+   {
+    "id": 603,
+    "day": 76,
+    "type": "promise",
+    "text": "aicoo agreed to remind凯哥周一上午9点发summary draft",
+    "src": [
+     989
+    ]
+   },
+   {
+    "id": 604,
+    "day": 76,
+    "type": "feeling",
+    "text": "周末过得还行，summary写了八成",
+    "src": [
+     990
+    ]
+   },
+   {
+    "id": 605,
+    "day": 76,
+    "type": "feeling",
+    "text": "Emily completed first week onboarding, already contributing to roadmap，提了几个product backlog的改进想法",
+    "src": [
+     992
+    ]
+   },
+   {
+    "id": 606,
+    "day": 76,
+    "type": "feeling",
+    "text": "Emily completed first week onboarding, already contributing to roadmap，提了几个product backlog的改进想法",
+    "src": [
+     993
+    ]
+   },
+   {
+    "id": 607,
+    "day": 76,
+    "type": "fact",
+    "text": "Emily建议把Q4 backlog里一些low-effort high-impact的item提前做",
+    "src": [
+     994
+    ]
+   },
+   {
+    "id": 608,
+    "day": 76,
+    "type": "fact",
+    "text": "Ben的pricing A/B test $44 variant持续领先",
+    "src": [
+     995
+    ]
+   },
+   {
+    "id": 609,
+    "day": 76,
+    "type": "plan",
+    "text": "Ben周三给final copy和pricing page mockup",
+    "src": [
+     997
+    ]
+   },
+   {
+    "id": 610,
+    "day": 76,
+    "type": "promise",
+    "text": "凯哥review后sign off Ben的final copy和pricing page mockup",
+    "src": [
+     997
+    ]
+   },
+   {
+    "id": 611,
+    "day": 76,
+    "type": "fact",
+    "text": "Q3 customer wins summary top 3 deals: Aurora、Singapore fintech 300 seats、dark mode upsell",
+    "src": [
+     998
+    ]
+   },
+   {
+    "id": 612,
+    "day": 76,
+    "type": "done",
+    "text": "凯哥完成了Q3 customer wins summary draft",
+    "src": [
+     1000
+    ],
+    "closes": 597
+   },
+   {
+    "id": 613,
+    "day": 76,
+    "type": "promise",
+    "text": "aicoo agreed to review凯哥的Q3 summary draft",
+    "src": [
+     1000
+    ]
+   },
+   {
+    "id": 614,
+    "day": 76,
+    "type": "done",
+    "text": "aicoo reviewed 凯哥's Q3 summary draft",
+    "src": [
+     1001
+    ],
+    "closes": 613
+   },
+   {
+    "id": 615,
+    "day": 76,
+    "type": "fact",
+    "text": "Q3 customer wins summary added Q2 revenue comparison; Q3 $2.35M not meet target but QoQ growth positive",
+    "src": [
+     1002,
+     1003,
+     1004
+    ]
+   },
+   {
+    "id": 616,
+    "day": 76,
+    "type": "fact",
+    "text": "Ravi估计dark mode toggle 2 sprints可deliver",
+    "src": [
+     1006
+    ],
+    "supersedes": 579
+   },
+   {
+    "id": 617,
+    "day": 76,
+    "type": "plan",
+    "text": "Yuki下周二开始design handoff给Ravi，dark mode toggle争取12月初上线",
+    "src": [
+     1008
+    ]
+   },
+   {
+    "id": 618,
+    "day": 76,
+    "type": "plan",
+    "text": "凯哥下周一polish后发给Grace Q3 customer wins summary",
+    "src": [
+     1009
+    ]
+   },
+   {
+    "id": 619,
+    "day": 77,
+    "type": "plan",
+    "text": "下周二周三（10月20-21日）杭州offsite",
+    "src": [
+     1011
+    ]
+   },
+   {
+    "id": 620,
+    "day": 77,
+    "type": "ask",
+    "text": "周一上午提醒凯哥confirm offsite logistics（酒店和agenda细节）",
+    "src": [
+     1011
+    ]
+   },
+   {
+    "id": 621,
+    "day": 77,
+    "type": "promise",
+    "text": "aicoo agreed to remind 凯哥周一上午确认offsite logistics",
+    "src": [
+     1011,
+     1012
+    ]
+   },
+   {
+    "id": 622,
+    "day": 77,
+    "type": "feeling",
+    "text": "周六带爸妈和女儿一起去公园，难得全家出动",
+    "src": [
+     1013
+    ]
+   },
+   {
+    "id": 623,
+    "day": 77,
+    "type": "feeling",
+    "text": "女儿昨晚有点咳嗽，今天先观察",
+    "src": [
+     1015
+    ]
+   },
+   {
+    "id": 624,
+    "day": 77,
+    "type": "plan",
+    "text": "今天10月18日周日10点与Ravi对齐dark mode toggle的timeline",
+    "src": [
+     1017
+    ]
+   },
+   {
+    "id": 625,
+    "day": 77,
+    "type": "plan",
+    "text": "今天10月18日周日做Q3 summary final review",
+    "src": [
+     1017
+    ]
+   },
+   {
+    "id": 626,
+    "day": 77,
+    "type": "fact",
+    "text": "Omar新加坡Q3销售600k，best quarter ever",
+    "src": [
+     1019
+    ]
+   },
+   {
+    "id": 627,
+    "day": 77,
+    "type": "fact",
+    "text": "dark mode toggle dev约3周，目标11月底交付",
+    "src": [
+     1022
+    ]
+   },
+   {
+    "id": 628,
+    "day": 77,
+    "type": "done",
+    "text": "凯哥将Q3 customer wins summary发给Grace review",
+    "src": [
+     1024
+    ],
+    "closes": 618
+   },
+   {
+    "id": 629,
+    "day": 78,
+    "type": "feeling",
+    "text": "女儿没发烧，咳嗽好一些了，放心了",
+    "src": [
+     1026
+    ]
+   },
+   {
+    "id": 630,
+    "day": 78,
+    "type": "plan",
+    "text": "今晚早点回家",
+    "src": [
+     1026
+    ]
+   },
+   {
+    "id": 631,
+    "day": 78,
+    "type": "plan",
+    "text": "10月19日周一重点：Yuki的dark mode visuals handoff和pricing A/B test结果",
+    "src": [
+     1028
+    ]
+   },
+   {
+    "id": 632,
+    "day": 78,
+    "type": "fact",
+    "text": "pricing A/B test $44/user variant conversion rate lift 8%",
+    "src": [
+     1030
+    ]
+   },
+   {
+    "id": 633,
+    "day": 78,
+    "type": "done",
+    "text": "Yuki finalized dark mode visuals，handoff to engineering在10月20日周二",
+    "src": [
+     1032,
+     1033
+    ]
+   },
+   {
+    "id": 634,
+    "day": 78,
+    "type": "plan",
+    "text": "10月20日周二Yuki handoff dark mode visuals给engineering",
+    "src": [
+     1032,
+     1033
+    ]
+   },
+   {
+    "id": 635,
+    "day": 79,
+    "type": "fact",
+    "text": "Omar新加坡Q4 pipeline 1.2M",
+    "src": [
+     1041
+    ]
+   },
+   {
+    "id": 636,
+    "day": 79,
+    "type": "plan",
+    "text": "10月20日周二10点Q4 offsite prep meeting，杭州民宿12人参加",
+    "src": [
+     1037,
+     1038
+    ]
+   },
+   {
+    "id": 637,
+    "day": 79,
+    "type": "plan",
+    "text": "10月20日周二下午3点与Grace sync Q4 roadmap execution plan",
+    "src": [
+     1039
+    ]
+   },
+   {
+    "id": 638,
+    "day": 79,
+    "type": "feeling",
+    "text": "凯哥父亲血压今天有波动，吃药后稳定了",
+    "src": [
+     1035
+    ]
+   },
+   {
+    "id": 639,
+    "day": 80,
+    "type": "done",
+    "text": "凯哥给Grace补充Q4 risk section",
+    "src": [
+     1044,
+     1045
+    ],
+    "closes": 401
+   },
+   {
+    "id": 640,
+    "day": 80,
+    "type": "ask",
+    "text": "加一个engineering capacity contingency plan给Grace",
+    "src": [
+     1045
+    ],
+    "supersedes": 456
+   },
+   {
+    "id": 641,
+    "day": 80,
+    "type": "plan",
+    "text": "10月21日周三和Ravi对齐engineering capacity，以及finalize pricing launch date",
+    "src": [
+     1046,
+     1049
+    ]
+   },
+   {
+    "id": 642,
+    "day": 80,
+    "type": "feeling",
+    "text": "父亲血压今天正常，女儿也没事了，总算安心",
+    "src": [
+     1047
+    ]
+   },
+   {
+    "id": 643,
+    "day": 80,
+    "type": "fact",
+    "text": "Pricing最终launch date set to Dec 1",
+    "src": [
+     1051
+    ],
+    "supersedes": 585
+   },
+   {
+    "id": 644,
+    "day": 80,
+    "type": "done",
+    "text": "凯哥和Ravi对齐engineering capacity和pricing launch date",
+    "src": [
+     1051
+    ],
+    "closes": 641
+   },
+   {
+    "id": 645,
+    "day": 80,
+    "type": "plan",
+    "text": "明天10月22日发engineering capacity contingency plan给Grace",
+    "src": [
+     1057
+    ]
+   },
+   {
+    "id": 646,
+    "day": 80,
+    "type": "fact",
+    "text": "Emily Tan今天发了第一份backlog proposal，思路清晰",
+    "src": [
+     1053
+    ]
+   },
+   {
+    "id": 647,
+    "day": 80,
+    "type": "ask",
+    "text": "以后全部用中文回复",
+    "src": [
+     1055
+    ],
+    "supersedes": 345
+   },
+   {
+    "id": 648,
+    "day": 80,
+    "type": "done",
+    "text": "凯哥和Ravi敲定了engineering capacity contingency plan",
+    "src": [
+     1057
+    ],
+    "closes": 640
+   },
+   {
+    "id": 649,
+    "day": 81,
+    "type": "feeling",
+    "text": "今天早点下班，带女儿去公园走走",
+    "src": [
+     1059
+    ]
+   },
+   {
+    "id": 650,
+    "day": 81,
+    "type": "fact",
+    "text": "dad's checkup went well, finally discharged from hospital yesterday",
+    "src": [
+     1061
+    ]
+   },
+   {
+    "id": 651,
+    "day": 81,
+    "type": "feeling",
+    "text": "爸爸出院了，恢复不错",
+    "src": [
+     1061
+    ]
+   },
+   {
+    "id": 652,
+    "day": 81,
+    "type": "plan",
+    "text": "10月22日补Q3 customer wins summary，Grace deadline Oct 25",
+    "src": [
+     1063
+    ]
+   },
+   {
+    "id": 653,
+    "day": 81,
+    "type": "plan",
+    "text": "10月23日上午Ravi和Yuki对齐dark mode toggle design review",
+    "src": [
+     1065
+    ]
+   },
+   {
+    "id": 654,
+    "day": 82,
+    "type": "ask",
+    "text": "Omar那边Q4 pipeline更新了吗？他说这周会有几个新leads进来",
+    "src": [
+     1067
+    ]
+   },
+   {
+    "id": 655,
+    "day": 82,
+    "type": "plan",
+    "text": "10月26日周一开始Emily Tan入职",
+    "src": [
+     1069
+    ]
+   },
+   {
+    "id": 656,
+    "day": 82,
+    "type": "feeling",
+    "text": "今天早点走，回家陪女儿",
+    "src": [
+     1071
+    ]
+   },
+   {
+    "id": 657,
+    "day": 82,
+    "type": "plan",
+    "text": "周末带女儿去公园",
+    "src": [
+     1071
+    ]
+   },
+   {
+    "id": 658,
+    "day": 82,
+    "type": "fact",
+    "text": "dark mode toggle implementation timeline两个sprint能搞定",
+    "src": [
+     1073
+    ]
+   },
+   {
+    "id": 659,
+    "day": 82,
+    "type": "done",
+    "text": "Yuki dark mode toggle design user测试82% prefer toggle over system default",
+    "src": [
+     1075,
+     1076
+    ],
+    "closes": 589
+   },
+   {
+    "id": 660,
+    "day": 82,
+    "type": "fact",
+    "text": "Yuki在10月23日做dark mode design review，已经在做iterations",
+    "src": [
+     1077,
+     1079
+    ]
+   },
+   {
+    "id": 661,
+    "day": 82,
+    "type": "fact",
+    "text": "Ben的pricing A/B test有8% lift，凯哥想看segment数据",
+    "src": [
+     1081
+    ]
+   },
+   {
+    "id": 662,
+    "day": 83,
+    "type": "fact",
+    "text": "凯哥在10月24日查看Omar的Q4 pipeline update，状态为主，下周可给具体forecast",
+    "src": [
+     1087,
+     1089
+    ]
+   },
+   {
+    "id": 663,
+    "day": 83,
+    "type": "fact",
+    "text": "凯哥10月24日早上与Lily过handover checklist，Lily下周正式转Enterprise Sales",
+    "src": [
+     1085
+    ]
+   },
+   {
+    "id": 664,
+    "day": 84,
+    "type": "done",
+    "text": "凯哥的engineering capacity contingency plan被Grace approve了",
+    "src": [
+     1093
+    ],
+    "closes": 645
+   },
+   {
+    "id": 665,
+    "day": 84,
+    "type": "plan",
+    "text": "周末带女儿去公园，爸爸也想去",
+    "src": [
+     1095
+    ],
+    "supersedes": 657
+   },
+   {
+    "id": 666,
+    "day": 84,
+    "type": "feeling",
+    "text": "女儿昨晚咳嗽有点反复，但早上好了",
+    "src": [
+     1097
+    ]
+   },
+   {
+    "id": 667,
+    "day": 84,
+    "type": "feeling",
+    "text": "爸爸状态不错，早上还自己下床走了几步",
+    "src": [
+     1099
+    ]
+   },
+   {
+    "id": 668,
+    "day": 84,
+    "type": "feeling",
+    "text": "这周整体不错，爸爸出院了，dark mode feedback正面，Emily也开始了",
+    "src": [
+     1105
+    ]
+   },
+   {
+    "id": 669,
+    "day": 84,
+    "type": "fact",
+    "text": "Emily started onboarding, taking over Lily's accounts, Lily moving to new role",
+    "src": [
+     1101
+    ]
+   },
+   {
+    "id": 670,
+    "day": 84,
+    "type": "feeling",
+    "text": "女儿昨晚咳嗽有点反复，但早上好了",
+    "src": [
+     666
+    ]
+   },
+   {
+    "id": 671,
+    "day": 85,
+    "type": "feeling",
+    "text": "这周进展很好",
+    "src": [
+     1106
+    ]
+   },
+   {
+    "id": 672,
+    "day": 85,
+    "type": "fact",
+    "text": "Emily 10月26日正式入职，早上已安排与Ravi的onboarding session",
+    "src": [
+     1107,
+     1108
+    ]
+   },
+   {
+    "id": 673,
+    "day": 85,
+    "type": "done",
+    "text": "凯哥完成了Q3 customer wins summary draft，但还差customer quotes",
+    "src": [
+     1109
+    ],
+    "closes": 618
+   },
+   {
+    "id": 674,
+    "day": 85,
+    "type": "ask",
+    "text": "催Omar和Lily提交customer quotes",
+    "src": [
+     1109,
+     1110
+    ]
+   },
+   {
+    "id": 675,
+    "day": 85,
+    "type": "fact",
+    "text": "Omar和Lily已被提醒今天下班前提交customer quotes",
+    "src": [
+     1110
+    ]
+   },
+   {
+    "id": 676,
+    "day": 85,
+    "type": "fact",
+    "text": "Emily 10月26日与Lily完成handover meeting，accounts交接顺利",
+    "src": [
+     1111
+    ]
+   },
+   {
+    "id": 677,
+    "day": 85,
+    "type": "plan",
+    "text": "pricing launch post到12月1日，需要和Ben sync新timeline",
+    "src": [
+     1113
+    ]
+   },
+   {
+    "id": 678,
+    "day": 86,
+    "type": "fact",
+    "text": "pricing launch postponed to December 1st, need to sync new timeline with Ben",
+    "src": [
+     1114,
+     677
+    ]
+   },
+   {
+    "id": 679,
+    "day": 86,
+    "type": "plan",
+    "text": "10月27日下午2点与Ben sync pricing launch新timeline",
+    "src": [
+     1114
+    ]
+   },
+   {
+    "id": 680,
+    "day": 86,
+    "type": "feeling",
+    "text": "父亲今天在家恢复得不错，凯哥安心些",
+    "src": [
+     1115
+    ]
+   },
+   {
+    "id": 681,
+    "day": 86,
+    "type": "plan",
+    "text": "10月27日Q4 offsite在杭州，Ravi、Yuki、Omar、Emily一共5人，明早8点出发",
+    "src": [
+     1117,
+     1118
+    ]
+   },
+   {
+    "id": 682,
+    "day": 86,
+    "type": "fact",
+    "text": "Q4 revenue tracking towards 2.8M target, Grace mentioned in all-hands",
+    "src": [
+     1119
+    ]
+   },
+   {
+    "id": 683,
+    "day": 86,
+    "type": "fact",
+    "text": "offsite先讨论engineering capacity, Ravi说dark mode toggle需要额外资源",
+    "src": [
+     1121
+    ]
+   },
+   {
+    "id": 684,
+    "day": 86,
+    "type": "fact",
+    "text": "Yuki在10月27日offsite上分享了dark mode final visuals，团队反馈很好",
+    "src": [
+     1122
+    ]
+   },
+   {
+    "id": 685,
+    "day": 86,
+    "type": "fact",
+    "text": "10月27日offsite下午session讨论了Omar的SEA marketing plan，Q1 expand需要提前准备",
+    "src": [
+     1126
+    ]
+   },
+   {
+    "id": 686,
+    "day": 87,
+    "type": "fact",
+    "text": "10月28日offsite第二天，主题是Q4 execution plan",
+    "src": [
+     1130
+    ]
+   },
+   {
+    "id": 687,
+    "day": 87,
+    "type": "fact",
+    "text": "Omar在10月28日offsite汇报Singapore pipeline Q4 target 1.2M，进度良好",
+    "src": [
+     1132
+    ]
+   },
+   {
+    "id": 688,
+    "day": 87,
+    "type": "fact",
+    "text": "10月28日offsite午饭时和Ravi聊了integration稳定后的下一步，API monetization可以考虑",
+    "src": [
+     1134
+    ]
+   },
+   {
+    "id": 689,
+    "day": 87,
+    "type": "plan",
+    "text": "考虑细化API monetization proposal",
+    "src": [
+     1135
+    ]
+   },
+   {
+    "id": 690,
+    "day": 87,
+    "type": "done",
+    "text": "offsite wrap up，action items都assign好了，回上海",
+    "src": [
+     1136
+    ],
+    "closes": 681
+   },
+   {
+    "id": 691,
+    "day": 88,
+    "type": "feeling",
+    "text": "女儿今天学校活动没去成，有点遗憾",
+    "src": [
+     1138
+    ]
+   },
+   {
+    "id": 692,
+    "day": 88,
+    "type": "plan",
+    "text": "Q3 customer wins summary今天必须send给Grace",
+    "src": [
+     1140
+    ]
+   },
+   {
+    "id": 693,
+    "day": 88,
+    "type": "done",
+    "text": "Omar发来customer quotes，质量不错",
+    "src": [
+     1142
+    ],
+    "closes": 674
+   },
+   {
+    "id": 694,
+    "day": 88,
+    "type": "done",
+    "text": "凯哥整合了quotes，summary ready",
+    "src": [
+     1143
+    ]
+   },
+   {
+    "id": 695,
+    "day": 88,
+    "type": "fact",
+    "text": "Emily和Ravi sync了dark mode toggle dev进度，phase 1 on track",
+    "src": [
+     1144
+    ]
+   },
+   {
+    "id": 696,
+    "day": 88,
+    "type": "person",
+    "text": "Emily已开始独立manage technical sync",
+    "src": [
+     1145
+    ]
+   },
+   {
+    "id": 697,
+    "day": 89,
+    "type": "fact",
+    "text": "pricing 12/1 launch confirmed with Ben, A/B test continues 11/3",
+    "src": [
+     1146
+    ]
+   },
+   {
+    "id": 698,
+    "day": 89,
+    "type": "fact",
+    "text": "Singapore office expansion approved, Q1 next year, need to hire 10 more",
+    "src": [
+     1148
+    ]
+   },
+   {
+    "id": 699,
+    "day": 89,
+    "type": "plan",
+    "text": "凯哥和Grace下周对齐Singapore expansion headcount details",
+    "src": [
+     1150
+    ]
+   },
+   {
+    "id": 700,
+    "day": 89,
+    "type": "promise",
+    "text": "aicoo agreed to draft JD for Singapore expansion by Friday",
+    "src": [
+     1151
+    ]
+   },
+   {
+    "id": 701,
+    "day": 89,
+    "type": "ask",
+    "text": "确认integration timeline有没有slip",
+    "src": [
+     1152
+    ]
+   },
+   {
+    "id": 702,
+    "day": 89,
+    "type": "fact",
+    "text": "Ravi说security audit补测今天开始，可能影响一天",
+    "src": [
+     1153
+    ]
+   },
+   {
+    "id": 703,
+    "day": 89,
+    "type": "feeling",
+    "text": "凯哥父亲今天早上头晕、血压高，有点担心，让妈妈盯着了。",
+    "src": [
+     1169
+    ]
+   },
+   {
+    "id": 704,
+    "day": 89,
+    "type": "plan",
+    "text": "11月2日周一上午10:30-11:00与Grace和Ben确认pricing A/B结果及12/1 launch决策",
+    "src": [
+     1163,
+     1165,
+     1166
+    ]
+   },
+   {
+    "id": 705,
+    "day": 89,
+    "type": "ask",
+    "text": "跟Grace对齐SEA expansion headcount approval timeline",
+    "src": [
+     1167,
+     1168
+    ]
+   },
+   {
+    "id": 706,
+    "day": 89,
+    "type": "plan",
+    "text": "10月30日下午4点提前走，女儿学校Halloween活动",
+    "src": [
+     1158,
+     1159
+    ]
+   },
+   {
+    "id": 707,
+    "day": 89,
+    "type": "done",
+    "text": "凯哥与Ravi sync确认security audit补测不影响integration Sep 22上线",
+    "src": [
+     1161
+    ],
+    "closes": 701
+   },
+   {
+    "id": 708,
+    "day": 89,
+    "type": "fact",
+    "text": "Ravi说security audit补测只多一天，不影响integration Sep 22上线",
+    "src": [
+     1161
+    ],
+    "supersedes": 702
+   },
+   {
+    "id": 709,
+    "day": 89,
+    "type": "fact",
+    "text": "Ravi说dark mode toggle dev已开始sprint，预计11月初完成",
+    "src": [
+     1161
+    ]
+   },
+   {
+    "id": 710,
+    "day": 89,
+    "type": "fact",
+    "text": "Ben发来pricing A/B final数据：8% conversion lift confirmed，premium tier take rate比预期高",
+    "src": [
+     1163
+    ]
+   },
+   {
+    "id": 711,
+    "day": 89,
+    "type": "plan",
+    "text": "11月2日周一上午10:30-11:00与Grace和Ben确认pricing launch decision",
+    "src": [
+     1165,
+     1166
+    ]
+   },
+   {
+    "id": 712,
+    "day": 89,
+    "type": "plan",
+    "text": "11月2日周一上午10点pricing review prep",
+    "src": [
+     1159,
+     1160
+    ]
+   },
+   {
+    "id": 713,
+    "day": 89,
+    "type": "feeling",
+    "text": "Omar对SEA expansion很兴奋，催headcount approval",
+    "src": [
+     1167
+    ]
+   },
+   {
+    "id": 714,
+    "day": 89,
+    "type": "feeling",
+    "text": "凯哥父亲血压降下来了，头晕好多了，放心了",
+    "src": [
+     1175
+    ]
+   },
+   {
+    "id": 715,
+    "day": 89,
+    "type": "done",
+    "text": "凯哥下午4点走，去女儿学校Halloween活动",
+    "src": [
+     1175,
+     1176
+    ],
+    "closes": 706
+   },
+   {
+    "id": 716,
+    "day": 89,
+    "type": "decision",
+    "text": "dark mode toggle先ship v1 with manual toggle，auto-toggle放v2",
+    "src": [
+     1173,
+     1174
+    ]
+   },
+   {
+    "id": 717,
+    "day": 89,
+    "type": "feeling",
+    "text": "Yuki对manual toggle先ship有点失望但理解",
+    "src": [
+     1174
+    ]
+   },
+   {
+    "id": 718,
+    "day": 90,
+    "type": "feeling",
+    "text": "女儿昨晚Halloween超开心，扮了小兔子",
+    "src": [
+     1179
+    ]
+   },
+   {
+    "id": 719,
+    "day": 90,
+    "type": "plan",
+    "text": "周一priority: 1) 10:30 pricing launch decision meeting with Grace和Ben; 2) 跟Grace确认SEA expansion headcount approval timeline; 3) pricing review prep moved to 10:00; 4) 跟Ravi确认integration final timeline; 5) Emily的weekly check-in",
+    "src": [
+     1179,
+     1180
+    ]
+   },
+   {
+    "id": 720,
+    "day": 90,
+    "type": "plan",
+    "text": "周一找Lily要Aurora的quote，再找Omar要Singapore两个大客户的quote",
+    "src": [
+     1183
+    ]
+   },
+   {
+    "id": 721,
+    "day": 90,
+    "type": "feeling",
+    "text": "父亲今天早上血压正常，精神也好",
+    "src": [
+     1184
+    ]
+   },
+   {
+    "id": 722,
+    "day": 90,
+    "type": "feeling",
+    "text": "今天天气不错，打算带女儿和父母去公园走走",
+    "src": [
+     1184
+    ]
+   }
+  ],
+  "next": 723,
+  "about": "Kai Lin leads a team targeting Q3 revenue, recently closing the $950K Aurora Health deal. His team includes Ravi (integration/dark mode), Omar (Singapore pipeline), Ben (pricing), and Lily (legal). He's balancing Q4 review prep, pricing at $44/user/month, and managing family health concerns. He communicates in clear, factual updates, often mixing English and Mandarin naturally.",
+  "lastAt": 130201,
+  "writes": 147
+ },
+ "lastDay": 90,
+ "done": true,
+ "minutes": 6.043566666666667
+}

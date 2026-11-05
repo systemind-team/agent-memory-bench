@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "The reply correctly includes 'Aurora Health' but adds 'Systems Inc.' which is not supported by the chat, making it partially correct with an unverified extra detail.",
+ "first": "partial",
+ "rule": null
+}

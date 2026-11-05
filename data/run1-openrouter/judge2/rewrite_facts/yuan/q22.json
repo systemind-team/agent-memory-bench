@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply states the title was formally changed only three times, omitting the initial 'Planning with Hierarchical Graphs' and the intermediate 'Hierarchical Planning with Graph Attention', and claims the final title has been unchanged since October 27, whereas the chat shows it evolved through at least five distinct titles over time.",
+ "first": "stale",
+ "rule": null
+}

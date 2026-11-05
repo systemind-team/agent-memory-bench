@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply answers the question about how the week looks in plain sentences without bullet points, covering key upcoming events supported by the conversation context.",
+ "rule": true
+}

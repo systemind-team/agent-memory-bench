@@ -1,0 +1,58 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "can you do meeting notes from that sprint planning?",
+ "reply": [
+  "from what i remember, you had sprint planning on fri 23 oct and committed 23 points. but i don't have detailed meeting notes — we only chatted about the outcome briefly.",
+  "if you want me to pull notes from wherever you took them (a doc, a slack thread, your own file), tell me where to look and i'll grab the details and format them the way you like. action items first, right?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sprint planning notes"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Fri 16 Oct sprint planning"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "23 points"
+   },
+   "result": "#743 Fri 23 Oct 10:00 Them: sprint planning today. we have 23 points committed.\n#744 Fri 23 Oct 10:01 aicoo: 23 points. ambitious but doable.\n#745 Fri 23 Oct 14:00 Them: sam's first solo deploy today. nailed it.\n---\n#742 Fri 23 Oct 09:11 aicoo: glad to hear it. biscuit is learning.\n#743 Fri 23 Oct 10:00 Them: sprint planning today. we have 23 points committed.\n#744 Fri 23 Oct 10:01 aicoo: 23 points. ambitious but doable."
+  }
+ ],
+ "calls": [
+  {
+   "in": 5327,
+   "out": 22,
+   "usd": 0.000051765
+  },
+  {
+   "in": 5378,
+   "out": 24,
+   "usd": 0.000053998
+  },
+  {
+   "in": 5431,
+   "out": 20,
+   "usd": 0.000055825
+  },
+  {
+   "in": 5602,
+   "out": 94,
+   "usd": 0.0000687764
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17929
+}

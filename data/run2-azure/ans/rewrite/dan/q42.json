@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "does sam have any pets?",
+ "reply": [
+  "从记忆里看，Sam没提过养宠物的事。你记得他问过狗的事吗？",
+  "他上个月问过我的PagerDuty流程，但没聊到宠物。如果你感兴趣，下次可以直接问问他。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2971,
+   "out": 57,
+   "usd": 0.000151766
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10684
+}

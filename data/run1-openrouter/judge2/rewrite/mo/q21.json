@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claimed 蓝驰 was first to engage, but the chat shows 云九 was scheduled first on Aug 12, before 蓝驰 on Aug 19.",
+ "first": "wrong",
+ "rule": null
+}

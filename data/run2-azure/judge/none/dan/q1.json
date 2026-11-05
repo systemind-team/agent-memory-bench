@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It gives the number 14, which matches the user's stated count from that week.",
+ "rule": null
+}

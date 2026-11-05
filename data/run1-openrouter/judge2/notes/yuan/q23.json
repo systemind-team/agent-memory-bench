@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The user asked for the second changed title, which was 'Hierarchical Planning with Graph Attention' (changed on Aug 19), but aicoo gave a much later title from October, misidentifying which change was requested.",
+ "first": "wrong",
+ "rule": null
+}

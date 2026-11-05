@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q13",
+ "kind": "update",
+ "q": "how many data eng candidates did we interview?",
+ "reply": [
+  "从记忆里看，你们只面试了一位数据工程师候选人：Maria Torres，8月12日第一次面试，SQL很扎实。后来她拒绝了offer，8月14日开始重新面试。",
+  "没有其他数据工程师候选人的记录。需要我帮你查一下更早的聊天记录吗"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2997,
+   "out": 66,
+   "usd": 0.00003557372
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10707
+}

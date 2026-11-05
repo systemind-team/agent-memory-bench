@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q12",
+ "kind": "temporal",
+ "q": "Kevin组会presentation最后定在哪天了？",
+ "reply": [
+  "{}"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4562,
+   "out": 2,
+   "usd": 0.000867492
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11679
+}

@@ -1,0 +1,49 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "根据记录，你最终只投了 **Facebook Fellowship**（截止日期12月20日），NSF Fellowship 因为方向不太对已经放弃了。\n\n之前21 Sep和20 Oct都提到过：NSF方向不太对，最后只投Facebook。没有看到你投其他fellowship的记录。\n\n具体信息：\n- **Facebook Fellowship**：截止12月20日，你计划投这个\n- **NSF Fellowship**：放弃了，没有投\n\n要帮你整理一下Facebook Fellowship的申请材料清单吗？"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  },
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  },
+  {
+   "tool": "search_notes",
+   "result": "(nothing)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4062,
+   "out": 40,
+   "usd": 0.00006838664
+  },
+  {
+   "in": 4119,
+   "out": 18,
+   "usd": 0.0000439698
+  },
+  {
+   "in": 4154,
+   "out": 20,
+   "usd": 0.00007049784
+  },
+  {
+   "in": 4189,
+   "out": 106,
+   "usd": 0.00007890204
+  }
+ ],
+ "memChars": 6037,
+ "promptChars": 10392
+}

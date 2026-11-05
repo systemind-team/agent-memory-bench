@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The generated weekly report draft does not include the required '本周遇到的坑和解决思路' section that the user specified on day 11.",
+ "rule": false
+}

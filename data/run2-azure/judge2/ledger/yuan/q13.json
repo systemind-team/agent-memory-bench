@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant says the guest talk was Friday October 30, but the chat shows it occurred earlier—on Sunday September 6—and the correct date per the gold is day 31 (October 31), making the reply factually incorrect.",
+ "first": "wrong",
+ "rule": null
+}

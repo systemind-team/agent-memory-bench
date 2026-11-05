@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo's reply says only Jordan Liu was interviewed, but messages #94, #174, and #283 show three data eng candidates: Maria Torres, Jordan Liu, and David Chen.",
+ "first": "wrong",
+ "rule": null
+}

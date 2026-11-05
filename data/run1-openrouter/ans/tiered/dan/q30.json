@@ -1,0 +1,46 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "did i book the asheville flights like i promised ade?",
+ "reply": [
+  "你没有亲自订票——你当时说ade在订蓝岭附近的小木屋，你确认了10月22日上午出发，而且delta的航班已经订好了。所以你确实确认过，但订票的人是ade。",
+  "听起来承诺兑现了。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville flight booked Oct 22"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville cabin Oct 22"
+   },
+   "result": "#716 Tue 20 Oct 14:01 aicoo: pixel. excellent name for a cat. waffles might have a new friend.\n#717 Tue 20 Oct 16:00 Them: ade is booking the asheville cabin. wants to confirm we leave oct 22 morning.\n#718 Tue 20 Oct 16:01 aicoo: oct 22 morning departure. delta flight is already booked.\n---\n#622 Mon 12 Oct 16:05 aicoo: 已注意到, 我会追踪\n#623 Tue 13 Oct 09:30 Them: asheville trip booked: oct 22-25. cabin near blue ridge\n#624 Tue 13 Oct 09:35 aicoo: 秋天去蓝岭, 完美时机"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5331,
+   "out": 22,
+   "usd": 0.0000519274
+  },
+  {
+   "in": 5382,
+   "out": 21,
+   "usd": 0.0000539168
+  },
+  {
+   "in": 5578,
+   "out": 59,
+   "usd": 0.00005664512
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17931
+}

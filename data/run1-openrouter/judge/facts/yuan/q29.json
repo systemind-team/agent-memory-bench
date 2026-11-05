@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply misstates key dates—claims review happened Aug 29 and feedback sent Sep 1, but the chat shows the reminder was set Aug 28 and feedback sent Sep 1, no mention of Aug 29, and the correct answer requires Aug 26 and Aug 30.",
+ "rule": null
+}

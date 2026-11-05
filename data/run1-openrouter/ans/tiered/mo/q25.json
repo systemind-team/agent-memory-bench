@@ -1,0 +1,83 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "成都健康管理师协会合作，按时间线理一下？",
+ "reply": [
+  "好的，按时间线理一下成都健康管理师协会的合作：",
+  "8月31号你说成都那边渠道谈好了，9月对接。9月1号正式告诉我这个合作渠道，aicoo设了跟进。9月13号协会付了保证金5千，方案条款可行。9月23号合作方催签约，合同下午定稿。9月25号谈到每单8块服务费，头三月保底500单，下周签约。10月小雨报本月订单近400单，比上月上涨。10月18号成都合作流水分账2万4，预测下月500单。10月28号预测稳定在500单。",
+  "核心节点：8月底敲定渠道 → 9月中签约付保证金 → 9月底谈成8元/单保底500 → 10月跑通月400单、流水2万4。现在稳定增长中。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "成都健康管理师协会"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "成都 协会 健康管理"
+   },
+   "result": "#216 Mon 31 Aug 16:01 aicoo: 8月31号是周一，办公室准备好了，可以。\n#217 Tue 01 Sep 09:00 Them: 成都那边谈了个合作渠道，健康管理师协会，9月对接\n#218 Tue 01 Sep 09:01 aicoo: 这个能拉DAU，我设个提醒跟进。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "成都 合作 渠道 签约"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "成都 签约"
+   },
+   "result": "#426 Fri 25 Sep 09:01 aicoo: 阿杰昨晚已经完成回归测试，等Mia确认界面\n#427 Fri 25 Sep 11:00 Them: 成都合作下周签约，服务费谈到每单8块\n#428 Fri 25 Sep 11:01 aicoo: 从15块压到8块，真不容易\n---\n#419 Thu 24 Sep 14:01 Them: 7200还行，怎么谈的\n#420 Thu 24 Sep 14:02 aicoo: 强调我们成都合作马上签约，增长预期有保障\n#421 Thu 24 Sep 14:15 Them: 蓝驰那边同意了？\n---\n#407 Wed 23 Sep 09:16 aicoo: 大伟说内容还在等Mia的图，最迟周四\n#408 Wed 23 Sep 11:00 Them: 成都合作方催签约，等下我再打个电话\n#409 Wed 23 Sep 11:01 aicoo: 合同我下午定稿发你"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "成都 订单 流水"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5586,
+   "out": 23,
+   "usd": 0.00005404672
+  },
+  {
+   "in": 5638,
+   "out": 24,
+   "usd": 0.00005623912
+  },
+  {
+   "in": 5757,
+   "out": 25,
+   "usd": 0.00006115172
+  },
+  {
+   "in": 5811,
+   "out": 21,
+   "usd": 0.00006301932
+  },
+  {
+   "in": 6069,
+   "out": 23,
+   "usd": 0.00006534164
+  },
+  {
+   "in": 6135,
+   "out": 199,
+   "usd": 0.00008231244
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10963
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q12",
+ "kind": "update",
+ "q": "what's the pagerduty key for on-call?",
+ "reply": [
+  "key 7C2E9B worked fine last time. same one you used on the 26th.",
+  "need me to pull it up again?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3092,
+   "out": 38,
+   "usd": 0.00002884224
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10802
+}

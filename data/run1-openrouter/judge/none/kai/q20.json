@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant fabricates a 'pricing launch decision meeting' and a 'Monday schedule' on Nov 1, ignoring the actual dates in chat (integration rollout Sep 22, roadmap review Oct 10) and fails to answer the order question correctly.",
+ "rule": null
+}

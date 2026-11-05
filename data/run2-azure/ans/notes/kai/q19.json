@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "那个offsite在Hangzhou，日期是Oct 20-21对吗？",
+ "reply": [
+  "对，凯哥。Hangzhou offsite是10月20-21号，Grace订的民宿，12个人。你当时确认了行程，和Yuki、Ravi、Omar都一起去了。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12746,
+   "out": 52,
+   "usd": 0.000460404
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50345
+}

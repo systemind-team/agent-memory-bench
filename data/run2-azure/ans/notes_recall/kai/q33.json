@@ -1,0 +1,25 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+ "reply": [
+  "凯哥周日好。这周重要节点：",
+  "周一10:00 pricing prep，10:30和Grace、Ben的pricing launch decision meeting。这两件事最重要。",
+  "周一还要跟Grace确认SEA expansion headcount approval timeline，separate discussion。另外Grace的Q3 customer wins summary需要加customer testimonial section，deadline是她上周说的Oct 25，但既然还没final，周一尽快把quote收齐补上。",
+  "Ravi的integration security audit retest你也要问一下状态，之前说可能影响final timeline。Emily的weekly check-in别忘了。",
+  "然后周三之前要准备周五的Q4 roadmap execution plan slides？Grace上周三提过engineering contingency plan你已经做了，但不确定她还要不要别的补充。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13347,
+   "out": 202,
+   "usd": 0.000762262
+  }
+ ],
+ "memChars": 47941,
+ "promptChars": 52677
+}

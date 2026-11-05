@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly identified the course number as CS 571, which matches the user's chat message.",
+ "rule": null
+}

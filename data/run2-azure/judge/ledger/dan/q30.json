@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly identifies the commitment as done, stating the flights were booked (Delta, Oct 22 morning), matching the chat evidence from Aug 29, even though it misstates the booking date as Aug 30 instead of Aug 29—this extra detail doesn’t alter the status.",
+ "rule": null
+}

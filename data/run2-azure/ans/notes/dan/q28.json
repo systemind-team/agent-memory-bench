@@ -1,0 +1,83 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "did i ever review lena's on-call draft?",
+ "reply": [
+  "你不是已经review过了嘛——8月15号那个周六早上喝第一杯咖啡的时候在读的，日期我记得。",
+  "后来有给她feedback吗？还是需要我翻翻当时的回复？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Lena on-call draft"
+   },
+   "result": "[stripe-webhook] 16 Oct: on-call handoff notes ready for Lena\n[stripe-webhook] 15 Aug: on-call handoff notes ready; Lena takes over tomorrow\n[billing-split] 31 Aug: Lena PTO Oct 5-9 for wedding; on-call needs adjustment\n[stripe-webhook] 20 Aug: webhook spec draft shared with Tom (sent to shared doc)\n[stripe-webhook] 20 Aug: webhook spec draft shared with Tom (sent to shared doc)\n[billing-migration] 06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n[billing-split] 17 Aug: billing PR up; Tom's reviewing (was Le"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena on-call draft review"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "review Lena on-call"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena draft"
+   },
+   "result": "#125 Fri 14 Aug 17:01 aicoo: enjoy. see you monday\n#126 Sat 15 Aug 08:30 Them: coffee count: 1. lazy saturday. reading through lena's on-call draft\n#127 Sat 15 Aug 08:30 aicoo: understood, i'll note that"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "reading through lena's on-call draft"
+   },
+   "result": "#125 Fri 14 Aug 17:01 aicoo: enjoy. see you monday\n#126 Sat 15 Aug 08:30 Them: coffee count: 1. lazy saturday. reading through lena's on-call draft\n#127 Sat 15 Aug 08:30 aicoo: understood, i'll note that"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2497,
+   "out": 24,
+   "usd": 0.000125394
+  },
+  {
+   "in": 2769,
+   "out": 25,
+   "usd": 0.000183074
+  },
+  {
+   "in": 2823,
+   "out": 23,
+   "usd": 0.000193294
+  },
+  {
+   "in": 2875,
+   "out": 21,
+   "usd": 0.000111446
+  },
+  {
+   "in": 2982,
+   "out": 27,
+   "usd": 0.0001831
+  },
+  {
+   "in": 3110,
+   "out": 47,
+   "usd": 0.000175356
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9097
+}

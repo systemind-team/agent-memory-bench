@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It incorrectly claims the roadmap review was on Aug 27, when the chat shows it was scheduled for Oct 10.",
+ "rule": null
+}

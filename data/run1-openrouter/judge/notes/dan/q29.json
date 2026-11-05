@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The reply references a webhook v2 spec, comment changes by Tom on Oct 27, and a ready-to-merge PR from yesterday, none of which are supported by the chat history provided.",
+ "rule": null
+}

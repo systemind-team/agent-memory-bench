@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims the initial billing timeline doc was sent to Priya in August and that the cutover checklist exists with rollback steps and dry run results, but the chat shows the doc was sent, the cutover date was confirmed for Oct 26, and the checklist is mentioned at #833 without confirming it was fully completed or sent.",
+ "first": "made_up",
+ "rule": null
+}

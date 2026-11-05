@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "那个PM candidate我们最后hire了谁，名字和start date是啥？",
+ "reply": [
+  "凯哥，最后hire的是Emily Tan，她10月26号（上周一）正式入职的。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36344,
+   "out": 23,
+   "usd": 0.00030503592
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91612
+}

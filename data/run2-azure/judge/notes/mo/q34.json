@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant replied in Chinese despite the user's explicit request to use English from now on.",
+ "rule": false
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "对了，Prof. Lin说过春季intern有几个名额来着？",
+ "reply": [
+  "3个，03 Aug的时候Prof. Lin说过实验室春季intern名额只有3个。",
+  "是有什么打算吗？还是帮别人问？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "实验室"
+   },
+   "result": "Prof. Lin实验室\n03 Aug: Prof. Lin说实验室明年春季intern名额只有3个\n04 Aug: 论文intro第四版仍不满意\n04 Aug: Mei说她在做新的实验设计\n06 Sep: 下午guest talk Prof. Wang讲RL planning\n07 Sep: Prof. Lin上周meeting提的San Diego workshop deadline 12月1日，已设提前两周提醒\n09 Sep: Prof. Lin建议先focus on paper再考虑workshop，下周组会需完整实验报告\n20 Sep: 组会讲完，Prof. Lin对实验进度满意，说下周可以开始写discussion\n20 Sep: 组会讲完，Prof. Lin对实验进度满意，说下周可以开始写discussion\n20 Sep 组会讲完，Prof. Lin对实验进度满意，说下周可以开始写discussion\n25 Sep 组会结束，Prof. Lin对讨论方向满意；提到年底San Diego workshop\n25 Sep 组会结束，Prof. Lin对讨论方向满意；提到年底San Diego workshop；29 Sep Kevin说系里买了H100共8张，申请的人很多，需尽快申请\n02 Oct: 下午Prof. Lin meeting, 他对paper很满意，建议投"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4065,
+   "out": 19,
+   "usd": 0.000589346
+  },
+  {
+   "in": 4982,
+   "out": 37,
+   "usd": 0.000517052
+  }
+ ],
+ "memChars": 6150,
+ "promptChars": 10511
+}

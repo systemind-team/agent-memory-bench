@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply states the docs were updated on September 20, but the chat shows 'docs updated for sam. done' on September 21, which is day 50 from August 3, the correct date per the gold answer.",
+ "first": "stale",
+ "rule": null
+}

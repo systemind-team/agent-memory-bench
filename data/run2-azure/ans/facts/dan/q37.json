@@ -1,0 +1,63 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "give me standup notes for today",
+ "reply": [
+  "**Standup – Sun 01 Nov**",
+  "- **09:00** ✅ Tom's Stripe refactor v2 in review – edge cases covered, should be last big piece before cutover",
+  "- **10:00** 🔄 Cutover checklist almost done – still need to add rollback steps (dry run results to include too)",
+  "- **10:05** 🔜 Ready to pair with Sam on migration index strategy after standup (from earlier thread)",
+  "- This week: new laptop battery ordered (79% – don't want it dying mid-migration)",
+  "Also: Ade and you are toast & butter for Halloween (Biscuit as bacon). Good weekend."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "standup notes format"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "standup notes bullet points timestamps"
+   },
+   "result": "- 04 Sep: for standup notes, wants bullet points with timestamps.\n- 23 Oct: Daniel said '23 points. ambitious but doable.' referring to the sprint planning with 23 points committed.\n- 16 Oct: on-call handoff notes ready for Lena\n- 17 Oct: I will help Tom debug after standup.\n- 23 Oct: Sprint planning today with 23 points committed.\n- 23 Sep: When asked for meeting notes, start with Action Items at the top.\n- 24 Aug: Priya is out all week; Tom is handling billing standup.\n- 17 Sep: Sprint planning committed to 21 points, 3 more than usual.\n- 08 Oct: Sam has a question about the migration index "
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "standup notes example"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1412,
+   "out": 22,
+   "usd": 0.000171368
+  },
+  {
+   "in": 1463,
+   "out": 25,
+   "usd": 0.00009211
+  },
+  {
+   "in": 1702,
+   "out": 22,
+   "usd": 0.000232268
+  },
+  {
+   "in": 1753,
+   "out": 144,
+   "usd": 0.000173826
+  }
+ ],
+ "memChars": 769,
+ "promptChars": 5266
+}

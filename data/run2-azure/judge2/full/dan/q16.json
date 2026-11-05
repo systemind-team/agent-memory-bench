@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant says the first move was Aug 19, but the messages show the first move was announced on Aug 5 (to Oct 12, then later changes).",
+ "first": "wrong",
+ "rule": null
+}

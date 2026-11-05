@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "应列出4位候选人：Jason Chen、Emily Tan、Michael Liu、Sarah Wu，并说明最后hire了Emily Tan，但回复只提到Emily和另一名未记录名字的候选人，缺失Jason、Michael和Sarah的信息。",
+ "rule": null
+}

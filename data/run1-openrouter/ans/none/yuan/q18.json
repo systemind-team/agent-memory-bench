@@ -1,0 +1,50 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q18",
+ "kind": "aggregate",
+ "q": "GPTR复现那段时间我大概都干了什么？",
+ "reply": [
+  "大概翻了翻之前的聊天记录，GPTR相关的时间线是这样的：",
+  "**10月12日 ~ 10月18日（一周）**\n周一在THOR上跑完GPTR对比实验，结果比baseline高2.5个点，但有环境报错。周中加了新的real-world scenario继续跑，到周日组会时已经整理了GPTR结果并汇报给Prof. Lin，他对real-world scenario表示认可。",
+  "**10月15日 ~ 10月19日（第二周）**\n周四发现之前场景太简单，GPTR结合后提升不大。周五凌晨把GPTR加进paper了（效果比baseline高3个点），然后白天跑了有障碍物的新场景，结果GPTR提升2个点。周五晚上决定把GPTR正式充实到实验部分。周一（19日）复杂场景下你们的模型比GPTR高2个点，但方差偏大，当时建议加seed。",
+  "**10月29日（倒回）**\n做slides时还专门问你要不要包含GPTR和ablation的结果，你说要。",
+  "总结：那段时间你主要在做GPTR对比实验→补新场景→写进paper，前后断断续续做了快两周。最后提到方差问题时还没彻底收尾。",
+  "现在需要我帮你做什么？比如查一下实验代码或者paper里GPTR相关部分的状态？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR 复现 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR"
+   },
+   "result": "#893 Thu 29 Oct 10:30 Them: 要，把环境1-4的四个baseline和我们的结果都列出来。\n#894 Thu 29 Oct 10:32 aicoo: - 正在整理数据。\n- 需要包括GPTR和ablation的结果吗？\n#895 Thu 29 Oct 11:00 Them: 包括，ablation放另一个表。下午三点前给我。\n---\n#766 Mon 19 Oct 10:31 aicoo: 已记录。实验预计需要2小时。\n#767 Mon 19 Oct 14:00 Them: 结果出来了，复杂场景下context-aware还是比gptr高2个点，但是方差有点大。\n#768 Mon 19 Oct 14:01 aicoo: 方差大的话，可能需要增加seed数量或者检查数据噪声来源。\n---\n#755 Sun 18 Oct 09:00 Them: 周日，准备组会材料，整理这周实验进展。\n#756 Sun 18 Oct 11:00 Them: 材料准备好了，包括新的real-world scenario实验和GPTR结果。\n#757 Sun 18 Oct 14:00 Them: 组会，汇报进展，Prof. Lin对real-world scenario表示认可，但建议再加一个更复杂的场景。\n---\n#745 Fri 16 Oct 14:00 Them: 下午参加f"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1248,
+   "out": 25,
+   "usd": 0.000043092
+  },
+  {
+   "in": 1302,
+   "out": 20,
+   "usd": 0.000047052
+  },
+  {
+   "in": 2041,
+   "out": 306,
+   "usd": 0.00014661
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4004
+}

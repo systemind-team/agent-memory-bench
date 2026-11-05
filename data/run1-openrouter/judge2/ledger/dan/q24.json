@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant included '5B1C6D' which was never stated as a key used for on-call, only mentioned as a past key before a change.",
+ "first": "wrong",
+ "rule": null
+}

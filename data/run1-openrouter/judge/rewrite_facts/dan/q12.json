@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant states the new key is A4B8C2, but the chat only mentions updates to 7C2E9B with no mention of A4B8C2.",
+ "rule": null
+}

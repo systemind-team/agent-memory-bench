@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "对了，Prof. Lin说过春季intern有几个名额来着？",
+ "reply": [
+  "只有3个名额，是8月初说的。",
+  "你是想问问自己有没有机会，还是Dr. Chen也可能需要知道？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "春季 intern 名额 Prof. Lin"
+   },
+   "result": "[实验室] 03 Aug: Prof. Lin说实验室明年春季intern名额只有3个\n[个人] 29 Aug: 早上收到Prof. Lin的feedback，research statement需加preliminary results定量分析；加完mini-Imagenet top-1 accuracy对比后发回给Prof. Lin（之前28 Aug写完发给Prof. Lin）\n[个人] 14 Sep: 下午改intro并发给Prof. Lin\n[个人] 24 Oct 20:00 Prof. Lin谷歌学术引用破5000，Slack发恭喜，Lin回复谢谢；25 Oct 00:20 下周一Prof. Lin meeting改线上，他去出差，等zoom链接\n[项目] 14 Sep: intro新版本已发给Prof. Lin\n[个人] 22 Oct 09:30 下午3点与Prof. Lin meeting\n[项目] 29 Aug: 早上收到Prof. Lin feedback，research statement需加定量分析；加mini-Imagenet top-1 accuracy对比后发回（之前28 Aug写完发给Prof. Lin）\n[个人] 28 Aug: 下午写完fellowship personal statement，发给Prof. Lin等待反馈；截止11月15日（之"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4065,
+   "out": 25,
+   "usd": 0.000546882
+  },
+  {
+   "in": 4475,
+   "out": 34,
+   "usd": 0.00027143
+  }
+ ],
+ "memChars": 6150,
+ "promptChars": 10511
+}

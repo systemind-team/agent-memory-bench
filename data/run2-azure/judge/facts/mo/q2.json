@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly recalled the product name '晨检' from the chat.",
+ "rule": null
+}

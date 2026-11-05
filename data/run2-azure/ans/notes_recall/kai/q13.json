@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q13",
+ "kind": "update",
+ "q": "Pricing最初是多少，Ben第一次propose的。",
+ "reply": [
+  "Ben第一次propose的是$39/user/month。那是8月16号发出来的v2，从之前的$41降下来的。后来8月30号他出了v3，提到$49，最后9月17号你俩敲定$44。你要的是第一次对么？就是$39。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "ben-pricing-review-draft"
+   },
+   "result": "Ben's Pricing Review Draft\n14 Aug: Ben took over pricing review (was to be led by Kai; moved due to father's re-hospitalization on 14 Aug). 15 Aug: Ben's pricing model v1 had a bug (unit economics off); Kai asked Ben to redo it.\n15 Aug: Ben's pricing model v1 had a bug (unit economics off); Kai asked Ben to redo it.\n16 Aug: Ben sent pricing model v2; plan to launch at 39 per user per month (was 41). Kai will discuss with Grace at this week's pricing council meeting, then sync Sales.\n19 Aug: Ben's pricing review meeting moved to next Wednesday (was this week). Kai asked Ben to update the deck. "
+  }
+ ],
+ "calls": [
+  {
+   "in": 13276,
+   "out": 24,
+   "usd": 0.001289208
+  },
+  {
+   "in": 14152,
+   "out": 79,
+   "usd": 0.000862432
+  }
+ ],
+ "memChars": 47617,
+ "promptChars": 52332
+}

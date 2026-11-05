@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q31",
+ "kind": "open_loop",
+ "q": "和Omar的Singapore pipeline review, 我们不是说好Monday看的吗? 后来看了吗?",
+ "reply": [
+  "凯哥，Monday的pipeline review我记得是10月初你改到Thu afternoon的，后来10/14的sync上你review了Singapore numbers，Omar当时汇报了几笔deal的进展。",
+  "如果你想再看一遍详细内容，我可以查一下那次sync的记录。另外你昨天说要找Omar拿Singapore两个大客户的quote，这个周一开始就行。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3031,
+   "out": 83,
+   "usd": 0.000178926
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10845
+}

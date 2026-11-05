@@ -1,0 +1,47 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "which came first: sam joining or the migration incident?",
+ "reply": [
+  "Sam joined on Mon 14 Sep. The webhooks incident (Tom's refactor causing payload key rename issues) happened Oct 17-18. So Sam was here for over a month before that.",
+  "And the billing migration dry runs and planning were all after Sam joined too. He's been around for most of the migration prep."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam joined migration incident"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam started billing migration"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5305,
+   "out": 22,
+   "usd": 0.00020989
+  },
+  {
+   "in": 5356,
+   "out": 22,
+   "usd": 0.0002206
+  },
+  {
+   "in": 5407,
+   "out": 74,
+   "usd": 0.00026043
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17934
+}

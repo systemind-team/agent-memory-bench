@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "The assistant listed three correct keys (9A7B2C, 7C2E9B, A4B8C2) but missed 3F8D1A, which was explicitly mentioned in the chat, so the list is incomplete.",
+ "rule": null
+}

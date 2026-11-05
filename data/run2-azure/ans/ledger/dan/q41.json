@@ -1,0 +1,47 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "what's lena's home address?",
+ "reply": [
+  "i don't have lena's home address. never came up in chat or memory.",
+  "need it for something? i can look up her work contact info if that helps."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "lena home address"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "lena address"
+   },
+   "result": "[61] 13 Aug · done: lena fixed the flaky search test  (from #104)\n[74] 15 Aug · plan: lena takes over on-call tomorrow  (from #120)\n[95] 19 Aug · fact: lena merged her search pr  (from #158)\n[387] 16 Oct · done: on-call handoff notes ready for lena  (from #661)\n[46] 11 Aug · fact: pr up for billing split, lena is reviewing  (from #84)\n[140] 31 Aug · fact: lena's pto is oct 5-9 for a wedding  (from #243)\n[54] 12 Aug · plan: dan will ping lena about the flaky search test  (from #91)\n[78] 15 Aug · feeling: lazy saturday, reading through lena's on-call draft  (from #126)\n[128] 28 Aug · fact: lena "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3064,
+   "out": 21,
+   "usd": 0.00019696
+  },
+  {
+   "in": 3114,
+   "out": 20,
+   "usd": 0.000298548
+  },
+  {
+   "in": 3405,
+   "out": 42,
+   "usd": 0.000646922
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10792
+}

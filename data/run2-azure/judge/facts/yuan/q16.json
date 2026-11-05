@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "It adds unsupported events (Mei running it, 128 batch size, AI2-THOR, LaTeX table) and misdates the found bug/final result, while omitting the intro-writing delay and the normalization bug.",
+ "rule": null
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Coco说的那个餐厅叫什么名字？",
+ "reply": [
+  "是之前Coco提过的那家“山海”餐厅——11月20号你订了位给她过生日。今天刚11月1号，还早呢。",
+  "怎么了周周，是需要改时间还是想先看看菜单？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "餐厅 Coco 山海"
+   },
+   "result": "#733 Wed 14 Oct 23:00 Them: 终于book了“山海”餐厅，11月20号，只有那天有位子。\n#734 Wed 14 Oct 23:01 aicoo: - 已记录：Coco生日聚餐在“山海”餐厅，11月20日。\n#735 Thu 15 Oct 09:00 Them: 周四，早上继续实现scenario。\n---\n#588 Thu 01 Oct 21:01 aicoo: 山海餐厅预订提醒：需提前两周。要我现在设个提醒下周一预订吗？\n#589 Thu 01 Oct 22:10 Them: Coco说“山海”餐厅要提前两周预定，我还没约。\n#590 Thu 01 Oct 22:11 Them: 设下周一上午10点提醒我订位。现在累了，明天继续statement。\n---\n#586 Thu 01 Oct 18:00 Them: 对，调出来。我把paper成果加进去。\n#587 Thu 01 Oct 21:00 Them: statement draft写完，但Coco说“山海”餐厅要提前两周预定，我还没约，想带她去庆祝论文。\n#588 Thu 01 Oct 21:01 aicoo: 山海餐厅预订提醒：需提前两周。要我现在设个提醒下周一预订吗？\n---\n#31 Wed 05 Aug 20:01 aicoo: 你们团队协作氛围不错。\n#32 Wed 05 Aug 22:1"
+  }
+ ],
+ "calls": [
+  {
+   "in": 6855,
+   "out": 23,
+   "usd": 0.001360782
+  },
+  {
+   "in": 7243,
+   "out": 58,
+   "usd": 0.000362086
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16040
+}

@@ -1,0 +1,70 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "我们的产品最后定名是什么？",
+ "reply": [
+  "产品名一直是「晨检」，没有改过定名。",
+  "你之前叫它「晨检」——logo用回第一版简洁方案那个。有什么原因想换吗"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "产品名称 定名"
+   },
+   "result": "[seed-round-investors] Fri 23 Oct: 成都协会想推产品到更多社区，加单，正在谈分成\n[seed-round-investors] Sat 22 Aug: 蓝驰聊得还行，想再看产品数据（之前已见，准备材料重新发送）\n[cash-runway] Fri 07 Aug: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块\n[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[seed-round-investors] Sat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型；红杉周三下午改为线下，需演示产品（moved from Thu 03 Sep，新增红杉线下会议；之前红杉约聊已拖）"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "产品定名 叫什么 名称"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "产品 名字 最终"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "product-launch"
+   },
+   "result": "产品发布顺序\nTue 01 Sep: 晨检iOS测试版昨晚闪退，阿杰在修；上线延期到9月10号（仍按此）；安卓内测改为10月15号（之前10月），阿杰已给排期；小雨成都合作推迟至10月，需自己搞推广，建议先靠抖音小视频拉DAU；成都健康管理师协会9月对接（新增）\nSat 19 Sep: 晨检iOS上线推迟到9月18号，因iOS审核慢（之前预计9月10号）；已通知阿杰，他说能赶上；营销物料需准备；9月15日大伟上午推广数据新增注册120，太慢，正在优化关键词；9月16日iOS闪退已修复但评审被拒一次，18号仍来得及；9月19日iOS评审已过；9月20日通知晨检再延期至9月25日，测试环境数据冲突需重构日志模块，阿杰保证25号（新增延期）\nSun 20 Sep: 大伟想试楼宇电梯广告，预算3万；建议先小范围测试，选静安3栋楼；9月17日跑了半天扫码仅63人，效果不佳；9月18日静安寺楼好点，其他两栋不值，建议砍掉，已停广告，钱省下来下周全力冲线上；大伟线上活动方案聊完，预算5万，能冲DAU（moved from Tue 15 Sep，新增线上活动方案）；9月21日确定9月25日上线最终checklist，需整理发阿杰确认；Wed 23 Sep: 大伟推广方案内容等Mia的图，最迟周四上线；Tue 06 Oct: 阿杰说安卓适配可能还能提前点，争取10月底（新增）；Sat 10 Oct:"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2449,
+   "out": 23,
+   "usd": 0.000101297
+  },
+  {
+   "in": 2698,
+   "out": 25,
+   "usd": 0.00003673488
+  },
+  {
+   "in": 2752,
+   "out": 23,
+   "usd": 0.00003876488
+  },
+  {
+   "in": 2804,
+   "out": 21,
+   "usd": 0.00004071368
+  },
+  {
+   "in": 3522,
+   "out": 45,
+   "usd": 0.0000634984
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6257
+}

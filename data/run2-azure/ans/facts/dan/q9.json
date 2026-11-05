@@ -1,0 +1,36 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "how far did i run in williamsburg that time?",
+ "reply": [
+  "You didn't run in Williamsburg that day — 09 Aug was the brunch place you tried with Ade.",
+  "The runs I've got noted are a lunch 5k on 29 Aug (Biscuit joined for the first mile) and a lunch run on 04 Aug to clear your head, but no distance for that one.",
+  "Want me to check any other runs?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "run distance Williamsburg"
+   },
+   "result": "- 09 Aug: Daniel went to a new brunch place in Williamsburg with Ade.\n- 20 Oct: Billing migration dry run report was merged and final run is planned for next week.\n- 04 Aug: Went for a run at lunch to clear their head\n- 16 Oct: billing migration dry run #2 today\n- 28 Aug: Need to add a db migration dry-run step to CI. 01 Sep: Lena picked up the CI dry-run ticket for migration checks.\n- 16 Aug: Coffee count: 2 (pre-run coffee and a bagel).\n- 29 Aug: lunch run 5k, biscuit joined for first mile\n- 16 Oct: Dan Okafor passed dry run with no issues.\n- 24 Oct: Daniel said it is rainy and there is no r"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1492,
+   "out": 22,
+   "usd": 0.000233992
+  },
+  {
+   "in": 1737,
+   "out": 85,
+   "usd": 0.000274898
+  }
+ ],
+ "memChars": 997,
+ "promptChars": 5507
+}

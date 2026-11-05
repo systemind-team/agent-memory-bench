@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant stated a specific date and amounts that were never mentioned in the chat history.",
+ "rule": null
+}

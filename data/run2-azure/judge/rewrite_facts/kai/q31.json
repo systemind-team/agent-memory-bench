@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo incorrectly states the review was rescheduled to Thursday Aug 20, while the chat only shows a plan for Monday Aug 17 and completion on Tuesday Sep 8.",
+ "rule": null
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply says the timeline doc was sent and Priya received it, but the gold states the task was never confirmed as done; the chat only shows a reminder set, no follow-up that it was actually sent.",
+ "first": "wrong",
+ "rule": null
+}

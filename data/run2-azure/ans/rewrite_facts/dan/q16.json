@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "priya 第一次把 cutover 从 nov 5 往前提到 oct 26 是在 sep 30 那会儿。",
+  "然后 oct 3 你跟我说 oct 26 已经锁了，timeline 也更新了。之后 oct 15 她又问了一次 timeline，不过最后 oct 26 这个日期没再动。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3300,
+   "out": 80,
+   "usd": 0.00027956
+  }
+ ],
+ "memChars": 7322,
+ "promptChars": 11943
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It fails to provide the correct answer 'Aurora Health' and instead says it couldn't find the full name, asking for clarification.",
+ "rule": null
+}

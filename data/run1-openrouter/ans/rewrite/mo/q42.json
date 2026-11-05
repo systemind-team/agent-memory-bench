@@ -1,0 +1,57 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "大伟电脑是什么型号？",
+ "reply": [
+  "老板，我之前没有记录过大伟的电脑型号，翻了下聊天记录也没找到相关信息。需要我去问大伟本人，还是直接让他报一下配置给你？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 电脑 配 机 MacBook"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 设备 电脑"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 笔记本"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4031,
+   "out": 28,
+   "usd": 0.000041209
+  },
+  {
+   "in": 4088,
+   "out": 24,
+   "usd": 0.0000431984
+  },
+  {
+   "in": 4141,
+   "out": 22,
+   "usd": 0.0000451878
+  },
+  {
+   "in": 4192,
+   "out": 41,
+   "usd": 0.0000488012
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8485
+}

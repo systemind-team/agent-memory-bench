@@ -1,0 +1,46 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q13",
+ "kind": "update",
+ "q": "阿杰薪资最后定的多少？",
+ "reply": [
+  "阿杰薪资最终定的是税前3万5，试用期后看表现再调。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "阿杰 薪资"
+   },
+   "result": "[5] 04 Aug · plan: 明天（Tue 04 Aug）跟阿杰谈薪资  (from #4)\n[34] 13 Aug · feeling: 阿杰休假期间想再谈谈薪资  (from #60)\n[35] 13 Aug · decision: 阿杰薪资调整为税前3万8  → replaced 22 Aug by [60] 阿杰薪资最终定3万5，试用期后看表现调  (from #62, #63)\n[36] 14 Aug · done: 阿杰薪资调整为税前3万8  (from #64)\n[8] 04 Aug · done: 阿杰薪资谈到税前4万，期权另算  → replaced 13 Aug by [35] 阿杰薪资调整为税前3万8  (from #7)\n[55] 21 Aug · done: 阿杰的薪资确认邮件已发，不用再提醒  (from #106)\n[60] 22 Aug · decision: 阿杰薪资最终定3万5，试用期后看表现调  (from #116)\n[18] 08 Aug · promise: aicoo提醒：下周三（8月12日）发薪资确认邮件给阿杰  (from #29, #30)\n[17] 08 Aug · fact: 大伟薪资offer开1万8加绩效  (from #27)\n[45] 17 Aug · fact: 大伟最终薪资1万9，绩效另算  → repla"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "阿杰 3万5 薪资 最终"
+   },
+   "result": "[60] 22 Aug · decision: 阿杰薪资最终定3万5，试用期后看表现调  (from #116)\n[35] 13 Aug · decision: 阿杰薪资调整为税前3万8  → replaced 22 Aug by [60] 阿杰薪资最终定3万5，试用期后看表现调  (from #62, #63)\n[36] 14 Aug · done: 阿杰薪资调整为税前3万8  (from #64)\n[45] 17 Aug · fact: 大伟最终薪资1万9，绩效另算  → replaced 27 Aug by [88] 大伟薪资最终1万85，9月1号起算  (from #86, #87)\n[88] 27 Aug · fact: 大伟薪资最终1万85，9月1号起算  (from #160, #161)\n[301] 13 Oct · fact: 客服外包合同签了，最终3万8每月，半年  (from #576)\n[27] 11 Aug · fact: 阿杰的MacBook Pro预算1万5  → replaced 21 Aug by [54] 给阿杰配MacBook Pro，预算1万6  (from #47)\n[28] 12 Aug · decision: 阿杰MacBook Pro预算取消，维持1万5  (from #49, #50)\n[8] 04 Aug · done: 阿杰薪资"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2598,
+   "out": 22,
+   "usd": 0.00009966
+  },
+  {
+   "in": 2985,
+   "out": 28,
+   "usd": 0.00018429
+  },
+  {
+   "in": 3404,
+   "out": 26,
+   "usd": 0.00027116
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6685
+}

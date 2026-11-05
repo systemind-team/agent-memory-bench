@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It claims the change was a custom analytics module raising price from $800k to $950k, but the chat only shows add-ons pushed the value to $950k without specifying what was added.",
+ "rule": null
+}

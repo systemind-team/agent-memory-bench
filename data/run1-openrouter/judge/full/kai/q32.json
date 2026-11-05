@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant greeted the user as '凯哥' as required by the gold standard.",
+ "rule": true
+}

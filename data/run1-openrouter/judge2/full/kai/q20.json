@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The reply correctly states that integration rollout (Sep 22) occurred before roadmap review (Oct 10), which matches the gold order, even though the specific dates cited within the reasoning are from an earlier quarterly review context.",
+ "first": "wrong",
+ "rule": null
+}

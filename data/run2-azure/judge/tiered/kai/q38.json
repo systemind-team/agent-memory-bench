@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The meeting minutes draft starts with a summary sentence on decisions as requested, beginning with '12月1日launch pricing v3，$44/user/month'.",
+ "rule": false
+}

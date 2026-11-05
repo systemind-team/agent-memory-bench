@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The chat shows Q3 actual revenue final was 2.35M in message #779, but aicoo incorrectly recalled it as 2.1M.",
+ "first": "wrong",
+ "rule": null
+}

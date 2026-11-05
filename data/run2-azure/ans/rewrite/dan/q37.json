@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "give me standup notes for today",
+ "reply": [
+  "dan the builder 今天休息日，没 standup 哦",
+  "明天周一再一起过一下进度。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2972,
+   "out": 29,
+   "usd": 0.000136296
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10692
+}

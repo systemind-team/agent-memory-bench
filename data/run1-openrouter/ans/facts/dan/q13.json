@@ -1,0 +1,45 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q13",
+ "kind": "update",
+ "q": "how many data eng candidates did we interview?",
+ "reply": [
+  "from what i remember, you interviewed three data eng candidates in september — maria, jordan, and david — and david was hired. before that you'd also mentioned jordan liu (ex-spotify) as a new candidate with a good take-home around august, so if that round happened separately, it could be four total. want me to check your calendar or any interview docs to confirm?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "interviewed candidate data engineer"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "data engineer candidate interviewed"
+   },
+   "result": "- 21 Aug: A new candidate, Jordan Liu, formerly a data engineer at Spotify, has a good take-home.\n- 17 Aug: Dan started sketching a new interview rubric for data engineer with more SQL focus.\n- 28 Sep: Dan Okafor interviewed three candidates: Maria, Jordan, and David; David was hired.\n- 07 Sep: Candidate three is David Chen, a contractor at DoorDash who knows dbt.\n- 06 Aug: One customer's data still out of sync due to last week's migration incident.\n- 28 Aug: Daniel \"Dan\" Okafor caused a migration incident on Tuesday where a column was dropped instead of renamed but was rolled back with no dat"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1374,
+   "out": 23,
+   "usd": 0.00003270736
+  },
+  {
+   "in": 1426,
+   "out": 22,
+   "usd": 0.00003473736
+  },
+  {
+   "in": 1613,
+   "out": 90,
+   "usd": 0.00004785116
+  }
+ ],
+ "memChars": 609,
+ "promptChars": 5121
+}

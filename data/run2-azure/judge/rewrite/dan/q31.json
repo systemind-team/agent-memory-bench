@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the on-call docs still need updating with new key and rotation, but the chat shows Dan already updated them for Sam on day 50.",
+ "rule": null
+}

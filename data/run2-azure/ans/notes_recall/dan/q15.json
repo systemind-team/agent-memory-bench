@@ -1,0 +1,22 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q15",
+ "kind": "update",
+ "q": "what was the pagerduty key after the first change?",
+ "reply": [
+  "第一次改之后是 7C2E9B，之前是 3F8D1A",
+  "现在最新的 key 是 A4B8C2，怎么了，需要更新什么东西吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2849,
+   "out": 49,
+   "usd": 0.000259138
+  }
+ ],
+ "memChars": 5660,
+ "promptChars": 10234
+}

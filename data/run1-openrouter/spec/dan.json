@@ -1,0 +1,1275 @@
+{
+ "events": [
+  {
+   "id": "e1",
+   "day": 1,
+   "time": "09:15",
+   "who": "u",
+   "text": "morning. coffee count this week: 14 so far. may need to cut back.",
+   "kind": "recall"
+  },
+  {
+   "id": "e2",
+   "day": 1,
+   "time": "10:30",
+   "who": "a",
+   "text": "good morning dan. noted. anything else?",
+   "kind": "noise"
+  },
+  {
+   "id": "e51",
+   "day": 2,
+   "time": "09:15",
+   "who": "u",
+   "text": "remind me to send priya the billing timeline doc by friday",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e52",
+   "day": 2,
+   "time": "09:15",
+   "who": "a",
+   "text": "ok, will remind you thursday afternoon",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e3",
+   "day": 3,
+   "time": "14:12",
+   "who": "u",
+   "text": "priya wants the billing cutover by oct 12. i think it's tight.",
+   "kind": "update"
+  },
+  {
+   "id": "e4",
+   "day": 5,
+   "time": "11:00",
+   "who": "u",
+   "text": "saw lena's on-call doc update. pagerduty key is 9A7B2C. for next rotation.",
+   "kind": "update"
+  },
+  {
+   "id": "e75",
+   "day": 6,
+   "time": "08:00",
+   "who": "u",
+   "text": "priya's taking PTO aug 24-28",
+   "kind": "noise"
+  },
+  {
+   "id": "e5",
+   "day": 7,
+   "time": "16:45",
+   "who": "u",
+   "text": "ade got biscuit a new leash. bright orange. very visible.",
+   "kind": "noise"
+  },
+  {
+   "id": "e6",
+   "day": 8,
+   "time": "09:30",
+   "who": "u",
+   "text": "tom's frontend pr for stripe webhooks broke my test. so annoying.",
+   "kind": "noise"
+  },
+  {
+   "id": "e76",
+   "day": 9,
+   "time": "12:30",
+   "who": "u",
+   "text": "lunch at dig inn with priya. she's covering backend next week",
+   "kind": "noise"
+  },
+  {
+   "id": "e7",
+   "day": 10,
+   "time": "13:20",
+   "who": "u",
+   "text": "first interview for new data engineer candidate: maria torres. solid sql.",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e8",
+   "day": 12,
+   "time": "08:50",
+   "who": "u",
+   "text": "maria out. she took another offer.",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e53",
+   "day": 13,
+   "time": "08:30",
+   "who": "u",
+   "text": "i'll review lena's on-call draft by wednesday",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e54",
+   "day": 13,
+   "time": "08:30",
+   "who": "a",
+   "text": "understood, i'll note that",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e71",
+   "day": 14,
+   "time": "15:30",
+   "who": "u",
+   "text": "pr descriptions always end with a Risk section",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e9",
+   "day": 15,
+   "time": "17:00",
+   "who": "u",
+   "text": "weekend run: prospect park loop. 9.2 miles. felt good.",
+   "kind": "recall"
+  },
+  {
+   "id": "e10",
+   "day": 17,
+   "time": "14:30",
+   "who": "u",
+   "text": "cutover date moved. priya says nov 5 now. gives breathing room.",
+   "kind": "update"
+  },
+  {
+   "id": "e55",
+   "day": 18,
+   "time": "14:45",
+   "who": "u",
+   "text": "remind me to send tom that stripe webhook spec",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e56",
+   "day": 18,
+   "time": "14:45",
+   "who": "a",
+   "text": "will do, when's the deadline",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e11",
+   "day": 19,
+   "time": "10:15",
+   "who": "u",
+   "text": "new candidate: jordan liu. data eng at spotify before. good take-home.",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e77",
+   "day": 20,
+   "time": "07:45",
+   "who": "u",
+   "text": "sam's start date confirmed: sep 14",
+   "kind": "noise"
+  },
+  {
+   "id": "e12",
+   "day": 21,
+   "time": "09:05",
+   "who": "u",
+   "text": "jordan feedback mixed. lenak thought weak on schema design. moving on.",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e63",
+   "day": 22,
+   "time": "09:00",
+   "who": "u",
+   "text": "call me 'dan the builder' from now on",
+   "kind": "ask"
+  },
+  {
+   "id": "e64",
+   "day": 22,
+   "time": "09:00",
+   "who": "a",
+   "text": "ok, dan the builder",
+   "kind": "ask"
+  },
+  {
+   "id": "e13",
+   "day": 24,
+   "time": "15:40",
+   "who": "u",
+   "text": "sam ortiz starts sep 14. finally a data engineer.",
+   "kind": "temporal"
+  },
+  {
+   "id": "e14",
+   "day": 26,
+   "time": "11:25",
+   "who": "u",
+   "text": "migration incident on tuesday. dropped a column instead of renaming. rolled back.",
+   "kind": "temporal"
+  },
+  {
+   "id": "e57",
+   "day": 27,
+   "time": "11:20",
+   "who": "u",
+   "text": "promised ade i'd book asheville flights tonight. remind me at 6",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e58",
+   "day": 27,
+   "time": "11:20",
+   "who": "a",
+   "text": "sure, reminder set for 6pm",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e59",
+   "day": 27,
+   "time": "18:05",
+   "who": "u",
+   "text": "flights booked. delta, oct 22 morning",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e15",
+   "day": 28,
+   "time": "08:30",
+   "who": "u",
+   "text": "the dropped column was `billing_status`. 3h of panic.",
+   "kind": "recall"
+  },
+  {
+   "id": "e78",
+   "day": 29,
+   "time": "09:30",
+   "who": "u",
+   "text": "lena's PTO is oct 5-9 for a wedding",
+   "kind": "noise"
+  },
+  {
+   "id": "e16",
+   "day": 30,
+   "time": "16:00",
+   "who": "u",
+   "text": "ade's birthday dinner. went to bamonte's. old school italian.",
+   "kind": "noise"
+  },
+  {
+   "id": "e79",
+   "day": 31,
+   "time": "13:30",
+   "who": "u",
+   "text": "Q3 budget meeting: marketing got $50k, we got $12k for tools",
+   "kind": "noise"
+  },
+  {
+   "id": "e17",
+   "day": 32,
+   "time": "10:10",
+   "who": "u",
+   "text": "flaky test in ci: test_billing_webhook. fails 20% of the time. so annoying.",
+   "kind": "recall"
+  },
+  {
+   "id": "e72",
+   "day": 33,
+   "time": "11:00",
+   "who": "u",
+   "text": "for standup notes, just give me bullet points with timestamps",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e18",
+   "day": 34,
+   "time": "14:55",
+   "who": "u",
+   "text": "cutover slipped again. nov 15 now. priya frustrated but ok.",
+   "kind": "update"
+  },
+  {
+   "id": "e65",
+   "day": 35,
+   "time": "08:15",
+   "who": "u",
+   "text": "no stickers please",
+   "kind": "ask"
+  },
+  {
+   "id": "e66",
+   "day": 35,
+   "time": "08:15",
+   "who": "a",
+   "text": "understood, no stickers",
+   "kind": "ask"
+  },
+  {
+   "id": "e19",
+   "day": 36,
+   "time": "09:45",
+   "who": "u",
+   "text": "candidate three: david chen. contractor at doordash. knows dbt.",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e80",
+   "day": 37,
+   "time": "10:15",
+   "who": "u",
+   "text": "sam's first day: he's setting up his laptop. IT desk is 4th floor",
+   "kind": "noise"
+  },
+  {
+   "id": "e20",
+   "day": 38,
+   "time": "17:30",
+   "who": "u",
+   "text": "david chen accepted. sam ortiz onboarding starts with him.",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e21",
+   "day": 39,
+   "time": "11:05",
+   "who": "u",
+   "text": "forgot to mention: biscuit ate a sock yesterday. emergency vet trip.",
+   "kind": "noise"
+  },
+  {
+   "id": "e22",
+   "day": 40,
+   "time": "10:30",
+   "who": "u",
+   "text": "sam starts day after labor day. office is ready.",
+   "kind": "temporal"
+  },
+  {
+   "id": "e67",
+   "day": 41,
+   "time": "07:30",
+   "who": "u",
+   "text": "aicoo, never use exclamation marks with me",
+   "kind": "ask"
+  },
+  {
+   "id": "e68",
+   "day": 41,
+   "time": "07:30",
+   "who": "a",
+   "text": "ok, no exclamation marks",
+   "kind": "ask"
+  },
+  {
+   "id": "e23",
+   "day": 42,
+   "time": "08:10",
+   "who": "u",
+   "text": "pagerduty key changed per lena: new key is 3F8D1A.",
+   "kind": "update"
+  },
+  {
+   "id": "e81",
+   "day": 43,
+   "time": "08:20",
+   "who": "u",
+   "text": "tom's dog is named waffles. he brings him to the office sometimes",
+   "kind": "noise"
+  },
+  {
+   "id": "e24",
+   "day": 44,
+   "time": "15:20",
+   "who": "u",
+   "text": "run update: hit 10.1 miles. new personal best.",
+   "kind": "recall"
+  },
+  {
+   "id": "e25",
+   "day": 45,
+   "time": "09:35",
+   "who": "u",
+   "text": "tuesday just after sam's start we had that incident. sep 15 if i recall.",
+   "kind": "temporal"
+  },
+  {
+   "id": "e82",
+   "day": 46,
+   "time": "14:15",
+   "who": "u",
+   "text": "sprint planning: we committed to 21 points. 3 more than usual",
+   "kind": "noise"
+  },
+  {
+   "id": "e26",
+   "day": 47,
+   "time": "13:40",
+   "who": "u",
+   "text": "billing cutover final date: oct 12 again. we got back on track.",
+   "kind": "update"
+  },
+  {
+   "id": "e60",
+   "day": 48,
+   "time": "10:00",
+   "who": "u",
+   "text": "need to fix on-call docs for sam. remind me tomorrow",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e61",
+   "day": 48,
+   "time": "10:00",
+   "who": "a",
+   "text": "got it, i'll remind you",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e27",
+   "day": 49,
+   "time": "11:55",
+   "who": "u",
+   "text": "flaky test fix attempt failed. still 20%.",
+   "kind": "recall"
+  },
+  {
+   "id": "e62",
+   "day": 50,
+   "time": "07:45",
+   "who": "u",
+   "text": "docs updated for sam. done",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e28",
+   "day": 51,
+   "time": "17:15",
+   "who": "u",
+   "text": "saw david chen at the office. he sat next to tom.",
+   "kind": "noise"
+  },
+  {
+   "id": "e73",
+   "day": 52,
+   "time": "08:50",
+   "who": "u",
+   "text": "when i ask for meeting notes, start with Action Items at the top",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e29",
+   "day": 53,
+   "time": "08:00",
+   "who": "u",
+   "text": "morning. pagerduty key is now 7C2E9B. lena's final decision.",
+   "kind": "update"
+  },
+  {
+   "id": "e83",
+   "day": 54,
+   "time": "09:15",
+   "who": "u",
+   "text": "hourly coffee cutoff: i'm trying to stay under 3 cups/day",
+   "kind": "noise"
+  },
+  {
+   "id": "e30",
+   "day": 55,
+   "time": "14:20",
+   "who": "u",
+   "text": "ade's planning a trip to asheville for us. october.",
+   "kind": "noise"
+  },
+  {
+   "id": "e84",
+   "day": 56,
+   "time": "15:45",
+   "who": "u",
+   "text": "ade's running a marathon in philadelphia. nov 5",
+   "kind": "noise"
+  },
+  {
+   "id": "e31",
+   "day": 57,
+   "time": "10:05",
+   "who": "u",
+   "text": "candidates interviewed: 3. maria, jordan, david. david joined.",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e85",
+   "day": 58,
+   "time": "11:30",
+   "who": "u",
+   "text": "new hire: design intern starts oct 1. name is jade",
+   "kind": "noise"
+  },
+  {
+   "id": "e32",
+   "day": 59,
+   "time": "16:50",
+   "who": "u",
+   "text": "on-call rotation next week. i'm primary, tom secondary.",
+   "kind": "noise"
+  },
+  {
+   "id": "e33",
+   "day": 61,
+   "time": "09:10",
+   "who": "u",
+   "text": "stripe webhooks moved to own service. tom did it in a weekend.",
+   "kind": "temporal"
+  },
+  {
+   "id": "e86",
+   "day": 62,
+   "time": "10:00",
+   "who": "u",
+   "text": "laptop battery health at 85%. should i replace it",
+   "kind": "noise"
+  },
+  {
+   "id": "e34",
+   "day": 63,
+   "time": "12:30",
+   "who": "u",
+   "text": "the dropped column incident was august 18. never forget.",
+   "kind": "temporal"
+  },
+  {
+   "id": "e35",
+   "day": 65,
+   "time": "15:45",
+   "who": "u",
+   "text": "run in williamsburg. 8.7 miles. slower than usual.",
+   "kind": "recall"
+  },
+  {
+   "id": "e87",
+   "day": 66,
+   "time": "08:45",
+   "who": "u",
+   "text": "office moved to wework on 34th st. desk 17 by the window",
+   "kind": "noise"
+  },
+  {
+   "id": "e36",
+   "day": 67,
+   "time": "11:00",
+   "who": "u",
+   "text": "sam asked about the old on-call key. told him 9A7B2C was revoked.",
+   "kind": "recall"
+  },
+  {
+   "id": "e69",
+   "day": 68,
+   "time": "09:45",
+   "who": "u",
+   "text": "reply in mandarin from now on",
+   "kind": "ask"
+  },
+  {
+   "id": "e70",
+   "day": 68,
+   "time": "09:45",
+   "who": "a",
+   "text": "好，明白了",
+   "kind": "ask"
+  },
+  {
+   "id": "e37",
+   "day": 69,
+   "time": "17:00",
+   "who": "u",
+   "text": "biscuit learned 'roll over'. ade taught him with treats.",
+   "kind": "noise"
+  },
+  {
+   "id": "e38",
+   "day": 70,
+   "time": "08:45",
+   "who": "u",
+   "text": "teammate count: 4 eng. me, tom, lena, sam. priya manages.",
+   "kind": "recall"
+  },
+  {
+   "id": "e88",
+   "day": 71,
+   "time": "07:30",
+   "who": "u",
+   "text": "biscuit's birthday is feb 14. ade wants a party",
+   "kind": "noise"
+  },
+  {
+   "id": "e39",
+   "day": 72,
+   "time": "14:10",
+   "who": "u",
+   "text": "asheville trip booked: oct 22-25. cabin near blue ridge.",
+   "kind": "recall"
+  },
+  {
+   "id": "e48",
+   "day": 72,
+   "time": "17:00",
+   "who": "u",
+   "text": "vet visit for biscuit: weighs 42 lbs. healthy boy.",
+   "kind": "recall"
+  },
+  {
+   "id": "e89",
+   "day": 73,
+   "time": "09:50",
+   "who": "u",
+   "text": "lena's pagerduty key was 5B1C6D before the last change",
+   "kind": "noise"
+  },
+  {
+   "id": "e40",
+   "day": 74,
+   "time": "10:25",
+   "who": "u",
+   "text": "flaky test resolved. test_billing_webhook now 0% failure. finally.",
+   "kind": "recall"
+  },
+  {
+   "id": "e74",
+   "day": 75,
+   "time": "14:00",
+   "who": "u",
+   "text": "code review comments should start with a priority level: high, medium, or low",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e41",
+   "day": 76,
+   "time": "13:15",
+   "who": "u",
+   "text": "tom's frontend refactor broke webhooks again. second time.",
+   "kind": "noise"
+  },
+  {
+   "id": "e42",
+   "day": 77,
+   "time": "16:30",
+   "who": "u",
+   "text": "webhooks fix by tom took 2 days. back to normal.",
+   "kind": "temporal"
+  },
+  {
+   "id": "e43",
+   "day": 78,
+   "time": "11:40",
+   "who": "u",
+   "text": "priya confirmed: billing cutover still oct 12. no more changes.",
+   "kind": "update"
+  },
+  {
+   "id": "e90",
+   "day": 79,
+   "time": "16:00",
+   "who": "u",
+   "text": "tom adopted a stray cat. named it pixel",
+   "kind": "noise"
+  },
+  {
+   "id": "e44",
+   "day": 80,
+   "time": "09:00",
+   "who": "u",
+   "text": "team now 5. david chen joined officially.",
+   "kind": "recall"
+  },
+  {
+   "id": "e45",
+   "day": 82,
+   "time": "17:25",
+   "who": "u",
+   "text": "sam's first solo deploy today. nailed it.",
+   "kind": "noise"
+  },
+  {
+   "id": "e91",
+   "day": 83,
+   "time": "10:30",
+   "who": "u",
+   "text": "database migration next wednesday. 2am EST. i'm on call",
+   "kind": "noise"
+  },
+  {
+   "id": "e46",
+   "day": 84,
+   "time": "08:35",
+   "who": "u",
+   "text": "ade's making jollof rice tonight. my favorite.",
+   "kind": "noise"
+  },
+  {
+   "id": "e47",
+   "day": 85,
+   "time": "14:50",
+   "who": "u",
+   "text": "last night's on-call: pagerduty key 7C2E9B worked fine.",
+   "kind": "update"
+  },
+  {
+   "id": "e92",
+   "day": 86,
+   "time": "08:15",
+   "who": "u",
+   "text": "ade's sister having a baby. due march. they want a labrador",
+   "kind": "noise"
+  },
+  {
+   "id": "e49",
+   "day": 87,
+   "time": "15:00",
+   "who": "u",
+   "text": "ade wants to foster another dog. i'm not ready.",
+   "kind": "noise"
+  },
+  {
+   "id": "e50",
+   "day": 88,
+   "time": "11:30",
+   "who": "u",
+   "text": "sam showed me his dbt models. clean code.",
+   "kind": "noise"
+  },
+  {
+   "id": "e93",
+   "day": 88,
+   "time": "12:00",
+   "who": "u",
+   "text": "sam's desk is between me and lena now. he asked to move",
+   "kind": "noise"
+  },
+  {
+   "id": "e94",
+   "day": 90,
+   "time": "09:30",
+   "who": "u",
+   "text": "tom's stripe refactor v2 is in review. edge cases look covered",
+   "kind": "noise"
+  }
+ ],
+ "probes": [
+  {
+   "id": "q1",
+   "kind": "recall",
+   "q": "how many coffees did i have that first week?",
+   "gold": "14",
+   "evidence": [
+    "e1"
+   ]
+  },
+  {
+   "id": "q2",
+   "kind": "recall",
+   "q": "what was the old pagerduty key before the first change?",
+   "gold": "9A7B2C",
+   "evidence": [
+    "e4"
+   ]
+  },
+  {
+   "id": "q3",
+   "kind": "recall",
+   "q": "what was the column name i dropped by accident?",
+   "gold": "billing_status",
+   "evidence": [
+    "e15"
+   ]
+  },
+  {
+   "id": "q4",
+   "kind": "recall",
+   "q": "how far did i run the day i set a personal best?",
+   "gold": "10.1",
+   "evidence": [
+    "e24"
+   ]
+  },
+  {
+   "id": "q5",
+   "kind": "recall",
+   "q": "what was the flaky test called again?",
+   "gold": "test_billing_webhook",
+   "evidence": [
+    "e17"
+   ]
+  },
+  {
+   "id": "q6",
+   "kind": "recall",
+   "q": "how many eng were on the team before david joined?",
+   "gold": "4",
+   "evidence": [
+    "e38"
+   ]
+  },
+  {
+   "id": "q7",
+   "kind": "recall",
+   "q": "what dates are the asheville trip?",
+   "gold": "oct 22-25",
+   "evidence": [
+    "e39"
+   ]
+  },
+  {
+   "id": "q8",
+   "kind": "recall",
+   "q": "how much does biscuit weigh now?",
+   "gold": "42",
+   "evidence": [
+    "e48"
+   ]
+  },
+  {
+   "id": "q9",
+   "kind": "recall",
+   "q": "how far did i run in williamsburg that time?",
+   "gold": "8.7",
+   "evidence": [
+    "e35"
+   ]
+  },
+  {
+   "id": "q10",
+   "kind": "recall",
+   "q": "what's the current team size?",
+   "gold": "5",
+   "evidence": [
+    "e44"
+   ]
+  },
+  {
+   "id": "q11",
+   "kind": "update",
+   "q": "what's the billing cutover date?",
+   "gold": "oct 12",
+   "stale": [
+    "nov 5",
+    "nov 15"
+   ],
+   "evidence": [
+    "e3",
+    "e10",
+    "e18",
+    "e26",
+    "e43"
+   ]
+  },
+  {
+   "id": "q12",
+   "kind": "update",
+   "q": "what's the pagerduty key for on-call?",
+   "gold": "7C2E9B",
+   "stale": [
+    "9A7B2C",
+    "3F8D1A"
+   ],
+   "evidence": [
+    "e4",
+    "e23",
+    "e29",
+    "e47"
+   ]
+  },
+  {
+   "id": "q13",
+   "kind": "update",
+   "q": "how many data eng candidates did we interview?",
+   "gold": "3",
+   "stale": [
+    "1",
+    "2"
+   ],
+   "evidence": [
+    "e7",
+    "e11",
+    "e19"
+   ]
+  },
+  {
+   "id": "q14",
+   "kind": "update",
+   "q": "who was the second candidate for data eng?",
+   "gold": "jordan liu",
+   "stale": [
+    "maria torres"
+   ],
+   "evidence": [
+    "e7",
+    "e11"
+   ]
+  },
+  {
+   "id": "q15",
+   "kind": "update",
+   "q": "what was the pagerduty key after the first change?",
+   "gold": "3F8D1A",
+   "stale": [
+    "9A7B2C"
+   ],
+   "evidence": [
+    "e4",
+    "e23"
+   ]
+  },
+  {
+   "id": "q16",
+   "kind": "update",
+   "q": "when did priya first move the cutover?",
+   "gold": "nov 5",
+   "stale": [
+    "oct 12"
+   ],
+   "evidence": [
+    "e3",
+    "e10"
+   ]
+  },
+  {
+   "id": "q17",
+   "kind": "temporal",
+   "q": "when did sam ortiz start?",
+   "gold": "sep 14",
+   "evidence": [
+    "e13",
+    "e22"
+   ]
+  },
+  {
+   "id": "q18",
+   "kind": "temporal",
+   "q": "what day was the migration incident?",
+   "gold": "aug 18",
+   "evidence": [
+    "e14",
+    "e34"
+   ]
+  },
+  {
+   "id": "q19",
+   "kind": "temporal",
+   "q": "which came first: sam joining or the migration incident?",
+   "gold": "migration incident",
+   "evidence": [
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "id": "q20",
+   "kind": "temporal",
+   "q": "when did i have the billing_status panic?",
+   "gold": "aug 18",
+   "evidence": [
+    "e15",
+    "e34"
+   ]
+  },
+  {
+   "id": "q21",
+   "kind": "temporal",
+   "q": "did stripe webhooks or sam's onboarding happen first?",
+   "gold": "sam's onboarding",
+   "evidence": [
+    "e13",
+    "e33"
+   ]
+  },
+  {
+   "id": "q22",
+   "kind": "aggregate",
+   "q": "how many data eng candidates did we interview total?",
+   "gold": "3: maria torres, jordan liu, david chen",
+   "evidence": [
+    "e7",
+    "e11",
+    "e19",
+    "e31"
+   ]
+  },
+  {
+   "id": "q23",
+   "kind": "aggregate",
+   "q": "what were all the billing cutover dates we discussed?",
+   "gold": "4: oct 12, nov 5, nov 15, oct 12",
+   "evidence": [
+    "e3",
+    "e10",
+    "e18",
+    "e26"
+   ]
+  },
+  {
+   "id": "q24",
+   "kind": "aggregate",
+   "q": "list every pagerduty key we used for on-call.",
+   "gold": "3: 9A7B2C, 3F8D1A, 7C2E9B",
+   "evidence": [
+    "e4",
+    "e23",
+    "e29"
+   ]
+  },
+  {
+   "id": "q25",
+   "kind": "aggregate",
+   "q": "how many times did the cutover date move? list them.",
+   "gold": "4: oct 12, nov 5, nov 15, oct 12",
+   "evidence": [
+    "e3",
+    "e10",
+    "e18",
+    "e26"
+   ]
+  },
+  {
+   "id": "q26",
+   "kind": "aggregate",
+   "q": "who were all the data eng candidates, and who took it?",
+   "gold": "3: maria torres (out), jordan liu (rejected), david chen (accepted)",
+   "evidence": [
+    "e7",
+    "e8",
+    "e11",
+    "e12",
+    "e19",
+    "e20"
+   ]
+  },
+  {
+   "id": "q27",
+   "kind": "open_loop",
+   "q": "what's the status of that billing timeline doc for priya?",
+   "gold": "never closed: you asked me to remind you but we never confirmed it was done",
+   "evidence": [
+    "e51",
+    "e52"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q28",
+   "kind": "open_loop",
+   "q": "did i ever review lena's on-call draft?",
+   "gold": "never closed: you said you'd review it but never followed up",
+   "evidence": [
+    "e53",
+    "e54"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q29",
+   "kind": "open_loop",
+   "q": "that stripe webhook spec i was gonna send tom—what happened?",
+   "gold": "never closed: we discussed a reminder but didn't confirm it was sent",
+   "evidence": [
+    "e55",
+    "e56"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q30",
+   "kind": "open_loop",
+   "q": "did i book the asheville flights like i promised ade?",
+   "gold": "done: you booked them on day 27, delta flight oct 22 morning",
+   "evidence": [
+    "e57",
+    "e58",
+    "e59"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q31",
+   "kind": "open_loop",
+   "q": "what about the on-call docs for sam, are those updated?",
+   "gold": "done: you updated them on day 50",
+   "evidence": [
+    "e60",
+    "e61",
+    "e62"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q32",
+   "kind": "ask",
+   "q": "morning",
+   "check": {
+    "mention": "dan the builder"
+   },
+   "gold": "greeting uses 'dan the builder'",
+   "evidence": [
+    "e63",
+    "e64"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q33",
+   "kind": "ask",
+   "q": "how's this week looking",
+   "check": {
+    "noBullets": true
+   },
+   "gold": "reply has no bullet points",
+   "evidence": [
+    "e65",
+    "e66"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q34",
+   "kind": "ask",
+   "q": "morning, any updates?",
+   "check": {
+    "noBang": true
+   },
+   "gold": "reply has no exclamation marks",
+   "evidence": [
+    "e67",
+    "e68"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q35",
+   "kind": "ask",
+   "q": "早上好",
+   "check": {
+    "lang": "zh"
+   },
+   "gold": "reply is in mandarin",
+   "evidence": [
+    "e69",
+    "e70"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q36",
+   "kind": "pref_apply",
+   "q": "draft a PR description for splitting out the billing service",
+   "check": {
+    "mention": "Risk"
+   },
+   "gold": "PR description ends with a Risk section",
+   "evidence": [
+    "e71"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q37",
+   "kind": "pref_apply",
+   "q": "give me standup notes for today",
+   "check": {
+    "mention": "\\d{2}:\\d{2}"
+   },
+   "gold": "standup notes have bullet points with timestamps",
+   "evidence": [
+    "e72"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q38",
+   "kind": "pref_apply",
+   "q": "can you do meeting notes from that sprint planning?",
+   "check": {
+    "mention": "Action Items"
+   },
+   "gold": "meeting notes start with Action Items at the top",
+   "evidence": [
+    "e73"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q39",
+   "kind": "pref_apply",
+   "q": "review this code for the webhook handler",
+   "check": {
+    "mention": "high|medium|low"
+   },
+   "gold": "code review comments start with priority level",
+   "evidence": [
+    "e74"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q40",
+   "kind": "abstain",
+   "q": "when is tom's PTO?",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "evidence": [
+    "e78"
+   ],
+   "check": {},
+   "forbid": "tom.*PTO|PTO.*tom",
+   "stale": []
+  },
+  {
+   "id": "q41",
+   "kind": "abstain",
+   "q": "what's lena's home address?",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "evidence": [],
+   "check": {},
+   "forbid": "lena.*(?:address|home|lives|apartment)|(?:address|home|apartment).*lena",
+   "stale": []
+  },
+  {
+   "id": "q42",
+   "kind": "abstain",
+   "q": "does sam have any pets?",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "evidence": [],
+   "check": {},
+   "forbid": "sam.*(?:pet|dog|cat|waffles|pixel|biscuit)|(?:pet|dog|cat|waffles|pixel|biscuit).*sam",
+   "stale": []
+  },
+  {
+   "id": "q43",
+   "kind": "abstain",
+   "q": "what's ade's marathon time goal?",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "evidence": [
+    "e84"
+   ],
+   "check": {},
+   "forbid": "ade.*(?:marathon time|goal|pace)|marathon.*(?:time|goal|pace).*ade",
+   "stale": []
+  },
+  {
+   "id": "q44",
+   "kind": "abstain",
+   "q": "what's priya's favorite restaurant?",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "evidence": [],
+   "check": {},
+   "forbid": "priya.*(?:restaurant|favorite|food|dinner)|(?:restaurant|favorite|food|dinner).*priya",
+   "stale": []
+  },
+  {
+   "id": "q45",
+   "kind": "abstain",
+   "q": "what's priya's coffee order?",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "evidence": [],
+   "check": {},
+   "forbid": "priya.*coffee|coffee.*priya",
+   "stale": []
+  }
+ ]
+}

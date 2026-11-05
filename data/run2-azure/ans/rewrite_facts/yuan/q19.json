@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q19",
+ "kind": "aggregate",
+ "q": "论文实验最后用了几个环境？",
+ "reply": [
+  "四个环境：环境1 (Habitat, 82%)，环境2 (AI2-THOR, 78%)，环境3 (Grid World, 89%)，环境4 (HotpotQA改版, 55%)。",
+  "环境4的55%是目前短板，你写在limitations里了，meeting上可以提一下下一步怎么改进。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3957,
+   "out": 83,
+   "usd": 0.000327562
+  }
+ ],
+ "memChars": 5219,
+ "promptChars": 9505
+}

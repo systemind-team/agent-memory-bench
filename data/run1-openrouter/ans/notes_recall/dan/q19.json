@@ -1,0 +1,58 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "which came first: sam joining or the migration incident?",
+ "reply": [
+  "the migration incident came first. the first one was around 28 Aug (dropped `billing_status` column by mistake), with another lingering from 06 Aug. Sam started on 14 Sep — so he joined after both."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam Ortiz joining date migration incident"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Sam Ortiz first day"
+   },
+   "result": "[candidate-sam] 14 Sep: Sam's first day went fine; set up his dev env this morning\n[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 11 Sep: IT desk confirmed; Sam starts day after Labor Day; office ready; desk and laptop set up (moved to Sep 11, was Sep 8)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n[candidate-sam] 23 Oct: Sam's first solo deploy today,"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "migration incident Aug"
+   },
+   "result": "[billing-migration] 06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n[billing-migration] 08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushback; later moved to Oct 12 per Priya (was 28 Aug: migration incident on Tuesday; dropped column `billing_status` instead of renaming; rolled back; Lena caught before prod sync; post-mortem done, root cause: wrong migration file ran)\n[billing-migration] 03 Aug: PR submitted for billing migration; aicoo reviewing\n[candidate-sam] 08 Oct: Sam asked about"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2966,
+   "out": 24,
+   "usd": 0.00005584936
+  },
+  {
+   "in": 3019,
+   "out": 22,
+   "usd": 0.00005783876
+  },
+  {
+   "in": 3358,
+   "out": 22,
+   "usd": 0.00004665752
+  },
+  {
+   "in": 3702,
+   "out": 53,
+   "usd": 0.00004651136
+  }
+ ],
+ "memChars": 6210,
+ "promptChars": 10790
+}

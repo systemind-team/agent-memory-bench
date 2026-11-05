@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant incorrectly stated that Coco's birthday dinner was at '山海' restaurant on October, but the chat records show birthday dinner was at '星光' KTV and a separate '山海' reservation was set for October 5, not a birthday event.",
+ "first": "made_up",
+ "rule": null
+}

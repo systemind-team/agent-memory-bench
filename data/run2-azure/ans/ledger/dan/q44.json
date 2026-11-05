@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "what's priya's favorite restaurant?",
+ "reply": [
+  "i don't have any record of priya's favorite restaurant from our conversations. want me to ask her or check if it came up in any meeting notes?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "priya restaurant favorite"
+   },
+   "result": "[446] 25 Oct · feeling: morning. ade's making jollof rice tonight. my favorite.  (from #763, #764)\n[373] 14 Oct · fact: priya is back today  (from #635)\n[28] 07 Aug · done: timeline doc sent to priya  (from #50)\n[70] 14 Aug · feeling: priya is gutted about maria leaving  (from #117)\n[219] 18 Sep · feeling: priya seems relieved about cutover  (from #381)\n[18] 05 Aug · plan: will draft a risk list for priya  (from #31)\n[30] 07 Aug · done: dan sent timeline doc to priya  (from #50)\n[47] 11 Aug · fact: priya covering backend next week  (from #85)\n[107] 22 Aug · fact: dan will onboard sam with priy"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3064,
+   "out": 22,
+   "usd": 0.000151696
+  },
+  {
+   "in": 3332,
+   "out": 38,
+   "usd": 0.000216936
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10800
+}

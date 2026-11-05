@@ -1,0 +1,20 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q14",
+ "kind": "update",
+ "q": "who was the second candidate for data eng?",
+ "reply": [
+  "Jordan Liu was the second candidate for data eng — from Spotify, take-home went well. David Chen joined later but as a backend eng, not data eng."
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2517,
+   "out": 38,
+   "usd": 0.00003044188
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9100
+}

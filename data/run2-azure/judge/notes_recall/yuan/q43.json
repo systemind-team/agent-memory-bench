@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant provides a specific date and details about the GPTR baseline decision, but the chat context explicitly states this was never mentioned.",
+ "rule": null
+}

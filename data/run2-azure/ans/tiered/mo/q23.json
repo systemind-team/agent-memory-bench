@@ -1,0 +1,83 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "我们接触过哪些 VC，后来哪些出局了？",
+ "reply": [
+  "从记忆来看，我们完整接触过的VC有：**蓝驰、红杉、高榕、云九**。",
+  "最后出局的有三家：\n- **云九**：8月谈过，后来他们投了竞品项目（9月6号确认），自然出局了。\n- **红杉**：联系过多次，但我们在8月24号决定砍掉接触专注蓝驰，后来10月15号视频会也推掉了。\n- **高榕**：8月初接触过，后来你让先聚焦蓝驰、别松高榕，但实际没继续推进。\n\n唯一走到最后的只有**蓝驰**，第一笔300万和第二笔都已到账，估值7200万封闭了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "VC 投资 机构 红杉 蓝驰 云九 接触"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 红杉 云九 高榕"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 蓝驰 云九 接触"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 红杉"
+   },
+   "result": "#513 Mon 05 Oct 11:01 aicoo: 我去跟代理沟通，让他们退差价\n#514 Mon 05 Oct 14:30 Them: 红杉那个推了之后，蓝驰尽调还差什么\n#515 Mon 05 Oct 14:31 aicoo: 只剩最后几个财务文件，小雨明天能准备好\n---\n#242 Thu 03 Sep 10:30 Them: 红杉又发邮件约聊，先拖着？\n#243 Thu 03 Sep 10:31 aicoo: 集中精力谈蓝驰，红杉后面再回。\n#244 Thu 03 Sep 14:00 Them: 晨检iOS审核状态查一下。\n---\n#136 Mon 24 Aug 10:30 Them: 这周砍掉红杉接触，专注蓝驰深聊，别分心\n#137 Mon 24 Aug 10:31 aicoo: 收到，红杉接触暂缓，蓝驰数据包我下午整理好发你\n#138 Mon 24 Aug 14:20 Them: 蓝驰要的月度趋势图做了没？周五前得发过去\n---\n#135 Mon 24 Aug 09:13 aicoo: 合同和绩效方案都发了，等他周五前回传\n#136 Mon 24 Aug 10:30 Them: 这周砍掉红杉接触，专注蓝驰深聊，别分心\n#137 Mon 24 Aug 10:31 aicoo: 收到，红杉接触暂缓，蓝驰数据包我下午整理好发你\n---\n#125 Sun 23 Aug 0"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 投资 项目 竞品"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5562,
+   "out": 34,
+   "usd": 0.000224756
+  },
+  {
+   "in": 5625,
+   "out": 29,
+   "usd": 0.000647602
+  },
+  {
+   "in": 5683,
+   "out": 28,
+   "usd": 0.000246806
+  },
+  {
+   "in": 5740,
+   "out": 23,
+   "usd": 0.000255976
+  },
+  {
+   "in": 6189,
+   "out": 27,
+   "usd": 0.000352506
+  },
+  {
+   "in": 6259,
+   "out": 170,
+   "usd": 0.000309814
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10962
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply states 6000万, which is neither the correct current value of 7200万 nor an outdated value mentioned in the chat.",
+ "first": "stale",
+ "rule": null
+}

@@ -1,0 +1,36 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "第一个fellowship截止日是哪天？",
+ "reply": [
+  "Facebook fellowship是12月20号截止，你之前说只投了这个，NSF那边放弃了。",
+  "如果是指第一个开始准备的fellowship，其实是NSF，但后面觉得方向不太对就没继续投。",
+  "现在需要开始写Facebook的statement吗？离12月20号还有七周左右。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "fellowship 截止"
+   },
+   "result": "- 11 Aug: fellowship的statement of purpose让用户感到折磨，14 Aug: 第一次fellowship申请截止是11月15号\n- 05 Aug: 今天申请了一个fellowship的截止日期是下个月，得赶紧写材料。\n- 20 Sep: 下周开始写NSF和Facebook fellowship申请材料。21 Sep: NSF那个方向不太对，最后可能就投Facebook了。05 Oct: Facebook fellowship提交截止日是12月20号，最后期限了。20 Oct 23:50: 周予安只投了Facebook的fellowship，放弃了NSF申请。\n- 19 Sep: 需要设置两个提醒：Facebook 截止日期为10月31日前两周，NSF 截止日期为11月15日前两周。\n- 17 Sep: Prof. Lin reminded me about the fellowship.\n- 17 Sep: NSF fellowship deadline is November 15.\n- 17 Sep: Facebook fellowship deadline is October 31.\n- 05 Oct: Fellowship的推荐信Coco说本周能发。\n- 10 Oct: 学校的fellowship workshop下周二，打算去看看。\n"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3919,
+   "out": 22,
+   "usd": 0.000285422
+  },
+  {
+   "in": 4200,
+   "out": 73,
+   "usd": 0.00023552
+  }
+ ],
+ "memChars": 5344,
+ "promptChars": 9637
+}

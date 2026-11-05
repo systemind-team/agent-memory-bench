@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The user explicitly stated Q3 target was 2.4 million USD, but aicoo replied with 2.3M conservative and 2.1M actuals, which are not supported by the chat evidence.",
+ "rule": null
+}

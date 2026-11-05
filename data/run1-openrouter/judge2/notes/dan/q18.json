@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant answered Aug 28, but the chat shows the incident date was explicitly corrected to Aug 18 in messages #537-538.",
+ "first": "wrong",
+ "rule": null
+}

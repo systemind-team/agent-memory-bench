@@ -1,0 +1,82 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "who were all the data eng candidates, and who took it?",
+ "reply": [
+  "三个候选人：Maria Torres（拒了offer），Jordan Liu（弱在schema design，没推进），David Chen（Doordash背景，收offer入职了）。最后是David Chen接了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data eng candidate data engineer candidate"
+   },
+   "result": "#93 Wed 12 Aug 07:32 aicoo: good luck. who's the candidate?\n#94 Wed 12 Aug 10:00 Them: first interview for new data engineer candidate: maria torres. solid sql.\n#95 Wed 12 Aug 10:02 aicoo: sounds promising. any flags?"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "candidate data engineer data eng"
+   },
+   "result": "#93 Wed 12 Aug 07:32 aicoo: good luck. who's the candidate?\n#94 Wed 12 Aug 10:00 Them: first interview for new data engineer candidate: maria torres. solid sql.\n#95 Wed 12 Aug 10:02 aicoo: sounds promising. any flags?"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "jordan liu data eng"
+   },
+   "result": "#173 Fri 21 Aug 07:30 aicoo: morning. you're off rotation at 5?\n#174 Fri 21 Aug 10:15 Them: new candidate: jordan liu. data eng at spotify before. good take-home.\n#175 Fri 21 Aug 10:16 aicoo: promising. lena might like the experience."
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "david chen data engineer candidate"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "david chen data eng"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21328,
+   "out": 24,
+   "usd": 0.000688928
+  },
+  {
+   "in": 21434,
+   "out": 24,
+   "usd": 0.000711188
+  },
+  {
+   "in": 21540,
+   "out": 24,
+   "usd": 0.000733448
+  },
+  {
+   "in": 21654,
+   "out": 25,
+   "usd": 0.000712124
+  },
+  {
+   "in": 21708,
+   "out": 24,
+   "usd": 0.000722904
+  },
+  {
+   "in": 21775,
+   "out": 47,
+   "usd": 0.000795678
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64126
+}

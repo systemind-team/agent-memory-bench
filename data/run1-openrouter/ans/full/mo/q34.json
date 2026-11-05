@@ -1,0 +1,59 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, what's on my plate today?",
+ "reply": [
+  "Morning, 陈默. It's Sunday, so nothing heavy scheduled today.",
+  "But looking at the week ahead: BlueRun closed and cash is comfortable at 600万, so no fire drills there. The big pieces are Dawei's new channel expansion, Chengdu cooperation push, and Android prep for mid-Nov launch.",
+  "Want me to pull together a quick lookahead for Monday, or are you just checking in before a quiet Sunday?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "today schedule Sunday November"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "11月 周日 计划"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周报 下周 重点"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18722,
+   "out": 18,
+   "usd": 0.00015458856
+  },
+  {
+   "in": 18769,
+   "out": 20,
+   "usd": 0.00015665916
+  },
+  {
+   "in": 18818,
+   "out": 20,
+   "usd": 0.00015864856
+  },
+  {
+   "in": 18867,
+   "out": 97,
+   "usd": 0.00016689036
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35700
+}

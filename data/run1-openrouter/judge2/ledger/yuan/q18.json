@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "The reply omits key gold-required details: that they didn't touch GPTR at one point and worked on the intro instead, that initial results were bad, the normalization bug discovery, and adding GPTR to the paper with +3 points.",
+ "first": "partial",
+ "rule": null
+}

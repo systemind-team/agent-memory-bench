@@ -1,0 +1,35 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "我这学期TA的课号是多少？",
+ "reply": [
+  "是CS 571，Prof. Li的课。需要做什么吗？",
+  "周二带Dr. Chen熟悉环境，9:00已经设了自动发送论文给Prof. Lin，10:00提醒你带Dr. Chen。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "CS 571 TA"
+   },
+   "result": "[43] 09 Aug · fact: TA课程CS 571，Prof. Li的课  (from #78)\n[38] 09 Aug · fact: 这学期TA的课程是CS 571  → replaced 09 Aug by [43] TA课程CS 571，Prof. Li的课  (from #70)\n[1] 03 Aug · person: 周予安，CS PhD第三年，Prof. Lin实验室  (from #0)\n[41] 09 Aug · plan: 下周开始准备TA材料  (from #76)\n[59] 12 Aug · fact: Tue 11 Aug 晚上有TA培训线上module没看  (from #104)\n[302] 21 Sep · done: Mon 21 Sep 20:20 批改完50份TA作业  (from #470)\n[470] 14 Oct · plan: Tue 13 Oct 18:00 今晚改20份TA作业  (from #725)\n[273] 16 Sep · done: Tue 15 Sep 18:00 TA批改完成50份作业  (from #417)\n[472] 14 Oct · done: Wed 14 Oct 09:30 继续改TA作业，还有30份  (from #728)\n[48] 10 Aug · ask: 希望aicoo设置周三之前确"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4560,
+   "out": 22,
+   "usd": 0.000878272
+  },
+  {
+   "in": 4895,
+   "out": 56,
+   "usd": 0.000280302
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11665
+}

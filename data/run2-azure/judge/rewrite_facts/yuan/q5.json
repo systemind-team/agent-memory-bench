@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "用户问题问的是第一个fellowship截止日，而对话记录中用户明确提到第一个fellowship截止日是11月15号，但aicoo回复错误地提供了Facebook fellowship的12月20号截止日期。",
+ "rule": null
+}

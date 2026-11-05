@@ -1,0 +1,35 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "你最后只投了**Facebook Fellowship**一个，NSF Fellowship在9月21日就决定放弃了。",
+  "Facebook Fellowship的截止日期是**12月20日**，不是之前说的10月31日。你10月20日晚上提交的申请。",
+  "需要我调出你写的statement或其他申请材料吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "fellowship 申请 截止 日期 NSF Facebook"
+   },
+   "result": "[286] 17 Sep · fact: NSF fellowship截止日期11月15日，Facebook fellowship截止日期10月31日  → replaced 06 Oct by [424] Facebook fellowship提交截止日是12月20号  (from #436)\n[285] 17 Sep · ask: 希望aicoo帮忙查NSF和Facebook fellowship的截止日期  (from #434, #435)\n[303] 21 Sep · decision: 只投Facebook fellowship，不投NSF fellowship  (from #472)\n[295] 20 Sep · plan: aicoo将在11月1日提醒周予安NSF fellowship截止日期  (from #450, #451)\n[294] 20 Sep · plan: aicoo将在10月17日提醒周予安Facebook fellowship截止日期  (from #450, #451)\n[293] 19 Sep · decision: fellowship只投NSF和Facebook两个  → replaced 21 Sep by [303] 只投Facebook fellowship，不投NSF fellowship  (from #448)\n[73] 1"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4585,
+   "out": 39,
+   "usd": 0.00004796484
+  },
+  {
+   "in": 5009,
+   "out": 77,
+   "usd": 0.00005163508
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11676
+}

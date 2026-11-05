@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "what dates are the asheville trip?",
+ "reply": [
+  "asheville trip是10月22到25号，上周四早上出发的，你已经在那边待了三天了，dan the builder。要不要我把之前记的细节翻出来？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3313,
+   "out": 46,
+   "usd": 0.0000550942
+  }
+ ],
+ "memChars": 7328,
+ "promptChars": 11945
+}

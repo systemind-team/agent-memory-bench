@@ -1,0 +1,21 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "when is tom's PTO?",
+ "reply": [
+  "Tom's PTO is Oct 5-9 for a wedding — that's already passed. No other PTO on file for him since then.",
+  "Want me to check the shared calendar or ask him?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1474,
+   "out": 48,
+   "usd": 0.00003879736
+  }
+ ],
+ "memChars": 881,
+ "promptChars": 5365
+}

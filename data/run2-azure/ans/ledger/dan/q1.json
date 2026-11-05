@@ -1,0 +1,46 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "how many coffees did i have that first week?",
+ "reply": [
+  "14 total that week, as of monday you said 14 so far. that was the week you started tracking."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "coffee count first week August"
+   },
+   "result": "[1] 03 Aug · fact: coffee count this week: 14 so far as of Mon 03 Aug  (from #0)\n[252] 28 Sep · fact: monday coffee count: 3  (from #459)\n[298] 04 Oct · fact: dropped column incident was august 18  (from #537, #538)\n[216] 18 Sep · feeling: coffee count: 0, trying something different  (from #377)\n[259] 29 Sep · fact: coffee count: 2 Tue 29 Sep  (from #471)\n[265] 30 Sep · fact: coffee count: 1 Wed 30 Sep  (from #483)\n[278] 02 Oct · fact: coffee count: 3 Fri 02 Oct  (from #507)\n[284] 03 Oct · fact: coffee count: 2 Sat 03 Oct  (from #515)\n[292] 04 Oct · fact: coffee count: 1 Tue 06 Oct  (from #529"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "coffee count week of August 3"
+   },
+   "result": "[252] 28 Sep · fact: monday coffee count: 3  (from #459)\n[278] 02 Oct · fact: coffee count: 3 Fri 02 Oct  (from #507)\n[59] 13 Aug · fact: coffee count: 3 today Thu 13 Aug  → replaced 17 Sep by [210] coffee count: 1 today Thu 17 Sep  (from #102)\n[430] 22 Oct · fact: coffee count: 3 today Thu 22 Oct  (from #733)\n[38] 10 Aug · fact: coffee count: 3 today (Mon 10 Aug) as of 07:48  (from #70)\n[1] 03 Aug · fact: coffee count this week: 14 so far as of Mon 03 Aug  (from #0)\n[298] 04 Oct · fact: dropped column incident was august 18  (from #537, #538)\n[216] 18 Sep · feeling: coffee count: 0, trying so"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3067,
+   "out": 24,
+   "usd": 0.000565862
+  },
+  {
+   "in": 3348,
+   "out": 26,
+   "usd": 0.000625992
+  },
+  {
+   "in": 3662,
+   "out": 30,
+   "usd": 0.000190108
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10809
+}

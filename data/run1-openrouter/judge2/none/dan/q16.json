@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply incorrectly states that the Aug 11 move to Sep 28 was the first, but the messages show the initial cutover date was Oct 12 on Aug 5, and it also claims the Nov 5 date is still current when the final confirmation was Oct 12 on Oct 19.",
+ "first": "made_up",
+ "rule": null
+}

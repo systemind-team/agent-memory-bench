@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo correctly states there were 4 engineers before David joined, matching the supported fact from the chat.",
+ "rule": null
+}

@@ -1,0 +1,33 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "Priya first moved the cutover to Sep 28 back on Tue 11 Aug — she thought Oct 12 was too tight. Then on Wed 19 Aug she moved it to Nov 5 for more breathing room. Latest change: Wed 30 Sep she moved it to Oct 26. The final lock was Oct 12, per Mon 19 Oct."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya cutover moved"
+   },
+   "result": "#160 Wed 19 Aug 10:45 aicoo: glad it was minor. you're off rotation friday, right?\n#161 Wed 19 Aug 14:30 Them: cutover date moved. priya says nov 5 now. gives breathing room.\n#162 Wed 19 Aug 14:31 aicoo: that's huge. less stress.\n---\n#86 Tue 11 Aug 12:32 aicoo: nice. dig inn's bowls are solid\n#87 Tue 11 Aug 14:00 Them: back. priya wants cutover timeline moved to sep 28. she thinks oct 12 is too tight\n#88 Tue 11 Aug 14:02 aicoo: that's two weeks earlier — makes sense given the work left"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5327,
+   "out": 19,
+   "usd": 0.0000515214
+  },
+  {
+   "in": 5521,
+   "out": 80,
+   "usd": 0.000064351
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17916
+}

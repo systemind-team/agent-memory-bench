@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "which came first: sam joining or the migration incident?",
+ "reply": [
+  "迁移事故在前。8月初就发生了（你8月6日还追了一个数据不同步的客户），Sam 9月8日才入职的。当时事故报告都写完了，Sam 来之后才给他看了回滚脚本。",
+  "所以你跑10.1英里那天（9月15日）那个drop billing_status的事故已经是第二波了，Sam 刚入职就看到这个，印象深刻。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Sam first day migration incident"
+   },
+   "result": "- 08 Sep: Sam's first day; he's setting up his laptop on the IT desk on the 4th floor. 12 Sep: sam's first full day tomorrow; onboarding plan looks solid\n- 13 Aug: Daniel plans to draft notes for the migration incident post-mortem. 28 Aug: Daniel will write the post-mortem report for the migration incident.\n- 01 Sep: Sam Ortiz start date is September 14. 11 Sep: Sam starts the day after Labor Day; the office is ready.\n- 07 Oct: Heading home early because there are no on-call issues; first good day in a while.\n- 13 Aug: Post-mortem concluded that the root cause was a missing index on the subscr"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3323,
+   "out": 23,
+   "usd": 0.000619062
+  },
+  {
+   "in": 3642,
+   "out": 93,
+   "usd": 0.000221188
+  }
+ ],
+ "memChars": 7526,
+ "promptChars": 12165
+}

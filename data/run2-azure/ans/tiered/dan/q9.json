@@ -1,0 +1,35 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "how far did i run in williamsburg that time?",
+ "reply": [
+  "8.7 miles that time. you said it was slower than usual, blamed yesterday's pasta.",
+  "[sticker: wave]"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "williamsburg run"
+   },
+   "result": "#566 Tue 06 Oct 14:35 aicoo: done. added a weekly cron reminder every monday at 09:00\n#567 Tue 06 Oct 15:45 Them: run in williamsburg. 8.7 miles. slower than usual.\n#568 Tue 06 Oct 17:00 Them: legs feel heavy. blaming yesterday's pasta\n---\n#65 Sun 09 Aug 11:01 aicoo: good to keep moving\n#66 Sun 09 Aug 14:00 Them: ade and i are trying a new brunch place in williamsburg\n#67 Sun 09 Aug 14:01 aicoo: fun. hope it's good"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5306,
+   "out": 22,
+   "usd": 0.00112658
+  },
+  {
+   "in": 5487,
+   "out": 33,
+   "usd": 0.001079102
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17922
+}

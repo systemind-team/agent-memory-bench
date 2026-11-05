@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The chat shows Sam started September 14 and Stripe webhooks were moved by Tom by October 2, and the assistant correctly established the order.",
+ "rule": null
+}

@@ -1,0 +1,20 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "大伟是定在什么时候入职？",
+ "reply": [
+  "[{\"tool\": \"search_chat\", \"args\": {\"query\": \"大伟入职\"}}]"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 4033,
+   "out": 23,
+   "usd": 0.0000408842
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8487
+}

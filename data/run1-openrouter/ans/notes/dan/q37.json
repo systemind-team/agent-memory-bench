@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "give me standup notes for today",
+ "reply": [
+  "早，Dan。今天周日，按我们之前的节奏，周一才有standup。我先把今天的要点整理出来：",
+  "**周日重点：**\n1. **Stripe webhook v2** — Tom的refactor在review中，边角情况已覆盖，这是cutover前最后一大块\n2. **Battery** — 你上周说这周下单新电池，79%还在掉，记得这周搞定\n3. **Cutover checklist** — 还差rollback步骤和dry run结果，优先级高\n4. **Halloween** — 今天Toast和Butter登场，Biscuit是小培根，期待照片",
+  "要我帮你写个周一的正式standup notes（面向团队的那种），还是这个周末版就够了？"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "standup notes"
+   },
+   "result": "[stripe-webhook] 16 Oct: on-call handoff notes ready for Lena\n[stripe-webhook] 03 Sep: standup notes: 09:30 fixed flaky webhook test (shared state); 10:15 reviewed Tom's PR on retry logic; 10:45 updated onboarding doc for Sam; 11:00 prep for Priya sync\n[stripe-webhook] 15 Aug: on-call handoff notes ready; Lena takes over tomorrow\n[billing-migration] 24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n[stripe-webhook] 17 Oct: Tom's frontend refactor broke webhooks again (payload format changed without handler update); Dan will help debug after standup; issue found, payl"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2515,
+   "out": 21,
+   "usd": 0.00002898028
+  },
+  {
+   "in": 2767,
+   "out": 169,
+   "usd": 0.00005122908
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9089
+}

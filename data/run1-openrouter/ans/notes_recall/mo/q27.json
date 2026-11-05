@@ -1,0 +1,47 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q27",
+ "kind": "open_loop",
+ "q": "我10月8号跟红杉的会，提醒还开着吗？",
+ "reply": [
+  "10月8日那个会早在9月24日就改到10月20日了，后来10月6日红杉又约过一次10月15号，你回了等下一轮。",
+  "最新的记录是10月25日提过准备下周红杉视频会议，但没有定具体日期。这个提醒目前算挂着，没有确认的会。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "红杉 10月8日 会议"
+   },
+   "result": "[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[redshirt-meeting] Sat 12 Sep: 红杉VP联系，10月8日开会（新增）\n[redshirt-meeting] Fri 11 Sep: 红杉VP直接联系，约10月8日开会；需提醒\n[redshirt-meeting] Thu 24 Sep: 红杉VP联系，改为10月20日线下（之前9月23日）；陈默要求那周其他事不排，只保留红杉和日常运营\n[seed-round-investors] Thu 24 Sep: 蓝驰电话说估值要重新谈，认为用户数据不够支撑7500万；aicoo与蓝驰谈判，估值砍到7200万（对方要求不砍最好，真砍6800万也接受），aicoo强调成都合作马上签约，增长预期有保障，蓝驰明早内部确认；红杉改为10月20日线下（之前9月23日）；Sat 26 Sep红杉手里有健康项目，推掉10月20日会议（moved from Fri 25 Sep）\n[product-launch] Sun 20 Sep: 蓝驰周一线下会议（9月21日），需准备用户增长模型PPT（新增）\n[seed-round-investors] Mon 24 Aug: 云九无回音，标记周三（8月26日）再次跟进（之前待定DAU破2000）；"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "redshirt-meeting"
+   },
+   "result": "红杉会议提醒\nFri 11 Sep: 红杉VP直接联系，约10月8日开会；需提醒\nSat 12 Sep: 红杉VP联系，10月8日开会（新增）\nSat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\nThu 24 Sep: 红杉VP联系，改为10月20日线下（之前9月23日）；陈默要求那周其他事不排，只保留红杉和日常运营\nTue 06 Oct: 红杉又找过来，约10月15号；已回他们等下一轮\nThu 22 Oct: 红杉又联系，想看数据\nSun 25 Oct: 周末休息下，下周红杉视频会议准备"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2814,
+   "out": 23,
+   "usd": 0.00004959696
+  },
+  {
+   "in": 3288,
+   "out": 19,
+   "usd": 0.00006851656
+  },
+  {
+   "in": 3493,
+   "out": 82,
+   "usd": 0.00008195516
+  }
+ ],
+ "memChars": 2944,
+ "promptChars": 6921
+}

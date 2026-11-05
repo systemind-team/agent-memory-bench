@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply says Ben proposed $44/user/month for v3, but Msg #335 shows Ben proposed $49 per user for premium tier in v3; $44 was the final decided price later.",
+ "first": "wrong",
+ "rule": null
+}

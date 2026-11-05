@@ -1,0 +1,47 @@
+{
+ "arm": "full",
+ "id": "yuan",
+ "qid": "q24",
+ "kind": "temporal",
+ "q": "论文标题第三次改是什么时候？",
+ "reply": [
+  "论文标题第三次改动是10月26日晚上11:40，你把final title定为 Context-Aware Planning via Hierarchical Decomposition，我23:42确认并第二天更新了所有文档。",
+  "前两次是：Planning with Hierarchical Graphs (8月7日) → Hierarchical Planning with Graph Attention (8月19日) → Context-Aware Hierarchical Planning for LLMs (9月13日) → 这次。一共改了三次标题+一次精简。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "最终标题 Context-Aware Planning via Hierarchical Decomposition"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "title Context-Aware Planning via Hierarchical"
+   },
+   "result": "#863 Mon 26 Oct 18:47 aicoo: - 已记录草稿标题：Context-Aware Planning via Hierarchical Decomposition。\n- 需要今晚确认后正式更新吗？\n#864 Mon 26 Oct 23:40 Them: Final title: Context-Aware Planning via Hierarchical Decomposition。\n#865 Mon 26 Oct 23:42 aicoo: - 已确认。明天上午更新所有文档中的标题。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 27978,
+   "out": 29,
+   "usd": 0.000896804
+  },
+  {
+   "in": 28036,
+   "out": 26,
+   "usd": 0.000907304
+  },
+  {
+   "in": 28168,
+   "out": 154,
+   "usd": 0.001006704
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 59342
+}

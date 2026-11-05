@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant provides the final title but fails to give the specifically requested second title 'Hierarchical Planning with Graph Attention', instead dismissing the earlier change.",
+ "first": "stale",
+ "rule": null
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "Pricing launch postpone了几次，从啥时候推到啥时候？",
+ "reply": [
+  "凯哥，pricing launch从最早的计划推迟了两次：第一次是从原计划推到11月，第二次是10月27日你决定推到12月1日，10月30日和Ben确认了。\n\n现在12/1 launch confirmed，A/B test在11/3继续跑。\n\n下周一的10:30 meeting就是和Grace、Ben一起做最终launch决策。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5103,
+   "out": 91,
+   "usd": 0.00005658828
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14921
+}

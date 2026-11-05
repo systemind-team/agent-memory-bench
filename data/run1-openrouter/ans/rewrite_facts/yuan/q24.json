@@ -1,0 +1,46 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q24",
+ "kind": "temporal",
+ "q": "论文标题第三次改是什么时候？",
+ "reply": [
+  "从记忆来看，论文标题改动记录：\n\n1. **第一次**：8月底/9月初，从最初的草稿标题改为 **\"Context-Aware Hierarchical Planning for LLMs\"**（具体日期未记录）\n2. **第二次**：**9月28日**，从 \"Context-Aware Hierarchical Planning for LLMs\" 改为 **\"Context-Aware Planning\"**\n3. **第三次**：**10月26-27日**，从 \"Context-Aware Planning\" 改为 **\"Context-Aware Planning via Hierarchical Decomposition\"**（10月26日23:40确定标题，27日更新到overleaf）\n\n所以第三次改标题是 **10月26日**（周一晚），27日正式应用到所有文件。"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题 第三次 改"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "论文标题 改"
+   },
+   "result": "- 27 Oct: 今天开始finalize论文标题，跑最后一个实验。最终标题确定为Context-Aware Planning via Hierarchical Decomposition。\n- 28 Sep: 周予安将论文标题从“Context-Aware Hierarchical Planning for LLMs”改为“Context-Aware Planning”。\n- 21 Sep: 先忙论文，晚上再说NSF的事。\n- 17 Oct: 火锅吃完了，继续改论文。\n- 08 Aug: 中午边吃外卖边看论文。\n- 27 Aug: 基本照着ICML的模板写论文。\n- 04 Oct: ICLR submission下周due，今天先final check论文。\n- 27 Sep: 计划今天把论文discussion部分收尾。\n- 07 Aug: 还在实验室，改论文改到凌晨了。\n- 18 Aug: 准备睡觉，计划明天要改论文introduction。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3881,
+   "out": 24,
+   "usd": 0.00005973884
+  },
+  {
+   "in": 3934,
+   "out": 22,
+   "usd": 0.00006172824
+  },
+  {
+   "in": 4155,
+   "out": 158,
+   "usd": 0.0000567994
+  }
+ ],
+ "memChars": 5158,
+ "promptChars": 9445
+}

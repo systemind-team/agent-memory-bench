@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly states the TS was signed at 7500万 on Sep 10, and that the valuation was later renegotiated to 7200万, which matches the chat history.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "早安 dan the builder. 新的一周，新的月份。周日就先不提工作了。biscuit今天有去 farmers market 吗？",
+  "对了，on-call轮值今天正式开始了——第一周是新的 PagerDuty 密钥 A4B8C2，记得和团队确认一下大家都准备好了。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2990,
+   "out": 74,
+   "usd": 0.00003593912
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10668
+}

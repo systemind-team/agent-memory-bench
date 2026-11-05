@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly states the price as $44/user/month, which matches the required fact from the chat.",
+ "rule": null
+}

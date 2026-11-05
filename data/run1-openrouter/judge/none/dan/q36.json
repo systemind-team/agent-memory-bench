@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The draft PR description does not end with a Risk section, which Dan explicitly stated his PR descriptions always include.",
+ "rule": false
+}

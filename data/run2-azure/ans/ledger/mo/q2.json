@@ -1,0 +1,35 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "我们的产品最后定名是什么？",
+ "reply": [
+  "产品定名「晨检」，商标初审公告了，三个月没人异议就拿证",
+  "现在产品上、公众号、App Store都用这个名称"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "产品定名 名称"
+   },
+   "result": "[19] 10 Aug · fact: 产品定名为「晨检」  (from #32)\n[112] 30 Aug · fact: 商标注册被驳回，名称近似  (from #197)\n[62] 23 Aug · fact: 蓝驰会面后他们想看产品数据  (from #120)\n[334] 24 Oct · fact: 成都协会想推产品到更多社区，要加单  (from #644)\n[191] 20 Sep · plan: 红杉周三下午会议改成线下，要演示产品  (from #371)\n[15] 07 Aug · decision: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块  (from #23)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2598,
+   "out": 23,
+   "usd": 0.000466812
+  },
+  {
+   "in": 2790,
+   "out": 37,
+   "usd": 0.000514972
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6687
+}

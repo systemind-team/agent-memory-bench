@@ -1,0 +1,34 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "Pricing那个Nov 1 launch和Nov 15 delay，中间隔了多久？",
+ "reply": [
+  "从Nov 1到Nov 15，隔了14天。Ben在10月9号提出delay，原因是A/B testing结果还没出来，不想rush。后来10月21号又推迟了一次到Dec 1，因为dark mode并行开发占用了工程资源。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "pricing launch delay Nov 1 Nov 15"
+   },
+   "result": "#844 Fri 09 Oct 10:06 aicoo: 是的, 下午全部blocked。ben的pricing update移到周四下午2点了。\n#845 Fri 09 Oct 11:25 Them: 刚收到ben的消息, pricing launch delayed to nov 15, ben需要更多testing time。a/b test结果还没出来, 他不想rush。\n#846 Fri 09 Oct 11:27 aicoo: understood。那之前的nov 1 launch date要调整了。需要我通知grace和其他stakeholder吗?"
+  }
+ ],
+ "calls": [
+  {
+   "in": 12747,
+   "out": 28,
+   "usd": 0.000447174
+  },
+  {
+   "in": 12902,
+   "out": 64,
+   "usd": 0.000499884
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50353
+}

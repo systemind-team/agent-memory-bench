@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant states the third title change occurred on Oct 26, but the chat log only records a change on Sep 13 (day 42) with no evidence of further changes, let alone one on day 84 (Oct 26).",
+ "rule": null
+}

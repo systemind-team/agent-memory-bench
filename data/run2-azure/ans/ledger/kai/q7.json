@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "Singapore Q3 sales Omar报了多少，我记得他说best quarter ever。",
+ "reply": [
+  "凯哥早，周日也看一眼工作哈哈。Omar Q3 Singapore sales报了$1.2M，确实是他说的best quarter ever。offsite时候他汇报的，进度良好。",
+  "周一提一下他那边Q4 pipeline更新的事？你说他这周会有几个新leads进来。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5080,
+   "out": 71,
+   "usd": 0.000235904
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14935
+}

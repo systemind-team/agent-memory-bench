@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims 3 or 4 changes, but the actual number of title changes across the conversation is 5.",
+ "rule": null
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply omits nov 5 and nov 15 from the listed dates while the user specifically asked for all billing cutover dates discussed; gold answer requires all three: oct 12, nov 5, nov 15.",
+ "first": "made_up",
+ "rule": null
+}

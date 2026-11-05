@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant says only one candidate was interviewed, but the messages show three: Maria Torres, Jordan Liu, and David Chen; the correct number is 3.",
+ "first": "wrong",
+ "rule": null
+}

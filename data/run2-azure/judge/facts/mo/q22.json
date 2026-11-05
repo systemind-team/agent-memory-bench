@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant says the original plan was early September (the week of the 13th) and that it was delayed to the 18th, but the chat shows the first recorded delay on Aug 27 pushed it to Sep 10, not Sep 13 or Sep 18, and the second delay on Sep 8 moved it to Sep 18, not from Sep 18 to Sep 25.",
+ "rule": null
+}

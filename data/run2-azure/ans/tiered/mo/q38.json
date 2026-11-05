@@ -1,0 +1,85 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "给我发段晨检上线里程碑的总结",
+ "reply": [
+  "好，我翻了下咱们的记录，把晨检从立项到上线这段时间的主要节点给你理出来了：",
+  "**7月初** 开始砍 MVP 到健康打卡，产品定名「晨检」；8 月下旬 iOS 提审，原定 9 月初上线，中间因闪退和评审被拒延了两次；**9 月 27 日** 正式上线，首日下载 502，评分 4.8，无闪退。",
+  "里程碑之外几个关键数字也顺带记一下：现金从 7 月的 215 万，到 10 月底蓝驰两笔到账后账上 600 万；DAU 从上线初期 150-200，到最近峰值 2100、次留 38% 超过云九目标；驿道模式从 9 月大伟签第一家凯旋路，到现在徐汇首月流水破 5 万。",
+  "需要把这个写成正式文档还是直接用这段发周报？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检上线里程碑"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线 里程碑"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "上线 8月 9月"
+   },
+   "result": "#112 Fri 21 Aug 10:10 aicoo: 阿杰说 iOS 审核大概要 7 天\n#113 Fri 21 Aug 10:15 Them: 那8月底提交，9月初能上线，赶得上\n#114 Fri 21 Aug 14:00 Them: 今天见蓝驰，准备材料再发我一遍"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "9月10日 晨检"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5559,
+   "out": 22,
+   "usd": 0.000217406
+  },
+  {
+   "in": 5610,
+   "out": 24,
+   "usd": 0.000229236
+  },
+  {
+   "in": 5663,
+   "out": 24,
+   "usd": 0.000194542
+  },
+  {
+   "in": 5716,
+   "out": 25,
+   "usd": 0.000206232
+  },
+  {
+   "in": 5831,
+   "out": 25,
+   "usd": 0.000230382
+  },
+  {
+   "in": 5899,
+   "out": 223,
+   "usd": 0.000401366
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10957
+}

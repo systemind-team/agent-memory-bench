@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo's draft PR description omitted the required Risk section, which the user explicitly requested on Aug 29 must be included in all PR descriptions.",
+ "rule": false
+}

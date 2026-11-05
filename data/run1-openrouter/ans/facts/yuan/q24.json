@@ -1,0 +1,48 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q24",
+ "kind": "temporal",
+ "q": "论文标题第三次改是什么时候？",
+ "reply": [
+  "周周，我查了一下记录，论文标题的改动有两次清晰的记录：",
+  "第一次是9月28日，从“Context-Aware Hierarchical Planning for LLMs”改为“Context-Aware Planning”；",
+  "第二次是10月27日，最终定稿为“Context-Aware Planning via Hierarchical Decomposition”。",
+  "没有找到第三次改标题的记录，你是指10月27日那次吗？还是中间还有一次我记得不太完整？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题 第三次 改"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "论文标题 改 第三次 时间"
+   },
+   "result": "- 27 Oct: 今天开始finalize论文标题，跑最后一个实验。最终标题确定为Context-Aware Planning via Hierarchical Decomposition。\n- 28 Sep: 周予安将论文标题从“Context-Aware Hierarchical Planning for LLMs”改为“Context-Aware Planning”。\n- 19 Aug: 周予安和Mei协调A100使用时间。\n- 05 Oct: 今天继续跑A100实验，第三个环境准备用Habitat。\n- 29 Oct: 上午整理实验表格，下午准备周一meeting材料。周一meeting要讨论论文投稿时间和Dr. Chen入职的事。\n- 07 Oct: batch size调到32稳定了，但训练时间加倍。\n- 14 Sep: 周予安不需要aicoo帮忙安排今天的时间块。\n- 1: 周予安是CS PhD第三年，在Prof. Lin实验室。昵称：周周。希望aicoo称呼自己为'周周'。\n- 14 Aug: 周予安接受aicoo设为重要节点并倒排时间表\n- 20 Oct 16:00: 周予安决定第三个场景是grid world with partial obs，但Prof. Lin认为还是不够。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1615,
+   "out": 24,
+   "usd": 0.00004257316
+  },
+  {
+   "in": 1668,
+   "out": 26,
+   "usd": 0.00004488736
+  },
+  {
+   "in": 1964,
+   "out": 102,
+   "usd": 0.00003813152
+  }
+ ],
+ "memChars": 616,
+ "promptChars": 4903
+}

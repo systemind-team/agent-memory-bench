@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims a specific actual to-date (10月26号) and cash balance (600万), which the chat history does not support, and during grading we treat such details as made up.",
+ "rule": null
+}

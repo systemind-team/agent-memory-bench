@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q22",
+ "kind": "update",
+ "q": "论文标题改过几次？",
+ "reply": [
+  "让我翻一下记录……"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 6853,
+   "out": 12,
+   "usd": 0.000254426
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16033
+}

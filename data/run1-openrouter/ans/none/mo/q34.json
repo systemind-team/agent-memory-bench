@@ -1,0 +1,47 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, what's on my plate today?",
+ "reply": [
+  "早啊！今天周日，按之前说的——你给自己放了周末，周一才正常。所以今天你盘上是空的，除了休息。",
+  "不过如果手痒想翻翻下周的事：大伟的新渠道拓展、成都合作跟进、安卓版11月中上线的准备，这些周一回来我们再一起理。",
+  "今天好好歇着，🏖️ 或者想聊点别的也可以喊我。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "今天 日程 安排 事项"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周一 正常 下周 重点"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1128,
+   "out": 25,
+   "usd": 0.00001456728
+  },
+  {
+   "in": 1182,
+   "out": 25,
+   "usd": 0.00001675968
+  },
+  {
+   "in": 1236,
+   "out": 93,
+   "usd": 0.00002447368
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3647
+}

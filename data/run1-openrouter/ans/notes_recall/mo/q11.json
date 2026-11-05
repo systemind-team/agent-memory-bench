@@ -1,0 +1,22 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我们现在估值跟蓝驰谈的是多少？",
+ "reply": [
+  "7200万，蓝驰独投，已经close了。",
+  "账上现在600万，蓝驰第二笔10月26号到账的。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3076,
+   "out": 40,
+   "usd": 0.00006161456
+  }
+ ],
+ "memChars": 3407,
+ "promptChars": 7380
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant incorrectly identifies the first fellowship as Facebook with a 12/20 deadline, while the chat clearly states the first fellowship deadline is 11月15号 (messages #131 and #133).",
+ "first": "made_up",
+ "rule": null
+}

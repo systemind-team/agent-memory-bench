@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "what's the billing cutover date?",
+ "reply": [
+  "it's marked as Nov 15 now — was moved from an earlier date. 之后还有一次试运行，priya 发了个清单模板，最近要填好"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "billing-migration"
+   },
+   "result": "Billing migration PR\n03 Aug: PR submitted for billing migration; aicoo reviewing\n06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n07 Aug: timeline doc sent to Priya; right before deadline\n24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n11 Aug: Priya covering backend next week\n14 Aug: Maria out; took another offer; Priya gutted; need to restart interviews; 19 Aug: on-call quiet, one disk space alert overnight\n08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushb"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2762,
+   "out": 22,
+   "usd": 0.000225748
+  },
+  {
+   "in": 3600,
+   "out": 42,
+   "usd": 0.000412928
+  }
+ ],
+ "memChars": 5457,
+ "promptChars": 10013
+}

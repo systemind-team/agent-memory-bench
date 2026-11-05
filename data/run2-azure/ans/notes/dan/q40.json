@@ -1,0 +1,59 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "when is tom's PTO?",
+ "reply": [
+  "我翻了一下聊天记录和笔记，没有找到Tom的PTO安排。他上次提过什么具体的休假时间吗？",
+  "还是说你是想在他走之前把stripe refactor合并掉？我可以帮你排一下这个时间线。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom PTO vacation"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Tom PTO leave"
+   },
+   "result": "[billing-migration] 24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n[billing-split] 31 Aug: Lena PTO Oct 5-9 for wedding; on-call needs adjustment\n[asheville-trip] 20 Oct: Asheville trip Oct 22-25; cabin near Blue Ridge; leave Oct 22 morning; Delta flight booked\n[tom-pixel] 27 Oct: Pixel tried to climb Tom's monitor; Tom sent a photo\n[stripe-webhook] 25 Aug: webhook spec merged by Tom; one review comment about error codes (was sent to Tom early)\n[stripe-webhook] 08 Oct: Tom and Dan discussed adding a health check endpoint to the webhook service; Tom will write a PR"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom PTO"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2492,
+   "out": 18,
+   "usd": 0.000120984
+  },
+  {
+   "in": 2539,
+   "out": 18,
+   "usd": 0.000130854
+  },
+  {
+   "in": 2857,
+   "out": 17,
+   "usd": 0.000197074
+  },
+  {
+   "in": 2903,
+   "out": 58,
+   "usd": 0.000229694
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9076
+}

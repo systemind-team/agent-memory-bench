@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q31",
+ "kind": "open_loop",
+ "q": "和Omar的Singapore pipeline review, 我们不是说好Monday看的吗? 后来看了吗?",
+ "reply": [
+  "凯哥，周一那个Singapore pipeline review我记得后来改时间了。我查了一下记录，10月27-28号杭州offsite第二天（10/28）上午你们一起过了Omar的pipeline，当时他说Q4 target 1.2M进度良好。之后就没有单独的Monday review了。你是指这个还是要再看一次？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36326,
+   "out": 78,
+   "usd": 0.001210956
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91627
+}

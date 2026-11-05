@@ -1,0 +1,60 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "那个10月15号确认蓝驰款的事，处理了吗？",
+ "reply": [
+  "The 10/15 reminder to confirm the second Lancome payment was from Sep 29, before the schedule solidified.",
+  "As of Oct 26: both payments have arrived (first 300K, second 300K). Cash balance 600万.",
+  "So nothing to follow up on that one."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "seed-round-due-diligence"
+   },
+   "result": "Seed轮尽调\nTue 08 Sep: 蓝驰尽调清单发过来了，东西挺多；已整理分给各负责人填；团队背景部分需核对阿杰简历更新\nWed 09 Sep: 蓝驰尽调清单已分给各负责人，团队背景阿杰简历已更新并发送；财务数据小雨下午给；蓝驰说尽调大概两周（新增）\nFri 11 Sep: 蓝驰尽调今天开始财务部分，小雨在配合，预计本周完（之前Thu 10 Sep签TS）\nWed 16 Sep: 蓝驰合伙人约下周一（9月21日）下午3点视频聊用户增长模型，大伟数据需打包；蓝驰第二笔未定；9月20日改为线下会议（新增线下）；Tue 22 Sep蓝驰尽调要用户次留数据，目前34%，日活1200（新增）\nMon 26 Oct: 种子轮封闭，估值7200万，蓝驰独投；蓝驰第二笔10月26日到账（was 月底到账）\nSun 18 Oct: 蓝驰法务已审完，第一笔300万到账；第二笔11月中；用户次留37%（was 34%）\nThu 22 Oct: 用户次留38%（was 37%）"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "10月15号 蓝驰 款"
+   },
+   "result": "#471 Tue 29 Sep 15:30 Them: 10月15号提醒我确认蓝驰第二笔款到账\n#472 Tue 29 Sep 15:31 aicoo: 明白，10月15号提醒你确认蓝驰第二笔款\n#473 Tue 29 Sep 17:00 Them: 今天客服投诉量多少\n---\n#470 Tue 29 Sep 09:10 aicoo: 法务在审最终文件，预计这周内签完。第二笔款时间待确认。\n#471 Tue 29 Sep 15:30 Them: 10月15号提醒我确认蓝驰第二笔款到账\n#472 Tue 29 Sep 15:31 aicoo: 明白，10月15号提醒你确认蓝驰第二笔款"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "cash-runway"
+   },
+   "result": "现金余额\nMon 26 Oct: 账上现金600万（蓝驰两笔均已到账，第一笔300万已到，第二笔300万今天到账）；成都下月冲500单，现金流改善；Thu 15 Oct 阿里云成本优化，下月账单预计降到5万（之前7万8）；Sat 10 Oct 晨检上线DAU首日破200\nTue 04 Aug: 注册地址用静安区集中登记地，年费3000\nThu 06 Aug: 办公室定在静安寺附近，月租2万2；后改为2万5（押金已付）\nFri 07 Aug: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块\nWed 12 Aug: 客服外包预算压到每月4万5（小雨在谈，原报价超5万）\nSat 15 Aug: 账上现金208万4千，静安寺办公室押金已付6万6，月租改为2万5（之前2万2）\nMon 17 Aug: 大伟薪资改为1万9，无绩效另算\nSat 19 Sep: 现金流撑不到9月中，蓝驰9月3日当面聊条款的话到账需催；账上现金208万4千；长宁办公室签了两年，月租1万8，免租期一个月，签约8月26日下午3点（之前静安寺月租2万5，押金6万6待退，下周一退）；装修预计周三完工（需加班赶）；MacBook Air省下6千贴到iOS推广；9月16日阿里云账单7万8，服务器成本超支；9月21日阿杰需找到服务器超支原因（新增；moved from Wed 16 Sep，新增押金退还时间）；Mon 21 "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3194,
+   "out": 25,
+   "usd": 0.000318148
+  },
+  {
+   "in": 3509,
+   "out": 27,
+   "usd": 0.000202122
+  },
+  {
+   "in": 3719,
+   "out": 21,
+   "usd": 0.000197038
+  },
+  {
+   "in": 4201,
+   "out": 68,
+   "usd": 0.000553698
+  }
+ ],
+ "memChars": 3626,
+ "promptChars": 7605
+}

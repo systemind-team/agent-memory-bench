@@ -1,0 +1,58 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "Mia的休假是什么时候来着？",
+ "reply": [
+  "Mia 没有单独请过年假或休假记录。她最近一次离开是10月5日至9日的日本采风，已经结束三周了。",
+  "你是记错了还是她私下跟你提过要休假？我这边没看到申请。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mia 休假 年假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mia leave vacation"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mia 日本 采风 5-9"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4033,
+   "out": 36,
+   "usd": 0.0000419398
+  },
+  {
+   "in": 4098,
+   "out": 22,
+   "usd": 0.000043442
+  },
+  {
+   "in": 4149,
+   "out": 29,
+   "usd": 0.000046081
+  },
+  {
+   "in": 4207,
+   "out": 60,
+   "usd": 0.00004263812
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8489
+}

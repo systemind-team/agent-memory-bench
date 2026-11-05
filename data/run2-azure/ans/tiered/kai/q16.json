@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q16",
+ "kind": "update",
+ "q": "Aurora最初名字是Aurora啥，我记得有歧义。",
+ "reply": [
+  "Aurora Health。之前有个阶段讨论过是不是Aurora Healthcare，但最后签的合同和所有物料上都统一用的Aurora Health。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8794,
+   "out": 39,
+   "usd": 0.000310564
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26036
+}

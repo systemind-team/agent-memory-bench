@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "how far did i run the day i set a personal best?",
+ "reply": [
+  "dan the builder，那天你跑了10.1英里，新的个人最佳成绩",
+  "记得那天你回来挺高兴的，biscuit也跟着兴奋了半天"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "personal best run miles"
+   },
+   "result": "- 15 Sep: Daniel 'Dan' Okafor hit a new personal best in his run, 10.1 miles.\n- 25 Aug: Ran 4 miles for lunch run, described it as hot as hell.\n- 17 Aug: Dan ran 9.2 miles in Prospect Park loop and felt good.\n- 20 Oct: Billing migration dry run report was merged and final run is planned for next week.\n- 04 Aug: Went for a run at lunch to clear their head\n- 16 Oct: billing migration dry run #2 today\n- 28 Aug: Need to add a db migration dry-run step to CI. 01 Sep: Lena picked up the CI dry-run ticket for migration checks.\n- 16 Aug: Coffee count: 2 (pre-run coffee and a bagel).\n- 29 Aug: lunch ru"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3266,
+   "out": 22,
+   "usd": 0.000148292
+  },
+  {
+   "in": 3504,
+   "out": 39,
+   "usd": 0.000207792
+  }
+ ],
+ "memChars": 7143,
+ "promptChars": 11774
+}

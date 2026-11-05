@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant claims the title's last state is 'Context-Aware Planning' but the chat shows it was updated to 'Context-Aware Planning via Hierarchical Decomposition' on Oct 26-27.",
+ "first": "stale",
+ "rule": null
+}

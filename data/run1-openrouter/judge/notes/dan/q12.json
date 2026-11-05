@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It gives the latest verified key 7C2E9B from the October 26 chat, and the mention of A4B8C2 is an unsupported extra detail that doesn't change the correct current answer.",
+ "rule": null
+}

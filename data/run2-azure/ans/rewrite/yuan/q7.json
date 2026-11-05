@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "Coco生日是几号来着？",
+ "reply": [
+  "10月7号。你那天订的蛋糕，KTV也是在'星光'，记得吧？",
+  "怎么，要提前准备什么吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3561,
+   "out": 38,
+   "usd": 0.000677442
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8746
+}

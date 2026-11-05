@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "what was the old pagerduty key before the first change?",
+ "reply": [
+  "之前最早的PagerDuty密钥是9A7B2C，后来莉娜改为3F8D1A，最后确定为7C2E9B。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 21329,
+   "out": 42,
+   "usd": 0.000699218
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64127
+}

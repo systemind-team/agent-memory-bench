@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "aicoo, 早，这周怎么安排的?",
+ "reply": [
+  "凯哥早！周一见，这周安排如下：",
+  "周一10:00 pricing review prep；10:30 pricing launch decision meeting（Grace, Ben, 你）；跟Grace确认SEA expansion headcount approval timeline；跟Ravi确认integration final timeline；Emily weekly check-in；联系Lily要Aurora quote、找Omar要Singapore两个大客户quote，完成Q3 customer wins summary的testimonial section。",
+  "周二到周五还有Q4 roadmap execution跟进、dark mode toggle dev进度（Ravi说11月初完成）、pricing A/B final数据确认后12/1 launch准备、Singapore office expansion JD准备。需要我帮你拆到具体每天吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3045,
+   "out": 153,
+   "usd": 0.00004458692
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10806
+}

@@ -1,0 +1,59 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "what's ade's marathon time goal?",
+ "reply": [
+  "i don't have a specific time goal from ade saved. she signed up for the philadelphia marathon on nov 5 and you're pacing her, but i never recorded a target finish time.",
+  "want me to look up anything else about it? or just ask ade later?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Ade marathon Philadelphia time goal"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "marathon November 5 Philadelphia"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Ade marathon"
+   },
+   "result": "#524 Sat 03 Oct 15:01 aicoo: index script done. good progress\n#525 Sat 03 Oct 16:00 Them: ade signed up for philadelphia marathon. nov 5. i'm pacing her\n#526 Sat 03 Oct 16:01 aicoo: pacer duty. big day nov 5\n---\n#456 Sun 27 Sep 14:01 aicoo: classic biscuit. at least it wasn't a sock\n#457 Sun 27 Sep 15:45 Them: ade's running a marathon in philadelphia. nov 5\n#458 Sun 27 Sep 15:46 aicoo: that's big. hope training goes well"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5303,
+   "out": 24,
+   "usd": 0.00021059
+  },
+  {
+   "in": 5356,
+   "out": 24,
+   "usd": 0.00022172
+  },
+  {
+   "in": 5409,
+   "out": 21,
+   "usd": 0.00023117
+  },
+  {
+   "in": 5592,
+   "out": 64,
+   "usd": 0.00029368
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17910
+}

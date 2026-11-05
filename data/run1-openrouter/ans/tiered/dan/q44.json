@@ -1,0 +1,45 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "what's priya's favorite restaurant?",
+ "reply": [
+  "don't have that one in the notes. never came up in chat. want me to ask her next time we talk, or is this for something specific?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya restaurant"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya favorite"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5325,
+   "out": 21,
+   "usd": 0.0000516026
+  },
+  {
+   "in": 5375,
+   "out": 21,
+   "usd": 0.0000536326
+  },
+  {
+   "in": 5425,
+   "out": 38,
+   "usd": 0.000057043
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17913
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It says 晨检 was delayed at least twice (9月初→9月18→9月25), missing the earlier delay from 9月10号 to 9月18号 recorded on Sep 8, so the count and plan dates are incomplete.",
+ "rule": null
+}

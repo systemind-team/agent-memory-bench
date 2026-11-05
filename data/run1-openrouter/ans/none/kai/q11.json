@@ -1,0 +1,22 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我们的pricing现在是多少per user，final decision是啥？",
+ "reply": [
+  "凯哥周日好。你问的是B2B SaaS产品的pricing对吧？之前定的是$12/user/month，但Grace和Ben在launch meeting上要讨论最终定价，周一10:30开。",
+  "manual toggle上周五Yuki已经ship了，所以pricing decision是最后一步。周一跟Grace和Ben确认后就能推出去。",
+  "另外你父亲今天怎么样？周末好好休息，明天再忙。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1415,
+   "out": 99,
+   "usd": 0.0000239134
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4373
+}

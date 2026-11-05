@@ -1,0 +1,46 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "how many coffees did i have that first week?",
+ "reply": [
+  "第一周（8月9日开始那一周）里你好像是喝了3天咖啡："
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "coffee count 22 Oct"
+   },
+   "result": "[asheville-trip] 20 Oct: Asheville trip Oct 22-25; cabin near Blue Ridge; leave Oct 22 morning; Delta flight booked\n[coffee] 09 Aug: lazy morning, coffee and a book\n[coffee] 18 Sep: 2 today (afternoon coffee)\n[checkout-spec] 11 Aug: flaky test fixed by Dan; was a race condition in the billing factory; count down to 2; one more flaky in search owned by Lena; 14 Aug: billing flaky test also fixed, count down to 0\n[stripe-webhook] 22 Oct 15:30 stripe webhook monitor is quiet; no alerts\n[coffee] 20 Sep: 2 today (morning coffee, lazy afternoon)\n[coffee] 23 Oct: 3 today (woke at 5 by Biscuit, tired,"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "coffee"
+   },
+   "result": "Coffee count\n11 Aug: 2 today (first at 6:30, woke at 5 by Biscuit)\n09 Aug: lazy morning, coffee and a book\n12 Aug: 2 today (prepping for interview)\n14 Aug: 2 today (started early on billing refactor)\n16 Aug: 2 today (pre-run coffee and bagel, then 10mi with Ade)\n20 Sep: 2 today (morning coffee, lazy afternoon)\n18 Sep: 2 today (afternoon coffee)\n25 Sep: 2 today (morning and afternoon, trying to stay under 3)\n29 Sep: 2\n30 Sep: 1 today\n02 Oct: 3\n23 Oct: 3 today (woke at 5 by Biscuit, tired, moved from Oct 22)\n09 Oct: 2"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2496,
+   "out": 24,
+   "usd": 0.000445952
+  },
+  {
+   "in": 2800,
+   "out": 20,
+   "usd": 0.000186784
+  },
+  {
+   "in": 3008,
+   "out": 25,
+   "usd": 0.000141616
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9102
+}

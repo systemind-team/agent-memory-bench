@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply uses numbered list points instead of plain text as the user requested on Sep 16.",
+ "rule": true
+}

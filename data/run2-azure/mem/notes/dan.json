@@ -1,0 +1,401 @@
+{
+ "state": {
+  "pending": [
+   {
+    "day": 90,
+    "time": "11:15",
+    "who": "a",
+    "text": "perfect trio. halloween is sorted",
+    "i": 832
+   },
+   {
+    "day": 90,
+    "time": "14:00",
+    "who": "u",
+    "text": "cutover checklist is almost done. just need to add rollback steps",
+    "i": 833
+   },
+   {
+    "day": 90,
+    "time": "14:05",
+    "who": "a",
+    "text": "crucial section. include the dry run results too",
+    "i": 834
+   },
+   {
+    "day": 90,
+    "time": "15:00",
+    "who": "u",
+    "text": "done for the week. heading out for a run with ade and biscuit",
+    "i": 835
+   },
+   {
+    "day": 90,
+    "time": "15:05",
+    "who": "a",
+    "text": "enjoy the run. see you monday",
+    "i": 836
+   }
+  ],
+  "notes": {
+   "about-me": {
+    "title": "About Dan",
+    "hook": "About Dan — Dan, English, casual tone; dog Biscuit; prefers no exclamation marks; desk at WeWork 34th St window; currently speaking Mandarin; costume: Dan is butter for Halloween; Ade is toast; Biscuit gets bacon costume",
+    "lines": [
+     "11 Oct: Dan wants aicoo to reply in Mandarin from now on",
+     "10 Oct: Biscuit learned 'roll over', Ade taught with treats",
+     "12 Oct: Biscuit birthday Feb 14; Ade wants a party",
+     "14 Oct: Ade planning Biscuit's party menu",
+     "16 Oct: Dan asked all code review comments to start with priority level: high, medium, or low",
+     "16 Oct: team agreed on the priority level standard",
+     "26 Oct: laptop battery at 83% (was 82% Oct 25), dropping faster than Dan would like; aicoo keeping an eye on it this week; 27 Oct: battery at 82% (was 83%), aicoo suggested replacement before cutover; 28 Oct: battery at 81% (was 82%), might need to order a new one",
+     "21 Oct: Dan called 'Dan the Builder' by aicoo",
+     "21 Oct: Dan called 'Dan the Builder' by aicoo",
+     "23 Oct: Dan woke at 5am by Biscuit, tired, on cup 3 by 10am (moved to Oct 23)",
+     "27 Oct: Ade wants to do a Halloween thing; Dan and Ade to dress up as a pair",
+     "28 Oct: Ade picked a costume theme for Halloween; won't tell Dan yet, says it's a surprise",
+     "31 Oct: battery at 79%; Dan will order a new one this week"
+    ],
+    "updated": 90
+   },
+   "coffee": {
+    "title": "Coffee count",
+    "hook": "Coffee count — weekly coffee count, latest number, 22 Oct: 3",
+    "lines": [
+     "11 Aug: 2 today (first at 6:30, woke at 5 by Biscuit)",
+     "09 Aug: lazy morning, coffee and a book",
+     "12 Aug: 2 today (prepping for interview)",
+     "14 Aug: 2 today (started early on billing refactor)",
+     "16 Aug: 2 today (pre-run coffee and bagel, then 10mi with Ade)",
+     "20 Sep: 2 today (morning coffee, lazy afternoon)",
+     "18 Sep: 2 today (afternoon coffee)",
+     "25 Sep: 2 today (morning and afternoon, trying to stay under 3)",
+     "29 Sep: 2",
+     "30 Sep: 1 today",
+     "02 Oct: 3",
+     "23 Oct: 3 today (woke at 5 by Biscuit, tired, moved from Oct 22)",
+     "09 Oct: 2"
+    ],
+    "updated": 83
+   },
+   "stripe-webhook": {
+    "title": "Stripe webhook retry logic",
+    "hook": "Stripe webhook retry logic — stripe webhook, retry logic, idempotency docs, Tom's frontend fix, tests pass; flaky test root cause found; Tom's frontend refactor broke webhooks Oct 17; fix deployed to staging and back to normal Oct 18 (took 2 days); v2 spec reviewed Oct 27, Tom addressed comments; Tom's stripe refactor v2 in review Oct 31",
+    "lines": [
+     "03 Aug: retry was failing due to idempotency; fixed after reading Stripe docs",
+     "04 Aug: Tom asking about stability; retry fix covers main failure case",
+     "12 Aug: stripe webhook idempotency test passes; coverage back up",
+     "10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved",
+     "14 Aug: Tom pushed a fix for the webhook frontend; Dan's tests pass now",
+     "15 Aug: on-call handoff notes ready; Lena takes over tomorrow",
+     "18 Aug: webhook test flaked again overnight; fixed by bumping jest timeout (was timeout on stripe mock)",
+     "19 Aug: working on stripe webhook error handling",
+     "20 Aug: webhook spec draft shared with Tom (sent to shared doc)",
+     "20 Aug: webhook spec draft shared with Tom (sent to shared doc)",
+     "24 Aug: stripe webhook tests passing; 3 more left (was on-call handoff done)",
+     "25 Aug: webhook spec merged by Tom; one review comment about error codes (was sent to Tom early)",
+     "25 Aug: pager duty rotation for Sep up, Dan week 2 (Sep 7-13)",
+     "27 Aug: stripe signature verification test passing (was failing)",
+     "31 Aug: PR for webhook idempotency keys up; Tom reviewing\n01 Sep: stripe webhook spec final review done; merging this afternoon",
+     "02 Sep: Tom found a bug in the webhook retry logic; fixing now",
+     "03 Sep: flaky test in CI: test_billing_webhook fails 20% of the time; root cause found (shared state between test cases); fixing with a fresh mock per test",
+     "03 Sep: standup notes: 09:30 fixed flaky webhook test (shared state); 10:15 reviewed Tom's PR on retry logic; 10:45 updated onboarding doc for Sam; 11:00 prep for Priya sync",
+     "04 Sep: Priya sync went well; she's happy with webhook progress",
+     "07 Sep: stripe webhook tests green after flaky test fix (shared state)",
+     "18 Sep: stripe webhook retry logic PR merged (was 13 Sep); next up: idempotency keys",
+     "24 Sep: PagerDuty key changed to 7C2E9B (was 3F8D1A)",
+     "21 Sep: stripe webhook tests still green",
+     "02 Oct: Tom PR'd stripe service code; needs review (was webhooks moved to own service)",
+     "03 Oct: stripe service live; Tom's PR merged (was reviewed)",
+     "17 Oct: Tom's frontend refactor broke webhooks again (payload format changed without handler update); Dan will help debug after standup; issue found, payload key renamed",
+     "08 Oct: Tom and Dan discussed adding a health check endpoint to the webhook service; Tom will write a PR",
+     "09 Oct: Tom's health check PR is up; Dan reviewed, left two comments on error handling, Tom to push fixes Monday",
+     "12 Oct: found missing idempotency key check; PR up for fix",
+     "14 Oct: webhook logs checked after lunch, logs look fine as of 14:00",
+     "16 Oct: on-call handoff notes ready for Lena",
+     "17 Oct: Tom's frontend refactor broke webhooks again (payload format changed without handler update); Dan will help debug after standup; issue found, payload key renamed",
+     "17 Oct: 13:00 Tom is working on the fix now; Dan asked if he can commit to finishing today — Tom said yes",
+     "17 Oct: 16:00 Tom said he needs another day — Dan said tomorrow should be fine (promise: Tom would finish today; status: not kept)",
+     "18 Oct: 09:00 webhooks still down, Tom is on it",
+     "18 Oct: 09:05 aicoo said 今天必须完成 (today must be done)",
+     "18 Oct: 10:30 Tom found another edge case",
+     "18 Oct: 10:35 aicoo said 越来越多问题, 但他在解决 (more and more issues, but he's fixing them)",
+     "18 Oct: 14:00 Tom says fix is ready for review",
+     "18 Oct: 14:05 aicoo said 我看看 (let me take a look)",
+     "18 Oct: 15:00 review done, looks good, merging",
+     "18 Oct 16:00 deployed to staging, tests passing",
+     "22 Oct 15:30 stripe webhook monitor is quiet; no alerts",
+     "26 Oct: Sam asked about stripe webhook retry logic; Dan sent him the doc",
+     "27 Oct: stripe webhook v2 spec reviewed; Tom addressed Dan's comments, ready to merge",
+     "31 Oct: Tom's stripe refactor v2 is in review; edge cases look covered"
+    ],
+    "updated": 90
+   },
+   "billing-migration": {
+    "title": "Billing migration PR",
+    "hook": "billing migration PR, timeline doc, Priya, cutover plan, Maria left, need to restart interviews; dry run passed clean; prod dry run looked good Oct 12; Priya back Oct 13; aicoo said cutover Nov 15; dry run #2 passed Oct 16; dry run results PR up Oct 19, Sam's review pending; database migration next Wednesday Oct 28 2am EST; rollback plan written and shared; Priya approved plan and wants dry run Monday Oct 26 night",
+    "lines": [
+     "03 Aug: PR submitted for billing migration; aicoo reviewing",
+     "06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update",
+     "07 Aug: timeline doc sent to Priya; right before deadline",
+     "24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)",
+     "11 Aug: Priya covering backend next week",
+     "14 Aug: Maria out; took another offer; Priya gutted; need to restart interviews; 19 Aug: on-call quiet, one disk space alert overnight",
+     "08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushback; later moved to Oct 12 per Priya (was 28 Aug: migration incident on Tuesday; dropped column `billing_status` instead of renaming; rolled back; Lena caught before prod sync; post-mortem done, root cause: wrong migration file ran)",
+     "29 Aug: ticket filed for adding db migration dry-run step to CI; Priya will see Monday\n01 Sep: Lena picked up the CI dry-run ticket for migration checks",
+     "29 Aug: billing PR merged; webhooks in staging",
+     "30 Aug: Tom working on GraphQL billing schema; Dan to review next week",
+     "02 Sep: Q3 budget meeting at 1:30pm; marketing got $50k, we got $12k for tools; no Sentry upgrade, enough for Datadog and a couple of licenses",
+     "16 Sep: Priya unblocked index question; renaming instead of adding (was blocked)",
+     "17 Sep: sprint planning committed to 21 points (3 more than usual)",
+     "22 Sep: Priya wants a dry run of the migration this Friday (was timeline still Oct 12)",
+     "25 Sep: dry run passed, clean migration",
+     "25 Sep: dry run passed, clean migration",
+     "28 Sep: dry run tomorrow, Priya wants a walkthrough",
+     "04 Oct: prod dry run scheduled for Friday (was cutover locked Oct 26)\n05 Oct: Priya asked for dry run results from last week; passed clean with zero schema drift",
+     "03 Oct: index migration script written",
+     "06 Oct: billing migration tickets look green; added weekly cron for CI dry run every Monday 09:00 (was scheduled Friday)",
+     "08 Oct: Sam asked about migration index strategy; Dan paired with him, he gets composite index logic now",
+     "08 Oct: quiet on-call day, no alerts",
+     "09 Oct: Priya asked about cutover checklist; Dan will update it this morning",
+     "09 Oct: checklist updated with webhook service url swap row; aicoo set reminder for Oct 25",
+     "12 Oct: prod dry run looks good (was scheduled for Friday Oct 4 per earlier note)",
+     "15 Oct: Priya asked about cutover timeline again; aicoo said Nov 15",
+     "16 Oct: dry run #2 passed, no issues",
+     "19 Oct: PR for billing migration dry run results is up; Sam's review came in, comments on index naming; Dan pushed fixes, CI green",
+     "25 Oct: database migration next Wednesday Oct 28 at 2am EST; Dan on call; rollback plan written and shared with Priya and Sam; Priya approved plan and wants a dry run Monday Oct 26 night (moved from Oct 12 cutover); Sam asked about migration steps Oct 25, Dan sent him the runbook; 28 Oct: migration completed; Priya asked about results, Dan said clean",
+     "26 Oct: Priya wants cutover checklist ready by Friday (moved from previous generic checklist); 28 Oct: database migration Wednesday Oct 28 2am EST completed; dry run clean per Priya check",
+     "30 Oct: Priya sent cutover checklist template, looks thorough; aicoo said fill it in over next few days, dry run again next week"
+    ],
+    "updated": 89
+   },
+   "checkout-spec": {
+    "title": "Checkout spec flaky test",
+    "hook": "Checkout_spec flaky test — flaky test, skip, billing flaky test too, root cause investigation, fixed, count down to 0, retry logic fix attempted, still 20% failure, no new flaky tests this week (as of Sep 29); Lena's PagerDuty key 5B1C6D before Oct 14",
+    "lines": [
+     "04 Aug: flaky test on checkout_spec; skipped for now; need to investigate root cause later",
+     "07 Aug: flaky test happened again; filing a ticket",
+     "11 Aug: flaky test fixed by Dan; was a race condition in the billing factory; count down to 2; one more flaky in search owned by Lena; 14 Aug: billing flaky test also fixed, count down to 0",
+     "26 Aug: flaky test in CI again — `test_billing_cycle` fails randomly; likely race condition",
+     "28 Sep: flaky test fix still failing; tried exponential backoff on the webhook",
+     "04 Oct: flaky test gone. clean CI (was passed with mock on Oct 2)",
+     "30 Sep: flaky test fix still failing; might need to mock the webhook endpoint",
+     "14 Oct: Lena's PagerDuty key was 5B1C6D before last change",
+     "15 Oct: flaky test test_billing_webhook now 0% failure (was 20% failure)"
+    ],
+    "updated": 74
+   },
+   "running": {
+    "title": "Running log",
+    "hook": "daily runs, distance, keeping it easy; Biscuit pacer; Sep 15 personal best 10.1 miles; Sep 22 8.7 miles moved to Oct 6; Ade and Dan run together Oct 23; rain cancels Oct 24",
+    "lines": [
+     "06 Aug: ran 5k, keeping it easy",
+     "09 Aug: maybe a short run later, nothing heavy",
+     "17 Aug: weekend run: prospect park loop, 9.2 miles, felt good (was 10mi with Ade)",
+     "22 Aug: lunch run, 3 miles, too hot",
+     "23 Aug: weekend plans: prospect park again, maybe 10 miles",
+     "07 Sep: weekend run planned: 12 miles Saturday (moved from 06 Sep)",
+     "30 Aug: lunch run 5k, Biscuit joined for first mile",
+     "04 Sep: Biscuit ran 4 miles with Dan; Biscuit out cold now",
+     "15 Sep: personal best 10.1 miles (was 7 miles on Sep 10)",
+     "",
+     "03 Oct: Ade signed up for Philadelphia marathon Nov 5; Dan pacing her (was running a marathon)",
+     "01 Oct: saturday 8 miles with Biscuit; legs feel good",
+     "01 Oct: saturday 8 miles with Biscuit; legs feel good",
+     "06 Oct: short run planned after work",
+     "",
+     "13 Sep: running log started",
+     "15 Sep: personal best 10.1 miles on trail",
+     "18 Sep: 6 miles earlier then 9 miles with Ade and Biscuit; Biscuit pacer",
+     "20 Sep: rest day",
+     "21 Sep: 15 miles",
+     "25 Sep: 5 miles easy, Biscuit pacer",
+     "30 Sep: 12 miles with Ade and Biscuit",
+     "06 Oct: 8.7 miles in Williamsburg, slower than usual; legs felt heavy (blamed pasta)",
+     "08 Oct: Ade sent a photo of Biscuit with new bright orange leash",
+     "10 Oct: easy 5k with Biscuit",
+     "15 Oct: lunch run with Biscuit, nice weather",
+     "20 Oct: going for a run before dark",
+     "23 Oct: ran with Ade after work (Oct 23)",
+     "24 Oct: rainy, no run"
+    ],
+    "updated": 83
+   },
+   "billing-split": {
+    "title": "Billing split PR",
+    "hook": "Billing split PR — billing split, Lena reviewing, cutover moved to Oct 12 (was Nov 15); legal signed off, Priya relieved",
+    "lines": [
+     "17 Aug: billing PR up; Tom's reviewing (was Lena)",
+     "18 Sep: cutover moved to Oct 12 (was Nov 15)",
+     "",
+     "19 Oct: Priya confirmed billing cutover still Oct 12 (was Oct 26)",
+     "31 Aug: Lena PTO Oct 5-9 for wedding; on-call needs adjustment",
+     "05 Sep: dep updates breaking billing module; pinning versions for now",
+     "cutover possibly moving again, waiting on legal (Priya mentioned)",
+     "18 Sep: legal signed off; Priya relieved",
+     "20 Sep: Priya asked for migration timeline status; Oct 12 still holds (moved to Oct 12, was Nov 15)",
+     "05 Oct: Tom's PR to split out webhook service in review; no test failures on the branch"
+    ],
+    "updated": 79
+   },
+   "candidate-jordan-liu": {
+    "title": "Jordan Liu candidate",
+    "hook": "Jordan Liu — data eng from Spotify, take-home good",
+    "lines": [
+     "21 Aug: new candidate: Jordan Liu, data eng at Spotify, good take-home; Lena might like experience",
+     "23 Aug: feedback mixed, Lena thought weak on schema design, moving on",
+     "29 Aug: Jordan Liu, data eng from Spotify, take-home good",
+     "28 Sep: Jordan Liu interviewed"
+    ],
+    "updated": 57
+   },
+   "candidate-sam": {
+    "title": "Sam Ortiz start date",
+    "hook": "Sam Ortiz start date — Sam Ortiz, first solo deploy Oct 23, success",
+    "lines": [
+     "27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)",
+     "27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs",
+     "01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)",
+     "08 Sep: Sam started Sep 14 confirmed; set up laptop on 4th floor IT desk; lunch with Dan and Priya (was 03 Sep: Sam emailed saying excited to start; Dan sent him the onboarding doc); Sam Ortiz onboarding starts with David Chen",
+     "11 Sep: IT desk confirmed; Sam starts day after Labor Day; office ready; desk and laptop set up (moved to Sep 11, was Sep 8)",
+     "14 Sep: Sam's first day went fine; set up his dev env this morning",
+     "15 Sep: Sam shadowed Dan on a bug fix; good instincts",
+     "16 Sep: Sam asked about billing_status rollback; Dan showed him the script",
+     "17 Sep: Sam took 2-point ticket on logging config",
+     "19 Sep: Sam asked about escalation paths; Dan said will cover soon",
+     "20 Sep: Dan sent Sam the on-call docs link",
+     "21 Sep: docs updated for Sam (was pending)",
+     "29 Sep: Sam asked about on-call docs again; Dan sent link (was 25 Sep: deploy process)",
+     "06 Oct: Sam asked for PagerDuty escalation tour; Dan walked him through Lena's doc",
+     "08 Oct: Sam asked about old on-call key 9A7B2C; told it was revoked after Sep 15 incident",
+     "09 Oct: Sam and Dan debugged CI cache issue; fixed in five minutes at lunch",
+     "13 Oct: Sam asked about on-call runbook; Dan pointed him to escalation section",
+     "15 Oct: Dan code reviewed Sam's PR, looks clean; Sam is learning fast (aicoo comment)",
+     "23 Oct: Sam's first solo deploy today, nailed it; 29 Oct: Sam showed Dan his dbt models, clean code",
+     "29 Oct: Sam moved desk to between Dan and Lena, asked to overhear discussions"
+    ],
+    "updated": 88
+   },
+   "candidate-david-chen": {
+    "title": "David Chen candidate",
+    "hook": "David Chen candidate — David Chen, first PR reviewed by Tom Oct 23, solid first PR; first merge Oct 25; second PR merged Oct 28 (billing migration helper)",
+    "lines": [
+     "21 Oct: David Chen joined officially; team now 5",
+     "21 Oct: sitting at desk 12; Sam showing him around",
+     "21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint",
+     "21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint",
+     "21 Oct: Priya approved rotation, starts Nov 1",
+     "23 Oct: David had first code review by Tom; solid first PR with some feedback",
+     "25 Oct: David merged his first PR, a small bug fix in the billing service",
+     "28 Oct: David merged his second PR, a billing migration helper"
+    ],
+    "updated": 87
+   },
+   "office-dogs": {
+    "title": "Office dogs",
+    "hook": "Tom's dog Waffles, Biscuit meetup Sep 17, getting along",
+    "lines": [
+     "17 Sep: Tom brought Waffles to office; Biscuit joined later; they got along, sniffing each other's butts; Biscuit tired, Dan went home early"
+    ],
+    "updated": 46
+   },
+   "candidate-jade": {
+    "title": "Jade design intern",
+    "hook": "Jade — design intern, starts Oct 1, asked about indexing patterns on billing tables",
+    "lines": [
+     "29 Sep: Jade design intern starts Oct 1",
+     "01 Oct: starts today",
+     "05 Oct: asked Dan about indexing patterns on billing tables; sent wiki page on composite indexes"
+    ],
+    "updated": 65
+   },
+   "office-move": {
+    "title": "Office move to WeWork 34th",
+    "hook": "Office move to WeWork 34th St — desk 17 by window, Tom nearby, VPN fine",
+    "lines": [
+     "07 Oct: office moved to WeWork on 34th St; desk 17 by the window; Tom is three desks over",
+     "07 Oct: WeWork WiFi fine, VPN connected without issues",
+     "08 Oct: laptop stuck at 85% battery, not complaining"
+    ],
+    "updated": 68
+   },
+   "asheville-trip": {
+    "title": "Asheville trip",
+    "hook": "Asheville trip Oct 22-25, cabin near Blue Ridge — 秋天去蓝岭, 完美时机",
+    "lines": [
+     "20 Oct: Asheville trip Oct 22-25; cabin near Blue Ridge; leave Oct 22 morning; Delta flight booked"
+    ],
+    "updated": 79
+   },
+   "biscuit": {
+    "title": "Biscuit health",
+    "hook": "Biscuit — vet visit, weight 42 lbs Oct 13, healthy; Ade planning party menu Oct 14",
+    "lines": [
+     "13 Oct: vet visit; Biscuit weighs 42 lbs, healthy boy, got a treat",
+     "14 Oct: Ade planning party menu for Biscuit's birthday Feb 14",
+     "16 Oct: Ade making a dog-friendly cake for Biscuit's party",
+     "27 Oct: Biscuit will have a puppy cousin (Ade's sister's labrador)"
+    ],
+    "updated": 86
+   },
+   "pagerduty-key": {
+    "title": "PagerDuty key",
+    "hook": "PagerDuty key — current PagerDuty key",
+    "lines": [
+     "20 Oct: new PagerDuty key A4B8C2 for next on-call; saved",
+     "26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am"
+    ],
+    "updated": 85
+   },
+   "tom-pixel": {
+    "title": "Tom's cat Pixel",
+    "hook": "Tom adopted a stray cat named Pixel; Waffles might have a new friend",
+    "lines": [
+     "20 Oct: Tom adopted a stray cat named Pixel",
+     "27 Oct: Pixel tried to climb Tom's monitor; Tom sent a photo"
+    ],
+    "updated": 86
+   },
+   "sprint-23oct": {
+    "title": "Sprint planning Oct 23",
+    "hook": "Sprint planning Oct 23 — 23 points committed",
+    "lines": [
+     "23 Oct: sprint planning, 23 points committed",
+     "23 points committed; ambitious but doable (Oct 23)"
+    ],
+    "updated": 83
+   },
+   "ade-sister-baby": {
+    "title": "Ade's sister baby",
+    "hook": "Ade's sister expecting baby March, wants a labrador",
+    "lines": [
+     "27 Oct: Ade's sister due March; wants a labrador puppy"
+    ],
+    "updated": 86
+   },
+   "ade-foster-dog": {
+    "title": "Ade fostering a dog",
+    "hook": "Ade wants to foster another dog, Dan not ready Oct 28",
+    "lines": [
+     "28 Oct: Ade wants to foster another dog; Dan not ready, Biscuit is enough",
+     "31 Oct: Ade revealed the Halloween costume — Dan is butter, Ade is toast, Biscuit gets a bacon costume",
+     "31 Oct: Ade is toast, Dan is butter, Biscuit gets bacon costume"
+    ],
+    "updated": 90
+   },
+   "pumpkin-carving": {
+    "title": "Pumpkin carving with Ade",
+    "hook": "Pumpkin carving with Ade — pumpkin, farmers market, Biscuit tried to eat seeds",
+    "lines": [
+     "30 Oct: Ade bought a pumpkin at farmers market, carved it tonight; Biscuit tried to eat the seeds"
+    ],
+    "updated": 89
+   }
+  },
+  "lastAt": 130270,
+  "writes": 104
+ },
+ "lastDay": 90,
+ "done": true,
+ "minutes": 5.7126
+}

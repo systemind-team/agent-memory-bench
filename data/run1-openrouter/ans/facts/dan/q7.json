@@ -1,0 +1,46 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "what dates are the asheville trip?",
+ "reply": [
+  "the Asheville trip is booked from Oct 22 to 25 — cabin near Blue Ridge, leaving the morning of the 22nd",
+  "[sticker: wave]"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville trip dates"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Asheville trip October dates cabin"
+   },
+   "result": "- 26 Sep: Ade is planning a trip to Asheville for us in October.\n- 13 Oct: Asheville trip booked from Oct 22 to 25, cabin near Blue Ridge.\n- 01 Oct: Ade is looking at Asheville hikes for October 22-25. Ade is booking the Asheville cabin and departure is confirmed for Oct 22 morning.\n- 29 Aug: Promised Ade to book Asheville flights tonight.\n- 29 Sep: A new design intern named Jade starts on October 1st.\n- 10 Sep: Daniel's dog ate an expensive sock and needed induced vomiting; emergency vet trip."
+  }
+ ],
+ "calls": [
+  {
+   "in": 1532,
+   "out": 30,
+   "usd": 0.00003969056
+  },
+  {
+   "in": 1591,
+   "out": 32,
+   "usd": 0.00004224836
+  },
+  {
+   "in": 1765,
+   "out": 41,
+   "usd": 0.00005004356
+  }
+ ],
+ "memChars": 1169,
+ "promptChars": 5669
+}

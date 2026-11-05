@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The reply claims the initial launch date was Oct 15, but the messages show the first confirmed launch date was Nov 1, and the postponements were Nov 1 to Nov 15, then Nov 15 to Dec 1.",
+ "first": "wrong",
+ "rule": null
+}

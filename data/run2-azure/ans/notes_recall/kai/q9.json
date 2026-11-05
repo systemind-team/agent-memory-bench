@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "那个PM candidate我们最后hire了谁，名字和start date是啥？",
+ "reply": [
+  "最后hire的是Emily Tan，start date Oct 26，就是这个周一她已经开始onboarding了。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13376,
+   "out": 27,
+   "usd": 0.000670352
+  }
+ ],
+ "memChars": 48121,
+ "promptChars": 52849
+}

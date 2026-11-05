@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "User asks for the initial pricing and Ben's first proposal, which was 39 per user per month (v2), but the assistant incorrectly treats 49 (v3) as the earliest proposal.",
+ "rule": null
+}

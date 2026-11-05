@@ -1,0 +1,47 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "Mei的paper被哪个会接收了？",
+ "reply": [
+  "你记的Mei的论文是NeurIPS rebuttal过了，04 Sep确认她rebuttal通过了，恭喜她。没有记录具体的会议接收——应该是NeurIPS 2025？如果她没再更新，可以问一下确认。",
+  "[sticker: cheer]"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mei 论文 接收"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Mei 接收"
+   },
+   "result": "[项目] 27 Aug: 下午帮Mei看了NeurIPS rebuttal并给comments（之前26 Aug需在周三周四抽空帮Mei看）\n[人物] 04 Sep: Mei说NeurIPS rebuttal过了，恭喜她\n[人物] 22 Aug: 无attention层掉点，验证Mei建议的ablation study必要性；Mei说下周开始跑实验，用A100 GPU（目前4块空闲）\n[个人] 19 Aug: Mei问share A100使用时间，已同意\n[实验室] 04 Aug: Mei说她在做新的实验设计\n[人物] 10 Aug: Mei的experiment setup有数据预处理bug\n[人物] 14 Aug: Mei的paper被workshop接受了（之前06 Aug被拒）\n[人物] 19 Aug: Mei问要不要share A100使用时间，我说好\n[人物] 04 Aug: 中午与Mei吃饭，她说在做新的实验设计\n[人物] 21 Aug: 早上收到Mei的反馈，说表格很好，建议加ablation study"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3709,
+   "out": 24,
+   "usd": 0.000150794
+  },
+  {
+   "in": 3762,
+   "out": 22,
+   "usd": 0.000160804
+  },
+  {
+   "in": 4027,
+   "out": 66,
+   "usd": 0.000241094
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9615
+}

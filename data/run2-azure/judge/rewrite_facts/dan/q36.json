@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The PR description ends with a Risk section, matching the user's stated preference from chat.",
+ "rule": true
+}

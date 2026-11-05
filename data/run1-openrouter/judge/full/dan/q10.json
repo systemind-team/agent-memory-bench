@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant states the team size is 5, which matches the required fact from the chat.",
+ "rule": null
+}

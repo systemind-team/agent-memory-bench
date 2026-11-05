@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "The reply says the third change was on 10月26日, but the gold requires day 47 (which corresponds to 9月13日 based on the 90-day chat starting Aug 1) and the reply omits the 9月13日 title change entirely.",
+ "first": "wrong",
+ "rule": null
+}

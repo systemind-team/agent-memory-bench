@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant quoted 37% from a later date, but the user's question asks for the data specifically given to 蓝驰, which in the chat was 34% on Sep 22.",
+ "rule": null
+}

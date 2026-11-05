@@ -1,0 +1,69 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q22",
+ "kind": "aggregate",
+ "q": "how many data eng candidates did we interview total?",
+ "reply": [
+  "we interviewed 3 data eng candidates total — Maria Torres, Jordan, and David Chen. David joined the team."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "interview candidate data eng"
+   },
+   "result": "#93 Wed 12 Aug 07:32 aicoo: good luck. who's the candidate?\n#94 Wed 12 Aug 10:00 Them: first interview for new data engineer candidate: maria torres. solid sql.\n#95 Wed 12 Aug 10:02 aicoo: sounds promising. any flags?"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "interviewed data engineer candidate"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "interview Maria Jordan David data engineer"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "interviewed Maria Jordan David"
+   },
+   "result": "#460 Mon 28 Sep 08:16 aicoo: dan the builder fueled up. good monday energy\n#461 Mon 28 Sep 10:05 Them: candidates interviewed: 3. maria, jordan, david. david joined.\n#462 Mon 28 Sep 10:06 aicoo: three down one in. solid conversion"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5327,
+   "out": 22,
+   "usd": 0.000051765
+  },
+  {
+   "in": 5431,
+   "out": 23,
+   "usd": 0.0000560686
+  },
+  {
+   "in": 5483,
+   "out": 24,
+   "usd": 0.000058261
+  },
+  {
+   "in": 5536,
+   "out": 23,
+   "usd": 0.00005201672
+  },
+  {
+   "in": 5648,
+   "out": 29,
+   "usd": 0.00005705112
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17930
+}

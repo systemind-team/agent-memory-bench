@@ -1,0 +1,21 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q16",
+ "kind": "update",
+ "q": "Aurora最初名字是Aurora啥，我记得有歧义。",
+ "reply": [
+  "Aurora Health，全称是Aurora Health Solutions。合同和deck里都是这么写的。",
+  "怎么了凯哥，周日突然想到这个？有事要调整吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1745,
+   "out": 45,
+   "usd": 0.00004955636
+  }
+ ],
+ "memChars": 786,
+ "promptChars": 5441
+}

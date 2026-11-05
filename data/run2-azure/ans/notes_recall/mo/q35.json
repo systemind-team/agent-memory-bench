@@ -1,0 +1,49 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "嗨，今天有什么消息？",
+ "reply": [
+  "备忘录：今天是你之前说的季度复盘日",
+  "本周完成：崇明offsite顺利收尾，蓝驰第二笔300万已到，账上现金600万",
+  "风险项：安卓版还在测试中，11月中旬上线窗口比较紧；客服外包刚签，还需要盯一下质量",
+  "今天要不要趁周日把季度复盘列一下框架，明天跟大家对齐？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "今天 有什么 消息 周日 1 Nov"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "11月1日 季度复盘 提醒"
+   },
+   "result": "[about-me] Sun 18 Oct: 提醒11月1日做季度复盘（新增）\n[dawei-salary] Sun 11 Oct: 大伟第一个季度绩效A，奖金1万2（新增）\n[redshirt-meeting] Fri 11 Sep: 红杉VP直接联系，约10月8日开会；需提醒\n[ajie-salary] Tue 04 Aug: 阿杰薪资谈到税前4万，期权等seed轮定了再说\nSat 08 Aug: 下周三（8月12日）需提醒发薪资确认邮件给阿杰（新增承诺）\n[ajie-macbook] Tue 11 Aug: 阿杰MacBook Pro取消（预算改为1万5，后取消）\n[ajie-macbook] Tue 11 Aug: 阿杰MacBook Pro取消（预算改为1万5，后取消）\n[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[dawei-salary] Fri 04 Sep: 大伟薪资最后谈到1万85，9月1号起算；9月2日到岗，会议室已布置好；合同和电脑已好；入职资料、合同和绩效方案已发，周三（26 Aug）催回传，身份证已收到，合同和绩效回执未到；入职介绍邮件已发（承诺，已兑现）；培训日程和团队wiki链接已发他邮箱；入职手续全部办妥，提醒已取消；9月4日大伟在梳理渠道，明天出方案\n["
+  }
+ ],
+ "calls": [
+  {
+   "in": 2941,
+   "out": 24,
+   "usd": 0.000264458
+  },
+  {
+   "in": 2994,
+   "out": 23,
+   "usd": 0.000275028
+  },
+  {
+   "in": 3445,
+   "out": 87,
+   "usd": 0.000405578
+  }
+ ],
+ "memChars": 3291,
+ "promptChars": 7259
+}

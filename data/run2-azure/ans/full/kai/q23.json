@@ -1,0 +1,39 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "PM candidate我们interview了几个人，分别是谁，最后hire了谁？",
+ "reply": [
+  "我们总共面试了4个PM候选人。先后是：",
+  "1. **Jason Chen** – 8年经验，面试表现不错，reference check positive，但后来觉得execution细节问得不够深",
+  "2. **Emily Tan** – 6年B2B经验，面试时很细致，你更倾向她，最后她接受了offer，10月26日正式入职",
+  "3. **Michael Liu** – 10年经验，ex-Microsoft，你发了offer但没后续说他接没接",
+  "4. **Sarah Wu** – 最后一次只是casual chat，因为Emily已经定了，但你觉得她背景不错留下了pipeline",
+  "最后hire的是Emily Tan，10月26日start，现在已经在onboard了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "PM candidate interview hire"
+   },
+   "result": "#373 Tue 01 Sep 14:05 aicoo: Good progress. Yuki's onboarding redesign still holding 23% lift.\n#374 Tue 01 Sep 16:05 Them: New hire for PM role, first candidate Jason Chen interviewed, 8 years exp. Moving to next round.\n#375 Tue 01 Sep 17:00 Them: long day. Need to prep Q3 budget breakdown for Grace.\n---\n#365 Tue 01 Sep 08:02 aicoo: Yes, 2pm. Reminder set.\n#366 Tue 01 Sep 09:00 Them: New hire for PM role, first candidate Jason Chen interviewed, 8 years exp.\n#367 Tue 01 Sep 09:05 aicoo: Sounds promising. How was the interview?"
+  }
+ ],
+ "calls": [
+  {
+   "in": 36320,
+   "out": 22,
+   "usd": 0.001178336
+  },
+  {
+   "in": 36518,
+   "out": 165,
+   "usd": 0.001299996
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91613
+}

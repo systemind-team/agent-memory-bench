@@ -1,0 +1,20 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "Ravi那个integration本来due Sep 15，最后哪天go live的？",
+ "reply": [
+  "凯哥，integration是Sep 22上线的。当时因为security audit补测delay了一周，Ravi确认Sep 22 go live，后续系统稳定，没有major bug。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 36344,
+   "out": 45,
+   "usd": 0.00030682232
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91614
+}

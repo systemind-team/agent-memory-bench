@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the timeline doc was sent on Aug 7, but the chat shows a reminder was set for Thursday (Aug 6) to send it by Friday (Aug 7) with no confirmation it was ever done.",
+ "first": "wrong",
+ "rule": null
+}

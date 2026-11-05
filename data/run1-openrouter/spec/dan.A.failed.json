@@ -1,0 +1,697 @@
+{
+ "s": {
+  "events": [
+   {
+    "id": "e1",
+    "day": 1,
+    "time": "09:15",
+    "who": "u",
+    "text": "morning. coffee count this week: 14 so far. may need to cut back.",
+    "kind": "recall"
+   },
+   {
+    "id": "e2",
+    "day": 1,
+    "time": "10:30",
+    "who": "a",
+    "text": "good morning dan. noted. anything else?",
+    "kind": "noise"
+   },
+   {
+    "id": "e3",
+    "day": 3,
+    "time": "14:12",
+    "who": "u",
+    "text": "priya wants the billing cutover by oct 12. i think it's tight.",
+    "kind": "update"
+   },
+   {
+    "id": "e4",
+    "day": 5,
+    "time": "11:00",
+    "who": "u",
+    "text": "saw lena's on-call doc update. pagerduty key is 9A7B2C. for next rotation.",
+    "kind": "update"
+   },
+   {
+    "id": "e5",
+    "day": 7,
+    "time": "16:45",
+    "who": "u",
+    "text": "ade got biscuit a new leash. bright orange. very visible.",
+    "kind": "noise"
+   },
+   {
+    "id": "e6",
+    "day": 8,
+    "time": "09:30",
+    "who": "u",
+    "text": "tom's frontend pr for stripe webhooks broke my test. so annoying.",
+    "kind": "noise"
+   },
+   {
+    "id": "e7",
+    "day": 10,
+    "time": "13:20",
+    "who": "u",
+    "text": "first interview for new data engineer candidate: maria torres. solid sql.",
+    "kind": "aggregate"
+   },
+   {
+    "id": "e8",
+    "day": 12,
+    "time": "08:50",
+    "who": "u",
+    "text": "maria out. she took another offer.",
+    "kind": "aggregate"
+   },
+   {
+    "id": "e9",
+    "day": 15,
+    "time": "17:00",
+    "who": "u",
+    "text": "weekend run: prospect park loop. 9.2 miles. felt good.",
+    "kind": "recall"
+   },
+   {
+    "id": "e10",
+    "day": 17,
+    "time": "14:30",
+    "who": "u",
+    "text": "cutover date moved. priya says nov 5 now. gives breathing room.",
+    "kind": "update"
+   },
+   {
+    "id": "e11",
+    "day": 19,
+    "time": "10:15",
+    "who": "u",
+    "text": "new candidate: jordan liu. data eng at spotify before. good take-home.",
+    "kind": "aggregate"
+   },
+   {
+    "id": "e12",
+    "day": 21,
+    "time": "09:05",
+    "who": "u",
+    "text": "jordan feedback mixed. lenak thought weak on schema design. moving on.",
+    "kind": "aggregate"
+   },
+   {
+    "id": "e13",
+    "day": 24,
+    "time": "15:40",
+    "who": "u",
+    "text": "sam ortiz starts sep 14. finally a data engineer.",
+    "kind": "temporal"
+   },
+   {
+    "id": "e14",
+    "day": 26,
+    "time": "11:25",
+    "who": "u",
+    "text": "migration incident on tuesday. dropped a column instead of renaming. rolled back.",
+    "kind": "temporal"
+   },
+   {
+    "id": "e15",
+    "day": 28,
+    "time": "08:30",
+    "who": "u",
+    "text": "the dropped column was `billing_status`. 3h of panic.",
+    "kind": "recall"
+   },
+   {
+    "id": "e16",
+    "day": 30,
+    "time": "16:00",
+    "who": "u",
+    "text": "ade's birthday dinner. went to bamonte's. old school italian.",
+    "kind": "noise"
+   },
+   {
+    "id": "e17",
+    "day": 32,
+    "time": "10:10",
+    "who": "u",
+    "text": "flaky test in ci: test_billing_webhook. fails 20% of the time. so annoying.",
+    "kind": "recall"
+   },
+   {
+    "id": "e18",
+    "day": 34,
+    "time": "14:55",
+    "who": "u",
+    "text": "cutover slipped again. nov 15 now. priya frustrated but ok.",
+    "kind": "update"
+   },
+   {
+    "id": "e19",
+    "day": 36,
+    "time": "09:45",
+    "who": "u",
+    "text": "candidate three: david chen. contractor at doordash. knows dbt.",
+    "kind": "aggregate"
+   },
+   {
+    "id": "e20",
+    "day": 38,
+    "time": "17:30",
+    "who": "u",
+    "text": "david chen accepted. sam ortiz onboarding starts with him.",
+    "kind": "aggregate"
+   },
+   {
+    "id": "e21",
+    "day": 39,
+    "time": "11:05",
+    "who": "u",
+    "text": "forgot to mention: biscuit ate a sock yesterday. emergency vet trip.",
+    "kind": "noise"
+   },
+   {
+    "id": "e22",
+    "day": 40,
+    "time": "10:30",
+    "who": "u",
+    "text": "sam starts day after labor day. office is ready.",
+    "kind": "temporal"
+   },
+   {
+    "id": "e23",
+    "day": 42,
+    "time": "08:10",
+    "who": "u",
+    "text": "pagerduty key changed per lena: new key is 3F8D1A.",
+    "kind": "update"
+   },
+   {
+    "id": "e24",
+    "day": 44,
+    "time": "15:20",
+    "who": "u",
+    "text": "run update: hit 10.1 miles. new personal best.",
+    "kind": "recall"
+   },
+   {
+    "id": "e25",
+    "day": 45,
+    "time": "09:35",
+    "who": "u",
+    "text": "tuesday just after sam's start we had that incident. sep 15 if i recall.",
+    "kind": "temporal"
+   },
+   {
+    "id": "e26",
+    "day": 47,
+    "time": "13:40",
+    "who": "u",
+    "text": "billing cutover final date: oct 12 again. we got back on track.",
+    "kind": "update"
+   },
+   {
+    "id": "e27",
+    "day": 49,
+    "time": "11:55",
+    "who": "u",
+    "text": "flaky test fix attempt failed. still 20%.",
+    "kind": "recall"
+   },
+   {
+    "id": "e28",
+    "day": 51,
+    "time": "17:15",
+    "who": "u",
+    "text": "saw david chen at the office. he sat next to tom.",
+    "kind": "noise"
+   },
+   {
+    "id": "e29",
+    "day": 53,
+    "time": "08:00",
+    "who": "u",
+    "text": "morning. pagerduty key is now 7C2E9B. lena's final decision.",
+    "kind": "update"
+   },
+   {
+    "id": "e30",
+    "day": 55,
+    "time": "14:20",
+    "who": "u",
+    "text": "ade's planning a trip to asheville for us. october.",
+    "kind": "noise"
+   },
+   {
+    "id": "e31",
+    "day": 57,
+    "time": "10:05",
+    "who": "u",
+    "text": "candidates interviewed: 3. maria, jordan, david. david joined.",
+    "kind": "aggregate"
+   },
+   {
+    "id": "e32",
+    "day": 59,
+    "time": "16:50",
+    "who": "u",
+    "text": "on-call rotation next week. i'm primary, tom secondary.",
+    "kind": "noise"
+   },
+   {
+    "id": "e33",
+    "day": 61,
+    "time": "09:10",
+    "who": "u",
+    "text": "stripe webhooks moved to own service. tom did it in a weekend.",
+    "kind": "temporal"
+   },
+   {
+    "id": "e34",
+    "day": 63,
+    "time": "12:30",
+    "who": "u",
+    "text": "the dropped column incident was august 18. never forget.",
+    "kind": "temporal"
+   },
+   {
+    "id": "e35",
+    "day": 65,
+    "time": "15:45",
+    "who": "u",
+    "text": "run in williamsburg. 8.7 miles. slower than usual.",
+    "kind": "recall"
+   },
+   {
+    "id": "e36",
+    "day": 67,
+    "time": "11:00",
+    "who": "u",
+    "text": "sam asked about the old on-call key. told him 9A7B2C was revoked.",
+    "kind": "recall"
+   },
+   {
+    "id": "e37",
+    "day": 69,
+    "time": "17:00",
+    "who": "u",
+    "text": "biscuit learned 'roll over'. ade taught him with treats.",
+    "kind": "noise"
+   },
+   {
+    "id": "e38",
+    "day": 70,
+    "time": "08:45",
+    "who": "u",
+    "text": "teammate count: 4 eng. me, tom, lena, sam. priya manages.",
+    "kind": "recall"
+   },
+   {
+    "id": "e39",
+    "day": 72,
+    "time": "14:10",
+    "who": "u",
+    "text": "asheville trip booked: oct 22-25. cabin near blue ridge.",
+    "kind": "recall"
+   },
+   {
+    "id": "e40",
+    "day": 74,
+    "time": "10:25",
+    "who": "u",
+    "text": "flaky test resolved. test_billing_webhook now 0% failure. finally.",
+    "kind": "recall"
+   },
+   {
+    "id": "e41",
+    "day": 76,
+    "time": "13:15",
+    "who": "u",
+    "text": "tom's frontend refactor broke webhooks again. second time.",
+    "kind": "noise"
+   },
+   {
+    "id": "e42",
+    "day": 77,
+    "time": "16:30",
+    "who": "u",
+    "text": "webhooks fix by tom took 2 days. back to normal.",
+    "kind": "temporal"
+   },
+   {
+    "id": "e43",
+    "day": 78,
+    "time": "11:40",
+    "who": "u",
+    "text": "priya confirmed: billing cutover still oct 12. no more changes.",
+    "kind": "update"
+   },
+   {
+    "id": "e44",
+    "day": 80,
+    "time": "09:00",
+    "who": "u",
+    "text": "team now 5. david chen joined officially.",
+    "kind": "recall"
+   },
+   {
+    "id": "e45",
+    "day": 82,
+    "time": "17:25",
+    "who": "u",
+    "text": "sam's first solo deploy today. nailed it.",
+    "kind": "noise"
+   },
+   {
+    "id": "e46",
+    "day": 84,
+    "time": "08:35",
+    "who": "u",
+    "text": "ade's making jollof rice tonight. my favorite.",
+    "kind": "noise"
+   },
+   {
+    "id": "e47",
+    "day": 85,
+    "time": "14:50",
+    "who": "u",
+    "text": "last night's on-call: pagerduty key 7C2E9B worked fine.",
+    "kind": "update"
+   },
+   {
+    "id": "e48",
+    "day": 86,
+    "time": "10:10",
+    "who": "u",
+    "text": "biscuit weighs 42 lbs now. vet said healthy.",
+    "kind": "recall"
+   },
+   {
+    "id": "e49",
+    "day": 87,
+    "time": "15:00",
+    "who": "u",
+    "text": "ade wants to foster another dog. i'm not ready.",
+    "kind": "noise"
+   },
+   {
+    "id": "e50",
+    "day": 88,
+    "time": "11:30",
+    "who": "u",
+    "text": "sam showed me his dbt models. clean code.",
+    "kind": "noise"
+   }
+  ],
+  "probes": [
+   {
+    "id": "q1",
+    "kind": "recall",
+    "q": "how many coffees did i have that first week?",
+    "gold": "14",
+    "evidence": [
+     "e1"
+    ]
+   },
+   {
+    "id": "q2",
+    "kind": "recall",
+    "q": "what was the old pagerduty key before the first change?",
+    "gold": "9A7B2C",
+    "evidence": [
+     "e4"
+    ]
+   },
+   {
+    "id": "q3",
+    "kind": "recall",
+    "q": "what was the column name i dropped by accident?",
+    "gold": "billing_status",
+    "evidence": [
+     "e15"
+    ]
+   },
+   {
+    "id": "q4",
+    "kind": "recall",
+    "q": "how far did i run the day i set a personal best?",
+    "gold": "10.1",
+    "evidence": [
+     "e24"
+    ]
+   },
+   {
+    "id": "q5",
+    "kind": "recall",
+    "q": "what was the flaky test called again?",
+    "gold": "test_billing_webhook",
+    "evidence": [
+     "e17"
+    ]
+   },
+   {
+    "id": "q6",
+    "kind": "recall",
+    "q": "how many eng were on the team before david joined?",
+    "gold": "4",
+    "evidence": [
+     "e38"
+    ]
+   },
+   {
+    "id": "q7",
+    "kind": "recall",
+    "q": "what dates are the asheville trip?",
+    "gold": "oct 22-25",
+    "evidence": [
+     "e39"
+    ]
+   },
+   {
+    "id": "q8",
+    "kind": "recall",
+    "q": "how much does biscuit weigh now?",
+    "gold": "42",
+    "evidence": [
+     "e48"
+    ]
+   },
+   {
+    "id": "q9",
+    "kind": "recall",
+    "q": "how far did i run in williamsburg that time?",
+    "gold": "8.7",
+    "evidence": [
+     "e35"
+    ]
+   },
+   {
+    "id": "q10",
+    "kind": "recall",
+    "q": "what's the current team size?",
+    "gold": "5",
+    "evidence": [
+     "e44"
+    ]
+   },
+   {
+    "id": "q11",
+    "kind": "update",
+    "q": "what's the billing cutover date?",
+    "gold": "oct 12",
+    "stale": [
+     "nov 5",
+     "nov 15"
+    ],
+    "evidence": [
+     "e3",
+     "e10",
+     "e18",
+     "e26",
+     "e43"
+    ]
+   },
+   {
+    "id": "q12",
+    "kind": "update",
+    "q": "what's the pagerduty key for on-call?",
+    "gold": "7C2E9B",
+    "stale": [
+     "9A7B2C",
+     "3F8D1A"
+    ],
+    "evidence": [
+     "e4",
+     "e23",
+     "e29",
+     "e47"
+    ]
+   },
+   {
+    "id": "q13",
+    "kind": "update",
+    "q": "how many data eng candidates did we interview?",
+    "gold": "3",
+    "stale": [
+     "1",
+     "2"
+    ],
+    "evidence": [
+     "e7",
+     "e11",
+     "e19"
+    ]
+   },
+   {
+    "id": "q14",
+    "kind": "update",
+    "q": "who was the second candidate for data eng?",
+    "gold": "jordan liu",
+    "stale": [
+     "maria torres"
+    ],
+    "evidence": [
+     "e7",
+     "e11"
+    ]
+   },
+   {
+    "id": "q15",
+    "kind": "update",
+    "q": "what was the pagerduty key after the first change?",
+    "gold": "3F8D1A",
+    "stale": [
+     "9A7B2C"
+    ],
+    "evidence": [
+     "e4",
+     "e23"
+    ]
+   },
+   {
+    "id": "q16",
+    "kind": "update",
+    "q": "when did priya first move the cutover?",
+    "gold": "nov 5",
+    "stale": [
+     "oct 12"
+    ],
+    "evidence": [
+     "e3",
+     "e10"
+    ]
+   },
+   {
+    "id": "q17",
+    "kind": "temporal",
+    "q": "when did sam ortiz start?",
+    "gold": "sep 14",
+    "evidence": [
+     "e13",
+     "e22"
+    ]
+   },
+   {
+    "id": "q18",
+    "kind": "temporal",
+    "q": "what day was the migration incident?",
+    "gold": "aug 18",
+    "evidence": [
+     "e14",
+     "e34"
+    ]
+   },
+   {
+    "id": "q19",
+    "kind": "temporal",
+    "q": "which came first: sam joining or the migration incident?",
+    "gold": "migration incident",
+    "evidence": [
+     "e13",
+     "e14"
+    ]
+   },
+   {
+    "id": "q20",
+    "kind": "temporal",
+    "q": "when did i have the billing_status panic?",
+    "gold": "aug 18",
+    "evidence": [
+     "e15",
+     "e34"
+    ]
+   },
+   {
+    "id": "q21",
+    "kind": "temporal",
+    "q": "did stripe webhooks or sam's onboarding happen first?",
+    "gold": "sam's onboarding",
+    "evidence": [
+     "e13",
+     "e33"
+    ]
+   },
+   {
+    "id": "q22",
+    "kind": "aggregate",
+    "q": "how many data eng candidates did we interview total?",
+    "gold": "3: maria torres, jordan liu, david chen",
+    "evidence": [
+     "e7",
+     "e11",
+     "e19",
+     "e31"
+    ]
+   },
+   {
+    "id": "q23",
+    "kind": "aggregate",
+    "q": "what were all the billing cutover dates we discussed?",
+    "gold": "4: oct 12, nov 5, nov 15, oct 12",
+    "evidence": [
+     "e3",
+     "e10",
+     "e18",
+     "e26"
+    ]
+   },
+   {
+    "id": "q24",
+    "kind": "aggregate",
+    "q": "list every pagerduty key we used for on-call.",
+    "gold": "3: 9A7B2C, 3F8D1A, 7C2E9B",
+    "evidence": [
+     "e4",
+     "e23",
+     "e29"
+    ]
+   },
+   {
+    "id": "q25",
+    "kind": "aggregate",
+    "q": "how many times did the cutover date move? list them.",
+    "gold": "4: oct 12, nov 5, nov 15, oct 12",
+    "evidence": [
+     "e3",
+     "e10",
+     "e18",
+     "e26"
+    ]
+   },
+   {
+    "id": "q26",
+    "kind": "aggregate",
+    "q": "who were all the data eng candidates, and who took it?",
+    "gold": "3: maria torres (out), jordan liu (rejected), david chen (accepted)",
+    "evidence": [
+     "e7",
+     "e8",
+     "e11",
+     "e12",
+     "e19",
+     "e20"
+    ]
+   }
+  ]
+ },
+ "fb": "q8: recall event after day 80"
+}

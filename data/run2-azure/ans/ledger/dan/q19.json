@@ -1,0 +1,47 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "which came first: sam joining or the migration incident?",
+ "reply": [
+  "sam joined. the migration incident was august, lena caught it before prod sync. sam starts sep 14.",
+  "so incident first, then sam."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Sam Ortiz joining"
+   },
+   "result": "[123] 27 Aug · fact: sam ortiz starts sep 14  (from #208)\n[176] 10 Sep · fact: sam ortiz onboarding starts with david chen  (from #298)\n[145] 01 Sep · fact: sam ortiz start date still sep 14, confirmed  (from #249, #250)\n[17] 05 Aug · fact: sam starts in september  (from #29)\n[234] 22 Sep · done: docs updated for sam  (from #418)\n[383] 16 Oct · fact: Sam is learning fast  (from #656)\n[107] 22 Aug · fact: dan will onboard sam with priya  (from #179, #180)\n[171] 09 Sep · fact: dan had lunch with sam and priya  (from #291)\n[188] 12 Sep · fact: onboarding plan for sam looks solid  (from #319)\n[369"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "migration incident billing database"
+   },
+   "result": "[440] 24 Oct · plan: database migration next wednesday 2am EST, dan is on call  (from #753)\n[128] 28 Aug · fact: lena caught migration incident before prod sync  (from #220)\n[290] 03 Oct · fact: billing migration index migration script written  (from #523)\n[64] 13 Aug · plan: dan will draft notes for migration incident post-mortem this afternoon  (from #107)\n[281] 02 Oct · plan: billing migration cutover oct 26  (from #511)\n[294] 04 Oct · fact: billing migration index migration script ran on staging, looks good  (from #531)\n[23] 07 Aug · fact: patch for migration incident is being handled by l"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3067,
+   "out": 21,
+   "usd": 0.000151766
+  },
+  {
+   "in": 3327,
+   "out": 23,
+   "usd": 0.000161662
+  },
+  {
+   "in": 3614,
+   "out": 37,
+   "usd": 0.000183948
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10821
+}

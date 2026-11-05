@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "how much does biscuit weigh now?",
+ "reply": [
+  "根据记录，Biscuit 在10月13号体检时是42磅，目前没有更新的体重数据。",
+  "你要去遛他吗 dan the builder"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Biscuit weigh"
+   },
+   "result": "#628 Tue 13 Oct 11:05 aicoo: 好, 他应该很快就会适应\n#629 Tue 13 Oct 14:00 Them: vet visit for biscuit: weighs 42 lbs. healthy boy\n#630 Tue 13 Oct 14:05 aicoo: 42磅, 非常健康的体重"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2973,
+   "out": 22,
+   "usd": 0.000132586
+  },
+  {
+   "in": 3078,
+   "out": 41,
+   "usd": 0.000165276
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10693
+}

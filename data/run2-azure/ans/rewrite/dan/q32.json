@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "早安 dan the builder 周末过得好吗 今天有什么计划"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2967,
+   "out": 20,
+   "usd": 0.000130206
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10668
+}

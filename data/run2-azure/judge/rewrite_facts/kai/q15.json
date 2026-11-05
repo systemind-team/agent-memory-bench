@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo correctly identifies 49 per user for premium tier as the v3 price Ben proposed, then notes the shift to 44 per user without presenting the outdated value as current.",
+ "rule": null
+}

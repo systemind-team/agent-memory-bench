@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "did i book the asheville flights like i promised ade?",
+ "reply": [
+  "dan the builder, 你当时订了的。8月29号订了delta，10月22号早上的航班，后来ade也确认了 cabin 的事。所以这个承诺已经兑现了",
+  "现在周日早上，好好休息吧，明天上班前可以跑个步 stretch 一下"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Asheville flights booked"
+   },
+   "result": "- 29 Aug: flights booked on delta, Oct 22 morning. Delta flight for Oct 22 is already booked.\n- 29 Aug: Promised Ade to book Asheville flights tonight.\n- 13 Oct: Asheville trip booked from Oct 22 to 25, cabin near Blue Ridge.\n- 01 Oct: Ade is looking at Asheville hikes for October 22-25. Ade is booking the Asheville cabin and departure is confirmed for Oct 22 morning.\n- 26 Sep: Ade is planning a trip to Asheville for us in October."
+  }
+ ],
+ "calls": [
+  {
+   "in": 3299,
+   "out": 23,
+   "usd": 0.00024743
+  },
+  {
+   "in": 3450,
+   "out": 68,
+   "usd": 0.000212692
+  }
+ ],
+ "memChars": 7289,
+ "promptChars": 11925
+}

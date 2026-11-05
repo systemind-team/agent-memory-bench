@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It gives 'Context-Aware Planning via Hierarchical Decomposition' as the second title, but the chat only shows the second change was to 'Hierarchical Planning with Graph Attention' on Aug 19/20.",
+ "rule": null
+}

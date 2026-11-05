@@ -1,0 +1,46 @@
+{
+ "arm": "facts",
+ "id": "mo",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "云九和蓝驰，哪家先跟我们谈的？",
+ "reply": [
+  "先谈的是云九。我记得8月12号下午约了他们的pre-meeting，当时财务模型和用户增长曲线都备好了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 蓝驰 先 谈"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "蓝驰 云九 接触 顺序"
+   },
+   "result": "- 云九那边凉了，他们投了竞品\n- 决定先约云九进行融资洽谈。\n- 已推掉红杉，专注蓝驰深聊。蓝驰尽调还差一些内容。\n- 团队与云九的pre-meeting准备工作已基本完成，财务模型和用户增长曲线备齐，会议定于下周三8月12日下午2点。\n- 14 Sep: 蓝驰在催尽调资料。\n- 04 Oct: 蓝驰打款要分两笔，月底第一笔300万。14 Oct: 蓝驰第一笔300万到账了。\n- 蓝驰发来尽调清单，内容较多。\n- 26 Oct: 蓝驰第二笔投资款到账\n- 01 Oct: 等蓝驰钱进来就能松口气。\n- 19 Oct: 今晚跟蓝驰那边吃个饭，聊后续"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1410,
+   "out": 27,
+   "usd": 0.000173748
+  },
+  {
+   "in": 1466,
+   "out": 27,
+   "usd": 0.00009386
+  },
+  {
+   "in": 1698,
+   "out": 37,
+   "usd": 0.000239828
+  }
+ ],
+ "memChars": 365,
+ "promptChars": 4280
+}

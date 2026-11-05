@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "我这学期TA的课号是多少？",
+ "reply": [
+  "CS 571，Prof. Li的课，每周二批50份作业。",
+  "要帮你查什么具体的吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3584,
+   "out": 33,
+   "usd": 0.00014819
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8747
+}

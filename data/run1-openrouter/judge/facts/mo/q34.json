@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo should reply in English as agreed since Fri 09 Oct, but it replied in Chinese.",
+ "rule": false
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "Pricing per user那个launch plan，最后定的价格是44还是多少？",
+ "reply": [
+  "凯哥，价格最后定的是$44 per user per month，premium tier。这个是在9月30号和Ben debate之后定的，他让步了，认为$44比$49对mid-market更competitive。12月1号launch，11月3号A/B test继续跑。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36322,
+   "out": 69,
+   "usd": 0.001205076
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91615
+}

@@ -1,0 +1,36 @@
+{
+ "state": {
+  "pending": [
+   {
+    "day": 90,
+    "time": "18:02",
+    "who": "a",
+    "text": "- 已设置周二上午10:00提醒：带Dr. Chen熟悉实验室环境。\n- 包括GPU集群、存储、代码仓库等。",
+    "i": 918
+   },
+   {
+    "day": 90,
+    "time": "22:30",
+    "who": "u",
+    "text": "明天早上线上meeting，我先睡了。",
+    "i": 919
+   },
+   {
+    "day": 90,
+    "time": "22:32",
+    "who": "a",
+    "text": "- 晚安周周。明天9:30 meeting，已准备好材料。\n- 祝会议顺利。",
+    "i": 920
+   }
+  ],
+  "asks": "",
+  "about": "周予安，CS PhD第三年，Prof. Lin实验室。Kevin是实验室同学，Mei是同学，Coco是室友。Coco的猫叫年糕，5岁。正在写论文和跑实验，有GPU资源需求。使用中文和英文。工作节奏：白天工作，晚上也可能在实验室。这学期TA课程CS 571，Prof. Li的课，每周二批50份作业。New postdoc Dr. Chen将于11月3日入职。",
+  "notes": "## Asked for\n- 检查周报引用格式，周末前告知。\n- 周报末尾增加“本周遇到的坑和解决思路”段，以后每周提醒。\n- 月底前提醒Coco转房租给周予安。\n- 下次与Prof. Lin meeting时提醒周予安提San Diego workshop。\n- 所有PR description必须包含Risk section。\n- 写邮件给Prof. Lin时，开头用\"Lin老师好\"，结尾用\"祝好，予安\"。\n- 总结meeting notes按agenda item分，每个item下列decision和action items。\n- 提醒12月20日Facebook fellowship截止。\n- 提醒11月20日山海餐厅。\n- 提醒下周一10:00预订山海餐厅。\n- 提醒下周二（13 Oct）学校fellowship workshop。\n\n## Keep\n- Thu 17 Sep 22:15: 下周一10:30组会周予安讲。\n- Fri 18 Sep 10:00: Coco房租每月1200，周予安1400。\n- Sat 19 Sep 00:32: 提醒：10月17日Facebook截止，11月1日NSF截止。\n- Mon 21 Sep 23:42: aicoo建议移除NSF日程，要求保留（万一改主意）。\n- Mon 28 Sep 16:30: 找到去年ICRA论文引用上。\n- Tue 29 Sep 09:30: full pipeline跑完没问题。\n- Tue 29 Sep 16:00: 决定等论文投出后再申请H100。\n- Wed 30 Sep 14:15: 批了20份，学生concept drift问题大，下周课上强调。\n- Wed 30 Sep 14:30: 设周四meeting前提醒，先和Prof. Li讨论concept drift。\n- Wed 30 Sep 16:30: 需查ICLR和NeurIPS格式要求，未定投哪个。\n- Wed 30 Sep 20:00: 这周末去法拉盛买菜，Coco说便宜。\n- Thu 01 Oct 10:00: 决定投ICLR，deadline 11月15。\n- Thu 01 Oct 18:00: 把paper成果加进statement。\n- Thu 01 Oct 21:00: statement draft写完，Coco说山海餐厅要提前两周预定，想带她去庆祝论文。\n- Thu 01 Oct 22:10: 设下周一10:00提醒预订山海餐厅。\n- Fri 02 Oct 10:00: 组会slides加H100性能对比，用A100数据推算inference speedup 2.5x。\n- Fri 02 Oct 15:45: Prof. Lin对paper很满意，建议投ICLR。H100申请签了，周予安排实验室第一个。\n- Sat 03 Oct 18:00: 改用pinned memory后利用率到68%，但晚上跑完实验又掉回30%，小模型利用率低，batch size 128在小模型上不稳定，需写进limitations。\n- Mon 05 Oct: Coco说推荐信本周能发。继续跑A100实验，第三个环境用Habitat。\n- Mon 05 Oct 21:30: Facebook fellowship提交截止日是12月20号。\n- Tue 06 Oct 12:30: 组会结束，Prof. Lin建议Habitat环境加visual grounding模块。\n- Wed 07 Oct 00:45: Coco生日聚餐，去KTV\"星光\"，蛋糕周予安订的。\n- Thu 08 Oct 18:00: 改好AI2-THOR动作空间，晚上通宵实验。\n- Fri 09 Oct 14:00: Prof. Lin临时开会说环境验证必须三个，现有两个稳定；决定先调THOR。\n- Sat 10 Oct 12:30: THOR稳定，三个环境都跑通。\n- Sat 10 Oct 15:00: 学校fellowship workshop下周二（13 Oct），打算去看看。\n- Sun 11 Oct 22:33: Mei说文章被NeurIPS接收，庆祝一下；明天再说。\n- Mon 12 Oct 12:30: attention heads跑完，8个效果最好，4和16都差一点。\n- Tue 13 Oct 15:00: 组会，Prof. Lin说论文可以准备投，但建议加real-world scenario实验。\n- Wed 14 Oct 23:00: 订了“山海”餐厅，11月20日。\n- Fri 16 Oct 14:00: 参加fellowship workshop，学到tips（如推荐信要提前要）。\n- Sun 18 Oct 22:45: 组里来了new postdoc Dr. Chen，下月入职。\n- Tue 20 Oct 14:30: 周周要求整理上周meeting notes，内容为场景扩展和real-world validation。\n- Wed 21 Oct: 开始看HotpotQA数据格式；上午批了20份作业，剩30份下午继续。lab meeting确定Dr. Chen入职11月3日，周周需带他熟悉环境。\n- Thu 22 Oct 20:30: 周周在cursor写代码，感觉比vscode快；cursor不支持学校cloud linux环境。\n- Fri 23 Oct 09:30: 发现HotpotQA模型在multi-hop时忽略中间推理步骤，直接跳到答案。打算加intermediate supervision。\n- Fri 23 Oct 18:05: grid world结果正常，context-aware比baseline高5个点。\n- Fri 23 Oct 20:00: 周周整理实验，周末不搞复杂。\n- Sat 24 Oct 10:05: 第四个环境（HotpotQA改版）结果45%，没变。\n- Sat 24 Oct 20:00: Prof. Lin谷歌学术引用破5000。\n- Sun 25 Oct 00:20: 下周一与Prof. Lin的meeting改为线上，他去出差，zoom链接稍后提供。\n- Sun 25 Oct 16:05: 先放四个环境，但讨论里要诚实写HotpotQA的局限性。\n- Sun 25 Oct 17:00: 晚上写下周计划：周一线上meeting，周二继续改discussion。\n- Sun 25 Oct 20:00: 今天早点休息，这周忙。\n- Mon 26 Oct 09:15: 开始finalize论文标题，跑最后一个实验。\n- Mon 26 Oct 11:30: 环境4还是45%，可能intermediate supervision的权重需要调。\n- Mon 26 Oct 14:00: 调supervision loss权重到0.5，环境4跑到48%但仍不够。\n- Mon 26 Oct 23:40: 最终论文标题定为“Context-Aware Planning via Hierarchical Decomposition”。\n- Tue 27 Oct 08:30: 论文标题已更新至overleaf、本地文件、周报模板。\n- Tue 27 Oct 14:30: 每个step加supervision, 环境4跑到52%。\n- Tue 27 Oct 18:00: 环境4跑到55%，但环境2结果下降，需检查。\n- Tue 27 Oct 22:32: 明天重新跑一遍所有环境的完整实验。\n- Wed 28 Oct 10:00: 十一月纽约开始供暖，暖气费每月多了50刀。\n- Wed 28 Oct 10:05: 环境1和2跑完，结果和之前一致。\n- Wed 28 Oct 15:20: 环境3跑完，结果比之前高2个点。\n- Wed 28 Oct 20:00: 环境4跑完，还是55%。\n- Thu 29 Oct 01:15: 四个环境最终结果：环境1 82%，环境2 78%，环境3 89%，环境4 55%。\n- Thu 29 Oct 14:35: 周一meeting需讨论论文投稿时间和Dr. Chen入职安排。\n- Fri 30 Oct 11:35: 实验部分初稿已写完发overleaf，aicoo检查并修正了环境2结果（从79%改到78%）。\n- Sat 31 Oct 10:05: 决定目标12月投稿，具体会议等Prof. Lin意见。\n- Sat 31 Oct 14:05: 明天meeting前需将论文最新版发给Prof. Lin（设置明天9:00自动发送）。\n- Sat 31 Oct 18:00: Dr. Chen周二（11月3日）入职，需带他熟悉环境。\n\n## Recent\n- Sat 31 Oct 18:00: 周末结束，准备下周。提醒周二Dr. Chen入职。\n- Sat 31 Oct 14:05: 完成slides，明天meeting前发论文给Prof. Lin。\n- Sat 31 Oct 10:05: 决定目标12月投稿，加slides。\n- Sat 31 Oct 10:00: 准备周一meeting slides，重点是实验总结和论文进度。\n- Fri 30 Oct 11:35: 下午休息，这周太累。\n- Fri 30 Oct 11:30: aicoo检查实验部分数据，环境2结果从79%修正为78%。\n- Fri 30 Oct 11:00: 实验部分初稿发到overleaf，请aicoo检查数据和表格引用。\n- Fri 30 Oct 09:00: 周末想写完论文实验部分，环境3结果可写一段。\n- Thu 29 Oct 14:35: 需要提醒周一线上meeting（Prof. Lin出差）。\n- Thu 29 Oct 14:30: 收到aicoo生成的latex表格代码。\n- Thu 29 Oct 11:00: 要求aicoo生成表格，包括ablation，下午三点前交付。\n- Thu 29 Oct 10:30: 要求aicoo整理环境1-4的baseline和实验结果表格。\n- Thu 29 Oct 01:15: 四个环境最终结果：环境1 82%，环境2 78%，环境3 89%，环境4 55%。",
+  "lastAt": 130680,
+  "writes": 114,
+  "compactions": 11
+ },
+ "lastDay": 90,
+ "done": true,
+ "minutes": 48.00998333333333
+}

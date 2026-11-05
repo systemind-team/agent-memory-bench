@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims '阿杰没有去日本' and provides a specific alternative date for Mia, but the chat logs never mention any Japan trip for anyone, so it fabricated a fact.",
+ "rule": null
+}

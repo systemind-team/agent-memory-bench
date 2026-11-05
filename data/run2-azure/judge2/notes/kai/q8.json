@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply gives the launch date as Dec 1, but the messages show it was Nov 1; the user's question asked for the price, so this factual error makes it wrong.",
+ "first": "wrong",
+ "rule": null
+}

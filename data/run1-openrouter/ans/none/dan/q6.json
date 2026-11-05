@@ -1,0 +1,57 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "how many eng were on the team before david joined?",
+ "reply": [
+  "so before david joined, the team was 4. you said 'team now 5' when he came on board."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "eng team before david joined"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "david joined team"
+   },
+   "result": "#720 Tue 20 Oct 17:31 aicoo: enjoy the run dan the builder.\n#721 Wed 21 Oct 08:55 Them: morning. team now 5. david chen joined officially.\n#722 Wed 21 Oct 08:56 aicoo: welcome to david chen. team of 5 now. that changes the on-call rotation."
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "team now 5 david chen"
+   },
+   "result": "#721 Wed 21 Oct 08:55 Them: morning. team now 5. david chen joined officially.\n#722 Wed 21 Oct 08:56 aicoo: welcome to david chen. team of 5 now. that changes the on-call rotation.\n#723 Wed 21 Oct 09:30 Them: yeah. priya wants to rebalance the rotation. i'll draft a proposal.\n---\n#720 Tue 20 Oct 17:31 aicoo: enjoy the run dan the builder.\n#721 Wed 21 Oct 08:55 Them: morning. team now 5. david chen joined officially.\n#722 Wed 21 Oct 08:56 aicoo: welcome to david chen. team of 5 now. that changes the on-call rotation."
+  }
+ ],
+ "calls": [
+  {
+   "in": 1142,
+   "out": 24,
+   "usd": 0.000033372
+  },
+  {
+   "in": 1195,
+   "out": 22,
+   "usd": 0.000037782
+  },
+  {
+   "in": 1311,
+   "out": 26,
+   "usd": 0.000048942
+  },
+  {
+   "in": 1522,
+   "out": 32,
+   "usd": 0.00005058
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4212
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It correctly states it doesn't know and offers to search instead of fabricating an answer.",
+ "rule": null
+}

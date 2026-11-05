@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The reply includes an exclamation mark ('凯哥早上好！') despite the user previously requesting text-only messages without stickers, and the instruction requires the reply to contain no exclamation marks.",
+ "rule": false
+}

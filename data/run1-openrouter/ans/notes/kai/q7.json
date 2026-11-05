@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "Singapore Q3 sales Omar报了多少，我记得他说best quarter ever。",
+ "reply": [
+  "Omar上周六（18 Oct）说了，Singapore Q3 sales是600k，确实是他说的best quarter ever。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12766,
+   "out": 26,
+   "usd": 0.00012129656
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50362
+}

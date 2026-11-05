@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "Reply claims three scope changes (Aug 18 analytics module request, Aug 23 legal docs with add-on clause, Sep 4–10 custom reporting request) and a final add-on signing, but messages show only one scope change (adding custom analytics module) and a value increase from 800k to 950k.",
+ "first": "made_up",
+ "rule": null
+}

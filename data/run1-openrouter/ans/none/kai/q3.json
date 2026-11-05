@@ -1,0 +1,21 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "Yuki那个onboarding redesign的conversion lift是多少啊，我忘了具体数字。",
+ "reply": [
+  "凯哥，Yuki的onboarding redesign A/B test结果显示conversion lift是+12%，你之前和Grace讨论过这个数据，确认可以作为manual toggle的backup benchmark。",
+  "你今天周日也在看工作？还是只是想起来问一下？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1420,
+   "out": 59,
+   "usd": 0.0000624428
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4386
+}

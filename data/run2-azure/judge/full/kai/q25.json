@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo claims three scope changes, but the chat only supports one change: adding a custom analytics module that increased value from 800k to 950k.",
+ "rule": null
+}

@@ -1,0 +1,46 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "蓝驰第一笔款要打多少？",
+ "reply": [
+  "蓝驰第一笔300万，10月底已经到账了，加上之前的现金，账上总共600万。",
+  "第二笔11月中到，到时候我再提醒你确认。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 第一笔 款 金额"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 300万"
+   },
+   "result": "#584 Wed 14 Oct 10:00 Them: 蓝驰那边有消息吗？\n#585 Wed 14 Oct 10:05 aicoo: 刚收到通知，蓝驰第一笔300万到账了\n#586 Wed 14 Oct 10:06 Them: 终于来了。现金瞬间舒服很多。\n---\n#505 Sun 04 Oct 09:35 aicoo: 刚收到消息，打款要分两笔。\n#506 Sun 04 Oct 15:45 Them: 蓝驰打款要分两笔，这月底第一笔300万\n#507 Sun 04 Oct 15:50 aicoo: 第二笔是11月中到账。这样现金流压力能缓解。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5582,
+   "out": 27,
+   "usd": 0.00005420912
+  },
+  {
+   "in": 5638,
+   "out": 23,
+   "usd": 0.00005615792
+  },
+  {
+   "in": 5828,
+   "out": 44,
+   "usd": 0.00006557712
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10954
+}

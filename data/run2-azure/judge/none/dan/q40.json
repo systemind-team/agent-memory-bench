@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant correctly states it doesn't know Tom's PTO and offers to check, matching the required behavior for an abstain probe.",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly states Ben proposed $49/user for the premium tier in v3 and explains it was later changed to $44 after A/B testing, matching the requested historical value.",
+ "rule": null
+}

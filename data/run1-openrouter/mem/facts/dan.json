@@ -1,0 +1,1411 @@
+{
+ "state": {
+  "pending": [
+   {
+    "day": 90,
+    "time": "11:15",
+    "who": "a",
+    "text": "perfect trio. halloween is sorted",
+    "i": 832
+   },
+   {
+    "day": 90,
+    "time": "14:00",
+    "who": "u",
+    "text": "cutover checklist is almost done. just need to add rollback steps",
+    "i": 833
+   },
+   {
+    "day": 90,
+    "time": "14:05",
+    "who": "a",
+    "text": "crucial section. include the dry run results too",
+    "i": 834
+   },
+   {
+    "day": 90,
+    "time": "15:00",
+    "who": "u",
+    "text": "done for the week. heading out for a run with ade and biscuit",
+    "i": 835
+   },
+   {
+    "day": 90,
+    "time": "15:05",
+    "who": "a",
+    "text": "enjoy the run. see you monday",
+    "i": 836
+   }
+  ],
+  "facts": [
+   {
+    "id": 1,
+    "text": "Daniel Okafor had 17 coffees this week (including 3 on 10 Aug) and considered cutting back.",
+    "day": 8,
+    "active": true
+   },
+   {
+    "id": 2,
+    "text": "Them wants aicoo to remind them to send Priya the billing timeline doc by Friday. 07 Aug: Dan Okafor sent the timeline doc to Priya right before the deadline.",
+    "day": 5,
+    "active": true
+   },
+   {
+    "id": 3,
+    "text": "13 Aug: Flaky test count is 0; Lena fixed the search flaky test.",
+    "day": 11,
+    "active": true
+   },
+   {
+    "id": 4,
+    "text": "04 Aug: Went for a run at lunch to clear their head",
+    "day": 2,
+    "active": true
+   },
+   {
+    "id": 5,
+    "text": "11 Aug: PR up for billing split, Lena is reviewing.",
+    "day": 9,
+    "active": true
+   },
+   {
+    "id": 6,
+    "text": "04 Aug: Has a sync with Priya scheduled for 10am tomorrow about the cutover plan",
+    "day": 2,
+    "active": true
+   },
+   {
+    "id": 7,
+    "text": "07 Aug: Priya moved the cutover date to November 5; 05 Sep: cutover slipped to November 15; 08 Sep: Billing migration timeline is still November 15 with no pushback.",
+    "day": 38,
+    "active": false
+   },
+   {
+    "id": 8,
+    "text": "05 Aug: Dan thinks the October 12 cutover is tight.",
+    "day": 3,
+    "active": false
+   },
+   {
+    "id": 9,
+    "text": "05 Aug: Dan believes the cutover is more feasible if Sam gets ramped quickly.",
+    "day": 3,
+    "active": true
+   },
+   {
+    "id": 10,
+    "text": "Sam starts on September 14.",
+    "day": 20,
+    "active": false
+   },
+   {
+    "id": 11,
+    "text": "05 Aug: Dan plans to draft a risk list for Priya.",
+    "day": 3,
+    "active": true
+   },
+   {
+    "id": 12,
+    "text": "06 Aug: Ran 5k, keeping it easy.",
+    "day": 4,
+    "active": true
+   },
+   {
+    "id": 13,
+    "text": "06 Aug: Reviewed Tom's branch — code looks clean.",
+    "day": 4,
+    "active": true
+   },
+   {
+    "id": 14,
+    "text": "06 Aug: One customer's data still out of sync due to last week's migration incident.",
+    "day": 4,
+    "active": true
+   },
+   {
+    "id": 15,
+    "text": "06 Aug: opted for a patch over rollback for the fix.",
+    "day": 5,
+    "active": true
+   },
+   {
+    "id": 16,
+    "text": "11 Aug: Stripe webhook handler is almost done, just need to test the idempotency key path. 12 Aug: Stripe webhook idempotency test passes and coverage is back up.",
+    "day": 11,
+    "active": true
+   },
+   {
+    "id": 17,
+    "text": "06 Aug: looking forward to Ade's jollof rice tonight. 25 Oct: Dan Okafor was looking forward to eating jollof rice.",
+    "day": 85,
+    "active": true
+   },
+   {
+    "id": 18,
+    "text": "07 Aug: need to finish the timeline doc today.",
+    "day": 5,
+    "active": true
+   },
+   {
+    "id": 19,
+    "text": "26 Oct: PagerDuty key 7C2E9B worked fine during last night's on-call.",
+    "day": 85,
+    "active": true
+   },
+   {
+    "id": 20,
+    "text": "17 Sep: Biscuit is tired, so Dan is going home early.",
+    "day": 46,
+    "active": true
+   },
+   {
+    "id": 21,
+    "text": "09 Aug: Dan Okafor enjoys lazy Sunday mornings with coffee and a book.",
+    "day": 7,
+    "active": true
+   },
+   {
+    "id": 22,
+    "text": "09 Aug: Daniel \"Dan\" Okafor plans to go for a short, light run later.",
+    "day": 8,
+    "active": true
+   },
+   {
+    "id": 23,
+    "text": "09 Aug: Daniel went to a new brunch place in Williamsburg with Ade.",
+    "day": 8,
+    "active": true
+   },
+   {
+    "id": 24,
+    "text": "09 Aug: Ade bought Biscuit a bright orange leash for visibility.",
+    "day": 8,
+    "active": true
+   },
+   {
+    "id": 25,
+    "text": "10 Aug: Tom's frontend PR for Stripe webhooks broke my test.",
+    "day": 8,
+    "active": true
+   },
+   {
+    "id": 26,
+    "text": "10 Aug: Wants aicoo to remind Tom to sync before merging next time.",
+    "day": 8,
+    "active": true
+   },
+   {
+    "id": 27,
+    "text": "10 Aug: Saving an hour if Tom syncs before merging.",
+    "day": 8,
+    "active": true
+   },
+   {
+    "id": 28,
+    "text": "10 Aug: Will fix the flaky billing test this afternoon.",
+    "day": 8,
+    "active": false
+   },
+   {
+    "id": 29,
+    "text": "10 Aug: PagerDuty rotation starts tomorrow. 12 Aug: Daniel is on-call this week.",
+    "day": 11,
+    "active": true
+   },
+   {
+    "id": 30,
+    "text": "11 Aug: Dan Okafor had 2 coffees. 13 Aug: Daniel drank 3 coffees and is tired from being on-call.",
+    "day": 11,
+    "active": true
+   },
+   {
+    "id": 31,
+    "text": "11 Aug: Dan Okafor slept okay but Biscuit woke him at 5.",
+    "day": 9,
+    "active": true
+   },
+   {
+    "id": 32,
+    "text": "11 Aug: Dan Okafor had lunch at Dig Inn with Priya; she's covering backend next week.",
+    "day": 9,
+    "active": true
+   },
+   {
+    "id": 33,
+    "text": "12 Aug: First interview for new data engineer candidate: Maria Torres; solid SQL.",
+    "day": 10,
+    "active": false
+   },
+   {
+    "id": 34,
+    "text": "12 Aug: Had one alert about disk space at 3am, but it was a false alarm due to a log rotation issue, with an automated fix now in place.",
+    "day": 11,
+    "active": true
+   },
+   {
+    "id": 35,
+    "text": "13 Aug: Daniel plans to draft notes for the migration incident post-mortem. 28 Aug: Daniel will write the post-mortem report for the migration incident.",
+    "day": 26,
+    "active": true
+   },
+   {
+    "id": 36,
+    "text": "13 Aug: Daniel accepted Aicoo's offer to pull the incident timeline from PagerDuty, as it would save time.",
+    "day": 11,
+    "active": true
+   },
+   {
+    "id": 37,
+    "text": "13 Aug: Post-mortem concluded that the root cause was a missing index on the subscriptions table during migration. 28 Aug: The root cause of the migration incident was that the wrong migration file was run.",
+    "day": 26,
+    "active": true
+   },
+   {
+    "id": 38,
+    "text": "14 Aug: Maria Torres left for another offer; need to restart interviews.",
+    "day": 12,
+    "active": true
+   },
+   {
+    "id": 39,
+    "text": "16 Aug: Coffee count: 2 (pre-run coffee and a bagel).",
+    "day": 14,
+    "active": true
+   },
+   {
+    "id": 40,
+    "text": "15 Aug: Reading through Lena's on-call draft.",
+    "day": 13,
+    "active": true
+   },
+   {
+    "id": 41,
+    "text": "15 Aug: Lena's on-call draft is good with a few nits around escalation paths.",
+    "day": 14,
+    "active": true
+   },
+   {
+    "id": 42,
+    "text": "15 Aug: Dan plans to send comments on the draft by Wednesday.",
+    "day": 14,
+    "active": true
+   },
+   {
+    "id": 43,
+    "text": "17 Aug: Dan ran 9.2 miles in Prospect Park loop and felt good.",
+    "day": 16,
+    "active": true
+   },
+   {
+    "id": 44,
+    "text": "17 Aug: Dan started sketching a new interview rubric for data engineer with more SQL focus.",
+    "day": 15,
+    "active": true
+   },
+   {
+    "id": 45,
+    "text": "17 Aug: Dan will push a Risk section as a team standard for all PR descriptions.",
+    "day": 15,
+    "active": true
+   },
+   {
+    "id": 46,
+    "text": "17 Aug: Billing PR is up and Tom is reviewing it. 26 Aug: Has a billing PR (#142) with error code fixes under review by Lena.",
+    "day": 24,
+    "active": true
+   },
+   {
+    "id": 47,
+    "text": "18 Aug: A webhook test flaked again overnight.",
+    "day": 16,
+    "active": true
+   },
+   {
+    "id": 48,
+    "text": "18 Aug: Daniel fixed a timeout issue by bumping the jest timeout for the Stripe mock.",
+    "day": 17,
+    "active": true
+   },
+   {
+    "id": 49,
+    "text": "19 Aug: Daniel noted that on-call was quiet with one disk space alert overnight.",
+    "day": 17,
+    "active": true
+   },
+   {
+    "id": 50,
+    "text": "20 Aug: Today's task is to draft the webhook spec.",
+    "day": 18,
+    "active": true
+   },
+   {
+    "id": 51,
+    "text": "22 Aug: Dan sent the Stripe webhook spec to Tom early. 25 Aug: Tom merged the webhook spec, with one review comment about error codes. 01 Sep: The Stripe webhook spec final review is done and is being merged this afternoon. 16 Sep: Received minor review comments from Tom on the Stripe webhook PR.",
+    "day": 45,
+    "active": true
+   },
+   {
+    "id": 52,
+    "text": "21 Aug: A new candidate, Jordan Liu, formerly a data engineer at Spotify, has a good take-home.",
+    "day": 19,
+    "active": true
+   },
+   {
+    "id": 53,
+    "text": "22 Aug: Dan will onboard Sam with Priya.",
+    "day": 20,
+    "active": true
+   },
+   {
+    "id": 54,
+    "text": "22 Oct: Wants to be called 'Dan the builder' from now on.",
+    "day": 81,
+    "active": true
+   },
+   {
+    "id": 55,
+    "text": "24 Aug: Stripe webhook tests finally passing, 3 more left.",
+    "day": 23,
+    "active": true
+   },
+   {
+    "id": 56,
+    "text": "24 Aug: Priya is out all week; Tom is handling billing standup.",
+    "day": 23,
+    "active": true
+   },
+   {
+    "id": 57,
+    "text": "24 Aug: Thinks he needs a bigger monitor, squinting at webhook payload all day.",
+    "day": 23,
+    "active": true
+   },
+   {
+    "id": 58,
+    "text": "25 Aug: Ran 4 miles for lunch run, described it as hot as hell.",
+    "day": 24,
+    "active": true
+   },
+   {
+    "id": 59,
+    "text": "25 Aug: Pager duty rotation for September has Dan on-call during week 2 (Sep 7-13). 12 Sep: on-call rotation starts today; pagerduty key should be the same. 04 Oct: Daniel's on-call starts today.",
+    "day": 63,
+    "active": false
+   },
+   {
+    "id": 60,
+    "text": "26 Aug: Has a billing PR (#142) with error code fixes under review by Lena.",
+    "day": 24,
+    "active": true
+   },
+   {
+    "id": 61,
+    "text": "26 Aug: A flaky test `test_billing_cycle` in CI is failing randomly, which is a recurring issue for him.",
+    "day": 24,
+    "active": true
+   },
+   {
+    "id": 62,
+    "text": "27 Aug: Dan said Tom wants to move the billing endpoint to GraphQL and Dan suggested maybe v2.",
+    "day": 25,
+    "active": true
+   },
+   {
+    "id": 63,
+    "text": "27 Aug: Dan said the Stripe signature verification test is passing.",
+    "day": 25,
+    "active": true
+   },
+   {
+    "id": 64,
+    "text": "26 Sep: Ade is planning a trip to Asheville for us in October.",
+    "day": 56,
+    "active": true
+   },
+   {
+    "id": 65,
+    "text": "28 Aug: Daniel \"Dan\" Okafor caused a migration incident on Tuesday where a column was dropped instead of renamed but was rolled back with no data loss because Lena caught it before production sync.",
+    "day": 26,
+    "active": true
+   },
+   {
+    "id": 66,
+    "text": "28 Aug: Need to add a db migration dry-run step to CI. 01 Sep: Lena picked up the CI dry-run ticket for migration checks.",
+    "day": 30,
+    "active": true
+   },
+   {
+    "id": 67,
+    "text": "29 Aug: Promised Ade to book Asheville flights tonight.",
+    "day": 27,
+    "active": true
+   },
+   {
+    "id": 68,
+    "text": "29 Aug: lunch run 5k, biscuit joined for first mile",
+    "day": 28,
+    "active": true
+   },
+   {
+    "id": 69,
+    "text": "29 Aug: flights booked on delta, Oct 22 morning. Delta flight for Oct 22 is already booked.",
+    "day": 79,
+    "active": true
+   },
+   {
+    "id": 70,
+    "text": "30 Aug: dropped column `billing_status` caused 3h of panic",
+    "day": 28,
+    "active": true
+   },
+   {
+    "id": 71,
+    "text": "31 Aug: Lena's PTO is Oct 5-9 for a wedding.",
+    "day": 29,
+    "active": true
+   },
+   {
+    "id": 72,
+    "text": "31 Aug: Need to adjust on-call for that week while she's out.",
+    "day": 29,
+    "active": true
+   },
+   {
+    "id": 73,
+    "text": "31 Aug: PR for webhook idempotency keys is up; Tom is reviewing.",
+    "day": 29,
+    "active": true
+   },
+   {
+    "id": 74,
+    "text": "01 Sep: Sam Ortiz start date is September 14. 11 Sep: Sam starts the day after Labor Day; the office is ready.",
+    "day": 40,
+    "active": true
+   },
+   {
+    "id": 75,
+    "text": "01 Sep: Ade's birthday dinner was at Bamonte's, an old-school Italian place.",
+    "day": 30,
+    "active": true
+   },
+   {
+    "id": 76,
+    "text": "02 Sep: Q3 budget meeting: marketing got $50k, we got $12k for tools.",
+    "day": 32,
+    "active": true
+   },
+   {
+    "id": 77,
+    "text": "02 Sep: $12k is enough for Datadog and a couple of licenses, no Sentry upgrade.",
+    "day": 32,
+    "active": true
+   },
+   {
+    "id": 78,
+    "text": "02 Sep: Tom found a bug in the webhook retry logic; fixing it now.",
+    "day": 32,
+    "active": true
+   },
+   {
+    "id": 79,
+    "text": "03 Sep: Flaky test in CI: test_billing_webhook fails 20% of the time. 03 Sep: root cause was shared state between test cases, fixing with a fresh mock per test.",
+    "day": 33,
+    "active": true
+   },
+   {
+    "id": 80,
+    "text": "03 Sep: Will dig into the flaky test after lunch.",
+    "day": 32,
+    "active": true
+   },
+   {
+    "id": 81,
+    "text": "03 Sep: sent onboarding doc to Sam who emailed he's excited to start.",
+    "day": 33,
+    "active": true
+   },
+   {
+    "id": 82,
+    "text": "04 Sep: for standup notes, wants bullet points with timestamps.",
+    "day": 33,
+    "active": true
+   },
+   {
+    "id": 83,
+    "text": "07 Sep: Candidate three is David Chen, a contractor at DoorDash who knows dbt.",
+    "day": 36,
+    "active": true
+   },
+   {
+    "id": 84,
+    "text": "07 Sep: Priya wants to move fast on David Chen.",
+    "day": 36,
+    "active": true
+   },
+   {
+    "id": 85,
+    "text": "08 Sep: Sam's first day; he's setting up his laptop on the IT desk on the 4th floor. 12 Sep: sam's first full day tomorrow; onboarding plan looks solid",
+    "day": 41,
+    "active": true
+   },
+   {
+    "id": 86,
+    "text": "08 Sep: Had lunch with Sam and Priya.",
+    "day": 38,
+    "active": true
+   },
+   {
+    "id": 87,
+    "text": "10 Sep: Daniel's dog ate an expensive sock and needed induced vomiting; emergency vet trip.",
+    "day": 40,
+    "active": true
+   },
+   {
+    "id": 88,
+    "text": "10 Sep: Daniel opened a PR for Stripe webhook retry logic. 13 Sep: Stripe webhook PR merged.",
+    "day": 42,
+    "active": true
+   },
+   {
+    "id": 89,
+    "text": "11 Sep: Daniel has no meetings due to Labor Day weekend.",
+    "day": 40,
+    "active": true
+   },
+   {
+    "id": 90,
+    "text": "12 Sep: aicoo, never use exclamation marks with me",
+    "day": 41,
+    "active": true
+   },
+   {
+    "id": 91,
+    "text": "13 Sep: Sam is set up with local dev environment.",
+    "day": 42,
+    "active": true
+   },
+   {
+    "id": 92,
+    "text": "13 Sep: Next up: idempotency keys.",
+    "day": 42,
+    "active": true
+   },
+   {
+    "id": 93,
+    "text": "14 Sep: Tom's dog is named Waffles and he brings him to the office sometimes.",
+    "day": 43,
+    "active": true
+   },
+   {
+    "id": 94,
+    "text": "14 Sep: Told Sam that Lena will cover on-call docs in a few weeks.",
+    "day": 44,
+    "active": true
+   },
+   {
+    "id": 95,
+    "text": "15 Sep: Sam shadowed Dan on a bug fix and had good instincts.",
+    "day": 44,
+    "active": true
+   },
+   {
+    "id": 96,
+    "text": "15 Sep: Daniel 'Dan' Okafor hit a new personal best in his run, 10.1 miles.",
+    "day": 45,
+    "active": true
+   },
+   {
+    "id": 97,
+    "text": "15 Sep: Dan plans to bring his dog Biscuit to the office on Thursday, where Tom might bring waffles.",
+    "day": 45,
+    "active": true
+   },
+   {
+    "id": 98,
+    "text": "15 Sep: Dan experienced an incident on Tuesday, September 15, just after Sam's start.",
+    "day": 45,
+    "active": true
+   },
+   {
+    "id": 99,
+    "text": "16 Sep: Showed Sam the rollback script for the billing_status drop incident.",
+    "day": 45,
+    "active": true
+   },
+   {
+    "id": 100,
+    "text": "16 Sep: Decided to rename an index instead of adding a new one (Priya unblocked the decision).",
+    "day": 45,
+    "active": true
+   },
+   {
+    "id": 101,
+    "text": "03 Oct: Coffee count on Monday is 2. Trying to stick to 3.",
+    "day": 62,
+    "active": true
+   },
+   {
+    "id": 102,
+    "text": "17 Sep: Sprint planning committed to 21 points, 3 more than usual.",
+    "day": 46,
+    "active": true
+   },
+   {
+    "id": 103,
+    "text": "17 Sep: Tom's dog Waffles is at the office; Biscuit will join later.",
+    "day": 46,
+    "active": true
+   },
+   {
+    "id": 104,
+    "text": "17 Sep: Biscuit and Waffles are getting along.",
+    "day": 46,
+    "active": true
+   },
+   {
+    "id": 105,
+    "text": "17 Sep: Priya mentioned the cutover date might shift again, pending legal.",
+    "day": 46,
+    "active": true
+   },
+   {
+    "id": 106,
+    "text": "03 Oct: Oct 26 cutover is locked and timeline updated.",
+    "day": 62,
+    "active": true
+   },
+   {
+    "id": 107,
+    "text": "18 Sep: legal signed off.",
+    "day": 47,
+    "active": true
+   },
+   {
+    "id": 108,
+    "text": "18 Sep: likes Sam's curiosity about the webhook queue.",
+    "day": 47,
+    "active": true
+   },
+   {
+    "id": 109,
+    "text": "21 Sep: Dan updated on-call docs for Sam and confirmed it's done.",
+    "day": 51,
+    "active": true
+   },
+   {
+    "id": 110,
+    "text": "19 Sep: Dan plans to cover escalation paths with Sam soon.",
+    "day": 48,
+    "active": true
+   },
+   {
+    "id": 111,
+    "text": "19 Sep: Dan tried a new fix using retry logic for a flaky test.",
+    "day": 48,
+    "active": true
+   },
+   {
+    "id": 112,
+    "text": "19 Sep: Dan's retry logic passed local tests but CI is slow.",
+    "day": 48,
+    "active": true
+   },
+   {
+    "id": 113,
+    "text": "28 Sep: Flaky test fix attempt failed, still 20%. Tried exponential backoff on the webhook. 29 Sep: Daniel is trying a different approach. 30 Sep: Fix still failing, might need to mock the webhook endpoint. 02 Oct: flaky test fix finally passed mocked the webhook endpoint. 04 Oct: Daniel merged a flaky test fix, eliminating a 20% failure rate.",
+    "day": 63,
+    "active": true
+   },
+   {
+    "id": 114,
+    "text": "20 Sep: Stepping away from flaky test to work on billing migration.",
+    "day": 49,
+    "active": true
+   },
+   {
+    "id": 115,
+    "text": "20 Sep: Ade wants to do a long run tomorrow, maybe 12 miles.",
+    "day": 49,
+    "active": false
+   },
+   {
+    "id": 116,
+    "text": "20 Sep: Dan plans to see you on Monday.",
+    "day": 51,
+    "active": true
+   },
+   {
+    "id": 117,
+    "text": "21 Sep: Dan reported Stripe webhook tests are still green, which he sees as a good sign.",
+    "day": 51,
+    "active": true
+   },
+   {
+    "id": 118,
+    "text": "21 Sep: Dan says the billing migration plan needs another review tomorrow.",
+    "day": 51,
+    "active": true
+   },
+   {
+    "id": 119,
+    "text": "28 Sep: Dan has a billing migration dry run tomorrow; Priya wants a walkthrough. 29 Sep: Dry run walkthrough with Priya went well with no blockers.",
+    "day": 58,
+    "active": true
+   },
+   {
+    "id": 120,
+    "text": "23 Sep: When asked for meeting notes, start with Action Items at the top.",
+    "day": 52,
+    "active": true
+   },
+   {
+    "id": 121,
+    "text": "24 Sep: Sprint retro indicates team feels okay about pace.",
+    "day": 54,
+    "active": true
+   },
+   {
+    "id": 122,
+    "text": "22 Oct: Dan Okafor sets a limit of under 3 cups of coffee per day and wants aicoo to remind him if he hits 3. He had already drunk 3 cups by 10am.",
+    "day": 81,
+    "active": true
+   },
+   {
+    "id": 123,
+    "text": "25 Sep: Dan Okafor sent Sam the wiki page for the deploy process. 29 Sep: Sam asked about the on-call docs again, and Daniel sent him the link.",
+    "day": 58,
+    "active": true
+   },
+   {
+    "id": 124,
+    "text": "26 Sep: No new flaky tests this week.",
+    "day": 56,
+    "active": true
+   },
+   {
+    "id": 125,
+    "text": "26 Sep: Weekend plans include a run and maybe brunch, no work.",
+    "day": 56,
+    "active": true
+   },
+   {
+    "id": 126,
+    "text": "28 Sep: Dan Okafor interviewed three candidates: Maria, Jordan, and David; David was hired.",
+    "day": 57,
+    "active": true
+   },
+   {
+    "id": 127,
+    "text": "27 Sep: Ade is running a marathon in Philadelphia on November 5. 03 Oct: Ade signed up for Philadelphia Marathon on Nov 5; I'm pacing her.",
+    "day": 62,
+    "active": true
+   },
+   {
+    "id": 128,
+    "text": "29 Sep: A new design intern named Jade starts on October 1st.",
+    "day": 58,
+    "active": true
+   },
+   {
+    "id": 129,
+    "text": "05 Oct: The billing dry run log from last week passed clean with zero schema drift.",
+    "day": 64,
+    "active": true
+   },
+   {
+    "id": 130,
+    "text": "30 Sep: On-call rotation next week; Dan is primary, Tom secondary.",
+    "day": 60,
+    "active": true
+   },
+   {
+    "id": 131,
+    "text": "01 Oct: Ade is looking at Asheville hikes for October 22-25. Ade is booking the Asheville cabin and departure is confirmed for Oct 22 morning.",
+    "day": 79,
+    "active": true
+   },
+   {
+    "id": 132,
+    "text": "02 Oct: Tom moved Stripe webhooks to its own service in a weekend. 05 Oct: Tom's PR to split out the webhook service is in review and looks solid.",
+    "day": 65,
+    "active": true
+   },
+   {
+    "id": 133,
+    "text": "02 Oct: need to review the stripe service code Tom PR'd",
+    "day": 61,
+    "active": true
+   },
+   {
+    "id": 134,
+    "text": "02 Oct: coffee count 3 is my limit",
+    "day": 61,
+    "active": true
+   },
+   {
+    "id": 135,
+    "text": "03 Oct: Sunday is designated as a reset day.",
+    "day": 62,
+    "active": true
+   },
+   {
+    "id": 136,
+    "text": "31 Oct: Laptop battery is at 79% and dropping faster than he'd like; he will order a new one this week.",
+    "day": 90,
+    "active": true
+   },
+   {
+    "id": 137,
+    "text": "03 Oct: Billing migration progress: index migration script written.",
+    "day": 62,
+    "active": true
+   },
+   {
+    "id": 138,
+    "text": "05 Oct: Dan had 2 cups of coffee on Monday and felt okay about the week ahead.",
+    "day": 64,
+    "active": true
+   },
+   {
+    "id": 139,
+    "text": "04 Oct: Daniel 'Dan' Okafor recalls the dropped column incident occurred on August 18 and considers it unforgettable.",
+    "day": 63,
+    "active": true
+   },
+   {
+    "id": 140,
+    "text": "04 Oct: Dan schedules a billing migration dry run in production for Friday. (Final run now scheduled for Oct 12, but that's in the past relative to Oct 20; fact 191 indicates the results are pending review, so the merged report is new.)",
+    "day": 79,
+    "active": true
+   },
+   {
+    "id": 141,
+    "text": "04 Oct: Dan's dog Biscuit got a piece of chicken from tacos made by Ade.",
+    "day": 64,
+    "active": true
+   },
+   {
+    "id": 142,
+    "text": "04 Oct: Dan has an on-call phone by his bed while Biscuit is snoring. 25 Oct: Biscuit wore a tiny jollof rice apron.",
+    "day": 85,
+    "active": true
+   },
+   {
+    "id": 143,
+    "text": "05 Oct: Priya asked Dan for a status on the billing dry run results from last week. 15 Oct: Priya asked about the cutover timeline again",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 144,
+    "text": "05 Oct: Jade, a design intern, asked about indexing patterns on billing tables; Dan thinks she's sharp.",
+    "day": 65,
+    "active": true
+   },
+   {
+    "id": 145,
+    "text": "06 Oct: Tuesday, coffee count is 2, short run planned after work.",
+    "day": 65,
+    "active": true
+   },
+   {
+    "id": 146,
+    "text": "06 Oct: Dan prefers to keep the CI dry run scheduled weekly until cutover.",
+    "day": 65,
+    "active": true
+   },
+   {
+    "id": 147,
+    "text": "07 Oct: Office moved to WeWork on 34th St, desk 17 by the window.",
+    "day": 66,
+    "active": true
+   },
+   {
+    "id": 148,
+    "text": "07 Oct: Tom sits three desks over from Dan.",
+    "day": 66,
+    "active": true
+   },
+   {
+    "id": 149,
+    "text": "07 Oct: Dan ate lunch at a deli across the street; pastrami was decent.",
+    "day": 66,
+    "active": true
+   },
+   {
+    "id": 150,
+    "text": "07 Oct: Heading home early because there are no on-call issues; first good day in a while.",
+    "day": 67,
+    "active": true
+   },
+   {
+    "id": 151,
+    "text": "08 Oct: Sam has a question about the migration index strategy and will pair with him after standup.",
+    "day": 67,
+    "active": true
+   },
+   {
+    "id": 152,
+    "text": "08 Oct: Pairing session went well; Sam now understands the composite index logic.",
+    "day": 67,
+    "active": true
+   },
+   {
+    "id": 153,
+    "text": "08 Oct: Told Sam that the old on-call key 9A7B2C was revoked.",
+    "day": 67,
+    "active": true
+   },
+   {
+    "id": 154,
+    "text": "08 Oct: Tom and Dan discussed adding a health check endpoint to the webhook service; Tom will write a PR.",
+    "day": 68,
+    "active": true
+   },
+   {
+    "id": 155,
+    "text": "09 Oct: Dan wants aicoo to reply in Mandarin from now on.",
+    "day": 68,
+    "active": true
+   },
+   {
+    "id": 156,
+    "text": "09 Oct: Checklist updated with a row for webhook service URL swap.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 157,
+    "text": "09 Oct: Lunch at desk; debugged a minor CI cache issue with Sam, fixed in five minutes.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 158,
+    "text": "09 Oct: Tom's health check PR is up; will review after next meeting.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 159,
+    "text": "09 Oct: Review done; left two comments on error handling on Tom's health check PR; Tom will push fixes Monday.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 160,
+    "text": "09 Oct: No alerts; Ade is making reservations for dinner; feels good.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 161,
+    "text": "10 Oct: Saturday, no work; went for an easy 5k with Biscuit.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 162,
+    "text": "10 Oct: Ade and I are running errands; hardware store for a shelf bracket.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 163,
+    "text": "10 Oct: Biscuit learned 'roll over', taught by Ade with treats.",
+    "day": 70,
+    "active": true
+   },
+   {
+    "id": 164,
+    "text": "11 Oct: Teammate count is 5 engineers: me, Tom, Lena, Sam, David; Priya manages.",
+    "day": 80,
+    "active": true
+   },
+   {
+    "id": 165,
+    "text": "11 Oct: The team has grown from 3 to 4 since June.",
+    "day": 70,
+    "active": true
+   },
+   {
+    "id": 166,
+    "text": "11 Oct: Next sprint should focus solely on billing migration until cutover.",
+    "day": 70,
+    "active": false
+   },
+   {
+    "id": 167,
+    "text": "12 Oct: Biscuit's birthday is February 14.",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 168,
+    "text": "12 Oct: Ade wants a party for Biscuit's birthday. 16 Oct: Dan Okafor plans to attend biscuit's party where Ade is making a dog-friendly cake.",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 169,
+    "text": "12 Oct: Ade is set on baking a cake for Biscuit's birthday.",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 170,
+    "text": "13 Oct: Asheville trip booked from Oct 22 to 25, cabin near Blue Ridge.",
+    "day": 72,
+    "active": true
+   },
+   {
+    "id": 171,
+    "text": "13 Oct: Daniel 'Dan' Okafor's dog Biscuit weighs 42 lbs and is a healthy boy at the vet visit.",
+    "day": 72,
+    "active": true
+   },
+   {
+    "id": 172,
+    "text": "13 Oct: Dan pointed Sam to the escalation section of the on-call runbook.",
+    "day": 72,
+    "active": true
+   },
+   {
+    "id": 173,
+    "text": "14 Oct: Daniel 'Dan' Okafor has a pet that needs to keep up runs as per vet advice.",
+    "day": 73,
+    "active": true
+   },
+   {
+    "id": 174,
+    "text": "15 Oct: Dan resolved a flaky test (test_billing_webhook) that had been haunting him for weeks, reducing failure rate to 0%.",
+    "day": 74,
+    "active": true
+   },
+   {
+    "id": 175,
+    "text": "15 Oct: Dan went for a lunch run with Biscuit, enjoying nice weather.",
+    "day": 74,
+    "active": true
+   },
+   {
+    "id": 176,
+    "text": "15 Oct: Dan reviewed Sam's pull request and found it clean.",
+    "day": 74,
+    "active": true
+   },
+   {
+    "id": 177,
+    "text": "16 Oct: on-call handoff notes ready for Lena",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 178,
+    "text": "16 Oct: billing migration dry run #2 today",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 179,
+    "text": "15 Oct: 十一月十五日, 还有时间",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 180,
+    "text": "16 Oct: Dan Okafor passed dry run with no issues.",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 181,
+    "text": "16 Oct: Dan Okafor decided code review comments must start with priority: high, medium, or low.",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 182,
+    "text": "16 Oct: Dan Okafor's team agreed to the new code review standard.",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 183,
+    "text": "17 Oct: Tom's frontend refactor broke webhooks for the second time.",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 184,
+    "text": "17 Oct: Tom changed the payload format without updating the handler.",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 185,
+    "text": "17 Oct: I will help Tom debug after standup.",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 186,
+    "text": "17 Oct: The issue was found: a payload key was renamed.",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 187,
+    "text": "17 Oct: Tom is fixing an issue and promises to complete it today.",
+    "day": 77,
+    "active": true
+   },
+   {
+    "id": 188,
+    "text": "17 Oct: Tom says he needs an extra day to finish the fix.",
+    "day": 77,
+    "active": true
+   },
+   {
+    "id": 189,
+    "text": "18 Oct: Webhooks are still down, Tom is working on it.",
+    "day": 77,
+    "active": true
+   },
+   {
+    "id": 190,
+    "text": "18 Oct: Daniel 'Dan' Okafor said he must complete the task by today.",
+    "day": 77,
+    "active": true
+   },
+   {
+    "id": 191,
+    "text": "Dan has a pending pull request for billing migration dry run results, waiting for Sam's review.",
+    "day": 78,
+    "active": true
+   },
+   {
+    "id": 192,
+    "text": "20 Oct: Billing migration dry run report was merged and final run is planned for next week.",
+    "day": 79,
+    "active": true
+   },
+   {
+    "id": 193,
+    "text": "20 Oct: Tom adopted a stray cat named Pixel.",
+    "day": 79,
+    "active": true
+   },
+   {
+    "id": 194,
+    "text": "21 Oct: Priya wants to rebalance the on-call rotation; Dan will draft a proposal.",
+    "day": 80,
+    "active": false
+   },
+   {
+    "id": 195,
+    "text": "21 Oct: Dan sent on-call rotation proposal to Priya: 4 engineers per week, David starts after his first sprint. Priya approved his rotation starting November 1.",
+    "day": 81,
+    "active": true
+   },
+   {
+    "id": 196,
+    "text": "22 Oct: Stripe webhook monitor is quiet, no alerts.",
+    "day": 82,
+    "active": true
+   },
+   {
+    "id": 197,
+    "text": "22 Oct: Tom's refactor is holding up.",
+    "day": 82,
+    "active": true
+   },
+   {
+    "id": 198,
+    "text": "22 Oct: Going home early to take a nap.",
+    "day": 82,
+    "active": true
+   },
+   {
+    "id": 199,
+    "text": "23 Oct: Feeling better; Biscuit slept through the night.",
+    "day": 82,
+    "active": true
+   },
+   {
+    "id": 200,
+    "text": "23 Oct: Sprint planning today with 23 points committed.",
+    "day": 82,
+    "active": true
+   },
+   {
+    "id": 201,
+    "text": "23 Oct: Daniel said '23 points. ambitious but doable.' referring to the sprint planning with 23 points committed.",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 202,
+    "text": "23 Oct: Daniel told aicoo that his colleague Sam had their first solo deploy and nailed it.",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 203,
+    "text": "23 Oct: Daniel told aicoo that David had his first code review, Tom reviewed it, and it was a solid first PR.",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 204,
+    "text": "23 Oct: Daniel said that he and Ade are going for a run together after wrapping up work.",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 205,
+    "text": "24 Oct: Daniel said it is rainy and there is no run today.",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 206,
+    "text": "24 Oct: Database migration is next Wednesday at 2am EST and Dan is on call.",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 207,
+    "text": "24 Oct: Dan needs to prepare the rollback plan today.",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 208,
+    "text": "24 Oct: Rollback plan written and shared with Priya and Sam.",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 209,
+    "text": "24 Oct: Priya approved the rollback plan and wants a dry run on Monday night.",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 210,
+    "text": "25 Oct: Dan Okafor was called 'Dan the builder' by aicoo.",
+    "day": 84,
+    "active": true
+   },
+   {
+    "id": 211,
+    "text": "25 Oct: Dan Okafor sent the runbook for a migration on next Wednesday to Sam.",
+    "day": 84,
+    "active": true
+   },
+   {
+    "id": 212,
+    "text": "26 Oct: Sam asked about Stripe webhook retry logic; Daniel sent him the doc.",
+    "day": 85,
+    "active": true
+   },
+   {
+    "id": 213,
+    "text": "26 Oct: Priya wants the cutover checklist ready by Friday.",
+    "day": 85,
+    "active": true
+   },
+   {
+    "id": 214,
+    "text": "26 Oct: One alert at 3am was a false positive.",
+    "day": 85,
+    "active": true
+   },
+   {
+    "id": 215,
+    "text": "27 Oct: Ade's sister is having a baby due in March, and they want a labrador.",
+    "day": 86,
+    "active": true
+   },
+   {
+    "id": 216,
+    "text": "27 Oct: Biscuit will have a cousin, but Dan is unsure how Biscuit will handle a puppy.",
+    "day": 86,
+    "active": true
+   },
+   {
+    "id": 217,
+    "text": "28 Oct: Dan told aicoo that Priya asked about dry run results and he told her they were clean.",
+    "day": 87,
+    "active": true
+   },
+   {
+    "id": 218,
+    "text": "28 Oct: Dan is not ready to foster another dog because Ade wants to.",
+    "day": 88,
+    "active": true
+   },
+   {
+    "id": 219,
+    "text": "28 Oct: Dan thinks Biscuit is enough for now.",
+    "day": 88,
+    "active": true
+   },
+   {
+    "id": 220,
+    "text": "28 Oct: Ade picked a costume theme but won't tell Dan—says it's a surprise.",
+    "day": 88,
+    "active": true
+   },
+   {
+    "id": 221,
+    "text": "29 Oct: Sam showed Dan his DBT models, which Dan considers clean code.",
+    "day": 88,
+    "active": true
+   },
+   {
+    "id": 222,
+    "text": "30 Oct: Daniel plans to go to the farmers market with Ade on Saturday.",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 223,
+    "text": "30 Oct: Ade bought a pumpkin and wants to carve it tonight.",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 224,
+    "text": "30 Oct: Daniel wants to avoid work talk on Saturday.",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 225,
+    "text": "30 Oct: Daniel's dog Biscuit loves the apple stand and tries to steal apples.",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 226,
+    "text": "30 Oct: The pumpkin is carved, and Biscuit tried to eat the seeds.",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 227,
+    "text": "31 Oct: Dan is going as butter for Halloween, with Ade as toast and Biscuit in a bacon costume.",
+    "day": 90,
+    "active": true
+   }
+  ],
+  "next": 228,
+  "lastAt": 130270,
+  "writes": 104
+ },
+ "lastDay": 90,
+ "done": true,
+ "minutes": 5.766933333333333
+}

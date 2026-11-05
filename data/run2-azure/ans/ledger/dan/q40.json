@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "when is tom's PTO?",
+ "reply": [
+  "I don't have Tom's PTO dates in memory. Want me to check your chat for any mention of it?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "tom PTO vacation"
+   },
+   "result": "[34] 09 Aug · fact: priya's taking PTO aug 24-28  (from #56)\n[140] 31 Aug · fact: lena's pto is oct 5-9 for a wedding  (from #243)\n[194] 14 Sep · fact: Tom's dog is named Waffles  (from #331)\n[397] 18 Oct · fact: tom working on the fix now  (from #681)\n[398] 18 Oct · promise: tom promised to fix it today  (from #682)\n[401] 18 Oct · fact: webhooks still down, tom is on it  (from #687)\n[87] 18 Aug · fact: billing pr is up, tom is reviewing  (from #146)\n[287] 03 Oct · done: tom's stripe service reviewed and merged  (from #519)\n[317] 06 Oct · done: tom's webhook service pr merged  (from #563)\n[325"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3063,
+   "out": 22,
+   "usd": 0.000151486
+  },
+  {
+   "in": 3331,
+   "out": 30,
+   "usd": 0.000212246
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10783
+}

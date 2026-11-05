@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly answered with 4 environments, matching the required count from the user's chat logs.",
+ "rule": null
+}

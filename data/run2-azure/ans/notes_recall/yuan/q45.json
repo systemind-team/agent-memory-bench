@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "实验室那8张H100 GPU是什么时候到货的？",
+ "reply": [
+  "9月29号Kevin说系里买了8张H100，当时说申请的人很多让你尽快。你10月2号签了申请，排实验室第一个。",
+  "但具体的到货时间，我之前没记下来。要我查一下你之前的聊天记录或者邮件吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "H100 到货 8张 实验室"
+   },
+   "result": "[实验室] 02 Oct: 下午Prof. Lin meeting, 他对paper很满意，建议投ICLR，H100申请已签（排实验室第一个）；晚上组会，Kevin和Mei给建议但整体认可；03 Oct: 开始打包ICLR submission（之前29 Sep Kevin说系里买了H100共8张，需尽快申请）；06 Oct: 组会改至11:00，Prof. Lin建议Habitat加visual grounding模块\n[实验室] 25 Sep 组会结束，Prof. Lin对讨论方向满意；提到年底San Diego workshop；29 Sep Kevin说系里买了H100共8张，申请的人很多，需尽快申请\n[人物] 16 Sep GPTR跑出正常结果，正在与其他baseline对比；17 Sep Mei说GPTR结果比她预期的好；29 Sep Kevin说系里买了H100共8张，需尽快申请\n[个人] 29 Sep: full pipeline跑完无bug，开始改introduction；29 Sep: 收到Prof. Lin comments，contribution聚焦hierarchical planning和context-awareness；用GPT3 planning failure案例重写开头；contribution改为三个点：结构化分解、attention机制、"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4381,
+   "out": 28,
+   "usd": 0.000385802
+  },
+  {
+   "in": 5157,
+   "out": 66,
+   "usd": 0.000340922
+  }
+ ],
+ "memChars": 6903,
+ "promptChars": 11257
+}

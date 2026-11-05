@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant asks to see the code instead of providing a review with priority levels as the user's previously stated preference requires.",
+ "rule": false
+}

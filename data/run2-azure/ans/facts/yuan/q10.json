@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "Dr. Chen入职是哪天？",
+ "reply": [
+  "Dr. Chen是明天（11月3日，周二）入职哦。",
+  "明早10:00已经设好了提醒带他熟悉环境，GPU集群、存储、代码仓库那些都准备好了。你今天是想再确认一下安排，还是有别的要调整？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Dr. Chen 入职 日期"
+   },
+   "result": "- 30 Oct: aicoo提示下周Dr. Chen入职后可能会更忙。\n- 21 Oct: Dr. Chen入职定在11月3号，Lin让周予安带他熟悉环境。29 Oct: 周予安告知Dr. Chen于11月3日（下周二）入职。31 Oct: 周予安记得提醒带Dr. Chen熟悉环境。\n- 29 Oct: 上午整理实验表格，下午准备周一meeting材料。周一meeting要讨论论文投稿时间和Dr. Chen入职的事。\n- 29 Oct: 周予安指示先不用准备Dr. Chen的onboarding checklist，等Prof. Lin安排。\n- 19 Sep: 需要设置两个提醒：Facebook 截止日期为10月31日前两周，NSF 截止日期为11月15日前两周。\n- 05 Aug: 今天申请了一个fellowship的截止日期是下个月，得赶紧写材料。\n- San Diego workshop（Workshop on Hierarchical Decision Making）的submission deadline是12月1日，通知日期11月1日。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1495,
+   "out": 25,
+   "usd": 0.000190478
+  },
+  {
+   "in": 1761,
+   "out": 62,
+   "usd": 0.00017541
+  }
+ ],
+ "memChars": 376,
+ "promptChars": 4663
+}

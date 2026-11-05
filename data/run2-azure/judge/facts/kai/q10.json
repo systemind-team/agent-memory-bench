@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It states the initial value was $800K, which matches the required fact from the chat.",
+ "rule": null
+}

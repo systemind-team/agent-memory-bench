@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q12",
+ "kind": "update",
+ "q": "Pricing launch date最后定在什么时候了，Ben改了好几次？",
+ "reply": [
+  "凯哥，pricing launch最终定在12月1日。10月27日和Ben sync过新timeline，10月30日Ben也确认了12/1 launch，A/B测试会持续到11月3日。下周一的10:30 meeting就是和Grace、Ben一起做final launch decision。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5081,
+   "out": 73,
+   "usd": 0.000237234
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14922
+}

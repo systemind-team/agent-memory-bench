@@ -1,0 +1,20 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "Ben的hiring budget是多少? 上次好像聊过.",
+ "reply": [
+  "凯哥，之前没记过Ben的具体hiring budget数字。你之前聊的是SEA expansion的headcount——新加坡要招10个人，但那个是明年Q1的事，还没定具体budget。Ben自己团队的budget我没看到记录。你要我现在查一下聊天记录还是你先告诉我去哪里找？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5102,
+   "out": 74,
+   "usd": 0.00005516728
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14913
+}

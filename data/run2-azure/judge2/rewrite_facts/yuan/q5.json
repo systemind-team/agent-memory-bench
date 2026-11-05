@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "用户明确问的是第一个fellowship截止日，对话记录中11月15号被多次提及为第一个fellowship截止日，但回复未给出该日期，而是错误地提供了Facebook的12月20号。",
+ "first": "wrong",
+ "rule": null
+}

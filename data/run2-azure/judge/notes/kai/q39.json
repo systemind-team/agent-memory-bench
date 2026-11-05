@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "the reply groups feedback by survey source rather than by feature as the user's preference requires.",
+ "rule": false
+}

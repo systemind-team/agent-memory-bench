@@ -1,0 +1,20 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "我这学期TA的课号是多少？",
+ "reply": [
+  "这学期你是CS 4701的TA，Artificial Intelligence课，每周三15:00的office hour。需要我调出这门课的具体安排吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 6878,
+   "out": 40,
+   "usd": 0.00006630792
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16037
+}

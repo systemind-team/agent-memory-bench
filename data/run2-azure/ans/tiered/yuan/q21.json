@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q21",
+ "kind": "update",
+ "q": "论文标题最初叫什么？",
+ "reply": [
+  "以前叫过好几次，最初是 'Hierarchical Planning with Graph Attention'（8月20号定的），中间改成过 'Context-Aware Hierarchical Planning for LLMs'（9月13号），最后才是现在的 'Context-Aware Planning via Hierarchical Decomposition'。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 6852,
+   "out": 65,
+   "usd": 0.000283896
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16034
+}

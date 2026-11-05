@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "Ravi那个integration本来due Sep 15，最后哪天go live的？",
+ "reply": [
+  "凯哥，Ravi的integration最后是9月22号go live的。虽然比原计划晚了一周，但上线后很顺利，Ravi说系统稳定，没有major bug。后来10月中性能又优化了30%。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13226,
+   "out": 51,
+   "usd": 0.00015031744
+  }
+ ],
+ "memChars": 47375,
+ "promptChars": 52105
+}

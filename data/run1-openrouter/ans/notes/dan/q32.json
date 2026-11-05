@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "早上好 Dan。万圣节快乐（过了一点点）。你们 toast 和 butter 的装扮肯定很出彩吧，Biscuit 的小培根装有没有被偷吃？",
+  "这周的重点是确认 cutover 清单上的 rollback 步骤，还有 stripe 的 v2 审查。电池你提过要这周下单，别忘了。今天有计划跑一跑吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2510,
+   "out": 91,
+   "usd": 0.00003446128
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9065
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+ "reply": [
+  "凯哥周日好！这周挺满的，我帮你梳理一下：\n\n**周一（11月2日）最重头：**\n1. **10:00** - pricing review prep\n2. **10:30-11:00** - 跟Grace和Ben的pricing launch decision meeting（12/1 launch确认+A/B结果review）\n3. 跟Grace确认**SEA expansion headcount approval timeline**\n4. 跟Ravi确认**integration final timeline**\n5. **Emily的weekly check-in**\n\n**还有几件事：**\n- 找Lily要**Aurora的quote** + 找Omar要**Singapore两个大客户的quote**，用来补Grace要的customer testimonial section\n- 那个**JD for Singapore expansion**我答应你周五前draft，今天或明天可以给你first version\n- 如果Ravi那边integration timeline确认了，记得跟他确认dark mode toggle v1的ship date\n\n另外，你父亲情况稳定了，女儿Halloween也玩得开心，这周开局心情应该不错。周一早上别忘了先问问家里情况。有什么要我先准备的？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5106,
+   "out": 239,
+   "usd": 0.00006872768
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14933
+}

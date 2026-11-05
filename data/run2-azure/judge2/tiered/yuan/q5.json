@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant says first deadline is Facebook 12月20日, but chat shows the first fellowship deadline is 11月15日 (NSF and originally stated in multiple messages).",
+ "first": "wrong",
+ "rule": null
+}

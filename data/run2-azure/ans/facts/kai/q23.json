@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "PM candidate我们interview了几个人，分别是谁，最后hire了谁？",
+ "reply": [
+  "凯哥，PM候选人你面试了5位：Jason Chen（8年，进入下一轮）、Michael Liu（10年，前Microsoft）、王磊（7年SaaS，沟通不错）、Sarah Wu（背景不错），还有一位周五面试的（名字没记下来）。",
+  "最后hire的是Emily。她已经完成了第一周入职，对roadmap有贡献，还发了backlog proposal，思路很清晰。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "PM candidate interview hire"
+   },
+   "result": "- 01 Sep: Next PM candidate interview on Friday.\n- 15 Sep: Third PM candidate Michael Liu interviewed, 10 years, ex-Microsoft.\n- 01 Sep: New PM candidate Jason Chen interviewed, 8 years exp, moving to next round.\n- 22 Sep: 面试了final PM candidate王磊, 7年SaaS, 沟通不错。\n- 22 Sep: 今天跟Ben review pricing launch checklist, 下午面试PM final candidate。\n- 16 Oct: Met fourth PM candidate Sarah Wu, but we already hired Emily, Sarah背景不错以后可以考虑。\n- 05 Sep: Ravi的新hire start date delayed to Nov 15。\n- 29 Oct: Singapore office expansion approved, 明年Q1 start, 需要hire 10 more\n- 20 Aug: 早上查看了今天customer interview的notes。\n- 19 Au"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1730,
+   "out": 22,
+   "usd": 0.000238148
+  },
+  {
+   "in": 1958,
+   "out": 94,
+   "usd": 0.000326348
+  }
+ ],
+ "memChars": 815,
+ "promptChars": 5486
+}

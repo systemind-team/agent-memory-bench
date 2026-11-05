@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "Aurora那个客户全名叫什么，我老怕写错。",
+ "reply": [
+  "Aurora Health，全名就这个——Aurora Health 没有别的缩写或扩展名。你笔记里一直用的都是一致的，放心。",
+  "要不要我周一提醒你跟Lily要她的quote？她应该有客户那边的正式联络人姓名。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Aurora Health customer name"
+   },
+   "result": "[about-me] 13 Oct: Customer call with Aurora Health went well; custom module timeline confirmed Q1 2027.\n[aurora-initial-requirements] 10 Aug: Lily sent Aurora Health initial requirements; Kai noted they are complex\n[about-me] 30 Aug: Aurora legal signed! Deal closed $800K, official announcement next Monday. 02 Sep: Lily confirmed deal closed; Aurora Health signed $800K Q3.\n[about-me] 28 Sep: Lily sent Aurora onboarding docs; customer seems happy, Lily handling well.\n[enterprise-deal-omar] 29 Aug: Lily said legal review almost done; expects to sign next Monday. 02 Sep: Lily confirmed deal clos"
+  }
+ ],
+ "calls": [
+  {
+   "in": 13205,
+   "out": 24,
+   "usd": 0.000632762
+  },
+  {
+   "in": 13632,
+   "out": 61,
+   "usd": 0.000743152
+  }
+ ],
+ "memChars": 47239,
+ "promptChars": 51948
+}

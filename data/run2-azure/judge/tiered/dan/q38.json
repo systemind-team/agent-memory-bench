@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant's reply structures the notes with action items first, following the user's stated preference from the chat.",
+ "rule": true
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claimed no final lift number existed and that results were pending, but the chat confirms the 23% conversion lift was shared on Aug 9 and reaffirmed multiple times.",
+ "first": "wrong",
+ "rule": null
+}

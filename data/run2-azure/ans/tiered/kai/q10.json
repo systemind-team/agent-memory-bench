@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "Aurora deal最初是多少value来着，我印象中后来加了custom模块涨了。",
+ "reply": [
+  "凯哥好！Aurora deal最初是$800K，八月下旬签的。后来客户要求加custom module，九月push back到Q4 close，value涨到$950K。周四你确认加了$50K add-on，所以现在是$950K total，Q4 close。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8797,
+   "out": 69,
+   "usd": 0.000327994
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26053
+}

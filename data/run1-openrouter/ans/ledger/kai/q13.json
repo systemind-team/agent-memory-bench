@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q13",
+ "kind": "update",
+ "q": "Pricing最初是多少，Ben第一次propose的。",
+ "reply": [
+  "Ben最初propose的pricing是$44/user/month，当时你们讨论了之后决定先做A/B test，后来8% conversion lift confirm了，premium tier take rate也比预期高。上周四你和他confirm了12月1日launch，A/B test继续到11月3日。",
+  "你周一10:30和Grace还有Ben一起做final launch decision meeting，这个时间点和数据应该够用了。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5100,
+   "out": 97,
+   "usd": 0.00005695368
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14912
+}

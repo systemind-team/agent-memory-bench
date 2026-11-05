@@ -1,0 +1,72 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "how many times did the cutover date move? list them.",
+ "reply": [
+  "好吧, 我来理一下时间线。从 notes 里看, 它挪了三次:",
+  "1. 最初是 Nov 5 → 挪到 Nov 15 (Sep 8 条目里提的)\n2. Nov 15 → 挪到 Oct 12 (Sep 18 条目: billing-split 里写的)\n3. Oct 12 → 后来又挪了? Oct 25 条目说 dry run 从 Oct 12 挪到 Oct 26 那一周, 但 Oct 19 的 billing-split 说 still Oct 12。有点矛盾。",
+  "我找到明确的三次: Nov 5→Nov 15, Nov 15→Oct 12, 然后 Oct 12 那周变成了 Oct 28 凌晨做数据库迁移。最后一次不算 cutover 日期本身变了, 而是执行日期。所以正式 cutover 日期确认挪了两次。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "cutover moved date"
+   },
+   "result": "[billing-split] 18 Sep: cutover moved to Oct 12 (was Nov 15)\n[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[billing-migration] 26 Oct: Priya wants cutover checklist ready by Friday (moved from previous generic checklist); 28 Oct: database migration Wednesday Oct 28 2am EST completed; dry run clean per Priya check\n[billing-split] cutover possibly moving again, waiting on legal (Priya mentioned)\n[billing-migration] 09 Oct: Priya asked about cutover checklist; Dan will update it this morning\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; n"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "billing cutover date moved"
+   },
+   "result": "[billing-split] 18 Sep: cutover moved to Oct 12 (was Nov 15)\n[billing-split] 19 Oct: Priya confirmed billing cutover still Oct 12 (was Oct 26)\n[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[billing-migration] 08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushback; later moved to Oct 12 per Priya (was 28 Aug: migration incident on Tuesday; dropped column `billing_status` instead of renaming; rolled back; Lena caught before prod sync; post-mortem done, root cause: wrong migration file ran)\n[billing-migration] 26 Oct: Priya wants cutover checklist "
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "cutover date moved to"
+   },
+   "result": "[billing-split] 18 Sep: cutover moved to Oct 12 (was Nov 15)\n[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[billing-migration] 26 Oct: Priya wants cutover checklist ready by Friday (moved from previous generic checklist); 28 Oct: database migration Wednesday Oct 28 2am EST completed; dry run clean per Priya check\n[billing-split] cutover possibly moving again, waiting on legal (Priya mentioned)\n[billing-migration] 09 Oct: Priya asked about cutover checklist; Dan will update it this morning\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; n"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "billing migration cutover date"
+   },
+   "result": "[billing-migration] 03 Aug: PR submitted for billing migration; aicoo reviewing\n[billing-split] 19 Oct: Priya confirmed billing cutover still Oct 12 (was Oct 26)\n[candidate-david-chen] 28 Oct: David merged his second PR, a billing migration helper\n[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[billing-migration] 08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushback; later moved to Oct 12 per Priya (was 28 Aug: migration incident on Tuesday; dropped column `billing_status` instead of renaming; rolled back; Lena caught before prod sync; post-mort"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2830,
+   "out": 22,
+   "usd": 0.000240028
+  },
+  {
+   "in": 3141,
+   "out": 24,
+   "usd": 0.000168986
+  },
+  {
+   "in": 3511,
+   "out": 23,
+   "usd": 0.000200302
+  },
+  {
+   "in": 3823,
+   "out": 24,
+   "usd": 0.000220558
+  },
+  {
+   "in": 4234,
+   "out": 203,
+   "usd": 0.00031546
+  }
+ ],
+ "memChars": 5681,
+ "promptChars": 10257
+}

@@ -1,0 +1,578 @@
+{
+ "events": [
+  {
+   "id": "e119",
+   "day": 6,
+   "time": "09:30",
+   "who": "u",
+   "text": "下周三提醒我给阿杰发薪资确认邮件",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e120",
+   "day": 6,
+   "time": "09:31",
+   "who": "a",
+   "text": "好的，下周三提醒你发薪资确认邮件给阿杰",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e121",
+   "day": 18,
+   "time": "14:00",
+   "who": "u",
+   "text": "阿杰的薪资确认邮件发过了，不用再提醒",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e122",
+   "day": 24,
+   "time": "10:30",
+   "who": "u",
+   "text": "9月1号提醒我确认大伟入职手续",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e123",
+   "day": 24,
+   "time": "10:31",
+   "who": "a",
+   "text": "记住了，9月1号提醒你确认大伟入职手续",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e124",
+   "day": 32,
+   "time": "09:00",
+   "who": "u",
+   "text": "大伟入职手续都办妥了，那个提醒可以取消",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e125",
+   "day": 40,
+   "time": "11:00",
+   "who": "u",
+   "text": "10月8号提醒我跟红杉开会",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e126",
+   "day": 40,
+   "time": "11:01",
+   "who": "a",
+   "text": "好，10月8号提醒你与红杉会议",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e127",
+   "day": 58,
+   "time": "15:30",
+   "who": "u",
+   "text": "10月15号提醒我确认蓝驰第二笔款到账",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e128",
+   "day": 58,
+   "time": "15:31",
+   "who": "a",
+   "text": "明白，10月15号提醒你确认蓝驰第二笔款",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e129",
+   "day": 76,
+   "time": "09:00",
+   "who": "u",
+   "text": "11月1号提醒我做季度复盘",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e130",
+   "day": 76,
+   "time": "09:01",
+   "who": "a",
+   "text": "好的，11月1号提醒你做季度复盘",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e131",
+   "day": 22,
+   "time": "09:00",
+   "who": "u",
+   "text": "以后叫我陈默吧，别用全名",
+   "kind": "ask"
+  },
+  {
+   "id": "e132",
+   "day": 22,
+   "time": "09:01",
+   "who": "a",
+   "text": "好的陈默，以后就这样称呼你",
+   "kind": "ask"
+  },
+  {
+   "id": "e133",
+   "day": 35,
+   "time": "10:00",
+   "who": "u",
+   "text": "回复里不要用感叹号，太闹了",
+   "kind": "ask"
+  },
+  {
+   "id": "e134",
+   "day": 35,
+   "time": "10:01",
+   "who": "a",
+   "text": "明白，以后回复不加感叹号",
+   "kind": "ask"
+  },
+  {
+   "id": "e135",
+   "day": 50,
+   "time": "14:00",
+   "who": "u",
+   "text": "你别发贴图了，省点流量",
+   "kind": "ask"
+  },
+  {
+   "id": "e136",
+   "day": 50,
+   "time": "14:01",
+   "who": "a",
+   "text": "好的，以后不发贴图",
+   "kind": "ask"
+  },
+  {
+   "id": "e137",
+   "day": 68,
+   "time": "09:00",
+   "who": "u",
+   "text": "以后跟我说英文吧，练练",
+   "kind": "ask"
+  },
+  {
+   "id": "e138",
+   "day": 68,
+   "time": "09:01",
+   "who": "a",
+   "text": "Sure, I'll reply in English from now on.",
+   "kind": "ask"
+  },
+  {
+   "id": "e139",
+   "day": 12,
+   "time": "11:00",
+   "who": "u",
+   "text": "以后周报里加一段「本周风险」，放在最后",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e140",
+   "day": 30,
+   "time": "15:00",
+   "who": "u",
+   "text": "PR描述最后必须加一个Risk部分",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e141",
+   "day": 48,
+   "time": "10:00",
+   "who": "u",
+   "text": "以后给我发的消息，每段用空行隔开",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e142",
+   "day": 72,
+   "time": "14:00",
+   "who": "u",
+   "text": "项目总结开头先写「核心结论」",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e143",
+   "day": 4,
+   "time": "16:00",
+   "who": "u",
+   "text": "阿杰8月10号到15号休假",
+   "kind": "noise"
+  },
+  {
+   "id": "e144",
+   "day": 46,
+   "time": "09:00",
+   "who": "u",
+   "text": "小雨下周请年假，9月14号到18号",
+   "kind": "noise"
+  },
+  {
+   "id": "e145",
+   "day": 60,
+   "time": "11:00",
+   "who": "u",
+   "text": "Mia申请10月5号到9号去日本采风",
+   "kind": "noise"
+  },
+  {
+   "id": "e146",
+   "day": 82,
+   "time": "10:00",
+   "who": "u",
+   "text": "大伟元旦要连休，12月28号到1月3号",
+   "kind": "noise"
+  },
+  {
+   "id": "e147",
+   "day": 8,
+   "time": "15:00",
+   "who": "u",
+   "text": "阿杰的MacBook Pro 15寸，预算改成1万8",
+   "kind": "noise"
+  },
+  {
+   "id": "e148",
+   "day": 38,
+   "time": "09:00",
+   "who": "u",
+   "text": "蓝驰尽调还要看我们团队背景，阿杰简历更新了",
+   "kind": "noise"
+  },
+  {
+   "id": "e149",
+   "day": 52,
+   "time": "14:00",
+   "who": "u",
+   "text": "红杉的会改到10月20号了",
+   "kind": "noise"
+  },
+  {
+   "id": "e150",
+   "day": 74,
+   "time": "09:00",
+   "who": "u",
+   "text": "阿里云成本优化了，下个月账单预计降到5万",
+   "kind": "noise"
+  },
+  {
+   "id": "e151",
+   "day": 86,
+   "time": "11:00",
+   "who": "u",
+   "text": "崇明 offsite 预算批了，人均800",
+   "kind": "noise"
+  },
+  {
+   "id": "e152",
+   "day": 16,
+   "time": "14:00",
+   "who": "u",
+   "text": "给Mia配个手绘板，预算2千",
+   "kind": "noise"
+  },
+  {
+   "id": "e153",
+   "day": 44,
+   "time": "10:00",
+   "who": "u",
+   "text": "晨检用户反馈 iOS 闪退，阿杰在查",
+   "kind": "noise"
+  },
+  {
+   "id": "e154",
+   "day": 62,
+   "time": "15:00",
+   "who": "u",
+   "text": "凯旋路驿站合作方案要调整，分成比例提到15%",
+   "kind": "noise"
+  },
+  {
+   "id": "e155",
+   "day": 84,
+   "time": "09:00",
+   "who": "u",
+   "text": "徐汇驿站首月流水破5万，大伟厉害",
+   "kind": "noise"
+  },
+  {
+   "id": "e156",
+   "day": 20,
+   "time": "16:00",
+   "who": "u",
+   "text": "成都合作方改期了，推到10月对接",
+   "kind": "noise"
+  },
+  {
+   "id": "e157",
+   "day": 64,
+   "time": "11:00",
+   "who": "u",
+   "text": "商标代理费多收了2千，要退",
+   "kind": "noise"
+  },
+  {
+   "id": "e158",
+   "day": 86,
+   "time": "14:00",
+   "who": "u",
+   "text": "蓝驰合伙人想约下周复盘，但我推到11月了",
+   "kind": "noise"
+  },
+  {
+   "id": "e159",
+   "day": 10,
+   "time": "15:00",
+   "who": "u",
+   "text": "静安寺办公室押金付了6万6",
+   "kind": "noise"
+  },
+  {
+   "id": "e160",
+   "day": 26,
+   "time": "14:00",
+   "who": "u",
+   "text": "长宁办公室签了两年，免租期一个月",
+   "kind": "noise"
+  },
+  {
+   "id": "e161",
+   "day": 42,
+   "time": "09:00",
+   "who": "u",
+   "text": "健康管理师协会要求我们先付保证金5千",
+   "kind": "noise"
+  },
+  {
+   "id": "e162",
+   "day": 68,
+   "time": "15:00",
+   "who": "u",
+   "text": "成都合作订单量预测下月冲500单",
+   "kind": "noise"
+  }
+ ],
+ "probes": [
+  {
+   "id": "q27",
+   "kind": "open_loop",
+   "q": "我10月8号跟红杉的会，提醒还开着吗？",
+   "gold": "是，还开着，没有关闭记录",
+   "evidence": [
+    "e125",
+    "e126"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q28",
+   "kind": "open_loop",
+   "q": "那个10月15号确认蓝驰款的事，处理了吗？",
+   "gold": "是，10月15号的提醒还开着，没找到关闭的记录",
+   "evidence": [
+    "e127",
+    "e128"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q29",
+   "kind": "open_loop",
+   "q": "大伟入职手续的提醒，后来怎么样了？",
+   "gold": "已关闭，在第32天你确认办妥，提醒取消了",
+   "evidence": [
+    "e122",
+    "e123",
+    "e124"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q30",
+   "kind": "open_loop",
+   "q": "给我阿杰薪资确认那个提醒，还有吗？",
+   "gold": "已关闭，在第18天你说发过邮件不用再提醒",
+   "evidence": [
+    "e119",
+    "e120",
+    "e121"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q31",
+   "kind": "open_loop",
+   "q": "11月1号季度复盘提醒，还没关吧？",
+   "gold": "是，还开着，找不到关闭事件",
+   "evidence": [
+    "e129",
+    "e130"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q32",
+   "kind": "ask",
+   "q": "早，这周怎么安排？",
+   "gold": "回答中应使用「陈默」称呼我",
+   "check": {
+    "mention": "陈默"
+   },
+   "evidence": [
+    "e131",
+    "e132"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q33",
+   "kind": "ask",
+   "q": "早啊，汇报下今天待办",
+   "gold": "回答中不应出现感叹号",
+   "check": {
+    "noBang": true
+   },
+   "evidence": [
+    "e133",
+    "e134"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q34",
+   "kind": "ask",
+   "q": "morning, what's on my plate today?",
+   "gold": "应用英文回复",
+   "check": {
+    "lang": "en"
+   },
+   "evidence": [
+    "e137",
+    "e138"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q35",
+   "kind": "ask",
+   "q": "嗨，今天有什么消息？",
+   "gold": "回答中不应有贴图",
+   "check": {
+    "noSticker": true
+   },
+   "evidence": [
+    "e135",
+    "e136"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q36",
+   "kind": "pref_apply",
+   "q": "帮我写个周报草稿",
+   "gold": "周报草稿应包含「本周风险」部分",
+   "check": {
+    "mention": "本周风险"
+   },
+   "evidence": [
+    "e139"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q37",
+   "kind": "pref_apply",
+   "q": "给他们写个PR描述，关于晨检更新",
+   "gold": "PR描述应包含Risk部分",
+   "check": {
+    "mention": "Risk"
+   },
+   "evidence": [
+    "e140"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q38",
+   "kind": "pref_apply",
+   "q": "给我发段晨检上线里程碑的总结",
+   "gold": "总结应以「核心结论」开头",
+   "check": {
+    "mention": "核心结论"
+   },
+   "evidence": [
+    "e142"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q39",
+   "kind": "pref_apply",
+   "q": "把今天重点列一下发我",
+   "gold": "消息应用空行隔开段落",
+   "check": {
+    "noBullets": false,
+    "mention": "\\n\\n"
+   },
+   "evidence": [
+    "e141"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q40",
+   "kind": "abstain",
+   "q": "Mia的休假是什么时候来着？",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "forbid": "Mia.*休假|休假.*Mia",
+   "evidence": [],
+   "stale": []
+  },
+  {
+   "id": "q41",
+   "kind": "abstain",
+   "q": "小雨的休假日期记得吗？",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "forbid": "小雨.*休假|休假.*14号|小雨.*9月18",
+   "evidence": [],
+   "stale": []
+  },
+  {
+   "id": "q42",
+   "kind": "abstain",
+   "q": "大伟电脑是什么型号？",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "forbid": "大伟.*电脑|大伟.*Mac",
+   "evidence": [],
+   "stale": []
+  },
+  {
+   "id": "q43",
+   "kind": "abstain",
+   "q": "阿杰去日本是几号？",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "forbid": "阿杰.*日本",
+   "evidence": [],
+   "stale": []
+  },
+  {
+   "id": "q44",
+   "kind": "abstain",
+   "q": "大伟最近在忙什么项目？",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "forbid": "大伟.*项目|项目.*大伟",
+   "evidence": [],
+   "stale": []
+  },
+  {
+   "id": "q45",
+   "kind": "abstain",
+   "q": "蓝驰第二笔是几号到的？",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "forbid": "蓝驰第二笔.*号|第二笔.*日期",
+   "evidence": [],
+   "stale": []
+  }
+ ]
+}

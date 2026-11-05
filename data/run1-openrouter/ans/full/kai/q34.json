@@ -1,0 +1,22 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "Hey aicoo, 今天有啥好消息?",
+ "reply": [
+  "凯哥周日好！今天好消息不少：昨天pricing A/B final数据出来，8% conversion lift confirmed，Ben建议12/1直接上v3定价不用再测了。另外dark mode toggle beta满意度92%，Yuki有点失望但同意先ship manual toggle v1，不耽误pricing launch timeline。你父亲今天早上血压也正常了吧？",
+  "周一有三件大事：10:00 pricing review prep（从周五移过来的），10:30跟Grace和Ben的pricing launch decision meeting，顺便跟Grace对齐SEA expansion headcount approval timeline。另外记得找Lily要Aurora的customer testimonial quote，Grace想在Q3 summary里加一栏。",
+  "今天天气不错，带家人出去走走吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 36338,
+   "out": 165,
+   "usd": 0.00031632272
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91590
+}

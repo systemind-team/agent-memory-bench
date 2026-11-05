@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant provided a prose summary with bold headers instead of bullet points with timestamps as the user explicitly requested on Fri 04 Sep.",
+ "rule": false
+}

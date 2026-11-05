@@ -1,0 +1,83 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q14",
+ "kind": "update",
+ "q": "who was the second candidate for data eng?",
+ "reply": [
+  "Jordan Liu — ex-Spotify data engineer, did a strong take-home back in August. Ended up not getting the offer though; David Chen was the one you hired.",
+  "Why's that coming up now?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "second candidate data engineer data eng"
+   },
+   "result": "- 21 Aug: A new candidate, Jordan Liu, formerly a data engineer at Spotify, has a good take-home.\n- 17 Aug: Dan started sketching a new interview rubric for data engineer with more SQL focus.\n- 17 Oct: Tom's frontend refactor broke webhooks for the second time.\n- 07 Sep: Candidate three is David Chen, a contractor at DoorDash who knows dbt.\n- 06 Aug: One customer's data still out of sync due to last week's migration incident.\n- 28 Aug: Daniel \"Dan\" Okafor caused a migration incident on Tuesday where a column was dropped instead of renamed but was rolled back with no data loss because Lena caug"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "second candidate data engineer"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Jordan Liu candidate"
+   },
+   "result": "#173 Fri 21 Aug 07:30 aicoo: morning. you're off rotation at 5?\n#174 Fri 21 Aug 10:15 Them: new candidate: jordan liu. data eng at spotify before. good take-home.\n#175 Fri 21 Aug 10:16 aicoo: promising. lena might like the experience."
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "candidates list data engineer first second third"
+   },
+   "result": "- 17 Aug: Dan started sketching a new interview rubric for data engineer with more SQL focus.\n- 21 Aug: A new candidate, Jordan Liu, formerly a data engineer at Spotify, has a good take-home.\n- 05 Aug: Dan plans to draft a risk list for Priya.\n- 17 Oct: Tom's frontend refactor broke webhooks for the second time.\n- 28 Sep: Dan Okafor interviewed three candidates: Maria, Jordan, and David; David was hired.\n- 23 Oct: Daniel told aicoo that David had his first code review, Tom reviewed it, and it was a solid first PR.\n- 29 Aug: lunch run 5k, biscuit joined for first mile\n- 08 Sep: Sam's first day;"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Maria candidate data engineer"
+   },
+   "result": "- 21 Aug: A new candidate, Jordan Liu, formerly a data engineer at Spotify, has a good take-home.\n- 17 Aug: Dan started sketching a new interview rubric for data engineer with more SQL focus.\n- 14 Aug: Maria Torres left for another offer; need to restart interviews.\n- 07 Sep: Candidate three is David Chen, a contractor at DoorDash who knows dbt.\n- 28 Sep: Dan Okafor interviewed three candidates: Maria, Jordan, and David; David was hired.\n- 06 Aug: One customer's data still out of sync due to last week's migration incident.\n- 28 Aug: Daniel \"Dan\" Okafor caused a migration incident on Tuesday wh"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1385,
+   "out": 24,
+   "usd": 0.000166818
+  },
+  {
+   "in": 1569,
+   "out": 22,
+   "usd": 0.00011269
+  },
+  {
+   "in": 1620,
+   "out": 21,
+   "usd": 0.00012284
+  },
+  {
+   "in": 1731,
+   "out": 26,
+   "usd": 0.000103126
+  },
+  {
+   "in": 2008,
+   "out": 22,
+   "usd": 0.000159056
+  },
+  {
+   "in": 2226,
+   "out": 49,
+   "usd": 0.000174132
+  }
+ ],
+ "memChars": 738,
+ "promptChars": 5246
+}

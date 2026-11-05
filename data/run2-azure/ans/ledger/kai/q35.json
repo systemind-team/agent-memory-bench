@@ -1,0 +1,23 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "aicoo, 早，这周怎么安排的?",
+ "reply": [
+  "凯哥早！周日好。这周重点：",
+  "周一10:30 pricing launch decision meeting（补了10点prep），然后跟Grace确认SEA headcount timeline，再跟Ravi确认integration final timeline，还有Emily weekly check-in。另外别忘了找Lily要Aurora quote、找Omar要Singapore大客户的quote来做customer testimonial section。",
+  "你父亲今天早上怎么样？血压稳定吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5078,
+   "out": 98,
+   "usd": 0.000250604
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14901
+}

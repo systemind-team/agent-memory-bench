@@ -1,0 +1,46 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "did i book the asheville flights like i promised ade?",
+ "reply": [
+  "没找到你预订了航班的记录。asheville-trip 笔记里只记了 'Delta flight booked'——看起来之前提过订了航班, 但没说是你订的。要我把这个加到待办清单里提醒你跟 Ade 确认一下吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Asheville flight booked"
+   },
+   "result": "[asheville-trip] 20 Oct: Asheville trip Oct 22-25; cabin near Blue Ridge; leave Oct 22 morning; Delta flight booked"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "asheville-trip"
+   },
+   "result": "Asheville trip\n20 Oct: Asheville trip Oct 22-25; cabin near Blue Ridge; leave Oct 22 morning; Delta flight booked"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2499,
+   "out": 23,
+   "usd": 0.000125254
+  },
+  {
+   "in": 2568,
+   "out": 23,
+   "usd": 0.000139744
+  },
+  {
+   "in": 2634,
+   "out": 65,
+   "usd": 0.0001313
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9111
+}

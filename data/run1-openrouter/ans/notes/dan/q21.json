@@ -1,0 +1,45 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "did stripe webhooks or sam's onboarding happen first?",
+ "reply": [
+  "sam started sep 14, and the stripe webhook retry logic pr merged on sep 18. so sam's onboarding happened first."
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Sam Ortiz start date"
+   },
+   "result": "[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 08 Sep: Sam started Sep 14 confirmed; set up laptop on 4th floor IT desk; lunch with Dan and Priya (was 03 Sep: Sam emailed saying excited to start; Dan sent him the onboarding doc); Sam Ortiz onboarding starts with David Chen\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n[about-me] 16 Oct: Dan asked all co"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "stripe webhook retry logic"
+   },
+   "result": "[stripe-webhook] 26 Oct: Sam asked about stripe webhook retry logic; Dan sent him the doc\n[stripe-webhook] 18 Sep: stripe webhook retry logic PR merged (was 13 Sep); next up: idempotency keys\n[stripe-webhook] 02 Sep: Tom found a bug in the webhook retry logic; fixing now\n[stripe-webhook] 03 Aug: retry was failing due to idempotency; fixed after reading Stripe docs\n[stripe-webhook] 03 Sep: standup notes: 09:30 fixed flaky webhook test (shared state); 10:15 reviewed Tom's PR on retry logic; 10:45 updated onboarding doc for Sam; 11:00 prep for Priya sync\n[stripe-webhook] 19 Aug: working on stripe"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2519,
+   "out": 22,
+   "usd": 0.00002922388
+  },
+  {
+   "in": 2852,
+   "out": 25,
+   "usd": 0.00004298728
+  },
+  {
+   "in": 3173,
+   "out": 34,
+   "usd": 0.00005675068
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9111
+}

@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q12",
+ "kind": "update",
+ "q": "Pricing launch date最后定在什么时候了，Ben改了好几次？",
+ "reply": [
+  "凯哥，最后定在**12月1日（周一）**。10月21日你和Ben、Ravi最终确认的：$44 per user per month，12月1日launch，dark mode和pricing page优化同步推进。之后Ben没再改过——不过周一10:30你安排了和Grace、Ben的meeting，到时可以再double confirm一轮。"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "pricing launch date 12月1日 Ben"
+   },
+   "result": "- 20 Sep: Ben的pricing launch prep按计划进行，准备在11月1日发布。09 Oct: Ben的pricing launch延至11月15日，需要更多testing time。\n- 21 Oct: Pricing final decision: 44 per user per month, launch Dec 1, after debate with Ben and Ravi confirm dark mode and pricing page optimization simultaneously. 26 Oct: pricing launch post到12/1，需要和Ben sync一下新的timeline。29 Oct: 和Ben确认pricing 12/1 launch, A/B测试11/3继续跑\n- 30 Oct: dark mode toggle预计11月初完成，与pricing launch 12月1日不冲突。\n- 16 Aug: Q3剩余6周priority list为: 1. Aurora close, 2. Pricing launch, 3. 新加坡pipeline review (9月1日行程), 4. Ravi integration, 5. Yuki的onboarding redesign rollout (排在prici"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1815,
+   "out": 28,
+   "usd": 0.0000759626
+  },
+  {
+   "in": 2236,
+   "out": 83,
+   "usd": 0.00003931704
+  }
+ ],
+ "memChars": 951,
+ "promptChars": 5618
+}

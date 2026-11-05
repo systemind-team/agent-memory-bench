@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "aicoo claims a second scope change on 10/12 and a new 10/14 request that don't appear in the provided chat, and fails to correctly identify the single recorded change from 800k to 950k with add-ons.",
+ "rule": null
+}

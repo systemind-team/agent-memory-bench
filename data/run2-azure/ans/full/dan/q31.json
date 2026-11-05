@@ -1,0 +1,22 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q31",
+ "kind": "open_loop",
+ "q": "what about the on-call docs for sam, are those updated?",
+ "reply": [
+  "已更新好了。你上周日（九月二十日）发给他链接了，他说看了。我确认一下里面内容有没有需要补充——关键部分都覆盖了：告警升级路径、联络人、以及分页器密钥（当前是7C2E9B）。如果有新轮值变更，我会再提醒你更新。",
+  "还有什么需要我查的吗？比如电池状态的更新，或者下周三迁移的准备工作？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 21329,
+   "out": 97,
+   "usd": 0.000730018
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64127
+}

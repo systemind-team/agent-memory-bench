@@ -1,0 +1,22 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "morning dan. how was the toast-and-butter halloween? biscuit in the bacon costume must've been the highlight",
+  "anything on your mind for this quiet sunday?"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 1273,
+   "out": 43,
+   "usd": 0.000153938
+  }
+ ],
+ "memChars": 275,
+ "promptChars": 4748
+}

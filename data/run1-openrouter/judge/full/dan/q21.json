@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly states that Sam's onboarding happened first, aligning with the chat's mention of his September 14 start date and the Stripe webhooks work being moved to its own service later.",
+ "rule": null
+}

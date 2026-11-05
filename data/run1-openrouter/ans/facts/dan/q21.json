@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "did stripe webhooks or sam's onboarding happen first?",
+ "reply": [
+  "stripe webhooks were first. tom broke my test on 10 aug, then we talked about it before you even started. sam's onboarding doc went out 3 sep, first day was 8 sep.",
+  "so webhooks predate sam by about a month. which makes sense — that whole saga was already running when he walked in."
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "stripe webhooks sam onboarding"
+   },
+   "result": "- 10 Aug: Tom's frontend PR for Stripe webhooks broke my test.\n- 03 Sep: sent onboarding doc to Sam who emailed he's excited to start.\n- 08 Sep: Sam's first day; he's setting up his laptop on the IT desk on the 4th floor. 12 Sep: sam's first full day tomorrow; onboarding plan looks solid\n- 02 Oct: Tom moved Stripe webhooks to its own service in a weekend. 05 Oct: Tom's PR to split out the webhook service is in review and looks solid.\n- 26 Oct: Sam asked about Stripe webhook retry logic; Daniel sent him the doc.\n- 18 Oct: Webhooks are still down, Tom is working on it.\n- 17 Oct: Tom's frontend r"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1538,
+   "out": 24,
+   "usd": 0.00003944696
+  },
+  {
+   "in": 1813,
+   "out": 76,
+   "usd": 0.00002988972
+  }
+ ],
+ "memChars": 1089,
+ "promptChars": 5608
+}

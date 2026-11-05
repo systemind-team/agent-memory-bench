@@ -1,0 +1,20 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "you mentioned on 04 Aug that priya wanted to move fast on david chen, but the first time she actually shifted the cutover date was around 17 Sep — you said she mentioned it might shift again pending legal. then on 03 Oct you told me oct 26 was locked and the timeline was updated. does that track with what you remember?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1542,
+   "out": 80,
+   "usd": 0.00004415656
+  }
+ ],
+ "memChars": 1163,
+ "promptChars": 5667
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "Yuki那个onboarding redesign的conversion lift是多少啊，我忘了具体数字。",
+ "reply": [
+  "凯哥，Yuki的onboarding redesign转化提升是23%，这是之前那个设计迭代后验证的结果。",
+  "你周一需要我帮你把这个数据放到什么材料里吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 8819,
+   "out": 45,
+   "usd": 0.0003617054
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26064
+}

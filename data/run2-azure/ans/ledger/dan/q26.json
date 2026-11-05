@@ -1,0 +1,71 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "who were all the data eng candidates, and who took it?",
+ "reply": [
+  "candidates: maria torres (solid sql, but she took another offer), jordan liu (from spotify, mixed feedback), and david chen (doordash contractor, knew dbt). david accepted the offer and joined in september — he's the one who merged his first PR a few days ago, billing migration helper.",
+  "you interviewed 3 total, david was the hire."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data eng candidates took"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "data engineer candidate hired"
+   },
+   "result": "[52] 12 Aug · fact: interview for data engineer candidate maria torres at 10  (from #92, #94)\n[53] 12 Aug · person: maria torres is a data engineer candidate, solid sql  (from #94)\n[104] 21 Aug · person: jordan liu is a data engineer candidate, was at spotify, good take-home  (from #174, #175)\n[71] 14 Aug · plan: need to restart interviews for data engineer  (from #117)\n[82] 17 Aug · fact: dan sketched interview rubric for data engineer, needs more sql focus  (from #139)\n[167] 07 Sep · fact: david chen is a candidate, contractor at doordash, knows dbt  (from #283)\n[22] 06 Aug · feeling: migrat"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "data engineer hired accepted offer"
+   },
+   "result": "[175] 10 Sep · person: david chen accepted the offer  (from #298)\n[71] 14 Aug · plan: need to restart interviews for data engineer  (from #117)\n[52] 12 Aug · fact: interview for data engineer candidate maria torres at 10  (from #92, #94)\n[53] 12 Aug · person: maria torres is a data engineer candidate, solid sql  (from #94)\n[104] 21 Aug · person: jordan liu is a data engineer candidate, was at spotify, good take-home  (from #174, #175)\n[82] 17 Aug · fact: dan sketched interview rubric for data engineer, needs more sql focus  (from #139)\n[69] 14 Aug · fact: maria torres took another offer, out o"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "jordan liu data engineer offer"
+   },
+   "result": "[104] 21 Aug · person: jordan liu is a data engineer candidate, was at spotify, good take-home  (from #174, #175)\n[110] 24 Aug · fact: jordan liu feedback mixed, moving on  (from #186)\n[71] 14 Aug · plan: need to restart interviews for data engineer  (from #117)\n[52] 12 Aug · fact: interview for data engineer candidate maria torres at 10  (from #92, #94)\n[53] 12 Aug · person: maria torres is a data engineer candidate, solid sql  (from #94)\n[82] 17 Aug · fact: dan sketched interview rubric for data engineer, needs more sql focus  (from #139)\n[175] 10 Sep · person: david chen accepted the offer "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3069,
+   "out": 22,
+   "usd": 0.000152746
+  },
+  {
+   "in": 3120,
+   "out": 22,
+   "usd": 0.000117632
+  },
+  {
+   "in": 3394,
+   "out": 23,
+   "usd": 0.000175732
+  },
+  {
+   "in": 3685,
+   "out": 25,
+   "usd": 0.000696202
+  },
+  {
+   "in": 4000,
+   "out": 91,
+   "usd": 0.000524368
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10819
+}

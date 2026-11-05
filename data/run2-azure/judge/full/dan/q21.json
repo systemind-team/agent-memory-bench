@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply correctly states that Stripe webhooks (moved by Tom by Oct 2) happened before Sam's onboarding on Sep 14; the date order is accurate.",
+ "rule": null
+}

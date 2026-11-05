@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant states initial target as mid-October and final as Dec 1 with v3, missing the two specified postponements from Nov 1 to Nov 15 and Nov 15 to Dec 1.",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The actual chat only supports one scope change (custom analytics module added, raising value to 950k), but aicoo's answer incorrectly states two scope change items (custom analytics and custom reporting) and invents unsupported details.",
+ "rule": null
+}

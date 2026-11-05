@@ -1,0 +1,47 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "产品MVP砍到哪两个模块？",
+ "reply": [
+  "之前砍到的是**健康打卡**和**报告生成**两个模块，8月初定的，当时为了赶9月上线。",
+  "怎么了，想再加还是调整？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "MVP 模块 健康打卡 晨检"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "砍 MVP 健康打卡"
+   },
+   "result": "#22 Thu 06 Aug 16:01 aicoo: 收到，我会避开那段时间安排会议\n#23 Fri 07 Aug 10:00 Them: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块\n#24 Fri 07 Aug 10:02 aicoo: 这样能加快上线，我先更新开发排期表"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5558,
+   "out": 27,
+   "usd": 0.001090652
+  },
+  {
+   "in": 5614,
+   "out": 23,
+   "usd": 0.000229516
+  },
+  {
+   "in": 5728,
+   "out": 43,
+   "usd": 0.000218832
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10956
+}

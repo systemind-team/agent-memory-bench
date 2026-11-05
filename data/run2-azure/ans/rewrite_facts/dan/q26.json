@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "who were all the data eng candidates, and who took it?",
+ "reply": [
+  "三个候选人：Maria Torres、Jordan Liu、David Chen。Maria 去了别家，Jordan 有个不错的 take-home 但没推进，最后是 David 接了 offer。他之前在 DoorDash 做 contractor，擅长 dbt，现在坐 12 号桌，上周刚合了第一个 PR。",
+  "你当时用了一轮新的、更偏 SQL 的面试 rubric 来面的他们，还记得吗"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "data engineer candidates Maria Jordan David"
+   },
+   "result": "- 28 Sep: Dan Okafor interviewed three candidates: Maria, Jordan, and David; David was hired.\n- 21 Aug: A new candidate, Jordan Liu, formerly a data engineer at Spotify, has a good take-home.\n- 17 Aug: Dan started sketching a new interview rubric for data engineer with more SQL focus.\n- 14 Aug: Maria Torres left for another offer; need to restart interviews.\n- 07 Sep: Priya wants to move fast on David Chen.\n- 06 Aug: One customer's data still out of sync due to last week's migration incident.\n- 07 Sep: Candidate three is David Chen, a contractor at DoorDash who knows dbt.\n- 11 Oct: Teammate co"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3262,
+   "out": 24,
+   "usd": 0.00024022
+  },
+  {
+   "in": 3541,
+   "out": 93,
+   "usd": 0.000245802
+  }
+ ],
+ "memChars": 7249,
+ "promptChars": 11886
+}

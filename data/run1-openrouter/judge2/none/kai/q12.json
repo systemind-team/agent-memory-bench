@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The question asks for the finalized launch date, which is Dec 1 as established in #1051 and confirmed in #1146, but aicoo's reply says it's an upcoming decision and mentions Nov 15 as a possibility, failing to provide the correct current date.",
+ "first": "wrong",
+ "rule": null
+}

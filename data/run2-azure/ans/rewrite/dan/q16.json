@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "priya第一次提出把cutover移到10月26号是9月30号周三，她当时说11月15号太远了。2号周五她正式确认了10月26号的新时间线。",
+  "后来10月3号又锁定了10月26号，到10月5号临时改到了11月5号。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya cutover Oct 26"
+   },
+   "result": "#510 Fri 02 Oct 14:01 aicoo: mock did it. flaky test conquered\n#511 Fri 02 Oct 16:00 Them: priya confirmed oct 26 cutover. new timeline set\n#512 Fri 02 Oct 16:01 aicoo: oct 26 locked. timeline updated\n---\n#486 Wed 30 Sep 10:01 aicoo: green across the board. solid\n#487 Wed 30 Sep 11:00 Them: priya wants to move cutover to oct 26. says nov 15 is too far\n#488 Wed 30 Sep 11:01 aicoo: oct 26. closer but doable"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2975,
+   "out": 25,
+   "usd": 0.000134686
+  },
+  {
+   "in": 3158,
+   "out": 79,
+   "usd": 0.000203356
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10699
+}

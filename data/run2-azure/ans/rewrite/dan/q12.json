@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q12",
+ "kind": "update",
+ "q": "what's the pagerduty key for on-call?",
+ "reply": [
+  "上次 on-call 用的 key 是 7C2E9B，上上次你告诉我的新 key 是 A4B8C2。新的轮值刚刚开始（今天 11月1号），如果你需要确认当前生效的是哪个，再看看 Priya 发的调度。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "PagerDuty key on-call"
+   },
+   "result": "#780 Mon 26 Oct 11:05 aicoo: plenty of time. i can draft a template\n#781 Mon 26 Oct 14:50 Them: last night's on-call: pagerduty key 7C2E9B worked fine.\n#782 Mon 26 Oct 14:55 aicoo: glad it held up. quiet night?\n---\n#710 Mon 19 Oct 17:01 aicoo: green ci. solid day dan the builder.\n#711 Tue 20 Oct 09:20 Them: morning. new pagerduty key for my next on-call. it's A4B8C2.\n#712 Tue 20 Oct 09:21 aicoo: key A4B8C2 saved. next on-call rotation noted.\n---\n#520 Sat 03 Oct 11:01 aicoo: clean code. stripe service live\n#521 Sat 03 Oct 14:00 Them: on-call rotation starts tomorrow. pagerduty key ready\n#522 Sa"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2978,
+   "out": 26,
+   "usd": 0.000135876
+  },
+  {
+   "in": 3417,
+   "out": 68,
+   "usd": 0.000251586
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10698
+}

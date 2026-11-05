@@ -1,0 +1,23 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+ "reply": [
+  "凯哥，周日好！这周从周一开始就很紧。",
+  "周一10:30你和Grace、Ben的pricing launch decision meeting是最关键的——Ben建议12/1直接上v3，A/B测试8% conversion lift数据稳定，你们要拍板。同一meeting记得问Grace SEA expansion headcount approval timeline，Omar在等答复。",
+  "另外周一把Q3 customer wins summary补完，加customer testimonial section——你要找Lily要Aurora的quote，还有Omar那边Singapore两个大客户的。Grace周五要。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3027,
+   "out": 127,
+   "usd": 0.000202726
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10838
+}

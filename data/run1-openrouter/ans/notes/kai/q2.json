@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Lily搞的那个大单，Aurora那个，最后签了多少？",
+ "reply": [
+  "凯哥，Aurora最终签的是950k，Q4 close，含一个custom module的add-on选项，额外加50k。当时Lily跟进得很好，你也跟她一起庆祝过。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12768,
+   "out": 43,
+   "usd": 0.00011444328
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50338
+}

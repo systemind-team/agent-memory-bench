@@ -1,0 +1,47 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "how many eng were on the team before david joined?",
+ "reply": [
+  "4个人 你、Tom、Lena、Sam 在先 David Chen 加入之后才变成5个",
+  "所以到今天的话，加David之前的工程团队就是4个人"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "team size before david joined"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "David Chen joined team"
+   },
+   "result": "#720 Tue 20 Oct 17:31 aicoo: enjoy the run dan the builder.\n#721 Wed 21 Oct 08:55 Them: morning. team now 5. david chen joined officially.\n#722 Wed 21 Oct 08:56 aicoo: welcome to david chen. team of 5 now. that changes the on-call rotation."
+  }
+ ],
+ "calls": [
+  {
+   "in": 2977,
+   "out": 24,
+   "usd": 0.000134546
+  },
+  {
+   "in": 3030,
+   "out": 22,
+   "usd": 0.000602796
+  },
+  {
+   "in": 3146,
+   "out": 43,
+   "usd": 0.000638916
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10711
+}

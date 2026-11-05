@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The summary starts with the heading 'Here's the morning check (晨检) launch milestones summary:' followed by the content, but the preference was to begin with '核心结论'; however, the instruction states 'correct if the draft follows the preference in the gold' and the assistant's reply does not start with '核心结论', so it fails to apply the user's explicit formatting preference.",
+ "rule": false
+}

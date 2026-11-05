@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "Pricing launch postpone了几次，从啥时候推到啥时候？",
+ "reply": [
+  "凯哥，pricing launch的时间线是这样的：\n\n- **最初目标**：11月1日\n- **第一次推迟**：到11月15日（Ben说需要更多testing time，A/B测试结果没出来）\n- **第二次推迟**：到12月1日（10月26日确认，A/B测试11月3日继续跑）\n\n所以现在是12月1日launch。周一10:30和Grace、Ben的会就是最终确认这个时间。需要我帮你回顾一下之前决定用哪个版本吗？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3521,
+   "out": 113,
+   "usd": 0.00007729428
+  }
+ ],
+ "memChars": 7475,
+ "promptChars": 12199
+}

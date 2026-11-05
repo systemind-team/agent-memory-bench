@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The reply gives 7C2E9B as the key after the first change, but the chat only contains 9A7B2C and 3F8D1A; 7C2E9B and the September 23/24 dates are fabricated.",
+ "rule": null
+}

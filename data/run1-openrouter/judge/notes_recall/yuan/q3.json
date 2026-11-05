@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo correctly recalled the course number as CS 571, which matches the user's earlier chat message.",
+ "rule": null
+}

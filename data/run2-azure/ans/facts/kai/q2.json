@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Lily搞的那个大单，Aurora那个，最后签了多少？",
+ "reply": [
+  "Aurora那个deal最终签了 **$950K**，是Q3 closing的，Lily搞定的final docs。官方announcement是下周一。",
+  "你周四写的Q3 customer wins summary里如果要加testimonial，可以跟Lily要Aurora的quote——你早上已经计划周一找她了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Aurora deal amount signed close"
+   },
+   "result": "- Aurora Health deal legal signed last week, deal is $800K and closing Monday.\n- 16 Oct: Aurora deal从initial contact到close大概做了四版proposal。\n- Aurora deal is $950K and will be officially announced next Monday; deal closed today for $950K in Q3, Lily handled final docs.\n- 10 Sep: Aurora deal的scope和Q4 delivery schedule已明确\n- 08 Sep: 今天Grace要看Aurora的final close report，帮我mark一下下午4点review。\n- 13 Sep: 凯哥要看Aurora custom reporting的impact，看能否加速close，需和Lily check。\n- 04 Oct: 把Aurora 950k和其他deal列一下, 我下午用。\n- 22 Aug: 周末要考虑Aurora deal的风险缓解，可能scope creep更大。\n- 16 Oct: Lily的persistence是Aurora deal win reason中必须写的内容。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1758,
+   "out": 25,
+   "usd": 0.000291532
+  },
+  {
+   "in": 2047,
+   "out": 78,
+   "usd": 0.000198606
+  }
+ ],
+ "memChars": 827,
+ "promptChars": 5483
+}

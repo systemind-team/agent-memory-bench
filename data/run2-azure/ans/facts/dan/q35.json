@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "早上好！今天休息日，放心我不会拉你干活 😊",
+  "周末过得不错嘛 —— 南瓜灯、bacon小狗、还有 toast 和 butter 的组合。新电池安排上了没？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Dan language preference Chinese"
+   },
+   "result": "- 25 Oct: Dan Okafor was called 'Dan the builder' by aicoo.\n- 29 Oct: Sam showed Dan his DBT models, which Dan considers clean code.\n- 27 Aug: Dan said Tom wants to move the billing endpoint to GraphQL and Dan suggested maybe v2.\n- 20 Sep: Dan plans to see you on Monday.\n- 22 Aug: Dan will onboard Sam with Priya.\n- 28 Oct: Dan thinks Biscuit is enough for now.\n- 05 Aug: Dan plans to draft a risk list for Priya.\n- 22 Oct: Wants to be called 'Dan the builder' from now on.\n- 24 Oct: Dan needs to prepare the rollback plan today.\n- 17 Sep: Biscuit is tired, so Dan is going home early."
+  }
+ ],
+ "calls": [
+  {
+   "in": 1216,
+   "out": 22,
+   "usd": 0.000130208
+  },
+  {
+   "in": 1421,
+   "out": 50,
+   "usd": 0.000143114
+  }
+ ],
+ "memChars": 49,
+ "promptChars": 4518
+}

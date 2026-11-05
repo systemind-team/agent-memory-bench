@@ -1,0 +1,46 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q15",
+ "kind": "update",
+ "q": "what was the pagerduty key after the first change?",
+ "reply": [
+  "after the first change it was 3F8D1A — lena set that one around sep 13. the original was 9A7B2C from august."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "PagerDuty key first change"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "PagerDuty key changed"
+   },
+   "result": "#320 Sat 12 Sep 11:02 aicoo: good. david starts next week too.\n#321 Sun 13 Sep 08:10 Them: pagerduty key changed per lena: new key is 3F8D1A.\n#322 Sun 13 Sep 08:12 aicoo: updated. 3F8D1A."
+  }
+ ],
+ "calls": [
+  {
+   "in": 5307,
+   "out": 21,
+   "usd": 0.00020975
+  },
+  {
+   "in": 5357,
+   "out": 20,
+   "usd": 0.00021969
+  },
+  {
+   "in": 5469,
+   "out": 43,
+   "usd": 0.00025609
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17928
+}

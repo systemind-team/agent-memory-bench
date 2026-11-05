@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "The assistant mentions the latest known value (950k with add-ons) but asks for confirmation instead of definitively stating it as the final value.",
+ "rule": null
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q16",
+ "kind": "update",
+ "q": "阿杰的电脑最后配了什么，多少钱？",
+ "reply": [
+  "The last record I have on 阿杰的 MacBook is from 02 Sep — budget settled at 15,400 for a 15-inch MacBook Pro, ordered through corporate pricing at Suning.\n\nNo follow-up after that on whether it actually arrived or if the spec changed. Want me to check with 阿杰 today?"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2452,
+   "out": 69,
+   "usd": 0.00003032008
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6260
+}

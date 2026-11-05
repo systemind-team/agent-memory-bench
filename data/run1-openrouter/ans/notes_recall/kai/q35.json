@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "aicoo, 早，这周怎么安排的?",
+ "reply": [
+  "凯哥早！这周日程挺满的，我帮你捋一下：\n\n周一：10:00 pricing prep，10:30 pricing decision meeting with Grace和Ben，顺便确认SEA headcount timeline。还要找Lily和Omar要customer quotes补Q3 summary。\n\n周二：跟Ravi确认integration final timeline和security audit retest结果。Emily weekly check-in。\n\n周三：可能处理新加坡那边的事情，Omar在推Q1 headcount proposal。\n\n周四：整理Q3 customer wins summary的testimonial section，准备给Grace最终版。\n\n周五：看pricing launch Dec 1的准备工作，Ben需要final copy和mockup sign-off。\n\n另外你父亲那边，周一早上记得问问情况。女儿这周有学校的活动吗？\n\n先休息好，下午见！"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13124,
+   "out": 166,
+   "usd": 0.00015551424
+  }
+ ],
+ "memChars": 46835,
+ "promptChars": 51539
+}

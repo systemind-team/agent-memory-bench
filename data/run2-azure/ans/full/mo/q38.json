@@ -1,0 +1,46 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "给我发段晨检上线里程碑的总结",
+ "reply": [
+  "晨检上线里程碑总结：\n\n1. 最初计划8月底提交iOS审核，目标9月初上线\n2. 8月27日第一次延期至9月10号\n3. 9月8日iOS审核慢，再推到9月18号\n4. 9月20日测试环境数据冲突，最终定死9月25号\n5. 9月27日正式上线，首日下载500+，无闪退，评分4.8\n\n上线后关键节点：\n- 首周DAU稳定在150-200，次日留存从30%出头涨到37%\n- 10月中旬DAU峰值突破2100，次日留存38%\n- 配合的社区渠道（凯旋路驿站9月底签约、徐汇驿站10月落地）和成都合作方逐步铺开\n- 蓝驰seed轮估值7200万，首笔300万10月到账，第二笔同日也到了，账上600万\n\n从8月初现金剩215万咬牙推上线，到10月底产品稳了、钱也到了，这段真不容易。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检上线 里程碑 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线 9月"
+   },
+   "result": "#558 Sat 10 Oct 09:01 aicoo: DAU holding steady around 150-200, retention improving\n#559 Sat 10 Oct 09:35 aicoo: 晨检终于在9月25号上线了，DAU首日破200\n#560 Sat 10 Oct 09:36 Them: Wait, we already launched. You mean the English update\n---\n#377 Sun 20 Sep 11:31 aicoo: 已校核成本，比上周方案更稳，下午发你确认\n#378 Sun 20 Sep 15:10 aicoo: 晨检上线再拖，9月25号，这次说死了\n#379 Sun 20 Sep 15:15 Them: 靠，又延期，阿杰怎么说的\n---\n#278 Tue 08 Sep 09:17 aicoo: 好的，版本B侧重用户增长和留存，我备注一下执行细节\n#279 Tue 08 Sep 12:00 aicoo: 晨检上线又推迟到9月18号，iOS审得慢\n#280 Tue 08 Sep 12:05 Them: 又推迟……好吧，18号就18号，跟阿杰说一声\n---\n#173 Thu 27 Aug 15:03 aicoo: PPT第三版今晚给你，增加了用户黏性数据\n#174 Thu 27 Aug 17:00 a"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18698,
+   "out": 25,
+   "usd": 0.000641252
+  },
+  {
+   "in": 18752,
+   "out": 25,
+   "usd": 0.000652592
+  },
+  {
+   "in": 19135,
+   "out": 246,
+   "usd": 0.000856782
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35680
+}

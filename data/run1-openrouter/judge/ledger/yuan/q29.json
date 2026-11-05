@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant's reply gives dates as August 26 and August 30, but the actual chat records show the reminder was set on August 28 and marked done on September 1; the status (done) is correct but the dates are wrong.",
+ "rule": null
+}

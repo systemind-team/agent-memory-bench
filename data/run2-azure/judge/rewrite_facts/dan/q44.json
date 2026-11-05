@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo explicitly states it couldn't find the information in memory and suggests asking Priya directly, which is the correct response since this was never mentioned.",
+ "rule": null
+}

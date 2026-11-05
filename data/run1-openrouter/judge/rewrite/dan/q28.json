@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant identifies that Dan committed to review Lena's draft but never followed up, which matches the required answer that the commitment is open.",
+ "rule": null
+}

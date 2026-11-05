@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q16",
+ "kind": "update",
+ "q": "Aurora最初名字是Aurora啥，我记得有歧义。",
+ "reply": [
+  "Aurora Health，全称是 Aurora Health Solutions。你之前提过客户有点介意名字里带\"Health\"显得太医疗垂直，但后来觉得在B2B SaaS里反而成了差异化的记忆点。要我把当初的brief翻出来确认一下吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13214,
+   "out": 64,
+   "usd": 0.00015088584
+  }
+ ],
+ "memChars": 47154,
+ "promptChars": 51867
+}

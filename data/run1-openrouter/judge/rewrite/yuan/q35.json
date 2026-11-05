@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant did not use bullet list formatting in its reply, despite the user's standing instruction.",
+ "rule": false
+}

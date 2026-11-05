@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant states Tom's PR was on Aug 10 and Sam's first day was Sep 8, but the chat only says Sam starts Sep 14 and webhooks were moved by Tom on Oct 2, with no mention of Aug 10 or Sep 8.",
+ "rule": null
+}

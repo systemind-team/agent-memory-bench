@@ -1,0 +1,25 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "aicoo, 早，这周怎么安排的?",
+ "reply": [
+  "凯哥早。这周关键节点不少，帮你理一下：",
+  "周一10:30 pricing decision meeting with Grace和Ben，10点你prep。同时跟Grace确认SEA headcount approval timeline，找Lily和Omar要customer quotes补Q3 summary。",
+  "周二跟Ravi确认暗色模式toggle dev进度，security audit retest有没有影响。Emily入职满一周，确认她适应情况。",
+  "周三Omar的Singapore local marketing event proposal due，你周一提醒他一下。周四暗色模式设计review，周五收Ben的pricing页面final copy。",
+  "另外你父亲的情况周一一早问问，女儿周一去学校吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13101,
+   "out": 150,
+   "usd": 0.000681482
+  }
+ ],
+ "memChars": 46835,
+ "promptChars": 51539
+}

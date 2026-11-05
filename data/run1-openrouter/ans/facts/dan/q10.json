@@ -1,0 +1,21 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "team's still at 4 since june — you, tom, lena, sam. ade's the partner, not on the team.",
+  "anything shifting on your mind?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1311,
+   "out": 43,
+   "usd": 0.00003177356
+  }
+ ],
+ "memChars": 301,
+ "promptChars": 4796
+}

@@ -1,0 +1,71 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "from what we talked about saturday, the big headline is **Tom's Stripe refactor v2** — once that's approved, everything's ready for the **cutover**.",
+  "you mentioned the cutover checklist just needs rollback steps + dry run results dropped in. that's the first thing monday morning.",
+  "also: your laptop battery at 79% — you said you'd order a new one this week. want me to grab a link or remind you around lunch? 🤙"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "this week looking week ahead"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "week schedule priorities"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "monday tasks cutover"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "tom striperefactor v2 review"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1135,
+   "out": 23,
+   "usd": 0.000032562
+  },
+  {
+   "in": 1187,
+   "out": 21,
+   "usd": 0.000036882
+  },
+  {
+   "in": 1237,
+   "out": 23,
+   "usd": 0.000041742
+  },
+  {
+   "in": 1289,
+   "out": 26,
+   "usd": 0.000046962
+  },
+  {
+   "in": 1344,
+   "out": 110,
+   "usd": 0.0000486
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4185
+}

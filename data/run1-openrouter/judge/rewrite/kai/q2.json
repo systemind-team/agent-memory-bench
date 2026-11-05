@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "它正确给出了最终签约金额 950k，并注明 Q4 closing，与对话中 9 月 26 日确认的 final 金额一致。",
+ "rule": null
+}

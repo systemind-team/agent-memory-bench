@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly states the dropped column was `billing_status`, matching the user's earlier message.",
+ "rule": null
+}

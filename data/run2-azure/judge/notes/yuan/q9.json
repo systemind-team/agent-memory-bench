@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly identifies NeurIPS as the conference where Mei's paper was accepted, matching the chat record.",
+ "rule": null
+}

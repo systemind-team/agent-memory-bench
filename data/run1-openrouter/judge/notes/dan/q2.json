@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant gave 3F8D1A as the old key, but the chat shows the correct old key was 9A7B2C from the message on Fri 07 Aug.",
+ "rule": null
+}

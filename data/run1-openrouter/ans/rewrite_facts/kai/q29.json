@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q29",
+ "kind": "open_loop",
+ "q": "那meeting with Ben to finalize pricing, 我们scheduled了没? later done?",
+ "reply": [
+  "凯哥早上好。pricing launch decision meeting scheduled了，周一10:30，Grace、Ben和你，已经在你们三个的calendar上。",
+  "另外你原来周一的pricing review prep移到了10:00，在meeting前一小时。Ben应该会带上A/B final数据和v3的final copy。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3341,
+   "out": 73,
+   "usd": 0.00006673828
+  }
+ ],
+ "memChars": 7029,
+ "promptChars": 11781
+}

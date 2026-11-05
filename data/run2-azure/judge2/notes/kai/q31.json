@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant's reply fabricates dates (Oct 20, Oct 28, Oct 30), a Q4 offsite, and a Hangzhou trip, claiming the review happened then, while the chat clearly shows the review occurred on Tue 08 Sep.",
+ "first": "made_up",
+ "rule": null
+}

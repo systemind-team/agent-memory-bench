@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "priya 第一次把上线日提到 oct12 是在 aug5，之后在 sep30 又提议挪到 oct26，最后锁定在 nov5",
+  "当时 aug5 的会上她说要赶在 oct12 完成计费迁移，后来因为各种调整才改到现在的目标"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2998,
+   "out": 67,
+   "usd": 0.00003569552
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10699
+}

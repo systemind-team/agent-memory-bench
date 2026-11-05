@@ -1,0 +1,36 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "早上好 Dan。今天是11月1日，你新的on-call轮值方案今天生效。记得确认一下新的排班表有没有人通知到所有人。",
+  "上周说的dry run是周一晚上对吧。cutover checklist就差rollback步骤了——今天加完发我一份？",
+  "电池到79%了，别忘了这周下单新的。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Dan on-call rotation Priya approved Nov 1"
+   },
+   "result": "[428] 22 Oct · plan: priya approved the rotation proposal, starts nov 1  (from #729)\n[424] 21 Oct · fact: priya wants to rebalance the on-call rotation  (from #723)\n[270] 01 Oct · fact: on-call rotation next week: dan is primary, tom secondary  (from #491)\n[293] 04 Oct · fact: on-call rotation starts today Tue 06 Oct, dan is primary  (from #529, #530)\n[63] 13 Aug · done: priya approved sep 28 cutover, all aligned  (from #106)\n[185] 12 Sep · fact: on-call rotation starts today Sep 12  (from #317)\n[289] 03 Oct · fact: on-call rotation starts tomorrow Sep 4  → replaced 04 Oct by [293] on-call rot"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3058,
+   "out": 29,
+   "usd": 0.000154356
+  },
+  {
+   "in": 3392,
+   "out": 82,
+   "usd": 0.000208352
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10768
+}

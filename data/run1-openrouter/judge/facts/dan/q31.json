@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant says Sam was sent a link in September and pointed to the escalation section in October, but the chat only shows docs were updated for Sam on day 50 (Mon 21 Sep) and no mention of October or the cutover.",
+ "rule": null
+}

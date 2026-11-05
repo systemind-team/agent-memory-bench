@@ -1,0 +1,48 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q12",
+ "kind": "temporal",
+ "q": "Kevin组会presentation最后定在哪天了？",
+ "reply": [
+  "我查了一下记录，Kevin的组会presentation之前定的是9月14号，之后好像没有更新的改期记录了。",
+  "不过9月25号组会他分享了diffusion work相关的内容，不确定是不是就是那次presentation还是另一次。",
+  "你印象中他后来又改过吗？我可以再翻翻更早的聊天记录。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Kevin 组会 presentation 定在哪天"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Kevin 组会 presentation 日期"
+   },
+   "result": "[个人] 11 Aug: Kevin把组会presentation推迟到9月，具体哪天待定\n[个人] 21 Aug: 这周组会Kevin分享了一篇ICML 2023的论文，关于graph的；26 Aug Kevin组会presentation改到9月14号\n[人物] 26 Aug: Kevin组会presentation改到9月14号，他说下周给slides让我看看\n[人物] 26 Aug: Kevin组会presentation改到9月14号，他说下周给slides让我看看\n[项目] 25 Sep 组会结束，Prof. Lin对讨论方向满意；Kevin的diffusion work相关；27 Sep 晚discussion收尾并编译全稿\n[实验室] 02 Oct: 下午Prof. Lin meeting, 他对paper很满意，建议投ICLR，H100申请已签（排实验室第一个）；晚上组会，Kevin和Mei给建议但整体认可；03 Oct: 开始打包ICLR submission（之前29 Sep Kevin说系里买了H100共8张，需尽快申请）；06 Oct: 组会改至11:00，Prof. Lin建议Habitat加visual grounding模块\n[实验室] 25 Sep 组会结束，Prof. Lin对讨论方向满意；提到年底San Diego workshop；29 Se"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4174,
+   "out": 27,
+   "usd": 0.00007187824
+  },
+  {
+   "in": 4230,
+   "out": 25,
+   "usd": 0.00007398944
+  },
+  {
+   "in": 4676,
+   "out": 82,
+   "usd": 0.00006346592
+  }
+ ],
+ "memChars": 6185,
+ "promptChars": 10543
+}

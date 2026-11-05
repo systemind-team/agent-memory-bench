@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It identifies jordan liu as the second candidate, mentioning maria torres as the first, so the latest value is correctly given.",
+ "rule": null
+}

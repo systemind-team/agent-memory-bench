@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The chat explicitly confirms Emily's start date as Oct 26 in messages #747 and #820, and shows she started on time in #1101, #1107, #1108, and #1111, with no mention of any delay.",
+ "first": "made_up",
+ "rule": null
+}

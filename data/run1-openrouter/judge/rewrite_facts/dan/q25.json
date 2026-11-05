@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct list has five entries (Oct 12, Sep 28, Nov 5, Nov 15, Oct 12) but the assistant gave three moves ending with Oct 26 and missed Sep 28 and the Oct 12 return.",
+ "rule": null
+}

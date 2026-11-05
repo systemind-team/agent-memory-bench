@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant incorrectly claims the docs were last updated on 20 Sep, but the chat clearly shows they were updated on day 50 (21 Sep), and the gold requires that date.",
+ "first": "made_up",
+ "rule": null
+}

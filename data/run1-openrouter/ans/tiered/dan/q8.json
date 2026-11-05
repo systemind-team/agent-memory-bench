@@ -1,0 +1,33 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "how much does biscuit weigh now?",
+ "reply": [
+  "biscuit weighed 42 lbs at the vet on oct 13, a healthy boy. that's the last number i have for him."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Biscuit weighs"
+   },
+   "result": "#628 Tue 13 Oct 11:05 aicoo: 好, 他应该很快就会适应\n#629 Tue 13 Oct 14:00 Them: vet visit for biscuit: weighs 42 lbs. healthy boy\n#630 Tue 13 Oct 14:05 aicoo: 42磅, 非常健康的体重"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5325,
+   "out": 22,
+   "usd": 0.0000516838
+  },
+  {
+   "in": 5430,
+   "out": 35,
+   "usd": 0.0000570024
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17910
+}

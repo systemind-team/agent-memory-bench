@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "它准确给出了23% conversion lift，与聊天记录中的AB test结果一致。",
+ "rule": null
+}

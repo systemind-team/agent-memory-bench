@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "PM candidate我们interview了几个人，分别是谁，最后hire了谁？",
+ "reply": [
+  "凯哥，你们一共面试了4位PM候选人：1）Jason Chen，8年经验，进了下一轮；2）Emily Tan，6年B2B经验，你当时觉得她比Jason更细致；3）Michael Liu，10年经验，前微软；4）王磊，7年SaaS，沟通不错。最后hire了Emily Tan，她21号入职第一周了，已经发了backlog proposal，思路清晰适应不错。后来还见了Sarah Wu，但已经hire了Emily，Sarah留着以后考虑。",
+  "今天是周日，好好陪家人吧，周一再忙这些 :)"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "PM candidate interview hired"
+   },
+   "result": "- 01 Sep: Next PM candidate interview on Friday.\n- 16 Oct: Met fourth PM candidate Sarah Wu, but we already hired Emily, Sarah背景不错以后可以考虑。\n- 15 Sep: Third PM candidate Michael Liu interviewed, 10 years, ex-Microsoft.\n- 01 Sep: New PM candidate Jason Chen interviewed, 8 years exp, moving to next round.\n- 22 Sep: 面试了final PM candidate王磊, 7年SaaS, 沟通不错。\n- 22 Sep: 今天跟Ben review pricing launch checklist, 下午面试PM final candidate。\n- 20 Aug: 早上查看了今天customer interview的notes。\n- 19 Aug: 明天早上有customer interview，需要记录feature request。\n- 20 Aug: Customer interview中有3家requested dark mode，记下来给Yuki。\n- 07 Sep: 面试了第二"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1753,
+   "out": 22,
+   "usd": 0.00004801356
+  },
+  {
+   "in": 1993,
+   "out": 135,
+   "usd": 0.00006693316
+  }
+ ],
+ "memChars": 815,
+ "promptChars": 5486
+}

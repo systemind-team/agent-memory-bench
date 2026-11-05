@@ -1,0 +1,57 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "does sam have any pets?",
+ "reply": [
+  "not that i've heard or seen mentioned. no notes on sam having pets, and it never came up in chat. want me to add it to his note if he mentions one?"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Sam Ortiz pet"
+   },
+   "result": "[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n[candidate-sam] 08 Sep: Sam started Sep 14 confirmed; set up laptop on 4th floor IT desk; lunch with Dan and Priya (was 03 Sep: Sam emailed saying excited to start; Dan sent him the onboarding doc); Sam Ortiz onboarding starts with David Chen\n[candidate-sam] 15 Oct: Dan code re"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Sam Ortiz pet dog cat"
+   },
+   "result": "[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[tom-pixel] 20 Oct: Tom adopted a stray cat named Pixel\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n[biscuit] 16 Oct: Ade making a dog-friendly cake for Biscuit's party\n[candidate-sam] 08 Sep: Sam started Sep 14 confirmed; set up laptop on 4th floor IT desk; lunch with Dan and Priya (was 03 Sep: Sam emailed saying excite"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam pet"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2514,
+   "out": 21,
+   "usd": 0.00002893968
+  },
+  {
+   "in": 2838,
+   "out": 23,
+   "usd": 0.00004225648
+  },
+  {
+   "in": 3169,
+   "out": 20,
+   "usd": 0.00005545148
+  },
+  {
+   "in": 3218,
+   "out": 43,
+   "usd": 0.00003436384
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9081
+}

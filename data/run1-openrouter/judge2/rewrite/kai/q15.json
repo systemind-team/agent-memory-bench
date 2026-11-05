@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "aicoo给出的$44/user/month是后续决定上线价格，而Ben在pricing v3中最初提出的是$49 per user for premium tier，未提供该原始信息。",
+ "first": "wrong",
+ "rule": null
+}

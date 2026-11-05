@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply identifies the second title change as 'Context-Aware Planning', but the chat shows the second change was to 'Hierarchical Planning with Graph Attention' on Aug 19.",
+ "first": "stale",
+ "rule": null
+}

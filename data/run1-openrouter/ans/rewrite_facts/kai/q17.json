@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "Ravi那个integration本来due Sep 15，最后哪天go live的？",
+ "reply": [
+  "Sep 22 上线的。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3403,
+   "out": 8,
+   "usd": 0.00006397748
+  }
+ ],
+ "memChars": 7213,
+ "promptChars": 11943
+}

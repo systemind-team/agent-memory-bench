@@ -1,0 +1,36 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q13",
+ "kind": "temporal",
+ "q": "周五的guest talk是什么时候的事，speaker是谁？",
+ "reply": [
+  "是9月初那个guest talk，speaker是MIT的Prof. Wang，讲RL planning。9月2号有预告，实际是9月6号周五下午听的。",
+  "当时你刚改完intro，晚上GPTR跑起来但结果不对需要debug，所以guest talk的内容可能没太细听。",
+  "需要我找找那天的笔记，还是你有别的想确认的？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "guest talk Prof. Wang MIT RL"
+   },
+   "result": "[个人] 02 Sep: 周五有guest talk，speaker是Prof. Wang from MIT，讲RL\n[人物] 06 Sep: guest talk Prof. Wang from MIT讲RL planning，跟工作有点关系\n[实验室] 06 Sep: 下午guest talk Prof. Wang讲RL planning\n[项目] 06 Sep: 早上改intro，下午guest talk，晚上GPTR终于跑起来但结果不对需debug\n[个人] 06 Sep: 早上改intro，下午guest talk，晚上GPTR终于跑起来但结果不对需debug\n[个人] 06 Sep: 早上继续改intro，下午去听guest talk，GPTR跑起来了但结果不对待debug\n[项目] 06 Sep: 早上继续改intro，感觉比昨天顺；下午听guest talk；晚上GPTR跑起来但结果不对需debug\n[个人] 29 Aug: 早上收到Prof. Lin的feedback，research statement需加preliminary results定量分析；加完mini-Imagenet top-1 accuracy对比后发回给Prof. Lin（之前28 Aug写完发给Prof. Lin）\n[个人] 14 Sep: 下午改intro并发给Prof. Lin\n[项目"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4023,
+   "out": 25,
+   "usd": 0.00006558524
+  },
+  {
+   "in": 4333,
+   "out": 91,
+   "usd": 0.00008353044
+  }
+ ],
+ "memChars": 5924,
+ "promptChars": 10286
+}

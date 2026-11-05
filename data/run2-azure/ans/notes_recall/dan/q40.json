@@ -1,0 +1,58 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "when is tom's PTO?",
+ "reply": [
+  "我的笔记里没有提到Tom的PTO安排。之前只记了Priya那周请假、Tom代班的事情，但没找到Tom自己请假的记录。你要我问一下他，还是你直接去确认？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Tom PTO"
+   },
+   "result": "[billing-migration] 24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n[billing-split] 31 Aug: Lena PTO Oct 5-9 for wedding; on-call needs adjustment\n[tom-pixel] 27 Oct: Pixel tried to climb Tom's monitor; Tom sent a photo\n[stripe-webhook] 25 Aug: webhook spec merged by Tom; one review comment about error codes (was sent to Tom early)\n[stripe-webhook] 08 Oct: Tom and Dan discussed adding a health check endpoint to the webhook service; Tom will write a PR\n[stripe-webhook] 09 Oct: Tom's health check PR is up; Dan reviewed, left two comments on error handling, Tom to pus"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom PTO"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom 休假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2787,
+   "out": 21,
+   "usd": 0.000230438
+  },
+  {
+   "in": 3089,
+   "out": 21,
+   "usd": 0.00020221
+  },
+  {
+   "in": 3139,
+   "out": 21,
+   "usd": 0.000121062
+  },
+  {
+   "in": 3189,
+   "out": 53,
+   "usd": 0.000149482
+  }
+ ],
+ "memChars": 5537,
+ "promptChars": 10079
+}

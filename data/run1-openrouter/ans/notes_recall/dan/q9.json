@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "how far did i run in williamsburg that time?",
+ "reply": [
+  "8.7 英里，10 月 6 号在 Williamsburg 跑的。你说腿有点沉，怪吃了意面 🍝",
+  "今天要出门跑吗？天气不错的样子。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Williamsburg run"
+   },
+   "result": "[running] 06 Oct: 8.7 miles in Williamsburg, slower than usual; legs felt heavy (blamed pasta)\n[running] 24 Oct: rainy, no run\n[running] 20 Oct: going for a run before dark\n[billing-migration] 25 Sep: dry run passed, clean migration\n[billing-migration] 25 Sep: dry run passed, clean migration\n[running] 06 Oct: short run planned after work\n[running] 15 Oct: lunch run with Biscuit, nice weather\n[billing-migration] 28 Sep: dry run tomorrow, Priya wants a walkthrough\n[billing-migration] 16 Oct: dry run #2 passed, no issues\n[running] 09 Aug: maybe a short run later, nothing heavy"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2747,
+   "out": 21,
+   "usd": 0.00004671436
+  },
+  {
+   "in": 2948,
+   "out": 50,
+   "usd": 0.00005722976
+  }
+ ],
+ "memChars": 5309,
+ "promptChars": 9877
+}

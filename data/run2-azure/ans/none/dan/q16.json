@@ -1,0 +1,34 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "she first brought up moving it on wed 30 sep — wanted to pull it from nov 15 to oct 26. then on fri 2 oct she confirmed oct 26 as locked. after that, on oct 15 she asked about the timeline again, and on mon 19 oct she confirmed billing cutover stays oct 12 with no more changes. sound like you need the full timeline? i can pull the dates into a sequence."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya cutover"
+   },
+   "result": "#812 Thu 29 Oct 12:05 aicoo: good sign. shows initiative\n#813 Thu 29 Oct 14:00 Them: priya sent the cutover checklist template. looks thorough\n#814 Thu 29 Oct 14:05 aicoo: fill it in over the next few days. dry run again next week\n---\n#778 Mon 26 Oct 10:35 aicoo: good. that doc covers the edge cases\n#779 Mon 26 Oct 11:00 Them: priya wants cutover checklist ready by friday\n#780 Mon 26 Oct 11:05 aicoo: plenty of time. i can draft a template\n---\n#704 Mon 19 Oct 10:06 aicoo: noted. i will remind you if no review by eod.\n#705 Mon 19 Oct 11:40 Them: priya confirmed: billing cutover still oct 12. no "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1140,
+   "out": 22,
+   "usd": 0.000205896
+  },
+  {
+   "in": 1760,
+   "out": 96,
+   "usd": 0.000240064
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4200
+}

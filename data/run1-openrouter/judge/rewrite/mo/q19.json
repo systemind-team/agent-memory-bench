@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant says the meeting was last month and seed round closed on 10月20日, ignoring the chat record showing it was scheduled for 9月3日.",
+ "rule": null
+}

@@ -1,0 +1,58 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "did i book the asheville flights like i promised ade?",
+ "reply": [
+  "我记得你的笔记里写着去阿什维尔是10月22-25日，Delta航班已经订好了，10月22日早上出发。所以看来你已经订了，可以放心了！",
+  "不过——那是10月20日记的，如果后来改过计划或者想确认具体航班号，我可以再翻翻聊天记录。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville flights booked"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Asheville flights"
+   },
+   "result": "[asheville-trip] 20 Oct: Asheville trip Oct 22-25; cabin near Blue Ridge; leave Oct 22 morning; Delta flight booked"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "asheville-trip"
+   },
+   "result": "Asheville trip\n20 Oct: Asheville trip Oct 22-25; cabin near Blue Ridge; leave Oct 22 morning; Delta flight booked"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2522,
+   "out": 23,
+   "usd": 0.00002942688
+  },
+  {
+   "in": 2574,
+   "out": 22,
+   "usd": 0.00003145688
+  },
+  {
+   "in": 2642,
+   "out": 23,
+   "usd": 0.00003429888
+  },
+  {
+   "in": 2708,
+   "out": 77,
+   "usd": 0.0000330484
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9111
+}

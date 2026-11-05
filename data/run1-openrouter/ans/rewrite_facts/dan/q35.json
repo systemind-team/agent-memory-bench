@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "dan the builder 早上好。今天周日，好好休息，明天周一要处理的事情不少。",
+  "对了，on-call 轮值今天开始生效，新的 PagerDuty key 是 A4B8C2，周一记得和团队同步一下。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3020,
+   "out": 63,
+   "usd": 0.0000445788
+  }
+ ],
+ "memChars": 6208,
+ "promptChars": 10794
+}

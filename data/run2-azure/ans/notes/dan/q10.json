@@ -1,0 +1,48 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "team is at 5 now — you, Priya, Tom, Sam, and David Chen officially joined on the 21st.",
+  "cutover's in two weeks; that's a solid crew to carry it through.",
+  "want me to pull up the current on-call rotation so you know who's covering what?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "team size"
+   },
+   "result": "[about-me] 16 Oct: team agreed on the priority level standard\n[candidate-david-chen] 21 Oct: David Chen joined officially; team now 5"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "candidate-david-chen"
+   },
+   "result": "David Chen candidate\n21 Oct: David Chen joined officially; team now 5\n21 Oct: sitting at desk 12; Sam showing him around\n21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n21 Oct: Priya approved rotation, starts Nov 1\n23 Oct: David had first code review by Tom; solid first PR with some feedback\n25 Oct: David merged his first PR, a small bug fix in the billing service\n28 Oct: David merged his second PR, a billing migration helper"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2492,
+   "out": 20,
+   "usd": 0.000122104
+  },
+  {
+   "in": 2560,
+   "out": 24,
+   "usd": 0.000138624
+  },
+  {
+   "in": 2739,
+   "out": 71,
+   "usd": 0.00015671
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9087
+}

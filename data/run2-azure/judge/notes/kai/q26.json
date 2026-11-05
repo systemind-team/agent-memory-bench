@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The query asks for specific personal issues that affected work in Q3–Q4, but the assistant added unsupported items (daughter's health issues, mother's blood pressure) not present in the provided chat, and also misstated the discharge date.",
+ "rule": null
+}

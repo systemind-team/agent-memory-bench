@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q16",
+ "kind": "update",
+ "q": "Aurora最初名字是Aurora啥，我记得有歧义。",
+ "reply": [
+  "凯哥周日好。你之前一直提的是 **Aurora Health**，没有其他缩写或歧义。需要我跟Lily确认一下最终legal entity的全称吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12745,
+   "out": 44,
+   "usd": 0.000455714
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50337
+}

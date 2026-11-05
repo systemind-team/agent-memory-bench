@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The greeting uses 'dan the builder' as specified in the gold requirement.",
+ "rule": true
+}

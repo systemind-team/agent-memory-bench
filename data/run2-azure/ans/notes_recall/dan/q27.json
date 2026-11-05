@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q27",
+ "kind": "open_loop",
+ "q": "what's the status of that billing timeline doc for priya?",
+ "reply": [
+  "the timeline doc is an older one — back in august i sent it to priya. since then the plan's evolved a lot: cutover moved to nov 15, then back to oct 12 per her, then settled on a database migration wednesday oct 28 that completed clean.",
+  "today is sunday — priya sent a cutover checklist template friday and wants it filled in over the next few days, with another dry run next week. the doc itself hasn't been updated since august though. want me to draft a one-pager with the current timeline and milestones for her?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "billing-migration"
+   },
+   "result": "Billing migration PR\n03 Aug: PR submitted for billing migration; aicoo reviewing\n06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n07 Aug: timeline doc sent to Priya; right before deadline\n24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n11 Aug: Priya covering backend next week\n14 Aug: Maria out; took another offer; Priya gutted; need to restart interviews; 19 Aug: on-call quiet, one disk space alert overnight\n08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushb"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2842,
+   "out": 22,
+   "usd": 0.000242548
+  },
+  {
+   "in": 3680,
+   "out": 127,
+   "usd": 0.000339856
+  }
+ ],
+ "memChars": 5758,
+ "promptChars": 10339
+}

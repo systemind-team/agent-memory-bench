@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It mentions the old record of 4 idle GPUs from August but correctly notes that Mei was running experiments later, so it doesn't assert the current state and offers to check instead.",
+ "rule": null
+}

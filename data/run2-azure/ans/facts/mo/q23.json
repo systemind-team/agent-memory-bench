@@ -1,0 +1,71 @@
+{
+ "arm": "facts",
+ "id": "mo",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "我们接触过哪些 VC，后来哪些出局了？",
+ "reply": [
+  "从记忆里扒了一下，目前明确接触过的 VC 就是蓝驰和红杉。红杉是你们自己推掉的，专注蓝驰这条路。后来蓝驰分两笔打了600万，现在账上就是这个数。",
+  "其他机构在我记录里没有留下痕迹——如果之前见过别的，你提个名字我再去翻翻。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "VC 接触 投资 蓝驰 出局"
+   },
+   "result": "- 26 Oct: 蓝驰第二笔投资款到账\n- 26 Oct: 蓝驰第二笔投资款到账，账上现金共600万\n- 已推掉红杉，专注蓝驰深聊。蓝驰尽调还差一些内容。\n- 14 Sep: 蓝驰在催尽调资料。\n- 04 Oct: 蓝驰打款要分两笔，月底第一笔300万。14 Oct: 蓝驰第一笔300万到账了。\n- 蓝驰发来尽调清单，内容较多。\n- 01 Oct: 等蓝驰钱进来就能松口气。\n- 19 Oct: 今晚跟蓝驰那边吃个饭，聊后续\n- 22 Sep: 要求把日活1200数据一起发给蓝驰。\n- 下午蓝驰聊得还行，他们想再看产品数据"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "VC 接触 红杉 其他"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "接触 投资 机构"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "投资人 见过"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1209,
+   "out": 29,
+   "usd": 0.000132658
+  },
+  {
+   "in": 1437,
+   "out": 26,
+   "usd": 0.000178858
+  },
+  {
+   "in": 1492,
+   "out": 23,
+   "usd": 0.00009708
+  },
+  {
+   "in": 1544,
+   "out": 21,
+   "usd": 0.000198528
+  },
+  {
+   "in": 1594,
+   "out": 81,
+   "usd": 0.000242628
+  }
+ ],
+ "memChars": 75,
+ "promptChars": 3994
+}

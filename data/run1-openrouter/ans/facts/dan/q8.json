@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "how much does biscuit weigh now?",
+ "reply": [
+  "i don't actually have a record of biscuit's weight, sorry! i know biscuit's birthday (feb 14), that they wore a jollof rice apron recently, and tried to eat pumpkin seeds—but no vet numbers.",
+  "want me to start tracking it? could add it to biscuit's profile."
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Biscuit weight"
+   },
+   "result": "- 27 Oct: Biscuit will have a cousin, but Dan is unsure how Biscuit will handle a puppy.\n- 12 Oct: Biscuit's birthday is February 14.\n- 17 Sep: Biscuit and Waffles are getting along.\n- 28 Oct: Dan thinks Biscuit is enough for now.\n- 12 Oct: Ade is set on baking a cake for Biscuit's birthday.\n- 23 Oct: Feeling better; Biscuit slept through the night.\n- 30 Oct: The pumpkin is carved, and Biscuit tried to eat the seeds.\n- 04 Oct: Dan has an on-call phone by his bed while Biscuit is snoring. 25 Oct: Biscuit wore a tiny jollof rice apron.\n- 12 Oct: Ade wants a party for Biscuit's birthday. 16 Oct: "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1474,
+   "out": 22,
+   "usd": 0.00003668616
+  },
+  {
+   "in": 1720,
+   "out": 73,
+   "usd": 0.00005081496
+  }
+ ],
+ "memChars": 869,
+ "promptChars": 5367
+}

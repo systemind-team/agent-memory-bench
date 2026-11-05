@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "Is Lily going on vacation anytime soon? 她是不是请假了?",
+ "reply": [
+  "凯哥，根据之前的记录，Lily在9月1号左右请过两天假（Oct 6-7），但那是她之前提的。最近没有她请假的消息。\n\n不过我记得她最近刚转到Enterprise Sales full-time，Emily接手她的accounts，这个handover已经完成了。你是担心Aurora的quote要她配合拿？还是有什么别的事需要找她？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36342,
+   "out": 82,
+   "usd": 0.00030974552
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91619
+}

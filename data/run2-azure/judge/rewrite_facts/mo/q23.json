@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly lists all four VCs contacted and identifies the two that are out, matching the chat details exactly.",
+ "rule": null
+}

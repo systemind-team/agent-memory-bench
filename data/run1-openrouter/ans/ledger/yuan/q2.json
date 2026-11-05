@@ -1,0 +1,46 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Coco说的那个餐厅叫什么名字？",
+ "reply": [
+  "你之前和Coco去过的那个叫**「山海」**，就是那个你们常去的中餐厅。",
+  "还是说最近Coco又提了一个新的餐厅？我这边没有记录到其他名字。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Coco 餐厅 名字"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Coco 餐厅"
+   },
+   "result": "[18] 06 Aug · plan: 周末（09 Aug？）和Coco去\"山海\"餐厅  (from #32)\n[477] 15 Oct · plan: 11月20日 去“山海”餐厅（Coco生日聚餐）  (from #733, #734)\n[386] 02 Oct · fact: Thu 01 Oct 21:00 Coco说“山海”餐厅要提前两周预定，周周还没约，想带她去庆祝论文  (from #587, #589)\n[387] 02 Oct · plan: Mon 05 Oct 10:00 预订山海餐厅  (from #590, #591)\n[12] 05 Aug · fact: 昨晚跟室友Coco视频，Coco工作忙  (from #21)\n[56] 11 Aug · plan: 周末和Coco去'山海'吃饭  (from #98)\n[33] 08 Aug · plan: 今晚（08 Aug）和Coco去\"山海\"吃饭。  (from #63)\n[34] 09 Aug · fact: Coco的猫叫年糕，5岁，很胖  (from #65)\n[35] 09 Aug · plan: 08 Aug晚上和Coco去'山海'吃饭  (from #33, #67)\n[257] 12 Sep · fact: Coco生日是10月5号，想去KTV  (from #388)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4583,
+   "out": 24,
+   "usd": 0.00004666564
+  },
+  {
+   "in": 4636,
+   "out": 22,
+   "usd": 0.00004865504
+  },
+  {
+   "in": 4980,
+   "out": 51,
+   "usd": 0.00006497624
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11668
+}

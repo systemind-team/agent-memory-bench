@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "小雨招的兼职客服主管，一个月多少钱？",
+ "reply": [
+  "月费6千。9月18号上岗，帮小雨顶到18号，后来小雨回来就交接给北京主管了。现在客服已经外包，每月3万8。"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "兼职客服主管 月费"
+   },
+   "result": "[customer-service-backup] Fri 18 Sep: 小雨请了北京一个兼职客服主管，月费6千，今天上岗，帮顶到18号（新增）\n[customer-service-backup] Sun 20 Sep: 小雨年假期间客服响应变慢，已调兼职、新招兼职主管；小雨下午销假回来，北京主管明早交接；aicoo已将客服工单汇总，优先处理退款投诉；Mon 21 Sep客服响应仍慢，北京兼职主管在跟，又培训两个临时客服（新增）\n[customer-service-backup] Fri 18 Sep: aicoo临时调了两个兼职顶上，下午培训（新增）\n[customer-service-training] Sat 24 Oct: 小雨提出增加兼职晚班，预算每月多4000元，已批准（新增）\n[customer-service-training] Fri 23 Oct: 大伟请假，客服排班已调整\n[customer-service-backup] Tue 29 Sep: 今日客服投诉量未提供（陈默询问）\n[customer-service-training] Fri 23 Oct: 大伟家里有事请假，客服排班已调整\n[customer-service-training] Mon 12 Oct: 客服外包合同签了，最终3万8每月，半年（之前3万8一个月但未签合同）；Mon 19 Oc"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2918,
+   "out": 24,
+   "usd": 0.00005390056
+  },
+  {
+   "in": 3300,
+   "out": 39,
+   "usd": 0.00007062776
+  }
+ ],
+ "memChars": 3253,
+ "promptChars": 7229
+}

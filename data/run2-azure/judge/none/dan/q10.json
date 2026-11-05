@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It says 'core team of 5' which matches the correct answer, but the chat explicitly states the team is now 5 after David Chen joined, and the assistant fails to include David Chen while incorrectly counting Ade as part of the core team, giving a different composition for the same number.",
+ "rule": null
+}

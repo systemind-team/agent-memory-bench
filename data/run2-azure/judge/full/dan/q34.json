@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply contains no exclamation marks, adhering to the instruction given in the chat.",
+ "rule": true
+}

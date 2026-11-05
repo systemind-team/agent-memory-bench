@@ -1,0 +1,34 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "list every pagerduty key we used for on-call.",
+ "reply": [
+  "so far i found: 7C2E9B (used on 10/26, mon), A4B8C2 (used on 10/20, tue), and 9A7B2C (from lena's doc, 8/7).",
+  "also noted you had a key 'ready' on 10/3 and a 'same key' reference on 9/12 but no number given. want me to check if there was ever a key shared on those dates?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "pagerduty key on-call"
+   },
+   "result": "#780 Mon 26 Oct 11:05 aicoo: plenty of time. i can draft a template\n#781 Mon 26 Oct 14:50 Them: last night's on-call: pagerduty key 7C2E9B worked fine.\n#782 Mon 26 Oct 14:55 aicoo: glad it held up. quiet night?\n---\n#710 Mon 19 Oct 17:01 aicoo: green ci. solid day dan the builder.\n#711 Tue 20 Oct 09:20 Them: morning. new pagerduty key for my next on-call. it's A4B8C2.\n#712 Tue 20 Oct 09:21 aicoo: key A4B8C2 saved. next on-call rotation noted.\n---\n#520 Sat 03 Oct 11:01 aicoo: clean code. stripe service live\n#521 Sat 03 Oct 14:00 Them: on-call rotation starts tomorrow. pagerduty key ready\n#522 Sa"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1144,
+   "out": 26,
+   "usd": 0.000033912
+  },
+  {
+   "in": 1583,
+   "out": 113,
+   "usd": 0.000089082
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4207
+}

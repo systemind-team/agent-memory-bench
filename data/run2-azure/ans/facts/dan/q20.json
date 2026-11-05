@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "when did i have the billing_status panic?",
+ "reply": [
+  "30 August — three hours of panic after you dropped the `billing_status` column. Showed Sam the rollback script a couple of weeks later.",
+  "Still in the checklist? Want me to pull up the exact script you shared with Sam?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "billing_status panic"
+   },
+   "result": "- 30 Aug: dropped column `billing_status` caused 3h of panic\n- 16 Sep: Showed Sam the rollback script for the billing_status drop incident.\n- 05 Oct: Priya asked Dan for a status on the billing dry run results from last week. 15 Oct: Priya asked about the cutover timeline again\n- 11 Aug: PR up for billing split, Lena is reviewing.\n- 16 Oct: billing migration dry run #2 today\n- 17 Aug: Billing PR is up and Tom is reviewing it. 26 Aug: Has a billing PR (#142) with error code fixes under review by Lena.\n- 03 Oct: Billing migration progress: index migration script written.\n- 24 Aug: Priya is out a"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1470,
+   "out": 22,
+   "usd": 0.000183548
+  },
+  {
+   "in": 1710,
+   "out": 56,
+   "usd": 0.000252988
+  }
+ ],
+ "memChars": 992,
+ "promptChars": 5499
+}

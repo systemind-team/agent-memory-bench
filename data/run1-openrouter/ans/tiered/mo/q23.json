@@ -1,0 +1,71 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "我们接触过哪些 VC，后来哪些出局了？",
+ "reply": [
+  "接触过的VC有四家：云九、蓝驰、高榕、红杉。出局的是云九和高榕，红杉是主动推掉的。",
+  "云九：最早见的，提了DAU 2000的目标，后来投了竞品，我们就没继续了。高榕：8月底视频会聊过，后面我们决定专注蓝驰，就没再跟进。",
+  "红杉：约过两次，10月8号和20号的会都被你推了，专注蓝驰。蓝驰是最终签TS、打了两笔款的那家，估值7200万，账上600万有他们的钱。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "VC 红杉 蓝驰 云九 高榕 接触 出局"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 红杉 高榕 云九 投资 接触 砍 推掉"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 红杉 蓝驰 高榕 专注 砍"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "专注 蓝驰 推掉 红杉 砍 高榕 云九"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5585,
+   "out": 36,
+   "usd": 0.00005506172
+  },
+  {
+   "in": 5650,
+   "out": 38,
+   "usd": 0.00005786312
+  },
+  {
+   "in": 5717,
+   "out": 33,
+   "usd": 0.00006017732
+  },
+  {
+   "in": 5779,
+   "out": 36,
+   "usd": 0.00005462324
+  },
+  {
+   "in": 5844,
+   "out": 141,
+   "usd": 0.00006578824
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10962
+}

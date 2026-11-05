@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "每周跟Prof. Lin的one-on-one是周几几点？",
+ "reply": [
+  "每周四下午3点，和Prof. Lin one-on-one。不过这周因为他出差，改成了线上，zoom链接他稍后会发。",
+  "明天是周一，没有regular meeting，但你说过要早上讨论论文投稿时间和Dr. Chen入职安排，记得明天9:30线上见。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Prof. Lin meeting 周几 几点"
+   },
+   "result": "- 22 Oct: 下午3点和Prof. Lin meeting。\n- 12 Aug: meeting中，Prof. Lin说paper framework还行\n- 02 Oct: 今天连meeting，下午有Prof. Lin meeting，晚上组会，需过paper和statement。\n- 17 Sep: Meeting with Prof. Lin completed, experimental part can start being written.\n- 08 Sep: 明天下午meeting准备问Prof. Lin关于workshop的事。\n- 31 Oct: 明天meeting前把论文最新版发给Prof. Lin。\n- 12 Aug: 跟Prof. Lin的weekly meeting定在每周四下午3点\n- 23 Aug: 下次跟Prof. Lin meeting时，帮我提一下我想去那个San Diego workshop的事。\n- 17 Sep: Prof. Lin reminded me about the fellowship.\n- 28 Aug: 第一次fellowship draft周五前要交给Prof. Lin看，已发draft给Prof. Lin。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3826,
+   "out": 21,
+   "usd": 0.000173684
+  },
+  {
+   "in": 4063,
+   "out": 71,
+   "usd": 0.000343102
+  }
+ ],
+ "memChars": 5205,
+ "promptChars": 9507
+}

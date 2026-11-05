@@ -1,0 +1,20 @@
+{
+ "arm": "full",
+ "id": "yuan",
+ "qid": "q20",
+ "kind": "aggregate",
+ "q": "Facebook fellowship申请过程怎么变化的？",
+ "reply": [
+  "{}"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 27978,
+   "out": 2,
+   "usd": 0.000509292
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 59357
+}

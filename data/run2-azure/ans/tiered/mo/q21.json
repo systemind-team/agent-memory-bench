@@ -1,0 +1,83 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "云九和蓝驰，哪家先跟我们谈的？",
+ "reply": [
+  "云九先谈的，8月12日下午2点约的第一轮会。",
+  "蓝驰是8月10号你让我约的，约了19号上午。云九早一周。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 蓝驰 先 谈"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 蓝驰 开始 聊"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 会 下午 2 点"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 会 下午 2 点 12"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 12 日 下午 2 点"
+   },
+   "result": "#24 Fri 07 Aug 10:02 aicoo: 这样能加快上线，我先更新开发排期表\n#25 Fri 07 Aug 16:45 aicoo: 约了云九下周三 8月12日下午2点\n#26 Fri 07 Aug 16:46 Them: 好，准备充分"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5563,
+   "out": 27,
+   "usd": 0.000221046
+  },
+  {
+   "in": 5619,
+   "out": 27,
+   "usd": 0.001149286
+  },
+  {
+   "in": 5675,
+   "out": 28,
+   "usd": 0.000245126
+  },
+  {
+   "in": 5732,
+   "out": 30,
+   "usd": 0.000258216
+  },
+  {
+   "in": 5791,
+   "out": 30,
+   "usd": 0.000224782
+  },
+  {
+   "in": 5921,
+   "out": 49,
+   "usd": 0.000308546
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10958
+}

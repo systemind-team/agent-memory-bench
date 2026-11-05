@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q12",
+ "kind": "update",
+ "q": "客服外包预算最后定在多少？",
+ "reply": [
+  "3万8每月，签了半年，含税。小雨那边合同已经回了。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 18697,
+   "out": 25,
+   "usd": 0.000641042
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35679
+}

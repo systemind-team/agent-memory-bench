@@ -1,0 +1,71 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q39",
+ "kind": "pref_apply",
+ "q": "把今天重点列一下发我",
+ "reply": [
+  "周日了，明天周一。翻了上周周报和对话记录，今天重点先跟你对齐一下：",
+  "1. 大伟那边的新渠道拓展，可以让他周一前把本周要接触的渠道list发你；2. 成都合作推进，项目那边应该有周日更新的进度，我帮你催一下；3. 安卓版11月中上线，这周得把测试环境确认好，下周开始跑内测。",
+  "另外之前你说这周休息一下，所以今天没什么其他硬安排。要我帮你把明天周一例会要过的事项整理一份吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周重点 大伟 成都 安卓"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "本周完成 下周重点"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周报 下周 重点"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周一正常 大伟 成都 安卓"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1125,
+   "out": 27,
+   "usd": 0.00001460788
+  },
+  {
+   "in": 1181,
+   "out": 23,
+   "usd": 0.00001655668
+  },
+  {
+   "in": 1233,
+   "out": 24,
+   "usd": 0.00001874908
+  },
+  {
+   "in": 1286,
+   "out": 27,
+   "usd": 0.00002114448
+  },
+  {
+   "in": 1342,
+   "out": 127,
+   "usd": 0.00003153808
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3623
+}

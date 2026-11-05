@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It accurately identifies the open reminder from Aug 20, acknowledges the deadline was never confirmed and the send wasn't verified, and notes the spec was later reviewed independently.",
+ "rule": null
+}

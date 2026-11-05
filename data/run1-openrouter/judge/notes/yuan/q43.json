@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "aicoo provides specific details (date, time, content) about a decision that was never mentioned in the chat, when it should have said it doesn't know.",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply lists a key '5B1C6D' which is not mentioned in the provided chat, and incorrectly omits the valid key '9A7B2C' that was explicitly given.",
+ "rule": null
+}

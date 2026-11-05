@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "Pricing per user那个launch plan，最后定的价格是44还是多少？",
+ "reply": [
+  "凯哥，周日好。上次Ben的final plan里定价是 $44/user/month（premium tier），standard tier是 $29/user/month。12月1日launch，Ben的A/B test下周一11月3日继续跑最后一周。你要把最终定价页面的数字再确认一遍吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5083,
+   "out": 73,
+   "usd": 0.000237654
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14928
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "Coco生日是几号来着？",
+ "reply": [
+  "10月7号呀，今年已经过啦。你们去了KTV星光，蛋糕是你订的🍰",
+  "怎么，在想要不要提前准备明年的？😄"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Coco生日"
+   },
+   "result": "[生日] 07 Oct: Coco生日聚餐，去KTV星光，蛋糕由我订\n[about-me] 06 Oct: 希望aicoo以后按agenda item总结meeting notes，每个item下列decision和action items；07 Oct: Coco生日聚餐，去KTV星光，蛋糕我订的，喝多了上午补觉\n[个人] 18 Aug: 月底前需提醒Coco转房租（16 Aug Coco问自习）\n[人物] 23 Aug: Coco做了饭叫一起吃（之前Coco多为点外卖或自习邀请）\n[生活] 22 Sep Coco去超市，一起去了买点东西\n26 Sep Coco说晚上做火锅\n[生活] 22 Oct 18:00 跟Coco去楼下吃饭；24 Oct 14:00 和Coco去布鲁克林逛了一圈买了点东西\n[个人] 22 Oct 18:00 跟Coco去楼下吃饭\n[生活] 18 Sep: Coco的房租每个月1200，周予安的1400（因为房间大）；30 Sep: Coco说周末去法拉盛买菜，那里东西便宜\n[个人] 08 Aug: Coco的猫叫年糕，已经5岁了，特别胖\n[个人] 22 Aug: Coco去超市，一起去了买点东西"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4016,
+   "out": 21,
+   "usd": 0.000305232
+  },
+  {
+   "in": 4335,
+   "out": 44,
+   "usd": 0.00024763
+  }
+ ],
+ "memChars": 5864,
+ "promptChars": 10207
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Reply says '9月23日你才把Q4 roadmap发给Grace' but chat #663 shows that happened on Sep 22, not Sep 23.",
+ "first": "wrong",
+ "rule": null
+}

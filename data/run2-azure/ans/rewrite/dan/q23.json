@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "what were all the billing cutover dates we discussed?",
+ "reply": [
+  "从最早说起：8月的时候你们锁了Oct 12，后来Pryia推到了Oct 26，再后来遇到问题又改到了Nov 5。当前目标是Nov 5，干跑已经过了，生产干跑在Oct 9做过，下周Oct 28凌晨是正式迁移。要我把这些也写进cutover checklist的timeline里吗"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2976,
+   "out": 85,
+   "usd": 0.000168496
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10714
+}

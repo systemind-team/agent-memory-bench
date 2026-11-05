@@ -1,0 +1,673 @@
+{
+ "state": {
+  "pending": [
+   {
+    "day": 90,
+    "time": "10:05",
+    "who": "u",
+    "text": "嗯，谢谢。下周会很忙，但今天先休息。aicoo，周一见。",
+    "i": 1186
+   },
+   {
+    "day": 90,
+    "time": "10:06",
+    "who": "a",
+    "text": "周一见，凯哥。好好享受周末！",
+    "i": 1187
+   }
+  ],
+  "notes": {
+   "about-me": {
+    "title": "About them",
+    "hook": "About them — Father's BP stable (high 22 Sep evening, adjusted meds, checkup 29 Sep stable, 04 Oct checkup good, reducing meds, 15 Oct high at noon stable afternoon, 22 Oct discharged, 21 Oct discharged stable, 30 Oct dizzy BP high improved, 31 Oct normal), mother's BP stable, daughter's activities (fever 24 Sep, recovered 25 Sep, cough persists 13 Oct, fever gone 19 Oct, cough improving, Halloween bunny 31 Oct), Q3 revenue 2.35M (target 2.4M), Q4 focus, Aurora deal key (signed 950k 26 Sep), integration live Sep 22 (stable), pricing final $44/user/month launch Dec 1 (was Nov 15). 23 Oct: Yuki dark mode beta 82% toggle, pricing A/B $44 lift 8% need segment analysis. 27 Oct: Offsite day 1 in Hangzhou; Yuki shared dark mode final visuals; Omar SEA marketing plan discussed. 28 Oct: Offsite day 2, Q4 execution plan, action items assigned. 31 Oct: Grace wants customer testimonial section in Q3 summary; Kai to get quotes Monday.",
+    "lines": [
+     "14 Aug: Father hospitalized; condition stable but needs a few days stay. Kai visited hospital on 14 Aug. 15 Aug: Kai went to hospital; father stable but needs two more days of observation. 16 Aug: Kai went to hospital in the morning; father can now eat liquid food, doctor says two more days observation.",
+     "18 Aug: Father discharged from hospital; Kai picked him up in the morning. 19 Aug: Kai plans to leave early to have dinner with father at home.",
+     "19 Aug: Kai plans to leave early to have dinner with father at home. 19 Aug: Mom's blood pressure is normal today.",
+     "22 Aug: Grace wants Q3 progress summary by next Friday (28 Aug); Kai needs to start compiling. 21 Aug: Daughter had kindergarten activity; Kai dropped her off before work. 21 Aug: Kai had lunch with Ravi; Ravi said security audit may push integration to Sep 22 (was Sep 15). 22 Aug: Mom's blood pressure a bit high again (was normal on 19 Aug), but she says it's due to heat; Kai told her to rest more.",
+     "23 Aug: Lily sent legal docs for Aurora; scope change add-on clause looks clean. 23 Aug: Dad has follow-up appointment at 4pm; Kai stepped out early. 23 Aug: Kai working on Aurora risk mitigation one-pager for Grace; key risk: custom module not committed until Q1.",
+     "23 Aug: Dad has follow-up appointment at 4pm; Kai stepped out early. 23 Aug: Dad is stable; blood pressure still high but doctor adjusted meds; Kai exhausted.",
+     "25 Aug: Kai in Singapore; meeting went well with Omar and two prospects (fintech 300 seats, logistics 150 seats). Lunch with Omar — he wants to expand Singapore team (one more SDR, one customer success). Ben's pricing v2 getting good feedback from prospects. 24 Aug: Kai flew to Singapore. 25 Aug: Back in hotel for quiet time. Mom called — dad's BP still fluctuating. Kai told her to call the doctor. 26 Aug: Flying back to Shanghai this evening; need to be in office tomorrow for pricing review reschedule. 26 Aug: Omar flagged fintech prospect wants 30-day payment term (standard net 45); need to check with Grace.",
+     "",
+     "26 Aug: Kai flying back to Shanghai this evening; needs to be in office tomorrow for pricing review reschedule.",
+     "26 Aug: Omar flagged fintech prospect wants 30-day payment term (standard net 45); need to check with Grace.",
+     "26 Aug: Dad's BP a bit better today; Kai's mother told him. Kai flew back to Shanghai in the evening; picked up daughter from grandma.",
+     "30 Aug: Aurora legal signed! Deal closed $800K, official announcement next Monday. 02 Sep: Lily confirmed deal closed; Aurora Health signed $800K Q3.",
+     "27 Aug: Kai had quarterly roadmap review with Grace; dark mode priority raised to P1, Grace agreed but requires dev completion before Q3 end; Ravi needs additional resources.",
+     "27 Aug: Kai had quarterly roadmap review with Grace; dark mode priority raised to P1, Grace agreed but requires dev completion before Q3 end; Ravi needs additional resources.",
+     "28 Aug: Kai syncing with Ravi on dark mode timeline; Ravi may push integration delay by one more week.",
+     "28 Aug: 中午和Ben吃饭，他说premium tier可以再提价，但细节还没出来；Kai让他这周内出v3。 30 Aug: Ben出v3了，$49 premium tier，做了competitive analysis。",
+     "29 Aug: Kai asked to check Ben's calendar; Ben available next Wednesday or Friday. Kai chose next Wednesday for pricing finalization.",
+     "29 Aug: Lily says Aurora legal review almost done; expects to sign next Monday, but Kai warns scope adjustment may still happen.",
+     "29 Aug: Kai scheduled meeting with Ben to finalize pricing on Oct 15 (was next Wednesday for pricing finalization; moved to Oct 15). 30 Aug: Ben sent pricing v3 with competitive analysis; proposes $49/user/month for premium tier (was $39).",
+     "29 Aug: Kai talked with Yuki this afternoon; she said dark mode design mockup will be ready next week (初版下周出).",
+     "29 Aug: Kai scheduled meeting with Ben to finalize pricing on Oct 15 (was next Wednesday for pricing finalization; moved to Oct 15).",
+     "29 Aug: Daughter has a bit of cough; Kai left early to check on her.",
+     "01 Sep: Dad's BP stable, mom's BP stable. Kai had new hire interview with Jason Chen (8 years exp, strong product sense) for PM role; moving to next round, next candidate Friday.",
+     "01 Sep: Dark mode sync with Yuki at 2pm; feedback mostly positive, a few UX tweaks needed, pushing to Oct sprint. Ravi still on track for Sep 22 integration. Lily approved Oct 6-7 off, Ben covers.",
+     "01 Sep: Omar sent Singapore Q4 pipeline update; 300-seat fintech moving fast. 05 Sep: Kai talked with Omar; SEA pipeline looks good, Omar says can sign two prospects next month.",
+     "01 Sep: Long day; need to prep Q3 budget breakdown for Grace. 02 Sep: Q3 budget breakdown draft done, sending to Grace today.",
+     "03 Sep: Dad's checkup went well, BP normal. Mom's fine. Ravi says integration security audit cleared, back on Sep 22. Sent Q3 budget breakdown to Grace; Grace replied with a few clarifying questions, nothing major.\n04 Sep: Lily update: Aurora deal pushed to Q4 close, value now 950k with add-ons. Kai needs to recalc Q3 numbers and sync with Grace. Set reminder to confirm integration timeline with Ravi on Monday.",
+     "04 Sep: Yuki said dark mode QA timeline, she says next Friday (11 Sep) for QA. 04 Sep: Daughter's school play tonight; Kai left early. 05 Sep: Play went well; daughter played a tree, didn't forget lines.",
+     "05 Sep: Play went well; daughter played a tree, didn't forget lines. 05 Sep: Kai talked with Omar; SEA pipeline looks good, Omar says can sign two prospects next month. 05 Sep: Ravi's new hire start date delayed to Nov 15 (visa issue). Kai needs to find who covers integration. 05 Sep: Kai finished Ben's pricing v3 review; thinks $49/user/month premium tier is viable but needs margin calculation. 06 Sep: Mom's BP a bit high again; Kai went home early to check on her. 06 Sep: Jason Chen PM round 2 interview done; product sense good, execution details not deep enough.",
+     "03 Sep: Dad's checkup went well, BP normal. Mom's fine. Ravi says integration security audit cleared, back on Sep 22. Sent Q3 budget breakdown to Grace; Grace replied with a few clarifying questions, nothing major. 05 Sep: Kai finished Ben's pricing v3 review; thinks $49/user/month premium tier viable but needs margin calculation. 06 Sep: Mom's BP a bit high again; Kai went home early to check on her. 06 Sep: Jason Chen PM round 2 interview done; product sense good, execution details not deep enough. 06 Sep: Ravi sync confirmed integration security audit cleared, Sep 22 stable. Kai asked aicoo to book 30min with Grace for Monday to discuss Q3 forecast adjustment.",
+     "03 Sep: Ravi says integration security audit cleared, back on Sep 22 (was possibly delayed to Sep 29). 05 Sep: Ravi's new hire start date delayed to Nov 15 (visa issue). Kai needs to find someone to cover integration. 06 Sep: Ravi sync confirmed integration security audit cleared, Sep 22 is stable.",
+     "06 Sep: Mom's BP a bit high again; Kai went home early to check on her. 06 Sep: Jason Chen PM round 2 interview done; product sense good, execution details not deep enough. 06 Sep: Ravi sync confirmed integration security audit cleared, Sep 22 stable. Kai asked aicoo to book 30min with Grace for Monday to discuss Q3 forecast adjustment.",
+     "07 Sep: Lily said legal basic clear, Aurora deal almost ready for final signature. Kai had 30min with Grace; Grace said Q3 adjustment possible but needs to see overall pipeline. Kai interviewed second PM candidate Emily Tan (6 years, strong B2B) and prefers her over Jason Chen. 07 Sep: Ravi confirmed integration resource: using intern as temporary cover after hire delay (was Nov 15 start). 08 Sep: Grace wants Aurora final close report; Kai set 4pm review.",
+     "04 Sep: Aurora deal pushed to Q4 close, value now 950k with add-ons (was $800K Q3 close). 07 Sep: Lily said legal almost done, waiting for final signature. 08 Sep: Kai scheduled 4pm review of Aurora final close report with Grace. Grace agreed format good.",
+     "08 Sep: Grace wants Aurora final close report; Kai set 4pm review. 08 Sep: Kai asked aicoo for Ben's pricing v3; wants to review again. 08 Sep: Lily reported Aurora wants custom reporting (smaller scope than analytics, ~4 weeks); Kai told her not to commit until he reviews. 08 Sep: Reviewed Omar's Singapore pipeline; good progress. Grace agreed on Aurora close report format. 09 Sep: Yuki finished dark mode mockups; need engineering estimate by next week. Kai asked aicoo to book Ravi and Yuki alignment meeting Monday afternoon. Ben not online today; may be on leave.",
+     "09 Sep: Emily Tan's case study sent to email; Kai wants to discuss this afternoon. 09 Sep: aicoo organized Jason Chen's interview feedback. 09 Sep: Omar said fintech prospect in Singapore wants to visit office next week. 09 Sep: Ravi said dark mode estimate is 3 sprints (6 weeks); Kai asked Yuki to consider phase delivery. 10 Sep: Lily sent Aurora custom reporting initial scope; Ravi confirmed 4 weeks feasible, Lily to prepare SOW. 10 Sep: Yuki sent dark mode phase 1 scope (core UI only, 2 sprints). 10 Sep: Kai approved Omar's SEA marketing budget proposal, sent to Grace for final approval. 10 Sep: Kai waiting for Jason Chen's reference check by 3pm.",
+     "09 Sep: Yuki finished dark mode mockups; need engineering estimate by next week. Kai asked aicoo to book Ravi and Yuki alignment meeting Monday afternoon. Ben not online today; may be on leave. 09 Sep: Kai asked Yuki to see which parts of dark mode can be delivered in phases (was initial full scope). 10 Sep: Lily sent Aurora custom reporting initial scope; Ravi confirmed 4 weeks feasible, Lily to prepare SOW. 10 Sep: Yuki sent dark mode phase 1 scope (core UI only, 2 sprints). 10 Sep: Kai approved Omar's SEA marketing budget proposal, sent to Grace for final approval.",
+     "10 Sep: Lily sent Aurora custom reporting initial scope; Ravi confirmed 4 weeks feasible, Lily to prepare SOW.",
+     "11 Sep: Ravi said integration testing on track for Sep 22. Jason Chen reference check positive, move forward. 11 Sep: Ben sent revised pricing v3, $49/user; Kai thinks can present to Grace. 11 Sep: Kai will send executive summary to Grace for preview. 11 Sep: Father stable; Kai can focus on Aurora negotiations again. 11 Sep: Omar finalized Q4 pipeline; Singapore added two new prospects, pipeline healthy.",
+     "11 Sep: Ravi said integration testing on track for Sep 22. Jason Chen reference check positive, move forward. 11 Sep: Ben sent revised pricing v3, $49/user; Kai thinks can present to Grace. 11 Sep: Kai will send executive summary to Grace for preview. 11 Sep: Father stable; Kai can focus on Aurora negotiations again. 11 Sep: Omar finalized Q4 pipeline; Singapore added two new prospects, pipeline healthy.",
+     "12 Sep: Omar Singapore pipeline下周review，暂无新flag，Kai自己看周报。",
+     "12 Sep: 老爸状态不错，Kai陪他在院子里走了走。",
+     "12 Sep: 晚上放松，明天看Aurora docs。",
+     "12 Sep: Omar Singapore pipeline下周review，暂无新flag，Kai自己看周报。 11 Sep: Omar finalized Q4 pipeline; Singapore added two new prospects, pipeline healthy.",
+     "12 Sep: Omar Singapore pipeline下周review，暂无新flag，Kai自己看周报。",
+     "12 Sep: 老爸状态不错，Kai陪他在院子里走了走。",
+     "12 Sep: 晚上放松，明天看Aurora docs。",
+     "12 Sep: Omar Singapore pipeline下周review，暂无新flag，Kai自己看周报。 11 Sep: Omar finalized Q4 pipeline; Singapore added two new prospects, pipeline healthy.",
+     "13 Sep: 周日看mobile survey data; 80% want mobile support, 要drill down哪块功能最急需。发给Yuki note, 让她周一带rough thoughts来聊mobile backlog。",
+     "13 Sep: Q3 revenue hit 2.1M so far, tracking slightly below target, Grace要review。",
+     "13 Sep: Sunday mobile survey data: 80% want mobile support; sent note to Yuki for Monday backlog discussion. Q3 revenue hit 2.1M so far, tracking below target, Grace to review. 14 Sep: Grace texted Sunday night that she needs to draft Q3 review for board tomorrow. 14 Sep: Kai synced with Yuki on mobile backlog; Yuki proposed native iOS first. Kai asked Yuki for T-shirt sizing by Friday. 14 Sep: Omar didn't send fintech case study yet.",
+     "14 Sep: Grace texted Sunday night that she needs to draft Q3 review for board tomorrow. 14 Sep: Kai synced with Yuki on mobile backlog; Yuki proposed native iOS first. Kai asked Yuki for T-shirt sizing by Friday. 14 Sep: Omar didn't send fintech case study yet. 14 Sep: Grace needs Q3 review prep; Kai to provide initial numbers. 14 Sep: Kai asked aicoo to fill in revenue 2.1M actuals and forecast adjustment to 2.3M (conservative). 14 Sep: Emily Tan accepted offer; Kai asked Ben to arrange onboarding. 14 Sep: Lily said Aurora legal signed, but client still pushing for Q3 close on custom module.",
+     "14 Sep: Kai said he needs to push back on Aurora custom module; cannot compromise scope for revenue, too risky. Kai wrote email to Lily, asked aicoo to sense check. Jason Chen reference check passed; Kai will send offer this week. 16 Sep: Lily is following up on Aurora custom module; Kai trusts her to handle.",
+     "14 Sep: Kai reviewed pricing v3 preview for Grace, needs to finalize before sync tomorrow.",
+     "15 Sep: Pricing preview with Grace done; she gave green light, Oct 15 meeting to finalize (was feeling nervous before sync).",
+     "15 Sep: Pricing sync with Grace done; she gave green light, Oct 15 meeting to finalize.",
+     "15 Sep: Third PM candidate Michael Liu interviewed, 10 years, ex-Microsoft.",
+     "15 Sep: Omar's SEA marketing budget proposal still unread; aicoo to highlight budget vs headcount.",
+     "15 Sep: Michael Liu PM candidate interviewed, 10 years, ex-Microsoft. Kai will sync with Grace to compare Jason and Emily. Aurora deal: Lily updated, client agreed to Q4 close with add-on option, 950k preserved. Tomorrow: remind Grace board draft, dark mode phase 1 check with Yuki. 16 Sep: Kai asked aicoo to reply without bullet points, plain text only.",
+     "16 Sep: aicoo to reply without bullet points, plain text only. 16 Sep: Ben sent pricing final version; Kai reviewing numbers, sync this afternoon ($44 vs $49 debate). 16 Sep: Ravi sync — integration security audit wrapped, Sep 22 stable; reminder set for Sep 21 afternoon to check Ravi status. 16 Sep: Offer letter sent to Michael Liu, hope he signs by Thursday. 16 Sep: Kai left early; daughter has cough, taking her to clinic. 17 Sep: Daughter much better, just common cold. 17 Sep: Pricing final decision: $44/user/month, launch Nov 1, after debate with Ben (was $49 in v3). Ben conceded, thinks $44 more competitive for mid-market.",
+     "14 Sep: Emily Tan accepted offer; Kai asked Ben to arrange onboarding. 14 Sep: Lily said Aurora legal signed, but client still pushing for Q3 close on custom module. 16 Sep: Lily chasing Aurora custom module — Kai said Lily is handling it, she's good at pushing.",
+     "14 Sep: Grace needs Q3 review prep; Kai to provide initial numbers. 14 Sep: Kai asked aicoo to fill in revenue 2.1M actuals and forecast adjustment to 2.3M (conservative). 14 Sep: Emily Tan accepted offer; Kai asked Ben to arrange onboarding. 14 Sep: Lily said Aurora legal signed, but client still pushing for Q3 close on custom module. 16 Sep: Lily handling Aurora custom module follow-up; Kai not needed.",
+     "17 Sep: Pricing final decision: $44/user/month, launch Nov 1 (was $49 v3). Ben conceded, thinks $44 more competitive for mid-market. 17 Sep: Sent Grace brief on pricing rationale and competitive landscape.",
+     "15 Sep: Aurora deal moved to Q4 close with add-on option, 950k preserved. 17 Sep: Aurora custom module negotiation done, Q4 add-on at extra $50K.",
+     "17 Sep: Daughter much better, just cold. 17 Sep: Tomorrow flying to Singapore to prep Omar on pricing launch timeline (Nov 1 launch, sales enablement). 20 Sep: Daughter had kindergarten activity, grandma took her, hope it goes well.",
+     "19 Sep: Dinner with Omar in Singapore, discussed Q4 target alignment. Omar proposed adding one BDR headcount; Kai said wait until Q4 pipeline stabilizes. Flew back to Shanghai in the afternoon. Omar reported Singapore pipeline healthy, 5 new leads. Daughter recovered and energetic. 20 Sep: Dad's checkup results came back, doctor says stable, continue medication. Kai relieved.",
+     "22 Sep: Dad's BP high in the evening; Kai took him to community hospital to adjust medication, now lowered. 22 Sep: Put daughter to bed; reading Q4 roadmap, will send to Grace tomorrow. 23 Sep: Q4 roadmap sent to Grace, waiting for feedback. Omar called, Singapore office needs 3 new sales hires by year-end. Kai told Omar headcount approval needed, will discuss with Grace next week. Post-integration sync with Ravi: system stable, no major bugs.",
+     "24 Sep: Grace asked Kai to present Q4 roadmap on Oct 10, Friday. 24 Sep: Yuki sent pricing page mockup; Kai reviewed and liked it, sent to Ben and Lily for review. 24 Sep: Daughter had fever in evening; Kai took her to doctor. 25 Sep: Daughter's fever went down, stayed home with grandma. 25 Sep: Kai will share Q4 roadmap outline tomorrow morning. 23 Sep: Grace replied to roadmap — agreed main direction, but wants one extra risk mitigation slide. 23 Sep: Dad's BP stable today; daughter happy. 23 Sep: Q4 roadmap sent to Grace, waiting for feedback. Omar called, Singapore office needs 3 new sales hires by year-end. Kai told Omar headcount approval needed, will discuss with Grace next week. Post-integration sync with Ravi: system stable, no major bugs.",
+     "24 Sep: Grace asked Kai to present Q4 roadmap on Oct 10, Friday.",
+     "24 Sep: Yuki sent pricing page mockup; Kai reviewed and liked it, sent to Ben and Lily for review.",
+     "24 Sep: Daughter had fever in evening; Kai took her to doctor.",
+     "25 Sep: Daughter's fever went down, stayed home with grandma. 25 Sep: Kai went home at 6pm to spend time with daughter. 26 Sep: Kai took daughter out for sushi dinner. 27 Sep: Daughter had art class in the morning; Kai accompanied her.",
+     "25 Sep: Kai shared Q4 roadmap outline with aicoo, added Aurora as case study.",
+     "23 Sep: Q4 roadmap sent to Grace, waiting for feedback. Omar called, Singapore office needs 3 new sales hires by year-end. Kai told Omar headcount approval needed, will discuss with Grace next week. Post-integration sync with Ravi: system stable, no major bugs. 24 Sep: Grace asked Kai to present Q4 roadmap on Oct 10, Friday. 24 Sep: Yuki sent pricing page mockup; Kai reviewed and liked it, sent to Ben and Lily for review. 24 Sep: Daughter had fever in evening; Kai took her to doctor. 25 Sep: Daughter's fever went down, stayed home with grandma. 25 Sep: Kai will share Q4 roadmap outline tomorrow morning.",
+     "24 Sep: Grace asked Kai to present Q4 roadmap on Oct 10, Friday. 24 Sep: Yuki sent pricing page mockup; Kai reviewed and liked it, sent to Ben and Lily for review. 24 Sep: Daughter had fever in evening; Kai took her to doctor. 25 Sep: Daughter's fever went down, stayed home with grandma. 25 Sep: Kai will share Q4 roadmap outline tomorrow morning. 23 Sep: Grace replied to roadmap — agreed main direction, but wants one extra risk mitigation slide. 23 Sep: Dad's BP stable today; daughter happy. 23 Sep: Q4 roadmap sent to Grace, waiting for feedback. Omar called, Singapore office needs 3 new sales hires by year-end. Kai told Omar headcount approval needed, will discuss with Grace next week. Post-integration sync with Ravi: system stable, no major bugs.",
+     "25 Sep: Omar called, Singapore leads progressing well (was 5 leads). 25 Sep: Omar wants 3 new sales hires by year-end; Kai said need headcount approval, will discuss with Grace next week.",
+     "26 Sep: Integration went live Sep 22, confirmed stable with Ravi, no critical bugs.",
+     "26 Sep: Aurora contract signed, 950k deal closed; Kai and Lily celebrated.",
+     "27 Sep: Kai finished updating deck; will send to Grace tomorrow morning.",
+     "26 Sep: Kai asked aicoo to add a summary sentence on decisions at the start of meeting minutes.",
+     "26 Sep: Kai took daughter out for sushi dinner.",
+     "27 Sep: Daughter had art class in the morning; Kai accompanied her. 27 Sep: 晚上和父母视频, dad 恢复得挺好, 血压也稳。",
+     "27 Sep: Ravi reported engineering team velocity up 20% this sprint.",
+     "27 Sep: 晚上和父母视频, dad 恢复得挺好, 血压也稳。周末好好休息。",
+     "28 Sep: 早上和Yuki sync, dark mode dev started today, target mid-Nov release.",
+     "28 Sep: Dad's checkup tomorrow morning; Kai asked aicoo to remind him to reschedule 9am if needed.",
+     "29 Sep: Dad's checkup went well, stable. Kai in office by 10am. 29 Sep: Meeting with Ben on pricing v3 final review, launch Nov 1 confirmed.",
+     "28 Sep: Dark mode dev started (was Yuki finished mockups 09 Sep).",
+     "28 Sep: Lily sent Aurora onboarding docs; customer seems happy, Lily handling well.",
+     "29 Sep: Omar called, Singapore team wants to expand headcount, needs to discuss with Grace. 29 Sep: aicoo to prep Singapore pipeline numbers summary.",
+     "01 Oct: Kai polished Q4 roadmap risk section, adding timeline visuals. 30 Sep: Kai needed to finalize Q4 roadmap risk section today.",
+     "30 Sep: Long day; home now, dad watching TV, daughter drawing. Peaceful evening.",
+     "03 Oct: Daughter had art class; Kai took her early and left early. Q3 revenue final 2.35M (was target 2.4M); Grace not thrilled, need to re-align Q4 forecast.",
+     "01 Oct: Emily Tan accepted PM offer, start date Oct 26. 02 Oct: Kai told aicoo not to use stickers anymore; just text.",
+     "01 Oct: Kai wrapped up the day, headed home; Q4 feels solid. 02 Oct: Kai finalizing Q4 deck risk section today; aicoo to review around 3pm. Yuki's dark mode beta signups at 12 users already.",
+     "03 Oct: Daughter got an art award at school, happy. 03 Oct: Kai took her to art class early. Q3 revenue final 2.35M (was target 2.4M). Grace not thrilled, need to re-align Q4 forecast.",
+     "05 Oct: Daughter drew again, improving. 05 Oct: Grace review Q4 deck on Wednesday, Kai polishing risk section today. 05 Oct: Yuki said dark mode beta feedback positive, 16 out of 20 users positive. 05 Oct: Ben's pricing page A/B test starts Nov 3 (was next week).",
+     "06 Oct: Flew to Singapore for regional conference; spoke on SaaS trends (2pm slot, 15min talk + 5min Q&A), good reaction, a few potential leads (fintech interested in dark mode, one asked about mobile roadmap). Dinner with Omar, Singapore pipeline strong, year-end target likely hit. 07 Oct: Coffee chats with conference attendees, then afternoon sync with Omar team at office.",
+     "07 Oct: Coffee chat with logistics company (100 seats, interested in tracking module); lead sent to Omar. 08 Oct: Kai taking half day off tomorrow for dad's follow-up appointment.",
+     "07 Oct: Lily moving to enterprise sales full-time; handover to Emily Thompson this week; Ben covers mid-market accounts. 08 Oct: Kai asked aicoo to reschedule meetings; 10am dark mode beta review with Yuki on 09 Oct stays, 2pm Ben pricing update moved to Thursday 09 Oct (was Wednesday).",
+     "07 Oct: Omar team sync done; Q4 pipeline good but two deals need custom integration; need to coordinate with Ravi on resources.",
+     "08 Oct: Morning conference session done, flying back to Shanghai (arrive 3pm). Dad called, needs follow-up appointment tomorrow; Kai will take half day off. 09 Oct: Dad's follow-up appointment this afternoon; morning sync with Yuki on dark mode beta feedback. 07 Oct: Coffee chats with conference attendees, then afternoon sync with Omar team at office.",
+     "07 Oct: Coffee chats with conference attendees, then afternoon sync with Omar team at office. 08 Oct: Kai took half day off for dad's follow-up appointment, arrived Shanghai 3pm; daughter drew a welcome-home picture. 09 Oct: Dad's follow-up appointment this afternoon; morning sync with Yuki on dark mode beta feedback.",
+     "08 Oct: Kai took half day off for dad's follow-up appointment, arrived Shanghai 3pm; daughter drew a welcome-home picture.",
+     "09 Oct: Dad's follow-up appointment afternoon; results stable, doctor says continue monitoring, next follow-up next week. Morning sync with Yuki on dark mode beta feedback, needs 2 weeks iteration then full rollout planning. Ben pricing launch delayed to Nov 15 (was Nov 1), needs more testing time; Kai to update Grace tomorrow. 10 Oct: Dad's checkup stable, blood pressure normal. 11 Oct: Lazy Sunday with family. 10 Oct: Omar pinged wants discuss Q4 headcount; Kai will prep case this week.",
+     "09 Oct: Kai left early to have dinner with family. 10 Oct: Q4 roadmap deck to Grace; nervous. 10 Oct: Customer feedback on dark mode: most love it, few want toggle option.",
+     "10 Oct: Q4 roadmap deck to Grace; approved, few timeline tweaks (dark mode beta feedback by Nov 7 instead of Nov 1). 10 Oct: Customer feedback on dark mode: most love it, few want toggle option; Yuki says toggle is easy, will add to backlog for phase 2. 11 Oct: Lazy Sunday with family. 11 Oct: Dad called; medication reduced again, feeling better. 11 Oct: Dark mode toggle request from 4 users.",
+     "10 Oct: Q4 roadmap deck to Grace; approved, few timeline tweaks (dark mode beta feedback by Nov 7 instead of Nov 1). 10 Oct: Customer feedback on dark mode: most love it, few want toggle option; Yuki says toggle is easy, will add to backlog for phase 2.",
+     "11 Oct: Dad called; medication reduced again, feeling better. 11 Oct: Dark mode toggle request from 4 users. 12 Oct: back to work; pricing page A/B test kickoff with Ben, starts Nov 3.",
+     "12 Oct: Sync with Ravi; integration performance update, no issues. Ravi noted minor security audit follow-up, patching today. Dark mode beta feedback from 35 users, mostly positive. Ben finalized pricing page A/B test plan, starts Nov 3. Lily handover to Emily going smoothly; Emily starts Oct 26. Omar wants hire 2 sales in Singapore by Dec. Kai needs to prep headcount proposal for Grace.",
+     "12 Oct: Emily sends intro email. Good energy.",
+     "12 Oct: Ravi said integration performance improved by 30% after fix.",
+     "13 Oct: Customer call with Aurora Health went well; custom module timeline confirmed Q1 2027.",
+     "13 Oct: Daughter's cough persists; taking her to doctor after work.",
+     "13 Oct: Dad's checkup scheduled for Thursday next week (was next week; no change).",
+     "13 Oct: Grace pinged Q4 offsite planning; now confirmed Hangzhou Oct 20-21.",
+     "13 Oct: Morning standup good; Aurora call at 10; Yuki dark mode beta survey 87% satisfied; Ben 4 bugs on pricing page fixing before A/B. 13 Oct: Lily finalizing enterprise handover doc. 13 Oct: Q4 offsite Hangzhou Oct 20-21, Grace booked 民宿; need to prep agenda with Yuki, Ravi, Omar. 13 Oct: Daughter's cough persists, taking her to doctor after work. 13 Oct: Reviewing customer feedback summary with team, grouping by feature. 13 Oct: Ravi reports no new integration issues, stable.",
+     "13 Oct: Doctor says daughter just mild cold, rest and fluids.",
+     "14 Oct: Grace asked for Q3 customer wins summary by Oct 25, no specific format, highlight top 3 deals win reasons; Kai will work on it over the weekend.",
+     "14 Oct: Aurora wants export functionality on analytics dashboard; Ravi confirmed can deliver by Friday (was 2-3 days effort).",
+     "14 Oct: Lily and Emily handover smooth; Emily takes over product modules from next Monday.",
+     "14 Oct: Emily onboarding smooth; she proactively set intro meetings with Yuki and Ravi. 14 Oct: Ravi said export feature can be done by Friday, no impact on Aurora timeline. 14 Oct: Reminder set for tomorrow 10am Ravi sync to ask dark mode phase 2 timeline. 14 Oct: Kai left work at 18:30 to help daughter with handicraft homework.",
+     "15 Oct: Castle handicraft two layers done, third collapsed. Ravi sync: dark mode phase 2 estimated 4 sprints, can parallelize some work. Today: 10am Ravi sync, 1pm Omar Singapore pipeline review, 3pm pricing page A/B test preview.",
+     "15 Oct: Dad's BP a bit high at noon, he said he took meds and is resting; by afternoon BP stable, he felt much better. 15 Oct: Omar sync — Singapore Q4 pipeline healthy, he wants a local marketing event in Nov (~$15k, from approved Q4 marketing budget), detailed proposal due Mon. 15 Oct: Ben's pricing A/B test preview shows $44/user/month conversion rate 8% higher than expected. 16 Oct: Castle handicraft done; daughter said Kai is the best engineer. 16 Oct: Pricing A/B test stable; if results hold, Nov 15 launch confirmed. 22 Oct: Dad's checkup went well, discharged from hospital yesterday (was stable, next follow-up next week).",
+     "16 Oct: Yuki dark mode toggle design review done; 82% prefer toggle. 16 Oct: Castle handicraft done; daughter said Kai is the best engineer. 16 Oct: Pricing A/B test stable; if results hold, Nov 15 launch confirmed. 16 Oct: Sarah Wu (fourth PM candidate) casual chat; noted as future pipeline.",
+     "14 Oct: Grace asked for Q3 customer wins summary by Oct 25, no specific format, highlight top 3 deals win reasons; Kai will work on it over the weekend.",
+     "16 Oct: Sarah Wu (fourth PM candidate) casual chat; background strong, keep for future. 16 Oct: Castle handicraft done; daughter said Kai is the best engineer. 16 Oct: Pricing A/B test stable; if results hold, Nov 15 launch confirmed. 16 Oct: Grace asked Q3 customer wins summary by Oct 25; Kai weekend work.",
+     "17 Oct: Q3 customer wins summary 80% done; weekend plans: write summary Saturday, daughter playdate Sunday, walk with dad. 17 Oct: Emily completed first week onboarding, already contributing roadmap with product backlog improvement ideas. 17 Oct: Emily suggested moving low-effort high-impact items earlier in Q4 backlog. 17 Oct: Pricing A/B test stable, $44 variant leading, Ben to provide final copy and mockup by Wednesday for Kai sign-off. 17 Oct: Q3 customer wins summary draft done, top 3 wins: Aurora (950k), Singapore fintech 300 seats, dark mode upsell. 17 Oct: Updated summary with Q2 revenue comparison for QoQ growth; Q3 revenue 2.35M QoQ growth positive. 17 Oct: Ravi estimates dark mode toggle 2 sprints (was previously 4 sprints); Yuki design handoff starts next Tuesday, dark mode toggle target early Dec launch.",
+     "17 Oct: Q3 customer wins summary 80% done; weekend plans: write summary Saturday, daughter playdate Sunday, walk with dad. 17 Oct: Emily completed first week onboarding, already contributing roadmap with product backlog improvement ideas. 17 Oct: Q3 customer wins summary draft done with Q2 comparison; will polish Monday before sending to Grace. 18 Oct: daughter coughed last night, observing today. 18 Oct: 10am sync with Ravi on dark mode toggle timeline; Q3 summary final review.",
+     "19 Oct: Yuki finalized dark mode visuals, handoff to engineering tomorrow. 19 Oct: pricing A/B test $44 variant conversion 8% lift. 18 Oct: Omar reports Singapore Q3 sales 600k, best quarter ever. 18 Oct: Ravi says dark mode toggle dev about 3 weeks, plus testing, target end of Nov. 18 Oct: Q3 customer wins summary revised with QoQ growth narrative, sent to Grace for review.",
+     "19 Oct: daughter's fever gone, cough improving, Kai went home early. 18 Oct: daughter coughed last night, observing today. 18 Oct: 10am sync with Ravi on dark mode toggle timeline; Q3 summary final review. 19 Oct: dark mode entering dev phase. 19 Oct: father's BP fluctuating in evening, stabilized after medication, observing tomorrow. 20 Oct: 10am Q4 offsite prep meeting; Hangzhou minsu confirmed 12 people. 20 Oct: 3pm quick sync with Grace on Q4 roadmap execution plan; Grace asked for engineering capacity contingency plan. 20 Oct: Omar reports Singapore pipeline at 1.2M for Q4. 21 Oct: morning sync with Ravi on engineering capacity; pricing launch date finalize.",
+     "20 Oct: 10am Q4 offsite prep meeting; Hangzhou minsu confirmed 12 people. 20 Oct: 3pm quick sync with Grace on Q4 roadmap execution plan; Grace asked for engineering capacity contingency plan. 20 Oct: Omar reports Singapore pipeline at 1.2M for Q4.",
+     "20 Oct: father's BP normal in evening; daughter recovered. 20 Oct: 10am Q4 offsite prep meeting; Hangzhou minsu confirmed 12 people. 20 Oct: 3pm quick sync with Grace on Q4 roadmap execution plan; Grace asked for engineering capacity contingency plan. 20 Oct: Omar reports Singapore pipeline at 1.2M for Q4. 21 Oct: morning sync with Ravi on engineering capacity; pricing launch date finalize.",
+     "21 Oct: morning sync with Ravi on engineering capacity; pricing launch final date set to Dec 1 (was Nov 15). Emily sent first backlog proposal, clear and well-structured. engineering capacity contingency plan finalized, to send to Grace tomorrow. aicoo instructed to reply in Chinese only. 22 Oct: Dad's checkup went well, discharged from hospital yesterday (was next follow-up scheduled for next Thursday). Q3 customer wins summary not final yet; Grace deadline Oct 25. Ravi says dark mode toggle design review tomorrow morning.",
+     "22 Oct: Omar Q4 pipeline update pending; Emily starts Monday Oct 26. 22 Oct: Left early to spend time with daughter, she wants weekend park trip. 23 Oct: Ravi sync — dark mode toggle implementation two sprints, timeline on track.",
+     "23 Oct: Yuki dark mode beta 82% toggle, pricing A/B $44 lift 8% need segment analysis. 24 Oct: Lily handover checklist done, starts enterprise sales next week. 24 Oct: Omar Q4 pipeline update (state only), detailed forecast next week.",
+     "22 Oct: Dad's checkup went well, discharged from hospital yesterday (was next follow-up scheduled for next Thursday). Q3 customer wins summary not final yet; Grace deadline Oct 25. 23 Oct: Ravi sync — dark mode toggle implementation two sprints, timeline on track. 24 Oct: Lily handover checklist done, starts enterprise sales next week (was 07 Oct handover doc). 24 Oct: Omar Q4 pipeline update (state only), detailed forecast next week.",
+     "25 Oct: Father's condition improving; got out of bed and walked a few steps in the morning.",
+     "26 Oct: Emily started onboarding, taking over Lily's accounts; Lily moving to new role (was handover checklist done 24 Oct). Emily had handover meeting with Lily, accounts transition smooth.",
+     "26 Oct: Q3 customer wins summary draft needs customer quotes from Omar and Lily; Kai sent reminders. 26 Oct: pricing launch final date set to Dec 1 (was Nov 15) due to engineering resource constraints with dark mode parallel work; Kai needs to sync new timeline with Ben.",
+     "25 Oct: Overall week positive: father discharged, dark mode feedback positive, Emily started. 26 Oct: Father recovering well at home today.",
+     "26 Oct: Q3 customer wins summary draft needs customer quotes from Omar and Lily; Kai sent reminders.",
+     "26 Oct: Emily started onboarding, taking over Lily's accounts; Lily moving to new role (was handover checklist done 24 Oct).",
+     "26 Oct: pricing launch final date set to Dec 1 (was Nov 15) due to engineering resource constraints with dark mode parallel work; Kai needs to sync new timeline with Ben.",
+     "26 Oct: aicoo helped book sync meeting with Ben for tomorrow 2pm.",
+     "26 Oct: Father recovering well at home today.",
+     "27 Oct: Q4 revenue tracking towards 2.8M target, Grace mentioned in all-hands.",
+     "27 Oct: Offsite first discussion engineering capacity; Ravi says dark mode toggle needs additional resources.",
+     "27 Oct: Offsite first day in Hangzhou; Yuki shared dark mode final visuals, team feedback very positive. Afternoon session discussed Omar's SEA marketing plan, Q1 expansion needs preparation. Evening walk at West Lake.",
+     "28 Oct: Offsite day 2 in Hangzhou, Q4 execution plan, action items assigned. Omar reported Singapore Q4 pipeline target 1.2M, on track. Ravi discussed API monetization as next step after integration stable. Wrap up and return to Shanghai. 29 Oct: Q3 customer wins summary sent to Grace after Omar sent customer quotes. Emily synced with Ravi on dark mode toggle dev progress, phase 1 on track.",
+     "29 Oct: Singapore office expansion approved, Q1 next year start, need to hire 10 more. Kai to align headcount details with Grace next week; aicoo to draft JDs by Friday.",
+     "30 Oct: Ravi sync confirmed security audit retest only adds one day, no impact on Sep 22 integration. 30 Oct: Ben finalized pricing A/B data, 8% conversion lift confirmed, premium take rate higher than expected; Ben recommends launching Dec 1 with v3 pricing directly. 30 Oct: Kai scheduled Monday 10:30-11:00 with Grace and Ben to confirm pricing launch decision; will also ask Grace about SEA expansion headcount approval timeline. 30 Oct: Omar pushing for SEA Q1 headcount approval (10 hires, new floor in Singapore office); Grace budget not final, need alignment. 30 Oct: Kai left early for daughter's Halloween school activity; moved pricing review prep to Monday 10am. 30 Oct: Emily handling Singapore customer's custom reporting request independently; Lily as escalation backup. 30 Oct: Father felt dizzy this morning, BP a bit high; mother monitoring.",
+     "31 Oct: Father's BP normal this morning, feeling good. Daughter dressed as bunny for Halloween, was very happy.",
+     "31 Oct: Kai plans to take family to park this weekend. Grace wants customer testimonial section in Q3 summary; Kai to get quotes from Lily and Omar on Monday.",
+     "31 Oct: Kai planning Monday: 10:00 pricing prep, 10:30 pricing decision meeting with Grace and Ben, confirm SEA headcount timeline, check integration with Ravi, weekly check-in with Emily. 31 Oct: Grace replied to Q3 customer wins summary on Thu, wants customer testimonial section added; Kai will collect quotes from Lily and Omar Monday."
+    ],
+    "updated": 90
+   },
+   "q3-revenue-target": {
+    "title": "Q3 Revenue Target",
+    "hook": "Kai Lin's Q3 revenue target is 2.4M USD, finalized with Grace on 03 Aug",
+    "lines": [
+     "04 Oct: Q3 revenue final 2.35M (was target 2.4M); Grace not thrilled."
+    ],
+    "updated": 63
+   },
+   "integration-timeline": {
+    "title": "Integration Timeline",
+    "hook": "Integration Timeline — Ravi involved; Kai syncing on 10 Aug; deadline Sept 15; small blocker reported 07 Aug. Delayed to Sep 22 (was Sep 15) due to security audit. Security audit cleared, back on Sep 22 as of 03 Sep. Ravi confirmed stable on 06 Sep. Testing on track as of 11 Sep. Went live Sep 22 (delayed but smooth) as of 21 Sep. 12 Oct: integration performance improved by 30% after fix. 30 Oct: security audit retest started, possible minor slip.",
+    "lines": [
+     "05 Aug: Ravi的team要在September 15前finish那个integration (moved from earlier direct contact; deadline set)",
+     "07 Aug: Ravi reported a small blocker but expects to meet Sept 15 deadline",
+     "22 Aug: Ravi confirmed integration rollout delayed to Sep 22 (was Sep 15) due to security audit.",
+     "25 Aug: Ravi confirmed Sep 22 still target; audit started yesterday. 28 Aug: Ravi may push integration delay by one more week (to Sep 29).",
+     "03 Sep: Ravi says integration security audit cleared, back on Sep 22 (was possibly delayed to Sep 29).\n04 Sep: Kai set reminder to confirm integration timeline with Ravi on Monday.",
+     "03 Sep: Ravi says integration security audit cleared, back on Sep 22 (was possibly delayed to Sep 29). 06 Sep: Ravi sync confirmed integration security audit cleared, Sep 22 stable (confirmed). 07 Sep: Ravi confirmed integration resource: using intern as temporary cover after hire delay (was Nov 15 start). 08 Sep: Kai asked if integration testing started; Sep 22 deadline in two weeks.",
+     "08 Sep: Ravi said testing was supposed to start this week; Kai will check with Ravi directly.",
+     "11 Sep: Ravi said integration testing on track for Sep 22. 16 Sep: Ravi confirmed security audit wrapped, Sep 22 stable; reminder set for Sep 21 afternoon. 21 Sep: Ravi confirmed integration went live Sep 22, delayed but smooth (was Sep 22 target).",
+     "Went live Sep 22 (delayed but smooth) as of 21 Sep. 23 Sep: Ravi confirmed system stable, no major bugs post-integration.",
+     "13 Oct: Integration performance improved by 30% after fix (reported 12 Oct); minor security audit follow-up patched.",
+     "14 Oct: Kai moved integration sync with Ravi to tomorrow (was today) due to Ravi's prod issue.",
+     "30 Oct: Ravi reported security audit retest starts today, may impact timeline by one day; integration on track for Sep 22 (no slip confirmed).",
+     "30 Oct: Ravi reported security audit retest started today, adds one day, integration on track for Sep 22 (no slip).",
+     "30 Oct: Ravi sync confirmed dark mode toggle dev started sprint, estimated complete early Nov."
+    ],
+    "updated": 89
+   },
+   "enterprise-deal-omar": {
+    "title": "Enterprise Deal (Omar)",
+    "hook": "Omar mentioned a possible early enterprise deal on 03 Aug; confirmed worth 800k on 07 Aug, client Aurora Health; legal review ongoing. 17 Sep: Aurora custom module negotiation done, Q4 add-on at extra $50K.",
+    "lines": [
+     "03 Aug: Omar said an enterprise deal might come early; Kai noted to prepare",
+     "05 Aug: Had dinner with Omar to discuss the enterprise deal",
+     "19 Aug: Lily said Aurora legal review hasn't started; Kai asked her to escalate today. 18 Aug: Lily said Aurora deal legal cleared, but there is a minor clause before client signature; custom analytics module assessed at 2-3 sprints (6-9 weeks), Kai proposed as optional add-on Q1 2027, separate pricing. 23 Aug: Lily sent legal docs for Aurora; scope change add-on clause looks clean.",
+     "29 Aug: Lily said legal review almost done; expects to sign next Monday. 02 Sep: Lily confirmed deal closed; Aurora Health signed $800K. 04 Sep: Aurora deal pushed to Q4 close, value now 950k with add-ons (was $800K Q3 close). 07 Sep: Lily said legal basic clear, waiting final signature.",
+     "13 Sep: Kai asked Omar to send fintech case study on Monday.",
+     "14 Sep: Lily said legal signed, but client still pushing for Q3 close on custom module.",
+     "15 Sep: Aurora deal: client agreed to Q4 close with add-on option, 950k preserved. 17 Sep: Aurora custom module negotiation done, Q4 add-on at extra $50K.",
+     "17 Sep: Aurora custom module negotiation done, Q4 add-on at extra $50K. 23 Sep: Omar wants 3 new sales hires in Singapore by year-end; Kai said need headcount approval, will discuss with Grace next week.",
+     "26 Sep: Aurora contract signed, 950k deal closed."
+    ],
+    "updated": 55
+   },
+   "daughter-health": {
+    "title": "Daughter's Health",
+    "hook": "Kai's daughter had a fever on the night of 02 Aug; Kai was tired on 03 Aug",
+    "lines": [
+     "03 Aug: Daughter had a fever last night (02 Aug); Kai felt tired",
+     "08 Aug: Daughter had a mild fever on 08 Aug (was fever on 02 Aug)",
+     "11 Aug: Kai's daughter still has some cough, Kai left work early on 10 Aug to check on her",
+     "12 Aug: Daughter had school activity today, Kai missed it due to work"
+    ],
+    "updated": 10
+   },
+   "ben-q3-target": {
+    "title": "Ben's Q3 Target",
+    "hook": "Ben's Q3 new sales target is 500k",
+    "lines": [
+     "04 Aug: Ben's Q3 target is 500k in new sales"
+    ],
+    "updated": 2
+   },
+   "pricing-discussion-grace": {
+    "title": "Pricing Discussion with Grace",
+    "hook": "Kai has a 1:1 with Grace on 04 Aug to discuss pricing changes",
+    "lines": [
+     "05 Aug: Pricing change approved on 04 Aug, 下个月开始roll out",
+     "07 Aug: Kai discussed pricing changes with Omar; feedback mostly positive, small clients concerned but can adjust"
+    ],
+    "updated": 7
+   },
+   "yuki-design-mock": {
+    "title": "Yuki's Design Mock",
+    "hook": "Yuki's Onboarding Redesign Beta Release next Monday (24 Aug); needs QA support; Kai to discuss A/B test on 21 Aug. Yuki finished dark mode mockups 09 Sep. Phase 1 scope (2 sprints) sent 10 Sep. 28 Sep: Dev started on dark mode, target mid-Nov release.",
+    "lines": [
+     "04 Aug: Yuki发了新的design mock，看着不错\n06 Aug: Yuki的design feedback收到了，有些地方要改",
+     "11 Aug: Yuki redesigned onboarding flow; AB test shows 23% conversion lift; Kai reviewed data with Yuki on 11 Aug",
+     "21 Aug: Yuki's onboarding redesign basically done; needs A/B test next week. Kai to check with Ravi on QA resources (moved from 17 Aug).",
+     "29 Aug: Yuki said dark mode design mockup will be ready next week (初版下周出). 09 Sep: Yuki finished dark mode mockups; needs engineering estimate by next week. 10 Sep: Yuki sent dark mode phase 1 scope (core UI only, 2 sprints).",
+     "11 Sep: Yuki dark mode phase 1 scope已确定（2 sprints），等待engineering estimate。 20 Sep: Yuki discussed dark mode phase 2 design; she said mockups ready in two weeks. 22 Sep: Ben checklist review done; pricing page design needs Yuki sign-off by next Monday (was unassigned).",
+     "24 Sep: Yuki sent pricing page mockup; Kai reviewed and liked it, sent to Ben and Lily for review. 22 Sep: Ben checklist review done; pricing page design needs Yuki sign-off by next Monday (was unassigned).",
+     "28 Sep: Dark mode dev started, target mid-Nov release.",
+     "27 Oct: Yuki shared dark mode final visuals at offsite, team feedback very positive."
+    ],
+    "updated": 86
+   },
+   "reminder-laptop": {
+    "title": "Reminder to Bring Laptop",
+    "hook": "Kai needed a reminder to bring laptop for Singapore trip on 05 Aug",
+    "lines": [],
+    "updated": 10
+   },
+   "lily-feature-launch": {
+    "title": "Lily's Feature Launch",
+    "hook": "Kai asked about Lily's feature launch status on 05 Aug",
+    "lines": [
+     "05 Aug: Kai asked about Lily's feature launch; no update available",
+     "09 Aug: Yuki's onboarding redesign (not Lily's launch) achieved 23% conversion lift"
+    ],
+    "updated": 8
+   },
+   "dinner-omar-enterprise": {
+    "title": "Dinner with Omar on Enterprise Deal",
+    "hook": "Kai had dinner with Omar on 05 Aug to discuss enterprise deal",
+    "lines": [
+     "05 Aug: Kai had dinner with Omar to discuss the enterprise deal"
+    ],
+    "updated": 10
+   },
+   "q3-budget-breakdown": {
+    "title": "Q3 Budget Breakdown Reminder",
+    "hook": "Reminder to send Q3 budget breakdown to Grace by Friday",
+    "lines": [
+     "07 Aug: Reminded to review Q3 budget breakdown at 10am; send to Grace by Friday (07 Aug)",
+     "02 Sep: Q3 budget breakdown draft done, sending to Grace today.",
+     "03 Sep: Sent Q3 budget breakdown to Grace; Grace replied with clarifying questions, nothing major."
+    ],
+    "updated": 32
+   },
+   "mother-health": {
+    "title": "Mother's Health Checkup",
+    "hook": "Kai's mother had a follow-up exam on 08 Aug; results stable for now",
+    "lines": [
+     "08 Aug: Kai's mother had a follow-up exam, results stable",
+     "12 Aug: Kai's mother had high blood pressure today (was stable on 08 Aug); Kai needs to go home early. 22 Aug: Mom's blood pressure a bit high again (was normal on 19 Aug), but she says it's due to heat; Kai told her to rest more."
+    ],
+    "updated": 20
+   },
+   "aurora-pitch-deck": {
+    "title": "Aurora Health Pitch Deck",
+    "hook": "Kai working on pitch deck for Aurora Health, related to enterprise deal worth 800k; reviewed by Lily on 10 Aug. 16 Aug: Kai finalizing deck this morning.",
+    "lines": [
+     "15 Aug: Kai plans to review Aurora deck over the weekend. 16 Aug: Kai will finalize Aurora deck by morning and send to aicoo for review.",
+     "16 Aug: Kai finalized Aurora deck and sent to aicoo by 09:10. Financial summary: 800K/3yr, first year 400K upfront, remainder quarterly (4x100K). Aicoo confirmed numbers are correct."
+    ],
+    "updated": 14
+   },
+   "key-points-draft": {
+    "title": "Key Points Draft for Kai",
+    "hook": "Key points requested by Kai on 09 Aug: integration timeline, pricing, support",
+    "lines": [
+     "09 Aug: Kai asked aicoo to list key points: integration timeline, pricing, support"
+    ],
+    "updated": 8
+   },
+   "review-omar-pipeline": {
+    "title": "Review Omar's Singapore Pipeline",
+    "hook": "Kai will review Omar's Singapore pipeline next Monday (17 Aug)",
+    "lines": [
+     "14 Aug: Omar to self-review pipeline (was to be reviewed next Monday 17 Aug); Kai will discuss on Sep 1. 20 Aug: Pipeline review moved to Thursday afternoon (was Sep 1); Kai asked aicoo to send invite."
+    ],
+    "updated": 18
+   },
+   "aurora-initial-requirements": {
+    "title": "Aurora Health Initial Requirements",
+    "hook": "Lily sent initial requirements for Aurora Health on 10 Aug; Kai found them complex",
+    "lines": [
+     "10 Aug: Lily sent Aurora Health initial requirements; Kai noted they are complex"
+    ],
+    "updated": 8
+   },
+   "reminder-ravi-integration-check": {
+    "title": "Reminder to Check Ravi's Integration Progress",
+    "hook": "Kai set a reminder to check Ravi's integration progress on Sep 1",
+    "lines": [
+     "11 Aug: Kai asked aicoo to remind him to check Ravi's integration progress on Sep 1. 08 Sep: Kai checked integration progress; Ravi using intern after hire delay."
+    ],
+    "updated": 37
+   },
+   "ben-pricing-review-draft": {
+    "title": "Ben's Pricing Review Draft",
+    "hook": "Ben's Pricing Review Draft — Ben sent a pricing review draft on 11 Aug; v2 at 39/user/month on 16 Aug; review moved to next Wednesday (19 Aug). v3 $49 premium tier proposed 30 Aug, revised 11 Sep, ready for Grace preview. Final $44/user/month launch Nov 1 confirmed 17 Sep. 29 Sep: meeting with Ben final review. 04 Oct: pricing page A/B test starting next week.",
+    "lines": [
+     "14 Aug: Ben took over pricing review (was to be led by Kai; moved due to father's re-hospitalization on 14 Aug). 15 Aug: Ben's pricing model v1 had a bug (unit economics off); Kai asked Ben to redo it.",
+     "15 Aug: Ben's pricing model v1 had a bug (unit economics off); Kai asked Ben to redo it.\n16 Aug: Ben sent pricing model v2; plan to launch at 39 per user per month (was 41). Kai will discuss with Grace at this week's pricing council meeting, then sync Sales.",
+     "19 Aug: Ben's pricing review meeting moved to next Wednesday (was this week). Kai asked Ben to update the deck. 19 Aug: Meeting moved to next Wednesday (was this week).",
+     "21 Aug: Ben's pricing v2 deck looks solid, $39/user/month; Kai to discuss tier limits at next Wednesday's meeting.",
+     "29 Aug: Kai scheduled pricing finalization meeting with Ben for Oct 15 (was next Wednesday; moved to Oct 15).",
+     "30 Aug: Ben sent pricing v3; proposes $49/user/month for premium tier (was $39) with competitive analysis. Kai asked Ben to prepare full business case for Oct 15 meeting.",
+     "03 Sep: Ben's pricing v3 still on Kai's desk; needs to review this week. Oct 15 meeting for pricing finalization set. 04 Sep: Kai pushed Ben's pricing v3 review to tomorrow afternoon (was this week; moved to Sep 5).",
+     "05 Sep: Kai finished Ben's pricing v3 review; thinks $49/user/month premium tier viable but needs margin calculation. Oct 15 meeting for pricing finalization remains. 09 Sep: Ben not online; may be on leave. 11 Sep: Ben sent revised pricing v3, $49/user; Kai thinks can present to Grace. Kai will send executive summary to Grace for preview.",
+     "15 Sep: Grace gave green light on pricing; Oct 15 meeting to finalize. 17 Sep: Pricing final decision: $44/user/month, launch Nov 1 (was $49 v3). Ben conceded after debate; thinks $44 more competitive for mid-market.",
+     "15 Sep: Grace gave green light on pricing; Oct 15 meeting to finalize.",
+     "29 Sep: Meeting with Ben on pricing v3 final review. Ben is solid. Launch Nov 1 confirmed.",
+     "12 Oct: Ben finalized pricing page A/B test plan, starts Nov 3 as planned.",
+     "29 Sep: Meeting with Ben on pricing v3 final review. Ben is solid. Launch Nov 1 confirmed.\n05 Oct: Ben's pricing page A/B test starts Nov 3 (was next week).\n08 Oct: Kai asked aicoo to move Ben pricing update meeting to Thursday 09 Oct 2pm (was Wednesday).",
+     "09 Oct: Ben pricing launch delayed to Nov 15 (was Nov 1), needs more testing time; A/B test results not yet ready. 10 Oct: Kai to update Grace on pricing delay today. 11 Oct: Ben shared draft for pricing page A/B test kickoff; looks clean. A/B starts Nov 3 as planned.",
+     "19 Oct: pricing A/B test data reviewed, $44/user variant conversion rate 8% lift. 16 Oct: Ben preparing final pricing page copy; A/B test results stable, Nov 15 launch confirmed. 17 Oct: Pricing A/B test data stable, $44 variant leading; Ben to provide final copy and mockup by Wednesday for Kai sign-off. 21 Oct: pricing launch final date set to Dec 1 (was Nov 15) due to engineering resource constraints with dark mode parallel work.",
+     "29 Oct: Kai confirmed with Ben: pricing launch Dec 1, A/B test continues Nov 3.",
+     "30 Oct: Ben sent final pricing A/B data, 8% conversion lift confirmed, premium take rate higher than expected; recommends launching Dec 1 with v3 pricing, no more testing. 31 Oct: Kai has Monday 10:30 meeting with Grace and Ben to confirm pricing launch decision."
+    ],
+    "updated": 90
+   },
+   "flight-singapore-sep1": {
+    "title": "Flight to Singapore on Sep 1",
+    "hook": "Flight to Singapore — Kai flew on 24 Aug (was Sep 1) to meet Omar and two enterprise prospects. Returned 26 Aug.",
+    "lines": [
+     "12 Aug: Kai booked flight to Singapore for Sep 1 to visit Omar's team; 24 Aug: Kai flew to Singapore today (was Sep 1).",
+     "24 Aug: Kai flew to Singapore today (was Sep 1). 26 Aug: Kai returned to Shanghai."
+    ],
+    "updated": 25
+   },
+   "omar-singapore-q4-budget": {
+    "title": "Omar's Singapore Q4 Budget Increase",
+    "hook": "Omar said Singapore team's Q4 budget increased by 15% on 13 Aug; Grace approved additional 100k Q4 marketing 03 Oct. 18 Oct: Omar reports Singapore Q3 sales 600k, best quarter ever.",
+    "lines": [
+     "13 Aug: Omar said Singapore team's Q4 budget increased by 15% (confirmed on 19 Aug)",
+     "03 Oct: Grace approved additional 100k budget for Q4 marketing; Omar planning two SEA webinars and one local case study.",
+     "Omar said Singapore team's Q4 budget increased by 15% on 13 Aug; Grace approved additional 100k Q4 marketing 03 Oct. 06 Oct: Omar reported Singapore pipeline strong, expects to hit year-end target.",
+     "Omar said Singapore team's Q4 budget increased by 15% on 13 Aug; Grace approved additional 100k Q4 marketing 03 Oct. 06 Oct: Omar reported Singapore pipeline strong, expects to hit year-end target. 10 Oct: Omar pinged wants discuss Q4 headcount; Kai to prep case this week.",
+     "12 Oct: Omar wants hire 2 sales in Singapore by Dec (was Q4 headcount discussion; Kai to prep proposal for Grace).",
+     "15 Oct: Omar wants local marketing event in Nov (~$15k) from approved $100k Q4 marketing budget; proposal due Mon.",
+     "18 Oct: Omar reports Singapore Q3 sales 600k, best quarter ever.",
+     "18 Oct: Omar reports Singapore Q3 sales 600k, best quarter ever. 15 Oct: Omar wants local marketing event in Nov (~$15k) from approved $100k Q4 marketing budget; proposal due Mon. 24 Oct: Omar Q4 pipeline update (state only), detailed forecast next week.",
+     "27 Oct: Omar's SEA marketing plan discussed at offsite; Q1 expansion needs preparation.",
+     "30 Oct: Omar pushing for Q1 SEA headcount approval (10 hires, new office floor); Grace budget not final, Kai to align Monday. 31 Oct: Kai will discuss SEA headcount approval timeline with Grace on Monday."
+    ],
+    "updated": 90
+   },
+   "father-hospital": {
+    "title": "Father Hospitalized",
+    "hook": "Kai's father was hospitalized on 14 Aug; condition stable, Kai needed to visit",
+    "lines": [
+     "14 Aug: Kai's father was hospitalized; condition stable",
+     "14 Aug: Father hospitalized; condition stable, needed a few days stay. 18 Aug: Father discharged."
+    ],
+    "updated": 16
+   },
+   "reminder-sync-lily-aurora-legal": {
+    "title": "Reminder: Sync Lily on Aurora Legal Status",
+    "hook": "Reminder: Sync Lily on Aurora Legal Status — Kai synced with Lily on Aurora legal on 17 Aug 9:00; legal review still pending due to scope change as of 20 Aug; Kai asked Lily to push hard.",
+    "lines": [
+     "15 Aug: Kai set a reminder to sync with Lily on Aurora legal status on Monday morning (17 Aug).",
+     "18 Aug: Lily said Aurora deal legal cleared, but there is a minor clause before client signature; custom analytics module assessed at 2-3 sprints (6-9 weeks), cannot fit in current deal; Kai proposed optional add-on Q1 2027, separate pricing. 20 Aug: Lily said Aurora legal is still pending because of scope change; Kai told her to push hard.",
+     "15 Aug: Kai set a reminder to sync with Lily on Aurora legal status on Monday morning (17 Aug).\n18 Aug: Lily said Aurora deal legal cleared, but there is a minor clause before client signature; custom analytics module assessed at 2-3 sprints (6-9 weeks), cannot fit in current deal; Kai proposed optional add-on Q1 2027, separate pricing. 20 Aug: Lily said Aurora legal is still pending because of scope change; Kai told her to push hard. 23 Aug: Lily sent legal docs for Aurora; scope change add-on clause looks clean.",
+     "30 Aug: Aurora legal signed! Deal closed $800K. 04 Sep: Aurora deal pushed to Q4 close, value now 950k with add-ons (was $800K). 07 Sep: Lily said legal basic clear, awaiting final signature."
+    ],
+    "updated": 36
+   },
+   "omar-singapore-new-opportunity-200k": {
+    "title": "Omar's Singapore New Opportunity (200K ACV)",
+    "hook": "Omar mentioned a new opportunity in Singapore worth ~200K ACV on 15 Aug; Kai asked him to send pipeline summary",
+    "lines": [
+     "15 Aug: Omar emailed about a new opportunity in Singapore worth ~200K ACV; Kai asked Omar to send pipeline summary for Q4 consideration."
+    ],
+    "updated": 13
+   },
+   "q3-priority-list": {
+    "title": "Q3 Priority List (Last 6 Weeks)",
+    "hook": "Kai's Q3 priority list: 1. Aurora close, 2. Pricing launch, 3. Singapore pipeline review (Sep 1 trip), 4. Yuki's onboarding redesign rollout, 5. Ravi integration. Aurora closed Q4 with add-on; Q3 revenue 2.1M; Grace meeting 21 Sep focused on Q4.",
+    "lines": [
+     "27 Aug: Kai整理Q3剩下6周priority list: 1. Aurora close, 2. Pricing launch, 3. Singapore pipeline review (Sep 1 trip), 4. Yuki onboarding redesign rollout, 5. Ravi integration, 6. Dark mode P1 (added 27 Aug). 28 Aug: Dark mode timeline pending Ravi sync; may push integration delay. 08 Sep: Pricing details start tomorrow (9 Sep). 09 Sep: Yuki finished dark mode mockups; engineering estimate pending.",
+     "30 Aug: Aurora legal signed! Deal closed $800K. 04 Sep: Aurora deal pushed to Q4 close, value now 950k with add-ons; priority 1 (Aurora close) now moves to Q4. 07 Sep: Lily said legal basic clear, awaiting final signature. 10 Sep: Lily sent Aurora custom reporting initial scope; Kai to review.",
+     "27 Aug: Kai整理Q3剩下6周priority list: 1. Aurora close, 2. Pricing launch, 3. Singapore pipeline review (Sep 1 trip), 4. Yuki onboarding redesign rollout, 5. Ravi integration, 6. Dark mode P1 (added 27 Aug). 28 Aug: Dark mode timeline pending Ravi sync; may push integration delay. 08 Sep: Pricing details start tomorrow (9 Sep). 09 Sep: Yuki finished dark mode mockups; engineering estimate pending. 10 Sep: Yuki sent dark mode phase 1 scope (2 sprints).\n30 Aug: Aurora legal signed! Deal closed $800K. 04 Sep: Aurora deal pushed to Q4 close, value now 950k with add-ons; priority 1 (Aurora close) now moves to Q4. 07 Sep: Lily said legal basic clear, awaiting final signature. 10 Sep: Ravi confirmed Aurora custom reporting 4 weeks feasible, Lily to prepare SOW.",
+     "15 Sep: Aurora deal moved to Q4 close with add-on option, 950k preserved. 21 Sep: Q3 wrap-up meeting with Grace; Q3 revenue 2.1M, focus on Q4. Aurora deal key.",
+     "Integration went live Sep 22 (delayed but smooth). 13 Oct: Integration performance improved by 30% after fix."
+    ],
+    "updated": 72
+   },
+   "pricing-migration-plan-ben-18aug": {
+    "title": "Ben's Pricing Migration Plan (18 Aug)",
+    "hook": "Ben sent pricing migration plan on 18 Aug: 3 phases (grandfather existing, new at $39, unified year-end); Kai asked to confirm support team readiness.",
+    "lines": [
+     "18 Aug: Ben sent pricing migration plan, 3 phases: Phase 1 grandfather existing customers, Phase 2 new customers at $39/user/month, Phase 3 unified pricing by year-end.",
+     "18 Aug: aicoo reviewed, logic clear but needs confirmation support teams are ready.",
+     "26 Aug: Pricing review rescheduled for 27 Aug 10-11am (was earlier); Kai to attend in office."
+    ],
+    "updated": 24
+   },
+   "aurora-custom-analytics-module": {
+    "title": "Aurora Custom Analytics Module",
+    "hook": "Aurora wants custom analytics module; assessed 2-3 sprints (6-9 weeks) on 18 Aug; Kai proposed optional add-on Q1 2027.",
+    "lines": [
+     "18 Aug: Lily and Ravi met; custom analytics module estimated 2-3 sprints (6-9 weeks), cannot be included in current deal.",
+     "18 Aug: Kai proposed making it an optional add-on for Q1 2027 delivery, separate pricing; asked Lily to prepare proposal for Aurora."
+    ],
+    "updated": 16
+   },
+   "yuki-dark-mode-request": {
+    "title": "Yuki's Dark Mode Request",
+    "hook": "Yuki received dark mode requests from 3 clients; Kai will send her the list on 19 Aug",
+    "lines": [
+     "19 Aug: Yuki's dark mode request has 3 clients asking; Kai will send her the list today.",
+     "20 Aug: 6 total dark mode requests (3 clients + 3 from customer interview). 27 Aug: Dark mode priority raised to P1; Ravi needs additional resources to complete before Q3 end."
+    ],
+    "updated": 25
+   },
+   "reminder-ravi-security-audit": {
+    "title": "Reminder: Check Ravi's Security Audit Timeline",
+    "hook": "Kai set a reminder on 19 Aug to check with Ravi on security audit timeline",
+    "lines": [
+     "19 Aug: Kai set a reminder to check with Ravi on security audit timeline today."
+    ],
+    "updated": 17
+   },
+   "reminder-ravi-security-audit-impact": {
+    "title": "Reminder: Ravi's Security Audit May Impact Integration",
+    "hook": "Reminder: Ravi's Security Audit May Impact Integration — Ravi said security audit may impact integration rollout on 19 Aug; sent preliminary findings on 20 Aug, may delay integration.",
+    "lines": [
+     "19 Aug: Ravi said security audit may impact integration rollout, but hopes Sep 15 still holds.",
+     "22 Aug: Ravi confirmed security audit results; integration rollout delayed to Sep 22 (was Sep 15).",
+     "25 Aug: Ravi confirmed Sep 22 still target; audit started yesterday.",
+     "22 Aug: Ravi confirmed security audit results; integration rollout delayed to Sep 22 (was Sep 15). 25 Aug: Ravi confirmed Sep 22 still target; audit started yesterday. 06 Sep: Ravi sync confirmed integration security audit cleared, Sep 22 stable."
+    ],
+    "updated": 36
+   },
+   "reminder-customer-interview-feature-requ": {
+    "title": "Customer Interview Feature Requests (20 Aug)",
+    "hook": "Reminder set on 19 Aug to note down feature requests during customer interview tomorrow morning (20 Aug).",
+    "lines": [
+     "19 Aug: Kai set a reminder to note down feature requests during customer interview tomorrow morning (20 Aug).",
+     "20 Aug: Customer interview done; 3 requested dark mode, 1 found onboarding confusing; reported to Yuki."
+    ],
+    "updated": 18
+   },
+   "reminder-review-lily-aurora-pricing-addo": {
+    "title": "Reminder: Review Lily's Aurora Pricing Add-on Proposal",
+    "hook": "Kai needs to review Lily's Aurora pricing add-on proposal before Friday; reminder set for Thursday afternoon (20 Aug).",
+    "lines": [
+     "19 Aug: Kai set a reminder to review Lily's Aurora pricing add-on proposal by Friday; will be reminded on Thursday afternoon."
+    ],
+    "updated": 18
+   },
+   "aurora-risk-mitigation": {
+    "title": "Aurora Deal Risk Mitigation",
+    "hook": "Kai thinking about Aurora risk mitigation on 22 Aug; possible scope creep bigger",
+    "lines": [
+     "22 Aug: Kai thinking about Aurora deal risk mitigation over weekend; possible scope creep bigger. 23 Aug: Kai writing Aurora risk mitigation one-pager for Grace; key risk: custom module not committed until Q1.",
+     "23 Aug: Kai writing Aurora risk mitigation one-pager for Grace; key risk: custom module not committed until Q1. 23 Aug: Integration delay to Sep 22 could spook Aurora; mitigation: weekly status to Lily starting this Friday."
+    ],
+    "updated": 22
+   },
+   "singapore-prospect-1-fintech": {
+    "title": "Singapore Prospect 1: Fintech (300 seats)",
+    "hook": "Fintech prospect in Singapore, 300 seats, needs SSO and audit logs; Kai meeting on 24 Aug",
+    "lines": [
+     "24 Aug: Omar's first prospect is a fintech, 300 seats; needs SSO and audit logs.",
+     "25 Aug: Meeting went well with fintech prospect (300 seats).",
+     "26 Aug: Fintech prospect's procurement wants 30-day payment term (standard net 45); Omar flagged as potential red flag; Kai needs to check with Grace."
+    ],
+    "updated": 24
+   },
+   "singapore-prospect-2-logistics": {
+    "title": "Singapore Prospect 2: Logistics (150 seats)",
+    "hook": "Logistics company in Singapore, 150 seats; meeting went well on 24 Aug.",
+    "lines": [
+     "24 Aug: Omar's second prospect is a logistics company, 150 seats; meeting went well.",
+     "25 Aug: Meeting went well with logistics prospect (150 seats)."
+    ],
+    "updated": 24
+   },
+   "reminder-fintech-follow-up": {
+    "title": "Reminder: Fintech Follow-Up Call Prep",
+    "hook": "Reminder: Fintech Follow-Up Call Prep — Fintech call on 28 Aug 10am SGT; procurement wants 30-day payment term flagged 26 Aug; Kai to ask Grace about net 30 exception.",
+    "lines": [
+     "25 Aug: Kai set reminder to prep Monday (31 Aug) for fintech follow-up call Thursday (3 Sep) 10am SGT with Omar.",
+     "Fintech call on 28 Aug 10am SGT; procurement wants 30-day payment term (standard net 45) flagged 26 Aug; Kai noted to ask Grace about net 30 exception.",
+     "28 Aug: 提醒下周二和Yuki sync dark mode feedback。"
+    ],
+    "updated": 26
+   },
+   "grace-yuki-ux-review-oct5": {
+    "title": "Grace & Yuki UX Review (Oct 5)",
+    "hook": "Grace wants to meet Yuki about new UX mockups on Oct 5.",
+    "lines": [
+     "25 Aug: Grace scheduled UX review with Yuki for Oct 5 to discuss new mockups."
+    ],
+    "updated": 23
+   },
+   "ravi-dark-mode-feasibility": {
+    "title": "Ravi: Dark Mode Feasibility",
+    "hook": "Ravi said dark mode is feasible but depends on integration finishing; review after Sep 22. Yuki finished mockups 09 Sep.",
+    "lines": [
+     "27 Aug: Dark mode priority raised to P1; Ravi needs additional resources to complete before Q3 end (was target Sep 22). 28 Aug: Ravi may push integration delay by one more week, affecting dark mode timeline.",
+     "28 Aug: Ravi may push integration delay by one more week, affecting dark mode timeline. 30 Aug: Ravi says dark mode alpha ready mid-October.",
+     "04 Sep: Yuki says dark mode QA will be ready next Friday (11 Sep).",
+     "28 Aug: Ravi may push integration delay by one more week, affecting dark mode timeline. 30 Aug: Ravi says dark mode alpha ready mid-October. 04 Sep: Yuki says dark mode QA will be ready next Friday (11 Sep). 06 Sep: Ravi integration confirmed stable for Sep 22, dark mode timeline remains dependent on integration completion.",
+     "04 Sep: Yuki says dark mode QA will be ready next Friday (11 Sep). 06 Sep: Ravi integration confirmed stable for Sep 22, dark mode timeline remains dependent on integration completion. 09 Sep: Yuki finished dark mode mockups; Ravi said estimate 3 sprints (6 weeks). Kai asked Yuki to see which parts can be delivered in phases. Alignment meeting scheduled Monday.",
+     "11 Sep: Ravi说integration testing进展不错，Sep 22 deadline应该能hit，dark mode timeline保持依赖integration完成。",
+     "18 Oct: Ravi says dark mode toggle dev about 3 weeks, plus testing, target end of Nov (was 2 sprints, target early Dec)."
+    ],
+    "updated": 77
+   },
+   "aurora-custom-reporting-request": {
+    "title": "Aurora Custom Reporting Request",
+    "hook": "Aurora Custom Reporting Request — Lily reported on 08 Sep; custom module timeline confirmed Q1 2027 as of 13 Oct.",
+    "lines": [
+     "08 Sep: Lily said Aurora has a new request for custom reporting, smaller scope than analytics module, estimated ~4 weeks. Kai told Lily not to commit yet, will review first.",
+     "Aurora Custom Reporting Request — Lily reported Aurora wants custom reporting (smaller than analytics module, ~4 weeks) on 08 Sep. Kai told Lily not to commit until he reviews. 10 Sep: Lily sent initial scope; looks reasonable.",
+     "08 Sep: Lily said Aurora has a new request for custom reporting, smaller scope than analytics module, estimated ~4 weeks. Kai told Lily not to commit yet, will review first.\nAurora Custom Reporting Request — Lily reported Aurora wants custom reporting (smaller than analytics module, ~4 weeks) on 08 Sep. Kai told Lily not to commit until he reviews. 10 Sep: Lily sent initial scope; Ravi confirmed 4 weeks feasible, Lily to prepare SOW.",
+     "13 Oct: Aurora custom module timeline confirmed for Q1 2027 (was 08 Sep: Lily reported Aurora wants custom reporting)."
+    ],
+    "updated": 72
+   },
+   "mobile-backlog": {
+    "title": "Mobile Backlog",
+    "hook": "Kai and Yuki discussed mobile priority on 14 Sep; Yuki proposed native iOS first, will provide T-shirt sizing by Friday.",
+    "lines": [
+     "14 Sep: Kai and Yuki synced on mobile backlog. Yuki proposed native iOS first. Kai asked for T-shirt sizing by Friday.",
+     "15 Sep: Kai working on mobile survey deep dive; 80% want better mobile support."
+    ],
+    "updated": 44
+   },
+   "pm-candidate-wang-lei": {
+    "title": "PM Candidate Wang Lei",
+    "hook": "Wang Lei (王磊), 7 years SaaS, interviewed 22 Sep, good communication.",
+    "lines": [
+     "22 Sep: Kai interviewed final PM candidate Wang Lei, 7 years SaaS, good communication, background fits Northwind.",
+     "30 Sep: Emily Tan sent follow-up email; keen to join."
+    ],
+    "updated": 59
+   },
+   "integration-post-mortem": {
+    "title": "Integration Post-Mortem with Ravi",
+    "hook": "Ravi's integration post-mortem on 24 Sep; Kai discussed velocity and team capacity. 28 Sep: Kai wants to talk to Ravi to capture learnings.",
+    "lines": [
+     "24 Sep: Kai met with Ravi for integration post-mortem; discussed velocity and team capacity.",
+     "26 Sep: Integration stable, no critical bugs.",
+     "27 Sep: Ravi reported engineering team velocity up 20% this sprint.",
+     "24 Sep: Kai met with Ravi for integration post-mortem; discussed velocity and team capacity.",
+     "26 Sep: Integration stable, no critical bugs.",
+     "27 Sep: Ravi reported engineering team velocity up 20% this sprint.",
+     "28 Sep: Kai wants to talk to Ravi to capture learnings before next project.",
+     "30 Sep: Lunch with Ravi, discussed integration post-mortem; he will have a doc by Friday.",
+     "02 Oct: Ravi confirmed integration stable, no bugs, monitoring can be dropped."
+    ],
+    "updated": 61
+   },
+   "q4-roadmap-outline": {
+    "title": "Q4 Roadmap Outline",
+    "hook": "Kai's Q4 roadmap outline to share with aicoo tomorrow morning (25 Sep).",
+    "lines": [
+     "25 Sep: Kai shared Q4 roadmap outline (4 sections: Q4 goals, key initiatives, risks, resource needs); aicoo drafted slides, added Aurora as case study.",
+     "02 Oct: Q4 deck risk section completed and sent to aicoo for review."
+    ],
+    "updated": 61
+   },
+   "dark-mode-beta-test": {
+    "title": "Dark Mode Beta Test (Yuki)",
+    "hook": "Yuki's dark mode beta test — 16 out of 20 users positive as of 05 Oct; 09 Oct sync with Kai on usability tweaks.",
+    "lines": [
+     "30 Sep: Yuki proposed testing dark mode with 50 beta users next week; Kai agreed, good idea to catch issues early.",
+     "02 Oct: Dark mode beta signups at 12 users; Yuki collecting more.",
+     "03 Oct: Dark mode beta at 30 users, expected to reach 50 by tomorrow (was 02 Oct: Beta start going well, 50-user target should be reached soon).",
+     "05 Oct: Dark mode beta feedback positive, 16 out of 20 users positive. 09 Oct: Kai had 10am sync with Yuki on dark mode beta feedback; overall positive, Yuki needs 2 weeks iteration then full rollout planning; timeline still on track for mid-Nov. 11 Oct: Dark mode toggle request from 4 users.",
+     "13 Oct: Dark mode beta survey results: 87% satisfied (was 35 users feedback on 12 Oct).",
+     "15 Oct: Kai and Ravi agree to split out toggle feature into its own sprint to deliver within 3 sprints; other dark mode features pushed later.",
+     "19 Oct: Yuki finalized dark mode visuals, handoff to engineering tomorrow. 16 Oct: Yuki toggle design review done, clean; user test shows 82% prefer toggle over system default; Kai asked Yuki to finalize by next Monday, Ravi starts estimation. 17 Oct: Ravi estimates dark mode toggle 2 sprints (was 4 sprints); Yuki design handoff next Tuesday, target early Dec launch. 21 Oct: dark mode and pricing page optimization will run in parallel; engineering resources tight.",
+     "30 Oct: Ravi confirmed dark mode toggle dev in sprint, estimated completion early Nov.",
+     "30 Oct: Yuki reported dark mode toggle beta feedback 92% satisfaction; she proposed auto-toggle based on system preference (extra week), Kai decided to ship v1 with manual toggle first, auto-toggle deferred to v2."
+    ],
+    "updated": 89
+   },
+   "lily-enterprise-sales-transition": {
+    "title": "Lily's Transition to Enterprise Sales Full-Time",
+    "hook": "Lily moving to enterprise sales full-time 07 Oct; handover to Emily this week; Ben covers mid-market accounts; Emily start date Oct 26.",
+    "lines": [
+     "07 Oct: Lily moving to enterprise sales full-time; handover to Emily Thompson this week; Ben covers mid-market accounts.",
+     "07 Oct: Lily will do one-week handover doc. 24 Oct: Lily handover checklist done, starts enterprise sales next week (was 07 Oct).",
+     "12 Oct: Lily handover to Emily going smoothly; Emily start date Oct 26 unchanged. 24 Oct: Lily handover checklist done, starts enterprise sales next week (was 07 Oct).",
+     "26 Oct: Emily started onboarding, taking over Lily's accounts; Lily moving to new role (was handover checklist done 24 Oct, starts enterprise sales next week).",
+     "30 Oct: Emily handling Singapore customer custom reporting request independently; Lily on standby as escalation backup."
+    ],
+    "updated": 89
+   },
+   "omars-singapore-q4-budget": {
+    "title": "omars-singapore-q4-budget",
+    "hook": "",
+    "lines": [
+     "13 Oct: Grace confirms Q4 offsite Hangzhou Oct 20-21."
+    ],
+    "updated": 73
+   },
+   "pm-candidate-sarah-wu": {
+    "title": "PM Candidate Sarah Wu (Future Pipeline)",
+    "hook": "PM Candidate Sarah Wu — Casual chat 16 Oct, background strong (enterprise SaaS + vertical SaaS, matches Aurora), keep for future.",
+    "lines": [
+     "16 Oct: Met Sarah Wu casually; background good, keep as future pipeline (we already hired Emily Tan).",
+     "16 Oct: Casual chat, background strong (2 years enterprise SaaS + vertical SaaS experience, matches Aurora-type clients), keep for future pipeline."
+    ],
+    "updated": 76
+   }
+  },
+  "lastAt": 130201,
+  "writes": 147
+ },
+ "lastDay": 90,
+ "done": true,
+ "minutes": 14.434316666666666
+}

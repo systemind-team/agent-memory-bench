@@ -1,0 +1,70 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "what were all the billing cutover dates we discussed?",
+ "reply": [
+  "here's the full timeline of billing cutover dates we discussed:\n\n- **Aug 20**: moved to nov 5\n- **Sep 6**: moved to nov 15 (priya frustrated but ok)\n- **Sep 18**: moved back to oct 12 (legal signed off)\n- **Sep 30**: priya pushed to oct 26, said nov 15 was too far\n- **Oct 2**: priya confirmed oct 26; dan agreed it was doable\n- **Oct 3**: oct 26 locked, timeline updated\n- **Oct 16**: changed again? memory shows \"cutover is november 15\" from that date\n\nso final answer: **oct 26** was locked, but there's a note from oct 16 that says nov 15. is there a newer update i missed?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "cutover date"
+   },
+   "result": "[97] 20 Aug · fact: cutover date moved to nov 5  → replaced 18 Sep by [217] billing cutover final date: oct 12 again  (from #161)\n[161] 06 Sep · fact: cutover date moved to nov 15  → replaced 30 Sep by [267] priya wants to move cutover to oct 26, says nov 15 is too far  (from #274)\n[217] 18 Sep · fact: billing cutover final date: oct 12 again  (from #379)\n[215] 17 Sep · fact: priya mentioned cutover date might shift again, waiting on legal  (from #373)\n[282] 03 Oct · done: billing migration cutover date oct 26 locked, timeline updated  (from #512)\n[106] 22 Aug · fact: sam's start date confirme"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "billing cutover date timeline"
+   },
+   "result": "[282] 03 Oct · done: billing migration cutover date oct 26 locked, timeline updated  (from #512)\n[217] 18 Sep · fact: billing cutover final date: oct 12 again  (from #379)\n[97] 20 Aug · fact: cutover date moved to nov 5  → replaced 18 Sep by [217] billing cutover final date: oct 12 again  (from #161)\n[161] 06 Sep · fact: cutover date moved to nov 15  → replaced 30 Sep by [267] priya wants to move cutover to oct 26, says nov 15 is too far  (from #274)\n[384] 16 Oct · ask: priya asked about the cutover timeline again  (from #657)\n[48] 11 Aug · plan: priya wants cutover timeline moved to sep 28  →"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "november 15 cutover"
+   },
+   "result": "[385] 16 Oct · fact: cutover is november 15  (from #658)\n[161] 06 Sep · fact: cutover date moved to nov 15  → replaced 30 Sep by [267] priya wants to move cutover to oct 26, says nov 15 is too far  (from #274)\n[162] 06 Sep · feeling: priya frustrated but ok with nov 15 cutover  (from #274)\n[267] 30 Sep · feeling: priya wants to move cutover to oct 26, says nov 15 is too far  → replaced 02 Oct by [281] billing migration cutover oct 26  (from #487)\n[268] 01 Oct · feeling: priya wants to move cutover to oct 26, says nov 15 is too far; dan agrees oct 26 is doable  (from #488)\n[316] 06 Oct · fact: "
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "cutover date october 26"
+   },
+   "result": "[282] 03 Oct · done: billing migration cutover date oct 26 locked, timeline updated  (from #512)\n[280] 02 Oct · fact: priya confirmed oct 26 cutover  (from #511)\n[281] 02 Oct · plan: billing migration cutover oct 26  (from #511)\n[97] 20 Aug · fact: cutover date moved to nov 5  → replaced 18 Sep by [217] billing cutover final date: oct 12 again  (from #161)\n[161] 06 Sep · fact: cutover date moved to nov 15  → replaced 30 Sep by [267] priya wants to move cutover to oct 26, says nov 15 is too far  (from #274)\n[217] 18 Sep · fact: billing cutover final date: oct 12 again  (from #379)\n[268] 01 Oct "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3067,
+   "out": 21,
+   "usd": 0.000151766
+  },
+  {
+   "in": 3394,
+   "out": 24,
+   "usd": 0.000176292
+  },
+  {
+   "in": 3745,
+   "out": 24,
+   "usd": 0.000204178
+  },
+  {
+   "in": 4098,
+   "out": 25,
+   "usd": 0.000507988
+  },
+  {
+   "in": 4500,
+   "out": 185,
+   "usd": 0.000544536
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10818
+}

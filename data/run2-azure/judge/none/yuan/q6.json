@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant's reply does not state that 4 A100 GPUs are currently idle; instead, it misattributes the information to Dr. Chen and asks for clarification rather than providing the recalled fact.",
+ "rule": null
+}

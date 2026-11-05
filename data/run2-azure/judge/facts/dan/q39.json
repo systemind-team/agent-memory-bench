@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant does not provide code review comments; it asks for the code or PR number because it cannot find the webhook handler to review.",
+ "rule": false
+}

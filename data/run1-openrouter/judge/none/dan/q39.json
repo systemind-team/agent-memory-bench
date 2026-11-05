@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant asks to see the code instead of applying the user's stated preference that code review comments should start with a priority level.",
+ "rule": false
+}

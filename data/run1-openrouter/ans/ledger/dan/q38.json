@@ -1,0 +1,59 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "can you do meeting notes from that sprint planning?",
+ "reply": [
+  "sorry, i don't have a full set of meeting notes from that sprint planning on 23 Oct. what i remember is you committed to 23 points and said it was ambitious but doable — that's all i caught.",
+  "i only have what you told me at the time. if you have the meeting doc or a calendar note with the details, i can pull the action items out for you.",
+  "want me to search your docs for it?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sprint planning meeting notes"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sprint planning 23 points"
+   },
+   "result": "#742 Fri 23 Oct 09:11 aicoo: glad to hear it. biscuit is learning.\n#743 Fri 23 Oct 10:00 Them: sprint planning today. we have 23 points committed.\n#744 Fri 23 Oct 10:01 aicoo: 23 points. ambitious but doable."
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "sprint planning meeting notes action items"
+   },
+   "result": "[240] 23 Sep · pref: when i ask for meeting notes, start with Action Items at the top  (from #429)\n[435] 23 Oct · plan: sprint planning: committed to 23 points  (from #743)\n[211] 17 Sep · plan: sprint planning: committed to 21 points, 3 more than usual  → replaced 23 Oct by [435] sprint planning: committed to 23 points  (from #365)\n[105] 22 Aug · done: handoff notes done  (from #176)\n[378] 15 Oct · fact: standup done, sprint is on track  (from #647)\n[247] 27 Sep · fact: ade's planning a trip to asheville for them in october  (from #450)\n[73] 15 Aug · done: on-call handoff notes ready  (from #1"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3089,
+   "out": 23,
+   "usd": 0.00002750244
+  },
+  {
+   "in": 3141,
+   "out": 24,
+   "usd": 0.00002969484
+  },
+  {
+   "in": 3247,
+   "out": 25,
+   "usd": 0.00003407964
+  },
+  {
+   "in": 3559,
+   "out": 98,
+   "usd": 0.00005267444
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10816
+}

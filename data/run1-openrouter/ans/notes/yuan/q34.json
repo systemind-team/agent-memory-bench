@@ -1,0 +1,85 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning aicoo, what's my schedule this week?",
+ "reply": [
+  "早周周，这周日程如下：",
+  "周一（今天）9:30线上meeting，已准备slides和论文，明早9:00自动发最新版给Prof. Lin",
+  "周二Dr. Chen入职，10:00提醒你带他熟悉实验室（GPU集群、存储、代码仓库）",
+  "论文方面：环境4标preliminary，目标12月投稿，等Lin意见后确定会议（AAAI/ICLR）。这周可以把discussion和related work收一收。",
+  "另外周三组会正常吗？还是等周一meeting后再定？"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "schedule this week"
+   },
+   "result": "(nothing)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "本周计划 下周"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周一 meeting 组会 论文"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "November 1 week plan"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "本周 下周 计划"
+   },
+   "result": "[项目] 25 Aug: 下午开始做周四组会slides初版，主要放实验表格和ablation结果；aicoo建议加一页总结本周进展和下周计划，已采纳\n[项目] 23 Aug: 准备下周meeting材料，整理一周结果和下周计划成slides，slides基本完成\n[个人] 23 Aug: 周日准备下周meeting材料，整理一周结果和下周计划成slides，slides基本完成\n[about-me] 25 Oct 17:00 晚上写下周计划：周一线上meeting，周二继续改discussion\n[人物] 24 Aug: Mei下周开始用A100，本周需跑完所有实验（之前19 Aug同意share A100使用时间）\n[项目] 24 Aug: 本周关键事项：1）完成ablation实验并整理结果（已跑完，attention去掉掉点4%）；2）related work章节收尾（中午前写完最后一节）；3）准备周四组会材料（周三晚上做）；4）联系Kevin确认baseline代码；5）周二开始TA批改作业；6）本周A100切换前跑完所有实验（Mei下周开始用A100）\n[个人] 24 Aug: 要求aicoo列本周关键事项，已列出六条\n[人物] 05 Oct: Coco说推荐信本周能发；Kevin说H100申请还在排队\n[项目] 20 Aug: 计划跑完所有baseline实验并整理表"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3735,
+   "out": 22,
+   "usd": 0.00003701908
+  },
+  {
+   "in": 3772,
+   "out": 22,
+   "usd": 0.00003852128
+  },
+  {
+   "in": 3823,
+   "out": 25,
+   "usd": 0.00004083548
+  },
+  {
+   "in": 3877,
+   "out": 23,
+   "usd": 0.00004286548
+  },
+  {
+   "in": 3929,
+   "out": 23,
+   "usd": 0.00004497668
+  },
+  {
+   "in": 4317,
+   "out": 133,
+   "usd": 0.00006966148
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9642
+}

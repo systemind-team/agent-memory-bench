@@ -1,0 +1,52 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q21",
+ "kind": "update",
+ "q": "论文标题最初叫什么？",
+ "reply": [
+  "从笔记来看，论文标题经历了几次演变：",
+  "最初的版本是 **Planning with Hierarchical Graphs**（8月20日之前）",
+  "→ 改为 Hierarchical Planning with Graph Attention（8月20日）",
+  "→ 改为 Context-Aware Hierarchical Planning for LLMs（9月13日）",
+  "→ 改为 Context-Aware Planning（9月27日）",
+  "→ 最终定稿 Context-Aware Planning via Hierarchical Decomposition（10月26日）",
+  "怎么突然问这个？在想title会不会再改？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题 最初"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "论文标题 最初 标题改为"
+   },
+   "result": "[项目] 20 Aug: 论文标题改为Hierarchical Planning with Graph Attention（之前是Planning with Hierarchical Graphs）；13 Sep: 标题改为Context-Aware Hierarchical Planning for LLMs\n[about-me] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[项目] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[about-me] 26 Oct 09:15 开始finalize论文标题，跑最后一个实验；26 Oct 11:30 环境4还是45%，可能intermediate supervision的权重需要调\n[项目] 27 Sep: 标题改为Context-Aware Planning（之前是Context-Aware Hierarchical Planning for LLMs）；24 Sep num_workers改为4后稳定（机器CPU核数12）；组会"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4376,
+   "out": 22,
+   "usd": 0.000381392
+  },
+  {
+   "in": 4427,
+   "out": 25,
+   "usd": 0.000393782
+  },
+  {
+   "in": 5174,
+   "out": 124,
+   "usd": 0.000376972
+  }
+ ],
+ "memChars": 6992,
+ "promptChars": 11333
+}

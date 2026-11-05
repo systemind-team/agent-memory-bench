@@ -1,0 +1,61 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q14",
+ "kind": "update",
+ "q": "who was the second candidate for data eng?",
+ "reply": [
+  "you mentioned two data engineer candidates back in aug: maria torres (solid sql) and jordan liu (was at spotify, good take-home). david chen (contractor at doordash, knows dbt) came up later but i think he's on the team now.",
+  "don't have a record of a second formal candidate after those. if there was another round i missed, what week was it?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data eng second candidate"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "data engineering candidate"
+   },
+   "result": "[52] 12 Aug · fact: interview for data engineer candidate maria torres at 10  (from #92, #94)\n[53] 12 Aug · person: maria torres is a data engineer candidate, solid sql  (from #94)\n[104] 21 Aug · person: jordan liu is a data engineer candidate, was at spotify, good take-home  (from #174, #175)\n[71] 14 Aug · plan: need to restart interviews for data engineer  (from #117)\n[167] 07 Sep · fact: david chen is a candidate, contractor at doordash, knows dbt  (from #283)\n[82] 17 Aug · fact: dan sketched interview rubric for data engineer, needs more sql focus  (from #139)\n[22] 06 Aug · feeling: migrat"
+  },
+  {
+   "tool": "open_source",
+   "args": {
+    "ids": [
+     104,
+     105
+    ]
+   },
+   "result": "#103 Thu 13 Aug 07:56 aicoo: rough night. take it easy today\n#104 Thu 13 Aug 09:15 Them: lena fixed the search flaky test. down to 0 now\n#105 Thu 13 Aug 09:16 aicoo: clean slate. feels good\n---\n#104 Thu 13 Aug 09:15 Them: lena fixed the search flaky test. down to 0 now\n#105 Thu 13 Aug 09:16 aicoo: clean slate. feels good\n#106 Thu 13 Aug 10:00 Them: priya approved the sep 28 cutover. we're all aligned"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3088,
+   "out": 22,
+   "usd": 0.00002738064
+  },
+  {
+   "in": 3139,
+   "out": 21,
+   "usd": 0.00002937004
+  },
+  {
+   "in": 3412,
+   "out": 21,
+   "usd": 0.00004045384
+  },
+  {
+   "in": 3587,
+   "out": 95,
+   "usd": 0.00004525276
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10807
+}

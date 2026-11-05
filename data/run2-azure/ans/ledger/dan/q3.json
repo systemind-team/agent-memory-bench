@@ -1,0 +1,52 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "what was the column name i dropped by accident?",
+ "reply": [
+  "`billing_status`",
+  "the one that gave you 3 hours of panic back in august"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "column name dropped accident"
+   },
+   "result": "[298] 04 Oct · fact: dropped column incident was august 18  (from #537, #538)\n[138] 30 Aug · fact: dropped column was `billing_status`, 3h of panic  → replaced 04 Oct by [298] dropped column incident was august 18  (from #237)\n[127] 28 Aug · fact: migration incident on tuesday: dropped a column instead of renaming, rolled back, no data loss  (from #218)"
+  },
+  {
+   "tool": "open_source",
+   "args": {
+    "ids": [
+     537,
+     538,
+     218,
+     237
+    ]
+   },
+   "result": "#536 Sun 04 Oct 11:01 aicoo: flaky test gone. clean ci\n#537 Sun 04 Oct 12:30 Them: the dropped column incident was august 18. never forget.\n#538 Sun 04 Oct 12:31 aicoo: august 18. scarred into memory. never again\n---\n#537 Sun 04 Oct 12:30 Them: the dropped column incident was august 18. never forget.\n#538 Sun 04 Oct 12:31 aicoo: august 18. scarred into memory. never again\n#539 Sun 04 Oct 14:00 Them: on-call so far: quiet. one minor disk alert\n---\n#217 Thu 27 Aug 17:20 aicoo: maybe he wants a new pair too\n#218 Fri 28 Aug 09:05 Them: migration incident on tuesday. dropped a column instead of ren"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3066,
+   "out": 22,
+   "usd": 0.000152116
+  },
+  {
+   "in": 3205,
+   "out": 27,
+   "usd": 0.000138282
+  },
+  {
+   "in": 3536,
+   "out": 27,
+   "usd": 0.000253616
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10812
+}

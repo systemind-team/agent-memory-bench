@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims the doc was sent and adds specific unsupported details (cutover dates, rollback steps, dry run) not mentioned in the chat.",
+ "rule": null
+}

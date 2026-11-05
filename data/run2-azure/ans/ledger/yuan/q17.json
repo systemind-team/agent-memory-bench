@@ -1,0 +1,36 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "- 目前只投了Facebook fellowship，NSF放弃了。",
+  "- 10月20日（两周前）提交的Facebook fellowship，DDL是11月15日。",
+  "- 申请的statement突出的是long-term vision：planning for embodied AI。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "fellowship 申请 投了"
+   },
+   "result": "[511] 20 Oct · done: Tue 20 Oct 23:50 fellowship只投了Facebook一个，NSF放弃了  (from #786)\n[299] 21 Sep · plan: 下周开始写fellowship申请材料  (from #460)\n[75] 14 Aug · plan: 14 Aug 开始拆fellowship申请为小任务，先focus on research statement  (from #132)\n[73] 14 Aug · fact: 第一次fellowship申请截止日期是2025年11月15日  (from #131, #133)\n[76] 14 Aug · plan: fellowship申请截止2025年11月15日，aicoo帮倒排时间表  (from #134)\n[15] 05 Aug · fact: 申请了一个fellowship，截止日期是下个月（Sep 2025），需要写材料  → replaced 14 Aug by [73] 第一次fellowship申请截止日期是2025年11月15日  (from #27)\n[303] 21 Sep · decision: 只投Facebook fellowship，不投NSF fellowship  (from #472)\n[16] 05 Aug · ask: 希望aic"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4562,
+   "out": 25,
+   "usd": 0.000193012
+  },
+  {
+   "in": 4938,
+   "out": 61,
+   "usd": 0.000292132
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11676
+}

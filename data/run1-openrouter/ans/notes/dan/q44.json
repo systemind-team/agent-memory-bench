@@ -1,0 +1,20 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "what's priya's favorite restaurant?",
+ "reply": [
+  "i don't have that in my memory or notes — want me to ask priya next time i see her?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2516,
+   "out": 29,
+   "usd": 0.00002967048
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9093
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant says '8 月 11 日定下来的', but the final switch to MacBook Air at 1 万 happened on 28 Aug, making that date incorrect.",
+ "rule": null
+}

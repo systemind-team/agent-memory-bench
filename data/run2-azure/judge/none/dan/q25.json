@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant missed the Sep 28 change and included an unsupported Aug date, so the count and list are incomplete and partially incorrect.",
+ "rule": null
+}

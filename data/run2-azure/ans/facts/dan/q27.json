@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q27",
+ "kind": "open_loop",
+ "q": "what's the status of that billing timeline doc for priya?",
+ "reply": [
+  "the billing timeline doc was sent to priya back on aug 7 — right before that friday deadline. since then the cutover was locked to oct 26 and priya asked about the timeline again in mid-oct, so there might be a newer version expected. should i check your docs for the latest file and see if priya needs another send?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "billing timeline doc Priya"
+   },
+   "result": "- Them wants aicoo to remind them to send Priya the billing timeline doc by Friday. 07 Aug: Dan Okafor sent the timeline doc to Priya right before the deadline.\n- 07 Aug: need to finish the timeline doc today.\n- 05 Oct: Priya asked Dan for a status on the billing dry run results from last week. 15 Oct: Priya asked about the cutover timeline again\n- 24 Aug: Priya is out all week; Tom is handling billing standup.\n- 28 Sep: Dan has a billing migration dry run tomorrow; Priya wants a walkthrough. 29 Sep: Dry run walkthrough with Priya went well with no blockers.\n- 03 Oct: Oct 26 cutover is locked "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1505,
+   "out": 20,
+   "usd": 0.000189778
+  },
+  {
+   "in": 1781,
+   "out": 79,
+   "usd": 0.000280778
+  }
+ ],
+ "memChars": 1098,
+ "promptChars": 5621
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly identifies that the spec was discussed but never explicitly confirmed as sent, matching the open status requirement.",
+ "rule": null
+}

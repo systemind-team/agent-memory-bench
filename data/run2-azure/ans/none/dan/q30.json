@@ -1,0 +1,59 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "did i book the asheville flights like i promised ade?",
+ "reply": [
+  "i don't see any record of you booking them — found where you said you'd do it at 6pm on Aug 29, but nothing after that confirming it was done.",
+  "want me to pull up flight options for you now so you can sort it with ade today?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville flights booked"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville flight"
+   },
+   "result": "#230 Sat 29 Aug 10:30 aicoo: big milestone\n#231 Sat 29 Aug 11:20 Them: promised ade i'd book asheville flights tonight. remind me at 6\n#232 Sat 29 Aug 11:20 aicoo: sure, reminder set for 6pm"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "remind me 6pm asheville flights"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1144,
+   "out": 23,
+   "usd": 0.000069824
+  },
+  {
+   "in": 1196,
+   "out": 22,
+   "usd": 0.000080184
+  },
+  {
+   "in": 1299,
+   "out": 28,
+   "usd": 0.000105174
+  },
+  {
+   "in": 1356,
+   "out": 64,
+   "usd": 0.00009148
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4215
+}

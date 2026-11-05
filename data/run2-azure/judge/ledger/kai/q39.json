@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The feedback summary is grouped by feature first, as requested.",
+ "rule": false
+}

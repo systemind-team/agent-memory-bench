@@ -1,0 +1,47 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q22",
+ "kind": "update",
+ "q": "论文标题改过几次？",
+ "reply": [
+  "总共改了5次标题：\n1. *Planning with Hierarchical Graphs*（最初）\n2. *Hierarchical Planning with Graph Attention*（8月20日）\n3. *Context-Aware Hierarchical Planning for LLMs*（9月13日）\n4. *Context-Aware Planning*（9月27日）\n5. *Context-Aware Planning via Hierarchical Decomposition*（10月26日，当前final）",
+  "最近一次是因为你26号调完环境4后觉得Hierarchical Decomposition更能体现方法核心，跟Prof. Lin确认后就定了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题 改 Context-Aware Planning"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "标题改为"
+   },
+   "result": "[项目] 20 Aug: 论文标题改为Hierarchical Planning with Graph Attention（之前是Planning with Hierarchical Graphs）；13 Sep: 标题改为Context-Aware Hierarchical Planning for LLMs\n[about-me] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[项目] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[项目] 13 Sep: 组会展示完整实验结果包括GPTR，Prof. Lin建议补充context window size讨论；下午跑window size对比实验（128比64效果好，256无提升）；标题改为Context-Aware Hierarchical Planning for LLMs\n[项目] 13 Sep: 组会展示完整实验结果包括GPTR，Prof. Lin建议补充context window size讨论；下午跑window siz"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4328,
+   "out": 26,
+   "usd": 0.000373552
+  },
+  {
+   "in": 4383,
+   "out": 20,
+   "usd": 0.000152622
+  },
+  {
+   "in": 5185,
+   "out": 137,
+   "usd": 0.000615682
+  }
+ ],
+ "memChars": 7027,
+ "promptChars": 11367
+}

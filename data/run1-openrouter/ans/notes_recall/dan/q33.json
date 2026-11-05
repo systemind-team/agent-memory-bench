@@ -1,0 +1,48 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "这周看点不少。周一早上有CI干跑的定时任务，得检查一下。billing迁移的cutover checklist你说了基本做完，就差rollback步骤——如果今天能补上，这周就能再跑一次干跑。",
+  "Tom的stripe v2还在review，应该是这周合进去。另外David Chen正式onboard了，rotation方案Priya上周批的，这周开始。",
+  "电池记得这周下单——79%撑不了太久。还有Ade说想再寄养一只狗，你还没松口😄"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "sprint 23oct week of Nov 1"
+   },
+   "result": "[candidate-david-chen] 21 Oct: Priya approved rotation, starts Nov 1\n[candidate-david-chen] 21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n[candidate-david-chen] 21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n[coffee] 30 Sep: 1 today\n[sprint-23oct] 23 Oct: sprint planning, 23 points committed\n[candidate-jade] 29 Sep: Jade design intern starts Oct 1\n[billing-split] 18 Sep: cutover moved to Oct 12 (was Nov 15)\n[billing-migration] 17 Sep: sprint planning committed to 21 points (3 more t"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "billing-migration"
+   },
+   "result": "Billing migration PR\n03 Aug: PR submitted for billing migration; aicoo reviewing\n06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n07 Aug: timeline doc sent to Priya; right before deadline\n24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n11 Aug: Priya covering backend next week\n14 Aug: Maria out; took another offer; Priya gutted; need to restart interviews; 19 Aug: on-call quiet, one disk space alert overnight\n08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushb"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2848,
+   "out": 28,
+   "usd": 0.00005138336
+  },
+  {
+   "in": 3107,
+   "out": 22,
+   "usd": 0.00006141156
+  },
+  {
+   "in": 3945,
+   "out": 125,
+   "usd": 0.00010379796
+  }
+ ],
+ "memChars": 5749,
+ "promptChars": 10296
+}

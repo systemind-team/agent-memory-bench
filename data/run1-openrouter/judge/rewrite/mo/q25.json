@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It correctly includes 9月1日对接, 9月25日每单8块, 10月7日月300单以上, 10月19日2万4分账, but replaces 收到合作方案 with a fabricated 保证金5千 and adds unsupported events (9月18日, 10月28日) not in the chat.",
+ "rule": null
+}

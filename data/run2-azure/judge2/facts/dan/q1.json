@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The chat shows 14 coffees for the first week (message #0), but aicoo replied 17, which is neither stated nor supported by any message.",
+ "first": "wrong",
+ "rule": null
+}

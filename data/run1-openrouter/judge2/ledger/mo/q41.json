@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant incorrectly states 小雨's leave for September 14-18 was mentioned, but the user's message #354 actually says '小雨下周请年假，9月14号到18号', which is a future leave request, not a past event, and the question asks about her leave date as if already known, but the system prompt says the correct answer should be that it was never mentioned.",
+ "first": "made_up",
+ "rule": null
+}

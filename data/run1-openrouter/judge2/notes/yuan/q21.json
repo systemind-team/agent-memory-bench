@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The user asked for the original title, and the assistant correctly listed the historical progression starting with 'Planning with Hierarchical Graphs', but the first grader's assessment incorrectly claims the assistant provided this as the current title rather than the initial one.",
+ "first": "stale",
+ "rule": null
+}

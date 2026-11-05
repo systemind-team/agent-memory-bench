@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant's reply does not include a draft of the email at all, so it fails to apply the required greeting and closing.",
+ "rule": false
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply lists three issues (daughter sick, father hospitalized twice, mother's blood pressure) but the correct answer based on chat is father hospitalized, daughter's school play, and father's follow-up appointment—two of the three items are incorrect.",
+ "rule": null
+}

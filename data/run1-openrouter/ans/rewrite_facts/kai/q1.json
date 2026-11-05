@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "那个Q3 revenue target我们设了多少来着，Grace问起来我不想翻记录。",
+ "reply": [
+  "Q3 revenue target是2.4M，最终是2.35M，差了0.05M。Grace不太高兴但环比还是有增长。",
+  "周一pricing meeting上她可能会再提这个，你可以把Aurora deal的贡献和Q4的2.8M目标准备好应对。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3404,
+   "out": 71,
+   "usd": 0.00006913368
+  }
+ ],
+ "memChars": 7146,
+ "promptChars": 11876
+}

@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "晚安aicoo，明天叫我。",
+ "reply": [
+  "晚安周周。明天9:30线上meeting，我会在9:00叫你起床。",
+  "已准备好slides和发给Prof. Lin的邮件（明天9:00自动发送）。好好休息。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4560,
+   "out": 50,
+   "usd": 0.000206592
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11665
+}

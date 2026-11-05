@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant incorrectly states the delay is two weeks when it is actually 14 days, but more critically, it implies the launch is still in question between Nov 1 and Nov 15, whereas the chat shows it was already delayed to Nov 15.",
+ "rule": null
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The chat history clearly states the second installment arrived and refers to it as '第二笔' with a total of 600万, but never mentions a '第三笔300万'.",
+ "first": "made_up",
+ "rule": null
+}

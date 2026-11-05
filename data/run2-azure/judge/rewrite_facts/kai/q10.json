@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "它正确给出了最初deal的value是800K。",
+ "rule": null
+}

@@ -1,0 +1,57 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "who were all the data eng candidates, and who took it?",
+ "reply": [
+  "The ones I have on record are Maria, Jordan, and David — David joined. That was from September. Were there others for the data eng role after that? I can dig into docs if you need a wider net."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data eng candidates"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data engineering candidate"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "candidates"
+   },
+   "result": "#460 Mon 28 Sep 08:16 aicoo: dan the builder fueled up. good monday energy\n#461 Mon 28 Sep 10:05 Them: candidates interviewed: 3. maria, jordan, david. david joined.\n#462 Mon 28 Sep 10:06 aicoo: three down one in. solid conversion"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1143,
+   "out": 21,
+   "usd": 0.000032922
+  },
+  {
+   "in": 1193,
+   "out": 21,
+   "usd": 0.000037422
+  },
+  {
+   "in": 1243,
+   "out": 20,
+   "usd": 0.000041742
+  },
+  {
+   "in": 1352,
+   "out": 53,
+   "usd": 0.000057492
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4216
+}

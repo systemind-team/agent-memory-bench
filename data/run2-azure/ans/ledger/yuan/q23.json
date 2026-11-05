@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q23",
+ "kind": "update",
+ "q": "第二次改的title是什么？",
+ "reply": [
+  "- 第二次改的title是《Context-Aware Planning via Hierarchical Decomposition》。",
+  "- 第一次改的title没有最终采用，第二次是在26日周一晚上定的，后来27日确认没有再改过。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4558,
+   "out": 52,
+   "usd": 0.000207292
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11666
+}

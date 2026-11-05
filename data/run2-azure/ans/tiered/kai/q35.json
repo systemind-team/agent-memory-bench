@@ -1,0 +1,22 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "aicoo, 早，这周怎么安排的?",
+ "reply": [
+  "凯哥早！这周核心安排：周一下午dark mode feedback review，周二和Ravi确认integration post-mortem，周三下班前给Grace Q3 customer wins summary final版本。另外Omar上周五说周一中午前交Singapore local event proposal（$15k那个），你最好午饭前提一下让他别拖。",
+  "你父亲血压稳定了吗？女儿还好吧？这周节奏能控，周一下午我帮你设个3点提醒，确保dark mode review不超时。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8790,
+   "out": 113,
+   "usd": 0.000351164
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26027
+}

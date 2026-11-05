@@ -1,0 +1,57 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "which came first: sam joining or the migration incident?",
+ "reply": [
+  "Sam joined September 14, the migration incidents were early August. So Sam came first — well, the first incident was late July/early Aug, way before his start date."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam Ortiz start date"
+   },
+   "result": "#248 Mon 31 Aug 17:46 aicoo: oh no. hope the rug survives\n#249 Tue 01 Sep 09:00 Them: sam ortiz start date still sep 14, right?\n#250 Tue 01 Sep 09:01 aicoo: confirmed, september 14"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "migration incident"
+   },
+   "result": "#217 Thu 27 Aug 17:20 aicoo: maybe he wants a new pair too\n#218 Fri 28 Aug 09:05 Them: migration incident on tuesday. dropped a column instead of renaming. rolled back.\n#219 Fri 28 Aug 09:05 aicoo: ouch. no data loss?\n---\n#106 Thu 13 Aug 10:00 Them: priya approved the sep 28 cutover. we're all aligned\n#107 Thu 13 Aug 10:30 Them: migration incident post-mortem this afternoon. i'll draft notes\n#108 Thu 13 Aug 10:31 aicoo: want me to pull the incident timeline from pagerduty?\n---\n#38 Thu 06 Aug 09:16 aicoo: good. tom's been solid lately\n#39 Thu 06 Aug 11:00 Them: migration incident from last week"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "migration incident Aug 2026"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2519,
+   "out": 29,
+   "usd": 0.00002979228
+  },
+  {
+   "in": 2625,
+   "out": 28,
+   "usd": 0.00003401468
+  },
+  {
+   "in": 2892,
+   "out": 32,
+   "usd": 0.00004517968
+  },
+  {
+   "in": 2953,
+   "out": 48,
+   "usd": 0.00004895548
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9114
+}

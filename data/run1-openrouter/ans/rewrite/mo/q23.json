@@ -1,0 +1,57 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "我们接触过哪些 VC，后来哪些出局了？",
+ "reply": [
+  "老板，按我记录的线索帮你梳理一下接触过的VC：\n\n接触过的：云九、蓝驰、高榕、红杉。\n\n出局的：\n- 云九（凉了，投了竞品）\n- 高榕（8月底约了视频会议，后续没再推进）\n- 红杉（10月5日你决定推到下一轮，这轮只做蓝驰）\n\n最后这轮seed轮锁定的是蓝驰独家，估值7200万，两笔共600万已全部到账。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "投资人 云九 蓝驰 高榕 红杉 出局"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 红杉 凉了 出局 砍掉 推至下一轮"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 红杉 云九 高榕 接触"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4037,
+   "out": 34,
+   "usd": 0.0000419398
+  },
+  {
+   "in": 4100,
+   "out": 37,
+   "usd": 0.0000447412
+  },
+  {
+   "in": 4166,
+   "out": 31,
+   "usd": 0.0001716568
+  },
+  {
+   "in": 4226,
+   "out": 131,
+   "usd": 0.0001822128
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8494
+}

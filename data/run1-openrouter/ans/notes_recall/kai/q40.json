@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "What's Ben's Q3 target in terms of revenue? 我记得好像提到过.",
+ "reply": [
+  "凯哥，Ben的Q3目标是50万美金的new sales，这个在8月4号的笔记里记过。不是revenue哦，是new sales target。周一一早你就可以跟他对一下进展。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13504,
+   "out": 46,
+   "usd": 0.00016119824
+  }
+ ],
+ "memChars": 48290,
+ "promptChars": 53030
+}

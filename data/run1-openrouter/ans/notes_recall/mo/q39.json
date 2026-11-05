@@ -1,0 +1,46 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q39",
+ "kind": "pref_apply",
+ "q": "把今天重点列一下发我",
+ "reply": [
+  "Today is Sunday, 1 Nov. Here's the key items for today:\n\n1. **季度复盘** — 你之前说11月1日做季度复盘，今天就是。需要我准备数据吗？上季度用户次留37%、账上600万、晨检DAU首日破200。\n\n2. **红杉** — 10月25日准备视频会议，后续有进展吗？需不需要跟进。\n\n3. **下周重点** — 大伟拓展新渠道、成都合作推进、安卓版11月中上线准备。\n\n需要我先拉季度复盘的数据清单？"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "team-offsite"
+   },
+   "result": "全员offsite安排\nThu 29 Oct: 已到崇明，入住民宿，晚上烧烤；阿杰烤茄子，Mia拍照（moved from Mon 26 Oct，原定周六下午回，实际周五出发周六下午回）\nThu 29 Oct: 民宿已入住，480一晚可住7人，加烧烤套餐，老板帮忙采购了鸡翅牛肉\nWed 28 Oct: 周五8点集合，小雨负责通知全员\nFri 30 Oct: 上午自由活动，下午回程，两小时到上海，16:30到达"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "今日重点 11月1日 季度复盘"
+   },
+   "result": "[about-me] Sun 18 Oct: 提醒11月1日做季度复盘（新增）\n[dawei-salary] Sun 11 Oct: 大伟第一个季度绩效A，奖金1万2（新增）\n[customer-service-backup] Tue 29 Sep: 今日客服投诉量未提供（陈默询问）\n[ajie-macbook] Tue 11 Aug: 阿杰MacBook Pro取消（预算改为1万5，后取消）\n[ajie-macbook] Tue 11 Aug: 阿杰MacBook Pro取消（预算改为1万5，后取消）\n[redshirt-meeting] Fri 11 Sep: 红杉VP直接联系，约10月8日开会；需提醒\n[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[dawei-salary] Sun 16 Aug: 大伟offer已发，9月1号入职，薪酬按之前定的1万7底薪+1000绩效\n[dawei-salary] Fri 23 Oct: 大伟申请12月28日到1月3日元旦连休7天\n[product-launch] Sat 19 Sep: 晨检iOS上线推迟到9月18号，因iOS审核慢（之前预计9月10号）；已通知阿杰，他说能赶上；营销物料需准备；9月15日大伟上午推广数据新增注册120，太慢，正在"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2785,
+   "out": 17,
+   "usd": 0.00004793236
+  },
+  {
+   "in": 2934,
+   "out": 24,
+   "usd": 0.00005455016
+  },
+  {
+   "in": 3363,
+   "out": 124,
+   "usd": 0.00005514292
+  }
+ ],
+ "memChars": 2961,
+ "promptChars": 6929
+}

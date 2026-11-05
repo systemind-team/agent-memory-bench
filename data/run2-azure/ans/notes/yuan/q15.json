@@ -1,0 +1,59 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q15",
+ "kind": "temporal",
+ "q": "下周一跟Prof. Lin的meeting改成什么形式了？",
+ "reply": [
+  "之前25号你记过，下周一（10月26号？或是今天11月1号的周一？）Prof. Lin去出差改成线上。当时他说zoom链接待他提供，我这边没看到他后续给了链接。",
+  "今天11月1号是周日……你是说明天周一跟Prof. Lin的meeting？那次线上之后他应该已经回来了吧？还是说这周又有新的周一线上安排？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周一 Prof. Lin meeting 线上"
+   },
+   "result": "#837 Sat 24 Oct 21:00 Them: 明天周日，组会还是要准备的。今晚早点睡。\n#838 Sun 25 Oct 00:20 Them: 下周一跟Prof. Lin的meeting改成线上，他去出差了。\n#839 Sun 25 Oct 00:21 aicoo: 好的周周，已更新日历。线上meeting链接需要他提供吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周一 Prof. Lin 线上 zoom 链接"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "二十五 Oct 00:20 线上 meeting"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3713,
+   "out": 26,
+   "usd": 0.000702642
+  },
+  {
+   "in": 3837,
+   "out": 27,
+   "usd": 0.000179354
+  },
+  {
+   "in": 3893,
+   "out": 27,
+   "usd": 0.00014529
+  },
+  {
+   "in": 3949,
+   "out": 96,
+   "usd": 0.00019569
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9627
+}

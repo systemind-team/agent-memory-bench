@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly identifies the flaky test as test_billing_webhook, which matches the required fact from the chat.",
+ "rule": null
+}

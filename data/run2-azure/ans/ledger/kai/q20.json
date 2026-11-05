@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "Integration rollout和roadmap review，哪个先发生的？",
+ "reply": [
+  "Integration rollout（安全审计补测后按计划走）先发生的，Sep 22是目标上线日。roadmap review是8月27号跟Grace的季度review，dark mode就是在那个会上被提到P1的。\n\n周一你跟Ravi确认integration final timeline时，可以一并看看roadmap上还有没有需要更新的地方。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "integration rollout timeline roadmap review"
+   },
+   "result": "[136] 22 Aug · fact: Ravi confirmed integration rollout delayed to Sep 22 due to security audit.  (from #233, #234, #235, #236)\n[184] 28 Aug · plan: 等Ravi给具体timeline再更新roadmap  (from #304)\n[168] 26 Aug · fact: Ravi confirmed Sep 22 is still the target for integration rollout, audit started yesterday  (from #276, #277)\n[235] 04 Sep · plan: 周一跟Ravi确认integration timeline  (from #407)\n[701] 30 Oct · ask: 确认integration timeline有没有slip  (from #1152)\n[249] 07 Sep · fact: Ravi确认integration security audit已过，Sep 22 rollout应该稳了  (from #434)\n[56] 13 Aug · feeling: legal review没消息，担心timeline  (from #99)\n[1"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5077,
+   "out": 23,
+   "usd": 0.000208394
+  },
+  {
+   "in": 5406,
+   "out": 80,
+   "usd": 0.000309404
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14926
+}

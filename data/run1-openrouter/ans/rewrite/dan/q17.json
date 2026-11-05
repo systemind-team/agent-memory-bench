@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "when did sam ortiz start?",
+ "reply": [
+  "sam ortiz 是 9 月 8 号入职的，和 david chen（9 月 9 号接受 offer）差不多同一批",
+  "今天 11 月 1 号，on-call 轮换正式开始，sam 在这周的值班名单里"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2995,
+   "out": 70,
+   "usd": 0.00003581732
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10686
+}

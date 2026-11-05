@@ -1,0 +1,58 @@
+{
+ "arm": "rewrite_facts",
+ "id": "mo",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "小雨的休假日期记得吗？",
+ "reply": [
+  "陈默，小雨最近的休假记录是9月14号到18号请过年假，之后没有新的请假安排。你是在考虑她下周需要安排休假或轮班吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "小雨 休假 日期"
+   },
+   "result": "- 26 Sep: 订餐厅，叫上小雨\n- 26 Sep: 下周才能见到小雨\n- 17 Sep: 小雨9月14号到18号请年假。\n- 阿杰将于8月10号到15号休假。陈默要求跟阿杰说安卓优先卡好10月节点，安卓排期10月15号内测。06 Oct: 阿杰说安卓适配可能还能提前点。\n- 陈默要求小雨重新核对客服话术。\n- 15 Sep: 小雨签回客服外包合同，4万2含税。\n- 18 Sep: 小雨不在导致客服响应慢、投诉增多。\n- 商标驳回申诉材料由小雨整理好，明日提交。\n- 24 Oct: 预算每月多4000左右，可以接受，并让小雨安排。\n- 21 Sep: 客服响应慢，小雨请假，需要明确本周谁盯着。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 年假 休假 九月 十月"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 请假 年假 14 18"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4268,
+   "out": 23,
+   "usd": 0.000267624
+  },
+  {
+   "in": 4499,
+   "out": 28,
+   "usd": 0.000227286
+  },
+  {
+   "in": 4556,
+   "out": 28,
+   "usd": 0.000330904
+  },
+  {
+   "in": 4613,
+   "out": 45,
+   "usd": 0.000352394
+  }
+ ],
+ "memChars": 4982,
+ "promptChars": 8965
+}

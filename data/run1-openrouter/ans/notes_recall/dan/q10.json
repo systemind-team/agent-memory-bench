@@ -1,0 +1,36 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "5个人 — David Chen 正式加入后团队就是5个人了",
+  "David 上周刚 merge 了第二个 PR（billing migration helper），团队现在 Tom、Priya、Sam、Lena 加上 David",
+  "还缺一个数据工程的坑，Jordan Liu 的 take-home 之前看还行，要继续推进吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "candidate-david-chen"
+   },
+   "result": "David Chen candidate\n21 Oct: David Chen joined officially; team now 5\n21 Oct: sitting at desk 12; Sam showing him around\n21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n21 Oct: Priya approved rotation, starts Nov 1\n23 Oct: David had first code review by Tom; solid first PR with some feedback\n25 Oct: David merged his first PR, a small bug fix in the billing service\n28 Oct: David merged his second PR, a billing migration helper"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2567,
+   "out": 24,
+   "usd": 0.00003964996
+  },
+  {
+   "in": 2746,
+   "out": 76,
+   "usd": 0.00005113976
+  }
+ ],
+ "memChars": 4730,
+ "promptChars": 9283
+}

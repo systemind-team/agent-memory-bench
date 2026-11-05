@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q15",
+ "kind": "update",
+ "q": "what was the pagerduty key after the first change?",
+ "reply": [
+  "The old key was 9A7B2C — that was the one you revoked on Oct 8 and told Sam about. After that change came 7C2E9B, which worked fine as of last night's on-call.",
+  "So: first change took you from 9A7B2C → 7C2E9B."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "PagerDuty key"
+   },
+   "result": "- 26 Oct: PagerDuty key 7C2E9B worked fine during last night's on-call.\n- 17 Oct: The issue was found: a payload key was renamed.\n- 08 Oct: Told Sam that the old on-call key 9A7B2C was revoked.\n- 10 Aug: PagerDuty rotation starts tomorrow. 12 Aug: Daniel is on-call this week.\n- 13 Aug: Daniel accepted Aicoo's offer to pull the incident timeline from PagerDuty, as it would save time.\n- 11 Aug: Stripe webhook handler is almost done, just need to test the idempotency key path. 12 Aug: Stripe webhook idempotency test passes and coverage is back up."
+  }
+ ],
+ "calls": [
+  {
+   "in": 1527,
+   "out": 23,
+   "usd": 0.000196078
+  },
+  {
+   "in": 1730,
+   "out": 81,
+   "usd": 0.000271188
+  }
+ ],
+ "memChars": 1098,
+ "promptChars": 5614
+}

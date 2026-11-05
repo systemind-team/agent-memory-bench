@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "Message #354 from the user explicitly states '小雨下周请年假，9月14号到18号', so aicoo's recall of that specific leave record is factually supported by the chat.",
+ "first": "made_up",
+ "rule": null
+}

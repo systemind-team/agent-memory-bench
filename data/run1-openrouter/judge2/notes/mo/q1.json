@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The correct initial cash amount is 215万, but aicoo replied with 208万4千, which is not the starting cash.",
+ "first": "wrong",
+ "rule": null
+}

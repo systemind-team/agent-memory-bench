@@ -1,0 +1,60 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "红杉最早约见面是排在哪天？",
+ "reply": [
+  "最早是9月23日，红杉VP约线下，后来改到10月8日又改到10月20日，最后推掉了。",
+  "10月6日他们又找过来约10月15号，你说等下一轮。",
+  "所以最早正式约见是9月23日那次（未成），后面10月20日也推了。上次联系是10月25日准备视频会议，但最终应该没安排上。需要我重新约红杉聊吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 约 见面 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "红杉 见面 时间"
+   },
+   "result": "[customer-service-backup] Wed 23 Sep: 成都合作方催签约，今天打电话确认；Fri 25 Sep北京客服响应时间降到30秒\n[seed-round-investors] Fri 07 Aug: 按云九、蓝驰、高榕排优先级，先约云九，已约云九8月12日下午2点（moved from Mon 03 Aug，新增具体时间）\n[seed-round-investors] Sat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型；红杉周三下午改为线下，需演示产品（moved from Thu 03 Sep，新增红杉线下会议；之前红杉约聊已拖）\n[redshirt-meeting] Thu 22 Oct: 红杉又联系，想看数据\n[redshirt-meeting] Sat 12 Sep: 红杉VP联系，10月8日开会（新增）\n[redshirt-meeting] Thu 24 Sep: 红杉VP联系，改为10月20日线下（之前9月23日）；陈默要求那周其他事不排，只保留红杉和日常运营\n[redshirt-meeting] Fri 11 Sep: 红杉VP直接联系，约10月8日开会；需提醒\n[redshirt-meeting] Sun 25 Oct: 周末休息下，下周红杉视频会议准备\n[re"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "红杉 最早 约"
+   },
+   "result": "[redshirt-meeting] Fri 11 Sep: 红杉VP直接联系，约10月8日开会；需提醒\n[redshirt-meeting] Tue 06 Oct: 红杉又找过来，约10月15号；已回他们等下一轮\n[seed-round-investors] Sat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型；红杉周三下午改为线下，需演示产品（moved from Thu 03 Sep，新增红杉线下会议；之前红杉约聊已拖）\n[redshirt-meeting] Thu 22 Oct: 红杉又联系，想看数据\n[redshirt-meeting] Sat 12 Sep: 红杉VP联系，10月8日开会（新增）\n[redshirt-meeting] Thu 24 Sep: 红杉VP联系，改为10月20日线下（之前9月23日）；陈默要求那周其他事不排，只保留红杉和日常运营\n[redshirt-meeting] Sun 25 Oct: 周末休息下，下周红杉视频会议准备\n[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[seed-round-investors] Mon 24 Aug: 云九无回音，标记周三（8月26日）再次跟进"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2944,
+   "out": 26,
+   "usd": 0.000266208
+  },
+  {
+   "in": 2999,
+   "out": 24,
+   "usd": 0.000139166
+  },
+  {
+   "in": 3428,
+   "out": 24,
+   "usd": 0.000229256
+  },
+  {
+   "in": 3957,
+   "out": 113,
+   "usd": 0.000298538
+  }
+ ],
+ "memChars": 3224,
+ "promptChars": 7195
+}

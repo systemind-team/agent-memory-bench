@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The draft includes a section that can cover 本周踩的坑, though it is not explicitly labeled, the assistant has followed the format preference from the chat history.",
+ "rule": false
+}

@@ -1,0 +1,82 @@
+{
+ "arm": "facts",
+ "id": "mo",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "红杉最早约见面是排在哪天？",
+ "reply": [
+  "最早是9月11号你说10月8号提醒你跟红杉开会，后来约到了10月8号。再后来他们改到10月20号，最后你在9月26号让推掉了，决定这轮不碰，先忙蓝驰。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 见面 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 约 时间 10月"
+   },
+   "result": "#317 Sat 12 Sep 09:07 aicoo: 好，我记下了\n#318 Sat 12 Sep 14:00 Them: 红杉那边想约时间，10月8号可以\n#319 Sat 12 Sep 14:20 aicoo: 红杉也想见，要不要排10月8号？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 10月8号"
+   },
+   "result": "#318 Sat 12 Sep 14:00 Them: 红杉那边想约时间，10月8号可以\n#319 Sat 12 Sep 14:20 aicoo: 红杉也想见，要不要排10月8号？\n#320 Sat 12 Sep 14:25 Them: 排吧，一起聊\n---\n#317 Sat 12 Sep 09:07 aicoo: 好，我记下了\n#318 Sat 12 Sep 14:00 Them: 红杉那边想约时间，10月8号可以\n#319 Sat 12 Sep 14:20 aicoo: 红杉也想见，要不要排10月8号？\n---\n#305 Fri 11 Sep 11:00 Them: 10月8号提醒我跟红杉开会\n#306 Fri 11 Sep 11:01 aicoo: 好，10月8号提醒你与红杉会议\n#307 Fri 11 Sep 11:30 Them: 红杉那边谁联系的\n---\n#304 Thu 10 Sep 14:02 aicoo: 好的，我更新融资进度表\n#305 Fri 11 Sep 11:00 Them: 10月8号提醒我跟红杉开会\n#306 Fri 11 Sep 11:01 aicoo: 好，10月8号提醒你与红杉会议"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 改期 10月20"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 20号"
+   },
+   "result": "#409 Wed 23 Sep 11:01 aicoo: 合同我下午定稿发你\n#410 Wed 23 Sep 14:00 Them: 红杉的会改到10月20号了\n#411 Wed 23 Sep 14:01 aicoo: 收到，日程已更新"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1392,
+   "out": 24,
+   "usd": 0.000168288
+  },
+  {
+   "in": 1445,
+   "out": 27,
+   "usd": 0.000181098
+  },
+  {
+   "in": 1558,
+   "out": 25,
+   "usd": 0.00011206
+  },
+  {
+   "in": 1887,
+   "out": 27,
+   "usd": 0.00018227
+  },
+  {
+   "in": 1943,
+   "out": 23,
+   "usd": 0.000145966
+  },
+  {
+   "in": 2061,
+   "out": 63,
+   "usd": 0.00023897
+  }
+ ],
+ "memChars": 350,
+ "promptChars": 4263
+}

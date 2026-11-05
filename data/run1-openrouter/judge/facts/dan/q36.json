@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The PR description ends with a Risk section (labeled 'Risk & Mitigation') as per Dan's preference stated on Sun 16 Aug.",
+ "rule": true
+}

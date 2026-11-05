@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant's answer focuses on later title changes and omits the second change to 'Hierarchical Planning with Graph Attention' on August 19, which matches the outdated value in the gold but not the required correct answer.",
+ "first": "wrong",
+ "rule": null
+}

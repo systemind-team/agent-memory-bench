@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "Aurora deal scope change了几次，每次加了啥？",
+ "reply": [
+  "好，我来查一下。\n\n从记忆和笔记里梳理 Aurora 的 scope 变化：\n\n1. **初始 deal（8月）**：$800K，标准产品 + 基础定制。\n2. **08 Sep**：Lily 说 Aurora 想要 custom reporting（比完整 analytics 小，约 4 周）。你让 Lily 先别承诺，等你 review。\n3. **10 Sep**：Lily 发来 custom reporting 初始 scope，Ravi 确认 4 周可行，Lily 准备 SOW。\n4. **17 Sep**：Aurora custom module 谈判完成，Q4 add-on 加 **$50K**，总 deal 变 $950K。\n5. **13 Oct**：Aurora 又提了 export functionality on analytics dashboard，Ravi 确认 2-3 天能搞定，不影响 timeline。\n6. **14 Oct**：Aurora 想要 custom module 在 Q3 就 close（你推回去了，不能为 revenue 牺牲 scope，太 risky）。\n7. **最终**：Q4 close，$950K 含 add-on，custom module 定在 Q1 2027。\n\n所以主要加的 scope 就两样：**custom reporting（4 周 effort）** 和 **export 功能（2-3 天）**。每次你都让 Ravi 先评估再承诺，没让 scope 乱跑。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12765,
+   "out": 306,
+   "usd": 0.00013567708
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50345
+}

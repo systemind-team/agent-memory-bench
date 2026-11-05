@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo incorrectly says Mei's paper was rejected from NeurIPS and accepted at a workshop, but the chat shows her paper was accepted to NeurIPS.",
+ "rule": null
+}

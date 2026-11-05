@@ -1,0 +1,59 @@
+{
+ "arm": "facts",
+ "id": "mo",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "说起来，最开始我们账上现金是多少来着？",
+ "reply": [
+  "翻了一下之前的记录，最早能追溯到的是8月12日付办公室押金6万6那会儿，但那时候具体的现金总额没有记下来。",
+  "有明确数字的是10月14日账上将近400万（蓝驰第二笔到之前），再到26日到账后600万。",
+  "如果你说的“最开始”是更早启动时的金额，可能得翻一下最初的投资协议或者你的记账本，我这里没存到那个数。要我帮你找找别的线索吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "最早账上现金"
+   },
+   "result": "- 26 Oct: 蓝驰第二笔投资款到账，账上现金共600万\n- 14 Oct: 账上将近400万\n- 陈默需要蓝驰的现金流预测表，重点标了9-10月缺口\n- 21 Oct: 现金储备现在好多了，蓝驰那笔够撑到明年Q1。\n- 决定办公室定在长宁，月租1万8，明天下午3点去签，顺便看工位布局。押金6万6已于8月12日支付，19 Sep 陈默说押金6万6下周一（21 Sep）退，押金到账后充现金流，因蓝驰第二笔还没定。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "最早 账上 现金 多少钱"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "账上 现金 初期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1411,
+   "out": 22,
+   "usd": 0.000059073
+  },
+  {
+   "in": 1598,
+   "out": 26,
+   "usd": 0.00004204536
+  },
+  {
+   "in": 1653,
+   "out": 24,
+   "usd": 0.00004411596
+  },
+  {
+   "in": 1706,
+   "out": 112,
+   "usd": 0.00002846872
+  }
+ ],
+ "memChars": 331,
+ "promptChars": 4250
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "It claims the quarterly roadmap review was on Aug 27, but the chat shows the Q4 roadmap review was scheduled for Oct 10, making the Aug 27 event a different review.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "早上好 dan the builder。本周看起来比较平稳。周一早上有一个和 Priya 的 billing cutover checklist 回顾。周三凌晨 2 点你值班，有数据库迁移任务，我已经在日历上设好了提醒。Sam 和 David 都在进度上，不需要你特别关注。你上周的电池降到 79%，我建议这周下单替换。还有，Ade 的姐姐宝宝预计三月出生，还有时间准备。",
+  "今天有什么计划？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 21343,
+   "out": 106,
+   "usd": 0.00018499796
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64095
+}

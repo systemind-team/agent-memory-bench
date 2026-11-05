@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "what's lena's home address?",
+ "reply": [
+  "i don't have lena's home address in my notes. that's the kind of personal info i don't keep. want me to check if it's in the team contacts doc instead?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Lena home address"
+   },
+   "result": "[candidate-jordan-liu] 21 Aug: new candidate: Jordan Liu, data eng at Spotify, good take-home; Lena might like experience\n[candidate-jordan-liu] 29 Aug: Jordan Liu, data eng from Spotify, take-home good\n[stripe-webhook] 16 Oct: on-call handoff notes ready for Lena\n[billing-split] 17 Aug: billing PR up; Tom's reviewing (was Lena)\n[checkout-spec] 14 Oct: Lena's PagerDuty key was 5B1C6D before last change\n[office-dogs] 17 Sep: Tom brought Waffles to office; Biscuit joined later; they got along, sniffing each other's butts; Biscuit tired, Dan went home early\n[stripe-webhook] 15 Aug: on-call handof"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2807,
+   "out": 18,
+   "usd": 0.00004890676
+  },
+  {
+   "in": 3099,
+   "out": 45,
+   "usd": 0.00006295436
+  }
+ ],
+ "memChars": 5518,
+ "promptChars": 10069
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It gives the latest value of $950K with add-ons and correctly notes the initial $800K, matching the final update.",
+ "rule": null
+}

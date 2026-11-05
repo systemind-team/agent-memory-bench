@@ -1,0 +1,57 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "成都健康管理师协会合作，按时间线理一下？",
+ "reply": [
+  "Here's the timeline for Chengdu Health Manager Association partnership:",
+  "Sep 1: Xiaoyu flagged Chengdu cooperation pushed to Oct, product-launch note says \"Sep onboarding\"",
+  "Sep 14: Cooperation plan sent, terms acceptable, contract to be signed and mailed next day",
+  "Sep 16: Association asked for 5k deposit, agreed to pay ASAP",
+  "Sep 23: Association pushing to sign, made phone call to confirm",
+  "Sep 24: Used this partnership as leverage in BlueRun valuation renegotiation (BlueRun valued down to 72mn, aicoo stressed Chengdu deal secures growth)",
+  "Sep 25: Signed the following week, service fee negotiated down from 15 to 8 per order, first 3 months minimum 500 orders",
+  "Oct 9: Order forecast next month to hit 500",
+  "Oct 19: 500 forecast looks achievable",
+  "Oct 23: Association wants to push product to more communities, placing additional orders, discussing revenue share",
+  "Oct 24: Confirmed additional orders from Chengdu Association",
+  "Current state: Contract signed, service fee at 8/order with 500 minimum first 3 months, additional orders being negotiated. Want me to pull out any specific milestone details?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "成都协会 合作 健康管理"
+   },
+   "result": "[product-launch] Mon 14 Sep: 健康管理师协会合作方案已发，条款还行，先签，明天寄合同（新增）\n[product-launch] Tue 01 Sep: 晨检iOS测试版昨晚闪退，阿杰在修；上线延期到9月10号（仍按此）；安卓内测改为10月15号（之前10月），阿杰已给排期；小雨成都合作推迟至10月，需自己搞推广，建议先靠抖音小视频拉DAU；成都健康管理师协会9月对接（新增）\n[product-launch] Wed 16 Sep: 健康管理师协会要求先付保证金5千，已同意尽快付；9月17日渠道日均引流180，成本比线上低15%，考虑加大投放\n[about-me] Sat 24 Oct: 晨检安卓版推到11月中；Mia新UI方案；成都协会加单\n[seed-round-investors] Fri 23 Oct: 成都协会想推产品到更多社区，加单，正在谈分成\n[seed-round-investors] Fri 25 Sep: 成都合作下周签约，服务费从15块压到每单8块；头三个月保底500单\n[seed-round-investors] Fri 09 Oct: 成都合作订单量预测下月冲500单（新增）；Mon 19 Oct: 下月预测500单应该能到\n[customer-service-backup] Wed 23 Sep: 成都合作方催签约，今天打电话确"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "成都健康管理师协会 时间线"
+   },
+   "result": "[product-launch] Mon 14 Sep: 健康管理师协会合作方案已发，条款还行，先签，明天寄合同（新增）\n[product-launch] Tue 01 Sep: 晨检iOS测试版昨晚闪退，阿杰在修；上线延期到9月10号（仍按此）；安卓内测改为10月15号（之前10月），阿杰已给排期；小雨成都合作推迟至10月，需自己搞推广，建议先靠抖音小视频拉DAU；成都健康管理师协会9月对接（新增）\n[product-launch] Wed 16 Sep: 健康管理师协会要求先付保证金5千，已同意尽快付；9月17日渠道日均引流180，成本比线上低15%，考虑加大投放\n[about-me] Sat 24 Oct: 晨检安卓版推到11月中；Mia新UI方案；成都协会加单\n[seed-round-investors] Fri 23 Oct: 成都协会想推产品到更多社区，加单，正在谈分成\n[customer-service-backup] Wed 23 Sep: 成都合作方催签约，今天打电话确认；Fri 25 Sep北京客服响应时间降到30秒\n[seed-round-investors] Fri 07 Aug: 按云九、蓝驰、高榕排优先级，先约云九，已约云九8月12日下午2点（moved from Mon 03 Aug，新增具体时间）\n[cash-runway] Fri 07 Aug: "
+  }
+ ],
+ "calls": [
+  {
+   "in": 2432,
+   "out": 25,
+   "usd": 0.000112304
+  },
+  {
+   "in": 3008,
+   "out": 26,
+   "usd": 0.000233824
+  },
+  {
+   "in": 3546,
+   "out": 270,
+   "usd": 0.000483444
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6264
+}

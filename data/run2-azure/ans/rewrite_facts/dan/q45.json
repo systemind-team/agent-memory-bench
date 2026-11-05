@@ -1,0 +1,46 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "what's priya's coffee order?",
+ "reply": [
+  "dan the builder，我没找到Priya的咖啡偏好记录。你记不记得她点什么？还是说你现在想帮她带杯咖啡，需要我记下来？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya coffee order"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Priya 咖啡 点单 coffee order"
+   },
+   "result": "- 16 Aug: Coffee count: 2 (pre-run coffee and a bagel).\n- 31 Oct: Laptop battery is at 79% and dropping faster than he'd like; he will order a new one this week.\n- 02 Oct: coffee count 3 is my limit\n- 03 Oct: Coffee count on Monday is 2. Trying to stick to 3.\n- 09 Aug: Dan Okafor enjoys lazy Sunday mornings with coffee and a book.\n- 06 Oct: Tuesday, coffee count is 2, short run planned after work.\n- 05 Oct: Dan had 2 cups of coffee on Monday and felt okay about the week ahead.\n- 08 Sep: Had lunch with Sam and Priya.\n- 22 Aug: Dan will onboard Sam with Priya.\n- 05 Aug: Dan plans to draft a risk"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3215,
+   "out": 22,
+   "usd": 0.00022923
+  },
+  {
+   "in": 3266,
+   "out": 27,
+   "usd": 0.00024274
+  },
+  {
+   "in": 3489,
+   "out": 41,
+   "usd": 0.000205762
+  }
+ ],
+ "memChars": 6925,
+ "promptChars": 11536
+}

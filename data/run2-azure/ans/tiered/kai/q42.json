@@ -1,0 +1,22 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "Is Lily going on vacation anytime soon? 她是不是请假了?",
+ "reply": [
+  "Lily之前批的是10月6-7号请假，已经过去了。她没有新的请假申请。",
+  "怎么突然问这个？是有什么事要她跟进吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8792,
+   "out": 42,
+   "usd": 0.000311824
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26058
+}

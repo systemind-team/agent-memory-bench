@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant fails to identify the correct chronological order (integration rollout Sep 22 before roadmap review Oct 10) and instead fabricates a Monday schedule and meeting not referenced in the chat as the basis for answering the temporal question.",
+ "first": "made_up",
+ "rule": null
+}

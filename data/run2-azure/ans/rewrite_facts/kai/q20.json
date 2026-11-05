@@ -1,0 +1,46 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "Integration rollout和roadmap review，哪个先发生的？",
+ "reply": [
+  "Integration rollout（Sep 22上线）发生在roadmap review之前。季度roadmap review是8月27日那次，那时定下了dark mode P1和整体Q3 priority。Integration当时已经在track上，但因为security audit才从Sep 15推迟到了Sep 22。你问这个是在理时间线？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "integration rollout timeline"
+   },
+   "result": "- 19 Aug: Security audit可能会影响integration rollout, 但希望9月15日仍能按计划进行。22 Aug: Integration rollout delayed to Sep 22 due to security audit.\n- 04 Sep: 周一跟Ravi确认integration timeline。\n- 需要先列出key points：integration timeline, pricing, support。\n- 17 Aug: Integration on track for Sep 15, 但因第三方API deprecation issue需要alternative. 22 Aug: Integration rollout delayed to Sep 22 due to security audit.\n- 16 Sep: 中午和Ravi sync了integration timeline，security audit收尾了，Sep 22 deadline应该稳。\n- 31 Oct: 周一priorities包括10:30 pricing launch decision meeting、确认SEA expansion headcount approval timeline、pricing review prep改到10:0"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "roadmap review timeline"
+   },
+   "result": "- 03 Oct: Grace approved additional 100k budget for Q4 marketing; 05 Oct: 与Grace约了周三review Q4 deck。10 Oct: Grace approved the roadmap, with a few tweaks on timeline.\n- Grace asked for Q3 roadmap, promised to send Q3 budget breakdown by Friday; had quarterly roadmap review with Grace on 27 Aug.\n- 27 Aug: Dark mode request priority raised to P1 in quarterly roadmap review with Grace.\n- 31 Oct: 周一priorities包括10:30 pricing launch decision meeting、确认SEA expansion headcount approval timeline、pricing review prep改到10:00、确认Ravi的integration final timeline、Emily weekly check-in。\n- 下周和Ravi、Lily对齐一下roadmap"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3464,
+   "out": 21,
+   "usd": 0.000326784
+  },
+  {
+   "in": 3828,
+   "out": 22,
+   "usd": 0.000403784
+  },
+  {
+   "in": 4184,
+   "out": 73,
+   "usd": 0.00023216
+  }
+ ],
+ "memChars": 7490,
+ "promptChars": 12219
+}

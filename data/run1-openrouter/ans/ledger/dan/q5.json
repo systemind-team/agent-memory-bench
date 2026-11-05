@@ -1,0 +1,33 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "what was the flaky test called again?",
+ "reply": [
+  "`test_billing_webhook` — that's the one you mocked the webhook endpoint for back in October. Currently at 0% failure."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "flaky test"
+   },
+   "result": "#648 Thu 15 Oct 10:05 aicoo: 21点, 进展顺利\n#649 Thu 15 Oct 10:25 Them: flaky test resolved. test_billing_webhook now 0% failure. finally.\n#650 Thu 15 Oct 10:30 aicoo: 终于修好了, dan the builder\n---\n#535 Sun 04 Oct 11:00 Them: flaky test fix merged. no more 20% failure\n#536 Sun 04 Oct 11:01 aicoo: flaky test gone. clean ci\n#537 Sun 04 Oct 12:30 Them: the dropped column incident was august 18. never forget.\n---\n#534 Sun 04 Oct 10:01 aicoo: sam onboarded. good mentoring\n#535 Sun 04 Oct 11:00 Them: flaky test fix merged. no more 20% failure\n#536 Sun 04 Oct 11:01 aicoo: flaky test gone. clean ci\n---\n#509 F"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3088,
+   "out": 21,
+   "usd": 0.00011044824
+  },
+  {
+   "in": 3694,
+   "out": 37,
+   "usd": 0.00005320224
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10802
+}

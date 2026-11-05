@@ -1,0 +1,35 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "when did sam ortiz start?",
+ "reply": [
+  "sam ortiz started monday september 14 this year. onboarding with david chen.",
+  "that's about 7 weeks in now — how's it going?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam ortiz start"
+   },
+   "result": "#297 Wed 09 Sep 14:30 Them: david was solid. priya agrees\n#298 Wed 09 Sep 17:30 Them: david chen accepted. sam ortiz onboarding starts with him.\n#299 Wed 09 Sep 17:32 aicoo: great news. two strong hires.\n---\n#248 Mon 31 Aug 17:46 aicoo: oh no. hope the rug survives\n#249 Tue 01 Sep 09:00 Them: sam ortiz start date still sep 14, right?\n#250 Tue 01 Sep 09:01 aicoo: confirmed, september 14\n---\n#207 Wed 26 Aug 11:45 aicoo: your old nemesis. race condition?\n#208 Wed 26 Aug 15:40 Them: sam ortiz starts sep 14. finally a data engineer.\n#209 Wed 26 Aug 15:40 aicoo: great, another set of eyes on the dat"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1137,
+   "out": 22,
+   "usd": 0.000159442
+  },
+  {
+   "in": 1378,
+   "out": 40,
+   "usd": 0.000128484
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4187
+}

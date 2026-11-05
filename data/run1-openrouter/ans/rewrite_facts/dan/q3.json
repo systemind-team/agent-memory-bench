@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "what was the column name i dropped by accident?",
+ "reply": [
+  "是 `billing_status`，8月那次。你本意是重命名，结果 drop 了，还好 Lena 在生产同步之前截住了，没丢数据。",
+  "这个教训够深刻，之后迁移脚本都加了 revert 校验，对吧。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3292,
+   "out": 61,
+   "usd": 0.0000554596
+  }
+ ],
+ "memChars": 7207,
+ "promptChars": 11837
+}

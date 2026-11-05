@@ -1,0 +1,82 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q14",
+ "kind": "update",
+ "q": "who was the second candidate for data eng?",
+ "reply": [
+  "i don't see a second candidate for data eng in our chat — only maria torres from august. were there other convos about it outside here?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "second candidate data eng"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data engineering candidate"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "candidate data engineer"
+   },
+   "result": "#93 Wed 12 Aug 07:32 aicoo: good luck. who's the candidate?\n#94 Wed 12 Aug 10:00 Them: first interview for new data engineer candidate: maria torres. solid sql.\n#95 Wed 12 Aug 10:02 aicoo: sounds promising. any flags?"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Maria Torres data engineer"
+   },
+   "result": "#93 Wed 12 Aug 07:32 aicoo: good luck. who's the candidate?\n#94 Wed 12 Aug 10:00 Them: first interview for new data engineer candidate: maria torres. solid sql.\n#95 Wed 12 Aug 10:02 aicoo: sounds promising. any flags?"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "second interview data"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1139,
+   "out": 22,
+   "usd": 0.000205686
+  },
+  {
+   "in": 1190,
+   "out": 21,
+   "usd": 0.000078364
+  },
+  {
+   "in": 1240,
+   "out": 22,
+   "usd": 0.000089424
+  },
+  {
+   "in": 1344,
+   "out": 22,
+   "usd": 0.000111264
+  },
+  {
+   "in": 1448,
+   "out": 21,
+   "usd": 0.00008672
+  },
+  {
+   "in": 1512,
+   "out": 38,
+   "usd": 0.000155504
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4204
+}

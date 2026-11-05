@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The chat records show the initial deal value was 800k, but aicoo's reply says 700k.",
+ "rule": null
+}

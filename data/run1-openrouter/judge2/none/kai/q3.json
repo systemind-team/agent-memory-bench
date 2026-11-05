@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant gave 12% but the chat shows Yuki's onboarding redesign conversion lift was consistently 23%.",
+ "first": "wrong",
+ "rule": null
+}

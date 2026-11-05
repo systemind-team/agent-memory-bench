@@ -1,0 +1,71 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "大伟最近在忙什么项目？",
+ "reply": [
+  "陈默，我刚翻了一下我们的对话记录，最近关于大伟的记录停在上月底。从他最后的工作轨迹看，主要是在铺驿站渠道——凯旋路、徐汇已经签了，流水也稳住了，他说要再谈新的一家。",
+  "不过这是10月下旬的信息了，现在隔了一周多，具体他在跑什么新项目，我这边没有更新的消息。要不要我直接问一下大伟，或者你这边有跟他聊过？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 项目 渠道 驿站"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 最近 在忙 什么"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 渠道 驿站 跑"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 拓展 合作 签约"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18697,
+   "out": 26,
+   "usd": 0.000595778
+  },
+  {
+   "in": 18752,
+   "out": 27,
+   "usd": 0.000607888
+  },
+  {
+   "in": 18808,
+   "out": 26,
+   "usd": 0.000619088
+  },
+  {
+   "in": 18863,
+   "out": 26,
+   "usd": 0.000630638
+  },
+  {
+   "in": 18918,
+   "out": 104,
+   "usd": 0.000685868
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35677
+}

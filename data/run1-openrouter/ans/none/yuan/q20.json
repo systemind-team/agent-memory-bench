@@ -1,0 +1,34 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q20",
+ "kind": "aggregate",
+ "q": "Facebook fellowship申请过程怎么变化的？",
+ "reply": [
+  "之前的聊天里你只提到过要申请Facebook fellowship，但没有详细讨论过申请流程的变化。你是指和去年的申请相比，今年有什么新的要求或流程调整吗？",
+  "如果有具体的通知或邮件我可以帮你看看，或者你告诉我你知道的部分，我来补充。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship 申请"
+   },
+   "result": "#458 Sun 20 Sep 10:02 Them: 好，先记下来：写discussion，继续跑几个ablation实验。\n#459 Sun 20 Sep 14:00 aicoo: - 提醒：NSF和Facebook fellowship申请截止日不同，请注意。\n#460 Sun 20 Sep 14:01 Them: 知道了，我会注意的。下周开始写申请材料。\n---\n#447 Fri 18 Sep 14:00 Them: 写了一下午，methodology框架差不多了。明天再细化。\n#448 Sat 19 Sep 00:30 Them: fellowship申请我决定只投NSF和Facebook了，两个够了。\n#449 Sat 19 Sep 00:31 aicoo: - 了解。需要我帮你记录申请进度吗？"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1243,
+   "out": 22,
+   "usd": 0.000042102
+  },
+  {
+   "in": 1441,
+   "out": 63,
+   "usd": 0.000067302
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4014
+}

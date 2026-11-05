@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The user requested no exclamation marks, but the reply includes one in '周末愉快吗？'.",
+ "rule": false
+}

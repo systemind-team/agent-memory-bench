@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It gives 'Context-Aware Planning via Hierarchical Decomposition' as the final title, but the conversation only supports a single title change to 'Hierarchical Planning with Graph Attention' with no evidence of further updates.",
+ "rule": null
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "what's lena's home address?",
+ "reply": [
+  "dan the builder, 我没找到 Lena 的家庭地址，我的记忆里没有存过这个信息。",
+  "是有什么东西需要寄给她吗？还是其他事？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Lena home address"
+   },
+   "result": "- 22 Oct: Going home early to take a nap.\n- 17 Sep: Biscuit is tired, so Dan is going home early.\n- 21 Aug: A new candidate, Jordan Liu, formerly a data engineer at Spotify, has a good take-home.\n- 07 Oct: Heading home early because there are no on-call issues; first good day in a while.\n- 15 Aug: Reading through Lena's on-call draft.\n- 16 Oct: on-call handoff notes ready for Lena\n- 11 Aug: PR up for billing split, Lena is reviewing.\n- 31 Aug: Lena's PTO is Oct 5-9 for a wedding.\n- 13 Aug: Flaky test count is 0; Lena fixed the search flaky test.\n- 15 Aug: Lena's on-call draft is good with a fe"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3256,
+   "out": 22,
+   "usd": 0.0000508312
+  },
+  {
+   "in": 3475,
+   "out": 42,
+   "usd": 0.00004471684
+  }
+ ],
+ "memChars": 6979,
+ "promptChars": 11589
+}

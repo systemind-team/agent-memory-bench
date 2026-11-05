@@ -1,0 +1,20 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "Aurora那个客户全名叫什么，我老怕写错。",
+ "reply": [
+  "凯哥，客户全名是 Aurora Health。之前你纠正过是 Aurora Health 不是 Aurora TTech，所有文档都统一用的这个名字。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 36343,
+   "out": 37,
+   "usd": 0.00030613212
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91593
+}

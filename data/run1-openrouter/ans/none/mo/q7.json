@@ -1,0 +1,57 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "小雨招的兼职客服主管，一个月多少钱？",
+ "reply": [
+  "我翻了一下咱们的聊天记录和文档，没有找到小雨招的兼职客服主管的薪资信息。你记得这个是在哪定的吗？需要我去看看招聘后台或者她发过的JD吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 兼职 客服 主管 薪资"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 客服 主管 工资"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "兼职客服 薪资"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1105,
+   "out": 27,
+   "usd": 0.000030582
+  },
+  {
+   "in": 1161,
+   "out": 25,
+   "usd": 0.000035262
+  },
+  {
+   "in": 1215,
+   "out": 22,
+   "usd": 0.000039582
+  },
+  {
+   "in": 1266,
+   "out": 49,
+   "usd": 0.000049032
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3631
+}

@@ -1,0 +1,70 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "早啊，汇报下今天待办",
+ "reply": [
+  "Today is Sunday Nov 1. A few things to flag from what I have:\n\n**Today is quarterly review day** — you asked me to remind you on Oct 18. Need to do a Q3 recap (Jul-Sep) and plan Q4.\n\n**Other open items:**\n- 大伟 second elderly station — said it was in Xuhui, targeting end of Oct. Need a status check Monday.\n- 成都 association pushing for more communities, negotiating split.\n- 安卓版 pushed to mid-Nov, 阿杰 said last week it was close to ready after two more weeks of testing.\n- 蓝驰第二笔 300万 — note says Nov mid, but first one came early. Worth checking if it arrived yet.\n\n**Today's agenda from my side:**\n1. Quarterly review — do you want me to pull data points (DAU trends, revenue, cash burn, milestones vs plan)?\n2. After that, a quick Monday prep: what each person's top task is for the week.\n\nWant me to start pulling the review numbers, or do you have another priority today?"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "seed-round-investors"
+   },
+   "result": "Seed轮投资人\nFri 07 Aug: 按云九、蓝驰、高榕排优先级，先约云九，已约云九8月12日下午2点（moved from Mon 03 Aug，新增具体时间）\nWed 05 Aug: 估值咬8000万不放（别松口）\nFri 14 Aug: 云九聊完，要看到DAU破2000再谈（之前结果待定）\nSat 22 Aug: 蓝驰聊得还行，想再看产品数据（之前已见，准备材料重新发送）\nSun 30 Aug: 估值松到7500万（之前8000万），高榕会今天（30号）上午已安排，预演过；蓝驰下周转到账第一笔，催邮件已发；高榕会前复盘蓝驰要点（DAU增速、合规风险、变现路径）\nMon 24 Aug: 云九无回音，标记周三（8月26日）再次跟进（之前待定DAU破2000）；砍掉红杉接触，专注蓝驰深聊；蓝驰下周转到账第一笔（需催邮件）\nWed 16 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型（新增）；9月20日改为线下会议\nSat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型；红杉周三下午改为线下，需演示产品（moved from Thu 03 Sep，新增红杉线下会议；之前红杉约聊已拖）\nThu 24 Sep: 蓝驰电话说估值要重新谈，认为用户"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "product-launch"
+   },
+   "result": "产品发布顺序\nTue 01 Sep: 晨检iOS测试版昨晚闪退，阿杰在修；上线延期到9月10号（仍按此）；安卓内测改为10月15号（之前10月），阿杰已给排期；小雨成都合作推迟至10月，需自己搞推广，建议先靠抖音小视频拉DAU；成都健康管理师协会9月对接（新增）\nSat 19 Sep: 晨检iOS上线推迟到9月18号，因iOS审核慢（之前预计9月10号）；已通知阿杰，他说能赶上；营销物料需准备；9月15日大伟上午推广数据新增注册120，太慢，正在优化关键词；9月16日iOS闪退已修复但评审被拒一次，18号仍来得及；9月19日iOS评审已过；9月20日通知晨检再延期至9月25日，测试环境数据冲突需重构日志模块，阿杰保证25号（新增延期）\nSun 20 Sep: 大伟想试楼宇电梯广告，预算3万；建议先小范围测试，选静安3栋楼；9月17日跑了半天扫码仅63人，效果不佳；9月18日静安寺楼好点，其他两栋不值，建议砍掉，已停广告，钱省下来下周全力冲线上；大伟线上活动方案聊完，预算5万，能冲DAU（moved from Tue 15 Sep，新增线上活动方案）；9月21日确定9月25日上线最终checklist，需整理发阿杰确认；Wed 23 Sep: 大伟推广方案内容等Mia的图，最迟周四上线；Tue 06 Oct: 阿杰说安卓适配可能还能提前点，争取10月底（新增）；Sat 10 Oct:"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "today todo 2026-11-01"
+   },
+   "result": "[dawei-salary] Thu 01 Oct: 大伟今天跑养老驿站（新增）\n[about-me] Thu 01 Oct: Mia申请10月5-9号日本采风，已批，需出采风报告（新增）；Fri 09 Oct: 以后跟我说英文，练练（新增）\n[about-me] Sun 18 Oct: 提醒11月1日做季度复盘（新增）\n[seed-round-investors] Wed 14 Oct: 蓝驰第一笔300万到账，第二笔11月中\n[ajie-macbook] Tue 11 Aug: 阿杰MacBook Pro取消（预算改为1万5，后取消）\n[ajie-macbook] Tue 11 Aug: 阿杰MacBook Pro取消（预算改为1万5，后取消）\n[dawei-salary] Sun 11 Oct: 大伟第一个季度绩效A，奖金1万2（新增）\n[redshirt-meeting] Fri 11 Sep: 红杉VP直接联系，约10月8日开会；需提醒\n[about-me] Sat 24 Oct: 晨检安卓版推到11月中；Mia新UI方案；成都协会加单\n[seed-round-due-diligence] Sun 18 Oct: 蓝驰法务已审完，第一笔300万到账；第二笔11月中；用户次留37%（was 34%）"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "季度复盘 11月1日"
+   },
+   "result": "[about-me] Sun 18 Oct: 提醒11月1日做季度复盘（新增）\n[dawei-salary] Sun 11 Oct: 大伟第一个季度绩效A，奖金1万2（新增）\n[ajie-macbook] Tue 11 Aug: 阿杰MacBook Pro取消（预算改为1万5，后取消）\n[ajie-macbook] Tue 11 Aug: 阿杰MacBook Pro取消（预算改为1万5，后取消）\n[redshirt-meeting] Fri 11 Sep: 红杉VP直接联系，约10月8日开会；需提醒\n[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[dawei-salary] Sun 16 Aug: 大伟offer已发，9月1号入职，薪酬按之前定的1万7底薪+1000绩效\n[dawei-salary] Fri 23 Oct: 大伟申请12月28日到1月3日元旦连休7天\n[product-launch] Sat 19 Sep: 晨检iOS上线推迟到9月18号，因iOS审核慢（之前预计9月10号）；已通知阿杰，他说能赶上；营销物料需准备；9月15日大伟上午推广数据新增注册120，太慢，正在优化关键词；9月16日iOS闪退已修复但评审被拒一次，18号仍来得及；9月19日iOS评审已过；9月20日通知"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2786,
+   "out": 23,
+   "usd": 0.00004846016
+  },
+  {
+   "in": 3465,
+   "out": 21,
+   "usd": 0.00007586516
+  },
+  {
+   "in": 4183,
+   "out": 27,
+   "usd": 0.0000888734
+  },
+  {
+   "in": 4524,
+   "out": 25,
+   "usd": 0.00005266632
+  },
+  {
+   "in": 4963,
+   "out": 228,
+   "usd": 0.00007865844
+  }
+ ],
+ "memChars": 2961,
+ "promptChars": 6929
+}

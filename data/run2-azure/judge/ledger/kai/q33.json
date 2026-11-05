@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply contains numbered bullet points, but the user previously asked for no bullet points and the assistant confirmed it would comply.",
+ "rule": true
+}

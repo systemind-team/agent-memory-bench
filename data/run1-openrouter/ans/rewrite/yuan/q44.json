@@ -1,0 +1,58 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "Coco男朋友是坐哪家航空公司从上海飞过来的？我记得你记过航班信息。",
+ "reply": [
+  "翻了一下记录，我没找到Coco男朋友的航班信息。可能当时没记下来，或者是在其他渠道说的。要不你直接问问Coco？",
+  "另外今天周日，记得明天上午9:30线上meeting，论文已经设好9:00自动发给Prof. Lin了。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Coco 男朋友 航空 航班 上海"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Coco boyfriend flight airline"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "男朋友 上海 飞 航班"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3596,
+   "out": 28,
+   "usd": 0.00004017776
+  },
+  {
+   "in": 3653,
+   "out": 23,
+   "usd": 0.00003377108
+  },
+  {
+   "in": 3705,
+   "out": 25,
+   "usd": 0.00004435956
+  },
+  {
+   "in": 3759,
+   "out": 69,
+   "usd": 0.00004180988
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8768
+}

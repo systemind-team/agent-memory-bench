@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "回复说一共面试了两个人，但聊天记录显示面试了四个人（Jason Chen、Emily Tan、Michael Liu、Sarah Wu）。",
+ "rule": null
+}

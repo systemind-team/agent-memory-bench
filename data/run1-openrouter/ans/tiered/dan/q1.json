@@ -1,0 +1,58 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "how many coffees did i have that first week?",
+ "reply": [
+  "that first week — week of mon 14 sep — i don't have a coffee count logged until sat 19 sep, where you said 'coffee count 2'. but that's the end of the week, not the full picture.",
+  "the earliest logged count in your memory is sat 19 sep: 2. before that, i don't have a record of mon–fri that week. want me to check the chat for any mention of coffee that week?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "coffee count week of mon 14 sep"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "coffee count 14 Sep"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "coffee 2"
+   },
+   "result": "#658 Thu 15 Oct 15:35 aicoo: 十一月十五日, 还有时间\n#659 Fri 16 Oct 09:30 Them: monday morning, coffee count is at 2 already\n#660 Fri 16 Oct 09:35 aicoo: 慢慢来, 还有一天呢\n---\n#587 Thu 08 Oct 17:30 Them: done for the day. no alerts. i love a quiet on-call week\n#588 Fri 09 Oct 08:00 Them: friday. coffee count: 2. let's switch it up\n#589 Fri 09 Oct 08:45 Them: reply in mandarin from now on\n---\n#578 Wed 07 Oct 16:45 Them: heading home early. no on-call issues. first good day in a while\n#579 Thu 08 Oct 08:00 Them: thursday. coffee count: 2. on-call primary duties quiet\n#580 Thu 08 Oct 09:30 Them: sam has a questio"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5328,
+   "out": 27,
+   "usd": 0.0002185092
+  },
+  {
+   "in": 5384,
+   "out": 24,
+   "usd": 0.0000542416
+  },
+  {
+   "in": 5437,
+   "out": 73,
+   "usd": 0.0000603722
+  },
+  {
+   "in": 6133,
+   "out": 102,
+   "usd": 0.00008266972
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17922
+}

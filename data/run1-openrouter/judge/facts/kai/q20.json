@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It says integration rollout delay was confirmed Aug 22 and roadmap review was Aug 27, but the chat shows integration went live Sep 22 and roadmap review is Oct 10.",
+ "rule": null
+}

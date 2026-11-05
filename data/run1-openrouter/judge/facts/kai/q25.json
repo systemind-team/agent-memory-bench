@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It correctly states the value change from $800k to $950k and the scope expansion, but does not specify that the scope change was adding a custom analytics module, which is the key detail required.",
+ "rule": null
+}

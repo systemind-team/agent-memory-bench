@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q24",
+ "kind": "temporal",
+ "q": "论文标题第三次改是什么时候？",
+ "reply": [
+  "第三次改标题是10月26日，从 Context-Aware Hierarchical Planning for LLMs 改成了 Context-Aware Planning via Hierarchical Decomposition。",
+  "不过如果从最早的算，第一次是8月20日 Planning with Hierarchical Graphs → Hierarchical Planning with Graph Attention，第二次是9月13日改成 Context-Aware Hierarchical Planning for LLMs，第三次就是10月26日这次。需要我帮你整理一个标题改动时间线吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "标题修改 第三次"
+   },
+   "result": "[项目] 20 Aug: 论文标题改为Hierarchical Planning with Graph Attention（之前是Planning with Hierarchical Graphs）；13 Sep: 标题改为Context-Aware Hierarchical Planning for LLMs\n[about-me] 04 Aug: 我是周周, CS PhD第三年, Prof. Lin实验室, 希望aicoo用中文协助记事\n[实验室] 20 Oct 16:00 考虑第三个场景grid world with partial obs，可能再加真实文本任务\n[about-me] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[项目] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[about-me] 21 Oct: 继续看HotpotQA数据格式；上午批了20份TA作业，下午批30份；下午lab meeting，Dr. Chen入职定11月3日，Lin让我带他熟悉环境；Fa"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4378,
+   "out": 22,
+   "usd": 0.000381812
+  },
+  {
+   "in": 4856,
+   "out": 102,
+   "usd": 0.000526992
+  }
+ ],
+ "memChars": 6908,
+ "promptChars": 11253
+}

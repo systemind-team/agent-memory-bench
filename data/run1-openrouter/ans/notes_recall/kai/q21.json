@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "Pricing那个Nov 1 launch和Nov 15 delay，中间隔了多久？",
+ "reply": [
+  "Kai哥周日好。\n\nPricing launch timeline是这样的：9月17号你定了Nov 1 launch，到10月9号因为Ben需要更多测试时间，推到Nov 15。然后10月21号因为dark mode并行占工程资源，最终推到Dec 1。\n\n所以Nov 1到Nov 15隔了大概12天，Nov 15到Dec 1又隔了16天。今天正好是原定Nov 1 launch的日子，但已经确定Dec 1了，目前A/B测试还在跑，$44 variant表现不错。\n\n今天带家人去公园了吗？还是在家休息？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13398,
+   "out": 130,
+   "usd": 0.00016371544
+  }
+ ],
+ "memChars": 48047,
+ "promptChars": 52776
+}

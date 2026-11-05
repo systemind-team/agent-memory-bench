@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "Assistant replied with 37% from October, but the user's question '给蓝驰的用户次留数据是多少？' on Nov 1 asks for the data given to BlueRun, and the chat shows 34% was given on Sep 22; 37% is an updated value, not the data provided at that earlier request.",
+ "first": "wrong",
+ "rule": null
+}

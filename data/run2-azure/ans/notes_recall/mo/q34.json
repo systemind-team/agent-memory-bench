@@ -1,0 +1,23 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, what's on my plate today?",
+ "reply": [
+  "Sunday, November 1st. You asked me to remind you: quarterly review today.",
+  "Three months in: cash position 600w, 10+ accounts signed, 2 nursing homes live. I'd pull the numbers and risks into a one-pager for you to walk through this afternoon.",
+  "Want me to draft the review outline first?"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2444,
+   "out": 77,
+   "usd": 0.000189768
+  }
+ ],
+ "memChars": 2351,
+ "promptChars": 6343
+}

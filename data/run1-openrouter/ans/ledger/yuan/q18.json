@@ -1,0 +1,37 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q18",
+ "kind": "aggregate",
+ "q": "GPTR复现那段时间我大概都干了什么？",
+ "reply": [
+  "- 8月底决定加GPTR作为baseline，9月5-6日周末开始复现。",
+  "- 9月5日下午配环境没跑通，晚上继续搞环境。",
+  "- 9月7日继续debug GPTR。",
+  "- 9月16日上午GPTR终于跑通，数据正常。",
+  "- 之后跟其他baseline对比GPTR结果。"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "GPTR复现"
+   },
+   "result": "[216] 04 Sep · fact: 实验想加baseline GPTR，需要先复现代码  (from #333)\n[215] 04 Sep · plan: 周末（5-6 Sep）考虑加一个baseline叫GPTR，需要先复现其代码  (from #333)\n[186] 30 Aug · done: Sun 30 Aug 20:00-22:20 跑batch size 64复现实验，结果不行，改回64  (from #302, #303)\n[232] 07 Sep · plan: Mon 07 Sep 继续debug GPTR  (from #353)\n[217] 06 Sep · plan: Sat 05 Sep 到lab先找GPTR的代码  (from #336)\n[223] 06 Sep · done: Sun 06 Sep 01:30 没碰GPTR，改了一晚上intro  (from #343)\n[228] 06 Sep · done: Sun 06 Sep 18:00 晚上继续搞GPTR的环境  (from #349)\n[277] 16 Sep · done: Wed 16 Sep 10:00 GPTR跑出来了，数据正常  (from #423)\n[220] 06 Sep · fact: Sat 05 Sep 下午一直在配GPTR环境，还没跑通  (from #34"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4587,
+   "out": 22,
+   "usd": 0.00004666564
+  },
+  {
+   "in": 4942,
+   "out": 89,
+   "usd": 0.00006651904
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11671
+}

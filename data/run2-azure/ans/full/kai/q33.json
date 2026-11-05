@@ -1,0 +1,25 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+ "reply": [
+  "凯哥下午好！今天是周日，明天周一先回顾一下这周关键节点：",
+  "周二下午3点和Grace、Ben确认pricing launch decision，A/B测试8% lift已经被确认。",
+  "周三和Ravi finalize integration和dark mode toggle最终timeline，确保12/1 launch不冲突。",
+  "周五前要拿到Aurora和两个Singapore大客户的testimonial，补到Grace要求的Q3 summary里。",
+  "周一早上别忘了先问问父亲的情况，还有和Emily约一下weekly check-in。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36322,
+   "out": 122,
+   "usd": 0.001234756
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91620
+}

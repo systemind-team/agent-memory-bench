@@ -1,0 +1,60 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "did i book the asheville flights like i promised ade?",
+ "reply": [
+  "You booked Delta flights on Aug 30 for Oct 22 morning to Asheville. That one's done.",
+  "Cabin near Blue Ridge is also booked Oct 22-25 — Ade handled that one. You're all set for the trip.",
+  "Heads up though: the trip was Oct 22-25 and it's now Nov 1. Did that already happen and I'm mixing dates, or did something change?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "asheville flights"
+   },
+   "result": "[137] 30 Aug · done: flights booked: delta, oct 22 morning, asheville  (from #235)\n[133] 29 Aug · promise: daniel promised ade to book asheville flights tonight; aicoo will remind at 6  (from #231)\n[248] 27 Sep · plan: dan and ade trip to asheville in october  → replaced 13 Oct by [367] asheville trip cabin near blue ridge booked oct 22-25  (from #450)\n[247] 27 Sep · fact: ade's planning a trip to asheville for them in october  (from #450)\n[126] 27 Aug · plan: ade found a bakery in asheville, wants to go oct 22-25  (from #214)\n[368] 13 Oct · plan: asheville trip: cabin near blue ridge, oct 22-"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "asheville flights flight booking"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "asheville flight delta"
+   },
+   "result": "[137] 30 Aug · done: flights booked: delta, oct 22 morning, asheville  (from #235)\n[248] 27 Sep · plan: dan and ade trip to asheville in october  → replaced 13 Oct by [367] asheville trip cabin near blue ridge booked oct 22-25  (from #450)\n[247] 27 Sep · fact: ade's planning a trip to asheville for them in october  (from #450)\n[126] 27 Aug · plan: ade found a bakery in asheville, wants to go oct 22-25  (from #214)\n[368] 13 Oct · plan: asheville trip: cabin near blue ridge, oct 22-25  (from #623)\n[367] 13 Oct · fact: asheville trip cabin near blue ridge booked oct 22-25  (from #623)\n[422] 20 Oc"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3070,
+   "out": 22,
+   "usd": 0.000152956
+  },
+  {
+   "in": 3371,
+   "out": 24,
+   "usd": 0.000171462
+  },
+  {
+   "in": 3424,
+   "out": 23,
+   "usd": 0.00027368
+  },
+  {
+   "in": 3726,
+   "out": 93,
+   "usd": 0.000467948
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10818
+}

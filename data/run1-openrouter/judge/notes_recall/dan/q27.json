@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It claims the doc was sent to Priya on Aug 7, but the chat only shows a reminder was set for Thursday with no confirmation it was ever done.",
+ "rule": null
+}

@@ -1,0 +1,58 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "did i ever review lena's on-call draft?",
+ "reply": [
+  "yeah you did — saturday 15 aug, you read through lena's on-call draft. then on sunday you planned to send her comments by wednesday the 19th.",
+  "don't see a record of you actually sending those comments though. want me to check if lena ever followed up on that?"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "lena on-call draft review"
+   },
+   "result": "[78] 15 Aug · feeling: lazy saturday, reading through lena's on-call draft  (from #126)\n[79] 16 Aug · plan: dan will send comments on lena's on-call draft by wednesday  (from #130)\n[74] 15 Aug · plan: lena takes over on-call tomorrow  (from #120)\n[387] 16 Oct · done: on-call handoff notes ready for lena  (from #661)\n[18] 05 Aug · plan: will draft a risk list for priya  (from #31)\n[425] 21 Oct · plan: dan will draft a rotation proposal  (from #723)\n[23] 07 Aug · fact: patch for migration incident is being handled by lena with on-call doc update  (from #41)\n[198] 15 Sep · fact: Sam asked about o"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "lena on-call draft comments dan"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "lena on-call draft"
+   },
+   "result": "#125 Fri 14 Aug 17:01 aicoo: enjoy. see you monday\n#126 Sat 15 Aug 08:30 Them: coffee count: 1. lazy saturday. reading through lena's on-call draft\n#127 Sat 15 Aug 08:30 aicoo: understood, i'll note that"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3091,
+   "out": 24,
+   "usd": 0.00002766484
+  },
+  {
+   "in": 3397,
+   "out": 25,
+   "usd": 0.00004016964
+  },
+  {
+   "in": 3451,
+   "out": 23,
+   "usd": 0.00004219964
+  },
+  {
+   "in": 3560,
+   "out": 74,
+   "usd": 0.00004245136
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10804
+}

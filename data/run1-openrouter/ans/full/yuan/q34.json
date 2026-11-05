@@ -1,0 +1,26 @@
+{
+ "arm": "full",
+ "id": "yuan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning aicoo, what's my schedule this week?",
+ "reply": [
+  "- 这周的关键事项如下：",
+  "- Mon 2 Nov 09:30 线上meeting with Prof. Lin (讨论论文投稿和Dr. Chen入职)",
+  "- Tue 3 Nov 10:00 带Dr. Chen熟悉实验室环境 (GPU集群、存储、代码仓库)",
+  "- 本周需要：finalize论文实验部分，准备投稿至AAAI或ICLR（目标12月）",
+  "- 另外，周二记得批改TA的50份作业",
+  "- 今天周日，可以先提前准备周一meeting的slides和论文最新版发给Prof. Lin（邮件已设明早9:00自动发送）",
+  "- 有什么需要调整或补充的吗，周周？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 27984,
+   "out": 165,
+   "usd": 0.000539172
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 59372
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "产品MVP砍到哪两个模块？",
+ "reply": [
+  "产品MVP砍到只剩两个模块：健康打卡和报告生成。",
+  "8月初定的，为了快速上线验证。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "产品MVP 健康打卡 报告生成"
+   },
+   "result": "[cash-runway] Fri 07 Aug: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块\n[user-feedback-summary] Sat 29 Aug: 小雨社裙裂变方案已收到，核心是打卡分享红包，预估拉新30%\n[about-me] Thu 01 Oct: Mia申请10月5-9号日本采风，已批，需出采风报告（新增）；Fri 09 Oct: 以后跟我说英文，练练（新增）\n[seed-round-investors] Fri 23 Oct: 成都协会想推产品到更多社区，加单，正在谈分成\n[seed-round-investors] Sat 22 Aug: 蓝驰聊得还行，想再看产品数据（之前已见，准备材料重新发送）\n[product-launch] Mon 14 Sep: 健康管理师协会合作方案已发，条款还行，先签，明天寄合同（新增）\n[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[product-launch] Wed 16 Sep: 健康管理师协会要求先付保证金5千，已同意尽快付；9月17日渠道日均引流180，成本比线上低15%，考虑加大投放\n[seed-round-investors] Sat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3019,
+   "out": 26,
+   "usd": 0.000556902
+  },
+  {
+   "in": 3520,
+   "out": 32,
+   "usd": 0.000253056
+  }
+ ],
+ "memChars": 3381,
+ "promptChars": 7352
+}

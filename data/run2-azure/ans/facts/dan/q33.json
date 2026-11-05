@@ -1,0 +1,72 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "good morning dan. this week is the big one — billing migration cutover. you finished the checklist yesterday, just need to add those rollback steps and include the dry run results.",
+  "priya's back from pto, tom's stripe refactor v2 is in review (last big piece before cutover), and you wanted to order a new battery. also on-call: you're primary, tom's secondary.",
+  "want me to draft the rollback steps section from the sep 16 script you showed sam? then we can review together."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "this week"
+   },
+   "result": "#826 Sat 31 Oct 09:35 aicoo: nice. that should be the last big piece before cutover\n#827 Sat 31 Oct 10:00 Them: battery at 79%. i'll order a new one this week\n#828 Sat 31 Oct 10:05 aicoo: good call. don't want it dying mid-migration\n---\n#775 Mon 26 Oct 09:15 Them: battery at 83% now. dropping faster than i'd like\n#776 Mon 26 Oct 09:20 aicoo: noted. keep an eye on it this week\n#777 Mon 26 Oct 10:30 Them: sam asked about stripe webhook retry logic. sent him the doc\n---\n#447 Sat 26 Sep 09:00 aicoo: good morning dan. friday at last\n#448 Sat 26 Sep 10:00 Them: no new flaky tests this week. thank go"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "billing migration cutover checklist rollback"
+   },
+   "result": "- 26 Oct: Priya wants the cutover checklist ready by Friday.\n- 16 Sep: Showed Sam the rollback script for the billing_status drop incident.\n- 03 Oct: Billing migration progress: index migration script written.\n- 16 Oct: billing migration dry run #2 today\n- 20 Sep: Stepping away from flaky test to work on billing migration.\n- 21 Sep: Dan says the billing migration plan needs another review tomorrow.\n- 09 Oct: Checklist updated with a row for webhook service URL swap.\n- Dan has a pending pull request for billing migration dry run results, waiting for Sam's review.\n- 20 Oct: Billing migration dry"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover checklist rollback steps dry run"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover checklist"
+   },
+   "result": "#832 Sat 31 Oct 11:15 aicoo: perfect trio. halloween is sorted\n#833 Sat 31 Oct 14:00 Them: cutover checklist is almost done. just need to add rollback steps\n#834 Sat 31 Oct 14:05 aicoo: crucial section. include the dry run results too\n---\n#812 Thu 29 Oct 12:05 aicoo: good sign. shows initiative\n#813 Thu 29 Oct 14:00 Them: priya sent the cutover checklist template. looks thorough\n#814 Thu 29 Oct 14:05 aicoo: fill it in over the next few days. dry run again next week\n---\n#778 Mon 26 Oct 10:35 aicoo: good. that doc covers the edge cases\n#779 Mon 26 Oct 11:00 Them: priya wants cutover checklist re"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1496,
+   "out": 20,
+   "usd": 0.000187888
+  },
+  {
+   "in": 2043,
+   "out": 26,
+   "usd": 0.00021447
+  },
+  {
+   "in": 2253,
+   "out": 26,
+   "usd": 0.000121098
+  },
+  {
+   "in": 2308,
+   "out": 21,
+   "usd": 0.000129848
+  },
+  {
+   "in": 2635,
+   "out": 118,
+   "usd": 0.000207014
+  }
+ ],
+ "memChars": 1065,
+ "promptChars": 5554
+}

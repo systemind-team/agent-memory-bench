@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "生成的PR描述未包含用户明确要求的Risk部分。",
+ "rule": false
+}

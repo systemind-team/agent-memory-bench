@@ -1,0 +1,35 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "Yuki那个onboarding redesign的conversion lift是多少啊，我忘了具体数字。",
+ "reply": [
+  "是23%，凯哥。Yuki那个onboarding redesign的A/B test跑出来23% conversion lift，很solid的数字。",
+  "周一见了，好好享受周日！"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Yuki onboarding redesign conversion lift"
+   },
+   "result": "#77 Tue 11 Aug 08:01 aicoo: Sure, I'll remind you on Sep 1 about Ravi的integration progress.\n#78 Tue 11 Aug 09:15 Them: 刚和Yuki过完onboarding redesign的data, 23% conversion lift, 还不错\n#79 Tue 11 Aug 09:16 aicoo: Yuki做得好！那个lift很solid。\n---\n#59 Sun 09 Aug 10:31 aicoo: 收到，我准备一个draft\n#60 Sun 09 Aug 11:30 Them: Yuki redesign了onboarding flow，AB test shows 23% conversion lift, impressive\n#61 Sun 09 Aug 11:31 aicoo: Yuki太棒了，23%很厉害"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1397,
+   "out": 24,
+   "usd": 0.000215162
+  },
+  {
+   "in": 1601,
+   "out": 43,
+   "usd": 0.00013117
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4386
+}

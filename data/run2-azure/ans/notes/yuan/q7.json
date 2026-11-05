@@ -1,0 +1,22 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "Coco生日是几号来着？",
+ "reply": [
+  "Coco生日是10月7号。之前你订的蛋糕，去了KTV星光，还喝多了第二天上午补觉。",
+  "怎么，要补礼物还是安排什么？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3707,
+   "out": 46,
+   "usd": 0.000162694
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9610
+}

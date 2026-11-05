@@ -1,0 +1,61 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "给我发段晨检上线里程碑的总结",
+ "reply": [
+  "老板，晨检上线里程碑总结来了。按你说的，核心结论放前面。",
+  "**核心结论**\n晨检从原定8月上线，经三次延期（9月10日→9月18日→9月25日），最终于9月25日上线iOS版。首日下载502，无闪退，评分4.8。DAU从首周约200逐步爬升，次留存从34%涨至10月底的38%，峰值DAU达2100。安卓版延期至11月中上线，作为下一阶段增长杠杆。",
+  "**关键时间线**\n8月 iOS提审 → 9月10日延期 → 9月18日再延期 → 9月25日最终上线\n10月 DAU稳步增长，次留存升至38%\n10月底 蓝驰第二笔300万到账，账上600万\n11月中 安卓版上线目标",
+  "**当前状态**\n线上稳定运营，iOS用户自然增长+驿站合作引流+成都渠道带来日均订单500单以上。下一阶段重点在安卓版上线和渠道拓展。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线 里程碑"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线"
+   },
+   "result": "#558 Sat 10 Oct 09:01 aicoo: DAU holding steady around 150-200, retention improving\n#559 Sat 10 Oct 09:35 aicoo: 晨检终于在9月25号上线了，DAU首日破200\n#560 Sat 10 Oct 09:36 Them: Wait, we already launched. You mean the English update\n---\n#460 Sun 27 Sep 17:01 aicoo: 恭喜，这周可以稍微松口气了\n#461 Mon 28 Sep 09:15 Them: 晨检上线后第一天数据怎么样？\n#462 Mon 28 Sep 09:17 aicoo: 首日下载502，次日留存暂未出。无闪退报告，评分4.8。\n---\n#377 Sun 20 Sep 11:31 aicoo: 已校核成本，比上周方案更稳，下午发你确认\n#378 Sun 20 Sep 15:10 aicoo: 晨检上线再拖，9月25号，这次说死了\n#379 Sun 20 Sep 15:15 Them: 靠，又延期，阿杰怎么说的\n---\n#332 Sun 13 Sep 16:10 aicoo: 好，我打印出来明天寄\n#333 Sun 13 Sep 17:00 Them: 下周晨检上线，融资推进，事情不少\n"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "核心结论"
+   },
+   "result": "#580 Tue 13 Oct 14:00 Them: 项目总结开头先写「核心结论」\n#581 Tue 13 Oct 14:02 aicoo: 明白，核心结论放最前面，数据优先。\n#582 Tue 13 Oct 18:00 Them: 今天阿里云那边说可以优化，我让阿杰去聊了。\n---\n#579 Tue 13 Oct 09:05 aicoo: 好的，发来我看看。\n#580 Tue 13 Oct 14:00 Them: 项目总结开头先写「核心结论」\n#581 Tue 13 Oct 14:02 aicoo: 明白，核心结论放最前面，数据优先。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4011,
+   "out": 24,
+   "usd": 0.00016839
+  },
+  {
+   "in": 4064,
+   "out": 22,
+   "usd": 0.0001784
+  },
+  {
+   "in": 4751,
+   "out": 20,
+   "usd": 0.00032155
+  },
+  {
+   "in": 4931,
+   "out": 248,
+   "usd": 0.00048703
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8489
+}

@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "Aurora那个客户全名叫什么，我老怕写错。",
+ "reply": [
+  "Aurora Health，凯哥。全称就是 Aurora Health，之前你记录里写的是这个，没有别称了。你一直没写错过。\n\n今天好好休息，周一见。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Aurora Health"
+   },
+   "result": "- 13 Oct: Customer call with Aurora Health at 10. Prepping.\n- Aurora Health deal legal signed last week, deal is $800K and closing Monday.\n- 13 Oct: Prep for tomorrow's customer call with Aurora Health check-in. 13 Oct: Aurora call went well. They're happy with progress.\n- 07 Aug: Lily确认了一笔价值800k的企业交易，客户是Aurora Health。\n- 03 Sep: Aurora项目已关闭，预算已完成。\n- 09 Sep: 需要Yuki确认Aurora scope能否分phase delivery。\n- 10 Sep: Dark mode phase plan和Aurora scoping已完成\n- 10 Sep: Lily的Aurora custom reporting初步scope看着reasonable。\n- 11 Sep: 父亲情况稳定，可以focus on Aurora negotiations\n- 13 Sep: Aurora scoping confirm需4周，有dependen"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3364,
+   "out": 22,
+   "usd": 0.000306344
+  },
+  {
+   "in": 3588,
+   "out": 50,
+   "usd": 0.000185768
+  }
+ ],
+ "memChars": 6962,
+ "promptChars": 11671
+}

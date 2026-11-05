@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "我这学期TA的课号是多少？",
+ "reply": [
+  "CS 571，Prof. Li的课，每周二批50份作业。这学期课号没变吧？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "TA 课程 CS 571"
+   },
+   "result": "[个人] 09 Aug: TA课程CS 571, Prof. Li, 每周二批50份作业\n[个人] 21 Sep: 批完50份CS 571作业，眼睛累；20:20已批完\n[个人] 26 Aug: 下午批完剩下30份CS 571作业（之前26 Aug上午批了20份），晚饭前搞定交系统\n[个人] 13 Oct: THOR报错修复，继续跑实验；今晚改20份CS 571作业（14 Oct改完剩余30份发给Prof. Li）\n[个人] 21 Oct: 上午批了20份CS 571作业，下午继续批30份；下午lab meeting，Dr. Chen入职定11月3日；21 Oct 22:00 HotpotQA跑了一版效果不好，截断问题调整后重新跑\n[个人] 11 Oct: 写完论文实验部分，三个环境结果全部放入（之前10 Oct三个环境跑通）\n14 Oct: 改完50份CS 571作业，发给Prof. Li（13 Oct晚改20份，14 Oct早改完剩余30份）\n[个人] 14 Oct: 改完50份CS 571作业，发给Prof. Li（13 Oct晚改20份，14 Oct早改完剩余30份）\n14 Oct: 下午设计real-world scenario（机器人导航），晚上预订了“山海”餐厅，11月20日\n15 Oct: 周四，上午实现scenario，下午跑完实验，效果比随机好但和GPTR结合提"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4010,
+   "out": 24,
+   "usd": 0.00006497624
+  },
+  {
+   "in": 4526,
+   "out": 32,
+   "usd": 0.000186354
+  }
+ ],
+ "memChars": 5831,
+ "promptChars": 10175
+}

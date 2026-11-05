@@ -1,0 +1,33 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "Ravi那个integration本来due Sep 15，最后哪天go live的？",
+ "reply": [
+  "最后是9月22日go live的。一开始确实定的Sep 15，但security audit push了一周，Ravi当时说可能会影响timeline。后来audit cleared了，9月22日上线，没再继续slip。"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Ravi integration go live date Sep 15"
+   },
+   "result": "[376] 21 Sep · done: Ravi confirmed integration went live Sep 22  (from #645)\n[127] 21 Aug · done: Ravi said security audit may push integration to Sep 22, superseding earlier Sep 15 estimate  (from #215)\n[240] 05 Sep · fact: Ravi的新hire start date delayed to Nov 15 due to visa issue  (from #419, #421)\n[105] 19 Aug · fact: Ravi说security audit可能会影响integration rollout，但希望Sep 15 still holds  (from #179)\n[39] 11 Aug · ask: remind me to check Ravi's integration progress on Sep 1  (from #76)\n[11] 05 Aug · fact: Ravi's team needs to finish the integration by September 15.  (from #23)\n[79] 17 Aug · don"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5105,
+   "out": 27,
+   "usd": 0.00005147268
+  },
+  {
+   "in": 5474,
+   "out": 58,
+   "usd": 0.00006897128
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14927
+}

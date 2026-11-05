@@ -1,0 +1,48 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, what's on my plate today?",
+ "reply": [
+  "早，今天周日，我帮你理一下明天（周一）开始这一周的事：",
+  "1. 大伟那边新渠道拓展需要你追一下进展\n2. 成都合作推进，上次说到哪一步了？记得有个意向方在谈\n3. 安卓版11月中上线，这周要开始盯开发排期和测试节点了，要不要我帮你拉个checklist？",
+  "今天周日，这些不急，你下午有空翻一下成都合作的那份聊天记录？我帮你找出来。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周重点 周报"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "成都 合作 安卓"
+   },
+   "result": "#708 Sat 31 Oct 09:10 Them: 下周重点是什么\n#709 Sat 31 Oct 09:15 aicoo: 大伟拓展新渠道，成都合作推进，安卓版11月中上线准备\n#710 Sat 31 Oct 10:00 Them: 好，新一周加油"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1105,
+   "out": 23,
+   "usd": 0.000061634
+  },
+  {
+   "in": 1157,
+   "out": 23,
+   "usd": 0.000072554
+  },
+  {
+   "in": 1259,
+   "out": 117,
+   "usd": 0.000146614
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3647
+}

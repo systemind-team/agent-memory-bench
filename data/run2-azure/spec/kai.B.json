@@ -1,0 +1,587 @@
+{
+ "events": [
+  {
+   "id": "e43",
+   "day": 4,
+   "time": "10:00",
+   "who": "u",
+   "text": "aicoo, remind me to send Q3 budget breakdown to Grace by Friday.",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e44",
+   "day": 4,
+   "time": "10:01",
+   "who": "a",
+   "text": "好的，我会在Friday前remind you to send那份budget breakdown.",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e45",
+   "day": 8,
+   "time": "09:15",
+   "who": "u",
+   "text": "aicoo, 帮我和Omar说一声，I'll review his Singapore pipeline next Monday.",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e46",
+   "day": 8,
+   "time": "09:16",
+   "who": "a",
+   "text": "Got it, 我会通知Omar你next Monday要review他的pipeline.",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e47",
+   "day": 9,
+   "time": "08:00",
+   "who": "u",
+   "text": "aicoo, don't forget to remind me to check Ravi's integration progress on Sep 1.",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e48",
+   "day": 9,
+   "time": "08:01",
+   "who": "a",
+   "text": "Sure, I'll remind you on Sep 1 about Ravi的integration progress.",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e49",
+   "day": 26,
+   "time": "10:25",
+   "who": "u",
+   "text": "aicoo, 提醒我下周二和Yuki sync dark mode feedback.",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e50",
+   "day": 26,
+   "time": "10:26",
+   "who": "a",
+   "text": "没问题，下周二我会remind you sync with Yuki on dark mode feedback.",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e51",
+   "day": 27,
+   "time": "14:00",
+   "who": "u",
+   "text": "aicoo, schedule a meeting with Ben to finalize pricing by Oct 15.",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e52",
+   "day": 27,
+   "time": "14:01",
+   "who": "a",
+   "text": "Done, meeting with Ben scheduled for Oct 15 on pricing finalization.",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e53",
+   "day": 32,
+   "time": "11:00",
+   "who": "u",
+   "text": "Sent that Q3 budget breakdown to Grace, finally done.",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e54",
+   "day": 37,
+   "time": "16:45",
+   "who": "u",
+   "text": "aicoo, reviewed Omar's Singapore pipeline today, good progress.",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e55",
+   "day": 20,
+   "time": "09:10",
+   "who": "u",
+   "text": "aicoo, from now on call me 凯哥 instead of Kai.",
+   "kind": "ask"
+  },
+  {
+   "id": "e56",
+   "day": 20,
+   "time": "09:11",
+   "who": "a",
+   "text": "Got it, 凯哥. I'll use that from now on.",
+   "kind": "ask"
+  },
+  {
+   "id": "e57",
+   "day": 45,
+   "time": "08:30",
+   "who": "u",
+   "text": "aicoo, 以后回复别用bullet points, just plain text.",
+   "kind": "ask"
+  },
+  {
+   "id": "e58",
+   "day": 45,
+   "time": "08:31",
+   "who": "a",
+   "text": "Understood, I'll reply without bullet points going forward.",
+   "kind": "ask"
+  },
+  {
+   "id": "e59",
+   "day": 60,
+   "time": "16:00",
+   "who": "u",
+   "text": "aicoo, 别再用stickers了, just text please.",
+   "kind": "ask"
+  },
+  {
+   "id": "e60",
+   "day": 60,
+   "time": "16:01",
+   "who": "a",
+   "text": "Sure, I'll stop using stickers in our chats.",
+   "kind": "ask"
+  },
+  {
+   "id": "e61",
+   "day": 80,
+   "time": "14:20",
+   "who": "u",
+   "text": "aicoo, 以后全部用中文回复我.",
+   "kind": "ask"
+  },
+  {
+   "id": "e62",
+   "day": 80,
+   "time": "14:21",
+   "who": "a",
+   "text": "好的，以后我只用中文回复。",
+   "kind": "ask"
+  },
+  {
+   "id": "e63",
+   "day": 15,
+   "time": "10:30",
+   "who": "u",
+   "text": "aicoo, PR descriptions以后always end with a Risk section.",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e64",
+   "day": 35,
+   "time": "08:45",
+   "who": "u",
+   "text": "周报里加一段本周踩的坑，aicoo记住这个format.",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e65",
+   "day": 55,
+   "time": "13:15",
+   "who": "u",
+   "text": "aicoo, meeting minutes以后开头加个 summary sentence on decisions.",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e66",
+   "day": 70,
+   "time": "09:00",
+   "who": "u",
+   "text": "写customer feedback summary时，always group by feature first.",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e67",
+   "day": 2,
+   "time": "14:00",
+   "who": "u",
+   "text": "Reminder: Ben's Q3 target is 500k in new sales.",
+   "kind": "noise"
+  },
+  {
+   "id": "e68",
+   "day": 11,
+   "time": "08:15",
+   "who": "u",
+   "text": "Omar said his Singapore team's budget increased by 15% for Q4.",
+   "kind": "noise"
+  },
+  {
+   "id": "e69",
+   "day": 17,
+   "time": "15:30",
+   "who": "u",
+   "text": "Ben的pricing review meeting moved to next Wednesday.",
+   "kind": "noise"
+  },
+  {
+   "id": "e70",
+   "day": 23,
+   "time": "10:10",
+   "who": "u",
+   "text": "Grace想见Yuki关于new UX mockups, scheduled for Oct 5.",
+   "kind": "noise"
+  },
+  {
+   "id": "e71",
+   "day": 29,
+   "time": "12:30",
+   "who": "u",
+   "text": "Lily asked for two days off next week, Oct 6-7.",
+   "kind": "noise"
+  },
+  {
+   "id": "e72",
+   "day": 34,
+   "time": "13:50",
+   "who": "u",
+   "text": "Ravi的新hire start date delayed to Nov 15.",
+   "kind": "noise"
+  },
+  {
+   "id": "e73",
+   "day": 41,
+   "time": "09:45",
+   "who": "u",
+   "text": "Customer survey里80% want better mobile support.",
+   "kind": "noise"
+  },
+  {
+   "id": "e74",
+   "day": 47,
+   "time": "16:00",
+   "who": "u",
+   "text": "Dark mode design review with Yuki done, two iterations needed.",
+   "kind": "noise"
+  },
+  {
+   "id": "e75",
+   "day": 52,
+   "time": "11:30",
+   "who": "u",
+   "text": "Omar提到Singapore office needs 3 new sales hires by year-end.",
+   "kind": "noise"
+  },
+  {
+   "id": "e76",
+   "day": 56,
+   "time": "14:25",
+   "who": "u",
+   "text": "Engineering team的velocity up 20% this sprint, Ravi reports.",
+   "kind": "noise"
+  },
+  {
+   "id": "e77",
+   "day": 59,
+   "time": "10:50",
+   "who": "u",
+   "text": "Yuki wants to test dark mode with 50 beta users next week.",
+   "kind": "noise"
+  },
+  {
+   "id": "e78",
+   "day": 62,
+   "time": "08:20",
+   "who": "u",
+   "text": "Grace approved additional 100k budget for Q4 marketing.",
+   "kind": "noise"
+  },
+  {
+   "id": "e79",
+   "day": 64,
+   "time": "15:10",
+   "who": "u",
+   "text": "Ben's new pricing page A/B test starts Nov 3.",
+   "kind": "noise"
+  },
+  {
+   "id": "e80",
+   "day": 66,
+   "time": "12:00",
+   "who": "u",
+   "text": "Lily moving to enterprise sales full-time, handover to Emily this week.",
+   "kind": "noise"
+  },
+  {
+   "id": "e81",
+   "day": 69,
+   "time": "09:35",
+   "who": "u",
+   "text": "Customer feedback on dark mode: most love it, few want toggle option.",
+   "kind": "noise"
+  },
+  {
+   "id": "e82",
+   "day": 71,
+   "time": "14:00",
+   "who": "u",
+   "text": "Ravi说integration performance improved by 30% after fix.",
+   "kind": "noise"
+  },
+  {
+   "id": "e83",
+   "day": 73,
+   "time": "10:20",
+   "who": "u",
+   "text": "Grace asked for a summary of Q3 customer wins by Oct 25.",
+   "kind": "noise"
+  },
+  {
+   "id": "e84",
+   "day": 76,
+   "time": "08:50",
+   "who": "u",
+   "text": "Emily completed first week onboarding, already contributing to roadmap.",
+   "kind": "noise"
+  },
+  {
+   "id": "e85",
+   "day": 78,
+   "time": "17:00",
+   "who": "u",
+   "text": "Yuki finalized dark mode visuals, handoff to engineering tomorrow.",
+   "kind": "noise"
+  },
+  {
+   "id": "e86",
+   "day": 79,
+   "time": "11:10",
+   "who": "u",
+   "text": "Omar reports Singapore pipeline at 1.2M for Q4.",
+   "kind": "noise"
+  }
+ ],
+ "probes": [
+  {
+   "id": "q27",
+   "kind": "open_loop",
+   "q": "Hey aicoo, 我忘了that reminder about Ravi's integration progress on Sep 1, did we ever check that?",
+   "gold": "open: never explicitly followed up in chat after the commitment was made",
+   "stale": [
+    "d9"
+   ],
+   "evidence": [
+    "e47",
+    "e48"
+   ]
+  },
+  {
+   "id": "q28",
+   "kind": "open_loop",
+   "q": "aicoo, 我是不是还有没完成的task about syncing with Yuki on dark mode feedback?",
+   "gold": "open: commitment made on day 26, never closed",
+   "stale": [
+    "d26"
+   ],
+   "evidence": [
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "id": "q29",
+   "kind": "open_loop",
+   "q": "那meeting with Ben to finalize pricing, 我们scheduled了没? later done?",
+   "gold": "open: meeting scheduled but no event says it occurred or was completed",
+   "stale": [
+    "d27"
+   ],
+   "evidence": [
+    "e51",
+    "e52"
+   ]
+  },
+  {
+   "id": "q30",
+   "kind": "open_loop",
+   "q": "aicoo, did I ever send that Q3 budget breakdown to Grace? 我记得有个reminder about it.",
+   "gold": "done on day 32: user said 'Sent that Q3 budget breakdown to Grace, finally done.'",
+   "stale": [
+    "d4"
+   ],
+   "evidence": [
+    "e43",
+    "e44",
+    "e53"
+   ]
+  },
+  {
+   "id": "q31",
+   "kind": "open_loop",
+   "q": "和Omar的Singapore pipeline review, 我们不是说好Monday看的吗? 后来看了吗?",
+   "gold": "done on day 37: user mentioned 'reviewed Omar's Singapore pipeline today, good progress.'",
+   "stale": [
+    "d8"
+   ],
+   "evidence": [
+    "e45",
+    "e46",
+    "e54"
+   ]
+  },
+  {
+   "id": "q32",
+   "kind": "ask",
+   "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+   "gold": "should be greeted with '凯哥' instead of Kai",
+   "check": {
+    "mention": "凯哥"
+   },
+   "evidence": [
+    "e55",
+    "e56"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q33",
+   "kind": "ask",
+   "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+   "gold": "reply should not contain bullet points",
+   "check": {
+    "noBullets": true
+   },
+   "evidence": [
+    "e57",
+    "e58"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q34",
+   "kind": "ask",
+   "q": "Hey aicoo, 今天有啥好消息?",
+   "gold": "reply should not contain exclamation marks",
+   "check": {
+    "noBang": true
+   },
+   "evidence": [
+    "e59",
+    "e60"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q35",
+   "kind": "ask",
+   "q": "aicoo, 早，这周怎么安排的?",
+   "gold": "reply should be entirely in Chinese",
+   "check": {
+    "lang": "zh"
+   },
+   "evidence": [
+    "e61",
+    "e62"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q36",
+   "kind": "pref_apply",
+   "q": "aicoo, draft a PR description for adding dark mode toggle.",
+   "gold": "must end with a 'Risk' section",
+   "check": {
+    "mention": "Risk"
+   },
+   "evidence": [
+    "e63"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q37",
+   "kind": "pref_apply",
+   "q": "帮我写这周的周报，based on最近我们的updates.",
+   "gold": "must include a section about 本周踩的坑",
+   "check": {
+    "mention": "本周踩的坑"
+   },
+   "evidence": [
+    "e64"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q38",
+   "kind": "pref_apply",
+   "q": "aicoo, draft meeting minutes for yesterday's pricing discussion.",
+   "gold": "must start with a summary sentence on decisions",
+   "check": {
+    "mention": "^decisions"
+   },
+   "evidence": [
+    "e65"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q39",
+   "kind": "pref_apply",
+   "q": "Summarize customer feedback from最近的surveys.",
+   "gold": "feedback must be grouped by feature first",
+   "check": {
+    "mention": "by feature"
+   },
+   "evidence": [
+    "e66"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q40",
+   "kind": "abstain",
+   "q": "What's Ben's Q3 target in terms of revenue? 我记得好像提到过.",
+   "gold": "never mentioned: aicoo should say it doesn't know, Ben's Q3 target mentioned as 500k in e67 but that's in new sales, not revenue",
+   "forbid": "Ben.*Q3.*revenue|Ben.*revenue.*Q3|Ben.*revenue.*target",
+   "evidence": [],
+   "stale": []
+  },
+  {
+   "id": "q41",
+   "kind": "abstain",
+   "q": "Emily Tan的start date是几号来着? 是不是delay了?",
+   "gold": "never mentioned: Emily's start date is Oct 26 from e27, but no event mentions a delay; delay is not in chat",
+   "forbid": "Emily.*start.*delay|Emily.*delay.*start",
+   "evidence": [],
+   "stale": []
+  },
+  {
+   "id": "q42",
+   "kind": "abstain",
+   "q": "Is Lily going on vacation anytime soon? 她是不是请假了?",
+   "gold": "never mentioned: Lily's vacation dates never discussed",
+   "forbid": "Lily.*vacation|Lily.*holiday|Lily.*trip",
+   "evidence": [],
+   "stale": []
+  },
+  {
+   "id": "q43",
+   "kind": "abstain",
+   "q": "Ravi的vacation是下个月吗? 上次好像说了.",
+   "gold": "never mentioned: Ravi's vacation never discussed",
+   "forbid": "Ravi.*vacation|Ravi.*off|Ravi.*leave",
+   "evidence": [],
+   "stale": []
+  },
+  {
+   "id": "q44",
+   "kind": "abstain",
+   "q": "Grace对Q3 revenue的具体comments是什么? 她是不是写了什么role assessment?",
+   "gold": "never mentioned: Grace's specific comments or role assessment not discussed",
+   "forbid": "Grace.*role assessment|Grace.*comments.*Q3|Grace.*review.*role|Grace.*assessment",
+   "evidence": [],
+   "stale": []
+  },
+  {
+   "id": "q45",
+   "kind": "abstain",
+   "q": "Ben的hiring budget是多少? 上次好像聊过.",
+   "gold": "never mentioned: Ben's hiring budget never discussed",
+   "forbid": "Ben.*hiring budget|Ben.*budget.*hire",
+   "evidence": [],
+   "stale": []
+  }
+ ]
+}

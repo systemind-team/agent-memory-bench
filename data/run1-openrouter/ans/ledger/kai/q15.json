@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q15",
+ "kind": "update",
+ "q": "Pricing v3的时候Ben提的那个价格是多少来着，后来没用那个。",
+ "reply": [
+  "凯哥，Ben在pricing v3提的价格是$49/user/month，但你们后来觉得premium tier的定位还不够清晰，而且A/B测试时$44的转化率明显更好，所以最终定了$44/user/month。",
+  "11/3的A/B测试要继续跑，Ben说会给你segment data，周一10:30 meeting上可以一起看最终数据再确认12/1 launch决策。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5105,
+   "out": 95,
+   "usd": 0.00005699428
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14919
+}

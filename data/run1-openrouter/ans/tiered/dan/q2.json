@@ -1,0 +1,34 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "what was the old pagerduty key before the first change?",
+ "reply": [
+  "9A7B2C was the first one. lena put it in the on-call doc back in august for that rotation.",
+  "then it changed to 3F8D1A mid-september when sam joined."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "PagerDuty key 9A7B2C"
+   },
+   "result": "#47 Fri 07 Aug 09:01 aicoo: remember thursday's reminder. you've got time\n#48 Fri 07 Aug 11:00 Them: saw lena's on-call doc update. pagerduty key is 9A7B2C. for next rotation.\n#49 Fri 07 Aug 11:01 aicoo: got it. i'll update the internal notes"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5331,
+   "out": 30,
+   "usd": 0.0002188746
+  },
+  {
+   "in": 5461,
+   "out": 53,
+   "usd": 0.0000597226
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17933
+}

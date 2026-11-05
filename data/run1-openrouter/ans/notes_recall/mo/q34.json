@@ -1,0 +1,22 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, what's on my plate today?",
+ "reply": [
+  "morning. today is Sunday, but the quarterly review prep is due Nov 1. want me to pull the numbers now, or push to Monday",
+  "also: Mia's Japan inspiration report still pending, and the Android test timeline for mid-Nov needs a checkpoint"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2467,
+   "out": 60,
+   "usd": 0.00003851316
+  }
+ ],
+ "memChars": 2351,
+ "promptChars": 6343
+}

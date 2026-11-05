@@ -1,0 +1,58 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "Aurora deal最初是多少value来着，我印象中后来加了custom模块涨了。",
+ "reply": [
+  "凯哥，Aurora Health deal最初是$800K，后面因为签了custom module add-on（每年$50K），最终Q3 close的总值是$950K。也就是说base deal $800K + 第一年custom module $50K + 可能还有其他条款调整到$950K。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Aurora deal value custom module"
+   },
+   "result": "- 21 Aug: Lily's Aurora add-on pricing is $50K annually for the custom module, seems reasonable for Q1；17 Sep: Aurora的custom module谈判基本确定，Q4 add-on，价格额外$50K。\n- 13 Oct: Custom module timeline confirmed. Q1 2027 a good call.\n- Aurora Health deal legal signed last week, deal is $800K and closing Monday.\n- 18 Aug: custom analytics module需要2-3 sprints (6-9 weeks)，不能包含在现有deal里，建议作为optional add-on，Q1 2027 delivery，单独定价，不然Q3 close risk太大。\n- 21 Sep: Lily发来Aurora integration timeline, 他们说custom module可以在Q1做。原来谈判是Q3/Q4关闭，客户推动Q3，现在Lily说可以在Q1做。\n- Aurora deal is $950K and will be officially announced next M"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Aurora 800K 950K initial value"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Aurora 初期 价值"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3341,
+   "out": 25,
+   "usd": 0.000303194
+  },
+  {
+   "in": 3673,
+   "out": 29,
+   "usd": 0.000191858
+  },
+  {
+   "in": 3731,
+   "out": 25,
+   "usd": 0.000155974
+  },
+  {
+   "in": 3785,
+   "out": 71,
+   "usd": 0.000193074
+  }
+ ],
+ "memChars": 7093,
+ "promptChars": 11823
+}

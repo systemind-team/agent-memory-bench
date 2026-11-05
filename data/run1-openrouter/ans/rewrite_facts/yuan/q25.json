@@ -1,0 +1,47 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q25",
+ "kind": "update",
+ "q": "论文title在改到Context-Aware Planning之后又改了什么？",
+ "reply": [
+  "从改到“Context-Aware Planning”之后，10月27日finalize的时候定成了“Context-Aware Planning via Hierarchical Decomposition”——加上了“via Hierarchical Decomposition”，突出你的hierarchical方法。之后再没动过标题了。",
+  "需要帮你确认overleaf、本地文件和周报模板上都同步更新成这个最终版了吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Context-Aware Planning 标题 修改"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "论文标题 改 Context-Aware Planning"
+   },
+   "result": "- 28 Sep: 周予安将论文标题从“Context-Aware Hierarchical Planning for LLMs”改为“Context-Aware Planning”。\n- 27 Oct: 今天开始finalize论文标题，跑最后一个实验。最终标题确定为Context-Aware Planning via Hierarchical Decomposition。\n- 19 Oct: 结果出来了，复杂场景下context-aware还是比gptr高2个点，但是方差有点大。\n- 29 Sep: 周予安决定根据Prof. Lin的意见调整introduction，使contribution更聚焦于hierarchical planning和context-awareness两个点。\n- 29 Sep: 周予安已完成full pipeline运行且无问题，当天开始修改introduction，并根据Prof. Lin的意见调整，使contribution更聚焦于hierarchical planning和context-awareness两个点。\n- 23 Sep: 周予安确认需要修改time step和planning success rate的对比图参数，色彩方案沿用之前的论文风格。\n- 13 Sep: 组会讲完了，Prof. Lin建议我补充一个关于context wi"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3929,
+   "out": 26,
+   "usd": 0.00006185004
+  },
+  {
+   "in": 3984,
+   "out": 26,
+   "usd": 0.00006408304
+  },
+  {
+   "in": 4318,
+   "out": 83,
+   "usd": 0.00008227184
+  }
+ ],
+ "memChars": 5326,
+ "promptChars": 9639
+}

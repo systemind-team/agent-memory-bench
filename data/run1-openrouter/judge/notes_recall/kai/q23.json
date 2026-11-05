@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly lists the 4 candidates (Jason Chen, Emily Tan, Michael Liu, Sarah Wu) and states Emily Tan was hired, matching the chat history exactly.",
+ "rule": null
+}

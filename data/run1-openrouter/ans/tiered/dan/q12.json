@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q12",
+ "kind": "update",
+ "q": "what's the pagerduty key for on-call?",
+ "reply": [
+  "it's A4B8C2 — started with that on oct 20 when you went primary.",
+  "you're on-call this week right? i can check the rotation if you want."
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5330,
+   "out": 46,
+   "usd": 0.0000538356
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17915
+}

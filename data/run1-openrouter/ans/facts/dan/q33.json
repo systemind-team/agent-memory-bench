@@ -1,0 +1,48 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "this week is a big one — billing migration cutover is the main event. here's what i've got:",
+  "monday: cutover checklist needs rollback steps added (you started that saturday). final dry run results to include. also you're on-call primary, tom secondary.",
+  "the battery on your laptop was at 79% — you said you'd order a new one this week. might want to do that early, don't want it dying mid-cutover.",
+  "anything specific you want me to pull up from the checklist or the dry run report?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "this week plan schedule"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Dan Okafor this week schedule plan"
+   },
+   "result": "- 11 Aug: Dan Okafor had lunch at Dig Inn with Priya; she's covering backend next week.\n- 24 Oct: Dan needs to prepare the rollback plan today.\n- 21 Sep: Dan says the billing migration plan needs another review tomorrow.\n- Daniel Okafor had 17 coffees this week (including 3 on 10 Aug) and considered cutting back.\n- 25 Oct: Dan Okafor was called 'Dan the builder' by aicoo.\n- 30 Sep: On-call rotation next week; Dan is primary, Tom secondary.\n- 24 Oct: Rollback plan written and shared with Priya and Sam.\n- 05 Oct: Dan had 2 cups of coffee on Monday and felt okay about the week ahead.\n- 04 Aug: Ha"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1519,
+   "out": 22,
+   "usd": 0.00003851316
+  },
+  {
+   "in": 1570,
+   "out": 26,
+   "usd": 0.00004090856
+  },
+  {
+   "in": 1808,
+   "out": 124,
+   "usd": 0.0000418992
+  }
+ ],
+ "memChars": 1065,
+ "promptChars": 5554
+}

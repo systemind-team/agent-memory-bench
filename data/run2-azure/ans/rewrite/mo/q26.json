@@ -1,0 +1,58 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "大伟入职后的绩效和薪酬进展，完整说说？",
+ "reply": [
+  "从记忆里整理大伟入职以来的薪酬和绩效情况：\n\n8月谈offer，底薪从1.8万+绩效调整到1.7万+1000绩效，最后确定为1.85万，9月1日起算。后来在记忆里没有看到最终签的底薪数字，最后一次提到的数字是1.85万。\n\n9月21日定了绩效方案：KPI+OKR混合考核，季度考核，KPI占70%，OKR看增长创新。\n\n10月10日他第一个季度绩效拿到A，奖金1万2。\n\n薪酬调整方面没记录过调薪。\n\n需要我翻一下更早的完整记录吗，还是这些你基本都记得？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 薪资 绩效 入职 薪酬"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 入职 绩效 奖金 薪资"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 1.9 万 绩效"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4014,
+   "out": 28,
+   "usd": 0.00017126
+  },
+  {
+   "in": 4071,
+   "out": 28,
+   "usd": 0.00018323
+  },
+  {
+   "in": 4128,
+   "out": 28,
+   "usd": 0.000149376
+  },
+  {
+   "in": 4185,
+   "out": 168,
+   "usd": 0.00028557
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8494
+}

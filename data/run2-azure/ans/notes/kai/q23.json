@@ -1,0 +1,23 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "PM candidate我们interview了几个人，分别是谁，最后hire了谁？",
+ "reply": [
+  "凯哥周日好。面试过的PM candidate按顺序：",
+  "1）Jason Chen — 8年经验，产品sense强，但execution细节不够深。第二轮面试后你更倾向Emily。\n2）Emily Tan — 6年经验，B2B背景强，case study表现好。你后来选了她，9月14日offer accepted，10月26日正式入职。\n3）Michael Liu — 10年，ex-Microsoft，发了offer但你没提是否签了。\n4）Sarah Wu — 10月16日casual chat，背景不错，你留着做future pipeline。",
+  "所以hire的是Emily Tan，已经入职一周了。Jason Chen你没推进，Michael Liu发了offer但后续没再提，Sarah Wu暂放。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12744,
+   "out": 173,
+   "usd": 0.000527744
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50353
+}

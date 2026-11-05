@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant correctly states it doesn't have any record of Tom's PTO and offers to search elsewhere, which matches the expected behavior for a never-mentioned fact.",
+ "rule": null
+}

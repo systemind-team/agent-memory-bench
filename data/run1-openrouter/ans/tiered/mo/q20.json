@@ -1,0 +1,59 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "红杉最早约见面是排在哪天？",
+ "reply": [
+  "上周日（10月25号）你说下周红杉视频会议，让我提前整理数据材料，但具体日期你当时没定下来，后来也没再提。",
+  "之前还有几次提到红杉：8月28号高榕视频会时排了红杉；9月11号说10月8号和红杉开会；9月23号改到10月20号线下会，但9月26号你决定推掉专注蓝驰了。",
+  "所以最近一次就是上周日说的‘下周红杉视频会议’，但日期还没定。要我去问一下红杉那边排时间吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 见面 会议 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 约 会议 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 视频 会"
+   },
+   "result": "#658 Sun 25 Oct 10:02 aicoo: 复制起来应该快，大伟有经验了。\n#659 Sun 25 Oct 14:00 Them: 周末休息下，下周红杉视频会议准备下。\n#660 Sun 25 Oct 14:02 aicoo: 好，数据材料我提前整理好。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5583,
+   "out": 26,
+   "usd": 0.00005416852
+  },
+  {
+   "in": 5638,
+   "out": 26,
+   "usd": 0.00005640152
+  },
+  {
+   "in": 5693,
+   "out": 24,
+   "usd": 0.00005847212
+  },
+  {
+   "in": 5804,
+   "out": 137,
+   "usd": 0.00006383944
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10956
+}

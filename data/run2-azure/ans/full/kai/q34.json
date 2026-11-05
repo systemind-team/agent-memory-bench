@@ -1,0 +1,23 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "Hey aicoo, 今天有啥好消息?",
+ "reply": [
+  "凯哥周日好！今天最大的好消息是你父亲血压正常、精神也好，昨天全家公园行一定很温馨。",
+  "工作上，Emily那周的进展不错，跟进了新加坡客户的custom reporting request，回头你周一可以跟她quick sync问问结果。",
+  "周一见，今天好好休息。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36315,
+   "out": 68,
+   "usd": 0.001203046
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91590
+}

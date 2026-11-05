@@ -1,0 +1,71 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "did i book the asheville flights like i promised ade?",
+ "reply": [
+  "根据笔记，10月20日那趟Asheville行程的Delta航班已经订好了，10月22日早上出发。所以你之前答应Ade的那个，其实已经搞定了 👍",
+  "要不要我帮你看看回程的具体信息？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Asheville trip flight booked"
+   },
+   "result": "[asheville-trip] 20 Oct: Asheville trip Oct 22-25; cabin near Blue Ridge; leave Oct 22 morning; Delta flight booked"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville flight booked promise Ade"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville flight"
+   },
+   "result": "#230 Sat 29 Aug 10:30 aicoo: big milestone\n#231 Sat 29 Aug 11:20 Them: promised ade i'd book asheville flights tonight. remind me at 6\n#232 Sat 29 Aug 11:20 aicoo: sure, reminder set for 6pm"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville 6pm reminder"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2774,
+   "out": 24,
+   "usd": 0.00004805416
+  },
+  {
+   "in": 2842,
+   "out": 25,
+   "usd": 0.00030366
+  },
+  {
+   "in": 2898,
+   "out": 22,
+   "usd": 0.0000362964
+  },
+  {
+   "in": 3001,
+   "out": 45,
+   "usd": 0.00005897556
+  },
+  {
+   "in": 3075,
+   "out": 57,
+   "usd": 0.00006295436
+  }
+ ],
+ "memChars": 5392,
+ "promptChars": 9969
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply includes only one of the four required events (normalization bug), misdates it, and invents unsupported details about September/October experiments not in the original chat.",
+ "rule": null
+}

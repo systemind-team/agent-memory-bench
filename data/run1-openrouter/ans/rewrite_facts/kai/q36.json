@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q36",
+ "kind": "pref_apply",
+ "q": "aicoo, draft a PR description for adding dark mode toggle.",
+ "reply": [
+  "凯哥早上好！周末过得不错吧？来，Dark mode toggle的PR description draft如下：",
+  "Title: feat: add manual dark mode toggle to settings\nDescription:\n- Add a manual dark mode toggle in user settings, default to system preference (light mode for existing users, follows system for new users).\n- Toggle allows users to switch between light/dark mode independently of system settings.\n- Phase 1: manual toggle only. Auto-toggle based on system preference deferred to phase 2 (see design doc for details).\n- UX: toggle placement under Appearance section in Settings, per Yuki's approved design (82% user preference in beta test).\n- Testing: QA verified toggle state persistence across sessions; no regression on existing dark mode rendering.\nRisk: Low. Manual toggle is isolated from core rendering logic. Future phase 2 auto-toggle will require additional user pref migration."
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3387,
+   "out": 202,
+   "usd": 0.00007908068
+  }
+ ],
+ "memChars": 7140,
+ "promptChars": 11885
+}

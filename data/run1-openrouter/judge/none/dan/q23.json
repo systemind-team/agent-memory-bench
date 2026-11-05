@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It only listed two dates (oct 12 and nov 5) and omitted nov 15, which was discussed on sep 5.",
+ "rule": null
+}

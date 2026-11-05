@@ -1,0 +1,50 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q24",
+ "kind": "temporal",
+ "q": "论文标题第三次改是什么时候？",
+ "reply": [
+  "我记得论文标题从最初的“Context-Aware Hierarchical Planning for LLMs”改过一次，9月28日改成了“Context-Aware Planning”，最后一次是10月26日晚上定为“Context-Aware Planning via Hierarchical Decomposition”并沿用至今。没有第三次改你说的，最新的就是10月26号这个定稿。",
+  "你是想问哪个时间点？还是觉得还需要再调整？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  },
+  {
+   "tool": "search_memory",
+   "result": "(nothing)"
+  },
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3858,
+   "out": 20,
+   "usd": 0.000271492
+  },
+  {
+   "in": 3895,
+   "out": 20,
+   "usd": 0.00014179
+  },
+  {
+   "in": 3930,
+   "out": 18,
+   "usd": 0.00014802
+  },
+  {
+   "in": 3965,
+   "out": 90,
+   "usd": 0.00019569
+  }
+ ],
+ "memChars": 5158,
+ "promptChars": 9445
+}

@@ -1,0 +1,70 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "阿杰去日本是几号？",
+ "reply": [
+  "陈默，我没找到阿杰要去日本的记录。去日本的是Mia，她10月5号到9号去采风，已经回来了。\n\n阿杰这边记的是之前请假（8月10-15号休假），以及最近在推进安卓版11月中上线。是他打算去日本还是别人说的？我帮你确认一下"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "阿杰日本"
+   },
+   "result": "[252] 02 Oct · plan: Mia 10月5号到9号去日本采风  (from #483, #485)\n[326] 22 Oct · fact: Mia日本采风回来了，说设计灵感有了  (from #629)\n[130] 02 Sep · fact: 阿杰MacBook Air省了6000元  (from #230)\n[193] 20 Sep · fact: 阿杰iOS评审刚过了  (from #373)\n[6] 04 Aug · fact: 阿杰心里价位不低  (from #4)\n[92] 27 Aug · feeling: 又延，回头得骂阿杰了  (from #168)\n[244] 28 Sep · ask: 问阿杰安卓版进度  (from #465)\n[14] 07 Aug · fact: 阿杰8月10号到15号休假  (from #21)\n[27] 11 Aug · fact: 阿杰的MacBook Pro预算1万5  → replaced 21 Aug by [54] 给阿杰配MacBook Pro，预算1万6  (from #47)\n[5] 04 Aug · plan: 明天（Tue 04 Aug）跟阿杰谈薪资  (from #4)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "阿杰去日本"
+   },
+   "result": "[252] 02 Oct · plan: Mia 10月5号到9号去日本采风  (from #483, #485)\n[305] 14 Oct · fact: 阿里云说可以优化，阿杰去聊了  (from #582)\n[326] 22 Oct · fact: Mia日本采风回来了，说设计灵感有了  (from #629)\n[130] 02 Sep · fact: 阿杰MacBook Air省了6000元  (from #230)\n[193] 20 Sep · fact: 阿杰iOS评审刚过了  (from #373)\n[6] 04 Aug · fact: 阿杰心里价位不低  (from #4)\n[92] 27 Aug · feeling: 又延，回头得骂阿杰了  (from #168)\n[244] 28 Sep · ask: 问阿杰安卓版进度  (from #465)\n[14] 07 Aug · fact: 阿杰8月10号到15号休假  (from #21)\n[27] 11 Aug · fact: 阿杰的MacBook Pro预算1万5  → replaced 21 Aug by [54] 给阿杰配MacBook Pro，预算1万6  (from #47)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 日本 去"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 日本"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2599,
+   "out": 21,
+   "usd": 0.00009931
+  },
+  {
+   "in": 2908,
+   "out": 22,
+   "usd": 0.00016476
+  },
+  {
+   "in": 3217,
+   "out": 24,
+   "usd": 0.000184946
+  },
+  {
+   "in": 3270,
+   "out": 22,
+   "usd": 0.000149132
+  },
+  {
+   "in": 3321,
+   "out": 80,
+   "usd": 0.000192322
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6683
+}

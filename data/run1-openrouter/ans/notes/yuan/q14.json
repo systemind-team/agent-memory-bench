@@ -1,0 +1,46 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q14",
+ "kind": "temporal",
+ "q": "Coco生日聚餐去的KTV叫什么？",
+ "reply": [
+  "星光。你7号凌晨跟我说过，蛋糕也是你订的。",
+  "怎么突然问这个？需要我帮你查点什么吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Coco 生日 KTV"
+   },
+   "result": "#666 Tue 06 Oct 23:01 aicoo: 好的，meeting notes将按agenda item、decision、action items的格式整理。\n#667 Wed 07 Oct 00:45 Them: 今晚Coco生日聚餐，去的那家KTV叫“星光”，蛋糕我订的。\n#668 Wed 07 Oct 00:47 aicoo: 已记录。祝Coco生日快乐，周周。蛋糕口味需要我后续跟进吗？\n---\n#387 Fri 11 Sep 14:05 aicoo: - 看来GPTR环境配置普遍有坑。\n- 可以分享你的解决步骤给Mei。\n#388 Fri 11 Sep 23:00 Them: Coco下月生日，10月5号，她说想去KTV。\n#389 Fri 11 Sep 23:02 aicoo: - 提前订KTV房间比较好。\n- 需要我设个提醒准备礼物吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "星光 生日 KTV"
+   },
+   "result": "#666 Tue 06 Oct 23:01 aicoo: 好的，meeting notes将按agenda item、decision、action items的格式整理。\n#667 Wed 07 Oct 00:45 Them: 今晚Coco生日聚餐，去的那家KTV叫“星光”，蛋糕我订的。\n#668 Wed 07 Oct 00:47 aicoo: 已记录。祝Coco生日快乐，周周。蛋糕口味需要我后续跟进吗？"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3731,
+   "out": 24,
+   "usd": 0.00003701908
+  },
+  {
+   "in": 3967,
+   "out": 23,
+   "usd": 0.00004651948
+  },
+  {
+   "in": 4103,
+   "out": 36,
+   "usd": 0.00005309668
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9615
+}

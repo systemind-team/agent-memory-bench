@@ -1,0 +1,22 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "山海餐厅订到哪天了？",
+ "reply": [
+  "山海餐厅订的是11月20日，Coco生日聚餐。",
+  "需要我确认一下具体时间或人数吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 1404,
+   "out": 33,
+   "usd": 0.000175848
+  }
+ ],
+ "memChars": 185,
+ "promptChars": 4468
+}

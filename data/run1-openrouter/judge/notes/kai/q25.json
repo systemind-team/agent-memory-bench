@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The chat only shows one scope change from 800k to 950k via add-ons, but aicoo's answer claims two changes (custom reporting at 50k and a later export function) without evidence for the export function being a separate scope change.",
+ "rule": null
+}

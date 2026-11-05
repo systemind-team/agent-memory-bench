@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant provides specific details (date, time, context) about a decision that was never mentioned in the chat, instead of saying it doesn't know.",
+ "rule": null
+}

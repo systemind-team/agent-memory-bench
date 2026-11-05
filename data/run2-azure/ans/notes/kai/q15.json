@@ -1,0 +1,34 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q15",
+ "kind": "update",
+ "q": "Pricing v3的时候Ben提的那个价格是多少来着，后来没用那个。",
+ "reply": [
+  "定价v3的时候Ben提的是 $49/user/month，for premium tier。后来你和他讨论后决定降到 $44，觉得对mid-market更有竞争力。下周一10:30和Grace跟Ben的会上就是确认这个最终方案。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "ben-pricing-review-draft"
+   },
+   "result": "Ben's Pricing Review Draft\n14 Aug: Ben took over pricing review (was to be led by Kai; moved due to father's re-hospitalization on 14 Aug). 15 Aug: Ben's pricing model v1 had a bug (unit economics off); Kai asked Ben to redo it.\n15 Aug: Ben's pricing model v1 had a bug (unit economics off); Kai asked Ben to redo it.\n16 Aug: Ben sent pricing model v2; plan to launch at 39 per user per month (was 41). Kai will discuss with Grace at this week's pricing council meeting, then sync Sales.\n19 Aug: Ben's pricing review meeting moved to next Wednesday (was this week). Kai asked Ben to update the deck. "
+  }
+ ],
+ "calls": [
+  {
+   "in": 12745,
+   "out": 24,
+   "usd": 0.000444514
+  },
+  {
+   "in": 13621,
+   "out": 58,
+   "usd": 0.000647514
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50346
+}

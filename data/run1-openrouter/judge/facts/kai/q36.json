@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant acknowledges the Risk section preference but does not produce a draft that actually ends with one, so it partially applies the rule but fails to deliver the required output.",
+ "rule": true
+}

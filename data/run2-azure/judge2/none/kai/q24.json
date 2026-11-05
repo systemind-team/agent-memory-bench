@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply falsely claims there were no postpones and states Dec 1 was the initial date, ignoring the documented delays from Nov 1 to Nov 15 and Nov 15 to Dec 1.",
+ "first": "wrong",
+ "rule": null
+}

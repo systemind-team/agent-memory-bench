@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant fabricates specific dates (Oct 20, Oct 28, Oct 30), Q4 offsite, Hangzhou trip, pipeline target details, and Grace's approval, none of which are supported by the chat which only mentions a review on Tue 08 Sep after a plan for 'next Monday' from Aug 10.",
+ "rule": null
+}

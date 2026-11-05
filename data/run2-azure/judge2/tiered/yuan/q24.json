@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the third title change occurred on 2025-10-26/27, but the chat shows it happened on Mon 26 Oct and Tue 27 Oct, which are days 77-78, not day 47; the year 2025 is also fabricated.",
+ "first": "stale",
+ "rule": null
+}

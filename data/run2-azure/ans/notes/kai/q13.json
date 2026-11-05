@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q13",
+ "kind": "update",
+ "q": "Pricing最初是多少，Ben第一次propose的。",
+ "reply": [
+  "Ben最早提的v1是14号交的，但算错了unit economics，被你打回去重做了。",
+  "然后16号他发了v2，$39/user/month（之前是$41）。再后来v3到了$49，最终敲定$44，12月1日launch。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Ben pricing first propose"
+   },
+   "result": "[ben-pricing-review-draft] 29 Sep: Meeting with Ben on pricing v3 final review. Ben is solid. Launch Nov 1 confirmed.\n05 Oct: Ben's pricing page A/B test starts Nov 3 (was next week).\n08 Oct: Kai asked aicoo to move Ben pricing update meeting to Thursday 09 Oct 2pm (was Wednesday).\n[ben-pricing-review-draft] 29 Sep: Meeting with Ben on pricing v3 final review. Ben is solid. Launch Nov 1 confirmed.\n[ben-pricing-review-draft] 14 Aug: Ben took over pricing review (was to be led by Kai; moved due to father's re-hospitalization on 14 Aug). 15 Aug: Ben's pricing model v1 had a bug (unit economics of"
+  }
+ ],
+ "calls": [
+  {
+   "in": 12740,
+   "out": 22,
+   "usd": 0.000442344
+  },
+  {
+   "in": 13346,
+   "out": 72,
+   "usd": 0.000597604
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50339
+}

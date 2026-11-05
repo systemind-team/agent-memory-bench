@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "Emily Tan的start date是几号来着? 是不是delay了?",
+ "reply": [
+  "没delay，凯哥。Emily Tan的start date是10月26号（上周一），已经onboarding了。她上周和Lily做了handover，接手了Lily的accounts，这周应该正式进入产品模块了。记得你之前还夸她主动约了Yuki和Ravi的intro meeting。",
+  "周一你见到她可以check一下她这周的focus，她上周的backlog proposal你也觉得不错。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Emily Tan start date Oct 26"
+   },
+   "result": "[about-me] 01 Oct: Emily Tan accepted PM offer, start date Oct 26. 02 Oct: Kai told aicoo not to use stickers anymore; just text.\n[lily-enterprise-sales-transition] 12 Oct: Lily handover to Emily going smoothly; Emily start date Oct 26 unchanged. 24 Oct: Lily handover checklist done, starts enterprise sales next week (was 07 Oct).\n[pm-candidate-sarah-wu] 16 Oct: Met Sarah Wu casually; background good, keep as future pipeline (we already hired Emily Tan).\n[pm-candidate-wang-lei] 30 Sep: Emily Tan sent follow-up email; keen to join.\n[about-me] 26 Sep: Kai asked aicoo to add a summary sentence on"
+  }
+ ],
+ "calls": [
+  {
+   "in": 13292,
+   "out": 25,
+   "usd": 0.000651592
+  },
+  {
+   "in": 13721,
+   "out": 99,
+   "usd": 0.000554002
+  }
+ ],
+ "memChars": 47637,
+ "promptChars": 52361
+}

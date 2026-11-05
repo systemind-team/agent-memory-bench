@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Roadmap review date is given as Aug 27 instead of the correct Oct 10, reversing the order and using an unsupported date.",
+ "rule": null
+}

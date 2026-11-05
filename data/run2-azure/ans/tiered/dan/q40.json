@@ -1,0 +1,58 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "when is tom's PTO?",
+ "reply": [
+  "i don't have any record of tom's PTO in our chats. want me to check your docs or slack for it?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom PTO vacation"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom time off"
+   },
+   "result": "#330 Sun 13 Sep 17:02 aicoo: ha. enjoy the run.\n#331 Mon 14 Sep 08:20 Them: tom's dog is named waffles. he brings him to the office sometimes\n#332 Mon 14 Sep 08:22 aicoo: waffles is a great name for a dog. bet he and biscuit would get along"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom leave PTO away"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5301,
+   "out": 22,
+   "usd": 0.00020905
+  },
+  {
+   "in": 5352,
+   "out": 21,
+   "usd": 0.0002192
+  },
+  {
+   "in": 5465,
+   "out": 23,
+   "usd": 0.00024405
+  },
+  {
+   "in": 5517,
+   "out": 32,
+   "usd": 0.000214186
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17896
+}

@@ -1,0 +1,45 @@
+{
+ "arm": "facts",
+ "id": "mo",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "阿杰去日本是几号？",
+ "reply": [
+  "阿杰没有去日本的记录哦，去日本采风的是Mia，10月5号到9号。阿杰8月10号到15号休过假，但不是去日本。你是记混了？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 日本"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "阿杰 日本"
+   },
+   "result": "- 01 Oct: 批准Mia去日本采风，并要求她出采风报告分享。21 Oct: Mia日本采风回来，说设计灵感有了。\n- 01 Oct: Mia申请10月5号到9号去日本采风。\n- 阿杰MacBook Pro预算调整为1万5，阿杰那个取消。\n- 阿杰将于8月10号到15号休假。陈默要求跟阿杰说安卓优先卡好10月节点，安卓排期10月15号内测。06 Oct: 阿杰说安卓适配可能还能提前点。\n- 15 Sep: 用户反馈iOS闪退，阿杰在查。16 Sep: 阿杰说iOS闪退已修复但评审再次被拒，预期18号前可通过（iOS审核平均7天）。19 Sep: 陈默说阿杰iOS评审刚通过。\n- 28 Sep: 询问阿杰那边安卓版进度。\n- 13 Oct: 让阿杰去聊阿里云的优化。\n- 15 Sep: 阿杰说闪退是内存泄漏，今天出补丁。\n- 陈默确认阿杰的薪资邮件已发，无需再提醒。\n- 陈默要求aicoo帮忙查看团队背景，阿杰简历已更新。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1514,
+   "out": 22,
+   "usd": 0.00003831016
+  },
+  {
+   "in": 1565,
+   "out": 22,
+   "usd": 0.00004038076
+  },
+  {
+   "in": 1871,
+   "out": 53,
+   "usd": 0.00003037692
+  }
+ ],
+ "memChars": 519,
+ "promptChars": 4428
+}

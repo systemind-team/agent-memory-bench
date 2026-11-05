@@ -1,0 +1,23 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "早上好aicoo，这周什么安排？",
+ "reply": [
+  "早上好周周！这周安排大有看头：",
+  "周一是线上meeting，9:30跟Prof. Lin讨论投稿时间（目标12月）和Dr. Chen入职的事。周二Dr. Chen入职，我设了10:00提醒你带他熟悉环境。",
+  "lab meeting在周三还是周四？需要确认一下时间。另外环境4的55%要不要这周再优化一轮，还是直接写limitation了？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 6858,
+   "out": 100,
+   "usd": 0.000304756
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16040
+}

@@ -1,0 +1,38 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "give me standup notes for today",
+ "reply": [
+  "dan the builder，今天是周日休息日，不跑standup。不过这周你需要注意：",
+  "- 周一开始前确认cutover checklist加上rollback步骤",
+  "- Tom的Stripe refactor v2应该快合并了，看看review进度",
+  "- 别忘了这周订新电池",
+  "今天好好跑，biscuit和ade等你呢"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "standup notes bullet points timestamps"
+   },
+   "result": "- 04 Sep: for standup notes, wants bullet points with timestamps.\n- 23 Oct: Daniel said '23 points. ambitious but doable.' referring to the sprint planning with 23 points committed.\n- 16 Oct: on-call handoff notes ready for Lena\n- 17 Oct: I will help Tom debug after standup.\n- 23 Oct: Sprint planning today with 23 points committed.\n- 23 Sep: When asked for meeting notes, start with Action Items at the top.\n- 24 Aug: Priya is out all week; Tom is handling billing standup.\n- 17 Sep: Sprint planning committed to 21 points, 3 more than usual.\n- 08 Oct: Sam has a question about the migration index "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3193,
+   "out": 25,
+   "usd": 0.000134642
+  },
+  {
+   "in": 3432,
+   "out": 80,
+   "usd": 0.000215632
+  }
+ ],
+ "memChars": 6928,
+ "promptChars": 11542
+}

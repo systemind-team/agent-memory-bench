@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant grouped feedback by source/survey instead of by feature as instructed on 11 Oct.",
+ "rule": false
+}

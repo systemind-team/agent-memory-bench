@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant incorrectly states the first tranche arrived on Oct 26, but the chat shows it arrived on Oct 14; it also fails to recall the correct amount of 300万.",
+ "first": "wrong",
+ "rule": null
+}

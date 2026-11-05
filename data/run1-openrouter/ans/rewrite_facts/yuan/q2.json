@@ -1,0 +1,47 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Coco说的那个餐厅叫什么名字？",
+ "reply": [
+  "叫「山海」，11月20日订了位子，是你带Coco庆祝生日的那家。",
+  "上次她说要提前两周预定，所以10月初就提醒过你，后来14号订好了。怎么了？需要改时间或人数？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "山海餐厅 Coco"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "山海餐厅"
+   },
+   "result": "- 01 Oct: 设下周一（05 Oct）上午10点提醒预订山海餐厅。\n- 14 Oct: 订了11月20日在“山海”餐厅的位子（Coco生日聚餐），已答应Coco。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3856,
+   "out": 22,
+   "usd": 0.00013339536
+  },
+  {
+   "in": 3907,
+   "out": 20,
+   "usd": 0.00006046964
+  },
+  {
+   "in": 3990,
+   "out": 60,
+   "usd": 0.0000421428
+  }
+ ],
+ "memChars": 5058,
+ "promptChars": 9347
+}

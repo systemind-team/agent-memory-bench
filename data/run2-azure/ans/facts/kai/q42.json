@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "Is Lily going on vacation anytime soon? 她是不是请假了?",
+ "reply": [
+  "我记得之前她批了10月6–7号两天假，Ben cover她accounts。之后好像没再请过假。你担心她下周请假吗？要不要我今早查一下日历？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Lily vacation leave"
+   },
+   "result": "- 04 Sep: Need to leave early for daughter's school play tonight. 12 Sep: 女儿昨晚表演很棒。\n- 25 Oct: Emily started onboarding, taking over Lily's accounts, Lily moving to new role.\n- 下周和Ravi、Lily对齐一下roadmap。\n- 13 Oct: Lily called to finalize enterprise handover doc.\n- 16 Sep: Lily在跟，她催人有一套。\n- 14 Sep: 写了email给Lily，让aicoo sense check\n- 10 Sep: Lily的Aurora custom reporting初步scope看着reasonable。\n- 31 Aug: Lily approved for Oct 6–7 off; Ben will cover her accounts.\n- 21 Sep: Lily发来Aurora integration timeline, 他们说custom module可以在Q1做。原来谈判是Q3/Q4关闭，客户推动Q3，现在Lily说可以在Q1做。\n- 19 Aug: 需要在周五前review Lily的Aurora pricin"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1720,
+   "out": 22,
+   "usd": 0.000236048
+  },
+  {
+   "in": 1967,
+   "out": 49,
+   "usd": 0.000303038
+  }
+ ],
+ "memChars": 708,
+ "promptChars": 5385
+}

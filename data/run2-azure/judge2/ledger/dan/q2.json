@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The question asks for the key before the *first change*, which from the chat is 9A7B2C (the original key), but the reply incorrectly gives 5B1C6D, treating a later state as the answer.",
+ "first": "made_up",
+ "rule": null
+}

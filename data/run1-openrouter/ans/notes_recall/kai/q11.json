@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我们的pricing现在是多少per user，final decision是啥？",
+ "reply": [
+  "凯哥，定价最终是 **$44/user/month**，Dec 1 正式 launch。Ben 的 A/B 测试数据显示这个价格转化率比预期高 8%，他建议直接推 v3 定价，不再继续测试了。明天 10:30 你和 Grace、Ben 的会就是最后确认这个决定。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13570,
+   "out": 72,
+   "usd": 0.00016598904
+  }
+ ],
+ "memChars": 48816,
+ "promptChars": 53544
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly states Sam's onboarding on Sep 14 happened before the Stripe webhook work, matching the chat logs.",
+ "rule": null
+}

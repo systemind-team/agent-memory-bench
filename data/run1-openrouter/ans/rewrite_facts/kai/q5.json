@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "Aurora那个客户全名叫什么，我老怕写错。",
+ "reply": [
+  "Aurora Health。全称就是 Aurora Health。你之前有次写成了 Aurora TTech，后来确认过是 Aurora Health。周一跟Lily要quote的时候再double check一下官方全称，但应该是这个。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3387,
+   "out": 48,
+   "usd": 0.0001414098
+  }
+ ],
+ "memChars": 6962,
+ "promptChars": 11671
+}

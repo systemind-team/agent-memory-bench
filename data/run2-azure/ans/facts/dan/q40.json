@@ -1,0 +1,46 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "when is tom's PTO?",
+ "reply": [
+  "I don't have any record of Tom's PTO in my memory or chat history. Want me to check with him or add it to the calendar when you find out?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom PTO"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Tom time off vacation leave"
+   },
+   "result": "- 18 Sep: legal signed off.\n- 17 Oct: Tom's frontend refactor broke webhooks for the second time.\n- 10 Aug: Wants aicoo to remind Tom to sync before merging next time.\n- 13 Aug: Daniel accepted Aicoo's offer to pull the incident timeline from PagerDuty, as it would save time.\n- 03 Sep: Flaky test in CI: test_billing_webhook fails 20% of the time. 03 Sep: root cause was shared state between test cases, fixing with a fresh mock per test.\n- 08 Oct: Tom and Dan discussed adding a health check endpoint to the webhook service; Tom will write a PR.\n- 22 Oct: Tom's refactor is holding up.\n- 09 Oct: Re"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1451,
+   "out": 21,
+   "usd": 0.000178998
+  },
+  {
+   "in": 1501,
+   "out": 23,
+   "usd": 0.000190618
+  },
+  {
+   "in": 1753,
+   "out": 41,
+   "usd": 0.00016197
+  }
+ ],
+ "memChars": 881,
+ "promptChars": 5365
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q14",
+ "kind": "update",
+ "q": "Aurora deal的value变化，最终是多少？",
+ "reply": [
+  "{}"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36316,
+   "out": 2,
+   "usd": 0.001166296
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91597
+}

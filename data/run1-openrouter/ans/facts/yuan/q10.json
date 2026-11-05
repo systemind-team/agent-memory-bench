@@ -1,0 +1,21 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "Dr. Chen入职是哪天？",
+ "reply": [
+  "周二，11月3号。",
+  "已经设了10:00的提醒带他熟悉环境，包括GPU集群、存储和代码仓库。明天meeting前需要我做什么？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1518,
+   "out": 46,
+   "usd": 0.00004042136
+  }
+ ],
+ "memChars": 376,
+ "promptChars": 4663
+}

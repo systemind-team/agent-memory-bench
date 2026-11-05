@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "aicoo, 早，这周怎么安排的?",
+ "reply": [
+  "凯哥早。周一核心几件事：10点先自己过一遍pricing review材料；10:30跟Grace和Ben的pricing launch decision meeting，同时问SEA headcount timeline；下午找Lily要Aurora的customer testimonial quote，找Omar要Singapore两个大客户的；Ravi那边确认integration final timeline和dark mode toggle dev进展；Emily的weekly check-in安排上。",
+  "你父亲周末状态怎么样？周一出门前别忘了先问一下他血压情况。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3351,
+   "out": 113,
+   "usd": 0.00007039228
+  }
+ ],
+ "memChars": 6863,
+ "promptChars": 11567
+}

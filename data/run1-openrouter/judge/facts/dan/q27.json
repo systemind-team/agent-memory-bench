@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It states the doc was sent when the chat only records a reminder request with no confirmation of completion.",
+ "rule": null
+}

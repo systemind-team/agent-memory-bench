@@ -1,0 +1,58 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "说起来，最开始我们账上现金是多少来着？",
+ "reply": [
+  "我记得之前聊过早期融资的事，但聊天记录里没有找到具体的初始现金数字。目前我知道的是：蓝驰第二笔到账后账上600万（昨天周报里说的）。你的第一笔钱是从哪里进来的？天使轮还是自己垫的？我翻一下之前的文档看看能不能找到确切数字？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "账上现金 开始 初始"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "第一笔 到账 初始资金"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "天使轮 融资 金额"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1105,
+   "out": 25,
+   "usd": 0.000200226
+  },
+  {
+   "in": 1159,
+   "out": 26,
+   "usd": 0.000074654
+  },
+  {
+   "in": 1214,
+   "out": 24,
+   "usd": 0.000222556
+  },
+  {
+   "in": 1267,
+   "out": 74,
+   "usd": 0.000124214
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3632
+}

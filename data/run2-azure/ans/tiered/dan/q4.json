@@ -1,0 +1,35 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "how far did i run the day i set a personal best?",
+ "reply": [
+  "10.1 miles on Tuesday Sep 15.",
+  "that was the day Sam shadowed the bug fix too. your legs were the only thing not blocked that week."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "run personal best"
+   },
+   "result": "#344 Tue 15 Sep 11:47 aicoo: that's promising. sounds like he's picking things up fast\n#345 Tue 15 Sep 15:20 Them: run update: hit 10.1 miles. new personal best.\n#346 Tue 15 Sep 15:22 aicoo: congratulations. that's a solid milestone"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5307,
+   "out": 21,
+   "usd": 0.001034582
+  },
+  {
+   "in": 5414,
+   "out": 40,
+   "usd": 0.00024286
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17926
+}

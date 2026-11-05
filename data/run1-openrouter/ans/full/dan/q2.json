@@ -1,0 +1,20 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "what was the old pagerduty key before the first change?",
+ "reply": [
+  "之前的PagerDuty密钥是9A7B2C，那是在第一次变更之前的旧密钥。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 21352,
+   "out": 29,
+   "usd": 0.00060316984
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64127
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the review was done on Thu 10/30, but the chat shows it was completed on Tue 08 Sep.",
+ "rule": null
+}

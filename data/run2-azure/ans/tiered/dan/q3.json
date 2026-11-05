@@ -1,0 +1,46 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "what was the column name i dropped by accident?",
+ "reply": [
+  "it was `billing_status`. back on Aug 30, you dropped it and had 3h of panic before the rollback worked. everything's been stable since."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "dropped column by accident billing"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "column dropped billing"
+   },
+   "result": "#236 Sat 29 Aug 18:05 aicoo: nice, asheville here you come\n#237 Sun 30 Aug 08:30 Them: the dropped column was `billing_status`. 3h of panic.\n#238 Sun 30 Aug 08:30 aicoo: critical column. glad rollback worked"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5304,
+   "out": 24,
+   "usd": 0.001035632
+  },
+  {
+   "in": 5357,
+   "out": 21,
+   "usd": 0.00022025
+  },
+  {
+   "in": 5461,
+   "out": 41,
+   "usd": 0.000207466
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17925
+}

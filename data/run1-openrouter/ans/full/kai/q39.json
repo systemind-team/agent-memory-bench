@@ -1,0 +1,24 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q39",
+ "kind": "pref_apply",
+ "q": "Summarize customer feedback from最近的surveys.",
+ "reply": [
+  "凯哥，最近customer feedback主要来自几个渠道，我帮你汇总一下：",
+  "1. 移动端需求：上次客户survey 80%用户希望better mobile support，你周六已经让Yuki做backlog alignment了",
+  "2. Dark mode：beta用户35人，87%满意度（10/13数据），82%偏好toggle（10/16数据），92%满意度（10/30数据），4个用户request了toggle选项",
+  "3. 其他：3个客户request了dark mode（10/20记录），一个客户说onboarding flow still confusing（10/20），这2个你已经让Yuki跟进",
+  "需要我按feature整理一份完整表格发你吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 36338,
+   "out": 157,
+   "usd": 0.00031567312
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91614
+}

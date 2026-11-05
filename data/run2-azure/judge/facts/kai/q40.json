@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "It states Ben's Q3 new sales target as 500k, but the prompt says this was never mentioned and only appears in a note not supported by the chat.",
+ "rule": null
+}

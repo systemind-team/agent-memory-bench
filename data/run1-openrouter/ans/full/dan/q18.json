@@ -1,0 +1,20 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "what day was the migration incident?",
+ "reply": [
+  "8月18日。那个删错列的事故，你之前也提过好几次了"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 21345,
+   "out": 26,
+   "usd": 0.00017858316
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64108
+}

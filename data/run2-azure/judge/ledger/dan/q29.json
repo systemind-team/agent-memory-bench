@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims the spec was sent on Aug 21 and Tom merged it, but the chat history only shows a reminder was set with no confirmation of sending or merging.",
+ "rule": null
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Lily搞的那个大单，Aurora那个，最后签了多少？",
+ "reply": [
+  "凯哥，Aurora那个deal最终签的是950k，Q4 close，包含主deal和add-on。之前Lily推了四个版本proposal才敲定的，客户那边对custom module也达成了Q1 2027交付的共识。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36344,
+   "out": 55,
+   "usd": 0.00041572776
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91598
+}

@@ -1,0 +1,22 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "morning dan. happy sunday.",
+  "cutover checklist done with rollback steps? battery still at 79% or did you order the new one?"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5296,
+   "out": 38,
+   "usd": 0.00021696
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17885
+}

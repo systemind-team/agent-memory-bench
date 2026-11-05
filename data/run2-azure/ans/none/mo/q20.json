@@ -1,0 +1,59 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "红杉最早约见面是排在哪天？",
+ "reply": [
+  "我翻了一下我们之间的聊天记录，没有找到关于红杉约见面的信息。可能是之前没有在这里提过，或者在其他地方记录的。",
+  "你能告诉我大概是什么时候接触的？我去查一下文档或者邮件里有没有记录。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 约见面"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 meeting"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sequoia 见面"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1105,
+   "out": 23,
+   "usd": 0.000061634
+  },
+  {
+   "in": 1157,
+   "out": 21,
+   "usd": 0.000071434
+  },
+  {
+   "in": 1207,
+   "out": 23,
+   "usd": 0.000083054
+  },
+  {
+   "in": 1259,
+   "out": 57,
+   "usd": 0.000113014
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3626
+}

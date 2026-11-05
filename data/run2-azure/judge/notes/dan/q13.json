@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It reports only one candidate (Jordan Liu) as the current answer, ignoring the later interview with David Chen from September 7, so it gives an outdated count of 1 instead of 3.",
+ "rule": null
+}

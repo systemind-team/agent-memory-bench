@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant describes multiple scope changes and specific dates (e.g., Q1 2027 pushback, Sep 17 negotiation) not present in the provided chat history, which only mentions one change from 800k to 950k with add-ons.",
+ "rule": null
+}

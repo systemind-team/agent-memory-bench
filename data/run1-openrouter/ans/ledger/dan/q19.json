@@ -1,0 +1,46 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "which came first: sam joining or the migration incident?",
+ "reply": [
+  "migration incident came first. the column drop incident was august 18. sam's start date was september 14.",
+  "so about a month before sam joined."
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "sam joining date"
+   },
+   "result": "[106] 22 Aug · fact: sam's start date confirmed: sep 14  (from #178)\n[145] 01 Sep · fact: sam ortiz start date still sep 14, confirmed  (from #249, #250)\n[97] 20 Aug · fact: cutover date moved to nov 5  → replaced 18 Sep by [217] billing cutover final date: oct 12 again  (from #161)\n[161] 06 Sep · fact: cutover date moved to nov 15  → replaced 30 Sep by [267] priya wants to move cutover to oct 26, says nov 15 is too far  (from #274)\n[217] 18 Sep · fact: billing cutover final date: oct 12 again  (from #379)\n[215] 17 Sep · fact: priya mentioned cutover date might shift again, waiting on legal  ("
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "migration incident date"
+   },
+   "result": "[128] 28 Aug · fact: lena caught migration incident before prod sync  (from #220)\n[282] 03 Oct · done: billing migration cutover date oct 26 locked, timeline updated  (from #512)\n[64] 13 Aug · plan: dan will draft notes for migration incident post-mortem this afternoon  (from #107)\n[23] 07 Aug · fact: patch for migration incident is being handled by lena with on-call doc update  (from #41)\n[22] 06 Aug · feeling: migration incident from last week still lingering, one customer's data out of sync  (from #39)\n[127] 28 Aug · fact: migration incident on tuesday: dropped a column instead of renaming,"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3090,
+   "out": 21,
+   "usd": 0.00002738064
+  },
+  {
+   "in": 3408,
+   "out": 22,
+   "usd": 0.00004037264
+  },
+  {
+   "in": 3759,
+   "out": 39,
+   "usd": 0.00005600364
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10821
+}

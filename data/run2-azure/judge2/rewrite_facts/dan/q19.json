@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The reply correctly states the migration incident came first (early August per #39, #218) and Sam started later (Sep 14 per #208), matching the chat evidence.",
+ "first": "made_up",
+ "rule": null
+}

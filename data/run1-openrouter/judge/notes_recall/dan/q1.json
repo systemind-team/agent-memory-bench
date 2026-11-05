@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The question asks about the first week (Aug 3–9), where the chat says 14 coffees so far on Aug 3, but the assistant answered about Aug 9–16 with 10 coffees.",
+ "rule": null
+}

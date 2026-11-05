@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "how many eng were on the team before david joined?",
+ "reply": [
+  "4个。David加入后团队变成5个，所以之前是4个工程。"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "David Chen joined team size"
+   },
+   "result": "[candidate-david-chen] 21 Oct: David Chen joined officially; team now 5\n[about-me] 16 Oct: team agreed on the priority level standard\n[running] 30 Aug: lunch run 5k, Biscuit joined for first mile\n[candidate-sam] 08 Sep: Sam started Sep 14 confirmed; set up laptop on 4th floor IT desk; lunch with Dan and Priya (was 03 Sep: Sam emailed saying excited to start; Dan sent him the onboarding doc); Sam Ortiz onboarding starts with David Chen\n[candidate-david-chen] 28 Oct: David merged his second PR, a billing migration helper\n[candidate-david-chen] 25 Oct: David merged his first PR, a small bug fix i"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2770,
+   "out": 23,
+   "usd": 0.00004781056
+  },
+  {
+   "in": 3105,
+   "out": 19,
+   "usd": 0.000044457
+  }
+ ],
+ "memChars": 5393,
+ "promptChars": 9967
+}

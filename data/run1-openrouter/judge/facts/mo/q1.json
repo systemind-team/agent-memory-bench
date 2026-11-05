@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant omitted the explicitly stated 215万 from Aug 3 and said it could only trace back to later dates, failing to recall the correct fact.",
+ "rule": null
+}

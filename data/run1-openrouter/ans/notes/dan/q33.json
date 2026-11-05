@@ -1,0 +1,22 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "这周主要看三件事：Stripe v2 还在review，billing migration cutover checklist差rollback步骤（你说要加），还有新电池你得下单了（79%了，别拖）。",
+  "今天周日，周一早上我帮你列个这周优先级的to-do，先把checklist补完，然后盯一下Tom的review进度。",
+  "另外Ade的万圣节装扮太可爱了，周一记得带照片来分享啊。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2513,
+   "out": 105,
+   "usd": 0.00003571988
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9081
+}

@@ -1,0 +1,70 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "how many coffees did i have that first week?",
+ "reply": [
+  "Looking back at your memory, that first week was the week of Sep 14. On Fri Sep 18, you logged coffee count 2. I don't have a daily tally for each day that week, but Friday was 2. Does that sound right?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "first week coffee count"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "coffee count week of Sep 14"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "18 Sep coffee"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sep coffee 2"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5305,
+   "out": 22,
+   "usd": 0.001034722
+  },
+  {
+   "in": 5356,
+   "out": 26,
+   "usd": 0.00022284
+  },
+  {
+   "in": 5411,
+   "out": 21,
+   "usd": 0.000552358
+  },
+  {
+   "in": 5461,
+   "out": 22,
+   "usd": 0.000196826
+  },
+  {
+   "in": 5512,
+   "out": 60,
+   "usd": 0.00027464
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17922
+}

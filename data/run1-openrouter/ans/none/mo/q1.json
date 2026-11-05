@@ -1,0 +1,58 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "说起来，最开始我们账上现金是多少来着？",
+ "reply": [
+  "我翻了翻之前咱们的聊天记录，没有找到最开始账上现金的具体数字。那会儿应该是你刚启动团队的时候，我还没跟着你跑这些细节。",
+  "不过你记得大概是什么阶段吗？比如种子轮之后，还是你们自己凑的启动资金？我可以去帮你查一下蓝驰那轮之前的银行流水记录。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "账上 现金 初始 余额"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "初始 现金 多少"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "第一笔 到账 现金"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1105,
+   "out": 26,
+   "usd": 0.000030402
+  },
+  {
+   "in": 1160,
+   "out": 23,
+   "usd": 0.000034812
+  },
+  {
+   "in": 1212,
+   "out": 25,
+   "usd": 0.000039852
+  },
+  {
+   "in": 1266,
+   "out": 79,
+   "usd": 0.000054432
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3632
+}

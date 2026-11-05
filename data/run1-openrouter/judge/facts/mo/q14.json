@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "它给出的当前租金是1万8，这是最新的记录值。",
+ "rule": null
+}

@@ -1,0 +1,46 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q22",
+ "kind": "aggregate",
+ "q": "how many data eng candidates did we interview total?",
+ "reply": [
+  "from our chat history, the last number i've got is **3** — Maria, Jordan, David, with David joining. that was from September though, so if you've done any more since then, i'm missing them. want me to check the hiring tracker or a doc for the full count?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data eng candidates interviewed"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "candidates interviewed"
+   },
+   "result": "#460 Mon 28 Sep 08:16 aicoo: dan the builder fueled up. good monday energy\n#461 Mon 28 Sep 10:05 Them: candidates interviewed: 3. maria, jordan, david. david joined.\n#462 Mon 28 Sep 10:06 aicoo: three down one in. solid conversion"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1140,
+   "out": 22,
+   "usd": 0.000205896
+  },
+  {
+   "in": 1191,
+   "out": 21,
+   "usd": 0.000078574
+  },
+  {
+   "in": 1301,
+   "out": 68,
+   "usd": 0.000127994
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4214
+}

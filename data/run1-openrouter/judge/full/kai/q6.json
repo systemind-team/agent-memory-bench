@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo correctly recalled the Q3 actual revenue as $2.35M, matching the stated fact in the chat.",
+ "rule": null
+}

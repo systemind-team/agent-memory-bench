@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "助手准确回答了用户只投了1个fellowship（Facebook），与对话记录一致。",
+ "rule": null
+}

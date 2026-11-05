@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply greets the user as '凯哥' as required by the gold answer.",
+ "rule": true
+}

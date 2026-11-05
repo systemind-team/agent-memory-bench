@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant stated the initial value was 950k, but the chat shows it was 800k.",
+ "rule": null
+}

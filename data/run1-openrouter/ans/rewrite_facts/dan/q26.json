@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "who were all the data eng candidates, and who took it?",
+ "reply": [
+  "dan the builder, 三个候选人: Maria Torres（第一个面的，SQL 很扎实，后来declined了），Jordan Liu（前Spotify数据工程师，take-home做得不错），还有David Chen（DoorDash contractor，熟悉dbt）。最后hire了David。",
+  "Maria 8月declined之后你们重新开了面试，Jordan和David都面过，David拿了offer，9月9号accept，21号正式入职的。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "data eng candidates interview"
+   },
+   "result": "- 17 Aug: Dan started sketching a new interview rubric for data engineer with more SQL focus.\n- 28 Sep: Dan Okafor interviewed three candidates: Maria, Jordan, and David; David was hired.\n- 06 Aug: One customer's data still out of sync due to last week's migration incident.\n- 21 Aug: A new candidate, Jordan Liu, formerly a data engineer at Spotify, has a good take-home.\n- 28 Aug: Daniel \"Dan\" Okafor caused a migration incident on Tuesday where a column was dropped instead of renamed but was rolled back with no data loss because Lena caught it before production sync."
+  }
+ ],
+ "calls": [
+  {
+   "in": 3285,
+   "out": 22,
+   "usd": 0.0000520086
+  },
+  {
+   "in": 3451,
+   "out": 99,
+   "usd": 0.00004837084
+  }
+ ],
+ "memChars": 7249,
+ "promptChars": 11886
+}

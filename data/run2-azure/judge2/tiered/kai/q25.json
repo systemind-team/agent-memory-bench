@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply says scope changed multiple times, but the gold requires stating there was 1 change: adding a custom analytics module that raised the value from 800k to 950k. The reply omits this key aggregation and adds unsupported details like reporting, SOW, and a $50K add-on not present in the provided chat.",
+ "first": "wrong",
+ "rule": null
+}

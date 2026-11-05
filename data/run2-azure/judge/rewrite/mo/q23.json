@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly lists all four VCs and accurately describes why each one was out or active, matching the chat history.",
+ "rule": null
+}

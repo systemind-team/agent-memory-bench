@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It correctly identifies three Singapore trips but misdates the first trip (Aug 24 instead of Sep 1) and fabricates unsupported details like specific prospect company types and Q4 pipeline numbers.",
+ "rule": null
+}

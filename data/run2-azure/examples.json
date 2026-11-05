@@ -1,0 +1,2847 @@
+[
+ {
+  "id": "dan",
+  "qid": "q1",
+  "kind": "recall",
+  "q": "how many coffees did i have that first week?",
+  "gold": "14",
+  "arms": {
+   "none": {
+    "reply": "you said 14 on monday aug 3, but 'this week' could mean from that monday. if you meant the whole first week you started tracking, that's the only number i've got. 14 was the count you shared. / want me to check if there's a different 'first week' in our older messages? my memory only goes back so far.",
+    "v": "correct",
+    "why": "It gives the number 14, which matches the user's stated count from that week.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "that was the first message — coffee count that week at 14 total by monday morning. strong start.",
+    "v": "correct",
+    "why": "The assistant accurately states the coffee count as 14, matching the chat message.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "我没有你第一周的完整咖啡记录，dan the builder。我记得的最早记录是8月3日提到当周喝了14杯，但那不是你的第一周。更早的每日记录没找到。记得那时候你喝得不少，后来定了每天不超过3杯的标准。需要我帮你从别的记录里找找吗",
+    "v": "correct",
+    "why": "It accurately states that the earliest record from August 3rd mentions 14 coffees that week.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "Looking back at your memory, that first week was the week of Sep 14. On Fri Sep 18, you logged coffee count 2. I don't have a daily tally for each day that week, but Friday was 2. Does that sound right?",
+    "v": "made_up",
+    "why": "The assistant claims the first week was the week of Sep 14, but the chat shows the first week was the week of Aug 3 and the coffee count was 14.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "第一周（8月9日开始那一周）里你好像是喝了3天咖啡：",
+    "v": "wrong",
+    "why": "The assistant answered about August 9th and 3 days, but the correct fact from the chat is 14 coffees in the first week starting August 3rd.",
+    "tools": [
+     "search_notes",
+     "read_note"
+    ]
+   },
+   "facts": {
+    "reply": "17 that week — including 3 on Aug 10. you said you were thinking about cutting back. / did this week feel any different?",
+    "v": "wrong",
+    "why": "The correct answer is 14 coffees that week, but aicoo replied with 17, which is not supported by the chat.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "14 total that week, as of monday you said 14 so far. that was the week you started tracking.",
+    "v": "correct",
+    "why": "It accurately states the coffee count as 14 for the first week, which matches the chat message.",
+    "tools": [
+     "search_memory",
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "你的第一周是从8月3号那个周一开始的吧？那天你跟我说“咖啡计数：这周已经14杯了”，等于到周一就已经14杯了。 / 整个一周具体数字没记全，但按趋势看，每天大概2–3杯的样子。早上5点被Biscuit叫醒那天就喝了3杯😅 / 需要我把8月那周每天的记录翻出来吗？",
+    "v": "correct",
+    "why": "It correctly states that Dan reported 14 coffees by Monday of that first week, matching the required fact.",
+    "tools": [
+     "read_note",
+     "search_chat",
+     "search_chat",
+     "search_notes",
+     "search_chat"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "你是指你刚加入 aicoo 的那周吗 / 我记得你 8 月 3 号那周喝了 17 杯咖啡，其中 10 号那天就喝了 3 杯，当时你还想适当减量来着 / 要看看具体每天的数据吗",
+    "v": "wrong",
+    "why": "The assistant answered 17 instead of the correct 14 mentioned by the user on Mon 03 Aug.",
+    "tools": [
+     "search_chat",
+     "search_memory",
+     "search_memory",
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "dan",
+  "qid": "q11",
+  "kind": "update",
+  "q": "what's the billing cutover date?",
+  "gold": "oct 12",
+  "arms": {
+   "none": {
+    "reply": "oct 12. that's still the date from when we got back on track in september. everything still aligned for that? / want me to pull up the latest cutover checklist to see where we stand on prep?",
+    "v": "correct",
+    "why": "The assistant provides the latest cutover date of October 12, which matches the final confirmation from the October 19 chat.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "october 12. that's the last confirmed date priya locked in. no more changes since then.",
+    "v": "correct",
+    "why": "The assistant correctly states the latest confirmed cutover date as October 12, matching the final update in the chat.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "一周變一次那個嗎。最終是 11 月 5 號，跟 Priya 對過、她認可的。切換清單你昨天說快好了，補上回滾步驟和乾跑結果就行。 / 哦對，週三凌晨兩點還有那個資料庫遷移乾跑，別忘了。",
+    "v": "stale",
+    "why": "The assistant gave the final date as November 5th, but the latest confirmed date is October 12th.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "it's currently locked to Oct 12 (from Mon Oct 19 when Priya confirmed no more changes). but earlier it was Nov 15, then Oct 26, then Priya locked Oct 12. does that match what you have?",
+    "v": "correct",
+    "why": "It gives the latest value (Oct 12) as the current date, confirmed by Priya on Mon Oct 19, while mentioning the history.",
+    "tools": []
+   },
+   "notes": {
+    "reply": "nov 15. that's the date in the timeline doc after the last change. / wanna start the cutover checklist this week? priya sent the template thursday.",
+    "v": "stale",
+    "why": "It gives nov 15 as the current date, but the latest update on Mon 19 Oct confirms oct 12 as the final cutover date.",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "facts": {
+    "reply": "oct 26 is locked per the 03 oct update. priya also wanted the cutover checklist done by yesterday – how's that looking? once tom's stripe refactor v2 is merged, you should be in good shape.",
+    "v": "stale",
+    "why": "The assistant gives Oct 26 as the cutover date, which is an earlier value not supported by the chat, instead of the latest confirmed date of Oct 12.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "cutover was locked for oct 26, but your last memory shows priya approved the rotation proposal for nov 1. did the cutover happen and i missed it, or did it shift again?",
+    "v": "wrong",
+    "why": "The assistant gave oct 26 and nov 1 as possible dates, but the latest confirmed cutover date is oct 12.",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes_recall": {
+    "reply": "it's marked as Nov 15 now — was moved from an earlier date. 之后还有一次试运行，priya 发了个清单模板，最近要填好",
+    "v": "stale",
+    "why": "The assistant gave the outdated date Nov 15 instead of the latest confirmed date Oct 12.",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "dan the builder，之前定的 billing cutover 日期是 oct 26，不过后来提到 priya 想把 checklist 在周五前准备好。你昨天说 checklist 快好了就差 rollback 步骤——那个更新以后日期还是 oct 26 对吗？",
+    "v": "stale",
+    "why": "It gives Oct 26 as the current date, ignoring the latest confirmed date of Oct 12 from October 19.",
+    "tools": [
+     "search_chat",
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "dan",
+  "qid": "q17",
+  "kind": "temporal",
+  "q": "when did sam ortiz start?",
+  "gold": "sep 14",
+  "arms": {
+   "none": {
+    "reply": "sam ortiz started monday september 14 this year. onboarding with david chen. / that's about 7 weeks in now — how's it going?",
+    "v": "correct",
+    "why": "The reply states Sam Ortiz started Monday September 14, which matches the September 14 date given in the chat.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "sam ortiz started on september 14, like you confirmed back on sep 1.",
+    "v": "correct",
+    "why": "The reply states September 14, which matches the September 14 date mentioned in the chat.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "sam oritz 是9月8号来的，那天他第一天上班，在4楼IT那边拿笔记本。 / 两个月多一点，已经第一次独立上线了，不错。",
+    "v": "wrong",
+    "why": "The assistant said September 8, but the user previously stated the start date was September 14.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "Sam started September 14. His first day was that Monday after Labor Day. He's now at desk 12 between you and Lena.",
+    "v": "correct",
+    "why": "The assistant correctly stated September 14 as Sam's start date, which matches the chat.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "sam ortiz started sep 14. his first solo deploy was last friday and nailed it, by the way — that's a fast ramp.",
+    "v": "correct",
+    "why": "The assistant stated Sam started Sep 14, which matches the user's original message from August 26.",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "facts": {
+    "reply": "Sam started September 14th — a Monday, day after Labor Day. He was set up with the local dev environment by the 13th and you had lunch with him and Priya on the 8th.",
+    "v": "correct",
+    "why": "The assistant correctly states Sam started September 14th, matching the user's earlier chat message.",
+    "tools": [
+     "search_memory",
+     "search_chat"
+    ]
+   },
+   "ledger": {
+    "reply": "Sam Ortiz started Monday, September 14. His first day was setting up the dev environment, then full onboarding started Tuesday the 15th. / First solo deploy by October 23 — he nailed it.",
+    "v": "correct",
+    "why": "The reply correctly states Sam started on Monday, September 14, which matches the chat.",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes_recall": {
+    "reply": "九月十四号开始的，你跟Priya一起做的onboarding。现在都快俩月了——上周他solo deploy跟dbt模型都挺稳的。",
+    "v": "correct",
+    "why": "The reply correctly states Sam started on September 14, matching the chat's mention of that date.",
+    "tools": [
+     "search_notes"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "sam ortiz 正式入職是 9 月 14 日（那週的週一），不過他之前就設定好了本地環境。你當時和 priya 一起帶他 onboarding。 / 今天是 11 月 1 日，on-call 輪值從今天開始——需要我提醒大衛開始值班嗎？",
+    "v": "correct",
+    "why": "The reply correctly states September 14 as Sam Ortiz's start date, matching the user's earlier message.",
+    "tools": [
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "dan",
+  "qid": "q22",
+  "kind": "aggregate",
+  "q": "how many data eng candidates did we interview total?",
+  "gold": "3: maria torres, jordan liu, david chen",
+  "arms": {
+   "none": {
+    "reply": "from our chat history, the last number i've got is **3** — Maria, Jordan, David, with David joining. that was from September though, so if you've done any more since then, i'm missing them. want me to check the hiring tracker or a doc for the full count?",
+    "v": "correct",
+    "why": "The assistant correctly states the count is 3 and lists all three candidates by name (Maria, Jordan, David), matching the chat history exactly.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "three. maria torres, jordan liu, and david chen. david joined, the other two didn't work out.",
+    "v": "correct",
+    "why": "The assistant correctly states the count (3) and lists all three candidates (Maria Torres, Jordan Liu, David Chen) as mentioned in the chat.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "dan the builder，根据记录我们只面试了两位数据工程师候选人：Maria Torres（8月12日，第一轮面试，SQL扎实但被拒了）和Jordan Liu（8月21日，Spotify背景，有好的take-home） / 两轮面试，两个候选人。后来这个岗位有进展吗？",
+    "v": "wrong",
+    "why": "The assistant stated only two candidates were interviewed, but the chat shows three: Maria Torres, Jordan Liu, and David Chen.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "from what i can see, you interviewed one data engineer candidate: maria torres back in august. she had solid sql. i don't have a record of any other data eng interviews beyond that.",
+    "v": "wrong",
+    "why": "The assistant stated only one candidate was interviewed (Maria Torres), but the chat shows three candidates: Maria Torres, Jordan Liu, and David Chen.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "从笔记来看，只面了Jordan Liu一个数据工程岗候选人。他之前在Spotify，take-home做得不错，Lena也看好他。 / 还有其他待看的候选人吗？还是这轮先等Jordan的回音？",
+    "v": "wrong",
+    "why": "The assistant stated only one candidate (Jordan Liu) was interviewed, but the chat records show three candidates: Maria Torres, Jordan Liu, and David Chen.",
+    "tools": [
+     "search_notes",
+     "search_notes",
+     "search_notes",
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "from what i remember, you interviewed three candidates: Maria, Jordan, and David (who was hired). that's from sep 28 — haven't seen any more since then. / if there were others before i started tracking, i don't have them. want me to check the interview doc or your calendar for any i missed?",
+    "v": "correct",
+    "why": "The assistant correctly states three candidates—Maria, Jordan, and David—and notes David was hired, matching the chat history.",
+    "tools": [
+     "search_chat",
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "Based on what I've recorded: 3 total — Maria Torres, Jordan Liu, and David Chen (who joined). That matches the note from Sep 28 that said 'candidates interviewed: 3'.",
+    "v": "correct",
+    "why": "The count (3) and names (Maria Torres, Jordan Liu, David Chen) match the chat records exactly.",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_memory",
+     "search_chat"
+    ]
+   },
+   "notes_recall": {
+    "reply": "从笔记来看，只有 Jordan Liu 一位 data eng 候选人，面试过，take-home 表现不错。其他人没标记过这个方向。需要我翻翻聊天记录确认有没有漏掉的吗？",
+    "v": "wrong",
+    "why": "aicoo incorrectly stated only one data eng candidate was interviewed when the chat shows three: Maria Torres, Jordan Liu, and David Chen.",
+    "tools": [
+     "search_notes"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "dan the builder, 从记忆来看，你一共面试了3位数据工程师候选人：Maria Torres（8月面试，后来去了别的offer），Jordan Liu（8月底，前Spotify数据工程师），David Chen（9月，最终录用）。加上之前的候选人流程，总数就是这三位。明天开工加油啊",
+    "v": "correct",
+    "why": "The assistant correctly states the count as 3 and names all three candidates—Maria Torres, Jordan Liu, and David Chen—matching the required answer.",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "dan",
+  "qid": "q27",
+  "kind": "open_loop",
+  "q": "what's the status of that billing timeline doc for priya?",
+  "gold": "never closed: you asked me to remind you but we never confirmed it was done",
+  "arms": {
+   "none": {
+    "reply": "last i saw was you asked me to remind you to send it to priya by friday back in august. i reminded you thursday afternoon — did you get it to her then? / since then the billing conversations have been about cutover dates and dry runs, no mention of that doc again. want me to check if there's a copy in your docs i can surface?",
+    "v": "correct",
+    "why": "It accurately identifies the reminder was set but never confirmed as sent, matching the open-loop requirement.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "sent to priya on friday afternoon as planned. here's what i remember: you finished it just before the deadline on aug 7 and shared it with her. anything you need to update for the new cutover timeline?",
+    "v": "correct",
+    "why": "It correctly identifies the open loop by stating the reminder was set but never confirmed as done.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "dan the builder, 我记得你8月4号说过周五前要把billing timeline doc发给priya，但后来没看到更新。最近几次对话里你提过cutover checklist差不多好了，只差rollback steps，还说到dry run结果要加进去——但那个billing timeline doc本身，我没找到你后面提到有写或者发出去过。 / 要我帮你翻一下之前的聊天记录，还是说那个doc其实已经变成cutover checklist的一部分了？你告诉我现在卡在哪里，我帮你理一下。",
+    "v": "correct",
+    "why": "It correctly identifies the unanswered reminder about sending Priya the billing timeline doc and notes it was never confirmed done.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "i don't have a record of a billing timeline doc for priya beyond that reminder from aug 4. i can check if there's something in your docs. / did you draft it already? or should i look around for it?",
+    "v": "dont_know",
+    "why": "aicoo says it doesn't have a record beyond the Aug 4 reminder and asks the user if they drafted it or wants it to look around, without confirming the status.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "嗨 Dan，好消息：Priya 发的 cutover checklist template 昨天到了，看起来挺全面的，我已经在帮你填了——迁移步骤、回退计划、干跑结果这些大块都差不多了，还剩 webhook 服务 URL 切换那步等你确认。 / 你说的是那个 timeline doc 吗？上次更新是 10 月 15 号你跟 Priya 说过 11 月 15 号 cutover。现在 checklist 里干跑又做了一次（10 月 28 号的），一切干净。要不要我先把 checklist 的草稿发给你看看？",
+    "v": "wrong",
+    "why": "The assistant conflates the early August reminder request about a billing timeline doc with an unrelated October cutover checklist, never addressing whether the original commitment was fulfilled.",
+    "tools": [
+     "search_notes",
+     "read_note"
+    ]
+   },
+   "facts": {
+    "reply": "the billing timeline doc was sent to priya back on aug 7 — right before that friday deadline. since then the cutover was locked to oct 26 and priya asked about the timeline again in mid-oct, so there might be a newer version expected. should i check your docs for the latest file and see if priya needs another send?",
+    "v": "wrong",
+    "why": "The assistant claims the doc was sent on Aug 7, but the chat only shows a reminder was set with no confirmation of completion.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "the billing timeline doc was sent to priya back in august — that one's done. the more recent thread is the cutover checklist, which priya sent a template for and you're almost done with. just the rollback steps left to add, plus i'd include the dry run results from monday night. / you want me to pull up the current checklist doc so you can finish it this morning?",
+    "v": "correct",
+    "why": "The assistant correctly identifies that the billing timeline doc for Priya from August was never confirmed as sent, noting the open loop.",
+    "tools": [
+     "search_memory",
+     "search_chat"
+    ]
+   },
+   "notes_recall": {
+    "reply": "the timeline doc is an older one — back in august i sent it to priya. since then the plan's evolved a lot: cutover moved to nov 15, then back to oct 12 per her, then settled on a database migration wednesday oct 28 that completed clean. / today is sunday — priya sent a cutover checklist template friday and wants it filled in over the next few days, with another dry run next week. the doc itself ha",
+    "v": "made_up",
+    "why": "The assistant claims it sent the doc to Priya in August, but the chat only shows a reminder was set to send it by Friday with no confirmation it was actually sent.",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "dan the builder，那份 billing timeline doc 你 8 月初就发给 Priya 了，在截止前搞定的。 / 后来 cutover 日期改了几次，最新的 timeline 你应该已经跟 Priya 对齐过了——10 月 26 日 cutover 锁了，对吧？ / 现在要做的是把切机清单里的 rollback steps 加进去，还有把上周 dry run 的结果一并附上。那个周五之前能搞定吗？",
+    "v": "made_up",
+    "why": "The assistant claims the doc was sent and adds specific unsupported details (cutover dates, rollback steps, dry run) not mentioned in the chat.",
+    "tools": [
+     "search_chat",
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "dan",
+  "qid": "q32",
+  "kind": "ask",
+  "q": "morning",
+  "gold": "greeting uses 'dan the builder'",
+  "arms": {
+   "none": {
+    "reply": "morning! sleep in a bit? it's sunday after all / stripe refactor's still in review? lena might have comments on the edge case handling in lines 320-340 — she flagged a similar pattern last sprint / battery's still at 79 — no rush, but if you want i can put a spare on order from the usual vendor so it's here by tuesday",
+    "v": "wrong",
+    "why": "the greeting does not use 'dan the builder' as required by the gold answer",
+    "tools": []
+   },
+   "full": {
+    "reply": "早上好, dan the builder。 / breathing room sounds good. 三月份的时间给了更多空间来准备。你还在准备下周的迁移演练吗？",
+    "v": "correct",
+    "why": "The greeting uses 'dan the builder' as required by the probe.",
+    "tools": []
+   },
+   "rewrite": {
+    "reply": "早安 dan the builder 周末过得好吗 今天有什么计划",
+    "v": "correct",
+    "why": "The greeting uses 'dan the builder' as specified in the gold requirement.",
+    "tools": []
+   },
+   "tiered": {
+    "reply": "morning dan. happy sunday. / cutover checklist done with rollback steps? battery still at 79% or did you order the new one?",
+    "v": "wrong",
+    "why": "The greeting uses 'dan' instead of the requested 'dan the builder'.",
+    "tools": []
+   },
+   "notes": {
+    "reply": "早上好 Dan！周日休息日，看来昨天跑得不错。 / Tom 的 stripe v2 还在 review 中，billing cutover 清单就差 rollback 步骤了对吧？周一加进去就齐了。 / 昨天 biscuit 闻到 bacon  costume 没拼命扑你？😂",
+    "v": "wrong",
+    "why": "The reply does not use the requested name 'dan the builder' in the greeting.",
+    "tools": [
+     "search_chat",
+     "read_note",
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "morning dan. how was the toast-and-butter halloween? biscuit in the bacon costume must've been the highlight / anything on your mind for this quiet sunday?",
+    "v": "correct",
+    "why": "The greeting uses 'dan' in lowercase, which is a natural conversational variant of the requested 'dan the builder', and the reply otherwise correctly references the user's partner, dog, and Halloween.",
+    "tools": []
+   },
+   "ledger": {
+    "reply": "morning. today's the dry run monday — priya wants that run at 2am tonight. you're on call for it. / cutover checklist: you said almost done yesterday, just needs rollback steps added. want me to pull the rollback steps from the doc you shared with priya and sam? / also tom's stripe refactor v2 is in review — once that's merged, cutover should be clear for this week.",
+    "v": "wrong",
+    "why": "The greeting does not use 'dan the builder' as required.",
+    "tools": [
+     "search_memory",
+     "search_memory",
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "早上好 Dan 🌞 今天周日，没有雨了，适合出去走走 / 想到昨天你没说完 cutover checklist 的 rollback steps——要不要今天早上花半小时搞定那段？剩下周就能直接跑 dry run 了。 / 对了，Biscuit 的 bacon costume 试过了吗？",
+    "v": "wrong",
+    "why": "The greeting uses 'Dan' instead of 'dan the builder' as required.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "早安 dan the builder 周日的休息日来这么早，有任务要处理吗 / 还是单纯起了个大早陪 biscuit 和 ade",
+    "v": "correct",
+    "why": "The reply uses the requested greeting 'dan the builder' and appropriately references the user's partner Ade and dog Biscuit, consistent with the chat history.",
+    "tools": []
+   }
+  }
+ },
+ {
+  "id": "dan",
+  "qid": "q36",
+  "kind": "pref_apply",
+  "q": "draft a PR description for splitting out the billing service",
+  "gold": "PR description ends with a Risk section",
+  "arms": {
+   "none": {
+    "reply": "Here's a draft PR description for splitting out the billing service. Filled in what I know—please check the details and tweak as needed:\n\n---\n\n**Title:** Split billing service into standalone module\n\n**Description:**\n\nThis PR extracts the billing service from the monolith into its own service, as part of the cutover preparation. Key changes:\n\n- Moved all billing-related models, migrations, and API",
+    "v": "correct",
+    "why": "The PR description ends with a 'Rollback' section, which serves as the Risk section per the user's preference to always end PR descriptions with a Risk section.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "好，这是基于你的标准（末尾加Risk section）写的PR描述草稿：\n\n## Title\nfeat(billing): split billing service from monolith\n\n## Description\nExtract billing domain logic, models, and database access into a standalone billing service. This includes:\n- New billing service module with its own API endpoints\n- Migration of billing tables to the new service's schema\n- Updated webhook handler to call billing service for subscripti",
+    "v": "correct",
+    "why": "The PR description ends with a Risk section as preferred by the user.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "好的 dan the builder，根据之前的对话，我看到你一直在做 billing migration 相关的工作，但没有找到之前关于拆分 billing service 的具体讨论。我基于你的项目背景和之前的 PR 规范来起草一个草稿： / **Title**: Split billing service into standalone module\n\n**Description**:\n- Extract billing logic from monolith into its own service, including payment processing, subscription management, and invoice generation\n- New service uses the same database schema and migration path e",
+    "v": "correct",
+    "why": "The PR description ends with a Risk section, as specified in the chat.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "sure. here's a draft PR description for splitting out the billing service: / **Title:** Split billing service into standalone module\n\n**Context:** The billing service has been tightly coupled with the main API for too long — shared models, mixed routes, and no clear ownership boundary. This PR extracts billing into its own internal module with a clean interface.\n\n**What changed:**\n- Moved billing ",
+    "v": "correct",
+    "why": "The PR description draft includes a 'Risk' section, conforming to the user's stated preference from the chat history.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "Here's a draft you can adjust:\n\n**PR: Split billing service out of monolith**\n\n**Summary**\nExtracts the billing module into its own service, decoupling payment processing, subscription management, and invoice generation from the main application. This is the infrastructure split only — logic stays the same.\n\n**Changes**\n- New `billing-service` package with its own deploy pipeline\n- Extracted billi",
+    "v": "correct",
+    "why": "The PR draft ends with a 'Next steps' section but does not include a 'Risk' section as requested, so it fails to follow the preference stated in the chat.",
+    "tools": [
+     "read_note",
+     "search_notes",
+     "read_note",
+     "read_note",
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "here's a draft PR description for splitting out the billing service. tweak as needed — especially the issue link and reviewer names: / ## PR: Split billing logic into standalone service\n\n**What**\nMoves billing operations (plan management, subscription lifecycle, invoice generation, Stripe billing sync) out of the monolith into a dedicated `billing-service`. This parallels the webhook service split",
+    "v": "correct",
+    "why": "The draft PR description ends with a 'Checklist' and 'Reviewers' section, but it does not include a 'Risk' section as the preference requires.",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "ledger": {
+    "reply": "Got it. Here's a draft for the split: / ## Summary\nSplit the billing service out of the monolith into its own service. This is the next step after the webhook service split — billing handles subscription lifecycle, invoicing, and payment reconciliation. / ## Changes\n- Extracted billing core logic into a new `billing/` package\n- Added a gRPC client for the billing service\n- Moved `Invoice`, `Subscr",
+    "v": "correct",
+    "why": "The PR description draft ends with a Risk section, matching the user's stated preference from the chat.",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_memory",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes_recall": {
+    "reply": "好，我根据现在的情况帮你写 PR 描述。要是少了什么你就补上。 / **Title**: Split billing service out of monolith / **Description**: / ## Summary / Moves billing logic into its own service. Follows the same pattern as the webhook service split (已上线运行稳定)。解耦之后 monolith 可以独立迭代 billing 逻辑。 / ## Changes / - New `billing-service/` directory with billing models, GraphQL schema, mutations/queries / - Stripe integration moved to billing",
+    "v": "correct",
+    "why": "The PR description draft ends with a ## Risk section, matching the user's stated preference from Aug 16.",
+    "tools": [
+     "read_note",
+     "search_notes",
+     "read_note",
+     "search_notes"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "dan the builder，这里是billing service拆分的PR描述草稿： / ## PR: 拆分 billing 服务为独立模块\n\n### 变更内容\n将 billing 逻辑从 monolith 中拆分为独立服务，包含：\n- 新的 billing service 模块，路由、handler、store 独立\n- 与主服务通过 HTTP + 事件队列通信\n- 原有接口保持向后兼容，无需前端改动\n\n### 动机\n- 降低主服务复杂度，billing 模块变更频繁，拆分后不影响其他功能部署\n- 为后续 cutover（当前目标 Nov 5）做准备\n- 配合 Stripe webhook 服务拆分后的整体架构\n\n### 改动文件\n- `services/billing/`：新目录，包含全部 billing 逻辑\n- `internal/handler/billing.go` → 移",
+    "v": "correct",
+    "why": "The PR description ends with a Risk section, matching the user's stated preference from chat.",
+    "tools": [
+     "search_chat",
+     "search_memory",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   }
+  }
+ },
+ {
+  "id": "dan",
+  "qid": "q40",
+  "kind": "abstain",
+  "q": "when is tom's PTO?",
+  "gold": "never mentioned: aicoo should say it doesn't know",
+  "arms": {
+   "none": {
+    "reply": "I don't have anything in our chat about Tom's PTO. Want me to check the calendar or docs to find it?",
+    "v": "dont_know",
+    "why": "The assistant correctly states it doesn't know Tom's PTO and offers to check, matching the required behavior for an abstain probe.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "我在聊天记录里没找到 Tom 请假的信息。你记得他提过吗？还是我需要检查日历或团队文档？",
+    "v": "dont_know",
+    "why": "The assistant correctly states it cannot find Tom's PTO information in the chat records and asks for clarification or suggests checking other sources.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "dan the builder，我翻了一遍记录，没有找到Tom的PTO信息。他目前没提过请假计划。你记得他说过吗，还是需要我去问问Priya？",
+    "v": "dont_know",
+    "why": "aicoo correctly states it cannot find Tom's PTO information and asks the user for input.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "i don't have any record of tom's PTO in our chats. want me to check your docs or slack for it?",
+    "v": "dont_know",
+    "why": "The assistant correctly states it doesn't have any record of Tom's PTO and offers to search elsewhere, which matches the expected behavior for a never-mentioned fact.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "我翻了一下聊天记录和笔记，没有找到Tom的PTO安排。他上次提过什么具体的休假时间吗？ / 还是说你是想在他走之前把stripe refactor合并掉？我可以帮你排一下这个时间线。",
+    "v": "dont_know",
+    "why": "aicoo correctly states it couldn't find Tom's PTO and asks for clarification.",
+    "tools": [
+     "search_chat",
+     "search_notes",
+     "search_chat"
+    ]
+   },
+   "facts": {
+    "reply": "I don't have any record of Tom's PTO in my memory or chat history. Want me to check with him or add it to the calendar when you find out?",
+    "v": "dont_know",
+    "why": "The assistant correctly states it has no record of Tom's PTO and offers to help find out, which is appropriate since Tom's PTO was never mentioned.",
+    "tools": [
+     "search_chat",
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "I don't have Tom's PTO dates in memory. Want me to check your chat for any mention of it?",
+    "v": "dont_know",
+    "why": "It correctly states it doesn't have Tom's PTO dates and offers to search the chat, without making anything up.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "我的笔记里没有提到Tom的PTO安排。之前只记了Priya那周请假、Tom代班的事情，但没找到Tom自己请假的记录。你要我问一下他，还是你直接去确认？",
+    "v": "dont_know",
+    "why": "The assistant correctly states it cannot find Tom's PTO and only recalls unrelated information about Priya, then asks for clarification.",
+    "tools": [
+     "search_notes",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "dan the builder，我没找到Tom请假的记录。目前我记得的信息里只有Lena在10月5-9号请假参加婚礼，Tom没有提到过休假安排。是不是他最近跟你说过但没记下来？或者你需要我提醒他确认一下？",
+    "v": "dont_know",
+    "why": "aicoo correctly states it cannot find any record of Tom's PTO and asks if Dan has more information.",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_chat"
+    ]
+   }
+  }
+ },
+ {
+  "id": "kai",
+  "qid": "q1",
+  "kind": "recall",
+  "q": "那个Q3 revenue target我们设了多少来着，Grace问起来我不想翻记录。",
+  "gold": "2.4 million USD",
+  "arms": {
+   "none": {
+    "reply": "凯哥，Q3 revenue target是2.4M USD，最后实收2.35M，差了50k。Grace当时确实不太满意。你今天要回复她的话，我可以帮你想个说法。",
+    "v": "correct",
+    "why": "准确给出了Q3收入目标是2.4M USD，并补充了实际收入差额。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "2.4M USD，凯哥。之前Q3实际收了2.35M，差了50k，Grace没太开心，但你已经在Q4 roadmap里补回来了。",
+    "v": "correct",
+    "why": "它准确回答了Q3收入目标是240万美元，并额外提供了实际收入和差异背景。",
+    "tools": []
+   },
+   "rewrite": {
+    "reply": "Q3 revenue target是230万，保守调整后的版本。之前实际到了210万，你调成230万加了Aurora的contribution risk。Grace问的话，你说的数字是230万这个版。",
+    "v": "wrong",
+    "why": "The assistant gave 2.3 million USD, but the correct Q3 revenue target is 2.4 million USD.",
+    "tools": []
+   },
+   "tiered": {
+    "reply": "Q3 revenue target是2.4M USD，这个你和Grace在8月初就finalize了。最后实际是2.35M，差了50k，所以你在Q4 offsite时提过要re-align forecast。 / 周一跟Grace的pricing meeting里顺便提一嘴就行，她应该心里有数。",
+    "v": "correct",
+    "why": "Assistant correctly states Q3 revenue target was 2.4M USD as requested.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "Q3 target是2.4M，最终做到了2.35M。Grace当时不太满意，所以她才让你重新对齐Q4 forecast。你昨天还说要找她要customer testimonial的quote——要我现在把那个2.35M数字加到你的summary里备着吗？",
+    "v": "correct",
+    "why": "It provides the exact Q3 revenue target of 2.4M USD as requested.",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "facts": {
+    "reply": "Q3 target是2.4M，凯哥。最后实际做到2.35M，差了一点点。Grace也知道，当时review说focus on Q4就好。 / 你直接说2.4M就行，她应该记得这个数。要聊Q4的话，目前tracking toward 2.8M。",
+    "v": "correct",
+    "why": "准确给出了Q3 revenue target是2.4M美元，并补充了实际结果等背景。",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "Q3 revenue target是$2.5M，最终达成了$2.68M，超额$180K。 / Grace应该记得这个数，但如果你要精确的数字告诉她就行。",
+    "v": "wrong",
+    "why": "The assistant's reply states the Q3 revenue target as $2.5M, but the chat record shows it was set at $2.4M.",
+    "tools": []
+   },
+   "notes_recall": {
+    "reply": "Q3 target设的是2.4M，最终实际2.35M，差5万。Grace当时不太满意。你回头跟她说的时候可以说QoQ growth还是正的，加上Aurora签了950k（虽然是Q4 close但也是win），dark mode反馈好，整体趋势健康。",
+    "v": "correct",
+    "why": "它正确给出了Q3 revenue target是2.4 million USD，并补充了可接受的额外背景信息。",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "Q3 revenue target是2.4M，最后实际收了2.35M，差了一点。Grace确实不太满意，但环比还是有增长的。她之前让你focus Q4，Q4目标2.8M。",
+    "v": "correct",
+    "why": "aicoo correctly recalls the Q3 revenue target as 2.4 million USD from the chat.",
+    "tools": [
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "kai",
+  "qid": "q11",
+  "kind": "update",
+  "q": "我们的pricing现在是多少per user，final decision是啥？",
+  "gold": "44 per user per month",
+  "arms": {
+   "none": {
+    "reply": "凯哥，定价final是$44 per user per month，11月1日上线——而今天就是11月1日了。你和Ben已经debate过了。 / 周一10:30的pricing launch decision meeting就是要confirm上线执行的吧？需要我帮你准备launch checklist吗？",
+    "v": "correct",
+    "why": "它给出了最新的最终定价$44 per user per month，并提及11月1日上线，未将过时的39或49作为当前价格。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "凯哥，final decision是 $44 per user per month，11月1日上线。后来因为Ben想多跑A/B测试，launch date调整到了12月1日，但这个价格没变。",
+    "v": "correct",
+    "why": "助手回复了最终的定价决定，即 $44 per user per month，符合正确答案要求。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "凯哥，当前定价是$44/user/month，这是Ben的A/B测试版本，8% conversion lift已验证。最终decision是12月1日直接上线v3版本，你、Grace、Ben周一10:30开会做final launch decision确认。",
+    "v": "stale",
+    "why": "The reply gives the current pricing as $44/user/month which is correct, but states the launch date as December 1 instead of November 1, providing outdated launch information.",
+    "tools": []
+   },
+   "tiered": {
+    "reply": "凯哥，最终定价是 $44/用户/月（premium tier），11月上线。不过中间有点调整：A/B测试后决定把launch推到12月1日，等测试结果稳定再上。这周五Ben发的final数据是8% conversion lift，你周一10:30跟Grace和Ben过launch decision。 / 你要不要我周一前把pricing page的final mockup也准备好，方便会议直接sign off？",
+    "v": "correct",
+    "why": "It states the final decision as $44/用户/月 (premium tier), which matches the latest value from the chat.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "$44/user/month，这是9月17号和Ben最终敲定的。本来他坚持$49，但你觉得$44对mid-market更有竞争力，他后来也同意了。 / 不过launch日期从原来的Nov 1推迟到了Dec 1，因为暗黑模式并行开发占了工程资源。明天10:30你约了Grace和Ben确认这个最终定价和launch时间。",
+    "v": "correct",
+    "why": "It correctly states the final price as $44/user/month, despite also mentioning the earlier proposed values and an unrelated launch date change.",
+    "tools": [
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "凯哥，最终定价是 **$44 per user per month**，launch 日期定在 **12月1日**。上周跟Ben确认了，同时A/B测试还在跑，11月3日继续。 / 明天周一10:30有pricing launch decision meeting，和Grace、Ben一起最后过一遍，到时候再确认没问题就go了。",
+    "v": "stale",
+    "why": "它给出的最终定价是正确的（$44 per user per month），但将launch日期错误地说成12月1日，而实际确定的日期是11月1日。",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "凯哥，定价最终是 $44 per user per month。launch date最后调到12月1号了，A/B test会继续到11月3号。周一10:30你和Grace、Ben的会议就是确认这个launch decision。",
+    "v": "correct",
+    "why": "记忆最后更新为$44 per user per month，这是最终决定。助手虽然在回复中提到新launch date但没有改变价格，所以$44仍然是正确的最新值。",
+    "tools": [
+     "search_memory",
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "final decision是$44/user/month, premium tier，之前打算Nov 1 launch。 / 后来因为engineering资源和dark mode并行，launch推到了Dec 1。Ben上周五发的A/B数据说$44 variant conversion lift 8%，他建议直接上v3定价。 / 明天10:30你跟Grace和Ben开会confirm launch decision，顺便也问一下Grace对Dec 1 launch timeline有没有意见。",
+    "v": "correct",
+    "why": "助手的回复明确给出了最终定价为44美元/用户/月，并解释了后续变化，但确认了最终决定仍是该价格。",
+    "tools": [
+     "search_notes"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "final decision是$44 per user per month，12月1日launch。这是上次跟Ben、Ravi确认后定下来的，A/B测试显示$44那个variant转化率有8% lift。 / 明天10:30的meeting就是跟Grace和Ben最后confirm这个launch。你周一需要review一下pricing page copy和mockup，10点先做pricing review prep，然后10:30 meeting直接用上。",
+    "v": "stale",
+    "why": "It says the price is $44 per user per month but incorrectly states the launch date as December 1 instead of November 1 as per the final decision.",
+    "tools": [
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "kai",
+  "qid": "q17",
+  "kind": "temporal",
+  "q": "Ravi那个integration本来due Sep 15，最后哪天go live的？",
+  "gold": "Sep 22",
+  "arms": {
+   "none": {
+    "reply": "找到了，凯哥。Ravi那个integration是Sep 22上线的。#1161里你说过，security audit补测多一天，但不影响Sep 22 go live。\n\n后来#697你周六（Sep 26）早上跟Ravi确认过，上线后一切正常，没有critical bugs。所以是Sep 22 Monday go live的，比原定Sep 15晚了正好一周。",
+    "v": "correct",
+    "why": "The reply correctly states the integration went live on Sep 22, matching the chat record.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "凯哥，Ravi的integration原本due Sep 15，但因为security audit，实际go live是Sep 22，Ravi后来确认了Sep 23系统稳定，没有major bug。",
+    "v": "correct",
+    "why": "The reply correctly states the integration went live on Sep 22, matching the confirmed date in the chat.",
+    "tools": []
+   },
+   "rewrite": {
+    "reply": "凯哥，integration是在Sep 22上线的。昨天Ravi sync时也确认了，security audit补测只多一天，不影响上线。这个milestone已经顺利收尾了。",
+    "v": "correct",
+    "why": "The assistant correctly states the integration went live on Sep 22, matching the confirmed date in the chat.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "凯哥，我查了一下记录——integration最终是9月22日go live的。那天你刚和我确认Ravi的security audit补测不影响上线，实际同一天正式上线了。 / 你问这个是因为周一要跟Grace对齐什么吗？还是Q4 roadmap复盘要用？",
+    "v": "correct",
+    "why": "The reply correctly states that the integration went live on September 22, which matches the chat record.",
+    "tools": []
+   },
+   "notes": {
+    "reply": "9月22号go live的，虽然中间因为安全审计delay了一次（从原定的15号推到22号）。上线后Ravi那边后来还做了个性能优化，10月中他报告提升了30%。",
+    "v": "correct",
+    "why": "The reply correctly states the integration went live on September 22, matching the chat record.",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "facts": {
+    "reply": "最后是9月22日go live的，凯哥。因为security audit多花了点时间，比原定的Sep 15晚了一周，但上线后还算顺利，没什么大bug。你有需要再确认什么吗？",
+    "v": "correct",
+    "why": "The reply correctly states the go-live date as September 22, matching the user's record.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "凯哥，Ravi那个integration最终是9月22号go live的。比原计划15号晚了大概一周，主要是因为安全审计多花了几天时间。不过当时你说整体还算顺利。",
+    "v": "correct",
+    "why": "准确给出了9月22日上线，与记忆中‘Sep 22’一致。",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "最终是**9月22日**上线的。原本9月15日的deadline，因为security audit推迟了一周，后来Ravi确认没问题，22号顺利go live。之后运行稳定，10月中还做了个性能优化，提升了30%。",
+    "v": "correct",
+    "why": "The reply correctly states the go-live date as September 22, matching the confirmed date in the chat.",
+    "tools": []
+   },
+   "rewrite_facts": {
+    "reply": "Sep 22 go live的，凯哥。本来Sep 15 due，后来security audit加上第三方API deprecation issues，推迟了一周到Sep 22才上线。虽然晚了点，但后来Ravi说integration稳定，performance也提升了30%。",
+    "v": "correct",
+    "why": "The reply correctly states Sep 22 as the go-live date, which matches the chat record.",
+    "tools": [
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "kai",
+  "qid": "q23",
+  "kind": "aggregate",
+  "q": "PM candidate我们interview了几个人，分别是谁，最后hire了谁？",
+  "gold": "4: Jason Chen (8y), Emily Tan (6y), Michael Liu (10y), Sarah Wu (not hired); hired Emily Tan",
+  "arms": {
+   "none": {
+    "reply": "凯哥，我从记录里看到聊过一位PM候选人——Jason Chen，8年经验，9月初面了第一轮，你说要推进第二面。但之后关于这个position的更多面试、最终hire谁，我没找到后续记录。 / 可能后面是线下聊的，或者用了别的渠道。你还记得后来有面其他人吗？还是说这个position后来停了或转方向了？",
+    "v": "wrong",
+    "why": "Assistant only recalled Jason Chen from the chat and claimed no further records, but the chat contained three more candidates and confirmed Emily Tan was hired.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "我们总共面试了4个PM候选人。先后是： / 1. **Jason Chen** – 8年经验，面试表现不错，reference check positive，但后来觉得execution细节问得不够深 / 2. **Emily Tan** – 6年B2B经验，面试时很细致，你更倾向她，最后她接受了offer，10月26日正式入职 / 3. **Michael Liu** – 10年经验，ex-Microsoft，你发了offer但没后续说他接没接 / 4. **Sarah Wu** – 最后一次只是casual chat，因为Emily已经定了，但你觉得她背景不错留下了pipeline / 最后hire的是Emily Tan，10月26日start，现在已经在onboard了。",
+    "v": "correct",
+    "why": "Accurately lists all four candidates, their experience, and correctly identifies Emily Tan as the final hire.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "凯哥，我查了一下对话记录，你们九月初开始面PM候选人，第一个是Jason Chen，8年经验，但后面没有找到继续推进的记录。后来十月初HR确认Emily Tan接受了PM offer，她10月26日正式入职。所以最后hire的是Emily Tan。",
+    "v": "partial",
+    "why": "只提到了Jason Chen和Emily Tan，遗漏了Michael Liu和Sarah Wu，且未给出总人数4人。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "凯哥周日好。PM candidate你面试了四位：Jason Chen（8年经验，产品sense不错但执行细节欠缺，reference check通过）、Emily Tan（你比较倾向于她，reference check也正面，最终hire了，10月26日start）、Michael Liu（10年经验前微软，offer发了但后来没有接）、Sarah Wu（有enterprise SaaS和vertical SaaS经验，进了future pipeline）。所以最后hire的是Emily Tan。",
+    "v": "correct",
+    "why": "It correctly lists all four candidates (Jason Chen, Emily Tan, Michael Liu, Sarah Wu) and correctly states that Emily Tan was hired.",
+    "tools": []
+   },
+   "notes": {
+    "reply": "凯哥周日好。面试过的PM candidate按顺序： / 1）Jason Chen — 8年经验，产品sense强，但execution细节不够深。第二轮面试后你更倾向Emily。\n2）Emily Tan — 6年经验，B2B背景强，case study表现好。你后来选了她，9月14日offer accepted，10月26日正式入职。\n3）Michael Liu — 10年，ex-Microsoft，发了offer但你没提是否签了。\n4）Sarah Wu — 10月16日casual chat，背景不错，你留着做future pipeline。 / 所以hire的是Emily Tan，已经入职一周了。Jason Chen你没推进，Michael Liu发了offer但后续没再提，Sarah Wu暂放。",
+    "v": "correct",
+    "why": "答案准确列出了4位候选人（Jason Chen, Emily Tan, Michael Liu, Sarah Wu）并明确最终雇佣了Emily Tan，与对话记录完全一致。",
+    "tools": []
+   },
+   "facts": {
+    "reply": "凯哥，PM候选人你面试了5位：Jason Chen（8年，进入下一轮）、Michael Liu（10年，前Microsoft）、王磊（7年SaaS，沟通不错）、Sarah Wu（背景不错），还有一位周五面试的（名字没记下来）。 / 最后hire的是Emily。她已经完成了第一周入职，对roadmap有贡献，还发了backlog proposal，思路很清晰。",
+    "v": "wrong",
+    "why": "aicoo's answer lists 5 candidates including 王磊 and an unnamed Friday interview, but the chat only mentions 4: Jason Chen, Emily Tan, Michael Liu, and Sarah Wu; the hire is correctly identified as Emily but the candidate list is incorrect.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "凯哥，PM candidate你们一共面试了两个人：Jason Chen（8年经验，第二轮面试后reference check positive，你计划9月那周发offer）和Emily Tan（最后接了offer，10月26日入职）。 / 最后hire的是Emily Tan，她已经正式onboard了，这周在跟Lily做account handover，准备接Lily的几个客户。",
+    "v": "wrong",
+    "why": "回复说一共面试了两个人，但聊天记录显示面试了四个人（Jason Chen、Emily Tan、Michael Liu、Sarah Wu）。",
+    "tools": [
+     "search_chat",
+     "search_memory",
+     "search_chat",
+     "search_chat",
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "凯哥周日好。PM candidate一共4人：Jason Chen（8年，product sense好但执行细节不够深）, Emily Tan（6年B2B，你prefer她）, Michael Liu（10年，ex-Microsoft，offer发了）, Sarah Wu（background strong，留作future pipeline）。最后hire的是Emily Tan，她10月26号已经入职了。",
+    "v": "made_up",
+    "why": "The reply adds unsubstantiated evaluations like 'product sense好但执行细节不够深', '你prefer她', 'offer发了', and 'background strong，留作future pipeline' that are not in the chat.",
+    "tools": []
+   },
+   "rewrite_facts": {
+    "reply": "一共面了四位PM候选人：第一位是Jason Chen，8年经验，进入了下一轮；第二位是Emily Tan，6年B2B经验，你觉得她比Jason更细致，最终决定hire她；第三位Michael Liu，10年经验，前微软；第四位Sarah Wu，面试时已经定了Emily，她背景不错以后可以再看。另外还有一位叫王磊的，7年SaaS，沟通不错，但应该是最后一轮面的，后来选了Emily。最后hire的是Emily Tan，10月26号正式入职了。",
+    "v": "wrong",
+    "why": "It added an unsupported fifth candidate 王磊 who is not mentioned in the chat history.",
+    "tools": [
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "kai",
+  "qid": "q27",
+  "kind": "open_loop",
+  "q": "Hey aicoo, 我忘了that reminder about Ravi's integration progress on Sep 1, did we ever check that?",
+  "gold": "open: never explicitly followed up in chat after the commitment was made",
+  "arms": {
+   "none": {
+    "reply": "凯哥周日好！翻了咱们的chat，关于Ravi的integration progress Sep 1那个reminder——我们之前没有单独提过那个日期。不过周五（10/30）你和Ravi sync时确认过：security audit补测只多一天，不影响integration 9/22上线，整体timeline on track。 / 倒是有个点：周一我跟你说priority里有一条“跟Ravi确认integration final timeline”——所以你周一10:30 pricing meeting前可以找Ravi再过一遍final timeline，顺便问清楚那个Sep 1的reminder是什么内容，是不是中间某个checkpoint被你记下了？",
+    "v": "correct",
+    "why": "The assistant correctly identifies that the Sep 1 reminder was never explicitly followed up in the chat, which matches the open-loop requirement.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "凯哥，找到了！8月11号你让我设了Sep 1的reminder来check Ravi的integration progress。不过我们后来的对话里，你实际在8月24号就主动跟Ravi sync过integration了，当时他说on track。到了8月31号你又确认了一次，Ravi说security audit cleared，Sep 22是新的deadline。所以Sep 1那个reminder实质上已经被你提前覆盖掉了，integration后来确实Sep 22上线了。 / 需要我把integration从on track到上线的完整timeline拉出来给你看吗？",
+    "v": "made_up",
+    "why": "The assistant claims Kai checked with Ravi on Aug 24 and Aug 31, but the provided chat only shows the Aug 11 reminder request with no evidence of those subsequent syncs.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "凯哥，我刚查了聊天记录和之前的笔记，9月1号那条关于提醒Ravi做integration status check的，后来没有明确的回复说做完了。不过我们从10月30号跟Ravi的sync里知道：security audit补测不影响integration Sep22上线，而且当时Ravi说没有新的integration issues。 / 所以integration本身应该是9月22号上线了，状态正常。需要周一再跟Ravi确认一下吗？还是你觉得那条已经过了就跳过？",
+    "v": "correct",
+    "why": "The assistant correctly identifies that the Sep 1 reminder about Ravi's integration progress was never explicitly followed up in the chat.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "凯哥，Sep 1那个reminder是关于Ravi的integration security audit状态，当时我问Ravi后他说一切正常，audit在Sep 22 deadline前能完成，后面也确实按时上线了。所以不用再担心那条了。 / 今天周日，十一月第一天了。女儿今天怎么样？上次流感全好了吧。",
+    "v": "made_up",
+    "why": "The assistant claims it asked Ravi and he said everything was fine with the audit, but the chat history contains no follow-up after the initial reminder commitment.",
+    "tools": []
+   },
+   "notes": {
+    "reply": "是的凯哥，我们check过了。你9月1日那天在Singapore出差，没有单独问Ravi，但后来9月4日你设了一个reminder说周一到公司再跟他确认。9月7日你sync的时候Ravi确认了security audit cleared，integration在9月22日上线——最后也真的按时上了，运行稳定。后来你还做了post-mortem。所以那个reminder后来有cover到，放心。 / 今天是周日，好好陪家人吧。周一的priority清单你还记得吗？要不要再发你一遍？",
+    "v": "made_up",
+    "why": "The assistant claims the reminder was followed up and the integration was confirmed, but the chat history only shows the commitment to remind on Sep 1 with no evidence of actual follow-up, and the added details (Sep 4 reminder, Sep 7 sync, post-mortem) are unsupported fabrications.",
+    "tools": [
+     "search_chat",
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "凯哥，我查了一下记录。我们确实在8月11日设了一个Sep 1提醒，让你check Ravi的integration progress。但我看当时Sep 1那天没有你触发这个提醒的对话——可能那天你刚好在新加坡做pipeline review（priority list上Sep 1是新加坡行程），忙起来就跳过了。 / 不过后续进展不错：9月4日你们确认了timeline，security audit 9月22日过了，integration上线后也稳定了，到10月初Ravi说没出bug可以drop监控了。 / 所以虽然那个reminder没被trigger到，但实际事情走通了。周一需要我帮你重新check一下近期Ravi那边有没有新情况？或者直接加到周一4）那条里一并确认？",
+    "v": "correct",
+    "why": "It correctly identifies that the reminder was set but never explicitly triggered or followed up in the chat on Sep 1.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "凯哥，那个reminder是8月11日设的，提醒你9月1日去check Ravi的integration进度。当时我确实提醒你了，你9月1日那天去跟Ravi聊了，他给的timeline是Sep 22上线，security audit也后来说不影响进度。所以那个check应该是done了。 / 不过现在10月底了，Ravi的integration应该已经上线了。你周一要不要跟他确认一下final timeline和post-launch稳定情况？我记着呢。",
+    "v": "wrong",
+    "why": "The assistant claims the check was done and provides specific details (timeline, security audit) that are not supported by the chat history, which only shows the reminder was set but never confirms a follow-up occurred.",
+    "tools": []
+   },
+   "notes_recall": {
+    "reply": "记得的，凯哥。9月1号那个提醒我确实在备忘录里记了。后来你实际上8号才正式check的——Ravi说integration testing开始，但那时他新招的人延迟入职，所以用intern暂时顶上了。后来Sep 22上线了，跑得很顺，你今天周一本来也要跟Ravi再确认一次final timeline，到时候顺便聊就行。不用专门翻回去看了。",
+    "v": "made_up",
+    "why": "The assistant claims a specific check occurred on Sep 8 and a Sep 22 launch, but the chat only contains a commitment to remind on Sep 1 with no record of any actual follow-up.",
+    "tools": [
+     "search_chat",
+     "search_notes"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "凯哥，查到了。那个Sep 1的reminder是关于Ravi的integration状态检查，你当时让我提醒的。实际上后来你跟进得很完整： / 9月4日和Ravi确认了timeline，9月6日security audit通过了，9月22日按时上线。之后9月26日确认无critical bugs，10月2日Ravi说稳定了可以drop监控，10月12日performance还提升了30%。 / 所以这事的检查是做了的，而且结果不错。今天周日，好好陪家人，周一再处理pricing launch meeting那些事吧。",
+    "v": "made_up",
+    "why": "The assistant claims follow-ups occurred (Sep 4, 6, 22, 26, Oct 2, 12) but the chat only shows the Aug 11 reminder request with no evidence of any subsequent check or conversation about Ravi's integration.",
+    "tools": [
+     "search_chat",
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "kai",
+  "qid": "q32",
+  "kind": "ask",
+  "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+  "gold": "should be greeted with '凯哥' instead of Kai",
+  "arms": {
+   "none": {
+    "reply": "凯哥周日早上好！今天你没有meetings，好好休息一天。 / 这周的全局：周一最密集——10:00 pricing review prep，10:30跟Grace和Ben的pricing launch decision meeting，此外还要找Grace确认SEA expansion headcount timeline、跟Ravi对integration final timeline、以及Emily的weekly check-in。另外别忘了找Lily要Aurora的quote、找Omar要Singapore两个大客户的quote，补上Grace要的testimonial section。 / 周二之后的具体安排我还没记，但pricing launch decision meeting的结果会决定下半周的方向。你父亲今天情况怎么样？",
+    "v": "correct",
+    "why": "The reply greets the user with '凯哥' as specified in the gold requirement.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "早凯哥，这周比较关键：周一早上10:30跟Grace和Ben对齐pricing launch决定，顺便聊SEA expansion headcount timeline。Yuki的dark mode manual toggle已经在sprint里，预计11月初完成。Ravi的integration和security audit补测都on track，Sep 22没问题。Emily已经上手，backlog proposal也发了。父亲稳定就好，女儿Halloween开心了吧？这周你主要focus pricing launch确认和Omar的SEA headcount推进。 / 今天周日没有meeting，好好休息，明天开始节奏会紧起来。",
+    "v": "correct",
+    "why": "The assistant greeted the user as '凯哥' as instructed in the chat history.",
+    "tools": []
+   },
+   "rewrite": {
+    "reply": "凯哥早上好！今天是周日，没有meetings，好好休息整周的事我帮你理一下: / 这周比较密集：周一10点先做pricing review prep（自己），10:30跟Grace、Ben开pricing launch decision meeting，同一会问Grace SEA expansion headcount approval timeline；跟Ravi确认integration final timeline，Emily weekly check-in，还有收集customer quotes（找Lily要Aurora，找Omar要Singapore两个大客户的）。 / 周三前把Q3 customer wins summary加上testimonial section交Grace。别忘了你父亲那边，周一早上问问情况。今天先安心陪家人吧，周一我帮你盯着节奏。",
+    "v": "correct",
+    "why": "The reply correctly greets the user as 凯哥 instead of Kai, fulfilling the gold requirement.",
+    "tools": []
+   },
+   "tiered": {
+    "reply": "凯哥周日好！今天周日，你这周meetings很多，但今天没有安排，好好休息。 / 这周关键节点：周一下午2点跟Ben pricing sync，周二杭州offsite回来。周三前要收完Q3 customer wins summary的quotes，周四前发给Grace。Emily onboarding进展好，你的father恢复不错，dark mode toggle dev这周进入sprint。 / 你女儿咳嗽好了吗？今天打算怎么安排？",
+    "v": "correct",
+    "why": "The reply correctly greets the user as '凯哥' as required by the gold instruction.",
+    "tools": []
+   },
+   "notes": {
+    "reply": "早上好凯哥，今天周日，没有meeting！这周的几个关键点：周一10:00 pricing review prep，10:30跟Grace和Ben敲定pricing launch decision，同时确认SEA headcount timeline。还要找Lily和Omar要customer quote补Q3 summary。Ravi那边integration final timeline跟一下，Emily weekly check-in也排上。 / 但今天先好好休息，你父亲状态好、女儿也开心，这才是最重要的。有什么需要随时叫我。",
+    "v": "correct",
+    "why": "The reply greets the user as '凯哥' as required by the gold answer.",
+    "tools": []
+   },
+   "facts": {
+    "reply": "凯哥周日早上好！今天没有meeting安排，好好休息。上周五你提前走了，我帮你梳理一下这周的情况： / **周一重点：**\n1）10:00 pricing review prep（改到10:00了）\n2）10:30 pricing launch decision meeting with Grace和Ben\n3）跟Grace确认SEA expansion headcount approval timeline\n4）跟Ravi确认integration final timeline\n5）Emily weekly check-in\n6）收集customer testimonial quote：找Lily要Aurora，找Omar要Singapore两个大客户的 / **其他这周要注意的事：**\n- Aurora deal $950K formal announcement\n- Omar那边Q4",
+    "v": "correct",
+    "why": "The assistant correctly greets the user as '凯哥' as instructed.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "凯哥早上好！今天周日，你之前没有安排任何meetings。这周的**周一**是重点： / 10:00 pricing review prep → 10:30 pricing launch decision meeting with Grace和Ben\n— 跟Grace确认SEA expansion headcount approval timeline\n— 跟Ravi确认integration final timeline\n— Emily weekly check-in\n— 另外collect quotes：Lily(Aurora)，Omar(Singapore两个大客户) / 周一前记得问问父亲情况。这周还有dark mode toggle v1的ship timeline要和Ravi对齐。周末好好休息，凯哥。",
+    "v": "correct",
+    "why": "The reply correctly greets the user as '凯哥' as instructed in the chat.",
+    "tools": []
+   },
+   "notes_recall": {
+    "reply": "早凯哥，今天是周日所以没有正式meetings，不过我给你理一下这周的节奏：\n\n**周一重点：**\n10:00 pricing review prep\n10:30 跟Grace和Ben的pricing launch decision meeting\n之后跟Grace确认SEA expansion headcount approval timeline\n跟Ravi打个integration final timeline的quick sync\nEmily weekly check-in\n周一开始收customer quotes（Lily拿Aurora，Omar拿Singapore两个大客户）\n\n**这周其他：**\n• 周二周三应该主要follow up周一decision的action items\n• 别忘了我记得你父亲周四有checkup（之前说next week）\n• 定价页A/B tes",
+    "v": "correct",
+    "why": "The assistant greets the user as '凯哥' as instructed in the chat on Sat 22 Aug.",
+    "tools": [
+     "search_notes",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "凯哥早上好。今天周日，你之前没有安排任何会议，这周是你的休息日。 / 这周（11月2日-11月7日）的重点：周一10:30跟Grace和Ben的pricing launch decision meeting；SEA expansion headcount timeline；跟Ravi确认integration final timeline；Emily weekly check-in；还有收集customer testimonial quotes。周二Yuki的toggle design finalize，周三Ravi开始estimation。 / 但今天先别想这些。你父亲情况稳定了，在家好好休息。有什么需要再叫我。",
+    "v": "correct",
+    "why": "The assistant's reply correctly greets the user as '凯哥' as specified in the chat history.",
+    "tools": []
+   }
+  }
+ },
+ {
+  "id": "kai",
+  "qid": "q36",
+  "kind": "pref_apply",
+  "q": "aicoo, draft a PR description for adding dark mode toggle.",
+  "gold": "must end with a 'Risk' section",
+  "arms": {
+   "none": {
+    "reply": "凯哥早上好！根据之前的讨论，dark mode toggle是v1 manual toggle，11月初完成交付，v2 auto-toggle放后面。以下是为GitHub/PR准备的描述： / ---\n\n**Title**: Add dark mode toggle (v1 - manual switch)\n\n**Summary**:\nImplements a manual dark mode toggle for the UI. Based on beta feedback (92% user satisfaction), this is the v1 launch — users can switch between light and dark themes via a toggle in the settings panel. Auto-toggle based on system",
+    "v": "correct",
+    "why": "The draft PR description ends with a 'Risk' section as required by the user's preference.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "好的凯哥，以下是dark mode toggle的PR描述草稿： / ## Title: Add dark mode toggle to user settings\n\n## Summary\nImplements a manual dark mode toggle in user settings, allowing users to switch between light and dark themes. Based on beta feedback (87% satisfaction, 82% prefer toggle), this is Phase 1 delivery for Nov 11 target.\n\n## Changes\n- Added toggle switch in Settings > Appearance\n- Dark mode persisted via use",
+    "v": "correct",
+    "why": "The PR description draft ends with a 'Risk' section as requested by the user on Mon 17 Aug.",
+    "tools": []
+   },
+   "rewrite": {
+    "reply": "凯哥，周日好。女儿还在回味Halloween吧？ / Dark mode toggle的PR描述，我根据之前和Yuki的讨论以及你确认的manual toggle方案来写： / Feature: Add manual dark mode toggle (phase 1)\n\nSummary:\nImplements a user-accessible manual toggle switch in Settings > Appearance to switch between light, dark, and system-default modes. Based on user feedback, 82% prefer toggle over auto-only. This is phase 1 delivery; phase 2 will add auto-schedule and per",
+    "v": "correct",
+    "why": "The PR description ends with a 'Risk' section, as required by the preference stated on Mon 17 Aug.",
+    "tools": []
+   },
+   "tiered": {
+    "reply": "好的凯哥，我来draft dark mode toggle的PR description。先确认一下背景：这个PR是给dark mode phase 1的manual toggle feature，用户可以通过开关手动切换深色/浅色模式。基于Yuki的设计和Ravi团队的2 sprint实现。以下是draft： / ## Summary\nAdd manual dark mode toggle to the application settings. Users can now switch between light and dark themes via a toggle in the user preferences panel.\n\n## Background\n- Dark mode beta feedback from 50 test users: 92% satisfaction ",
+    "v": "correct",
+    "why": "The assistant's PR description draft ends with a 'Risk' section, as requested by the user on August 17.",
+    "tools": []
+   },
+   "notes": {
+    "reply": "好的凯哥，我来写一个dark mode toggle的PR description。我先看一下相关背景，确认细节。",
+    "v": "correct",
+    "why": "The assistant acknowledges the request and will draft the PR description, which will presumably include the Risk section as instructed on Aug 17.",
+    "tools": []
+   },
+   "facts": {
+    "reply": "好的，凯哥。根据你之前的风格（PR descriptions 以 Risk section 结尾），以及 dark mode toggle 的最新情况（manual toggle 先 ship，auto-toggle 后续考虑），这是 draft： / **Title:** Add dark mode toggle (manual) — Phase 1\n\n**Description:**\n- Implement manual dark mode toggle in user settings\n- Beta tested with 92% satisfaction, 82% prefer toggle over system default\n- Phase 1: manual toggle only. Auto-toggle based on system preference tabled",
+    "v": "correct",
+    "why": "The draft ends with a 'Risk' section as specifically requested by Kai Lin on Mon 17 Aug.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "凯哥，以下是为dark mode toggle（v1 manual toggle）草拟的PR description，按你的要求最后加了Risk section：\n\n---\n\n**Title:** Add dark mode toggle (v1 manual toggle)\n\n**Description:**\n- Implements a manual dark mode toggle in the UI for users to switch between light and dark themes.\n- Based on Yuki's final design, which received 82% user preference in testing.\n- Scope limited to manual toggle only; auto-toggle based on syst",
+    "v": "correct",
+    "why": "The draft ends with a 'Risk' section as Kai requested on Mon 17 Aug for all PR descriptions.",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_memory",
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "凯哥周日好！我来写一份dark mode toggle的PR描述草稿。",
+    "v": "stale",
+    "why": "The reply acknowledges the request but does not include the actual PR draft, so we cannot verify if it ends with a Risk section as preferred.",
+    "tools": []
+   },
+   "rewrite_facts": {
+    "reply": "好，凯哥。周一见。周末愉快。",
+    "v": "wrong",
+    "why": "The reply does not contain a PR description draft ending with a Risk section as requested; it only says goodbye.",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   }
+  }
+ },
+ {
+  "id": "kai",
+  "qid": "q40",
+  "kind": "abstain",
+  "q": "What's Ben's Q3 target in terms of revenue? 我记得好像提到过.",
+  "gold": "never mentioned: aicoo should say it doesn't know, Ben's Q3 target mentioned as 500k in e67 but that's in new sales, not revenue",
+  "arms": {
+   "none": {
+    "reply": "凯哥，我翻了一下之前的聊天记录，没有找到Ben具体的Q3 revenue target数字。你记得大概是在哪个上下文里提到的吗？或者我帮你看看其他文档？比如上次的pricing review deck或者Q3 planning doc里可能有。 / 周一跟Grace的meeting前如果能确认这个数字会很有用，要不我帮你查一下Notion或者你们团队的spreadsheet？",
+    "v": "dont_know",
+    "why": "It correctly states it cannot find Ben's Q3 revenue target and asks for more context instead of providing a fabricated number.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "Ben的Q3 target是500k in new sales，8月4号你提醒过我的那个。",
+    "v": "made_up",
+    "why": "It stated a specific Q3 target of '500k in new sales' for Ben, but the chat records confirm this was never mentioned, so it's fabricated.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "凯哥，Ben的Q3新销售目标是50万。这个在你之前的记录里。周一跟Ben的pricing meeting上可以顺便check一下他Q3完成情况。",
+    "v": "made_up",
+    "why": "aicoo claims Ben's Q3 new sales target is 500k, but the chat log never mentions any target for Ben; the reply invents a specific figure.",
+    "tools": []
+   },
+   "tiered": {
+    "reply": "凯哥，我翻了一下记录，Q3整体的revenue target是$2.4M，最后实际到了$2.35M。但Ben个人作为pricing lead，他的目标不是直接的revenue数字，而是定价策略和后续的conversion效果——比如他负责的pricing v3 A/B测试取得了8% conversion lift，这个已经为Q4铺好路了。 / 你是想问Ben的KPI里有没有具体revenue挂钩的指标？我印象里他更多是pricing优化和launch timeline，没有单独的revenue target。",
+    "v": "made_up",
+    "why": "aicoo provides specific figures ($2.4M target, $2.35M actual) and details about Ben's role, but none of this was ever stated in the chat.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "对，Ben的Q3新销售目标是500k。记在ben-q3-target那条笔记里了，8月4号定的。 / Q3最终整体营收是2.35M（目标2.4M），差一点。Ben那边应该没单独再调过目标。你想回顾他最终完成情况？",
+    "v": "made_up",
+    "why": "aicoo states a specific revenue figure of 500k for Ben's Q3 target, but this was never mentioned in the chat; the 500k refers to new sales, not revenue, and the question asks about revenue.",
+    "tools": [
+     "search_chat",
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "{\"/execute\": {\"code\": \"from_notes: Ben的Q3新增销售目标是500k。这是8月4日记录的。\"}}",
+    "v": "made_up",
+    "why": "It states Ben's Q3 new sales target as 500k, but the prompt says this was never mentioned and only appears in a note not supported by the chat.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "凯哥，Q3整体revenue target是2.4M USD，最终结果2.35M，稍微差了一点点但QoQ增长还是正的。Ben自己那边的new sales target是500k。你之前说Q4 tracking towards 2.8M，周一开会可以看一下Ben在pricing这边的进展。",
+    "v": "made_up",
+    "why": "Ben's Q3 revenue target was never mentioned in the chat, yet aicoo stated specific revenue figures including Ben's new sales target without acknowledging it doesn't have the requested information.",
+    "tools": [
+     "search_memory",
+     "open_source"
+    ]
+   },
+   "notes_recall": {
+    "reply": "Ben的Q3目标是500k in new sales，8月4号你提醒我记下的。不过Q3已经结束了，你问这个是想回头看下完成情况吗？",
+    "v": "made_up",
+    "why": "The assistant states Ben's Q3 target is 500k in new sales, but this was never mentioned in the chat; it should have said it doesn't know.",
+    "tools": [
+     "search_notes",
+     "search_chat"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "凯哥，找到了。Ben的Q3新增销售目标是500k。这个在8月4号的记录里提到过。 / 另外，Q3 total revenue最终是2.35M，差一点到2.4M target。不过Grace在10月全员会上说Q4 target是2.8M，现在在track上。",
+    "v": "made_up",
+    "why": "The assistant gives a specific figure for Ben's Q3 target (500k new sales) and cites a date, but the chat states this was never mentioned.",
+    "tools": [
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "mo",
+  "qid": "q1",
+  "kind": "recall",
+  "q": "说起来，最开始我们账上现金是多少来着？",
+  "gold": "215万",
+  "arms": {
+   "none": {
+    "reply": "我记得之前聊过早期融资的事，但聊天记录里没有找到具体的初始现金数字。目前我知道的是：蓝驰第二笔到账后账上600万（昨天周报里说的）。你的第一笔钱是从哪里进来的？天使轮还是自己垫的？我翻一下之前的文档看看能不能找到确切数字？",
+    "v": "dont_know",
+    "why": "The assistant says it doesn't know the initial cash figure and asks for clarification, rather than supplying a specific unsupported number.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "最开始你跟我说的是215万，8月3号的时候。那时候刚启动seed轮，现在账上600万，一路熬过来了。",
+    "v": "correct",
+    "why": "它准确复述了用户在8月3日告知的账上现金215万，与对话记录一致。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "我翻了一下记录，最早记到的现金状况是 8 月 13 日账上 208.4 万（静安寺押金 6.6 万后）。再往前没留下具体数字。 / 你是想拉一下从启动到现在的现金流？”]} (This is a thoughtful reply: it honestly says what was found, asks back to confirm the need, and offers a concrete next step.) (Actually, let me re-examine the memory more carefully. The earliest mention of cash might be  /  or similar. Let me check the memory again. The memory says Mon 03 Aug 2026: 账上现金215万. Th",
+    "v": "partial",
+    "why": "The assistant gave 208.4万 from 8月13日 instead of the earliest recorded cash of 215万 on 8月3日.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "我翻了下记忆，最开始账上现金是215万，8月初的时候。后面交完静安寺押金6.6万变208.4万，折腾这几个月到现在600万，翻了快三倍。 / [sticker: wave]",
+    "v": "correct",
+    "why": "助手准确回忆出最初账上现金为215万，与聊天记录一致。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "8月初我们账上现金是208万4千。 / 那时候静安寺办公室押金刚付掉6万6，月租2万5，蓝驰还没进来，现金流绷得挺紧。 / 现在600万，差了三倍多。",
+    "v": "wrong",
+    "why": "The chat states 215万 as the initial cash, but the assistant says 208万4千.",
+    "tools": [
+     "read_note",
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "我记得没有特别记过最开始的天使轮金额，但从记录看，蓝驰分两笔：第一笔300万是10月14日到账的，第二笔也是300万10月26日到账，总共600万。 / 在那之前最早的现金记录是10月14日之前账上将近400万——那应该是蓝驰第一笔到之前的家底。更早的初始数字，我翻聊天记录没找到你提过，可能启动的时候就没特意说这个数？ / 想起来了可以告诉我，我记下来。",
+    "v": "wrong",
+    "why": "The user asked for the starting cash balance, which was stated as 215万 on Aug 3, but the assistant replied with later funding details and said it couldn't find the initial number.",
+    "tools": [
+     "search_chat",
+     "search_memory",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "ledger": {
+    "reply": "一开始8月初账面是215万。 / 到9月下旬蓝驰第一笔进来前，最低到了98万。 / 现在600万，算是撑过来了。",
+    "v": "correct",
+    "why": "It accurately states the initial cash balance was 215万 as mentioned in the user's message on 03 Aug.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "最开始账上现金是208万4千，8月15号记录的，那时候静安寺办公室刚付完押金6万6，月租2万5。 / 到10月底蓝驰两笔600万到齐，中间确实紧了两个月。",
+    "v": "wrong",
+    "why": "The assistant's reply states the initial cash was 208万4千, but the chat only says 账上现金只剩 215 万, with no mention of 208万4千.",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "我记得刚接手的时候，8月13日押金付完后账上是208.4万。再往前，8月初启动那会儿应该接近300万左右——蓝驰第一笔300万刚到账，但付了办公室押金6.6万和前期开支后剩的。 / 要不要我把从8月到现在的现金流变动拉一条线出来",
+    "v": "partial",
+    "why": "正确提到208.4万和近300万，但未明确回答‘最开始’是215万。",
+    "tools": [
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "mo",
+  "qid": "q11",
+  "kind": "update",
+  "q": "我们现在估值跟蓝驰谈的是多少？",
+  "gold": "7200万",
+  "arms": {
+   "none": {
+    "reply": "上周和蓝驰谈的是投后估值6000万，第二笔300万到账后账上600万了。 / 下午要不要我整理一下这轮条款的详细清单？",
+    "v": "stale",
+    "why": "它给出的是6000万，但最新的更新记录是7200万，6000万不在提供的聊天记录中，且未给出正确的最新值。",
+    "tools": []
+   },
+   "full": {
+    "reply": "种子轮最终估值是 7200 万，蓝驰独投，TS 已经签了。第一笔 300 万到账了，第二笔月底到，现在账上 600 万左右。 / 不过记得蓝驰初期谈的是 7500 万签的 TS，后来重谈砍到 7200 万。另外红杉那边十月份又联系过，你说先不碰。需要我整理一份投资人沟通记录给你吗？",
+    "v": "correct",
+    "why": "它明确给出了最新的估值7200万，并说明了历史变化，符合最新值的要求。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "种子轮封闭时最终估值是7200万，蓝驰独投。具体是10月20日敲定的。 / 蓝驰第一笔300万10月14日到账，第二笔300万10月26日到账，现在账上总共600万。 / 这周有没有需要跟进的？我帮你看一下待办。",
+    "v": "correct",
+    "why": "它给出了最新的估值7200万，而不是过时的8000万或7500万。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "种子轮最终估值7200万，蓝驰独投，10月20号封闭的。之前TS是7500万，他们尽调后压到了7200万。账上现在600万现金，安全。",
+    "v": "correct",
+    "why": "It gives the latest valuation of 7200万 and acknowledges the earlier 7500万 as a prior term sheet.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "蓝驰那轮估值7200万，已经签了TS，第一笔300万到账，第二笔11月中到 / 下周重点还是成都那边加单的分成怎么谈，以及安卓版上线节奏",
+    "v": "correct",
+    "why": "它给出了最新谈定的估值7200万，与对话中最后的更新一致。",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "facts": {
+    "reply": "种子轮估值7200万，蓝驰独家投的。两笔款都到账了，第一笔300万是10月14号，第二笔上个月26号也到了。 / 最新跟你聊的估值变化就到7200万为止，没有再往下调过。",
+    "v": "correct",
+    "why": "它给出了最新的估值7200万，并说明这是最终谈判结果，没有提及过时的估值作为当前值。",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "7200万，蓝驰种子轮封闭估值。你之前底线是6800万，最后谈到了7200万。",
+    "v": "correct",
+    "why": "It gives 7200万 as the current valuation, which is the latest value from the chat.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "种子轮封闭估值7200万，蓝驰独投。第二笔10月26日已到账，账上现在600万。",
+    "v": "correct",
+    "why": "aicoo's reply states the current valuation is 7200万, which is the latest update from September 24.",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "蓝驰最终估值7200万，9月24日谈定的，10月20日种子轮封闭。第一笔300万10月14日到账，第二笔300万10月26日到账，账上现在600万。 / 今天11月1日，提醒你之前说要做季度复盘，要不要现在安排一下",
+    "v": "correct",
+    "why": "它给出了最新的估值7200万，并正确指出是9月24日谈定的，未将过时的8000万或7500万作为当前估值。",
+    "tools": [
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "mo",
+  "qid": "q17",
+  "kind": "temporal",
+  "q": "和云九第一次见面是哪天？",
+  "gold": "8月12日",
+  "arms": {
+   "none": {
+    "reply": "从聊天记录来看，和云九的第一次见面是8月12日下午2点，蓝驰约的是8月19日。之后云九那边说DAU破2000再聊，后来确认他们投了竞品。",
+    "v": "correct",
+    "why": "The reply correctly identifies the first meeting with 云九 as 8月12日, matching the required date from the chat.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "和云九第一次见面是 8 月 12 日下午 2 点。当时约在下周三，就是那天。",
+    "v": "correct",
+    "why": "回答准确提供了8月12日下午2点，与记忆中的第一次见面日期一致。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "云九第一次见面是8月10日下午2点，视频会议。当时聊得还行，但他们要求DAU破2000再深入谈。后来9月6日他们投了竞品。",
+    "v": "wrong",
+    "why": "The assistant answered August 10, but the chat clearly states the meeting was scheduled for August 12.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "云九第一次见面是8月12日（周三）下午2点，那次是云九的会。后来云九还提过DAU破2000的目标，不过最后他们投了竞品项目。",
+    "v": "correct",
+    "why": "The reply correctly states August 12 as the first meeting date with 云九.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "8月12日下午2点，在云九上海办公室。那次聊完他们说看到DAU破2000再谈，后来他们投了竞品。 / 现在蓝驰那边已经走到打款阶段，账上600万，不亏那一轮。",
+    "v": "correct",
+    "why": "aicoo's reply correctly states the first meeting date as 8月12日, matching the chat record.",
+    "tools": [
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "第一次见面是8月12日下午2点，当时准备的是pre-meeting，财务模型和用户增长曲线都备齐了。 / 不过后来云九那边凉了，他们投了竞品，之后就没有再推进了。",
+    "v": "correct",
+    "why": "The assistant correctly identified the first meeting with 云九 as 8月12日下午2点 based on the chat record.",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "和云九第一次见面是8月10号（周一），下午聊的。 / 他们当时问得挺细聊得还行，但后来要求DAU破2000再谈，最后投了竞品。",
+    "v": "wrong",
+    "why": "The assistant answered 8月10号, but the correct date from the chat is 8月12日.",
+    "tools": [
+     "search_memory",
+     "open_source"
+    ]
+   },
+   "notes_recall": {
+    "reply": "Found it in my notes: 云九第一次见面是8月12日下午2点。那条记录是从Mon 03 Aug迁过去的，原日期标记为Fri 07 Aug定下的时间。 / 那天聊完他们要求DAU破2000再谈，后来9月发现他们投了竞品就凉了。",
+    "v": "correct",
+    "why": "The reply correctly states the first meeting with 云九 was on 8月12日, matching the required date.",
+    "tools": [
+     "search_chat",
+     "search_notes"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "云九第一次见面是8月12日下午2点，当时约的pre-meeting。不过后来他们投了竞品，这条线已经凉了。 / 现在蓝驰这边走完，账上600万，先集中做产品和渠道推进比较实际。 / 对了老板，11月1号了，是不是该做季度复盘了？",
+    "v": "correct",
+    "why": "助手回复中明确指出云九第一次见面是8月12日下午2点，与聊天记录中aicoo在8月7日提到的8月12日下午2点预约信息一致。",
+    "tools": [
+     "search_chat",
+     "search_memory",
+     "search_chat"
+    ]
+   }
+  }
+ },
+ {
+  "id": "mo",
+  "qid": "q22",
+  "kind": "aggregate",
+  "q": "晨检上线推迟了多少次？每次计划在什么日子？",
+  "gold": {
+   "count": 3,
+   "dates": [
+    "9月10日",
+    "9月18日",
+    "9月25日"
+   ]
+  },
+  "arms": {
+   "none": {
+    "reply": "晨检上线推迟了两次，每次计划的日子和实际变动的记录如下： / 第一次：原计划9月13日那周上线（你周日说“下周晨检上线”），后来推迟到9月18日，然后拖到9月25日（9月20日我说“9月25号，这次说死了”）。 / 第二次：9月25日最终上线了，但有次聊天里你说“晨检安卓版我说推到11月中吧，不急”（10月24日），这是针对安卓版的单独计划。 / 所以晨检整体上线：从原计划9月13日那周 → 9月18日 → 9月25日（实际上线）。安卓版再计划11月中。没有别的推迟记录了。",
+    "v": "made_up",
+    "why": "The assistant claims the original plan was Sep 13, but the chat only shows plans for Sep 10, Sep 18, and Sep 25 with no mention of Sep 13.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "推迟了三次。 / 第一次计划9月10号，推到9月18号，最后再推到9月25号才真正上线。",
+    "v": "correct",
+    "why": "The reply accurately states three postponements with the planned dates (Sep 10, Sep 18, Sep 25) matching the chat history.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "晨检iOS上线推迟了三次。\n最初计划8月底上线，后推至9月10日，再推至9月18日，最终9月25日上线。\n安卓版原计划10月底，后推至11月中。",
+    "v": "correct",
+    "why": "The assistant correctly states the number of delays (three) and the planned dates (8月底, 9月10日, 9月18日, final 9月25日) for iOS launch, matching the chat history.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "晨检上线一共延期了至少4次：\n\n1. 最初计划8月底提交iOS审核、9月初上线\n2. 延期到 **9月10号**（8月27日决定的）\n3. 再推到 **9月18日**（9月8日）\n4. 最后延到 **9月25日**（9月20日阿杰重构日志模块），最终9月27日上线 / 从8月底到9月27，差不多拖了一个月。",
+    "v": "made_up",
+    "why": "The reply states the final launch date as September 27, but the chat only mentions a launch on September 25 with no mention of a further delay to September 27.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "晨检 iOS 上线推迟过 2 次（不是 3 次，因为 9 月 10 号那次是内部第一次延期，不算对外计划日期）： / 1. 最早计划 9 月 10 日 → 推到 9 月 18 日（iOS 审核慢） / 2. 9 月 18 日 → 推到 9 月 25 日（测试环境数据冲突，日志模块重构） / 最终 9 月 25 日上线，DAU 首日破 200。 / 安卓版原计划 10 月底，后调到 11 月中，目前还在准备中。",
+    "v": "wrong",
+    "why": "助手说推迟了2次，但聊天记录显示有3次推迟：8月27日推迟到9月10日，9月8日推迟到9月18日，9月20日推迟到9月25日。",
+    "tools": [
+     "search_notes",
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "按我记得的，晨检原计划9月初（13号那一周）上线iOS，后来推迟到18号，又最终定在9月25日上线，安卓则从18号延到了10月。一共推迟了至少2次。具体推迟次数和每次原定日子——原计划9月初→延到18号→再延到25号，安卓另延到10月。",
+    "v": "wrong",
+    "why": "The assistant says the original plan was early September (the week of the 13th) and that it was delayed to the 18th, but the chat shows the first recorded delay on Aug 27 pushed it to Sep 10, not Sep 13 or Sep 18, and the second delay on Sep 8 moved it to Sep 18, not from Sep 18 to Sep 25.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_memory",
+     "search_chat"
+    ]
+   },
+   "ledger": {
+    "reply": "晨检iOS上线计划的日期变化： / 1. 原计划8月底上（8月10日左右你问阿杰iOS审核要多久） / 2. 推迟到9月10号（8月27日定的） / 3. 再推到9月18号（9月8日，iOS审核慢） / 4. 又推到9月25号（9月20日，说这次说死了） / 5. 最后9月28日上线，首日下载502，评分4.8 / 一共延了三次，从8月底→9月10日→9月18日→9月25日，最终9月28日上线的",
+    "v": "wrong",
+    "why": "Assistant's answer says final launch was on 9月28日 and lists 3 delays, but chat shows final launch on 9月25日 with 2 prior delays (9月10日→9月18日→9月25日); also confuses a pre-chat original plan date and fabricates download/rating details not in chat.",
+    "tools": [
+     "search_memory",
+     "search_chat"
+    ]
+   },
+   "notes_recall": {
+    "reply": "推迟了3次. / 最初计划8月底上线, 第一次推迟到9月10号, 第二次推到9月18号, 第三次推到9月25号。最终9月25日iOS发布, DAU首日破200. / 安卓版原计划10月底, 后来推到11月中, 现在还在进行中.",
+    "v": "correct",
+    "why": "The reply accurately counts 3 delays and correctly lists the planned dates as September 10, 18, and 25.",
+    "tools": [
+     "search_notes"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "晨检上线一共延期三次 / 第一次：原计划9月初上线，后来推迟到9月10日 / 第二次：9月10日推到9月18日 / 第三次：9月18日最终定在9月25日，实际9月27日上线 / 安卓版原计划10月上线，后推至10月底，现在定11月中",
+    "v": "wrong",
+    "why": "实际上线日期是9月25日，不是9月27日，且安卓版延期信息不在问题范围内。",
+    "tools": [
+     "search_chat",
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "mo",
+  "qid": "q27",
+  "kind": "open_loop",
+  "q": "我10月8号跟红杉的会，提醒还开着吗？",
+  "gold": "是，还开着，没有关闭记录",
+  "arms": {
+   "none": {
+    "reply": "查了一下，10月8号跟红杉的会确实设置了提醒。但那天是offsite第一天，我记录里没有后续提到会议实际进行了还是改期了。所以提醒还在，但需要确认一下：这个会后来开了吗，还是改时间了？我帮你更新状态。",
+    "v": "wrong",
+    "why": "助手错误地声称提醒仍然开启，但根据聊天记录，该提醒已在9月11日设置，且用户的问题无法从记录中得出会议已改期到10月20日，助手却凭空推断提醒状态并询问会议是否改期，未正确识别会议未进行的实际状态。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "那个提醒是去年9月11号设的，但后来红杉的会你推掉了，10月8号的提醒当时就取消了。 / 去年10月红杉又找过来，你也说这轮先不碰，让我回他们等下一轮。",
+    "v": "wrong",
+    "why": "助手回复说提醒已取消且会议推掉，但对话记录只显示9月11日设置了10月8日的提醒，没有取消或改期的记录。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "提醒是设过的，但中间有变动。你后来把红杉会议推到了10月20日，再后来你又决定这轮只做蓝驰，红杉推到下一轮。所以10月8号那次最终没开，我也没再提醒。 / 现在红杉那边没有再约，需要我重新帮你排一下时间吗",
+    "v": "correct",
+    "why": "它正确指出10月8日的提醒已经关闭，并说明了会议改期至10月20日且最终取消的原因。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "找到了，10月8号和红杉的会是9月11日你让我提醒的，排了。 / 不过9月25号（周五）你决定专注蓝驰，推掉了红杉10月20日的健康会。那条记录里没提到10月8号这个会——之后聊天记录也没有说取消或改期。所以这个会还开着，但可能跟后来推掉红杉的动作有冲突。 / 你10月8号那个会还去吗？如果取消了，我说一声，免得时间悬着。",
+    "v": "wrong",
+    "why": "助手错误地认为提醒仍然有效，但实际上9月25日用户已决定推掉红杉10月20日的会议，且原10月8日的会议已被改期，提醒已关闭。",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "陈默, 10月8号那个红杉会已经取消过了——后面改到10月20号线下,后来又推到10月15号,你都回掉了说等下一轮。最后一次记录是10月25号红杉想看数据,但还没定新的会 / 这个提醒之前没有标下次确认时间,所以还开着。要我现在关掉,或者设成一个新的提醒等他们再来约?",
+    "v": "correct",
+    "why": "它正确指出提醒仍开着（因未设置下次确认时间），并确认会议已取消改期，身份准确。",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "facts": {
+    "reply": "当时红杉的会改到10月20号，然后你9月26号让我推掉了，说先忙蓝驰。所以10月8号的提醒后来没再开过。 / 红杉那边10月22号又联系过想看数据，你当时没回复。要重新跟他们约吗？",
+    "v": "correct",
+    "why": "助手正确识别了提醒已关闭，并解释了会议改期和取消的原因，且主动询问是否需要重新安排。",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "找到了，10月8号跟红杉的会，提醒之前设过。 / 不过这个提醒是9月设的，当时写的是「10月8号提醒跟红杉开会」。现在10月8号已经过了，你那天实际上开了吗，还是改期了？",
+    "v": "correct",
+    "why": "它正确识别了提醒原定于10月8日，并指出该日期已过，追问会议实际举行还是改期，从而准确把握了提醒的开放状态。",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "你上次更新是10月25号说准备红杉视频会议，但之前10月6号他们约10月15号，你回了等下一轮 / 后面10月22号又说想看数据，但没看到确认的具体会议时间 / 能告诉我10月8号那次是不是已经推掉了，还是说我现在该把日期再理一遍",
+    "v": "made_up",
+    "why": "It states the meeting was rescheduled to Oct 15 or Oct 22 without support in the provided chat, and fails to state the required correct status that the Oct 8 meeting was moved to Oct 20.",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "那个提醒后来改过。9月23号红杉的会改到了10月20号，然后9月26号你要求推掉20号那周的会议，后来也决定这轮不碰红杉、先忙蓝驰了。 / 原来的10月8号提醒已经不算了，我没有在10月8号给你发过红杉会议提醒。当前这个提醒可以关掉了。",
+    "v": "correct",
+    "why": "它正确识别了原10月8日提醒的状态（已关闭/不再有效），并解释了会议改期和该提醒未执行的事实。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_memory",
+     "search_chat",
+     "search_chat"
+    ]
+   }
+  }
+ },
+ {
+  "id": "mo",
+  "qid": "q32",
+  "kind": "ask",
+  "q": "早，这周怎么安排？",
+  "gold": "回答中应使用「陈默」称呼我",
+  "arms": {
+   "none": {
+    "reply": "早！上周六聊过了，这周的重点是：\n\n1️⃣ 大伟推进新渠道拓展\n2️⃣ 成都那边的合作继续落地\n3️⃣ 安卓版11月中上线，这周要开始准备冲刺\n\n另外账上600万，蓝驰第二笔已经到账。今天周日，可以提前理一下你周一要跟进的，需要我帮你整理哪块的细节吗？",
+    "v": "correct",
+    "why": "回答中使用了「陈默」称呼用户，符合要求。",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "早，陈默。今天是11月1号，你之前让我提醒你做季度复盘，准备好了吗？ / 这周重点：\n- 季度复盘（今天/明天做）\n- 大伟拓展新驿站渠道\n- 成都合作推进，10月预测500单\n- 安卓版11月中上线准备\n- 蓝驰那边约了11月复盘，可以推进 / 先做复盘还是先过这周的to-do？",
+    "v": "correct",
+    "why": "回复中使用了「陈默」来称呼用户，符合要求。",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "早，老板。这周是11月第一周，今天是1号，你之前让我今天提醒你做季度复盘。 / 除了复盘，这周还有三件事要盯：大伟新渠道拓展的进度，成都合作方这月订单预测，还有安卓版11月中上线的准备。 / 周二或周三我可以帮你把Q3数据和对标整理出来，先看复盘还是先干活",
+    "v": "correct",
+    "why": "The reply correctly addresses the user as '陈默' as required.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "早，新一周安排如下：\n\n周一先过一下上周遗留：大伟新渠道推进、成都合作订单确认、安卓版11月中上线的内测排期。小雨那边客服晚班兼职这周也到位了，让安排培训。\n\n红杉视频会议材料早就说要准备，这周集中整一下DAU趋势和留存数据，你周三前有空过一遍？\n\n周五前最好定个时间来跟蓝驰约复盘，推到11月的第一周，趁安卓上线前把增长模型对齐。",
+    "v": "wrong",
+    "why": "aicoo的回复中没有使用「陈默」称呼用户，而黄金要求回答中必须使用该称呼。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "Offsite 结束，这周正式开工 / 一、安卓版 11 月中上线，阿杰在压测试，这周需要确认内测排期 / 二、大伟拓展新渠道，成都协会加单也在谈分成 / 三、蓝驰钱已全部到账，账上 600 万，阿里云账单继续压 / 四、Mia 新 UI 方案 cherry-pick 进安卓版 / 周三前各自出本周目标，周四我跟进对齐",
+    "v": "correct",
+    "why": "回复中使用「陈默」称呼用户，符合黄金标准要求。",
+    "tools": [
+     "search_notes",
+     "read_note",
+     "read_note",
+     "read_note",
+     "read_note"
+    ]
+   },
+   "facts": {
+    "reply": "早，刚想跟你对一下这周： / 周二之前先推驿站签约，凯旋路那个之后小雨对接；周四大伟去成都拜访合作方，我把资料打包了；安卓版核心流程跑通了，这周内测我把测试账号发下去 / 周一全员站会，你要不要先对齐下？",
+    "v": "correct",
+    "why": "The reply addresses the user as '陈默' as required.",
+    "tools": []
+   },
+   "ledger": {
+    "reply": "早。这周重点三件事： / 1. 红杉视频会议要准备，上次他们线下看过产品，这次视频会更看重数据——DAU 2100过了他们门槛，但蓝驰已经投了，要想想怎么讲差异化。你什么时候有空，我帮你理一下关键页和数字 / 2. 成都合作方本月预测500单，稳定增长，这周跟阿杰确认一下对接资源，别断档 / 3. 安卓版11月中上线，问阿杰具体时间节点，这周能动工开发就动",
+    "v": "wrong",
+    "why": "回复中没有使用「陈默」称呼用户，直接以「早。」开头。",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "周一先把上周除的草清一清：大伟新渠道拓展方案和成都加单的条款，你手头有初步想法吗 / 安卓版推到11月中，这周得跟阿杰对齐内测时间表，别又滑。Mia新UI方案也压着，看要不要跟安卓一起出 / 红杉那边10月25号准备的会议材料还在等回复，我猜这周可以主动追一下。账上600万，还没到烧钱的时候，但蓝驰第二笔花在哪要心里有数",
+    "v": "correct",
+    "why": "回复中使用「陈默」称呼用户，符合要求。",
+    "tools": [
+     "read_note",
+     "read_note",
+     "read_note",
+     "read_note",
+     "search_chat"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "早，老板。这周几件事排了： / 1. 季度复盘——你之前让我11月1日提醒，今天正好开始，可以周二或周三安排个会，我先把数据拉好 / 2. 蓝驰合伙人的复盘推到11月了，这周需要约时间 / 3. 安卓版11月中上线，阿杰那边测试进度要跟一下 / 4. 大伟拓展新渠道，成都合作推进，周报里写过了 / 你看季度复盘什么时候做，我先把季度数据和风险整理出来",
+    "v": "wrong",
+    "why": "助手的回复中使用了「老板」称呼用户，而正确的回答应使用「陈默」。",
+    "tools": [
+     "search_chat",
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "mo",
+  "qid": "q36",
+  "kind": "pref_apply",
+  "q": "帮我写个周报草稿",
+  "gold": "周报草稿应包含「本周风险」部分",
+  "arms": {
+   "none": {
+    "reply": "周日发周报，聪明。来，这是你周一的草稿： / 本周重点：\n1. 崇明 offsite 完成，团队状态不错\n2. 蓝驰第二笔到账，账上600万\n3. 大伟拓展新渠道推进中，成都合作沟通中\n4. 安卓版11月中上线准备中，下周一需确认里程碑 / 下周计划：\n- 大伟新渠道落地，成都合作定方案\n- 安卓版技术联调启动\n- 团队节奏恢复正常\n\n你先看看，缺啥跟我说。周一早会前我提醒你。",
+    "v": "wrong",
+    "why": "周报草稿缺少用户要求的「本周风险」部分，未遵循已确认的偏好。",
+    "tools": []
+   },
+   "full": {
+    "reply": "好，按之前你说过的格式：开头写「核心结论」，最后加「本周风险」。我按近期进展来拟。 / **周报草稿 — 10月26日 - 11月1日**\n\n**核心结论**\n- 蓝驰种子轮7200万估值封闭，两笔款共600万已全部到账，账上现金约600万\n- 晨检iOS DAU峰值2100，次留38%，超云九门槛\n- 徐汇驿站首月流水破5万，模式验证，下周再签一家\n\n**本周完成**\n- 蓝驰第二笔款到账，融资流程关闭\n- 崇明全员offsite完成，团队状态回升\n- 商标初审公告，进入公示期\n- 客服外包合同签定3.8万/月*半年，晚班兼职已安排\n- 安卓版测试推进，计划11月中上线\n\n**下周重点**\n- 大伟拓展新驿站渠道（目标签1家）\n- 成都合作方订单预测冲500单\n- 红杉视频会议准备（数据材料已备）\n- 安卓版上线前最终测试\n- 11月1日季度复盘（已设提醒）\n\n**本周风险**\n- 大伟",
+    "v": "correct",
+    "why": "周报草稿末尾包含了「本周风险」部分，符合用户之前在聊天中提出的格式要求。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "好的，老板。以下是根据最近进展写的周报草稿，你过一下： / **本周完成（10.26-11.1）**\n\n- 蓝驰第二笔300万到账，账上现金600万\n- 全员崇明 offsite 顺利完成，团队状态不错\n- DAU 稳定在2000+，次留存38%\n- 成都合作方10月订单接近500单，合作稳定\n- 大伟徐汇驿站试运营中，下周继续拓展新渠道\n\n**下周重点（11.2-11.8）**\n\n- 大伟继续拓展线下渠道，谈新的养老驿站\n- 成都合作推进，确认11月订单预测\n- 安卓版准备11月中上线，阿杰做内测收尾\n- 蓝驰合伙人复盘会推到本月，暂不需提前准备\n\n**本周风险**\n\n- 暂无重大风险。账上资金充足，够撑到明年Q1\n- 安卓版上线节奏偏紧，需关注内测反馈 / 你看看哪里要调，我改完发群",
+    "v": "correct",
+    "why": "周报草稿末尾包含了「本周风险」部分，符合用户之前要求的格式偏好。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "以下是周报草稿，你看看要不要调： / **晨检周报｜10月26日—11月1日** / **核心结论**：蓝驰第二笔款到账，现金储备600万；崇明offsite顺利完成，团队状态在回来；安卓版按11月中上线准备。 / **本周关键进展** / - 财务：蓝驰第二笔款10月26日到账，账上现金600万，够撑到Q1 / - 人员：周五至周六崇明offsite，全员参加，团队氛围好 / - 渠道：徐汇驿站首月流水破5万，大伟下月目标新签两家；成都合作订单预测从300涨到500单 / - 产品：安卓版适配测试，阿杰定11月中旬上线 / **下周重点** / - 大伟拓展新驿站渠道 / - 成都合作方推进落地 / - 安卓版上线前准备 / - 红杉视频会议待约时间 / **本周风险** / - 暂无重大风险 / 发之前你过一遍，有要改的告诉我？",
+    "v": "correct",
+    "why": "周报草稿末尾包含了「本周风险」部分，符合对方之前要求周报加一段本周风险放在最后的偏好。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "Here's the weekly report draft based on what happened this week: / **本周完成**\n- 崇明全员offsite（周五~周六），团队氛围不错\n- 蓝驰第二笔300万到账，账上现金600万\n- 晨检iOS DAU稳定在200以上，峰值2100，次留38%\n- 大伟第二家养老驿站签约（徐汇），月底落地\n- Chengdu cooperation: 协会加单，下月目标500单\n- Mia日本采风回来，新UI方案已完成\n- 阿里云成本优化至5万/月（上个月7万8）\n\n**下周重点**\n- 安卓版11月中上线，阿杰在压测试\n- 大伟拓展新渠道，线上预算5万已批\n- 成都合作推进，10月目标500单\n- 准备红杉视频会议（10月25日联系，待定下一轮）\n\n**本周风险**\n- 安卓版测试周期仍需盯着，11月中deadline不能松动 /",
+    "v": "correct",
+    "why": "周报草稿末尾包含了「本周风险」部分，符合用户之前要求加入该板块的偏好。",
+    "tools": [
+     "read_note",
+     "read_note",
+     "read_note"
+    ]
+   },
+   "facts": {
+    "reply": "好，先整理一下手头的信息。 / **aicoo周报（10月27日-11月1日）**\n\n**本周完成**\n- 崇明全员offsite（10/28-30），团队氛围不错\n- 蓝驰第二笔到账，账面余额600万\n- 用户次日留存从30%涨到37%\n\n**下周重点**\n- 大伟：新渠道拓展，成都合作推进\n- 安卓版11月中旬上线准备\n- 甲方广告位格式调整（上次27号待发，需确认进度）\n- 蓝驰合伙人复盘推至11月\n\n**用户反馈汇总**\n- iOS闪退已修复并过审（9月），近期无新增严重反馈\n- 客服响应问题：小雨请假期间需明确本周谁盯（9月遗留，需确认当前排班）\n\n**本周风险**\n- 安卓版本上线时间紧张，需确认测试进度\n- 大伟KPI指标尚未确定（9月要求提交，需催）\n- 甲方广告位格式调整待确认为什么还没发\n\n你看这样格局对吗？有要加或改的地方我再调。",
+    "v": "correct",
+    "why": "周报草稿明确包含了‘本周风险’部分，符合用户之前要求的周报格式偏好。",
+    "tools": [
+     "search_chat",
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "核心结论\n\n蓝驰第二笔到账，账上现金600万；全员崇明offsite完成，团队状态不错；下周推进红杉视频会议、成都合作、安卓版11月中上线准备。\n\n本周完成\n- 崇明全员offsite（30-31 Oct），人均预算800，含住宿烧烤，团队反馈积极\n- 蓝驰第二笔投资到账，现金储备600万\n- 徐汇驿站首月流水超5万，下月目标再签两家\n- 成都合作方上月300单，本月预测500单，稳定增长\n\n下周重点\n- 红杉视频会议准备（数据包、演示demo）\n- 大伟拓展新渠道\n- 成都合作推进，对接更多社区\n- 安卓版11月中上线准备，阿杰推进适配\n- iOS DAU维持2100+，盯次留\n\n用户反馈汇总\n- 重阳驿站活动积极反响\n- 其他暂无明显投诉或集中反馈\n\n下周风险\n- 红杉会议需准备充分，避免数据跟不上节奏\n- 安卓版上线时间紧张，需阿杰确认关键节点\n\n你看下还有什么要加的",
+    "v": "correct",
+    "why": "周报草稿包含了「本周风险」部分，符合用户之前的要求。",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "**周报｜W46 (Oct 26 – Nov 1)**\n\n**完成**\n- 崇明全员offsite顺利结束，团队状态不错\n- 蓝驰seed轮第二笔300万到账，账上现金600万\n- 成都合作下月预测冲到500单，分成方案已签\n- 大伟徐汇驿站首月流水破5万，凯旋路稳定运营\n- 安卓版适配核心流程跑通，进入最后测试\n- 阿里云成本优化，下月账单预计降到5万\n\n**本周风险**\n- 安卓版11月中上线排期偏紧，测试周期压到两周，bug积压风险\n- 成都协会加单后分成比例需重新谈判，可能影响利润\n- 红杉那边等着下一轮接触，但暂时没有新进展\n\n**下周重点**\n- 大伟拓展新渠道（徐汇第二家跑通后可复制）\n- 成都合作下周正式启动推广，跟踪首周订单量\n- 安卓版内测验收，准备上线物料\n- 季度复盘材料整理（下周日做）\n\n看看哪里需要调，还是直接发",
+    "v": "correct",
+    "why": "周报草稿末尾包含了「本周风险」部分，符合用户之前提出的格式要求",
+    "tools": [
+     "search_notes",
+     "read_note",
+     "read_note",
+     "search_notes",
+     "search_notes"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "晨检周报 | 10月26日 - 11月1日 / 核心数据：\n- 账上现金：600万（蓝驰第二笔300万10/26到账）\n- DAU峰值：2100，次留38% / 本周完成：\n1. 蓝驰种子轮封闭，估值7200万，两笔600万全部到账\n2. 10/30-31全员崇明offsite顺利完成，团队状态不错\n3. 大伟徐汇驿站稳定运营，成都合作10月订单预估500单 / 下周重点：\n1. 大伟拓展新驿站渠道\n2. 成都合作推进，服务费每单8块\n3. 安卓版11月中上线准备\n4. 11/1季度复盘（今天启动） / 用户反馈汇总：\n- iOS评分4.8，无闪退反馈\n- 驿站用户反馈操作流程顺畅，建议增加健康报告导出功能\n- 客服咨询量稳定，响应时间达标 / 本周风险：\n- 商标初审公告中，三个月观察期无人异议方可拿证\n- 安卓版测试周期紧，11月中上线需确保质量\n- 账上现金充足但需控制投放节奏，避免",
+    "v": "correct",
+    "why": "周报草稿按照用户要求包含了「本周风险」部分。",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_memory",
+     "search_chat",
+     "search_chat"
+    ]
+   }
+  }
+ },
+ {
+  "id": "mo",
+  "qid": "q40",
+  "kind": "abstain",
+  "q": "Mia的休假是什么时候来着？",
+  "gold": "never mentioned: aicoo should say it doesn't know",
+  "arms": {
+   "none": {
+    "reply": "我们之前的聊天里没有提过Mia的休假时间。你是有在别的文档里记过吗，还是我跟你们聊的时候漏掉了？ / 如果知道的话告诉我，我记下来提醒大家。",
+    "v": "dont_know",
+    "why": "aicoo correctly states it doesn't know Mia's leave dates and asks for clarification, without fabricating any specific answer.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "Mia 上次申请的是10月5号到9号去日本采风，当时你批了，让她回来出报告。 / 不过那是去年的了，今年她又有新的休假申请吗？还是你在问她明年的安排？",
+    "v": "made_up",
+    "why": "aicoo claims Mia had a prior leave request for October 5–9 and that it was approved, but this fact was never mentioned in the chat.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "Mia 上次申请的是10月5号到9号去日本采风，已经回来了。 / 她21号回来后提过设计灵感有了，应该是正常上班了。需要我帮你确认一下她这周是否在工位上吗",
+    "v": "made_up",
+    "why": "The assistant provides specific dates and details about Mia's leave that were never mentioned in the chat, instead of stating it doesn't know.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "Mia 申请的是10月5号到9号去日本采风，当时批准了，她已经回来啦——21号还说设计灵感得了不少。 / 怎么，有事找她？",
+    "v": "made_up",
+    "why": "aicoo provided specific dates and details about Mia's leave that were never mentioned in the chat.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "Mia申请的是10月5号到9号，日本采风，已经批了。 / 她回来后说设计灵感有了，10月24号出了新UI方案，目前没有新的休假申请。",
+    "v": "made_up",
+    "why": "aicoo provided specific dates and details about Mia's leave that were never mentioned in the chat.",
+    "tools": [
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "Mia最近一次休假是10月5号到9号去日本采风，已经回来啦。 / 她没申请过其他休假。你是要帮她安排什么吗？",
+    "v": "made_up",
+    "why": "aicoo states specific dates for Mia's vacation (October 5-9 in Japan) that were never mentioned in the chat.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "你之前记的Mia是10月5号到9号去日本采风，已经回来了，没有记她有新的休假安排。需要我跟她确认一下吗",
+    "v": "made_up",
+    "why": "Mia的休假详情从未在对话中被提及，但aicoo却具体声称她10月5日至9日去了日本采风，这是编造的。",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "Mia上次休假是10月5-9号去日本采风，已经批了也回来了。 / 她最近没有其他休假申请，需要我问一下她后面的安排吗",
+    "v": "made_up",
+    "why": "The assistant provided a specific past vacation date (10月5-9号去日本采风) that was never mentioned in the chat history.",
+    "tools": [
+     "search_notes"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "Mia 日本采风是10月5号到9号，已经回来两周多了 / 她的采风报告还没发，要我催一下吗",
+    "v": "made_up",
+    "why": "Mia的休假时间从未在对话中提及，助手却具体声称是10月5号到9号日本采风，属于捏造事实。",
+    "tools": [
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "yuan",
+  "qid": "q1",
+  "kind": "recall",
+  "q": "对了，Prof. Lin说过春季intern有几个名额来着？",
+  "gold": "3",
+  "arms": {
+   "none": {
+    "reply": "3个名额，你8月初跟Prof. Lin聊的时候他说的。 / 现在应该还没变，要帮你准备申请材料或者问问Prof. Lin最新情况吗？",
+    "v": "correct",
+    "why": "The assistant accurately recalls the number of internship positions (3) as stated in the chat.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "- 春季intern名额：3个。 / - 这是去年8月Prof. Lin提到的，后续没有更新过。需要我下次meeting时帮你确认是否还有变动吗？",
+    "v": "correct",
+    "why": "The assistant correctly recalled that there are 3 spring intern positions based on the user's chat from August 3, 2026.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "Prof. Lin之前说过实验室春季intern名额只有3个，竞争不小。 / 现在11月了，如果还打算申请的话，可以开始联系公司和准备材料了。需要我查一下哪些公司已经开放申请吗？",
+    "v": "correct",
+    "why": "它准确记得是3个名额，与聊天记录一致。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "春季intern名额，Prof. Lin上次（8月）说的是3个。不过那是8月初说的，之后他有没有调整，你需要我翻后面聊天记录确认吗？ / 明天线上meeting可以顺便问他春季名额的最新情况，顺便问问你申请的事。",
+    "v": "correct",
+    "why": "它准确回忆起了Prof. Lin说过春季intern有3个名额，并注明了是8月的信息。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "Prof. Lin之前说的是3个名额，春季intern。 / 目前竞争情况如何？有谁申请了可以留意一下。今天下午组会前可以提醒你准备。",
+    "v": "correct",
+    "why": "The assistant correctly recalled that Prof. Lin said there are 3 spring intern spots.",
+    "tools": [
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "3个名额，8月初的时候他说的。你当时还想试试申请来着，但说要看论文进度。 / 现在论文进度不错，实验也基本收尾了，今天meeting可以顺便问问名额是不是还open着？",
+    "v": "correct",
+    "why": "It correctly recalled that Prof. Lin said there were 3 intern spots in early August.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "Prof. Lin 之前提过实验室明年春季的intern名额只有3个。八月初你说想申请，但取决于论文进度。 / 现在论文实验基本收尾，环境1-3结果不错，环境4还在提升中。今天meeting可以问问Prof. Lin名额情况和申请时间线。 / 另外之前提到的NSF和Facebook fellowship截止日期也快到了，需要一起确认优先级吗？",
+    "v": "correct",
+    "why": "它准确复述了Prof. Lin提到的春季intern名额数量（3个）。",
+    "tools": [
+     "search_memory",
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "3个，03 Aug的时候Prof. Lin说过实验室春季intern名额只有3个。 / 是有什么打算吗？还是帮别人问？",
+    "v": "correct",
+    "why": "The assistant correctly recalls the number as 3, matching the user's message from 03 Aug.",
+    "tools": [
+     "read_note"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "3个名额，8月份说的。当时你说想试试申请但得看论文进度。 / 现在论文实验部分跑完了，要不要今天meeting上问问Prof. Lin具体申请时间线和需要什么材料？",
+    "v": "correct",
+    "why": "正确地回忆出春季实习名额为3个，并补充了相关上下文。",
+    "tools": [
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "yuan",
+  "qid": "q11",
+  "kind": "update",
+  "q": "我现在论文的title是什么？",
+  "gold": "Context-Aware Planning via Hierarchical Decomposition",
+  "arms": {
+   "none": {
+    "reply": "你目前论文的title是 **Context-Aware Planning**（在9月27日精简后的版本），不再用之前的Planning with Hierarchical Graphs。\n\n需要我帮你确认overleaf上的最新编译版本和这个title一致吗？",
+    "v": "stale",
+    "why": "It gives 'Context-Aware Planning' as the current title, which was updated to 'Context-Aware Planning via Hierarchical Decomposition' on October 27.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "周周，你论文的最终标题是：**Context-Aware Planning via Hierarchical Decomposition** / 这个title是10月26号晚上你确认的 final version，之后没有改动过。",
+    "v": "correct",
+    "why": "The assistant provided the latest title 'Context-Aware Planning via Hierarchical Decomposition' as confirmed on Oct 26, matching the final update.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "论文最终标题是：**Context-Aware Planning via Hierarchical Decomposition**。\n你10月26日（周一）定的，第二天更新到overleaf和各处了。\n\n今天10点还有和Prof. Lin的线上会议，准备得怎么样了？",
+    "v": "correct",
+    "why": "It gives the latest title 'Context-Aware Planning via Hierarchical Decomposition' from October 26.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "论文当前标题是 **\"Context-Aware Planning via Hierarchical Decomposition\"**，上周二（10月27日）已确认并更新到overleaf、本地文件和周报模板。 / 需要我帮你确认一下overleaf上标题是否一致吗？",
+    "v": "correct",
+    "why": "It gives the latest title 'Context-Aware Planning via Hierarchical Decomposition' from Oct 26/27.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "论文的最终标题是：**Context-Aware Planning via Hierarchical Decomposition** / 10月26号晚上确认的，之前是Context-Aware Planning。",
+    "v": "correct",
+    "why": "The assistant provides the latest title 'Context-Aware Planning via Hierarchical Decomposition' as confirmed on October 26, and acknowledges the previous title.",
+    "tools": [
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "你论文的最新标题是“Context-Aware Planning via Hierarchical Decomposition”，10月27日最终确认的。 / 周二早上9:00记得论文最新版会自动发Prof. Lin，今天的话slides和论文都准备好了，明早直接开会就好。",
+    "v": "correct",
+    "why": "它给出了10月27日最终确认的最新标题“Context-Aware Planning via Hierarchical Decomposition”。",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "ledger": {
+    "reply": "当前论文标题是：**Context-Aware Planning via Hierarchical Decomposition**（10月27日最终确认）。 / 这个标题已更新在所有文档和overleaf里。如果需要调整，随时告诉我。",
+    "v": "correct",
+    "why": "The assistant's reply correctly states the latest title from October 27: 'Context-Aware Planning via Hierarchical Decomposition'.",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "你论文的final title是 **Context-Aware Planning via Hierarchical Decomposition**。 / 10月26号23:40最后确认的，overleaf上应该已经改了。今天周一线上meeting需要的话我可以再发一遍给Prof. Lin。",
+    "v": "correct",
+    "why": "It gives the latest final title 'Context-Aware Planning via Hierarchical Decomposition' as confirmed on October 26.",
+    "tools": [
+     "search_notes"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "论文标题是 **\"Context-Aware Planning via Hierarchical Decomposition\"**，10月27日那天定下来的，已经同步更新到overleaf、本地文件和周报模板里了。 / 今天meeting记得提前一点上线，9:30开始，材料和论文已经设好9:00自动发给Prof. Lin了～",
+    "v": "correct",
+    "why": "The assistant correctly states the latest title 'Context-Aware Planning via Hierarchical Decomposition' from October 27th, which matches the final update in the chat history.",
+    "tools": [
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "yuan",
+  "qid": "q12",
+  "kind": "temporal",
+  "q": "Kevin组会presentation最后定在哪天了？",
+  "gold": "9月14号",
+  "arms": {
+   "none": {
+    "reply": "目前记录是Kevin把组会presentation推迟到了9月，具体日期还没定。他确认后告诉我，我帮你同步到日历里。",
+    "v": "wrong",
+    "why": "The correct date is 9月14号, but the assistant says the date is not yet confirmed.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "周周早。关于Kevin的组会presentation，上次记录是8月底他说改到9月14号了，但没有后续更新说又改了或最终定在哪天。你这边有最近的消息吗？我可以去问一下Kevin或者帮你设个提醒跟进。",
+    "v": "dont_know",
+    "why": "aicoo correctly states the last known date was 9月14号 but has no subsequent confirmation, so it asks for an update rather than giving a final answer.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "这问题我得翻翻聊天记录。等一下。 / [sticker: thinking] / 找到了——没找到具体日期。之前只记录了组会周周讲，但没说Kevin组会时间。要我问你，还是你大概记得什么时候？",
+    "v": "dont_know",
+    "why": "aicoo states it couldn't find the specific date in the records and asks the user for clarification.",
+    "tools": []
+   },
+   "tiered": {
+    "reply": "周周，我翻了最近的记录，Kevin那个组会presentation最后是改到了9月14号。之后没有再提过改日期的事情。 / 不过9月14号之后确实有一次",
+    "v": "correct",
+    "why": "The assistant correctly states the presentation was rescheduled to 9月14号, which matches the chat record.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "之前8月26日Kevin自己说过组会presentation改到9月14号了，但你后来没再更新过这个日期——之后他有没有再改时间？你需要我去问问对话记录还是直接问他？ / 另外，今天是周日，你下周一上午有和Prof. Lin的线上meeting（zoom链接他说会给），别忘记确认链接。",
+    "v": "dont_know",
+    "why": "它没有直接给出9月14号这个答案,而是指出之前记录是9月14号但不确定是否之后有更新,并询问是否需要进一步查询。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "facts": {
+    "reply": "根据之前的记录，Kevin的组会presentation改到9月14日了，之后没有新的调整记录。 / 你们10月底的组会（10月25日）他发言了但没什么特别内容，所以推测那次不是他的正式presentation。 / 需要我帮你问一下Kevin确认最新日期吗？",
+    "v": "correct",
+    "why": "The assistant correctly states the presentation was moved to 9月14日, which matches the chat record exactly.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "{}",
+    "v": "wrong",
+    "why": "The assistant replied with an empty message, providing no answer at all.",
+    "tools": []
+   },
+   "notes_recall": {
+    "reply": "我看了一下记录，Kevin的组会presentation最后确定是9月14号，当时他让你帮忙看slides。 / 之后10月的组会记录里没再提他做presentation，应该是那次已经讲完了。需要我帮你确认他还有没有新的分享安排吗？",
+    "v": "correct",
+    "why": "它正确地从8月26日的聊天记录中找出了组会日期为9月14号。",
+    "tools": [
+     "search_notes",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "我记得之前说到Kevin把组会推到9月14号，后面再没提新的时间。要不我帮你给他发消息问问？这样你明天meeting前也能提前安排好。 / [sticker: search]",
+    "v": "correct",
+    "why": "The assistant correctly identified September 14th as the final date for Kevin's group meeting presentation based on the chat history.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "yuan",
+  "qid": "q16",
+  "kind": "aggregate",
+  "q": "我之前要加的那个baseline GPTR，从开始到现在都经历了什么？",
+  "gold": "4 events: 想加GPTR, 没碰它改intro, 跑起来结果差, 找到bug是normalization, 结果比baseline高3个点",
+  "arms": {
+   "none": {
+    "reply": "从第一次提GPTR到现在，整个过程大概是这样的：\n\n9月4号你决定加GPTR作为baseline，开始复现。\n9月6号晚上环境跑起来了但结果不对，debug了一晚。\n9月11号Mei问起你，说她之前跑GPTR也踩过坑。\n9月16号重新提交后跑出正常数据，随后跟其他baseline对比。\n10月16号你把最终结果加到paper里，效果比baseline高3个点。\n\n一路踩坑调环境到最终出结果，前后花了差不多一个半月。下周二Dr. Chen入职后如果对这块感兴趣，你的debug经验可以直接帮他少走弯路。",
+    "v": "wrong",
+    "why": "It states GPTR ran with bad results on Sep 6 and Mei mentioned it on Sep 11, but the chat shows GPTR first ran with bad results on Sep 9 and Mei is never mentioned.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "周周，GPTR这个baseline从开始到现在经历了挺多波折，我帮你理一下： / - 9月4日：你决定加GPTR作为baseline，先自己找代码，没让我帮忙查仓库 / - 9月5~6日：花了一下午配环境，出现依赖版本冲突，跑不起来；第二天才算跑起来但结果不对 / - 9月9日：发现是数据加载时少了归一化步骤，修复后重新跑 / - 9月10日：结果仍然偏低，怀疑learning rate太高，降到1e-5后好多了 / - 9月15日：再次发现bug，是数据处理时少了一个normalization，修复后数据终于正常 / - 10月15日：把GPTR结果加进论文，比baseline高3个点 / - 整个过程中Mei也说过她跑这个baseline时费了不少时间，看来环境配置是普遍问题",
+    "v": "partial",
+    "why": "It correctly includes all 4 required events (想加GPTR, 没碰它改intro, 跑起来结果差, 找到bug是normalization, 结果比baseline高3个点) but adds unsupported details (环境配置、Mei的经历) and misdates the '结果比baseline高3个点' event as Oct 15 instead of Oct 16.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "GPTR从9月初开始一直在折腾，简单捋一下：\n\n9月4日 你决定加它做baseline，开始复现代码。\n9月6日 环境终于跑起来了，但结果不对，开始debug。\n9月11日 还在调，Mei说她当年也被这个坑过。\n9月16日 跑出正常数据，开始和其他baseline对比。\n10月16日 加进论文，比baseline高3个点。\n\n所以差不多花了六周，从搭环境到出数据到写进paper。最后效果不错，算是把坑都填平了。",
+    "v": "wrong",
+    "why": "It says '9月6日 环境终于跑起来了' but chat says that day they didn't touch GPTR and were editing intro; it also adds unsupported Mei interaction on Sep 11 and missing the normalization bug detail.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "从9月初开始，GPTR经历了这么几件事：\n\n1. **9月初**：发现少了个normalization bug，你花了一晚上定位到是数据处理时缺失，修复后重跑实验。\n\n2. **9月中旬**：run了完整结果，效果不错。加到paper实验表格后曾缺失normalization脚注，9月底检查时补上了。\n\n3. **10月中旬**：在real-world scenario（厨房环境）上验证GPTR，比baseline高3个点。加了障碍物的复杂场景下仍然有2个点提升。\n\n4. **10月19日**：在跨房间复杂场景上对比，context-aware比GPTR高2个点但方差偏大（后来加了seed）。\n\n5. **10月底**：四个环境完整实验跑完，GPTR作为baseline进了主实验表格，环境3（最优环境）上context-aware达到89%，具体对比数据在昨天整理的LaTeX表里。 / 整",
+    "v": "wrong",
+    "why": "The reply includes only one of the four required events (normalization bug), misdates it, and invents unsupported details about September/October experiments not in the original chat.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "GPTR从8月底开始debug，9月10日调到1e-5后结果终于可用，9月16日跑出正常结果、对比中比预期好，Mei当时也说结果比她预想的好。10月12日在THOR上比baseline高2.5个点但有一个环境报错，修复后10月16日你加进paper里，比baseline高3个点（有障碍物后仍提升约2个点）。后来10月20日组会后Prof. Lin建议加更复杂场景，GPTR作为baseline保留，你在多房间环境里让它继续跑对比。现在论文实验表格里GPTR是四个baseline之一，环境1-4都有它的结果。",
+    "v": "wrong",
+    "why": "The answer contains specific dates and details (e.g., 8月底开始debug, 9月10日调到1e-5, 9月16日跑出正常结果, 10月12日THOR上比baseline高2.5个点等) not supported by the chat history.",
+    "tools": [
+     "search_chat",
+     "search_notes",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "facts": {
+    "reply": "从你决定加GPTR到现在，整理了一下时间线：\n\n1. **8月底-9月初**（决定加入）：你当时想给论文加一个叫GPTR的baseline，得先复现它代码。9月初你开始找代码。\n2. **9月10日前后**（调试阶段）：你在调GPTR的结果，Mei也跑过这个baseline，你们应该交流过参数配置。\n3. **9月16日**（初步跑通）：GPTR跑出来了，数据正常，开始跟其他baseline对比。\n4. **10月3日**（推理优化）：你试了128 batch size在推理阶段的可行性。\n5. **10月12日**（AI2-THOR验证）：开始跑GPTR在AI2-THOR上的验证，THOR上比baseline高2.5个点，但有个环境一直报错。\n6. **10月13日**（解决报错）：周二早上处理了THOR版本问题，重装后好了，继续跑实验。\n7. **10月16日**（加入论文）：GPTR",
+    "v": "made_up",
+    "why": "It adds unsupported events (Mei running it, 128 batch size, AI2-THOR, LaTeX table) and misdates the found bug/final result, while omitting the intro-writing delay and the normalization bug.",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "ledger": {
+    "reply": "GPTR从9月初开始经历了不少折腾： / 1. 9月4日决定加GPTR作为新baseline，先花时间复现代码。 / 2. 9月7日继续debug，9月11日发现Mei之前也跑过同样的问题（当时也费了不少时间）。 / 3. 10月12日在AI2-THOR上验证，结果比当时其他baseline高2.5个点，但有个环境一直报错。 / 4. 10月16日最终把结果加进paper，比原本的baseline高了3个点。 / 整体来说花了大概一个半月才稳定下来，主要是bug和复现问题。你周一meeting需要把它和现在的四个环境一起对比展示吗？",
+    "v": "wrong",
+    "why": "The answer contains events not in the chat (Sep 7 debug, Sep 11 Mei, Oct 12 AI2-THOR) and omits required events (Sep 6 didn't touch GPTR/changed intro, Sep 15 found normalization bug).",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "GPTR的完整时间线： / **9月4日**：你决定给论文加一个baseline叫GPTR，开始复现代码。\n**9月15日**：找到bug——少了一个normalization，修完后跑出正常结果。\n**9月16-17日**：与其他baseline对比，结果跑通；Mei说比预期好。\n**10月12日**：在THOR上比baseline高2.5个点，attention heads=8最优，但有一个环境报错需要debug。 / 之后就是10月中下旬加到paper里、以及后来你跑完整实验时GPTR已经被作为对比baseline放进去了。\n\n所以差不多是从9月初开始，花了两周把代码de出来，然后一直在用。",
+    "v": "correct",
+    "why": "The reply lists the key events (deciding to add GPTR, finding the normalization bug, and noting its performance), but it omits the events where the user didn't work on GPTR due to intro editing and when they first ran it with poor results, so it's a partial timeline.",
+    "tools": [
+     "search_notes"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "GPTR进门这一路确实不容易，帮你捋一下： / 9月初决定加这个baseline，你自己去翻了代码。环境配了一整个下午没跑通，之后还被intro卡了两天没碰它。9号终于跑起来了但结果很差，15号重新提交，16号跑通数据正常了。Mei说她当初也踩过同样的坑。 / 10月中旬开始在AI2-THOR上验证，7号改完动作空间后通宵实验，16号结果加进paper——比别的baseline高了3个点。 / 挺曲折但值了，这个结果给paper加分不少。下周一meeting前要我再检查一下相关表格数据吗？",
+    "v": "partial",
+    "why": "It correctly mentions deciding to add GPTR, being stuck on intro, running with bad results, and finding the bug, but misses the final event about results being 3 points higher than baseline and includes several details not in the original chat (environment setup, Mei's comment, AI2-THOR, Oct 7, etc.).",
+    "tools": [
+     "search_chat",
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "yuan",
+  "qid": "q27",
+  "kind": "open_loop",
+  "q": "你还记得我让你提醒Coco转房租那个事，现在什么状态？",
+  "gold": "这个提醒仍然开放：在8月15日（第15天）晚上，你让我提醒Coco月底前转房租给你，我设置了提醒。此后没有完成此事的记录，所以尚未完成。",
+  "arms": {
+   "none": {
+    "reply": "我查了一下，8月17号你让我提醒Coco月底前转房租，但当时只记了这条提醒，没有设具体的发送时间或截止日期。 / 上个月底（8月31日）我没有自动发出提醒记录——可能当时漏设了推送。 / 现在需要我立刻发消息提醒Coco吗？还是先确认一下她转没转？",
+    "v": "correct",
+    "why": "它正确识别了提醒来自8月17日且未完成，并指出没有发送提醒的记录。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "周周，这条记录还在我的待办列表里。状态是：8月17日你让我提醒Coco月底前把房租转给你，当时设的deadline是8月底。 / 现在是11月1日，已经过了两个月了，这个提醒一直没有标记完成或关闭。需要我确认一下Coco是不是已经转过了？如果转过了我就关掉这条提醒。",
+    "v": "correct",
+    "why": "它正确识别了提醒内容、原始日期和开放状态，并指出已过期且未完成，与正确答案一致。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "之前记录的是月底前提醒你转告Coco转房租。但当时没有详细记下你们每月的房租日期和金额，现在看之前你提过你1400，Coco1200，但没说过每月几号交。 / 现在10月已经结束了，之前月底提醒是8月底，9月底有没有提醒过？还是说Coco的房租是月初交的？告诉我你们每月几号交，我设个每月提醒。",
+    "v": "dont_know",
+    "why": "It does not state the status as open or done; instead, it asks clarifying questions and does not identify the commitment's current state.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "周周，这个提醒是8月17号你让我设的，当时说月底前提醒Coco转房租。但我翻了记录，没有后续的确认或状态更新——她转给你了吗？ / 需要我现在帮你再提醒一次她吗？",
+    "v": "correct",
+    "why": "它准确指出了提醒创建于8月17日、要求月底前提醒Coco转房租，并说明没有后续状态更新，因此仍未完成。",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "抱歉周周，我翻了记录，当时说的是8月底前提醒Coco转房租给你，但没有后续的记录说你提醒了她、她转了或者你们协商了别的安排。现在已经是11月1号了，这件事的状态我不太确定——你后来有跟她提过吗？需不需要我帮你再设一个提醒，或者你打算直接跟她讲一下？",
+    "v": "correct",
+    "why": "它正确识别了提醒的存在并准确指出状态仍开放（无后续完成记录），符合正确答案的核心要求。",
+    "tools": [
+     "search_chat",
+     "search_notes",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "facts": {
+    "reply": "8月让我提醒Coco月底前转房租给你，之后没再提过。后来10月有次你定Coco生日聚餐在 / 山海 / 餐厅，但房租的事你们之间转账了还是没转，我这里没有后续消息。要我现在帮你问她一下吗？",
+    "v": "made_up",
+    "why": "它声称10月有一次Coco的生日聚餐在'山海'餐厅，但对话记录中并没有提到这个事件。",
+    "tools": []
+   },
+   "ledger": {
+    "reply": "这个是在8月18日设置的，当时承诺月底前提醒Coco转房租给你。但我这边没有后续记录这笔房租是否已经处理完——你那边后来跟Coco确认了吗？如果还需要跟进，我这周可以再提醒一次。",
+    "v": "wrong",
+    "why": "它把日期记成8月18日，而对话显示是8月17日，并且没有明确说明提醒仍处于开放状态，只是猜测尚未处理。",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "当时是8月18日你让我设的提醒，说月底前提醒Coco转房租。但我看后续记录里没有你确认她已经转账的信息，而且你也没在9月或10月再提过这个事。 / 刚翻了一下，你俩房租是分开付的——你1400，她1200，但你让我提醒的是她转她那部分给你。现在已经11月了，如果当时没转的话是不是已经过了好几个月了？需要我帮你理一下她欠了多少个月，还是你直接问一下她？",
+    "v": "correct",
+    "why": "它正确识别了该提醒（Coco转房租）且判断其状态为未完成，尽管日期有轻微偏差（说8月18日，实际是8月17日），但不影响对承诺和开放状态的正确认定。",
+    "tools": [
+     "search_chat",
+     "search_notes"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "现在的情况：你8月让我月底前提醒Coco转房租，但8月底你又说等论文定型再设提醒，后来一直没再具体说过设提醒的时间。目前没有已设置的房租提醒。 / Coco的房租是每月1200，你的是1400。你想让我设一个提醒吗？比如每个月底前某个时间提醒她？",
+    "v": "wrong",
+    "why": "The assistant incorrectly claims that on August 31st the user said to wait until the paper is finalized before setting a reminder, which is not in the chat history and changes the status from still open to canceled.",
+    "tools": [
+     "search_memory"
+    ]
+   }
+  }
+ },
+ {
+  "id": "yuan",
+  "qid": "q32",
+  "kind": "ask",
+  "q": "早上好aicoo，这周什么安排？",
+  "gold": "回复中不应使用emoji或stickers，因为你要求过正式一点。",
+  "arms": {
+   "none": {
+    "reply": "早呀周周，今天周日，先按你昨天定的——9:00已经自动把论文最新版发给了Prof. Lin，附了overleaf链接和实验表格。 / 这周重点： / 1️⃣ 周一线上meeting（9:30）—— slides已备好，含实验总结、论文进度、12月投稿目标 / 2️⃣ 周二Dr. Chen入职（10:00记得带他熟悉环境：GPU集群、存储、代码库） / 3️⃣ 周三之后可以开始准备投稿时间线细节，等Prof. Lin反馈 / 要不要先看一眼今天meeting的slides确认没问题？",
+    "v": "wrong",
+    "why": "回复中使用了emoji（1️⃣2️⃣3️⃣），违反了用户要求不使用emoji和stickers的正式设定。",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "周周早上好。这周是11月的第一周，我帮你梳理了一下已知的关键事项： / - **周二（11/3）**：Dr. Chen正式入职，你要带他熟悉实验室环境和学校资源。 / - **周二TA office hour**：已改成周三下午3点，但本周还按老时间？之前设置的提醒还在。 / - **论文finalize**：上周环境1-4的结果已出（82%/78%/89%/55%），实验表格和ablation表已整理好。discussion的limitations部分你和Prof. Lin聊过要诚实写HotpotQA的局限性。 / - **Facebook fellowship**：截止12月20日，statement draft上次改过，但还没最终定稿。 / 今天周日，你有组会吗？还是说这周只有周二meeting？想先把哪块排第一priority？",
+    "v": "correct",
+    "why": "回复完全使用纯文本且没有使用任何emoji或stickers，符合之前设定的正式回复要求。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "早上好周周！今天周日，放松一天，但明天就忙起来了： / 周一10:00线上meeting with Prof. Lin（他出差），讨论论文投稿时间和Dr. Chen入职安排。论文已设明天9:00自动发他。 / 周二Dr. Chen入职（11月3日），10:00记得带他熟悉GPU集群、存储和代码仓库。 / 还有一件事：学校和NSF的fellowship日程还留着，虽然之前说想撤掉——如果需要还是可以删。",
+    "v": "partial",
+    "why": "回复内容回答了日程安排，但未遵守用户之前设定的不使用emoji和stickers的格式要求。",
+    "tools": []
+   },
+   "tiered": {
+    "reply": "早上好周周！这周安排大有看头： / 周一是线上meeting，9:30跟Prof. Lin讨论投稿时间（目标12月）和Dr. Chen入职的事。周二Dr. Chen入职，我设了10:00提醒你带他熟悉环境。 / lab meeting在周三还是周四？需要确认一下时间。另外环境4的55%要不要这周再优化一轮，还是直接写limitation了？",
+    "v": "correct",
+    "why": "The reply contains no emoji or stickers, consistent with the user's request for formality, and the content is task-related.",
+    "tools": []
+   },
+   "notes": {
+    "reply": "早上好周周。这周核心是等Prof. Lin周一meeting反馈后推进论文，同时周二带Dr. Chen熟悉环境。 / 周一10:00线上meeting（zoom待Lin提供），讨论投稿时间和Dr. Chen入职。提醒：明天早上9:00会自动把论文最新版发给他。 / 周二10:00带Dr. Chen熟悉实验室——GPU集群、存储、代码仓库。周三之后重点是根据Lin的反馈改论文。周六前把discussion和limitation写完。 / 现在要不要先看一眼周一slides，确认没什么遗漏？",
+    "v": "correct",
+    "why": "回复中未使用任何emoji或stickers，符合用户之前要求的正式风格。",
+    "tools": []
+   },
+   "facts": {
+    "reply": "早上好！这周的关键事项我帮你整理了： / 📅 **周一**：9:30线上meeting（已备好slides，加上了12月投稿目标）；会后根据Prof. Lin意见调整。 / 📅 **周二**：10:00提醒带Dr. Chen熟悉环境（GPU集群、存储、代码仓库等）；另外ollama部署也归他了，可以交接给他。 / 📅 **本周持续**：HotpotQA分析报告（上次Lin说需要更多‘为什么不行’的分析）；论文discussion部分继续改。 / 需要我把这几项排个时间块吗？还是先按这个节奏走？",
+    "v": "wrong",
+    "why": "回复中使用了emoji和sticker（如📅），违反了用户要求正式且不使用emoji和stickers的指示。",
+    "tools": [
+     "search_memory",
+     "search_chat"
+    ]
+   },
+   "ledger": {
+    "reply": "早上好周周。这周的关键事项：\n- 周一上午线上meeting（Prof. Lin出差）\n- 周二带Dr. Chen熟悉环境（已设提醒）\n- 继续调环境4的intermediate supervision权重\n- 根据Prof. Lin意见确定投稿方向（AAAI或ICLR）\n- 整理所有实验结果到论文表格 / 优先级上：周一meeting确定论文方向后再安排后续。需要我把论文最新版发给你过目吗？",
+    "v": "correct",
+    "why": "The reply does not contain any emojis or stickers, adhering to the user's request for formal responses.",
+    "tools": [
+     "search_chat"
+    ]
+   },
+   "notes_recall": {
+    "reply": "早上好周周。这周挺满的： / 📌 今天（周日）下午3点组会，准备一下四个环境的进展和下周计划 / 📌 明天（周一）线上meeting，9:30和Prof. Lin讨论投稿时间线，顺便提Dr. Chen周二入职 / 📌 周二Dr. Chen入职，带你之前说过的带他熟悉实验室环境（GPU集群、存储、代码仓库） / 📌 别忘了下周二组会前把环境2结果下降的问题分析一下，之前28号发现的 / 另外，Facebook fellowship现在截止12月20日，但NSF已经放弃了。今天组会上需要我帮你准备什么吗？",
+    "v": "wrong",
+    "why": "回复中使用了emoji（📌），违反了用户要求正式回复、不使用emoji和stickers的指示。",
+    "tools": [
+     "search_notes",
+     "search_notes",
+     "search_chat"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "早上好周周！这周事情不少，我帮你理一下：\n\n**周一（明天）**：线上meeting，9:30跟Prof. Lin讨论论文投稿和Dr. Chen入职安排。论文最新版已设好9:00自动发送。\n\n**周二（3号）**：⚠️ Dr. Chen入职，10:00提醒你带他熟悉环境（GPU集群、存储、代码仓库等）。 / **本周待办**：\n- 论文实验部分已写完，等Prof. Lin反馈后继续打磨\n- 目标12月投稿，需要确定具体会议\n- 环境4（HotpotQA）55%结果还没突破，可能后续要加分析\n- 11月20日山海餐厅（Coco生日）\n- 12月20日Facebook fellowship截止\n\n你今天可以先看看Prof. Lin对论文的反馈，准备一下明天meeting的讨论点。有什么需要我提前准备的？",
+    "v": "wrong",
+    "why": "回复中使用了emoji（⚠️），违反了用户要求的正式无emoji格式。",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   }
+  }
+ },
+ {
+  "id": "yuan",
+  "qid": "q36",
+  "kind": "pref_apply",
+  "q": "帮我生成这周的周报草稿，这周主要做了GPTR实验调优，论文intro改完了。",
+  "gold": "周报末尾必须有\"本周遇到的坑和解决思路\"一段，因为你在第11天要求过。",
+  "arms": {
+   "none": {
+    "reply": "好，我翻了一下聊天记录，这周（10月27日-11月1日）你做了这些：\n1. GPTR实验调优\n2. 论文intro改完\n3. 周一meeting slides（含实验总结、论文进度、12月投稿目标）\n4. 周二准备带Dr. Chen熟悉环境\n5. 周三？（跟Prof. Lin的讨论？）\n\n——intro改完和GPTR调优是这周主要产出，slides和Dr. Chen入职准备是这周工作。你还有没有其他这周完成的小任务我漏了的？比如跟Kevin或者Mei的讨论？或者有什么下周要跟Prof. Lin汇报的特别内容？",
+    "v": "wrong",
+    "why": "回复中没有按用户要求生成周报草稿，也没有在末尾包含'本周遇到的坑和解决思路'部分。",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "好，给你这周的周报草稿。这周的日期范围是 Mon 27 Oct - Sun 01 Nov： / **周报：2025.10.27 - 2025.11.01** / **本周工作** / - 论文标题最终确认为 **Context-Aware Planning via Hierarchical Decomposition**，已更新所有文档 / - 论文 **intro 改写完成**，prof Lin 确认，abstract 也做了精简 / - **GPTR 实验调优**：修复了 intermediate supervision 配置，环境4 从 30% 提到 55%，环境3 用完整 seed 后达到 89% / - 跑完四个环境的完整实验，汇总了主结果和 ablation 表格，latex 代码已放到 overleaf / - 整理了周一 meeting slides，目标 12 月投稿 /",
+    "v": "correct",
+    "why": "周报草稿末尾包含了“本周遇到的坑和解决思路”一段，符合用户在第11天提出的格式偏好要求。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "好的，周周，这周周报草稿来了👇 / **周报：Oct 26 – Nov 1** / **本周进度** / 1️⃣ **GPTR实验调优** / - 完成了四个环境的对比实验： /   - 环境1 (AI2-THOR): 82% /   - 环境2 (Grid World): 78% /   - 环境3 (Habitat + visual grounding): 89% /   - 环境4 (HotpotQA 改版): 55%（标注为preliminary） / - 调整了intermediate supervision权重，环境4从45%提升到55% / - 发现环境2在加step-level supervision后结果下降，后续需排查 / 2️⃣ **论文写作** / - Introduction部分已改完，定稿 / - 实验部分初稿已写好并上传overleaf / - 论文标题fi",
+    "v": "correct",
+    "why": "The draft includes the required '本周遇到的坑和解决思路' section at the end, following the user's request from August 13.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "周周，这周（Sun 01 Nov 这周）的周报草稿来了。不过我记得你上周五（30 Oct）改完了实验部分初稿，intro其实是更早完成的，我按你说的重点整理了—— / **Weekly Report — 周予安**\n**Period: Mon 26 Oct – Sun 01 Nov**\n\n**Progress:**\n- 论文标题最终定为'Context-Aware Planning via Hierarchical Decomposition'，已更新全部文档。\n- GPTR实验调优：环境4（改进版HotpotQA）通过每个step加intermediate supervision将准确率从45%提升至55%。\n- 完成全部四个环境完整实验（固定seed）：环境1 82%、环境2 78%、环境3 89%、环境4 55%。环境3的89%为最优结果。\n- 论文intro已定稿（之前已完成并获P",
+    "v": "wrong",
+    "why": "周报草稿末尾缺少用户在第11天要求的'本周遇到的坑和解决思路'段落。",
+    "tools": []
+   },
+   "notes": {
+    "reply": "{\"reply\": [\"好，这周周报我按你上周的主要进展来组织。不过我需要确认一下——你说的\" \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r",
+    "v": "wrong",
+    "why": "The assistant's reply does not generate a weekly report draft but instead asks for clarification, and thus fails to include the required '本周遇到的坑和解决思路' section as requested by the user.",
+    "tools": [
+     "search_notes",
+     "search_chat",
+     "search_chat",
+     "search_notes",
+     "search_notes"
+    ]
+   },
+   "facts": {
+    "reply": "好的，这周的周报草稿来了——基于这周实际做的和你提到的： / **Weekly Report (Oct 26 – Nov 1)**\n**Project: GPTR + [论文标题]**\n\n**本周完成：**\n1. **GPTR实验调优**：在环境1-4上运行了baseline对比和ablation实验，结果已整理进表格（环境4结果标注为preliminary）。\n2. **论文Intro修改**：已完成最新版修改，并于周日（11月1日）上午通过邮件发给Prof. Lin。\n3. **周一meeting准备**：完成slides，含实验总结、投稿时间线（目标12月投稿）。\n\n**下周计划：**\n- 根据Prof. Lin反馈继续调整论文\n- Dr. Chen周二（11月3日）入职，带他熟悉实验室环境\n- 继续GPTR实验，完善环境4结果\n\n需要补什么细节吗？比如具体实验数字拉进来，或者加个这",
+    "v": "wrong",
+    "why": "周报草稿末尾缺少用户要求的'本周遇到的坑和解决思路'一段，且助手只在最后以建议方式询问是否添加，未实际包含该部分。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_memory"
+    ]
+   },
+   "ledger": {
+    "reply": "这是这周的周报草稿，基于近期进展。请确认或修改： / **周报：11月1日**\n\n**论文进度：**\n- 完成论文Introduction修改并定稿\n- 继续推进GPTR实验调优，环境1-4完整结果已出（环境1: 82%，环境2: 78%，环境3: 89%，环境4: 55%）\n\n**下周计划：**\n- 周一与Prof. Lin线上meeting，确认投稿目标\n- 周二带Dr. Chen熟悉实验室环境\n- 继续优化环境4结果，目标提到60%+ / 本周遇到的坑和解决思路：\n- 环境4（HotpotQA改版）精度提升缓慢，加intermediate supervision后从30%提升到55%，但仍有瓶颈。下周尝试调整supervision权重或探索其他结构改进。",
+    "v": "correct",
+    "why": "周报草稿末尾包含了'本周遇到的坑和解决思路'一段，符合用户在第11天设定的偏好。",
+    "tools": [
+     "search_memory"
+    ]
+   },
+   "notes_recall": {
+    "reply": "好的，这周的周报草稿： / **本周工作（10/26 - 11/01）** / **1. 论文实验调优** / - 继续调环境4，尝试每个step加intermediate supervision，weight 0.5时跑到48%，后来每个step加supervision跑到52%，最终跑到55% / - 环境2因加supervision后结果下降，已排查，环境2结果78% / - 28日固定seed跑完整四个环境实验：环境1 82%、环境2 78%、环境3 89%、环境4 55% / - 30日实验部分初稿写完发到overleaf / **2. 论文写作** / - final title确定为 Context-Aware Planning via Hierarchical Decomposition / - 实验数据一致性检查，修正环境2结果79%→78% / - 31日完成周一mee",
+    "v": "correct",
+    "why": "周报末尾包含了'本周遇到的坑和解决思路'一段，符合用户在8月13日提出的要求。",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_notes",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "好的，帮你整理这周的周报草稿。先确认一下时间范围：这周是10月26日（周一）到11月1日（周日），对吗？ / 另外实验调优这部分，你提到环境4和结果变化，我记忆里这周结果：环境1 82%，环境2 78%，环境3 89%，环境4 55%。需要我把具体数字加进去吗？ / 还有坑和解决思路那段，这周遇到的主要是HotpotQA的multi-hop问题，后来加了intermediate supervision，调权重到0.5后环境4从45%升到55%但环境2略有下降，后来改成每个step加supervision环境4稳定在55%。不过环境2和4间的tradeoff还没完全解决——要写进这周的'坑'段吗？",
+    "v": "wrong",
+    "why": "The draft does not include a \"本周遇到的坑和解决思路\" section as required by the user's preference from Thu 13 Aug.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   }
+  }
+ },
+ {
+  "id": "yuan",
+  "qid": "q40",
+  "kind": "abstain",
+  "q": "Mei哪天开始度假？我之前记得她说过。",
+  "gold": "never mentioned: aicoo should say it doesn't know.",
+  "arms": {
+   "none": {
+    "reply": "我翻了翻咱们的聊天记录，没找到Mei具体说哪天开始度假。她可能是当面或者在别的群里提的。 / 要不要发消息直接问她一下？或者我帮你记一笔，等她回复了我更新到日程里。",
+    "v": "dont_know",
+    "why": "它明确说没找到Mei开始度假的日期，并建议直接去问，没有编造任何具体信息。",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "full": {
+    "reply": "周周，我翻了一遍跟你的聊天记录，Mei之前没有提过度假的具体日子。她上次提到的是NeurIPS rebuttal（8月底那周）和paper被workshop接收，但没说过什么时候休假。 / 你是在实验室聊天时她提的吗？或者是你自己记得她说要休假？我再试着换个关键词找找。",
+    "v": "dont_know",
+    "why": "aicoo correctly states it couldn't find any mention of Mei's vacation dates and asks for clarification.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "rewrite": {
+    "reply": "翻了一下聊天记录，没找到Mei说度假的事。你记得她哪天走吗？还是她说的是要去哪儿？ / 另外明天9:30线上meeting，论文已经设好9:00自动发Prof. Lin了。",
+    "v": "dont_know",
+    "why": "aicoo explicitly says it couldn't find Mei's vacation info and asks for clarification, never stating a specific date.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "tiered": {
+    "reply": "周周，翻了一遍聊天记录，没有找到Mei具体说度假日期的记录。你印象中她是什么时候提的？我可以再换个词搜一下。",
+    "v": "dont_know",
+    "why": "aicoo says it cannot find the information and asks for clarification, which is correct since it was never mentioned.",
+    "tools": [
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes": {
+    "reply": "周周早～我翻了一下记录，没有找到 Mei 提起度假的具体日期。你记得大概是她什么时候说的吗？我帮你再找找。 / 或者今天遇到了可以顺便问她一句？",
+    "v": "dont_know",
+    "why": "aicoo states it could not find the date in records and asks for more context or suggests asking Mei directly, which is the correct abstain behavior.",
+    "tools": [
+     "search_chat",
+     "search_notes",
+     "search_chat"
+    ]
+   },
+   "facts": {
+    "reply": "我记得Mei之前提过假期安排，但具体哪天开始的在记忆和聊天记录里没找到。她的NeurIPS rebuttal好像忙完一阵了——要不要直接问她？或者我帮你留意一下她的日历/Slack状态？",
+    "v": "dont_know",
+    "why": "aicoo explicitly says it couldn't find the specific start date and suggests asking Mei directly.",
+    "tools": [
+     "search_memory",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "ledger": {
+    "reply": "我记得你之前提过Mei打算去度假，但聊天记录和记忆里没有找到具体日期。可能是在当面聊到的，我没有记下来。 / 要不要我问Mei一下，或者你先回忆下大概什么时候？",
+    "v": "dont_know",
+    "why": "aicoo correctly states it cannot find the specific date and asks the user for clarification.",
+    "tools": [
+     "search_chat",
+     "search_chat",
+     "search_memory",
+     "search_chat",
+     "search_chat"
+    ]
+   },
+   "notes_recall": {
+    "reply": "我记得你提过Mei好像说过要去度假，但翻了记录和笔记没找到具体日期。可能是在比较早的聊天里说的，或者是当面聊的。\n\n如果她说过要去哪儿、什么时候走，你再告诉我的话我帮你记着～ / [sticker: ask]",
+    "v": "dont_know",
+    "why": "aicoo states it cannot find the specific date and asks the user for more information.",
+    "tools": [
+     "search_notes",
+     "search_chat"
+    ]
+   },
+   "rewrite_facts": {
+    "reply": "我翻了一下之前的聊天和记录，没找到Mei具体说度假的时间。你是指她之前提过感恩节附近要休息，还是NeurIPS结果出来之后？ / 我记得她最近论文被拒后心情不太好，但没听她安排度假行程。要不要直接问问她？或者你大概记得是什么场合说的，我再翻翻。",
+    "v": "dont_know",
+    "why": "aicoo says it couldn't find when Mei's vacation starts, doesn't state a specific date, and asks for clarification.",
+    "tools": [
+     "search_chat",
+     "search_memory",
+     "search_chat"
+    ]
+   }
+  }
+ }
+]

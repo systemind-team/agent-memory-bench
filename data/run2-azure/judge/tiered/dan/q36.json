@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The PR description draft includes a 'Risk' section, conforming to the user's stated preference from the chat history.",
+ "rule": false
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo searches its records, finds nothing, and says it doesn't know, then asks the user if they misremembered or heard it elsewhere.",
+ "rule": null
+}

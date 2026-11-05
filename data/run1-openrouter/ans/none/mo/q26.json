@@ -1,0 +1,82 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "大伟入职后的绩效和薪酬进展，完整说说？",
+ "reply": [
+  "目前关于大伟的薪酬进展，我看到入职前的确认：底薪1万6，绩效2000/月，年终1-2个月，总共按3万8走（是月总包还是年总包之前没写清楚）。入职资料那边，合同和绩效回执当时还没收到。",
+  "入职后这一个月，他的具体绩效目标、月度考核指标、薪酬发放状态，我没有记录。可能是在其他文档或当面确认的。要不要我帮你去翻一下共享文档或者问小雨要一下最新进度？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 入职 绩效 薪酬"
+   },
+   "result": "#64 Thu 13 Aug 15:02 Them: 行，那按3万8走。\n#65 Fri 14 Aug 09:00 Them: 大伟入职前得先确认薪酬结构，底薪+绩效+年终\n#66 Fri 14 Aug 09:03 aicoo: 建议底薪1万6，绩效2000，年终1-2个月，你看行吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 绩效 目标"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 渠道 拓展 目标"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 入职 后"
+   },
+   "result": "#153 Tue 25 Aug 17:01 aicoo: 预测表刚发你邮箱，重点标了9-10月缺口\n#154 Wed 26 Aug 09:00 Them: 今天大伟入职资料最后一天回传吧？催下\n#155 Wed 26 Aug 09:01 aicoo: 刚收到他的身份证扫描件，合同和绩效回执还没到"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 绩效 回执"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1130,
+   "out": 26,
+   "usd": 0.00001472968
+  },
+  {
+   "in": 1256,
+   "out": 24,
+   "usd": 0.00001968288
+  },
+  {
+   "in": 1309,
+   "out": 26,
+   "usd": 0.00002199708
+  },
+  {
+   "in": 1364,
+   "out": 24,
+   "usd": 0.00002406768
+  },
+  {
+   "in": 1487,
+   "out": 25,
+   "usd": 0.00002914268
+  },
+  {
+   "in": 1555,
+   "out": 119,
+   "usd": 0.0000312214
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3632
+}

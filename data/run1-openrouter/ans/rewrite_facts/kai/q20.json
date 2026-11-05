@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "Integration rollout和roadmap review，哪个先发生的？",
+ "reply": [
+  "Integration rollout先发生。8月19日security audit影响了原本9月15日的integration计划，8月22日确定延期到9月22日。而roadmap review是8月27日和Grace做的，当时dark mode还被升到了P1。所以integration timeline调整在前，roadmap review在后。"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "integration rollout roadmap review timeline"
+   },
+   "result": "- 19 Aug: Security audit可能会影响integration rollout, 但希望9月15日仍能按计划进行。22 Aug: Integration rollout delayed to Sep 22 due to security audit.\n- 04 Sep: 周一跟Ravi确认integration timeline。\n- 03 Oct: Grace approved additional 100k budget for Q4 marketing; 05 Oct: 与Grace约了周三review Q4 deck。10 Oct: Grace approved the roadmap, with a few tweaks on timeline.\n- 31 Oct: 周一priorities包括10:30 pricing launch decision meeting、确认SEA expansion headcount approval timeline、pricing review prep改到10:00、确认Ravi的integration final timeline、Emily weekly check-in。\n- Grace asked for Q3 roadmap, promised to send Q3 budget breakdown b"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3487,
+   "out": 23,
+   "usd": 0.00006860588
+  },
+  {
+   "in": 3870,
+   "out": 65,
+   "usd": 0.00008756608
+  }
+ ],
+ "memChars": 7490,
+ "promptChars": 12219
+}

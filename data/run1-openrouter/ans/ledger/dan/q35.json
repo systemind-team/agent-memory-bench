@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "早上好 Dan。昨晚没警报，你休息得不错。",
+  "今天周日，你说过周末不谈工作。去 farmers market 了吗？ade 昨天提过。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3081,
+   "out": 43,
+   "usd": 0.00002880164
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10768
+}

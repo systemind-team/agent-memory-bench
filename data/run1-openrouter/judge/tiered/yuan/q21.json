@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "它声称最初标题是8月20日定的'Hierarchical Planning with Graph Attention'，但聊天记录显示8月7日最早标题为'Planning with Hierarchical Graphs'。",
+ "rule": null
+}

@@ -1,0 +1,60 @@
+{
+ "arm": "rewrite_facts",
+ "id": "mo",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "和云九第一次见面是哪天？",
+ "reply": [
+  "云九第一次见面是8月12日下午2点，当时约的pre-meeting。不过后来他们投了竞品，这条线已经凉了。",
+  "现在蓝驰这边走完，账上600万，先集中做产品和渠道推进比较实际。",
+  "对了老板，11月1号了，是不是该做季度复盘了？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 见面 第一次"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "云九 见面"
+   },
+   "result": "- 云九那边凉了，他们投了竞品\n- 决定先约云九进行融资洽谈。\n- 团队与云九的pre-meeting准备工作已基本完成，财务模型和用户增长曲线备齐，会议定于下周三8月12日下午2点。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "8月12日 云九"
+   },
+   "result": "#24 Fri 07 Aug 10:02 aicoo: 这样能加快上线，我先更新开发排期表\n#25 Fri 07 Aug 16:45 aicoo: 约了云九下周三 8月12日下午2点\n#26 Fri 07 Aug 16:46 Them: 好，准备充分"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4164,
+   "out": 24,
+   "usd": 0.000246344
+  },
+  {
+   "in": 4217,
+   "out": 22,
+   "usd": 0.000256354
+  },
+  {
+   "in": 4312,
+   "out": 25,
+   "usd": 0.000186336
+  },
+  {
+   "in": 4422,
+   "out": 81,
+   "usd": 0.000332444
+  }
+ ],
+ "memChars": 4815,
+ "promptChars": 8799
+}

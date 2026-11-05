@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "what day was the migration incident?",
+ "reply": [
+  "migration incident? there are a few entries. the database migration is planned for this coming wednesday nov 5 at 2am est — you're on call and have the rollback plan ready. i don't see any past migration incident in my memory. which one are you thinking of?"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3063,
+   "out": 66,
+   "usd": 0.000176126
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10801
+}

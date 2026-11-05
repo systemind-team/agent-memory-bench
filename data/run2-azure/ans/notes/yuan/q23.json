@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q23",
+ "kind": "update",
+ "q": "第二次改的title是什么？",
+ "reply": [
+  "第二次改的title是：**Context-Aware Planning via Hierarchical Decomposition**。",
+  "就是现在slides和overleaf上用的那个，10月26日晚确认的final版本。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "title Context-Aware Planning via Hierarchical Decomposition"
+   },
+   "result": "#863 Mon 26 Oct 18:47 aicoo: - 已记录草稿标题：Context-Aware Planning via Hierarchical Decomposition。\n- 需要今晚确认后正式更新吗？\n#864 Mon 26 Oct 23:40 Them: Final title: Context-Aware Planning via Hierarchical Decomposition。\n#865 Mon 26 Oct 23:42 aicoo: - 已确认。明天上午更新所有文档中的标题。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3705,
+   "out": 28,
+   "usd": 0.000152194
+  },
+  {
+   "in": 3839,
+   "out": 46,
+   "usd": 0.000190414
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9612
+}

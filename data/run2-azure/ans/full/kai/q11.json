@@ -1,0 +1,34 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我们的pricing现在是多少per user，final decision是啥？",
+ "reply": [
+  "凯哥，final decision是 $44 per user per month，11月1日上线。后来因为Ben想多跑A/B测试，launch date调整到了12月1日，但这个价格没变。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "pricing final decision per user"
+   },
+   "result": "#597 Thu 17 Sep 09:10 aicoo: 那就好，凯哥放心了。\n#598 Thu 17 Sep 09:40 Them: Pricing final decision: 44 per user per month, launch Nov 1, after debate with Ben。\n#599 Thu 17 Sep 09:42 aicoo: 收到，$44用户月费，11月1日上线。Ben同意了？"
+  }
+ ],
+ "calls": [
+  {
+   "in": 36318,
+   "out": 24,
+   "usd": 0.001179036
+  },
+  {
+   "in": 36442,
+   "out": 51,
+   "usd": 0.001220196
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91612
+}

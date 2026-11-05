@@ -1,0 +1,45 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q14",
+ "kind": "update",
+ "q": "办公室租金现在是多少？",
+ "reply": [
+  "办公室租金现在是每月1万8（长宁那个），是8月底签的。这个月有变化吗？还是继续这个数？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "办公室租金"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "租金"
+   },
+   "result": "#140 Mon 24 Aug 16:00 Them: 办公室换到长宁，谈到1万8，明天去签\n#141 Mon 24 Aug 16:01 aicoo: 长宁不错，租金省不少，明天几点的签？\n#142 Mon 24 Aug 16:02 Them: 下午3点，我顺便看看工位布局"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1100,
+   "out": 20,
+   "usd": 0.000028872
+  },
+  {
+   "in": 1149,
+   "out": 19,
+   "usd": 0.000033102
+  },
+  {
+   "in": 1259,
+   "out": 36,
+   "usd": 0.000046062
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3624
+}

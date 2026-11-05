@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo asks for details about the update and does not provide a PR description, so it never applies the preference to include a Risk section.",
+ "rule": false
+}

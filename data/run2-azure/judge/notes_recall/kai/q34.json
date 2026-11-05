@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply is in Chinese, contains no exclamation marks, and the content is consistent with the user's known context.",
+ "rule": false
+}

@@ -1,0 +1,49 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q36",
+ "kind": "pref_apply",
+ "q": "帮我生成这周的周报草稿，这周主要做了GPTR实验调优，论文intro改完了。",
+ "reply": [
+  "好，我综合一下这周的关键信息，给你写周报草稿：\n\n---\n\n**周报：10月26日 - 11月1日**\n\n**1. 论文进展**\n- 论文标题定稿：*Context-Aware Planning via Hierarchical Decomposition*\n- 修改Introduction至终版，已发给Prof. Lin审阅\n- 实验部分初稿完成，已上传Overleaf\n- 目标12月投稿（具体会议待Prof. Lin确认）\n\n**2. 实验调优**\n- 环境4（文本任务）持续调优：调整supervision loss权重从0.2→0.5，并改为每个step加supervision\n- 环境4最终结果55%（原45%），环境2结果略有下降需后续排查\n- 全部四个环境完整实验结果（固定seed）：环境1 82%，环境2 78%，环境3 89%，环境4 55%\n- 环境3结果比之前提升2个点\n\n**3. 组会与讨论**\n- 周日组会汇报，Prof. Lin对进展满意，对HotpotQA持保留态度，建议论文讨论部分诚实写局限性\n- 周一线上meeting改为线上（Prof. Lin出差）\n\n**4. 下周计划**\n- 周一（11/2）线上meeting讨论论文投稿时间和Dr. Chen入职\n- 周二（11/3）带Dr. Chen熟悉实验室环境\n- 继续排查环境2下降问题，考虑最终实验方案\n\n---\n\n你看看哪些需要改，或者我直接帮你整理成邮件格式发给Prof. Lin？"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  },
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  },
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4146,
+   "out": 56,
+   "usd": 0.00007309624
+  },
+  {
+   "in": 4219,
+   "out": 29,
+   "usd": 0.00007386764
+  },
+  {
+   "in": 4265,
+   "out": 22,
+   "usd": 0.00004190732
+  },
+  {
+   "in": 4304,
+   "out": 338,
+   "usd": 0.00006914992
+  }
+ ],
+ "memChars": 6075,
+ "promptChars": 10444
+}

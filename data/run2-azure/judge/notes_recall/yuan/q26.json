@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It confirms the title existed in the past and correctly states that the final title is now different, matching the outdated-value rule.",
+ "rule": null
+}

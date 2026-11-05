@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+ "reply": [
+  "凯哥周日好。周一你的日程已经排好了：\n\n**周一关键会议（10:30-11:00）** — pricing launch decision meeting with Grace和Ben，确认Dec 1正式launch。你之前提到Ben的A/B test $44 variant conversion lift 8%，这个数据可以直接present给Grace做决策依据。\n\n**其他priority：**\n- 10:00 pricing prep（30分钟准备）\n- 跟Grace顺便提一下SEA expansion headcount approval timeline\n- 跟Ravi确认integration retest的最终状态（上周说安全审计retest可能影响）\n- Emily weekly check-in\n\n**这周其他deadlines：**\n- Q3 customer wins summary加customer testimonial section — Grace周四回复要的，你说了周一找Lily和Omar拿quote\n- 新加坡office expansion JD草稿 — 上周四你说aicoo周五前draft JDs，我还没开始写，需要我起草吗？\n\n另外，你父亲刚出院不久，血压有波动，周一早上记得问一下情况。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13370,
+   "out": 221,
+   "usd": 0.00016996784
+  }
+ ],
+ "memChars": 47941,
+ "promptChars": 52677
+}

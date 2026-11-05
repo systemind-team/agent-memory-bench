@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claimed it couldn't find the record, but the chat explicitly shows the user stated there were 4 idle A100 GPUs on Sat 22 Aug.",
+ "rule": null
+}

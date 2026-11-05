@@ -1,0 +1,20 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "what dates are the asheville trip?",
+ "reply": [
+  "asheville trip is oct 22-25. cabin near blue ridge."
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 21347,
+   "out": 28,
+   "usd": 0.00017882676
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64106
+}

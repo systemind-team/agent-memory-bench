@@ -1,0 +1,58 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "阿杰去日本是几号？",
+ "reply": [
+  "聊天记录里没有提到阿杰去日本。只有Mia10月5-9号去过日本采风。你是记混了，还是阿杰单独跟你说过？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 日本"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 出差"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "日本"
+   },
+   "result": "#628 Wed 21 Oct 11:02 aicoo: 这个终于有进展了，等公示期过。\n#629 Wed 21 Oct 14:00 Them: Mia日本采风回来了，说设计灵感有了。\n#630 Wed 21 Oct 14:02 aicoo: 期待她新方案。\n---\n#482 Thu 01 Oct 09:35 aicoo: 他计划跑三家：凯旋路、长寿路和虹桥路。\n#483 Thu 01 Oct 11:00 Them: Mia申请10月5号到9号去日本采风\n#484 Thu 01 Oct 11:05 aicoo: 采风理由？她说是为了新UI风格找灵感。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1103,
+   "out": 22,
+   "usd": 0.000060654
+  },
+  {
+   "in": 1154,
+   "out": 22,
+   "usd": 0.000071364
+  },
+  {
+   "in": 1205,
+   "out": 19,
+   "usd": 0.000080394
+  },
+  {
+   "in": 1391,
+   "out": 43,
+   "usd": 0.000132894
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3622
+}

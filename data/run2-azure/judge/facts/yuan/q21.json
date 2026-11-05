@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant gives the earliest title as 'Context-Aware Hierarchical Planning for LLMs', but the chat shows it was originally 'Planning with Hierarchical Graphs'.",
+ "rule": null
+}

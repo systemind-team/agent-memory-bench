@@ -1,0 +1,47 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "what's priya's coffee order?",
+ "reply": [
+  "i don't have that in my notes. never came up.",
+  "want me to ask her next time i see her?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya coffee order"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya drink"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5302,
+   "out": 22,
+   "usd": 0.00020926
+  },
+  {
+   "in": 5353,
+   "out": 21,
+   "usd": 0.00021941
+  },
+  {
+   "in": 5403,
+   "out": 31,
+   "usd": 0.00023551
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17906
+}

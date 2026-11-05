@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant recalls the last known date (9月14号) but incorrectly claims no separate presentation date was set, failing to treat that as the confirmed date.",
+ "rule": null
+}

@@ -1,0 +1,22 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+ "reply": [
+  "凯哥早上好！这周挺充实的，几个关键节点：",
+  "1）周一（明天）10:30 pricing launch decision meeting with Grace和Ben——这是本周最重要的决策点。\n2）Q4 headcount case你上周说这周要准备好，Grace那边SEA expansion的approval timeline也要跟进。\n3）integration final timeline要跟Ravi确认，他上次说performance improved 30%。\n4）Grace要的customer testimonial quote——周一找Lily要Aurora的，找Omar要Singapore两个大客户的。\n5）Emily的weekly check-in。",
+  "另外别忘了你父亲的情况，周一早上再问问。需要我提前帮你准备好meeting agenda或者remind你哪件事吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1764,
+   "out": 168,
+   "usd": 0.00006031536
+  }
+ ],
+ "memChars": 791,
+ "promptChars": 5469
+}

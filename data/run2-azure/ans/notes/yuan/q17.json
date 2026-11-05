@@ -1,0 +1,65 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "根据记录，你最后只投了一个：**Facebook Fellowship**（截止12月20日）。NSF fellowship你之前决定放弃了（20 Oct记的，因为觉得来不及+embodied AI long-term vision那段没想好怎么写）。",
+  "需要我把Facebook fellowship的提交状态和材料整理一下发你吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "fellowship 投 哪些"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "fellowship 申请 投"
+   },
+   "result": "[项目] 21 Sep: 下周开始写NSF和Facebook fellowship申请材料\n[项目] 14 Aug: fellowship申请截止11月15号，需准备材料\n[个人] 14 Aug: fellowship申请截止11月15号（之前14 Aug已记）\n[个人] 05 Oct: 早上继续跑A100实验，第三个环境准备用Habitat；Fellowship推荐信Coco说本周能发；Habitat环境配置dataloader慢，需加num_workers调bug；Kevin说H100申请还在排队\n[个人] 20 Oct 23:50 fellowship只投Facebook，NSF放弃（之前06 Oct提到NSF fellowship statement需加embodied AI long-term vision）\n[个人] 02 Oct: 早。今天连meeting，下午Prof. Lin meeting，晚上组会。得把paper和statement都过下；H100申请理由已写（hierarchical planning需要大模型推理，H100对scalability critical），组会slides已加H100性能对比；NSF fellowship statement需加embodied AI long-term vision（之前01 Oct draft保守）\n[项目]"
+  },
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  },
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3709,
+   "out": 24,
+   "usd": 0.000700682
+  },
+  {
+   "in": 3762,
+   "out": 24,
+   "usd": 0.000161924
+  },
+  {
+   "in": 4142,
+   "out": 20,
+   "usd": 0.000239484
+  },
+  {
+   "in": 4179,
+   "out": 16,
+   "usd": 0.000153366
+  },
+  {
+   "in": 4212,
+   "out": 73,
+   "usd": 0.000192216
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9622
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo's PR draft includes a Risk section as required by the assistant's memory of the user's preference.",
+ "rule": true
+}

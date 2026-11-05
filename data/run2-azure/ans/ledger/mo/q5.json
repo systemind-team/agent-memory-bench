@@ -1,0 +1,47 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "产品MVP砍到哪两个模块？",
+ "reply": [
+  "陈默，之前定的MVP是砍到两个模块：健康打卡和报告生成。这是8月定的，后面没再动过这两个核心模块。",
+  "安卓版11月中上线也是基于这个范围。如果现在有变化要重新砍，你说，我一起看影响面。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "MVP 模块 砍到"
+   },
+   "result": "[15] 07 Aug · decision: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块  (from #23)\n[198] 20 Sep · fact: 测试环境出了数据冲突，需要重构日志模块，阿杰保证 25 号  (from #380)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "MVP 砍 模块 晨检"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2599,
+   "out": 24,
+   "usd": 0.000467582
+  },
+  {
+   "in": 2700,
+   "out": 26,
+   "usd": 0.000489912
+  },
+  {
+   "in": 2755,
+   "out": 67,
+   "usd": 0.00015783
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6687
+}

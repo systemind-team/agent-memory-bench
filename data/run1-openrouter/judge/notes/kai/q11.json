@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The reply gives $44/user/month but adds incorrect details (launch date November 15, delay to December 1, A/B test results) not mentioned in the chat, making it fabricated.",
+ "rule": null
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo incorrectly reports a custom reporting scope change and a 1000K value that never existed; the actual scope change was one add-on that raised the deal from 800k to 950k.",
+ "first": "wrong",
+ "rule": null
+}

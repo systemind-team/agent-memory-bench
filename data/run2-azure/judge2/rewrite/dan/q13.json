@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply states only one candidate was interviewed, but in the chat Dan previously said 'candidates interviewed: 3' and listed Maria, Jordan, and David.",
+ "first": "stale",
+ "rule": null
+}

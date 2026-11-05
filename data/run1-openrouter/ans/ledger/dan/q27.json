@@ -1,0 +1,33 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q27",
+ "kind": "open_loop",
+ "q": "what's the status of that billing timeline doc for priya?",
+ "reply": [
+  "The billing timeline doc was sent to Priya back on 07 Aug. She asked about the *cutover* timeline again on 16 Oct — I've got that as \"locked for Oct 26\" as of 03 Oct. The cutover checklist is almost done, just need to add the rollback steps. Anything else on that? Those two are the most recent timeline-related asks from her."
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "billing timeline doc priya"
+   },
+   "result": "[28] 07 Aug · done: timeline doc sent to priya  (from #50)\n[8] 04 Aug · ask: remind me to send priya the billing timeline doc by friday  (from #12)\n[30] 07 Aug · done: dan sent timeline doc to priya  (from #50)\n[29] 07 Aug · done: aicoo reminded daniel thursday afternoon to send priya the billing timeline doc by friday  (from #9)\n[9] 04 Aug · promise: aicoo will remind daniel thursday afternoon to send priya the billing timeline doc by friday  (from #12, #13)\n[26] 07 Aug · plan: need to finish the timeline doc today Fri 07 Aug  (from #46)\n[384] 16 Oct · ask: priya asked about the cutover timel"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3092,
+   "out": 24,
+   "usd": 0.00002770544
+  },
+  {
+   "in": 3422,
+   "out": 88,
+   "usd": 0.00004630024
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10822
+}

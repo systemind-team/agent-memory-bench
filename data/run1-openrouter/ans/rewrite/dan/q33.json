@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "丹尼尔，这周安排如下：周二是排灯节（Diwali），周三数据库迁移凌晨2点执行，周四至周日在阿什维尔度假。",
+  "周二排灯节记得给阿黛准备点惊喜，你俩的吐司和黄油造型周三还能再穿一次。",
+  "周三凌晨迁移的rollback plan已通过Priya审批，周一晚上有dry run。你手机电池79%了，这周记得下单新的。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2993,
+   "out": 101,
+   "usd": 0.00003825332
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10684
+}

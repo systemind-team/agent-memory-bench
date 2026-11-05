@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant's reply says initial cash was 208万4千, but message #0 explicitly states 215万 as the starting cash before the seed round push; 208万4千 is the balance after paying the deposit later.",
+ "first": "wrong",
+ "rule": null
+}

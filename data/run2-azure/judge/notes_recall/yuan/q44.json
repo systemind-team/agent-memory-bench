@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo states it doesn't know the airline, can't find the flight details, and offers to search again or suggests asking Coco directly.",
+ "rule": null
+}

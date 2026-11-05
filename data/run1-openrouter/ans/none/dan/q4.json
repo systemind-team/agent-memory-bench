@@ -1,0 +1,33 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "how far did i run the day i set a personal best?",
+ "reply": [
+  "10.1 miles on Sep 15. solid milestone — you planning to go for more this week?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "run personal best"
+   },
+   "result": "#344 Tue 15 Sep 11:47 aicoo: that's promising. sounds like he's picking things up fast\n#345 Tue 15 Sep 15:20 Them: run update: hit 10.1 miles. new personal best.\n#346 Tue 15 Sep 15:22 aicoo: congratulations. that's a solid milestone"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1143,
+   "out": 21,
+   "usd": 0.000032922
+  },
+  {
+   "in": 1250,
+   "out": 27,
+   "usd": 0.000043632
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4210
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "Dan previously specified standup notes should be bullet points with timestamps, and aicoo correctly acknowledges it's Sunday with no standup instead of making up notes in the wrong format.",
+ "rule": false
+}

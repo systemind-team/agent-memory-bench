@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "早上好aicoo，这周什么安排？",
+ "reply": [
+  "- 这周关键事项：\n  - 周一（今天）9:30 线上meeting，已发送论文+slides给Prof. Lin\n  - 周二带Dr. Chen熟悉实验室环境（10:00提醒已设）\n  - 继续调环境4（HotpotQA改版，当前55%），目标提到60%+\n  - 讨论区（Discussion）还需根据Prof. Lin意见修改\n  - 考虑投稿时间线：AAAI或ICLR，等Prof. Lin今天意见",
+  "- 另外，11月15日ICLR deadline和fellowship申请都临近，需要重新排一下这周优先级吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4586,
+   "out": 156,
+   "usd": 0.00005750584
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11668
+}

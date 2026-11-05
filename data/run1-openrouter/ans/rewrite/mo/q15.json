@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q15",
+ "kind": "update",
+ "q": "大伟薪资最后敲定多少？",
+ "reply": [
+  "[{\"tool\": \"search_chat\", \"args\": {\"query\": \"大伟 薪资\"}}]"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4033,
+   "out": 24,
+   "usd": 0.0001656886
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8486
+}

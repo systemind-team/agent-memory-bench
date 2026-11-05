@@ -1,0 +1,22 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我现在论文的title是什么？",
+ "reply": [
+  "final title是：Context-Aware Planning via Hierarchical Decomposition。",
+  "上周五29号确认的，overleaf上实验部分初稿已经发了。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4234,
+   "out": 40,
+   "usd": 0.00007536984
+  }
+ ],
+ "memChars": 6593,
+ "promptChars": 10939
+}

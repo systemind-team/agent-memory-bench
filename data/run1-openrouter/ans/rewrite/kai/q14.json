@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q14",
+ "kind": "update",
+ "q": "Aurora deal的value变化，最终是多少？",
+ "reply": [
+  "凯哥，早。Aurora Health deal的最终value是$950k，这是你在Q4 pipeline数据里确认的（Oct4的笔记）。",
+  "周一见Grace的时候要提一下吗？还是先保持这个数字？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3044,
+   "out": 57,
+   "usd": 0.00003675112
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10815
+}

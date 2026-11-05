@@ -1,0 +1,35 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "when did i have the billing_status panic?",
+ "reply": [
+  "you had the billing_status panic on tuesday sep 15, right after sam started. dropped a column called billing_status, 3h of panic. post-mortem done and a ci dry-run ticket got created after that.",
+  "looks like the actual incident was august 18 though — the dropped column happened then. the sep 15 entry might be when the post-mortem or fallout hit. want me to check the original messages?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "billing status panic"
+   },
+   "result": "[138] 30 Aug · fact: dropped column was `billing_status`, 3h of panic  → replaced 04 Oct by [298] dropped column incident was august 18  (from #237)\n[305] 05 Oct · ask: priya asked for a status on the billing dry run results from last week  (from #550)\n[307] 06 Oct · pref: priya likes bullet points for status updates  (from #552)\n[231] 20 Sep · fact: priya asked for status on migration timeline, oct 12 holds  (from #410)\n[205] 16 Sep · fact: billing_status drop incident occurred on Tuesday Sep 15 just after Sam's start, post-mortem done and CI dry-run ticket created  (from #352)\n[49] 12 Aug · "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3065,
+   "out": 22,
+   "usd": 0.000151906
+  },
+  {
+   "in": 3377,
+   "out": 95,
+   "usd": 0.000212482
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10806
+}

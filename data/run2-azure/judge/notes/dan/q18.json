@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant provides August 28 and August 6 as options but misses the correct August 18 date that the user later clarified.",
+ "rule": null
+}

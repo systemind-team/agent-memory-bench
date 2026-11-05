@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo lists three trips but misdates the second one (Sep 25–27), duplicates the regional conference into two separate trips (Sep/Oct), and mentions unconfirmed details like '8月24日-26日' not explicitly in chat, making the aggregate inaccurate.",
+ "rule": null
+}

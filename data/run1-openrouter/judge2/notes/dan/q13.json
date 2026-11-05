@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant's reply says 2 data eng candidates were interviewed, but the chat shows 3 (Maria Torres, Jordan Liu, David Chen), using an outdated value as current.",
+ "first": "stale",
+ "rule": null
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "晚安aicoo，明天叫我。",
+ "reply": [
+  "晚安周周。明天9:30线上meeting，我会9:00叫醒你，发Zoom链接和论文最新版。",
+  "好好睡，明天周一了。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3730,
+   "out": 44,
+   "usd": 0.00003860248
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9611
+}

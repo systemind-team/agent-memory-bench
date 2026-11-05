@@ -1,0 +1,26 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "大伟入职后的绩效和薪酬进展，完整说说？",
+ "reply": [
+  "Sure. Here's the full timeline:",
+  "Aug 16: Offer sent at 17k base + 1k performance. Aug 17: Dawei countered at 20k, settled at 19k base with separate performance bonus.",
+  "Sep 4: Final salary 18.5k, effective Sep 1. Contract and laptop ready. Sep 8: He picked version B (user growth & retention focus), one-month trial.",
+  "Sep 21: Performance model finalized as 70% KPI + 30% OKR. Sep 24: He sent KPI draft, I gave revision feedback the next day.",
+  "Oct 11: Q1 performance rated A, bonus 12k paid out. Oct 2: Signed first Caoyang Road station (10% split). Oct 25: Second station in Xuhui, expected end of month.",
+  "Currently: Dawei is extending new channels, the Xuhui station should be finalizing this week."
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2936,
+   "out": 220,
+   "usd": 0.00007054656
+  }
+ ],
+ "memChars": 3144,
+ "promptChars": 7121
+}

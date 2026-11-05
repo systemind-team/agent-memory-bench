@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply fabricates details about dizziness and blood pressure on Sep 1, and a Nov 28 follow-up, none of which appear in the chat, while missing the father's initial hospitalization on Aug 14 and the daughter's school play on Sep 4.",
+ "rule": null
+}

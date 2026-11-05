@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It says there were no postpones and gives the wrong launch date (Dec 1 as initial), ignoring the two documented delays from Nov 1 to Nov 15 to Dec 1.",
+ "rule": null
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "助理错误地将截止日期表述为12月20日，而对话历史明确显示第一次fellowship的截止日是11月15日。",
+ "first": "wrong",
+ "rule": null
+}

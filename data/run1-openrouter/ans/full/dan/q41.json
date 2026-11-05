@@ -1,0 +1,20 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "what's lena's home address?",
+ "reply": [
+  "抱歉，我没有Lena的家庭地址记录。我们的对话中也没有提到过她的住址。需要我帮你查一下员工通讯录或者问Lena本人吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 21346,
+   "out": 47,
+   "usd": 0.00018032896
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64099
+}

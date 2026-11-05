@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "Pricing launch postpone了几次，从啥时候推到啥时候？",
+ "reply": [
+  "凯哥，我查了一下记录，定价上线的时间线是这样的：\n\n最初是 **Nov 1**（9月17日确认$44/user，定Nov 1 launch），后来因为需要更多测试时间，Ben提了推迟，你同意了 **Nov 15**（10月9日改的），再后来因为工程资源跟dark mode并行，又推到了 **Dec 1**（10月21日最终确认的）。\n\n所以现在是 **Dec 1**。\n\n今天周日，好好休息，明天10:30你跟Grace和Ben的定价决策会，需要我帮你提前准备什么吗？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12766,
+   "out": 127,
+   "usd": 0.00012118288
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50348
+}

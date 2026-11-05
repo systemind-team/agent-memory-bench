@@ -1,0 +1,59 @@
+{
+ "arm": "facts",
+ "id": "mo",
+ "qid": "q22",
+ "kind": "aggregate",
+ "q": "晨检上线推迟了多少次？每次计划在什么日子？",
+ "reply": [
+  "从记忆来看，晨检计划是9月初上线，但实际到了9月25日才正式上线。具体推迟次数和节点：",
+  "1️⃣ 最初计划8月底提交iOS审核，9月初上线。\n2️⃣ 后推迟到9月18日（先上iOS，安卓延到10月）。\n3️⃣ 最终定在9月25日上线。",
+  "所以是至少延了两次：9月初→9月18→9月25。你记得的版本和我找到的一致吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线 推迟 延期 计划"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线 计划 延期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "晨检 上线 推迟 延期 计划 日期"
+   },
+   "result": "- 晨检小程序上线延期到18号，先上iOS，安卓推迟到10月上线。iOS审核仍在排队，预计需7天。\n- 13 Sep: 下周计划上线晨检并推进融资\n- 晨检小程序上线延期到18号，决定通知阿杰，需确认营销物料是否准备好\n- 25 Sep: 今天主要盯上线前的测试，别再延期了\n- 28 Sep: 晨检上线后首日下载502，评分4.8，无闪退报告。\n- 12 Sep: 陈默说大伟建议晨检上线当天投信息流\n- 计划8月底提交iOS审核，9月初上线以赶得上期限，iOS需加把劲拉高DAU。\n- 20 Sep: 晨检上线最终定于9月25日，需确认营销物料是否准备好。\n- 产品定名为「晨检」，Mia已定稿。\n- 22 Oct: 晨检昨天DAU峰值2100，次留38%。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1449,
+   "out": 28,
+   "usd": 0.00003615836
+  },
+  {
+   "in": 1506,
+   "out": 26,
+   "usd": 0.00003831016
+  },
+  {
+   "in": 1561,
+   "out": 30,
+   "usd": 0.00004086796
+  },
+  {
+   "in": 1820,
+   "out": 119,
+   "usd": 0.00005861016
+  }
+ ],
+ "memChars": 401,
+ "promptChars": 4322
+}

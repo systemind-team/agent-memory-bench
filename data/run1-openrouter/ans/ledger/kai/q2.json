@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Lily搞的那个大单，Aurora那个，最后签了多少？",
+ "reply": [
+  "凯哥，周日好。\n\nAurora那个deal最终是**$950K**，Q3 closing的。Grace那边也把这个作为Q4 case study放进去了。\n\n周一你要找Lily拿Aurora的customer quote，正好顺便问问她有没有什么close的复盘心得可以写进testimonial里。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5105,
+   "out": 68,
+   "usd": 0.00007974652
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14911
+}

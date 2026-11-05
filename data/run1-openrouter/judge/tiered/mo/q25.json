@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply contains fabricated details (e.g., '协会付了保证金5千', '头三月保底500单', '10月小雨报本月订单近400单') not supported by the provided chat history.",
+ "rule": null
+}

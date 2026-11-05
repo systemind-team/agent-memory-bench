@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant only says the interval is two weeks, but the gold requires mentioning that Nov 1 was the original launch date and the delay to Nov 15 happened on day 68; the reply omits these required elements.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "can you do meeting notes from that sprint planning?",
+ "reply": [
+  "好的，我来查一下10月23日的sprint planning记录。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2805,
+   "out": 21,
+   "usd": 0.0001155882
+  }
+ ],
+ "memChars": 5505,
+ "promptChars": 10080
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the spec was sent and merged, but the gold answer says the reminder was never confirmed as sent, making the assistant's assertion unsupported.",
+ "first": "made_up",
+ "rule": null
+}

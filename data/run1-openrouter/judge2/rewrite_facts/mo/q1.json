@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply gives 208.4万 and an 8月中旬 context, but the correct recall answer is the 215万 stated on Mon 03 Aug.",
+ "first": "wrong",
+ "rule": null
+}

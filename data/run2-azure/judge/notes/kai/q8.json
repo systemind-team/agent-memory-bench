@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant incorrectly states the launch date as Dec 1 instead of Nov 1, and the conversation only confirms the price of $44/user/month without supporting the changed date.",
+ "rule": null
+}

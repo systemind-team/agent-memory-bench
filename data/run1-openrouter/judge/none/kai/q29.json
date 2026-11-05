@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The meeting was scheduled for Oct 15, not unscheduled as claimed.",
+ "rule": null
+}

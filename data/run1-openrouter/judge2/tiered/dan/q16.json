@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply incorrectly identifies the first move as Sep 28, while the messages show the first move was to Nov 5 on Wed 19 Aug, and the Aug 5 date was the original target, not a move.",
+ "first": "stale",
+ "rule": null
+}

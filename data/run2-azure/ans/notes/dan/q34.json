@@ -1,0 +1,60 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, any updates?",
+ "reply": [
+  "早安！周末没有太多变化：",
+  "Stripe v2 还在审查中，Tom 正在处理一轮评论。迁移清单我已经开始填充了——Priya 发的模板。下周安排一次新的试运行。",
+  "你的电池到了吗？还是还没下单？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "updates this weekend"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "update weekend sunday"
+   },
+   "result": "[running] 23 Aug: weekend plans: prospect park again, maybe 10 miles\n[billing-migration] 09 Oct: Priya asked about cutover checklist; Dan will update it this morning\n[running] 07 Sep: weekend run planned: 12 miles Saturday (moved from 06 Sep)\n[running] 17 Aug: weekend run: prospect park loop, 9.2 miles, felt good (was 10mi with Ade)\n[billing-migration] 06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n[stripe-webhook] 17 Oct: Tom's frontend refactor broke webhooks again (payload format changed without handler"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "billing-migration"
+   },
+   "result": "Billing migration PR\n03 Aug: PR submitted for billing migration; aicoo reviewing\n06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n07 Aug: timeline doc sent to Priya; right before deadline\n24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n11 Aug: Priya covering backend next week\n14 Aug: Maria out; took another offer; Priya gutted; need to restart interviews; 19 Aug: on-call quiet, one disk space alert overnight\n08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushb"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2491,
+   "out": 22,
+   "usd": 0.000123014
+  },
+  {
+   "in": 2542,
+   "out": 22,
+   "usd": 0.000133724
+  },
+  {
+   "in": 2793,
+   "out": 22,
+   "usd": 0.00014061
+  },
+  {
+   "in": 3631,
+   "out": 63,
+   "usd": 0.000385374
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9079
+}

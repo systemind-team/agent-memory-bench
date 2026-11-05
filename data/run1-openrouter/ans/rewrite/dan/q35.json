@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "dan the builder 早上好 周日不办公 但有一件事备忘 今天是 on-call 轮换第一天 新 key A4B8C2 已经激活 你今晚八点到明早八点 primary",
+  "[sticker: wave]"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2990,
+   "out": 60,
+   "usd": 0.00003480232
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10664
+}

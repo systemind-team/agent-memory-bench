@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "how many eng were on the team before david joined?",
+ "reply": [
+  "before David joined, the team was 4 engineers: you, Tom, Lena, and Sam. it grew from 3 to 4 sometime after june.",
+  "so david made it 5. priya manages all of you."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "engineers before David joined count team size"
+   },
+   "result": "- 11 Oct: Teammate count is 5 engineers: me, Tom, Lena, Sam, David; Priya manages.\n- 29 Aug: lunch run 5k, biscuit joined for first mile\n- 21 Oct: Dan sent on-call rotation proposal to Priya: 4 engineers per week, David starts after his first sprint. Priya approved his rotation starting November 1.\n- 28 Sep: Dan Okafor interviewed three candidates: Maria, Jordan, and David; David was hired.\n- 02 Oct: coffee count 3 is my limit\n- 10 Aug: Saving an hour if Tom syncs before merging.\n- 24 Sep: Sprint retro indicates team feels okay about pace.\n- 11 Oct: The team has grown from 3 to 4 since June.\n-"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1460,
+   "out": 26,
+   "usd": 0.000229512
+  },
+  {
+   "in": 1701,
+   "out": 55,
+   "usd": 0.000250538
+  }
+ ],
+ "memChars": 884,
+ "promptChars": 5400
+}

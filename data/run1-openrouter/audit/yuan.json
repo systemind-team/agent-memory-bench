@@ -1,0 +1,192 @@
+{
+ "q1": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #10 on Mon 03 Aug explicitly states Prof. Lin said only 3 spring intern spots, with no later messages contradicting this."
+ },
+ "q3": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The planted evidence on Sun 09 Aug explicitly states the TA course is CS 571, and no later messages contradict this."
+ },
+ "q4": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages on Wed 12 Aug set the weekly meeting to Thursday at 3pm, and subsequent messages consistently refer to it at that time with no indication of a permanent change."
+ },
+ "q6": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #209 from Sat 22 Aug explicitly states there are 4 idle A100 GPUs, and no later messages indicate any change to this number by Sun 01 Nov."
+ },
+ "q2": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "山海 is consistently referenced as the restaurant Coco talked about across multiple messages, with no conflicting names."
+ },
+ "q7": {
+  "exclude": false,
+  "gold": "10月5号",
+  "verdict": "fixed",
+  "reason": "消息#388明确说明Coco生日是10月5号，后续消息#667提到10月7日Coco生日聚餐是对该日期的顺延庆祝，且无其他冲突日期。"
+ },
+ "q5": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages #131, #133, and #436 consistently state the first fellowship deadline as November 15th, and no subsequent message contradicts this."
+ },
+ "q8": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "在10月14日的对话中明确记录了山海餐厅预订在11月20日，且后续没有更改，因此11月1日询问时的答案唯一且正确。"
+ },
+ "q10": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "消息明确记录Dr. Chen入职定在11月3号，且在11月1日提问时无冲突信息，该答案为唯一合理答案。"
+ },
+ "q11": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The final title update on 26-27 Oct to 'Context-Aware Planning via Hierarchical Decomposition' was explicitly confirmed and not superseded before 01 Nov."
+ },
+ "q12": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The conversation on Wed 26 Aug confirms Kevin's presentation was rescheduled to September 14, and no later message updates this date."
+ },
+ "q13": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages on Wed 02 Sep clearly state the guest talk was on Friday with speaker Prof. Wang from MIT, and no later correction contradicts this."
+ },
+ "q9": {
+  "exclude": false,
+  "gold": "NeurIPS",
+  "verdict": "fixed",
+  "reason": "消息#707明确提到Mei的文章被NeurIPS接收，且截止至11月1日无其他会议接收信息，因此唯一答案是NeurIPS，但原题gold answer为'NeurIPS'，无需修正。"
+ },
+ "q14": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The message on Wed 07 Oct explicitly states the KTV name is '星光', and no conflicting information is provided by Sun 01 Nov."
+ },
+ "q15": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages #838 on Sun 25 Oct state the next Monday meeting is changed to online, and this is consistent through #839, #852, #900, #901, #919."
+ },
+ "q17": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "By 01 Nov, messages clearly show only Facebook fellowship was submitted; NSF was discussed but ultimately abandoned on 20 Oct, so '1个: Facebook' is correct."
+ },
+ "q19": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "截至Sun 01 Nov，对话明确显示论文实验最终使用了4个环境（#827提及增加第四个环境，#887确认跑完所有实验一共4环境）。"
+ },
+ "q20": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The messages show a clear progression: initially planning both NSF and Facebook, then deciding only those two, then leaning toward only Facebook due to NSF's direction, and finally confirming only Facebook was submitted, matching the gold answer."
+ },
+ "q18": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The messages directly support each part of the gold answer: wanting to add GPTR (04 Sep), not touching it while revising intro (06 Sep), running it with poor results (09 Sep), finding a normalization bug (15 Sep), and adding it to the paper with a 3-point improvement (16 Oct)."
+ },
+ "q22": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The chat log shows exactly five title changes, matching the gold answer of 5次."
+ },
+ "q25": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The final title before and closest to Sun 01 Nov is 'Context-Aware Planning via Hierarchical Decomposition', confirmed on Mon 26 Oct and applied Tue 27 Oct, with no later changes."
+ },
+ "q23": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "As of Nov 1, the last title change before that date was on Oct 26 to 'Context-Aware Planning via Hierarchical Decomposition', but the question asks for the second changed title, which per the chat is 'Hierarchical Planning with Graph Attention' from Aug 19."
+ },
+ "q16": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The gold answer correctly lists the four events about GPTR as explicitly stated in the chat messages."
+ },
+ "q24": {
+  "exclude": false,
+  "gold": "day 47",
+  "verdict": "fixed",
+  "reason": "The third title change occurs on Sun 13 Sep (day 47), when the user says 'Paper title又改了', which is the third distinct title after the initial one and the second change."
+ },
+ "q28": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "多个后续消息涉及San Diego workshop，但均未显示8月21日设定的‘下次周会提醒’已被执行或关闭，因此开放状态成立。"
+ },
+ "q21": {
+  "exclude": false,
+  "gold": "Context-Aware Planning via Hierarchical Decomposition",
+  "verdict": "fixed",
+  "reason": "As of Sun 01 Nov, the most recent title update is 'Context-Aware Planning via Hierarchical Decomposition' from Tue 27 Oct, which supersedes earlier titles including the initial working title."
+ },
+ "q27": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The reminder was set on Aug 17 with no follow-up messages indicating completion, so the gold answer correctly states it remains open."
+ },
+ "q29": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The gold answer correctly states the task was completed, supported by messages #279-280 (reminder set on Aug 28) and #317 (reminder closed on Sep 1 after feedback sent)."
+ },
+ "q26": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The title 'Context-Aware Hierarchical Planning for LLMs' definitely existed, recorded on 13 Sep and referenced on 28 Sep, so the gold '存在' is correct."
+ },
+ "q40": {
+  "exclude": false,
+  "reason": "Nowhere in the messages does Mei mention when she starts her vacation.",
+  "which": ""
+ },
+ "q41": {
+  "exclude": false,
+  "reason": "The chat mentions Prof. Wang from MIT only in the context of a guest talk on RL, never regarding a publication venue.",
+  "which": ""
+ },
+ "q30": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The gold answer correctly states the reminder is completed, as shown in messages #308-#309 where the task was marked done on Aug 31, and no later messages indicate it's still active."
+ },
+ "q43": {
+  "exclude": false,
+  "reason": "None of the messages mention when the decision to reproduce the GPTR baseline was made.",
+  "which": ""
+ },
+ "q42": {
+  "exclude": false,
+  "reason": "虽然对话中提到过叫年糕的猫（Coco的猫），但从未提及Kevin的猫咪名字，因此无法回答这个问题。",
+  "which": ""
+ },
+ "q45": {
+  "exclude": false,
+  "reason": "The messages mention H100 GPUs being purchased and applied for but never state their arrival date.",
+  "which": ""
+ },
+ "q44": {
+  "exclude": false,
+  "reason": "The messages mention Coco's boyfriend coming from Shanghai but never specify the airline.",
+  "which": ""
+ },
+ "q31": {
+  "exclude": false,
+  "gold": "这个提醒仍然开放：在8月10日（周一）你让我检查周报引用格式，周末前回复。此后没有任何你对此事说“搞定”或已关闭的记录，所以仍是开放。",
+  "verdict": "fixed",
+  "reason": "原始gold answer将日期误写为8月8日（第8天），实际消息发生在8月10日周一（#92和#93），且确实是第10天而非第8天。"
+ }
+}

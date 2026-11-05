@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "Mei的paper被哪个会接收了？",
+ "reply": [
+  "Mei的paper被NeurIPS接收了，是她10月11号告诉你的，不过当时你说太累了，说\"明天再说\"。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3859,
+   "out": 31,
+   "usd": 0.00005941404
+  }
+ ],
+ "memChars": 5093,
+ "promptChars": 9383
+}

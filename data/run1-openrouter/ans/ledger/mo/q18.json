@@ -1,0 +1,84 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "蓝驰第一次约见是几号？",
+ "reply": [
+  "第一次约见蓝驰是8月21号（周五）下午，那天你让我把材料又发了一遍"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 第一次 约见"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "蓝驰 第一次 见面"
+   },
+   "result": "[306] 14 Oct · done: 蓝驰第一笔300万到账  (from #585)\n[262] 04 Oct · fact: 蓝驰打款分两笔，月底第一笔300万  (from #504, #505, #506)\n[67] 24 Aug · plan: 周三（8月26日）再跟进一次云九  (from #133)\n[99] 28 Aug · plan: 蓝驰第一笔9月10号前到账，aicoo设了预警  (from #180)\n[98] 28 Aug · fact: 现金流撑不到9月中，蓝驰第一笔下周到刚好  (from #179)\n[172] 14 Sep · decision: 晨检logo用回第一版，让Mia改回  (from #334, #335)\n[300] 13 Oct · fact: 大伟第一个季度绩效拿到 A，奖金1万2  (from #572)\n[157] 10 Sep · plan: 蓝驰尽调推进  (from #303)\n[156] 10 Sep · done: 蓝驰签TS，估值7500万  (from #296, #298, #299, #303)\n[143] 05 Sep · ask: 明天（6 Sep）催蓝驰进度  → replaced 29 Sep by [249] 10月15号提醒确认蓝驰第二笔款到账  (from #260)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 约见 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 见"
+   },
+   "result": "#113 Fri 21 Aug 10:15 Them: 那8月底提交，9月初能上线，赶得上\n#114 Fri 21 Aug 14:00 Them: 今天见蓝驰，准备材料再发我一遍\n#115 Fri 21 Aug 14:02 aicoo: 已发你邮箱，数据更新到上周"
+  },
+  {
+   "tool": "open_source",
+   "args": {
+    "ids": [
+     114,
+     115
+    ]
+   },
+   "result": "#113 Fri 21 Aug 10:15 Them: 那8月底提交，9月初能上线，赶得上\n#114 Fri 21 Aug 14:00 Them: 今天见蓝驰，准备材料再发我一遍\n#115 Fri 21 Aug 14:02 aicoo: 已发你邮箱，数据更新到上周\n---\n#114 Fri 21 Aug 14:00 Them: 今天见蓝驰，准备材料再发我一遍\n#115 Fri 21 Aug 14:02 aicoo: 已发你邮箱，数据更新到上周\n#116 Sat 22 Aug 09:00 Them: 阿杰薪资最终定3万5，试用期后看表现调"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2623,
+   "out": 25,
+   "usd": 0.000025375
+  },
+  {
+   "in": 2677,
+   "out": 24,
+   "usd": 0.0000274862
+  },
+  {
+   "in": 3027,
+   "out": 25,
+   "usd": 0.0000417774
+  },
+  {
+   "in": 3081,
+   "out": 22,
+   "usd": 0.0000437262
+  },
+  {
+   "in": 3190,
+   "out": 21,
+   "usd": 0.0001312192
+  },
+  {
+   "in": 3392,
+   "out": 30,
+   "usd": 0.00004037264
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6685
+}

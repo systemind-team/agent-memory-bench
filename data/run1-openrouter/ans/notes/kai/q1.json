@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "那个Q3 revenue target我们设了多少来着，Grace问起来我不想翻记录。",
+ "reply": [
+  "凯哥早上好。Q3 revenue target是2.4M USD，跟Grace在8月初定的。实际2.35M，差了一点点。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12769,
+   "out": 34,
+   "usd": 0.00011375308
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50354
+}

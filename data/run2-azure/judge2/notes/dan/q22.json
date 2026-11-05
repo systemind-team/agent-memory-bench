@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claimed only Jordan Liu was interviewed, but the chat logs explicitly mention Maria Torres (#94), Jordan Liu (#174), and David Chen (#283, #295), and Dan himself summarized three candidates on Mon 28 Sep (#461).",
+ "first": "wrong",
+ "rule": null
+}

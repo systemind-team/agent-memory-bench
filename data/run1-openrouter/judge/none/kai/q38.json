@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It did not draft meeting minutes starting with a summary sentence on decisions; instead it said there was no meeting Saturday and offered an agenda outline instead.",
+ "rule": false
+}

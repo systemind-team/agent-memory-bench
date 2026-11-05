@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant said 大伟 is 9月2日到岗, but the chat evidence in #254 confirms 9月1号准到, and earlier messages consistently planned 9月1号入职; the 9月2日 claim is a later update not supported here and contradicts the known date.",
+ "first": "stale",
+ "rule": null
+}

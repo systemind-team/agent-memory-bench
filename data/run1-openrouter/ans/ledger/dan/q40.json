@@ -1,0 +1,57 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "when is tom's PTO?",
+ "reply": [
+  "I don't have any record of Tom's PTO. Nothing in memory or chat about when he's taking time off. Want me to check his calendar or ask him?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "tom PTO vacation"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom out"
+   },
+   "result": "#552 Mon 05 Oct 10:05 Them: yeah drop it in the thread. priya likes bullet points\n#553 Mon 05 Oct 11:20 Them: tom's pr to split out the webhook service is in review. looks solid\n#554 Mon 05 Oct 11:25 aicoo: i flagged it for you. eight files changed. no test failures on the branch\n---\n#197 Mon 24 Aug 17:45 aicoo: maybe expense a 27-inch? priya would approve\n#198 Tue 25 Aug 09:20 Them: tom merged the webhook spec. one review comment about error codes\n#199 Tue 25 Aug 09:20 aicoo: good, early feedback helps\n---\n#193 Mon 24 Aug 10:30 aicoo: nice, almost there\n#194 Mon 24 Aug 14:15 Them: priya's out"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Tom PTO vacation time off"
+   },
+   "result": "[76] 15 Aug · feeling: weekend, off the clock  (from #124)\n[218] 18 Sep · fact: legal signed off on billing cutover  (from #381)\n[34] 09 Aug · fact: priya's taking PTO aug 24-28  (from #56)\n[140] 31 Aug · fact: lena's pto is oct 5-9 for a wedding  (from #243)\n[152] 03 Sep · fact: test_billing_webhook flaky in ci, fails 20% of the time, likely race condition on mock stripe response  (from #261)\n[194] 14 Sep · fact: Tom's dog is named Waffles  (from #331)\n[397] 18 Oct · fact: tom working on the fix now  (from #681)\n[398] 18 Oct · promise: tom promised to fix it today  (from #682)\n[401] 18 Oct · "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3086,
+   "out": 22,
+   "usd": 0.00002729944
+  },
+  {
+   "in": 3137,
+   "out": 20,
+   "usd": 0.00002920764
+  },
+  {
+   "in": 3703,
+   "out": 24,
+   "usd": 0.00005251204
+  },
+  {
+   "in": 3989,
+   "out": 41,
+   "usd": 0.00006550404
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10783
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply says the docs were updated on Sep 20, but the chat shows they were updated on Mon 21 Sep (message #418) after a reminder on Sep 19-20, so the claimed date is inaccurate.",
+ "first": "wrong",
+ "rule": null
+}

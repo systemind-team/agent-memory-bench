@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "Webhooks were in staging by late August and moved to own service by early October, while Sam's onboarding started in September, so the order is correct.",
+ "rule": null
+}

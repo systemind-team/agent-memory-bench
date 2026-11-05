@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The question asks when Priya *first* moved the cutover, but the reply gives Sep 28 (which the chat does not support) as the first move and treats Aug 5 as the original date, not the first move.",
+ "rule": null
+}

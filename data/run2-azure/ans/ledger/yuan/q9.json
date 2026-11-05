@@ -1,0 +1,35 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "Mei的paper被哪个会接收了？",
+ "reply": [
+  "Mei的paper之前是被workshop接收的（8月14日左右的记录）。",
+  "最近没有新的会议接收信息——如果有更新，我可以再查一下后来meeting里有没有提到。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Mei paper accepted conference"
+   },
+   "result": "[72] 14 Aug · fact: 14 Aug Mei的paper被workshop接受了  (from #129)\n[414] 04 Oct · fact: Sun 04 Oct 11:00 Final check过了，觉得paper写得好  (from #631)\n[63] 13 Aug · fact: Wed 12 Aug 15:00 meeting中Prof. Lin说paper framework还行  (from #112)\n[78] 15 Aug · feeling: Sat 15 Aug 周末还在写paper，学术圈没有假期  (from #137)\n[249] 09 Sep · fact: Wed 09 Sep 15:00 Prof. Lin建议先focus on paper，workshop可以投  (from #374)\n[388] 02 Oct · plan: Fri 02 Oct 全天有Prof. Lin meeting和组会，需要过paper和statement  (from #592)\n[483] 16 Oct · done: Fri 16 Oct 01:30 GPTR结果加进paper，比baseline高3个点  (from #742)\n[214] 04 Sep · done: 周予安答应Mei帮看她NeurIPS rebuttal的任务已完"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4562,
+   "out": 23,
+   "usd": 0.000191892
+  },
+  {
+   "in": 4928,
+   "out": 48,
+   "usd": 0.000282752
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11669
+}

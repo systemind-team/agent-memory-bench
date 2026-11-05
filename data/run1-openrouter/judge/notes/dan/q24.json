@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "The reply correctly includes 9A7B2C, 3F8D1A, and 7C2E9B from the chat but adds a made-up key 5B1C6D and acknowledges A4B8C2 without including it as a used key, missing it from the list despite it being required.",
+ "rule": null
+}

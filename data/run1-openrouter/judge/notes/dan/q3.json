@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply correctly identifies 'billing_status' as the accidentally dropped column.",
+ "rule": null
+}

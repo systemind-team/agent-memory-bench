@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply says Priya first mentioned moving cutover on Sep 30 to Oct 26, but the actual question asks when Priya first moved the cutover; the right answer is Aug 5, and the reply omits this entirely while providing a later, incorrect first mention date.",
+ "first": "made_up",
+ "rule": null
+}

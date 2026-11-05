@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The draft PR description ends with a 'Risk' section as required by the user's preference.",
+ "rule": false
+}

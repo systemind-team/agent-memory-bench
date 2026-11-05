@@ -1,0 +1,46 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "The earliest mention I've got is September 17 — you told me Priya said the cutover *might* shift again, pending legal. Before that there was a sync scheduled for Aug 4 about the cutover plan, and by Oct 3 you had Oct 26 locked. So the first shift I know of was around mid-September, driven by legal."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya cutover date moved first"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Priya cutover date moved first"
+   },
+   "result": "- 17 Sep: Priya mentioned the cutover date might shift again, pending legal.\n- 26 Oct: Priya wants the cutover checklist ready by Friday.\n- 04 Aug: Has a sync with Priya scheduled for 10am tomorrow about the cutover plan\n- 05 Oct: Priya asked Dan for a status on the billing dry run results from last week. 15 Oct: Priya asked about the cutover timeline again\n- 21 Oct: Dan sent on-call rotation proposal to Priya: 4 engineers per week, David starts after his first sprint. Priya approved his rotation starting November 1.\n- 07 Oct: Office moved to WeWork on 34th St, desk 17 by the window.\n- 23 Oct:"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1519,
+   "out": 25,
+   "usd": 0.000195518
+  },
+  {
+   "in": 1573,
+   "out": 25,
+   "usd": 0.000206858
+  },
+  {
+   "in": 1872,
+   "out": 81,
+   "usd": 0.000301008
+  }
+ ],
+ "memChars": 1163,
+ "promptChars": 5667
+}

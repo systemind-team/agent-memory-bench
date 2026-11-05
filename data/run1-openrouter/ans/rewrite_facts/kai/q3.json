@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "Yuki那个onboarding redesign的conversion lift是多少啊，我忘了具体数字。",
+ "reply": [
+  "凯哥周日好。Yuki的onboarding redesign，A/B测试结果是23% conversion lift。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3333,
+   "out": 22,
+   "usd": 0.00006227228
+  }
+ ],
+ "memChars": 6906,
+ "promptChars": 11647
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q15",
+ "kind": "update",
+ "q": "Pricing v3的时候Ben提的那个价格是多少来着，后来没用那个。",
+ "reply": [
+  "Ben当时提的是$49/user/月（premium tier），后来10月15日finalized定为$44/user/月，11月1日上线（后来推迟到12/1）。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8794,
+   "out": 48,
+   "usd": 0.000315604
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26045
+}

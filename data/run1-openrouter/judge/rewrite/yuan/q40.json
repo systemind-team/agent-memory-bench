@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo correctly states it cannot find a specific date in the chat history and asks for more context instead of making up an answer.",
+ "rule": null
+}

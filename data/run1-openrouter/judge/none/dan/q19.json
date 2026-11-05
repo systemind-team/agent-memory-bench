@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It says it doesn't have past messages about either event but the logs show both were discussed, so it should have been able to determine the order.",
+ "rule": null
+}

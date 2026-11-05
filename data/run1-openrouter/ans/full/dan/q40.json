@@ -1,0 +1,57 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "when is tom's PTO?",
+ "reply": [
+  "根据我们的对话记录，你从来没提过汤姆的休假时间。我没有他的PTO信息。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "tom pto vacation leave"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "tom out off"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "tom's time off"
+   },
+   "result": "#330 Sun 13 Sep 17:02 aicoo: ha. enjoy the run.\n#331 Mon 14 Sep 08:20 Them: tom's dog is named waffles. he brings him to the office sometimes\n#332 Mon 14 Sep 08:22 aicoo: waffles is a great name for a dog. bet he and biscuit would get along"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21345,
+   "out": 23,
+   "usd": 0.00017833956
+  },
+  {
+   "in": 21397,
+   "out": 21,
+   "usd": 0.00018028836
+  },
+  {
+   "in": 21447,
+   "out": 22,
+   "usd": 0.00018239956
+  },
+  {
+   "in": 21561,
+   "out": 27,
+   "usd": 0.00018743396
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64090
+}

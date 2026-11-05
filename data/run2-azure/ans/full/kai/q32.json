@@ -1,0 +1,22 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+ "reply": [
+  "早凯哥，这周比较关键：周一早上10:30跟Grace和Ben对齐pricing launch决定，顺便聊SEA expansion headcount timeline。Yuki的dark mode manual toggle已经在sprint里，预计11月初完成。Ravi的integration和security audit补测都on track，Sep 22没问题。Emily已经上手，backlog proposal也发了。父亲稳定就好，女儿Halloween开心了吧？这周你主要focus pricing launch确认和Omar的SEA headcount推进。",
+  "今天周日没有meeting，好好休息，明天开始节奏会紧起来。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36324,
+   "out": 131,
+   "usd": 0.001240216
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91611
+}

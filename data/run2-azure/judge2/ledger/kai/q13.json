@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The question asks for Ben's first proposed pricing, which was 39 per user per month in v2 on Aug 16, but the reply fails to provide this and instead claims the first version wasn't recorded.",
+ "first": "wrong",
+ "rule": null
+}

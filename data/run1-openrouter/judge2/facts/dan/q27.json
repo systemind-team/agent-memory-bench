@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply claims the timeline doc was sent, but the user never confirmed completion after asking for a reminder, and the gold requires recognizing it was never closed out.",
+ "first": "wrong",
+ "rule": null
+}

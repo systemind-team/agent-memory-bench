@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The chat only supports 9月1号 as the start date, but the assistant also added 8月31日报到/入职 and that he's been there two months, which aren't in the provided messages.",
+ "rule": null
+}

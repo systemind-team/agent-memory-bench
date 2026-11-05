@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It recalled the recorded fact that 4 A100 GPUs were idle on August 22, and correctly notes that is the last known record from two months ago.",
+ "rule": null
+}

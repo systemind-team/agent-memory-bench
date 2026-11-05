@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "云九和蓝驰，哪家先跟我们谈的？",
+ "reply": [
+  "From my memory, 蓝驰 was the first to engage. We started discussions with 蓝驰 around mid-August, and they did the deep dive — 尽调, TS, and closed the seed round at 7200万 valuation. 云九 initially showed interest but asked for DAU above 2000 before proceeding, then later invested in a competitor.\n\nSo 蓝驰 came first and closed. 云九 is out of the picture for this round."
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4038,
+   "out": 97,
+   "usd": 0.0001718192
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8490
+}

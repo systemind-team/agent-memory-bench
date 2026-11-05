@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply includes salary details (底薪1万6+绩效2000, 调整到1万7, 还价到2万, 折中到1万85) that are not supported by the provided chat history.",
+ "rule": null
+}

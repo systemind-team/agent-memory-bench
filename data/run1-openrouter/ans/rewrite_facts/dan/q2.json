@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "what was the old pagerduty key before the first change?",
+ "reply": [
+  "dan the builder, 最早的 key 是 9A7B2C，那个在 9月15号 incident 之后被 revoke 了。后来换成了 7C2E9B，这个上周六 on-call 的时候用着没问题。"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "old pagerduty key before change"
+   },
+   "result": "- 08 Oct: Told Sam that the old on-call key 9A7B2C was revoked.\n- 26 Oct: PagerDuty key 7C2E9B worked fine during last night's on-call.\n- 01 Sep: Ade's birthday dinner was at Bamonte's, an old-school Italian place.\n- 17 Oct: The issue was found: a payload key was renamed.\n- 10 Aug: Saving an hour if Tom syncs before merging.\n- 10 Aug: PagerDuty rotation starts tomorrow. 12 Aug: Daniel is on-call this week.\n- 10 Aug: Wants aicoo to remind Tom to sync before merging next time.\n- 13 Aug: Daniel accepted Aicoo's offer to pull the incident timeline from PagerDuty, as it would save time.\n- Them want"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3321,
+   "out": 26,
+   "usd": 0.000053795
+  },
+  {
+   "in": 3624,
+   "out": 57,
+   "usd": 0.0001517628
+  }
+ ],
+ "memChars": 7198,
+ "promptChars": 11836
+}

@@ -1,0 +1,22 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "what was the flaky test called again?",
+ "reply": [
+  "flaky test was `test_billing_webhook`. the one that failed ~20% of the time on ci until you mocked the stripe endpoint on oct 2.",
+  "want me to pull the ticket number from the project board?"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 21324,
+   "out": 54,
+   "usd": 0.000704888
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64109
+}

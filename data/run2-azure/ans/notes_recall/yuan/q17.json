@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "你最后只投了Facebook Fellowship，NSF放弃了——之前20号晚上你自己说的方向不太对，就只focus一个。",
+  "Facebook Fellowship截止是12月20日，你现在论文12月投，两个不冲突。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "fellowship 投 哪些"
+   },
+   "result": "[个人] 20 Oct 23:50 fellowship只投Facebook，NSF放弃（之前06 Oct提到NSF fellowship statement需加embodied AI long-term vision）\n[项目] 13 Aug: 下午开始写fellowship personal statement\n[个人] 11 Aug: 写fellowship statement of purpose，觉得折磨人\n[项目] 21 Sep: 下周开始写NSF和Facebook fellowship申请材料\n[项目] 14 Aug: fellowship申请截止11月15号，需准备材料\n[个人] 14 Aug: fellowship申请截止11月15号（之前14 Aug已记）\n[个人] 01 Oct: fellowship personal statement draft写完但未完成（之前30 Sep论文基本finalize）\n[个人] 05 Oct: 晚上写实验结果；Facebook fellowship截止日12月20日（moved to Dec 20, was Oct 31）\n[个人] 05 Sep: 到lab找GPTR代码，手机屏幕裂了，换屏要200刀，先凑合用等fellowship下来再换\n[个人] 28 Aug: 下午写完fellowship personal stat"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4039,
+   "out": 24,
+   "usd": 0.000311742
+  },
+  {
+   "in": 4342,
+   "out": 55,
+   "usd": 0.000392732
+  }
+ ],
+ "memChars": 6037,
+ "promptChars": 10392
+}

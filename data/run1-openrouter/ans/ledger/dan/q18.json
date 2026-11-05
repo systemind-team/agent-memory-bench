@@ -1,0 +1,45 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "what day was the migration incident?",
+ "reply": [
+  "the migration incident where you dropped a column instead of renaming was august 18. rolled back, no data loss, but 3h of panic."
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "migration incident"
+   },
+   "result": "[128] 28 Aug · fact: lena caught migration incident before prod sync  (from #220)\n[64] 13 Aug · plan: dan will draft notes for migration incident post-mortem this afternoon  (from #107)\n[23] 07 Aug · fact: patch for migration incident is being handled by lena with on-call doc update  (from #41)\n[22] 06 Aug · feeling: migration incident from last week still lingering, one customer's data out of sync  (from #39)\n[127] 28 Aug · fact: migration incident on tuesday: dropped a column instead of renaming, rolled back, no data loss  (from #218)\n[298] 04 Oct · fact: dropped column incident was august 1"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "dropped column incident date"
+   },
+   "result": "[298] 04 Oct · fact: dropped column incident was august 18  (from #537, #538)\n[127] 28 Aug · fact: migration incident on tuesday: dropped a column instead of renaming, rolled back, no data loss  (from #218)\n[138] 30 Aug · fact: dropped column was `billing_status`, 3h of panic  → replaced 04 Oct by [298] dropped column incident was august 18  (from #237)\n[97] 20 Aug · fact: cutover date moved to nov 5  → replaced 18 Sep by [217] billing cutover final date: oct 12 again  (from #161)\n[161] 06 Sep · fact: cutover date moved to nov 15  → replaced 30 Sep by [267] priya wants to move cutover to oct 2"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3086,
+   "out": 21,
+   "usd": 0.00002721824
+  },
+  {
+   "in": 3395,
+   "out": 23,
+   "usd": 0.00003992604
+  },
+  {
+   "in": 3761,
+   "out": 37,
+   "usd": 0.00005592244
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10801
+}

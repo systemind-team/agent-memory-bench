@@ -1,0 +1,22 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+ "reply": [
+  "早上好凯哥，今天周日，没有meeting！这周的几个关键点：周一10:00 pricing review prep，10:30跟Grace和Ben敲定pricing launch decision，同时确认SEA headcount timeline。还要找Lily和Omar要customer quote补Q3 summary。Ravi那边integration final timeline跟一下，Emily weekly check-in也排上。",
+  "但今天先好好休息，你父亲状态好、女儿也开心，这才是最重要的。有什么需要随时叫我。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12748,
+   "out": 112,
+   "usd": 0.000494424
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50351
+}

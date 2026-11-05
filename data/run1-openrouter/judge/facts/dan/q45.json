@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It correctly states it doesn't know Priya's coffee order and offers to note it later, matching the required abstain behavior.",
+ "rule": null
+}

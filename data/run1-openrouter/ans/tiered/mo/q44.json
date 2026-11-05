@@ -1,0 +1,46 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "大伟最近在忙什么项目？",
+ "reply": [
+  "大伟这周在跑新渠道，徐汇那家驿站首月流水破5万后，他说下周要谈第二家。另外安卓版11月中上线，他那边应该也在配合测试准备。",
+  "你打算给他加什么新方向？还是继续铺驿站？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 最近 项目"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 拓展 渠道"
+   },
+   "result": "#708 Sat 31 Oct 09:10 Them: 下周重点是什么\n#709 Sat 31 Oct 09:15 aicoo: 大伟拓展新渠道，成都合作推进，安卓版11月中上线准备\n#710 Sat 31 Oct 10:00 Them: 好，新一周加油"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5581,
+   "out": 24,
+   "usd": 0.00005392492
+  },
+  {
+   "in": 5634,
+   "out": 24,
+   "usd": 0.00005607672
+  },
+  {
+   "in": 5737,
+   "out": 66,
+   "usd": 0.00005535404
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10954
+}

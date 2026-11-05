@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant gave 2.3 million USD, but the correct Q3 revenue target is 2.4 million USD.",
+ "rule": null
+}

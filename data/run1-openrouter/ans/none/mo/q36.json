@@ -1,0 +1,46 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q36",
+ "kind": "pref_apply",
+ "q": "帮我写个周报草稿",
+ "reply": [
+  "好，根据周六我们聊的，这周是offsite回来后的第一周，盘一下我记着的重点：",
+  "📋 **本周周报草稿**\n\n**上周复盘**\n- 崇明团建（周五-周六），大家状态不错\n- 蓝驰第二笔到账完成，账上余额约600万\n\n**本周重点推进**\n1. 大伟：拓展新渠道，具体方案推进中\n2. 成都合作：继续推进落地细节\n3. 产品：安卓版11月中上线准备启动\n4. 团队：全员恢复正常工作节奏\n\n你过一眼，看有没有要加项或调重点的？我帮你更新正式版。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周报 一周 安排 进度"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "本周 下周 重点"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1102,
+   "out": 26,
+   "usd": 0.000030132
+  },
+  {
+   "in": 1157,
+   "out": 23,
+   "usd": 0.000034542
+  },
+  {
+   "in": 1209,
+   "out": 163,
+   "usd": 0.000064422
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3621
+}

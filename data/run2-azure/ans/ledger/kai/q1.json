@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "那个Q3 revenue target我们设了多少来着，Grace问起来我不想翻记录。",
+ "reply": [
+  "Q3 revenue target是$2.5M，最终达成了$2.68M，超额$180K。",
+  "Grace应该记得这个数，但如果你要精确的数字告诉她就行。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5083,
+   "out": 47,
+   "usd": 0.001002102
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14927
+}

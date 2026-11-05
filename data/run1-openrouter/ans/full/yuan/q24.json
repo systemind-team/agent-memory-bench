@@ -1,0 +1,59 @@
+{
+ "arm": "full",
+ "id": "yuan",
+ "qid": "q24",
+ "kind": "temporal",
+ "q": "论文标题第三次改是什么时候？",
+ "reply": [
+  "我查了下聊天记录，论文标题的变化记录如下：",
+  "1. 最初是 _Planning with Hierarchical Graphs_（8月7日）\n2. 改成了 _Hierarchical Planning with Graph Attention_（8月19日）\n3. 然后是 _Context-Aware Hierarchical Planning for LLMs_（9月13日）\n4. 后来简化成 _Context-Aware Planning_（9月28日）\n5. 最后定稿为 _Context-Aware Planning via Hierarchical Decomposition_（10月26日）",
+  "如果算标题含有'Context-Aware'的三次改版，那是9月13日、9月28日和10月26日。你想确认的是哪一次？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "标题 改 第三次"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "title change third"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Context-Aware Planning 改标题"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 27978,
+   "out": 23,
+   "usd": 0.000513072
+  },
+  {
+   "in": 28030,
+   "out": 21,
+   "usd": 0.000517392
+  },
+  {
+   "in": 28080,
+   "out": 25,
+   "usd": 0.000522612
+  },
+  {
+   "in": 28134,
+   "out": 166,
+   "usd": 0.000552852
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 59342
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It states the meeting was changed to online (线上), which matches the Oct 25 chat, and correctly identifies the temporal conflict, but does not give a wrong answer.",
+ "rule": null
+}

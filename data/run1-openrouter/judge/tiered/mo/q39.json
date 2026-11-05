@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo的回复中每条消息之间使用了空行隔开，符合陈默之前要求的格式偏好。",
+ "rule": true
+}

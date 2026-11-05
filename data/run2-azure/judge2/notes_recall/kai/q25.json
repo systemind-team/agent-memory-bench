@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo's answer claims two scope change items (custom analytics + custom reporting) but the chat only supports one scope change affecting the deal value (custom analytics module, raising value to 950k). The mention of custom reporting as a separate scope change is not supported; the final 950k deal closed with only the custom analytics add-on.",
+ "first": "wrong",
+ "rule": null
+}

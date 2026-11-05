@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q14",
+ "kind": "temporal",
+ "q": "Coco生日聚餐去的KTV叫什么？",
+ "reply": [
+  "叫‘星光’～你之前订的那家KTV。",
+  "对了，你之前还订了11月20日在‘山海’餐厅的位子，是生日聚餐的后半程吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Coco 生日 KTV 名称"
+   },
+   "result": "- 10 Sep: Coco的生日是10月5日，她想去KTV。生日聚餐在KTV‘星光’，蛋糕是我订的。\n- 07 Oct: Coco生日聚餐在KTV‘星光’，蛋糕是我订的。\n- 14 Oct: 订了11月20日在“山海”餐厅的位子（Coco生日聚餐），已答应Coco。\n- 05 Oct: Fellowship的推荐信Coco说本周能发。\n- 24 Oct: 下午和Coco去布鲁克林逛了。\n- 22 Aug: 下午和Coco一起去超市买东西。\n- 20 Aug 19:00: 周予安答应Coco一起点外卖。\n- 15 Aug: Coco叫我一起去超市，我顺便喘口气。\n- 04 Aug: 晚上跟Coco视频了，她说她最近工作也忙。\n- 17 Oct: 下午和Coco去超市买菜，晚上在家做火锅。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1566,
+   "out": 26,
+   "usd": 0.000205948
+  },
+  {
+   "in": 1808,
+   "out": 49,
+   "usd": 0.000269648
+  }
+ ],
+ "memChars": 465,
+ "promptChars": 4755
+}

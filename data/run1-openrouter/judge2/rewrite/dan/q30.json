@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant said no specific flight booking was found, but message #235 on Aug 29 shows Dan booked Delta flights for the morning of Oct 22.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,70 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "大伟入职后的绩效和薪酬进展，完整说说？",
+ "reply": [
+  "好，我说完整些：\n\n大伟8月31日报到，薪资结构是底薪1万85，9月1日起算。绩效方案你选了B版（保守版），试跑一个月。9月报销多模原版1万2已批。\n\n薪酬调整过程：最早是1万8+绩效，后来改1万7+绩效1000，又改1万9+绩效，最后定1万85。入职后9月上旬出的绩效方案三版（激进/平衡/保守），你选B版先试一个月。\n\n10月11日季度评定给了A，奖金1万2，已发。目前用的是B版一直在执行，没有新调整。\n\n下周一要不要我把绩效执行数据拉出来，看看是否需要微调？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 绩效 薪酬"
+   },
+   "result": "#64 Thu 13 Aug 15:02 Them: 行，那按3万8走。\n#65 Fri 14 Aug 09:00 Them: 大伟入职前得先确认薪酬结构，底薪+绩效+年终\n#66 Fri 14 Aug 09:03 aicoo: 建议底薪1万6，绩效2000，年终1-2个月，你看行吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 薪资 绩效 方案"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 绩效 方案"
+   },
+   "result": "#325 Sun 13 Sep 09:10 Them: 嗯，尽快，别拖\n#326 Sun 13 Sep 10:00 Them: 大伟的绩效方案执行得怎么样\n#327 Sun 13 Sep 10:02 aicoo: 他今天开始跟用户访谈，下周出初步数据\n---\n#269 Sun 06 Sep 11:01 aicoo: 周报已更新，蓝驰面聊和新渠道都标了。\n#270 Mon 07 Sep 16:00 aicoo: 大伟绩效方案我做了三个版本，你看选哪个\n#271 Mon 07 Sep 16:05 Them: 发来看看，我先过一遍"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 绩效 三版 选"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5562,
+   "out": 24,
+   "usd": 0.000631572
+  },
+  {
+   "in": 5686,
+   "out": 26,
+   "usd": 0.000246316
+  },
+  {
+   "in": 5741,
+   "out": 24,
+   "usd": 0.000210922
+  },
+  {
+   "in": 5924,
+   "out": 27,
+   "usd": 0.000296856
+  },
+  {
+   "in": 5980,
+   "out": 180,
+   "usd": 0.000302648
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10962
+}

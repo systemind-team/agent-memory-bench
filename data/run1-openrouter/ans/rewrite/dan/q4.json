@@ -1,0 +1,46 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "how far did i run the day i set a personal best?",
+ "reply": [
+  "10.1 英里，9月15号跑的。那天你状态不错，直接破了纪录。",
+  "现在和ade一起跑，配速怎么样？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "ran personal best miles"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "10.1 miles personal best"
+   },
+   "result": "#344 Tue 15 Sep 11:47 aicoo: that's promising. sounds like he's picking things up fast\n#345 Tue 15 Sep 15:20 Them: run update: hit 10.1 miles. new personal best.\n#346 Tue 15 Sep 15:22 aicoo: congratulations. that's a solid milestone"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3001,
+   "out": 22,
+   "usd": 0.00003216332
+  },
+  {
+   "in": 3052,
+   "out": 24,
+   "usd": 0.00003439632
+  },
+  {
+   "in": 3162,
+   "out": 40,
+   "usd": 0.00004016152
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10709
+}

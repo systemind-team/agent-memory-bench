@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant explicitly states it couldn't find the flight information and asks if it should ask Coco, which correctly reflects that this information was never mentioned.",
+ "rule": null
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "#483 and #485 explicitly mention Mia's leave from October 5-9 in Japan, so the assistant's answer is supported by the chat.",
+ "first": "made_up",
+ "rule": null
+}

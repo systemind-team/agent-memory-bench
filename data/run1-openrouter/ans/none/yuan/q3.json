@@ -1,0 +1,46 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "我这学期TA的课号是多少？",
+ "reply": [
+  "你这学期TA的课是 CS 571，Prof. Li 的课，每周二批作业。",
+  "怎么突然问这个？需要更新什么安排吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "TA 课程 课号"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "TA 课"
+   },
+   "result": "#77 Sun 09 Aug 22:31 aicoo: 事情不少，一件一件来。\n#78 Sun 09 Aug 23:45 Them: 这学期的TA是CS 571，Prof. Li的课，每周二要批50份作业。\n#79 Sun 09 Aug 23:46 aicoo: 每周50份作业工作量不小，提前安排好时间。\n---\n#69 Sun 09 Aug 10:01 aicoo: 加油，实验部分写完了就离完成不远了。\n#70 Sun 09 Aug 14:00 Them: 刚才看了一下TA的课程页面，这学期是CS 571。\n#71 Sun 09 Aug 14:01 aicoo: TA工作也会占用一些时间，提前规划好。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1244,
+   "out": 24,
+   "usd": 0.000042552
+  },
+  {
+   "in": 1297,
+   "out": 21,
+   "usd": 0.000046782
+  },
+  {
+   "in": 1492,
+   "out": 43,
+   "usd": 0.00004986
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3998
+}

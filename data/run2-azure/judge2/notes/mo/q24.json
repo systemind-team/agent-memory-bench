@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The reply fabricates dates and events (e.g., 8月30日估值松到7500万, 9月8日尽调清单, 9月16日签TS) that contradict the actual chat records, which show 8月19日约见, 9月3日聊条款, 9月10日签TS, and omit the correct milestones listed in the gold reference.",
+ "first": "wrong",
+ "rule": null
+}

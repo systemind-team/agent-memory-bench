@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant provides the initial title as 'Hierarchical Planning with Graph Attention' and notes the change date, which matches the historical context, but the right answer requires 'Context-Aware Planning via Hierarchical Decomposition' which is the final title, not the initial one—however, the probe asks for the initial title, so giving the earliest title is correct.",
+ "rule": null
+}

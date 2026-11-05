@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "how far did i run in williamsburg that time?",
+ "reply": [
+  "8.7 miles — you mentioned it was a slower one that day. need anything else from that day?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "williamsburg run"
+   },
+   "result": "[321] 06 Oct · fact: run in williamsburg 8.7 miles slower than usual  (from #567)\n[420] 20 Oct · fact: billing migration dry run report merged, final run next week  (from #713)\n[20] 06 Aug · done: dan went for a 5k run  (from #36)\n[258] 29 Sep · feeling: done for the day, going for a run  (from #469)\n[271] 01 Oct · feeling: done for the day, going for a run  (from #493)\n[272] 01 Oct · plan: long run tomorrow morning  (from #493)\n[274] 01 Oct · done: long run completed saturday  (from #495)\n[245] 26 Sep · done: dry run passed. clean migration  (from #443)\n[350] 10 Oct · done: easy 5k run with B"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3068,
+   "out": 22,
+   "usd": 0.000152536
+  },
+  {
+   "in": 3336,
+   "out": 28,
+   "usd": 0.000166352
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10809
+}

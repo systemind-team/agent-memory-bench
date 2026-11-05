@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "早上好 dan the builder。电池还是79%吗？这周得订新的了。",
+  "另外，下周的迁移干跑有安排了吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 21340,
+   "out": 39,
+   "usd": 0.00017943576
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64079
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The greeting uses 'Dan' instead of 'dan the builder' as required.",
+ "rule": false
+}

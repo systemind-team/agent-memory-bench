@@ -1,0 +1,58 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q16",
+ "kind": "update",
+ "q": "阿杰的电脑最后配了什么，多少钱？",
+ "reply": [
+  "翻了一下记录，8月20号的时候给阿杰配的是MacBook Pro，预算从1万5涨到1万6。",
+  "但8月28号陈默你让换成MacBook Air省了六千，贴到iOS推广上。所以最后配的是MacBook Air，具体最终价格没有单独记，省下来的六千是明确的。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "MacBook 阿杰 电脑 价格 预算"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 MacBook 配 钱"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 电脑 预算 1万5 MacBook"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5583,
+   "out": 29,
+   "usd": 0.00005441212
+  },
+  {
+   "in": 5641,
+   "out": 26,
+   "usd": 0.00005652332
+  },
+  {
+   "in": 5696,
+   "out": 30,
+   "usd": 0.00005908112
+  },
+  {
+   "in": 5755,
+   "out": 82,
+   "usd": 0.00006569892
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10959
+}

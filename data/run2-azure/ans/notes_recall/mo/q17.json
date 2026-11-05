@@ -1,0 +1,41 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "和云九第一次见面是哪天？",
+ "reply": [
+  "Found it in my notes: 云九第一次见面是8月12日下午2点。那条记录是从Mon 03 Aug迁过去的，原日期标记为Fri 07 Aug定下的时间。",
+  "那天聊完他们要求DAU破2000再谈，后来9月发现他们投了竞品就凉了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  },
+  {
+   "tool": "search_notes",
+   "result": "(nothing)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2896,
+   "out": 19,
+   "usd": 0.000252208
+  },
+  {
+   "in": 2932,
+   "out": 19,
+   "usd": 0.000122296
+  },
+  {
+   "in": 2966,
+   "out": 75,
+   "usd": 0.000160796
+  }
+ ],
+ "memChars": 3157,
+ "promptChars": 7127
+}

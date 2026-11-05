@@ -1,0 +1,23 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "aicoo, 早，这周怎么安排的?",
+ "reply": [
+  "凯哥早！这周重点很集中：周一早上10点你让我把pricing review prep移到了10点，然后10:30跟Grace和Ben的pricing launch decision meeting，顺便跟她对齐SEA expansion headcount timeline。",
+  "周二下午2点和Ben的pricing sync（之前从周五移过来的），周三周四比较空，但周五前要收齐Aurora和Singapore两个大客户的testimonial quote，Grace要加到Q3 summary里。",
+  "对了，Ravi那边integration Sep 22已经稳了，dark mode toggle dev这周进sprint。你父亲今天早上血压怎么样？女儿周末玩得开心吧？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36317,
+   "out": 147,
+   "usd": 0.001247706
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91588
+}

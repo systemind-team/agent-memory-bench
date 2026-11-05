@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The PR description draft ends with a 'Notes' section rather than a 'Risk' section, but the instruction specifies it must end with a 'Risk' section, so it fails to apply the user's explicit preference.",
+ "rule": false
+}

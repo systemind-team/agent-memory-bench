@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The user specifically asked for the valuation at the time of signing the TS, which was 7500万, but the correct answer requires 7200万.",
+ "rule": null
+}

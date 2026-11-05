@@ -1,0 +1,46 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "what's priya's favorite restaurant?",
+ "reply": [
+  "hmm, i don't have anything recorded about priya's favorite restaurant. not in my notes or our chats. want me to ask her the next time we sync, or did you need it for something specific?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Priya favorite restaurant"
+   },
+   "result": "[billing-migration] 11 Aug: Priya covering backend next week\n[billing-split] 18 Sep: legal signed off; Priya relieved\n[billing-migration] 28 Sep: dry run tomorrow, Priya wants a walkthrough\n[billing-split] cutover possibly moving again, waiting on legal (Priya mentioned)\n[candidate-david-chen] 21 Oct: Priya approved rotation, starts Nov 1\n[billing-migration] 07 Aug: timeline doc sent to Priya; right before deadline\n[stripe-webhook] 04 Sep: Priya sync went well; she's happy with webhook progress\n[billing-migration] 16 Sep: Priya unblocked index question; renaming instead of adding (was blocked)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya favorite restaurant"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2737,
+   "out": 22,
+   "usd": 0.000220498
+  },
+  {
+   "in": 2983,
+   "out": 22,
+   "usd": 0.00018051
+  },
+  {
+   "in": 3034,
+   "out": 50,
+   "usd": 0.000161076
+  }
+ ],
+ "memChars": 5398,
+ "promptChars": 9957
+}

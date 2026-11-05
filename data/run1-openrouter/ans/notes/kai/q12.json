@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q12",
+ "kind": "update",
+ "q": "Pricing launch date最后定在什么时候了，Ben改了好几次？",
+ "reply": [
+  "凯哥周日好。定价launch date最后定在**Dec 1**了。Ben一开始说Nov 1，后来推迟到Nov 15因为要多测试，上周跟Ravi对齐工程资源后最终改到Dec 1——跟dark mode并行抢资源，只能往后推。Ben同意了，他知道原因。\n\n明天10:30你跟Grace和Ben开会正式confirm这个日期，我帮你记着。今天继续陪家人吧。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12767,
+   "out": 94,
+   "usd": 0.00011854388
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50349
+}

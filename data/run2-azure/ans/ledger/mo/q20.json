@@ -1,0 +1,59 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "红杉最早约见面是排在哪天？",
+ "reply": [
+  "关于红杉最早排哪天，目前记录里没有确定具体的时间——上周日（26 Oct）你提的是「下周红杉视频会议准备」，但一直没有看到排具体的日子。",
+  "要不要我直接约周三或者周四下午，然后你确认？还是你想先跟大伟对齐一下再定时间"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "红杉 会议 见面 时间"
+   },
+   "result": "[342] 26 Oct · plan: 下周红杉视频会议准备  (from #659)\n[164] 13 Sep · plan: 预计下周跟红杉开会，陈默让排时间  (from #320)\n[191] 20 Sep · plan: 红杉周三下午会议改成线下，要演示产品  (from #371)\n[231] 26 Sep · fact: 客服北京响应时间降到30秒  (from #433)\n[232] 26 Sep · decision: 不见红杉  (from #435)\n[221] 24 Sep · plan: 红杉那周只保留红杉和日常运营  (from #413)\n[272] 06 Oct · plan: 红杉约10月15号  (from #519)\n[199] 20 Sep · plan: 蓝驰周一线下会议，准备用户增长模型的PPT  (from #382)\n[233] 26 Sep · plan: 取消10月20号红杉会  (from #437)\n[330] 23 Oct · fact: 红杉又联系看数据  (from #637)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 约时间 见面 排期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "红杉 视频会议 时间 下周"
+   },
+   "result": "[342] 26 Oct · plan: 下周红杉视频会议准备  (from #659)\n[164] 13 Sep · plan: 预计下周跟红杉开会，陈默让排时间  (from #320)\n[81] 25 Aug · plan: 高榕视频会议28号，需要准备PPT突出健康报告独特性  (from #150)\n[114] 31 Aug · plan: 高榕视频会明天（31 Aug）进行  → replaced 01 Sep by [125] 高榕视频会改到9月1日下午3点  (from #203, #204, #205, #206)\n[97] 28 Aug · plan: 高榕视频会预演今天28号  (from #177)\n[125] 01 Sep · plan: 高榕视频会改到9月1日下午3点  (from #219)\n[176] 16 Sep · plan: 蓝驰视频会安排在9月21日下午3点  (from #347, #348)\n[191] 20 Sep · plan: 红杉周三下午会议改成线下，要演示产品  (from #371)\n[231] 26 Sep · fact: 客服北京响应时间降到30秒  (from #433)\n[108] 29 Aug · plan: 先靠抖音小视频拉DAU  (from #190)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2601,
+   "out": 26,
+   "usd": 0.00010253
+  },
+  {
+   "in": 2882,
+   "out": 28,
+   "usd": 0.00016266
+  },
+  {
+   "in": 2939,
+   "out": 27,
+   "usd": 0.00017407
+  },
+  {
+   "in": 3274,
+   "out": 72,
+   "usd": 0.000223796
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6687
+}

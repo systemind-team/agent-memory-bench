@@ -1,0 +1,34 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "大伟电脑是什么型号？",
+ "reply": [
+  "没记大伟的电脑型号，只知道当时给他配了电脑，合同和电脑都准备好了。",
+  "需要我查一下具体的购买记录或问下行政吗"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "大伟 电脑 型号"
+   },
+   "result": "[ajie-macbook] Wed 02 Sep: 阿杰电脑换成MacBook Air，预算1万（之前MacBook Pro预算1万6），省六千确认；省下的钱贴到iOS推广\n[dawei-salary] Fri 04 Sep: 大伟薪资最后谈到1万85，9月1号起算；9月2日到岗，会议室已布置好；合同和电脑已好；入职资料、合同和绩效方案已发，周三（26 Aug）催回传，身份证已收到，合同和绩效回执未到；入职介绍邮件已发（承诺，已兑现）；培训日程和团队wiki链接已发他邮箱；入职手续全部办妥，提醒已取消；9月4日大伟在梳理渠道，明天出方案\n[dawei-salary] Mon 21 Sep: 大伟绩效方案定为KPI+OKR混合，KPI占70%，OKR主要看增长创新；周五前催大伟提交具体指标；Thu 24 Sep: 大伟已发KPI草稿，aicoo明早给修改意见\n[dawei-salary] Thu 01 Oct: 大伟今天跑养老驿站（新增）\n[customer-service-training] Fri 23 Oct: 大伟请假，客服排班已调整\n[dawei-salary] Wed 07 Oct: 大伟说养老驿站签了第二家，在长宁（新增）；Sat 10 Oct: 大伟第二家养老驿站签约确认（moved from Wed 07 Oct）\n[cash-runway] Mon 17 Aug"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2448,
+   "out": 24,
+   "usd": 0.00002650368
+  },
+  {
+   "in": 2917,
+   "out": 42,
+   "usd": 0.00004700668
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6254
+}

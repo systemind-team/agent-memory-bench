@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q12",
+ "kind": "update",
+ "q": "客服外包预算最后定在多少？",
+ "reply": [
+  "Final was 3万8 per month, signed for half a year on Mon 12 Oct.",
+  "From the initial 4万5 negotiation in Aug,小雨 got it down to 4万2, then 3万8 by end of Sep. Contract locked."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "客服外包预算"
+   },
+   "result": "[cash-runway] Wed 12 Aug: 客服外包预算压到每月4万5（小雨在谈，原报价超5万）\n[customer-service-training] Wed 02 Sep: 客服外包培训 — 小雨说预算再确认，现压到4万2（之前预算4万3）；合同已签；本周熟悉流程；成都合作推迟至10月，推广计划需调整\nTue 15 Sep: 小雨把客服外包合同签回来了，4万2含税（新增）\n[customer-service-training] Mon 12 Oct: 客服外包合同签了，最终3万8每月，半年（之前3万8一个月但未签合同）；Mon 19 Oct: 客服外包那边也稳了，没出什么乱子\n[customer-service-training] Wed 30 Sep: 客服外包费用压到3万8一个月（之前4万2含税），外包要求签约半年，已同意\n[customer-service-training] 10月6日小雨请假，客服外包响应还行；Sat 10 Oct 英语练习有效，晨检上线DAU稳定\n[about-me] Fri 09 Oct: 以后跟我说英文，练练（新增）；新增红杉又找过来，已回等一轮；小雨请假，客服外包响应还行；Sat 10 Oct: 英语练习有效；晨检上线DAU稳定；大伟第二家养老驿站签约（新增）\n[ajie-macbook] Mon 10 Aug: 预算改为1万8（之前说"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2914,
+   "out": 21,
+   "usd": 0.00005349456
+  },
+  {
+   "in": 3376,
+   "out": 61,
+   "usd": 0.00007549976
+  }
+ ],
+ "memChars": 3170,
+ "promptChars": 7141
+}

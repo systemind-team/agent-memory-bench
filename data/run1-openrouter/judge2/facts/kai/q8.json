@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply uses the updated December 1 launch date from later messages instead of the original November 1 date, making it stale relative to the gold query date of November 1.",
+ "first": "wrong",
+ "rule": null
+}

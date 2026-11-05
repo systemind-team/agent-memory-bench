@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct initial cash amount according to the chat is 215万, but aicoo replied with 208万4千, which is unsupported by the provided chat history.",
+ "rule": null
+}

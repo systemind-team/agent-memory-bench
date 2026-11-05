@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "产品MVP砍到哪两个模块？",
+ "reply": [
+  "健康打卡和报告生成两个模块。8月7日定的，当时砍掉了其他功能优先保MVP上线。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "产品MVP功能砍到"
+   },
+   "result": "[cash-runway] Fri 07 Aug: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块\n[seed-round-investors] Fri 23 Oct: 成都协会想推产品到更多社区，加单，正在谈分成\n[seed-round-investors] Sat 22 Aug: 蓝驰聊得还行，想再看产品数据（之前已见，准备材料重新发送）\n[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[seed-round-investors] Sat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型；红杉周三下午改为线下，需演示产品（moved from Thu 03 Sep，新增红杉线下会议；之前红杉约聊已拖）\n[seed-round-investors] Thu 24 Sep: 蓝驰电话说估值要重新谈，认为用户数据不够支撑7500万；aicoo与蓝驰谈判，估值砍到7200万（对方要求不砍最好，真砍6800万也接受），aicoo强调成都合作马上签约，增长预期有保障，蓝驰明早内部确认；红杉改为10月20日线下（之前9月23日）；Sat 26 Sep红杉手里有健康项目，推掉10月20日会议（moved from Fri 25 "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3042,
+   "out": 23,
+   "usd": 0.0001253728
+  },
+  {
+   "in": 3414,
+   "out": 31,
+   "usd": 0.00007460656
+  }
+ ],
+ "memChars": 3381,
+ "promptChars": 7352
+}

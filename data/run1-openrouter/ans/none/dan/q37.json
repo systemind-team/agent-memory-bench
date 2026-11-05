@@ -1,0 +1,21 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "give me standup notes for today",
+ "reply": [
+  "wait, it's sunday. you don't have standup today. enjoy the weekend.",
+  "if you're thinking about monday's standup, i can pull what's in flight and draft it for you. what was done friday + blocked + today."
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1137,
+   "out": 60,
+   "usd": 0.000039402
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4193
+}

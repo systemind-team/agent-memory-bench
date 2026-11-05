@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct key milestones from the chat are: 8月19日约见, 9月3日聊条款, 签TS, 尽调, 第一笔300万到账, 第二笔到账. The assistant's reply contains fabricated details like '8月30日 估值松到7500万', '9月8日 蓝驰发尽调清单', '9月16日 蓝驰签TS', and '估值重谈' that do not match the actual chat records, and it omits or misdates the real milestones.",
+ "rule": null
+}

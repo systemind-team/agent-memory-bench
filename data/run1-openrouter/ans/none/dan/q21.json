@@ -1,0 +1,57 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "did stripe webhooks or sam's onboarding happen first?",
+ "reply": [
+  "stripe webhooks moved to own service on the weekend of Oct 2nd/3rd (tom did it). sam's onboarding started around Sep 12th, with the first full day Sep 13th. so sam's onboarding happened first, by about three weeks."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "stripe webhooks sam onboarding"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "webhooks stripe"
+   },
+   "result": "#502 Thu 01 Oct 18:01 aicoo: low key saturday. enjoy\n#503 Fri 02 Oct 09:10 Them: stripe webhooks moved to own service. tom did it in a weekend.\n#504 Fri 02 Oct 09:11 aicoo: tom the weekend warrior. nice\n---\n#71 Mon 10 Aug 09:15 aicoo: noted. hope the extra caffeine helps\n#72 Mon 10 Aug 09:30 Them: tom's frontend pr for stripe webhooks broke my test. so annoying.\n#73 Mon 10 Aug 09:32 aicoo: ugh. want me to remind tom to sync with you before merging next time?"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam onboarding"
+   },
+   "result": "#725 Wed 21 Oct 11:00 Them: david is sitting at desk 12. seems quiet. sam is showing him around.\n#726 Wed 21 Oct 11:01 aicoo: good. sam is a solid onboarding buddy.\n#727 Wed 21 Oct 14:20 Them: on-call rotation proposal sent to priya. 4 engineers per week. david starts after his first sprint.\n---\n#318 Sat 12 Sep 09:02 aicoo: confirmed. same key from last rotation.\n#319 Sat 12 Sep 11:00 Them: sam's first full day tomorrow. onboarding plan looks solid\n#320 Sat 12 Sep 11:02 aicoo: good. david starts next week too.\n---\n#297 Wed 09 Sep 14:30 Them: david was solid. priya agrees\n#298 Wed 09 Sep 17:30 "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1141,
+   "out": 24,
+   "usd": 0.000033282
+  },
+  {
+   "in": 1194,
+   "out": 21,
+   "usd": 0.000037512
+  },
+  {
+   "in": 1379,
+   "out": 20,
+   "usd": 0.000053982
+  },
+  {
+   "in": 1906,
+   "out": 64,
+   "usd": 0.0000909
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4215
+}

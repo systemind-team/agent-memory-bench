@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "The reply correctly states the price changed from $800k to $950k, but it omits the required detail that the specific change was adding a custom analytics module.",
+ "first": "wrong",
+ "rule": null
+}

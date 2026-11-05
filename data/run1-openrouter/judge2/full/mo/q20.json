@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply incorrectly states the previously scheduled date was 10月20号 and claims the meeting was pushed, but the chat shows the earliest confirmed meeting was on 10月8号 (messages #305, #306, #318, #319, #320), which was later changed to 10月20号; the reply denies 10月8号 was ever confirmed.",
+ "first": "made_up",
+ "rule": null
+}

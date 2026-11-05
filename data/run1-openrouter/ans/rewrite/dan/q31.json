@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q31",
+ "kind": "open_loop",
+ "q": "what about the on-call docs for sam, are those updated?",
+ "reply": [
+  "今天周日，sam的事我查一下之前记录",
+  "上周你提过要更新 on-call 文档给 sam，但我找到的记录是 10月24日你发了 migration 的 runbook 给他，没看到 on-call 相关的新文档。旧 key 已经作废了，新 key A4B8C2 是从 11月1日（也就是今天）开始生效。",
+  "周一要不要先把 on-call 流程和 new key 给 sam 过一遍？他之前问过 escalation flow，正好趁新周期开始。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3002,
+   "out": 125,
+   "usd": 0.00004056752
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10716
+}

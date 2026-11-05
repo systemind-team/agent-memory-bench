@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "Mia的休假是什么时候来着？",
+ "reply": [
+  "Mia上次休假是10月5-9号去日本采风，已经批了也回来了。",
+  "她最近没有其他休假申请，需要我问一下她后面的安排吗"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Mia 休假"
+   },
+   "result": "[ajie-salary] Thu 06 Aug: 阿杰8月10号到15号休假\n[mia-wacom] Tue 18 Aug: 给Mia配手绘板，预算2千\n[mia-japan-inspiration] Wed 21 Oct: Mia日本采风回来，说设计灵感有了\n[product-launch] Thu 22 Oct: 晨检DAU峰值2100，次留38%；Sat 24 Oct Mia出了新UI方案\n[about-me] Sat 24 Oct: 晨检安卓版推到11月中；Mia新UI方案；成都协会加单\n[product-launch] Mon 14 Sep: Mia 晨检 logo 改第三版后决定用回第一版，保持简洁（新增）\n[about-me] Thu 01 Oct: Mia申请10月5-9号日本采风，已批，需出采风报告（新增）；Fri 09 Oct: 以后跟我说英文，练练（新增）\n[team-offsite] Thu 29 Oct: 已到崇明，入住民宿，晚上烧烤；阿杰烤茄子，Mia拍照（moved from Mon 26 Oct，原定周六下午回，实际周五出发周六下午回）\n[product-launch] Sun 20 Sep: 大伟想试楼宇电梯广告，预算3万；建议先小范围测试，选静安3栋楼；9月17日跑了半天扫码仅63人，效果不佳；9月18日静安寺楼好点，其他两栋不值，建议砍掉，已"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2974,
+   "out": 22,
+   "usd": 0.000270268
+  },
+  {
+   "in": 3479,
+   "out": 45,
+   "usd": 0.000251726
+  }
+ ],
+ "memChars": 3294,
+ "promptChars": 7266
+}

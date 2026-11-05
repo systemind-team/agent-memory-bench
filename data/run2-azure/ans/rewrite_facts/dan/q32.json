@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "早安 dan the builder 周日的休息日来这么早，有任务要处理吗",
+  "还是单纯起了个大早陪 biscuit 和 ade"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3054,
+   "out": 39,
+   "usd": 0.000617356
+  }
+ ],
+ "memChars": 6434,
+ "promptChars": 11024
+}

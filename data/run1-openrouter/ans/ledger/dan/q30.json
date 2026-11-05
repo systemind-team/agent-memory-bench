@@ -1,0 +1,46 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "did i book the asheville flights like i promised ade?",
+ "reply": [
+  "yep — you booked delta flights for the morning of oct 22, and ade handled the cabin near blue ridge for oct 22-25. trip is sorted.",
+  "that was the one you promised to book back in august. all good."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville flights"
+   },
+   "result": "#230 Sat 29 Aug 10:30 aicoo: big milestone\n#231 Sat 29 Aug 11:20 Them: promised ade i'd book asheville flights tonight. remind me at 6\n#232 Sat 29 Aug 11:20 aicoo: sure, reminder set for 6pm"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Asheville flights booked"
+   },
+   "result": "[137] 30 Aug · done: flights booked: delta, oct 22 morning, asheville  (from #235)\n[367] 13 Oct · fact: asheville trip cabin near blue ridge booked oct 22-25  (from #623)\n[133] 29 Aug · promise: daniel promised ade to book asheville flights tonight; aicoo will remind at 6  (from #231)\n[248] 27 Sep · plan: dan and ade trip to asheville in october  → replaced 13 Oct by [367] asheville trip cabin near blue ridge booked oct 22-25  (from #450)\n[247] 27 Sep · fact: ade's planning a trip to asheville for them in october  (from #450)\n[126] 27 Aug · plan: ade found a bakery in asheville, wants to go oc"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3093,
+   "out": 22,
+   "usd": 0.00002758364
+  },
+  {
+   "in": 3196,
+   "out": 23,
+   "usd": 0.00003184664
+  },
+  {
+   "in": 3498,
+   "out": 57,
+   "usd": 0.00004686864
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10818
+}

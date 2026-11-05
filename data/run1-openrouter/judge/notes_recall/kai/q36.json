@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The PR description draft ends with a 'Risk' section as requested, though it's labeled 'Notes' but contains risk-related content about deferred features and capacity allocation.",
+ "rule": false
+}

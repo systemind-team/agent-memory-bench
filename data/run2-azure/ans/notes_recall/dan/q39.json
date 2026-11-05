@@ -1,0 +1,47 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q39",
+ "kind": "pref_apply",
+ "q": "review this code for the webhook handler",
+ "reply": [
+  "Sure, send it over and I'll take a look.",
+  "Remember priority labels on comments — high, medium, low."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "webhook handler code review"
+   },
+   "result": "[stripe-webhook] 02 Oct: Tom PR'd stripe service code; needs review (was webhooks moved to own service)\n[about-me] 16 Oct: Dan asked all code review comments to start with priority level: high, medium, or low\n[candidate-david-chen] 23 Oct: David had first code review by Tom; solid first PR with some feedback\n[billing-split] 05 Oct: Tom's PR to split out webhook service in review; no test failures on the branch\n[stripe-webhook] 31 Aug: PR for webhook idempotency keys up; Tom reviewing\n01 Sep: stripe webhook spec final review done; merging this afternoon\n[stripe-webhook] 25 Aug: webhook spec mer"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "stripe-webhook"
+   },
+   "result": "Stripe webhook retry logic\n03 Aug: retry was failing due to idempotency; fixed after reading Stripe docs\n04 Aug: Tom asking about stability; retry fix covers main failure case\n12 Aug: stripe webhook idempotency test passes; coverage back up\n10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved\n14 Aug: Tom pushed a fix for the webhook frontend; Dan's tests pass now\n15 Aug: on-call handoff notes ready; Lena takes over tomorrow\n18 Aug: webhook test flaked again overnight; fixed by bumping jest timeout (was timeout on stripe mock)\n19 Aug: working on stripe webhook error handling\n20 Aug"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2812,
+   "out": 23,
+   "usd": 0.000236808
+  },
+  {
+   "in": 3140,
+   "out": 22,
+   "usd": 0.000167656
+  },
+  {
+   "in": 4169,
+   "out": 31,
+   "usd": 0.000342962
+  }
+ ],
+ "memChars": 5702,
+ "promptChars": 10266
+}

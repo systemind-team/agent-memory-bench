@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It correctly mentions the latest key 7C2E9B but then introduces an unsupported key A4B8C2 as current for the next rotation, which makes the answer ambiguous and outdated.",
+ "rule": null
+}

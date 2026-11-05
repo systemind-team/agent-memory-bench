@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The user asked for the secondary retention data given to BlueRun, which was 34% per message #398 on Sep 22. The assistant correctly recalled this in its reasoning but then defaulted to the later Oct 18 data (37%), presenting an outdated number as current without confirming the user's intended timeframe.",
+ "first": "wrong",
+ "rule": null
+}

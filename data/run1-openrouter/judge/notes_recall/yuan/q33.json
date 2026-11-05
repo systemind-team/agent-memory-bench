@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "回复使用了bullet list且称呼用户为“周周”，符合用户之前设置的偏好要求。",
+ "rule": false
+}

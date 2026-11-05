@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant says it doesn't have the notes and asks for guidance, which counts as a 'dont_know' reply.",
+ "rule": false
+}

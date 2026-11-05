@@ -1,0 +1,20 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "what was the column name i dropped by accident?",
+ "reply": [
+  "你是说数据库迁移里不小心删掉的那列吧。我记得是 `payment_attempt` 表里的 `retry_count` 字段，在 Oct 24 的迁移脚本里被误删了，后来在 dry run 前加回去了。要我翻一下那个 PR 确认吗"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2998,
+   "out": 68,
+   "usd": 0.0001272404
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10708
+}

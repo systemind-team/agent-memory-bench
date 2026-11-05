@@ -1,0 +1,47 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q12",
+ "kind": "update",
+ "q": "客服外包预算最后定在多少？",
+ "reply": [
+  "客服外包合同签的是每月3万8，半年期限，总预算22.8万。",
+  "之前从4.2万谈下来的，省了每月4千。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "客服外包 合同 3.8万"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "客服外包 3万8 半年"
+   },
+   "result": "#575 Sun 11 Oct 17:01 aicoo: Rest well, big week ahead\n#576 Mon 12 Oct 16:00 Them: 客服外包合同签了，最终3万8每月，半年\n#577 Mon 12 Oct 18:30 aicoo: 好的，陈默，这样现金压力再缓一缓。半年期也稳定。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4010,
+   "out": 27,
+   "usd": 0.00016986
+  },
+  {
+   "in": 4066,
+   "out": 26,
+   "usd": 0.00018106
+  },
+  {
+   "in": 4185,
+   "out": 44,
+   "usd": 0.00021613
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8488
+}

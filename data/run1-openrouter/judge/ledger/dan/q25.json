@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant listed 'oct 12 → oct 26 (locked 3 oct)' and 'originally some date → sep 28' which are not supported by the chat history.",
+ "rule": null
+}

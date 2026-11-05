@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "The reply correctly states 44 per user per month but gives the launch date as December 1 instead of November 1 as stated in the messages.",
+ "first": "partial",
+ "rule": null
+}

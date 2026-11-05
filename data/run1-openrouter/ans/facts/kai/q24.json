@@ -1,0 +1,21 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "Pricing launch postpone了几次，从啥时候推到啥时候？",
+ "reply": [
+  "最早是11月1日，后来推到11月15日，最终定在12月1日。12/1 launch已经确认，A/B测试11/3继续跑，dark mode toggle 11月初完成不冲突。周一10:30跟Grace和Ben开会就是最后确认这个timeline。",
+  "要我把这几个时间点整理成一份简短的timeline给你吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1920,
+   "out": 87,
+   "usd": 0.00027396
+  }
+ ],
+ "memChars": 1292,
+ "promptChars": 5958
+}

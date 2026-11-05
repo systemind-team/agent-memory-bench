@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims Dan reviewed the draft, but the chat only shows a commitment to review it by Wednesday with no follow-up confirming it was done.",
+ "rule": null
+}

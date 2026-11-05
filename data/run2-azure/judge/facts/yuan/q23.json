@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant gives the latest title as 'Context-Aware Hierarchical Planning for LLMs' but the target answer is 'Hierarchical Planning with Graph Attention', which is an earlier title.",
+ "rule": null
+}

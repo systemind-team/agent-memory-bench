@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "Integration rollout和roadmap review，哪个先发生的？",
+ "reply": [
+  "Let me check the notes to confirm the sequence.\n\nYour integration went live Sep 22. The Q4 roadmap review with Grace was Oct 10. So integration rollout happened first."
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12763,
+   "out": 37,
+   "usd": 0.00012206796
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50353
+}

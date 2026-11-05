@@ -1,0 +1,36 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "嗨，今天有什么消息？",
+ "reply": [
+  "今天是周日本来休息，但刚查到两件事可以跟你同步：",
+  "一是成都合作那边小雨报10月订单冲到520单，比预测多了20单，分账金额约4万2。二是安卓版内测阿杰周一给进度，他说核心流程已经跑通了，剩下就是修小bug。",
+  "另外红杉的会你说了推到11月，具体哪天要定的话这周可以排一下。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Nov 01 2026 今天 消息"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5556,
+   "out": 24,
+   "usd": 0.000217896
+  },
+  {
+   "in": 5609,
+   "out": 99,
+   "usd": 0.000271026
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10953
+}

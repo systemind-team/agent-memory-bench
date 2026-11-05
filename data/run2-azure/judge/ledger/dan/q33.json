@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply provides a week overview without bullet points, correctly summarizing key events (dry run Monday, migration Wednesday, checklist Friday) and offering to set reminders.",
+ "rule": true
+}

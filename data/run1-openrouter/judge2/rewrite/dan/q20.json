@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant stated the billing_status panic was on August 30, but the chat confirms the incident date was August 18.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "Correctly includes 收到合作方案, 每单8块, 月订单300单以上, 2万4分账, but adds unsupported details (9月17日和9月23日) not in the original chat.",
+ "rule": null
+}

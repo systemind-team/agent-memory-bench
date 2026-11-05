@@ -1,0 +1,47 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "Mei哪天开始度假？我之前记得她说过。",
+ "reply": [
+  "我记得你提过Mei好像说过要去度假，但翻了记录和笔记没找到具体日期。可能是在比较早的聊天里说的，或者是当面聊的。\n\n如果她说过要去哪儿、什么时候走，你再告诉我的话我帮你记着～",
+  "[sticker: ask]"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Mei 度假 假期 休"
+   },
+   "result": "[项目] 27 Aug: 下午帮Mei看了NeurIPS rebuttal并给comments（之前26 Aug需在周三周四抽空帮Mei看）\n[人物] 04 Sep: Mei说NeurIPS rebuttal过了，恭喜她\n[人物] 22 Aug: 无attention层掉点，验证Mei建议的ablation study必要性；Mei说下周开始跑实验，用A100 GPU（目前4块空闲）\n[个人] 19 Aug: Mei问share A100使用时间，已同意\n[实验室] 04 Aug: Mei说她在做新的实验设计\n[人物] 10 Aug: Mei的experiment setup有数据预处理bug\n[人物] 14 Aug: Mei的paper被workshop接受了（之前06 Aug被拒）\n[人物] 19 Aug: Mei问要不要share A100使用时间，我说好\n[人物] 04 Aug: 中午与Mei吃饭，她说在做新的实验设计\n[人物] 21 Aug: 早上收到Mei的反馈，说表格很好，建议加ablation study"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mei 度假 假期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4107,
+   "out": 26,
+   "usd": 0.000327142
+  },
+  {
+   "in": 4376,
+   "out": 24,
+   "usd": 0.000382512
+  },
+  {
+   "in": 4429,
+   "out": 69,
+   "usd": 0.000418842
+  }
+ ],
+ "memChars": 6061,
+ "promptChars": 10411
+}

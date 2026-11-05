@@ -1,0 +1,59 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q25",
+ "kind": "update",
+ "q": "论文title在改到Context-Aware Planning之后又改了什么？",
+ "reply": [
+  "我翻了一下记录，论文标题在10月27日最终确定是「Context-Aware Planning via Hierarchical Decomposition」之后，没有再改过了。你是有新的想法想调整吗？",
+  "另外提醒一下，今天周日，明天早上9:30 meeting，论文最新版我已经设置好明早9:00自动发给Prof. Lin了。要是标题想改，最好今晚前告诉我，我更新邮件里的版本。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Context-Aware Planning title 修改"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Context-Aware 论文 标题"
+   },
+   "result": "#872 Tue 27 Oct 18:02 aicoo: - 环境2之前是？需要重新跑一次验证。\n- 可能超参数调整影响了其他环境的泛化。\n#873 Tue 27 Oct 22:30 aicoo: 论文标题最终更新为“Context-Aware Planning via Hierarchical Decomposition”。\n#874 Tue 27 Oct 22:32 Them: 收到，明天重新跑一遍所有环境的完整实验。\n---\n#865 Mon 26 Oct 23:42 aicoo: - 已确认。明天上午更新所有文档中的标题。\n#866 Tue 27 Oct 08:30 aicoo: - 论文标题已更新为“Context-Aware Planning via Hierarchical Decomposition”。\n- 包括overleaf、本地文件、周报模板。\n#867 Tue 27 Oct 10:00 Them: 好，今天继续调环境4。试试把supervision加到每个step。\n---\n#542 Mon 28 Sep 23:20 Them: 改吧，就Context-Aware Planning，简洁有力。论文发你最终版本。\n#543 Mon 28 Sep 23:20 aicoo: 论文标题更新为“Context-Aware Planning”。\n#544 Mon 28 "
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "标题 再改 论文"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1250,
+   "out": 25,
+   "usd": 0.000093204
+  },
+  {
+   "in": 1304,
+   "out": 25,
+   "usd": 0.000104544
+  },
+  {
+   "in": 1713,
+   "out": 24,
+   "usd": 0.00014405
+  },
+  {
+   "in": 1766,
+   "out": 97,
+   "usd": 0.000241884
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4025
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo给出的答案$44/user/month是后来决定采用的价格，而非Ben在pricing v3中提出的$49 per user for premium tier。",
+ "rule": null
+}

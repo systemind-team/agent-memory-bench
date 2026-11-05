@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The user explicitly requested plain text without bullet points, but the assistant's reply uses a bullet-point-like format with dashes and structured lists.",
+ "rule": true
+}

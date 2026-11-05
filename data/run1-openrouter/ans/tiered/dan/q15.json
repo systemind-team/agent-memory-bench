@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q15",
+ "kind": "update",
+ "q": "what was the pagerduty key after the first change?",
+ "reply": [
+  "the pagerduty key after the first change was 3F8D1A. that was back on sep 13 when we swapped from 9A7B2C.",
+  "currently you're on 7C2E9B since sep 24 (lena's decision). want me to pull up the full key history?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5330,
+   "out": 75,
+   "usd": 0.0000561904
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17928
+}

@@ -1,0 +1,22 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q13",
+ "kind": "update",
+ "q": "how many data eng candidates did we interview?",
+ "reply": [
+  "let me check the records",
+  "from what i have: we interviewed maria, jordan, and david chen in late september. david joined. that's three candidates total.",
+  "anyone else you had in the pipeline that i'm missing?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5326,
+   "out": 59,
+   "usd": 0.0000547288
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17924
+}

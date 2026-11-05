@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "the assistant asks what the update includes and explicitly commits to including a Risk section, aligning with the preference stated in the chat.",
+ "rule": true
+}

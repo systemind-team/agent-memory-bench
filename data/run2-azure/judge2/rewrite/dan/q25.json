@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The list claims sep 28 and oct 26 are cutover date moves, but the chat never shows cutover moving to oct 26, it includes nov 15 and nov 5 which it omits, and incorrectly claims a final lock on oct 26.",
+ "first": "wrong",
+ "rule": null
+}

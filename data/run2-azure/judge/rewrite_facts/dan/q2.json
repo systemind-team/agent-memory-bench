@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly identifies 9A7B2C as the old PagerDuty key, as stated in the chat on Fri 07 Aug.",
+ "rule": null
+}

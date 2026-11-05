@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "Mia的休假是什么时候来着？",
+ "reply": [
+  "你之前记的Mia是10月5号到9号去日本采风，已经回来了，没有记她有新的休假安排。需要我跟她确认一下吗"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Mia 休假"
+   },
+   "result": "[14] 07 Aug · fact: 阿杰8月10号到15号休假  (from #21)\n[34] 13 Aug · feeling: 阿杰休假期间想再谈谈薪资  (from #60)\n[49] 19 Aug · decision: 给Mia配手绘板，预算2千  (from #96)\n[172] 14 Sep · decision: 晨检logo用回第一版，让Mia改回  (from #334, #335)\n[252] 02 Oct · plan: Mia 10月5号到9号去日本采风  (from #483, #485)\n[336] 24 Oct · feeling: Mia出了新UI方案，比之前清爽多了  (from #648)\n[253] 02 Oct · promise: Mia同意：采风回来出采风报告分享  (from #485)\n[21] 10 Aug · promise: aicoo同意：阿杰休假期间（8月10-15日）盯着服务器，有异常通知  (from #37)\n[326] 22 Oct · fact: Mia日本采风回来了，说设计灵感有了  (from #629)\n[217] 23 Sep · plan: 大伟推广方案最迟周四上线，等Mia的图  (from #407)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2599,
+   "out": 22,
+   "usd": 0.00009987
+  },
+  {
+   "in": 2917,
+   "out": 42,
+   "usd": 0.00017785
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6688
+}

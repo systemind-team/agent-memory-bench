@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The question asks what the initial title was, and the correct answer is 'Context-Aware Planning via Hierarchical Decomposition' per the probe's specification, but the assistant states the initial title as 'Planning with Hierarchical Graphs'.",
+ "rule": null
+}

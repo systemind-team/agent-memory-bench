@@ -1,0 +1,35 @@
+{
+ "arm": "full",
+ "id": "yuan",
+ "qid": "q14",
+ "kind": "temporal",
+ "q": "Coco生日聚餐去的KTV叫什么？",
+ "reply": [
+  "周周，之前Coco生日聚餐去的KTV是“星光”。",
+  "需要我把这个记下来方便以后用吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "KTV 星光"
+   },
+   "result": "#666 Tue 06 Oct 23:01 aicoo: 好的，meeting notes将按agenda item、decision、action items的格式整理。\n#667 Wed 07 Oct 00:45 Them: 今晚Coco生日聚餐，去的那家KTV叫“星光”，蛋糕我订的。\n#668 Wed 07 Oct 00:47 aicoo: 已记录。祝Coco生日快乐，周周。蛋糕口味需要我后续跟进吗？"
+  }
+ ],
+ "calls": [
+  {
+   "in": 27980,
+   "out": 22,
+   "usd": 0.000893304
+  },
+  {
+   "in": 28115,
+   "out": 34,
+   "usd": 0.000928374
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 59345
+}

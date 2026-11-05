@@ -1,0 +1,82 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "给他们写个PR描述，关于晨检更新",
+ "reply": [
+  "老板，手头信息不够写一条完整的PR。我知道的：晨检9月25号iOS上线第一版，首日下载502，评分4.8，次留从34%涨到38%，DAU峰值到过2100。安卓版11月中上线。但这次更新的具体内容——是修bug、加功能还是改UI，我不清楚。你能告诉我更新了什么吗，我就能写好并附上Risk部分。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "PR描述 Risk"
+   },
+   "result": "#223 Tue 01 Sep 11:15 Them: 写吧，简洁点，发给全队。\n#224 Tue 01 Sep 15:00 Them: PR描述最后必须加一个Risk部分\n#225 Tue 01 Sep 15:01 aicoo: 明白，所有PR都加上风险说明。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检更新"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 iOS 更新 版本"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 版本 发布"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线"
+   },
+   "result": "#558 Sat 10 Oct 09:01 aicoo: DAU holding steady around 150-200, retention improving\n#559 Sat 10 Oct 09:35 aicoo: 晨检终于在9月25号上线了，DAU首日破200\n#560 Sat 10 Oct 09:36 Them: Wait, we already launched. You mean the English update\n---\n#460 Sun 27 Sep 17:01 aicoo: 恭喜，这周可以稍微松口气了\n#461 Mon 28 Sep 09:15 Them: 晨检上线后第一天数据怎么样？\n#462 Mon 28 Sep 09:17 aicoo: 首日下载502，次日留存暂未出。无闪退报告，评分4.8。\n---\n#377 Sun 20 Sep 11:31 aicoo: 已校核成本，比上周方案更稳，下午发你确认\n#378 Sun 20 Sep 15:10 aicoo: 晨检上线再拖，9月25号，这次说死了\n#379 Sun 20 Sep 15:15 Them: 靠，又延期，阿杰怎么说的\n---\n#332 Sun 13 Sep 16:10 aicoo: 好，我打印出来明天寄\n#333 Sun 13 Sep 17:00 Them: 下周晨检上线，融资推进，事情不少\n"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4012,
+   "out": 21,
+   "usd": 0.00016692
+  },
+  {
+   "in": 4113,
+   "out": 21,
+   "usd": 0.00018813
+  },
+  {
+   "in": 4163,
+   "out": 25,
+   "usd": 0.00020087
+  },
+  {
+   "in": 4217,
+   "out": 24,
+   "usd": 0.000165826
+  },
+  {
+   "in": 4270,
+   "out": 22,
+   "usd": 0.000175836
+  },
+  {
+   "in": 4972,
+   "out": 99,
+   "usd": 0.000366376
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8491
+}

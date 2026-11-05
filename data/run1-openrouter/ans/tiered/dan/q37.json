@@ -1,0 +1,48 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "give me standup notes for today",
+ "reply": [
+  "morning dan. today's standup notes:",
+  "**yesterday (sat 31 oct)** — tom's stripe refactor v2 in review, edge cases covered. battery at 79% (ordering new one this week). cutover checklist almost done, just need to add rollback steps + dry run results. halloween costume set: you as butter, ade as toast, biscuit as bacon.",
+  "**today (sun 01 nov)** — no work talk per your rule. but a couple reminders for monday: order laptop battery, finish the rollback section on the checklist, and tom's stripe refactor needs a final review. priya may ask about the checklist since she wanted it by friday — you can wrap that up monday morning.",
+  "also: today is the first day of the new on-call rotation (4 engineers/week starting nov 1). david starts after his first sprint, so it'll be you, tom, lena, sam on rotation now."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "standup notes today"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "standup"
+   },
+   "result": "#676 Sat 17 Oct 09:50 aicoo: 沟通失误, 需要协调\n#677 Sat 17 Oct 10:00 Them: i'll help him debug after standup\n#678 Sat 17 Oct 10:05 aicoo: 你们合作很快就能修复\n---\n#646 Wed 14 Oct 16:05 aicoo: 狗狗生日会, 期待更多细节\n#647 Thu 15 Oct 10:00 Them: standup done, sprint is on track\n#648 Thu 15 Oct 10:05 aicoo: 21点, 进展顺利\n---\n#634 Tue 13 Oct 17:05 aicoo: 你们一起跑步, 真不错\n#635 Wed 14 Oct 09:00 Them: morning standup, priya is back today\n#636 Wed 14 Oct 09:05 aicoo: 欢迎回来, 普里亚\n---\n#579 Thu 08 Oct 08:00 Them: thursday. coffee count: 2. on-call primary duties quiet\n#580 Thu 08 Oct 09:30 Them: sam has a question about the migration index s"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5324,
+   "out": 22,
+   "usd": 0.0000516432
+  },
+  {
+   "in": 5375,
+   "out": 20,
+   "usd": 0.0000535514
+  },
+  {
+   "in": 6011,
+   "out": 211,
+   "usd": 0.0000948822
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17909
+}

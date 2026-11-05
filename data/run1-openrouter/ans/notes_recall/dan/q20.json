@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "when did i have the billing_status panic?",
+ "reply": [
+  "8月28号那次。migration跑错了文件，把 `billing_status` 列直接drop了而不是rename。Lena在同步到生产前发现了，回滚了，事后排查是跑了错误的迁移文件。",
+  "你跟Sam提过这事——9月16号他问起回滚脚本，你给他看了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "billing_status panic"
+   },
+   "result": "[candidate-sam] 16 Sep: Sam asked about billing_status rollback; Dan showed him the script\n[billing-migration] 08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushback; later moved to Oct 12 per Priya (was 28 Aug: migration incident on Tuesday; dropped column `billing_status` instead of renaming; rolled back; Lena caught before prod sync; post-mortem done, root cause: wrong migration file ran)\n[billing-split] 20 Sep: Priya asked for migration timeline status; Oct 12 still holds (moved to Oct 12, was Nov 15)\n[billing-migration] 29 Aug: billing PR merged; webhooks in staging\n["
+  }
+ ],
+ "calls": [
+  {
+   "in": 2850,
+   "out": 22,
+   "usd": 0.00005097736
+  },
+  {
+   "in": 3184,
+   "out": 81,
+   "usd": 0.00006932856
+  }
+ ],
+ "memChars": 5729,
+ "promptChars": 10294
+}

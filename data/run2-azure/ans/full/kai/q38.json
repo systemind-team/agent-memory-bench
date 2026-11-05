@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "aicoo, draft meeting minutes for yesterday's pricing discussion.",
+ "reply": [
+  "凯哥，稍等，我先查一下昨天pricing discussion的记录。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36318,
+   "out": 22,
+   "usd": 0.001177916
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91635
+}

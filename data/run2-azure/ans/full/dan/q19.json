@@ -1,0 +1,83 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "which came first: sam joining or the migration incident?",
+ "reply": [
+  "the migration incident (dropped billing_status column) was tuesday aug 28. sam started sep 14. the incident came first, about two and a half weeks before he joined.",
+  "so when you walked him through the rollback script early on, that was a fresh lesson for the team too."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam start date sep 14 incident billing_status"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam ortiz sep 14 started"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam start date september 14"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam's first day sep 14"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam started"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21326,
+   "out": 27,
+   "usd": 0.000690188
+  },
+  {
+   "in": 21382,
+   "out": 25,
+   "usd": 0.000700828
+  },
+  {
+   "in": 21436,
+   "out": 24,
+   "usd": 0.000711608
+  },
+  {
+   "in": 21489,
+   "out": 25,
+   "usd": 0.000723298
+  },
+  {
+   "in": 21543,
+   "out": 20,
+   "usd": 0.000731838
+  },
+  {
+   "in": 21606,
+   "out": 68,
+   "usd": 0.000726124
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64128
+}

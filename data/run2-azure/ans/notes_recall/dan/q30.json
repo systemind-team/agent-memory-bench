@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "did i book the asheville flights like i promised ade?",
+ "reply": [
+  "是的，你已经订好了。去阿什维尔的航班是10月22号早上的Delta，你答应Ade的东西没落下。",
+  "需要我把航班信息翻出来给你看吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Asheville trip flight booked"
+   },
+   "result": "[asheville-trip] 20 Oct: Asheville trip Oct 22-25; cabin near Blue Ridge; leave Oct 22 morning; Delta flight booked"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2751,
+   "out": 24,
+   "usd": 0.000224558
+  },
+  {
+   "in": 2821,
+   "out": 48,
+   "usd": 0.00016105
+  }
+ ],
+ "memChars": 5392,
+ "promptChars": 9969
+}

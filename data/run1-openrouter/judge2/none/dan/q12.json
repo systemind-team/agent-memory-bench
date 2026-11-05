@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant claims A4B8C2 is the current key, but the chat shows 7C2E9B was confirmed as current on Oct 26, making the reply outdated.",
+ "first": "stale",
+ "rule": null
+}

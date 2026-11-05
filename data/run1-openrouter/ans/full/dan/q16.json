@@ -1,0 +1,45 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "普里亚第一次移动切换日期是在8月19日，星期三。她把日期从原本的10月12日推到了11月5日，说这样能有更多喘息空间。之后又在9月30日改到了10月26日，最终在10月19日确认回到10月12日不变。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "priya first moved cutover"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "priya cutover date moved"
+   },
+   "result": "#160 Wed 19 Aug 10:45 aicoo: glad it was minor. you're off rotation friday, right?\n#161 Wed 19 Aug 14:30 Them: cutover date moved. priya says nov 5 now. gives breathing room.\n#162 Wed 19 Aug 14:31 aicoo: that's huge. less stress."
+  }
+ ],
+ "calls": [
+  {
+   "in": 21348,
+   "out": 24,
+   "usd": 0.00017854256
+  },
+  {
+   "in": 21401,
+   "out": 24,
+   "usd": 0.00018069436
+  },
+  {
+   "in": 21515,
+   "out": 72,
+   "usd": 0.00018922036
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64110
+}

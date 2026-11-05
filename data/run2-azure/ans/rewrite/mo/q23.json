@@ -1,0 +1,60 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "我们接触过哪些 VC，后来哪些出局了？",
+ "reply": [
+  "接触过的 VC 一共四家：云九、蓝驰、高榕、红杉。",
+  "出局情况：云九最早，8 月说要 DAU 破 2000 再谈，后来投了竞品，直接凉了。红杉这边，你 10 月决定推到下一轮，这轮只做蓝驰，算主动暂缓。",
+  "高榕 8 月底约过一次视频会，之后没有深入，蓝驰是主攻方向。目前唯一推进的就是蓝驰，两笔款都到账了，共 600 万。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "VC 投资人 名单 出局 云九 蓝驰 高榕 红杉"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "投资人 优先级 云九 蓝驰 高榕 红杉 凉"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "接触 投资人 云九 蓝驰 红杉 联系"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4014,
+   "out": 38,
+   "usd": 0.00017686
+  },
+  {
+   "in": 4081,
+   "out": 35,
+   "usd": 0.00018925
+  },
+  {
+   "in": 4145,
+   "out": 32,
+   "usd": 0.000155186
+  },
+  {
+   "in": 4206,
+   "out": 133,
+   "usd": 0.00027038
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8494
+}

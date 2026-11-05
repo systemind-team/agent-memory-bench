@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "蓝驰第一次约见是几号？",
+ "reply": [
+  "蓝驰第一次约见是8月下旬。具体记录是8月24日提到“蓝驰下周转到账第一笔”，而更早的接触记录里有一条“蓝驰9月3日当面谈条款”——那次应该是第一次正式线下见面。"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "蓝驰 第一次 约见 见面"
+   },
+   "result": "[seed-round-investors] Wed 14 Oct: 蓝驰第一笔300万到账，第二笔11月中\n[seed-round-due-diligence] Sun 18 Oct: 蓝驰法务已审完，第一笔300万到账；第二笔11月中；用户次留37%（was 34%）\n[seed-round-investors] Mon 24 Aug: 云九无回音，标记周三（8月26日）再次跟进（之前待定DAU破2000）；砍掉红杉接触，专注蓝驰深聊；蓝驰下周转到账第一笔（需催邮件）\n[seed-round-investors] Sun 30 Aug: 估值松到7500万（之前8000万），高榕会今天（30号）上午已安排，预演过；蓝驰下周转到账第一笔，催邮件已发；高榕会前复盘蓝驰要点（DAU增速、合规风险、变现路径）\n[dawei-salary] Sun 11 Oct: 大伟第一个季度绩效A，奖金1万2（新增）\n[product-launch] Mon 14 Sep: Mia 晨检 logo 改第三版后决定用回第一版，保持简洁（新增）\n[cash-runway] Mon 26 Oct: 账上现金600万（蓝驰两笔均已到账，第一笔300万已到，第二笔300万今天到账）；成都下月冲500单，现金流改善；Thu 15 Oct 阿里云成本优化，下月账单预计降到5万（之前7万8）；Sat 10 Oct "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3008,
+   "out": 27,
+   "usd": 0.00005779816
+  },
+  {
+   "in": 3521,
+   "out": 54,
+   "usd": 0.00008081836
+  }
+ ],
+ "memChars": 3291,
+ "promptChars": 7260
+}

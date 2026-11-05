@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly says the flights were booked (done) on August 29, Delta, October 22 morning, matching the right answer; the extra 'cabin' confirmation detail doesn't contradict anything.",
+ "rule": null
+}

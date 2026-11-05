@@ -1,0 +1,72 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "我们接触过哪些 VC，后来哪些出局了？",
+ "reply": [
+  "接触过三家: 云九、蓝驰、红杉。",
+  "出局的: 云九最早，8月聊过但要求 DAU 破2000，后来我们达标了他们已投竞品。红杉一直有联系但之前砍掉了接触，上周又回头来问数据，你还没决定。",
+  "蓝驰是这轮跟你走到底的，第二笔款也到账了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "VC 接触 出局"
+   },
+   "result": "[70] 24 Aug · decision: 砍掉红杉接触，专注蓝驰深聊  (from #136)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "VC 接触 蓝驰 红杉 云九"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九"
+   },
+   "result": "#635 Thu 22 Oct 10:30 aicoo: iOS 这周 DAU 峰值冲上 2100 了\n#636 Thu 22 Oct 10:32 Them: 可以，超过云九说的2000了，可惜他们投了竞品。\n#637 Thu 22 Oct 14:00 Them: 红杉那边又联系了，说想看看我们数据。\n---\n#263 Sat 05 Sep 16:01 aicoo: 问问团队意愿，我开个匿名投票。\n#264 Sun 06 Sep 08:30 Them: 云九那边凉了，他们投了竞品\n#265 Sun 06 Sep 08:31 aicoo: 可惜，但蓝驰还在谈，别灰心。\n---\n#131 Mon 24 Aug 09:01 aicoo: 好的陈默，以后就这样称呼你\n#132 Mon 24 Aug 09:10 Them: 今天先理下这周重点，云九那边有回音没？\n#133 Mon 24 Aug 09:11 aicoo: 暂时还没消息，上次说DAU破2000再聊，目前1200差距不小。要不要我标记周三再跟进一次？\n---\n#71 Fri 14 Aug 14:00 Them: 云九下午回电话了，怎么说？\n#72 Fri 14 Aug 14:15 aicoo: 和云九聊得还行，他们要看到 DAU 破 2000 再谈\n#73 Fri 14 Aug 14:20 Them: 那得赶紧推晨检上线了。\n--"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "红杉 蓝驰 接触"
+   },
+   "result": "[70] 24 Aug · decision: 砍掉红杉接触，专注蓝驰深聊  (from #136)\n[65] 23 Aug · fact: 红杉也有意，但先聚焦蓝驰  (from #126)\n[136] 03 Sep · decision: 红杉约聊先拖着，专注蓝驰  (from #242, #243)\n[273] 06 Oct · decision: 这轮先不碰红杉，蓝驰够忙了  (from #520)\n[268] 05 Oct · ask: 红杉推了之后，蓝驰尽调还差什么  (from #514)\n[232] 26 Sep · decision: 不见红杉  (from #435)\n[221] 24 Sep · plan: 红杉那周只保留红杉和日常运营  (from #413)\n[272] 06 Oct · plan: 红杉约10月15号  (from #519)\n[233] 26 Sep · plan: 取消10月20号红杉会  (from #437)\n[330] 23 Oct · fact: 红杉又联系看数据  (from #637)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2603,
+   "out": 24,
+   "usd": 0.00010183
+  },
+  {
+   "in": 2666,
+   "out": 30,
+   "usd": 0.00011842
+  },
+  {
+   "in": 2725,
+   "out": 20,
+   "usd": 0.00012521
+  },
+  {
+   "in": 3427,
+   "out": 25,
+   "usd": 0.00027543
+  },
+  {
+   "in": 3719,
+   "out": 95,
+   "usd": 0.000238478
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6693
+}

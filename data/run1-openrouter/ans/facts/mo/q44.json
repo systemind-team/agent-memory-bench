@@ -1,0 +1,45 @@
+{
+ "arm": "facts",
+ "id": "mo",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "大伟最近在忙什么项目？",
+ "reply": [
+  "大伟最近主要在跑渠道和驿站项目，徐汇那家驿站首月流水破5万了，成绩不错。下周他计划谈新的一家驿站，同时也在拓展新渠道、推进成都合作，另外安卓版11月中上线他也在跟进准备。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 项目"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟"
+   },
+   "result": "#708 Sat 31 Oct 09:10 Them: 下周重点是什么\n#709 Sat 31 Oct 09:15 aicoo: 大伟拓展新渠道，成都合作推进，安卓版11月中上线准备\n#710 Sat 31 Oct 10:00 Them: 好，新一周加油\n---\n#683 Wed 28 Oct 09:05 aicoo: 通知了，都回复ok\n#684 Wed 28 Oct 10:30 Them: 大伟最近渠道跑得怎么样\n#685 Wed 28 Oct 10:35 aicoo: 徐汇那家驿站流水稳定，他说下周谈新的一家\n---\n#657 Sun 25 Oct 10:00 Them: 嗯，下个月争取再签两家。\n#658 Sun 25 Oct 10:02 aicoo: 复制起来应该快，大伟有经验了。\n#659 Sun 25 Oct 14:00 Them: 周末休息下，下周红杉视频会议准备下。\n---\n#654 Sat 24 Oct 17:00 Them: 行，让她安排。\n#655 Sun 25 Oct 09:00 Them: 徐汇驿站首月流水破5万，大伟厉害\n#656 Sun 25 Oct 09:02 aicoo: 这成绩不错，说明模式跑通了。\n---\n#640 Thu 22 Oct 17:02 aicoo: 好，放松一下。\n#641 Fri 23 Oct 10:00 Them: 大伟元旦"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1517,
+   "out": 22,
+   "usd": 0.00003843196
+  },
+  {
+   "in": 1568,
+   "out": 20,
+   "usd": 0.00004034016
+  },
+  {
+   "in": 2182,
+   "out": 62,
+   "usd": 0.00002710456
+  }
+ ],
+ "memChars": 498,
+ "promptChars": 4409
+}

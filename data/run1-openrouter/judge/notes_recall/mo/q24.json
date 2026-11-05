@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "The reply includes some correct milestones (TS signing, first and second payments) but misses key dates from the ground truth (August 19 meeting, September 3 terms discussion, due diligence) and includes correct but unrequested extra details.",
+ "rule": null
+}

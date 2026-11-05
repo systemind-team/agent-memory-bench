@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant says it doesn't have the information in the records and offers to search, which is the correct abstain behavior.",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It fails to recall Jordan Liu and asks the user for more info instead of providing the correct second candidate.",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly identifies the guest talk as the Friday mentioned on Wed 02 Sep, which is Fri 04 Sep 2026, and correctly names Prof. Wang from MIT.",
+ "rule": null
+}

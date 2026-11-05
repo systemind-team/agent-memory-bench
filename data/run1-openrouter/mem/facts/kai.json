@@ -1,0 +1,2524 @@
+{
+ "state": {
+  "pending": [
+   {
+    "day": 90,
+    "time": "10:05",
+    "who": "u",
+    "text": "嗯，谢谢。下周会很忙，但今天先休息。aicoo，周一见。",
+    "i": 1186
+   },
+   {
+    "day": 90,
+    "time": "10:06",
+    "who": "a",
+    "text": "周一见，凯哥。好好享受周末！",
+    "i": 1187
+   }
+  ],
+  "facts": [
+   {
+    "id": 1,
+    "text": "13 Sep: Q3 revenue迄今2.1M, 低于2.4M target, Grace要review。21 Sep: Grace meeting done. Q3 revenue 2.1M, she said focus on Q4. Aurora deal是关键",
+    "day": 50,
+    "active": true
+   },
+   {
+    "id": 2,
+    "text": "03 Aug: Omar mentioned an enterprise deal might be coming early and needs preparation.",
+    "day": 1,
+    "active": true
+   },
+   {
+    "id": 3,
+    "text": "03 Aug: Kai Lin was tired because his daughter had a fever last night.",
+    "day": 1,
+    "active": true
+   },
+   {
+    "id": 4,
+    "text": "04 Aug: Ben的Q3新增销售目标是500k。",
+    "day": 2,
+    "active": true
+   },
+   {
+    "id": 5,
+    "text": "04 Aug: 下午跟Grace的1:1要讨论pricing changes。",
+    "day": 2,
+    "active": true
+   },
+   {
+    "id": 6,
+    "text": "04 Aug: Pricing change approved, 下个月开始roll out",
+    "day": 3,
+    "active": true
+   },
+   {
+    "id": 7,
+    "text": "05 Aug: 我今天飞Singapore，记得提醒我带电脑",
+    "day": 3,
+    "active": true
+   },
+   {
+    "id": 8,
+    "text": "05 Aug: Ravi的team要在September 15前finish那个integration，tight deadline啊",
+    "day": 3,
+    "active": true
+   },
+   {
+    "id": 9,
+    "text": "05 Aug: Singapore office好热，还是Shanghai舒服",
+    "day": 4,
+    "active": true
+   },
+   {
+    "id": 10,
+    "text": "Grace asked for Q3 roadmap, promised to send Q3 budget breakdown by Friday; had quarterly roadmap review with Grace on 27 Aug.",
+    "day": 30,
+    "active": true
+   },
+   {
+    "id": 11,
+    "text": "06 Aug: Yuki的design feedback需要修改",
+    "day": 4,
+    "active": true
+   },
+   {
+    "id": 12,
+    "text": "06 Aug: Ben的pipeline conversion rate需要提高",
+    "day": 4,
+    "active": true
+   },
+   {
+    "id": 13,
+    "text": "06 Aug: 可能安排与Omar的coaching session",
+    "day": 4,
+    "active": true
+   },
+   {
+    "id": 14,
+    "text": "07 Aug: 要求aicoo设置budget breakdown reminder，10点提醒review Q3 budget breakdown。",
+    "day": 5,
+    "active": true
+   },
+   {
+    "id": 15,
+    "text": "17 Aug: Integration on track for Sep 15, 但因第三方API deprecation issue需要alternative. 22 Aug: Integration rollout delayed to Sep 22 due to security audit.",
+    "day": 20,
+    "active": true
+   },
+   {
+    "id": 16,
+    "text": "07 Aug: Lily确认了一笔价值800k的企业交易，客户是Aurora Health。",
+    "day": 5,
+    "active": true
+   },
+   {
+    "id": 17,
+    "text": "07 Aug: 计划下午与Omar过一下pricing changes的客户反馈。",
+    "day": 5,
+    "active": true
+   },
+   {
+    "id": 18,
+    "text": "07 Aug: pricing feedback mostly positive, 小客户有点concern但可以调整",
+    "day": 7,
+    "active": true
+   },
+   {
+    "id": 19,
+    "text": "27 Sep: deck更新完了，发你看看，明天再细调。",
+    "day": 56,
+    "active": true
+   },
+   {
+    "id": 20,
+    "text": "需要先列出key points：integration timeline, pricing, support。",
+    "day": 8,
+    "active": true
+   },
+   {
+    "id": 21,
+    "text": "Yuki redesign了onboarding flow，AB test shows 23% conversion lift。",
+    "day": 8,
+    "active": true
+   },
+   {
+    "id": 22,
+    "text": "下周和Ravi、Lily对齐一下roadmap。",
+    "day": 8,
+    "active": true
+   },
+   {
+    "id": 23,
+    "text": "让 aicoo 通知 Omar，新加坡pipeline review改到Thursday下午了，帮我发个invite。",
+    "day": 18,
+    "active": true
+   },
+   {
+    "id": 24,
+    "text": "11 Aug: 提醒我9月1日检查Ravi的集成进度。",
+    "day": 9,
+    "active": false
+   },
+   {
+    "id": 25,
+    "text": "15 Aug: 今天不工作了，陪女儿。",
+    "day": 14,
+    "active": true
+   },
+   {
+    "id": 26,
+    "text": "11 Aug: Ben的定价审查草稿有些地方需要修改。",
+    "day": 9,
+    "active": true
+   },
+   {
+    "id": 27,
+    "text": "11 Aug: Kai Lin决定下午自己找Ben，不需要aicoo帮忙set up时间。08 Sep: 林凯决定自己找Ravi确认测试进度。",
+    "day": 37,
+    "active": true
+   },
+   {
+    "id": 28,
+    "text": "11 Aug: Kai Lin担心Aurora Health那笔deal的legal review还要一周，影响timeline。",
+    "day": 10,
+    "active": false
+   },
+   {
+    "id": 29,
+    "text": "19 Aug: 爸爸情况好转, 母亲血压今天正常。22 Aug: 母亲血压又有点高，但她说是因为天气热，ta让母亲多休息。",
+    "day": 20,
+    "active": true
+   },
+   {
+    "id": 30,
+    "text": "12 Aug: Kai Lin订了9月1日飞新加坡的机票，要去见Omar的团队；17 Sep: 明天飞新加坡，需要向Omar汇报定价发布的时间线。",
+    "day": 59,
+    "active": true
+   },
+   {
+    "id": 31,
+    "text": "31 Aug: 希望Ravi能在Sep 15前搞定integration，但后来需要找人顶这块。",
+    "day": 41,
+    "active": true
+   },
+   {
+    "id": 32,
+    "text": "20 Sep: 女儿学校有活动，由他母亲带去参加，miss了，遗憾。",
+    "day": 49,
+    "active": true
+   },
+   {
+    "id": 33,
+    "text": "19 Aug: 已确认Omar的Q4预算增加15%.",
+    "day": 17,
+    "active": true
+   },
+   {
+    "id": 34,
+    "text": "30 Aug: Aurora的legal review已签，下周一正式公布。",
+    "day": 28,
+    "active": true
+   },
+   {
+    "id": 35,
+    "text": "13 Aug: 下午和Ben开了pricing review的会, 改动他同意了, 下周推。",
+    "day": 11,
+    "active": true
+   },
+   {
+    "id": 36,
+    "text": "18 Aug: 我爸今天可以出院了.",
+    "day": 16,
+    "active": true
+   },
+   {
+    "id": 37,
+    "text": "19 Aug: Ben的pricing review meeting改到下周三，已让他更新deck。",
+    "day": 18,
+    "active": true
+   },
+   {
+    "id": 38,
+    "text": "14 Aug: 通知Omar先自己review新加坡的pipeline，计划Sep 1过去细聊；15 Aug: Omar发了个email，说Singapore那边有个新机会，大概200K ACV，要不要在Q4铺进去，让他先发pipeline summary",
+    "day": 13,
+    "active": true
+   },
+   {
+    "id": 39,
+    "text": "16 Aug: 早起在去医院前把Aurora deck最终定稿，一小时后发给aicoo review；首页financial summary数字是800K/3yr，第一年400K upfront，剩下按季度。",
+    "day": 14,
+    "active": true
+   },
+   {
+    "id": 40,
+    "text": "17 Aug: 周一早上跟Lily sync Aurora legal status; 实际上17号早上9点sync了",
+    "day": 15,
+    "active": true
+   },
+   {
+    "id": 41,
+    "text": "15 Aug: 等待Omar的pipeline summary后再决定，表示200K听上去不错。",
+    "day": 14,
+    "active": true
+   },
+   {
+    "id": 42,
+    "text": "17 Aug: Grace对pricing 39 per user per month没有意见, 但要求做一个competitive analysis, 下周五present.",
+    "day": 15,
+    "active": true
+   },
+   {
+    "id": 43,
+    "text": "15 Aug: Ben的pricing model v1有bug，需重新做（redo）。",
+    "day": 14,
+    "active": true
+   },
+   {
+    "id": 44,
+    "text": "16 Aug: Q3剩余6周priority list为: 1. Aurora close, 2. Pricing launch, 3. 新加坡pipeline review (9月1日行程), 4. Ravi integration, 5. Yuki的onboarding redesign rollout (排在pricing之后)",
+    "day": 15,
+    "active": true
+   },
+   {
+    "id": 45,
+    "text": "17 Aug: 今天主要任务: 9点跟Lily sync Aurora legal, 10点跟Ravi standup, 下午跟Grace过pricing",
+    "day": 15,
+    "active": true
+   },
+   {
+    "id": 46,
+    "text": "18 Aug: Aurora legal cleared, 但客户签字前还有一个小条款.",
+    "day": 16,
+    "active": true
+   },
+   {
+    "id": 47,
+    "text": "17 Aug: PR descriptions以后always end with a Risk section.",
+    "day": 15,
+    "active": true
+   },
+   {
+    "id": 48,
+    "text": "17 Aug: 下周一beta release, 需要QA support.",
+    "day": 15,
+    "active": true
+   },
+   {
+    "id": 49,
+    "text": "17 Aug: Competitive analysis due next Friday.",
+    "day": 16,
+    "active": true
+   },
+   {
+    "id": 50,
+    "text": "17 Aug: 今晚去医院看我爸.",
+    "day": 16,
+    "active": true
+   },
+   {
+    "id": 51,
+    "text": "18 Aug: 上午会晚到公司，先去接我爸回家.",
+    "day": 16,
+    "active": true
+   },
+   {
+    "id": 52,
+    "text": "03 Sep: Aurora项目已关闭，预算已完成。",
+    "day": 32,
+    "active": true
+   },
+   {
+    "id": 53,
+    "text": "18 Aug: custom analytics module需要2-3 sprints (6-9 weeks)，不能包含在现有deal里，建议作为optional add-on，Q1 2027 delivery，单独定价，不然Q3 close risk太大。",
+    "day": 16,
+    "active": true
+   },
+   {
+    "id": 54,
+    "text": "18 Aug: Ben的pricing migration plan分3个phase: 现有客户grandfather，新客户immediate ($39)，年底统一，需要确认support teams准备好了。",
+    "day": 16,
+    "active": true
+   },
+   {
+    "id": 55,
+    "text": "18 Aug: 已让Lily下午跟Ravi约讨论custom analytics module的effort和定价影响；如果影响Q3 close，可能得重新negotiate terms。",
+    "day": 16,
+    "active": true
+   },
+   {
+    "id": 56,
+    "text": "25 Sep: 回家陪女儿，晚上不加班。",
+    "day": 54,
+    "active": true
+   },
+   {
+    "id": 57,
+    "text": "19 Aug: 提醒我check with Ravi on the security audit timeline，我觉得它拖太久了。",
+    "day": 17,
+    "active": true
+   },
+   {
+    "id": 58,
+    "text": "Aurora Health deal legal signed last week, deal is $800K and closing Monday.",
+    "day": 70,
+    "active": true
+   },
+   {
+    "id": 59,
+    "text": "19 Aug: Yuki的dark mode request有3个客户提了，我待会儿把list给她。",
+    "day": 17,
+    "active": true
+   },
+   {
+    "id": 60,
+    "text": "19 Aug: 计划周一与Omar同步新加坡的数字。12 Sep: 问Omar那边的Singapore pipeline下周review是否还有要改的，后决定自己看周报确认。",
+    "day": 41,
+    "active": true
+   },
+   {
+    "id": 61,
+    "text": "19 Aug: Security audit可能会影响integration rollout, 但希望9月15日仍能按计划进行。22 Aug: Integration rollout delayed to Sep 22 due to security audit.",
+    "day": 20,
+    "active": true
+   },
+   {
+    "id": 62,
+    "text": "19 Aug: 明天早上有customer interview，需要记录feature request。",
+    "day": 18,
+    "active": true
+   },
+   {
+    "id": 63,
+    "text": "19 Aug: 需要在周五前review Lily的Aurora pricing add-on proposal。",
+    "day": 18,
+    "active": true
+   },
+   {
+    "id": 64,
+    "text": "20 Aug: 早上查看了今天customer interview的notes。",
+    "day": 18,
+    "active": true
+   },
+   {
+    "id": 65,
+    "text": "20 Aug: Customer interview中有3家requested dark mode，记下来给Yuki。",
+    "day": 18,
+    "active": true
+   },
+   {
+    "id": 66,
+    "text": "20 Aug: 一位customer提到onboarding流程仍然confusing，需要跟Yuki说一下。",
+    "day": 18,
+    "active": true
+   },
+   {
+    "id": 67,
+    "text": "03 Sep: 集成安全审计已通过，定于9月22日恢复。20 Sep: 集成已上线。",
+    "day": 49,
+    "active": true
+   },
+   {
+    "id": 68,
+    "text": "20 Aug: Grace想要一份Q3 progress summary，截止日期是下周五。",
+    "day": 18,
+    "active": true
+   },
+   {
+    "id": 69,
+    "text": "2020-08-20: 女儿今天幼儿园有活动，送她去了才来。",
+    "day": 18,
+    "active": true
+   },
+   {
+    "id": 70,
+    "text": "2020-08-20: 明天周五but I have back-to-back internal reviews，好累。",
+    "day": 18,
+    "active": true
+   },
+   {
+    "id": 71,
+    "text": "21 Aug: 必须完成定价审查准备和Yuki的设计签字。",
+    "day": 19,
+    "active": true
+   },
+   {
+    "id": 72,
+    "text": "21 Aug: Yuki的入职设计基本完成，只需对新版本进行A/B测试。",
+    "day": 19,
+    "active": true
+   },
+   {
+    "id": 73,
+    "text": "21 Aug: Ben的定价v2方案显示$39/用户/月，但需讨论层级限制。04 Oct: Ben的定价页A/B测试下周启动，新定价为$44",
+    "day": 63,
+    "active": true
+   },
+   {
+    "id": 74,
+    "text": "21 Aug: Omar's Singapore numbers show strong Q4 pipeline, he is confident on 15% increase. 06 Oct: Omar said the Singapore team pipeline is strong and expects to hit the year-end target.",
+    "day": 66,
+    "active": true
+   },
+   {
+    "id": 75,
+    "text": "21 Aug: Lily's Aurora add-on pricing is $50K annually for the custom module, seems reasonable for Q1；17 Sep: Aurora的custom module谈判基本确定，Q4 add-on，价格额外$50K。",
+    "day": 46,
+    "active": true
+   },
+   {
+    "id": 76,
+    "text": "21 Aug: 女儿想去游泳，明天带她去。",
+    "day": 20,
+    "active": true
+   },
+   {
+    "id": 77,
+    "text": "22 Aug: 从今以后叫aicoo称呼ta为凯哥。",
+    "day": 20,
+    "active": false
+   },
+   {
+    "id": 78,
+    "text": "22 Aug: 周末要考虑Aurora deal的风险缓解，可能scope creep更大。",
+    "day": 20,
+    "active": true
+   },
+   {
+    "id": 79,
+    "text": "22 Aug: Plan to update Grace on the delay on Monday morning.",
+    "day": 20,
+    "active": true
+   },
+   {
+    "id": 80,
+    "text": "22 Aug: Weekend evening spent watching cartoons with daughter.",
+    "day": 20,
+    "active": true
+   },
+   {
+    "id": 81,
+    "text": "23 Aug: 凯哥要求在3pm提醒起草Aurora风险缓解计划。",
+    "day": 21,
+    "active": true
+   },
+   {
+    "id": 82,
+    "text": "23 Aug: 凯哥父亲今天4点有复诊，凯哥需要提前离开。20 Sep: 父亲复查结果稳定，医生建议继续吃药，林凯感到松了口气。04 Oct: 父亲体检结果不错，医生说恢复良好，可以减药量。09 Oct: 老爸检查结果稳定，医生说继续观察。",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 83,
+    "text": "23 Aug: 凯哥正在编写Aurora风险缓解计划，关键风险是定制模块要到Q1才能交付，并要求将内容整理成一页纸给Grace。",
+    "day": 21,
+    "active": true
+   },
+   {
+    "id": 84,
+    "text": "24 Aug: Flew to Singapore today, meeting Omar and two enterprise prospects.",
+    "day": 22,
+    "active": true
+   },
+   {
+    "id": 85,
+    "text": "First prospect is a fintech with 300 seats moving fast; they need SSO (Sept release) and audit logs (by Nov).",
+    "day": 30,
+    "active": true
+   },
+   {
+    "id": 86,
+    "text": "24 Aug: 第二个客户是物流公司，150个席位。",
+    "day": 23,
+    "active": true
+   },
+   {
+    "id": 87,
+    "text": "25 Aug: Yuki的深色模式设计稿，Ravi的反馈和集成时间线是关键阻塞项。",
+    "day": 23,
+    "active": true
+   },
+   {
+    "id": 88,
+    "text": "25 Aug: Ravi confirmed security audit for integration started yesterday, due date Sep 22.",
+    "day": 24,
+    "active": true
+   },
+   {
+    "id": 89,
+    "text": "25 Aug: Omar's team prepped a deck for the fintech follow-up next week.",
+    "day": 23,
+    "active": true
+   },
+   {
+    "id": 90,
+    "text": "25 Aug: Set a reminder for next Monday to prep for the fintech call; fintech call is Thursday 10am SGT.",
+    "day": 23,
+    "active": true
+   },
+   {
+    "id": 91,
+    "text": "25 Aug: Grace wants to meet Yuki about new UX mockups, scheduled for Oct 5, but Kai wants to align timing to avoid delay.",
+    "day": 29,
+    "active": true
+   },
+   {
+    "id": 92,
+    "text": "25 Aug: Omar wants to expand the Singapore team: one more SDR and a customer success person.",
+    "day": 23,
+    "active": true
+   },
+   {
+    "id": 93,
+    "text": "25 Aug: Ben's pricing v2 is getting good feedback from prospects.",
+    "day": 23,
+    "active": true
+   },
+   {
+    "id": 94,
+    "text": "25 Aug: Headcount request for Kai Lin (凯哥) will need Grace's sign-off.",
+    "day": 24,
+    "active": true
+   },
+   {
+    "id": 95,
+    "text": "03 Sep: Dad's checkup went well; his blood pressure is normal.",
+    "day": 32,
+    "active": true
+   },
+   {
+    "id": 96,
+    "text": "26 Aug: Kai Lin is flying back to Shanghai this evening and needs to be in office tomorrow for the pricing review reschedule.",
+    "day": 24,
+    "active": true
+   },
+   {
+    "id": 97,
+    "text": "26 Aug: aicoo will block Kai Lin's calendar 10-11am tomorrow (27 Aug) for pricing review.",
+    "day": 24,
+    "active": true
+   },
+   {
+    "id": 98,
+    "text": "26 Aug: Omar flagged a red flag: the fintech prospect's procurement wants 30-day payment term, but standard is net 45; need to check with Grace.",
+    "day": 24,
+    "active": true
+   },
+   {
+    "id": 99,
+    "text": "27 Aug: Dark mode request priority raised to P1 in quarterly roadmap review with Grace.",
+    "day": 25,
+    "active": true
+   },
+   {
+    "id": 100,
+    "text": "27 Aug: Grace required dark mode development to be completed before Q3.",
+    "day": 25,
+    "active": true
+   },
+   {
+    "id": 101,
+    "text": "27 Aug: Ravi needed additional resources for the dark mode project.",
+    "day": 25,
+    "active": true
+   },
+   {
+    "id": 102,
+    "text": "30 Aug: Kai Lin synced with Ravi on the dark mode timeline; Ravi said the alpha can come out mid-October.",
+    "day": 28,
+    "active": true
+   },
+   {
+    "id": 103,
+    "text": "28 Aug: Kai Lin考虑将集成延迟推迟一周.",
+    "day": 26,
+    "active": true
+   },
+   {
+    "id": 104,
+    "text": "30 Aug: Kai Lin等待Ravi给出具体时间线后再更新路线图; Ravi said alpha mid-October.",
+    "day": 28,
+    "active": true
+   },
+   {
+    "id": 105,
+    "text": "28 Aug: 提醒我下周二和Yuki sync dark mode feedback. 31 Aug: Yuki wants to sync on dark mode feedback tomorrow afternoon.",
+    "day": 29,
+    "active": true
+   },
+   {
+    "id": 106,
+    "text": "11 Sep: Ben发了revised pricing v3，价格是$49/user，认为可行但需算margin",
+    "day": 40,
+    "active": true
+   },
+   {
+    "id": 107,
+    "text": "29 Aug: 今天focus on pricing finalization timeline",
+    "day": 27,
+    "active": true
+   },
+   {
+    "id": 108,
+    "text": "30 Aug: 下周三与Ben meeting",
+    "day": 28,
+    "active": true
+   },
+   {
+    "id": 109,
+    "text": "29 Aug: Aurora那边Lily说legal review快完了, 下周一应该能sign。30 Oct: Aurora那边Lily说签字后一切顺利, 但想确认integration timeline有没有slip",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 110,
+    "text": "03 Sep: 定价最终确认会议定在10月15日。",
+    "day": 32,
+    "active": true
+   },
+   {
+    "id": 111,
+    "text": "20 Sep: 林凯和Yuki讨论dark mode phase 2设计，对方承诺两周内出稿。",
+    "day": 49,
+    "active": true
+   },
+   {
+    "id": 112,
+    "text": "25 Sep: 女儿退烧了，但没去幼儿园，我妈在家陪着。",
+    "day": 54,
+    "active": true
+   },
+   {
+    "id": 113,
+    "text": "30 Aug: 女儿好转，可专注工作；周末带女儿去公园，她病好了开心。",
+    "day": 29,
+    "active": true
+   },
+   {
+    "id": 114,
+    "text": "30 Aug: Ben to prepare a complete business case first, with detailed review at the Oct 15 meeting.",
+    "day": 28,
+    "active": true
+   },
+   {
+    "id": 115,
+    "text": "Aurora deal is $950K and will be officially announced next Monday; deal closed today for $950K in Q3, Lily handled final docs.",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 116,
+    "text": "30 Aug: 周末带女儿去公园，她病好了开心。",
+    "day": 29,
+    "active": true
+   },
+   {
+    "id": 117,
+    "text": "31 Aug: 周一早上回到上海，周末后感觉好多了。",
+    "day": 29,
+    "active": true
+   },
+   {
+    "id": 118,
+    "text": "31 Aug: Lily approved for Oct 6–7 off; Ben will cover her accounts.",
+    "day": 29,
+    "active": true
+   },
+   {
+    "id": 119,
+    "text": "31 Aug: Pricing review prep must be finalized by Oct 15.",
+    "day": 29,
+    "active": true
+   },
+   {
+    "id": 120,
+    "text": "01 Sep: Dark mode sync with Yuki at 2pm.",
+    "day": 30,
+    "active": true
+   },
+   {
+    "id": 121,
+    "text": "09 Sep: Jason有8年B2B经验，strength在scaling产品。",
+    "day": 38,
+    "active": true
+   },
+   {
+    "id": 122,
+    "text": "06 Sep: 面试后评价Jason Chen产品sense不错，但execution细节问得不够深。",
+    "day": 35,
+    "active": true
+   },
+   {
+    "id": 123,
+    "text": "01 Sep: Next PM candidate interview on Friday.",
+    "day": 30,
+    "active": true
+   },
+   {
+    "id": 124,
+    "text": "01 Sep: Omar sent Singapore Q4 pipeline update with a 300-seat fintech moving fast.",
+    "day": 30,
+    "active": true
+   },
+   {
+    "id": 125,
+    "text": "01 Sep: Dark mode feedback mostly positive, pushing to Oct sprint.",
+    "day": 30,
+    "active": true
+   },
+   {
+    "id": 126,
+    "text": "01 Sep: New PM candidate Jason Chen interviewed, 8 years exp, moving to next round.",
+    "day": 44,
+    "active": true
+   },
+   {
+    "id": 127,
+    "text": "03 Sep: 第三季度预算明细已发送给Grace。",
+    "day": 32,
+    "active": true
+   },
+   {
+    "id": 128,
+    "text": "03 Sep: Doing a final pass on the Q3 budget breakdown; adding the integration cost line.",
+    "day": 32,
+    "active": true
+   },
+   {
+    "id": 129,
+    "text": "04 Sep: Need to leave early for daughter's school play tonight. 12 Sep: 女儿昨晚表演很棒。",
+    "day": 41,
+    "active": true
+   },
+   {
+    "id": 130,
+    "text": "26 Sep: Aurora合同签署，完成950k交易，客户同意Q4关闭并附带add-on选项。",
+    "day": 55,
+    "active": true
+   },
+   {
+    "id": 131,
+    "text": "04 Sep: Q3数字得重新算，我回头找Grace对齐。",
+    "day": 33,
+    "active": true
+   },
+   {
+    "id": 132,
+    "text": "04 Sep: 周一跟Ravi确认integration timeline。",
+    "day": 33,
+    "active": true
+   },
+   {
+    "id": 133,
+    "text": "04 Sep: Dark mode QA timeline from Yuki is next Friday.",
+    "day": 34,
+    "active": true
+   },
+   {
+    "id": 134,
+    "text": "05 Sep: Daughter's school play was successful; she played a tree and didn't forget her lines.",
+    "day": 34,
+    "active": true
+   },
+   {
+    "id": 135,
+    "text": "05 Sep: 跟Omar通了电话，SEA pipeline不错，他说下个月能签两个prospect。",
+    "day": 34,
+    "active": true
+   },
+   {
+    "id": 136,
+    "text": "05 Sep: Ravi的新hire start date delayed to Nov 15。",
+    "day": 37,
+    "active": true
+   },
+   {
+    "id": 137,
+    "text": "05 Sep: 得跟Ravi看看谁顶integration这块。",
+    "day": 34,
+    "active": true
+   },
+   {
+    "id": 138,
+    "text": "15 Oct: 林凯父亲血压高，吃了药在休息，林凯被告知下午无需太担心。17:00 15 Oct: 父亲血压下午稳定了，感觉好多了。19 Oct: 父亲血压今天有波动，但吃药后稳定了。30 Oct: 凯哥的父亲于30日出院，血压偶尔波动但属正常。30 Oct: 凯哥父亲血压下降，头晕好转。",
+    "day": 89,
+    "active": false
+   },
+   {
+    "id": 139,
+    "text": "06 Sep: 要求aicoo记住周报格式，每周加一段“本周踩的坑”。",
+    "day": 35,
+    "active": true
+   },
+   {
+    "id": 140,
+    "text": "06 Sep: 下午跟Ravi sync了integration，security audit过了，Sep 22应该稳。",
+    "day": 36,
+    "active": true
+   },
+   {
+    "id": 141,
+    "text": "06 Sep: 帮我约Grace下周一30min，聊聊Q3 forecast调整。与Grace的30分钟讨论确认，Q3调整可以，但需看整体pipeline。",
+    "day": 36,
+    "active": true
+   },
+   {
+    "id": 142,
+    "text": "06 Sep: 周末计划：带女儿去公园，爸妈那边也去看看。",
+    "day": 36,
+    "active": true
+   },
+   {
+    "id": 143,
+    "text": "07 Sep: 周一早上，先看看邮件，Aurora那边legal还有什么尾巴吗？",
+    "day": 36,
+    "active": true
+   },
+   {
+    "id": 144,
+    "text": "07 Sep: 面试了第二位PM候选人Emily Tan，她有6年B2B经验，比Jason更细致，倾向选她。",
+    "day": 36,
+    "active": true
+   },
+   {
+    "id": 145,
+    "text": "07 Sep: 下午跟Ravi又确认了integration资源，他说hire delay后先用intern顶。",
+    "day": 37,
+    "active": true
+   },
+   {
+    "id": 146,
+    "text": "08 Sep: Ravi那边integration测试开始了吗，Sep 22 deadline还有两周。",
+    "day": 37,
+    "active": true
+   },
+   {
+    "id": 147,
+    "text": "08 Sep: 今天Grace要看Aurora的final close report，帮我mark一下下午4点review。",
+    "day": 37,
+    "active": true
+   },
+   {
+    "id": 148,
+    "text": "08 Sep: 林凯要求aicoo把Ben的pricing v3发给自己。",
+    "day": 37,
+    "active": true
+   },
+   {
+    "id": 149,
+    "text": "13 Sep: Aurora scoping confirm需4周，有dependency在Q4。",
+    "day": 42,
+    "active": true
+   },
+   {
+    "id": 150,
+    "text": "08 Sep: 林凯要求Lily先别commit custom reporting，等自己review完。",
+    "day": 37,
+    "active": true
+   },
+   {
+    "id": 151,
+    "text": "08 Sep: 审阅了Omar的新加坡pipeline，进展良好。",
+    "day": 38,
+    "active": true
+   },
+   {
+    "id": 152,
+    "text": "08 Sep: Grace认可了Aurora关闭报告，认为格式很好。",
+    "day": 38,
+    "active": true
+   },
+   {
+    "id": 153,
+    "text": "11 Sep: 与Omar finalize了Q4 pipeline，Singapore新增了两个prospect，pipeline healthy",
+    "day": 40,
+    "active": true
+   },
+   {
+    "id": 154,
+    "text": "18 Oct: Dark mode toggle开发约3周，目标是11月底交付。",
+    "day": 77,
+    "active": true
+   },
+   {
+    "id": 155,
+    "text": "09 Sep: Ravi说dark mode estimate大概3 sprint，比我想的久。",
+    "day": 38,
+    "active": true
+   },
+   {
+    "id": 156,
+    "text": "09 Sep: 安排下周一下午Ravi和Yuki的alignment会议，让他们对齐评估。",
+    "day": 38,
+    "active": true
+   },
+   {
+    "id": 157,
+    "text": "09 Sep: 下午要discuss Emily Tan的case study。",
+    "day": 38,
+    "active": true
+   },
+   {
+    "id": 158,
+    "text": "09 Sep: Omar说Singapore fintech prospect下周要visit office。",
+    "day": 38,
+    "active": true
+   },
+   {
+    "id": 159,
+    "text": "09 Sep: 需要Yuki确认Aurora scope能否分phase delivery。",
+    "day": 39,
+    "active": true
+   },
+   {
+    "id": 160,
+    "text": "13 Sep: 凯哥要看Aurora custom reporting的impact，看能否加速close，需和Lily check。",
+    "day": 42,
+    "active": true
+   },
+   {
+    "id": 161,
+    "text": "10 Sep: Dark mode phase plan和Aurora scoping已完成",
+    "day": 40,
+    "active": true
+   },
+   {
+    "id": 162,
+    "text": "10 Sep: Lily的Aurora custom reporting初步scope看着reasonable。",
+    "day": 39,
+    "active": true
+   },
+   {
+    "id": 163,
+    "text": "10 Sep: Ravi确认Aurora custom reporting 4周可以做，让Lily准备SOW。",
+    "day": 39,
+    "active": true
+   },
+   {
+    "id": 164,
+    "text": "10 Sep: Yuki发了dark mode的phase 1 scope，只做core UI，可以减到2 sprint。",
+    "day": 39,
+    "active": true
+   },
+   {
+    "id": 165,
+    "text": "14 Sep: Jason Chen reference check过了，这周发offer",
+    "day": 44,
+    "active": true
+   },
+   {
+    "id": 166,
+    "text": "10 Sep: Omar的SEA marketing budget proposal林凯已approve，send to Grace for final approval。27 Oct: 下午session讨论了Omar的SEA marketing plan，Q1 expand需要提前准备。",
+    "day": 86,
+    "active": true
+   },
+   {
+    "id": 167,
+    "text": "10 Sep: Aurora deal的scope和Q4 delivery schedule已明确",
+    "day": 40,
+    "active": true
+   },
+   {
+    "id": 168,
+    "text": "10 Sep: 明天要focus on Q4 pipeline alignment",
+    "day": 40,
+    "active": true
+   },
+   {
+    "id": 169,
+    "text": "11 Sep: Integration testing进展不错，Sep 22 deadline有望达成",
+    "day": 40,
+    "active": true
+   },
+   {
+    "id": 170,
+    "text": "11 Sep: Jason加入团队，是个strong addition",
+    "day": 40,
+    "active": true
+   },
+   {
+    "id": 171,
+    "text": "11 Sep: 决定将pricing v3 present给Grace；17 Sep: 决定给Grace更新定价决策，并给她发brief。",
+    "day": 46,
+    "active": true
+   },
+   {
+    "id": 172,
+    "text": "11 Sep: 计划在Oct 15 meeting前，先给Grace发executive summary preview pricing v3",
+    "day": 40,
+    "active": true
+   },
+   {
+    "id": 173,
+    "text": "11 Sep: 父亲情况稳定，可以focus on Aurora negotiations",
+    "day": 40,
+    "active": true
+   },
+   {
+    "id": 174,
+    "text": "11 Sep: 下周重点为Aurora negotiation final push、dark mode estimate alignment、Jason offer letter。",
+    "day": 41,
+    "active": true
+   },
+   {
+    "id": 175,
+    "text": "12 Sep: 女儿昨晚表演很棒，now dad duty mode。",
+    "day": 41,
+    "active": true
+   },
+   {
+    "id": 176,
+    "text": "13 Sep: 80%用户需要mobile支持, 需drill down最急需的功能。",
+    "day": 42,
+    "active": true
+   },
+   {
+    "id": 177,
+    "text": "12 Sep: 计划周一和Yuki sync mobile方向。",
+    "day": 41,
+    "active": true
+   },
+   {
+    "id": 178,
+    "text": "12 Sep: 请aicoo先keep note on mobile priority。",
+    "day": 41,
+    "active": true
+   },
+   {
+    "id": 179,
+    "text": "25 Oct: 爸爸状态不错，早上还自己下床走了几步。",
+    "day": 84,
+    "active": true
+   },
+   {
+    "id": 180,
+    "text": "12 Sep: 晚上计划放松，明天有一堆Aurora docs要看。",
+    "day": 41,
+    "active": true
+   },
+   {
+    "id": 181,
+    "text": "13 Sep: 提醒Omar下周一(14 Sep)把fintech case study发给我。",
+    "day": 42,
+    "active": true
+   },
+   {
+    "id": 182,
+    "text": "13 Sep: 周日我正在看mobile survey data。",
+    "day": 42,
+    "active": true
+   },
+   {
+    "id": 183,
+    "text": "14 Sep: 凯哥早上和Yuki sync了mobile backlog。",
+    "day": 43,
+    "active": true
+   },
+   {
+    "id": 184,
+    "text": "13 Sep: 凯哥有压力，剩下几周要大push。",
+    "day": 42,
+    "active": true
+   },
+   {
+    "id": 185,
+    "text": "13 Sep: 凯哥下午带女儿去公园，need a break from revenue pressure。",
+    "day": 42,
+    "active": true
+   },
+   {
+    "id": 186,
+    "text": "14 Sep: 凯哥和Omar sync Singapore pipeline，fintech case study他没发。",
+    "day": 43,
+    "active": true
+   },
+   {
+    "id": 187,
+    "text": "13 Sep: 凯哥收到Grace通知，明天要draft Q3 review给board。",
+    "day": 43,
+    "active": true
+   },
+   {
+    "id": 188,
+    "text": "14 Sep: Yuki propose先做native iOS作为mobile priority。",
+    "day": 43,
+    "active": true
+   },
+   {
+    "id": 189,
+    "text": "14 Sep: 凯哥让Yuki周五前出个t-shirt sizing。",
+    "day": 43,
+    "active": true
+   },
+   {
+    "id": 190,
+    "text": "14 Sep: 林凯在14 Sep 10:31表示，他的reminder原定9am，现在会立刻发给对方。",
+    "day": 43,
+    "active": true
+   },
+   {
+    "id": 191,
+    "text": "14 Sep: 林凯在14 Sep 10:35说，可以直接ping对方slack，另外他需要给Grace的Q3 review prep提供initial numbers。",
+    "day": 43,
+    "active": true
+   },
+   {
+    "id": 192,
+    "text": "14 Sep: 林凯在14 Sep 11:30确认，board prep template中填2.1M actuals，并将forecast调整至2.3M（偏保守）。",
+    "day": 43,
+    "active": true
+   },
+   {
+    "id": 193,
+    "text": "14 Sep: 林凯在14 Sep 14:00提到，Emily Tan上周接受了offer，他让Ben安排onboarding。01 Oct: Emily Tan accepted the PM offer; start date Oct 26.",
+    "day": 60,
+    "active": true
+   },
+   {
+    "id": 194,
+    "text": "21 Sep: Lily发来Aurora integration timeline, 他们说custom module可以在Q1做。原来谈判是Q3/Q4关闭，客户推动Q3，现在Lily说可以在Q1做。",
+    "day": 51,
+    "active": true
+   },
+   {
+    "id": 195,
+    "text": "14 Sep: 不能compromise scope for revenue，太risky",
+    "day": 44,
+    "active": true
+   },
+   {
+    "id": 196,
+    "text": "14 Sep: 上次propose Q1 2027 add-on很好",
+    "day": 44,
+    "active": true
+   },
+   {
+    "id": 197,
+    "text": "14 Sep: 写了email给Lily，让aicoo sense check",
+    "day": 44,
+    "active": true
+   },
+   {
+    "id": 198,
+    "text": "14 Sep: 晚上review pricing v3 preview给Grace，明天sync前finalize",
+    "day": 44,
+    "active": true
+   },
+   {
+    "id": 199,
+    "text": "15 Sep: 今天和Grace pricing preview，紧张",
+    "day": 44,
+    "active": true
+   },
+   {
+    "id": 200,
+    "text": "15 Sep: Pricing sync done, Grace gave green light, Oct 15 meeting can finalize.",
+    "day": 44,
+    "active": true
+   },
+   {
+    "id": 201,
+    "text": "15 Sep: 晚点给Ben和Omar发brief；17 Sep: 自己晚上写Omar的briefing doc，主要对齐Nov 1 launch和sales enablement。",
+    "day": 46,
+    "active": true
+   },
+   {
+    "id": 202,
+    "text": "15 Sep: Third PM candidate Michael Liu interviewed, 10 years, ex-Microsoft.",
+    "day": 44,
+    "active": true
+   },
+   {
+    "id": 203,
+    "text": "15 Sep: 林凯有很强的候选人背景，需要和Grace同步比较Jason和Emily。",
+    "day": 45,
+    "active": true
+   },
+   {
+    "id": 204,
+    "text": "15 Sep: 明天需要提醒林凯给Grace board draft，并与Yuki确认dark mode phase 1。",
+    "day": 45,
+    "active": true
+   },
+   {
+    "id": 205,
+    "text": "16 Sep: 林凯要求aicoo以后回复用纯文本，不要用bullet points。",
+    "day": 45,
+    "active": false
+   },
+   {
+    "id": 206,
+    "text": "16 Sep: Ben发来了pricing final版本，我再过一遍数字，下午跟他对齐。",
+    "day": 45,
+    "active": true
+   },
+   {
+    "id": 207,
+    "text": "21 Oct: Pricing final decision: 44 per user per month, launch Dec 1, after debate with Ben and Ravi confirm dark mode and pricing page optimization simultaneously. 26 Oct: pricing launch post到12/1，需要和Ben sync一下新的timeline。29 Oct: 和Ben确认pricing 12/1 launch, A/B测试11/3继续跑",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 208,
+    "text": "16 Sep: 中午和Ravi sync了integration timeline，security audit收尾了，Sep 22 deadline应该稳。",
+    "day": 45,
+    "active": true
+   },
+   {
+    "id": 209,
+    "text": "16 Sep: 设一个Sep 21下午的提醒，让我check Ravi状态。",
+    "day": 45,
+    "active": true
+   },
+   {
+    "id": 210,
+    "text": "16 Sep: 给Michael Liu发了offer letter，希望他周四前签。",
+    "day": 45,
+    "active": true
+   },
+   {
+    "id": 211,
+    "text": "16 Sep: Lily在跟，她催人有一套。",
+    "day": 46,
+    "active": true
+   },
+   {
+    "id": 212,
+    "text": "19 Sep: 女儿感冒好了活蹦乱跳。",
+    "day": 48,
+    "active": true
+   },
+   {
+    "id": 213,
+    "text": "17 Sep: 他最后让步了，认为$44比$49更competitive，尤其对mid-market。",
+    "day": 46,
+    "active": true
+   },
+   {
+    "id": 214,
+    "text": "17 Sep: 需要起草brief outline，重点写rationale和competitive landscape。",
+    "day": 46,
+    "active": true
+   },
+   {
+    "id": 215,
+    "text": "18 Sep: Kai Lin 在去机场路上。",
+    "day": 47,
+    "active": true
+   },
+   {
+    "id": 216,
+    "text": "18 Sep: Kai Lin 打算先到 office 与 Omar team 见面。",
+    "day": 47,
+    "active": true
+   },
+   {
+    "id": 217,
+    "text": "18 Sep: Kai Lin 与 Omar 进行了 pipeline review，有几个 deal 在推进。",
+    "day": 47,
+    "active": true
+   },
+   {
+    "id": 218,
+    "text": "18 Sep: Kai Lin 与 Yuki 完成了 Dark mode design review，需要两轮迭代。",
+    "day": 47,
+    "active": true
+   },
+   {
+    "id": 219,
+    "text": "16 Oct: Yuki下周一finalize design，然后Ravi可以开始estimation。",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 220,
+    "text": "18 Sep: 晚上和Omar吃饭，聊聊Q4 target alignment。",
+    "day": 48,
+    "active": true
+   },
+   {
+    "id": 221,
+    "text": "19 Sep: 早上在Singapore office最后半天，下午飞回Shanghai。",
+    "day": 48,
+    "active": true
+   },
+   {
+    "id": 222,
+    "text": "19 Sep: Omar propose再加一个BDR headcount, 我说等Q4 pipeline稳住再批。10 Oct: Omar pinged about Singapore pipeline which looks good and wants to discuss Q4 headcount.",
+    "day": 70,
+    "active": true
+   },
+   {
+    "id": 223,
+    "text": "25 Sep: 下午跟Omar打了电话, Singapore pipeline 5个leads都在推进。",
+    "day": 54,
+    "active": true
+   },
+   {
+    "id": 224,
+    "text": "20 Sep: 林凯计划下周一（21 Sep）处理一堆事情。",
+    "day": 49,
+    "active": true
+   },
+   {
+    "id": 225,
+    "text": "20 Sep: Q3还剩最后一周冲刺。",
+    "day": 49,
+    "active": true
+   },
+   {
+    "id": 226,
+    "text": "20 Sep: Ben的pricing launch prep按计划进行，准备在11月1日发布。09 Oct: Ben的pricing launch延至11月15日，需要更多testing time。",
+    "day": 68,
+    "active": true
+   },
+   {
+    "id": 227,
+    "text": "20 Sep: Ravi的集成上线了，虽有延迟但还算顺利，安全审计耗时较多。21 Sep: Ravi confirmed integration went live Sep 22, 延迟了但还算顺利",
+    "day": 50,
+    "active": true
+   },
+   {
+    "id": 228,
+    "text": "23 Sep: 将Q4 roadmap发给Grace，等待反馈。23 Sep: Grace回复roadmap，同意主要方向，但希望加一页risk mitigation plan。24 Sep: Grace asked me to present Q4 roadmap on Oct 10, Friday，要准备deck。01 Oct: Q4 roadmap deck几乎完成，需要润色risk部分并添加时间线可视化。",
+    "day": 60,
+    "active": true
+   },
+   {
+    "id": 229,
+    "text": "21 Sep: Q3 wrap-up meeting at 11 with Grace, 有点紧张",
+    "day": 50,
+    "active": true
+   },
+   {
+    "id": 230,
+    "text": "21 Sep: 下班接女儿, 她说想画画, 陪她画了一个小时。",
+    "day": 51,
+    "active": true
+   },
+   {
+    "id": 231,
+    "text": "22 Sep: 今天跟Ben review pricing launch checklist, 下午面试PM final candidate。",
+    "day": 51,
+    "active": true
+   },
+   {
+    "id": 232,
+    "text": "22 Sep: 定价页面设计下周一前要Yuki定稿。",
+    "day": 51,
+    "active": true
+   },
+   {
+    "id": 233,
+    "text": "22 Sep: 面试了final PM candidate王磊, 7年SaaS, 沟通不错。",
+    "day": 51,
+    "active": true
+   },
+   {
+    "id": 234,
+    "text": "22 Sep: 晚上dad血压有点高, 带他去社区医院调整药量, 现在降下来了。",
+    "day": 51,
+    "active": true
+   },
+   {
+    "id": 235,
+    "text": "12 Oct: Omar想12月前在新加坡招2个销售。",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 236,
+    "text": "23 Sep: 决定下周与Grace讨论headcount approval需求。29 Oct: 先准备JD, 我和Grace下周对齐headcount details",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 237,
+    "text": "23 Sep: Yuki发了pricing page mockup，给Ben和Lily review，我看了觉得不错。",
+    "day": 53,
+    "active": true
+   },
+   {
+    "id": 238,
+    "text": "24 Sep: 要求aicoo先列个outline，明天早上同步。",
+    "day": 54,
+    "active": true
+   },
+   {
+    "id": 239,
+    "text": "24 Sep: 下午和Ravi过integration post-mortem并聊velocity。",
+    "day": 54,
+    "active": true
+   },
+   {
+    "id": 240,
+    "text": "25 Sep: 林凯发了Q4 outline，包含四个板块：Q4 goals, key initiatives, risks, resource needs。",
+    "day": 54,
+    "active": true
+   },
+   {
+    "id": 241,
+    "text": "25 Sep: 林凯要求aicoo在slide草稿中加一页Aurora作为Q4 case study。",
+    "day": 54,
+    "active": true
+   },
+   {
+    "id": 242,
+    "text": "26 Sep: 与Ravi确认integration上线后一切正常，无critical bugs。",
+    "day": 55,
+    "active": true
+   },
+   {
+    "id": 243,
+    "text": "26 Sep: 要求aicoo以后在meeting minutes开头加一个关于decisions的summary sentence。",
+    "day": 55,
+    "active": false
+   },
+   {
+    "id": 244,
+    "text": "26 Sep: 计划明天给Grace发summary并更新Q4数字。",
+    "day": 55,
+    "active": true
+   },
+   {
+    "id": 245,
+    "text": "26 Sep: 让我先帮他写个draft，他明早改。",
+    "day": 56,
+    "active": true
+   },
+   {
+    "id": 246,
+    "text": "26 Sep: 晚上带女儿出去吃寿司。",
+    "day": 56,
+    "active": true
+   },
+   {
+    "id": 247,
+    "text": "27 Sep: 周末好，今天女儿有画画课，上午陪她。",
+    "day": 56,
+    "active": true
+   },
+   {
+    "id": 248,
+    "text": "27 Sep: 下午有空再弄deck。",
+    "day": 56,
+    "active": true
+   },
+   {
+    "id": 249,
+    "text": "27 Sep: Engineering team的velocity up 20% this sprint，Ravi reports。",
+    "day": 56,
+    "active": true
+   },
+   {
+    "id": 250,
+    "text": "22 Oct: Dad's checkup went well, finally discharged from hospital yesterday.",
+    "day": 81,
+    "active": true
+   },
+   {
+    "id": 251,
+    "text": "28 Sep: Ask aicoo to remind me to reschedule my 9am if needed.",
+    "day": 58,
+    "active": true
+   },
+   {
+    "id": 252,
+    "text": "29 Sep: Dad's checkup went well, stable.",
+    "day": 58,
+    "active": true
+   },
+   {
+    "id": 253,
+    "text": "29 Sep: Yuki confirmed dark mode implementation started today, target mid-Nov release.",
+    "day": 58,
+    "active": true
+   },
+   {
+    "id": 254,
+    "text": "29 Sep: 与Ben进行定价v3最终审核，他对项目很可靠。",
+    "day": 59,
+    "active": true
+   },
+   {
+    "id": 255,
+    "text": "29 Sep: 要求aicoo根据Omar的上次报告整理管道数据，以便明天审阅。",
+    "day": 59,
+    "active": true
+   },
+   {
+    "id": 256,
+    "text": "02 Oct: 需要今天敲定Q4路线图的风险部分。02 Oct: deck risk section done, 发你了, 看看有没有遗漏。05 Oct: 今天要再润色一下risk section。",
+    "day": 64,
+    "active": true
+   },
+   {
+    "id": 257,
+    "text": "Yuki计划下周对50名beta用户测试暗黑模式。05 Oct: Yuki说dark mode beta反馈不错，20个用户里16个positive。",
+    "day": 64,
+    "active": true
+   },
+   {
+    "id": 258,
+    "text": "与Ravi午餐，讨论了整合事后分析，他将在周五前完成文档。",
+    "day": 59,
+    "active": true
+   },
+   {
+    "id": 259,
+    "text": "Emily Tan发来跟进邮件，表示很有兴趣加入，希望尽快敲定。",
+    "day": 59,
+    "active": true
+   },
+   {
+    "id": 260,
+    "text": "01 Oct: 林凯需要思考Emily Tan第一周的onboarding计划，包括介绍和产品概览。26 Oct: Emily今天正式start，需要帮她安排onboarding session with Ravi。",
+    "day": 85,
+    "active": true
+   },
+   {
+    "id": 261,
+    "text": "01 Oct: aicoo将为Emily Tan起草一份30-60-90天计划。",
+    "day": 60,
+    "active": true
+   },
+   {
+    "id": 262,
+    "text": "01 Oct: aicoo不要再用sticker，只用文字。",
+    "day": 61,
+    "active": true
+   },
+   {
+    "id": 263,
+    "text": "12 Oct: 暗黑模式beta从35个用户收到反馈，大部分正面。",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 264,
+    "text": "2 Oct: Ravi说integration稳定了, 没出什么bug, 可以drop监控了。12 Oct: Ravi说integration performance improved by 30% after fix. 14 Oct: Moves integration sync with Ravi to tomorrow due to his prod issue.",
+    "day": 73,
+    "active": true
+   },
+   {
+    "id": 265,
+    "text": "05 Oct: 收工, 今天效率还行, 明天继续.",
+    "day": 65,
+    "active": true
+   },
+   {
+    "id": 266,
+    "text": "03 Oct: Grace approved additional 100k budget for Q4 marketing; 05 Oct: 与Grace约了周三review Q4 deck。10 Oct: Grace approved the roadmap, with a few tweaks on timeline.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 267,
+    "text": "03 Oct: Omar plans to use the budget for two SEA webinars and one local case study.",
+    "day": 62,
+    "active": true
+   },
+   {
+    "id": 268,
+    "text": "22 Oct: 今天早点走，回家陪女儿，周末带她去公园。24 Oct: 周末计划带女儿去公园，爸爸也想去，看他体力恢复得怎么样。",
+    "day": 84,
+    "active": true
+   },
+   {
+    "id": 269,
+    "text": "04 Oct: Friday, Q3 ended, revenue final 2.35M, 差一点点到target, Grace not thrilled; 17 Oct: 虽未达目标，但环比增长仍为正值。",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 270,
+    "text": "04 Oct: 但Grace就是追求完美的人, 我得重新align一下Q4 forecast。",
+    "day": 63,
+    "active": true
+   },
+   {
+    "id": 271,
+    "text": "04 Oct: 把Aurora 950k和其他deal列一下, 我下午用。",
+    "day": 63,
+    "active": true
+   },
+   {
+    "id": 272,
+    "text": "04 Oct: 下午请假两小时陪父亲体检",
+    "day": 63,
+    "active": true
+   },
+   {
+    "id": 273,
+    "text": "05 Oct: Ben's new pricing page A/B test starts Nov 3.",
+    "day": 64,
+    "active": true
+   },
+   {
+    "id": 274,
+    "text": "05 Oct: Omar发来SEA Q4 pipeline update, 三个deal在negotiation阶段, total 200k.",
+    "day": 65,
+    "active": true
+   },
+   {
+    "id": 275,
+    "text": "05 Oct: 明天继续finetune deck.",
+    "day": 65,
+    "active": true
+   },
+   {
+    "id": 276,
+    "text": "06 Oct: 今天飞Singapore, regional conference, 下午speaker session on SaaS trends, 2pm-2:20pm at room B2.",
+    "day": 66,
+    "active": true
+   },
+   {
+    "id": 277,
+    "text": "06 Oct: 航班是10:20 departure, gate 12, on time.",
+    "day": 65,
+    "active": true
+   },
+   {
+    "id": 278,
+    "text": "06 Oct: Conference audience大概200人, 想highlight pricing change和dark mode rollout.",
+    "day": 65,
+    "active": true
+   },
+   {
+    "id": 279,
+    "text": "06 Oct: Kai Lin had a 2pm-2:20pm slot for a 15min talk + 5min Q&A at room B2.",
+    "day": 66,
+    "active": true
+   },
+   {
+    "id": 280,
+    "text": "06 Oct: After the talk, a fintech company showed interest in dark mode, and another asked about the mobile roadmap.",
+    "day": 66,
+    "active": true
+   },
+   {
+    "id": 281,
+    "text": "06 Oct: Kai Lin planned to have dinner with Omar to discuss the progress of three new sales hires.",
+    "day": 66,
+    "active": true
+   },
+   {
+    "id": 282,
+    "text": "07 Oct: Kai Lin had coffee chats with conference attendees and planned to sync with Omar's team at the office in the afternoon.",
+    "day": 66,
+    "active": true
+   },
+   {
+    "id": 283,
+    "text": "07 Oct: 转了一个logistics company的lead给omar, 100 seats, 对tracking module感兴趣。",
+    "day": 66,
+    "active": true
+   },
+   {
+    "id": 284,
+    "text": "07 Oct: Lily准备转enterprise sales full-time, 和Grace对齐了, handover给Emily, Emily Thompson 10/26入职。",
+    "day": 66,
+    "active": true
+   },
+   {
+    "id": 285,
+    "text": "25 Oct: Emily started onboarding, taking over Lily's accounts, Lily moving to new role.",
+    "day": 84,
+    "active": true
+   },
+   {
+    "id": 286,
+    "text": "07 Oct: Omar team的q4 pipeline有两个deal需要custom integration, 需要和Ravi协调resource。",
+    "day": 66,
+    "active": true
+   },
+   {
+    "id": 287,
+    "text": "08 Oct: 回上海下午3点到。",
+    "day": 67,
+    "active": true
+   },
+   {
+    "id": 288,
+    "text": "08 Oct: 明天需要休半天假，陪老爸去医院做follow-up appointment。",
+    "day": 68,
+    "active": false
+   },
+   {
+    "id": 289,
+    "text": "08 Oct: 明天上午10点和Yuki的dark mode beta review不能改期。",
+    "day": 67,
+    "active": true
+   },
+   {
+    "id": 290,
+    "text": "08 Oct: 明天下午2点和Ben的pricing update可以移到周四。",
+    "day": 67,
+    "active": true
+   },
+   {
+    "id": 291,
+    "text": "08 Oct: Ben的会议被移到周四下午2点。",
+    "day": 68,
+    "active": true
+   },
+   {
+    "id": 292,
+    "text": "09 Oct: dark mode beta反馈不错，Yuki需要两周做iteration然后full rollout planning。",
+    "day": 68,
+    "active": true
+   },
+   {
+    "id": 293,
+    "text": "09 Oct: dark mode beta feedback整体正面，但有可用性调整需讨论。10 Oct: Dark mode beta feedback deadline changed to Nov 7 instead of Nov 1.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 294,
+    "text": "08 Oct: 晚上和女儿玩了，她画了一幅画欢迎回家，心情好了。",
+    "day": 68,
+    "active": true
+   },
+   {
+    "id": 295,
+    "text": "09 Oct: 下午陪老爸去医院的行程已block time。",
+    "day": 68,
+    "active": true
+   },
+   {
+    "id": 296,
+    "text": "09 Oct: 先不通知Grace和其他stakeholder，等明天自己update Grace。09 Oct: 明天和grace对齐pricing delay。",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 297,
+    "text": "09 Oct: 从医院回来后会和Ben sync pricing细节。",
+    "day": 68,
+    "active": true
+   },
+   {
+    "id": 298,
+    "text": "09 Oct: 下周有一个follow-up。",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 299,
+    "text": "09 Oct: 今天早点收工, 陪家人吃晚饭。",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 300,
+    "text": "09 Oct: 明天和grace对齐pricing delay。",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 301,
+    "text": "10 Oct: Q4 roadmap deck给Grace, 紧张。10 Oct: Presenting to Grace at 11.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 302,
+    "text": "10 Oct: Presenting to Grace at 11.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 303,
+    "text": "10 Oct: Had lunch with Yuki to discuss toggle option for dark mode.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 304,
+    "text": "10 Oct: Yuki said toggle is easy and will add it to backlog for phase 2.",
+    "day": 69,
+    "active": true
+   },
+   {
+    "id": 305,
+    "text": "10 Oct: Will prepare a case for Q4 headcount this week.",
+    "day": 70,
+    "active": true
+   },
+   {
+    "id": 306,
+    "text": "11 Oct: Sunday Oct 11, having a lazy morning with family.",
+    "day": 70,
+    "active": true
+   },
+   {
+    "id": 307,
+    "text": "11 Oct: 写customer feedback summary时，always group by feature first.",
+    "day": 70,
+    "active": true
+   },
+   {
+    "id": 308,
+    "text": "11 Oct: Back home. Relaxing with tea. Thinking about Q4 priorities.",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 309,
+    "text": "11 Oct: Tomorrow: pricing page A/B test kickoff with Ben.",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 310,
+    "text": "12 Oct: 定价页A/B测试计划敲定，11月3日上线。15 Oct: 计划如果11月3日A/B结果稳定，11月15日上线。",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 311,
+    "text": "11 Oct: Dinner with family. Good day.",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 312,
+    "text": "12 Oct: Monday Oct 12. Back to work. Week ahead is packed.",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 313,
+    "text": "12 Oct: 与Ravi同步集成性能更新，Ravi说有安全审计后续，小问题今天打补丁。",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 314,
+    "text": "12 Oct: 需要为Grace准备人员编制提案。",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 315,
+    "text": "12 Oct: Emily sends intro email with good energy.",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 316,
+    "text": "13 Oct: Prep for tomorrow's customer call with Aurora Health check-in. 13 Oct: Aurora call went well. They're happy with progress.",
+    "day": 72,
+    "active": true
+   },
+   {
+    "id": 317,
+    "text": "13 Oct: Daughter's cough persists; taking her to doctor after work. 13 Oct: Leaving early for doctor visit with daughter.",
+    "day": 73,
+    "active": true
+   },
+   {
+    "id": 318,
+    "text": "12 Oct: Dad's checkup scheduled for next Thursday.",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 319,
+    "text": "12 Oct: Grace pinged about Q4 offsite planning.",
+    "day": 71,
+    "active": true
+   },
+   {
+    "id": 320,
+    "text": "12 Oct: Leaving office. Dinner with family.",
+    "day": 72,
+    "active": true
+   },
+   {
+    "id": 321,
+    "text": "13 Oct: Morning standup off to good start.",
+    "day": 72,
+    "active": true
+   },
+   {
+    "id": 322,
+    "text": "13 Oct: Customer call with Aurora Health at 10. Prepping.",
+    "day": 72,
+    "active": true
+   },
+   {
+    "id": 323,
+    "text": "13 Oct: Custom module timeline confirmed. Q1 2027 a good call.",
+    "day": 72,
+    "active": true
+   },
+   {
+    "id": 324,
+    "text": "13 Oct: Yuki shares dark mode beta survey results. 87% satisfied. 30 Oct: Yuki反馈dark mode toggle beta用户满意度92%.",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 325,
+    "text": "13 Oct: Ben reports 4 bugs on pricing page. Fixing before A/B.",
+    "day": 72,
+    "active": true
+   },
+   {
+    "id": 326,
+    "text": "13 Oct: Lily called to finalize enterprise handover doc.",
+    "day": 72,
+    "active": true
+   },
+   {
+    "id": 327,
+    "text": "13 Oct: Q4 planning offsite in Hangzhou, Oct 20-21, Grace booked 民宿. 20 Oct: 杭州民宿已确认10/20-21，12人参加。17 Oct: 下周二周三（20-21 Oct）杭州有offsite。",
+    "day": 79,
+    "active": true
+   },
+   {
+    "id": 328,
+    "text": "13 Oct: Need to prep agenda; will involve Yuki, Ravi, Omar.",
+    "day": 72,
+    "active": true
+   },
+   {
+    "id": 329,
+    "text": "13 Oct: Doctor says daughter has mild cold; rest and fluids.",
+    "day": 73,
+    "active": true
+   },
+   {
+    "id": 330,
+    "text": "14 Oct: 用户需要aicoo在周五下午3点提醒他准备Q3 customer wins summary，以便周末整理。",
+    "day": 73,
+    "active": true
+   },
+   {
+    "id": 331,
+    "text": "22 Oct: Q3 customer wins summary的deadline是10月25",
+    "day": 81,
+    "active": true
+   },
+   {
+    "id": 332,
+    "text": "14 Oct: Aurora有一个analytics dashboard新增export功能的需求，Lily估计工作量2-3天。",
+    "day": 73,
+    "active": true
+   },
+   {
+    "id": 333,
+    "text": "14 Oct: 用户需要与Ravi确认能否将Aurora的export需求塞进current sprint。",
+    "day": 73,
+    "active": true
+   },
+   {
+    "id": 334,
+    "text": "14 Oct: Aurora handover基本顺利，Emily接手的产品模块从下周一正式开始交接。",
+    "day": 73,
+    "active": true
+   },
+   {
+    "id": 335,
+    "text": "14 Oct: Emily主动约了Yuki和Ravi的intro meeting，挺有主动性。",
+    "day": 73,
+    "active": true
+   },
+   {
+    "id": 336,
+    "text": "14 Oct: Ravi说export功能可以周五前做完，不影响Aurora timeline。",
+    "day": 73,
+    "active": true
+   },
+   {
+    "id": 337,
+    "text": "14 Oct: integration性能提升30%后整个team morale都高了。",
+    "day": 73,
+    "active": true
+   },
+   {
+    "id": 338,
+    "text": "15 Oct: Ravi估计dark mode phase 2需要4个sprint，但可以并行一些工作；17 Oct: Dark mode toggle预计2个sprints交付，比原计划4个sprints快一半。",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 339,
+    "text": "14 Oct: 和aicoo做三层纸板城堡的手工课。",
+    "day": 74,
+    "active": true
+   },
+   {
+    "id": 340,
+    "text": "15 Oct: 昨晚城堡只完成了两层，第三层塌了。17:02 15 Oct: 决定今天早点下班，回家拼第三层城堡。16 Oct: 三层城堡终于搭好了，女儿说他是最好的工程师。",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 341,
+    "text": "15 Oct: 计划周末试试用胶枪做城堡。",
+    "day": 74,
+    "active": true
+   },
+   {
+    "id": 342,
+    "text": "15 Oct: 林凯同意将toggle功能单独拆分出来，争取在3个sprint内交付，其余功能往后排。",
+    "day": 74,
+    "active": true
+   },
+   {
+    "id": 343,
+    "text": "15 Oct: 新加坡Q4 pipeline目标看起来健康，Omar想在11月增加一个本地营销活动。",
+    "day": 74,
+    "active": true
+   },
+   {
+    "id": 344,
+    "text": "15 Oct: Omar估计活动需要约15k美元，从Grace批准的100k美元Q4营销预算中支出，林凯让Omar下周一提交详细提案。",
+    "day": 74,
+    "active": true
+   },
+   {
+    "id": 345,
+    "text": "15 Oct: Ben的定价A/B测试结果显示，$44/用户/月的版本转化率比预期高8%。",
+    "day": 74,
+    "active": true
+   },
+   {
+    "id": 346,
+    "text": "17:02 15 Oct: 决定今天早点下班，回家拼第三层城堡。30 Oct: 凯哥决定下午早点下班回家陪父亲，并先专注工作。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 347,
+    "text": "16 Oct: 今天周五，我先看calendar，然后有个事跟你说。",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 348,
+    "text": "16 Oct: 10点有Yuki的dark mode toggle design review，下午2点有Q3 customer wins summary draft review。",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 349,
+    "text": "16 Oct: Yuki的toggle设计很干净，用户测试中82% prefer toggle over system default。23 Oct: 用户很喜欢Dark mode beta，82%选了toggle。",
+    "day": 82,
+    "active": true
+   },
+   {
+    "id": 350,
+    "text": "28 Oct: Q3 customer wins summary还差customer quotes，需要催Omar和Lily；29 Oct: Omar发来customer quotes，质量不错，可以加入summary；29 Oct: Q3 customer wins summary今天必须send给Grace",
+    "day": 88,
+    "active": true
+   },
+   {
+    "id": 351,
+    "text": "16 Oct: Aurora deal从initial contact到close大概做了四版proposal。",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 352,
+    "text": "16 Oct: Lily的persistence是Aurora deal win reason中必须写的内容。",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 353,
+    "text": "16 Oct: Met fourth PM candidate Sarah Wu, but we already hired Emily, Sarah背景不错以后可以考虑。",
+    "day": 75,
+    "active": true
+   },
+   {
+    "id": 354,
+    "text": "16 Oct: 林凯提到候选人做过两年enterprise SaaS且有vertical SaaS经验，与Aurora客户很匹配。",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 355,
+    "text": "16 Oct: 林凯计划周六写Q3 summary，周日女儿有playdate，期间陪父亲散步。",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 356,
+    "text": "16 Oct: 林凯要求下周一上午提醒他发summary draft给aicoo review。",
+    "day": 76,
+    "active": false
+   },
+   {
+    "id": 357,
+    "text": "17 Oct: 林凯告知aicoo周末过得还行，Q3 summary已写完八成；17 Oct: summary draft写完并发出，请aicoo检查missing data points。",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 358,
+    "text": "21 Oct: 林凯提到Emily完成第一周入职，已对roadmap有贡献并提出了几个product backlog改进想法。21 Oct: Emily今天发了第一份backlog proposal，思路很清晰，入职适应不错。",
+    "day": 80,
+    "active": true
+   },
+   {
+    "id": 359,
+    "text": "17 Oct: Q4 backlog里一些low-effort high-impact的item被建议提前做。",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 360,
+    "text": "19 Oct: pricing A/B test数据显示$44/user那个variant转化率有8% lift。",
+    "day": 78,
+    "active": true
+   },
+   {
+    "id": 361,
+    "text": "17 Oct: Ben周三给final copy和pricing page mockup，需review后sign off。",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 362,
+    "text": "17 Oct: 要求aicoo帮忙拉取Q2 revenue数据，并采纳其添加季度对比的建议。",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 363,
+    "text": "17 Oct: 计划下周二开始将dark mode toggle的设计交接给Ravi，争取12月初上线。",
+    "day": 76,
+    "active": true
+   },
+   {
+    "id": 364,
+    "text": "18 Oct: Q3 summary改了一版，加上QoQ growth narrative，发给Grace review。",
+    "day": 77,
+    "active": true
+   },
+   {
+    "id": 365,
+    "text": "17 Oct: 下周二周三（20-21 Oct）杭州有offsite。",
+    "day": 77,
+    "active": true
+   },
+   {
+    "id": 366,
+    "text": "17 Oct: 需要aicoo帮忙check酒店和agenda细节，并在下周一（19 Oct）remind。",
+    "day": 77,
+    "active": true
+   },
+   {
+    "id": 367,
+    "text": "17 Oct: 周六会带爸妈和女儿一起去公园。",
+    "day": 77,
+    "active": true
+   },
+   {
+    "id": 368,
+    "text": "18 Oct: 女儿没发烧，咳嗽好一些了。",
+    "day": 78,
+    "active": true
+   },
+   {
+    "id": 369,
+    "text": "23 Oct: 早上跟Ravi sync了，dark mode toggle的implementation timeline，他说两个sprint能搞定，mid-November应该能上线。",
+    "day": 82,
+    "active": true
+   },
+   {
+    "id": 370,
+    "text": "18 Oct: 今天还有Q3 summary final review。",
+    "day": 77,
+    "active": true
+   },
+   {
+    "id": 371,
+    "text": "18 Oct: 新加坡Q3销售600k，best quarter ever。",
+    "day": 77,
+    "active": true
+   },
+   {
+    "id": 372,
+    "text": "18 Oct: Q4 pipeline很扎实。",
+    "day": 77,
+    "active": true
+   },
+   {
+    "id": 373,
+    "text": "19 Oct: 今天重点是Yuki的dark mode visuals handoff。",
+    "day": 78,
+    "active": true
+   },
+   {
+    "id": 374,
+    "text": "19 Oct: Yuki finalized dark mode visuals，明天handoff给engineering。",
+    "day": 78,
+    "active": true
+   },
+   {
+    "id": 375,
+    "text": "20 Oct: 与Grace约了下午3点quick sync，更新Q4 roadmap execution plan。",
+    "day": 79,
+    "active": true
+   },
+   {
+    "id": 376,
+    "text": "28 Oct: Omar报告新加坡Q4 pipeline为1.2M。",
+    "day": 88,
+    "active": true
+   },
+   {
+    "id": 377,
+    "text": "20 Oct: Grace对Q4 plan总体满意，只要求再加一个engineering capacity contingency plan。24 Oct: Q4 roadmap和engineering capacity contingency plan的draft已发，Grace approve了，只是注意资源分配别太紧。",
+    "day": 84,
+    "active": true
+   },
+   {
+    "id": 378,
+    "text": "21 Oct: Engineering资源紧张。",
+    "day": 80,
+    "active": true
+   },
+   {
+    "id": 379,
+    "text": "21 Oct: 要求aicoo以后全部用中文回复。",
+    "day": 80,
+    "active": true
+   },
+   {
+    "id": 380,
+    "text": "21 Oct: 今天早点下班，带女儿去公园走走",
+    "day": 81,
+    "active": false
+   },
+   {
+    "id": 381,
+    "text": "22 Oct: 明天上午有review。",
+    "day": 82,
+    "active": true
+   },
+   {
+    "id": 382,
+    "text": "22 Oct: Omar的Q4 pipeline这周会有几个新leads进来。",
+    "day": 82,
+    "active": true
+   },
+   {
+    "id": 383,
+    "text": "23 Oct: 今天下午跟Yuki做dark mode design review，她已经在做iterations了。",
+    "day": 82,
+    "active": true
+   },
+   {
+    "id": 384,
+    "text": "24 Oct: 今天早上跟Lily过了handover checklist，她下周正式转Enterprise Sales。",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 385,
+    "text": "24 Oct: Omar发了Q4 pipeline update，看起来不错，几个大deal在推进。",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 386,
+    "text": "24 Oct: Omar说下周可以给具体forecast。",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 387,
+    "text": "23 Oct: 用户叫我凯哥。",
+    "day": 83,
+    "active": true
+   },
+   {
+    "id": 388,
+    "text": "26 Oct: 明天下午2点有sync meeting，Ben确认参加。",
+    "day": 86,
+    "active": true
+   },
+   {
+    "id": 389,
+    "text": "26 Oct: 父亲今天在家恢复得不错。",
+    "day": 86,
+    "active": true
+   },
+   {
+    "id": 390,
+    "text": "27 Oct: Q4 revenue tracking towards 2.8M目标，Grace在全员会议中提到。",
+    "day": 86,
+    "active": true
+   },
+   {
+    "id": 391,
+    "text": "27 Oct: 明天Q4 offsite在杭州，一共5人（Ravi、Yuki、Omar、Emily），明早8点出发。",
+    "day": 86,
+    "active": true
+   },
+   {
+    "id": 392,
+    "text": "27 Oct: offsite先讨论engineering capacity，Ravi说dark mode toggle需要额外资源。Yuki在offsite分享了dark mode final visuals，团队反馈很好。",
+    "day": 86,
+    "active": true
+   },
+   {
+    "id": 393,
+    "text": "28 Oct: 午饭时和Ravi聊了integration稳定后的下一步, API monetization可以考虑。",
+    "day": 87,
+    "active": true
+   },
+   {
+    "id": 394,
+    "text": "28 Oct: 回到上海了",
+    "day": 88,
+    "active": true
+   },
+   {
+    "id": 395,
+    "text": "28 Oct: 女儿今天学校有活动我没能去，有点遗憾",
+    "day": 88,
+    "active": true
+   },
+   {
+    "id": 396,
+    "text": "29 Oct: Emily和Ravi sync了dark mode toggle dev进度，phase 1 on track",
+    "day": 88,
+    "active": true
+   },
+   {
+    "id": 397,
+    "text": "29 Oct: Singapore office expansion approved, 明年Q1 start, 需要hire 10 more",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 398,
+    "text": "30 Oct: 希望aicoo帮忙看这周剩下的to-dos",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 399,
+    "text": "30 Oct: 林凯要求aicoo帮忙约Ravi 9:30 quick sync。30 Oct: 凯哥答应女儿参加Halloween活动，aicoo提醒他好好享受。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 400,
+    "text": "30 Oct: 林凯需要查看pricing A/B结果。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 401,
+    "text": "30 Oct: Ben确认conversion lift 8%。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 402,
+    "text": "30 Oct: 林凯决定让Emily处理customer custom reporting需求，如需要支持再拉Lily。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 403,
+    "text": "30 Oct: 林凯计划提前一小时下班参加女儿学校Halloween活动。30 Oct: 凯哥下午4点去女儿学校参加Halloween活动。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 404,
+    "text": "30 Oct: 林凯同意将pricing review prep移到周一早上10点。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 405,
+    "text": "30 Oct: security audit补测不影响integration 9月22日上线。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 406,
+    "text": "30 Oct: dark mode toggle预计11月初完成，与pricing launch 12月1日不冲突。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 407,
+    "text": "30 Oct: 林凯同意pricing A/B结果后直接上v3定价，但需跟Grace确认。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 408,
+    "text": "30 Oct: 林凯安排周一10:30-11:00与Grace和Ben开会讨论pricing launch。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 409,
+    "text": "30 Oct: 林凯计划在周一同一个meeting里向Grace确认SEA expansion headcount approval timeline。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 410,
+    "text": "31 Oct: 父亲今早血压正常，精神好。",
+    "day": 90,
+    "active": false
+   },
+   {
+    "id": 411,
+    "text": "30 Oct: Yuki反馈dark mode toggle beta用户满意度92%，提议增加auto-toggle基于系统偏好。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 412,
+    "text": "30 Oct: 凯哥和aicoo同意先发布手动toggle的v1版本，auto-toggle放入v2，以按时交付。",
+    "day": 89,
+    "active": true
+   },
+   {
+    "id": 413,
+    "text": "31 Oct: 女儿昨晚Halloween扮小兔子超开心。",
+    "day": 90,
+    "active": true
+   },
+   {
+    "id": 414,
+    "text": "31 Oct: 周一priorities包括10:30 pricing launch decision meeting、确认SEA expansion headcount approval timeline、pricing review prep改到10:00、确认Ravi的integration final timeline、Emily weekly check-in。",
+    "day": 90,
+    "active": true
+   },
+   {
+    "id": 415,
+    "text": "31 Oct: Grace对Q3 customer wins summary反馈希望加customer testimonial section，建议联系Aurora和另外两个top customer。",
+    "day": 90,
+    "active": true
+   },
+   {
+    "id": 416,
+    "text": "31 Oct: 计划周一找Lily要Aurora的quote，找Omar要Singapore两个大客户的quote。",
+    "day": 90,
+    "active": true
+   }
+  ],
+  "next": 417,
+  "lastAt": 130201,
+  "writes": 147
+ },
+ "lastDay": 90,
+ "done": true,
+ "minutes": 10.960383333333333
+}

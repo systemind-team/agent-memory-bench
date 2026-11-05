@@ -1,0 +1,58 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "team of 5 now — you, tom, lena, sam, and david chen who joined officially on wed 21 oct. priya manages. that changed the on-call rotation, you were going to draft a proposal.",
+  "need the headcount for something particular?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "team size"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "people count"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "team"
+   },
+   "result": "#809 Thu 29 Oct 11:30 Them: sam's desk is between me and lena now. he asked to move\n#810 Thu 29 Oct 11:35 aicoo: makes sense. closer to the team for questions\n#811 Thu 29 Oct 12:00 Them: yeah. he said he wanted to overhear our discussions\n---\n#721 Wed 21 Oct 08:55 Them: morning. team now 5. david chen joined officially.\n#722 Wed 21 Oct 08:56 aicoo: welcome to david chen. team of 5 now. that changes the on-call rotation.\n#723 Wed 21 Oct 09:30 Them: yeah. priya wants to rebalance the rotation. i'll draft a proposal.\n---\n#720 Tue 20 Oct 17:31 aicoo: enjoy the run dan the builder.\n#721 Wed 21 Oct "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1137,
+   "out": 20,
+   "usd": 0.00010593
+  },
+  {
+   "in": 1186,
+   "out": 20,
+   "usd": 0.000036612
+  },
+  {
+   "in": 1235,
+   "out": 19,
+   "usd": 0.000040842
+  },
+  {
+   "in": 1912,
+   "out": 67,
+   "usd": 0.000110412
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4191
+}

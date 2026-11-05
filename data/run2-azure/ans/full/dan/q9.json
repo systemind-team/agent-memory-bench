@@ -1,0 +1,35 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "how far did i run in williamsburg that time?",
+ "reply": [
+  "8.7 miles on tuesday oct 6. you said it was slower than usual, blamed the pasta from the night before.",
+  "legs felt heavy but you still got it done. that's the kind of mileage that builds endurance for pacing ade in the marathon."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "williamsburg run"
+   },
+   "result": "#566 Tue 06 Oct 14:35 aicoo: done. added a weekly cron reminder every monday at 09:00\n#567 Tue 06 Oct 15:45 Them: run in williamsburg. 8.7 miles. slower than usual.\n#568 Tue 06 Oct 17:00 Them: legs feel heavy. blaming yesterday's pasta\n---\n#65 Sun 09 Aug 11:01 aicoo: good to keep moving\n#66 Sun 09 Aug 14:00 Them: ade and i are trying a new brunch place in williamsburg\n#67 Sun 09 Aug 14:01 aicoo: fun. hope it's good"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21327,
+   "out": 22,
+   "usd": 0.000687598
+  },
+  {
+   "in": 21508,
+   "out": 62,
+   "usd": 0.000748008
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64116
+}

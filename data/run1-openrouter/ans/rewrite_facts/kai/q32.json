@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+ "reply": [
+  "凯哥早上好，周日好！今天是11月1号，周一。我来看看这周的情况。\n\n这周你的meetings主要有：\n\n周一\n- 10:00 pricing review prep\n- 10:30 pricing launch decision meeting (Grace, Ben, 你)\n- 之后跟Grace确认SEA headcount approval timeline\n- 找Lily要Aurora customer quote\n- 找Omar要Singapore两个大客户的quote\n- Emily weekly check-in\n\n周二到周五目前没有固定meeting标注，但有几个待办：\n- 跟Ravi确认integration final timeline（你上次说约了Ravi 9:30 quick sync，但没写具体哪天）\n- 收集customer testimonial完成Q3 customer wins summary\n- 确认offsite后勤（民宿人数12人）\n\n还有你父亲的情况，周一早上再问问。\n\n今天先focus pricing meeting和quote收集，这两件事优先级最高。你父亲今天怎么样？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3327,
+   "out": 200,
+   "usd": 0.00007648228
+  }
+ ],
+ "memChars": 6891,
+ "promptChars": 11618
+}

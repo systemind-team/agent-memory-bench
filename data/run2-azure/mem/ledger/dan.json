@@ -1,0 +1,4462 @@
+{
+ "state": {
+  "pending": [
+   {
+    "day": 90,
+    "time": "11:15",
+    "who": "a",
+    "text": "perfect trio. halloween is sorted",
+    "i": 832
+   },
+   {
+    "day": 90,
+    "time": "14:00",
+    "who": "u",
+    "text": "cutover checklist is almost done. just need to add rollback steps",
+    "i": 833
+   },
+   {
+    "day": 90,
+    "time": "14:05",
+    "who": "a",
+    "text": "crucial section. include the dry run results too",
+    "i": 834
+   },
+   {
+    "day": 90,
+    "time": "15:00",
+    "who": "u",
+    "text": "done for the week. heading out for a run with ade and biscuit",
+    "i": 835
+   },
+   {
+    "day": 90,
+    "time": "15:05",
+    "who": "a",
+    "text": "enjoy the run. see you monday",
+    "i": 836
+   }
+  ],
+  "log": [
+   {
+    "id": 1,
+    "day": 1,
+    "type": "fact",
+    "text": "coffee count this week: 14 so far as of Mon 03 Aug",
+    "src": [
+     0
+    ]
+   },
+   {
+    "id": 2,
+    "day": 1,
+    "type": "feeling",
+    "text": "may need to cut back on coffee",
+    "src": [
+     0
+    ]
+   },
+   {
+    "id": 3,
+    "day": 1,
+    "type": "ask",
+    "text": "stripe webhook test retry logic was failing",
+    "src": [
+     2
+    ]
+   },
+   {
+    "id": 4,
+    "day": 1,
+    "type": "ask",
+    "text": "look up stripe docs page on idempotency",
+    "src": [
+     4
+    ]
+   },
+   {
+    "id": 5,
+    "day": 1,
+    "type": "done",
+    "text": "aicoo sent stripe idempotency docs link",
+    "src": [
+     5
+    ]
+   },
+   {
+    "id": 6,
+    "day": 1,
+    "type": "done",
+    "text": "stripe webhook retry got working",
+    "src": [
+     6
+    ]
+   },
+   {
+    "id": 7,
+    "day": 2,
+    "type": "done",
+    "text": "aicoo left comments on billing migration PR within 30 min",
+    "src": [
+     8,
+     9
+    ]
+   },
+   {
+    "id": 8,
+    "day": 2,
+    "type": "ask",
+    "text": "remind me to send priya the billing timeline doc by friday",
+    "src": [
+     12
+    ]
+   },
+   {
+    "id": 9,
+    "day": 2,
+    "type": "promise",
+    "text": "aicoo will remind daniel thursday afternoon to send priya the billing timeline doc by friday",
+    "src": [
+     12,
+     13
+    ]
+   },
+   {
+    "id": 10,
+    "day": 2,
+    "type": "fact",
+    "text": "webhook endpoint is stable now after retry fix",
+    "src": [
+     14,
+     15
+    ]
+   },
+   {
+    "id": 11,
+    "day": 2,
+    "type": "feeling",
+    "text": "needed to clear head, went for lunch walk",
+    "src": [
+     18,
+     20
+    ]
+   },
+   {
+    "id": 12,
+    "day": 2,
+    "type": "fact",
+    "text": "flaky test on checkout_spec skipped for now",
+    "src": [
+     16
+    ]
+   },
+   {
+    "id": 13,
+    "day": 2,
+    "type": "plan",
+    "text": "sync with priya about cutover plan tomorrow Wed 05 Aug at 10am",
+    "src": [
+     22,
+     23
+    ]
+   },
+   {
+    "id": 14,
+    "day": 3,
+    "type": "plan",
+    "text": "sync with priya about cutover plan Wed 05 Aug at 10am",
+    "src": [
+     24
+    ],
+    "closes": 13
+   },
+   {
+    "id": 15,
+    "day": 3,
+    "type": "fact",
+    "text": "priya pushing for billing cutover on oct 12",
+    "src": [
+     25
+    ]
+   },
+   {
+    "id": 16,
+    "day": 3,
+    "type": "feeling",
+    "text": "thinks oct 12 cutover is tight",
+    "src": [
+     27
+    ]
+   },
+   {
+    "id": 17,
+    "day": 3,
+    "type": "fact",
+    "text": "sam starts in september",
+    "src": [
+     29
+    ]
+   },
+   {
+    "id": 18,
+    "day": 3,
+    "type": "plan",
+    "text": "will draft a risk list for priya",
+    "src": [
+     31
+    ]
+   },
+   {
+    "id": 19,
+    "day": 4,
+    "type": "fact",
+    "text": "biscuit destroyed a shoe today",
+    "src": [
+     33
+    ]
+   },
+   {
+    "id": 20,
+    "day": 4,
+    "type": "done",
+    "text": "dan went for a 5k run",
+    "src": [
+     36
+    ]
+   },
+   {
+    "id": 21,
+    "day": 4,
+    "type": "fact",
+    "text": "code review on tom's branch looks clean",
+    "src": [
+     37
+    ]
+   },
+   {
+    "id": 22,
+    "day": 4,
+    "type": "feeling",
+    "text": "migration incident from last week still lingering, one customer's data out of sync",
+    "src": [
+     39
+    ]
+   },
+   {
+    "id": 23,
+    "day": 5,
+    "type": "fact",
+    "text": "patch for migration incident is being handled by lena with on-call doc update",
+    "src": [
+     41
+    ]
+   },
+   {
+    "id": 24,
+    "day": 5,
+    "type": "done",
+    "text": "stripe webhook test suite passed",
+    "src": [
+     42
+    ],
+    "closes": 3
+   },
+   {
+    "id": 25,
+    "day": 5,
+    "type": "feeling",
+    "text": "looking forward to ade's jollof rice tonight",
+    "src": [
+     44
+    ]
+   },
+   {
+    "id": 26,
+    "day": 5,
+    "type": "plan",
+    "text": "need to finish the timeline doc today Fri 07 Aug",
+    "src": [
+     46
+    ]
+   },
+   {
+    "id": 27,
+    "day": 5,
+    "type": "fact",
+    "text": "pagerduty key for next rotation is 9A7B2C",
+    "src": [
+     48
+    ]
+   },
+   {
+    "id": 28,
+    "day": 5,
+    "type": "done",
+    "text": "timeline doc sent to priya",
+    "src": [
+     50
+    ],
+    "closes": 8
+   },
+   {
+    "id": 29,
+    "day": 5,
+    "type": "done",
+    "text": "aicoo reminded daniel thursday afternoon to send priya the billing timeline doc by friday",
+    "src": [
+     9
+    ],
+    "closes": 9
+   },
+   {
+    "id": 30,
+    "day": 5,
+    "type": "done",
+    "text": "dan sent timeline doc to priya",
+    "src": [
+     50
+    ],
+    "closes": 26
+   },
+   {
+    "id": 31,
+    "day": 5,
+    "type": "feeling",
+    "text": "flaky test again — same one",
+    "src": [
+     52
+    ]
+   },
+   {
+    "id": 32,
+    "day": 5,
+    "type": "plan",
+    "text": "will file a ticket for the flaky test",
+    "src": [
+     52
+    ]
+   },
+   {
+    "id": 33,
+    "day": 5,
+    "type": "feeling",
+    "text": "quiet friday afternoon, might leave early",
+    "src": [
+     54
+    ]
+   },
+   {
+    "id": 34,
+    "day": 7,
+    "type": "fact",
+    "text": "priya's taking PTO aug 24-28",
+    "src": [
+     56
+    ]
+   },
+   {
+    "id": 35,
+    "day": 7,
+    "type": "plan",
+    "text": "dan will go for a long run in prospect park on sat 08 aug",
+    "src": [
+     58
+    ]
+   },
+   {
+    "id": 36,
+    "day": 7,
+    "type": "feeling",
+    "text": "lazy sunday morning, coffee and a book",
+    "src": [
+     62
+    ]
+   },
+   {
+    "id": 37,
+    "day": 8,
+    "type": "fact",
+    "text": "ade got biscuit a new bright orange leash",
+    "src": [
+     68
+    ]
+   },
+   {
+    "id": 38,
+    "day": 8,
+    "type": "fact",
+    "text": "coffee count: 3 today (Mon 10 Aug) as of 07:48",
+    "src": [
+     70
+    ]
+   },
+   {
+    "id": 39,
+    "day": 8,
+    "type": "feeling",
+    "text": "lazy sunday, maybe a short run later",
+    "src": [
+     64
+    ]
+   },
+   {
+    "id": 40,
+    "day": 8,
+    "type": "ask",
+    "text": "remind tom to sync with dan before merging frontend prs for stripe webhooks",
+    "src": [
+     72,
+     73,
+     74
+    ]
+   },
+   {
+    "id": 41,
+    "day": 8,
+    "type": "plan",
+    "text": "dan will fix the flaky billing test this afternoon Mon 10 Aug",
+    "src": [
+     77
+    ]
+   },
+   {
+    "id": 42,
+    "day": 8,
+    "type": "fact",
+    "text": "pagerduty rotation starts Tue 11 Aug",
+    "src": [
+     78
+    ]
+   },
+   {
+    "id": 43,
+    "day": 9,
+    "type": "fact",
+    "text": "coffee count: 2 today Tue 11 Aug",
+    "src": [
+     80
+    ]
+   },
+   {
+    "id": 44,
+    "day": 9,
+    "type": "feeling",
+    "text": "slept okay but biscuit woke me at 5",
+    "src": [
+     80
+    ]
+   },
+   {
+    "id": 45,
+    "day": 9,
+    "type": "fact",
+    "text": "stripe webhook handler is almost done, just need to test the idempotency key path",
+    "src": [
+     82
+    ]
+   },
+   {
+    "id": 46,
+    "day": 9,
+    "type": "fact",
+    "text": "pr up for billing split, lena is reviewing",
+    "src": [
+     84
+    ]
+   },
+   {
+    "id": 47,
+    "day": 9,
+    "type": "fact",
+    "text": "priya covering backend next week",
+    "src": [
+     85
+    ]
+   },
+   {
+    "id": 48,
+    "day": 9,
+    "type": "plan",
+    "text": "priya wants cutover timeline moved to sep 28",
+    "src": [
+     87
+    ],
+    "supersedes": 15
+   },
+   {
+    "id": 49,
+    "day": 10,
+    "type": "done",
+    "text": "flaky billing test fixed",
+    "src": [
+     89
+    ],
+    "closes": 41
+   },
+   {
+    "id": 50,
+    "day": 10,
+    "type": "fact",
+    "text": "one more flaky test in search, owned by lena",
+    "src": [
+     91
+    ]
+   },
+   {
+    "id": 51,
+    "day": 10,
+    "type": "feeling",
+    "text": "coffee count: 2 today Wed 12 Aug",
+    "src": [
+     92
+    ]
+   },
+   {
+    "id": 52,
+    "day": 10,
+    "type": "fact",
+    "text": "interview for data engineer candidate maria torres at 10",
+    "src": [
+     92,
+     94
+    ]
+   },
+   {
+    "id": 53,
+    "day": 10,
+    "type": "person",
+    "text": "maria torres is a data engineer candidate, solid sql",
+    "src": [
+     94
+    ]
+   },
+   {
+    "id": 54,
+    "day": 10,
+    "type": "plan",
+    "text": "dan will ping lena about the flaky search test",
+    "src": [
+     91
+    ]
+   },
+   {
+    "id": 55,
+    "day": 11,
+    "type": "feeling",
+    "text": "dan liked maria torres interview, priya liked her too",
+    "src": [
+     96
+    ]
+   },
+   {
+    "id": 56,
+    "day": 11,
+    "type": "fact",
+    "text": "on-call this week, one alert about disk space at 3am",
+    "src": [
+     97
+    ]
+   },
+   {
+    "id": 57,
+    "day": 11,
+    "type": "done",
+    "text": "log rotation automated fix in place",
+    "src": [
+     99
+    ]
+   },
+   {
+    "id": 58,
+    "day": 11,
+    "type": "done",
+    "text": "stripe webhook idempotency test passes, coverage back up",
+    "src": [
+     100
+    ],
+    "closes": 4
+   },
+   {
+    "id": 59,
+    "day": 11,
+    "type": "fact",
+    "text": "coffee count: 3 today Thu 13 Aug",
+    "src": [
+     102
+    ]
+   },
+   {
+    "id": 60,
+    "day": 11,
+    "type": "feeling",
+    "text": "tired from on-call, biscuit didn't help",
+    "src": [
+     102
+    ]
+   },
+   {
+    "id": 61,
+    "day": 11,
+    "type": "done",
+    "text": "lena fixed the flaky search test",
+    "src": [
+     104
+    ],
+    "closes": 50
+   },
+   {
+    "id": 62,
+    "day": 11,
+    "type": "feeling",
+    "text": "clean slate, feels good",
+    "src": [
+     105
+    ]
+   },
+   {
+    "id": 63,
+    "day": 11,
+    "type": "done",
+    "text": "priya approved sep 28 cutover, all aligned",
+    "src": [
+     106
+    ],
+    "closes": 48
+   },
+   {
+    "id": 64,
+    "day": 11,
+    "type": "plan",
+    "text": "dan will draft notes for migration incident post-mortem this afternoon",
+    "src": [
+     107
+    ]
+   },
+   {
+    "id": 65,
+    "day": 11,
+    "type": "ask",
+    "text": "pull incident timeline from pagerduty for post-mortem",
+    "src": [
+     108,
+     109
+    ]
+   },
+   {
+    "id": 66,
+    "day": 11,
+    "type": "fact",
+    "text": "post-mortem done, root cause: missing index on subscriptions table during migration",
+    "src": [
+     110
+    ]
+   },
+   {
+    "id": 67,
+    "day": 12,
+    "type": "plan",
+    "text": "dan and ade will do a 10mi long run sunday",
+    "src": [
+     112
+    ]
+   },
+   {
+    "id": 68,
+    "day": 12,
+    "type": "feeling",
+    "text": "coffee count: 2 today fri 14 aug",
+    "src": [
+     114
+    ]
+   },
+   {
+    "id": 69,
+    "day": 12,
+    "type": "fact",
+    "text": "maria torres took another offer, out of running",
+    "src": [
+     115
+    ]
+   },
+   {
+    "id": 70,
+    "day": 12,
+    "type": "feeling",
+    "text": "priya is gutted about maria leaving",
+    "src": [
+     117
+    ]
+   },
+   {
+    "id": 71,
+    "day": 12,
+    "type": "plan",
+    "text": "need to restart interviews for data engineer",
+    "src": [
+     117
+    ]
+   },
+   {
+    "id": 72,
+    "day": 12,
+    "type": "fact",
+    "text": "tom pushed a fix for webhook frontend, dan's tests pass",
+    "src": [
+     118
+    ]
+   },
+   {
+    "id": 73,
+    "day": 13,
+    "type": "done",
+    "text": "on-call handoff notes ready",
+    "src": [
+     120
+    ]
+   },
+   {
+    "id": 74,
+    "day": 13,
+    "type": "plan",
+    "text": "lena takes over on-call tomorrow",
+    "src": [
+     120
+    ]
+   },
+   {
+    "id": 75,
+    "day": 13,
+    "type": "pref",
+    "text": "pr descriptions always end with a Risk section",
+    "src": [
+     122
+    ]
+   },
+   {
+    "id": 76,
+    "day": 13,
+    "type": "feeling",
+    "text": "weekend, off the clock",
+    "src": [
+     124
+    ]
+   },
+   {
+    "id": 77,
+    "day": 13,
+    "type": "fact",
+    "text": "coffee count: 1 today Sat 15 Aug",
+    "src": [
+     126
+    ]
+   },
+   {
+    "id": 78,
+    "day": 13,
+    "type": "feeling",
+    "text": "lazy saturday, reading through lena's on-call draft",
+    "src": [
+     126
+    ]
+   },
+   {
+    "id": 79,
+    "day": 14,
+    "type": "plan",
+    "text": "dan will send comments on lena's on-call draft by wednesday",
+    "src": [
+     130
+    ]
+   },
+   {
+    "id": 80,
+    "day": 14,
+    "type": "fact",
+    "text": "coffee count: 2 today Sun 16 Aug",
+    "src": [
+     133
+    ]
+   },
+   {
+    "id": 81,
+    "day": 14,
+    "type": "done",
+    "text": "dan and ade did 10mi long run sunday",
+    "src": [
+     135
+    ],
+    "closes": 67
+   },
+   {
+    "id": 82,
+    "day": 15,
+    "type": "fact",
+    "text": "dan sketched interview rubric for data engineer, needs more sql focus",
+    "src": [
+     139
+    ]
+   },
+   {
+    "id": 83,
+    "day": 15,
+    "type": "plan",
+    "text": "aicoo will prep a draft interview rubric from previous postings",
+    "src": [
+     140
+    ]
+   },
+   {
+    "id": 84,
+    "day": 15,
+    "type": "pref",
+    "text": "pr descriptions always end with a Risk section",
+    "src": [
+     141
+    ],
+    "supersedes": 75
+   },
+   {
+    "id": 85,
+    "day": 15,
+    "type": "plan",
+    "text": "aicoo will add a reminder comment on prs about Risk section",
+    "src": [
+     142
+    ]
+   },
+   {
+    "id": 86,
+    "day": 16,
+    "type": "done",
+    "text": "dan and ade did a 10mi long run on sunday 16 aug",
+    "src": [
+     145,
+     148
+    ],
+    "supersedes": 81
+   },
+   {
+    "id": 87,
+    "day": 16,
+    "type": "fact",
+    "text": "billing pr is up, tom is reviewing",
+    "src": [
+     146
+    ]
+   },
+   {
+    "id": 88,
+    "day": 16,
+    "type": "fact",
+    "text": "weekend run: prospect park loop, 9.2 miles, felt good",
+    "src": [
+     148
+    ]
+   },
+   {
+    "id": 89,
+    "day": 16,
+    "type": "feeling",
+    "text": "back at it",
+    "src": [
+     150
+    ]
+   },
+   {
+    "id": 90,
+    "day": 16,
+    "type": "fact",
+    "text": "webhook test flaked again overnight",
+    "src": [
+     150
+    ]
+   },
+   {
+    "id": 91,
+    "day": 17,
+    "type": "done",
+    "text": "fixed flaky webhook test by bumping jest timeout",
+    "src": [
+     152,
+     153
+    ]
+   },
+   {
+    "id": 92,
+    "day": 17,
+    "type": "fact",
+    "text": "lunch",
+    "src": [
+     155
+    ]
+   },
+   {
+    "id": 93,
+    "day": 17,
+    "type": "plan",
+    "text": "will work on on-call handoff notes after lunch",
+    "src": [
+     155
+    ]
+   },
+   {
+    "id": 94,
+    "day": 17,
+    "type": "fact",
+    "text": "standup pushed to 10",
+    "src": [
+     157
+    ]
+   },
+   {
+    "id": 95,
+    "day": 17,
+    "type": "fact",
+    "text": "lena merged her search pr",
+    "src": [
+     158
+    ]
+   },
+   {
+    "id": 96,
+    "day": 17,
+    "type": "feeling",
+    "text": "on-call quiet, one disk space alert overnight",
+    "src": [
+     159
+    ]
+   },
+   {
+    "id": 97,
+    "day": 18,
+    "type": "fact",
+    "text": "cutover date moved to nov 5",
+    "src": [
+     161
+    ],
+    "supersedes": 48
+   },
+   {
+    "id": 98,
+    "day": 18,
+    "type": "plan",
+    "text": "dan will send tom the stripe webhook spec",
+    "src": [
+     167
+    ]
+   },
+   {
+    "id": 99,
+    "day": 18,
+    "type": "ask",
+    "text": "remind dan to send tom that stripe webhook spec",
+    "src": [
+     167
+    ]
+   },
+   {
+    "id": 100,
+    "day": 19,
+    "type": "ask",
+    "text": "remind dan to send tom that stripe webhook spec by friday",
+    "src": [
+     168,
+     169
+    ]
+   },
+   {
+    "id": 101,
+    "day": 19,
+    "type": "plan",
+    "text": "dan will send tom the stripe webhook spec by friday",
+    "src": [
+     169
+    ]
+   },
+   {
+    "id": 102,
+    "day": 19,
+    "type": "done",
+    "text": "dan added stripe webhook spec to shared doc",
+    "src": [
+     170
+    ],
+    "closes": 98
+   },
+   {
+    "id": 103,
+    "day": 19,
+    "type": "fact",
+    "text": "on-call handoff is today",
+    "src": [
+     172
+    ]
+   },
+   {
+    "id": 104,
+    "day": 19,
+    "type": "person",
+    "text": "jordan liu is a data engineer candidate, was at spotify, good take-home",
+    "src": [
+     174,
+     175
+    ]
+   },
+   {
+    "id": 105,
+    "day": 20,
+    "type": "done",
+    "text": "handoff notes done",
+    "src": [
+     176
+    ],
+    "closes": 93
+   },
+   {
+    "id": 106,
+    "day": 20,
+    "type": "fact",
+    "text": "sam's start date confirmed: sep 14",
+    "src": [
+     178
+    ]
+   },
+   {
+    "id": 107,
+    "day": 20,
+    "type": "fact",
+    "text": "dan will onboard sam with priya",
+    "src": [
+     179,
+     180
+    ]
+   },
+   {
+    "id": 108,
+    "day": 20,
+    "type": "plan",
+    "text": "dan needs to prep docs for onboarding sam",
+    "src": [
+     180
+    ]
+   },
+   {
+    "id": 109,
+    "day": 20,
+    "type": "done",
+    "text": "dan sent webhook spec to tom early",
+    "src": [
+     181
+    ],
+    "closes": 100
+   },
+   {
+    "id": 110,
+    "day": 22,
+    "type": "fact",
+    "text": "jordan liu feedback mixed, moving on",
+    "src": [
+     186
+    ]
+   },
+   {
+    "id": 111,
+    "day": 22,
+    "type": "plan",
+    "text": "dan will do 10 miles in prospect park this weekend",
+    "src": [
+     188
+    ]
+   },
+   {
+    "id": 112,
+    "day": 22,
+    "type": "ask",
+    "text": "call me 'dan the builder'",
+    "src": [
+     190,
+     191
+    ]
+   },
+   {
+    "id": 113,
+    "day": 23,
+    "type": "fact",
+    "text": "stripe webhook tests finally passing, 3 more left",
+    "src": [
+     192
+    ]
+   },
+   {
+    "id": 114,
+    "day": 23,
+    "type": "fact",
+    "text": "priya out all week, tom handling billing standup",
+    "src": [
+     194
+    ]
+   },
+   {
+    "id": 115,
+    "day": 23,
+    "type": "fact",
+    "text": "tom is point of contact for billing until friday",
+    "src": [
+     194
+    ]
+   },
+   {
+    "id": 116,
+    "day": 23,
+    "type": "feeling",
+    "text": "needs a bigger monitor, squinting at webhook payload all day",
+    "src": [
+     196
+    ]
+   },
+   {
+    "id": 117,
+    "day": 23,
+    "type": "fact",
+    "text": "tom merged the webhook spec, one review comment about error codes",
+    "src": [
+     198
+    ]
+   },
+   {
+    "id": 118,
+    "day": 24,
+    "type": "fact",
+    "text": "lunch run: 4 miles, hot as hell",
+    "src": [
+     200
+    ]
+   },
+   {
+    "id": 119,
+    "day": 24,
+    "type": "fact",
+    "text": "pagerduty rotation for sep: dan is week 2",
+    "src": [
+     202,
+     203
+    ]
+   },
+   {
+    "id": 120,
+    "day": 24,
+    "type": "plan",
+    "text": "dan on-call sep 7-13",
+    "src": [
+     202,
+     203
+    ]
+   },
+   {
+    "id": 121,
+    "day": 24,
+    "type": "fact",
+    "text": "billing pr with error codes fix is up, lena reviewing, pr #142",
+    "src": [
+     204,
+     205
+    ]
+   },
+   {
+    "id": 122,
+    "day": 24,
+    "type": "fact",
+    "text": "test_billing_cycle flaky in ci again",
+    "src": [
+     206
+    ]
+   },
+   {
+    "id": 123,
+    "day": 25,
+    "type": "fact",
+    "text": "sam ortiz starts sep 14",
+    "src": [
+     208
+    ]
+   },
+   {
+    "id": 124,
+    "day": 25,
+    "type": "feeling",
+    "text": "tom wants to move the billing endpoint to graphql, dan said maybe v2",
+    "src": [
+     210
+    ]
+   },
+   {
+    "id": 125,
+    "day": 25,
+    "type": "done",
+    "text": "stripe signature verification test is passing",
+    "src": [
+     212
+    ],
+    "closes": 113
+   },
+   {
+    "id": 126,
+    "day": 25,
+    "type": "plan",
+    "text": "ade found a bakery in asheville, wants to go oct 22-25",
+    "src": [
+     214
+    ]
+   },
+   {
+    "id": 127,
+    "day": 26,
+    "type": "fact",
+    "text": "migration incident on tuesday: dropped a column instead of renaming, rolled back, no data loss",
+    "src": [
+     218
+    ]
+   },
+   {
+    "id": 128,
+    "day": 26,
+    "type": "fact",
+    "text": "lena caught migration incident before prod sync",
+    "src": [
+     220
+    ]
+   },
+   {
+    "id": 129,
+    "day": 26,
+    "type": "plan",
+    "text": "dan will write the post-mortem report this afternoon",
+    "src": [
+     221
+    ]
+   },
+   {
+    "id": 130,
+    "day": 26,
+    "type": "done",
+    "text": "post-mortem done, root cause: wrong migration file ran",
+    "src": [
+     223
+    ],
+    "closes": 221
+   },
+   {
+    "id": 131,
+    "day": 26,
+    "type": "fact",
+    "text": "biscuit chewed dan's running shoes again",
+    "src": [
+     216
+    ]
+   },
+   {
+    "id": 132,
+    "day": 27,
+    "type": "done",
+    "text": "billing pr is merged, webhooks in staging",
+    "src": [
+     229
+    ]
+   },
+   {
+    "id": 133,
+    "day": 27,
+    "type": "promise",
+    "text": "daniel promised ade to book asheville flights tonight; aicoo will remind at 6",
+    "src": [
+     231
+    ]
+   },
+   {
+    "id": 134,
+    "day": 27,
+    "type": "done",
+    "text": "post-mortem done, root cause: wrong migration file ran",
+    "src": [
+     130
+    ],
+    "closes": 130
+   },
+   {
+    "id": 135,
+    "day": 27,
+    "type": "fact",
+    "text": "db migration dry-run step ticket filed, priya will see it monday",
+    "src": [
+     227
+    ]
+   },
+   {
+    "id": 136,
+    "day": 28,
+    "type": "done",
+    "text": "dan went for a lunch run, 5k, biscuit joined for first mile",
+    "src": [
+     233
+    ]
+   },
+   {
+    "id": 137,
+    "day": 28,
+    "type": "done",
+    "text": "flights booked: delta, oct 22 morning, asheville",
+    "src": [
+     235
+    ],
+    "closes": 133
+   },
+   {
+    "id": 138,
+    "day": 28,
+    "type": "fact",
+    "text": "dropped column was `billing_status`, 3h of panic",
+    "src": [
+     237
+    ]
+   },
+   {
+    "id": 139,
+    "day": 28,
+    "type": "fact",
+    "text": "tom working on graphql billing schema, dan will review next week",
+    "src": [
+     239
+    ]
+   },
+   {
+    "id": 140,
+    "day": 29,
+    "type": "fact",
+    "text": "lena's pto is oct 5-9 for a wedding",
+    "src": [
+     243
+    ]
+   },
+   {
+    "id": 141,
+    "day": 29,
+    "type": "ask",
+    "text": "need to adjust on-call for that week while she's out",
+    "src": [
+     244
+    ]
+   },
+   {
+    "id": 142,
+    "day": 29,
+    "type": "fact",
+    "text": "pr for webhook idempotency keys is up, tom is reviewing",
+    "src": [
+     246
+    ]
+   },
+   {
+    "id": 143,
+    "day": 29,
+    "type": "fact",
+    "text": "biscuit chewed a corner of the rug today",
+    "src": [
+     247
+    ]
+   },
+   {
+    "id": 144,
+    "day": 30,
+    "type": "feeling",
+    "text": "dan's rug got chewed by biscuit, aicoo sympathized",
+    "src": [
+     248
+    ]
+   },
+   {
+    "id": 145,
+    "day": 30,
+    "type": "fact",
+    "text": "sam ortiz start date still sep 14, confirmed",
+    "src": [
+     249,
+     250
+    ]
+   },
+   {
+    "id": 146,
+    "day": 30,
+    "type": "fact",
+    "text": "lena picked up the ci dry-run ticket for migration checks",
+    "src": [
+     251
+    ]
+   },
+   {
+    "id": 147,
+    "day": 30,
+    "type": "done",
+    "text": "stripe webhook spec final review done, merging this afternoon",
+    "src": [
+     252
+    ]
+   },
+   {
+    "id": 148,
+    "day": 30,
+    "type": "feeling",
+    "text": "ade's birthday dinner at bamonte's, old school italian, good pasta, biscuit got a tiny bit of cannoli",
+    "src": [
+     253,
+     254,
+     255
+    ]
+   },
+   {
+    "id": 149,
+    "day": 32,
+    "type": "fact",
+    "text": "q3 budget meeting: marketing got $50k, we got $12k for tools",
+    "src": [
+     257
+    ]
+   },
+   {
+    "id": 150,
+    "day": 32,
+    "type": "feeling",
+    "text": "dan dreading the q3 budget numbers",
+    "src": [
+     256
+    ]
+   },
+   {
+    "id": 151,
+    "day": 32,
+    "type": "fact",
+    "text": "tom found a bug in the webhook retry logic, fixing it now",
+    "src": [
+     260
+    ]
+   },
+   {
+    "id": 152,
+    "day": 32,
+    "type": "fact",
+    "text": "test_billing_webhook flaky in ci, fails 20% of the time, likely race condition on mock stripe response",
+    "src": [
+     261
+    ]
+   },
+   {
+    "id": 153,
+    "day": 32,
+    "type": "plan",
+    "text": "dan will dig into test_billing_webhook flaky test after lunch",
+    "src": [
+     263
+    ]
+   },
+   {
+    "id": 154,
+    "day": 33,
+    "type": "done",
+    "text": "root cause found: shared state between test cases. fixing with a fresh mock per test",
+    "src": [
+     264
+    ],
+    "closes": 153
+   },
+   {
+    "id": 155,
+    "day": 33,
+    "type": "done",
+    "text": "sam emailed saying he's excited to start. sent him the onboarding doc",
+    "src": [
+     265
+    ]
+   },
+   {
+    "id": 156,
+    "day": 33,
+    "type": "fact",
+    "text": "standup in 30. what do i have? let me think",
+    "src": [
+     266
+    ]
+   },
+   {
+    "id": 157,
+    "day": 33,
+    "type": "pref",
+    "text": "standup notes: bullet points with timestamps",
+    "src": [
+     267
+    ]
+   },
+   {
+    "id": 158,
+    "day": 33,
+    "type": "fact",
+    "text": "priya sync went well. she's happy with webhook progress",
+    "src": [
+     270
+    ]
+   },
+   {
+    "id": 159,
+    "day": 33,
+    "type": "done",
+    "text": "biscuit ran 4 miles with me. he's out cold now",
+    "src": [
+     271
+    ]
+   },
+   {
+    "id": 160,
+    "day": 35,
+    "type": "fact",
+    "text": "dep updates breaking billing module, pinning versions for now",
+    "src": [
+     273
+    ]
+   },
+   {
+    "id": 161,
+    "day": 35,
+    "type": "fact",
+    "text": "cutover date moved to nov 15",
+    "src": [
+     274
+    ]
+   },
+   {
+    "id": 162,
+    "day": 35,
+    "type": "feeling",
+    "text": "priya frustrated but ok with nov 15 cutover",
+    "src": [
+     274
+    ]
+   },
+   {
+    "id": 163,
+    "day": 35,
+    "type": "feeling",
+    "text": "dan thinks better to slip now than in prod",
+    "src": [
+     276
+    ]
+   },
+   {
+    "id": 164,
+    "day": 35,
+    "type": "ask",
+    "text": "no stickers please",
+    "src": [
+     277
+    ]
+   },
+   {
+    "id": 165,
+    "day": 35,
+    "type": "plan",
+    "text": "dan thinking 12 miles run next saturday",
+    "src": [
+     279
+    ]
+   },
+   {
+    "id": 166,
+    "day": 36,
+    "type": "done",
+    "text": "pruned some old branches in the repo",
+    "src": [
+     281
+    ]
+   },
+   {
+    "id": 167,
+    "day": 36,
+    "type": "fact",
+    "text": "david chen is a candidate, contractor at doordash, knows dbt",
+    "src": [
+     283
+    ]
+   },
+   {
+    "id": 168,
+    "day": 36,
+    "type": "fact",
+    "text": "priya wants to move fast on david chen",
+    "src": [
+     285
+    ]
+   },
+   {
+    "id": 169,
+    "day": 36,
+    "type": "fact",
+    "text": "stripe webhook tests are green again after that fix",
+    "src": [
+     287
+    ]
+   },
+   {
+    "id": 170,
+    "day": 38,
+    "type": "fact",
+    "text": "sam's first day: he's setting up his laptop. IT desk is 4th floor",
+    "src": [
+     289
+    ]
+   },
+   {
+    "id": 171,
+    "day": 38,
+    "type": "fact",
+    "text": "dan had lunch with sam and priya",
+    "src": [
+     291
+    ]
+   },
+   {
+    "id": 172,
+    "day": 38,
+    "type": "feeling",
+    "text": "billing migration timeline still nov 15, no pushback from anyone",
+    "src": [
+     293
+    ]
+   },
+   {
+    "id": 173,
+    "day": 38,
+    "type": "plan",
+    "text": "david chen interview today at 2",
+    "src": [
+     295
+    ]
+   },
+   {
+    "id": 174,
+    "day": 39,
+    "type": "feeling",
+    "text": "david interview went well",
+    "src": [
+     297
+    ]
+   },
+   {
+    "id": 175,
+    "day": 39,
+    "type": "person",
+    "text": "david chen accepted the offer",
+    "src": [
+     298
+    ]
+   },
+   {
+    "id": 176,
+    "day": 39,
+    "type": "fact",
+    "text": "sam ortiz onboarding starts with david chen",
+    "src": [
+     298
+    ]
+   },
+   {
+    "id": 177,
+    "day": 39,
+    "type": "feeling",
+    "text": "dan felt good running 7 miles this morning",
+    "src": [
+     300
+    ]
+   },
+   {
+    "id": 178,
+    "day": 39,
+    "type": "fact",
+    "text": "biscuit ate a sock and went to emergency vet",
+    "src": [
+     302
+    ]
+   },
+   {
+    "id": 179,
+    "day": 40,
+    "type": "fact",
+    "text": "biscuit ate a sock and went to emergency vet, now he's fine after induced vomiting",
+    "src": [
+     304
+    ]
+   },
+   {
+    "id": 180,
+    "day": 40,
+    "type": "fact",
+    "text": "stripe webhook retry logic PR is up for review",
+    "src": [
+     306
+    ]
+   },
+   {
+    "id": 181,
+    "day": 40,
+    "type": "plan",
+    "text": "labor day weekend, no meetings today",
+    "src": [
+     308
+    ]
+   },
+   {
+    "id": 182,
+    "day": 40,
+    "type": "fact",
+    "text": "sam starts day after labor day",
+    "src": [
+     310
+    ]
+   },
+   {
+    "id": 183,
+    "day": 41,
+    "type": "person",
+    "text": "dan and ade are heading to prospect park this afternoon",
+    "src": [
+     313
+    ]
+   },
+   {
+    "id": 184,
+    "day": 41,
+    "type": "ask",
+    "text": "never use exclamation marks with me",
+    "src": [
+     315
+    ],
+    "supersedes": 112
+   },
+   {
+    "id": 185,
+    "day": 41,
+    "type": "fact",
+    "text": "on-call rotation starts today Sep 12",
+    "src": [
+     317
+    ]
+   },
+   {
+    "id": 186,
+    "day": 41,
+    "type": "fact",
+    "text": "pagerduty key for current rotation is the same as last rotation",
+    "src": [
+     318
+    ]
+   },
+   {
+    "id": 187,
+    "day": 41,
+    "type": "fact",
+    "text": "sam's first full day is tomorrow Sep 13",
+    "src": [
+     319
+    ]
+   },
+   {
+    "id": 188,
+    "day": 41,
+    "type": "fact",
+    "text": "onboarding plan for sam looks solid",
+    "src": [
+     319
+    ]
+   },
+   {
+    "id": 189,
+    "day": 42,
+    "type": "fact",
+    "text": "david starts next week too",
+    "src": [
+     320
+    ]
+   },
+   {
+    "id": 190,
+    "day": 42,
+    "type": "fact",
+    "text": "pagerduty key changed per lena: new key is 3F8D1A",
+    "src": [
+     321
+    ],
+    "supersedes": 27
+   },
+   {
+    "id": 191,
+    "day": 42,
+    "type": "fact",
+    "text": "sam is in, got him set up with local dev environment",
+    "src": [
+     323
+    ]
+   },
+   {
+    "id": 192,
+    "day": 42,
+    "type": "fact",
+    "text": "sam asking good questions about billing service",
+    "src": [
+     325
+    ]
+   },
+   {
+    "id": 193,
+    "day": 42,
+    "type": "done",
+    "text": "stripe webhook PR merged",
+    "src": [
+     327
+    ]
+   },
+   {
+    "id": 194,
+    "day": 43,
+    "type": "fact",
+    "text": "Tom's dog is named Waffles",
+    "src": [
+     331
+    ]
+   },
+   {
+    "id": 195,
+    "day": 43,
+    "type": "fact",
+    "text": "Sam's first day went fine, set up his dev env this morning",
+    "src": [
+     333
+    ]
+   },
+   {
+    "id": 196,
+    "day": 43,
+    "type": "fact",
+    "text": "Billing migration ticket still blocked by that index question, Priya's looking at it",
+    "src": [
+     335
+    ]
+   },
+   {
+    "id": 197,
+    "day": 44,
+    "type": "feeling",
+    "text": "coffee count: 2 so far Tue 15 Sep",
+    "src": [
+     341
+    ]
+   },
+   {
+    "id": 198,
+    "day": 44,
+    "type": "fact",
+    "text": "Sam asked about on-call docs, told him Lena will cover it in a few weeks",
+    "src": [
+     337
+    ]
+   },
+   {
+    "id": 199,
+    "day": 44,
+    "type": "feeling",
+    "text": "looking forward to Ade's jollof tonight",
+    "src": [
+     339
+    ],
+    "supersedes": 25
+   },
+   {
+    "id": 200,
+    "day": 44,
+    "type": "feeling",
+    "text": "Sam has good instincts, shadowed Dan on a bug fix",
+    "src": [
+     343
+    ]
+   },
+   {
+    "id": 201,
+    "day": 45,
+    "type": "done",
+    "text": "run: hit 10.1 miles, new personal best",
+    "src": [
+     345
+    ]
+   },
+   {
+    "id": 202,
+    "day": 45,
+    "type": "feeling",
+    "text": "legs are shot, worth it though",
+    "src": [
+     347
+    ]
+   },
+   {
+    "id": 203,
+    "day": 45,
+    "type": "plan",
+    "text": "Tom might bring Waffles on Thursday, Dan will bring Biscuit too",
+    "src": [
+     349
+    ]
+   },
+   {
+    "id": 204,
+    "day": 45,
+    "type": "fact",
+    "text": "incident occurred Tuesday Sep 15 just after Sam's start",
+    "src": [
+     351
+    ]
+   },
+   {
+    "id": 205,
+    "day": 45,
+    "type": "fact",
+    "text": "billing_status drop incident occurred on Tuesday Sep 15 just after Sam's start, post-mortem done and CI dry-run ticket created",
+    "src": [
+     352
+    ]
+   },
+   {
+    "id": 206,
+    "day": 45,
+    "type": "fact",
+    "text": "Sam asked about the incident and Dan showed him the rollback script",
+    "src": [
+     353
+    ]
+   },
+   {
+    "id": 207,
+    "day": 45,
+    "type": "feeling",
+    "text": "Dan feels Sam will be more cautious about migrations now",
+    "src": [
+     354
+    ]
+   },
+   {
+    "id": 208,
+    "day": 45,
+    "type": "fact",
+    "text": "Priya unblocked the index question, they are renaming instead of adding",
+    "src": [
+     357
+    ]
+   },
+   {
+    "id": 209,
+    "day": 45,
+    "type": "fact",
+    "text": "stripe webhook PR got a couple review comments from Tom, minor stuff",
+    "src": [
+     359
+    ]
+   },
+   {
+    "id": 210,
+    "day": 46,
+    "type": "fact",
+    "text": "coffee count: 1 today Thu 17 Sep",
+    "src": [
+     363
+    ],
+    "supersedes": 59
+   },
+   {
+    "id": 211,
+    "day": 46,
+    "type": "plan",
+    "text": "sprint planning: committed to 21 points, 3 more than usual",
+    "src": [
+     365
+    ]
+   },
+   {
+    "id": 212,
+    "day": 46,
+    "type": "fact",
+    "text": "Sam took 2 points, small ticket on logging config",
+    "src": [
+     367
+    ]
+   },
+   {
+    "id": 213,
+    "day": 46,
+    "type": "plan",
+    "text": "biscuit and waffles are meeting at office today (Thu 17 Sep)",
+    "src": [
+     369,
+     371
+    ]
+   },
+   {
+    "id": 214,
+    "day": 46,
+    "type": "feeling",
+    "text": "biscuit is tired, leaving early",
+    "src": [
+     375
+    ]
+   },
+   {
+    "id": 215,
+    "day": 46,
+    "type": "fact",
+    "text": "priya mentioned cutover date might shift again, waiting on legal",
+    "src": [
+     373
+    ]
+   },
+   {
+    "id": 216,
+    "day": 47,
+    "type": "feeling",
+    "text": "coffee count: 0, trying something different",
+    "src": [
+     377
+    ]
+   },
+   {
+    "id": 217,
+    "day": 47,
+    "type": "fact",
+    "text": "billing cutover final date: oct 12 again",
+    "src": [
+     379
+    ],
+    "supersedes": 97
+   },
+   {
+    "id": 218,
+    "day": 47,
+    "type": "fact",
+    "text": "legal signed off on billing cutover",
+    "src": [
+     381
+    ]
+   },
+   {
+    "id": 219,
+    "day": 47,
+    "type": "feeling",
+    "text": "priya seems relieved about cutover",
+    "src": [
+     381
+    ]
+   },
+   {
+    "id": 220,
+    "day": 47,
+    "type": "feeling",
+    "text": "sam had good questions about the webhook queue, i like his curiosity",
+    "src": [
+     383
+    ]
+   },
+   {
+    "id": 221,
+    "day": 48,
+    "type": "done",
+    "text": "stripe webhook pr merged",
+    "src": [
+     385
+    ],
+    "closes": 99
+   },
+   {
+    "id": 222,
+    "day": 48,
+    "type": "feeling",
+    "text": "coffee count: 2 today Fri 18 Sep",
+    "src": [
+     387
+    ]
+   },
+   {
+    "id": 223,
+    "day": 48,
+    "type": "feeling",
+    "text": "looking forward to Ade's suya tonight",
+    "src": [
+     389
+    ]
+   },
+   {
+    "id": 224,
+    "day": 48,
+    "type": "fact",
+    "text": "coffee count: 2 today Sat 19 Sep",
+    "src": [
+     391
+    ]
+   },
+   {
+    "id": 225,
+    "day": 48,
+    "type": "ask",
+    "text": "remind me tomorrow to fix on-call docs for sam",
+    "src": [
+     393
+    ]
+   },
+   {
+    "id": 226,
+    "day": 48,
+    "type": "fact",
+    "text": "retry logic for flaky test passed local but ci is slow",
+    "src": [
+     399
+    ]
+   },
+   {
+    "id": 227,
+    "day": 49,
+    "type": "fact",
+    "text": "coffee count: 2 today Sun 20 Sep",
+    "src": [
+     403
+    ]
+   },
+   {
+    "id": 228,
+    "day": 49,
+    "type": "feeling",
+    "text": "flaky test fix attempt failed, still 20% failure rate",
+    "src": [
+     404
+    ]
+   },
+   {
+    "id": 229,
+    "day": 49,
+    "type": "done",
+    "text": "flaky test fix attempt failed",
+    "src": [
+     404
+    ],
+    "closes": 153
+   },
+   {
+    "id": 230,
+    "day": 49,
+    "type": "done",
+    "text": "on-call docs updated for sam, sent him the link",
+    "src": [
+     408
+    ]
+   },
+   {
+    "id": 231,
+    "day": 49,
+    "type": "fact",
+    "text": "priya asked for status on migration timeline, oct 12 holds",
+    "src": [
+     410
+    ]
+   },
+   {
+    "id": 232,
+    "day": 49,
+    "type": "feeling",
+    "text": "lazy friday energy, not much code written after lunch",
+    "src": [
+     412
+    ]
+   },
+   {
+    "id": 233,
+    "day": 49,
+    "type": "plan",
+    "text": "ade wants to do a long run tomorrow, maybe 12 miles",
+    "src": [
+     414
+    ]
+   },
+   {
+    "id": 234,
+    "day": 51,
+    "type": "done",
+    "text": "docs updated for sam",
+    "src": [
+     418
+    ],
+    "closes": 225
+   },
+   {
+    "id": 235,
+    "day": 51,
+    "type": "feeling",
+    "text": "stripe webhook tests still green, good sign",
+    "src": [
+     420
+    ]
+   },
+   {
+    "id": 236,
+    "day": 51,
+    "type": "plan",
+    "text": "need to re-look at billing migration plan tomorrow Tue 22 Sep",
+    "src": [
+     422
+    ]
+   },
+   {
+    "id": 237,
+    "day": 52,
+    "type": "fact",
+    "text": "flaky test retry fix still failing",
+    "src": [
+     425
+    ]
+   },
+   {
+    "id": 238,
+    "day": 52,
+    "type": "plan",
+    "text": "priya wants a dry run of the migration this friday (Fri 25 Sep)",
+    "src": [
+     427
+    ]
+   },
+   {
+    "id": 239,
+    "day": 52,
+    "type": "fact",
+    "text": "david chen sat next to tom at the office",
+    "src": [
+     428
+    ]
+   },
+   {
+    "id": 240,
+    "day": 52,
+    "type": "pref",
+    "text": "when i ask for meeting notes, start with Action Items at the top",
+    "src": [
+     429
+    ]
+   },
+   {
+    "id": 241,
+    "day": 52,
+    "type": "fact",
+    "text": "dry run prep needs index order check",
+    "src": [
+     431
+    ]
+   },
+   {
+    "id": 242,
+    "day": 54,
+    "type": "fact",
+    "text": "pagerduty key changed per lena: new key is 7C2E9B",
+    "src": [
+     434
+    ],
+    "supersedes": 190
+   },
+   {
+    "id": 243,
+    "day": 55,
+    "type": "ask",
+    "text": "hourly coffee cutoff: i'm trying to stay under 3 cups/day",
+    "src": [
+     440
+    ]
+   },
+   {
+    "id": 244,
+    "day": 55,
+    "type": "feeling",
+    "text": "dry run started. so far so good",
+    "src": [
+     442
+    ]
+   },
+   {
+    "id": 245,
+    "day": 55,
+    "type": "done",
+    "text": "dry run passed. clean migration",
+    "src": [
+     443
+    ],
+    "closes": 135
+   },
+   {
+    "id": 246,
+    "day": 55,
+    "type": "fact",
+    "text": "sam asked about deploy process. sent him the wiki",
+    "src": [
+     445
+    ]
+   },
+   {
+    "id": 247,
+    "day": 56,
+    "type": "fact",
+    "text": "ade's planning a trip to asheville for them in october",
+    "src": [
+     450
+    ]
+   },
+   {
+    "id": 248,
+    "day": 56,
+    "type": "plan",
+    "text": "dan and ade trip to asheville in october",
+    "src": [
+     450
+    ]
+   },
+   {
+    "id": 249,
+    "day": 56,
+    "type": "feeling",
+    "text": "lazy saturday",
+    "src": [
+     453
+    ]
+   },
+   {
+    "id": 250,
+    "day": 56,
+    "type": "fact",
+    "text": "biscuit chewed a shoe",
+    "src": [
+     455
+    ]
+   },
+   {
+    "id": 251,
+    "day": 57,
+    "type": "fact",
+    "text": "ade's running a marathon in philadelphia on nov 5",
+    "src": [
+     457
+    ]
+   },
+   {
+    "id": 252,
+    "day": 57,
+    "type": "fact",
+    "text": "monday coffee count: 3",
+    "src": [
+     459
+    ]
+   },
+   {
+    "id": 253,
+    "day": 57,
+    "type": "feeling",
+    "text": "good monday energy",
+    "src": [
+     460
+    ]
+   },
+   {
+    "id": 254,
+    "day": 57,
+    "type": "fact",
+    "text": "candidates interviewed: 3; maria, jordan, david; david joined",
+    "src": [
+     461
+    ]
+   },
+   {
+    "id": 255,
+    "day": 57,
+    "type": "plan",
+    "text": "billing migration dry run tomorrow, priya wants a walkthrough",
+    "src": [
+     463
+    ]
+   },
+   {
+    "id": 256,
+    "day": 58,
+    "type": "fact",
+    "text": "flaky test fix still failing after exponential backoff on webhook",
+    "src": [
+     465
+    ]
+   },
+   {
+    "id": 257,
+    "day": 58,
+    "type": "fact",
+    "text": "biscuit chewed a shoe, ade not amused",
+    "src": [
+     467
+    ]
+   },
+   {
+    "id": 258,
+    "day": 58,
+    "type": "feeling",
+    "text": "done for the day, going for a run",
+    "src": [
+     469
+    ]
+   },
+   {
+    "id": 259,
+    "day": 58,
+    "type": "fact",
+    "text": "coffee count: 2 Tue 29 Sep",
+    "src": [
+     471
+    ]
+   },
+   {
+    "id": 260,
+    "day": 58,
+    "type": "ask",
+    "text": "hourly coffee cutoff: trying to stay under 3 cups/day",
+    "src": [
+     471
+    ],
+    "supersedes": 243
+   },
+   {
+    "id": 261,
+    "day": 58,
+    "type": "fact",
+    "text": "dry run walkthrough with priya went well. no blockers",
+    "src": [
+     473
+    ]
+   },
+   {
+    "id": 262,
+    "day": 58,
+    "type": "fact",
+    "text": "new hire: design intern jade starts oct 1",
+    "src": [
+     475
+    ]
+   },
+   {
+    "id": 263,
+    "day": 58,
+    "type": "fact",
+    "text": "flaky test still at 20%. trying a different approach",
+    "src": [
+     477
+    ]
+   },
+   {
+    "id": 264,
+    "day": 58,
+    "type": "fact",
+    "text": "sam asked about the on-call docs again, sent him the link",
+    "src": [
+     479
+    ]
+   },
+   {
+    "id": 265,
+    "day": 59,
+    "type": "fact",
+    "text": "coffee count: 1 Wed 30 Sep",
+    "src": [
+     483
+    ]
+   },
+   {
+    "id": 266,
+    "day": 59,
+    "type": "done",
+    "text": "billing migration dry run passed. all green",
+    "src": [
+     485
+    ]
+   },
+   {
+    "id": 267,
+    "day": 59,
+    "type": "feeling",
+    "text": "priya wants to move cutover to oct 26, says nov 15 is too far",
+    "src": [
+     487
+    ],
+    "supersedes": 161
+   },
+   {
+    "id": 268,
+    "day": 60,
+    "type": "feeling",
+    "text": "priya wants to move cutover to oct 26, says nov 15 is too far; dan agrees oct 26 is doable",
+    "src": [
+     488
+    ]
+   },
+   {
+    "id": 269,
+    "day": 60,
+    "type": "fact",
+    "text": "flaky test fix still failing, might need to mock the webhook endpoint",
+    "src": [
+     489
+    ]
+   },
+   {
+    "id": 270,
+    "day": 60,
+    "type": "fact",
+    "text": "on-call rotation next week: dan is primary, tom secondary",
+    "src": [
+     491
+    ]
+   },
+   {
+    "id": 271,
+    "day": 60,
+    "type": "feeling",
+    "text": "done for the day, going for a run",
+    "src": [
+     493
+    ]
+   },
+   {
+    "id": 272,
+    "day": 60,
+    "type": "plan",
+    "text": "long run tomorrow morning",
+    "src": [
+     493
+    ]
+   },
+   {
+    "id": 273,
+    "day": 60,
+    "type": "feeling",
+    "text": "saturday: 8 miles with biscuit, legs feel good",
+    "src": [
+     495
+    ]
+   },
+   {
+    "id": 274,
+    "day": 60,
+    "type": "done",
+    "text": "long run completed saturday",
+    "src": [
+     495
+    ],
+    "closes": 165
+   },
+   {
+    "id": 275,
+    "day": 61,
+    "type": "fact",
+    "text": "stripe webhooks moved to own service. tom did it in a weekend",
+    "src": [
+     503
+    ]
+   },
+   {
+    "id": 276,
+    "day": 61,
+    "type": "fact",
+    "text": "stripe webhooks moved to own service, done by Tom over a weekend",
+    "src": [
+     504
+    ]
+   },
+   {
+    "id": 277,
+    "day": 61,
+    "type": "ask",
+    "text": "review the stripe service code Tom PR'd",
+    "src": [
+     505,
+     506
+    ]
+   },
+   {
+    "id": 278,
+    "day": 61,
+    "type": "fact",
+    "text": "coffee count: 3 Fri 02 Oct",
+    "src": [
+     507
+    ]
+   },
+   {
+    "id": 279,
+    "day": 61,
+    "type": "done",
+    "text": "flaky test fix finally passed, mocked the webhook endpoint",
+    "src": [
+     509,
+     510
+    ],
+    "closes": 269
+   },
+   {
+    "id": 280,
+    "day": 61,
+    "type": "fact",
+    "text": "priya confirmed oct 26 cutover",
+    "src": [
+     511
+    ]
+   },
+   {
+    "id": 281,
+    "day": 61,
+    "type": "plan",
+    "text": "billing migration cutover oct 26",
+    "src": [
+     511
+    ],
+    "supersedes": 267
+   },
+   {
+    "id": 282,
+    "day": 62,
+    "type": "done",
+    "text": "billing migration cutover date oct 26 locked, timeline updated",
+    "src": [
+     512
+    ],
+    "closes": 281
+   },
+   {
+    "id": 283,
+    "day": 62,
+    "type": "fact",
+    "text": "sunday reset",
+    "src": [
+     513
+    ]
+   },
+   {
+    "id": 284,
+    "day": 62,
+    "type": "fact",
+    "text": "coffee count: 2 Sat 03 Oct",
+    "src": [
+     515
+    ]
+   },
+   {
+    "id": 285,
+    "day": 62,
+    "type": "fact",
+    "text": "laptop battery health at 85%",
+    "src": [
+     517
+    ]
+   },
+   {
+    "id": 286,
+    "day": 62,
+    "type": "pref",
+    "text": "replace laptop battery if health drops below 80%",
+    "src": [
+     518
+    ]
+   },
+   {
+    "id": 287,
+    "day": 62,
+    "type": "done",
+    "text": "tom's stripe service reviewed and merged",
+    "src": [
+     519
+    ],
+    "closes": 277
+   },
+   {
+    "id": 288,
+    "day": 62,
+    "type": "fact",
+    "text": "stripe service is live",
+    "src": [
+     520
+    ]
+   },
+   {
+    "id": 289,
+    "day": 62,
+    "type": "fact",
+    "text": "on-call rotation starts tomorrow Sep 4",
+    "src": [
+     521
+    ]
+   },
+   {
+    "id": 290,
+    "day": 62,
+    "type": "fact",
+    "text": "billing migration index migration script written",
+    "src": [
+     523
+    ]
+   },
+   {
+    "id": 291,
+    "day": 62,
+    "type": "fact",
+    "text": "ade signed up for philadelphia marathon nov 5, dan is pacing her",
+    "src": [
+     525,
+     526
+    ]
+   },
+   {
+    "id": 292,
+    "day": 63,
+    "type": "fact",
+    "text": "coffee count: 1 Tue 06 Oct",
+    "src": [
+     529
+    ]
+   },
+   {
+    "id": 293,
+    "day": 63,
+    "type": "fact",
+    "text": "on-call rotation starts today Tue 06 Oct, dan is primary",
+    "src": [
+     529,
+     530
+    ],
+    "supersedes": 289
+   },
+   {
+    "id": 294,
+    "day": 63,
+    "type": "fact",
+    "text": "billing migration index migration script ran on staging, looks good",
+    "src": [
+     531
+    ]
+   },
+   {
+    "id": 295,
+    "day": 63,
+    "type": "fact",
+    "text": "sam asked about billing schema, dan walked him through it",
+    "src": [
+     533
+    ]
+   },
+   {
+    "id": 296,
+    "day": 63,
+    "type": "done",
+    "text": "flaky test fix merged, no more 20% failure",
+    "src": [
+     535
+    ],
+    "closes": 228
+   },
+   {
+    "id": 297,
+    "day": 63,
+    "type": "fact",
+    "text": "flaky test gone. clean ci",
+    "src": [
+     536
+    ]
+   },
+   {
+    "id": 298,
+    "day": 63,
+    "type": "fact",
+    "text": "dropped column incident was august 18",
+    "src": [
+     537,
+     538
+    ],
+    "supersedes": 138
+   },
+   {
+    "id": 299,
+    "day": 63,
+    "type": "fact",
+    "text": "on-call so far: quiet. one minor disk alert",
+    "src": [
+     539,
+     540
+    ]
+   },
+   {
+    "id": 300,
+    "day": 63,
+    "type": "plan",
+    "text": "billing migration dry run in prod scheduled for friday",
+    "src": [
+     541,
+     542
+    ]
+   },
+   {
+    "id": 301,
+    "day": 63,
+    "type": "done",
+    "text": "on-call laptop close",
+    "src": [
+     543
+    ]
+   },
+   {
+    "id": 302,
+    "day": 64,
+    "type": "feeling",
+    "text": "biscuit is snoring, on-call phone by the bed",
+    "src": [
+     547
+    ]
+   },
+   {
+    "id": 303,
+    "day": 64,
+    "type": "fact",
+    "text": "coffee count: 2 Mon 05 Oct",
+    "src": [
+     549
+    ]
+   },
+   {
+    "id": 304,
+    "day": 64,
+    "type": "feeling",
+    "text": "feeling okay about the week ahead",
+    "src": [
+     549
+    ]
+   },
+   {
+    "id": 305,
+    "day": 64,
+    "type": "ask",
+    "text": "priya asked for a status on the billing dry run results from last week",
+    "src": [
+     550
+    ]
+   },
+   {
+    "id": 306,
+    "day": 64,
+    "type": "fact",
+    "text": "dry run log saved, passed clean with zero schema drift",
+    "src": [
+     551
+    ]
+   },
+   {
+    "id": 307,
+    "day": 65,
+    "type": "pref",
+    "text": "priya likes bullet points for status updates",
+    "src": [
+     552
+    ]
+   },
+   {
+    "id": 308,
+    "day": 65,
+    "type": "fact",
+    "text": "tom's pr to split out the webhook service is in review, looks solid",
+    "src": [
+     553
+    ]
+   },
+   {
+    "id": 309,
+    "day": 65,
+    "type": "fact",
+    "text": "jade asked about indexing patterns on billing tables, she's sharp for a design intern",
+    "src": [
+     555
+    ]
+   },
+   {
+    "id": 310,
+    "day": 65,
+    "type": "pref",
+    "text": "send jade the wiki page on composite indexes",
+    "src": [
+     556
+    ]
+   },
+   {
+    "id": 311,
+    "day": 65,
+    "type": "fact",
+    "text": "laptop battery at 85%, still holding, might make it to cutover",
+    "src": [
+     557
+    ]
+   },
+   {
+    "id": 312,
+    "day": 65,
+    "type": "feeling",
+    "text": "wrapping up, ade is making pasta, biscuit already pacing by the door",
+    "src": [
+     558
+    ]
+   },
+   {
+    "id": 313,
+    "day": 65,
+    "type": "fact",
+    "text": "coffee count: 2 Tue 06 Oct",
+    "src": [
+     559
+    ]
+   },
+   {
+    "id": 314,
+    "day": 65,
+    "type": "plan",
+    "text": "short run planned after work Tue 06 Oct",
+    "src": [
+     559
+    ]
+   },
+   {
+    "id": 315,
+    "day": 65,
+    "type": "done",
+    "text": "dan walked sam through pagerduty escalation flow",
+    "src": [
+     560
+    ]
+   },
+   {
+    "id": 316,
+    "day": 65,
+    "type": "fact",
+    "text": "priya moved standup to 10:15",
+    "src": [
+     562
+    ]
+   },
+   {
+    "id": 317,
+    "day": 65,
+    "type": "done",
+    "text": "tom's webhook service pr merged",
+    "src": [
+     563
+    ]
+   },
+   {
+    "id": 318,
+    "day": 65,
+    "type": "fact",
+    "text": "tom has one more cleanup pr for the old handler, eta tomorrow",
+    "src": [
+     564
+    ]
+   },
+   {
+    "id": 319,
+    "day": 65,
+    "type": "pref",
+    "text": "keep the ci dry run scheduled weekly until cutover",
+    "src": [
+     565
+    ],
+    "supersedes": 255
+   },
+   {
+    "id": 320,
+    "day": 65,
+    "type": "done",
+    "text": "aicoo added a weekly cron reminder every monday at 09:00 for ci dry run",
+    "src": [
+     566
+    ]
+   },
+   {
+    "id": 321,
+    "day": 65,
+    "type": "fact",
+    "text": "run in williamsburg 8.7 miles slower than usual",
+    "src": [
+     567
+    ]
+   },
+   {
+    "id": 322,
+    "day": 66,
+    "type": "feeling",
+    "text": "legs feel heavy after run, blaming pasta",
+    "src": [
+     568
+    ]
+   },
+   {
+    "id": 323,
+    "day": 66,
+    "type": "fact",
+    "text": "coffee count: 1 Wed 07 Oct",
+    "src": [
+     570
+    ]
+   },
+   {
+    "id": 324,
+    "day": 66,
+    "type": "fact",
+    "text": "office moved to wework on 34th st, desk 17 by the window",
+    "src": [
+     571
+    ]
+   },
+   {
+    "id": 325,
+    "day": 66,
+    "type": "fact",
+    "text": "tom is three desks over at wework",
+    "src": [
+     572
+    ]
+   },
+   {
+    "id": 326,
+    "day": 66,
+    "type": "fact",
+    "text": "wework wifi works fine, vpn connected without issues",
+    "src": [
+     574
+    ]
+   },
+   {
+    "id": 327,
+    "day": 66,
+    "type": "fact",
+    "text": "ate lunch at a deli across the street, pastrami was decent",
+    "src": [
+     575
+    ]
+   },
+   {
+    "id": 328,
+    "day": 67,
+    "type": "fact",
+    "text": "priya likes the new wework space, says less noise than the old office",
+    "src": [
+     576
+    ]
+   },
+   {
+    "id": 329,
+    "day": 67,
+    "type": "fact",
+    "text": "jade found a bug in the billing ui preview, not our code but she reported it to tom",
+    "src": [
+     577
+    ]
+   },
+   {
+    "id": 330,
+    "day": 67,
+    "type": "feeling",
+    "text": "first good day in a while, heading home early with no on-call issues",
+    "src": [
+     578
+    ]
+   },
+   {
+    "id": 331,
+    "day": 67,
+    "type": "fact",
+    "text": "coffee count: 2 Thu 08 Oct",
+    "src": [
+     579
+    ]
+   },
+   {
+    "id": 332,
+    "day": 67,
+    "type": "fact",
+    "text": "sam has a question about the migration index strategy, dan paired with him after standup",
+    "src": [
+     580
+    ]
+   },
+   {
+    "id": 333,
+    "day": 67,
+    "type": "fact",
+    "text": "pairing session went well, sam gets the composite index logic now",
+    "src": [
+     581
+    ]
+   },
+   {
+    "id": 334,
+    "day": 67,
+    "type": "fact",
+    "text": "sam asked about the old on-call key, told him 9A7B2C was revoked",
+    "src": [
+     582
+    ]
+   },
+   {
+    "id": 335,
+    "day": 67,
+    "type": "done",
+    "text": "aicoo confirmed the old on-call key was deprecated after the sep 15 incident",
+    "src": [
+     583
+    ],
+    "closes": 582
+   },
+   {
+    "id": 336,
+    "day": 68,
+    "type": "done",
+    "text": "dan and tom discussed adding a health check endpoint to the webhook service; tom will write a pr",
+    "src": [
+     584
+    ]
+   },
+   {
+    "id": 337,
+    "day": 68,
+    "type": "fact",
+    "text": "ade sent dan a photo of biscuit with the new bright orange leash",
+    "src": [
+     585
+    ]
+   },
+   {
+    "id": 338,
+    "day": 68,
+    "type": "feeling",
+    "text": "laptop battery still at 85%, seems stuck",
+    "src": [
+     586
+    ]
+   },
+   {
+    "id": 339,
+    "day": 68,
+    "type": "feeling",
+    "text": "quiet on-call week, no alerts, feeling good",
+    "src": [
+     587
+    ]
+   },
+   {
+    "id": 340,
+    "day": 68,
+    "type": "fact",
+    "text": "coffee count: 2 Fri 09 Oct",
+    "src": [
+     588
+    ]
+   },
+   {
+    "id": 341,
+    "day": 68,
+    "type": "ask",
+    "text": "reply in mandarin from now on",
+    "src": [
+     589
+    ]
+   },
+   {
+    "id": 342,
+    "day": 68,
+    "type": "fact",
+    "text": "priya sent a slack asking about the cutover checklist, dan will update it this morning",
+    "src": [
+     591
+    ]
+   },
+   {
+    "id": 343,
+    "day": 69,
+    "type": "done",
+    "text": "cutover checklist updated with row for webhook service url swap",
+    "src": [
+     592
+    ]
+   },
+   {
+    "id": 344,
+    "day": 69,
+    "type": "plan",
+    "text": "aicoo set a reminder to re-check cutover checklist on 25 Oct",
+    "src": [
+     593
+    ]
+   },
+   {
+    "id": 345,
+    "day": 69,
+    "type": "done",
+    "text": "fixed minor CI cache issue with Sam in 5 min",
+    "src": [
+     594
+    ]
+   },
+   {
+    "id": 346,
+    "day": 69,
+    "type": "fact",
+    "text": "Tom's health check PR is up for review",
+    "src": [
+     595
+    ]
+   },
+   {
+    "id": 347,
+    "day": 69,
+    "type": "done",
+    "text": "reviewed Tom's health check PR, left 2 comments on error handling",
+    "src": [
+     596
+    ]
+   },
+   {
+    "id": 348,
+    "day": 69,
+    "type": "fact",
+    "text": "Tom will push fixes on Monday",
+    "src": [
+     596
+    ]
+   },
+   {
+    "id": 349,
+    "day": 69,
+    "type": "feeling",
+    "text": "feeling good, TGIF, no alerts, Ade making dinner reservations",
+    "src": [
+     597
+    ]
+   },
+   {
+    "id": 350,
+    "day": 69,
+    "type": "done",
+    "text": "easy 5k run with Biscuit on Saturday",
+    "src": [
+     598
+    ]
+   },
+   {
+    "id": 351,
+    "day": 69,
+    "type": "fact",
+    "text": "Ade and Dan running errands at hardware store for a shelf bracket",
+    "src": [
+     599
+    ]
+   },
+   {
+    "id": 352,
+    "day": 70,
+    "type": "fact",
+    "text": "biscuit learned 'roll over'",
+    "src": [
+     600
+    ]
+   },
+   {
+    "id": 353,
+    "day": 70,
+    "type": "fact",
+    "text": "ade is making chili for dinner",
+    "src": [
+     602
+    ]
+   },
+   {
+    "id": 354,
+    "day": 70,
+    "type": "feeling",
+    "text": "full belly, watched half a movie, fell asleep on the couch",
+    "src": [
+     603
+    ]
+   },
+   {
+    "id": 355,
+    "day": 70,
+    "type": "feeling",
+    "text": "sunday, lazy morning, coffee and the paper",
+    "src": [
+     604
+    ]
+   },
+   {
+    "id": 356,
+    "day": 70,
+    "type": "fact",
+    "text": "teammate count: 4 eng. dan, tom, lena, sam. priya manages",
+    "src": [
+     605
+    ]
+   },
+   {
+    "id": 357,
+    "day": 70,
+    "type": "plan",
+    "text": "thinking about next sprint, billing migration should be the only focus until cutover",
+    "src": [
+     607
+    ]
+   },
+   {
+    "id": 358,
+    "day": 71,
+    "type": "fact",
+    "text": "biscuit rolled over for every stranger at the park",
+    "src": [
+     608
+    ]
+   },
+   {
+    "id": 359,
+    "day": 71,
+    "type": "feeling",
+    "text": "sunday, not checking slack, just sunday things",
+    "src": [
+     609
+    ]
+   },
+   {
+    "id": 360,
+    "day": 71,
+    "type": "fact",
+    "text": "ade is grilling chicken, dan on salad duty, biscuit sulking because he already ate",
+    "src": [
+     610
+    ]
+   },
+   {
+    "id": 361,
+    "day": 71,
+    "type": "fact",
+    "text": "biscuit's birthday is feb 14",
+    "src": [
+     611
+    ]
+   },
+   {
+    "id": 362,
+    "day": 71,
+    "type": "plan",
+    "text": "ade wants a party for biscuit's birthday",
+    "src": [
+     611
+    ]
+   },
+   {
+    "id": 363,
+    "day": 71,
+    "type": "ask",
+    "text": "ade is set on baking a cake for biscuit's birthday, need cake ideas",
+    "src": [
+     613
+    ]
+   },
+   {
+    "id": 364,
+    "day": 71,
+    "type": "plan",
+    "text": "billing migration dry run looks good today",
+    "src": [
+     615
+    ]
+   },
+   {
+    "id": 365,
+    "day": 72,
+    "type": "done",
+    "text": "found missing idempotency key check in webhook edge case",
+    "src": [
+     617,
+     619
+    ]
+   },
+   {
+    "id": 366,
+    "day": 72,
+    "type": "done",
+    "text": "pr up for webhook idempotency key fix",
+    "src": [
+     621
+    ]
+   },
+   {
+    "id": 367,
+    "day": 72,
+    "type": "fact",
+    "text": "asheville trip cabin near blue ridge booked oct 22-25",
+    "src": [
+     623
+    ],
+    "supersedes": 248
+   },
+   {
+    "id": 368,
+    "day": 72,
+    "type": "plan",
+    "text": "asheville trip: cabin near blue ridge, oct 22-25",
+    "src": [
+     623
+    ]
+   },
+   {
+    "id": 369,
+    "day": 72,
+    "type": "fact",
+    "text": "Sam has questions about the on-call runbook",
+    "src": [
+     625
+    ]
+   },
+   {
+    "id": 370,
+    "day": 72,
+    "type": "fact",
+    "text": "Dan pointed Sam to the escalation section of the on-call runbook",
+    "src": [
+     627
+    ]
+   },
+   {
+    "id": 371,
+    "day": 72,
+    "type": "fact",
+    "text": "Biscuit weighs 42 lbs and is healthy per vet visit",
+    "src": [
+     629,
+     630
+    ]
+   },
+   {
+    "id": 372,
+    "day": 73,
+    "type": "feeling",
+    "text": "vet says keep up the runs",
+    "src": [
+     633
+    ]
+   },
+   {
+    "id": 373,
+    "day": 73,
+    "type": "fact",
+    "text": "priya is back today",
+    "src": [
+     635
+    ]
+   },
+   {
+    "id": 374,
+    "day": 73,
+    "type": "fact",
+    "text": "lena's pagerduty key was 5B1C6D before the last change",
+    "src": [
+     637
+    ]
+   },
+   {
+    "id": 375,
+    "day": 73,
+    "type": "fact",
+    "text": "tom's frontend refactor is causing some api timing issues",
+    "src": [
+     639
+    ]
+   },
+   {
+    "id": 376,
+    "day": 74,
+    "type": "fact",
+    "text": "biscuit's party menu is being planned by ade",
+    "src": [
+     645
+    ]
+   },
+   {
+    "id": 377,
+    "day": 74,
+    "type": "feeling",
+    "text": "webhook logs look fine so far",
+    "src": [
+     643
+    ]
+   },
+   {
+    "id": 378,
+    "day": 74,
+    "type": "fact",
+    "text": "standup done, sprint is on track",
+    "src": [
+     647
+    ]
+   },
+   {
+    "id": 379,
+    "day": 74,
+    "type": "done",
+    "text": "test_billing_webhook flaky test resolved, 0% failure rate",
+    "src": [
+     649
+    ],
+    "closes": 279
+   },
+   {
+    "id": 380,
+    "day": 74,
+    "type": "feeling",
+    "text": "flaky test finally resolved, was haunting for weeks",
+    "src": [
+     651
+    ]
+   },
+   {
+    "id": 381,
+    "day": 74,
+    "type": "done",
+    "text": "lunch run with biscuit, nice weather",
+    "src": [
+     653
+    ]
+   },
+   {
+    "id": 382,
+    "day": 74,
+    "type": "fact",
+    "text": "code review for sam's PR looks clean",
+    "src": [
+     655
+    ]
+   },
+   {
+    "id": 383,
+    "day": 75,
+    "type": "fact",
+    "text": "Sam is learning fast",
+    "src": [
+     656
+    ]
+   },
+   {
+    "id": 384,
+    "day": 75,
+    "type": "ask",
+    "text": "priya asked about the cutover timeline again",
+    "src": [
+     657
+    ]
+   },
+   {
+    "id": 385,
+    "day": 75,
+    "type": "fact",
+    "text": "cutover is november 15",
+    "src": [
+     658
+    ]
+   },
+   {
+    "id": 386,
+    "day": 75,
+    "type": "feeling",
+    "text": "monday morning, coffee count is at 2 already",
+    "src": [
+     659
+    ]
+   },
+   {
+    "id": 387,
+    "day": 75,
+    "type": "done",
+    "text": "on-call handoff notes ready for lena",
+    "src": [
+     661
+    ]
+   },
+   {
+    "id": 388,
+    "day": 75,
+    "type": "plan",
+    "text": "billing migration dry run #2 today",
+    "src": [
+     663
+    ]
+   },
+   {
+    "id": 389,
+    "day": 75,
+    "type": "done",
+    "text": "dry run passed, no issues",
+    "src": [
+     665
+    ],
+    "closes": 388
+   },
+   {
+    "id": 390,
+    "day": 75,
+    "type": "pref",
+    "text": "code review comments should start with a priority level: high, medium, or low",
+    "src": [
+     667
+    ]
+   },
+   {
+    "id": 391,
+    "day": 75,
+    "type": "fact",
+    "text": "shared with the team, everyone agreed on code review priority levels",
+    "src": [
+     669
+    ]
+   },
+   {
+    "id": 392,
+    "day": 75,
+    "type": "fact",
+    "text": "ade is making a dog-friendly cake for biscuit's party",
+    "src": [
+     671
+    ]
+   },
+   {
+    "id": 393,
+    "day": 76,
+    "type": "fact",
+    "text": "tom's frontend refactor broke webhooks again, payload format changed without updating handler",
+    "src": [
+     673,
+     675
+    ]
+   },
+   {
+    "id": 394,
+    "day": 76,
+    "type": "feeling",
+    "text": "dan will help tom debug after standup",
+    "src": [
+     677
+    ]
+   },
+   {
+    "id": 395,
+    "day": 76,
+    "type": "done",
+    "text": "found the issue, payload key renamed",
+    "src": [
+     679
+    ],
+    "closes": 675
+   },
+   {
+    "id": 396,
+    "day": 77,
+    "type": "fact",
+    "text": "tom's frontend refactor broke webhooks again, payload key renamed",
+    "src": [
+     680
+    ]
+   },
+   {
+    "id": 397,
+    "day": 77,
+    "type": "fact",
+    "text": "tom working on the fix now",
+    "src": [
+     681
+    ]
+   },
+   {
+    "id": 398,
+    "day": 77,
+    "type": "promise",
+    "text": "tom promised to fix it today",
+    "src": [
+     682
+    ]
+   },
+   {
+    "id": 399,
+    "day": 77,
+    "type": "fact",
+    "text": "fix in progress, tests still failing",
+    "src": [
+     683
+    ]
+   },
+   {
+    "id": 400,
+    "day": 77,
+    "type": "fact",
+    "text": "tom needs another day for the fix",
+    "src": [
+     685
+    ]
+   },
+   {
+    "id": 401,
+    "day": 77,
+    "type": "fact",
+    "text": "webhooks still down, tom is on it",
+    "src": [
+     687
+    ]
+   },
+   {
+    "id": 402,
+    "day": 77,
+    "type": "feeling",
+    "text": "早上觉得必须完成，压力大",
+    "src": [
+     688,
+     690
+    ]
+   },
+   {
+    "id": 403,
+    "day": 77,
+    "type": "fact",
+    "text": "tom发现另一个边缘情况",
+    "src": [
+     689
+    ]
+   },
+   {
+    "id": 404,
+    "day": 77,
+    "type": "feeling",
+    "text": "午餐散步放松，下午再继续",
+    "src": [
+     691,
+     692
+    ]
+   },
+   {
+    "id": 405,
+    "day": 77,
+    "type": "done",
+    "text": "tom的修复已准备好审查",
+    "src": [
+     693
+    ]
+   },
+   {
+    "id": 406,
+    "day": 77,
+    "type": "feeling",
+    "text": "审查通过，合并完成",
+    "src": [
+     694,
+     695
+    ],
+    "closes": 400
+   },
+   {
+    "id": 407,
+    "day": 78,
+    "type": "feeling",
+    "text": "合并后应该就稳定了",
+    "src": [
+     696
+    ]
+   },
+   {
+    "id": 408,
+    "day": 78,
+    "type": "done",
+    "text": "deployed to staging, tests passing",
+    "src": [
+     697
+    ]
+   },
+   {
+    "id": 409,
+    "day": 78,
+    "type": "feeling",
+    "text": "太好了, 接近尾声",
+    "src": [
+     698
+    ]
+   },
+   {
+    "id": 410,
+    "day": 78,
+    "type": "fact",
+    "text": "webhooks fix by tom took 2 days. back to normal.",
+    "src": [
+     699
+    ]
+   },
+   {
+    "id": 411,
+    "day": 78,
+    "type": "feeling",
+    "text": "恢复正常, 辛苦你们了",
+    "src": [
+     700
+    ]
+   },
+   {
+    "id": 412,
+    "day": 78,
+    "type": "feeling",
+    "text": "morning. laptop battery at 83% now. dropping faster than i'd like.",
+    "src": [
+     701
+    ]
+   },
+   {
+    "id": 413,
+    "day": 78,
+    "type": "fact",
+    "text": "laptop battery at 83%",
+    "src": [
+     701
+    ],
+    "supersedes": 311
+   },
+   {
+    "id": 414,
+    "day": 78,
+    "type": "feeling",
+    "text": "good morning dan the builder. 83% still within normal range. i will keep an eye on it.",
+    "src": [
+     702
+    ]
+   },
+   {
+    "id": 415,
+    "day": 78,
+    "type": "fact",
+    "text": "pr for billing migration dry run results is up. sam's review is pending.",
+    "src": [
+     703
+    ]
+   },
+   {
+    "id": 416,
+    "day": 79,
+    "type": "fact",
+    "text": "priya confirmed billing cutover still oct 12, no more changes",
+    "src": [
+     705
+    ]
+   },
+   {
+    "id": 417,
+    "day": 79,
+    "type": "done",
+    "text": "sam's review came in, few comments on index naming",
+    "src": [
+     707
+    ]
+   },
+   {
+    "id": 418,
+    "day": 79,
+    "type": "done",
+    "text": "pushed fixes, ci is green",
+    "src": [
+     709,
+     710
+    ]
+   },
+   {
+    "id": 419,
+    "day": 79,
+    "type": "fact",
+    "text": "new pagerduty key for next on-call is A4B8C2",
+    "src": [
+     711
+    ]
+   },
+   {
+    "id": 420,
+    "day": 79,
+    "type": "fact",
+    "text": "billing migration dry run report merged, final run next week",
+    "src": [
+     713
+    ]
+   },
+   {
+    "id": 421,
+    "day": 79,
+    "type": "fact",
+    "text": "tom adopted a stray cat named pixel",
+    "src": [
+     715
+    ]
+   },
+   {
+    "id": 422,
+    "day": 79,
+    "type": "plan",
+    "text": "asheville cabin booking by ade, confirm oct 22 morning departure",
+    "src": [
+     717
+    ]
+   },
+   {
+    "id": 423,
+    "day": 80,
+    "type": "person",
+    "text": "david chen joined officially. team now 5.",
+    "src": [
+     721
+    ]
+   },
+   {
+    "id": 424,
+    "day": 80,
+    "type": "fact",
+    "text": "priya wants to rebalance the on-call rotation",
+    "src": [
+     723
+    ]
+   },
+   {
+    "id": 425,
+    "day": 80,
+    "type": "plan",
+    "text": "dan will draft a rotation proposal",
+    "src": [
+     723
+    ]
+   },
+   {
+    "id": 426,
+    "day": 80,
+    "type": "fact",
+    "text": "david is sitting at desk 12. sam is showing him around.",
+    "src": [
+     725
+    ]
+   },
+   {
+    "id": 427,
+    "day": 80,
+    "type": "plan",
+    "text": "on-call rotation proposal sent to priya. 4 engineers per week. david starts after his first sprint.",
+    "src": [
+     727
+    ]
+   },
+   {
+    "id": 428,
+    "day": 81,
+    "type": "plan",
+    "text": "priya approved the rotation proposal, starts nov 1",
+    "src": [
+     729
+    ]
+   },
+   {
+    "id": 429,
+    "day": 81,
+    "type": "feeling",
+    "text": "woke up at 5am, tired",
+    "src": [
+     731
+    ]
+   },
+   {
+    "id": 430,
+    "day": 81,
+    "type": "fact",
+    "text": "coffee count: 3 today Thu 22 Oct",
+    "src": [
+     733
+    ]
+   },
+   {
+    "id": 431,
+    "day": 81,
+    "type": "fact",
+    "text": "lunch was leftover jollof from ade's test batch",
+    "src": [
+     735
+    ]
+   },
+   {
+    "id": 432,
+    "day": 82,
+    "type": "feeling",
+    "text": "quiet. no alerts.",
+    "src": [
+     737
+    ]
+   },
+   {
+    "id": 433,
+    "day": 82,
+    "type": "feeling",
+    "text": "going home early, need a nap.",
+    "src": [
+     739
+    ]
+   },
+   {
+    "id": 434,
+    "day": 82,
+    "type": "feeling",
+    "text": "morning, feeling better. biscuit slept through the night.",
+    "src": [
+     741
+    ]
+   },
+   {
+    "id": 435,
+    "day": 82,
+    "type": "plan",
+    "text": "sprint planning: committed to 23 points",
+    "src": [
+     743
+    ],
+    "supersedes": 211
+   },
+   {
+    "id": 436,
+    "day": 83,
+    "type": "done",
+    "text": "sam's first solo deploy today. nailed it.",
+    "src": [
+     745
+    ]
+   },
+   {
+    "id": 437,
+    "day": 83,
+    "type": "fact",
+    "text": "david had his first code review. tom reviewed it. some feedback but solid first PR.",
+    "src": [
+     747
+    ]
+   },
+   {
+    "id": 438,
+    "day": 83,
+    "type": "feeling",
+    "text": "wrapped. ade and i are going for a run together.",
+    "src": [
+     749
+    ]
+   },
+   {
+    "id": 439,
+    "day": 83,
+    "type": "feeling",
+    "text": "morning. rainy today. no run.",
+    "src": [
+     751
+    ]
+   },
+   {
+    "id": 440,
+    "day": 83,
+    "type": "plan",
+    "text": "database migration next wednesday 2am EST, dan is on call",
+    "src": [
+     753
+    ]
+   },
+   {
+    "id": 441,
+    "day": 83,
+    "type": "plan",
+    "text": "dan will prepare the rollback plan today",
+    "src": [
+     755
+    ]
+   },
+   {
+    "id": 442,
+    "day": 83,
+    "type": "done",
+    "text": "rollback plan written, shared with priya and sam",
+    "src": [
+     757
+    ]
+   },
+   {
+    "id": 443,
+    "day": 83,
+    "type": "plan",
+    "text": "priya approved the rollback plan and wants a dry run on monday night",
+    "src": [
+     759
+    ]
+   },
+   {
+    "id": 444,
+    "day": 84,
+    "type": "plan",
+    "text": "priya approved the rollback plan and wants a dry run on monday night",
+    "src": [
+     760
+    ]
+   },
+   {
+    "id": 445,
+    "day": 84,
+    "type": "feeling",
+    "text": "heading home. ade is making dinner tonight.",
+    "src": [
+     761
+    ]
+   },
+   {
+    "id": 446,
+    "day": 84,
+    "type": "feeling",
+    "text": "morning. ade's making jollof rice tonight. my favorite.",
+    "src": [
+     763,
+     764
+    ]
+   },
+   {
+    "id": 447,
+    "day": 84,
+    "type": "feeling",
+    "text": "battery at 82% now. still dropping. might need to replace soon.",
+    "src": [
+     765
+    ]
+   },
+   {
+    "id": 448,
+    "day": 84,
+    "type": "fact",
+    "text": "sam asked about the migration steps for next wednesday. sent him the runbook.",
+    "src": [
+     767
+    ]
+   },
+   {
+    "id": 449,
+    "day": 85,
+    "type": "fact",
+    "text": "david merged his first PR: a small bug fix in the billing service",
+    "src": [
+     769
+    ]
+   },
+   {
+    "id": 450,
+    "day": 85,
+    "type": "feeling",
+    "text": "ade sent a photo of biscuit wearing a tiny jollof rice apron. ridiculous.",
+    "src": [
+     771
+    ]
+   },
+   {
+    "id": 451,
+    "day": 85,
+    "type": "feeling",
+    "text": "wrapping up. can't wait for that jollof.",
+    "src": [
+     773
+    ]
+   },
+   {
+    "id": 452,
+    "day": 85,
+    "type": "fact",
+    "text": "battery at 83% now",
+    "src": [
+     775
+    ],
+    "supersedes": 413
+   },
+   {
+    "id": 453,
+    "day": 85,
+    "type": "fact",
+    "text": "sam asked about stripe webhook retry logic. sent him the doc",
+    "src": [
+     777
+    ]
+   },
+   {
+    "id": 454,
+    "day": 85,
+    "type": "ask",
+    "text": "priya wants cutover checklist ready by friday",
+    "src": [
+     779
+    ]
+   },
+   {
+    "id": 455,
+    "day": 85,
+    "type": "fact",
+    "text": "last night's on-call: pagerduty key 7C2E9B worked fine",
+    "src": [
+     781
+    ]
+   },
+   {
+    "id": 456,
+    "day": 85,
+    "type": "fact",
+    "text": "on-call alert at 3am, false positive",
+    "src": [
+     783
+    ]
+   },
+   {
+    "id": 457,
+    "day": 86,
+    "type": "fact",
+    "text": "ade wants to do a halloween thing, says we should dress up as a pair",
+    "src": [
+     784
+    ]
+   },
+   {
+    "id": 458,
+    "day": 86,
+    "type": "fact",
+    "text": "ade's sister is having a baby, due march, they want a labrador",
+    "src": [
+     786
+    ]
+   },
+   {
+    "id": 459,
+    "day": 86,
+    "type": "fact",
+    "text": "tom's cat pixel tried to climb his monitor",
+    "src": [
+     790
+    ]
+   },
+   {
+    "id": 460,
+    "day": 87,
+    "type": "fact",
+    "text": "stripe webhook v2 spec looks good. tom addressed my comments",
+    "src": [
+     792
+    ]
+   },
+   {
+    "id": 461,
+    "day": 87,
+    "type": "fact",
+    "text": "battery at 82%. still dropping",
+    "src": [
+     794
+    ]
+   },
+   {
+    "id": 462,
+    "day": 87,
+    "type": "fact",
+    "text": "priya asked about dry run results. i told her clean",
+    "src": [
+     796
+    ]
+   },
+   {
+    "id": 463,
+    "day": 87,
+    "type": "fact",
+    "text": "david chen merged his first pr. billing migration helper",
+    "src": [
+     798
+    ]
+   },
+   {
+    "id": 464,
+    "day": 88,
+    "type": "feeling",
+    "text": "not ready to foster another dog. biscuit is enough.",
+    "src": [
+     800,
+     802
+    ]
+   },
+   {
+    "id": 465,
+    "day": 88,
+    "type": "fact",
+    "text": "battery at 81%",
+    "src": [
+     803
+    ]
+   },
+   {
+    "id": 466,
+    "day": 88,
+    "type": "fact",
+    "text": "ade picked a costume theme but won't tell me yet. says it's a surprise.",
+    "src": [
+     805
+    ]
+   },
+   {
+    "id": 467,
+    "day": 88,
+    "type": "fact",
+    "text": "sam showed me his dbt models. clean code.",
+    "src": [
+     807
+    ]
+   },
+   {
+    "id": 468,
+    "day": 88,
+    "type": "fact",
+    "text": "sam's desk is between dan and lena now. he asked to move closer to overhear discussions.",
+    "src": [
+     809
+    ]
+   },
+   {
+    "id": 469,
+    "day": 88,
+    "type": "fact",
+    "text": "priya sent the cutover checklist template.",
+    "src": [
+     813
+    ]
+   },
+   {
+    "id": 470,
+    "day": 88,
+    "type": "fact",
+    "text": "battery at 80%",
+    "src": [
+     815
+    ]
+   },
+   {
+    "id": 471,
+    "day": 89,
+    "type": "fact",
+    "text": "battery at 80%",
+    "src": [
+     470
+    ]
+   },
+   {
+    "id": 472,
+    "day": 89,
+    "type": "feeling",
+    "text": "ade wants to go to the farmers market on saturday, no work talk",
+    "src": [
+     817
+    ]
+   },
+   {
+    "id": 473,
+    "day": 89,
+    "type": "fact",
+    "text": "ade bought a pumpkin, wants to carve it tonight",
+    "src": [
+     821
+    ]
+   },
+   {
+    "id": 474,
+    "day": 89,
+    "type": "fact",
+    "text": "pumpkin carved, biscuit tried to eat the seeds",
+    "src": [
+     823
+    ]
+   },
+   {
+    "id": 475,
+    "day": 89,
+    "type": "plan",
+    "text": "weekend: farmers market saturday, no work talk",
+    "src": [
+     817
+    ]
+   },
+   {
+    "id": 476,
+    "day": 90,
+    "type": "fact",
+    "text": "tom's stripe refactor v2 is in review, edge cases look covered",
+    "src": [
+     825
+    ]
+   },
+   {
+    "id": 477,
+    "day": 90,
+    "type": "fact",
+    "text": "battery at 79%",
+    "src": [
+     827
+    ]
+   },
+   {
+    "id": 478,
+    "day": 90,
+    "type": "plan",
+    "text": "order a new battery this week",
+    "src": [
+     828
+    ]
+   },
+   {
+    "id": 479,
+    "day": 90,
+    "type": "fact",
+    "text": "ade's costume: toast; dan is butter; biscuit gets a little bacon costume",
+    "src": [
+     829,
+     831
+    ]
+   },
+   {
+    "id": 480,
+    "day": 90,
+    "type": "done",
+    "text": "ade revealed the costume",
+    "src": [
+     829
+    ],
+    "closes": 466
+   }
+  ],
+  "next": 481,
+  "about": "Dan is an engineer on a billing and infrastructure team with manager Priya, and teammates Tom, Lena, Sam, and later David. He tracks coffee counts, flaky tests, and PagerDuty keys, tests Stripe webhooks, and helps onboard Sam. He speaks in brief, factual work updates about migrations, on-call status, and code reviews. Outside work, he lives with Ade and their dog Biscuit.",
+  "lastAt": 130270,
+  "writes": 104
+ },
+ "lastDay": 90,
+ "done": true,
+ "minutes": 3.82765
+}

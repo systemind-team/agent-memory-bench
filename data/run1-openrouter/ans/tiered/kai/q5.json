@@ -1,0 +1,20 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "Aurora那个客户全名叫什么，我老怕写错。",
+ "reply": [
+  "Aurora Health，全称 Aurora Health Systems Inc."
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 8816,
+   "out": 18,
+   "usd": 0.00007668528
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26032
+}

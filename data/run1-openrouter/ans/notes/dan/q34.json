@@ -1,0 +1,69 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, any updates?",
+ "reply": [
+  "早上好。刚翻了下笔记——Stripe webhook v2 还在review中（Tom昨天说边缘情况都覆盖了），数据库迁移那边10月28号凌晨已经完成了，Priya上周发了cutover checklist模板，还需要填充。你这两天有什么打算？要不要把checklist填一填，或者先跑个dry run？"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "updates"
+   },
+   "result": "[billing-split] 05 Sep: dep updates breaking billing module; pinning versions for now"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Stripe webhook retry v2 review"
+   },
+   "result": "[stripe-webhook] 31 Oct: Tom's stripe refactor v2 is in review; edge cases look covered\n[stripe-webhook] 27 Oct: stripe webhook v2 spec reviewed; Tom addressed Dan's comments, ready to merge\n[stripe-webhook] 26 Oct: Sam asked about stripe webhook retry logic; Dan sent him the doc\n[stripe-webhook] 18 Sep: stripe webhook retry logic PR merged (was 13 Sep); next up: idempotency keys\n[stripe-webhook] 31 Aug: PR for webhook idempotency keys up; Tom reviewing\n01 Sep: stripe webhook spec final review done; merging this afternoon\n[stripe-webhook] 03 Aug: retry was failing due to idempotency; fixed aft"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "billing migration dry run Nov 01"
+   },
+   "result": "[billing-migration] 29 Aug: ticket filed for adding db migration dry-run step to CI; Priya will see Monday\n01 Sep: Lena picked up the CI dry-run ticket for migration checks\n[billing-migration] 25 Sep: dry run passed, clean migration\n[billing-migration] 25 Sep: dry run passed, clean migration\n[billing-migration] 06 Oct: billing migration tickets look green; added weekly cron for CI dry run every Monday 09:00 (was scheduled Friday)\n[billing-migration] 19 Oct: PR for billing migration dry run results is up; Sam's review came in, comments on index naming; Dan pushed fixes, CI green\n[billing-migrat"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "billing-migration"
+   },
+   "result": "Billing migration PR\n03 Aug: PR submitted for billing migration; aicoo reviewing\n06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n07 Aug: timeline doc sent to Priya; right before deadline\n24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n11 Aug: Priya covering backend next week\n14 Aug: Maria out; took another offer; Priya gutted; need to restart interviews; 19 Aug: on-call quiet, one disk space alert overnight\n08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushb"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2514,
+   "out": 20,
+   "usd": 0.00002885848
+  },
+  {
+   "in": 2566,
+   "out": 27,
+   "usd": 0.00003153808
+  },
+  {
+   "in": 2873,
+   "out": 26,
+   "usd": 0.00004392108
+  },
+  {
+   "in": 3221,
+   "out": 22,
+   "usd": 0.00004109532
+  },
+  {
+   "in": 4059,
+   "out": 78,
+   "usd": 0.00007135044
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9079
+}

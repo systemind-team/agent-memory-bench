@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "第一个fellowship截止日是哪天？",
+ "reply": [
+  "我记得之前提到过两个不同的截止日期：最早说10月31日，后来你确认了Facebook的fellowship最终截止是12月20日。所以你投的Facebook fellowship，截止日是**12月20日**。",
+  "现在11月1号了，还有大概一个半月。需要帮你排一下接下来的写作/推荐信时间表吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "fellowship deadline Facebook"
+   },
+   "result": "- 17 Sep: Facebook fellowship deadline is October 31.\n- 17 Sep: NSF fellowship deadline is November 15.\n- 20 Sep: 下周开始写NSF和Facebook fellowship申请材料。21 Sep: NSF那个方向不太对，最后可能就投Facebook了。05 Oct: Facebook fellowship提交截止日是12月20号，最后期限了。20 Oct 23:50: 周予安只投了Facebook的fellowship，放弃了NSF申请。\n- 01 Oct: 周予安需要为NSF和Facebook fellowship准备personal statement。\n- 17 Sep: Asked aicoo to check deadlines for NSF and Facebook fellowships.\n- 07 Aug: 周末了，但明天还得去实验室，因为论文deadline快到了。\n- 17 Sep: Prof. Lin reminded me about the fellowship.\n- San Diego workshop（Workshop on Hierarchical Decision Making）的submission deadline是12月1日，通知"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1676,
+   "out": 29,
+   "usd": 0.00004545576
+  },
+  {
+   "in": 1968,
+   "out": 81,
+   "usd": 0.00006153336
+  }
+ ],
+ "memChars": 802,
+ "promptChars": 5095
+}

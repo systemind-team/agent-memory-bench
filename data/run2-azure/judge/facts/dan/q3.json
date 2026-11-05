@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly identifies the column name as `billing_status`.",
+ "rule": null
+}

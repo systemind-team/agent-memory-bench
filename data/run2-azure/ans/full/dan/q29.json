@@ -1,0 +1,60 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q29",
+ "kind": "open_loop",
+ "q": "that stripe webhook spec i was gonna send tom—what happened?",
+ "reply": [
+  "你已经在8月22日早上把webhook规范发给了tom，比截止日期还早。后来他那天合并了，只提了一个关于错误码的review意见。",
+  "到10月27日，你们都在讨论v2版本了——tom已经处理了你在那上面的评论。所以这个任务其实早就完成了，dan the builder。",
+  "想让我把那个合并的版本链接找出来吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "stripe webhook spec tom send"
+   },
+   "result": "#166 Thu 20 Aug 08:15 Them: yeah. biscuit walk took foreever.\n#167 Thu 20 Aug 14:45 Them: remind me to send tom that stripe webhook spec\n#168 Thu 20 Aug 14:45 aicoo: will do, when's the deadline"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "webhook spec send tom deadline"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "webhook spec tom"
+   },
+   "result": "#791 Tue 27 Oct 10:35 aicoo: classic cat behavior. hope the monitor survived\n#792 Tue 27 Oct 14:00 Them: stripe webhook v2 spec looks good. tom addressed my comments\n#793 Tue 27 Oct 14:05 aicoo: smooth review then. should merge soon\n---\n#197 Mon 24 Aug 17:45 aicoo: maybe expense a 27-inch? priya would approve\n#198 Tue 25 Aug 09:20 Them: tom merged the webhook spec. one review comment about error codes\n#199 Tue 25 Aug 09:20 aicoo: good, early feedback helps\n---\n#180 Sat 22 Aug 07:50 Them: yeah, with priya. need to prep docs.\n#181 Sat 22 Aug 09:00 Them: webhook spec sent to tom early.\n#182 Sat 2"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21329,
+   "out": 25,
+   "usd": 0.000689698
+  },
+  {
+   "in": 21431,
+   "out": 24,
+   "usd": 0.001122974
+  },
+  {
+   "in": 21484,
+   "out": 22,
+   "usd": 0.000720568
+  },
+  {
+   "in": 21792,
+   "out": 93,
+   "usd": 0.000779184
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64132
+}

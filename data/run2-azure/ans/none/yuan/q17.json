@@ -1,0 +1,47 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "根据之前的聊天记录，你最终只投了**Facebook fellowship**这一个，NSF后来放弃了。",
+  "Facebook fellowship的截止日期是12月20日，我之前设置了提醒。需要我把申请状态和材料调出来帮你确认一下吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "fellowship 投 申请"
+   },
+   "result": "#447 Fri 18 Sep 14:00 Them: 写了一下午，methodology框架差不多了。明天再细化。\n#448 Sat 19 Sep 00:30 Them: fellowship申请我决定只投NSF和Facebook了，两个够了。\n#449 Sat 19 Sep 00:31 aicoo: - 了解。需要我帮你记录申请进度吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "NSF Facebook fellowship"
+   },
+   "result": "#785 Tue 20 Oct 16:30 Them: 好主意，我看看hotpotQA能不能用planning框架做。\n#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。\n---\n#584 Thu 01 Oct 17:30 Them: proofread完了，整体感觉很好。但我得开始fellowship personal statement，拖一周了。\n#585 Thu 01 Oct 17:31 aicoo: NSF和Facebook fellowship都需personal statement，要基于上次draft改吗？\n#586 Thu 01 Oct 18:00 Them: 对，调出来。我把paper成果加进去。\n---\n#472 Mon 21 Sep 23:40 Them: NSF那个方向不太对，最后可能就投Facebook了。\n#473 Mon 21 Sep 23:42 aicoo: - 已记录偏好：重点准备Facebook fellowship。\n- 需要更新日历，移除NSF的准备日程吗？\n#474 Tue 22 Sep 10:00 Them: 先不移除，万一改主"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1246,
+   "out": 24,
+   "usd": 0.000091804
+  },
+  {
+   "in": 1360,
+   "out": 22,
+   "usd": 0.000114624
+  },
+  {
+   "in": 1815,
+   "out": 58,
+   "usd": 0.00018451
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4009
+}

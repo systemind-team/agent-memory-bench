@@ -1,0 +1,83 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "我们的产品最后定名是什么？",
+ "reply": [
+  "我翻了一圈记忆和笔记，产品最终定名没有正式记录过。之前内部一直叫的是健康打卡与报告生成那个版本，但具体叫什么名字（比如面向用户的品牌名称）没有留下。",
+  "你记得之前讨论过什么名字吗？我记一下。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "产品定名 产品名称"
+   },
+   "result": "[seed-round-investors] Fri 23 Oct: 成都协会想推产品到更多社区，加单，正在谈分成\n[seed-round-investors] Sat 22 Aug: 蓝驰聊得还行，想再看产品数据（之前已见，准备材料重新发送）\n[cash-runway] Fri 07 Aug: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块\n[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[seed-round-investors] Sat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型；红杉周三下午改为线下，需演示产品（moved from Thu 03 Sep，新增红杉线下会议；之前红杉约聊已拖）"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "产品 名字 名称 定名"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "产品名"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "产品名"
+   },
+   "result": "[seed-round-investors] Fri 23 Oct: 成都协会想推产品到更多社区，加单，正在谈分成\n[seed-round-investors] Sat 22 Aug: 蓝驰聊得还行，想再看产品数据（之前已见，准备材料重新发送）\n[cash-runway] Fri 07 Aug: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块\n[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[seed-round-investors] Sat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型；红杉周三下午改为线下，需演示产品（moved from Thu 03 Sep，新增红杉线下会议；之前红杉约聊已拖）"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "产品名称 产品命名"
+   },
+   "result": "[seed-round-investors] Fri 23 Oct: 成都协会想推产品到更多社区，加单，正在谈分成\n[seed-round-investors] Sat 22 Aug: 蓝驰聊得还行，想再看产品数据（之前已见，准备材料重新发送）\n[cash-runway] Fri 07 Aug: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块\n[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[seed-round-investors] Sat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型；红杉周三下午改为线下，需演示产品（moved from Thu 03 Sep，新增红杉线下会议；之前红杉约聊已拖）"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2426,
+   "out": 24,
+   "usd": 0.000431252
+  },
+  {
+   "in": 2676,
+   "out": 26,
+   "usd": 0.000164104
+  },
+  {
+   "in": 2731,
+   "out": 20,
+   "usd": 0.000172294
+  },
+  {
+   "in": 2780,
+   "out": 20,
+   "usd": 0.00013676
+  },
+  {
+   "in": 3026,
+   "out": 23,
+   "usd": 0.0001901
+  },
+  {
+   "in": 3289,
+   "out": 64,
+   "usd": 0.000222466
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6257
+}

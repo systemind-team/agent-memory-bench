@@ -1,0 +1,59 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "Is Lily going on vacation anytime soon? 她是不是请假了?",
+ "reply": [
+  "没有，我记得你没提过Lily最近请假。她上周完成handover给Emily之后，这周开始转去做enterprise sales full-time了。你周一要找她要Aurora的quote，她应该在的。",
+  "需要我帮你确认一下她明后天的时间安排吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Lily PTO vacation leave"
+   },
+   "result": "[about-me] 19 Aug: Kai plans to leave early to have dinner with father at home. 19 Aug: Mom's blood pressure is normal today.\n[about-me] 18 Aug: Father discharged from hospital; Kai picked him up in the morning. 19 Aug: Kai plans to leave early to have dinner with father at home.\n[about-me] 09 Sep: Yuki finished dark mode mockups; need engineering estimate by next week. Kai asked aicoo to book Ravi and Yuki alignment meeting Monday afternoon. Ben not online today; may be on leave. 09 Sep: Kai asked Yuki to see which parts of dark mode can be delivered in phases (was initial full scope). 10 Sep"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lily 请假 vacation PTO"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lily 假期 请假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 13300,
+   "out": 24,
+   "usd": 0.000652712
+  },
+  {
+   "in": 14022,
+   "out": 25,
+   "usd": 0.000804892
+  },
+  {
+   "in": 14076,
+   "out": 24,
+   "usd": 0.000494904
+  },
+  {
+   "in": 14129,
+   "out": 67,
+   "usd": 0.000621762
+  }
+ ],
+ "memChars": 47928,
+ "promptChars": 52663
+}

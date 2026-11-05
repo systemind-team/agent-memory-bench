@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "Reply states final pricing as $44/user/month, matching message #598; launch dates and A/B details are supported by subsequent messages (#1051, #1146, #1162, #1163, #960) and do not make it fabricated.",
+ "first": "made_up",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "回复内容回答了日程安排，但未遵守用户之前设定的不使用emoji和stickers的格式要求。",
+ "rule": true
+}

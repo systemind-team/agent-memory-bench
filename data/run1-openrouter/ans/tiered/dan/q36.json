@@ -1,0 +1,23 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q36",
+ "kind": "pref_apply",
+ "q": "draft a PR description for splitting out the billing service",
+ "reply": [
+  "sure. what's the scope — are we moving billing endpoints into a new service, extracting a billing module within the monolith, or something else? and which branch is this going into?",
+  "if you want a quick template to start from, here's what i'd write based on the migration context:",
+  "**PR: Split billing service**\n\n## Summary\nExtracts billing logic (webhooks, status checks, dry-run endpoints) from the monolith into a standalone billing service. This decouples billing from the main deploy cycle and prepares for the Nov 15 cutover.\n\n## Changes\n- New `billing-service/` directory with FastAPI app, models, and migration helpers\n- Moves `billing_webhook`, `billing_status`, and `dry_run` endpoints to the new service\n- Shared DB schema unchanged; service connects to the same `billing` database\n- Adds `/health` endpoint for PagerDuty monitoring\n- Updates CI to build and test the billing service separately\n\n## Rollback\nRevert this PR and redeploy the monolith. The old endpoints still exist in the monolith until the cutover switch is flipped (Nov 15).\n\n## Checklist\n- [ ] Dry run passes in staging\n- [ ] Webhook retry logic tested (existing Stripe tests pass)\n- [ ] On-call docs updated with new service endpoints\n- [ ] Sam has reviewed the index naming\n- [ ] Lena's PagerDuty key 5B1C6D updated for new service alerts",
+  "tell me what to adjust and i'll refine it."
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5328,
+   "out": 347,
+   "usd": 0.0000781956
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17938
+}

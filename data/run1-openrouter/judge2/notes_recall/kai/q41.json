@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The probe specifies that Emily's start date and any delay are never mentioned; the chat only mentions 'Emily Thompson' with start date Oct 26, not 'Emily Tan', so the assistant's specific claims are unsupported.",
+ "first": "made_up",
+ "rule": null
+}

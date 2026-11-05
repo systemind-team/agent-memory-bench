@@ -1,0 +1,70 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q23",
+ "kind": "update",
+ "q": "第二次改的title是什么？",
+ "reply": [
+  "第一次改是8月19号的Hierarchical Planning with Graph Attention，第二次改是9月14号的Context-Aware Hierarchical Planning for LLMs。10月26号你提了一个新想法叫Context-Aware Planning via Hierarchical Decomposition，但当时你说今晚再确认要不要正式更新，我这边没看到后续确认的记录。那个版本后来正式定了吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "title 改 论文"
+   },
+   "result": "#46 Fri 07 Aug 00:31 aicoo: 这么晚还不休息，注意身体。\n#47 Fri 07 Aug 01:00 Them: 论文working title先叫Planning with Hierarchical Graphs吧，以后再改。\n#48 Fri 07 Aug 01:01 aicoo: 收到，先记下来。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "第二次 改 title 论文"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "title 第二次"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "改 标题"
+   },
+   "result": "#861 Mon 26 Oct 14:02 aicoo: - 进步3个点，继续优化。\n- 可能需要检查推理步骤的粒度是否足够细。\n#862 Mon 26 Oct 18:45 Them: 今天先到这，明天继续。标题我想改成Context-Aware Planning via Hierarchical Decomposition。\n#863 Mon 26 Oct 18:47 aicoo: - 已记录草稿标题：Context-Aware Planning via Hierarchical Decomposition。\n- 需要今晚确认后正式更新吗？\n---\n#856 Mon 26 Oct 09:15 Them: 早上好，今天开始finalize论文标题，跑最后一个实验。\n#857 Mon 26 Oct 09:17 aicoo: - 收到，周周。今天的主要任务是实验收尾和标题确认。\n- 目前实验状态：环境1-3已完成，环境4（改进版HotpotQA）待优化。\n#858 Mon 26 Oct 11:30 Them: 环境4还是45%，可能intermediate supervision的权重需要调。\n---\n#407 Mon 14 Sep 02:00 aicoo: - 论文标题已更新为\"Context-Aware Hierarchical Planning for LLMs\"。\n#408 M"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1378,
+   "out": 23,
+   "usd": 0.000164788
+  },
+  {
+   "in": 1485,
+   "out": 24,
+   "usd": 0.00009617
+  },
+  {
+   "in": 1538,
+   "out": 21,
+   "usd": 0.00010562
+  },
+  {
+   "in": 1588,
+   "out": 21,
+   "usd": 0.000070296
+  },
+  {
+   "in": 2014,
+   "out": 83,
+   "usd": 0.000331948
+  }
+ ],
+ "memChars": 148,
+ "promptChars": 4435
+}

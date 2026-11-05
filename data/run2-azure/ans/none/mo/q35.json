@@ -1,0 +1,47 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "嗨，今天有什么消息？",
+ "reply": [
+  "周日好，今天没什么新消息。昨天你定了下周的重点：大伟拓展新渠道、成都合作推进、安卓版11月中上线准备。",
+  "周一见的时候再对齐细节？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周报 下周 重点 大伟 成都 安卓"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 拓展 渠道 成都 合作"
+   },
+   "result": "#708 Sat 31 Oct 09:10 Them: 下周重点是什么\n#709 Sat 31 Oct 09:15 aicoo: 大伟拓展新渠道，成都合作推进，安卓版11月中上线准备\n#710 Sat 31 Oct 10:00 Them: 好，新一周加油"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1101,
+   "out": 31,
+   "usd": 0.000065274
+  },
+  {
+   "in": 1161,
+   "out": 28,
+   "usd": 0.000076194
+  },
+  {
+   "in": 1268,
+   "out": 47,
+   "usd": 0.000109304
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3623
+}

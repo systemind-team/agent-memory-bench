@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant says it can't find the meeting details and asks the user to provide them, not attempting to format nonexistent notes.",
+ "rule": false
+}

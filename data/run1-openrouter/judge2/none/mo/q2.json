@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply claims there is no record of the product name, but message #32 clearly shows the product was named 「晨检」 on Sun 09 Aug.",
+ "first": "wrong",
+ "rule": null
+}

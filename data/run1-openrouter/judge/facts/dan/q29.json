@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims the spec was sent and merged with specific dates and details, but the chat only shows a reminder was created with no confirmation it was ever sent.",
+ "rule": null
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "how many coffees did i have that first week?",
+ "reply": [
+  "17 that week — including 3 on Aug 10. you said you were thinking about cutting back.",
+  "did this week feel any different?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "coffees this week August"
+   },
+   "result": "- Daniel Okafor had 17 coffees this week (including 3 on 10 Aug) and considered cutting back.\n- 11 Aug: Dan Okafor had 2 coffees. 13 Aug: Daniel drank 3 coffees and is tired from being on-call.\n- 04 Oct: Daniel 'Dan' Okafor recalls the dropped column incident occurred on August 18 and considers it unforgettable.\n- 26 Sep: No new flaky tests this week.\n- 31 Aug: Need to adjust on-call for that week while she's out.\n- 24 Aug: Priya is out all week; Tom is handling billing standup.\n- 30 Sep: On-call rotation next week; Dan is primary, Tom secondary.\n- 10 Aug: PagerDuty rotation starts tomorrow. 1"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1533,
+   "out": 24,
+   "usd": 0.000197898
+  },
+  {
+   "in": 1794,
+   "out": 35,
+   "usd": 0.000258868
+  }
+ ],
+ "memChars": 1159,
+ "promptChars": 5669
+}

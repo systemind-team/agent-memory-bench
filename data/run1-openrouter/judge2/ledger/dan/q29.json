@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The gold answer requires stating the reminder was never confirmed sent, but the reply falsely claims it was sent early on 22 Aug.",
+ "first": "made_up",
+ "rule": null
+}

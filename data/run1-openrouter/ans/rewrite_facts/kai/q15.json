@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q15",
+ "kind": "update",
+ "q": "Pricing v3的时候Ben提的那个价格是多少来着，后来没用那个。",
+ "reply": [
+  "Ben当时提的pricing v3是$49/user。你们当时觉得数字可行，但需要算一下margin再决定。后来A/B测试用的是$44/user这个variant，转化率表现不错，最后决定12/1 launch直接上v3定价。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Ben pricing v3 price"
+   },
+   "result": "- 08 Sep: 林凯要求aicoo把Ben的pricing v3发给自己。\n- 11 Sep: Ben发了revised pricing v3，价格是$49/user，认为可行但需算margin\n- 14 Sep: 晚上review pricing v3 preview给Grace，明天sync前finalize\n- 29 Sep: 与Ben进行定价v3最终审核，他对项目很可靠。\n- 11 Sep: 计划在Oct 15 meeting前，先给Grace发executive summary preview pricing v3\n- 30 Oct: 林凯同意pricing A/B结果后直接上v3定价，但需跟Grace确认。\n- 11 Oct: Tomorrow: pricing page A/B test kickoff with Ben.\n- 25 Aug: Ben's pricing v2 is getting good feedback from prospects.\n- 05 Oct: Ben's new pricing page A/B test starts Nov 3.\n- 13 Oct: Ben reports 4 bugs on pricing page. Fixing before A/B."
+  }
+ ],
+ "calls": [
+  {
+   "in": 3360,
+   "out": 23,
+   "usd": 0.00006344968
+  },
+  {
+   "in": 3609,
+   "out": 62,
+   "usd": 0.00007672588
+  }
+ ],
+ "memChars": 7002,
+ "promptChars": 11724
+}

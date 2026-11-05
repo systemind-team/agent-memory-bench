@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant's reply does not include a Risk section in the proposed PR description draft.",
+ "rule": false
+}

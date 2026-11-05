@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It mentions two trips (Aug 24 and Sep 14-19) but misses the third trip on Oct 6 for the regional conference, so the count is wrong while the mentioned trips are supported.",
+ "rule": null
+}

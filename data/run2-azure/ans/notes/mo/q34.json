@@ -1,0 +1,71 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, what's on my plate today?",
+ "reply": [
+  "morning, 陈默. today's Sunday, but here's what's waiting for you this week",
+  "1) 晨检安卓版目标11月中上线, 阿杰在压测试, 这周跟进他进度\n2) 大伟拓展新渠道, 他上周说徐汇第二家驿站月底落地, 今天1号可以问结果\n3) 成都协会合作推进, 每月300单以上, 这周确认订单数据\n4) 蓝驰第二笔到账后账上600万, 这周可以开始规划Q4预算\n\n休息好, Monday再来一个个啃"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "team-offsite"
+   },
+   "result": "全员offsite安排\nThu 29 Oct: 已到崇明，入住民宿，晚上烧烤；阿杰烤茄子，Mia拍照（moved from Mon 26 Oct，原定周六下午回，实际周五出发周六下午回）\nThu 29 Oct: 民宿已入住，480一晚可住7人，加烧烤套餐，老板帮忙采购了鸡翅牛肉\nWed 28 Oct: 周五8点集合，小雨负责通知全员\nFri 30 Oct: 上午自由活动，下午回程，两小时到上海，16:30到达"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "November week"
+   },
+   "result": "(nothing)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "next week priority"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "product-launch"
+   },
+   "result": "产品发布顺序\nTue 01 Sep: 晨检iOS测试版昨晚闪退，阿杰在修；上线延期到9月10号（仍按此）；安卓内测改为10月15号（之前10月），阿杰已给排期；小雨成都合作推迟至10月，需自己搞推广，建议先靠抖音小视频拉DAU；成都健康管理师协会9月对接（新增）\nSat 19 Sep: 晨检iOS上线推迟到9月18号，因iOS审核慢（之前预计9月10号）；已通知阿杰，他说能赶上；营销物料需准备；9月15日大伟上午推广数据新增注册120，太慢，正在优化关键词；9月16日iOS闪退已修复但评审被拒一次，18号仍来得及；9月19日iOS评审已过；9月20日通知晨检再延期至9月25日，测试环境数据冲突需重构日志模块，阿杰保证25号（新增延期）\nSun 20 Sep: 大伟想试楼宇电梯广告，预算3万；建议先小范围测试，选静安3栋楼；9月17日跑了半天扫码仅63人，效果不佳；9月18日静安寺楼好点，其他两栋不值，建议砍掉，已停广告，钱省下来下周全力冲线上；大伟线上活动方案聊完，预算5万，能冲DAU（moved from Tue 15 Sep，新增线上活动方案）；9月21日确定9月25日上线最终checklist，需整理发阿杰确认；Wed 23 Sep: 大伟推广方案内容等Mia的图，最迟周四上线；Tue 06 Oct: 阿杰说安卓适配可能还能提前点，争取10月底（新增）；Sat 10 Oct:"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2429,
+   "out": 21,
+   "usd": 0.000109434
+  },
+  {
+   "in": 2582,
+   "out": 20,
+   "usd": 0.000141004
+  },
+  {
+   "in": 2617,
+   "out": 21,
+   "usd": 0.000148914
+  },
+  {
+   "in": 2667,
+   "out": 21,
+   "usd": 0.000159414
+  },
+  {
+   "in": 3385,
+   "out": 139,
+   "usd": 0.000697042
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6278
+}

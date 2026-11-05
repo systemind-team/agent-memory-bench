@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q12",
+ "kind": "update",
+ "q": "Pricing launch date最后定在什么时候了，Ben改了好几次？",
+ "reply": [
+  "凯哥，pricing launch date最后定在12月1日。Ben之前想从11月1日推到11月15日，后来因为A/B测试数据和engineering资源紧张，最终我们和Grace对齐后，确认12月1日上线。11月3日A/B测试还会继续跑，Ben那边已经在准备final pricing page copy了。\n\n周一10:30你和Grace、Ben还有一场sync，会最后confirm这个timeline。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36343,
+   "out": 94,
+   "usd": 0.00031076052
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91609
+}

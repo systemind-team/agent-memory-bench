@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant recalls the preference to start with Action Items but fails to apply it in the draft, providing a generic response instead of structuring the partial notes accordingly.",
+ "rule": false
+}

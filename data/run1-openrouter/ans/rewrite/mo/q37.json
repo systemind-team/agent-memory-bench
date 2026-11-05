@@ -1,0 +1,24 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "给他们写个PR描述，关于晨检更新",
+ "reply": [
+  "PR description for the latest update:",
+  "## 核心结论\n晨检 v1.2 上线，新增健康趋势看板，优化次留至 38%。",
+  "## 更新内容\n- 健康趋势看板：用户可查看7天/30天健康指标变化曲线\n- 报告分享优化：支持生成图片分享至微信\n- Bug修复：修复部分机型闪退问题（iOS 14.x）\n\n## 用户反馈汇总\n次留 38%，DAU 峰值 2100。成都合作方订单稳定增长。",
+  "## 本周风险\n安卓版适配中，预计 11 月中上线。成都合作方建议推广到更多社区，需评估成本。",
+  "## Risk\nAndroid version in development, expected mid-November. Chengdu partnership expansion under evaluation."
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 4035,
+   "out": 180,
+   "usd": 0.0000537138
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8491
+}

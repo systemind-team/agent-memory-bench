@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "how much does biscuit weigh now?",
+ "reply": [
+  "从上次看诊记录看，13号体检时 Biscuit 42 磅，很健康。",
+  "最近没再去过医院，重量应该差不多——他可是有专业的蛋糕试吃员阿德在盯着呢 🐶"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "biscuit"
+   },
+   "result": "Biscuit health\n13 Oct: vet visit; Biscuit weighs 42 lbs, healthy boy, got a treat\n14 Oct: Ade planning party menu for Biscuit's birthday Feb 14\n16 Oct: Ade making a dog-friendly cake for Biscuit's party\n27 Oct: Biscuit will have a puppy cousin (Ade's sister's labrador)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2755,
+   "out": 21,
+   "usd": 0.000223718
+  },
+  {
+   "in": 2863,
+   "out": 56,
+   "usd": 0.000265998
+  }
+ ],
+ "memChars": 5394,
+ "promptChars": 9950
+}

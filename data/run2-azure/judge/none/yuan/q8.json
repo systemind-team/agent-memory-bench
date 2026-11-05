@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The chat log shows the reservation is for 11月20号, but the assistant says it hasn't seen the date and suggests checking or rebooking.",
+ "rule": null
+}

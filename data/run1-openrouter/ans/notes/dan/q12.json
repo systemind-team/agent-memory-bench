@@ -1,0 +1,46 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q12",
+ "kind": "update",
+ "q": "what's the pagerduty key for on-call?",
+ "reply": [
+  "looks like the last note says 7C2E9B (verified Oct 26, one false alert at 3am). the A4B8C2 from Oct 20 was for the next on-call but 7C2E9B seems to be what's actually active now.",
+  "want me to check who's currently on-call in pagerduty?"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "PagerDuty key"
+   },
+   "result": "[stripe-webhook] 24 Sep: PagerDuty key changed to 7C2E9B (was 3F8D1A)\n[checkout-spec] 14 Oct: Lena's PagerDuty key was 5B1C6D before last change\n[pagerduty-key] 20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n[stripe-webhook] 10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved\n[pagerduty-key] 26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am\n[candidate-sam] 06 Oct: Sam asked for PagerDuty escalation tour; Dan walked him through Lena's doc\n[stripe-webhook] 12 Oct: found missing idempotency key check; PR up for fix\n[candidate-sam] 08 Oct:"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "pagerduty-key"
+   },
+   "result": "PagerDuty key\n20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2521,
+   "out": 23,
+   "usd": 0.00002938628
+  },
+  {
+   "in": 2880,
+   "out": 23,
+   "usd": 0.00004396168
+  },
+  {
+   "in": 2972,
+   "out": 86,
+   "usd": 0.00005281248
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9095
+}

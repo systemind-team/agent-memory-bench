@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "how far did i run the day i set a personal best?",
+ "reply": [
+  "10.1 miles on the trail, 9月15号。那天 biscuit 陪你跑的？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "personal best run"
+   },
+   "result": "[running] 15 Sep: personal best 10.1 miles on trail\n[running] 15 Sep: personal best 10.1 miles (was 7 miles on Sep 10)\n[running] 24 Oct: rainy, no run\n[running] 20 Oct: going for a run before dark\n[billing-migration] 25 Sep: dry run passed, clean migration\n[billing-migration] 25 Sep: dry run passed, clean migration\n[running] 06 Oct: short run planned after work\n[running] 15 Oct: lunch run with Biscuit, nice weather\n[billing-migration] 28 Sep: dry run tomorrow, Priya wants a walkthrough\n[billing-migration] 16 Oct: dry run #2 passed, no issues"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2777,
+   "out": 21,
+   "usd": 0.00004793236
+  },
+  {
+   "in": 2975,
+   "out": 28,
+   "usd": 0.00005653956
+  }
+ ],
+ "memChars": 5376,
+ "promptChars": 9948
+}

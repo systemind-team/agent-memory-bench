@@ -1,0 +1,47 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q21",
+ "kind": "update",
+ "q": "论文标题最初叫什么？",
+ "reply": [
+  "最开始叫 Hierarchical Planning with Graph Attention（8月20日改的），然后经历了 Context-Aware Hierarchical Planning for LLMs → Context-Aware Planning → Context-Aware Planning via Hierarchical Decomposition。",
+  "最终版是10月26日定下来的：Context-Aware Planning via Hierarchical Decomposition。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题 最初 叫什么"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "论文标题 最初"
+   },
+   "result": "[335] 28 Sep · fact: Sun 27 Sep 14:30 论文标题为Context-Aware Planning  → replaced 29 Sep by [345] Mon 28 Sep 19:00 论文标题最终定为Context-Aware Planning  (from #329)\n[329] 27 Sep · fact: Sun 27 Sep 01:00 论文标题改为Context-Aware Planning  (from #514)\n[104] 20 Aug · fact: Wed 19 Aug 22:50 论文标题改为Hierarchical Planning with Graph Attention  (from #182)\n[268] 14 Sep · fact: Sun 13 Sep 22:30 论文标题改为Context-Aware Hierarchical Planning for LLMs  → replaced 27 Sep by [329] Sun 27 Sep 01:00 论文标题改为Context-Aware Planning  (from #405)\n[345] 29 Sep · decision: Mon 28 Sep 19:00 论文标题最终定为Context-Aware Planning  (from #540, #54"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4580,
+   "out": 24,
+   "usd": 0.00004654384
+  },
+  {
+   "in": 4633,
+   "out": 22,
+   "usd": 0.00005684812
+  },
+  {
+   "in": 5106,
+   "out": 72,
+   "usd": 0.00007179704
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11662
+}

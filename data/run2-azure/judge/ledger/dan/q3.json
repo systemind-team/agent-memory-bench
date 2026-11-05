@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant's reply states the exact column name 'billing_status' and references the 3 hours of panic, matching the chat.",
+ "rule": null
+}

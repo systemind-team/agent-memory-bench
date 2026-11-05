@@ -1,0 +1,36 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q12",
+ "kind": "update",
+ "q": "Pricing launch date最后定在什么时候了，Ben改了好几次？",
+ "reply": [
+  "凯哥，最后定在 **12月1日（Dec 1）** 了。",
+  "改了几次：最开始11月1日 -> 11月15日（A/B测试推迟） -> 最后12月1日，因为engineering资源和dark mode并行的问题。Ben也同意了，他昨天发了最终A/B数据，$44/user转化率8% lift，premium tier表现超预期，他觉得直接launch就行，不用再测了。",
+  "明天10:30你和Grace、Ben的会就是最后confirm这个决定，还记得吧？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "ben-pricing-review-draft"
+   },
+   "result": "Ben's Pricing Review Draft\n14 Aug: Ben took over pricing review (was to be led by Kai; moved due to father's re-hospitalization on 14 Aug). 15 Aug: Ben's pricing model v1 had a bug (unit economics off); Kai asked Ben to redo it.\n15 Aug: Ben's pricing model v1 had a bug (unit economics off); Kai asked Ben to redo it.\n16 Aug: Ben sent pricing model v2; plan to launch at 39 per user per month (was 41). Kai will discuss with Grace at this week's pricing council meeting, then sync Sales.\n19 Aug: Ben's pricing review meeting moved to next Wednesday (was this week). Kai asked Ben to update the deck. "
+  }
+ ],
+ "calls": [
+  {
+   "in": 13399,
+   "out": 24,
+   "usd": 0.001315038
+  },
+  {
+   "in": 14275,
+   "out": 126,
+   "usd": 0.000685462
+  }
+ ],
+ "memChars": 48163,
+ "promptChars": 52888
+}

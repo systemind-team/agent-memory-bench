@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Reply includes 王磊 as a fifth PM candidate, but the question is about 'PM candidate我们interview了几个人' and the gold answer lists only four; 王磊 is a final candidate interviewed but not counted in the aggregate, so the reply adds unsupported information.",
+ "first": "wrong",
+ "rule": null
+}

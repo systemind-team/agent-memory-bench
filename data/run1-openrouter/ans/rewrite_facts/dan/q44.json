@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "what's priya's favorite restaurant?",
+ "reply": [
+  "dan the builder, 我翻了翻记忆，没找到priya喜欢哪家餐厅的记录。你们聊过工作、干运行、cutover，但没提过她爱吃的馆子",
+  "你打算约她吃饭还是送礼物？我可以帮你查查她的聊天记录里有没有提到过"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Priya restaurant favorite"
+   },
+   "result": "- 08 Sep: Had lunch with Sam and Priya.\n- 22 Aug: Dan will onboard Sam with Priya.\n- 05 Aug: Dan plans to draft a risk list for Priya.\n- 07 Sep: Priya wants to move fast on David Chen.\n- 24 Oct: Rollback plan written and shared with Priya and Sam.\n- 05 Oct: Priya asked Dan for a status on the billing dry run results from last week. 15 Oct: Priya asked about the cutover timeline again\n- 26 Oct: Priya wants the cutover checklist ready by Friday.\n- 28 Sep: Dan has a billing migration dry run tomorrow; Priya wants a walkthrough. 29 Sep: Dry run walkthrough with Priya went well with no blockers.\n- "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3307,
+   "out": 22,
+   "usd": 0.0000529018
+  },
+  {
+   "in": 3567,
+   "out": 69,
+   "usd": 0.0000672742
+  }
+ ],
+ "memChars": 7266,
+ "promptChars": 11884
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply does not contain a PR description draft ending with a Risk section as requested; it only says goodbye.",
+ "rule": false
+}

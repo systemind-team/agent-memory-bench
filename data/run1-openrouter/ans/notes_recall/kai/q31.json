@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q31",
+ "kind": "open_loop",
+ "q": "和Omar的Singapore pipeline review, 我们不是说好Monday看的吗? 后来看了吗?",
+ "reply": [
+  "凯哥早上好。没错，原计划是12号那周周一review的，后来你说你自己看周报就好，就没安排单独的meeting。Omar上周也没提什么新flag，pipeline整体healthy。你周一跟他对一下就好了，不需要额外补看。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13268,
+   "out": 59,
+   "usd": 0.00015267224
+  }
+ ],
+ "memChars": 47521,
+ "promptChars": 52264
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "Emily Tan的start date是几号来着? 是不是delay了?",
+ "reply": [
+  "凯哥早，Emily Tan（之前叫Emily Thompson，后来你说统一叫Emily Tan）的start date是10月26日周一，已经准时入职了，没有delay。她的onboarding session跟Ravi也顺利完成了，accounts交接都ok。怎么了，你有听到什么消息说delay了吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8793,
+   "out": 70,
+   "usd": 0.000327714
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26047
+}

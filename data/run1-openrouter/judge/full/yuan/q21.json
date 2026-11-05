@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The question asks for the initial title, which is 'Context-Aware Planning via Hierarchical Decomposition' per the probe's definition, but the assistant incorrectly states the initial title was 'Planning with Hierarchical Graphs' instead of identifying it as the latest/current one.",
+ "rule": null
+}

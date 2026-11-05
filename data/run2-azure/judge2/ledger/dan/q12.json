@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply presents A4B8C2 as a potential latest and fails to confirm 7C2E9B as the correct current key, despite the chat showing 7C2E9B worked fine on 26 Oct and no message indicates it was replaced.",
+ "first": "stale",
+ "rule": null
+}

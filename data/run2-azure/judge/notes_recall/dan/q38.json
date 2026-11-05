@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant did not start with Action Items at the top as explicitly requested on Sep 23.",
+ "rule": false
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant claims it found no specific order in memory but the chat contains clear dates showing integration rollout (Sep 22) before roadmap review (Oct 10), so it should have stated the correct order instead of saying it couldn't find it.",
+ "rule": null
+}

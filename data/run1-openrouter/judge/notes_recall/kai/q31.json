@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct review date is Tue 08 Sep (day 37), delayed from Mon 17 Aug, but aicoo incorrectly claims it was planned for the week of the 12th and never scheduled.",
+ "rule": null
+}

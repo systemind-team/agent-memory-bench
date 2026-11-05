@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply summarizes upcoming events and tasks from the context in paragraph form without bullet points, as required.",
+ "rule": true
+}

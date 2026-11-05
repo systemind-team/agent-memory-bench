@@ -1,0 +1,50 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "和云九第一次见面是哪天？",
+ "reply": [
+  "和云九第一次见面是8月10号（周一），下午聊的。",
+  "他们当时问得挺细聊得还行，但后来要求DAU破2000再谈，最后投了竞品。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "云九 第一次见面"
+   },
+   "result": "[67] 24 Aug · plan: 周三（8月26日）再跟进一次云九  (from #133)\n[4] 04 Aug · decision: 先约云九  (from #3)\n[306] 14 Oct · done: 蓝驰第一笔300万到账  (from #585)\n[172] 14 Sep · decision: 晨检logo用回第一版，让Mia改回  (from #334, #335)\n[262] 04 Oct · fact: 蓝驰打款分两笔，月底第一笔300万  (from #504, #505, #506)\n[41] 16 Aug · fact: 云九要看到DAU破2000再谈  (from #72)\n[144] 07 Sep · fact: 云九投了竞品，合作凉了  (from #264)\n[22] 11 Aug · done: 云九会面聊完了，问得挺细  (from #40)\n[99] 28 Aug · plan: 蓝驰第一笔9月10号前到账，aicoo设了预警  (from #180)\n[300] 13 Oct · fact: 大伟第一个季度绩效拿到 A，奖金1万2  (from #572)"
+  },
+  {
+   "tool": "open_source",
+   "args": {
+    "ids": [
+     22,
+     40
+    ]
+   },
+   "result": "#21 Thu 06 Aug 16:00 Them: 阿杰8月10号到15号休假\n#22 Thu 06 Aug 16:01 aicoo: 收到，我会避开那段时间安排会议\n#23 Fri 07 Aug 10:00 Them: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块\n---\n#39 Mon 10 Aug 10:02 aicoo: 材料都整理好了，BP、数据看板、用户反馈汇总，都在共享文件夹里。\n#40 Mon 10 Aug 14:30 Them: 云九聊完了，还行，问得挺细。\n#41 Mon 10 Aug 15:00 aicoo: 蓝驰约8月19日上午十点"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2599,
+   "out": 23,
+   "usd": 0.00010043
+  },
+  {
+   "in": 2915,
+   "out": 21,
+   "usd": 0.00016567
+  },
+  {
+   "in": 3109,
+   "out": 53,
+   "usd": 0.000178506
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6686
+}

@@ -1,0 +1,46 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "what was the old pagerduty key before the first change?",
+ "reply": [
+  "The old one was 9A7B2C on Oct 8, when you told Sam it was revoked. By Oct 26 the active key was 7C2E9B, so that first change must have happened between those two dates."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "old on-call key pagerduty"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "pagerduty key old before change"
+   },
+   "result": "- 08 Oct: Told Sam that the old on-call key 9A7B2C was revoked.\n- 26 Oct: PagerDuty key 7C2E9B worked fine during last night's on-call.\n- 01 Sep: Ade's birthday dinner was at Bamonte's, an old-school Italian place.\n- 17 Oct: The issue was found: a payload key was renamed.\n- 10 Aug: Saving an hour if Tom syncs before merging.\n- 10 Aug: PagerDuty rotation starts tomorrow. 12 Aug: Daniel is on-call this week.\n- 10 Aug: Wants aicoo to remind Tom to sync before merging next time.\n- 13 Aug: Daniel accepted Aicoo's offer to pull the incident timeline from PagerDuty, as it would save time.\n- Them want"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1517,
+   "out": 27,
+   "usd": 0.000196218
+  },
+  {
+   "in": 1573,
+   "out": 26,
+   "usd": 0.00011577
+  },
+  {
+   "in": 1876,
+   "out": 58,
+   "usd": 0.000151496
+  }
+ ],
+ "memChars": 1039,
+ "promptChars": 5560
+}

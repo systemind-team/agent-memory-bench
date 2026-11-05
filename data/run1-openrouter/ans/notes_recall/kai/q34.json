@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "Hey aicoo, 今天有啥好消息?",
+ "reply": [
+  "凯哥周日好！今天的好消息：你父亲血压正常，精神也不错，昨天公园走得开心。女儿扮小兔子Halloween玩得尽兴，这个开心能持续一整周。\n\n另外Grace那边——她周四对Q3 summary的feedback其实挺积极的，只加一个customer testimonial section就行，说明整体方向她认可，不是什么大改动。你周一上午10:30的pricing meeting也是准备充分的，Ben那边data已经到位。\n\n今天好好休息，明天开始收quotes。还有什么要帮你看的吗？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13104,
+   "out": 112,
+   "usd": 0.00015031744
+  }
+ ],
+ "memChars": 46870,
+ "promptChars": 51576
+}

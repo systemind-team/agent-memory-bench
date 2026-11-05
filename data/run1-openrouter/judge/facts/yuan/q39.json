@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The user previously specified that meeting notes should be organized by agenda item with decisions and action items, but the assistant's draft does not follow that format.",
+ "rule": false
+}

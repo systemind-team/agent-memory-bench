@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo correctly states it cannot find the meeting contents and asks for details, without applying the user's meeting notes format preference yet.",
+ "rule": false
+}

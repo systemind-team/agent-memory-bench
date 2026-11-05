@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "mo",
+ "qid": "q15",
+ "kind": "update",
+ "q": "大伟薪资最后敲定多少？",
+ "reply": [
+  "[sticker: think]\n\n大伟薪资最后是1万85，9月1号起算。中间调整过几轮，从1万8加绩效到1万7底薪加绩效，最后定在1万85。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4401,
+   "out": 51,
+   "usd": 0.00006641348
+  }
+ ],
+ "memChars": 5119,
+ "promptChars": 9102
+}

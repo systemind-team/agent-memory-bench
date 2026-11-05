@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply uses an emoji ('周周早！') and the exclamation mark, which violates the user's explicit request on Sat 22 Aug to avoid emoji and stickers and be more formal; the gold requires no emoji or stickers in the response.",
+ "rule": true
+}

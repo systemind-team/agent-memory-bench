@@ -1,0 +1,36 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q23",
+ "kind": "update",
+ "q": "第二次改的title是什么？",
+ "reply": [
+  "最终标题定的是 **“Context-Aware Planning via Hierarchical Decomposition”**。",
+  "之前从初稿改过两次：最开始叫“Context-Aware Hierarchical Planning for LLMs”，后来简化成“Context-Aware Planning”，再后来加上了Hierarchical Decomposition。",
+  "明天meeting带去的论文和slides里都是这个标题～"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "论文标题 title 第二次改"
+   },
+   "result": "- 27 Oct: 今天开始finalize论文标题，跑最后一个实验。最终标题确定为Context-Aware Planning via Hierarchical Decomposition。\n- 28 Sep: 周予安将论文标题从“Context-Aware Hierarchical Planning for LLMs”改为“Context-Aware Planning”。\n- 21 Sep: 先忙论文，晚上再说NSF的事。\n- 17 Oct: 火锅吃完了，继续改论文。\n- 08 Aug: 中午边吃外卖边看论文。\n- 27 Aug: 基本照着ICML的模板写论文。\n- 04 Oct: ICLR submission下周due，今天先final check论文。\n- 27 Sep: 计划今天把论文discussion部分收尾。\n- 07 Aug: 还在实验室，改论文改到凌晨了。\n- 18 Aug: 准备睡觉，计划明天要改论文introduction。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3644,
+   "out": 24,
+   "usd": 0.000228792
+  },
+  {
+   "in": 3867,
+   "out": 81,
+   "usd": 0.000215894
+  }
+ ],
+ "memChars": 4690,
+ "promptChars": 8977
+}

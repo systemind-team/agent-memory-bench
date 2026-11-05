@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant gave unsupported numbers (35 users, 82% toggle, 15 enterprise customers) instead of the correct answer of 3 from the chat.",
+ "rule": null
+}

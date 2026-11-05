@@ -1,0 +1,45 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q15",
+ "kind": "update",
+ "q": "Pricing v3的时候Ben提的那个价格是多少来着，后来没用那个。",
+ "reply": [
+  "是$49/user，后来A/B测试时改成了$44/user那个variant，最后上了$44。Ben当时觉得$49可行但需要算margin，你们后来决定用A/B测一下，结果$44那个variant转化率有8% lift。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "pricing v3 Ben price"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Ben pricing v3 价格"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1782,
+   "out": 24,
+   "usd": 0.00004935336
+  },
+  {
+   "in": 1835,
+   "out": 24,
+   "usd": 0.00005150516
+  },
+  {
+   "in": 1888,
+   "out": 62,
+   "usd": 0.00005674256
+  }
+ ],
+ "memChars": 819,
+ "promptChars": 5483
+}

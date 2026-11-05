@@ -1,0 +1,58 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "Is Lily going on vacation anytime soon? 她是不是请假了?",
+ "reply": [
+  "你之前记录里Lily请过10月6-7号的假（Ben cover她的accounts），那个已经过了。之后没有新的请假记录。她最近在跟Emily做accounts交接、转新角色，没提到休假。",
+  "你周一要找她拿Aurora quote，到时候可以顺便问一声？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lily vacation off leave PTO"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lily 请假 休假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Lily vacation"
+   },
+   "result": "- 25 Oct: Emily started onboarding, taking over Lily's accounts, Lily moving to new role.\n- 下周和Ravi、Lily对齐一下roadmap。\n- 13 Oct: Lily called to finalize enterprise handover doc.\n- 16 Sep: Lily在跟，她催人有一套。\n- 14 Sep: 写了email给Lily，让aicoo sense check\n- 10 Sep: Lily的Aurora custom reporting初步scope看着reasonable。\n- 31 Aug: Lily approved for Oct 6–7 off; Ben will cover her accounts.\n- 21 Sep: Lily发来Aurora integration timeline, 他们说custom module可以在Q1做。原来谈判是Q3/Q4关闭，客户推动Q3，现在Lily说可以在Q1做。\n- 19 Aug: 需要在周五前review Lily的Aurora pricing add-on proposal。\n- 08 Sep: 林凯要求Lily先别commit custom reporting，等自己review完。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1743,
+   "out": 25,
+   "usd": 0.00004785116
+  },
+  {
+   "in": 1797,
+   "out": 24,
+   "usd": 0.00004996236
+  },
+  {
+   "in": 1850,
+   "out": 21,
+   "usd": 0.00001861104
+  },
+  {
+   "in": 2092,
+   "out": 73,
+   "usd": 0.00006591816
+  }
+ ],
+ "memChars": 708,
+ "promptChars": 5385
+}

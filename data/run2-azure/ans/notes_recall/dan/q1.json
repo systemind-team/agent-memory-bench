@@ -1,0 +1,84 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "how many coffees did i have that first week?",
+ "reply": [
+  "你的第一周是从8月3号那个周一开始的吧？那天你跟我说“咖啡计数：这周已经14杯了”，等于到周一就已经14杯了。",
+  "整个一周具体数字没记全，但按趋势看，每天大概2–3杯的样子。早上5点被Biscuit叫醒那天就喝了3杯😅",
+  "需要我把8月那周每天的记录翻出来吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "coffee"
+   },
+   "result": "Coffee count\n11 Aug: 2 today (first at 6:30, woke at 5 by Biscuit)\n09 Aug: lazy morning, coffee and a book\n12 Aug: 2 today (prepping for interview)\n14 Aug: 2 today (started early on billing refactor)\n16 Aug: 2 today (pre-run coffee and bagel, then 10mi with Ade)\n20 Sep: 2 today (morning coffee, lazy afternoon)\n18 Sep: 2 today (afternoon coffee)\n25 Sep: 2 today (morning and afternoon, trying to stay under 3)\n29 Sep: 2\n30 Sep: 1 today\n02 Oct: 3\n23 Oct: 3 today (woke at 5 by Biscuit, tired, moved from Oct 22)\n09 Oct: 2"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "coffee first week"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "coffee week"
+   },
+   "result": "#548 Sun 04 Oct 22:01 aicoo: snoring pup. alert ready. sleep well\n#549 Mon 05 Oct 08:15 Them: monday. coffee count: 2. feeling okay about the week ahead\n#550 Mon 05 Oct 09:30 Them: priya just asked for a status on the billing dry run results from last week\n---\n#0 Mon 03 Aug 09:15 Them: morning. coffee count this week: 14 so far. may need to cut back.\n#1 Mon 03 Aug 10:30 aicoo: good morning dan. noted. anything else?"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "coffee week"
+   },
+   "result": "[coffee] 09 Aug: lazy morning, coffee and a book\n[coffee] 18 Sep: 2 today (afternoon coffee)\n[coffee] 20 Sep: 2 today (morning coffee, lazy afternoon)\n[coffee] 16 Aug: 2 today (pre-run coffee and bagel, then 10mi with Ade)\n[billing-migration] 11 Aug: Priya covering backend next week\n[about-me] 31 Oct: battery at 79%; Dan will order a new one this week\n[billing-migration] 30 Aug: Tom working on GraphQL billing schema; Dan to review next week\n[stripe-webhook] 25 Aug: pager duty rotation for Sep up, Dan week 2 (Sep 7-13)\n[billing-migration] 24 Aug: Priya out all week; Tom handling billing standup"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "coffee count first week"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2776,
+   "out": 20,
+   "usd": 0.00013592
+  },
+  {
+   "in": 2984,
+   "out": 22,
+   "usd": 0.00018072
+  },
+  {
+   "in": 3035,
+   "out": 21,
+   "usd": 0.000145046
+  },
+  {
+   "in": 3203,
+   "out": 21,
+   "usd": 0.000317798
+  },
+  {
+   "in": 3465,
+   "out": 23,
+   "usd": 0.000236466
+  },
+  {
+   "in": 3531,
+   "out": 95,
+   "usd": 0.000198998
+  }
+ ],
+ "memChars": 5478,
+ "promptChars": 10046
+}

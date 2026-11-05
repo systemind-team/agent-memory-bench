@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo的回复中每条消息之间均用空行分隔，符合用户之前要求的段落间空行格式。",
+ "rule": true
+}

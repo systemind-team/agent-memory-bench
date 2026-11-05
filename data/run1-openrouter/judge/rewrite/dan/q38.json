@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant acknowledges the preference by offering to format notes with Action Items at the top and asks for the missing content, without making up facts.",
+ "rule": true
+}

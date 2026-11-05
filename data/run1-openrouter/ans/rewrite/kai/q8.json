@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "Pricing per user那个launch plan，最后定的价格是44还是多少？",
+ "reply": [
+  "凯哥早上好。pricing最终定的就是$44/user/month，就是A/B测试里转换率高8%的那个版本。Ben建议12/1 launch直接上v3版本，不用再分阶段推了。周一10:30你和Grace、Ben的meeting上会做最终确认。",
+  "你昨天带家人去公园怎么样？父亲身体都稳定吧？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3050,
+   "out": 86,
+   "usd": 0.00003934952
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10833
+}

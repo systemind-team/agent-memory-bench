@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo asks for the meeting details and offers to format them per the user's preference (agenda item + decision/action items), which matches the gold requirement.",
+ "rule": true
+}

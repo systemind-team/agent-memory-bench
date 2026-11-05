@@ -1,0 +1,22 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "who were all the data eng candidates, and who took it?",
+ "reply": [
+  "you interviewed maria, jordan, and david chen. david accepted, started officially on wed oct 21.",
+  "the other two didn't move forward. david's working on billing migration helper and bug fixes — solid start."
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5307,
+   "out": 59,
+   "usd": 0.00023103
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17932
+}

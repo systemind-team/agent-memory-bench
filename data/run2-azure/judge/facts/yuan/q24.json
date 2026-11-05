@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claimed the third title change happened on August 20, but the chat evidence only shows a title change on September 13 and does not support an August 20 date or a third change.",
+ "rule": null
+}

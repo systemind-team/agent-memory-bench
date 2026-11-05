@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply contains no image or sticker, following the user's prior request to stop sending them.",
+ "rule": true
+}

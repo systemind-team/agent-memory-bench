@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "那个offsite在Hangzhou，日期是Oct 20-21对吗？",
+ "reply": [
+  "凯哥，offsite是10月27-28日，不是10月20-21日。周一回办公室的路上可以跟你对一下action items。收拾好出门了吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5083,
+   "out": 44,
+   "usd": 0.000221414
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14918
+}

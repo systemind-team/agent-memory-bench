@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "morning. hope you had a good run yesterday",
+  "battery at 79% still — don't forget to order that new one this week before wednesday's migration",
+  "ade's jollof rice leftovers in the fridge?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3081,
+   "out": 54,
+   "usd": 0.00002969484
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10772
+}

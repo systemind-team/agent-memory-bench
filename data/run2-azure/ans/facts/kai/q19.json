@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "那个offsite在Hangzhou，日期是Oct 20-21对吗？",
+ "reply": [
+  "是的，凯哥，杭州offsite是10月20-21号（周二周三），Grace订了民宿，12人参加。",
+  "离现在还有20天，怎么啦——是不是在想议程或者要跟Grace提前沟通什么？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "offsite Hangzhou date"
+   },
+   "result": "- 13 Oct: Q4 planning offsite in Hangzhou, Oct 20-21, Grace booked 民宿. 20 Oct: 杭州民宿已确认10/20-21，12人参加。17 Oct: 下周二周三（20-21 Oct）杭州有offsite。\n- 05 Sep: Ravi的新hire start date delayed to Nov 15。\n- 12 Oct: Grace pinged about Q4 offsite planning.\n- 25 Aug: Ravi confirmed security audit for integration started yesterday, due date Sep 22.\n- 17 Oct: 下周二周三（20-21 Oct）杭州有offsite。\n- 27 Oct: offsite先讨论engineering capacity，Ravi说dark mode toggle需要额外资源。Yuki在offsite分享了dark mode final visuals，团队反馈很好。\n- 27 Oct: 明天Q4 offsite在杭州，一共5人（Ravi、Yuki、Omar、Emily），明早8点出发。\n- 14 Sep: 林凯在14 Sep 14:00提到，Emily Tan上周接受了offer，他让Ben安排"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1785,
+   "out": 23,
+   "usd": 0.000250258
+  },
+  {
+   "in": 2073,
+   "out": 57,
+   "usd": 0.000146482
+  }
+ ],
+ "memChars": 795,
+ "promptChars": 5458
+}

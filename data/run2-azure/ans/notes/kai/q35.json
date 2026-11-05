@@ -1,0 +1,27 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "aicoo, 早，这周怎么安排的?",
+ "reply": [
+  "凯哥，周一早！周计划：",
+  "1）10:00 pricing prep，10:30跟Grace和Ben定pricing launch decision（Dec 1 launch）。",
+  "2）跟Grace确认SEA expansion headcount approval timeline，Omar催了几次了。",
+  "3）跟Ravi确认integration security audit retest状态，上次说可能轻微delay。",
+  "4）Emily weekly check-in——她第二周了，应该独立接几个account了。",
+  "5）收集customer testimonial：联系Lily要Aurora的quote，联系Omar要Singapore两个top客户的。Grace deadline是10月25，你已经晚了几天，最好这周搞定。",
+  "另外你父亲今天怎么样？早上问过没有？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12741,
+   "out": 165,
+   "usd": 0.000522634
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50328
+}

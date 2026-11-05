@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "回复的PR描述末尾包含了Risk部分，符合用户之前明确提出的格式要求。",
+ "rule": true
+}

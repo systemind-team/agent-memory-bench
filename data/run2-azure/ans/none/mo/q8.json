@@ -1,0 +1,58 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "给蓝驰的用户次留数据是多少？",
+ "reply": [
+  "上次蓝驰尽调时（9月22日）你提过用户次留是34%，后来没有更新这个数字的记录。最近两周的留存数据你有更新吗？我可以去拉一下后台看看。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 次留 数据"
+   },
+   "result": "#397 Mon 21 Sep 14:01 aicoo: 好的，以后不发贴图\n#398 Tue 22 Sep 09:20 Them: 蓝驰尽调要我们用户次留数据，现在34%\n#399 Tue 22 Sep 09:21 aicoo: 34%对健康类小程序算中上，我准备一下对比数据包"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "次留 用户 蓝驰 数据 更新"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "用户留存 蓝驰"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1104,
+   "out": 25,
+   "usd": 0.000062544
+  },
+  {
+   "in": 1221,
+   "out": 29,
+   "usd": 0.000089354
+  },
+  {
+   "in": 1279,
+   "out": 23,
+   "usd": 0.000098174
+  },
+  {
+   "in": 1331,
+   "out": 51,
+   "usd": 0.000124774
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3627
+}

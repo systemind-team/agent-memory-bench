@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "Pricing那个Nov 1 launch和Nov 15 delay，中间隔了多久？",
+ "reply": [
+  "凯哥，从之前的记录看，定价原本是Nov 1 launch，后来Ben说A/B测试结果还没出来、不想rush，所以推迟到Nov 15。中间隔了14天，两周时间。后来Dec 1正式上线。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36346,
+   "out": 53,
+   "usd": 0.00041564656
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91613
+}

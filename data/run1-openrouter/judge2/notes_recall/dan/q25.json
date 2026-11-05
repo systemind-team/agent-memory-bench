@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply lists only three date moves with incorrect dates (Nov 15, Oct 12, Oct 26) instead of the correct five: Oct 12, Sep 28, Nov 5, Nov 15, Oct 12.",
+ "first": "wrong",
+ "rule": null
+}

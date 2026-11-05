@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The draft PR description ends with a Checklist section, but the user's stated preference is that PR descriptions always end with a Risk section, which is missing.",
+ "rule": false
+}

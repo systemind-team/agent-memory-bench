@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Lily搞的那个大单，Aurora那个，最后签了多少？",
+ "reply": [
+  "Aurora最后签了950k，凯哥。本来Q3的800k deal，后来加了custom module add-on到950k，推到Q4 close。9月26号你和Lily庆祝过。",
+  "你昨天还说要周一找Lily要Aurora的customer quote放进Q3 wins summary里，正好一起问。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Aurora contract signed 950k"
+   },
+   "result": "[enterprise-deal-omar] 26 Sep: Aurora contract signed, 950k deal closed.\n[about-me] 26 Sep: Aurora contract signed, 950k deal closed; Kai and Lily celebrated.\n[reminder-sync-lily-aurora-legal] 30 Aug: Aurora legal signed! Deal closed $800K. 04 Sep: Aurora deal pushed to Q4 close, value now 950k with add-ons (was $800K). 07 Sep: Lily said legal basic clear, awaiting final signature.\n[q3-priority-list] 30 Aug: Aurora legal signed! Deal closed $800K. 04 Sep: Aurora deal pushed to Q4 close, value now 950k with add-ons; priority 1 (Aurora close) now moves to Q4. 07 Sep: Lily said legal basic clear,"
+  }
+ ],
+ "calls": [
+  {
+   "in": 13371,
+   "out": 26,
+   "usd": 0.000668742
+  },
+  {
+   "in": 13953,
+   "out": 80,
+   "usd": 0.000821202
+  }
+ ],
+ "memChars": 48159,
+ "promptChars": 52873
+}

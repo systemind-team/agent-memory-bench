@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply starts with a summary rather than Action Items, ignoring the user's preference set on Sep 23.",
+ "rule": false
+}

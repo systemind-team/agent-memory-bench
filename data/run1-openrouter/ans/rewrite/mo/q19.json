@@ -1,0 +1,58 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "跟蓝驰当面聊具体条款是哪天？",
+ "reply": [
+  "查了一下记录，蓝驰的条款谈判在上个月已经完成了，10月20日种子轮封闭，估值7200万，蓝驰独投。第二笔300万也于10月26日到账。",
+  "目前没有新的当面聊条款的安排。你之前说蓝驰合伙人想约下周复盘，你推到了11月——今天已经是11月1日，要不要把那个复盘会排上日程"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 当面 聊 条款 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 条款 时间 会议"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 面聊 条款 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4035,
+   "out": 28,
+   "usd": 0.0000413714
+  },
+  {
+   "in": 4092,
+   "out": 26,
+   "usd": 0.0000435232
+  },
+  {
+   "in": 4147,
+   "out": 27,
+   "usd": 0.0000458374
+  },
+  {
+   "in": 4203,
+   "out": 94,
+   "usd": 0.0000535514
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8489
+}

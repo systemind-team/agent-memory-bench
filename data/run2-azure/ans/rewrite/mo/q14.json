@@ -1,0 +1,82 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q14",
+ "kind": "update",
+ "q": "办公室租金现在是多少？",
+ "reply": [
+  "从记忆里查到，8月时静安寺附近办公室押金付了6.6万，后来换到长宁办公室，月租1.8万，签两年免租一个月。这是目前的状态。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "办公室 租金 月租"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "长宁 办公室 月租"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "静安寺 办公室 月租"
+   },
+   "result": "#18 Thu 06 Aug 09:30 Them: 办公室看好了，静安寺附近一个月租2万2\n#19 Thu 06 Aug 14:00 Them: 办公室定在静安寺附近，月租2万2\n#20 Thu 06 Aug 14:02 aicoo: 位置不错，方便见投资人和客户\n---\n#17 Wed 05 Aug 14:01 aicoo: 基本好了，财务模型和用户增长曲线都备齐了\n#18 Thu 06 Aug 09:30 Them: 办公室看好了，静安寺附近一个月租2万2\n#19 Thu 06 Aug 14:00 Them: 办公室定在静安寺附近，月租2万2"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "长宁 办公室 1.8万"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "押金 6.6万 办公室"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4007,
+   "out": 24,
+   "usd": 0.00016755
+  },
+  {
+   "in": 4060,
+   "out": 25,
+   "usd": 0.00017924
+  },
+  {
+   "in": 4114,
+   "out": 26,
+   "usd": 0.00019114
+  },
+  {
+   "in": 4313,
+   "out": 27,
+   "usd": 0.00023349
+  },
+  {
+   "in": 4369,
+   "out": 27,
+   "usd": 0.000199426
+  },
+  {
+   "in": 4439,
+   "out": 53,
+   "usd": 0.00027451
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8486
+}

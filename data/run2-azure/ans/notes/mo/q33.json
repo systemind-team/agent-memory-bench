@@ -1,0 +1,52 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "早啊，汇报下今天待办",
+ "reply": [
+  "Morning, Chen Mo",
+  "Today is Sunday 01 Nov, the start of a new quarter. Based on your notes, here's what's open today:",
+  "1. **Quarterly review prep** – you asked me to remind you on 01 Nov to do the Q4 review. Block some time this week to look back at Q3 numbers and set Q4 goals.",
+  "2. **Mia Japan trip report** – she came back from her 5-9 Oct field trip, the report is still pending. Maybe ping her today or first thing tomorrow.",
+  "3. **Chengdu association** – they added more orders last week (300+ per month now). No update on the signing. Worth a quick check on where it stands.",
+  "4. **Red shirt meeting prep** – you told them you'd wait for the next round after they reached out on 06 Oct. Follow up this week if you haven't heard back.",
+  "Anything else you want to prioritize this morning?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "周日待办 01 Nov"
+   },
+   "result": "[dawei-salary] Thu 01 Oct: 大伟今天跑养老驿站（新增）\n[about-me] Thu 01 Oct: Mia申请10月5-9号日本采风，已批，需出采风报告（新增）；Fri 09 Oct: 以后跟我说英文，练练（新增）\n[product-launch] Tue 01 Sep: 晨检iOS测试版昨晚闪退，阿杰在修；上线延期到9月10号（仍按此）；安卓内测改为10月15号（之前10月），阿杰已给排期；小雨成都合作推迟至10月，需自己搞推广，建议先靠抖音小视频拉DAU；成都健康管理师协会9月对接（新增）\n[about-me] Sun 06 Sep: 他们需要我帮忙盘点和排优先级，直说数据，不啰嗦；周报加「本周风险」；PR描述加Risk部分；称呼为陈默；回复不用感叹号；以后消息每段用空行隔开；不发贴图（moved from Tue 01 Sep，新增风格要求；Sat 19 Sep新增格式要求；Mon 21 Sep新增不发贴图）"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "周日 01 Nov 待办 日程"
+   },
+   "result": "[dawei-salary] Thu 01 Oct: 大伟今天跑养老驿站（新增）\n[about-me] Thu 01 Oct: Mia申请10月5-9号日本采风，已批，需出采风报告（新增）；Fri 09 Oct: 以后跟我说英文，练练（新增）\n[dawei-salary] Fri 04 Sep: 大伟薪资最后谈到1万85，9月1号起算；9月2日到岗，会议室已布置好；合同和电脑已好；入职资料、合同和绩效方案已发，周三（26 Aug）催回传，身份证已收到，合同和绩效回执未到；入职介绍邮件已发（承诺，已兑现）；培训日程和团队wiki链接已发他邮箱；入职手续全部办妥，提醒已取消；9月4日大伟在梳理渠道，明天出方案\n[product-launch] Tue 01 Sep: 晨检iOS测试版昨晚闪退，阿杰在修；上线延期到9月10号（仍按此）；安卓内测改为10月15号（之前10月），阿杰已给排期；小雨成都合作推迟至10月，需自己搞推广，建议先靠抖音小视频拉DAU；成都健康管理师协会9月对接（新增）\n[about-me] Sun 06 Sep: 他们需要我帮忙盘点和排优先级，直说数据，不啰嗦；周报加「本周风险」；PR描述加Risk部分；称呼为陈默；回复不用感叹号；以后消息每段用空行隔开；不发贴图（moved from Tue 01 Sep，新增风格要求；Sat 19 Sep新增格式要求；Mon 2"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2427,
+   "out": 24,
+   "usd": 0.000110694
+  },
+  {
+   "in": 2716,
+   "out": 27,
+   "usd": 0.000173064
+  },
+  {
+   "in": 3131,
+   "out": 210,
+   "usd": 0.00031687
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6254
+}

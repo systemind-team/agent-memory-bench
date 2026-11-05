@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant incorrectly claims the docs were updated on 20 Sep and that Dan sent Sam a link then, but the chat only shows the docs were updated on 21 Sep with no mention of sending a link.",
+ "rule": null
+}

@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q15",
+ "kind": "update",
+ "q": "Pricing v3的时候Ben提的那个价格是多少来着，后来没用那个。",
+ "reply": [
+  "凯哥，Ben当初提的pricing v3是$44/user/month。后来A/B测试出来这个版本比预期高8% conversion lift，但最终决定12/1 launch直接上v3，所以现在就是用的那个价格。",
+  "你周一10:30跟Grace和Ben的meeting就是做这个final decision。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3026,
+   "out": 77,
+   "usd": 0.000174516
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10824
+}

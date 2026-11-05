@@ -1,0 +1,59 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "who were all the data eng candidates, and who took it?",
+ "reply": [
+  "candidates were Maria Torres, Jordan Liu, and David Chen. David Chen took the role — contractor at DoorDash, knew dbt, and you'd updated the rubric with more SQL focus.",
+  "want me to grab his contact or onboarding status?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "candidate data eng interview"
+   },
+   "result": "#93 Wed 12 Aug 07:32 aicoo: good luck. who's the candidate?\n#94 Wed 12 Aug 10:00 Them: first interview for new data engineer candidate: maria torres. solid sql.\n#95 Wed 12 Aug 10:02 aicoo: sounds promising. any flags?"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "data engineer candidates"
+   },
+   "result": "- 17 Aug: Dan started sketching a new interview rubric for data engineer with more SQL focus.\n- 21 Aug: A new candidate, Jordan Liu, formerly a data engineer at Spotify, has a good take-home.\n- 28 Sep: Dan Okafor interviewed three candidates: Maria, Jordan, and David; David was hired.\n- 06 Aug: One customer's data still out of sync due to last week's migration incident.\n- 28 Aug: Daniel \"Dan\" Okafor caused a migration incident on Tuesday where a column was dropped instead of renamed but was rolled back with no data loss because Lena caught it before production sync."
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "David Chen candidate"
+   },
+   "result": "#282 Sun 06 Sep 17:45 Them: biscuit is staring at me. dinner time apparently\n#283 Mon 07 Sep 09:45 Them: candidate three: david chen. contractor at doordash. knows dbt.\n#284 Mon 07 Sep 09:47 aicoo: noted. doordash scale experience could be useful."
+  }
+ ],
+ "calls": [
+  {
+   "in": 1481,
+   "out": 23,
+   "usd": 0.000186418
+  },
+  {
+   "in": 1586,
+   "out": 21,
+   "usd": 0.000207348
+  },
+  {
+   "in": 1751,
+   "out": 21,
+   "usd": 0.00015035
+  },
+  {
+   "in": 1862,
+   "out": 56,
+   "usd": 0.000284908
+  }
+ ],
+ "memChars": 1090,
+ "promptChars": 5610
+}

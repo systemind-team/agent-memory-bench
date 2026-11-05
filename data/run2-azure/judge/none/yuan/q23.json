@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant gives 'Context-Aware Planning' as the latest title, which is not supported by the chat and conflicts with the last recorded update to 'Hierarchical Planning with Graph Attention'.",
+ "rule": null
+}

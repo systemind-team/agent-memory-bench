@@ -1,0 +1,86 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "how many times did the cutover date move? list them.",
+ "reply": [
+  "the cutover date moved **4 times**:",
+  "1. **Oct 12** (original) → **Sep 28** — Priya thought Oct 12 was too tight",
+  "2. **Sep 28** → **Nov 5** — more breathing room",
+  "3. **Nov 5** → **Nov 15** — slipped again",
+  "4. **Nov 15** → **Oct 26** — Priya wanted it closer",
+  "then it locked back to **Oct 12** on Sep 18, and that held. so technically 4 shifts before it settled."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover date moved"
+   },
+   "result": "#160 Wed 19 Aug 10:45 aicoo: glad it was minor. you're off rotation friday, right?\n#161 Wed 19 Aug 14:30 Them: cutover date moved. priya says nov 5 now. gives breathing room.\n#162 Wed 19 Aug 14:31 aicoo: that's huge. less stress."
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover changed"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover Sep 28"
+   },
+   "result": "#105 Thu 13 Aug 09:16 aicoo: clean slate. feels good\n#106 Thu 13 Aug 10:00 Them: priya approved the sep 28 cutover. we're all aligned\n#107 Thu 13 Aug 10:30 Them: migration incident post-mortem this afternoon. i'll draft notes\n---\n#86 Tue 11 Aug 12:32 aicoo: nice. dig inn's bowls are solid\n#87 Tue 11 Aug 14:00 Them: back. priya wants cutover timeline moved to sep 28. she thinks oct 12 is too tight\n#88 Tue 11 Aug 14:02 aicoo: that's two weeks earlier — makes sense given the work left"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover date"
+   },
+   "result": "#590 Fri 09 Oct 08:45 aicoo: 好，明白了\n#591 Fri 09 Oct 09:30 Them: priya just sent a slack asking about the cutover checklist. i'll update it this morning\n#592 Fri 09 Oct 10:15 Them: checklist updated. added a row for webhook service url swap\n---\n#378 Fri 18 Sep 09:17 aicoo: tea day? or a bold experiment\n#379 Fri 18 Sep 10:00 Them: billing cutover final date: oct 12 again. we got back on track.\n#380 Fri 18 Sep 10:02 aicoo: that's great. back to the original plan. you can lock in the timeline now\n---\n#372 Thu 17 Sep 15:22 aicoo: a diplomatic start\n#373 Thu 17 Sep 16:45 Them: priya mentioned the cut"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Nov 15 cutover"
+   },
+   "result": "#486 Wed 30 Sep 10:01 aicoo: green across the board. solid\n#487 Wed 30 Sep 11:00 Them: priya wants to move cutover to oct 26. says nov 15 is too far\n#488 Wed 30 Sep 11:01 aicoo: oct 26. closer but doable\n---\n#273 Sat 05 Sep 11:30 Them: dep updates are breaking the billing module. pinning versions for now\n#274 Sat 05 Sep 14:55 Them: cutover slipped again. nov 15 now. priya frustrated but ok.\n#275 Sat 05 Sep 14:57 aicoo: november 15 noted. longer runway for testing"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5330,
+   "out": 22,
+   "usd": 0.0000518868
+  },
+  {
+   "in": 5442,
+   "out": 21,
+   "usd": 0.0000563528
+  },
+  {
+   "in": 5492,
+   "out": 23,
+   "usd": 0.0000585452
+  },
+  {
+   "in": 5684,
+   "out": 21,
+   "usd": 0.00005786312
+  },
+  {
+   "in": 6027,
+   "out": 23,
+   "usd": 0.0000802662
+  },
+  {
+   "in": 6231,
+   "out": 131,
+   "usd": 0.00008068844
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17930
+}

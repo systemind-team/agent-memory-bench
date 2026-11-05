@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply uses an exclamation mark in 'morning!', violating the user's instruction from September 12 to never use exclamation marks.",
+ "rule": false
+}

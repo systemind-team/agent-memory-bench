@@ -1,0 +1,48 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q22",
+ "kind": "aggregate",
+ "q": "晨检上线推迟了多少次？每次计划在什么日子？",
+ "reply": [
+  "晨检上线推迟了3次",
+  "第一次计划8月底上线，延期到9月10号",
+  "第二次推到9月18号",
+  "第三次推到9月25号，那次说死了，最后9月28号正式上线的"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检上线 推迟 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "晨检上线推迟 计划日期"
+   },
+   "result": "[150] 08 Sep · fact: 晨检线上线推迟到9月18号，iOS审核慢  → replaced 08 Sep by [151] 晨检线上线推迟到9月18号，iOS审核慢  (from #279)\n[151] 08 Sep · fact: 晨检线上线推迟到9月18号，iOS审核慢  (from #280)\n[246] 28 Sep · fact: 晨检上线一天下载500  (from #459)\n[95] 27 Aug · plan: 晨检上线延期到9月10号  (from #174)\n[160] 11 Sep · fact: 晨检上线18号，营销物料需确认  (from #311)\n[242] 28 Sep · fact: 晨检上线首日下载502，无闪退，评分4.8  (from #462)\n[197] 20 Sep · fact: 晨检上线再拖，9月25号，这次说死了  (from #378, #380)\n[162] 12 Sep · plan: 晨检上线当天投一波信息流，预算2万  (from #314, #315, #316, #317)\n[171] 14 Sep · feeling: 下周晨检上线加上融资推进，事情不少  (from #333)\n[90] 27 Aug · plan: 今晚发蓝驰催款邮件，用上周数据并强调iOS上线日期  (from #165)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2627,
+   "out": 25,
+   "usd": 0.0000255374
+  },
+  {
+   "in": 2681,
+   "out": 25,
+   "usd": 0.0000277298
+  },
+  {
+   "in": 3036,
+   "out": 57,
+   "usd": 0.0000447412
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6695
+}

@@ -1,0 +1,47 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q29",
+ "kind": "open_loop",
+ "q": "that stripe webhook spec i was gonna send tom—what happened?",
+ "reply": [
+  "you sent it to tom back in august—he merged it, left one comment about error codes. that spec turned into the retry logic pr, then the service split.",
+  "the whole thing's been live and quiet since mid-october. your cutover checklist from yesterday should reference the service spec that came out of it."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Stripe webhook spec Tom send"
+   },
+   "result": "#166 Thu 20 Aug 08:15 Them: yeah. biscuit walk took foreever.\n#167 Thu 20 Aug 14:45 Them: remind me to send tom that stripe webhook spec\n#168 Thu 20 Aug 14:45 aicoo: will do, when's the deadline"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Stripe webhook spec send Tom"
+   },
+   "result": "- 22 Aug: Dan sent the Stripe webhook spec to Tom early. 25 Aug: Tom merged the webhook spec, with one review comment about error codes. 01 Sep: The Stripe webhook spec final review is done and is being merged this afternoon. 16 Sep: Received minor review comments from Tom on the Stripe webhook PR.\n- 20 Aug: Today's task is to draft the webhook spec.\n- 10 Sep: Daniel opened a PR for Stripe webhook retry logic. 13 Sep: Stripe webhook PR merged.\n- 02 Oct: Tom moved Stripe webhooks to its own service in a weekend. 05 Oct: Tom's PR to split out the webhook service is in review and looks solid.\n- 2"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1558,
+   "out": 25,
+   "usd": 0.000203708
+  },
+  {
+   "in": 1660,
+   "out": 25,
+   "usd": 0.000087656
+  },
+  {
+   "in": 1994,
+   "out": 73,
+   "usd": 0.000184676
+  }
+ ],
+ "memChars": 1244,
+ "promptChars": 5770
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply omits required events like '想加GPTR' and '没碰它改intro', fabricates dates and details not in the chat, and misorders events, failing the aggregate probe criteria.",
+ "first": "wrong",
+ "rule": null
+}

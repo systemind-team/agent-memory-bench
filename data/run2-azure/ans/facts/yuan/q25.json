@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q25",
+ "kind": "update",
+ "q": "论文title在改到Context-Aware Planning之后又改了什么？",
+ "reply": [
+  "在你改到「Context-Aware Planning」之后，10月27日你又最终确定为了「Context-Aware Planning via Hierarchical Decomposition」，加上了层次化分解这个点，让标题更完整地呼应了你和Prof. Lin讨论后聚焦的两个核心贡献。",
+  "现在slides里的论文标题是最终版了吗？要不要顺一遍确保一致？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Context-Aware Planning title change after"
+   },
+   "result": "- 28 Sep: 周予安将论文标题从“Context-Aware Hierarchical Planning for LLMs”改为“Context-Aware Planning”。\n- 27 Oct: 今天开始finalize论文标题，跑最后一个实验。最终标题确定为Context-Aware Planning via Hierarchical Decomposition。\n- 19 Oct: 结果出来了，复杂场景下context-aware还是比gptr高2个点，但是方差有点大。\n- 29 Sep: 周予安决定根据Prof. Lin的意见调整introduction，使contribution更聚焦于hierarchical planning和context-awareness两个点。\n- 29 Sep: 周予安已完成full pipeline运行且无问题，当天开始修改introduction，并根据Prof. Lin的意见调整，使contribution更聚焦于hierarchical planning和context-awareness两个点。\n- 13 Sep: 组会讲完了，Prof. Lin建议我补充一个关于context window size的讨论。\n- 27 Sep: 周予安希望aicoo围绕hierarchical planning的scalability来写f"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1640,
+   "out": 21,
+   "usd": 0.000218688
+  },
+  {
+   "in": 1965,
+   "out": 81,
+   "usd": 0.000183066
+  }
+ ],
+ "memChars": 784,
+ "promptChars": 5097
+}

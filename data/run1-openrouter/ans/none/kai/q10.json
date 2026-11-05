@@ -1,0 +1,46 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "Aurora deal最初是多少value来着，我印象中后来加了custom模块涨了。",
+ "reply": [
+  "凯哥，翻到了。9月初Lily的update：Aurora deal后来加了add-ons，value现在是$950k，推到Q4 close。你印象没错，确实涨了。",
+  "周一找Lily要customer quote的时候，可以顺便让她update一下现在Aurora deal的status，看看Q4 closing进度怎么样。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Aurora deal value custom模块"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Aurora deal value"
+   },
+   "result": "#403 Fri 04 Sep 09:05 aicoo: 早凯哥，等Lily消息，随时叫我。\n#404 Fri 04 Sep 09:25 Them: Lily update: Aurora deal pushed to Q4 close, value now 950k with add-ons。\n#405 Fri 04 Sep 09:26 aicoo: Q4 close，950k，这个数也不错。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1421,
+   "out": 25,
+   "usd": 0.0000181482
+  },
+  {
+   "in": 1475,
+   "out": 23,
+   "usd": 0.0000201782
+  },
+  {
+   "in": 1595,
+   "out": 80,
+   "usd": 0.0000296786
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4375
+}

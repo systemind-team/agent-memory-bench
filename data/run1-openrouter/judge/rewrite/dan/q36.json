@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant applies the stored preference by explicitly stating it will end the PR description with a Risk section, which matches the gold requirement.",
+ "rule": true
+}

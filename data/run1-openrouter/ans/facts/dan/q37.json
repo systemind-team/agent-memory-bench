@@ -1,0 +1,45 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "give me standup notes for today",
+ "reply": [
+  "**Standup Notes – Sun 01 Nov**\n\n**Yesterday (Sat)**\n- Tom's Stripe refactor v2 is in review, edge cases covered ✅\n- Cutover checklist almost done, just needs rollback steps added\n- Battery at 79% – ordering a new one this week\n- Dry run results to include in the checklist\n\n**Today (Sun)**\n- Add rollback steps to cutover checklist (don't forget to weave in dry run findings)\n- Sam's migration index strategy question still open – pair after standup?\n- Tom's refactor is the last big piece before cutover – any blockers to chase?\n\n**Blockers / Needs**\n- None flagged yet. Check with Tom if the review needs another pair of eyes."
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "standup notes format"
+   },
+   "result": "- 04 Sep: for standup notes, wants bullet points with timestamps.\n- 17 Oct: Tom changed the payload format without updating the handler.\n- 16 Oct: on-call handoff notes ready for Lena\n- 17 Oct: I will help Tom debug after standup.\n- 23 Sep: When asked for meeting notes, start with Action Items at the top.\n- 24 Aug: Priya is out all week; Tom is handling billing standup.\n- 08 Oct: Sam has a question about the migration index strategy and will pair with him after standup.\n- 13 Aug: Daniel plans to draft notes for the migration incident post-mortem. 28 Aug: Daniel will write the post-mortem repor"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "standup notes today sunday 01 november"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1435,
+   "out": 22,
+   "usd": 0.00003510276
+  },
+  {
+   "in": 1626,
+   "out": 27,
+   "usd": 0.0000266336
+  },
+  {
+   "in": 1682,
+   "out": 174,
+   "usd": 0.00005747336
+  }
+ ],
+ "memChars": 769,
+ "promptChars": 5266
+}

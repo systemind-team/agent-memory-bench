@@ -1,0 +1,82 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "Prof. Wang from MIT那篇论文发表在哪里了？",
+ "reply": [
+  "我记得你9月2号提到过Prof. Wang from MIT来做guest talk讲RL，但你没说过他具体哪篇论文、发表在哪里。",
+  "要不你告诉我大概是他哪篇工作？或者我搜一下他最近的publication？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Prof. Wang MIT"
+   },
+   "result": "#321 Wed 02 Sep 18:00 Them: 周五有个guest talk，speaker是Prof. Wang from MIT，讲RL。\n#322 Wed 02 Sep 18:05 aicoo: 已记录到日历：周五 guest talk，Prof. Wang from MIT，RL主题。\n#323 Wed 02 Sep 20:00 Them: 晚上写实验部分，先整理ablation结果。\n---\n#320 Wed 02 Sep 14:00 Them: 组会结束了，Prof. Lin说实验部分可以开始写了。\n#321 Wed 02 Sep 18:00 Them: 周五有个guest talk，speaker是Prof. Wang from MIT，讲RL。\n#322 Wed 02 Sep 18:05 aicoo: 已记录到日历：周五 guest talk，Prof. Wang from MIT，RL主题。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Prof. Wang from MIT paper publication"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "王教授 MIT 论文 发表"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Prof. Wang MIT"
+   },
+   "result": "[个人] 02 Sep: 周五有guest talk，speaker是Prof. Wang from MIT，讲RL\n[人物] 06 Sep: guest talk Prof. Wang from MIT讲RL planning，跟工作有点关系\n[实验室] 06 Sep: 下午guest talk Prof. Wang讲RL planning\n[个人] 29 Aug: 早上收到Prof. Lin的feedback，research statement需加preliminary results定量分析；加完mini-Imagenet top-1 accuracy对比后发回给Prof. Lin（之前28 Aug写完发给Prof. Lin）\n[个人] 14 Sep: 下午改intro并发给Prof. Lin\n[项目] 14 Sep: intro新版本已发给Prof. Lin\n[个人] 22 Oct 09:30 下午3点与Prof. Lin meeting\n[项目] 29 Aug: 早上收到Prof. Lin feedback，research statement需加定量分析；加mini-Imagenet top-1 accuracy对比后发回（之前28 Aug写完发给Prof. Lin）\n[个人] 28 Aug: 下午写完fellowship personal statement，发给P"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "guest talk Prof. Wang paper"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3734,
+   "out": 22,
+   "usd": 0.00003697848
+  },
+  {
+   "in": 3946,
+   "out": 25,
+   "usd": 0.00004582928
+  },
+  {
+   "in": 4000,
+   "out": 25,
+   "usd": 0.00004802168
+  },
+  {
+   "in": 4054,
+   "out": 22,
+   "usd": 0.0000416556
+  },
+  {
+   "in": 4374,
+   "out": 23,
+   "usd": 0.00057506
+  },
+  {
+   "in": 4464,
+   "out": 58,
+   "usd": 0.00006953968
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9628
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant used an emoji ('周周！') and a sticker-like expression, violating the user's request to avoid emojis and stickers and be more formal.",
+ "rule": true
+}

@@ -1,0 +1,36 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q29",
+ "kind": "open_loop",
+ "q": "that stripe webhook spec i was gonna send tom—what happened?",
+ "reply": [
+  "you asked me to remind you to send it to tom on thu 20 aug. i asked when the deadline was but you didn't say and we moved on.",
+  "since then the stripe webhook v2 spec was reviewed and approved on tue 27 oct — tom addressed your comments and it should be ready to merge.",
+  "so it looks like the spec got reviewed without you sending it. maybe tom grabbed it from somewhere else? want me to check if it's been merged yet?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "stripe webhook spec tom send"
+   },
+   "result": "#166 Thu 20 Aug 08:15 Them: yeah. biscuit walk took foreever.\n#167 Thu 20 Aug 14:45 Them: remind me to send tom that stripe webhook spec\n#168 Thu 20 Aug 14:45 aicoo: will do, when's the deadline"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5308,
+   "out": 25,
+   "usd": 0.0002122
+  },
+  {
+   "in": 5410,
+   "out": 105,
+   "usd": 0.00027842
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17938
+}

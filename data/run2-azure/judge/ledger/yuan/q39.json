@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The notes are not organized by agenda item with decision and action items listed under each, as requested by the user on day 65.",
+ "rule": false
+}

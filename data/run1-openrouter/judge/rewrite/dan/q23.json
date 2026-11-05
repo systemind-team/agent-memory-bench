@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant listed dates (Sep 28, Oct 26) that were never mentioned in the chat history, and it omitted Oct 12 (final) while including Oct 12 only as a crossed-out start.",
+ "rule": null
+}

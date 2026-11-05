@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "Pricing launch postpone了几次，从啥时候推到啥时候？",
+ "reply": [
+  "凯哥，我帮你理一下pricing launch的时间线：\n\n- **最早**：Nov 1（9月定的，v3 $44/user/month）\n- **推到** Nov 15（10月9日，Ben说要多测一轮）\n- **再推到** Dec 1（10月21日，因为dark mode并行占用工程资源）\n\n所以现在是**Dec 1 launch**。明天10:30你和Grace、Ben的会就是最终confirm这个日期。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13410,
+   "out": 100,
+   "usd": 0.00016176664
+  }
+ ],
+ "memChars": 48107,
+ "promptChars": 52831
+}

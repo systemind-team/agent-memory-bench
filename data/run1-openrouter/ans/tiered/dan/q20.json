@@ -1,0 +1,34 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "when did i have the billing_status panic?",
+ "reply": [
+  "sunday aug 30. the `billing_status` column was dropped and you had 3 hours of panic before the rollback fixed it.",
+  "that was the day the rollback fix went in. you said 'never again' and added the dry-run step."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing_status panic"
+   },
+   "result": "#236 Sat 29 Aug 18:05 aicoo: nice, asheville here you come\n#237 Sun 30 Aug 08:30 Them: the dropped column was `billing_status`. 3h of panic.\n#238 Sun 30 Aug 08:30 aicoo: critical column. glad rollback worked"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5326,
+   "out": 22,
+   "usd": 0.0000517244
+  },
+  {
+   "in": 5431,
+   "out": 61,
+   "usd": 0.0000591542
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17919
+}

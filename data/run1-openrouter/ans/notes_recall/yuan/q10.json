@@ -1,0 +1,23 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "Dr. Chen入职是哪天？",
+ "reply": [
+  "周二，11月3日。",
+  "我已经设了上午10点提醒带他熟悉实验室环境，包括GPU集群和代码仓库。",
+  "今天周一10点还有和Prof. Lin的线上meeting，材料都准备好了，需要提前看一眼吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4297,
+   "out": 61,
+   "usd": 0.00007963284
+  }
+ ],
+ "memChars": 6404,
+ "promptChars": 10749
+}

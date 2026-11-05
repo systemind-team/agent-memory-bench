@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "小雨招的兼职客服主管，一个月多少钱？",
+ "reply": [
+  "北京那个兼职客服主管，月费6千。",
+  "后来小雨又申请加了晚班兼职，每月多4000，已经批了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "兼职客服主管 薪资 小雨 招聘"
+   },
+   "result": "[customer-service-backup] Fri 18 Sep: 小雨请了北京一个兼职客服主管，月费6千，今天上岗，帮顶到18号（新增）\n[customer-service-backup] Sun 20 Sep: 小雨年假期间客服响应变慢，已调兼职、新招兼职主管；小雨下午销假回来，北京主管明早交接；aicoo已将客服工单汇总，优先处理退款投诉；Mon 21 Sep客服响应仍慢，北京兼职主管在跟，又培训两个临时客服（新增）\n[customer-service-training] Sat 24 Oct: 小雨提出增加兼职晚班，预算每月多4000元，已批准（新增）\n[customer-service-training] Fri 09 Oct: 小雨今天回来，客服响应恢复正常（之前小雨请假）\n[cash-runway] Wed 12 Aug: 客服外包预算压到每月4万5（小雨在谈，原报价超5万）\n[customer-service-training] 10月6日小雨请假，客服外包响应还行；Sat 10 Oct 英语练习有效，晨检上线DAU稳定\n[customer-service-training] Wed 02 Sep: 客服外包培训 — 小雨说预算再确认，现压到4万2（之前预算4万3）；合同已签；本周熟悉流程；成都合作推迟至10月，推广计划需调整\nTue 15 Sep: 小雨把"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2452,
+   "out": 27,
+   "usd": 0.0001017436
+  },
+  {
+   "in": 2905,
+   "out": 38,
+   "usd": 0.00004619468
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6262
+}

@@ -1,0 +1,23 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "dan the builder, 现在团队5个人：你、Tom、Lena、Sam 和 David Chen，Priya 管你们",
+  "David 10月下旬加入的，坐12号桌",
+  "这是要更新org chart还是有别的事想聊"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3069,
+   "out": 60,
+   "usd": 0.00021985
+  }
+ ],
+ "memChars": 6460,
+ "promptChars": 11072
+}

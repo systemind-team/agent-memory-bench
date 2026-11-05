@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant gives the date as October 26 and mentions November 5 as a backup, but the latest confirmed date in the chat is October 12.",
+ "rule": null
+}

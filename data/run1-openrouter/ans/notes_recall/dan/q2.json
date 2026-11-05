@@ -1,0 +1,46 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "what was the old pagerduty key before the first change?",
+ "reply": [
+  "The original key was **3F8D1A**, before it changed to 7C2E9B on Sep 24. That's the first change I've got recorded — the one from Aug 10 when you first saved the key for rotation isn't a change, just a note that you had it. So 3F8D1A is the earliest one in here.\n\nWhy the curiosity — something up with old keys?"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "PagerDuty key first change original"
+   },
+   "result": "[checkout-spec] 14 Oct: Lena's PagerDuty key was 5B1C6D before last change\n[stripe-webhook] 24 Sep: PagerDuty key changed to 7C2E9B (was 3F8D1A)\n[pagerduty-key] 20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n[stripe-webhook] 10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved\n[pagerduty-key] 26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am\n[candidate-david-chen] 23 Oct: David had first code review by Tom; solid first PR with some feedback\n[running] 30 Aug: lunch run 5k, Biscuit joined for first mile\n[candidate-sam] 06 Oct: Sam asked f"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "stripe-webhook"
+   },
+   "result": "Stripe webhook retry logic\n03 Aug: retry was failing due to idempotency; fixed after reading Stripe docs\n04 Aug: Tom asking about stability; retry fix covers main failure case\n12 Aug: stripe webhook idempotency test passes; coverage back up\n10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved\n14 Aug: Tom pushed a fix for the webhook frontend; Dan's tests pass now\n15 Aug: on-call handoff notes ready; Lena takes over tomorrow\n18 Aug: webhook test flaked again overnight; fixed by bumping jest timeout (was timeout on stripe mock)\n19 Aug: working on stripe webhook error handling\n20 Aug"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2817,
+   "out": 26,
+   "usd": 0.00004996236
+  },
+  {
+   "in": 3132,
+   "out": 22,
+   "usd": 0.0001289456
+  },
+  {
+   "in": 4161,
+   "out": 91,
+   "usd": 0.00010980676
+  }
+ ],
+ "memChars": 5407,
+ "promptChars": 9986
+}

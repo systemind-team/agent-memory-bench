@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The reply claims the final title is 'Context-Aware Planning via Hierarchical Decomposition' with multiple intermediate changes, but the provided chat only shows title changes up to 'Hierarchical Planning with Graph Attention' and no evidence of further updates.",
+ "first": "stale",
+ "rule": null
+}

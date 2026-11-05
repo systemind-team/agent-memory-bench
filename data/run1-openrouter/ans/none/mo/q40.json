@@ -1,0 +1,70 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "Mia的休假是什么时候来着？",
+ "reply": [
+  "我翻了聊天记录，Mia最近休的是10月5号到9号去日本采风，算是带工作的假期。之后就没有单独的休假记录了。",
+  "你是在考虑给她安排新的休假，还是想确认她接下来哪段时间不在？我可以看看日程帮她协调。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mia 休假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mia 假期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "休假"
+   },
+   "result": "#59 Wed 12 Aug 16:30 Them: 明天约了设计师看晨检UI稿。\n#60 Thu 13 Aug 10:00 Them: 阿杰休假，但他说薪资能不能再谈谈？\n#61 Thu 13 Aug 10:05 aicoo: 他想调多少？之前聊的是税前4万。\n---\n#35 Sun 09 Aug 14:01 aicoo: 列了to-do，明天发你确认\n#36 Mon 10 Aug 09:15 Them: 周一，阿杰休假第一天，服务器谁盯着？\n#37 Mon 10 Aug 09:17 aicoo: 服务器有监控告警，我帮你盯着，有异常马上通知你。\n---\n#20 Thu 06 Aug 14:02 aicoo: 位置不错，方便见投资人和客户\n#21 Thu 06 Aug 16:00 Them: 阿杰8月10号到15号休假\n#22 Thu 06 Aug 16:01 aicoo: 收到，我会避开那段时间安排会议"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mia"
+   },
+   "result": "#698 Thu 29 Oct 18:30 Them: 开烤了，大家心情不错\n#699 Thu 29 Oct 19:00 aicoo: 阿杰在烤茄子，Mia在拍照\n#700 Fri 30 Oct 08:00 Them: 早，今天上午自由活动，下午回\n---\n#647 Fri 23 Oct 17:02 aicoo: 你决定就行，质量第一。\n#648 Sat 24 Oct 09:00 Them: Mia出了新UI方案，比之前清爽多了。\n#649 Sat 24 Oct 09:02 aicoo: 发群里看看？大家反馈下。\n---\n#628 Wed 21 Oct 11:02 aicoo: 这个终于有进展了，等公示期过。\n#629 Wed 21 Oct 14:00 Them: Mia日本采风回来了，说设计灵感有了。\n#630 Wed 21 Oct 14:02 aicoo: 期待她新方案。\n---\n#482 Thu 01 Oct 09:35 aicoo: 他计划跑三家：凯旋路、长寿路和虹桥路。\n#483 Thu 01 Oct 11:00 Them: Mia申请10月5号到9号去日本采风\n#484 Thu 01 Oct 11:05 aicoo: 采风理由？她说是为了新UI风格找灵感。\n---\n#425 Fri 25 Sep 09:00 Them: 今天主要盯上线前的测试，别再延期了\n#426 Fr"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1103,
+   "out": 21,
+   "usd": 0.00014927
+  },
+  {
+   "in": 1154,
+   "out": 21,
+   "usd": 0.0001559
+  },
+  {
+   "in": 1205,
+   "out": 18,
+   "usd": 0.00016169
+  },
+  {
+   "in": 1462,
+   "out": 19,
+   "usd": 0.00019538
+  },
+  {
+   "in": 2118,
+   "out": 64,
+   "usd": 0.00029326
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3627
+}

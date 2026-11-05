@@ -1,0 +1,20 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "what's priya's coffee order?",
+ "reply": [
+  "i don't have that in memory. want me to ask her next time we chat?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3087,
+   "out": 24,
+   "usd": 0.00002750244
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10793
+}

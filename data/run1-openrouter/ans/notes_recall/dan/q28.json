@@ -1,0 +1,46 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "did i ever review lena's on-call draft?",
+ "reply": [
+  "{\"reply\": [\"看起来没有——你的记录里没提到你review过Lena的on-call草稿。8月那次交接给她的时候我备注了\"notes ready\"，10月16号又有一条\"on-call handoff notes ready for Lena\"，但都没有你的review记录。\", \"想让我帮你看看她当前的最新版本？还是你希望现在过一遍？\"]}"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena on-call draft review"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Lena on-call draft review"
+   },
+   "result": "[stripe-webhook] 16 Oct: on-call handoff notes ready for Lena\n[stripe-webhook] 15 Aug: on-call handoff notes ready; Lena takes over tomorrow\n[billing-split] 31 Aug: Lena PTO Oct 5-9 for wedding; on-call needs adjustment\n[stripe-webhook] 20 Aug: webhook spec draft shared with Tom (sent to shared doc)\n[stripe-webhook] 20 Aug: webhook spec draft shared with Tom (sent to shared doc)\n[billing-migration] 06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n[stripe-webhook] 18 Oct: 14:00 Tom says fix is ready for revie"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2779,
+   "out": 25,
+   "usd": 0.00004833836
+  },
+  {
+   "in": 2833,
+   "out": 25,
+   "usd": 0.00005053076
+  },
+  {
+   "in": 3102,
+   "out": 81,
+   "usd": 0.00006599936
+  }
+ ],
+ "memChars": 5401,
+ "promptChars": 9964
+}

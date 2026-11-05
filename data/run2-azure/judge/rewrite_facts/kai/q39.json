@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "反馈未按feature分组，而是混合了多个话题（Dark mode beta、Mobile support、零散反馈），违背了优先按feature分组的明确偏好。",
+ "rule": false
+}

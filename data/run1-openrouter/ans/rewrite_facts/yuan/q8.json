@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "山海餐厅订到哪天了？",
+ "reply": [
+  "订到了11月20日，之前你说要带Coco去庆祝论文的。",
+  "需要我确认一下时间或者改日期吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3693,
+   "out": 37,
+   "usd": 0.00005316164
+  }
+ ],
+ "memChars": 4727,
+ "promptChars": 9010
+}

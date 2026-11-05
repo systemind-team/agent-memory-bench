@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "Mei说实验室现在空着几块A100？",
+ "reply": [
+  "你最近用A100做实验是几周前的事了，之后大部分时间用实验室的GPU集群。8月时Mei问过share A100使用时间，当时你说好，后来她开始用了一段时间。\n\n不过最近实验室的GPU情况我不确定——上次记录是8月22日说“目前4块空闲”，但那是两个月前了。你问Mei是要跟她协调用A100吗？还是Dr. Chen入职后需要安排资源？"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "A100 空闲 Mei share"
+   },
+   "result": "[个人] 19 Aug: Mei问share A100使用时间，已同意\n[人物] 19 Aug: Mei问要不要share A100使用时间，我说好\n[人物] 24 Aug: Mei下周开始用A100，本周需跑完所有实验（之前19 Aug同意share A100使用时间）\n[人物] 22 Aug: 无attention层掉点，验证Mei建议的ablation study必要性；Mei说下周开始跑实验，用A100 GPU（目前4块空闲）\n[个人] 25 Aug: related work通读改表述更连贯；lr实验完成定0.001；下午开始做周四组会slides初版；发现W&B工具；Mei下周开始用A100，本周需跑完实验；Mei的NeurIPS rebuttal需帮忙看（之前24 Aug周一related work收尾最后一节，下午ablation最后一组跑完）\n[项目] 24 Aug: 本周关键事项：1）完成ablation实验并整理结果（已跑完，attention去掉掉点4%）；2）related work章节收尾（中午前写完最后一节）；3）准备周四组会材料（周三晚上做）；4）联系Kevin确认baseline代码；5）周二开始TA批改作业；6）本周A100切换前跑完所有实验（Mei下周开始用A100）\n[项目] 02 Oct: 下午Prof. Lin meeting, 他对pa"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4299,
+   "out": 30,
+   "usd": 0.0001769754
+  },
+  {
+   "in": 4976,
+   "out": 97,
+   "usd": 0.00007686392
+  }
+ ],
+ "memChars": 6539,
+ "promptChars": 10888
+}

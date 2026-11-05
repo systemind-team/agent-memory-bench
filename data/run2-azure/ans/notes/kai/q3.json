@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "Yuki那个onboarding redesign的conversion lift是多少啊，我忘了具体数字。",
+ "reply": [
+  "Yuki的onboarding redesign A/B测试结果——**23% conversion lift**，是8月那轮数据。现在想起来了？",
+  "这个数字当时挺亮眼的，Yuki也因为这个提前进入了dark mode的设计工作。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "onboarding redesign conversion lift"
+   },
+   "result": "[lily-feature-launch] 09 Aug: Yuki's onboarding redesign (not Lily's launch) achieved 23% conversion lift\n[yuki-design-mock] 11 Aug: Yuki redesigned onboarding flow; AB test shows 23% conversion lift; Kai reviewed data with Yuki on 11 Aug\n[yuki-design-mock] 21 Aug: Yuki's onboarding redesign basically done; needs A/B test next week. Kai to check with Ravi on QA resources (moved from 17 Aug).\n[ben-pricing-review-draft] 30 Oct: Ben sent final pricing A/B data, 8% conversion lift confirmed, premium take rate higher than expected; recommends launching Dec 1 with v3 pricing, no more testing. 31 Oct"
+  }
+ ],
+ "calls": [
+  {
+   "in": 12747,
+   "out": 23,
+   "usd": 0.000444374
+  },
+  {
+   "in": 13387,
+   "out": 56,
+   "usd": 0.000597254
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50365
+}

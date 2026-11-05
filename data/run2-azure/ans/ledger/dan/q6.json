@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "how many eng were on the team before david joined?",
+ "reply": [
+  "before david, the team was 4: you, Priya (manager), Tom, Lena, and Sam. so 4 engineers including you, not counting Priya as EM. sam joined in september."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "team members before david joined"
+   },
+   "result": "[423] 21 Oct · person: david chen joined officially. team now 5.  (from #721)\n[254] 28 Sep · fact: candidates interviewed: 3; maria, jordan, david; david joined  (from #461)\n[391] 16 Oct · fact: shared with the team, everyone agreed on code review priority levels  (from #669)\n[128] 28 Aug · fact: lena caught migration incident before prod sync  (from #220)\n[374] 14 Oct · fact: lena's pagerduty key was 5B1C6D before the last change  (from #637)\n[136] 30 Aug · done: dan went for a lunch run, 5k, biscuit joined for first mile  (from #233)\n[40] 10 Aug · ask: remind tom to sync with dan before merg"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3068,
+   "out": 24,
+   "usd": 0.000153656
+  },
+  {
+   "in": 3384,
+   "out": 49,
+   "usd": 0.000188192
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10815
+}

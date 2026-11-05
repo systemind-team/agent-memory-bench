@@ -1,0 +1,72 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "give me standup notes for today",
+ "reply": [
+  "Dan — today's Sunday, not a standup day. But I can prep you a quick status rundown for Monday morning if you want it.",
+  "Yesterday you wrapped: cutover checklist almost done, just rollback steps and dry run results to add. Battery at 79%, you'll order a new one this week. Tom's Stripe refactor v2 in review. David's first PR merged. Sam's moved desks and knows the migration runbook.",
+  "Want me to draft the rollback steps section for the checklist while you're offline?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "standup notes today sunday"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "standup notes format"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "standup action items first"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Action Items first meeting notes"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5301,
+   "out": 24,
+   "usd": 0.00021017
+  },
+  {
+   "in": 5354,
+   "out": 22,
+   "usd": 0.00022018
+  },
+  {
+   "in": 5405,
+   "out": 23,
+   "usd": 0.00023145
+  },
+  {
+   "in": 5457,
+   "out": 23,
+   "usd": 0.00024237
+  },
+  {
+   "in": 5509,
+   "out": 118,
+   "usd": 0.000260666
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17909
+}

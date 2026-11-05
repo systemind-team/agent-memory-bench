@@ -1,0 +1,36 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "嗨，今天有什么消息？",
+ "reply": [
+  "早，陈默。今天周日，没什么新消息进来。",
+  "上周五offsite顺利结束，蓝驰第二笔300万已到账，账上现在600万。",
+  "下周重点：大伟拓展新渠道、成都合作推进、安卓版11月中上线准备。",
+  "需要我帮你做什么吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "周报"
+   },
+   "result": "[about-me] Sat 31 Oct: 陈默要求aicoo发周报\n[user-feedback-summary] Wed 19 Aug: 周报加用户反馈汇总\n[about-me] Sun 06 Sep: 他们需要我帮忙盘点和排优先级，直说数据，不啰嗦；周报加「本周风险」；PR描述加Risk部分；称呼为陈默；回复不用感叹号；以后消息每段用空行隔开；不发贴图（moved from Tue 01 Sep，新增风格要求；Sat 19 Sep新增格式要求；Mon 21 Sep新增不发贴图）"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2448,
+   "out": 20,
+   "usd": 0.00002617888
+  },
+  {
+   "in": 2614,
+   "out": 75,
+   "usd": 0.00003738448
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6254
+}

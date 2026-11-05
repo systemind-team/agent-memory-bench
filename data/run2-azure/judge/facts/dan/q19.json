@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant incorrectly states the migration incident occurred in early August based on post-mortem notes from the 13th, but the chat clearly shows the user said it happened 'on tuesday' (August 25, 2026), after Sam's September 14 start date.",
+ "rule": null
+}

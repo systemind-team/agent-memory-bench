@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It gives 7200万 as the current valuation, which is the latest value from the chat.",
+ "rule": null
+}

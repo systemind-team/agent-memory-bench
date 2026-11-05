@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "Pricing那个Nov 1 launch和Nov 15 delay，中间隔了多久？",
+ "reply": [
+  ".凯哥",
+  "Nov 1到Nov 15隔了两周。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5084,
+   "out": 62,
+   "usd": 0.000231704
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14926
+}

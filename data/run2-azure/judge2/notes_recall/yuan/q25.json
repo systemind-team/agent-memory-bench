@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The reply correctly states the final title is 'Context-Aware Planning via Hierarchical Decomposition' and explains the change on Oct 26, which matches the chat history. It does not present an outdated title as current.",
+ "first": "stale",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct answer is 1 fellowship (Facebook), but aicoo said 2 (NSF and Facebook), which contradicts the user's final decision in the chat.",
+ "rule": null
+}

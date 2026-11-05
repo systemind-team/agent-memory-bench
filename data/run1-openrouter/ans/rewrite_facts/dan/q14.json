@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q14",
+ "kind": "update",
+ "q": "who was the second candidate for data eng?",
+ "reply": [
+  "第二个候选人是 Jordan Liu，之前是 Spotify 的数据工程师，take-home 做得不错。不过后来你们选了 David Chen，对吧"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "second candidate data engineer"
+   },
+   "result": "- 21 Aug: A new candidate, Jordan Liu, formerly a data engineer at Spotify, has a good take-home.\n- 17 Aug: Dan started sketching a new interview rubric for data engineer with more SQL focus.\n- 17 Oct: Tom's frontend refactor broke webhooks for the second time.\n- 07 Sep: Candidate three is David Chen, a contractor at DoorDash who knows dbt.\n- 06 Aug: One customer's data still out of sync due to last week's migration incident.\n- 28 Aug: Daniel \"Dan\" Okafor caused a migration incident on Tuesday where a column was dropped instead of renamed but was rolled back with no data loss because Lena caug"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3166,
+   "out": 22,
+   "usd": 0.000127292
+  },
+  {
+   "in": 3348,
+   "out": 34,
+   "usd": 0.00026388
+  }
+ ],
+ "memChars": 6897,
+ "promptChars": 11522
+}

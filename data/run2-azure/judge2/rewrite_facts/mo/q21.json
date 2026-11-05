@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Reply claims 蓝驰 was scheduled first, but the chat shows 云九 was scheduled on Aug 7 for Aug 12, before 蓝驰 was scheduled on Aug 10 for Aug 19.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,83 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "蓝驰第一次约见是几号？",
+ "reply": [
+  "蓝驰第一次约见是8月19日上午十点。",
+  "后来9月初他们做了尽调，10月中旬第一笔款到账。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 约 见 日期 几号"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 见面 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 第一次 聊"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 约 8月"
+   },
+   "result": "#40 Mon 10 Aug 14:30 Them: 云九聊完了，还行，问得挺细。\n#41 Mon 10 Aug 15:00 aicoo: 蓝驰约8月19日上午十点\n#42 Mon 10 Aug 15:01 Them: 可以，蓝驰先记上。阿杰的MacBook Pro 15寸，预算改成1万8"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 8月19日"
+   },
+   "result": "#40 Mon 10 Aug 14:30 Them: 云九聊完了，还行，问得挺细。\n#41 Mon 10 Aug 15:00 aicoo: 蓝驰约8月19日上午十点\n#42 Mon 10 Aug 15:01 Them: 可以，蓝驰先记上。阿杰的MacBook Pro 15寸，预算改成1万8"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5559,
+   "out": 29,
+   "usd": 0.000221326
+  },
+  {
+   "in": 5617,
+   "out": 24,
+   "usd": 0.000230706
+  },
+  {
+   "in": 5670,
+   "out": 24,
+   "usd": 0.000241836
+  },
+  {
+   "in": 5723,
+   "out": 25,
+   "usd": 0.000207702
+  },
+  {
+   "in": 5846,
+   "out": 25,
+   "usd": 0.000279356
+  },
+  {
+   "in": 5984,
+   "out": 38,
+   "usd": 0.000269792
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10954
+}

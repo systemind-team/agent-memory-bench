@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "Assistant says it couldn't find the date, corrects with Mia's trip dates instead, and asks if user is mixing things up.",
+ "rule": null
+}

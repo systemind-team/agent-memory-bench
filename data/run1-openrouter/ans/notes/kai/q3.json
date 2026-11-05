@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "Yuki那个onboarding redesign的conversion lift是多少啊，我忘了具体数字。",
+ "reply": [
+  "aicoo翻了翻之前的记录，onboarding redesign beta的数据还没出最终lift数字，Yuki之前说的是正在跑A/B测试，预计这周出结果。我记的是她原计划24号那周做beta release，后来好像delay了，你要我搜一下更具体的聊天记录吗？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12770,
+   "out": 65,
+   "usd": 0.00012462576
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50365
+}

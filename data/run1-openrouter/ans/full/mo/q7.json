@@ -1,0 +1,57 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "小雨招的兼职客服主管，一个月多少钱？",
+ "reply": [
+  "小雨请的那个北京兼职客服主管，月费是6000块，当时说帮顶到18号。后来客服外包签了3万8每月、半年的合同，这个兼职应该就停了吧，需要我确认一下现在还在不在？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 兼职客服主管 月费 6000"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 北京 兼职 客服 主管 6000"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "兼职客服主管 月费"
+   },
+   "result": "#361 Fri 18 Sep 09:31 aicoo: 我临时调了两个兼职顶上，下午培训\n#362 Fri 18 Sep 11:30 Them: 小雨请了北京一个兼职客服主管，月费6千\n#363 Fri 18 Sep 11:35 aicoo: 沟通过了，今天上岗，帮我们顶到 18 号"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18722,
+   "out": 29,
+   "usd": 0.00015548176
+  },
+  {
+   "in": 18780,
+   "out": 30,
+   "usd": 0.00015791776
+  },
+  {
+   "in": 18839,
+   "out": 24,
+   "usd": 0.00023465988
+  },
+  {
+   "in": 18956,
+   "out": 59,
+   "usd": 0.00016741816
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35684
+}

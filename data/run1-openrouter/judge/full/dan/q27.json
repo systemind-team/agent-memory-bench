@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the doc was sent and Priya confirmed receipt, but the chat only shows a reminder was set with no follow-up confirmation that it was actually sent.",
+ "rule": null
+}

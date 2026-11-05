@@ -1,0 +1,34 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "从之前的聊天记录看，你提到只投了 NSF 和 Facebook 两个 fellowship，没有其他。需要我帮你检查一下这两个的截止日期和后续步骤吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "fellowship 投 申请"
+   },
+   "result": "#447 Fri 18 Sep 14:00 Them: 写了一下午，methodology框架差不多了。明天再细化。\n#448 Sat 19 Sep 00:30 Them: fellowship申请我决定只投NSF和Facebook了，两个够了。\n#449 Sat 19 Sep 00:31 aicoo: - 了解。需要我帮你记录申请进度吗？"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1246,
+   "out": 24,
+   "usd": 0.000091804
+  },
+  {
+   "in": 1360,
+   "out": 43,
+   "usd": 0.000126384
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4009
+}

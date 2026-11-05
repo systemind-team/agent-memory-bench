@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "The reply says you interviewed three PM candidates, but you met four: Jason Chen, Emily Tan, Michael Liu, and Sarah Wu (informally). It correctly names Emily Tan as hired, but the candidate count and list are incomplete.",
+ "first": "partial",
+ "rule": null
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q20",
+ "kind": "aggregate",
+ "q": "Facebook fellowship申请过程怎么变化的？",
+ "reply": [
+  "\n\n周周早上好，我刚查了一下Facebook fellowship的情况。\n\n截止日期改到了12月20日（之前是10月31日），其他基本没变。你目前只投了Facebook，放弃NSF，这个决定还是有效的。\n\n现在的问题是你的论文还没投出去，实验部分刚写完初稿，Dr. Chen明天入职。Facebook fellowship需要提交论文/代表作——如果你12月投ICLR或AAAI，那在12月20日截止前你有一篇接近完成的论文可以放进申请里，时间上其实还能赶上。\n\n需要我把Facebook fellowship的申请要求清单重新拉出来，配上你现在的时间线做个对照吗？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 6877,
+   "out": 135,
+   "usd": 0.00007398132
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16053
+}

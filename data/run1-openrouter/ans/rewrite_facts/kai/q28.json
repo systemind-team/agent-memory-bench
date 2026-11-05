@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "aicoo, 我是不是还有没完成的task about syncing with Yuki on dark mode feedback?",
+ "reply": [
+  "凯哥，周日好。你提到的dark mode feedback sync，你上次跟Yuki在10月30号已经sync过了，她反馈toggle beta用户满意度92%，你当时决定先ship manual toggle，她理解但有点失望。之后没有新的待办要再跟Yuki sync dark mode feedback了。\n\n倒是周一你要跟Ravi问一下dark mode toggle的sprint进展，预计11月初完成，你正好可以确认一下有没有delay。其他周一要focus的我上次列的还在，需要我重新整理一遍吗？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3353,
+   "out": 111,
+   "usd": 0.00007031108
+  }
+ ],
+ "memChars": 7097,
+ "promptChars": 11852
+}

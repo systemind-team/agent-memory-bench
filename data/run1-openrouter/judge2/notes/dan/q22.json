@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant claims only one data eng candidate interviewed, but messages show three: Maria Torres, Jordan Liu, and David Chen.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,23 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q19",
+ "kind": "aggregate",
+ "q": "论文实验最后用了几个环境？",
+ "reply": [
+  "实验用了4个环境，最终结果是：",
+  "环境1 (Grid World) 82%，环境2 (AI2-THOR) 78%，环境3 (Habitat) 89%，环境4 (HotpotQA改版) 55%。",
+  "环境4的HotpotQA还在调intermediate supervision，目前标了preliminary，今晚讨论时可以提一下这个进展。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3560,
+   "out": 89,
+   "usd": 0.000201728
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8747
+}

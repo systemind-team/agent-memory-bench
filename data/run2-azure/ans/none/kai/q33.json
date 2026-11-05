@@ -1,0 +1,22 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+ "reply": [
+  "凯哥，这周关键节点：周二下午3点pricing launch decision meeting（Grace和Ben），周三前要跟Ravi确认integration final timeline，周五前要收集Aurora和两个Singapore客户的testimonial quotes（你说过找Lily和Omar）。",
+  "你父亲情况稳定吗？如果还需要什么随时说。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 1396,
+   "out": 79,
+   "usd": 0.00010828
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4381
+}

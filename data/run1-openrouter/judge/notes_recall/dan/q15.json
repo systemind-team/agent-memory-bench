@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It gives 3F8D1A as the previous key and 7C2E9B as the latest, but the chat only supports 9A7B2C then 3F8D1A, so the current answer is outdated.",
+ "rule": null
+}

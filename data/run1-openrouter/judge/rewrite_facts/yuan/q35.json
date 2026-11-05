@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "用户要求用bullet list回复，但aicoo的回复是普通段落格式，未遵循该指令。",
+ "rule": false
+}

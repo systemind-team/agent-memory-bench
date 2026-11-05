@@ -1,0 +1,22 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "那个PM candidate我们最后hire了谁，名字和start date是啥？",
+ "reply": [
+  "凯哥周日好。上次录用的PM是Emily Tan，她10月26号（这周一）正式入职的，已经跟Lily完成handover，开始接手Aurora产品模块了。",
+  "Jason Chen的offer最后没发，你选了Emily Tan，觉得她更合适。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8794,
+   "out": 69,
+   "usd": 0.000327364
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26051
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo claims it cannot find the final product name, but the chat shows the name was confirmed as 晨检.",
+ "rule": null
+}

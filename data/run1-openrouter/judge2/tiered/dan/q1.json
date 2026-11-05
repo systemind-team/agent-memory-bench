@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The user's question asks about 'that first week' in the context of a 90-day chat starting Mon 03 Aug, and message #0 explicitly states 'coffee count this week: 14 so far' for that week, but aicoo incorrectly claims it has no record and references a different week in September.",
+ "first": "wrong",
+ "rule": null
+}

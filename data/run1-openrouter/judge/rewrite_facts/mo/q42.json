@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It explicitly says it didn't find a record and offers to ask or suggests checking the workstation, without fabricating a model.",
+ "rule": null
+}

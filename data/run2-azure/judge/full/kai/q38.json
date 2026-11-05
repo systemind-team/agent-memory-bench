@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant starts by checking records but does not provide the draft, so the preference to start with a summary sentence on decisions is not applied yet.",
+ "rule": false
+}

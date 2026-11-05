@@ -1,0 +1,48 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "早，这周怎么安排？",
+ "reply": [
+  "早，陈默。今天是11月1号，你之前让我提醒你做季度复盘，准备好了吗？",
+  "这周重点：\n- 季度复盘（今天/明天做）\n- 大伟拓展新驿站渠道\n- 成都合作推进，10月预测500单\n- 安卓版11月中上线准备\n- 蓝驰那边约了11月复盘，可以推进",
+  "先做复盘还是先过这周的to-do？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "11月1号季度复盘"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "季度复盘"
+   },
+   "result": "#603 Sat 17 Oct 09:00 Them: 11月1号提醒我做季度复盘\n#604 Sat 17 Oct 09:01 aicoo: 好的，11月1号提醒你做季度复盘\n#605 Sat 17 Oct 11:00 Them: 今天休息，带家人出去走走。\n---\n#602 Fri 16 Oct 20:02 aicoo: 周末愉快，陈默。\n#603 Sat 17 Oct 09:00 Them: 11月1号提醒我做季度复盘\n#604 Sat 17 Oct 09:01 aicoo: 好的，11月1号提醒你做季度复盘"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18696,
+   "out": 24,
+   "usd": 0.000640272
+  },
+  {
+   "in": 18749,
+   "out": 20,
+   "usd": 0.000603338
+  },
+  {
+   "in": 18919,
+   "out": 105,
+   "usd": 0.00403179
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35675
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "第一个fellowship截止日是哪天？",
+ "reply": [
+  "我找到的记录里，你提到的第一个fellowship是Facebook fellowship，截止日是12月20日。",
+  "之前还提过一个NSF fellowship，但没有记下具体截止日期，需要我一起查一查吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "fellowship 截止日"
+   },
+   "result": "#653 Mon 05 Oct 17:31 aicoo: 好的，TA office hour是5:30至6:30，我会在结束后提醒实验写作。\n#654 Mon 05 Oct 21:30 Them: Facebook fellowship提交截止日是12月20号，最后期限了。\n#655 Mon 05 Oct 21:32 aicoo: 已添加日历提醒，截止12月20日。需要我协助检查申请材料吗？\n---\n#458 Sun 20 Sep 10:02 Them: 好，先记下来：写discussion，继续跑几个ablation实验。\n#459 Sun 20 Sep 14:00 aicoo: - 提醒：NSF和Facebook fellowship申请截止日不同，请注意。\n#460 Sun 20 Sep 14:01 Them: 知道了，我会注意的。下周开始写申请材料。\n---\n#433 Thu 17 Sep 15:00 Them: Meeting完了，Prof. Lin说实验部分可以开始写了。他还提醒我别忘了fellowship的事情。\n#434 Thu 17 Sep 15:01 aicoo: - 需要我帮你整理fellowship申请的截止日期吗？\n#435 Thu 17 Sep 15:02 Them: 好，帮我查一下NSF和Facebook的截止日。\n---\n#26 Wed 05 Aug"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1244,
+   "out": 23,
+   "usd": 0.000090824
+  },
+  {
+   "in": 1624,
+   "out": 53,
+   "usd": 0.000187424
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4005
+}

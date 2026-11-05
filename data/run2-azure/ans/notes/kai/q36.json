@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q36",
+ "kind": "pref_apply",
+ "q": "aicoo, draft a PR description for adding dark mode toggle.",
+ "reply": [
+  "好的凯哥，我来写一个dark mode toggle的PR description。我先看一下相关背景，确认细节。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12743,
+   "out": 29,
+   "usd": 0.000446894
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50369
+}

@@ -1,0 +1,48 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q18",
+ "kind": "aggregate",
+ "q": "GPTR复现那段时间我大概都干了什么？",
+ "reply": [
+  "9月初那段时间主要就是在做GPTR的复现和优化。具体来说：",
+  "04 Sep 晚上决定加GPTR作为baseline，开始复现代码。之后几天一直在debug和调参——06 Sep休息了一下，07 Sep继续debug，09 Sep太累休息然后次日接着调。到10 Sep把learning rate调到1e-5后终于接近论文指标。",
+  "16 Sep正式跑出正常结果，开始和其他baseline对比，Mei后来（17 Sep）还说结果比她预期的好。一直到10月，GPTR结果在THOR上比之前baseline高2.5个点，但有一个环境还在debug。这个baseline后来也放进了你论文的实验部分。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR 复现 代码 04 Sep"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "GPTR 复现"
+   },
+   "result": "[项目] 04 Sep: 晚上想加新实验，决定加baseline GPTR，先复现代码\n[个人] 04 Sep: 晚上决定给论文加一个baseline叫GPTR，先复现代码\n[项目] 07 Sep: 继续debug GPTR\n[个人] 09 Sep: 晚上太累休息，明天继续调GPTR；10 Sep GPTR调到1e-5后接近指标\n[人物] 16 Sep: GPTR跑出正常结果，正在与其他baseline对比；17 Sep Mei说GPTR结果比她预期的好\n[项目] 12 Oct: GPTR在THOR上比baseline高2.5个点，但有一个环境报错待debug（之前16 Sep GPTR跑出正常结果）\n[个人] 06 Sep: 今天先这样，明天继续debug GPTR\n[人物] 16 Sep GPTR跑出正常结果，正在与其他baseline对比；17 Sep Mei说GPTR结果比她预期的好\n25 Sep Kevin的diffusion work与讨论相关\n[个人] 16 Sep: GPTR跑出正常结果，与其他baseline对比中\n[项目] 16 Sep: GPTR跑出正常结果，正在与其他baseline对比"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3974,
+   "out": 28,
+   "usd": 0.000300332
+  },
+  {
+   "in": 4031,
+   "out": 23,
+   "usd": 0.00017203
+  },
+  {
+   "in": 4332,
+   "out": 158,
+   "usd": 0.00031084
+  }
+ ],
+ "memChars": 5869,
+ "promptChars": 10219
+}

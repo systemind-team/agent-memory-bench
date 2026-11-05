@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "Kevin's presentation was confirmed for 9月14号 on Aug 26, but the assistant relies on an outdated '待定' status and asks the user instead of providing the known date.",
+ "rule": null
+}

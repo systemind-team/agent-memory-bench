@@ -1,0 +1,58 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q15",
+ "kind": "temporal",
+ "q": "下周一跟Prof. Lin的meeting改成什么形式了？",
+ "reply": [
+  "下周一跟Prof. Lin的meeting是线上形式，他去出差了。之前说是zoom链接等他提供，你收到链接了吗？",
+  "如果还没收到，可以先slack上提醒他一下，说准备好slides和论文最新版了，顺便问链接。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Prof. Lin meeting 线上 zoom 下周一"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周一 Prof. Lin meeting 改为 线上"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Prof. Lin 线上 meeting zoom"
+   },
+   "result": "[个人] 24 Oct 20:00 Prof. Lin谷歌学术引用破5000，Slack发恭喜，Lin回复谢谢；25 Oct 00:20 下周一Prof. Lin meeting改线上，他去出差，等zoom链接\n[实验室] 24 Oct 20:00 Prof. Lin谷歌学术引用破5000，周周在Slack发恭喜，Lin回复谢谢；25 Oct 00:20 下周一与Prof. Lin的meeting改为线上（他去出差），zoom链接待提供\n[about-me] 24 Oct 20:00 Prof. Lin谷歌学术引用破5000，周周在slack上发了恭喜，Lin已回复谢谢；25 Oct 00:20 下周一与Prof. Lin的meeting改为线上（他去出差），zoom链接待他提供；25 Oct 10:00 今天周日，下午3点组会\n[about-me] 25 Oct 00:20 下周一与Prof. Lin的meeting改为线上（他去出差），zoom链接待他提供；25 Oct 10:00 今天周日，下午3点组会；25 Oct 15:00 组会结束，Lin对进展满意但对HotpotQA持保留态度\n[about-me] 25 Oct 17:00 晚上写下周计划：周一线上meeting，周二继续改discussion\n[个人] 22 Oct 09:30 下午3点与Prof. Lin mee"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3736,
+   "out": 28,
+   "usd": 0.00003754688
+  },
+  {
+   "in": 3793,
+   "out": 27,
+   "usd": 0.00003977988
+  },
+  {
+   "in": 3826,
+   "out": 25,
+   "usd": 0.0007375
+  },
+  {
+   "in": 4287,
+   "out": 63,
+   "usd": 0.00006275948
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9627
+}

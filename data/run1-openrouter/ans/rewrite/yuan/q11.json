@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我现在论文的title是什么？",
+ "reply": [
+  "现在的论文标题是 **“Context-Aware Planning via Hierarchical Decomposition”**，已经更新到overleaf、本地文件和周报模板里了。",
+  "昨天（周六）你给Prof. Lin发了最新版，今天10:30线上meeting，准备得怎么样了？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题"
+   },
+   "result": "#872 Tue 27 Oct 18:02 aicoo: - 环境2之前是？需要重新跑一次验证。\n- 可能超参数调整影响了其他环境的泛化。\n#873 Tue 27 Oct 22:30 aicoo: 论文标题最终更新为“Context-Aware Planning via Hierarchical Decomposition”。\n#874 Tue 27 Oct 22:32 Them: 收到，明天重新跑一遍所有环境的完整实验。\n---\n#865 Mon 26 Oct 23:42 aicoo: - 已确认。明天上午更新所有文档中的标题。\n#866 Tue 27 Oct 08:30 aicoo: - 论文标题已更新为“Context-Aware Planning via Hierarchical Decomposition”。\n- 包括overleaf、本地文件、周报模板。\n#867 Tue 27 Oct 10:00 Them: 好，今天继续调环境4。试试把supervision加到每个step。\n---\n#855 Sun 25 Oct 20:01 aicoo: 好好休息，周周。下周见。\n#856 Mon 26 Oct 09:15 Them: 早上好，今天开始finalize论文标题，跑最后一个实验。\n#857 Mon 26 Oct 09:17 aicoo: - 收到，周周。今天的主要任务"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3582,
+   "out": 20,
+   "usd": 0.0001470532
+  },
+  {
+   "in": 4338,
+   "out": 66,
+   "usd": 0.00007338856
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8749
+}

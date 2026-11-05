@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant's reply includes 'test_billing_webhook', which matches the required fact from the chat.",
+ "rule": null
+}

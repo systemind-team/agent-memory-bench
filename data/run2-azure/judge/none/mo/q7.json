@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It says it didn't find a record and asks the user to ask 小雨 or provide the number.",
+ "rule": null
+}

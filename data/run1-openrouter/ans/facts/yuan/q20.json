@@ -1,0 +1,71 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q20",
+ "kind": "aggregate",
+ "q": "Facebook fellowship申请过程怎么变化的？",
+ "reply": [
+  "我记得之前提到过两次不同的截止日期。最早9月17号我说的是10月31号截止，但后来10月5号你跟我说提交截止日变成了12月20号，说这是最后期限了。",
+  "变化挺大的，相当于往后推了将近两个月。后来你20号说只投Facebook了，NSF那边放弃了。",
+  "不过现在都11月1号了，你最后提交了吗？还是还在写材料？需要我帮你看看最新的官网要求吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship 变化 申请 截止"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship deadline October"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship 截止 日期 10月"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Facebook fellowship deadline"
+   },
+   "result": "- 17 Sep: Facebook fellowship deadline is October 31.\n- 17 Sep: NSF fellowship deadline is November 15.\n- 20 Sep: 下周开始写NSF和Facebook fellowship申请材料。21 Sep: NSF那个方向不太对，最后可能就投Facebook了。05 Oct: Facebook fellowship提交截止日是12月20号，最后期限了。20 Oct 23:50: 周予安只投了Facebook的fellowship，放弃了NSF申请。\n- 01 Oct: 周予安需要为NSF和Facebook fellowship准备personal statement。\n- 17 Sep: Asked aicoo to check deadlines for NSF and Facebook fellowships.\n- 07 Aug: 周末了，但明天还得去实验室，因为论文deadline快到了。\n- 17 Sep: Prof. Lin reminded me about the fellowship.\n- San Diego workshop（Workshop on Hierarchical Decision Making）的submission deadline是12月1日，通知"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1637,
+   "out": 22,
+   "usd": 0.00004330396
+  },
+  {
+   "in": 1688,
+   "out": 18,
+   "usd": 0.00004504976
+  },
+  {
+   "in": 1735,
+   "out": 23,
+   "usd": 0.00003904908
+  },
+  {
+   "in": 1787,
+   "out": 17,
+   "usd": 0.00004067308
+  },
+  {
+   "in": 2067,
+   "out": 110,
+   "usd": 0.00004296292
+  }
+ ],
+ "memChars": 779,
+ "promptChars": 5081
+}

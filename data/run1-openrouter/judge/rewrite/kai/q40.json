@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant states Ben's Q3 target is 500k SGD in new sales, but this was never mentioned in the chat; the correct response should have been to say it doesn't know.",
+ "rule": null
+}

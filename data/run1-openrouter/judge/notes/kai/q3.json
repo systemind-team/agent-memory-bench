@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant incorrectly stated that the final lift number was not yet available, when in fact the user had previously shared the specific 23% conversion lift result.",
+ "rule": null
+}

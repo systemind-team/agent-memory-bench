@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly recalled the test name 'test_billing_webhook' as requested.",
+ "rule": null
+}

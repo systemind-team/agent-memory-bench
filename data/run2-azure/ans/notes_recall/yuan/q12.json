@@ -1,0 +1,71 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q12",
+ "kind": "temporal",
+ "q": "Kevin组会presentation最后定在哪天了？",
+ "reply": [
+  "我看了一下记录，Kevin的组会presentation最后确定是9月14号，当时他让你帮忙看slides。",
+  "之后10月的组会记录里没再提他做presentation，应该是那次已经讲完了。需要我帮你确认他还有没有新的分享安排吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Kevin 组会 presentation 日期"
+   },
+   "result": "[个人] 11 Aug: Kevin把组会presentation推迟到9月，具体哪天待定\n[个人] 21 Aug: 这周组会Kevin分享了一篇ICML 2023的论文，关于graph的；26 Aug Kevin组会presentation改到9月14号\n[人物] 26 Aug: Kevin组会presentation改到9月14号，他说下周给slides让我看看\n[人物] 26 Aug: Kevin组会presentation改到9月14号，他说下周给slides让我看看\n[项目] 25 Sep 组会结束，Prof. Lin对讨论方向满意；Kevin的diffusion work相关；27 Sep 晚discussion收尾并编译全稿\n[实验室] 02 Oct: 下午Prof. Lin meeting, 他对paper很满意，建议投ICLR，H100申请已签（排实验室第一个）；晚上组会，Kevin和Mei给建议但整体认可；03 Oct: 开始打包ICLR submission（之前29 Sep Kevin说系里买了H100共8张，需尽快申请）；06 Oct: 组会改至11:00，Prof. Lin建议Habitat加visual grounding模块\n[实验室] 25 Sep 组会结束，Prof. Lin对讨论方向满意；提到年底San Diego workshop；29 Se"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Kevin 组会 presentation"
+   },
+   "result": "#485 Wed 23 Sep 19:01 aicoo: - 明日优先处理discussion writing？\n- 今晚可以先完成slide，以免组会受影响。\n#486 Wed 23 Sep 22:50 Them: Kevin组会presentation准备得差不多了，说是关于diffusion model的。\n#487 Wed 23 Sep 22:51 aicoo: - 符合他个人方向，可以问问他对你discussion的意见。\n- 需要提醒你明天问他吗？\n---\n#251 Wed 26 Aug 09:31 aicoo: 今天任务比较集中，建议上午先批一部分作业，下午组会后继续。\n#252 Wed 26 Aug 10:00 Them: Kevin的组会presentation改到9月14号了，他让我帮他看看slides。\n#253 Wed 26 Aug 10:01 aicoo: 那他的时间更充裕了。你打算什么时候看他的slides？\n---\n#93 Mon 10 Aug 23:01 aicoo: 好的，我会在周末前检查周报引用格式并回复你。\n#94 Tue 11 Aug 09:00 Them: Kevin说他把组会presentation推迟到9月了，具体哪天待定。\n#95 Tue 11 Aug 09:01 aicoo: 已记录，等他确定日期后也可以帮你同步到日历里。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Kevin presentation 10月"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Kevin 10月 组会"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4151,
+   "out": 25,
+   "usd": 0.000335822
+  },
+  {
+   "in": 4597,
+   "out": 23,
+   "usd": 0.000428362
+  },
+  {
+   "in": 4917,
+   "out": 23,
+   "usd": 0.000220618
+  },
+  {
+   "in": 4969,
+   "out": 25,
+   "usd": 0.000186834
+  },
+  {
+   "in": 5023,
+   "out": 67,
+   "usd": 0.000542462
+  }
+ ],
+ "memChars": 6185,
+ "promptChars": 10543
+}

@@ -1,0 +1,47 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "did stripe webhooks or sam's onboarding happen first?",
+ "reply": [
+  "sam 的入职更早。他 9月8号来的，而 stripe webhooks 相关工作——你从 8月10号就提到 tom 的 pr 影响了你的测试，后来 10月2号 tom 把它迁移到独立服务——都在 sam 入职之后发生。",
+  "所以顺序是：sam 入职第一，stripe webhooks 在后。需要帮你理清哪个时间点吗，dan the builder"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam first day stripe webhooks"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Sam first day stripe webhooks date"
+   },
+   "result": "- 01 Sep: Sam Ortiz start date is September 14. 11 Sep: Sam starts the day after Labor Day; the office is ready.\n- 08 Sep: Sam's first day; he's setting up his laptop on the IT desk on the 4th floor. 12 Sep: sam's first full day tomorrow; onboarding plan looks solid\n- 10 Aug: Tom's frontend PR for Stripe webhooks broke my test.\n- 07 Oct: Heading home early because there are no on-call issues; first good day in a while.\n- 23 Oct: Daniel told aicoo that his colleague Sam had their first solo deploy and nailed it.\n- 02 Oct: Tom moved Stripe webhooks to its own service in a weekend. 05 Oct: Tom's "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3296,
+   "out": 24,
+   "usd": 0.00024736
+  },
+  {
+   "in": 3349,
+   "out": 25,
+   "usd": 0.000167402
+  },
+  {
+   "in": 3654,
+   "out": 98,
+   "usd": 0.000226508
+  }
+ ],
+ "memChars": 7248,
+ "promptChars": 11884
+}

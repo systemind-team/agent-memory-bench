@@ -1,0 +1,59 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "how much does biscuit weigh now?",
+ "reply": [
+  "上次是10月13号看的兽医，42磅，健康得很。",
+  "一个半月过去了，估计变动不大——除非你最近偷偷多给了零食 😄"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Biscuit weight"
+   },
+   "result": "- 27 Oct: Biscuit will have a cousin, but Dan is unsure how Biscuit will handle a puppy.\n- 12 Oct: Biscuit's birthday is February 14.\n- 17 Sep: Biscuit and Waffles are getting along.\n- 28 Oct: Dan thinks Biscuit is enough for now.\n- 12 Oct: Ade is set on baking a cake for Biscuit's birthday.\n- 23 Oct: Feeling better; Biscuit slept through the night.\n- 30 Oct: The pumpkin is carved, and Biscuit tried to eat the seeds.\n- 04 Oct: Dan has an on-call phone by his bed while Biscuit is snoring. 25 Oct: Biscuit wore a tiny jollof rice apron.\n- 12 Oct: Ade wants a party for Biscuit's birthday. 16 Oct: "
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Biscuit weight pounds"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Biscuit weigh"
+   },
+   "result": "#628 Tue 13 Oct 11:05 aicoo: 好, 他应该很快就会适应\n#629 Tue 13 Oct 14:00 Them: vet visit for biscuit: weighs 42 lbs. healthy boy\n#630 Tue 13 Oct 14:05 aicoo: 42磅, 非常健康的体重"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1451,
+   "out": 22,
+   "usd": 0.000179558
+  },
+  {
+   "in": 1697,
+   "out": 23,
+   "usd": 0.000277602
+  },
+  {
+   "in": 1749,
+   "out": 22,
+   "usd": 0.000242138
+  },
+  {
+   "in": 1854,
+   "out": 41,
+   "usd": 0.00018318
+  }
+ ],
+ "memChars": 869,
+ "promptChars": 5367
+}

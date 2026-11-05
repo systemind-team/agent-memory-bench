@@ -1,0 +1,72 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q22",
+ "kind": "aggregate",
+ "q": "晨检上线推迟了多少次？每次计划在什么日子？",
+ "reply": [
+  "根据记忆里的记录，晨检iOS上线一共推迟了三次：",
+  "第一次是9月10日（原计划，因提审延迟推迟）。",
+  "第二次推到9月18日，第三次再推到9月25日。实际iOS版是9月27日上线（首日下载502，无闪退评分4.8）。",
+  "安卓版原计划10月底，阿杰后来争取提前到10月中，最终推到11月中上线。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检上线 推迟 延期 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "上线 延期 日期 晨检"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "iOS 上线 9月 10月 晨检"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 iOS 提审 延期 上线"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4038,
+   "out": 33,
+   "usd": 0.0000418992
+  },
+  {
+   "in": 4100,
+   "out": 26,
+   "usd": 0.000043848
+  },
+  {
+   "in": 4155,
+   "out": 30,
+   "usd": 0.00003809092
+  },
+  {
+   "in": 4214,
+   "out": 28,
+   "usd": 0.0000486388
+  },
+  {
+   "in": 4271,
+   "out": 103,
+   "usd": 0.000057043
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8496
+}

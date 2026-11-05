@@ -1,0 +1,20 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "Q3到Q4我有几次personal issue影响work，具体是啥？",
+ "reply": [
+  "search_memory {\"query\": \"personal issue work 影响\"}"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5105,
+   "out": 14,
+   "usd": 0.00005041708
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14919
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply lists '女儿生病' (daughter's illness) events in September and October but the chat log only mentions a daughter's school play, with no record of her being sick.",
+ "rule": null
+}

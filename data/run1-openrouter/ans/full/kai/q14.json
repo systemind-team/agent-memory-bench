@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q14",
+ "kind": "update",
+ "q": "Aurora deal的value变化，最终是多少？",
+ "reply": [
+  "凯哥，Aurora deal最终close是$950k Q4 close，包括主deal加上custom module的add-on。之前Lily确认的是Q4 close，价值950k with add-ons。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36339,
+   "out": 45,
+   "usd": 0.00030661932
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91597
+}

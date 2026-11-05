@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It correctly identifies the single scope change (custom analytics module) and the value increase to 950k, but misattributes the date as 8月17-18日 instead of the actual date from the chat (Fri 04 Sep).",
+ "rule": null
+}

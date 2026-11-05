@@ -1,0 +1,34 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "when did sam ortiz start?",
+ "reply": [
+  "sam ortiz started on september 14, like you confirmed back on sep 1."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam ortiz start date"
+   },
+   "result": "#248 Mon 31 Aug 17:46 aicoo: oh no. hope the rug survives\n#249 Tue 01 Sep 09:00 Them: sam ortiz start date still sep 14, right?\n#250 Tue 01 Sep 09:01 aicoo: confirmed, september 14"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21322,
+   "out": 23,
+   "usd": 0.000687108
+  },
+  {
+   "in": 21422,
+   "out": 24,
+   "usd": 0.000708668
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64097
+}

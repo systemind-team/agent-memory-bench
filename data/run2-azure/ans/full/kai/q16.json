@@ -1,0 +1,34 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q16",
+ "kind": "update",
+ "q": "Aurora最初名字是Aurora啥，我记得有歧义。",
+ "reply": [
+  "对，之前你说过，是 Aurora Health，不是 Aurora TTech。当时差点混淆，后来改过来了。现在所有文档里都是 Aurora Health。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Aurora 名字 TTech Health"
+   },
+   "result": "#872 Sun 11 Oct 08:00 Them: Morning. Sunday Oct 11. Lazy morning with family.\n#873 Sun 11 Oct 08:10 Them: Remember Aurora deal名字是Aurora Health, not Aurora TTech，差点confuse.\n#874 Sun 11 Oct 08:12 aicoo: Good catch. Aurora Health all documents."
+  }
+ ],
+ "calls": [
+  {
+   "in": 36321,
+   "out": 26,
+   "usd": 0.001180786
+  },
+  {
+   "in": 36437,
+   "out": 38,
+   "usd": 0.001211866
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91597
+}

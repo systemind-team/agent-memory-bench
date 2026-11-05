@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct count is 4 engineers (Dan, Tom, Lena, Sam) before Sam joined, but the assistant incorrectly lists Priya as an engineer and omits Lena from the team.",
+ "rule": null
+}

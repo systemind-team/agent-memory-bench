@@ -1,0 +1,47 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q27",
+ "kind": "open_loop",
+ "q": "what's the status of that billing timeline doc for priya?",
+ "reply": [
+  "i don't have a record of a billing timeline doc for priya beyond that reminder from aug 4. i can check if there's something in your docs.",
+  "did you draft it already? or should i look around for it?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing timeline doc priya"
+   },
+   "result": "#11 Mon 03 Aug 17:46 aicoo: have a good evening. say hi to biscuit\n#12 Tue 04 Aug 09:15 Them: remind me to send priya the billing timeline doc by friday\n#13 Tue 04 Aug 09:15 aicoo: ok, will remind you thursday afternoon"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing timeline doc"
+   },
+   "result": "#11 Mon 03 Aug 17:46 aicoo: have a good evening. say hi to biscuit\n#12 Tue 04 Aug 09:15 Them: remind me to send priya the billing timeline doc by friday\n#13 Tue 04 Aug 09:15 aicoo: ok, will remind you thursday afternoon"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5307,
+   "out": 24,
+   "usd": 0.00021143
+  },
+  {
+   "in": 5416,
+   "out": 22,
+   "usd": 0.0002332
+  },
+  {
+   "in": 5523,
+   "out": 54,
+   "usd": 0.00027359
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17935
+}

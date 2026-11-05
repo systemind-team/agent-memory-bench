@@ -1,0 +1,58 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "我们的产品最后定名是什么？",
+ "reply": [
+  "陈默，我从笔记和聊天记录里看到产品一直叫「晨检」，但没有找到正式定名的记录或讨论。\n\n要不要我现在去产品相关文档里找找有没有品牌名或产品全称的决议？或者你直接告诉我，我记下来。"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "产品名称 定名"
+   },
+   "result": "[seed-round-investors] Fri 23 Oct: 成都协会想推产品到更多社区，加单，正在谈分成\n[seed-round-investors] Sat 22 Aug: 蓝驰聊得还行，想再看产品数据（之前已见，准备材料重新发送）\n[cash-runway] Fri 07 Aug: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块\n[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[seed-round-investors] Sat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型；红杉周三下午改为线下，需演示产品（moved from Thu 03 Sep，新增红杉线下会议；之前红杉约聊已拖）"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "产品 定名 名称 名字"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "晨检 产品名"
+   },
+   "result": "[seed-round-investors] Fri 23 Oct: 成都协会想推产品到更多社区，加单，正在谈分成\n[seed-round-investors] Sat 22 Aug: 蓝驰聊得还行，想再看产品数据（之前已见，准备材料重新发送）\n[cash-runway] Fri 07 Aug: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块\n[redshirt-meeting] Sat 19 Sep: 红杉VP联系，10月8日开会改为周三下午线下，需演示产品（之前10月8日）\n[product-launch] Thu 22 Oct: 晨检DAU峰值2100，次留38%（超过云九要求的2000）\n[product-launch] Thu 22 Oct: 晨检DAU峰值2100，次留38%；Sat 24 Oct Mia出了新UI方案\n[about-me] Sat 24 Oct: 晨检安卓版推到11月中；Mia新UI方案；成都协会加单\n[product-launch] Mon 14 Sep: Mia 晨检 logo 改第三版后决定用回第一版，保持简洁（新增）\n[customer-service-training] 10月6日小雨请假，客服外包响应还行；Sat 10 Oct 英语练习有效，晨检上线DAU稳定\n[product-launch] Sat 24 Oct: 晨检安卓版推到1"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2859,
+   "out": 23,
+   "usd": 0.000117943
+  },
+  {
+   "in": 3108,
+   "out": 26,
+   "usd": 0.00006177696
+  },
+  {
+   "in": 3163,
+   "out": 23,
+   "usd": 0.00006376636
+  },
+  {
+   "in": 3517,
+   "out": 55,
+   "usd": 0.00004747764
+  }
+ ],
+ "memChars": 3038,
+ "promptChars": 7009
+}

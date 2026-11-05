@@ -1,0 +1,34 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q15",
+ "kind": "update",
+ "q": "大伟薪资最后敲定多少？",
+ "reply": [
+  "最后敲定是1万85（含绩效），9月1号起薪。当时合同已经批注更新了，你要再确认一下吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 薪资"
+   },
+   "result": "#159 Wed 26 Aug 10:31 aicoo: 记住了，9月1号提醒你确认大伟入职手续\n#160 Wed 26 Aug 14:00 Them: 大伟薪资最后谈到1万85，9月1号起算\n#161 Wed 26 Aug 14:01 aicoo: 确认，1万85，9月1号起薪，合同已批注更新\n---\n#85 Mon 17 Aug 08:32 aicoo: 还没回复，我再跟进一下\n#86 Mon 17 Aug 12:00 aicoo: 大伟薪资要求2万，我们折中1万9，他同意了\n#87 Mon 17 Aug 12:05 Them: 好，那就1万9，绩效另算\n---\n#83 Sun 16 Aug 12:00 Them: 好，发了告诉我。下周阿杰回来，准备冲刺。\n#84 Mon 17 Aug 08:30 Them: aicoo，大伟那边薪资谈得怎么样了？\n#85 Mon 17 Aug 08:32 aicoo: 还没回复，我再跟进一下\n---\n#26 Fri 07 Aug 16:46 Them: 好，准备充分\n#27 Sat 08 Aug 09:00 Them: 大伟薪资offer开1万8，加绩效\n#28 Sat 08 Aug 09:01 aicoo: 1万8+绩效，我草拟offer邮件吧"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1103,
+   "out": 22,
+   "usd": 0.000060654
+  },
+  {
+   "in": 1452,
+   "out": 39,
+   "usd": 0.000143464
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3624
+}

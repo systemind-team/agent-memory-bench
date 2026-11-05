@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo states it cannot find the meeting content and asks for details before formatting, so it does not provide the notes.",
+ "rule": true
+}

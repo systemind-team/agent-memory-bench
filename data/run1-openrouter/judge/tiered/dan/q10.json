@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It correctly notes five members but says the team is currently 4, delaying full count until ramp-up, which undercounts the factual 5.",
+ "rule": null
+}

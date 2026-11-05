@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q13",
+ "kind": "update",
+ "q": "阿杰薪资最后定的多少？",
+ "reply": [
+  "阿杰薪资最终定的是3万5，期权等seed轮定了再说。",
+  "之前从4万降到3万8再降到3万5,8月22日最后定的。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "ajie-salary"
+   },
+   "result": "阿杰薪资\nTue 04 Aug: 阿杰薪资谈到税前4万，期权等seed轮定了再说\nSat 08 Aug: 下周三（8月12日）需提醒发薪资确认邮件给阿杰（新增承诺）\nThu 06 Aug: 阿杰8月10号到15号休假\nSat 22 Aug: 阿杰薪资最终定3万5（之前3万8），期权等seed轮定了再说"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2426,
+   "out": 22,
+   "usd": 0.000109364
+  },
+  {
+   "in": 2555,
+   "out": 47,
+   "usd": 0.000150454
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6255
+}

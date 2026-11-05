@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The memory says the offsite is Oct 20-21, but the assistant replied with Oct 27-28, which is a different date.",
+ "rule": null
+}

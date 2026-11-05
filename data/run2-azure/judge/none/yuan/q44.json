@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It correctly states it doesn't have the airline info and asks for more context or suggests asking Coco.",
+ "rule": null
+}

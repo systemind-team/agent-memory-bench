@@ -1,0 +1,20 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "what was the flaky test called again?",
+ "reply": [
+  "叫 test_billing_webhook，就是那个一直在 ci 上 20% 失败的那个。后来你 mock 了 webhook 端点才修好的。需要查什么吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 21347,
+   "out": 46,
+   "usd": 0.00018028836
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64109
+}

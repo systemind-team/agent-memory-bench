@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant's reply contains the exact test name 'test_billing_webhook' mentioned in the chat.",
+ "rule": null
+}

@@ -1,0 +1,57 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "did stripe webhooks or sam's onboarding happen first?",
+ "reply": [
+  "sam's onboarding happened first. he started around sep 13-14, and the stripe webhook pr was merged on sep 13. webhooks work was already going before he joined, but the actual pr merge came around the same time as his first days."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "stripe webhooks sam onboarding"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam first day onboarding"
+   },
+   "result": "#318 Sat 12 Sep 09:02 aicoo: confirmed. same key from last rotation.\n#319 Sat 12 Sep 11:00 Them: sam's first full day tomorrow. onboarding plan looks solid\n#320 Sat 12 Sep 11:02 aicoo: good. david starts next week too."
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "stripe webhook pr merged"
+   },
+   "result": "#384 Fri 18 Sep 13:42 aicoo: he'll be a strong addition. glad he's engaging with the architecture\n#385 Fri 18 Sep 15:10 Them: stripe webhook pr merged. finally\n#386 Fri 18 Sep 15:12 aicoo: congratulations. that's a big piece done\n---\n#326 Sun 13 Sep 09:35 aicoo: promising start.\n#327 Sun 13 Sep 14:00 Them: stripe webhook PR merged. next up: idempotency keys\n#328 Sun 13 Sep 14:02 aicoo: solid progress. let me know if you need help with the design."
+  }
+ ],
+ "calls": [
+  {
+   "in": 21349,
+   "out": 27,
+   "usd": 0.00017882676
+  },
+  {
+   "in": 21405,
+   "out": 25,
+   "usd": 0.00018093796
+  },
+  {
+   "in": 21511,
+   "out": 27,
+   "usd": 0.00018540396
+  },
+  {
+   "in": 21695,
+   "out": 65,
+   "usd": 0.00019595996
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64125
+}

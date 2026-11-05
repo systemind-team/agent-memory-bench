@@ -1,0 +1,46 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q27",
+ "kind": "open_loop",
+ "q": "我10月8号跟红杉的会，提醒还开着吗？",
+ "reply": [
+  "那个提醒还在——但我翻了一下记录，9月26号你决定专注蓝驰，推掉了10月20号的红杉健康会。10月8号的会当时说的是10月20，还是另一个？",
+  "如果是之前说的10月8号那个会，你在9月26号集中推掉了，就没开。如果是新约的，我没找到记录。要不要我查一下红杉最近有没有再联系？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 10月8日 会 提醒"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 8号 会议 提醒"
+   },
+   "result": "#305 Fri 11 Sep 11:00 Them: 10月8号提醒我跟红杉开会\n#306 Fri 11 Sep 11:01 aicoo: 好，10月8号提醒你与红杉会议\n#307 Fri 11 Sep 11:30 Them: 红杉那边谁联系的"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5589,
+   "out": 29,
+   "usd": 0.00005465572
+  },
+  {
+   "in": 5647,
+   "out": 27,
+   "usd": 0.00005684812
+  },
+  {
+   "in": 5755,
+   "out": 95,
+   "usd": 0.00006675452
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10962
+}

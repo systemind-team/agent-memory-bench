@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant says the latest confirmed change was to 'Context-Aware Planning via Hierarchical Decomposition', but the user's question about '第二次改的title' refers to the second-ever rename, which was to 'Hierarchical Planning with Graph Attention' on Aug 20.",
+ "first": "stale",
+ "rule": null
+}

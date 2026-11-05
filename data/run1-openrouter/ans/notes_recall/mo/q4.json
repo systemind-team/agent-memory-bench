@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "跟蓝驰签 TS 的时候估值是多少？",
+ "reply": [
+  "7500万。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3033,
+   "out": 5,
+   "usd": 0.0001235458
+  }
+ ],
+ "memChars": 3346,
+ "promptChars": 7321
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The chat only supports one scope change (custom analytics module, 800k to 950k), but aicoo claims three changes including a separate custom reporting change that never happened.",
+ "first": "wrong",
+ "rule": null
+}

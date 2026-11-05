@@ -1,0 +1,58 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "山海餐厅订到哪天了？",
+ "reply": [
+  "山海餐厅订的是11月20号，Coco生日聚餐那天。",
+  "当时只有那天有位子，我等下帮你确认一下时间（中午还是晚上）和人数信息，别临期忘了。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "山海餐厅 订 哪天"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "shanhai restaurant"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "餐厅"
+   },
+   "result": "#733 Wed 14 Oct 23:00 Them: 终于book了“山海”餐厅，11月20号，只有那天有位子。\n#734 Wed 14 Oct 23:01 aicoo: - 已记录：Coco生日聚餐在“山海”餐厅，11月20日。\n#735 Thu 15 Oct 09:00 Them: 周四，早上继续实现scenario。\n---\n#732 Wed 14 Oct 18:00 Them: 晚上开始写代码实现这个scenario。\n#733 Wed 14 Oct 23:00 Them: 终于book了“山海”餐厅，11月20号，只有那天有位子。\n#734 Wed 14 Oct 23:01 aicoo: - 已记录：Coco生日聚餐在“山海”餐厅，11月20日。\n---\n#590 Thu 01 Oct 22:11 Them: 设下周一上午10点提醒我订位。现在累了，明天继续statement。\n#591 Thu 01 Oct 22:12 aicoo: 已设提醒：Mon 05 Oct 10:00 预订山海餐厅。\n#592 Fri 02 Oct 09:00 Them: 早。今天连meeting，下午Prof. Lin meeting，晚上组会。得把paper和statement都过下。\n---\n#588 Thu 01 Oct 21:01 aicoo: 山海餐厅预订提醒：需提前两周。要我现在"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1243,
+   "out": 24,
+   "usd": 0.000042462
+  },
+  {
+   "in": 1296,
+   "out": 21,
+   "usd": 0.000046692
+  },
+  {
+   "in": 1346,
+   "out": 19,
+   "usd": 0.0000324
+  },
+  {
+   "in": 2023,
+   "out": 50,
+   "usd": 0.00009891
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3995
+}

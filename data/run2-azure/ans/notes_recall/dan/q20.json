@@ -1,0 +1,46 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "when did i have the billing_status panic?",
+ "reply": [
+  "那个是8月28号——你把 `billing_status` 列 drop 了而不是 rename，然后回滚了。前后折腾了3小时，Lena在生产同步前发现了。后来post-mortem做完，根因是跑了错误的迁移文件。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing_status panic"
+   },
+   "result": "#236 Sat 29 Aug 18:05 aicoo: nice, asheville here you come\n#237 Sun 30 Aug 08:30 Them: the dropped column was `billing_status`. 3h of panic.\n#238 Sun 30 Aug 08:30 aicoo: critical column. glad rollback worked"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "billing_status rollback"
+   },
+   "result": "[candidate-sam] 16 Sep: Sam asked about billing_status rollback; Dan showed him the script\n[billing-migration] 08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushback; later moved to Oct 12 per Priya (was 28 Aug: migration incident on Tuesday; dropped column `billing_status` instead of renaming; rolled back; Lena caught before prod sync; post-mortem done, root cause: wrong migration file ran)\n[billing-split] 20 Sep: Priya asked for migration timeline status; Oct 12 still holds (moved to Oct 12, was Nov 15)\n[billing-migration] 29 Aug: billing PR merged; webhooks in staging\n["
+  }
+ ],
+ "calls": [
+  {
+   "in": 2827,
+   "out": 22,
+   "usd": 0.000239398
+  },
+  {
+   "in": 2932,
+   "out": 23,
+   "usd": 0.000124536
+  },
+  {
+   "in": 3267,
+   "out": 60,
+   "usd": 0.000215606
+  }
+ ],
+ "memChars": 5729,
+ "promptChars": 10294
+}

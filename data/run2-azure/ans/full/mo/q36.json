@@ -1,0 +1,60 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q36",
+ "kind": "pref_apply",
+ "q": "帮我写个周报草稿",
+ "reply": [
+  "好，按之前你说过的格式：开头写「核心结论」，最后加「本周风险」。我按近期进展来拟。",
+  "**周报草稿 — 10月26日 - 11月1日**\n\n**核心结论**\n- 蓝驰种子轮7200万估值封闭，两笔款共600万已全部到账，账上现金约600万\n- 晨检iOS DAU峰值2100，次留38%，超云九门槛\n- 徐汇驿站首月流水破5万，模式验证，下周再签一家\n\n**本周完成**\n- 蓝驰第二笔款到账，融资流程关闭\n- 崇明全员offsite完成，团队状态回升\n- 商标初审公告，进入公示期\n- 客服外包合同签定3.8万/月*半年，晚班兼职已安排\n- 安卓版测试推进，计划11月中上线\n\n**下周重点**\n- 大伟拓展新驿站渠道（目标签1家）\n- 成都合作方订单预测冲500单\n- 红杉视频会议准备（数据材料已备）\n- 安卓版上线前最终测试\n- 11月1日季度复盘（已设提醒）\n\n**本周风险**\n- 大伟元旦连休（12月28日-1月3日），客服需提前排班\n- 商标仍处公示期，需关注异议",
+  "你看看要改的地方，我调好就发群里？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周报 本周完成 下周重点"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周报 本周 上周 下周"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周报格式 本周 核心结论"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18696,
+   "out": 26,
+   "usd": 0.001053808
+  },
+  {
+   "in": 18751,
+   "out": 26,
+   "usd": 0.001706894
+  },
+  {
+   "in": 18806,
+   "out": 26,
+   "usd": 0.000664492
+  },
+  {
+   "in": 18861,
+   "out": 340,
+   "usd": 0.000806058
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35674
+}

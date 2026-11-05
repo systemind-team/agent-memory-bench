@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply says 1 data eng candidate was interviewed, but messages #94, #174, #283, and #461 show three candidates (Maria Torres, Jordan Liu, David Chen) were interviewed, making the count outdated.",
+ "first": "stale",
+ "rule": null
+}

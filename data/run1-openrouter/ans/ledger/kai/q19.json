@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "那个offsite在Hangzhou，日期是Oct 20-21对吗？",
+ "reply": [
+  "凯哥，offsite是10月27-28日，不是在杭州。你看memory里记录的：10月27日Q4 offsite在杭州，Ravi、Yuki、Omar、Emily一共5人，明早8点出发。10月28日是第二天。现在已经过了。",
+  "你周一还有pricing launch decision meeting、SEA expansion headcount、跟Ravi确认integration timeline这些事。需要我帮整理一下具体时间安排吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5106,
+   "out": 111,
+   "usd": 0.00005833408
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14918
+}

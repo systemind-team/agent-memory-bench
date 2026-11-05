@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "Pricing per user那个launch plan，最后定的价格是44还是多少？",
+ "reply": [
+  "凯哥早上好！pricing launch最后定的价格是$44/user/month，和之前保持一致。12月1日正式launch，Ben那边的A/B test 11月3日继续跑，下周一10:30你和Grace、Ben一起确认最终决策。",
+  "另外提醒一下，你父亲最近血压稳定了吗？周一早上可以问问。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5106,
+   "out": 84,
+   "usd": 0.00005614168
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14928
+}

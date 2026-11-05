@@ -1,0 +1,20 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "蓝驰第一次约见是几号？",
+ "reply": [
+  "search_chat {\"query\": \"蓝驰 第一次 约见\"}"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2451,
+   "out": 16,
+   "usd": 0.00002597588
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6255
+}

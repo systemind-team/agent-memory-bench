@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "It correctly says the booking is done, Delta, Oct 22 morning, but says the booking was 'on October 20' instead of the actual date August 29 (Day 27).",
+ "first": "partial",
+ "rule": null
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "It claims 4 moves with an incorrect sequence (nov 15 → sep 28 → nov 5 → oct 12) and invents sep 28 as a move after nov 15, while the actual sequence is oct 12 → sep 28 → nov 5 → nov 15 → oct 12.",
+ "first": "wrong",
+ "rule": null
+}

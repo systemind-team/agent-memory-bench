@@ -1,0 +1,21 @@
+{
+ "arm": "facts",
+ "id": "mo",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, what's on my plate today?",
+ "reply": [
+  "morning! 今天周日，你说了这周休息周一正常。但我可以帮你理一下明天的第一件事。",
+  "周一重点：大伟新渠道推进、成都合作、安卓11月中上线准备。需要我把明天日程排出来吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1208,
+   "out": 59,
+   "usd": 0.00002889096
+  }
+ ],
+ "memChars": 49,
+ "promptChars": 3983
+}

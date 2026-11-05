@@ -1,0 +1,22 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q13",
+ "kind": "temporal",
+ "q": "周五的guest talk是什么时候的事，speaker是谁？",
+ "reply": [
+  "9月2号的事，speaker是MIT的Prof. Wang，讲RL的。",
+  "当时你说想去听，不过后来那段时间在赶实验和fellowship，好像没特别提后续。",
+  "怎么了，突然问这个？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1624,
+   "out": 66,
+   "usd": 0.00004634896
+  }
+ ],
+ "memChars": 620,
+ "promptChars": 4924
+}

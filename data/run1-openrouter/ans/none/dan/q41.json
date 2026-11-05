@@ -1,0 +1,46 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "what's lena's home address?",
+ "reply": [
+  "I don't have Lena's home address saved in our chat or workspace. Want me to check if it's in your contacts or team directory?",
+  "Or I can draft a message asking her directly — just say the word."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "lena park home address"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena Park address"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1138,
+   "out": 22,
+   "usd": 0.000032652
+  },
+  {
+   "in": 1189,
+   "out": 22,
+   "usd": 0.000037242
+  },
+  {
+   "in": 1240,
+   "out": 51,
+   "usd": 0.000047052
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4189
+}

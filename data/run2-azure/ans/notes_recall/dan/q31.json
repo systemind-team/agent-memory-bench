@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q31",
+ "kind": "open_loop",
+ "q": "what about the on-call docs for sam, are those updated?",
+ "reply": [
+  "最后更新是10月13号你给他指了escalation section那块，从那之后没动过。现在要过一遍看看跟新的webhook逻辑和cutover计划对不对得上？",
+  "[sticker: wave]"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Sam on-call docs updated"
+   },
+   "result": "[candidate-sam] 21 Sep: docs updated for Sam (was pending)\n[candidate-sam] 20 Sep: Dan sent Sam the on-call docs link\n[candidate-sam] 29 Sep: Sam asked about on-call docs again; Dan sent link (was 25 Sep: deploy process)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n[candidate-sam] 13 Oct: Sam asked about on-call runbook; Dan pointed him to escalation section\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 08 Oct: Sam asked ab"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2844,
+   "out": 24,
+   "usd": 0.000244088
+  },
+  {
+   "in": 3194,
+   "out": 54,
+   "usd": 0.000196916
+  }
+ ],
+ "memChars": 5679,
+ "promptChars": 10258
+}

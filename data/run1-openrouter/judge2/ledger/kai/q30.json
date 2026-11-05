@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant incorrectly claims memory not marked as done, but chat shows user stated on Sep 3 they sent the breakdown, so it was done, contradicting the assistant's claim.",
+ "first": "wrong",
+ "rule": null
+}

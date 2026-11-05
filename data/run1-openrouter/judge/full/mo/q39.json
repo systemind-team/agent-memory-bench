@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo's reply uses blank lines between paragraphs, following the user's Sep 19 preference.",
+ "rule": false
+}

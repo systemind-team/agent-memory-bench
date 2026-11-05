@@ -1,0 +1,24 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+ "reply": [
+  "凯哥，周日好。这周几个关键点：",
+  "周一10:30 pricing launch decision meeting（Grace+Ben），你10点先跟Ben prep一下。SEA expansion headcount approval也要同个会里问Grace。",
+  "还有几件事：催Lily和Omar要customer testimonial quotes补Q3 summary；跟Ravi确认dark mode toggle v1 manual toggle timeline（他说11月初交付）；Emily weekly check-in。你父亲那边周一早上也问一下。",
+  "压力不大，节奏刚好。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8795,
+   "out": 119,
+   "usd": 0.000355574
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26059
+}

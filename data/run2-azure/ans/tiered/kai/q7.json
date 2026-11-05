@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "Singapore Q3 sales Omar报了多少，我记得他说best quarter ever。",
+ "reply": [
+  "凯哥周日好。Omar报的Singapore Q3 sales是600k，他说是best quarter ever。这个数据你周日review的时候有印象，Q3整体revenue是2.35M（target 2.4M），Singapore这块贡献不小。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8792,
+   "out": 62,
+   "usd": 0.000323024
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26061
+}

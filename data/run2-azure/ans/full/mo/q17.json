@@ -1,0 +1,34 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "和云九第一次见面是哪天？",
+ "reply": [
+  "和云九第一次见面是 8 月 12 日下午 2 点。当时约在下周三，就是那天。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 8月 12 下午 2点"
+   },
+   "result": "#24 Fri 07 Aug 10:02 aicoo: 这样能加快上线，我先更新开发排期表\n#25 Fri 07 Aug 16:45 aicoo: 约了云九下周三 8月12日下午2点\n#26 Fri 07 Aug 16:46 Them: 好，准备充分"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18697,
+   "out": 30,
+   "usd": 0.000643842
+  },
+  {
+   "in": 18812,
+   "out": 78,
+   "usd": 0.000694872
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35678
+}

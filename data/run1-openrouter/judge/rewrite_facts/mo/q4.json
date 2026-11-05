@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The chat shows the user stated 估值7500万 on Sep 10, but the assistant changed it to 7200万 in its reply, which is not supported by the provided dialog.",
+ "rule": null
+}

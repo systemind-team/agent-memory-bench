@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant acknowledges the user's preference for bullet points and timestamps in standup notes and offers to draft Monday's standup following that format, without making up any unsupported facts.",
+ "rule": false
+}

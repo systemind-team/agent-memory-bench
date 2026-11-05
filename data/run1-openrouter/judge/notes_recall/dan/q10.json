@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "The reply mentions '5个人' in the first line, correctly answering the question, but includes additional unverifiable details unrelated to team size.",
+ "rule": null
+}

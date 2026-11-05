@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo requests details about the update and does not provide a PR description containing a Risk section.",
+ "rule": false
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "The draft PR description does not include a mandatory Risk section as preferred by the user.",
+ "rule": false
+}

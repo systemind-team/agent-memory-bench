@@ -1,0 +1,46 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "和云九第一次见面是哪天？",
+ "reply": [
+  "云九第一次见面是8月12日（周三）下午2点，那次是云九的会。后来云九还提过DAU破2000的目标，不过最后他们投了竞品项目。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 见面 会 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 下 午 2 点"
+   },
+   "result": "#24 Fri 07 Aug 10:02 aicoo: 这样能加快上线，我先更新开发排期表\n#25 Fri 07 Aug 16:45 aicoo: 约了云九下周三 8月12日下午2点\n#26 Fri 07 Aug 16:46 Them: 好，准备充分"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5558,
+   "out": 26,
+   "usd": 0.000219436
+  },
+  {
+   "in": 5613,
+   "out": 28,
+   "usd": 0.000232106
+  },
+  {
+   "in": 5726,
+   "out": 52,
+   "usd": 0.001139932
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10955
+}

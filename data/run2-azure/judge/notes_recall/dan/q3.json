@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly identifies `billing_status` as the dropped column and recaps the incident accurately.",
+ "rule": null
+}

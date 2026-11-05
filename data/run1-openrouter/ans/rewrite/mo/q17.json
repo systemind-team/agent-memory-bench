@@ -1,0 +1,20 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "和云九第一次见面是哪天？",
+ "reply": [
+  "search_chat {\"query\": \"云九 第一次 见面 日期\"}"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 4033,
+   "out": 17,
+   "usd": 0.000040397
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8487
+}

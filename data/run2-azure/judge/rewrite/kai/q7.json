@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo correctly recalled that Omar reported Singapore Q3 sales as 600k, matching the required fact from the chat.",
+ "rule": null
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "how far did i run the day i set a personal best?",
+ "reply": [
+  "你那天跑了10.1英里，新的个人最佳成绩。记得那是9月15号，Biscuit吃完袜子刚从急诊回来没几天。",
+  "[sticker: cheer]"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "personal best run"
+   },
+   "result": "#344 Tue 15 Sep 11:47 aicoo: that's promising. sounds like he's picking things up fast\n#345 Tue 15 Sep 15:20 Them: run update: hit 10.1 miles. new personal best.\n#346 Tue 15 Sep 15:22 aicoo: congratulations. that's a solid milestone"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2978,
+   "out": 21,
+   "usd": 0.000133076
+  },
+  {
+   "in": 3085,
+   "out": 45,
+   "usd": 0.000168986
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10709
+}

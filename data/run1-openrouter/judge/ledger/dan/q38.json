@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It correctly asks for the doc to extract action items, but the reply itself does not start with Action Items at the top as the preference requires.",
+ "rule": true
+}

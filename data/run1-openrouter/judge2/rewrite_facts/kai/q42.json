@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The chat history clearly states Lily's transition to Enterprise Sales and Emily taking over her accounts, never mentioning Lily's vacation.",
+ "first": "made_up",
+ "rule": null
+}

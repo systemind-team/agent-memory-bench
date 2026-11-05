@@ -1,0 +1,35 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q23",
+ "kind": "update",
+ "q": "第二次改的title是什么？",
+ "reply": [
+  "第二次改的标题是：**Context-Aware Planning via Hierarchical Decomposition**。\n\n这是10月26日晚上23:40你最终确认的版本，第二天一早我在overleaf、本地文件和周报模板里都更新了。",
+  "第一次是'Context-Aware Hierarchical Planning for LLMs'（9月13日改的），第二次就是现在这个。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "title Context-Aware Planning via Hierarchical Decomposition"
+   },
+   "result": "#863 Mon 26 Oct 18:47 aicoo: - 已记录草稿标题：Context-Aware Planning via Hierarchical Decomposition。\n- 需要今晚确认后正式更新吗？\n#864 Mon 26 Oct 23:40 Them: Final title: Context-Aware Planning via Hierarchical Decomposition。\n#865 Mon 26 Oct 23:42 aicoo: - 已确认。明天上午更新所有文档中的标题。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 6853,
+   "out": 28,
+   "usd": 0.000263386
+  },
+  {
+   "in": 6987,
+   "out": 87,
+   "usd": 0.000324566
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16038
+}

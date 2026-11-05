@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It correctly states the price is $44/user/month but gives the wrong launch date (December 1 instead of November 1).",
+ "rule": null
+}

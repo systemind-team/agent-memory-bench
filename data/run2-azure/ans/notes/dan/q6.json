@@ -1,0 +1,47 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "how many eng were on the team before david joined?",
+ "reply": [
+  "before David joined (Oct 21), the team had 4 engineers. you, Priya, Tom, and Sam.",
+  "so David brought it to 5."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "engineers team before David Chen joined"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "david chen joined team size"
+   },
+   "result": "[candidate-david-chen] 21 Oct: David Chen joined officially; team now 5\n[about-me] 16 Oct: team agreed on the priority level standard\n[running] 30 Aug: lunch run 5k, Biscuit joined for first mile\n[candidate-sam] 08 Sep: Sam started Sep 14 confirmed; set up laptop on 4th floor IT desk; lunch with Dan and Priya (was 03 Sep: Sam emailed saying excited to start; Dan sent him the onboarding doc); Sam Ortiz onboarding starts with David Chen\n[candidate-david-chen] 28 Oct: David merged his second PR, a billing migration helper\n[candidate-david-chen] 25 Oct: David merged his first PR, a small bug fix i"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2497,
+   "out": 25,
+   "usd": 0.000125954
+  },
+  {
+   "in": 2551,
+   "out": 25,
+   "usd": 0.000137294
+  },
+  {
+   "in": 2888,
+   "out": 40,
+   "usd": 0.00017064
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9108
+}

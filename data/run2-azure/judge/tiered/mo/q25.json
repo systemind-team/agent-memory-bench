@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "The reply includes all required items (9月确定对接, 收到合作方案, 每单8块, 月订单300单以上, 2万4分账) but adds unsupported specific dates and details (e.g., 9月4日初步同意, 9月17日开始跑数据, 日均引流180, 预测500单/月) not found in the provided chat.",
+ "rule": null
+}

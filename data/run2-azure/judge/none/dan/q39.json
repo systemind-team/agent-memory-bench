@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant did not follow the preference to start code review comments with a priority level; instead, it asked for code and offered to compare with past patterns.",
+ "rule": false
+}

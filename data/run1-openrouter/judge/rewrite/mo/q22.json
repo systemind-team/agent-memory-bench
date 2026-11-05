@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "The count of three delays is correct and most planned dates (Sep 10, Sep 18, Sep 25) match the chat, but it incorrectly states the actual iOS launch was Sep 27 instead of Sep 25 as recorded.",
+ "rule": null
+}

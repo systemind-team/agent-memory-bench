@@ -1,0 +1,33 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "what's ade's marathon time goal?",
+ "reply": [
+  "I don't have a goal time for Ade's marathon in my memory — just that she's running Philly on Nov 5 and you're pacing her. Did she mention a target pace or finish time?"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "ade marathon time goal"
+   },
+   "result": "[251] 28 Sep · fact: ade's running a marathon in philadelphia on nov 5  (from #457)\n[291] 03 Oct · fact: ade signed up for philadelphia marathon nov 5, dan is pacing her  (from #525, #526)\n[152] 03 Sep · fact: test_billing_webhook flaky in ci, fails 20% of the time, likely race condition on mock stripe response  (from #261)\n[480] 31 Oct · done: ade revealed the costume  (from #829)\n[353] 11 Oct · fact: ade is making chili for dinner  (from #602)\n[199] 15 Sep · feeling: looking forward to Ade's jollof tonight  (from #339)\n[223] 19 Sep · feeling: looking forward to Ade's suya tonight  (from #389"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3088,
+   "out": 22,
+   "usd": 0.00002738064
+  },
+  {
+   "in": 3435,
+   "out": 48,
+   "usd": 0.00004358004
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10797
+}

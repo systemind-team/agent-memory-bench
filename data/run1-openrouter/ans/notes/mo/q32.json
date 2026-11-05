@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "早，这周怎么安排？",
+ "reply": [
+  "Good morning. This week your priorities are: Dawei's new channel push, Chengdu partnership progress, Android prep for mid-Nov.",
+  "Red shirt wants a video call prep on Wed — I suggest you block 1 hour for that. Also your quarterly review is due this weekend, need me to draft a format?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2449,
+   "out": 70,
+   "usd": 0.00003027948
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6253
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q12",
+ "kind": "update",
+ "q": "Pricing launch date最后定在什么时候了，Ben改了好几次？",
+ "reply": [
+  "凯哥早上好。Ben和你的最后决定是12月1日直接上v3，A/B测试11月3日继续跑，8% conversion lift确认了。Ben建议不用再等，上次meeting你和Grace也同意了。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3025,
+   "out": 58,
+   "usd": 0.000163666
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10827
+}

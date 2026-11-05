@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The docs were marked done on Mon 21 Sep, but aicoo claims they were last updated on 13 Oct and are not done, contradicting the chat history.",
+ "rule": null
+}

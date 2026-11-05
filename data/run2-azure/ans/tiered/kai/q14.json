@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q14",
+ "kind": "update",
+ "q": "Aurora deal的value变化，最终是多少？",
+ "reply": [
+  "凯哥，Aurora deal最终确认是$950k，Q4 close。之前从$800k涨到$950k是因为加了$50k的custom module作为Q1 2027的add-on。这个数字已经体现在Q4 pipeline forecast里了。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8789,
+   "out": 64,
+   "usd": 0.000323514
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26036
+}

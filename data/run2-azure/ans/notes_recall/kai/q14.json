@@ -1,0 +1,22 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q14",
+ "kind": "update",
+ "q": "Aurora deal的value变化，最终是多少？",
+ "reply": [
+  "26号合同签的，商定了Q4 close + add-on 50000。之前从800k（Q3）调整到950k（Q4 + add-on）。",
+  "Lily和你们一起celebrated那个900k，加上add-on后的总value扩大了150k。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13357,
+   "out": 81,
+   "usd": 0.000696602
+  }
+ ],
+ "memChars": 47871,
+ "promptChars": 52584
+}

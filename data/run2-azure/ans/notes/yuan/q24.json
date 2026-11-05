@@ -1,0 +1,46 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q24",
+ "kind": "temporal",
+ "q": "论文标题第三次改是什么时候？",
+ "reply": [
+  "第三次改标题是10月26日。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "标题 第三次 改"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "标题 改"
+   },
+   "result": "[个人] 19 Aug: 改introduction，写motivation\n[项目] 20 Aug: introduction初稿完成（19 Aug改introduction觉得不够sharp）\n[项目] 20 Aug: 论文标题改为Hierarchical Planning with Graph Attention（之前是Planning with Hierarchical Graphs）；13 Sep: 标题改为Context-Aware Hierarchical Planning for LLMs\n[about-me] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[项目] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[about-me] 26 Oct 09:15 开始finalize论文标题，跑最后一个实验；26 Oct 11:30 环境4还是45%，可能intermediate supervision的权重需要调\n[项目] 19 Oct: 复杂场景补充实验，batch "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3706,
+   "out": 23,
+   "usd": 0.000149604
+  },
+  {
+   "in": 3758,
+   "out": 21,
+   "usd": 0.000159404
+  },
+  {
+   "in": 4223,
+   "out": 38,
+   "usd": 0.000266574
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9612
+}

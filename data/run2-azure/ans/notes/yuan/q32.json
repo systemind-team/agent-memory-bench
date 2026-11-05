@@ -1,0 +1,24 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "早上好aicoo，这周什么安排？",
+ "reply": [
+  "早上好周周。这周核心是等Prof. Lin周一meeting反馈后推进论文，同时周二带Dr. Chen熟悉环境。",
+  "周一10:00线上meeting（zoom待Lin提供），讨论投稿时间和Dr. Chen入职。提醒：明天早上9:00会自动把论文最新版发给他。",
+  "周二10:00带Dr. Chen熟悉实验室——GPU集群、存储、代码仓库。周三之后重点是根据Lin的反馈改论文。周六前把discussion和limitation写完。",
+  "现在要不要先看一眼周一slides，确认没什么遗漏？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3710,
+   "out": 126,
+   "usd": 0.000208124
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9614
+}

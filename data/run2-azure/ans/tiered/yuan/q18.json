@@ -1,0 +1,36 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q18",
+ "kind": "aggregate",
+ "q": "GPTR复现那段时间我大概都干了什么？",
+ "reply": [
+  "那段时间你在做GPTR的复现和集成，我从记录里帮你理了一下：",
+  "**9月初**发现GPTR代码里缺失normalization，修改后lr降到1e-5才让结果可用，加到论文表格和ablation里。\n**10月12日**在AI2-THOR上验证，GPTR比baseline高2.5个点，但有个环境报错。\n**10月15-16日**设计完real-world scenario，先跑发现场景太简单、GPTR提升不大，加了障碍物后又高了2个点。最后把结果写进论文，比baseline高3个点。\n**10月19日**在复杂场景下context-aware比GPTR高2个点但方差大，多跑seeds。\n**10月底**用GPTR作为baseline之一，在四个环境上对比，环境3（89%）是最优结果，环境4（55%）是HotpotQA改版。",
+  "完整细节可以去翻9月7-16日、10月5-16日、10月19日这几天的实验日志。需要我帮你回顾某个具体日子的实验参数吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR"
+   },
+   "result": "#893 Thu 29 Oct 10:30 Them: 要，把环境1-4的四个baseline和我们的结果都列出来。\n#894 Thu 29 Oct 10:32 aicoo: - 正在整理数据。\n- 需要包括GPTR和ablation的结果吗？\n#895 Thu 29 Oct 11:00 Them: 包括，ablation放另一个表。下午三点前给我。\n---\n#766 Mon 19 Oct 10:31 aicoo: 已记录。实验预计需要2小时。\n#767 Mon 19 Oct 14:00 Them: 结果出来了，复杂场景下context-aware还是比gptr高2个点，但是方差有点大。\n#768 Mon 19 Oct 14:01 aicoo: 方差大的话，可能需要增加seed数量或者检查数据噪声来源。\n---\n#755 Sun 18 Oct 09:00 Them: 周日，准备组会材料，整理这周实验进展。\n#756 Sun 18 Oct 11:00 Them: 材料准备好了，包括新的real-world scenario实验和GPTR结果。\n#757 Sun 18 Oct 14:00 Them: 组会，汇报进展，Prof. Lin对real-world scenario表示认可，但建议再加一个更复杂的场景。\n---\n#745 Fri 16 Oct 14:00 Them: 下午参加f"
+  }
+ ],
+ "calls": [
+  {
+   "in": 6859,
+   "out": 20,
+   "usd": 0.00145159
+  },
+  {
+   "in": 7598,
+   "out": 261,
+   "usd": 0.000550316
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16043
+}

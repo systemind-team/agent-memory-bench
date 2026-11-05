@@ -1,0 +1,47 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q31",
+ "kind": "open_loop",
+ "q": "what about the on-call docs for sam, are those updated?",
+ "reply": [
+  "他们自9月20号起就更新过一次了，你当时把链接发给了Sam。之后9月29号他又问过一次，你又发了链接。10月13号他问的是on-call runbook，你指了escalation那一节给他。",
+  "不过这次Stripe refactor v2上线后，on-call文档可能需要加一点新的webhook重试流程。需要我把这个记一下提醒你周一加吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "on-call docs Sam"
+   },
+   "result": "[candidate-sam] 20 Sep: Dan sent Sam the on-call docs link\n[candidate-sam] 29 Sep: Sam asked about on-call docs again; Dan sent link (was 25 Sep: deploy process)\n[candidate-sam] 21 Sep: docs updated for Sam (was pending)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n[candidate-sam] 13 Oct: Sam asked about on-call runbook; Dan pointed him to escalation section\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 08 Oct: Sam asked ab"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "on-call runbook Sam"
+   },
+   "result": "[candidate-sam] 13 Oct: Sam asked about on-call runbook; Dan pointed him to escalation section\n[candidate-sam] 20 Sep: Dan sent Sam the on-call docs link\n[billing-migration] 25 Oct: database migration next Wednesday Oct 28 at 2am EST; Dan on call; rollback plan written and shared with Priya and Sam; Priya approved plan and wants a dry run Monday Oct 26 night (moved from Oct 12 cutover); Sam asked about migration steps Oct 25, Dan sent him the runbook; 28 Oct: migration completed; Priya asked about results, Dan said clean\n[candidate-sam] 29 Sep: Sam asked about on-call docs again; Dan sent link"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2867,
+   "out": 23,
+   "usd": 0.00005174876
+  },
+  {
+   "in": 3164,
+   "out": 24,
+   "usd": 0.00006388816
+  },
+  {
+   "in": 3524,
+   "out": 101,
+   "usd": 0.00008475656
+  }
+ ],
+ "memChars": 5679,
+ "promptChars": 10258
+}

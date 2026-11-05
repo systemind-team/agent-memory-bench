@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "what's ade's marathon time goal?",
+ "reply": [
+  "i don't have anything in memory about ade's marathon time goal — did they mention starting to train for one? or signing up for a race?",
+  "if it's something new, tell me and i'll keep it noted."
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3065,
+   "out": 53,
+   "usd": 0.00021509
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10797
+}

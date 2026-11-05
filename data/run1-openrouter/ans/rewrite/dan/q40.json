@@ -1,0 +1,20 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "when is tom's PTO?",
+ "reply": [
+  "在我的记忆里没有提到Tom的PTO安排，dan the builder。你想让我去搜一下聊天记录看看有没有提到吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2995,
+   "out": 34,
+   "usd": 0.00003289412
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10679
+}

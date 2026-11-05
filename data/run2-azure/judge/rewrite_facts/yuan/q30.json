@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant incorrectly states the reminder is still active, but the chat shows it was completed on Aug 31 when the user confirmed Kevin received it.",
+ "rule": null
+}

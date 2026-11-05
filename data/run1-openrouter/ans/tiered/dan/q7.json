@@ -1,0 +1,20 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "what dates are the asheville trip?",
+ "reply": [
+  "Oct 22 to Oct 25. Cabin near Blue Ridge. Ade booked it, you have a Delta flight on the 22nd."
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5326,
+   "out": 34,
+   "usd": 0.0000526988
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17912
+}

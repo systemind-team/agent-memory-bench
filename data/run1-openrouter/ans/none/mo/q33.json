@@ -1,0 +1,47 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "早啊，汇报下今天待办",
+ "reply": [
+  "早啊！周日冒泡，看来是闲不住的人。",
+  "目前我这边没有你今天的单独待办记录。上周收尾的事：蓝驰到账了，大伟要推进新渠道，成都合作和安卓版准备是下周的重点。",
+  "要我现在帮你拉一下今天的个人清单吗？还是先说说有什么想先搞定的？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周日 待办 今天 日程"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周一 待办 重点"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1126,
+   "out": 26,
+   "usd": 0.00001456728
+  },
+  {
+   "in": 1181,
+   "out": 25,
+   "usd": 0.00001671908
+  },
+  {
+   "in": 1235,
+   "out": 82,
+   "usd": 0.00002353988
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3623
+}

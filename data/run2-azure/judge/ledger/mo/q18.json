@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant said 8月21号, but the chat log shows 蓝驰 was scheduled for 8月19日上午十点.",
+ "rule": null
+}

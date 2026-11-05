@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The question asks for the initial title, which the chat shows was 'Planning with Hierarchical Graphs', but the required answer specifies 'Context-Aware Planning via Hierarchical Decomposition', which is a later title, not the initial one.",
+ "rule": null
+}

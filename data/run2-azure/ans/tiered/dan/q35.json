@@ -1,0 +1,23 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "早上好 dan。今天周日，没工作安排。记得你周六说要加回滚步骤到checklist，等周一吧。",
+  "电池79%了，这周记得order新的，别拖到cutover附近。",
+  "今天有什么计划？ade跟biscuit在准备什么吗"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5296,
+   "out": 69,
+   "usd": 0.00023432
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17881
+}

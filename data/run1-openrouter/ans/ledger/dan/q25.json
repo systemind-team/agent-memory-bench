@@ -1,0 +1,40 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "how many times did the cutover date move? list them.",
+ "reply": [
+  "let me pull the timeline from memory and messages to get the full list.",
+  "i remember these cutover date moves:",
+  "1. originally some date → sep 28 (priya asked 11 aug)",
+  "2. sep 28 → nov 5 (20 aug)",
+  "3. nov 5 → nov 15 (6 sep)",
+  "4. nov 15 → oct 12 (18 sep, 'billing cutover final date: oct 12 again')",
+  "5. oct 12 → oct 26 (locked 3 oct)",
+  "that's 5 moves. the last locked date was oct 26. did priya move it again since then?"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "cutover date moved"
+   },
+   "result": "[97] 20 Aug · fact: cutover date moved to nov 5  → replaced 18 Sep by [217] billing cutover final date: oct 12 again  (from #161)\n[161] 06 Sep · fact: cutover date moved to nov 15  → replaced 30 Sep by [267] priya wants to move cutover to oct 26, says nov 15 is too far  (from #274)\n[48] 11 Aug · plan: priya wants cutover timeline moved to sep 28  → replaced 20 Aug by [97] cutover date moved to nov 5  (from #87)\n[217] 18 Sep · fact: billing cutover final date: oct 12 again  (from #379)\n[215] 17 Sep · fact: priya mentioned cutover date might shift again, waiting on legal  (from #373)\n[282] 03 Oc"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3092,
+   "out": 22,
+   "usd": 0.00002754304
+  },
+  {
+   "in": 3452,
+   "out": 145,
+   "usd": 0.00005214664
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10817
+}

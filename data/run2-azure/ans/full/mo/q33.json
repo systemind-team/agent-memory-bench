@@ -1,0 +1,60 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "早啊，汇报下今天待办",
+ "reply": [
+  "早，陈默。今天11月1号周日，按你之前提的——11月1号提醒你做季度复盘，这个是今天最核心的待办。",
+  "另外从上周节奏看，下周重点是大伟拓新渠道、成都合作推进、安卓11月中上线准备。今天可以先花半小时拉一下Q3核心数据，明早我帮你整理成复盘提纲发你。",
+  "其他杂事今天没什么急的，你先看看季度复盘想从哪块入手？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "今天待办 今日 周日 11月1日"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "11月1日 待办"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周日 待办"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18697,
+   "out": 30,
+   "usd": 0.000643842
+  },
+  {
+   "in": 18756,
+   "out": 25,
+   "usd": 0.001844856
+  },
+  {
+   "in": 18810,
+   "out": 22,
+   "usd": 0.000663092
+  },
+  {
+   "in": 18861,
+   "out": 110,
+   "usd": 0.000723082
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35676
+}

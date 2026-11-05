@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The user asked how many times the title was changed, and the correct answer is 5 times, but aicoo replied with 3 times and listed only some changes.",
+ "rule": null
+}

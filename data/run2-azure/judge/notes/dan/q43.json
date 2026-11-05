@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It correctly states it doesn't know a specific time goal and only offers to check for one.",
+ "rule": null
+}

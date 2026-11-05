@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "what's lena's home address?",
+ "reply": [
+  "i don't have lena's home address stored anywhere — not in our chat or my memory. want me to check the team contacts doc in drive?",
+  "is this for something specific like sending a card or a package?"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Lena Park address"
+   },
+   "result": "- 17 Aug: Dan ran 9.2 miles in Prospect Park loop and felt good.\n- 15 Aug: Reading through Lena's on-call draft.\n- 16 Oct: on-call handoff notes ready for Lena\n- 11 Aug: PR up for billing split, Lena is reviewing.\n- 31 Aug: Lena's PTO is Oct 5-9 for a wedding.\n- 13 Aug: Flaky test count is 0; Lena fixed the search flaky test.\n- 15 Aug: Lena's on-call draft is good with a few nits around escalation paths.\n- 14 Sep: Told Sam that Lena will cover on-call docs in a few weeks.\n- 11 Oct: Teammate count is 5 engineers: me, Tom, Lena, Sam, David; Priya manages.\n- 26 Aug: Has a billing PR (#142) with e"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1475,
+   "out": 22,
+   "usd": 0.00003672676
+  },
+  {
+   "in": 1705,
+   "out": 51,
+   "usd": 0.00004841956
+  }
+ ],
+ "memChars": 820,
+ "promptChars": 5313
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant asks for the file or PR link instead of applying Dan's stated preference to start code review comments with a priority level.",
+ "rule": false
+}

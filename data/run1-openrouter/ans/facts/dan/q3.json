@@ -1,0 +1,33 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "what was the column name i dropped by accident?",
+ "reply": [
+  "`billing_status` — the one that had Lena saving the day before it hit production. still gives me a little jolt just saying it."
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "dropped column name"
+   },
+   "result": "- 30 Aug: dropped column `billing_status` caused 3h of panic\n- 04 Oct: Daniel 'Dan' Okafor recalls the dropped column incident occurred on August 18 and considers it unforgettable.\n- 28 Aug: Daniel \"Dan\" Okafor caused a migration incident on Tuesday where a column was dropped instead of renamed but was rolled back with no data loss because Lena caught it before production sync."
+  }
+ ],
+ "calls": [
+  {
+   "in": 1511,
+   "out": 22,
+   "usd": 0.000063133
+  },
+  {
+   "in": 1633,
+   "out": 36,
+   "usd": 0.0000276486
+  }
+ ],
+ "memChars": 1048,
+ "promptChars": 5561
+}

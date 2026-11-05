@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "It recalls the correct 3-customer request from August but fails to present it as the answer, instead hedging and mentioning an unrelated later request.",
+ "first": "partial",
+ "rule": null
+}

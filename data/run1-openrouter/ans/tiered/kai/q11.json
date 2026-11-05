@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我们的pricing现在是多少per user，final decision是啥？",
+ "reply": [
+  "凯哥，pricing final decision是 $44/user/month，premium tier。之前Ben建议$49，最后跟Grace对齐后定了$44，12月1日正式launch。A/B测试里$44 variant conversion lift 8%，数据支撑。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8814,
+   "out": 55,
+   "usd": 0.00009623824
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26051
+}

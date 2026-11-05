@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It correctly states the key after the first change is 3F8D1A but then invents a newer key 7C2E9B that is not supported by the chat, making the current answer stale/made up.",
+ "rule": null
+}

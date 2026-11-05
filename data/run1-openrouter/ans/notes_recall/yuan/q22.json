@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q22",
+ "kind": "update",
+ "q": "论文标题改过几次？",
+ "reply": [
+  "改了5次。从最早的 Planning with Hierarchical Graphs 开始，8月改成 Hierarchical Planning with Graph Attention，9月中旬改成 Context-Aware Hierarchical Planning for LLMs，9月底简化为 Context-Aware Planning，最后10月26日定成现在的 Context-Aware Planning via Hierarchical Decomposition。",
+  "要不要我把历次标题和改动时间整理到一个文档里？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "论文标题 改为 修改"
+   },
+   "result": "[项目] 20 Aug: 论文标题改为Hierarchical Planning with Graph Attention（之前是Planning with Hierarchical Graphs）；13 Sep: 标题改为Context-Aware Hierarchical Planning for LLMs\n[about-me] 26 Oct 09:15 开始finalize论文标题，跑最后一个实验；26 Oct 11:30 环境4还是45%，可能intermediate supervision的权重需要调\n[about-me] 26 Oct 09:15 开始finalize论文标题，跑最后一个实验；26 Oct 11:30 环境4还是45%，可能intermediate supervision的权重需要调；27 Oct 14:30 每个step加supervision环境4跑到52%\n[about-me] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[项目] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-A"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4351,
+   "out": 24,
+   "usd": 0.00007882084
+  },
+  {
+   "in": 5189,
+   "out": 86,
+   "usd": 0.00011787804
+  }
+ ],
+ "memChars": 7027,
+ "promptChars": 11367
+}

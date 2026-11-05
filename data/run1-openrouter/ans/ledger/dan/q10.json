@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "team is 5 now — you, priya, tom, lena, sam, plus david who joined last month",
+  "want me to update the team page or the on-call rotation to reflect that?"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "team size members"
+   },
+   "result": "[423] 21 Oct · person: david chen joined officially. team now 5.  (from #721)\n[391] 16 Oct · fact: shared with the team, everyone agreed on code review priority levels  (from #669)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3086,
+   "out": 21,
+   "usd": 0.00002721824
+  },
+  {
+   "in": 3173,
+   "out": 50,
+   "usd": 0.00003310524
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10794
+}

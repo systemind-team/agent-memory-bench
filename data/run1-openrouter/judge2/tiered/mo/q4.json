@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply says the valuation at TS signing was 7500万, but the first-grader's gold answer requires 7200万, and the user's question specifically asks for the valuation at TS signing with 蓝驰, which the chat shows was 7500万 at the time of signing, but the grader's required answer is 7200万, making the reply incorrect per the grader's standard.",
+ "first": "wrong",
+ "rule": null
+}

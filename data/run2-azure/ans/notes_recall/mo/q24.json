@@ -1,0 +1,58 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "蓝驰从第一次接触到打款，关键节点有哪些？",
+ "reply": [
+  "从我的记录看，蓝驰这条线的关键节点：\n\n1. 8月底 — 砍掉红杉，专注蓝驰深聊，估值松到7500万\n2. 9月3日 — 当面谈条款\n3. 9月8日 — 收到尽调清单，团队背景核对、财务材料整理\n4. 9月16日 — 签TS，估值7500万\n5. 9月21日 — 合伙人线下聊用户增长模型，次留34%、DAU 1200\n6. 10月14日 — 第一笔300万到账\n7. 10月26日 — 种子轮封闭，估值调整到7200万，蓝驰独投；第二笔300万到账\n\n中间从接触到打款大约两个月。第一次接触的精确日期我记录里没有写——需要我往前翻更早的聊天吗"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "蓝驰 seed round 打款 节点"
+   },
+   "result": "[ajie-salary] Sat 22 Aug: 阿杰薪资最终定3万5（之前3万8），期权等seed轮定了再说\n[ajie-salary] Tue 04 Aug: 阿杰薪资谈到税前4万，期权等seed轮定了再说\nSat 08 Aug: 下周三（8月12日）需提醒发薪资确认邮件给阿杰（新增承诺）\n[seed-round-due-diligence] Mon 26 Oct: 种子轮封闭，估值7200万，蓝驰独投；蓝驰第二笔10月26日到账（was 月底到账）\n[seed-round-investors] Mon 26 Oct: 种子轮封闭，估值7200万，蓝驰独投（was 7500万）；蓝驰第二笔10月26日到账（was 月底到账）\n[cash-runway] Wed 14 Oct: 蓝驰钱进来后能松口气，已到账\n[seed-round-investors] Wed 14 Oct: 蓝驰第一笔300万到账，第二笔11月中\n[seed-round-due-diligence] Wed 16 Sep: 蓝驰合伙人约下周一（9月21日）下午3点视频聊用户增长模型，大伟数据需打包；蓝驰第二笔未定；9月20日改为线下会议（新增线下）；Tue 22 Sep蓝驰尽调要用户次留数据，目前34%，日活1200（新增）\n[seed-round-investors] Mon 24 Aug: 云九无回音，标"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 第一次 接触 打款"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 接触 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3034,
+   "out": 27,
+   "usd": 0.000285668
+  },
+  {
+   "in": 3607,
+   "out": 27,
+   "usd": 0.000268526
+  },
+  {
+   "in": 3663,
+   "out": 24,
+   "usd": 0.000416078
+  },
+  {
+   "in": 3716,
+   "out": 202,
+   "usd": 0.000251944
+  }
+ ],
+ "memChars": 3356,
+ "promptChars": 7334
+}

@@ -1,0 +1,33 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q15",
+ "kind": "update",
+ "q": "大伟薪资最后敲定多少？",
+ "reply": [
+  "大伟薪资最终敲定是1万85，9月1号起算的，底薪加绩效的结构。你记的是这个数没错吧"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "大伟薪资"
+   },
+   "result": "[17] 08 Aug · fact: 大伟薪资offer开1万8加绩效  (from #27)\n[88] 27 Aug · fact: 大伟薪资最终1万85，9月1号起算  (from #160, #161)\n[37] 14 Aug · decision: 大伟薪酬结构：底薪1万7，绩效1000，年终酌情  (from #67)\n[45] 17 Aug · fact: 大伟最终薪资1万9，绩效另算  → replaced 27 Aug by [88] 大伟薪资最终1万85，9月1号起算  (from #86, #87)\n[38] 14 Aug · done: 大伟薪酬结构：底薪1万7，绩效1000，年终酌情，已记录  (from #68)\n[5] 04 Aug · plan: 明天（Tue 04 Aug）跟阿杰谈薪资  (from #4)\n[34] 13 Aug · feeling: 阿杰休假期间想再谈谈薪资  (from #60)\n[35] 13 Aug · decision: 阿杰薪资调整为税前3万8  → replaced 22 Aug by [60] 阿杰薪资最终定3万5，试用期后看表现调  (from #62, #63)\n[36] 14 Aug · done: 阿杰薪资调整为税前3万8  (from #64)\n[8] 04 Aug · done: 阿杰薪资谈到税前4万，"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2622,
+   "out": 21,
+   "usd": 0.0000250096
+  },
+  {
+   "in": 3013,
+   "out": 39,
+   "usd": 0.0000423458
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6685
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant states the initial value was $950K, but the chat shows it was $800K when confirmed on Aug 7.",
+ "rule": null
+}

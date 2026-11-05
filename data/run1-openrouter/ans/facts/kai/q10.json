@@ -1,0 +1,21 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "Aurora deal最初是多少value来着，我印象中后来加了custom模块涨了。",
+ "reply": [
+  "Aurora deal最初是$800K，legal签的时候是这个数。后来加了custom reporting模块，Q4 add-on额外$50K/年，最终close是$950K，上周一announce的。",
+  "你当时让Lily谈的add-on pricing，最后定的是$50K annually。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1786,
+   "out": 74,
+   "usd": 0.00005357576
+  }
+ ],
+ "memChars": 910,
+ "promptChars": 5582
+}

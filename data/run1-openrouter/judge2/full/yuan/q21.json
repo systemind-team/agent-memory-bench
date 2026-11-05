@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The question asks for the paper's first title, and the assistant correctly identifies it as 'Planning with Hierarchical Graphs' per message #47, while clearly listing later changes; the probe's outdated values definition does not make the first title stale.",
+ "first": "stale",
+ "rule": null
+}

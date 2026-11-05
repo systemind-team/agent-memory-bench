@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "aicoo provided Ben's Q3 target as 500k new sales when the probe specifies aicoo should say it doesn't know for revenue; the note clarifies Ben's 500k is new sales, not revenue.",
+ "first": "made_up",
+ "rule": null
+}

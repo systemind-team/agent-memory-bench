@@ -1,0 +1,23 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "帮我写这周的周报，based on最近我们的updates.",
+ "reply": [
+  "凯哥早上好。这周的周报基于你最近的更新，我整理一下：",
+  "**你的本周要点**\n\n周一开始：10:00 pricing prep，10:30跟Grace和Ben确认pricing launch（Dec 1）。顺便跟Grace确认SEA expansion headcount timeline。\n\n继续跟进Ravi：integration final timeline，他上次说security audit retest只多一天，不影响。Emily weekly check-in。\n\n**Q3 customer wins summary**：Grace周四回复说好，但需要加customer testimonial section。你计划周一找Lily要Aurora的quote，找Omar要Singapore两个大客户的。\n\n**Dark mode**：Yuki的beta反馈92%满意，toggle v1 manual先ship，auto-toggle defer到v2。你周五已经跟Yuki说好了。\n\n**家人**：父亲周五头晕好转，周末血压正常。女儿Halloween开心，今天带他们去公园。没有影响工作安排。",
+  "你看这样够吗？还是想加别的东西？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13009,
+   "out": 233,
+   "usd": 0.000708642
+  }
+ ],
+ "memChars": 46510,
+ "promptChars": 51227
+}

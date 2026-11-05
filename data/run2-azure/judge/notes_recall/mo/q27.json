@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "It states the meeting was rescheduled to Oct 15 or Oct 22 without support in the provided chat, and fails to state the required correct status that the Oct 8 meeting was moved to Oct 20.",
+ "rule": null
+}

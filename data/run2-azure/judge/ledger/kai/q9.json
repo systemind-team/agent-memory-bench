@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "助手回答说录用了Jason Chen，但对话记录显示录用的PM是Emily Tan。",
+ "rule": null
+}

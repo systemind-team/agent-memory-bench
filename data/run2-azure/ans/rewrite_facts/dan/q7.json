@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "what dates are the asheville trip?",
+ "reply": [
+  "asheville trip是10月22号到25号， cabin near blue ridge， 22号早上出发",
+  "不过你上周没提6点的航班提醒， 要我帮你check一下有没有漏订什么吗"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Asheville trip dates"
+   },
+   "result": "- 26 Sep: Ade is planning a trip to Asheville for us in October.\n- 13 Oct: Asheville trip booked from Oct 22 to 25, cabin near Blue Ridge.\n- 01 Oct: Ade is looking at Asheville hikes for October 22-25. Ade is booking the Asheville cabin and departure is confirmed for Oct 22 morning.\n- 29 Aug: Promised Ade to book Asheville flights tonight.\n- 10 Sep: Daniel's dog ate an expensive sock and needed induced vomiting; emergency vet trip."
+  }
+ ],
+ "calls": [
+  {
+   "in": 3290,
+   "out": 23,
+   "usd": 0.000153892
+  },
+  {
+   "in": 3437,
+   "out": 52,
+   "usd": 0.000155178
+  }
+ ],
+ "memChars": 7328,
+ "promptChars": 11945
+}

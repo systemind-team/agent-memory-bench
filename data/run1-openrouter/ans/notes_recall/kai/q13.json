@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q13",
+ "kind": "update",
+ "q": "Pricing最初是多少，Ben第一次propose的。",
+ "reply": [
+  "Kai，Ben第一次propose的是$41/user/month，那是8月16号发的v1。后来他自己发现unit economics算错了，重新做了v2，降到$39/user/month。最后经过几轮讨论和你的review，才定下来$44/user/month，launch Dec 1。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13299,
+   "out": 65,
+   "usd": 0.00015441804
+  }
+ ],
+ "memChars": 47617,
+ "promptChars": 52332
+}

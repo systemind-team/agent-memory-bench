@@ -1,0 +1,72 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, any updates?",
+ "reply": [
+  "morning! not much new since you wrapped on saturday. tom's stripe refactor v2 is still in review — i figure that kicks off monday morning once folks are back.",
+  "the cutover checklist still needs those rollback steps you mentioned. anything you want me to pre-fill from last week's dry run results before monday?",
+  "[sticker: wave]"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "updates pending"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "this week priority"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "monday cutover"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "cutover migration stripe"
+   },
+   "result": "- 03 Oct: Oct 26 cutover is locked and timeline updated.\n- 03 Oct: Billing migration progress: index migration script written.\n- 26 Oct: Priya wants the cutover checklist ready by Friday.\n- 10 Sep: Daniel opened a PR for Stripe webhook retry logic. 13 Sep: Stripe webhook PR merged.\n- 04 Aug: Has a sync with Priya scheduled for 10am tomorrow about the cutover plan\n- 17 Sep: Priya mentioned the cutover date might shift again, pending legal.\n- 13 Aug: Post-mortem concluded that the root cause was a missing index on the subscriptions table during migration. 28 Aug: The root cause of the migration "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1277,
+   "out": 21,
+   "usd": 0.000142458
+  },
+  {
+   "in": 1327,
+   "out": 21,
+   "usd": 0.00006131
+  },
+  {
+   "in": 1377,
+   "out": 22,
+   "usd": 0.00007237
+  },
+  {
+   "in": 1428,
+   "out": 22,
+   "usd": 0.00008308
+  },
+  {
+   "in": 1679,
+   "out": 85,
+   "usd": 0.000262718
+  }
+ ],
+ "memChars": 275,
+ "promptChars": 4762
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "Aurora deal scope change了几次，每次加了啥？",
+ "reply": [
+  "凯哥，根据记录Aurora deal的scope change一共三次：\n\n第一次是8月中，客户要求加custom analytics module，评估后作为Q1 2027 add-on单独定价$50K/yr。\n\n第二次是9月初，客户想要custom reporting，scope小一点大概4周，后来Lily和Ravi确认可行，跟add-on一起放在Q4 deal里。\n\n第三次是10月中旬，Lily说客户加了一个export功能需求，Ravi说2-3天工作量，塞进了current sprint，不影响整体timeline。\n\n最后deal value从最初的800K涨到950K，close在Q4。要我把每次的scope change细节和日期整理成一个文档吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36341,
+   "out": 164,
+   "usd": 0.00031636332
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91605
+}

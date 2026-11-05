@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "Dr. Chen入职是哪天？",
+ "reply": [
+  "周二，11月3号。你昨晚刚睡下，我记着今天上午10:00提醒你带他熟悉环境呢。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Dr. Chen 入职"
+   },
+   "result": "- 30 Oct: aicoo提示下周Dr. Chen入职后可能会更忙。\n- 21 Oct: Dr. Chen入职定在11月3号，Lin让周予安带他熟悉环境。29 Oct: 周予安告知Dr. Chen于11月3日（下周二）入职。31 Oct: 周予安记得提醒带Dr. Chen熟悉环境。\n- 29 Oct: 上午整理实验表格，下午准备周一meeting材料。周一meeting要讨论论文投稿时间和Dr. Chen入职的事。\n- 29 Oct: 周予安指示先不用准备Dr. Chen的onboarding checklist，等Prof. Lin安排。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3784,
+   "out": 23,
+   "usd": 0.00005571944
+  },
+  {
+   "in": 3961,
+   "out": 36,
+   "usd": 0.00004733148
+  }
+ ],
+ "memChars": 4918,
+ "promptChars": 9205
+}

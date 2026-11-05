@@ -1,0 +1,72 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning aicoo, what's my schedule this week?",
+ "reply": [
+  "早周周，这周日程排好了👇",
+  "**周一（2 Nov）**\n- 9:30 线上meeting（Prof. Lin出差）\n  - 讨论点：论文投稿时间、Dr. Chen入职安排\n  - 材料已准备好，明天9:00自动发论文给Prof. Lin\n\n**周二（3 Nov）**\n- Dr. Chen入职，记得10:00带他熟悉实验室（GPU集群、存储、代码仓库）\n- 还有TA作业要批吗？上周三剩30份，这周二是新一批50份\n\n**周三–周五**\n- 继续调环境4的intermediate supervision权重？上次55%还没到目标\n- 周末前要提醒你订山海餐厅的事吗？（11月20日已订）\n\n另外，下周二（13 Oct那个已经过了），这周还有没有其他deadline或要提前准备的？",
+  "[sticker: wave]"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "schedule this week"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "this week schedule"
+   },
+   "result": "- 18 Aug: 下午继续跑实验，并调整learning rate schedule。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周一 meeting 周二 Dr. Chen 周三 周四 周五 下周"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "周一 周二 周三 周四 周五"
+   },
+   "result": "- 24 Aug: 周四组会材料周三晚上做。\n- 下周要开始准备TA材料，下周二（TA课程CS 571）的office hour改为周三下午3点。\n- 25 Oct: 晚上写下周计划：周一线上meeting（改为线上），周二继续改discussion。\n- 28 Aug: 周四开始改fellowship draft，之前的research statement写得不够具体，要加一些实验细节。28 Aug: 把draft发给Prof. Lin了，让他周五前看。\n- 16 Oct: 周五早上跑新scenario的实验。\n- 10 Oct: 学校的fellowship workshop下周二，打算去看看。\n- 02 Sep: 周五有guest talk，speaker是Prof. Wang from MIT，讲RL。\n- 10 Aug: 周予安要求aicoo设置周三之前的TA确认提醒。\n- 13 Oct: 周予安这学期担任TA的课程是CS 571，Prof. Li的课，每周二要批50份作业。今天计划批改20份TA作业，发现学生对concept drift概念理解问题很大。14 Oct: 周三，早上继续改作业，还有30份。\n- 22 Oct: 周四早上看结果，HotpotQA精度只有30%。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3836,
+   "out": 22,
+   "usd": 0.000267992
+  },
+  {
+   "in": 3887,
+   "out": 21,
+   "usd": 0.00014067
+  },
+  {
+   "in": 3937,
+   "out": 33,
+   "usd": 0.00015789
+  },
+  {
+   "in": 3999,
+   "out": 27,
+   "usd": 0.00016755
+  },
+  {
+   "in": 4306,
+   "out": 223,
+   "usd": 0.00034178
+  }
+ ],
+ "memChars": 5173,
+ "promptChars": 9490
+}

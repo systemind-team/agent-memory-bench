@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant gives 'Context-Aware Planning via Hierarchical Decomposition' as the second title, but the chat shows the second change was to 'Hierarchical Planning with Graph Attention' on August 19.",
+ "rule": null
+}

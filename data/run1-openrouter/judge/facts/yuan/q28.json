@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo incorrectly claims the reminder was fulfilled on 9月9号, but the chat log only shows the reminder was set and never closed, and the probe states it is still open.",
+ "rule": null
+}

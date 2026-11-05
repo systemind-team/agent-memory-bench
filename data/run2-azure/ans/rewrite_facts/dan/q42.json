@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "does sam have any pets?",
+ "reply": [
+  "从记录来看没提过sam养宠物，就只知道他九月入职，上周搬了工位到你跟lena中间。要不要直接问问他"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Sam Ortiz pets"
+   },
+   "result": "- 01 Sep: Sam Ortiz start date is September 14. 11 Sep: Sam starts the day after Labor Day; the office is ready.\n- 08 Sep: Had lunch with Sam and Priya.\n- 22 Aug: Dan will onboard Sam with Priya.\n- 18 Sep: likes Sam's curiosity about the webhook queue.\n- 13 Sep: Sam is set up with local dev environment.\n- 24 Oct: Rollback plan written and shared with Priya and Sam.\n- 25 Sep: Dan Okafor sent Sam the wiki page for the deploy process. 29 Sep: Sam asked about the on-call docs again, and Daniel sent him the link.\n- 21 Sep: Dan updated on-call docs for Sam and confirmed it's done.\n- 19 Sep: Dan plan"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3243,
+   "out": 21,
+   "usd": 0.00023455
+  },
+  {
+   "in": 3478,
+   "out": 37,
+   "usd": 0.00029286
+  }
+ ],
+ "memChars": 7067,
+ "promptChars": 11673
+}

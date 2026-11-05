@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The guest talk was on Friday, September 4, 2026, but the assistant incorrectly said the specific day is not recorded and provided no date, failing to give the required temporal detail.",
+ "rule": null
+}

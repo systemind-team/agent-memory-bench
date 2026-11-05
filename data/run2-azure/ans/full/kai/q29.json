@@ -1,0 +1,22 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q29",
+ "kind": "open_loop",
+ "q": "那meeting with Ben to finalize pricing, 我们scheduled了没? later done?",
+ "reply": [
+  "已经scheduled了，凯哥。周一上午10:30-11:00，和Grace、Ben一起，讨论pricing A/B结果和12/1 launch decision。",
+  "之前周五你把pricing review prep从下午3点移到了周一早上10点，正好在10:30之前预热一下。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36325,
+   "out": 73,
+   "usd": 0.001207946
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91636
+}

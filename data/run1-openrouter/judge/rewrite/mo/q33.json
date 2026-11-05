@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant's reply contains no exclamation marks, adhering to the user's prior instruction.",
+ "rule": true
+}

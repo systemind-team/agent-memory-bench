@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q14",
+ "kind": "update",
+ "q": "who was the second candidate for data eng?",
+ "reply": [
+  "只有一位 data eng 候选人，Jordan Liu（从 Spotify 来的）。David Chen 是后面加入做 billing migration helper 的，他不是 data eng 岗位的。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "data eng candidate second"
+   },
+   "result": "[candidate-jordan-liu] 21 Aug: new candidate: Jordan Liu, data eng at Spotify, good take-home; Lena might like experience\n[candidate-jordan-liu] 29 Aug: Jordan Liu, data eng from Spotify, take-home good\n[candidate-david-chen] 28 Oct: David merged his second PR, a billing migration helper\n[billing-migration] 06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2649,
+   "out": 29,
+   "usd": 0.00004338516
+  },
+  {
+   "in": 2801,
+   "out": 48,
+   "usd": 0.00005109916
+  }
+ ],
+ "memChars": 5045,
+ "promptChars": 9611
+}

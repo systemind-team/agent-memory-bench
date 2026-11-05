@@ -1,0 +1,25 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "aicoo, 早，这周怎么安排的?",
+ "reply": [
+  "凯哥早！周日还在休息日呢，不过你问我就先看一眼。",
+  "这周重点：周一10:30定价launch会议（Grace+Ben），记得先10点做定价review prep。同会跟Grace问SEA headcount timeline。",
+  "Lily那边要Aurora quote更新customer wins summary，Omar也要两个Singapore客户quote。",
+  "还有周二确认Ravi dark mode toggle sprint进度，周三跟Emily 1:1。",
+  "你爸刚稳定下来，今天先陪家人，明天再开工不迟。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3328,
+   "out": 126,
+   "usd": 0.000357024
+  }
+ ],
+ "memChars": 6863,
+ "promptChars": 11567
+}

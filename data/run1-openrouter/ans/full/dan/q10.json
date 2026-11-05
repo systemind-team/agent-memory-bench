@@ -1,0 +1,20 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "团队现在是5个人：你、Tom、Lena、Sam，还有David Chen上个月加入了。Priya是你们的经理。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 21345,
+   "out": 34,
+   "usd": 0.00017923276
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64101
+}

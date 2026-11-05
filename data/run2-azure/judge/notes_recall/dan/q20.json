@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant replied with August 28, but the correct date from the chat is August 18 (or August 30 was also mentioned, but the question specifically references the 'billing_status panic' which is tied to August 18 per the October 4 message).",
+ "rule": null
+}

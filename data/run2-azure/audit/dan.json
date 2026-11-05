@@ -1,0 +1,192 @@
+{
+ "q2": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The first pagerduty key mentioned is 9A7B2C on Fri 07 Aug, before any changes, matching the gold answer."
+ },
+ "q3": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #237 from Sun 30 Aug explicitly states the dropped column was `billing_status`, and no later message corrects this."
+ },
+ "q4": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The chat on Tue 15 Sep explicitly states a run of 10.1 miles as a new personal best, which is the only clear answer supported by the messages."
+ },
+ "q1": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The message on Mon 03 Aug states coffee count this week is 14 so far, which is the only data for the first week, and no later messages contradict this as of Sun 01 Nov."
+ },
+ "q8": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #629 on Tue 13 Oct explicitly states Biscuit weighs 42 lbs at the vet, and no subsequent message changes this weight before Sun 01 Nov."
+ },
+ "q5": {
+  "exclude": false,
+  "gold": "test_billing_webhook",
+  "verdict": "fixed",
+  "reason": "The gold answer test_billing_webhook is the specific flaky test mentioned on Thu 03 Sep and resolved by Thu 15 Oct, but the user asks on Sun 01 Nov 'what was the flaky test called again?', and given the planted evidence and the final resolution, test_billing_webhook is the only reasonable answer."
+ },
+ "q7": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The gold answer oct 22-25 is consistently confirmed across multiple messages, including the planted evidence on Tue 13 Oct and the latest mention on Tue 20 Oct, with no conflicting updates as of Sun 01 Nov."
+ },
+ "q10": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The chat explicitly states on Wed 21 Oct that the team is now 5, and no later messages change that before Sun 01 Nov."
+ },
+ "q9": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #567 on Tue 06 Oct explicitly states 'run in williamsburg. 8.7 miles', which directly answers the question as of Sun 01 Nov."
+ },
+ "q11": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The final update on Mon 19 Oct confirms cutover is oct 12 with no more changes, and no subsequent messages alter this before Sun 01 Nov."
+ },
+ "q12": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The last mention of the pagerduty key before Sun 01 Nov is on Mon 26 Oct where '7C2E9B' is confirmed as working, with no further changes indicated."
+ },
+ "q6": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "On Sun 11 Oct the team had 4 engineers before David Chen joined on Wed 21 Oct, making 5 after."
+ },
+ "q13": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The messages explicitly state three data engineer candidates were interviewed: Maria Torres, Jordan Liu, and David Chen, and David joined the team."
+ },
+ "q14": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The gold answer 'jordan liu' is correct as the second candidate for data engineer based on the sequence in the chat, with Maria Torres being the first."
+ },
+ "q15": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The first change after the initial key 9A7B2C is to 3F8D1A on Sun 13 Sep, which remains the correct answer as of Sun 01 Nov."
+ },
+ "q17": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages consistently confirm Sam Ortiz's start date as September 14, with no conflicting information as of November 1."
+ },
+ "q16": {
+  "exclude": false,
+  "gold": "aug 5",
+  "verdict": "fixed",
+  "reason": "The first time Priya moved the cutover was on Wed 05 Aug, when she set the initial target of Oct 12; later movements are subsequent changes."
+ },
+ "q18": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages on Aug 28 and Oct 4 both confirm the migration incident was August 18, making it the only reasonable answer as of Nov 1."
+ },
+ "q20": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The gold answer of August 18 is directly supported by the planted evidence in message #537 on Sun 04 Oct, which explicitly states the billing_status incident was August 18."
+ },
+ "q21": {
+  "exclude": true,
+  "verdict": "ambiguous",
+  "reason": "The messages show Sam's onboarding started Sep 14, but Stripe webhooks activities appear earlier (Aug 10) and later (Oct 2) without a clear initial implementation date, making it ambiguous which happened first."
+ },
+ "q19": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The migration incident occurred on Tuesday, Aug 25 (from #218 on Aug 28 referencing Tuesday), before Sam's start on Sep 14 (from #208), so migration came first."
+ },
+ "q22": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages #94, #174, and #283 name the three data engineer candidates interviewed, and message #461 explicitly confirms the total as 3."
+ },
+ "q24": {
+  "exclude": false,
+  "gold": "9A7B2C, 3F8D1A, 7C2E9B, A4B8C2",
+  "verdict": "fixed",
+  "reason": "Messages show four distinct keys issued and used for on-call: 9A7B2C, 3F8D1A, 7C2E9B, and A4B8C2 (on Oct 20), all before Nov 1."
+ },
+ "q23": {
+  "exclude": false,
+  "gold": "3: oct 12, nov 5, nov 15",
+  "verdict": "fixed",
+  "reason": "Only three distinct cutover dates were discussed: oct 12, nov 5, and nov 15; the gold answer duplicates oct 12 and includes sep 28 which was never called a billing cutover date in the chat."
+ },
+ "q26": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The messages explicitly list three data eng candidates: Maria Torres (out / took another offer), Jordan Liu (rejected due to mixed feedback), and David Chen (accepted)."
+ },
+ "q25": {
+  "exclude": false,
+  "gold": "5: oct 12, sep 28, nov 5, nov 15, oct 12",
+  "verdict": "fixed",
+  "reason": "The cutover date moved to sep 28 on Aug 11, which the gold answer omits."
+ },
+ "q28": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages show Dan read Lena's on-call draft on Sat 15 Aug and said he'd review it, but no follow-up review message exists, so the gold answer is correct as of Sun 01 Nov."
+ },
+ "q30": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The messages clearly show Dan booked the Delta flight on August 29 for October 22 morning, fulfilling his promise to Ade, and no later messages contradict this."
+ },
+ "q29": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The messages show a reminder was set on Aug 20 but the spec was sent early on Aug 22, making the reminder irrelevant, and there is no confirmation it was sent afterward."
+ },
+ "q40": {
+  "exclude": false,
+  "reason": "Tom's PTO is never mentioned in any message.",
+  "which": ""
+ },
+ "q31": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The messages clearly show the on-call docs were updated for Sam on day 50 (Sun 20 Sep/Sep 21), with confirmation on Mon 21 Sep, supporting the gold answer 'done: you updated them on day 50'."
+ },
+ "q41": {
+  "exclude": false,
+  "reason": "Lena's home address is never mentioned in any of the chat messages.",
+  "which": ""
+ },
+ "q27": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The timeline doc from Aug 4 was sent on Aug 7, but later messages about billing timelines, cutovers, and dry runs all refer to separate migration-related requests from Priya, not the original doc; none of those later threads confirm a single resolved 'billing timeline doc' status, so 'never closed' remains correct."
+ },
+ "q42": {
+  "exclude": false,
+  "reason": "The chat mentions a cat named Pixel, a dog/cat named Biscuit, and a potential puppy, but never discusses Sam's pets.",
+  "which": ""
+ },
+ "q43": {
+  "exclude": false,
+  "reason": "The messages mention Ade's marathon and pacing but never specify her time goal.",
+  "which": ""
+ },
+ "q44": {
+  "exclude": false,
+  "reason": "None of the messages mention Priya's favorite restaurant or any restaurant related to Priya.",
+  "which": ""
+ },
+ "q45": {
+  "exclude": false,
+  "reason": "The messages contain no mention of anyone named Priya or her coffee order.",
+  "which": ""
+ }
+}

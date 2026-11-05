@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It correctly identifies the booking as done and mentions the Delta flight and October 22 morning, but incorrectly states the booking was on October 20 instead of day 27 (August 29) as specified in the required answer.",
+ "rule": null
+}

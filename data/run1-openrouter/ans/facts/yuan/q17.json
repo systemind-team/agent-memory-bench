@@ -1,0 +1,33 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "你只投了Facebook fellowship，放弃了NSF的申请。10月20号那会儿你说方向不太对，最后就专心准备Facebook那份了。"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "fellowship 申请 提交"
+   },
+   "result": "- 20 Sep: 下周开始写NSF和Facebook fellowship申请材料。21 Sep: NSF那个方向不太对，最后可能就投Facebook了。05 Oct: Facebook fellowship提交截止日是12月20号，最后期限了。20 Oct 23:50: 周予安只投了Facebook的fellowship，放弃了NSF申请。\n- 11 Aug: fellowship的statement of purpose让用户感到折磨，14 Aug: 第一次fellowship申请截止是11月15号\n- 05 Aug: 今天申请了一个fellowship的截止日期是下个月，得赶紧写材料。\n- 15 Sep: 重新提交了GPTR，等明天看结果。\n- 23 Oct: 周予安给HotpotQA加了intermediate supervision，实验已提交。\n- 23 Oct: 实验提交了，HotpotQA加intermediate supervision，同时grid world也跑一版。\n- 29 Sep: 系里新买8张H100 GPU，申请者众多，决定等论文投出去再申请GPU资源。\n- 10 Oct: 需要aicoo准备申请问题清单。\n- 17 Sep: Prof. Lin reminded me about the fellowship.\n- 17 Sep: NSF fel"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1647,
+   "out": 24,
+   "usd": 0.00004387236
+  },
+  {
+   "in": 1947,
+   "out": 39,
+   "usd": 0.00003232572
+  }
+ ],
+ "memChars": 784,
+ "promptChars": 5081
+}

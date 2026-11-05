@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct value is 34% from September 22, but the assistant incorrectly answered 38% based on later data.",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Reply is in Chinese, but the gold requires English because the user requested English to avoid ambiguity on day 72.",
+ "rule": false
+}

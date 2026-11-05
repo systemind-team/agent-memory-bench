@@ -1,0 +1,47 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "this week's got a few things on your plate:",
+  "mon night: dry run for the rollback plan (priya approved it last week)\nwed 2am est: database migration, you're on call\ntom's stripe refactor v2 is still in review — once that lands, cutover checklist is nearly done\nand you said you'd order a new battery this week (79% now, good call before the migration)",
+  "need me to pull anything together for the dry run tonight?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "this week sunday schedule"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "this week plan schedule"
+   },
+   "result": "[188] 12 Sep · fact: onboarding plan for sam looks solid  (from #319)\n[441] 24 Oct · plan: dan will prepare the rollback plan today  (from #755)\n[442] 24 Oct · done: rollback plan written, shared with priya and sam  (from #757)\n[304] 05 Oct · feeling: feeling okay about the week ahead  (from #549)\n[478] 31 Oct · plan: order a new battery this week  (from #828)\n[47] 11 Aug · fact: priya covering backend next week  (from #85)\n[189] 13 Sep · fact: david starts next week too  (from #320)\n[14] 05 Aug · plan: sync with priya about cutover plan Wed 05 Aug at 10am  (from #24)\n[13] 04 Aug · plan: sync "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3084,
+   "out": 23,
+   "usd": 0.00002729944
+  },
+  {
+   "in": 3136,
+   "out": 22,
+   "usd": 0.00002932944
+  },
+  {
+   "in": 3421,
+   "out": 110,
+   "usd": 0.00004804604
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10788
+}

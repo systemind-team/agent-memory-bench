@@ -1,0 +1,83 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q14",
+ "kind": "update",
+ "q": "办公室租金现在是多少？",
+ "reply": [
+  "后来换到长宁了，谈到1万8一个月，8月24号签的，免租期一个月。现在执行这个价。",
+  "还需要我帮你查下支付记录或者到期时间吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "办公室租金 月租"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "月租 办公室"
+   },
+   "result": "#18 Thu 06 Aug 09:30 Them: 办公室看好了，静安寺附近一个月租2万2\n#19 Thu 06 Aug 14:00 Them: 办公室定在静安寺附近，月租2万2\n#20 Thu 06 Aug 14:02 aicoo: 位置不错，方便见投资人和客户\n---\n#17 Wed 05 Aug 14:01 aicoo: 基本好了，财务模型和用户增长曲线都备齐了\n#18 Thu 06 Aug 09:30 Them: 办公室看好了，静安寺附近一个月租2万2\n#19 Thu 06 Aug 14:00 Them: 办公室定在静安寺附近，月租2万2"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "长宁 办公室 月租"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "长宁 办公室 租金"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "长宁 1万8 租金"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18694,
+   "out": 23,
+   "usd": 0.000639292
+  },
+  {
+   "in": 18746,
+   "out": 22,
+   "usd": 0.000649652
+  },
+  {
+   "in": 18941,
+   "out": 25,
+   "usd": 0.000646458
+  },
+  {
+   "in": 18995,
+   "out": 24,
+   "usd": 0.000657238
+  },
+  {
+   "in": 19048,
+   "out": 26,
+   "usd": 0.000623664
+  },
+  {
+   "in": 19117,
+   "out": 51,
+   "usd": 0.000652154
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35677
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo said the reminder was fulfilled on 9月9号, but the gold states the reminder is still open and the chat only shows the user mentioned the workshop in a meeting, not that the reminder was executed or closed.",
+ "first": "wrong",
+ "rule": null
+}

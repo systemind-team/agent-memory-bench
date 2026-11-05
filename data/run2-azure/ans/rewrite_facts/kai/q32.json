@@ -1,0 +1,23 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+ "reply": [
+  "凯哥早上好。今天周日，你之前没有安排任何会议，这周是你的休息日。",
+  "这周（11月2日-11月7日）的重点：周一10:30跟Grace和Ben的pricing launch decision meeting；SEA expansion headcount timeline；跟Ravi确认integration final timeline；Emily weekly check-in；还有收集customer testimonial quotes。周二Yuki的toggle design finalize，周三Ravi开始estimation。",
+  "但今天先别想这些。你父亲情况稳定了，在家好好休息。有什么需要再叫我。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3304,
+   "out": 127,
+   "usd": 0.000352544
+  }
+ ],
+ "memChars": 6891,
+ "promptChars": 11618
+}

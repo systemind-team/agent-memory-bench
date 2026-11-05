@@ -1,0 +1,58 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q16",
+ "kind": "update",
+ "q": "阿杰的电脑最后配了什么，多少钱？",
+ "reply": [
+  "阿杰最后配的是 MacBook Air，预算 1 万。之前说过 MacBook Pro 涨到 1 万 6，后来你换成了 Air，省了六千贴到 iOS 推广了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "MacBook Air 阿杰 预算 1万"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 MacBook Air 预算"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "MacBook Air 1万 阿杰"
+   },
+   "result": "#182 Fri 28 Aug 14:01 aicoo: 免租期省2万多，装修可以慢慢来\n#183 Fri 28 Aug 15:00 Them: 阿杰电脑换成MacBook Air，省六千，就1万\n#184 Fri 28 Aug 15:01 aicoo: MacBook Air够用，省下的钱贴到iOS推广吧"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18699,
+   "out": 29,
+   "usd": 0.000643702
+  },
+  {
+   "in": 18757,
+   "out": 25,
+   "usd": 0.000653642
+  },
+  {
+   "in": 18811,
+   "out": 27,
+   "usd": 0.001078518
+  },
+  {
+   "in": 18933,
+   "out": 53,
+   "usd": 0.000660458
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35682
+}

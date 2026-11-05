@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the integration check was completed with Ravi, but the chat only shows a reminder was set with no evidence of actual follow-up on the commitment.",
+ "rule": null
+}

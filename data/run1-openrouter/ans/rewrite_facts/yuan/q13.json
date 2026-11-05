@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q13",
+ "kind": "temporal",
+ "q": "周五的guest talk是什么时候的事，speaker是谁？",
+ "reply": [
+  "是9月2号那个周五，speaker是Prof. Wang from MIT，讲RL的。你当时还说不确定能不能去，后来去了吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3890,
+   "out": 40,
+   "usd": 0.00006140344
+  }
+ ],
+ "memChars": 5162,
+ "promptChars": 9466
+}

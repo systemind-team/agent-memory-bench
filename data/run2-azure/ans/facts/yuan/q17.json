@@ -1,0 +1,47 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "你最后只投了一个：Facebook fellowship。之前同时准备了NSF和Facebook两个，后来9月下旬发现NSF的方向不太对，就放弃了，只focus在Facebook上。截止日期我记得是12月20号（之前提的10月31日是更早版本的deadline，后续有变动？），但最后一次记录是10月20号你确认只投了Facebook。需要我重新查一下当前deadline确认吗？",
+  "另外你的Facebook fellowship申请材料——statement of purpose、推荐信之类的——之前10月初你在写，后来进度怎么样了？今天周日，如果还没完全定稿，我可以帮你再过一遍引用和语言。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "fellowship 投了 哪些"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Facebook fellowship NSF fellowship 提交"
+   },
+   "result": "- 20 Sep: 下周开始写NSF和Facebook fellowship申请材料。21 Sep: NSF那个方向不太对，最后可能就投Facebook了。05 Oct: Facebook fellowship提交截止日是12月20号，最后期限了。20 Oct 23:50: 周予安只投了Facebook的fellowship，放弃了NSF申请。\n- 01 Oct: 周予安需要为NSF和Facebook fellowship准备personal statement。\n- 17 Sep: Asked aicoo to check deadlines for NSF and Facebook fellowships.\n- 17 Sep: Facebook fellowship deadline is October 31.\n- 17 Sep: NSF fellowship deadline is November 15.\n- 21 Sep: NSF的fellowship研究方向要求仔细对照。\n- 02 Oct: Meeting前过fellowship statement，NSF的draft感觉保守，得更有抱负些。\n- 19 Sep: 需要设置两个提醒：Facebook 截止日期为10月31日前两周，NSF 截止日期为11月15日前两周。\n- 15 Sep: 重新提交了GPTR，等明天看结"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1624,
+   "out": 25,
+   "usd": 0.000217568
+  },
+  {
+   "in": 1678,
+   "out": 24,
+   "usd": 0.000228348
+  },
+  {
+   "in": 1965,
+   "out": 141,
+   "usd": 0.000216666
+  }
+ ],
+ "memChars": 784,
+ "promptChars": 5081
+}

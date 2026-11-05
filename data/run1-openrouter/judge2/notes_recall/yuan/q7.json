@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Coco的生日在#388中明确是10月5号，但回复却说成10月7号，把聚餐日期当成了生日。",
+ "first": "wrong",
+ "rule": null
+}

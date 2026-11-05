@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Coco说的那个餐厅叫什么名字？",
+ "reply": [
+  "餐厅叫“山海”，你之前预订了11月20日去。是打算论文投出去后带Coco庆祝的吧？我记得是10月14日订的。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "山海 餐厅 Coco 预订"
+   },
+   "result": "[生活] 01 Oct: Coco说山海餐厅需提前两周预订\n14 Oct: 预订了“山海”餐厅，11月20日（之前06 Oct无记录）\n[生活] 01 Oct: Coco说“山海”餐厅要提前两周预定，想带她去庆祝论文；aicoo已设提醒Mon 05 Oct 10:00预订\n[生活] 01 Oct: Coco说山海餐厅需提前两周预订；15 Oct: 平时喝blue bottle咖啡，最近打折；17 Oct: 下午和Coco去超市买菜，晚上在家做火锅\n[个人] 12 Aug: Coco问周末去不去吃山海，我说行（之前计划去山海）\n[个人] 14 Oct: 改完50份CS 571作业，发给Prof. Li（13 Oct晚改20份，14 Oct早改完剩余30份）\n14 Oct: 下午设计real-world scenario（机器人导航），晚上预订了“山海”餐厅，11月20日\n15 Oct: 周四，上午实现scenario，下午跑完实验，效果比随机好但和GPTR结合提升不大\n[项目] 13 Oct: GPTR在THOR上比baseline高2.5个点, THOR报错是版本问题, 重新安装后修复, 继续跑实验（之前12 Oct有一个环境报错待debug）\n14 Oct: 下午开始设计real-world scenario，用机器人导航任务，类似Roomba；16:00 用AI2-THOR厨房"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4047,
+   "out": 25,
+   "usd": 0.000313982
+  },
+  {
+   "in": 4757,
+   "out": 43,
+   "usd": 0.00033569
+  }
+ ],
+ "memChars": 5916,
+ "promptChars": 10263
+}

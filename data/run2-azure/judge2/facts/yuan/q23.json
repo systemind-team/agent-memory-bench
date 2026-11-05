@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The question asks for the second modified title, which is 'Hierarchical Planning with Graph Attention', but the assistant incorrectly identifies it as 'Context-Aware Hierarchical Planning for LLMs'.",
+ "first": "stale",
+ "rule": null
+}

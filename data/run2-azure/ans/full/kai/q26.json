@@ -1,0 +1,87 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "Q3到Q4我有几次personal issue影响work，具体是啥？",
+ "reply": [
+  "凯哥，根据我们之前的对话记录，Q3到Q4期间你遇到的personal issues主要是家里的事：",
+  "1. 女儿反复发烧、咳嗽，好几次你提前下班或请假带她去看医生",
+  "2. 老爸先后住院两次，有一次比较严重需要紧急处理，后来出院又复查，血压一直需要调整药量",
+  "3. 妈妈血压也波动过几次，还有一次老爸住院她比较担心",
+  "4. 医院跑了很多趟，有时候上午开会下午就得走",
+  "总的来说就是女儿生病+老爸住院+妈妈血压波动这三条线同时压着，你还尽量在工作和医院之间跑，挺不容易的。好在后来老爸老妈都稳定了，女儿也好了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "personal issue father daughter mother hospital sick"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "爸爸 住院 发烧 女儿 妈妈 医院"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "personal 女儿 发烧 老爸 住院 妈妈"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "daughter 发烧 father 住院 mom 血压"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "daughter dad mom fever hospital"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 36321,
+   "out": 25,
+   "usd": 0.001180226
+  },
+  {
+   "in": 36375,
+   "out": 29,
+   "usd": 0.001193806
+  },
+  {
+   "in": 36433,
+   "out": 29,
+   "usd": 0.001205986
+  },
+  {
+   "in": 36491,
+   "out": 27,
+   "usd": 0.001171222
+  },
+  {
+   "in": 36547,
+   "out": 23,
+   "usd": 0.001180742
+  },
+  {
+   "in": 36613,
+   "out": 158,
+   "usd": 0.001270202
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91606
+}

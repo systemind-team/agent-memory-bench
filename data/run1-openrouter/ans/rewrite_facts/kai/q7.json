@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "Singapore Q3 sales Omar报了多少，我记得他说best quarter ever。",
+ "reply": [
+  "Omar报的Q3 Singapore销售是600k，确实是best quarter ever。他说得很自豪。",
+  "你要加进Q3 customer wins summary吗？那个section加上这个数字会很有力。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3368,
+   "out": 48,
+   "usd": 0.0001406384
+  }
+ ],
+ "memChars": 7190,
+ "promptChars": 11928
+}

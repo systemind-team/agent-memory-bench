@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply lists five trips with made-up purposes (pipeline review, office expansion, client visits, marketing event) not mentioned in the chat, while missing the actual Sep 1 booking and Oct 6 conference that were in the records.",
+ "rule": null
+}

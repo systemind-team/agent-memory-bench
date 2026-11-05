@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply uses bullet points, which violates the user’s explicit formatting instruction from the chat history.",
+ "rule": false
+}

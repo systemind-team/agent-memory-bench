@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant incorrectly answers the 'name of paper at first' question with 'Planning with Hierarchical Graphs', but the gold specifies the correct answer is 'Context-Aware Planning via Hierarchical Decomposition'.",
+ "first": "wrong",
+ "rule": null
+}

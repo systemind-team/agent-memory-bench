@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply contains fabricated dates (e.g., 9月7日, 9月8日, 9月12日, 10月29日) and events (like 组会展示) not supported by the chat, and misrepresents the timeline of actual events like the normalization fix and final result.",
+ "first": "wrong",
+ "rule": null
+}

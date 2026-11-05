@@ -1,0 +1,33 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q22",
+ "kind": "aggregate",
+ "q": "how many data eng candidates did we interview total?",
+ "reply": [
+  "from memory i only see one data eng candidate — jordan liu from spotify. did we interview others that i'm forgetting?"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "data eng candidate interview"
+   },
+   "result": "[candidate-jordan-liu] 21 Aug: new candidate: Jordan Liu, data eng at Spotify, good take-home; Lena might like experience\n[candidate-jordan-liu] 29 Aug: Jordan Liu, data eng from Spotify, take-home good\n[coffee] 12 Aug: 2 today (prepping for interview)\n[billing-migration] 06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2518,
+   "out": 22,
+   "usd": 0.00002918328
+  },
+  {
+   "in": 2658,
+   "out": 33,
+   "usd": 0.00003576048
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9110
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply states the feedback was sent on September 1, but the correct answer requires August 30; using the outdated September date makes the reply stale.",
+ "first": "stale",
+ "rule": null
+}

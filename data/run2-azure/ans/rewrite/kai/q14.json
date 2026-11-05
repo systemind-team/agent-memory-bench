@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q14",
+ "kind": "update",
+ "q": "Aurora deal的value变化，最终是多少？",
+ "reply": [
+  "凯哥，我记得你之前提过Aurora Health的deal价值，具体数字在你的记忆和聊天记录里我不确定最新确认的是多少。让我查一下。",
+  "[sticker: search]"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3021,
+   "out": 49,
+   "usd": 0.000157786
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10815
+}

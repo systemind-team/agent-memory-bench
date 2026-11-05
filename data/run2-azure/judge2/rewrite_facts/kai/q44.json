@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The chat messages #536, #779, and #1119 directly confirm the 2.35M vs 2.4M target, Grace being 'not thrilled', and the Q4 2.8M mention, and no role assessment appears, matching the probe's 'never mentioned' requirement.",
+ "first": "made_up",
+ "rule": null
+}

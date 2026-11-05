@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply fabricates multiple details not in the chat (保证金5千由协会付, 头三月保底500单, 小雨报400单), and misorders real events like 2万4分账 appearing in October, not September.",
+ "first": "wrong",
+ "rule": null
+}

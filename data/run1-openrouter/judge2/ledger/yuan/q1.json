@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant says Prof. Lin mentioned 1-2 intern slots in September, but the chat shows he stated 3 slots on August 3; the answer contradicts the established fact and gives the wrong number.",
+ "first": "wrong",
+ "rule": null
+}

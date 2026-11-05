@@ -1,0 +1,58 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "did i ever review lena's on-call draft?",
+ "reply": [
+  "you read through it on saturday aug 15 and said it was solid, just a few nits around escalation paths. then you said you'd send comments by wednesday — but no follow-up message shows them being sent. want me to draft the comments from those nits so you can forward them to lena?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "lena on-call draft"
+   },
+   "result": "#125 Fri 14 Aug 17:01 aicoo: enjoy. see you monday\n#126 Sat 15 Aug 08:30 Them: coffee count: 1. lazy saturday. reading through lena's on-call draft\n#127 Sat 15 Aug 08:30 aicoo: understood, i'll note that"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "on-call draft lena review comments"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "on-call draft comments lena"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21327,
+   "out": 23,
+   "usd": 0.000688158
+  },
+  {
+   "in": 21436,
+   "out": 26,
+   "usd": 0.000712728
+  },
+  {
+   "in": 21491,
+   "out": 25,
+   "usd": 0.000723718
+  },
+  {
+   "in": 21545,
+   "out": 72,
+   "usd": 0.000715554
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64111
+}

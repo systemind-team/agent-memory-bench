@@ -1,0 +1,58 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "红杉最早约见面是排在哪天？",
+ "reply": [
+  "红杉最近一次约是10月15号，之后取消了。上周（26 Oct）你安排了「下周红杉视频会议准备」，但还没具体约见面时间。",
+  "最早能排的窗口是下周（2 Nov那周），看你想约哪一天，我帮你跟红杉那边协调时间。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 见面 约"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "红杉 视频 会议"
+   },
+   "result": "[342] 26 Oct · plan: 下周红杉视频会议准备  (from #659)\n[191] 20 Sep · plan: 红杉周三下午会议改成线下，要演示产品  (from #371)\n[81] 25 Aug · plan: 高榕视频会议28号，需要准备PPT突出健康报告独特性  (from #150)\n[108] 29 Aug · plan: 先靠抖音小视频拉DAU  (from #190)\n[232] 26 Sep · decision: 不见红杉  (from #435)\n[114] 31 Aug · plan: 高榕视频会明天（31 Aug）进行  → replaced 01 Sep by [125] 高榕视频会改到9月1日下午3点  (from #203, #204, #205, #206)\n[97] 28 Aug · plan: 高榕视频会预演今天28号  (from #177)\n[221] 24 Sep · plan: 红杉那周只保留红杉和日常运营  (from #413)\n[272] 06 Oct · plan: 红杉约10月15号  (from #519)\n[199] 20 Sep · plan: 蓝驰周一线下会议，准备用户增长模型的PPT  (from #382)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "红杉 约 见面"
+   },
+   "result": "[232] 26 Sep · decision: 不见红杉  (from #435)\n[221] 24 Sep · plan: 红杉那周只保留红杉和日常运营  (from #413)\n[272] 06 Oct · plan: 红杉约10月15号  (from #519)\n[233] 26 Sep · plan: 取消10月20号红杉会  (from #437)\n[330] 23 Oct · fact: 红杉又联系看数据  (from #637)\n[163] 12 Sep · plan: 10月8号与红杉开会  (from #318, #319)\n[219] 24 Sep · plan: 红杉会改到10月20号  → replaced 26 Sep by [233] 取消10月20号红杉会  (from #410, #411)\n[65] 23 Aug · fact: 红杉也有意，但先聚焦蓝驰  (from #126)\n[136] 03 Sep · decision: 红杉约聊先拖着，专注蓝驰  (from #242, #243)\n[342] 26 Oct · plan: 下周红杉视频会议准备  (from #659)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2624,
+   "out": 24,
+   "usd": 0.0000253344
+  },
+  {
+   "in": 2677,
+   "out": 24,
+   "usd": 0.0000274862
+  },
+  {
+   "in": 2997,
+   "out": 24,
+   "usd": 0.0000404782
+  },
+  {
+   "in": 3299,
+   "out": 73,
+   "usd": 0.00004008844
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6687
+}

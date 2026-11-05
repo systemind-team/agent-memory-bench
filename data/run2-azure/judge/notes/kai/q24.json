@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct answer is 2 postponements: from Nov 1 to Nov 15, then Nov 15 to Dec 1, but aicoo's reply incorrectly states an initial date of Oct 15 and mentions an extra step, which is not supported by the chat.",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "助理明确回答实验用了4个环境，与记录相符。",
+ "rule": null
+}

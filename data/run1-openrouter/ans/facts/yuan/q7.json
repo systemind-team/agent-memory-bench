@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "Coco生日是几号来着？",
+ "reply": [
+  "Coco生日是10月5日呀，不过你之前说生日聚餐订在了11月20日'山海'餐厅的位子。",
+  "需要帮你在日历上设个提醒吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Coco 生日"
+   },
+   "result": "- 14 Oct: 订了11月20日在“山海”餐厅的位子（Coco生日聚餐），已答应Coco。\n- 10 Sep: Coco的生日是10月5日，她想去KTV。生日聚餐在KTV‘星光’，蛋糕是我订的。\n- 07 Oct: Coco生日聚餐在KTV‘星光’，蛋糕是我订的。\n- 05 Oct: Fellowship的推荐信Coco说本周能发。\n- 24 Oct: 下午和Coco去布鲁克林逛了。\n- 22 Aug: 下午和Coco一起去超市买东西。\n- 20 Aug 19:00: 周予安答应Coco一起点外卖。\n- 15 Aug: Coco叫我一起去超市，我顺便喘口气。\n- 04 Aug: 晚上跟Coco视频了，她说她最近工作也忙。\n- 17 Oct: 下午和Coco去超市买菜，晚上在家做火锅。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1585,
+   "out": 22,
+   "usd": 0.00004119276
+  },
+  {
+   "in": 1823,
+   "out": 49,
+   "usd": 0.00004473308
+  }
+ ],
+ "memChars": 453,
+ "promptChars": 4738
+}

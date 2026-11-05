@@ -1,0 +1,57 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "蓝驰第一次约见是几号？",
+ "reply": [
+  "8月19日上午十点。蓝驰那次约的是线下会议，在静安寺附近，后来变成了你们第一次正式面聊。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 第一次 约见"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 约 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 见面"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4034,
+   "out": 25,
+   "usd": 0.0000410872
+  },
+  {
+   "in": 4088,
+   "out": 24,
+   "usd": 0.0000431984
+  },
+  {
+   "in": 4141,
+   "out": 22,
+   "usd": 0.0000451878
+  },
+  {
+   "in": 4192,
+   "out": 36,
+   "usd": 0.0000483952
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8486
+}

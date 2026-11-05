@@ -1,0 +1,62 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "list every pagerduty key we used for on-call.",
+ "reply": [
+  "从记录里看，我们用过的 PagerDuty key 一共四个：",
+  "1. 3F8D1A — 最早的那个，9月24号换成了 7C2E9B",
+  "2. 7C2E9B — 从9月24用到10月20，10月26号还在用，昨天凌晨有个误报",
+  "3. 5B1C6D — Lena 的专属key，10月14号之前那轮在用",
+  "4. 9A7B2C — 旧的on-call key，Sam问过那个，9月15 incident 之后已经revoke了",
+  "另外10月20号保存了一个新的 A4B8C2 准备下一轮用，但还没看到它上线的记录"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "PagerDuty key"
+   },
+   "result": "[stripe-webhook] 24 Sep: PagerDuty key changed to 7C2E9B (was 3F8D1A)\n[checkout-spec] 14 Oct: Lena's PagerDuty key was 5B1C6D before last change\n[pagerduty-key] 20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n[stripe-webhook] 10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved\n[pagerduty-key] 26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am\n[candidate-sam] 06 Oct: Sam asked for PagerDuty escalation tour; Dan walked him through Lena's doc\n[stripe-webhook] 12 Oct: found missing idempotency key check; PR up for fix\n[candidate-sam] 08 Oct:"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "pagerduty-key"
+   },
+   "result": "PagerDuty key\n20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "on-call key"
+   },
+   "result": "[pagerduty-key] 20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n[candidate-sam] 08 Oct: Sam asked about old on-call key 9A7B2C; told it was revoked after Sep 15 incident\n[stripe-webhook] 24 Sep: PagerDuty key changed to 7C2E9B (was 3F8D1A)\n[checkout-spec] 14 Oct: Lena's PagerDuty key was 5B1C6D before last change\n[stripe-webhook] 10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved\n[stripe-webhook] 12 Oct: found missing idempotency key check; PR up for fix\n[stripe-webhook] 16 Oct: on-call handoff notes ready for Lena\n[billing-migration] 08 Oct: quiet on-call day, no alert"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2522,
+   "out": 23,
+   "usd": 0.00002942688
+  },
+  {
+   "in": 2881,
+   "out": 23,
+   "usd": 0.00004400228
+  },
+  {
+   "in": 2973,
+   "out": 22,
+   "usd": 0.00004765628
+  },
+  {
+   "in": 3275,
+   "out": 175,
+   "usd": 0.00007234108
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9103
+}

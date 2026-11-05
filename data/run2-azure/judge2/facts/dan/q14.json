@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply says it has no clear memory of a second candidate while simultaneously naming Jordan Liu, and asks the user who it was, when the chat clearly identifies Jordan Liu as the second candidate.",
+ "first": "wrong",
+ "rule": null
+}

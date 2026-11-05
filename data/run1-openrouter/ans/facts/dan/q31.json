@@ -1,0 +1,46 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q31",
+ "kind": "open_loop",
+ "q": "what about the on-call docs for sam, are those updated?",
+ "reply": [
+  "you last sent sam the on-call docs link back in september, and then pointed him to the escalation section in october. since the cutover happened on the 26th, the old docs might be stale now — the deploy process and webhook service url have both changed.",
+  "want me to pull the current checklist and we can update the on-call runbook together this week? or did you already revise it after the cutover?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam on-call docs updated"
+   },
+   "result": "#407 Sun 20 Sep 10:32 aicoo: good instinct. sometimes that's the best move\n#408 Sun 20 Sep 11:55 Them: on-call docs updated for sam. sent him the link\n#409 Sun 20 Sep 11:57 aicoo: he'll appreciate having that reference. one less thing to worry about"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Sam on-call docs updated"
+   },
+   "result": "- 21 Sep: Dan updated on-call docs for Sam and confirmed it's done.\n- 14 Sep: Told Sam that Lena will cover on-call docs in a few weeks.\n- 25 Sep: Dan Okafor sent Sam the wiki page for the deploy process. 29 Sep: Sam asked about the on-call docs again, and Daniel sent him the link.\n- 08 Oct: Told Sam that the old on-call key 9A7B2C was revoked.\n- 13 Oct: Dan pointed Sam to the escalation section of the on-call runbook.\n- 03 Oct: Oct 26 cutover is locked and timeline updated.\n- 09 Oct: Checklist updated with a row for webhook service URL swap.\n- 15 Aug: Reading through Lena's on-call draft.\n- 1"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1503,
+   "out": 24,
+   "usd": 0.00003802596
+  },
+  {
+   "in": 1615,
+   "out": 24,
+   "usd": 0.00004257316
+  },
+  {
+   "in": 1857,
+   "out": 96,
+   "usd": 0.00005824476
+  }
+ ],
+ "memChars": 952,
+ "promptChars": 5473
+}

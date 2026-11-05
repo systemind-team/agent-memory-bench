@@ -1,0 +1,36 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, what's on my plate today?",
+ "reply": [
+  "Morning, 陈默. It's Sunday Nov 1 — the quarterly review reminder I set for you today is waiting. No other meetings or deadlines scheduled.",
+  "Key numbers from last week: DAU peaked 2100, cash at 600k after BlueRun's second tranche, Chengdu pipeline hit 500 orders forecast.",
+  "Want me to pull the quarterly data pack now, or take a quiet Sunday first?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周日 11月"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18699,
+   "out": 22,
+   "usd": 0.000593958
+  },
+  {
+   "in": 18750,
+   "out": 92,
+   "usd": 0.000689692
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35700
+}

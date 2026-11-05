@@ -1,0 +1,49 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q22",
+ "kind": "update",
+ "q": "论文标题改过几次？",
+ "reply": [
+  "改过3次。",
+  "1. 最初是 **Hierarchical Planning with Graph Attention**（8月19号）",
+  "2. 后来改成 **Context-Aware Hierarchical Planning for LLMs**（9月），再缩成 **Context-Aware Planning**（9月28号）",
+  "3. 最终10月27号定为 **Context-Aware Planning via Hierarchical Decomposition**，现在是这个版本。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题 改"
+   },
+   "result": "#181 Wed 19 Aug 18:00 Them: 出去买杯咖啡，回来继续。\n#182 Wed 19 Aug 22:50 Them: 论文标题改成Hierarchical Planning with Graph Attention吧，感觉更准确。\n#183 Thu 20 Aug 00:15 aicoo: 论文标题已更新为“Hierarchical Planning with Graph Attention”。"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "论文标题 确定 改为"
+   },
+   "result": "- 28 Sep: 周予安将论文标题从“Context-Aware Hierarchical Planning for LLMs”改为“Context-Aware Planning”。\n- 27 Oct: 今天开始finalize论文标题，跑最后一个实验。最终标题确定为Context-Aware Planning via Hierarchical Decomposition。\n- 13 Oct: 以后如果不确定，就用英文回复我，免得歧义。\n- 30 Aug: 最终确定用batch size 64，实验记录中会注明这一选择。\n- 25 Oct: 晚上写下周计划：周一线上meeting（改为线上），周二继续改discussion。\n- 25 Oct: 周予安将下周一与Prof. Lin的会议改为线上，因为他去出差。\n- 下周要开始准备TA材料，下周二（TA课程CS 571）的office hour改为周三下午3点。\n- 21 Sep: 先忙论文，晚上再说NSF的事。\n- 17 Oct: 火锅吃完了，继续改论文。\n- 08 Aug: 中午边吃外卖边看论文。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1538,
+   "out": 22,
+   "usd": 0.000197828
+  },
+  {
+   "in": 1649,
+   "out": 24,
+   "usd": 0.000084786
+  },
+  {
+   "in": 1908,
+   "out": 97,
+   "usd": 0.000317528
+  }
+ ],
+ "memChars": 520,
+ "promptChars": 4802
+}

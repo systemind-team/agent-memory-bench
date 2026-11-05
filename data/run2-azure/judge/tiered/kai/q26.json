@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The reply lists five issues, but the chat only supports three: father hospitalized (Aug 14), daughter's school play (Sep 4), and father's follow-up appointment (Oct 8); the other details like daughter's cold in late August and father's blood pressure episode on Oct 30 are not mentioned in the provided chat.",
+ "rule": null
+}

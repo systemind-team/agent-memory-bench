@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claimed the initial title was 'Hierarchical Planning with Graph Attention', but the earliest title in the chat is 'Planning with Hierarchical Graphs' from Aug 7/8.",
+ "first": "wrong",
+ "rule": null
+}

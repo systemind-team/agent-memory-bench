@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "when did sam ortiz start?",
+ "reply": [
+  "sam ortiz 是 9月14号 开始的，后来确认是 labor day 后的那个周二正式入职"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam Ortiz start date"
+   },
+   "result": "#248 Mon 31 Aug 17:46 aicoo: oh no. hope the rug survives\n#249 Tue 01 Sep 09:00 Them: sam ortiz start date still sep 14, right?\n#250 Tue 01 Sep 09:01 aicoo: confirmed, september 14"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3267,
+   "out": 22,
+   "usd": 0.0000512778
+  },
+  {
+   "in": 3366,
+   "out": 31,
+   "usd": 0.000056028
+  }
+ ],
+ "memChars": 7111,
+ "promptChars": 11719
+}

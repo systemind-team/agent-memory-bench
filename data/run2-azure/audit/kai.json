@@ -1,0 +1,190 @@
+{
+ "q1": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #0 explicitly states the Q3 revenue target is 2.4 million USD, and no later message contradicts or updates it."
+ },
+ "q6": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #779 on Sun 04 Oct explicitly states Q3 revenue final is 2.35M, and no subsequent message contradicts this as of Sun 01 Nov."
+ },
+ "q3": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The conversation consistently references a 23% conversion lift for Yuki's onboarding redesign across multiple dates, with no conflicting figures mentioned."
+ },
+ "q4": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The planted evidence on Thu 20 Aug confirms 3 customers requested dark mode, and no later message contradicts or updates this number by Sun 01 Nov."
+ },
+ "q2": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "As of Sun 01 Nov, the latest message (#701 on Sat 26 Sep) states the Aurora deal closed at 950k, matching the gold answer, with no subsequent updates contradicting this."
+ },
+ "q5": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages consistently identify the client as Aurora Health from the first mention on Fri 07 Aug through the latest on Tue 13 Oct, directly confirming the gold answer."
+ },
+ "q9": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The messages explicitly confirm that Emily Tan was the PM candidate hired, with a start date of October 26, as stated in messages #747 and #893."
+ },
+ "q8": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "On Thu 17 Sep the final pricing was set at 44 per user per month, with a launch date of Nov 1, and no later messages contradict this prior to Sun 01 Nov."
+ },
+ "q7": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Omar's message on Sun 18 Oct clearly states Singapore Q3 sales were 600k, best quarter ever."
+ },
+ "q12": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "As of Sun 01 Nov, the latest confirmed launch date is Dec 1, per messages #1051, #1113, and #1146."
+ },
+ "q10": {
+  "exclude": true,
+  "verdict": "ambiguous",
+  "reason": "Messages show initial deal at 800k, later updated to 950k with add-ons, so as of Sun 01 Nov, the original value before custom module is 800k, but the current value is 950k, making the gold answer partially correct but ambiguous without clarifying if '最初' refers to before or after add-ons."
+ },
+ "q11": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "On Thu 17 Sep, Kai Lin explicitly stated the final pricing decision as 44 per user per month, launching Nov 1, which remains unchanged through subsequent messages up to Sun 01 Nov."
+ },
+ "q15": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages #335 and #336 on Sun 30 Aug clearly state Ben proposed $49 per user for premium tier in pricing v3, which was later not used."
+ },
+ "q16": {
+  "exclude": true,
+  "verdict": "ambiguous",
+  "reason": "The user asks what the original name was with ambiguity, but the messages only mention Aurora Health and a confusion with Aurora TTech; there is no evidence of an earlier name like 'Aurora Tech' being used, so the gold answer 'Aurora Health' does not clearly resolve the query."
+ },
+ "q13": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The messages show Ben initially proposed $39 per user per month on Sun 16 Aug, which matches the gold answer for the first pricing proposal."
+ },
+ "q14": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "As of Sun 01 Nov, the latest and final value is 950k with add-ons, confirmed by contract signing on Sep 26 and subsequent references."
+ },
+ "q18": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #679 on Thu 24 Sep explicitly states October 10 is a Friday for the Q4 roadmap review with Grace, and #854 on Sat Oct 10 confirms the review occurred on that date."
+ },
+ "q19": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages #914, #921, and #1038 consistently state the offsite dates as Oct 20-21 in Hangzhou, and no later messages contradict this before Sun 01 Nov."
+ },
+ "q17": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages clearly show the deadline moved from Sep 15 to Sep 22, and Ravi confirmed on Sep 21 that it went live on Sep 22."
+ },
+ "q20": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Integration rollout occurred Sep 22, as confirmed in #645, while roadmap review was scheduled for Oct 10 per #679; timeline is clear and consistent."
+ },
+ "q23": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The messages clearly show four PM candidates—Jason Chen, Emily Tan, Michael Liu, and Sarah Wu—and that Emily Tan was hired, matching the gold answer."
+ },
+ "q26": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages show three personal issues affecting work in Q3-Q4: father hospitalized on Aug 14, daughter's school play on Sep 4, and father's follow-up appointment requiring leave on Oct 8."
+ },
+ "q24": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages show two postponements: from Nov 1 to Nov 15 (due to Ben needing more testing) and from Nov 15 to Dec 1 (due to engineering resource constraints), matching the gold answer."
+ },
+ "q22": {
+  "exclude": true,
+  "verdict": "ambiguous",
+  "reason": "Gold answer says 3 trips, but messages show a Sep 1 booking (trip 1: flew Sep 1 per #87 but actually flew Aug 24 per #253, returned Sep 19 per #622), and an Oct 6 flight for conference (trip 2). The Aug 24 flight is not clearly distinct from the Sep 1 booking; they may be the same trip with changed date, or two trips, making 2 or 3 trips ambiguous."
+ },
+ "q25": {
+  "exclude": false,
+  "gold": "1 change: added custom analytics module, value rose from 800k to 950k",
+  "verdict": "fixed",
+  "reason": "Messages show only one scope change (custom analytics module added on Aug 18), with value rising from 800k to 950k by Sep 4; no further scope changes are mentioned before Nov 1."
+ },
+ "q21": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "As of Nov 1, the original Nov 1 launch was delayed to Nov 15 on Oct 9 (#845), later overridden by further delays; the asked gap is between those two dates."
+ },
+ "q28": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The commitment made on day 26 (Fri 28 Aug) to sync with Yuki on dark mode feedback was fulfilled on Tue 01 Sep, and no new open task about syncing with Yuki on dark mode feedback exists as of Sun 01 Nov; all subsequent mentions are completed actions or updates."
+ },
+ "q30": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages confirm the task was completed on day 32 (Thu 03 Sep) when user explicitly stated 'Sent that Q3 budget breakdown to Grace, finally done.'"
+ },
+ "q27": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "No message on or after Sep 1 shows aicoo reminding Kai or Kai following up on Ravi's integration progress; the topic shifted to the security audit and the Sep 22 delay, leaving the Sep 1 commitment unfulfilled."
+ },
+ "q40": {
+  "exclude": false,
+  "reason": "Ben's Q3 target is only mentioned as 500k in new sales, not revenue, so the specific metric asked about was never stated.",
+  "which": ""
+ },
+ "q29": {
+  "exclude": false,
+  "gold": "open: meeting was scheduled for Oct 15, but no message confirms it occurred or was completed by Nov 1",
+  "verdict": "fixed",
+  "reason": "Planted evidence shows meeting was scheduled for Oct 15, and later messages (e.g., #730 on Sep 29 mention a 'Meeting with Ben on pricing v3 final review' but not the Oct 15 one specifically) do not confirm the scheduled meeting occurred or was completed, so the gold answer's label is correct but the phrasing should reference the Oct 15 date explicitly for clarity."
+ },
+ "q41": {
+  "exclude": false,
+  "reason": "The chat mentions Emily's start date as Oct 26 and notes she started on time, but never mentions or implies any delay.",
+  "which": ""
+ },
+ "q31": {
+  "exclude": false,
+  "gold": "done on day 37: reviewed on Tue 08 Sep, confirming original plan for Mon 17 Aug but delayed to 08 Sep",
+  "verdict": "fixed",
+  "reason": "The user originally planned to review on Monday 17 Aug but actually reviewed on Tue 08 Sep, which was explicitly stated as 'reviewed Omar's Singapore pipeline today, good progress' on that date; thus the review was done but later than the initial 'next Monday' commitment."
+ },
+ "q43": {
+  "exclude": false,
+  "reason": "None of the messages mention Ravi's vacation, only his integration progress, sync meetings, and reports.",
+  "which": ""
+ },
+ "q42": {
+  "exclude": false,
+  "reason": "Lily's vacation or leave status was never discussed, only her role transition and handover to Emily.",
+  "which": ""
+ },
+ "q44": {
+  "exclude": false,
+  "reason": "Grace's specific comments on Q3 revenue or a role assessment are never discussed in any message.",
+  "which": ""
+ },
+ "q45": {
+  "exclude": false,
+  "reason": "Ben's hiring budget was never discussed in any of these messages.",
+  "which": ""
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "跟蓝驰签 TS 的时候估值是多少？",
+ "reply": [
+  "蓝驰 TS 估值7500万，9月10号签的。",
+  "跟之前谈的差不多，没打折。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 估值 TS"
+   },
+   "result": "#298 Thu 10 Sep 09:10 Them: 7500万，跟他们磨了好久，尽力了\n#299 Thu 10 Sep 09:45 Them: 跟蓝驰签 TS 吧，估值7500万，尽力了\n#300 Thu 10 Sep 09:50 aicoo: 好，我准备TS文本，发你确认"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2452,
+   "out": 23,
+   "usd": 0.00002658488
+  },
+  {
+   "in": 2565,
+   "out": 34,
+   "usd": 0.00003206588
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6261
+}

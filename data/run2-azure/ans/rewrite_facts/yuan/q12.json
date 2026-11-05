@@ -1,0 +1,50 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q12",
+ "kind": "temporal",
+ "q": "Kevin组会presentation最后定在哪天了？",
+ "reply": [
+  "我记得之前说到Kevin把组会推到9月14号，后面再没提新的时间。要不我帮你给他发消息问问？这样你明天meeting前也能提前安排好。",
+  "[sticker: search]"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  },
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  },
+  {
+   "tool": "search_memory",
+   "result": "(nothing)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3856,
+   "out": 19,
+   "usd": 0.000270512
+  },
+  {
+   "in": 3892,
+   "out": 22,
+   "usd": 0.00014228
+  },
+  {
+   "in": 3931,
+   "out": 19,
+   "usd": 0.00014879
+  },
+  {
+   "in": 3965,
+   "out": 52,
+   "usd": 0.00017441
+  }
+ ],
+ "memChars": 5114,
+ "promptChars": 9414
+}

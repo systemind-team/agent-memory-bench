@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The reply claims three scope changes and specific details (e.g., 'second change narrowed to custom reporting' as a separate scope change) not supported by the chat history, which only shows one scope change (adding custom analytics module) with the value change from 800k to 950k.",
+ "first": "made_up",
+ "rule": null
+}

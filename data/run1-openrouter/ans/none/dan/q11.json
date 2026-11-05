@@ -1,0 +1,34 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "what's the billing cutover date?",
+ "reply": [
+  "billing cutover is confirmed for **Oct 12** — got back on track back in September. That's still the date?",
+  "if that's still the target, you've got about 11 days. Want me to pull up where the checklist stands relative to that? Might be worth a quick check since tom's refactor just landed."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing cutover date"
+   },
+   "result": "#378 Fri 18 Sep 09:17 aicoo: tea day? or a bold experiment\n#379 Fri 18 Sep 10:00 Them: billing cutover final date: oct 12 again. we got back on track.\n#380 Fri 18 Sep 10:02 aicoo: that's great. back to the original plan. you can lock in the timeline now"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1138,
+   "out": 23,
+   "usd": 0.000032832
+  },
+  {
+   "in": 1255,
+   "out": 76,
+   "usd": 0.000052902
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4194
+}

@@ -1,0 +1,22 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q36",
+ "kind": "pref_apply",
+ "q": "aicoo, draft a PR description for adding dark mode toggle.",
+ "reply": [
+  "凯哥，dark mode toggle的PR description draft如下：",
+  "## [Feature] Dark Mode Toggle — Manual Switch (v1)\n\n**Summary**\nAdd a manual dark mode toggle in the user settings panel, allowing users to switch between light and dark themes. This is the v1 delivery; auto-toggle based on system preference is planned for a later phase.\n\n**Changes**\n- New toggle component in Settings > Appearance\n- Persistent user preference stored in local storage\n- CSS variables refactored to support dynamic theme switching\n- Updated onboarding flow to show theme option on first visit\n\n**Risk**\n- Potential layout regression in dark mode for third-party widgets — verified against top 5 integrations in staging\n- No impact on existing light mode users\n- Toggle state not yet synced across devices (future scope)",
+  "你看有什么要改的？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 36342,
+   "out": 191,
+   "usd": 0.00031859632
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91629
+}

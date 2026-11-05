@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo incorrectly states Mei's paper was rejected from NeurIPS and accepted at a workshop, but the chat shows it was accepted to NeurIPS on Oct 11.",
+ "first": "wrong",
+ "rule": null
+}

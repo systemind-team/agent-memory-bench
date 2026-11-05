@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "每周跟Prof. Lin的one-on-one是周几几点？",
+ "reply": [
+  "每周四下午3点，不过明天（周一）Prof. Lin出差改成线上meeting了。",
+  "你刚才已经设了明天9:00自动发论文给他，别忘了9:30的zoom meeting。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Prof. Lin weekly meeting 周四 下午 3点"
+   },
+   "result": "- 12 Aug: 跟Prof. Lin的weekly meeting定在每周四下午3点\n- 22 Oct: 下午3点和Prof. Lin meeting。\n- 02 Oct: 今天连meeting，下午有Prof. Lin meeting，晚上组会，需过paper和statement。\n- 08 Sep: 明天下午meeting准备问Prof. Lin关于workshop的事。\n- 下周要开始准备TA材料，下周二（TA课程CS 571）的office hour改为周三下午3点。\n- 12 Aug: meeting中，Prof. Lin说paper framework还行\n- 17 Sep: Meeting with Prof. Lin completed, experimental part can start being written.\n- 31 Oct: 明天meeting前把论文最新版发给Prof. Lin。\n- 30 Sep: 周予安要求aicoo在周四meeting前设置关于concept drift的提醒，并打算先与Prof. Li讨论。\n- 03 Aug: Prof. Lin说实验室明年春季的intern名额只有3个。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3849,
+   "out": 30,
+   "usd": 0.00013376076
+  },
+  {
+   "in": 4109,
+   "out": 52,
+   "usd": 0.00007126924
+  }
+ ],
+ "memChars": 5205,
+ "promptChars": 9507
+}

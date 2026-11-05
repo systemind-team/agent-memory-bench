@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant said the Thursday meeting is a bi-weekly group meeting, but the user's earlier message stated it's the weekly one-on-one with Prof. Lin at 3 PM.",
+ "rule": null
+}

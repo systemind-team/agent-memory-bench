@@ -1,0 +1,274 @@
+{
+ "n": 175,
+ "arms": {
+  "none": {
+   "score": 0.5086,
+   "by": {
+    "recall": 0.59,
+    "update": 0.446,
+    "temporal": 0.526,
+    "aggregate": 0.292,
+    "open_loop": 0.575,
+    "ask": 0.375,
+    "pref_apply": 0.219,
+    "abstain": 0.813
+   },
+   "person": {
+    "dan": 0.58,
+    "kai": 0.482,
+    "mo": 0.494,
+    "yuan": 0.478
+   },
+   "vs_rewrite": {
+    "diff": -0.1071,
+    "lo": -0.1829,
+    "hi": -0.0371,
+    "n": 175
+   },
+   "vs_rewrite_kai": {
+    "diff": 0.006,
+    "lo": -0.1012,
+    "hi": 0.1071,
+    "n": 42
+   }
+  },
+  "full": {
+   "score": 0.7714,
+   "by": {
+    "recall": 0.955,
+    "update": 0.848,
+    "temporal": 0.816,
+    "aggregate": 0.556,
+    "open_loop": 0.588,
+    "ask": 0.781,
+    "pref_apply": 0.656,
+    "abstain": 0.75
+   },
+   "person": {
+    "dan": 0.795,
+    "kai": 0.762,
+    "mo": 0.79,
+    "yuan": 0.739
+   },
+   "vs_rewrite": {
+    "diff": 0.1557,
+    "lo": 0.1057,
+    "hi": 0.2157,
+    "n": 175
+   },
+   "vs_rewrite_kai": {
+    "diff": 0.2857,
+    "lo": 0.1726,
+    "hi": 0.4226,
+    "n": 42
+   }
+  },
+  "rewrite": {
+   "score": 0.6157,
+   "by": {
+    "recall": 0.782,
+    "update": 0.587,
+    "temporal": 0.487,
+    "aggregate": 0.361,
+    "open_loop": 0.55,
+    "ask": 0.625,
+    "pref_apply": 0.656,
+    "abstain": 0.688
+   },
+   "person": {
+    "dan": 0.585,
+    "kai": 0.476,
+    "mo": 0.739,
+    "yuan": 0.656
+   },
+   "vs_rewrite": null,
+   "vs_rewrite_kai": null
+  },
+  "tiered": {
+   "score": 0.6757,
+   "by": {
+    "recall": 0.833,
+    "update": 0.793,
+    "temporal": 0.684,
+    "aggregate": 0.444,
+    "open_loop": 0.5,
+    "ask": 0.563,
+    "pref_apply": 0.594,
+    "abstain": 0.75
+   },
+   "person": {
+    "dan": 0.688,
+    "kai": 0.726,
+    "mo": 0.659,
+    "yuan": 0.633
+   },
+   "vs_rewrite": {
+    "diff": 0.06,
+    "lo": 0.01,
+    "hi": 0.1257,
+    "n": 175
+   },
+   "vs_rewrite_kai": {
+    "diff": 0.25,
+    "lo": 0.1488,
+    "hi": 0.3869,
+    "n": 42
+   }
+  },
+  "notes": {
+   "score": 0.61,
+   "by": {
+    "recall": 0.769,
+    "update": 0.663,
+    "temporal": 0.684,
+    "aggregate": 0.292,
+    "open_loop": 0.55,
+    "ask": 0.5,
+    "pref_apply": 0.516,
+    "abstain": 0.667
+   },
+   "person": {
+    "dan": 0.54,
+    "kai": 0.655,
+    "mo": 0.642,
+    "yuan": 0.606
+   },
+   "vs_rewrite": {
+    "diff": -0.0057,
+    "lo": -0.0571,
+    "hi": 0.0571,
+    "n": 175
+   },
+   "vs_rewrite_kai": {
+    "diff": 0.1786,
+    "lo": 0.0595,
+    "hi": 0.3274,
+    "n": 42
+   }
+  },
+  "facts": {
+   "score": 0.6257,
+   "by": {
+    "recall": 0.782,
+    "update": 0.63,
+    "temporal": 0.684,
+    "aggregate": 0.361,
+    "open_loop": 0.525,
+    "ask": 0.469,
+    "pref_apply": 0.656,
+    "abstain": 0.688
+   },
+   "person": {
+    "dan": 0.568,
+    "kai": 0.69,
+    "mo": 0.653,
+    "yuan": 0.594
+   },
+   "vs_rewrite": {
+    "diff": 0.01,
+    "lo": -0.0586,
+    "hi": 0.0843,
+    "n": 175
+   },
+   "vs_rewrite_kai": {
+    "diff": 0.2143,
+    "lo": 0.0893,
+    "hi": 0.3631,
+    "n": 42
+   }
+  },
+  "ledger": {
+   "score": 0.6243,
+   "by": {
+    "recall": 0.744,
+    "update": 0.739,
+    "temporal": 0.526,
+    "aggregate": 0.403,
+    "open_loop": 0.375,
+    "ask": 0.563,
+    "pref_apply": 0.688,
+    "abstain": 0.771
+   },
+   "person": {
+    "dan": 0.653,
+    "kai": 0.524,
+    "mo": 0.653,
+    "yuan": 0.661
+   },
+   "vs_rewrite": {
+    "diff": 0.0086,
+    "lo": -0.0486,
+    "hi": 0.0886,
+    "n": 175
+   },
+   "vs_rewrite_kai": {
+    "diff": 0.0476,
+    "lo": -0.0595,
+    "hi": 0.1667,
+    "n": 42
+   }
+  },
+  "notes_recall": {
+   "score": 0.6671,
+   "by": {
+    "recall": 0.821,
+    "update": 0.696,
+    "temporal": 0.789,
+    "aggregate": 0.486,
+    "open_loop": 0.5,
+    "ask": 0.5,
+    "pref_apply": 0.594,
+    "abstain": 0.729
+   },
+   "person": {
+    "dan": 0.597,
+    "kai": 0.655,
+    "mo": 0.705,
+    "yuan": 0.711
+   },
+   "vs_rewrite": {
+    "diff": 0.0514,
+    "lo": -0.0143,
+    "hi": 0.11,
+    "n": 175
+   },
+   "vs_rewrite_kai": {
+    "diff": 0.1786,
+    "lo": 0.0595,
+    "hi": 0.3274,
+    "n": 42
+   }
+  },
+  "rewrite_facts": {
+   "score": 0.6757,
+   "by": {
+    "recall": 0.865,
+    "update": 0.609,
+    "temporal": 0.737,
+    "aggregate": 0.542,
+    "open_loop": 0.487,
+    "ask": 0.594,
+    "pref_apply": 0.563,
+    "abstain": 0.771
+   },
+   "person": {
+    "dan": 0.67,
+    "kai": 0.625,
+    "mo": 0.733,
+    "yuan": 0.672
+   },
+   "vs_rewrite": {
+    "diff": 0.06,
+    "lo": 0.01,
+    "hi": 0.1186,
+    "n": 175
+   },
+   "vs_rewrite_kai": {
+    "diff": 0.1488,
+    "lo": 0.0179,
+    "hi": 0.2917,
+    "n": 42
+   }
+  }
+ }
+}

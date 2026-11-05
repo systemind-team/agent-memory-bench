@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant claims the dark mode feedback sync with Yuki was completed on Oct 30, but the open commitment from day 26 (Aug 28) to sync was closed on Sep 1, making the Oct 30 reference outdated and unsupported.",
+ "first": "wrong",
+ "rule": null
+}

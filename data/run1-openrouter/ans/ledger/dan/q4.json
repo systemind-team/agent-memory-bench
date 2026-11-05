@@ -1,0 +1,33 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "how far did i run the day i set a personal best?",
+ "reply": [
+  "you hit 10.1 miles on 16 sep — that's the personal best. how's the run today feel?"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "run personal best distance"
+   },
+   "result": "[201] 16 Sep · done: run: hit 10.1 miles, new personal best  (from #345)\n[420] 20 Oct · fact: billing migration dry run report merged, final run next week  (from #713)\n[20] 06 Aug · done: dan went for a 5k run  (from #36)\n[258] 29 Sep · feeling: done for the day, going for a run  (from #469)\n[271] 01 Oct · feeling: done for the day, going for a run  (from #493)\n[272] 01 Oct · plan: long run tomorrow morning  (from #493)\n[274] 01 Oct · done: long run completed saturday  (from #495)\n[245] 26 Sep · done: dry run passed. clean migration  (from #443)\n[350] 10 Oct · done: easy 5k run with Biscuit on"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3092,
+   "out": 22,
+   "usd": 0.00011069184
+  },
+  {
+   "in": 3359,
+   "out": 31,
+   "usd": 0.00003911404
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10813
+}

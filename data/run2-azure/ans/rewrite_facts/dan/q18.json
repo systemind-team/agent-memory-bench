@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "what day was the migration incident?",
+ "reply": [
+  "根据记录，迁移事故发生在8月28日（周二），当时你误将一列rename写成drop，好在Lena在生产同步前发现并回滚了，没有数据丢失。",
+  "怎么突然问这个，dan the builder？又在写post-mortem报告？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3315,
+   "out": 64,
+   "usd": 0.000640342
+  }
+ ],
+ "memChars": 7510,
+ "promptChars": 12129
+}

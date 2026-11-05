@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "what's priya's coffee order?",
+ "reply": [
+  "这个我还真不记得你跟我提过她的咖啡习惯，翻了一下聊天记录也没找到",
+  "要不要我去她工位瞄一眼，还是你直接问她比较快"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya coffee order"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2973,
+   "out": 22,
+   "usd": 0.000132586
+  },
+  {
+   "in": 3024,
+   "out": 42,
+   "usd": 0.000154496
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10689
+}

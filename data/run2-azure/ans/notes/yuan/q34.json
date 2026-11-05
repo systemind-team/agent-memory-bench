@@ -1,0 +1,75 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning aicoo, what's my schedule this week?",
+ "reply": [
+  "早上好周周。今天周日，这周大节奏是这样的：",
+  "**周一** 9:30 线上meeting，和Prof. Lin讨论论文投稿时间和Dr. Chen入职安排，slides已备好，paper最新版今早9:00自动发出。",
+  "**周二** Dr. Chen正式入职，10:00提醒过带他熟悉实验室（GPU集群、存储、代码仓库）。另外Lab meeting正常，可能顺便介绍他。",
+  "**周三到周五** 核心是继续完善论文，特别是环境4的结果（标注preliminary）和discussion部分。周三前可以问问Lin对slides的feedback。",
+  "另外Facebook fellowship截止12月20日，你之前提过，如果需要准备材料这周可以开始划时间。",
+  "想让我把哪天具体的时间段拉出来，还是先按这个节奏来？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "schedule this week"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "本周计划"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "项目 · 论文"
+   },
+   "result": "(no note with that slug)"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "实验室 · Prof. Lin实验室"
+   },
+   "result": "(no note with that slug)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3712,
+   "out": 22,
+   "usd": 0.000150304
+  },
+  {
+   "in": 3763,
+   "out": 20,
+   "usd": 0.000159894
+  },
+  {
+   "in": 3812,
+   "out": 22,
+   "usd": 0.000171304
+  },
+  {
+   "in": 3853,
+   "out": 24,
+   "usd": 0.000181034
+  },
+  {
+   "in": 3896,
+   "out": 188,
+   "usd": 0.00023608
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9642
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "实验室那8张H100 GPU是什么时候到货的？",
+ "reply": [
+  "查了一下记录，系里那8张H100是9月底到的消息，Kevin说的是'系里买的新GPU是H100，一共8张，申请的人很多'（9月29日）。",
+  "后来你写了申请理由，但10月6日Kevin说H100申请还在排队，暂时先用A100。到货时间没有更具体的更新，要不要我帮你查一下系里的审批进度？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "H100 GPU 到货"
+   },
+   "result": "[407] 03 Oct · pref: 记录GPU optimization steps，未来H100适用  (from #620)\n[356] 30 Sep · decision: Tue 29 Sep 17:00 等论文投出去再申请H100 GPU  (from #557)\n[355] 30 Sep · fact: Tue 29 Sep 14:00 系里买的新GPU是H100，一共8张，申请的人很多  (from #555)\n[353] 29 Sep · fact: Tue 29 Sep 14:00 Kevin说系里买的新GPU是H100，一共8张，申请的人很多  (from #553)\n[391] 02 Oct · done: Fri 02 Oct 12:30 写完H100申请理由，强调hierarchical planning需要大模型推理，H100对scalability critical  (from #597, #598)\n[422] 06 Oct · fact: Kevin说H100申请还在排队，先继续用A100  (from #650)\n[21] 06 Aug · feeling: 下午GPU利用率上去了，开心  (from #39)\n[389] 02 Oct · plan: Fri 02 Oct 组会slides更新，加H100性能对比（基于A100数据推算）"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4565,
+   "out": 27,
+   "usd": 0.000194762
+  },
+  {
+   "in": 4932,
+   "out": 101,
+   "usd": 0.000313272
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11675
+}

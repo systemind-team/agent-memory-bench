@@ -1,0 +1,36 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "Integration rollout和roadmap review，哪个先发生的？",
+ "reply": [
+  "季度roadmap review发生在先，是8月27号你和Grace做的Q3 review。那次会议把dark mode提成了P1。",
+  "Integration rollout是后来9月22号上线的，之前几次延迟（从原计划9月15推到了22，因为security audit），但实际上线后一直稳定。",
+  "所以顺序是：roadmap review（8/27）→ integration rollout（9/22）。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "integration rollout roadmap review"
+   },
+   "result": "[integration-timeline] 22 Aug: Ravi confirmed integration rollout delayed to Sep 22 (was Sep 15) due to security audit.\n[reminder-ravi-security-audit-impact] 22 Aug: Ravi confirmed security audit results; integration rollout delayed to Sep 22 (was Sep 15).\n[reminder-ravi-security-audit-impact] 19 Aug: Ravi said security audit may impact integration rollout, but hopes Sep 15 still holds.\n[reminder-ravi-security-audit-impact] 22 Aug: Ravi confirmed security audit results; integration rollout delayed to Sep 22 (was Sep 15). 25 Aug: Ravi confirmed Sep 22 still target; audit started yesterday. 06 S"
+  }
+ ],
+ "calls": [
+  {
+   "in": 13662,
+   "out": 18,
+   "usd": 0.000725372
+  },
+  {
+   "in": 14591,
+   "out": 96,
+   "usd": 0.000964142
+  }
+ ],
+ "memChars": 49326,
+ "promptChars": 54055
+}

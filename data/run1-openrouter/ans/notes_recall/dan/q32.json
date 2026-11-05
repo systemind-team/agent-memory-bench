@@ -1,0 +1,22 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "早～周末也起这么早",
+  "biscuit 又当闹钟了还是自己醒的"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2672,
+   "out": 29,
+   "usd": 0.000110838
+  }
+ ],
+ "memChars": 5080,
+ "promptChars": 9611
+}

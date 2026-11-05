@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant inferred a late September to early October arrival window, but the chat never states when the GPUs actually arrived; it only mentions the purchase announcement and approval date.",
+ "first": "made_up",
+ "rule": null
+}

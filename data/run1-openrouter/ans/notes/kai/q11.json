@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我们的pricing现在是多少per user，final decision是啥？",
+ "reply": [
+  "凯哥早上好。最终定价决策是 **$44/user/month**，Premium tier，11月15号正式launch（后来因为工程资源跟dark mode并行，推迟到12月1号了）。Ben确认了v3定价直接上，A/B测试显示$44转换率比预期高8%，Premium tier的take rate也超出预期。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12765,
+   "out": 76,
+   "usd": 0.00011700108
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50352
+}

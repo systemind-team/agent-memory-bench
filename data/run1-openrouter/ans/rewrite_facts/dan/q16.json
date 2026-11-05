@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "priya最早在9月30号提过想把cutover移到10月26号。后来10月3号你锁定了10月26号这个日期，再后来10月15号她又问了一次时间线，但最终锁定在10月26号了。需要我把具体的对话翻出来吗"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3323,
+   "out": 70,
+   "usd": 0.0001405978
+  }
+ ],
+ "memChars": 7322,
+ "promptChars": 11943
+}

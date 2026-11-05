@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The user asked for standup notes for today with bullet points and timestamps as previously requested, but the assistant gave a casual Sunday summary without timestamps or a standup format.",
+ "rule": false
+}

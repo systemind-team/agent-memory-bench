@@ -1,0 +1,63 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "can you do meeting notes from that sprint planning?",
+ "reply": [
+  "Looked through our chat — we didn't do detailed notes from the sprint planning on Oct 23. You said you committed to 23 points, and I said ambitious but doable. That's all we have.",
+  "Want me to start a doc for next sprint? Or do you need notes from a different meeting?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sprint planning meeting notes"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "sprint planning"
+   },
+   "result": "[435] 23 Oct · plan: sprint planning: committed to 23 points  (from #743)\n[211] 17 Sep · plan: sprint planning: committed to 21 points, 3 more than usual  → replaced 23 Oct by [435] sprint planning: committed to 23 points  (from #365)\n[378] 15 Oct · fact: standup done, sprint is on track  (from #647)\n[247] 27 Sep · fact: ade's planning a trip to asheville for them in october  (from #450)\n[357] 11 Oct · plan: thinking about next sprint, billing migration should be the only focus until cutover  (from #607)\n[427] 21 Oct · plan: on-call rotation proposal sent to priya. 4 engineers per week. david "
+  },
+  {
+   "tool": "open_source",
+   "args": {
+    "ids": [
+     743,
+     742,
+     744
+    ]
+   },
+   "result": "#742 Fri 23 Oct 09:11 aicoo: glad to hear it. biscuit is learning.\n#743 Fri 23 Oct 10:00 Them: sprint planning today. we have 23 points committed.\n#744 Fri 23 Oct 10:01 aicoo: 23 points. ambitious but doable.\n---\n#741 Fri 23 Oct 09:10 Them: morning. feeling better. biscuit slept through the night.\n#742 Fri 23 Oct 09:11 aicoo: glad to hear it. biscuit is learning.\n#743 Fri 23 Oct 10:00 Them: sprint planning today. we have 23 points committed.\n---\n#743 Fri 23 Oct 10:00 Them: sprint planning today. we have 23 points committed.\n#744 Fri 23 Oct 10:01 aicoo: 23 points. ambitious but doable.\n#745 Fri"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3066,
+   "out": 23,
+   "usd": 0.000152676
+  },
+  {
+   "in": 3118,
+   "out": 21,
+   "usd": 0.000162476
+  },
+  {
+   "in": 3343,
+   "out": 24,
+   "usd": 0.000165582
+  },
+  {
+   "in": 3589,
+   "out": 71,
+   "usd": 0.000289386
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10816
+}

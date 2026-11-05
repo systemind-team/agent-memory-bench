@@ -1,0 +1,46 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "what day was the migration incident?",
+ "reply": [
+  "the migration incident where you dropped instead of renaming was on tuesday, august 25. lena caught it before prod sync, no data loss. remember that one?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "migration incident day"
+   },
+   "result": "#217 Thu 27 Aug 17:20 aicoo: maybe he wants a new pair too\n#218 Fri 28 Aug 09:05 Them: migration incident on tuesday. dropped a column instead of renaming. rolled back.\n#219 Fri 28 Aug 09:05 aicoo: ouch. no data loss?"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "migration incident Tuesday date"
+   },
+   "result": "- 15 Sep: Dan experienced an incident on Tuesday, September 15, just after Sam's start.\n- 13 Aug: Daniel plans to draft notes for the migration incident post-mortem. 28 Aug: Daniel will write the post-mortem report for the migration incident.\n- 28 Aug: Daniel \"Dan\" Okafor caused a migration incident on Tuesday where a column was dropped instead of renamed but was rolled back with no data loss because Lena caught it before production sync.\n- 13 Aug: Post-mortem concluded that the root cause was a missing index on the subscriptions table during migration. 28 Aug: The root cause of the migration "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1534,
+   "out": 22,
+   "usd": 0.000196988
+  },
+  {
+   "in": 1640,
+   "out": 23,
+   "usd": 0.000082336
+  },
+  {
+   "in": 1942,
+   "out": 41,
+   "usd": 0.000293308
+  }
+ ],
+ "memChars": 1351,
+ "promptChars": 5853
+}

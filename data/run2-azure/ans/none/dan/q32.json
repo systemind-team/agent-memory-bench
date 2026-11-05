@@ -1,0 +1,23 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "morning! sleep in a bit? it's sunday after all",
+  "stripe refactor's still in review? lena might have comments on the edge case handling in lines 320-340 — she flagged a similar pattern last sprint",
+  "battery's still at 79 — no rush, but if you want i can put a spare on order from the usual vendor so it's here by tuesday"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 1132,
+   "out": 91,
+   "usd": 0.000105384
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4169
+}

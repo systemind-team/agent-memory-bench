@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant incorrectly states the first fellowship deadline is December 20, but the chat shows it was November 15.",
+ "first": "wrong",
+ "rule": null
+}

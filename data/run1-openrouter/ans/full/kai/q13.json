@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q13",
+ "kind": "update",
+ "q": "Pricing最初是多少，Ben第一次propose的。",
+ "reply": [
+  "凯哥，根据记录，Ben最早提出的pricing方案是v1的$41 per user per month（8月17日那条消息），后来他调整为$39（v2），最终在$44和$49之间讨论后定在$44 launch。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36339,
+   "out": 56,
+   "usd": 0.00041560596
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91599
+}

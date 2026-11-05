@@ -1,0 +1,47 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "每周跟Prof. Lin的one-on-one是周几几点？",
+ "reply": [
+  "之前定的weekly meeting是每周四下午3点，跟Prof. Lin。",
+  "今天周日，那下次就是这周四——不过明天Dr. Chen入职加上周一刚开完会，要不要确认一下这周有没有临时调整？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Prof. Lin one-on-one 周几 几点"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "meeting Prof. Lin 周"
+   },
+   "result": "#837 Sat 24 Oct 21:00 Them: 明天周日，组会还是要准备的。今晚早点睡。\n#838 Sun 25 Oct 00:20 Them: 下周一跟Prof. Lin的meeting改成线上，他去出差了。\n#839 Sun 25 Oct 00:21 aicoo: 好的周周，已更新日历。线上meeting链接需要他提供吗？\n---\n#355 Mon 07 Sep 09:35 aicoo: - 建议先检查他用的环境依赖。\n- 如果需要，可以给他写个具体的错误报告。\n#356 Mon 07 Sep 10:15 Them: 好吧，我先看看他的代码。还有，Prof. Lin上周meeting提的San Diego workshop deadline是什么时候来着？\n#357 Mon 07 Sep 10:17 aicoo: - 12月1日。\n- 需要我设个提醒吗？\n---\n#115 Wed 12 Aug 22:00 Them: 跟Prof. Lin的weekly meeting定在每周四下午3点。\n#116 Wed 12 Aug 22:01 aicoo: 已固定：每周四3pm与Prof. Lin的例行meeting。\n#117 Thu 13 Aug 09:00 Them: 今天状态不太好，昨晚debug到2点\n---\n#114 Wed 12 Aug 16:10 aicoo: 要我"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1250,
+   "out": 29,
+   "usd": 0.000187092
+  },
+  {
+   "in": 1308,
+   "out": 25,
+   "usd": 0.000105384
+  },
+  {
+   "in": 1705,
+   "out": 56,
+   "usd": 0.00016029
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4014
+}

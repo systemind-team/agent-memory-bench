@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "did i ever review lena's on-call draft?",
+ "reply": [
+  "你之前没提过 review 了 lena 的 on-call 排班草稿。我翻了一下记录，上周五（Oct 31）你提到 Priya 批准了轮值方案，11月1号（今天）开始，4人轮值，David 在第一个 sprint 后加入。但没说 lena 单独给过什么草稿需要你审。",
+  "她是有发过什么给你看吗，还是你记错了？如果是她单独发的文档，我这边没存到，你可以再搜一下聊天记录或者直接问她。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3000,
+   "out": 126,
+   "usd": 0.00004056752
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10700
+}

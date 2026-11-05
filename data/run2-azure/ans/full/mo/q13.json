@@ -1,0 +1,47 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q13",
+ "kind": "update",
+ "q": "阿杰薪资最后定的多少？",
+ "reply": [
+  "阿杰薪资最终定的是税前3万5，试用期后看表现调整",
+  "这是8月22号确认的，后面没有再变动过"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰薪资 最后 定"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 薪资 3万5"
+   },
+   "result": "#115 Fri 21 Aug 14:02 aicoo: 已发你邮箱，数据更新到上周\n#116 Sat 22 Aug 09:00 Them: 阿杰薪资最终定3万5，试用期后看表现调\n#117 Sat 22 Aug 09:02 aicoo: 好的，我更新一下记录"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18696,
+   "out": 25,
+   "usd": 0.000640832
+  },
+  {
+   "in": 18750,
+   "out": 26,
+   "usd": 0.000606908
+  },
+  {
+   "in": 18863,
+   "out": 38,
+   "usd": 0.000637358
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35677
+}

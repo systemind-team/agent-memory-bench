@@ -1,0 +1,59 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "早啊，汇报下今天待办",
+ "reply": [
+  "早啊，周日还主动上线，可以。",
+  "今天没有特别的事，上周 offsite 回来大家状态都不错。月初了，我顺手帮你理一下本周要盯的几件事：\n\n1. 安卓版11月中上线，阿杰这周该交内测结果了，记得催下进度\n2. 大伟要谈新渠道，问问他徐汇那家落地没\n3. 成都订单预测500单，让小雨报一下实际数\n\n其他没什么紧急的，今天好好休息，明天周一再开干。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "待办 安排 今天"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "今天 待办 事项"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周日 工作"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5558,
+   "out": 24,
+   "usd": 0.000218316
+  },
+  {
+   "in": 5611,
+   "out": 24,
+   "usd": 0.000229446
+  },
+  {
+   "in": 5664,
+   "out": 21,
+   "usd": 0.000238896
+  },
+  {
+   "in": 5714,
+   "out": 128,
+   "usd": 0.000263492
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10953
+}

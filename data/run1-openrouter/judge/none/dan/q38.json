@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant says it doesn't have the sprint planning notes and asks for the recording or details, so it doesn't produce meeting notes at all, let alone apply the preference to start with Action Items.",
+ "rule": true
+}

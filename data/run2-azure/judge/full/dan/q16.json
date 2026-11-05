@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The question asks when Priya first moved the cutover (which was announced on Aug 5 from Oct 12 to Nov 5, then later moved again), but the assistant incorrectly states Aug 19 as the first move date.",
+ "rule": null
+}

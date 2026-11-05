@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "Ravi那个integration本来due Sep 15，最后哪天go live的？",
+ "reply": [
+  "凯哥，最后是9月22日go live的。一开始定9月15，后来因为security audit多花了一周，延到22号，上线后还算顺利。",
+  "周一跟Ravi聊integration final timeline时可以提一下这个节点。你父亲今天状态也好，先享受周末～"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Ravi integration go live date"
+   },
+   "result": "- 25 Aug: Ravi confirmed security audit for integration started yesterday, due date Sep 22.\n- 05 Sep: Ravi的新hire start date delayed to Nov 15。\n- 20 Sep: Ravi的集成上线了，虽有延迟但还算顺利，安全审计耗时较多。21 Sep: Ravi confirmed integration went live Sep 22, 延迟了但还算顺利\n- 04 Sep: 周一跟Ravi确认integration timeline。\n- 2 Oct: Ravi说integration稳定了, 没出什么bug, 可以drop监控了。12 Oct: Ravi说integration performance improved by 30% after fix. 14 Oct: Moves integration sync with Ravi to tomorrow due to his prod issue.\n- 05 Sep: 得跟Ravi看看谁顶integration这块。\n- 24 Sep: 下午和Ravi过integration post-mortem并聊velocity。\n- 05 Aug: Ravi的team要在September 15前fin"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1825,
+   "out": 24,
+   "usd": 0.00005109916
+  },
+  {
+   "in": 2117,
+   "out": 71,
+   "usd": 0.00003351124
+  }
+ ],
+ "memChars": 1030,
+ "promptChars": 5702
+}

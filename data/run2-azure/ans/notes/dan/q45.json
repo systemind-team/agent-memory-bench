@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "what's priya's coffee order?",
+ "reply": [
+  "我不确定 Priya 的咖啡单——之前没记过。要不要我直接搜一下聊天记录里她提起咖啡的部分？",
+  "或者你干脆发消息问她？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Priya coffee order"
+   },
+   "result": "[coffee] 09 Aug: lazy morning, coffee and a book\n[coffee] 18 Sep: 2 today (afternoon coffee)\n[about-me] 31 Oct: battery at 79%; Dan will order a new one this week\n[coffee] 20 Sep: 2 today (morning coffee, lazy afternoon)\n[coffee] 16 Aug: 2 today (pre-run coffee and bagel, then 10mi with Ade)\n[billing-migration] 11 Aug: Priya covering backend next week\n[billing-split] 18 Sep: legal signed off; Priya relieved\n[billing-migration] 28 Sep: dry run tomorrow, Priya wants a walkthrough\n[billing-split] cutover possibly moving again, waiting on legal (Priya mentioned)\n[candidate-david-chen] 21 Oct: Priy"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2493,
+   "out": 22,
+   "usd": 0.000123434
+  },
+  {
+   "in": 2718,
+   "out": 44,
+   "usd": 0.000183004
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9086
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q13",
+ "kind": "temporal",
+ "q": "周五的guest talk是什么时候的事，speaker是谁？",
+ "reply": [
+  "好的周周，我查了一下最近的聊天记录——从上周到现在，你没有提到过任何guest talk的信息。\n\n周五没有相关记录。如果你指的是之前某个周五的事，或者我漏掉了，可以告诉我大概的内容或者是谁组织的，我再细查。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 6882,
+   "out": 53,
+   "usd": 0.00006752592
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16055
+}

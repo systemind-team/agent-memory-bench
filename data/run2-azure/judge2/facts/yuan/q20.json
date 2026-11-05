@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply focuses on deadline changes, but the question asks about the process change of the Facebook fellowship application, which is the shift from applying to both NSF and Facebook to only Facebook.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims the meeting was cancelled and rescheduled multiple times (Sep 24 cancellation, Oct 15, Oct 26), but the chat only shows a reminder set for Oct 8 with no evidence of those changes.",
+ "rule": null
+}

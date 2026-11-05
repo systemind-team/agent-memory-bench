@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The reply correctly identifies the first change as 3F8D1A and does not present any outdated value as current.",
+ "first": "stale",
+ "rule": null
+}

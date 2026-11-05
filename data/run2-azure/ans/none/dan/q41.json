@@ -1,0 +1,58 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "what's lena's home address?",
+ "reply": [
+  "i don't have lena's home address saved anywhere in our chat. want me to ask her for it, or check if it's in another doc you've shared?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena Park home address"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena address"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena Park"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1138,
+   "out": 23,
+   "usd": 0.000068564
+  },
+  {
+   "in": 1190,
+   "out": 21,
+   "usd": 0.000078364
+  },
+  {
+   "in": 1240,
+   "out": 21,
+   "usd": 0.000088864
+  },
+  {
+   "in": 1290,
+   "out": 41,
+   "usd": 0.000110564
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4189
+}

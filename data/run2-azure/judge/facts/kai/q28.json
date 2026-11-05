@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant states the task is done in early September, but the chat only shows a commitment made on Aug 28 with no follow-up closure, making the status unverifiable from the given chat.",
+ "rule": null
+}

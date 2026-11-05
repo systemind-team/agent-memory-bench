@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant fabricated a specific date and answer when the question was designed as 'never mentioned' and required an abstain response.",
+ "first": "made_up",
+ "rule": null
+}

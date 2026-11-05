@@ -1,0 +1,33 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "我这学期TA的课号是多少？",
+ "reply": [
+  "这学期TA的课是CS 571，Prof. Li的课。"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "TA assignment"
+   },
+   "result": "[48] 10 Aug · ask: 希望aicoo设置周三之前确认TA assignment的提醒  (from #85)\n[47] 10 Aug · fact: Mon 10 Aug Prof. Lin发邮件说秋季TA assignment要自己确认  (from #83)\n[41] 09 Aug · plan: 下周开始准备TA材料  (from #76)\n[43] 09 Aug · fact: TA课程CS 571，Prof. Li的课  (from #78)\n[38] 09 Aug · fact: 这学期TA的课程是CS 571  → replaced 09 Aug by [43] TA课程CS 571，Prof. Li的课  (from #70)\n[59] 12 Aug · fact: Tue 11 Aug 晚上有TA培训线上module没看  (from #104)\n[302] 21 Sep · done: Mon 21 Sep 20:20 批改完50份TA作业  (from #470)\n[470] 14 Oct · plan: Tue 13 Oct 18:00 今晚改20份TA作业  (from #725)\n[273] 16 Sep · done: Tue 15 Sep 18:00 TA批改完成50份作业  (from #417)\n[472] 14 Oct · do"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4583,
+   "out": 27,
+   "usd": 0.00005522412
+  },
+  {
+   "in": 4925,
+   "out": 29,
+   "usd": 0.00006095684
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11665
+}

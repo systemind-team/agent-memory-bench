@@ -1,0 +1,47 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "what dates are the asheville trip?",
+ "reply": [
+  "asheville trip是oct 22-25,  cabin near blue ridge。你之前记过要订航班, 但后来说是ade安排的",
+  "需要我帮你做点什么相关的事吗？比如提醒你提前请假或者准备行李清单"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville dates"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville trip"
+   },
+   "result": "#622 Mon 12 Oct 16:05 aicoo: 已注意到, 我会追踪\n#623 Tue 13 Oct 09:30 Them: asheville trip booked: oct 22-25. cabin near blue ridge\n#624 Tue 13 Oct 09:35 aicoo: 秋天去蓝岭, 完美时机\n---\n#449 Sat 26 Sep 10:01 aicoo: a rare win. enjoy it\n#450 Sat 26 Sep 14:20 Them: ade's planning a trip to asheville for us. october\n#451 Sat 26 Sep 14:21 aicoo: nice. asheville is great this time of year"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2974,
+   "out": 22,
+   "usd": 0.000132796
+  },
+  {
+   "in": 3025,
+   "out": 22,
+   "usd": 0.000601746
+  },
+  {
+   "in": 3209,
+   "out": 58,
+   "usd": 0.000202306
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10695
+}

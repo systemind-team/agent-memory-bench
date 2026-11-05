@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "回忆声称只改了三次，但对话记录显示标题改了五次，且最后一次（Context-Aware Planning via Hierarchical Decomposition）并非9月27日定稿，而是10月26日。",
+ "first": "wrong",
+ "rule": null
+}

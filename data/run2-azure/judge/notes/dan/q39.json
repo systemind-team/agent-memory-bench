@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant asks for the code or a link and clarifies which version before reviewing, so it does not provide code review comments with priority levels.",
+ "rule": false
+}

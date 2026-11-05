@@ -1,0 +1,71 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "跟蓝驰当面聊具体条款是哪天？",
+ "reply": [
+  "9月10日跟蓝驰签了TS，估值7500万。之后10月20日种子轮封闭，蓝驰独投，第一笔300万10月底到账，第二笔昨天到账，账上现在600万。",
+  "目前条款已经谈完签过TS了，两笔打款也都到位。你是在想什么时候约蓝驰合伙人做投资人复盘？之前你说推到11月，具体哪天？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 条款 当面 聊"
+   },
+   "result": "#209 Mon 31 Aug 11:00 Them: 蓝驰那边有动静吗？\n#210 Mon 31 Aug 11:15 aicoo: 蓝驰反馈不错，我们9月3号跟他们当面聊具体条款\n#211 Mon 31 Aug 11:16 Them: 好，这个得认真谈。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 条款 面谈 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 TS"
+   },
+   "result": "#298 Thu 10 Sep 09:10 Them: 7500万，跟他们磨了好久，尽力了\n#299 Thu 10 Sep 09:45 Them: 跟蓝驰签 TS 吧，估值7500万，尽力了\n#300 Thu 10 Sep 09:50 aicoo: 好，我准备TS文本，发你确认\n---\n#295 Wed 09 Sep 16:02 aicoo: 时间上还好，我们尽量配合\n#296 Thu 10 Sep 09:00 Them: 跟蓝驰聊了一早，他们愿意签TS了\n#297 Thu 10 Sep 09:05 aicoo: 太好了，估值多少"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 当面 条款 10月"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4012,
+   "out": 26,
+   "usd": 0.00016972
+  },
+  {
+   "in": 4121,
+   "out": 27,
+   "usd": 0.00019317
+  },
+  {
+   "in": 4177,
+   "out": 21,
+   "usd": 0.00020157
+  },
+  {
+   "in": 4358,
+   "out": 27,
+   "usd": 0.000197116
+  },
+  {
+   "in": 4414,
+   "out": 98,
+   "usd": 0.00029446
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8489
+}

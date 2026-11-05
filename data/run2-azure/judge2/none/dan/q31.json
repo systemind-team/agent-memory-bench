@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Reply claims docs may need update due to yesterday's rollback steps, but user completed on-call docs for Sam on Sun 20 Sep and Mon 21 Sep, and the rollback steps from Sat 31 Oct are for a cutover checklist, not the on-call runbook; the assistant's framing is misleading.",
+ "first": "wrong",
+ "rule": null
+}

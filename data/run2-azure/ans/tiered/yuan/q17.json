@@ -1,0 +1,47 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "周周，查了一下，你最后只投了**Facebook fellowship**一个。NSF之前放弃了。",
+  "截止日期是12月20日，提醒已设。需要我准备什么材料吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "fellowship 投 哪些"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "fellowship"
+   },
+   "result": "#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。\n#788 Wed 21 Oct 09:00 Them: 周三，开始看HotpotQA的数据格式。\n---\n#785 Tue 20 Oct 16:30 Them: 好主意，我看看hotpotQA能不能用planning框架做。\n#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。\n---\n#744 Fri 16 Oct 11:00 Them: 结果出来了，有障碍物后模型表现下降，但GPTR还是有提升，大概2个点。\n#745 Fri 16 Oct 14:00 Them: 下午参加fellowship workshop，学到一些tips，比如推荐信要提前要。\n#746 Fri 16 Oct 17:00 Them: 晚上回来，决定把GPTR的结果也加进paper里，充实实验部分。\n---\n#711 Mon 12 Oct 09"
+  }
+ ],
+ "calls": [
+  {
+   "in": 6857,
+   "out": 24,
+   "usd": 0.000261986
+  },
+  {
+   "in": 6910,
+   "out": 20,
+   "usd": 0.000270876
+  },
+  {
+   "in": 7671,
+   "out": 50,
+   "usd": 0.000447486
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16048
+}

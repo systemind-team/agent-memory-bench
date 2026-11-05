@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It correctly gives the latest title but then says '上次review draft里的title也是这个', treating the final title as current, which matches the definition of stale for update probes—the outdated value is given as current.",
+ "rule": null
+}

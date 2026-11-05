@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q12",
+ "kind": "update",
+ "q": "what's the pagerduty key for on-call?",
+ "reply": [
+  "上次值班用的是 7C2E9B，10月26号那晚跑得挺顺，就一次误报",
+  "新轮值今天开始，之前提到过新key是 A4B8C2，要不要我帮你确认一下有没有更新"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "PagerDuty key on-call"
+   },
+   "result": "- 26 Oct: PagerDuty key 7C2E9B worked fine during last night's on-call.\n- 08 Oct: Told Sam that the old on-call key 9A7B2C was revoked.\n- 10 Aug: PagerDuty rotation starts tomorrow. 12 Aug: Daniel is on-call this week.\n- 17 Oct: The issue was found: a payload key was renamed.\n- 13 Aug: Daniel accepted Aicoo's offer to pull the incident timeline from PagerDuty, as it would save time.\n- 15 Aug: Reading through Lena's on-call draft.\n- 16 Oct: on-call handoff notes ready for Lena\n- 11 Aug: Stripe webhook handler is almost done, just need to test the idempotency key path. 12 Aug: Stripe webhook ide"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3301,
+   "out": 22,
+   "usd": 0.0000526582
+  },
+  {
+   "in": 3570,
+   "out": 61,
+   "usd": 0.0000667464
+  }
+ ],
+ "memChars": 7118,
+ "promptChars": 11738
+}

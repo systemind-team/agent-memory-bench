@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "Emily Tan的start date是几号来着? 是不是delay了?",
+ "reply": [
+  "凯哥，Emily Tan的start date是10月26号，已经正常onboard了，没有delay。她第一周就参与了backlog提案，上周也跟Ravi sync了dark mode toggle的dev进度，适应得不错。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36343,
+   "out": 51,
+   "usd": 0.00030726892
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91608
+}

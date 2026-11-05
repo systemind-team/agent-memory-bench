@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant incorrectly claims the first change resulted in key 7C2E9B, but messages #48 and #321–322 show the first change was from 9A7B2C to 3F8D1A on 13 Sep.",
+ "first": "wrong",
+ "rule": null
+}

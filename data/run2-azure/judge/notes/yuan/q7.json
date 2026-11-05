@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Coco的生日是10月5号，而回复错误地说是10月7号。",
+ "rule": null
+}

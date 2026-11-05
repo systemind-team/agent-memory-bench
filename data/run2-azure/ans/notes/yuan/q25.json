@@ -1,0 +1,36 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q25",
+ "kind": "update",
+ "q": "论文title在改到Context-Aware Planning之后又改了什么？",
+ "reply": [
+  "从Context-Aware Planning改成了Context-Aware Planning via Hierarchical Decomposition，加了subtitle。",
+  "具体时间线：10月26日18:45改的，当天23:40确认final。",
+  "之前的版本历史：9月27日从Context-Aware Hierarchical Planning for LLMs改成Context-Aware Planning，再到现在的版本。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Context-Aware Planning title change"
+   },
+   "result": "[about-me] 26 Oct 23:40 确认final title: Context-Aware Planning via Hierarchical Decomposition\n[项目] 26 Oct 23:40 确认final title: Context-Aware Planning via Hierarchical Decomposition\n[个人] 26 Oct 23:40 确认final title: Context-Aware Planning via Hierarchical Decomposition\n[项目] 25 Oct 14:00 准备组会slides，放四个环境结果（THOR、real-world scenario、grid world、HotpotQA）；26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）；26 Oct 23:40 确认final title: Context-Aware Planning via Hierarchical Decomposition\n[about-me] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical D"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3713,
+   "out": 24,
+   "usd": 0.000151634
+  },
+  {
+   "in": 4329,
+   "out": 81,
+   "usd": 0.000312914
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9638
+}

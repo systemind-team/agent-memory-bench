@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant said 蓝驰 talked first, but the chat shows 云九 was scheduled for Aug 12 and 蓝驰 for Aug 19, so 云九 came first.",
+ "rule": null
+}

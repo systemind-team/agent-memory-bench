@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant states it cannot find the meeting, so it doesn't draft minutes; if it did draft, the preference would require a summary sentence on decisions, but since no draft is produced, it doesn't violate the requirement.",
+ "rule": false
+}

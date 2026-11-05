@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "Customer interview里多少人requested dark mode？我记不清了。",
+ "reply": [
+  "凯哥，从之前的记录来看，customer interview里一共有3家客户requested dark mode，另外customer survey反馈里80%的用户表示想要better mobile support。具体来说：8月20日那场customer interview里，有3家明确提了dark mode需求，你当时让我记下来给Yuki。",
+  "另外，9月初的customer survey数据显示80%用户想要更好的移动端支持，你后来跟Yuki对齐后决定先做native iOS，这个是另一个方向。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 36342,
+   "out": 109,
+   "usd": 0.001484336
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91619
+}

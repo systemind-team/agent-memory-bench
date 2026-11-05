@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims a check occurred on Sep 8 and gives details about delayed hiring/interns, but the messages only reference testing starting on Sep 8 and never mention any follow-up on the original Sep 1 commitment.",
+ "first": "made_up",
+ "rule": null
+}

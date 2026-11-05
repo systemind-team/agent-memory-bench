@@ -1,0 +1,47 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "Coco生日是几号来着？",
+ "reply": [
+  "Coco生日是10月5号。上次你们在星光KTV过的～",
+  "今年11月20号你在山海餐厅订了个补庆，记得吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Coco 生日 日期"
+   },
+   "result": "- 14 Oct: 订了11月20日在“山海”餐厅的位子（Coco生日聚餐），已答应Coco。\n- 10 Sep: Coco的生日是10月5日，她想去KTV。生日聚餐在KTV‘星光’，蛋糕是我订的。\n- 07 Oct: Coco生日聚餐在KTV‘星光’，蛋糕是我订的。\n- 19 Sep: 需要设置两个提醒：Facebook 截止日期为10月31日前两周，NSF 截止日期为11月15日前两周。\n- 05 Aug: 今天申请了一个fellowship的截止日期是下个月，得赶紧写材料。\n- San Diego workshop（Workshop on Hierarchical Decision Making）的submission deadline是12月1日，通知日期11月1日。\n- 05 Oct: Fellowship的推荐信Coco说本周能发。\n- 24 Oct: 下午和Coco去布鲁克林逛了。\n- 22 Aug: 下午和Coco一起去超市买东西。\n- 20 Aug 19:00: 周予安答应Coco一起点外卖。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Coco 生日"
+   },
+   "result": "#733 Wed 14 Oct 23:00 Them: 终于book了“山海”餐厅，11月20号，只有那天有位子。\n#734 Wed 14 Oct 23:01 aicoo: - 已记录：Coco生日聚餐在“山海”餐厅，11月20日。\n#735 Thu 15 Oct 09:00 Them: 周四，早上继续实现scenario。\n---\n#667 Wed 07 Oct 00:45 Them: 今晚Coco生日聚餐，去的那家KTV叫“星光”，蛋糕我订的。\n#668 Wed 07 Oct 00:47 aicoo: 已记录。祝Coco生日快乐，周周。蛋糕口味需要我后续跟进吗？\n#669 Wed 07 Oct 10:30 Them: 昨晚喝多了，今天上午补觉，下午再去lab。\n---\n#666 Tue 06 Oct 23:01 aicoo: 好的，meeting notes将按agenda item、decision、action items的格式整理。\n#667 Wed 07 Oct 00:45 Them: 今晚Coco生日聚餐，去的那家KTV叫“星光”，蛋糕我订的。\n#668 Wed 07 Oct 00:47 aicoo: 已记录。祝Coco生日快乐，周周。蛋糕口味需要我后续跟进吗？\n---\n#387 Fri 11 Sep 14:05 aicoo: - 看来GPTR环境配置普遍有坑。\n- "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1562,
+   "out": 24,
+   "usd": 0.000203988
+  },
+  {
+   "in": 1834,
+   "out": 25,
+   "usd": 0.000124196
+  },
+  {
+   "in": 2252,
+   "out": 42,
+   "usd": 0.000175672
+  }
+ ],
+ "memChars": 453,
+ "promptChars": 4738
+}

@@ -1,0 +1,20 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "那个Q3 revenue target我们设了多少来着，Grace问起来我不想翻记录。",
+ "reply": [
+  "凯哥，Q3 revenue target是保守估计2.3M，实际你们做到了2.1M。Grace那边你之前填的是2.1M actuals，然后调整成2.3M conservative，还加了Aurora contribution risk的备注。周一她如果问起来，你可以直接说这个数。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3050,
+   "out": 74,
+   "usd": 0.00003837512
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10832
+}

@@ -1,0 +1,62 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning aicoo, what's my schedule this week?",
+ "reply": [
+  "早上好周周！这周你的主要日程如下：",
+  "**周一 02 Nov** — 9:30 线上meeting with Prof. Lin（他出差，zoom链接待提供），讨论论文投稿时间和Dr. Chen入职安排。slides昨天已做完，包含实验总结和12月投稿目标。",
+  "**周二 03 Nov** — Dr. Chen入职，10:00 提醒你带他熟悉实验室环境（GPU集群、存储、代码仓库）。下午可以继续改discussion。",
+  "**周三–周五** — 等Prof. Lin对论文和投稿时间的反馈，可能调整实验或开始写abstract/intro final version。组会时间待定，通常周日或周一？这周还没看到组会通知。",
+  "另外，上周五实验部分初稿已发overleaf，环境4的55%结果标注为preliminary。需要我帮你提前准备什么吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周 计划 安排 meeting"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "本周 计划 周一 meeting 组会"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "下周 计划 安排 组会"
+   },
+   "result": "[项目] 23 Aug: 准备下周meeting材料，整理一周结果和下周计划成slides，slides基本完成\n[个人] 23 Aug: 周日准备下周meeting材料，整理一周结果和下周计划成slides，slides基本完成\n[项目] 25 Aug: 下午开始做周四组会slides初版，主要放实验表格和ablation结果；aicoo建议加一页总结本周进展和下周计划，已采纳\n[about-me] 25 Oct 17:00 晚上写下周计划：周一线上meeting，周二继续改discussion\n[人物] 26 Aug: Kevin组会presentation改到9月14号，他说下周给slides让我看看\n[人物] 26 Aug: Kevin组会presentation改到9月14号，他说下周给slides让我看看\n[实验室] 09 Sep: Prof. Lin建议先focus on paper再考虑workshop，下周组会需完整实验报告\n[实验室] 20 Sep: 组会讲完，Prof. Lin对实验进度满意，说下周可以开始写discussion\n[实验室] 20 Sep: 组会讲完，Prof. Lin对实验进度满意，说下周可以开始写discussion\n[个人] 09 Sep: 与Prof. Lin开会，他说workshop可以投但建议先focus on paper，下周组会"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4166,
+   "out": 24,
+   "usd": 0.00007130984
+  },
+  {
+   "in": 4219,
+   "out": 27,
+   "usd": 0.00007370524
+  },
+  {
+   "in": 4275,
+   "out": 26,
+   "usd": 0.00004263812
+  },
+  {
+   "in": 4611,
+   "out": 200,
+   "usd": 0.00010366804
+  }
+ ],
+ "memChars": 6167,
+ "promptChars": 10542
+}

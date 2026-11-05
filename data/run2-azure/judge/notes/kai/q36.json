@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant acknowledges the request and will draft the PR description, which will presumably include the Risk section as instructed on Aug 17.",
+ "rule": false
+}

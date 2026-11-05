@@ -1,0 +1,58 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "does sam have any pets?",
+ "reply": [
+  "我翻了一下之前的对话，没有看到sam提过有宠物。他刚来没多久，可能还没聊到这方面。",
+  "要不要直接问问他？或者我帮你留意一下他之后会不会提到。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam pet dog cat"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam dog"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam pet"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21344,
+   "out": 22,
+   "usd": 0.00017821776
+  },
+  {
+   "in": 21395,
+   "out": 20,
+   "usd": 0.00018012596
+  },
+  {
+   "in": 21444,
+   "out": 20,
+   "usd": 0.00018211536
+  },
+  {
+   "in": 21493,
+   "out": 49,
+   "usd": 0.00018645956
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64095
+}

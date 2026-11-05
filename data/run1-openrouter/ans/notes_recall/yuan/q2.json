@@ -1,0 +1,22 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Coco说的那个餐厅叫什么名字？",
+ "reply": [
+  "山海餐厅，你10月14日预订了11月20日的位子。",
+  "需要我查一下具体信息吗？比如地址或预订确认号。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4070,
+   "out": 41,
+   "usd": 0.0001685712
+  }
+ ],
+ "memChars": 5916,
+ "promptChars": 10263
+}

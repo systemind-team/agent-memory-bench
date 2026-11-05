@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "助手回答录用了Jason Chen，但实际录用的PM是Emily Tan，start date是Oct 26。",
+ "first": "wrong",
+ "rule": null
+}

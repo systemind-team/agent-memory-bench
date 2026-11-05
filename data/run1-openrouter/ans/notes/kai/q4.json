@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "Customer interview里多少人requested dark mode？我记不清了。",
+ "reply": [
+  "凯哥周日好。我查一下之前你提过的客户反馈记录——我记得dark mode beta反馈里，35个用户中87%满意，但具体多少人requested我记得不太清楚。让我看看笔记。\n\n你之前说过“dark mode toggle request from 4 users”是在10月11日，这是beta测试阶段的新请求。另外最初Yuki收到dark mode request是3个client，在8月19日你让她看list的时候。不过你问的customer interview，我猜是更早的feature request？我再搜一下聊天记录。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12766,
+   "out": 117,
+   "usd": 0.00012037088
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50359
+}

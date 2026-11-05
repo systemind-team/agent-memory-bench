@@ -1,0 +1,70 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "蓝驰第一次约见是几号？",
+ "reply": [
+  "蓝驰第一次约面是9月3号，当时我建了个文档列了底线和问答点陪你模拟谈判。",
+  "之后签TS是9月10号，估值7500万。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 约见 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 面聊 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 第一次"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 3号 面聊"
+   },
+   "result": "#251 Fri 04 Sep 11:01 aicoo: 健康管理师协会初步同意，等正式对接。\n#252 Fri 04 Sep 14:30 Them: 蓝驰那3号面聊，再模拟一次谈判。\n#253 Fri 04 Sep 14:31 aicoo: 我建个文档，列好底线和问答点。\n---\n#209 Mon 31 Aug 11:00 Them: 蓝驰那边有动静吗？\n#210 Mon 31 Aug 11:15 aicoo: 蓝驰反馈不错，我们9月3号跟他们当面聊具体条款\n#211 Mon 31 Aug 11:16 Them: 好，这个得认真谈。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5582,
+   "out": 25,
+   "usd": 0.00005404672
+  },
+  {
+   "in": 5636,
+   "out": 25,
+   "usd": 0.00005623912
+  },
+  {
+   "in": 5690,
+   "out": 22,
+   "usd": 0.00004987304
+  },
+  {
+   "in": 5741,
+   "out": 26,
+   "usd": 0.00006058332
+  },
+  {
+   "in": 5930,
+   "out": 49,
+   "usd": 0.00005349456
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10954
+}

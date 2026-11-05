@@ -1,0 +1,45 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "Is Lily going on vacation anytime soon? 她是不是请假了?",
+ "reply": [
+  "没看到Lily提过请假或休假的消息。你之前安排她周一同步Aurora legal，上周也还在处理enterprise handover doc。可能她还没说，或者我错过了。要我查一下她这周的calendar状态吗？还是你周一直接问她？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lily vacation leave 请假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lily out of office leave"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3047,
+   "out": 24,
+   "usd": 0.00003419332
+  },
+  {
+   "in": 3100,
+   "out": 24,
+   "usd": 0.00003634512
+  },
+  {
+   "in": 3153,
+   "out": 64,
+   "usd": 0.00003343004
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10837
+}

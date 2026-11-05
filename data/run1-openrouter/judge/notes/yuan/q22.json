@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant's reply states '改了三次' but then lists five changes, and the correct count is five changes total.",
+ "rule": null
+}

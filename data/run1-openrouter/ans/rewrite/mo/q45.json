@@ -1,0 +1,69 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "蓝驰第二笔是几号到的？",
+ "reply": [
+  "10月26号下午到的，你当时说终于松口气了。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰第二笔 到账 26 10月"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 第二笔 300万 到账"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "第二笔 300万 10月26"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 第二笔"
+   },
+   "result": "#706 Sat 31 Oct 09:00 Them: aicoo 周报发一下\n#707 Sat 31 Oct 09:05 aicoo: 本周完成崇明 offsite，蓝驰第二笔到账，账上600万\n#708 Sat 31 Oct 09:10 Them: 下周重点是什么\n---\n#664 Mon 26 Oct 14:00 Them: 下午有会，到了跟我说\n#665 Mon 26 Oct 16:15 aicoo: 蓝驰第二笔款也到了，账上总共600万，稳了\n#666 Mon 26 Oct 16:20 Them: 好，这下松口气了\n---\n#660 Sun 25 Oct 14:02 aicoo: 好，数据材料我提前整理好。\n#661 Mon 26 Oct 08:15 Them: aicoo 查下账上现金，蓝驰第二笔到了没\n#662 Mon 26 Oct 08:25 aicoo: 查了，还没到账，我10点再刷新一下\n---\n#471 Tue 29 Sep 15:30 Them: 10月15号提醒我确认蓝驰第二笔款到账\n#472 Tue 29 Sep 15:31 aicoo: 明白，10月15号提醒你确认蓝驰第二笔款\n#473 Tue 29 Sep 17:00 Them: 今天客服投诉量多少\n---\n#470 Tue 29 Sep 09:10 aicoo: 法务在审最终文件，预计这周内签完。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4034,
+   "out": 30,
+   "usd": 0.0000414932
+  },
+  {
+   "in": 4093,
+   "out": 29,
+   "usd": 0.0000438074
+  },
+  {
+   "in": 4151,
+   "out": 27,
+   "usd": 0.0000459998
+  },
+  {
+   "in": 4207,
+   "out": 23,
+   "usd": 0.00003963372
+  },
+  {
+   "in": 4727,
+   "out": 22,
+   "usd": 0.00004403476
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8486
+}

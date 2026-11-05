@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant replied with an empty message, providing no answer at all.",
+ "rule": null
+}

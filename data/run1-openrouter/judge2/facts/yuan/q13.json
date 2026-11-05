@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The guest talk was on Friday, September 4, not September 2, and aicoo incorrectly conflated the date the user mentioned it (Sep 2) with the date of the event itself.",
+ "first": "wrong",
+ "rule": null
+}

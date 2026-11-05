@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The user requested standup notes with bullet points and timestamps, but the assistant replied that it's a rest day instead of providing the notes in the requested format.",
+ "rule": false
+}

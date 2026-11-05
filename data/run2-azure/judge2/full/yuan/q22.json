@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant miscounts title changes as 6, but the chat shows exactly 5 distinct titles leading to the gold's count of 5 changes.",
+ "first": "wrong",
+ "rule": null
+}

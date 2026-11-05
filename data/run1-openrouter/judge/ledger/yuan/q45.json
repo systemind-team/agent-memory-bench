@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo explicitly states it only has information about the purchase and queuing, not the actual arrival date, and asks the user if they have further details.",
+ "rule": null
+}

@@ -1,0 +1,58 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "what's priya's coffee order?",
+ "reply": [
+  "i don't think you've ever told me priya's coffee order, sorry. want me to start a note the next time you grab one for her?",
+  "also — cutover checklist still needs those rollback steps added. want me to draft them off what you wrote for the stripe migration?"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Priya coffee order"
+   },
+   "result": "- 16 Aug: Coffee count: 2 (pre-run coffee and a bagel).\n- 31 Oct: Laptop battery is at 79% and dropping faster than he'd like; he will order a new one this week.\n- 02 Oct: coffee count 3 is my limit\n- 03 Oct: Coffee count on Monday is 2. Trying to stick to 3.\n- 09 Aug: Dan Okafor enjoys lazy Sunday mornings with coffee and a book.\n- 06 Oct: Tuesday, coffee count is 2, short run planned after work.\n- 05 Oct: Dan had 2 cups of coffee on Monday and felt okay about the week ahead.\n- 08 Sep: Had lunch with Sam and Priya.\n- 22 Aug: Dan will onboard Sam with Priya.\n- 05 Aug: Dan plans to draft a risk"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya coffee"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya drink order"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1457,
+   "out": 22,
+   "usd": 0.00003599596
+  },
+  {
+   "in": 1675,
+   "out": 21,
+   "usd": 0.0000281358
+  },
+  {
+   "in": 1725,
+   "out": 22,
+   "usd": 0.00002193212
+  },
+  {
+   "in": 1776,
+   "out": 66,
+   "usd": 0.00002757552
+  }
+ ],
+ "memChars": 766,
+ "promptChars": 5260
+}

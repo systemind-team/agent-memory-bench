@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q22",
+ "kind": "aggregate",
+ "q": "how many data eng candidates did we interview total?",
+ "reply": [
+  "从笔记来看，只有 Jordan Liu 一位 data eng 候选人，面试过，take-home 表现不错。其他人没标记过这个方向。需要我翻翻聊天记录确认有没有漏掉的吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "data eng candidate interview"
+   },
+   "result": "[candidate-jordan-liu] 21 Aug: new candidate: Jordan Liu, data eng at Spotify, good take-home; Lena might like experience\n[candidate-jordan-liu] 29 Aug: Jordan Liu, data eng from Spotify, take-home good\n[coffee] 12 Aug: 2 today (prepping for interview)\n[billing-migration] 06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2621,
+   "out": 22,
+   "usd": 0.00010449
+  },
+  {
+   "in": 2761,
+   "out": 49,
+   "usd": 0.00014901
+  }
+ ],
+ "memChars": 5009,
+ "promptChars": 9585
+}

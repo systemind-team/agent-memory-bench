@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant states 大伟入职是去年9月1号，但对话记录显示是2026年9月1号，且错误添加了提前到8月31号的虚假信息。",
+ "rule": null
+}

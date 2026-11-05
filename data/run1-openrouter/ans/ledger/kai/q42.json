@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "Is Lily going on vacation anytime soon? 她是不是请假了?",
+ "reply": [
+  "凯哥，Lily下周正式转Enterprise Sales，之前10月24日你们过了handover checklist，她应该没请长假。",
+  "不过她手头的account已经交接给Emily了，如果是要Aurora的quote，直接找Emily也行，她接手了Lily的accounts。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5103,
+   "out": 94,
+   "usd": 0.00005683188
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14932
+}

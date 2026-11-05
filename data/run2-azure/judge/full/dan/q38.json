@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant acknowledges the request but does not apply the preference to start with Action Items, offering to supplement context instead.",
+ "rule": false
+}

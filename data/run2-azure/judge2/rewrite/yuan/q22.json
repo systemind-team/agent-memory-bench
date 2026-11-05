@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant claims 3 changes (4 versions total) but the chat shows 5 updates (6 versions), missing the 4th change to 'Context-Aware Planning' on Sep 27/28.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,33 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q16",
+ "kind": "update",
+ "q": "阿杰的电脑最后配了什么，多少钱？",
+ "reply": [
+  "阿杰电脑最后配的是MacBook Air，预算1万，比原来MacBook Pro省了6000，省下的钱贴到iOS推广了"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "阿杰电脑配置 价格"
+   },
+   "result": "[101] 28 Aug · decision: 阿杰电脑换成MacBook Air，预算1万  (from #183)\n[102] 29 Aug · decision: 阿杰电脑换成MacBook Air，预算1万，省下的钱贴到iOS推广  (from #184, #185)\n[53] 21 Aug · fact: MacBook Pro价格涨到1万6，阿杰要用  (from #104, #105)\n[118] 31 Aug · fact: 大伟入职准备：合同和电脑已备好，9月1日报到  (from #208)\n[130] 02 Sep · fact: 阿杰MacBook Air省了6000元  (from #230)\n[193] 20 Sep · fact: 阿杰iOS评审刚过了  (from #373)\n[6] 04 Aug · fact: 阿杰心里价位不低  (from #4)\n[92] 27 Aug · feeling: 又延，回头得骂阿杰了  (from #168)\n[244] 28 Sep · ask: 问阿杰安卓版进度  (from #465)\n[14] 07 Aug · fact: 阿杰8月10号到15号休假  (from #21)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2624,
+   "out": 24,
+   "usd": 0.0000253344
+  },
+  {
+   "in": 2932,
+   "out": 39,
+   "usd": 0.0000390572
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6690
+}

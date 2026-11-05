@@ -1,0 +1,58 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "大伟入职后的绩效和薪酬进展，完整说说？",
+ "reply": [
+  "大伟8月31日报到，薪资1万85（1万7+绩效1000），试用期两个月。9月7日你收了他三版绩效方案，选了B保守版试一个月。9月21日定KPI+OKR混合，KPI占70%，OKR看增长创新。10月11日季度绩效评了A，奖金1万2。",
+  "另外他上周批了12月28到1月3号连休7天假，客服排班已经让小雨调整了。薪酬方面目前没再动过。要我把完整的入职邮件记录也翻出来吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟绩效 薪酬 薪资 奖金"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 薪资 绩效 入职"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 工资 绩效方案"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5585,
+   "out": 27,
+   "usd": 0.00005433092
+  },
+  {
+   "in": 5641,
+   "out": 26,
+   "usd": 0.00005652332
+  },
+  {
+   "in": 5696,
+   "out": 25,
+   "usd": 0.00005867512
+  },
+  {
+   "in": 5750,
+   "out": 138,
+   "usd": 0.00006172824
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10962
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply claims GPTR debugging happened on Sep 7 and that Mei mentioned her issue on Sep 11, but the chat shows GPTR debugging started Sep 5 with intro changes on Sep 6 and the fix for the normalization bug on Sep 15/16. It also omits the 'didn't touch it, changed intro' and the exact normalization bug event.",
+ "first": "wrong",
+ "rule": null
+}

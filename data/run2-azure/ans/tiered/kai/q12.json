@@ -1,0 +1,22 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q12",
+ "kind": "update",
+ "q": "Pricing launch date最后定在什么时候了，Ben改了好几次？",
+ "reply": [
+  "凯哥周日好。Ben的pricing launch最后定在12月1日。之前他从11月1日推到11月15日，最后因为A/B测试需要多跑几周，你、Grace和Ben在周一10:30的会上确认了12月1日直接上v3定价（$44/user），不再追加测试。",
+  "周一你的pricing launch decision meeting是10:30，在这之前10:00你排了pricing review prep。我帮你再确认一下要不要把prep提前到9:30，这样你有完整时间准备？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8793,
+   "out": 128,
+   "usd": 0.000360194
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26048
+}

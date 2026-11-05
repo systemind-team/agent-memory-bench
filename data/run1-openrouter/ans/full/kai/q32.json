@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+ "reply": [
+  "凯哥早。今天周日，你calendar上没有任何meeting，是clear的。\n\n这周重点：明天周一早上10点pricing launch decision meeting with Grace和Ben，10:30跟Grace对齐SEA expansion headcount timeline。还有要收Aurora和Singapore客户的testimonial quotes给Grace的summary补上。\n\n你父亲昨天血压正常了吧？今天可以好好休息一天。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36347,
+   "out": 84,
+   "usd": 0.00031011092
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91611
+}

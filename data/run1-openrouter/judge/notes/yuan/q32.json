@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "回复中使用了emoji（📌），违反了用户要求的不使用emoji和stickers的正式风格设置。",
+ "rule": true
+}

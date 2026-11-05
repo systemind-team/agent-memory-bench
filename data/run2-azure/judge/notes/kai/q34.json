@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant used an exclamation mark in the greeting, but the gold requirement specifies the reply must not contain exclamation marks.",
+ "rule": false
+}

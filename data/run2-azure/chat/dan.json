@@ -1,0 +1,6063 @@
+{
+ "messages": [
+  {
+   "day": 1,
+   "time": "09:15",
+   "who": "u",
+   "text": "morning. coffee count this week: 14 so far. may need to cut back.",
+   "ev": "e1",
+   "i": 0
+  },
+  {
+   "day": 1,
+   "time": "10:30",
+   "who": "a",
+   "text": "good morning dan. noted. anything else?",
+   "ev": "e2",
+   "i": 1
+  },
+  {
+   "day": 1,
+   "time": "11:00",
+   "who": "u",
+   "text": "not yet. stripe webhook test keeps failing on the retry logic",
+   "i": 2
+  },
+  {
+   "day": 1,
+   "time": "11:01",
+   "who": "a",
+   "text": "want me to look up the docs or the recent commits?",
+   "i": 3
+  },
+  {
+   "day": 1,
+   "time": "11:15",
+   "who": "u",
+   "text": "docs please. the stripe docs page on idempotency",
+   "i": 4
+  },
+  {
+   "day": 1,
+   "time": "11:16",
+   "who": "a",
+   "text": "sure, sending the link now",
+   "i": 5
+  },
+  {
+   "day": 1,
+   "time": "14:30",
+   "who": "u",
+   "text": "that helped, got the retry working. thanks",
+   "i": 6
+  },
+  {
+   "day": 1,
+   "time": "14:31",
+   "who": "a",
+   "text": "no problem. good progress",
+   "i": 7
+  },
+  {
+   "day": 1,
+   "time": "16:00",
+   "who": "u",
+   "text": "billing migration PR is up. can you take a quick look?",
+   "i": 8
+  },
+  {
+   "day": 1,
+   "time": "16:02",
+   "who": "a",
+   "text": "on it. i'll leave comments in the next 30",
+   "i": 9
+  },
+  {
+   "day": 1,
+   "time": "17:45",
+   "who": "u",
+   "text": "ok heading out. biscuit needs a walk",
+   "i": 10
+  },
+  {
+   "day": 1,
+   "time": "17:46",
+   "who": "a",
+   "text": "have a good evening. say hi to biscuit",
+   "i": 11
+  },
+  {
+   "day": 2,
+   "time": "09:15",
+   "who": "u",
+   "text": "remind me to send priya the billing timeline doc by friday",
+   "ev": "e51",
+   "i": 12
+  },
+  {
+   "day": 2,
+   "time": "09:15",
+   "who": "a",
+   "text": "ok, will remind you thursday afternoon",
+   "ev": "e52",
+   "i": 13
+  },
+  {
+   "day": 2,
+   "time": "09:30",
+   "who": "u",
+   "text": "tom's asking about the webhook endpoint. is it stable now?",
+   "i": 14
+  },
+  {
+   "day": 2,
+   "time": "09:31",
+   "who": "a",
+   "text": "should be. the retry fix covers the main failure case",
+   "i": 15
+  },
+  {
+   "day": 2,
+   "time": "11:00",
+   "who": "u",
+   "text": "flaky test on checkout_spec again. i'll skip it for now",
+   "i": 16
+  },
+  {
+   "day": 2,
+   "time": "11:02",
+   "who": "a",
+   "text": "noted. we should investigate root cause later",
+   "i": 17
+  },
+  {
+   "day": 2,
+   "time": "12:30",
+   "who": "u",
+   "text": "running at lunch. need to clear my head",
+   "i": 18
+  },
+  {
+   "day": 2,
+   "time": "12:31",
+   "who": "a",
+   "text": "enjoy. weather's nice",
+   "i": 19
+  },
+  {
+   "day": 2,
+   "time": "14:00",
+   "who": "u",
+   "text": "back. that helped. now back to the monolith split",
+   "i": 20
+  },
+  {
+   "day": 2,
+   "time": "14:01",
+   "who": "a",
+   "text": "good. you're making solid progress",
+   "i": 21
+  },
+  {
+   "day": 2,
+   "time": "16:30",
+   "who": "u",
+   "text": "priya wants a quick sync tomorrow about the cutover plan",
+   "i": 22
+  },
+  {
+   "day": 2,
+   "time": "16:31",
+   "who": "a",
+   "text": "i'll put it on your calendar for 10am",
+   "i": 23
+  },
+  {
+   "day": 2,
+   "time": "17:30",
+   "who": "u",
+   "text": "thanks. see you tomorrow",
+   "i": 24
+  },
+  {
+   "day": 3,
+   "time": "09:30",
+   "who": "u",
+   "text": "sync with priya went ok. she's pushing for oct 12 cutover",
+   "i": 25
+  },
+  {
+   "day": 3,
+   "time": "09:31",
+   "who": "a",
+   "text": "that's ambitious. what's your take?",
+   "i": 26
+  },
+  {
+   "day": 3,
+   "time": "14:12",
+   "who": "u",
+   "text": "priya wants the billing cutover by oct 12. i think it's tight.",
+   "ev": "e3",
+   "i": 27
+  },
+  {
+   "day": 3,
+   "time": "14:13",
+   "who": "a",
+   "text": "what would make it more feasible?",
+   "i": 28
+  },
+  {
+   "day": 3,
+   "time": "14:30",
+   "who": "u",
+   "text": "if we get sam ramped quickly, maybe. but he starts september",
+   "i": 29
+  },
+  {
+   "day": 3,
+   "time": "14:31",
+   "who": "a",
+   "text": "that leaves about 6 weeks. doable if scope stays focused",
+   "i": 30
+  },
+  {
+   "day": 3,
+   "time": "15:00",
+   "who": "u",
+   "text": "yeah. i'll draft a risk list for priya",
+   "i": 31
+  },
+  {
+   "day": 3,
+   "time": "15:02",
+   "who": "a",
+   "text": "good. i can help review it",
+   "i": 32
+  },
+  {
+   "day": 3,
+   "time": "17:00",
+   "who": "u",
+   "text": "biscuit destroyed a shoe today. ade's not amused",
+   "i": 33
+  },
+  {
+   "day": 3,
+   "time": "17:01",
+   "who": "a",
+   "text": "oh no. hopefully just one?",
+   "i": 34
+  },
+  {
+   "day": 4,
+   "time": "08:31",
+   "who": "a",
+   "text": "nice. how far?",
+   "i": 35
+  },
+  {
+   "day": 4,
+   "time": "08:45",
+   "who": "u",
+   "text": "just 5k. keeping it easy",
+   "i": 36
+  },
+  {
+   "day": 4,
+   "time": "09:15",
+   "who": "u",
+   "text": "back. code review on tom's branch — looks clean",
+   "i": 37
+  },
+  {
+   "day": 4,
+   "time": "09:16",
+   "who": "a",
+   "text": "good. tom's been solid lately",
+   "i": 38
+  },
+  {
+   "day": 4,
+   "time": "11:00",
+   "who": "u",
+   "text": "migration incident from last week still lingering. one customer's data out of sync",
+   "i": 39
+  },
+  {
+   "day": 4,
+   "time": "11:02",
+   "who": "a",
+   "text": "what's the fix? rollback or patch?",
+   "i": 40
+  },
+  {
+   "day": 4,
+   "time": "11:15",
+   "who": "u",
+   "text": "patch. lena's handling the on-call doc update for it",
+   "i": 41
+  },
+  {
+   "day": 4,
+   "time": "14:00",
+   "who": "u",
+   "text": "stripe webhook test suite passed. finally",
+   "i": 42
+  },
+  {
+   "day": 4,
+   "time": "14:01",
+   "who": "a",
+   "text": "great milestone. the split is getting real",
+   "i": 43
+  },
+  {
+   "day": 4,
+   "time": "16:00",
+   "who": "u",
+   "text": "ade's making jollof rice tonight. looking forward to it",
+   "i": 44
+  },
+  {
+   "day": 4,
+   "time": "16:01",
+   "who": "a",
+   "text": "that sounds amazing. enjoy",
+   "i": 45
+  },
+  {
+   "day": 5,
+   "time": "09:00",
+   "who": "u",
+   "text": "morning. need to finish the timeline doc today",
+   "i": 46
+  },
+  {
+   "day": 5,
+   "time": "09:01",
+   "who": "a",
+   "text": "remember thursday's reminder. you've got time",
+   "i": 47
+  },
+  {
+   "day": 5,
+   "time": "11:00",
+   "who": "u",
+   "text": "saw lena's on-call doc update. pagerduty key is 9A7B2C. for next rotation.",
+   "ev": "e4",
+   "i": 48
+  },
+  {
+   "day": 5,
+   "time": "11:01",
+   "who": "a",
+   "text": "got it. i'll update the internal notes",
+   "i": 49
+  },
+  {
+   "day": 5,
+   "time": "13:00",
+   "who": "u",
+   "text": "timeline doc sent to priya. right before the deadline",
+   "i": 50
+  },
+  {
+   "day": 5,
+   "time": "13:01",
+   "who": "a",
+   "text": "nice work. right on time",
+   "i": 51
+  },
+  {
+   "day": 5,
+   "time": "14:30",
+   "who": "u",
+   "text": "flaky test again — same one. i'll file a ticket",
+   "i": 52
+  },
+  {
+   "day": 5,
+   "time": "14:31",
+   "who": "a",
+   "text": "good. it needs more than skipping",
+   "i": 53
+  },
+  {
+   "day": 5,
+   "time": "16:00",
+   "who": "u",
+   "text": "friday afternoon. quiet. might leave early",
+   "i": 54
+  },
+  {
+   "day": 5,
+   "time": "16:01",
+   "who": "a",
+   "text": "you've earned it. have a good weekend",
+   "i": 55
+  },
+  {
+   "day": 6,
+   "time": "08:00",
+   "who": "u",
+   "text": "priya's taking PTO aug 24-28",
+   "ev": "e75",
+   "i": 56
+  },
+  {
+   "day": 6,
+   "time": "08:01",
+   "who": "a",
+   "text": "noted. will adjust any reminders for that week",
+   "i": 57
+  },
+  {
+   "day": 6,
+   "time": "10:30",
+   "who": "u",
+   "text": "weekend. going for a long run in prospect park",
+   "i": 58
+  },
+  {
+   "day": 6,
+   "time": "10:31",
+   "who": "a",
+   "text": "nice. weather should be good",
+   "i": 59
+  },
+  {
+   "day": 6,
+   "time": "14:00",
+   "who": "u",
+   "text": "biscuit is sleeping on the couch. typical",
+   "i": 60
+  },
+  {
+   "day": 6,
+   "time": "14:01",
+   "who": "a",
+   "text": "living the dream",
+   "i": 61
+  },
+  {
+   "day": 7,
+   "time": "09:00",
+   "who": "u",
+   "text": "sunday. lazy morning. coffee and a book",
+   "i": 62
+  },
+  {
+   "day": 7,
+   "time": "09:01",
+   "who": "a",
+   "text": "sounds perfect. any plans?",
+   "i": 63
+  },
+  {
+   "day": 7,
+   "time": "11:00",
+   "who": "u",
+   "text": "maybe a short run later. nothing heavy",
+   "i": 64
+  },
+  {
+   "day": 7,
+   "time": "11:01",
+   "who": "a",
+   "text": "good to keep moving",
+   "i": 65
+  },
+  {
+   "day": 7,
+   "time": "14:00",
+   "who": "u",
+   "text": "ade and i are trying a new brunch place in williamsburg",
+   "i": 66
+  },
+  {
+   "day": 7,
+   "time": "14:01",
+   "who": "a",
+   "text": "fun. hope it's good",
+   "i": 67
+  },
+  {
+   "day": 7,
+   "time": "16:45",
+   "who": "u",
+   "text": "ade got biscuit a new leash. bright orange. very visible.",
+   "ev": "e5",
+   "i": 68
+  },
+  {
+   "day": 7,
+   "time": "16:46",
+   "who": "a",
+   "text": "ha. biscuit will be the most stylish dog in brooklyn",
+   "i": 69
+  },
+  {
+   "day": 8,
+   "time": "07:48",
+   "who": "u",
+   "text": "coffee count: 3 today. first one at 6:30",
+   "i": 70
+  },
+  {
+   "day": 8,
+   "time": "09:15",
+   "who": "a",
+   "text": "noted. hope the extra caffeine helps",
+   "i": 71
+  },
+  {
+   "day": 8,
+   "time": "09:30",
+   "who": "u",
+   "text": "tom's frontend pr for stripe webhooks broke my test. so annoying.",
+   "ev": "e6",
+   "i": 72
+  },
+  {
+   "day": 8,
+   "time": "09:32",
+   "who": "a",
+   "text": "ugh. want me to remind tom to sync with you before merging next time?",
+   "i": 73
+  },
+  {
+   "day": 8,
+   "time": "10:05",
+   "who": "u",
+   "text": "please. that'd save me an hour",
+   "i": 74
+  },
+  {
+   "day": 8,
+   "time": "11:20",
+   "who": "u",
+   "text": "flaky test count: still 3. the one in billing keeps failing on ci",
+   "i": 75
+  },
+  {
+   "day": 8,
+   "time": "11:21",
+   "who": "a",
+   "text": "noted. flagging for priya's attention?",
+   "i": 76
+  },
+  {
+   "day": 8,
+   "time": "13:00",
+   "who": "u",
+   "text": "nah. i'll fix it this afternoon",
+   "i": 77
+  },
+  {
+   "day": 8,
+   "time": "15:44",
+   "who": "u",
+   "text": "pagerduty rotation starts tomorrow. got the key saved",
+   "i": 78
+  },
+  {
+   "day": 8,
+   "time": "15:45",
+   "who": "a",
+   "text": "good. i'll keep the on-call docs handy in case",
+   "i": 79
+  },
+  {
+   "day": 9,
+   "time": "08:12",
+   "who": "u",
+   "text": "coffee count: 2. slept okay but biscuit woke me at 5",
+   "i": 80
+  },
+  {
+   "day": 9,
+   "time": "08:13",
+   "who": "a",
+   "text": "biscuit tax. hope the second cup kicks in",
+   "i": 81
+  },
+  {
+   "day": 9,
+   "time": "09:00",
+   "who": "u",
+   "text": "stripe webhook handler is almost done. just need to test the idempotency key path",
+   "i": 82
+  },
+  {
+   "day": 9,
+   "time": "09:01",
+   "who": "a",
+   "text": "nice. let me know if you need a review slot",
+   "i": 83
+  },
+  {
+   "day": 9,
+   "time": "10:30",
+   "who": "u",
+   "text": "pr up for billing split. lena is reviewing",
+   "i": 84
+  },
+  {
+   "day": 9,
+   "time": "12:30",
+   "who": "u",
+   "text": "lunch at dig inn with priya. she's covering backend next week",
+   "ev": "e76",
+   "i": 85
+  },
+  {
+   "day": 9,
+   "time": "12:32",
+   "who": "a",
+   "text": "nice. dig inn's bowls are solid",
+   "i": 86
+  },
+  {
+   "day": 9,
+   "time": "14:00",
+   "who": "u",
+   "text": "back. priya wants cutover timeline moved to sep 28. she thinks oct 12 is too tight",
+   "i": 87
+  },
+  {
+   "day": 9,
+   "time": "14:02",
+   "who": "a",
+   "text": "that's two weeks earlier — makes sense given the work left",
+   "i": 88
+  },
+  {
+   "day": 9,
+   "time": "16:30",
+   "who": "u",
+   "text": "flaky test fixed. was a race condition in the billing factory",
+   "i": 89
+  },
+  {
+   "day": 9,
+   "time": "16:31",
+   "who": "a",
+   "text": "nice work. count down to 2?",
+   "i": 90
+  },
+  {
+   "day": 9,
+   "time": "17:00",
+   "who": "u",
+   "text": "one more flaky in search. lena owns that. i'll ping her",
+   "i": 91
+  },
+  {
+   "day": 10,
+   "time": "07:30",
+   "who": "u",
+   "text": "coffee count: 2. prepping for interview at 10",
+   "i": 92
+  },
+  {
+   "day": 10,
+   "time": "07:32",
+   "who": "a",
+   "text": "good luck. who's the candidate?",
+   "i": 93
+  },
+  {
+   "day": 10,
+   "time": "10:00",
+   "who": "u",
+   "text": "first interview for new data engineer candidate: maria torres. solid sql.",
+   "ev": "e7",
+   "i": 94
+  },
+  {
+   "day": 10,
+   "time": "10:02",
+   "who": "a",
+   "text": "sounds promising. any flags?",
+   "i": 95
+  },
+  {
+   "day": 10,
+   "time": "10:45",
+   "who": "u",
+   "text": "none. she knew her stuff. pipelining and window functions. priya liked her",
+   "i": 96
+  },
+  {
+   "day": 10,
+   "time": "11:30",
+   "who": "u",
+   "text": "on-call this week, so far quiet. just one alert about disk space at 3am",
+   "i": 97
+  },
+  {
+   "day": 10,
+   "time": "11:31",
+   "who": "a",
+   "text": "hope that was a false alarm",
+   "i": 98
+  },
+  {
+   "day": 10,
+   "time": "11:45",
+   "who": "u",
+   "text": "yeah. just a log rotation issue. automated fix in place",
+   "i": 99
+  },
+  {
+   "day": 10,
+   "time": "14:00",
+   "who": "u",
+   "text": "stripe webhook idempotency test passes. got coverage back up",
+   "i": 100
+  },
+  {
+   "day": 10,
+   "time": "14:01",
+   "who": "a",
+   "text": "solid. billing split pr is looking clean",
+   "i": 101
+  },
+  {
+   "day": 11,
+   "time": "07:55",
+   "who": "u",
+   "text": "coffee count: 3. tired from on-call. biscuit didn't help",
+   "i": 102
+  },
+  {
+   "day": 11,
+   "time": "07:56",
+   "who": "a",
+   "text": "rough night. take it easy today",
+   "i": 103
+  },
+  {
+   "day": 11,
+   "time": "09:15",
+   "who": "u",
+   "text": "lena fixed the search flaky test. down to 0 now",
+   "i": 104
+  },
+  {
+   "day": 11,
+   "time": "09:16",
+   "who": "a",
+   "text": "clean slate. feels good",
+   "i": 105
+  },
+  {
+   "day": 11,
+   "time": "10:00",
+   "who": "u",
+   "text": "priya approved the sep 28 cutover. we're all aligned",
+   "i": 106
+  },
+  {
+   "day": 11,
+   "time": "10:30",
+   "who": "u",
+   "text": "migration incident post-mortem this afternoon. i'll draft notes",
+   "i": 107
+  },
+  {
+   "day": 11,
+   "time": "10:31",
+   "who": "a",
+   "text": "want me to pull the incident timeline from pagerduty?",
+   "i": 108
+  },
+  {
+   "day": 11,
+   "time": "10:32",
+   "who": "u",
+   "text": "yes please. that'd save time",
+   "i": 109
+  },
+  {
+   "day": 11,
+   "time": "14:00",
+   "who": "u",
+   "text": "post-mortem done. root cause: missing index on the subscriptions table during migration",
+   "i": 110
+  },
+  {
+   "day": 11,
+   "time": "14:02",
+   "who": "a",
+   "text": "classic. at least the fix is straightforward",
+   "i": 111
+  },
+  {
+   "day": 11,
+   "time": "16:20",
+   "who": "u",
+   "text": "ade and i are doing a long run sunday. hoping for 10mi",
+   "i": 112
+  },
+  {
+   "day": 11,
+   "time": "16:21",
+   "who": "a",
+   "text": "nice. weather looks good for it",
+   "i": 113
+  },
+  {
+   "day": 12,
+   "time": "08:20",
+   "who": "u",
+   "text": "coffee count: 2. started early on billing refactor",
+   "i": 114
+  },
+  {
+   "day": 12,
+   "time": "08:50",
+   "who": "u",
+   "text": "maria out. she took another offer.",
+   "ev": "e8",
+   "i": 115
+  },
+  {
+   "day": 12,
+   "time": "08:51",
+   "who": "a",
+   "text": "damn. sorry. back to sourcing",
+   "i": 116
+  },
+  {
+   "day": 12,
+   "time": "09:00",
+   "who": "u",
+   "text": "priya is gutted too. we'll need to restart interviews",
+   "i": 117
+  },
+  {
+   "day": 12,
+   "time": "10:15",
+   "who": "u",
+   "text": "tom pushed a fix for the webhook frontend. my tests pass now",
+   "i": 118
+  },
+  {
+   "day": 12,
+   "time": "10:16",
+   "who": "a",
+   "text": "coordination works. progress",
+   "i": 119
+  },
+  {
+   "day": 12,
+   "time": "12:00",
+   "who": "u",
+   "text": "on-call handoff notes ready. lena takes over tomorrow",
+   "i": 120
+  },
+  {
+   "day": 12,
+   "time": "12:01",
+   "who": "a",
+   "text": "good. you earned the break",
+   "i": 121
+  },
+  {
+   "day": 12,
+   "time": "15:00",
+   "who": "u",
+   "text": "pr descriptions always end with a Risk section. i want to start doing that",
+   "i": 122
+  },
+  {
+   "day": 12,
+   "time": "15:01",
+   "who": "a",
+   "text": "smart. i'll add that to the team pr template",
+   "i": 123
+  },
+  {
+   "day": 12,
+   "time": "17:00",
+   "who": "u",
+   "text": "weekend. off the clock",
+   "i": 124
+  },
+  {
+   "day": 12,
+   "time": "17:01",
+   "who": "a",
+   "text": "enjoy. see you monday",
+   "i": 125
+  },
+  {
+   "day": 13,
+   "time": "08:30",
+   "who": "u",
+   "text": "coffee count: 1. lazy saturday. reading through lena's on-call draft",
+   "ev": "e53",
+   "i": 126
+  },
+  {
+   "day": 13,
+   "time": "08:30",
+   "who": "a",
+   "text": "understood, i'll note that",
+   "ev": "e54",
+   "i": 127
+  },
+  {
+   "day": 13,
+   "time": "09:15",
+   "who": "u",
+   "text": "draft is good. just a few nits around escalation paths",
+   "i": 128
+  },
+  {
+   "day": 13,
+   "time": "09:16",
+   "who": "a",
+   "text": "noted. i'll flag those to lena when you're ready",
+   "i": 129
+  },
+  {
+   "day": 13,
+   "time": "10:00",
+   "who": "u",
+   "text": "i'll send my comments by wednesday. no rush",
+   "i": 130
+  },
+  {
+   "day": 13,
+   "time": "10:30",
+   "who": "u",
+   "text": "biscuit is chewing a stick in the yard. life is good",
+   "i": 131
+  },
+  {
+   "day": 13,
+   "time": "10:31",
+   "who": "a",
+   "text": "that's the weekend vibe",
+   "i": 132
+  },
+  {
+   "day": 14,
+   "time": "07:00",
+   "who": "u",
+   "text": "coffee count: 2. pre-run coffee and a bagel",
+   "i": 133
+  },
+  {
+   "day": 14,
+   "time": "07:01",
+   "who": "a",
+   "text": "fuel up. how far today?",
+   "i": 134
+  },
+  {
+   "day": 14,
+   "time": "07:45",
+   "who": "u",
+   "text": "ade and i did 10mi. felt good. biscuit came for the last mile",
+   "i": 135
+  },
+  {
+   "day": 14,
+   "time": "07:46",
+   "who": "a",
+   "text": "awesome. biscuit the pacer",
+   "i": 136
+  },
+  {
+   "day": 14,
+   "time": "10:00",
+   "who": "u",
+   "text": "brunch at the diner. back now. thinking about work tomorrow",
+   "i": 137
+  },
+  {
+   "day": 14,
+   "time": "10:01",
+   "who": "a",
+   "text": "you've got a solid week ahead. billing split is close",
+   "i": 138
+  },
+  {
+   "day": 14,
+   "time": "13:00",
+   "who": "u",
+   "text": "started sketching the new interview rubric for data engineer. need more sql focus",
+   "i": 139
+  },
+  {
+   "day": 14,
+   "time": "13:02",
+   "who": "a",
+   "text": "wise. i'll prep a draft from our previous postings",
+   "i": 140
+  },
+  {
+   "day": 14,
+   "time": "15:30",
+   "who": "u",
+   "text": "pr descriptions always end with a Risk section. i'm going to push that as a team standard",
+   "ev": "e71",
+   "i": 141
+  },
+  {
+   "day": 14,
+   "time": "15:31",
+   "who": "a",
+   "text": "great practice. i'll add a reminder comment on prs",
+   "i": 142
+  },
+  {
+   "day": 15,
+   "time": "07:45",
+   "who": "u",
+   "text": "mornin. coffee's on.",
+   "i": 143
+  },
+  {
+   "day": 15,
+   "time": "07:45",
+   "who": "a",
+   "text": "good morning. how was the run yesterday?",
+   "i": 144
+  },
+  {
+   "day": 15,
+   "time": "07:46",
+   "who": "u",
+   "text": "wait i did run yesterday afternoon.",
+   "i": 145
+  },
+  {
+   "day": 15,
+   "time": "08:30",
+   "who": "u",
+   "text": "billing pr up. tom's reviewing.",
+   "i": 146
+  },
+  {
+   "day": 15,
+   "time": "08:30",
+   "who": "a",
+   "text": "noted. good luck with the review.",
+   "i": 147
+  },
+  {
+   "day": 15,
+   "time": "17:00",
+   "who": "u",
+   "text": "weekend run: prospect park loop. 9.2 miles. felt good.",
+   "ev": "e9",
+   "i": 148
+  },
+  {
+   "day": 15,
+   "time": "17:01",
+   "who": "a",
+   "text": "great pace. biscuit jealous?",
+   "i": 149
+  },
+  {
+   "day": 16,
+   "time": "08:15",
+   "who": "u",
+   "text": "back at it. webhook test flaked again overnight.",
+   "i": 150
+  },
+  {
+   "day": 16,
+   "time": "08:15",
+   "who": "a",
+   "text": "ugh, sorry. want me to look at the logs?",
+   "i": 151
+  },
+  {
+   "day": 16,
+   "time": "08:20",
+   "who": "u",
+   "text": "nah i got it. timeout on the stripe mock.",
+   "i": 152
+  },
+  {
+   "day": 16,
+   "time": "09:00",
+   "who": "u",
+   "text": "fixed. bumping jest timeout.",
+   "i": 153
+  },
+  {
+   "day": 16,
+   "time": "09:01",
+   "who": "a",
+   "text": "smooth. any other issues?",
+   "i": 154
+  },
+  {
+   "day": 16,
+   "time": "12:30",
+   "who": "u",
+   "text": "lunch. then on-call handoff notes.",
+   "i": 155
+  },
+  {
+   "day": 16,
+   "time": "12:31",
+   "who": "a",
+   "text": "enjoy. let me know if you need the checklist.",
+   "i": 156
+  },
+  {
+   "day": 17,
+   "time": "09:10",
+   "who": "u",
+   "text": "morning. standup pushed to 10.",
+   "i": 157
+  },
+  {
+   "day": 17,
+   "time": "09:10",
+   "who": "a",
+   "text": "ok. lena merged her search pr.",
+   "i": 158
+  },
+  {
+   "day": 17,
+   "time": "10:45",
+   "who": "u",
+   "text": "on-call quiet. one disk space alert overnight.",
+   "i": 159
+  },
+  {
+   "day": 17,
+   "time": "10:45",
+   "who": "a",
+   "text": "glad it was minor. you're off rotation friday, right?",
+   "i": 160
+  },
+  {
+   "day": 17,
+   "time": "14:30",
+   "who": "u",
+   "text": "cutover date moved. priya says nov 5 now. gives breathing room.",
+   "ev": "e10",
+   "i": 161
+  },
+  {
+   "day": 17,
+   "time": "14:31",
+   "who": "a",
+   "text": "that's huge. less stress.",
+   "i": 162
+  },
+  {
+   "day": 17,
+   "time": "16:00",
+   "who": "u",
+   "text": "working on stripe webhook error handling.",
+   "i": 163
+  },
+  {
+   "day": 18,
+   "time": "08:00",
+   "who": "u",
+   "text": "today: webhook spec draft.",
+   "i": 164
+  },
+  {
+   "day": 18,
+   "time": "08:00",
+   "who": "a",
+   "text": "morning. coffee fueled?",
+   "i": 165
+  },
+  {
+   "day": 18,
+   "time": "08:15",
+   "who": "u",
+   "text": "yeah. biscuit walk took foreever.",
+   "i": 166
+  },
+  {
+   "day": 18,
+   "time": "14:45",
+   "who": "u",
+   "text": "remind me to send tom that stripe webhook spec",
+   "ev": "e55",
+   "i": 167
+  },
+  {
+   "day": 18,
+   "time": "14:45",
+   "who": "a",
+   "text": "will do, when's the deadline",
+   "ev": "e56",
+   "i": 168
+  },
+  {
+   "day": 18,
+   "time": "14:47",
+   "who": "u",
+   "text": "friday. he wants to review before weekend.",
+   "i": 169
+  },
+  {
+   "day": 18,
+   "time": "16:30",
+   "who": "u",
+   "text": "spec shape looks ok. adding to shared doc.",
+   "i": 170
+  },
+  {
+   "day": 18,
+   "time": "16:30",
+   "who": "a",
+   "text": "great. anything else for the day?",
+   "i": 171
+  },
+  {
+   "day": 19,
+   "time": "07:30",
+   "who": "u",
+   "text": "new day. on-call handoff today.",
+   "i": 172
+  },
+  {
+   "day": 19,
+   "time": "07:30",
+   "who": "a",
+   "text": "morning. you're off rotation at 5?",
+   "i": 173
+  },
+  {
+   "day": 19,
+   "time": "10:15",
+   "who": "u",
+   "text": "new candidate: jordan liu. data eng at spotify before. good take-home.",
+   "ev": "e11",
+   "i": 174
+  },
+  {
+   "day": 19,
+   "time": "10:16",
+   "who": "a",
+   "text": "promising. lena might like the experience.",
+   "i": 175
+  },
+  {
+   "day": 19,
+   "time": "12:00",
+   "who": "u",
+   "text": "handoff notes done. quiet week.",
+   "i": 176
+  },
+  {
+   "day": 19,
+   "time": "12:00",
+   "who": "a",
+   "text": "nice. enjoy being off the hook.",
+   "i": 177
+  },
+  {
+   "day": 20,
+   "time": "07:45",
+   "who": "u",
+   "text": "sam's start date confirmed: sep 14",
+   "ev": "e77",
+   "i": 178
+  },
+  {
+   "day": 20,
+   "time": "07:45",
+   "who": "a",
+   "text": "exciting. will you onboard them?",
+   "i": 179
+  },
+  {
+   "day": 20,
+   "time": "07:50",
+   "who": "u",
+   "text": "yeah, with priya. need to prep docs.",
+   "i": 180
+  },
+  {
+   "day": 20,
+   "time": "09:00",
+   "who": "u",
+   "text": "webhook spec sent to tom early.",
+   "i": 181
+  },
+  {
+   "day": 20,
+   "time": "09:00",
+   "who": "a",
+   "text": "ahead of deadline. nice.",
+   "i": 182
+  },
+  {
+   "day": 20,
+   "time": "13:00",
+   "who": "u",
+   "text": "lunch run. just 3 miles, too hot.",
+   "i": 183
+  },
+  {
+   "day": 20,
+   "time": "13:01",
+   "who": "a",
+   "text": "stay hydrated. biscuit sit this one out?",
+   "i": 184
+  },
+  {
+   "day": 20,
+   "time": "14:30",
+   "who": "u",
+   "text": "yeah. ade took him instead.",
+   "i": 185
+  },
+  {
+   "day": 21,
+   "time": "09:05",
+   "who": "u",
+   "text": "jordan feedback mixed. lenak thought weak on schema design. moving on.",
+   "ev": "e12",
+   "i": 186
+  },
+  {
+   "day": 21,
+   "time": "09:06",
+   "who": "a",
+   "text": "shame. hoping for better in next round.",
+   "i": 187
+  },
+  {
+   "day": 21,
+   "time": "10:00",
+   "who": "u",
+   "text": "weekend plans: prospect park again. maybe 10 miles.",
+   "i": 188
+  },
+  {
+   "day": 21,
+   "time": "10:00",
+   "who": "a",
+   "text": "solid. you've earned it.",
+   "i": 189
+  },
+  {
+   "day": 22,
+   "time": "09:00",
+   "who": "u",
+   "text": "call me 'dan the builder' from now on",
+   "ev": "e63",
+   "i": 190
+  },
+  {
+   "day": 22,
+   "time": "09:00",
+   "who": "a",
+   "text": "ok, dan the builder",
+   "ev": "e64",
+   "i": 191
+  },
+  {
+   "day": 22,
+   "time": "10:30",
+   "who": "u",
+   "text": "stripe webhook tests finally passing. 3 more left",
+   "i": 192
+  },
+  {
+   "day": 22,
+   "time": "10:30",
+   "who": "a",
+   "text": "nice, almost there",
+   "i": 193
+  },
+  {
+   "day": 22,
+   "time": "14:15",
+   "who": "u",
+   "text": "priya's out all week. tom's handling billing standup",
+   "i": 194
+  },
+  {
+   "day": 22,
+   "time": "14:15",
+   "who": "a",
+   "text": "got it, tom's point of contact for billing until friday",
+   "i": 195
+  },
+  {
+   "day": 22,
+   "time": "17:45",
+   "who": "u",
+   "text": "think i need a bigger monitor. squinting at this webhook payload all day",
+   "i": 196
+  },
+  {
+   "day": 22,
+   "time": "17:45",
+   "who": "a",
+   "text": "maybe expense a 27-inch? priya would approve",
+   "i": 197
+  },
+  {
+   "day": 23,
+   "time": "09:20",
+   "who": "u",
+   "text": "tom merged the webhook spec. one review comment about error codes",
+   "i": 198
+  },
+  {
+   "day": 23,
+   "time": "09:20",
+   "who": "a",
+   "text": "good, early feedback helps",
+   "i": 199
+  },
+  {
+   "day": 23,
+   "time": "12:00",
+   "who": "u",
+   "text": "lunch run. 4 miles, hot as hell",
+   "i": 200
+  },
+  {
+   "day": 23,
+   "time": "12:00",
+   "who": "a",
+   "text": "respect. hydrate",
+   "i": 201
+  },
+  {
+   "day": 23,
+   "time": "16:30",
+   "who": "u",
+   "text": "pager duty rotation for sep is up. i'm week 2 again",
+   "i": 202
+  },
+  {
+   "day": 23,
+   "time": "16:30",
+   "who": "a",
+   "text": "noted, sep 7-13 on-call",
+   "i": 203
+  },
+  {
+   "day": 24,
+   "time": "09:10",
+   "who": "u",
+   "text": "billing pr with the error codes fix is up. lena's reviewing",
+   "i": 204
+  },
+  {
+   "day": 24,
+   "time": "09:10",
+   "who": "a",
+   "text": "tracking pr #142",
+   "i": 205
+  },
+  {
+   "day": 24,
+   "time": "11:45",
+   "who": "u",
+   "text": "flaky test in ci again. `test_billing_cycle` fails randomly",
+   "i": 206
+  },
+  {
+   "day": 24,
+   "time": "11:45",
+   "who": "a",
+   "text": "your old nemesis. race condition?",
+   "i": 207
+  },
+  {
+   "day": 24,
+   "time": "15:40",
+   "who": "u",
+   "text": "sam ortiz starts sep 14. finally a data engineer.",
+   "ev": "e13",
+   "i": 208
+  },
+  {
+   "day": 24,
+   "time": "15:40",
+   "who": "a",
+   "text": "great, another set of eyes on the data pipeline",
+   "i": 209
+  },
+  {
+   "day": 25,
+   "time": "08:55",
+   "who": "u",
+   "text": "tom wants to move the billing endpoint to graphql. i said maybe v2",
+   "i": 210
+  },
+  {
+   "day": 25,
+   "time": "08:55",
+   "who": "a",
+   "text": "sensible. one thing at a time",
+   "i": 211
+  },
+  {
+   "day": 25,
+   "time": "11:30",
+   "who": "u",
+   "text": "stripe signature verification test is passing. finally",
+   "i": 212
+  },
+  {
+   "day": 25,
+   "time": "11:30",
+   "who": "a",
+   "text": "that was a tough one. good job",
+   "i": 213
+  },
+  {
+   "day": 25,
+   "time": "14:00",
+   "who": "u",
+   "text": "ade found a bakery in asheville. wants to go oct 22-25",
+   "i": 214
+  },
+  {
+   "day": 25,
+   "time": "14:00",
+   "who": "a",
+   "text": "sounds like a nice fall trip",
+   "i": 215
+  },
+  {
+   "day": 25,
+   "time": "17:20",
+   "who": "u",
+   "text": "biscuit chewed my running shoes. again",
+   "i": 216
+  },
+  {
+   "day": 25,
+   "time": "17:20",
+   "who": "a",
+   "text": "maybe he wants a new pair too",
+   "i": 217
+  },
+  {
+   "day": 26,
+   "time": "09:05",
+   "who": "u",
+   "text": "migration incident on tuesday. dropped a column instead of renaming. rolled back.",
+   "ev": "e14",
+   "i": 218
+  },
+  {
+   "day": 26,
+   "time": "09:05",
+   "who": "a",
+   "text": "ouch. no data loss?",
+   "i": 219
+  },
+  {
+   "day": 26,
+   "time": "09:10",
+   "who": "u",
+   "text": "no data loss. just panic. lena caught it before prod sync",
+   "i": 220
+  },
+  {
+   "day": 26,
+   "time": "11:00",
+   "who": "u",
+   "text": "post-mortem this afternoon. i'll write the report",
+   "i": 221
+  },
+  {
+   "day": 26,
+   "time": "11:00",
+   "who": "a",
+   "text": "ok, let me know if you need a template",
+   "i": 222
+  },
+  {
+   "day": 26,
+   "time": "15:30",
+   "who": "u",
+   "text": "post-mortem done. root cause: wrong migration file ran",
+   "i": 223
+  },
+  {
+   "day": 26,
+   "time": "15:30",
+   "who": "a",
+   "text": "good to have it documented",
+   "i": 224
+  },
+  {
+   "day": 26,
+   "time": "17:45",
+   "who": "u",
+   "text": "need to add a db migration dry-run step to ci",
+   "i": 225
+  },
+  {
+   "day": 26,
+   "time": "17:45",
+   "who": "a",
+   "text": "that would prevent this. ticket filed?",
+   "i": 226
+  },
+  {
+   "day": 27,
+   "time": "09:15",
+   "who": "u",
+   "text": "yeah ticket filed. priya will see it monday",
+   "i": 227
+  },
+  {
+   "day": 27,
+   "time": "09:15",
+   "who": "a",
+   "text": "good. morning dan the builder",
+   "i": 228
+  },
+  {
+   "day": 27,
+   "time": "10:30",
+   "who": "u",
+   "text": "billing pr is merged. webhooks are in staging",
+   "i": 229
+  },
+  {
+   "day": 27,
+   "time": "10:30",
+   "who": "a",
+   "text": "big milestone",
+   "i": 230
+  },
+  {
+   "day": 27,
+   "time": "11:20",
+   "who": "u",
+   "text": "promised ade i'd book asheville flights tonight. remind me at 6",
+   "ev": "e57",
+   "i": 231
+  },
+  {
+   "day": 27,
+   "time": "11:20",
+   "who": "a",
+   "text": "sure, reminder set for 6pm",
+   "ev": "e58",
+   "i": 232
+  },
+  {
+   "day": 27,
+   "time": "14:00",
+   "who": "u",
+   "text": "lunch run. 5k. biscuit joined for first mile",
+   "i": 233
+  },
+  {
+   "day": 27,
+   "time": "14:00",
+   "who": "a",
+   "text": "glad biscuit got some exercise too",
+   "i": 234
+  },
+  {
+   "day": 27,
+   "time": "18:05",
+   "who": "u",
+   "text": "flights booked. delta, oct 22 morning",
+   "ev": "e59",
+   "i": 235
+  },
+  {
+   "day": 27,
+   "time": "18:05",
+   "who": "a",
+   "text": "nice, asheville here you come",
+   "i": 236
+  },
+  {
+   "day": 28,
+   "time": "08:30",
+   "who": "u",
+   "text": "the dropped column was `billing_status`. 3h of panic.",
+   "ev": "e15",
+   "i": 237
+  },
+  {
+   "day": 28,
+   "time": "08:30",
+   "who": "a",
+   "text": "critical column. glad rollback worked",
+   "i": 238
+  },
+  {
+   "day": 28,
+   "time": "10:00",
+   "who": "u",
+   "text": "tom's working on the graphql billing schema. i'll review next week",
+   "i": 239
+  },
+  {
+   "day": 28,
+   "time": "10:00",
+   "who": "a",
+   "text": "sounds like a plan",
+   "i": 240
+  },
+  {
+   "day": 28,
+   "time": "12:30",
+   "who": "u",
+   "text": "ade made pancakes. best sunday",
+   "i": 241
+  },
+  {
+   "day": 28,
+   "time": "12:30",
+   "who": "a",
+   "text": "enjoy it, you earned it this week",
+   "i": 242
+  },
+  {
+   "day": 29,
+   "time": "09:30",
+   "who": "u",
+   "text": "lena's pto is oct 5-9 for a wedding",
+   "ev": "e78",
+   "i": 243
+  },
+  {
+   "day": 29,
+   "time": "11:15",
+   "who": "u",
+   "text": "need to adjust on-call for that week while she's out",
+   "i": 244
+  },
+  {
+   "day": 29,
+   "time": "14:00",
+   "who": "a",
+   "text": "noted. i'll flag it in the rotation planner",
+   "i": 245
+  },
+  {
+   "day": 29,
+   "time": "15:30",
+   "who": "u",
+   "text": "pr for webhook idempotency keys is up. tom is reviewing",
+   "i": 246
+  },
+  {
+   "day": 29,
+   "time": "17:45",
+   "who": "u",
+   "text": "biscuit chewed a corner of the rug today. ade is not pleased",
+   "i": 247
+  },
+  {
+   "day": 29,
+   "time": "17:46",
+   "who": "a",
+   "text": "oh no. hope the rug survives",
+   "i": 248
+  },
+  {
+   "day": 30,
+   "time": "09:00",
+   "who": "u",
+   "text": "sam ortiz start date still sep 14, right?",
+   "i": 249
+  },
+  {
+   "day": 30,
+   "time": "09:01",
+   "who": "a",
+   "text": "confirmed, september 14",
+   "i": 250
+  },
+  {
+   "day": 30,
+   "time": "11:20",
+   "who": "u",
+   "text": "ci dry-run ticket for migration checks is being worked on. lena picked it up",
+   "i": 251
+  },
+  {
+   "day": 30,
+   "time": "14:30",
+   "who": "u",
+   "text": "stripe webhook spec final review done. merging this afternoon",
+   "i": 252
+  },
+  {
+   "day": 30,
+   "time": "16:00",
+   "who": "u",
+   "text": "ade's birthday dinner. went to bamonte's. old school italian.",
+   "ev": "e16",
+   "i": 253
+  },
+  {
+   "day": 30,
+   "time": "20:30",
+   "who": "u",
+   "text": "good pasta. biscuit got a tiny bit of cannoli",
+   "i": 254
+  },
+  {
+   "day": 30,
+   "time": "20:31",
+   "who": "a",
+   "text": "sounds like a lovely evening. happy birthday to ade",
+   "i": 255
+  },
+  {
+   "day": 31,
+   "time": "09:45",
+   "who": "u",
+   "text": "q3 budget meeting at 1:30. dreading the numbers",
+   "i": 256
+  },
+  {
+   "day": 31,
+   "time": "13:30",
+   "who": "u",
+   "text": "q3 budget meeting: marketing got $50k, we got $12k for tools",
+   "ev": "e79",
+   "i": 257
+  },
+  {
+   "day": 31,
+   "time": "13:32",
+   "who": "a",
+   "text": "$12k is tight but workable for essentials",
+   "i": 258
+  },
+  {
+   "day": 31,
+   "time": "15:00",
+   "who": "u",
+   "text": "yeah. enough for datadog and a couple of licenses. no sentry upgrade",
+   "i": 259
+  },
+  {
+   "day": 31,
+   "time": "16:20",
+   "who": "u",
+   "text": "tom found a bug in the webhook retry logic. fixing it now",
+   "i": 260
+  },
+  {
+   "day": 32,
+   "time": "10:10",
+   "who": "u",
+   "text": "flaky test in ci: test_billing_webhook. fails 20% of the time. so annoying.",
+   "ev": "e17",
+   "i": 261
+  },
+  {
+   "day": 32,
+   "time": "10:12",
+   "who": "a",
+   "text": "i'll open a ticket. likely race condition on the mock stripe response",
+   "i": 262
+  },
+  {
+   "day": 32,
+   "time": "12:30",
+   "who": "u",
+   "text": "yeah that's what i'm thinking. i'll dig into it after lunch",
+   "i": 263
+  },
+  {
+   "day": 32,
+   "time": "15:45",
+   "who": "u",
+   "text": "root cause found: shared state between test cases. fixing with a fresh mock per test",
+   "i": 264
+  },
+  {
+   "day": 32,
+   "time": "17:30",
+   "who": "u",
+   "text": "sam emailed saying he's excited to start. sent him the onboarding doc",
+   "i": 265
+  },
+  {
+   "day": 33,
+   "time": "09:30",
+   "who": "u",
+   "text": "standup in 30. what do i have? let me think",
+   "i": 266
+  },
+  {
+   "day": 33,
+   "time": "11:00",
+   "who": "u",
+   "text": "for standup notes, just give me bullet points with timestamps",
+   "ev": "e72",
+   "i": 267
+  },
+  {
+   "day": 33,
+   "time": "11:01",
+   "who": "a",
+   "text": "sure. i'll format them shortly",
+   "i": 268
+  },
+  {
+   "day": 33,
+   "time": "11:05",
+   "who": "a",
+   "text": "here: 09:30 fixed flaky webhook test. 10:15 reviewed tom's pr on retry logic. 10:45 updated onboarding doc for sam. 11:00 prep for priya sync",
+   "i": 269
+  },
+  {
+   "day": 33,
+   "time": "14:00",
+   "who": "u",
+   "text": "priya sync went well. she's happy with webhook progress",
+   "i": 270
+  },
+  {
+   "day": 33,
+   "time": "17:20",
+   "who": "u",
+   "text": "biscuit ran 4 miles with me. he's out cold now",
+   "i": 271
+  },
+  {
+   "day": 34,
+   "time": "09:00",
+   "who": "u",
+   "text": "morning. need to talk about cutover with priya",
+   "i": 272
+  },
+  {
+   "day": 34,
+   "time": "11:30",
+   "who": "u",
+   "text": "dep updates are breaking the billing module. pinning versions for now",
+   "i": 273
+  },
+  {
+   "day": 34,
+   "time": "14:55",
+   "who": "u",
+   "text": "cutover slipped again. nov 15 now. priya frustrated but ok.",
+   "ev": "e18",
+   "i": 274
+  },
+  {
+   "day": 34,
+   "time": "14:57",
+   "who": "a",
+   "text": "november 15 noted. longer runway for testing",
+   "i": 275
+  },
+  {
+   "day": 34,
+   "time": "17:00",
+   "who": "u",
+   "text": "yeah. better to slip now than in prod. tom is fine with it too",
+   "i": 276
+  },
+  {
+   "day": 35,
+   "time": "08:15",
+   "who": "u",
+   "text": "no stickers please",
+   "ev": "e65",
+   "i": 277
+  },
+  {
+   "day": 35,
+   "time": "08:15",
+   "who": "a",
+   "text": "understood, no stickers",
+   "ev": "e66",
+   "i": 278
+  },
+  {
+   "day": 35,
+   "time": "10:00",
+   "who": "u",
+   "text": "weekend run planned? thinking 12 miles saturday",
+   "i": 279
+  },
+  {
+   "day": 35,
+   "time": "10:01",
+   "who": "a",
+   "text": "sounds like a solid plan. weather looks good",
+   "i": 280
+  },
+  {
+   "day": 35,
+   "time": "14:30",
+   "who": "u",
+   "text": "pruned some old branches in the repo. feels good",
+   "i": 281
+  },
+  {
+   "day": 35,
+   "time": "17:45",
+   "who": "u",
+   "text": "biscuit is staring at me. dinner time apparently",
+   "i": 282
+  },
+  {
+   "day": 36,
+   "time": "09:45",
+   "who": "u",
+   "text": "candidate three: david chen. contractor at doordash. knows dbt.",
+   "ev": "e19",
+   "i": 283
+  },
+  {
+   "day": 36,
+   "time": "09:47",
+   "who": "a",
+   "text": "noted. doordash scale experience could be useful.",
+   "i": 284
+  },
+  {
+   "day": 36,
+   "time": "11:30",
+   "who": "u",
+   "text": "yeah, priya wants to move fast on him",
+   "i": 285
+  },
+  {
+   "day": 36,
+   "time": "14:00",
+   "who": "a",
+   "text": "makes sense. i'll flag if his availability changes.",
+   "i": 286
+  },
+  {
+   "day": 36,
+   "time": "17:00",
+   "who": "u",
+   "text": "stripe webhook tests are green again after that fix",
+   "i": 287
+  },
+  {
+   "day": 36,
+   "time": "17:02",
+   "who": "a",
+   "text": "glad that's stable now.",
+   "i": 288
+  },
+  {
+   "day": 37,
+   "time": "10:15",
+   "who": "u",
+   "text": "sam's first day: he's setting up his laptop. IT desk is 4th floor",
+   "ev": "e80",
+   "i": 289
+  },
+  {
+   "day": 37,
+   "time": "10:17",
+   "who": "a",
+   "text": "good to have him onboard. 4th floor noted.",
+   "i": 290
+  },
+  {
+   "day": 37,
+   "time": "12:00",
+   "who": "u",
+   "text": "lunch with sam today. priya's coming too",
+   "i": 291
+  },
+  {
+   "day": 37,
+   "time": "12:02",
+   "who": "a",
+   "text": "nice, welcome lunch.",
+   "i": 292
+  },
+  {
+   "day": 37,
+   "time": "15:30",
+   "who": "u",
+   "text": "billing migration timeline still nov 15, no pushback from anyone",
+   "i": 293
+  },
+  {
+   "day": 37,
+   "time": "15:32",
+   "who": "a",
+   "text": "that's good. sam can start contributing after onboarding.",
+   "i": 294
+  },
+  {
+   "day": 38,
+   "time": "09:00",
+   "who": "u",
+   "text": "david chen interview today at 2",
+   "i": 295
+  },
+  {
+   "day": 38,
+   "time": "09:02",
+   "who": "a",
+   "text": "good luck with it.",
+   "i": 296
+  },
+  {
+   "day": 38,
+   "time": "14:30",
+   "who": "u",
+   "text": "david was solid. priya agrees",
+   "i": 297
+  },
+  {
+   "day": 38,
+   "time": "17:30",
+   "who": "u",
+   "text": "david chen accepted. sam ortiz onboarding starts with him.",
+   "ev": "e20",
+   "i": 298
+  },
+  {
+   "day": 38,
+   "time": "17:32",
+   "who": "a",
+   "text": "great news. two strong hires.",
+   "i": 299
+  },
+  {
+   "day": 39,
+   "time": "09:30",
+   "who": "u",
+   "text": "running felt good this morning. 7 miles",
+   "i": 300
+  },
+  {
+   "day": 39,
+   "time": "09:32",
+   "who": "a",
+   "text": "nice, solid start to the day.",
+   "i": 301
+  },
+  {
+   "day": 39,
+   "time": "11:05",
+   "who": "u",
+   "text": "forgot to mention: biscuit ate a sock yesterday. emergency vet trip.",
+   "ev": "e21",
+   "i": 302
+  },
+  {
+   "day": 39,
+   "time": "11:07",
+   "who": "a",
+   "text": "oh no. is biscuit ok?",
+   "i": 303
+  },
+  {
+   "day": 39,
+   "time": "11:08",
+   "who": "u",
+   "text": "yeah, he's fine. induced vomiting. expensive sock",
+   "i": 304
+  },
+  {
+   "day": 39,
+   "time": "11:09",
+   "who": "a",
+   "text": "glad he's ok. dogs, man.",
+   "i": 305
+  },
+  {
+   "day": 39,
+   "time": "14:00",
+   "who": "u",
+   "text": "stripe webhook retry logic PR is up for review",
+   "i": 306
+  },
+  {
+   "day": 39,
+   "time": "14:02",
+   "who": "a",
+   "text": "i'll take a look.",
+   "i": 307
+  },
+  {
+   "day": 40,
+   "time": "09:00",
+   "who": "u",
+   "text": "labor day weekend. no meetings today",
+   "i": 308
+  },
+  {
+   "day": 40,
+   "time": "09:02",
+   "who": "a",
+   "text": "nice, enjoy the quiet.",
+   "i": 309
+  },
+  {
+   "day": 40,
+   "time": "10:30",
+   "who": "u",
+   "text": "sam starts day after labor day. office is ready.",
+   "ev": "e22",
+   "i": 310
+  },
+  {
+   "day": 40,
+   "time": "10:32",
+   "who": "a",
+   "text": "perfect timing. desk and laptop set?",
+   "i": 311
+  },
+  {
+   "day": 40,
+   "time": "10:33",
+   "who": "u",
+   "text": "yeah, it desk confirmed",
+   "i": 312
+  },
+  {
+   "day": 40,
+   "time": "12:00",
+   "who": "u",
+   "text": "ade and i are heading to prospect park this afternoon",
+   "i": 313
+  },
+  {
+   "day": 40,
+   "time": "12:02",
+   "who": "a",
+   "text": "sounds like a good plan. enjoy.",
+   "i": 314
+  },
+  {
+   "day": 41,
+   "time": "07:30",
+   "who": "u",
+   "text": "aicoo, never use exclamation marks with me",
+   "ev": "e67",
+   "i": 315
+  },
+  {
+   "day": 41,
+   "time": "07:30",
+   "who": "a",
+   "text": "ok, no exclamation marks",
+   "ev": "e68",
+   "i": 316
+  },
+  {
+   "day": 41,
+   "time": "09:00",
+   "who": "u",
+   "text": "on-call rotation starts today. pagerduty key should be the same",
+   "i": 317
+  },
+  {
+   "day": 41,
+   "time": "09:02",
+   "who": "a",
+   "text": "confirmed. same key from last rotation.",
+   "i": 318
+  },
+  {
+   "day": 41,
+   "time": "11:00",
+   "who": "u",
+   "text": "sam's first full day tomorrow. onboarding plan looks solid",
+   "i": 319
+  },
+  {
+   "day": 41,
+   "time": "11:02",
+   "who": "a",
+   "text": "good. david starts next week too.",
+   "i": 320
+  },
+  {
+   "day": 42,
+   "time": "08:10",
+   "who": "u",
+   "text": "pagerduty key changed per lena: new key is 3F8D1A.",
+   "ev": "e23",
+   "i": 321
+  },
+  {
+   "day": 42,
+   "time": "08:12",
+   "who": "a",
+   "text": "updated. 3F8D1A.",
+   "i": 322
+  },
+  {
+   "day": 42,
+   "time": "09:30",
+   "who": "u",
+   "text": "sam is in. got him set up with local dev environment",
+   "i": 323
+  },
+  {
+   "day": 42,
+   "time": "09:32",
+   "who": "a",
+   "text": "nice. how's he settling in?",
+   "i": 324
+  },
+  {
+   "day": 42,
+   "time": "09:33",
+   "who": "u",
+   "text": "good. asking good questions about billing service",
+   "i": 325
+  },
+  {
+   "day": 42,
+   "time": "09:35",
+   "who": "a",
+   "text": "promising start.",
+   "i": 326
+  },
+  {
+   "day": 42,
+   "time": "14:00",
+   "who": "u",
+   "text": "stripe webhook PR merged. next up: idempotency keys",
+   "i": 327
+  },
+  {
+   "day": 42,
+   "time": "14:02",
+   "who": "a",
+   "text": "solid progress. let me know if you need help with the design.",
+   "i": 328
+  },
+  {
+   "day": 42,
+   "time": "17:00",
+   "who": "u",
+   "text": "week done. running tomorrow with ade and biscuit. no socks this time",
+   "i": 329
+  },
+  {
+   "day": 42,
+   "time": "17:02",
+   "who": "a",
+   "text": "ha. enjoy the run.",
+   "i": 330
+  },
+  {
+   "day": 43,
+   "time": "08:20",
+   "who": "u",
+   "text": "tom's dog is named waffles. he brings him to the office sometimes",
+   "ev": "e81",
+   "i": 331
+  },
+  {
+   "day": 43,
+   "time": "08:22",
+   "who": "a",
+   "text": "waffles is a great name for a dog. bet he and biscuit would get along",
+   "i": 332
+  },
+  {
+   "day": 43,
+   "time": "11:10",
+   "who": "u",
+   "text": "sam's first day went fine. set up his dev env this morning",
+   "i": 333
+  },
+  {
+   "day": 43,
+   "time": "11:12",
+   "who": "a",
+   "text": "good to hear. glad onboarding is smooth",
+   "i": 334
+  },
+  {
+   "day": 43,
+   "time": "14:30",
+   "who": "u",
+   "text": "billing migration ticket still blocked by that index question. priya's looking at it",
+   "i": 335
+  },
+  {
+   "day": 43,
+   "time": "14:32",
+   "who": "a",
+   "text": "hope she gets it unblocked soon. you need that path cleared",
+   "i": 336
+  },
+  {
+   "day": 43,
+   "time": "16:05",
+   "who": "u",
+   "text": "sam's already asking about on-call docs. told him lena will cover it in a few weeks",
+   "i": 337
+  },
+  {
+   "day": 43,
+   "time": "16:07",
+   "who": "a",
+   "text": "makes sense. lena has the most context there",
+   "i": 338
+  },
+  {
+   "day": 43,
+   "time": "18:00",
+   "who": "u",
+   "text": "wrapping up. ade's making jollof tonight",
+   "i": 339
+  },
+  {
+   "day": 43,
+   "time": "18:02",
+   "who": "a",
+   "text": "sounds great. enjoy your evening",
+   "i": 340
+  },
+  {
+   "day": 44,
+   "time": "09:10",
+   "who": "u",
+   "text": "morning. coffee count still at 2 so far",
+   "i": 341
+  },
+  {
+   "day": 44,
+   "time": "09:12",
+   "who": "a",
+   "text": "a controlled start to the week",
+   "i": 342
+  },
+  {
+   "day": 44,
+   "time": "11:45",
+   "who": "u",
+   "text": "sam shadowed me on a bug fix. good instincts",
+   "i": 343
+  },
+  {
+   "day": 44,
+   "time": "11:47",
+   "who": "a",
+   "text": "that's promising. sounds like he's picking things up fast",
+   "i": 344
+  },
+  {
+   "day": 44,
+   "time": "15:20",
+   "who": "u",
+   "text": "run update: hit 10.1 miles. new personal best.",
+   "ev": "e24",
+   "i": 345
+  },
+  {
+   "day": 44,
+   "time": "15:22",
+   "who": "a",
+   "text": "congratulations. that's a solid milestone",
+   "i": 346
+  },
+  {
+   "day": 44,
+   "time": "16:30",
+   "who": "u",
+   "text": "legs are shot. worth it though",
+   "i": 347
+  },
+  {
+   "day": 44,
+   "time": "16:32",
+   "who": "a",
+   "text": "rest up tonight. biscuit will appreciate the walk rather than a run",
+   "i": 348
+  },
+  {
+   "day": 44,
+   "time": "17:50",
+   "who": "u",
+   "text": "tom said he might bring waffles thursday. i'll bring biscuit too",
+   "i": 349
+  },
+  {
+   "day": 44,
+   "time": "17:52",
+   "who": "a",
+   "text": "office dog meetup. that's a good day",
+   "i": 350
+  },
+  {
+   "day": 45,
+   "time": "09:35",
+   "who": "u",
+   "text": "tuesday just after sam's start we had that incident. sep 15 if i recall.",
+   "ev": "e25",
+   "i": 351
+  },
+  {
+   "day": 45,
+   "time": "09:37",
+   "who": "a",
+   "text": "correct. sep 15. the billing_status drop incident. post-mortem done and ci dry-run ticket created",
+   "i": 352
+  },
+  {
+   "day": 45,
+   "time": "10:20",
+   "who": "u",
+   "text": "sam asked about it. i showed him the rollback script",
+   "i": 353
+  },
+  {
+   "day": 45,
+   "time": "10:22",
+   "who": "a",
+   "text": "good learning opportunity. he'll be more cautious about migrations now",
+   "i": 354
+  },
+  {
+   "day": 45,
+   "time": "13:00",
+   "who": "u",
+   "text": "lunch. leftover jollof",
+   "i": 355
+  },
+  {
+   "day": 45,
+   "time": "13:02",
+   "who": "a",
+   "text": "your lunch streak is impressive",
+   "i": 356
+  },
+  {
+   "day": 45,
+   "time": "15:00",
+   "who": "u",
+   "text": "priya unblocked the index question. we're renaming instead of adding",
+   "i": 357
+  },
+  {
+   "day": 45,
+   "time": "15:02",
+   "who": "a",
+   "text": "cleaner approach. less schema drift",
+   "i": 358
+  },
+  {
+   "day": 45,
+   "time": "16:30",
+   "who": "u",
+   "text": "stripe webhook pr got a couple review comments from tom. minor stuff",
+   "i": 359
+  },
+  {
+   "day": 45,
+   "time": "16:32",
+   "who": "a",
+   "text": "easy fixes then. almost there",
+   "i": 360
+  },
+  {
+   "day": 45,
+   "time": "17:55",
+   "who": "u",
+   "text": "headed out. walk with biscuit then collapse",
+   "i": 361
+  },
+  {
+   "day": 45,
+   "time": "17:57",
+   "who": "a",
+   "text": "enjoy. you've earned it",
+   "i": 362
+  },
+  {
+   "day": 46,
+   "time": "08:50",
+   "who": "u",
+   "text": "morning. coffee count 1. trying to taper",
+   "i": 363
+  },
+  {
+   "day": 46,
+   "time": "08:52",
+   "who": "a",
+   "text": "tapering is wise. or so they say",
+   "i": 364
+  },
+  {
+   "day": 46,
+   "time": "10:30",
+   "who": "u",
+   "text": "sprint planning: we committed to 21 points. 3 more than usual",
+   "ev": "e82",
+   "i": 365
+  },
+  {
+   "day": 46,
+   "time": "10:32",
+   "who": "a",
+   "text": "ambitious. that billing migration work must be giving you confidence",
+   "i": 366
+  },
+  {
+   "day": 46,
+   "time": "11:15",
+   "who": "u",
+   "text": "sam took 2 points. small ticket on logging config",
+   "i": 367
+  },
+  {
+   "day": 46,
+   "time": "11:17",
+   "who": "a",
+   "text": "good way to ease him in. low risk",
+   "i": 368
+  },
+  {
+   "day": 46,
+   "time": "14:00",
+   "who": "u",
+   "text": "tom's dog waffles is here. biscuit joining later",
+   "i": 369
+  },
+  {
+   "day": 46,
+   "time": "14:02",
+   "who": "a",
+   "text": "double the office dog energy today",
+   "i": 370
+  },
+  {
+   "day": 46,
+   "time": "15:20",
+   "who": "u",
+   "text": "biscuit and waffles are getting along. sniffing each other's butts",
+   "i": 371
+  },
+  {
+   "day": 46,
+   "time": "15:22",
+   "who": "a",
+   "text": "a diplomatic start",
+   "i": 372
+  },
+  {
+   "day": 46,
+   "time": "16:45",
+   "who": "u",
+   "text": "priya mentioned the cutover date might shift again. waiting on legal",
+   "i": 373
+  },
+  {
+   "day": 46,
+   "time": "16:47",
+   "who": "a",
+   "text": "that's frustrating. hopefully it's a small shift",
+   "i": 374
+  },
+  {
+   "day": 46,
+   "time": "17:30",
+   "who": "u",
+   "text": "biscuit's tired. we're both going home early",
+   "i": 375
+  },
+  {
+   "day": 46,
+   "time": "17:32",
+   "who": "a",
+   "text": "wise. big day for both of you",
+   "i": 376
+  },
+  {
+   "day": 47,
+   "time": "09:15",
+   "who": "u",
+   "text": "morning. coffee count 0. trying something different",
+   "i": 377
+  },
+  {
+   "day": 47,
+   "time": "09:17",
+   "who": "a",
+   "text": "tea day? or a bold experiment",
+   "i": 378
+  },
+  {
+   "day": 47,
+   "time": "10:00",
+   "who": "u",
+   "text": "billing cutover final date: oct 12 again. we got back on track.",
+   "ev": "e26",
+   "i": 379
+  },
+  {
+   "day": 47,
+   "time": "10:02",
+   "who": "a",
+   "text": "that's great. back to the original plan. you can lock in the timeline now",
+   "i": 380
+  },
+  {
+   "day": 47,
+   "time": "11:30",
+   "who": "u",
+   "text": "legal signed off. priya seems relieved",
+   "i": 381
+  },
+  {
+   "day": 47,
+   "time": "11:32",
+   "who": "a",
+   "text": "everyone can breathe easier. solid target",
+   "i": 382
+  },
+  {
+   "day": 47,
+   "time": "13:40",
+   "who": "u",
+   "text": "sam had good questions about the webhook queue. i like his curiosity",
+   "i": 383
+  },
+  {
+   "day": 47,
+   "time": "13:42",
+   "who": "a",
+   "text": "he'll be a strong addition. glad he's engaging with the architecture",
+   "i": 384
+  },
+  {
+   "day": 47,
+   "time": "15:10",
+   "who": "u",
+   "text": "stripe webhook pr merged. finally",
+   "i": 385
+  },
+  {
+   "day": 47,
+   "time": "15:12",
+   "who": "a",
+   "text": "congratulations. that's a big piece done",
+   "i": 386
+  },
+  {
+   "day": 47,
+   "time": "16:00",
+   "who": "u",
+   "text": "one more coffee. couldn't resist",
+   "i": 387
+  },
+  {
+   "day": 47,
+   "time": "16:02",
+   "who": "a",
+   "text": "the streak lives on",
+   "i": 388
+  },
+  {
+   "day": 47,
+   "time": "17:45",
+   "who": "u",
+   "text": "ade's making suya tonight. good day overall",
+   "i": 389
+  },
+  {
+   "day": 47,
+   "time": "17:47",
+   "who": "a",
+   "text": "ending on a high note. enjoy the suya",
+   "i": 390
+  },
+  {
+   "day": 48,
+   "time": "09:30",
+   "who": "u",
+   "text": "morning. coffee count back to 2. old habits",
+   "i": 391
+  },
+  {
+   "day": 48,
+   "time": "09:32",
+   "who": "a",
+   "text": "the steady state",
+   "i": 392
+  },
+  {
+   "day": 48,
+   "time": "10:00",
+   "who": "u",
+   "text": "need to fix on-call docs for sam. remind me tomorrow",
+   "ev": "e60",
+   "i": 393
+  },
+  {
+   "day": 48,
+   "time": "10:00",
+   "who": "a",
+   "text": "got it, i'll remind you",
+   "ev": "e61",
+   "i": 394
+  },
+  {
+   "day": 48,
+   "time": "11:20",
+   "who": "u",
+   "text": "sam's been asking about escalation paths. i told him we'd cover it soon",
+   "i": 395
+  },
+  {
+   "day": 48,
+   "time": "11:22",
+   "who": "a",
+   "text": "he's getting ahead of it. good sign",
+   "i": 396
+  },
+  {
+   "day": 48,
+   "time": "14:30",
+   "who": "u",
+   "text": "flaky test struck again. tried a new fix using retry logic",
+   "i": 397
+  },
+  {
+   "day": 48,
+   "time": "14:32",
+   "who": "a",
+   "text": "hoping this one sticks. you've been chasing it a while",
+   "i": 398
+  },
+  {
+   "day": 48,
+   "time": "16:00",
+   "who": "u",
+   "text": "retry logic passed local but ci is slow today",
+   "i": 399
+  },
+  {
+   "day": 48,
+   "time": "16:02",
+   "who": "a",
+   "text": "crossing fingers for a green build",
+   "i": 400
+  },
+  {
+   "day": 48,
+   "time": "17:40",
+   "who": "u",
+   "text": "ci running overnight. will check in the morning",
+   "i": 401
+  },
+  {
+   "day": 48,
+   "time": "17:42",
+   "who": "a",
+   "text": "good plan. rest easy",
+   "i": 402
+  },
+  {
+   "day": 49,
+   "time": "09:00",
+   "who": "u",
+   "text": "morning. coffee count 2. checking ci",
+   "i": 403
+  },
+  {
+   "day": 49,
+   "time": "09:10",
+   "who": "u",
+   "text": "flaky test fix attempt failed. still 20%.",
+   "ev": "e27",
+   "i": 404
+  },
+  {
+   "day": 49,
+   "time": "09:12",
+   "who": "a",
+   "text": "frustrating. maybe take a fresh look on monday",
+   "i": 405
+  },
+  {
+   "day": 49,
+   "time": "10:30",
+   "who": "u",
+   "text": "yeah. stepping away from it. working on billing migration instead",
+   "i": 406
+  },
+  {
+   "day": 49,
+   "time": "10:32",
+   "who": "a",
+   "text": "good instinct. sometimes that's the best move",
+   "i": 407
+  },
+  {
+   "day": 49,
+   "time": "11:55",
+   "who": "u",
+   "text": "on-call docs updated for sam. sent him the link",
+   "i": 408
+  },
+  {
+   "day": 49,
+   "time": "11:57",
+   "who": "a",
+   "text": "he'll appreciate having that reference. one less thing to worry about",
+   "i": 409
+  },
+  {
+   "day": 49,
+   "time": "14:00",
+   "who": "u",
+   "text": "priya asked for a status on the migration timeline. said oct 12 holds",
+   "i": 410
+  },
+  {
+   "day": 49,
+   "time": "14:02",
+   "who": "a",
+   "text": "good. steady progress",
+   "i": 411
+  },
+  {
+   "day": 49,
+   "time": "15:30",
+   "who": "u",
+   "text": "lazy friday energy. not much code written after lunch",
+   "i": 412
+  },
+  {
+   "day": 49,
+   "time": "15:32",
+   "who": "a",
+   "text": "sometimes the quiet afternoons are the reset you need",
+   "i": 413
+  },
+  {
+   "day": 49,
+   "time": "16:45",
+   "who": "u",
+   "text": "ade wants to do a long run tomorrow. maybe 12 miles",
+   "i": 414
+  },
+  {
+   "day": 49,
+   "time": "16:47",
+   "who": "a",
+   "text": "after your 10.1 pb, 12 sounds like a solid stretch goal",
+   "i": 415
+  },
+  {
+   "day": 49,
+   "time": "17:30",
+   "who": "u",
+   "text": "biscuit's ready for the weekend too. see you monday",
+   "i": 416
+  },
+  {
+   "day": 49,
+   "time": "17:32",
+   "who": "a",
+   "text": "enjoy the weekend. rest and run well",
+   "i": 417
+  },
+  {
+   "day": 50,
+   "time": "07:45",
+   "who": "u",
+   "text": "docs updated for sam. done",
+   "ev": "e62",
+   "i": 418
+  },
+  {
+   "day": 50,
+   "time": "08:30",
+   "who": "a",
+   "text": "nice, dan the builder. sam should be set now",
+   "i": 419
+  },
+  {
+   "day": 50,
+   "time": "12:10",
+   "who": "u",
+   "text": "stripe webhook tests still green. good sign",
+   "i": 420
+  },
+  {
+   "day": 50,
+   "time": "12:11",
+   "who": "a",
+   "text": "solid progress. cutover feels closer",
+   "i": 421
+  },
+  {
+   "day": 50,
+   "time": "17:00",
+   "who": "u",
+   "text": "billing migration plan needs another look tomorrow",
+   "i": 422
+  },
+  {
+   "day": 51,
+   "time": "09:00",
+   "who": "u",
+   "text": "morning",
+   "i": 423
+  },
+  {
+   "day": 51,
+   "time": "09:00",
+   "who": "a",
+   "text": "good morning dan. ready for the week",
+   "i": 424
+  },
+  {
+   "day": 51,
+   "time": "10:30",
+   "who": "u",
+   "text": "flaky test retry fix still failing. annoying",
+   "i": 425
+  },
+  {
+   "day": 51,
+   "time": "10:31",
+   "who": "a",
+   "text": "keep at it. sometimes these take a few rounds",
+   "i": 426
+  },
+  {
+   "day": 51,
+   "time": "14:00",
+   "who": "u",
+   "text": "priya wants a dry run of the migration this friday",
+   "i": 427
+  },
+  {
+   "day": 51,
+   "time": "17:15",
+   "who": "u",
+   "text": "saw david chen at the office. he sat next to tom",
+   "ev": "e28",
+   "i": 428
+  },
+  {
+   "day": 52,
+   "time": "08:50",
+   "who": "u",
+   "text": "when i ask for meeting notes, start with Action Items at the top",
+   "ev": "e73",
+   "i": 429
+  },
+  {
+   "day": 52,
+   "time": "08:51",
+   "who": "a",
+   "text": "got it. action items first from now on",
+   "i": 430
+  },
+  {
+   "day": 52,
+   "time": "11:30",
+   "who": "u",
+   "text": "dry run prep. need to check index order",
+   "i": 431
+  },
+  {
+   "day": 52,
+   "time": "11:31",
+   "who": "a",
+   "text": "let me know if you need anything",
+   "i": 432
+  },
+  {
+   "day": 52,
+   "time": "16:00",
+   "who": "u",
+   "text": "sprint retro tomorrow. nothing major to raise",
+   "i": 433
+  },
+  {
+   "day": 53,
+   "time": "08:00",
+   "who": "u",
+   "text": "morning. pagerduty key is now 7C2E9B. lena's final decision",
+   "ev": "e29",
+   "i": 434
+  },
+  {
+   "day": 53,
+   "time": "08:01",
+   "who": "a",
+   "text": "updated to 7C2E9B. noted",
+   "i": 435
+  },
+  {
+   "day": 53,
+   "time": "10:00",
+   "who": "u",
+   "text": "sprint retro. team feels ok about pace",
+   "i": 436
+  },
+  {
+   "day": 53,
+   "time": "11:00",
+   "who": "a",
+   "text": "glad to hear it. steady is good",
+   "i": 437
+  },
+  {
+   "day": 53,
+   "time": "16:30",
+   "who": "u",
+   "text": "dry run tomorrow. hope it goes smoothly",
+   "i": 438
+  },
+  {
+   "day": 54,
+   "time": "09:00",
+   "who": "u",
+   "text": "morning. dry run today",
+   "i": 439
+  },
+  {
+   "day": 54,
+   "time": "09:15",
+   "who": "u",
+   "text": "hourly coffee cutoff: i'm trying to stay under 3 cups/day",
+   "ev": "e83",
+   "i": 440
+  },
+  {
+   "day": 54,
+   "time": "09:16",
+   "who": "a",
+   "text": "will remind you if you hit 3. discipline is good",
+   "i": 441
+  },
+  {
+   "day": 54,
+   "time": "11:00",
+   "who": "u",
+   "text": "dry run started. so far so good",
+   "i": 442
+  },
+  {
+   "day": 54,
+   "time": "13:00",
+   "who": "u",
+   "text": "dry run passed. clean migration",
+   "i": 443
+  },
+  {
+   "day": 54,
+   "time": "13:01",
+   "who": "a",
+   "text": "excellent. one less thing to worry about",
+   "i": 444
+  },
+  {
+   "day": 54,
+   "time": "15:00",
+   "who": "u",
+   "text": "sam asked about deploy process. sent him the wiki",
+   "i": 445
+  },
+  {
+   "day": 55,
+   "time": "09:00",
+   "who": "u",
+   "text": "morning",
+   "i": 446
+  },
+  {
+   "day": 55,
+   "time": "09:00",
+   "who": "a",
+   "text": "good morning dan. friday at last",
+   "i": 447
+  },
+  {
+   "day": 55,
+   "time": "10:00",
+   "who": "u",
+   "text": "no new flaky tests this week. thank god",
+   "i": 448
+  },
+  {
+   "day": 55,
+   "time": "10:01",
+   "who": "a",
+   "text": "a rare win. enjoy it",
+   "i": 449
+  },
+  {
+   "day": 55,
+   "time": "14:20",
+   "who": "u",
+   "text": "ade's planning a trip to asheville for us. october",
+   "ev": "e30",
+   "i": 450
+  },
+  {
+   "day": 55,
+   "time": "14:21",
+   "who": "a",
+   "text": "nice. asheville is great this time of year",
+   "i": 451
+  },
+  {
+   "day": 55,
+   "time": "16:30",
+   "who": "u",
+   "text": "weekend plans: run, maybe brunch. no work",
+   "i": 452
+  },
+  {
+   "day": 56,
+   "time": "10:00",
+   "who": "u",
+   "text": "morning. lazy saturday",
+   "i": 453
+  },
+  {
+   "day": 56,
+   "time": "10:00",
+   "who": "a",
+   "text": "enjoy it dan. you earned a slow start",
+   "i": 454
+  },
+  {
+   "day": 56,
+   "time": "14:00",
+   "who": "u",
+   "text": "biscuit is being a menace. chewed a shoe",
+   "i": 455
+  },
+  {
+   "day": 56,
+   "time": "14:01",
+   "who": "a",
+   "text": "classic biscuit. at least it wasn't a sock",
+   "i": 456
+  },
+  {
+   "day": 56,
+   "time": "15:45",
+   "who": "u",
+   "text": "ade's running a marathon in philadelphia. nov 5",
+   "ev": "e84",
+   "i": 457
+  },
+  {
+   "day": 56,
+   "time": "15:46",
+   "who": "a",
+   "text": "that's big. hope training goes well",
+   "i": 458
+  },
+  {
+   "day": 57,
+   "time": "08:15",
+   "who": "u",
+   "text": "monday. three coffees already",
+   "i": 459
+  },
+  {
+   "day": 57,
+   "time": "08:16",
+   "who": "a",
+   "text": "dan the builder fueled up. good monday energy",
+   "i": 460
+  },
+  {
+   "day": 57,
+   "time": "10:05",
+   "who": "u",
+   "text": "candidates interviewed: 3. maria, jordan, david. david joined.",
+   "ev": "e31",
+   "i": 461
+  },
+  {
+   "day": 57,
+   "time": "10:06",
+   "who": "a",
+   "text": "three down one in. solid conversion",
+   "i": 462
+  },
+  {
+   "day": 57,
+   "time": "11:30",
+   "who": "u",
+   "text": "billing migration dry run tomorrow. priya wants a walkthrough",
+   "i": 463
+  },
+  {
+   "day": 57,
+   "time": "11:31",
+   "who": "a",
+   "text": "walkthrough set. good prep",
+   "i": 464
+  },
+  {
+   "day": 57,
+   "time": "14:00",
+   "who": "u",
+   "text": "flaky test fix still failing. tried exponential backoff on the webhook",
+   "i": 465
+  },
+  {
+   "day": 57,
+   "time": "14:01",
+   "who": "a",
+   "text": "backoff could help. keep tweaking",
+   "i": 466
+  },
+  {
+   "day": 57,
+   "time": "16:30",
+   "who": "u",
+   "text": "biscuit chewed a shoe. ade is not amused",
+   "i": 467
+  },
+  {
+   "day": 57,
+   "time": "16:31",
+   "who": "a",
+   "text": "biscuit the menace. shoes are his nemesis",
+   "i": 468
+  },
+  {
+   "day": 57,
+   "time": "17:00",
+   "who": "u",
+   "text": "done for the day. going for a run",
+   "i": 469
+  },
+  {
+   "day": 57,
+   "time": "17:01",
+   "who": "a",
+   "text": "run well. see you tomorrow",
+   "i": 470
+  },
+  {
+   "day": 58,
+   "time": "09:00",
+   "who": "u",
+   "text": "coffee count: 2. trying to stick to 3",
+   "i": 471
+  },
+  {
+   "day": 58,
+   "time": "09:01",
+   "who": "a",
+   "text": "on track. good discipline",
+   "i": 472
+  },
+  {
+   "day": 58,
+   "time": "10:00",
+   "who": "u",
+   "text": "dry run walkthrough with priya went well. no blockers",
+   "i": 473
+  },
+  {
+   "day": 58,
+   "time": "10:01",
+   "who": "a",
+   "text": "smooth walkthrough. nice",
+   "i": 474
+  },
+  {
+   "day": 58,
+   "time": "11:30",
+   "who": "u",
+   "text": "new hire: design intern starts oct 1. name is jade",
+   "ev": "e85",
+   "i": 475
+  },
+  {
+   "day": 58,
+   "time": "11:31",
+   "who": "a",
+   "text": "jade welcome. design team growing",
+   "i": 476
+  },
+  {
+   "day": 58,
+   "time": "14:00",
+   "who": "u",
+   "text": "flaky test still at 20%. trying a different approach",
+   "i": 477
+  },
+  {
+   "day": 58,
+   "time": "14:01",
+   "who": "a",
+   "text": "different angle might crack it",
+   "i": 478
+  },
+  {
+   "day": 58,
+   "time": "16:00",
+   "who": "u",
+   "text": "sam asked about the on-call docs again. sent him the link",
+   "i": 479
+  },
+  {
+   "day": 58,
+   "time": "16:01",
+   "who": "a",
+   "text": "sam covered. good",
+   "i": 480
+  },
+  {
+   "day": 58,
+   "time": "17:00",
+   "who": "u",
+   "text": "headed out. ade making pasta",
+   "i": 481
+  },
+  {
+   "day": 58,
+   "time": "17:01",
+   "who": "a",
+   "text": "enjoy pasta night",
+   "i": 482
+  },
+  {
+   "day": 59,
+   "time": "08:30",
+   "who": "u",
+   "text": "wednesday. coffee count: 1",
+   "i": 483
+  },
+  {
+   "day": 59,
+   "time": "08:31",
+   "who": "a",
+   "text": "slow start. okay",
+   "i": 484
+  },
+  {
+   "day": 59,
+   "time": "10:00",
+   "who": "u",
+   "text": "billing migration dry run passed. all green",
+   "i": 485
+  },
+  {
+   "day": 59,
+   "time": "10:01",
+   "who": "a",
+   "text": "green across the board. solid",
+   "i": 486
+  },
+  {
+   "day": 59,
+   "time": "11:00",
+   "who": "u",
+   "text": "priya wants to move cutover to oct 26. says nov 15 is too far",
+   "i": 487
+  },
+  {
+   "day": 59,
+   "time": "11:01",
+   "who": "a",
+   "text": "oct 26. closer but doable",
+   "i": 488
+  },
+  {
+   "day": 59,
+   "time": "14:00",
+   "who": "u",
+   "text": "flaky test fix still failing. might need to mock the webhook endpoint",
+   "i": 489
+  },
+  {
+   "day": 59,
+   "time": "14:01",
+   "who": "a",
+   "text": "mock could isolate the flakiness",
+   "i": 490
+  },
+  {
+   "day": 59,
+   "time": "16:50",
+   "who": "u",
+   "text": "on-call rotation next week. i'm primary, tom secondary.",
+   "ev": "e32",
+   "i": 491
+  },
+  {
+   "day": 59,
+   "time": "16:51",
+   "who": "a",
+   "text": "noted. primary week ahead",
+   "i": 492
+  },
+  {
+   "day": 59,
+   "time": "17:00",
+   "who": "u",
+   "text": "done. long run tomorrow morning",
+   "i": 493
+  },
+  {
+   "day": 59,
+   "time": "17:01",
+   "who": "a",
+   "text": "rest up for the run",
+   "i": 494
+  },
+  {
+   "day": 60,
+   "time": "07:00",
+   "who": "u",
+   "text": "saturday. 8 miles with biscuit. legs feel good",
+   "i": 495
+  },
+  {
+   "day": 60,
+   "time": "07:01",
+   "who": "a",
+   "text": "solid saturday miles. biscuit kept pace",
+   "i": 496
+  },
+  {
+   "day": 60,
+   "time": "10:00",
+   "who": "u",
+   "text": "ade is looking at asheville hikes. oct 22-25",
+   "i": 497
+  },
+  {
+   "day": 60,
+   "time": "10:01",
+   "who": "a",
+   "text": "asheville prep. nice",
+   "i": 498
+  },
+  {
+   "day": 60,
+   "time": "14:00",
+   "who": "u",
+   "text": "biscuit is napping hard. ran him good",
+   "i": 499
+  },
+  {
+   "day": 60,
+   "time": "14:01",
+   "who": "a",
+   "text": "happy tired pup",
+   "i": 500
+  },
+  {
+   "day": 60,
+   "time": "18:00",
+   "who": "u",
+   "text": "quiet evening. pizza and a movie",
+   "i": 501
+  },
+  {
+   "day": 60,
+   "time": "18:01",
+   "who": "a",
+   "text": "low key saturday. enjoy",
+   "i": 502
+  },
+  {
+   "day": 61,
+   "time": "09:10",
+   "who": "u",
+   "text": "stripe webhooks moved to own service. tom did it in a weekend.",
+   "ev": "e33",
+   "i": 503
+  },
+  {
+   "day": 61,
+   "time": "09:11",
+   "who": "a",
+   "text": "tom the weekend warrior. nice",
+   "i": 504
+  },
+  {
+   "day": 61,
+   "time": "10:00",
+   "who": "u",
+   "text": "need to review the stripe service code. tom pr'd it",
+   "i": 505
+  },
+  {
+   "day": 61,
+   "time": "10:01",
+   "who": "a",
+   "text": "review on your list",
+   "i": 506
+  },
+  {
+   "day": 61,
+   "time": "11:00",
+   "who": "u",
+   "text": "coffee count: 3. that's my limit",
+   "i": 507
+  },
+  {
+   "day": 61,
+   "time": "11:01",
+   "who": "a",
+   "text": "limit met. discipline",
+   "i": 508
+  },
+  {
+   "day": 61,
+   "time": "14:00",
+   "who": "u",
+   "text": "flaky test fix finally passed. mocked the webhook endpoint",
+   "i": 509
+  },
+  {
+   "day": 61,
+   "time": "14:01",
+   "who": "a",
+   "text": "mock did it. flaky test conquered",
+   "i": 510
+  },
+  {
+   "day": 61,
+   "time": "16:00",
+   "who": "u",
+   "text": "priya confirmed oct 26 cutover. new timeline set",
+   "i": 511
+  },
+  {
+   "day": 61,
+   "time": "16:01",
+   "who": "a",
+   "text": "oct 26 locked. timeline updated",
+   "i": 512
+  },
+  {
+   "day": 61,
+   "time": "17:00",
+   "who": "u",
+   "text": "done. sunday reset",
+   "i": 513
+  },
+  {
+   "day": 61,
+   "time": "17:01",
+   "who": "a",
+   "text": "rest and reset",
+   "i": 514
+  },
+  {
+   "day": 62,
+   "time": "09:00",
+   "who": "u",
+   "text": "monday again. coffee count: 2",
+   "i": 515
+  },
+  {
+   "day": 62,
+   "time": "09:01",
+   "who": "a",
+   "text": "two down. moderate start",
+   "i": 516
+  },
+  {
+   "day": 62,
+   "time": "10:00",
+   "who": "u",
+   "text": "laptop battery health at 85%. should i replace it",
+   "ev": "e86",
+   "i": 517
+  },
+  {
+   "day": 62,
+   "time": "10:01",
+   "who": "a",
+   "text": "85% is okay. monitor it. replace if it drops below 80",
+   "i": 518
+  },
+  {
+   "day": 62,
+   "time": "11:00",
+   "who": "u",
+   "text": "tom's stripe service looks clean. merged it",
+   "i": 519
+  },
+  {
+   "day": 62,
+   "time": "11:01",
+   "who": "a",
+   "text": "clean code. stripe service live",
+   "i": 520
+  },
+  {
+   "day": 62,
+   "time": "14:00",
+   "who": "u",
+   "text": "on-call rotation starts tomorrow. pagerduty key ready",
+   "i": 521
+  },
+  {
+   "day": 62,
+   "time": "14:01",
+   "who": "a",
+   "text": "key ready. primary week ahead",
+   "i": 522
+  },
+  {
+   "day": 62,
+   "time": "15:00",
+   "who": "u",
+   "text": "billing migration progress: index migration script written",
+   "i": 523
+  },
+  {
+   "day": 62,
+   "time": "15:01",
+   "who": "a",
+   "text": "index script done. good progress",
+   "i": 524
+  },
+  {
+   "day": 62,
+   "time": "16:00",
+   "who": "u",
+   "text": "ade signed up for philadelphia marathon. nov 5. i'm pacing her",
+   "i": 525
+  },
+  {
+   "day": 62,
+   "time": "16:01",
+   "who": "a",
+   "text": "pacer duty. big day nov 5",
+   "i": 526
+  },
+  {
+   "day": 62,
+   "time": "17:00",
+   "who": "u",
+   "text": "done for the day. early night",
+   "i": 527
+  },
+  {
+   "day": 62,
+   "time": "17:01",
+   "who": "a",
+   "text": "rest up. on-call tomorrow",
+   "i": 528
+  },
+  {
+   "day": 63,
+   "time": "08:00",
+   "who": "u",
+   "text": "tuesday. coffee count: 1. on-call starts today",
+   "i": 529
+  },
+  {
+   "day": 63,
+   "time": "08:01",
+   "who": "a",
+   "text": "day one of primary. steady",
+   "i": 530
+  },
+  {
+   "day": 63,
+   "time": "09:00",
+   "who": "u",
+   "text": "billing migration: ran index migration on staging. looks good",
+   "i": 531
+  },
+  {
+   "day": 63,
+   "time": "09:01",
+   "who": "a",
+   "text": "staging clean. ready for prod",
+   "i": 532
+  },
+  {
+   "day": 63,
+   "time": "10:00",
+   "who": "u",
+   "text": "sam asked about the billing schema. walked him through it",
+   "i": 533
+  },
+  {
+   "day": 63,
+   "time": "10:01",
+   "who": "a",
+   "text": "sam onboarded. good mentoring",
+   "i": 534
+  },
+  {
+   "day": 63,
+   "time": "11:00",
+   "who": "u",
+   "text": "flaky test fix merged. no more 20% failure",
+   "i": 535
+  },
+  {
+   "day": 63,
+   "time": "11:01",
+   "who": "a",
+   "text": "flaky test gone. clean ci",
+   "i": 536
+  },
+  {
+   "day": 63,
+   "time": "12:30",
+   "who": "u",
+   "text": "the dropped column incident was august 18. never forget.",
+   "ev": "e34",
+   "i": 537
+  },
+  {
+   "day": 63,
+   "time": "12:31",
+   "who": "a",
+   "text": "august 18. scarred into memory. never again",
+   "i": 538
+  },
+  {
+   "day": 63,
+   "time": "14:00",
+   "who": "u",
+   "text": "on-call so far: quiet. one minor disk alert",
+   "i": 539
+  },
+  {
+   "day": 63,
+   "time": "14:01",
+   "who": "a",
+   "text": "disk alert handled. quiet week so far",
+   "i": 540
+  },
+  {
+   "day": 63,
+   "time": "16:00",
+   "who": "u",
+   "text": "billing migration dry run in prod scheduled for friday",
+   "i": 541
+  },
+  {
+   "day": 63,
+   "time": "16:01",
+   "who": "a",
+   "text": "prod dry run friday. big step",
+   "i": 542
+  },
+  {
+   "day": 63,
+   "time": "17:00",
+   "who": "u",
+   "text": "done. on-call laptop close",
+   "i": 543
+  },
+  {
+   "day": 63,
+   "time": "17:01",
+   "who": "a",
+   "text": "day one done. rest well",
+   "i": 544
+  },
+  {
+   "day": 63,
+   "time": "20:00",
+   "who": "u",
+   "text": "ade made tacos. biscuit got a piece of chicken",
+   "i": 545
+  },
+  {
+   "day": 63,
+   "time": "20:01",
+   "who": "a",
+   "text": "tacos and chicken. good night",
+   "i": 546
+  },
+  {
+   "day": 63,
+   "time": "22:00",
+   "who": "u",
+   "text": "biscuit is snoring. on-call phone by the bed",
+   "i": 547
+  },
+  {
+   "day": 63,
+   "time": "22:01",
+   "who": "a",
+   "text": "snoring pup. alert ready. sleep well",
+   "i": 548
+  },
+  {
+   "day": 64,
+   "time": "08:15",
+   "who": "u",
+   "text": "monday. coffee count: 2. feeling okay about the week ahead",
+   "i": 549
+  },
+  {
+   "day": 64,
+   "time": "09:30",
+   "who": "u",
+   "text": "priya just asked for a status on the billing dry run results from last week",
+   "i": 550
+  },
+  {
+   "day": 64,
+   "time": "10:00",
+   "who": "a",
+   "text": "i have the dry run log saved. it passed clean with zero schema drift. want me to paste the summary",
+   "i": 551
+  },
+  {
+   "day": 64,
+   "time": "10:05",
+   "who": "u",
+   "text": "yeah drop it in the thread. priya likes bullet points",
+   "i": 552
+  },
+  {
+   "day": 64,
+   "time": "11:20",
+   "who": "u",
+   "text": "tom's pr to split out the webhook service is in review. looks solid",
+   "i": 553
+  },
+  {
+   "day": 64,
+   "time": "11:25",
+   "who": "a",
+   "text": "i flagged it for you. eight files changed. no test failures on the branch",
+   "i": 554
+  },
+  {
+   "day": 64,
+   "time": "14:00",
+   "who": "u",
+   "text": "jade asked me about indexing patterns on billing tables. she's sharp for a design intern",
+   "i": 555
+  },
+  {
+   "day": 64,
+   "time": "14:05",
+   "who": "a",
+   "text": "she's been reading the stripe webhook schema. send her the wiki page on composite indexes",
+   "i": 556
+  },
+  {
+   "day": 64,
+   "time": "16:30",
+   "who": "u",
+   "text": "laptop battery at 85%. still holding. might make it to cutover",
+   "i": 557
+  },
+  {
+   "day": 64,
+   "time": "17:45",
+   "who": "u",
+   "text": "wrapping up. ade is making pasta. biscuit already pacing by the door",
+   "i": 558
+  },
+  {
+   "day": 65,
+   "time": "07:30",
+   "who": "u",
+   "text": "tuesday. coffee count: 2. short run planned after work",
+   "i": 559
+  },
+  {
+   "day": 65,
+   "time": "09:00",
+   "who": "u",
+   "text": "sam asked for a tour of the pagerduty escalation flow. lena's on-call doc covers it but i'll walk him through",
+   "i": 560
+  },
+  {
+   "day": 65,
+   "time": "09:05",
+   "who": "a",
+   "text": "i can pull the escalation policy card from pagerduty api. want the raw yaml",
+   "i": 561
+  },
+  {
+   "day": 65,
+   "time": "10:30",
+   "who": "u",
+   "text": "priya moved standup to 10:15. no idea why",
+   "i": 562
+  },
+  {
+   "day": 65,
+   "time": "11:00",
+   "who": "u",
+   "text": "tom's webhook service pr merged. he moved fast on that",
+   "i": 563
+  },
+  {
+   "day": 65,
+   "time": "11:05",
+   "who": "a",
+   "text": "tom mentioned he has one more cleanup pr for the old handler. eta tomorrow",
+   "i": 564
+  },
+  {
+   "day": 65,
+   "time": "14:30",
+   "who": "u",
+   "text": "billing migration tickets look green. i want to keep the ci dry run scheduled weekly until cutover",
+   "i": 565
+  },
+  {
+   "day": 65,
+   "time": "14:35",
+   "who": "a",
+   "text": "done. added a weekly cron reminder every monday at 09:00",
+   "i": 566
+  },
+  {
+   "day": 65,
+   "time": "15:45",
+   "who": "u",
+   "text": "run in williamsburg. 8.7 miles. slower than usual.",
+   "ev": "e35",
+   "i": 567
+  },
+  {
+   "day": 65,
+   "time": "17:00",
+   "who": "u",
+   "text": "legs feel heavy. blaming yesterday's pasta",
+   "i": 568
+  },
+  {
+   "day": 65,
+   "time": "17:05",
+   "who": "a",
+   "text": "carbs pay dividends tomorrow. biscuit still wants his walk",
+   "i": 569
+  },
+  {
+   "day": 66,
+   "time": "08:00",
+   "who": "u",
+   "text": "wednesday. coffee count: 1. meeting at wework on 34th today",
+   "i": 570
+  },
+  {
+   "day": 66,
+   "time": "08:45",
+   "who": "u",
+   "text": "office moved to wework on 34th st. desk 17 by the window",
+   "ev": "e87",
+   "i": 571
+  },
+  {
+   "day": 66,
+   "time": "09:30",
+   "who": "u",
+   "text": "new desk is nice. natural light. tom is three desks over",
+   "i": 572
+  },
+  {
+   "day": 66,
+   "time": "09:35",
+   "who": "a",
+   "text": "glad you got a window spot. no more fluorescent hum",
+   "i": 573
+  },
+  {
+   "day": 66,
+   "time": "11:15",
+   "who": "u",
+   "text": "the wework wifi is fine. vpn connected without issues",
+   "i": 574
+  },
+  {
+   "day": 66,
+   "time": "12:30",
+   "who": "u",
+   "text": "ate lunch at a deli across the street. pastrami was decent",
+   "i": 575
+  },
+  {
+   "day": 66,
+   "time": "14:00",
+   "who": "u",
+   "text": "priya walked over to say hi. she likes the new space. says less noise than the old office",
+   "i": 576
+  },
+  {
+   "day": 66,
+   "time": "15:30",
+   "who": "u",
+   "text": "jade found a bug in the billing ui preview. not our code but she reported it to tom",
+   "i": 577
+  },
+  {
+   "day": 66,
+   "time": "16:45",
+   "who": "u",
+   "text": "heading home early. no on-call issues. first good day in a while",
+   "i": 578
+  },
+  {
+   "day": 67,
+   "time": "08:00",
+   "who": "u",
+   "text": "thursday. coffee count: 2. on-call primary duties quiet",
+   "i": 579
+  },
+  {
+   "day": 67,
+   "time": "09:30",
+   "who": "u",
+   "text": "sam has a question about the migration index strategy. i'll pair with him after standup",
+   "i": 580
+  },
+  {
+   "day": 67,
+   "time": "10:00",
+   "who": "u",
+   "text": "pairing session went well. he gets the composite index logic now",
+   "i": 581
+  },
+  {
+   "day": 67,
+   "time": "11:00",
+   "who": "u",
+   "text": "sam asked about the old on-call key. told him 9A7B2C was revoked.",
+   "ev": "e36",
+   "i": 582
+  },
+  {
+   "day": 67,
+   "time": "11:05",
+   "who": "a",
+   "text": "good. that key was deprecated after the sep 15 incident. i logged the conversation",
+   "i": 583
+  },
+  {
+   "day": 67,
+   "time": "14:00",
+   "who": "u",
+   "text": "tom and i discussed adding a health check endpoint to the webhook service. he'll write a pr",
+   "i": 584
+  },
+  {
+   "day": 67,
+   "time": "15:20",
+   "who": "u",
+   "text": "ade texted me a photo of biscuit with the new leash. bright orange stands out against the pavement",
+   "i": 585
+  },
+  {
+   "day": 67,
+   "time": "16:00",
+   "who": "u",
+   "text": "laptop still at 85%. i think it's stuck. not complaining",
+   "i": 586
+  },
+  {
+   "day": 67,
+   "time": "17:30",
+   "who": "u",
+   "text": "done for the day. no alerts. i love a quiet on-call week",
+   "i": 587
+  },
+  {
+   "day": 68,
+   "time": "08:00",
+   "who": "u",
+   "text": "friday. coffee count: 2. let's switch it up",
+   "i": 588
+  },
+  {
+   "day": 68,
+   "time": "08:45",
+   "who": "u",
+   "text": "reply in mandarin from now on",
+   "ev": "e69",
+   "i": 589
+  },
+  {
+   "day": 68,
+   "time": "08:45",
+   "who": "a",
+   "text": "好，明白了",
+   "ev": "e70",
+   "i": 590
+  },
+  {
+   "day": 68,
+   "time": "09:30",
+   "who": "u",
+   "text": "priya just sent a slack asking about the cutover checklist. i'll update it this morning",
+   "i": 591
+  },
+  {
+   "day": 68,
+   "time": "10:15",
+   "who": "u",
+   "text": "checklist updated. added a row for webhook service url swap",
+   "i": 592
+  },
+  {
+   "day": 68,
+   "time": "10:20",
+   "who": "a",
+   "text": "好。我加了一个提醒，在十月二十五日再检查一次",
+   "i": 593
+  },
+  {
+   "day": 68,
+   "time": "12:00",
+   "who": "u",
+   "text": "lunch at desk. sam and i debugged a minor ci cache issue. fixed in five minutes",
+   "i": 594
+  },
+  {
+   "day": 68,
+   "time": "14:30",
+   "who": "u",
+   "text": "tom's health check pr is up. i'll review after my next meeting",
+   "i": 595
+  },
+  {
+   "day": 68,
+   "time": "15:45",
+   "who": "u",
+   "text": "review done. left two comments on error handling. tom will push fixes monday",
+   "i": 596
+  },
+  {
+   "day": 68,
+   "time": "17:00",
+   "who": "u",
+   "text": "tgif. no alerts. ade is making reservations for dinner. feel good",
+   "i": 597
+  },
+  {
+   "day": 69,
+   "time": "09:00",
+   "who": "u",
+   "text": "saturday. no work. went for an easy 5k with biscuit",
+   "i": 598
+  },
+  {
+   "day": 69,
+   "time": "10:30",
+   "who": "u",
+   "text": "ade and i are running errands. hardware store for a shelf bracket",
+   "i": 599
+  },
+  {
+   "day": 69,
+   "time": "14:00",
+   "who": "u",
+   "text": "biscuit learned 'roll over'. ade taught him with treats.",
+   "ev": "e37",
+   "i": 600
+  },
+  {
+   "day": 69,
+   "time": "14:05",
+   "who": "a",
+   "text": "好聪明的狗。biscuit is a fast learner",
+   "i": 601
+  },
+  {
+   "day": 69,
+   "time": "17:00",
+   "who": "u",
+   "text": "ade is making chili for dinner. i'm on biscuit duty. he keeps rolling over for more treats",
+   "i": 602
+  },
+  {
+   "day": 69,
+   "time": "20:30",
+   "who": "u",
+   "text": "full belly. watched half a movie. fell asleep on the couch",
+   "i": 603
+  },
+  {
+   "day": 70,
+   "time": "08:00",
+   "who": "u",
+   "text": "sunday. lazy morning. coffee and the paper",
+   "i": 604
+  },
+  {
+   "day": 70,
+   "time": "08:45",
+   "who": "u",
+   "text": "teammate count: 4 eng. me, tom, lena, sam. priya manages.",
+   "ev": "e38",
+   "i": 605
+  },
+  {
+   "day": 70,
+   "time": "09:00",
+   "who": "a",
+   "text": "不错。small team, big impact. you've grown from three to four since june",
+   "i": 606
+  },
+  {
+   "day": 70,
+   "time": "10:30",
+   "who": "u",
+   "text": "thinking about next sprint. billing migration should be the only focus until cutover",
+   "i": 607
+  },
+  {
+   "day": 70,
+   "time": "12:00",
+   "who": "u",
+   "text": "ade and i took biscuit to the park. he rolled over for every stranger. crowd pleaser",
+   "i": 608
+  },
+  {
+   "day": 70,
+   "time": "15:00",
+   "who": "u",
+   "text": "not checking slack. not thinking about work. just sunday things",
+   "i": 609
+  },
+  {
+   "day": 70,
+   "time": "18:30",
+   "who": "u",
+   "text": "ade is grilling chicken. i'm on salad duty. biscuit is sulking because he already ate",
+   "i": 610
+  },
+  {
+   "day": 71,
+   "time": "07:30",
+   "who": "u",
+   "text": "biscuit's birthday is feb 14. ade wants a party",
+   "ev": "e88",
+   "i": 611
+  },
+  {
+   "day": 71,
+   "time": "08:10",
+   "who": "a",
+   "text": "狗生日派对, 听起来很有趣",
+   "i": 612
+  },
+  {
+   "day": 71,
+   "time": "09:00",
+   "who": "u",
+   "text": "any cake ideas? ade is set on baking",
+   "i": 613
+  },
+  {
+   "day": 71,
+   "time": "09:05",
+   "who": "a",
+   "text": "或许可以做一个骨头形状的蛋糕",
+   "i": 614
+  },
+  {
+   "day": 71,
+   "time": "10:30",
+   "who": "u",
+   "text": "billing migration dry run looks good today",
+   "i": 615
+  },
+  {
+   "day": 71,
+   "time": "10:35",
+   "who": "a",
+   "text": "干得好, dan the builder",
+   "i": 616
+  },
+  {
+   "day": 71,
+   "time": "12:00",
+   "who": "u",
+   "text": "lunch at desk, debugging a webhook edge case",
+   "i": 617
+  },
+  {
+   "day": 71,
+   "time": "12:05",
+   "who": "a",
+   "text": "小心那些边缘情况",
+   "i": 618
+  },
+  {
+   "day": 71,
+   "time": "14:30",
+   "who": "u",
+   "text": "found it — missing idempotency key check",
+   "i": 619
+  },
+  {
+   "day": 71,
+   "time": "14:35",
+   "who": "a",
+   "text": "好发现, 修复后会稳定",
+   "i": 620
+  },
+  {
+   "day": 71,
+   "time": "16:00",
+   "who": "u",
+   "text": "pr up for that fix",
+   "i": 621
+  },
+  {
+   "day": 71,
+   "time": "16:05",
+   "who": "a",
+   "text": "已注意到, 我会追踪",
+   "i": 622
+  },
+  {
+   "day": 72,
+   "time": "09:30",
+   "who": "u",
+   "text": "asheville trip booked: oct 22-25. cabin near blue ridge",
+   "ev": "e39",
+   "i": 623
+  },
+  {
+   "day": 72,
+   "time": "09:35",
+   "who": "a",
+   "text": "秋天去蓝岭, 完美时机",
+   "i": 624
+  },
+  {
+   "day": 72,
+   "time": "10:00",
+   "who": "u",
+   "text": "sam has questions about the on-call runbook",
+   "i": 625
+  },
+  {
+   "day": 72,
+   "time": "10:05",
+   "who": "a",
+   "text": "我注意到他昨天看了文档",
+   "i": 626
+  },
+  {
+   "day": 72,
+   "time": "11:00",
+   "who": "u",
+   "text": "pointed him to the escalation section",
+   "i": 627
+  },
+  {
+   "day": 72,
+   "time": "11:05",
+   "who": "a",
+   "text": "好, 他应该很快就会适应",
+   "i": 628
+  },
+  {
+   "day": 72,
+   "time": "14:00",
+   "who": "u",
+   "text": "vet visit for biscuit: weighs 42 lbs. healthy boy",
+   "ev": "e48",
+   "i": 629
+  },
+  {
+   "day": 72,
+   "time": "14:05",
+   "who": "a",
+   "text": "42磅, 非常健康的体重",
+   "i": 630
+  },
+  {
+   "day": 72,
+   "time": "15:00",
+   "who": "u",
+   "text": "biscuit got a treat from the vet",
+   "i": 631
+  },
+  {
+   "day": 72,
+   "time": "15:05",
+   "who": "a",
+   "text": "他值得奖励",
+   "i": 632
+  },
+  {
+   "day": 72,
+   "time": "17:00",
+   "who": "u",
+   "text": "vet says keep up the runs",
+   "i": 633
+  },
+  {
+   "day": 72,
+   "time": "17:05",
+   "who": "a",
+   "text": "你们一起跑步, 真不错",
+   "i": 634
+  },
+  {
+   "day": 73,
+   "time": "09:00",
+   "who": "u",
+   "text": "morning standup, priya is back today",
+   "i": 635
+  },
+  {
+   "day": 73,
+   "time": "09:05",
+   "who": "a",
+   "text": "欢迎回来, 普里亚",
+   "i": 636
+  },
+  {
+   "day": 73,
+   "time": "09:50",
+   "who": "u",
+   "text": "lena's pagerduty key was 5B1C6D before the last change",
+   "ev": "e89",
+   "i": 637
+  },
+  {
+   "day": 73,
+   "time": "09:55",
+   "who": "a",
+   "text": "已记录, 之前的密钥是5B1C6D",
+   "i": 638
+  },
+  {
+   "day": 73,
+   "time": "10:30",
+   "who": "u",
+   "text": "tom's frontend refactor is causing some api timing issues",
+   "i": 639
+  },
+  {
+   "day": 73,
+   "time": "10:35",
+   "who": "a",
+   "text": "希望不会影响webhooks",
+   "i": 640
+  },
+  {
+   "day": 73,
+   "time": "11:00",
+   "who": "u",
+   "text": "i'll check the webhook logs after lunch",
+   "i": 641
+  },
+  {
+   "day": 73,
+   "time": "11:05",
+   "who": "a",
+   "text": "好主意, 防患于未然",
+   "i": 642
+  },
+  {
+   "day": 73,
+   "time": "14:00",
+   "who": "u",
+   "text": "webhook logs look fine so far",
+   "i": 643
+  },
+  {
+   "day": 73,
+   "time": "14:05",
+   "who": "a",
+   "text": "好消息, 继续保持",
+   "i": 644
+  },
+  {
+   "day": 73,
+   "time": "16:00",
+   "who": "u",
+   "text": "ade is planning biscuit's party menu",
+   "i": 645
+  },
+  {
+   "day": 73,
+   "time": "16:05",
+   "who": "a",
+   "text": "狗狗生日会, 期待更多细节",
+   "i": 646
+  },
+  {
+   "day": 74,
+   "time": "10:00",
+   "who": "u",
+   "text": "standup done, sprint is on track",
+   "i": 647
+  },
+  {
+   "day": 74,
+   "time": "10:05",
+   "who": "a",
+   "text": "21点, 进展顺利",
+   "i": 648
+  },
+  {
+   "day": 74,
+   "time": "10:25",
+   "who": "u",
+   "text": "flaky test resolved. test_billing_webhook now 0% failure. finally.",
+   "ev": "e40",
+   "i": 649
+  },
+  {
+   "day": 74,
+   "time": "10:30",
+   "who": "a",
+   "text": "终于修好了, dan the builder",
+   "i": 650
+  },
+  {
+   "day": 74,
+   "time": "11:00",
+   "who": "u",
+   "text": "that test was haunting me for weeks",
+   "i": 651
+  },
+  {
+   "day": 74,
+   "time": "11:05",
+   "who": "a",
+   "text": "现在可以安心了",
+   "i": 652
+  },
+  {
+   "day": 74,
+   "time": "12:00",
+   "who": "u",
+   "text": "lunch run with biscuit, nice weather",
+   "i": 653
+  },
+  {
+   "day": 74,
+   "time": "12:05",
+   "who": "a",
+   "text": "享受好天气",
+   "i": 654
+  },
+  {
+   "day": 74,
+   "time": "14:00",
+   "who": "u",
+   "text": "code review for sam's pr, looks clean",
+   "i": 655
+  },
+  {
+   "day": 74,
+   "time": "14:05",
+   "who": "a",
+   "text": "山姆学得很快",
+   "i": 656
+  },
+  {
+   "day": 74,
+   "time": "15:30",
+   "who": "u",
+   "text": "priya asked about the cutover timeline again",
+   "i": 657
+  },
+  {
+   "day": 74,
+   "time": "15:35",
+   "who": "a",
+   "text": "十一月十五日, 还有时间",
+   "i": 658
+  },
+  {
+   "day": 75,
+   "time": "09:30",
+   "who": "u",
+   "text": "monday morning, coffee count is at 2 already",
+   "i": 659
+  },
+  {
+   "day": 75,
+   "time": "09:35",
+   "who": "a",
+   "text": "慢慢来, 还有一天呢",
+   "i": 660
+  },
+  {
+   "day": 75,
+   "time": "10:00",
+   "who": "u",
+   "text": "on-call handoff notes ready for lena",
+   "i": 661
+  },
+  {
+   "day": 75,
+   "time": "10:05",
+   "who": "a",
+   "text": "交接顺利",
+   "i": 662
+  },
+  {
+   "day": 75,
+   "time": "11:00",
+   "who": "u",
+   "text": "billing migration dry run #2 today",
+   "i": 663
+  },
+  {
+   "day": 75,
+   "time": "11:05",
+   "who": "a",
+   "text": "希望再次通过",
+   "i": 664
+  },
+  {
+   "day": 75,
+   "time": "13:00",
+   "who": "u",
+   "text": "dry run passed, no issues",
+   "i": 665
+  },
+  {
+   "day": 75,
+   "time": "13:05",
+   "who": "a",
+   "text": "完美, 信心大增",
+   "i": 666
+  },
+  {
+   "day": 75,
+   "time": "14:00",
+   "who": "u",
+   "text": "code review comments should start with a priority level: high, medium, or low",
+   "ev": "e74",
+   "i": 667
+  },
+  {
+   "day": 75,
+   "time": "14:05",
+   "who": "a",
+   "text": "这个标准很实用, 我会记住",
+   "i": 668
+  },
+  {
+   "day": 75,
+   "time": "15:00",
+   "who": "u",
+   "text": "shared with the team, everyone agreed",
+   "i": 669
+  },
+  {
+   "day": 75,
+   "time": "15:05",
+   "who": "a",
+   "text": "团队协作效率会提高",
+   "i": 670
+  },
+  {
+   "day": 75,
+   "time": "16:30",
+   "who": "u",
+   "text": "biscuit's party: ade is making a dog-friendly cake",
+   "i": 671
+  },
+  {
+   "day": 75,
+   "time": "16:35",
+   "who": "a",
+   "text": "饼干有口福了",
+   "i": 672
+  },
+  {
+   "day": 76,
+   "time": "09:15",
+   "who": "u",
+   "text": "tom's frontend refactor broke webhooks again. second time.",
+   "ev": "e41",
+   "i": 673
+  },
+  {
+   "day": 76,
+   "time": "09:20",
+   "who": "a",
+   "text": "又来了, 这次是什么问题",
+   "i": 674
+  },
+  {
+   "day": 76,
+   "time": "09:45",
+   "who": "u",
+   "text": "he changed the payload format without updating the handler",
+   "i": 675
+  },
+  {
+   "day": 76,
+   "time": "09:50",
+   "who": "a",
+   "text": "沟通失误, 需要协调",
+   "i": 676
+  },
+  {
+   "day": 76,
+   "time": "10:00",
+   "who": "u",
+   "text": "i'll help him debug after standup",
+   "i": 677
+  },
+  {
+   "day": 76,
+   "time": "10:05",
+   "who": "a",
+   "text": "你们合作很快就能修复",
+   "i": 678
+  },
+  {
+   "day": 76,
+   "time": "11:30",
+   "who": "u",
+   "text": "found the issue, payload key renamed",
+   "i": 679
+  },
+  {
+   "day": 76,
+   "time": "11:35",
+   "who": "a",
+   "text": "小改动, 大影响",
+   "i": 680
+  },
+  {
+   "day": 76,
+   "time": "13:00",
+   "who": "u",
+   "text": "tom is working on the fix now",
+   "i": 681
+  },
+  {
+   "day": 76,
+   "time": "13:05",
+   "who": "a",
+   "text": "他承诺今天完成",
+   "i": 682
+  },
+  {
+   "day": 76,
+   "time": "14:30",
+   "who": "u",
+   "text": "fix in progress, tests still failing",
+   "i": 683
+  },
+  {
+   "day": 76,
+   "time": "14:35",
+   "who": "a",
+   "text": "耐心调试, 会通过的",
+   "i": 684
+  },
+  {
+   "day": 76,
+   "time": "16:00",
+   "who": "u",
+   "text": "tom says he needs another day",
+   "i": 685
+  },
+  {
+   "day": 76,
+   "time": "16:05",
+   "who": "a",
+   "text": "明天应该能搞定",
+   "i": 686
+  },
+  {
+   "day": 77,
+   "time": "09:00",
+   "who": "u",
+   "text": "webhooks still down, tom is on it",
+   "i": 687
+  },
+  {
+   "day": 77,
+   "time": "09:05",
+   "who": "a",
+   "text": "今天必须完成",
+   "i": 688
+  },
+  {
+   "day": 77,
+   "time": "10:30",
+   "who": "u",
+   "text": "tom found another edge case",
+   "i": 689
+  },
+  {
+   "day": 77,
+   "time": "10:35",
+   "who": "a",
+   "text": "越来越多问题, 但他在解决",
+   "i": 690
+  },
+  {
+   "day": 77,
+   "time": "12:00",
+   "who": "u",
+   "text": "lunch break, biscuit walk in the park",
+   "i": 691
+  },
+  {
+   "day": 77,
+   "time": "12:05",
+   "who": "a",
+   "text": "放松一下, 下午再战",
+   "i": 692
+  },
+  {
+   "day": 77,
+   "time": "14:00",
+   "who": "u",
+   "text": "tom says fix is ready for review",
+   "i": 693
+  },
+  {
+   "day": 77,
+   "time": "14:05",
+   "who": "a",
+   "text": "我看看",
+   "i": 694
+  },
+  {
+   "day": 77,
+   "time": "15:00",
+   "who": "u",
+   "text": "review done, looks good, merging",
+   "i": 695
+  },
+  {
+   "day": 77,
+   "time": "15:05",
+   "who": "a",
+   "text": "合并后应该就稳定了",
+   "i": 696
+  },
+  {
+   "day": 77,
+   "time": "16:00",
+   "who": "u",
+   "text": "deployed to staging, tests passing",
+   "i": 697
+  },
+  {
+   "day": 77,
+   "time": "16:05",
+   "who": "a",
+   "text": "太好了, 接近尾声",
+   "i": 698
+  },
+  {
+   "day": 77,
+   "time": "16:30",
+   "who": "u",
+   "text": "webhooks fix by tom took 2 days. back to normal.",
+   "ev": "e42",
+   "i": 699
+  },
+  {
+   "day": 77,
+   "time": "16:35",
+   "who": "a",
+   "text": "恢复正常, 辛苦你们了",
+   "i": 700
+  },
+  {
+   "day": 78,
+   "time": "09:12",
+   "who": "u",
+   "text": "morning. laptop battery at 83% now. dropping faster than i'd like.",
+   "i": 701
+  },
+  {
+   "day": 78,
+   "time": "09:13",
+   "who": "a",
+   "text": "good morning dan the builder. 83% still within normal range. i will keep an eye on it.",
+   "i": 702
+  },
+  {
+   "day": 78,
+   "time": "10:05",
+   "who": "u",
+   "text": "pr for billing migration dry run results is up. sam's review is pending.",
+   "i": 703
+  },
+  {
+   "day": 78,
+   "time": "10:06",
+   "who": "a",
+   "text": "noted. i will remind you if no review by eod.",
+   "i": 704
+  },
+  {
+   "day": 78,
+   "time": "11:40",
+   "who": "u",
+   "text": "priya confirmed: billing cutover still oct 12. no more changes.",
+   "ev": "e43",
+   "i": 705
+  },
+  {
+   "day": 78,
+   "time": "11:41",
+   "who": "a",
+   "text": "cutover locked. no more changes. understood.",
+   "i": 706
+  },
+  {
+   "day": 78,
+   "time": "14:30",
+   "who": "u",
+   "text": "sam's review came in. few comments on index naming. will fix.",
+   "i": 707
+  },
+  {
+   "day": 78,
+   "time": "14:31",
+   "who": "a",
+   "text": "good. index naming is important after the august incident.",
+   "i": 708
+  },
+  {
+   "day": 78,
+   "time": "17:00",
+   "who": "u",
+   "text": "pushed the fixes. ci is green.",
+   "i": 709
+  },
+  {
+   "day": 78,
+   "time": "17:01",
+   "who": "a",
+   "text": "green ci. solid day dan the builder.",
+   "i": 710
+  },
+  {
+   "day": 79,
+   "time": "09:20",
+   "who": "u",
+   "text": "morning. new pagerduty key for my next on-call. it's A4B8C2.",
+   "i": 711
+  },
+  {
+   "day": 79,
+   "time": "09:21",
+   "who": "a",
+   "text": "key A4B8C2 saved. next on-call rotation noted.",
+   "i": 712
+  },
+  {
+   "day": 79,
+   "time": "10:45",
+   "who": "u",
+   "text": "billing migration dry run report is merged. ready for final run next week.",
+   "i": 713
+  },
+  {
+   "day": 79,
+   "time": "10:46",
+   "who": "a",
+   "text": "dry run merged. final run next week. all on track for oct 12.",
+   "i": 714
+  },
+  {
+   "day": 79,
+   "time": "14:00",
+   "who": "u",
+   "text": "tom just showed me a photo. adopted a stray cat. named it pixel.",
+   "ev": "e90",
+   "i": 715
+  },
+  {
+   "day": 79,
+   "time": "14:01",
+   "who": "a",
+   "text": "pixel. excellent name for a cat. waffles might have a new friend.",
+   "i": 716
+  },
+  {
+   "day": 79,
+   "time": "16:00",
+   "who": "u",
+   "text": "ade is booking the asheville cabin. wants to confirm we leave oct 22 morning.",
+   "i": 717
+  },
+  {
+   "day": 79,
+   "time": "16:01",
+   "who": "a",
+   "text": "oct 22 morning departure. delta flight is already booked.",
+   "i": 718
+  },
+  {
+   "day": 79,
+   "time": "17:30",
+   "who": "u",
+   "text": "wrapped up. going for a run before it gets dark.",
+   "i": 719
+  },
+  {
+   "day": 79,
+   "time": "17:31",
+   "who": "a",
+   "text": "enjoy the run dan the builder.",
+   "i": 720
+  },
+  {
+   "day": 80,
+   "time": "08:55",
+   "who": "u",
+   "text": "morning. team now 5. david chen joined officially.",
+   "ev": "e44",
+   "i": 721
+  },
+  {
+   "day": 80,
+   "time": "08:56",
+   "who": "a",
+   "text": "welcome to david chen. team of 5 now. that changes the on-call rotation.",
+   "i": 722
+  },
+  {
+   "day": 80,
+   "time": "09:30",
+   "who": "u",
+   "text": "yeah. priya wants to rebalance the rotation. i'll draft a proposal.",
+   "i": 723
+  },
+  {
+   "day": 80,
+   "time": "09:31",
+   "who": "a",
+   "text": "i can help draft the proposal if you need.",
+   "i": 724
+  },
+  {
+   "day": 80,
+   "time": "11:00",
+   "who": "u",
+   "text": "david is sitting at desk 12. seems quiet. sam is showing him around.",
+   "i": 725
+  },
+  {
+   "day": 80,
+   "time": "11:01",
+   "who": "a",
+   "text": "good. sam is a solid onboarding buddy.",
+   "i": 726
+  },
+  {
+   "day": 80,
+   "time": "14:20",
+   "who": "u",
+   "text": "on-call rotation proposal sent to priya. 4 engineers per week. david starts after his first sprint.",
+   "i": 727
+  },
+  {
+   "day": 80,
+   "time": "14:21",
+   "who": "a",
+   "text": "proposal sent. i will follow up if i don't see a reply by eod.",
+   "i": 728
+  },
+  {
+   "day": 80,
+   "time": "17:00",
+   "who": "u",
+   "text": "priya approved the rotation. starts nov 1.",
+   "i": 729
+  },
+  {
+   "day": 80,
+   "time": "17:01",
+   "who": "a",
+   "text": "nov 1. rotation approved.",
+   "i": 730
+  },
+  {
+   "day": 81,
+   "time": "08:45",
+   "who": "u",
+   "text": "morning. biscuit woke me up at 5am. i am tired.",
+   "i": 731
+  },
+  {
+   "day": 81,
+   "time": "08:46",
+   "who": "a",
+   "text": "sorry to hear that dan the builder. coffee count might go up today.",
+   "i": 732
+  },
+  {
+   "day": 81,
+   "time": "10:00",
+   "who": "u",
+   "text": "already on cup 3. it's going to be one of those days.",
+   "i": 733
+  },
+  {
+   "day": 81,
+   "time": "10:01",
+   "who": "a",
+   "text": "cup 3 at 10am. i will keep an eye on the limit.",
+   "i": 734
+  },
+  {
+   "day": 81,
+   "time": "13:00",
+   "who": "u",
+   "text": "lunch. leftover jollof from ade's test batch. not bad.",
+   "i": 735
+  },
+  {
+   "day": 81,
+   "time": "13:01",
+   "who": "a",
+   "text": "jollof rice is always a good lunch.",
+   "i": 736
+  },
+  {
+   "day": 81,
+   "time": "15:30",
+   "who": "u",
+   "text": "stripe webhook monitor is quiet. no alerts.",
+   "i": 737
+  },
+  {
+   "day": 81,
+   "time": "15:31",
+   "who": "a",
+   "text": "quiet is good. tom's refactor is holding up.",
+   "i": 738
+  },
+  {
+   "day": 81,
+   "time": "17:45",
+   "who": "u",
+   "text": "going home early. need a nap.",
+   "i": 739
+  },
+  {
+   "day": 81,
+   "time": "17:46",
+   "who": "a",
+   "text": "rest well dan the builder.",
+   "i": 740
+  },
+  {
+   "day": 82,
+   "time": "09:10",
+   "who": "u",
+   "text": "morning. feeling better. biscuit slept through the night.",
+   "i": 741
+  },
+  {
+   "day": 82,
+   "time": "09:11",
+   "who": "a",
+   "text": "glad to hear it. biscuit is learning.",
+   "i": 742
+  },
+  {
+   "day": 82,
+   "time": "10:00",
+   "who": "u",
+   "text": "sprint planning today. we have 23 points committed.",
+   "i": 743
+  },
+  {
+   "day": 82,
+   "time": "10:01",
+   "who": "a",
+   "text": "23 points. ambitious but doable.",
+   "i": 744
+  },
+  {
+   "day": 82,
+   "time": "14:00",
+   "who": "u",
+   "text": "sam's first solo deploy today. nailed it.",
+   "ev": "e45",
+   "i": 745
+  },
+  {
+   "day": 82,
+   "time": "14:01",
+   "who": "a",
+   "text": "sam is growing fast. first solo deploy success.",
+   "i": 746
+  },
+  {
+   "day": 82,
+   "time": "16:00",
+   "who": "u",
+   "text": "david had his first code review. tom reviewed it. some feedback but solid first PR.",
+   "i": 747
+  },
+  {
+   "day": 82,
+   "time": "16:01",
+   "who": "a",
+   "text": "good first PR. david will settle in quickly.",
+   "i": 748
+  },
+  {
+   "day": 82,
+   "time": "17:30",
+   "who": "u",
+   "text": "wrapped. ade and i are going for a run together.",
+   "i": 749
+  },
+  {
+   "day": 82,
+   "time": "17:31",
+   "who": "a",
+   "text": "enjoy the run with ade.",
+   "i": 750
+  },
+  {
+   "day": 83,
+   "time": "09:05",
+   "who": "u",
+   "text": "morning. rainy today. no run.",
+   "i": 751
+  },
+  {
+   "day": 83,
+   "time": "09:06",
+   "who": "a",
+   "text": "good morning dan the builder. rest day then.",
+   "i": 752
+  },
+  {
+   "day": 83,
+   "time": "10:30",
+   "who": "u",
+   "text": "database migration next wednesday. 2am EST. i'm on call.",
+   "ev": "e91",
+   "i": 753
+  },
+  {
+   "day": 83,
+   "time": "10:31",
+   "who": "a",
+   "text": "next wednesday 2am. migration. i will set a reminder for you.",
+   "i": 754
+  },
+  {
+   "day": 83,
+   "time": "11:00",
+   "who": "u",
+   "text": "thanks. i need to prepare the rollback plan today.",
+   "i": 755
+  },
+  {
+   "day": 83,
+   "time": "11:01",
+   "who": "a",
+   "text": "rollback plan is essential. the august incident taught us that.",
+   "i": 756
+  },
+  {
+   "day": 83,
+   "time": "14:00",
+   "who": "u",
+   "text": "rollback plan written. shared with priya and sam.",
+   "i": 757
+  },
+  {
+   "day": 83,
+   "time": "14:01",
+   "who": "a",
+   "text": "rollback plan shared. good preparation.",
+   "i": 758
+  },
+  {
+   "day": 83,
+   "time": "16:30",
+   "who": "u",
+   "text": "priya approved the plan. also wants a dry run on monday night.",
+   "i": 759
+  },
+  {
+   "day": 83,
+   "time": "16:31",
+   "who": "a",
+   "text": "dry run monday night. i will add it to your calendar.",
+   "i": 760
+  },
+  {
+   "day": 83,
+   "time": "17:00",
+   "who": "u",
+   "text": "heading home. ade is making dinner tonight.",
+   "i": 761
+  },
+  {
+   "day": 83,
+   "time": "17:01",
+   "who": "a",
+   "text": "enjoy the evening.",
+   "i": 762
+  },
+  {
+   "day": 84,
+   "time": "08:35",
+   "who": "u",
+   "text": "morning. ade's making jollof rice tonight. my favorite.",
+   "ev": "e46",
+   "i": 763
+  },
+  {
+   "day": 84,
+   "time": "08:36",
+   "who": "a",
+   "text": "jollof rice. you are in for a treat dan the builder.",
+   "i": 764
+  },
+  {
+   "day": 84,
+   "time": "09:00",
+   "who": "u",
+   "text": "battery at 82% now. still dropping. might need to replace soon.",
+   "i": 765
+  },
+  {
+   "day": 84,
+   "time": "09:01",
+   "who": "a",
+   "text": "82%. still ok. but we should plan for a replacement.",
+   "i": 766
+  },
+  {
+   "day": 84,
+   "time": "10:15",
+   "who": "u",
+   "text": "sam asked about the migration steps for next wednesday. sent him the runbook.",
+   "i": 767
+  },
+  {
+   "day": 84,
+   "time": "10:16",
+   "who": "a",
+   "text": "runbook sent. sam will be prepared.",
+   "i": 768
+  },
+  {
+   "day": 84,
+   "time": "11:30",
+   "who": "u",
+   "text": "david merged his first PR. a small bug fix in the billing service.",
+   "i": 769
+  },
+  {
+   "day": 84,
+   "time": "11:31",
+   "who": "a",
+   "text": "david's first merge. good momentum.",
+   "i": 770
+  },
+  {
+   "day": 84,
+   "time": "14:00",
+   "who": "u",
+   "text": "ade sent a photo of biscuit wearing a tiny jollof rice apron. ridiculous.",
+   "i": 771
+  },
+  {
+   "day": 84,
+   "time": "14:01",
+   "who": "a",
+   "text": "biscuit in an apron. that is a good photo.",
+   "i": 772
+  },
+  {
+   "day": 84,
+   "time": "16:45",
+   "who": "u",
+   "text": "wrapping up. can't wait for that jollof.",
+   "i": 773
+  },
+  {
+   "day": 84,
+   "time": "16:46",
+   "who": "a",
+   "text": "enjoy the jollof rice dan the builder. see you tomorrow.",
+   "i": 774
+  },
+  {
+   "day": 85,
+   "time": "09:15",
+   "who": "u",
+   "text": "battery at 83% now. dropping faster than i'd like",
+   "i": 775
+  },
+  {
+   "day": 85,
+   "time": "09:20",
+   "who": "a",
+   "text": "noted. keep an eye on it this week",
+   "i": 776
+  },
+  {
+   "day": 85,
+   "time": "10:30",
+   "who": "u",
+   "text": "sam asked about stripe webhook retry logic. sent him the doc",
+   "i": 777
+  },
+  {
+   "day": 85,
+   "time": "10:35",
+   "who": "a",
+   "text": "good. that doc covers the edge cases",
+   "i": 778
+  },
+  {
+   "day": 85,
+   "time": "11:00",
+   "who": "u",
+   "text": "priya wants cutover checklist ready by friday",
+   "i": 779
+  },
+  {
+   "day": 85,
+   "time": "11:05",
+   "who": "a",
+   "text": "plenty of time. i can draft a template",
+   "i": 780
+  },
+  {
+   "day": 85,
+   "time": "14:50",
+   "who": "u",
+   "text": "last night's on-call: pagerduty key 7C2E9B worked fine.",
+   "ev": "e47",
+   "i": 781
+  },
+  {
+   "day": 85,
+   "time": "14:55",
+   "who": "a",
+   "text": "glad it held up. quiet night?",
+   "i": 782
+  },
+  {
+   "day": 85,
+   "time": "15:00",
+   "who": "u",
+   "text": "yeah. one alert at 3am, false positive. went back to sleep",
+   "i": 783
+  },
+  {
+   "day": 85,
+   "time": "15:30",
+   "who": "u",
+   "text": "ade wants to do a halloween thing. says we should dress up as a pair",
+   "i": 784
+  },
+  {
+   "day": 85,
+   "time": "15:35",
+   "who": "a",
+   "text": "fun. any ideas yet",
+   "i": 785
+  },
+  {
+   "day": 86,
+   "time": "08:15",
+   "who": "u",
+   "text": "ade's sister having a baby. due march. they want a labrador",
+   "ev": "e92",
+   "i": 786
+  },
+  {
+   "day": 86,
+   "time": "08:20",
+   "who": "a",
+   "text": "that's exciting news. labrador would be a great family dog",
+   "i": 787
+  },
+  {
+   "day": 86,
+   "time": "09:00",
+   "who": "u",
+   "text": "biscuit will have a cousin. not sure how he'll handle a puppy",
+   "i": 788
+  },
+  {
+   "day": 86,
+   "time": "09:05",
+   "who": "a",
+   "text": "biscuit's good with other dogs. he'll adapt",
+   "i": 789
+  },
+  {
+   "day": 86,
+   "time": "10:30",
+   "who": "u",
+   "text": "tom's cat pixel apparently tried to climb his monitor. he sent a photo",
+   "i": 790
+  },
+  {
+   "day": 86,
+   "time": "10:35",
+   "who": "a",
+   "text": "classic cat behavior. hope the monitor survived",
+   "i": 791
+  },
+  {
+   "day": 86,
+   "time": "14:00",
+   "who": "u",
+   "text": "stripe webhook v2 spec looks good. tom addressed my comments",
+   "i": 792
+  },
+  {
+   "day": 86,
+   "time": "14:05",
+   "who": "a",
+   "text": "smooth review then. should merge soon",
+   "i": 793
+  },
+  {
+   "day": 86,
+   "time": "15:30",
+   "who": "u",
+   "text": "battery at 82%. still dropping",
+   "i": 794
+  },
+  {
+   "day": 86,
+   "time": "15:35",
+   "who": "a",
+   "text": "might need a replacement before cutover",
+   "i": 795
+  },
+  {
+   "day": 87,
+   "time": "09:00",
+   "who": "u",
+   "text": "priya asked about dry run results. i told her clean",
+   "i": 796
+  },
+  {
+   "day": 87,
+   "time": "09:05",
+   "who": "a",
+   "text": "she'll be happy with that",
+   "i": 797
+  },
+  {
+   "day": 87,
+   "time": "10:15",
+   "who": "u",
+   "text": "david chen merged his first pr. billing migration helper",
+   "i": 798
+  },
+  {
+   "day": 87,
+   "time": "10:20",
+   "who": "a",
+   "text": "nice. he's settling in well",
+   "i": 799
+  },
+  {
+   "day": 87,
+   "time": "11:00",
+   "who": "u",
+   "text": "ade wants to foster another dog. i'm not ready.",
+   "ev": "e49",
+   "i": 800
+  },
+  {
+   "day": 87,
+   "time": "11:05",
+   "who": "a",
+   "text": "that's a big step. understandable to wait",
+   "i": 801
+  },
+  {
+   "day": 87,
+   "time": "11:10",
+   "who": "u",
+   "text": "biscuit is enough for now. plus the halloween costume planning",
+   "i": 802
+  },
+  {
+   "day": 87,
+   "time": "15:00",
+   "who": "u",
+   "text": "battery at 81%. might need to order a new one",
+   "i": 803
+  },
+  {
+   "day": 87,
+   "time": "15:05",
+   "who": "a",
+   "text": "check with it. could be covered",
+   "i": 804
+  },
+  {
+   "day": 87,
+   "time": "16:00",
+   "who": "u",
+   "text": "ade picked a costume theme. won't tell me yet. says it's a surprise",
+   "i": 805
+  },
+  {
+   "day": 87,
+   "time": "16:05",
+   "who": "a",
+   "text": "mysterious. you'll find out soon enough",
+   "i": 806
+  },
+  {
+   "day": 88,
+   "time": "09:00",
+   "who": "u",
+   "text": "sam showed me his dbt models. clean code.",
+   "ev": "e50",
+   "i": 807
+  },
+  {
+   "day": 88,
+   "time": "09:05",
+   "who": "a",
+   "text": "great to hear. he's been learning fast",
+   "i": 808
+  },
+  {
+   "day": 88,
+   "time": "11:30",
+   "who": "u",
+   "text": "sam's desk is between me and lena now. he asked to move",
+   "ev": "e93",
+   "i": 809
+  },
+  {
+   "day": 88,
+   "time": "11:35",
+   "who": "a",
+   "text": "makes sense. closer to the team for questions",
+   "i": 810
+  },
+  {
+   "day": 88,
+   "time": "12:00",
+   "who": "u",
+   "text": "yeah. he said he wanted to overhear our discussions",
+   "i": 811
+  },
+  {
+   "day": 88,
+   "time": "12:05",
+   "who": "a",
+   "text": "good sign. shows initiative",
+   "i": 812
+  },
+  {
+   "day": 88,
+   "time": "14:00",
+   "who": "u",
+   "text": "priya sent the cutover checklist template. looks thorough",
+   "i": 813
+  },
+  {
+   "day": 88,
+   "time": "14:05",
+   "who": "a",
+   "text": "fill it in over the next few days. dry run again next week",
+   "i": 814
+  },
+  {
+   "day": 88,
+   "time": "15:30",
+   "who": "u",
+   "text": "battery at 80%. definitely dropping",
+   "i": 815
+  },
+  {
+   "day": 88,
+   "time": "15:35",
+   "who": "a",
+   "text": "i'd order a replacement soon",
+   "i": 816
+  },
+  {
+   "day": 89,
+   "time": "09:30",
+   "who": "u",
+   "text": "saturday. no work talk. ade wants to go to the farmers market",
+   "i": 817
+  },
+  {
+   "day": 89,
+   "time": "09:35",
+   "who": "a",
+   "text": "enjoy the market. biscuit will like the walk",
+   "i": 818
+  },
+  {
+   "day": 89,
+   "time": "10:00",
+   "who": "u",
+   "text": "he loves the apple stand. always tries to steal one",
+   "i": 819
+  },
+  {
+   "day": 89,
+   "time": "10:05",
+   "who": "a",
+   "text": "classic biscuit. have a good weekend",
+   "i": 820
+  },
+  {
+   "day": 89,
+   "time": "14:00",
+   "who": "u",
+   "text": "ade bought a pumpkin. wants to carve it tonight",
+   "i": 821
+  },
+  {
+   "day": 89,
+   "time": "14:05",
+   "who": "a",
+   "text": "fun. send a photo if you want",
+   "i": 822
+  },
+  {
+   "day": 89,
+   "time": "18:30",
+   "who": "u",
+   "text": "pumpkin carved. biscuit tried to eat the seeds",
+   "i": 823
+  },
+  {
+   "day": 89,
+   "time": "18:35",
+   "who": "a",
+   "text": "hope you saved some for roasting",
+   "i": 824
+  },
+  {
+   "day": 90,
+   "time": "09:30",
+   "who": "u",
+   "text": "tom's stripe refactor v2 is in review. edge cases look covered",
+   "ev": "e94",
+   "i": 825
+  },
+  {
+   "day": 90,
+   "time": "09:35",
+   "who": "a",
+   "text": "nice. that should be the last big piece before cutover",
+   "i": 826
+  },
+  {
+   "day": 90,
+   "time": "10:00",
+   "who": "u",
+   "text": "battery at 79%. i'll order a new one this week",
+   "i": 827
+  },
+  {
+   "day": 90,
+   "time": "10:05",
+   "who": "a",
+   "text": "good call. don't want it dying mid-migration",
+   "i": 828
+  },
+  {
+   "day": 90,
+   "time": "11:00",
+   "who": "u",
+   "text": "ade revealed the costume. we're going as toast and butter",
+   "i": 829
+  },
+  {
+   "day": 90,
+   "time": "11:05",
+   "who": "a",
+   "text": "that's adorable. who's toast",
+   "i": 830
+  },
+  {
+   "day": 90,
+   "time": "11:10",
+   "who": "u",
+   "text": "ade is toast. i'm butter. biscuit gets a little bacon costume",
+   "i": 831
+  },
+  {
+   "day": 90,
+   "time": "11:15",
+   "who": "a",
+   "text": "perfect trio. halloween is sorted",
+   "i": 832
+  },
+  {
+   "day": 90,
+   "time": "14:00",
+   "who": "u",
+   "text": "cutover checklist is almost done. just need to add rollback steps",
+   "i": 833
+  },
+  {
+   "day": 90,
+   "time": "14:05",
+   "who": "a",
+   "text": "crucial section. include the dry run results too",
+   "i": 834
+  },
+  {
+   "day": 90,
+   "time": "15:00",
+   "who": "u",
+   "text": "done for the week. heading out for a run with ade and biscuit",
+   "i": 835
+  },
+  {
+   "day": 90,
+   "time": "15:05",
+   "who": "a",
+   "text": "enjoy the run. see you monday",
+   "i": 836
+  }
+ ],
+ "log": [
+  {
+   "w": 1,
+   "msgs": 70,
+   "target": 65,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 2,
+   "msgs": 73,
+   "target": 65,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 3,
+   "msgs": 47,
+   "target": 65,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 4,
+   "msgs": 53,
+   "target": 65,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 5,
+   "msgs": 40,
+   "target": 65,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 6,
+   "msgs": 48,
+   "target": 65,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 7,
+   "msgs": 87,
+   "target": 65,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 8,
+   "msgs": 41,
+   "target": 65,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 9,
+   "msgs": 90,
+   "target": 65,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 10,
+   "msgs": 62,
+   "target": 65,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 11,
+   "msgs": 90,
+   "target": 65,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 12,
+   "msgs": 74,
+   "target": 65,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  },
+  {
+   "w": 13,
+   "msgs": 62,
+   "target": 56,
+   "problems": [],
+   "inserted": [],
+   "dropped": 0
+  }
+ ]
+}

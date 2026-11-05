@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Answer includes a Sep 18 trip not in the chat and omits the Oct 6 conference trip, failing the aggregate count and purpose requirement.",
+ "rule": null
+}

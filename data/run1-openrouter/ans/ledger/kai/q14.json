@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q14",
+ "kind": "update",
+ "q": "Aurora deal的value变化，最终是多少？",
+ "reply": [
+  "最终Aurora Health deal是$950K，已经close了。9月26日签的合同，凯哥你和Lily一起庆祝的。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Aurora deal value final amount"
+   },
+   "result": "[234] 04 Sep · fact: Aurora deal pushed to Q4 close, value now 950k with add-ons  → replaced 26 Sep by [423] Aurora contract signed, 950k deal closed, Lily和凯哥庆祝  (from #404)\n[424] 26 Sep · done: Aurora 950k deal closed  (from #701)\n[524] 11 Oct · fact: Aurora deal名字是Aurora Health, not Aurora TTech  (from #873)\n[201] 30 Aug · fact: Aurora 800k deal legal已签  (from #340)\n[139] 23 Aug · feeling: Aurora deal risk matrix still on mind  (from #241)\n[378] 21 Sep · plan: Q4 focus, Aurora deal是关键  (from #647)\n[200] 30 Aug · plan: 下周一正式announce Aurora deal  (from #340)\n[253] 07 Sep · fact: Lily说Aurora le"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5077,
+   "out": 25,
+   "usd": 0.000209514
+  },
+  {
+   "in": 5392,
+   "out": 39,
+   "usd": 0.000283504
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14910
+}

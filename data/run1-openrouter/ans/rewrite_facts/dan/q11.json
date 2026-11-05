@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "what's the billing cutover date?",
+ "reply": [
+  "dan the builder, 当前锁定的计费迁移上线日期是10月26日，不过11月5日也是备选目标。Priya在10月26日还要求你在周五前准备好上线检查清单，包括回滚步骤。周一（11月3日）就是下一个工作日了，要确认下最终日期吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3285,
+   "out": 77,
+   "usd": 0.0000564746
+  }
+ ],
+ "memChars": 7170,
+ "promptChars": 11785
+}

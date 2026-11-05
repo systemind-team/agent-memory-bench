@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "那个offsite在Hangzhou，日期是Oct 20-21对吗？",
+ "reply": [
+  "凯哥，offsite是10月20-21号没错，在杭州民宿，你、Grace、Ravi、Yuki、Omar和Emily一共6个人。",
+  "当时确认过的，12个人住一栋民宿。你记错了？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 8818,
+   "out": 59,
+   "usd": 0.00008009568
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26044
+}

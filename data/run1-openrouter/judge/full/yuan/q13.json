@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant says the talk was on 上周五（9月4日）, but the chat only shows the message was sent on Wed 02 Sep, so the actual date is ambiguous; it changed the date to a past Friday without basis in the logs.",
+ "rule": null
+}

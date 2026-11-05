@@ -1,0 +1,87 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "give me standup notes for today",
+ "reply": [
+  "今天是周日，按理没有 standup 哈。不过如果要把这周的状态捋一下：",
+  "**Stripe refactor v2** — Tom 的 PR 在 review，你昨天说 edge cases 都覆盖了，这是 cutover 前最后一大块。",
+  "**Billing migration cutover checklist** — Priya 发了模板，你这两天要填完，下周再做一次 dry run。",
+  "**Battery** — 79%，你这周说会下单新的。",
+  "**本周其他** — David Chen 第二个 PR 已合并（migration helper），Sam 第一次 solo deploy 成功，Ade 的 Halloween 造型是吐司和黄油，Biscuit 是培根。",
+  "要我把 checklist 的模板调出来帮你开始填吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "standup notes"
+   },
+   "result": "[stripe-webhook] 16 Oct: on-call handoff notes ready for Lena\n[stripe-webhook] 03 Sep: standup notes: 09:30 fixed flaky webhook test (shared state); 10:15 reviewed Tom's PR on retry logic; 10:45 updated onboarding doc for Sam; 11:00 prep for Priya sync\n[stripe-webhook] 15 Aug: on-call handoff notes ready; Lena takes over tomorrow\n[billing-migration] 24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n[stripe-webhook] 17 Oct: Tom's frontend refactor broke webhooks again (payload format changed without handler update); Dan will help debug after standup; issue found, payl"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "sprint 23oct standup"
+   },
+   "result": "[sprint-23oct] 23 Oct: sprint planning, 23 points committed\n[billing-migration] 17 Sep: sprint planning committed to 21 points (3 more than usual)\n[billing-migration] 24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n[candidate-david-chen] 21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n[candidate-david-chen] 21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n[stripe-webhook] 17 Oct: Tom's frontend refactor broke webhooks again (payload format changed without ha"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "sprint-23oct notes"
+   },
+   "result": "[stripe-webhook] 16 Oct: on-call handoff notes ready for Lena\n[sprint-23oct] 23 Oct: sprint planning, 23 points committed\n[stripe-webhook] 15 Aug: on-call handoff notes ready; Lena takes over tomorrow\n[billing-migration] 17 Sep: sprint planning committed to 21 points (3 more than usual)\n[candidate-david-chen] 21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n[candidate-david-chen] 21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n[stripe-webhook] 03 Sep: standup notes: 09:30 fixed flaky we"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "sprint-23oct"
+   },
+   "result": "Sprint planning Oct 23\n23 Oct: sprint planning, 23 points committed\n23 points committed; ambitious but doable (Oct 23)"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "billing-migration"
+   },
+   "result": "Billing migration PR\n03 Aug: PR submitted for billing migration; aicoo reviewing\n06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n07 Aug: timeline doc sent to Priya; right before deadline\n24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n11 Aug: Priya covering backend next week\n14 Aug: Maria out; took another offer; Priya gutted; need to restart interviews; 19 Aug: on-call quiet, one disk space alert overnight\n08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushb"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2769,
+   "out": 21,
+   "usd": 0.0001141266
+  },
+  {
+   "in": 3021,
+   "out": 25,
+   "usd": 0.00005816356
+  },
+  {
+   "in": 3340,
+   "out": 24,
+   "usd": 0.00004608912
+  },
+  {
+   "in": 3585,
+   "out": 23,
+   "usd": 0.00003932516
+  },
+  {
+   "in": 3651,
+   "out": 22,
+   "usd": 0.00008349796
+  },
+  {
+   "in": 4504,
+   "out": 174,
+   "usd": 0.00013047216
+  }
+ ],
+ "memChars": 5317,
+ "promptChars": 9872
+}

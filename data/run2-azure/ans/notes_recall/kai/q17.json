@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "Ravi那个integration本来due Sep 15，最后哪天go live的？",
+ "reply": [
+  "最终是**9月22日**上线的。原本9月15日的deadline，因为security audit推迟了一周，后来Ravi确认没问题，22号顺利go live。之后运行稳定，10月中还做了个性能优化，提升了30%。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13203,
+   "out": 60,
+   "usd": 0.002714582
+  }
+ ],
+ "memChars": 47375,
+ "promptChars": 52105
+}

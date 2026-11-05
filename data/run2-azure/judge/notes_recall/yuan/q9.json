@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant gives 'workshop' as the answer, but the chat log clearly shows NeurIPS, making it incorrect.",
+ "rule": null
+}

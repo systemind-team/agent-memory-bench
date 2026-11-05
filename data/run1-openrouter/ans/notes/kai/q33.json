@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+ "reply": [
+  "凯哥周日好！这周几个关键点：\n\n**Monday 10:30** — pricing launch decision meeting with Grace和Ben，这是Dec 1 launch的最终确认会，别忘了一起问SEA headcount approval timeline。\n\n**周三前** — 收集customer testimonial quotes：找Lily要Aurora的，找Omar要Singapore两个大客户的。Grace周四回复过希望加这个section。\n\n**跟Ravi确认** — integration final timeline，security audit retest那边别漏了。\n\n另外你父亲周一早上记得问问情况，稳定就好。Emily的weekly check-in也排上。\n\n今天有什么计划吗? 还是继续休息?"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12769,
+   "out": 140,
+   "usd": 0.00012236028
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50360
+}

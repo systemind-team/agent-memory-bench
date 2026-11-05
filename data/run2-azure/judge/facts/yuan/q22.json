@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant counted 3 changes but the correct count based on the chat is 5 title revisions.",
+ "rule": null
+}

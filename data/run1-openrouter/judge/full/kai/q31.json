@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It claims the review never happened, but the chat shows it was completed on Tue 08 Sep, which was the delayed review.",
+ "rule": null
+}

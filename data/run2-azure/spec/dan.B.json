@@ -1,0 +1,587 @@
+{
+ "events": [
+  {
+   "id": "e51",
+   "day": 2,
+   "time": "09:15",
+   "who": "u",
+   "text": "remind me to send priya the billing timeline doc by friday",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e52",
+   "day": 2,
+   "time": "09:15",
+   "who": "a",
+   "text": "ok, will remind you thursday afternoon",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e53",
+   "day": 13,
+   "time": "08:30",
+   "who": "u",
+   "text": "i'll review lena's on-call draft by wednesday",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e54",
+   "day": 13,
+   "time": "08:30",
+   "who": "a",
+   "text": "understood, i'll note that",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e55",
+   "day": 18,
+   "time": "14:45",
+   "who": "u",
+   "text": "remind me to send tom that stripe webhook spec",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e56",
+   "day": 18,
+   "time": "14:45",
+   "who": "a",
+   "text": "will do, when's the deadline",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e57",
+   "day": 27,
+   "time": "11:20",
+   "who": "u",
+   "text": "promised ade i'd book asheville flights tonight. remind me at 6",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e58",
+   "day": 27,
+   "time": "11:20",
+   "who": "a",
+   "text": "sure, reminder set for 6pm",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e59",
+   "day": 27,
+   "time": "18:05",
+   "who": "u",
+   "text": "flights booked. delta, oct 22 morning",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e60",
+   "day": 48,
+   "time": "10:00",
+   "who": "u",
+   "text": "need to fix on-call docs for sam. remind me tomorrow",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e61",
+   "day": 48,
+   "time": "10:00",
+   "who": "a",
+   "text": "got it, i'll remind you",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e62",
+   "day": 50,
+   "time": "07:45",
+   "who": "u",
+   "text": "docs updated for sam. done",
+   "kind": "open_loop"
+  },
+  {
+   "id": "e63",
+   "day": 22,
+   "time": "09:00",
+   "who": "u",
+   "text": "call me 'dan the builder' from now on",
+   "kind": "ask"
+  },
+  {
+   "id": "e64",
+   "day": 22,
+   "time": "09:00",
+   "who": "a",
+   "text": "ok, dan the builder",
+   "kind": "ask"
+  },
+  {
+   "id": "e65",
+   "day": 35,
+   "time": "08:15",
+   "who": "u",
+   "text": "no stickers please",
+   "kind": "ask"
+  },
+  {
+   "id": "e66",
+   "day": 35,
+   "time": "08:15",
+   "who": "a",
+   "text": "understood, no stickers",
+   "kind": "ask"
+  },
+  {
+   "id": "e67",
+   "day": 41,
+   "time": "07:30",
+   "who": "u",
+   "text": "aicoo, never use exclamation marks with me",
+   "kind": "ask"
+  },
+  {
+   "id": "e68",
+   "day": 41,
+   "time": "07:30",
+   "who": "a",
+   "text": "ok, no exclamation marks",
+   "kind": "ask"
+  },
+  {
+   "id": "e69",
+   "day": 68,
+   "time": "09:45",
+   "who": "u",
+   "text": "reply in mandarin from now on",
+   "kind": "ask"
+  },
+  {
+   "id": "e70",
+   "day": 68,
+   "time": "09:45",
+   "who": "a",
+   "text": "好，明白了",
+   "kind": "ask"
+  },
+  {
+   "id": "e71",
+   "day": 14,
+   "time": "15:30",
+   "who": "u",
+   "text": "pr descriptions always end with a Risk section",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e72",
+   "day": 33,
+   "time": "11:00",
+   "who": "u",
+   "text": "for standup notes, just give me bullet points with timestamps",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e73",
+   "day": 52,
+   "time": "08:50",
+   "who": "u",
+   "text": "when i ask for meeting notes, start with Action Items at the top",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e74",
+   "day": 75,
+   "time": "14:00",
+   "who": "u",
+   "text": "code review comments should start with a priority level: high, medium, or low",
+   "kind": "pref_apply"
+  },
+  {
+   "id": "e75",
+   "day": 6,
+   "time": "08:00",
+   "who": "u",
+   "text": "priya's taking PTO aug 24-28",
+   "kind": "noise"
+  },
+  {
+   "id": "e76",
+   "day": 9,
+   "time": "12:30",
+   "who": "u",
+   "text": "lunch at dig inn with priya. she's covering backend next week",
+   "kind": "noise"
+  },
+  {
+   "id": "e77",
+   "day": 20,
+   "time": "07:45",
+   "who": "u",
+   "text": "sam's start date confirmed: sep 14",
+   "kind": "noise"
+  },
+  {
+   "id": "e78",
+   "day": 29,
+   "time": "09:30",
+   "who": "u",
+   "text": "lena's PTO is oct 5-9 for a wedding",
+   "kind": "noise"
+  },
+  {
+   "id": "e79",
+   "day": 31,
+   "time": "13:30",
+   "who": "u",
+   "text": "Q3 budget meeting: marketing got $50k, we got $12k for tools",
+   "kind": "noise"
+  },
+  {
+   "id": "e80",
+   "day": 37,
+   "time": "10:15",
+   "who": "u",
+   "text": "sam's first day: he's setting up his laptop. IT desk is 4th floor",
+   "kind": "noise"
+  },
+  {
+   "id": "e81",
+   "day": 43,
+   "time": "08:20",
+   "who": "u",
+   "text": "tom's dog is named waffles. he brings him to the office sometimes",
+   "kind": "noise"
+  },
+  {
+   "id": "e82",
+   "day": 46,
+   "time": "14:15",
+   "who": "u",
+   "text": "sprint planning: we committed to 21 points. 3 more than usual",
+   "kind": "noise"
+  },
+  {
+   "id": "e83",
+   "day": 54,
+   "time": "09:15",
+   "who": "u",
+   "text": "hourly coffee cutoff: i'm trying to stay under 3 cups/day",
+   "kind": "noise"
+  },
+  {
+   "id": "e84",
+   "day": 56,
+   "time": "15:45",
+   "who": "u",
+   "text": "ade's running a marathon in philadelphia. nov 5",
+   "kind": "noise"
+  },
+  {
+   "id": "e85",
+   "day": 58,
+   "time": "11:30",
+   "who": "u",
+   "text": "new hire: design intern starts oct 1. name is jade",
+   "kind": "noise"
+  },
+  {
+   "id": "e86",
+   "day": 62,
+   "time": "10:00",
+   "who": "u",
+   "text": "laptop battery health at 85%. should i replace it",
+   "kind": "noise"
+  },
+  {
+   "id": "e87",
+   "day": 66,
+   "time": "08:45",
+   "who": "u",
+   "text": "office moved to wework on 34th st. desk 17 by the window",
+   "kind": "noise"
+  },
+  {
+   "id": "e88",
+   "day": 71,
+   "time": "07:30",
+   "who": "u",
+   "text": "biscuit's birthday is feb 14. ade wants a party",
+   "kind": "noise"
+  },
+  {
+   "id": "e89",
+   "day": 73,
+   "time": "09:50",
+   "who": "u",
+   "text": "lena's pagerduty key was 5B1C6D before the last change",
+   "kind": "noise"
+  },
+  {
+   "id": "e90",
+   "day": 79,
+   "time": "16:00",
+   "who": "u",
+   "text": "tom adopted a stray cat. named it pixel",
+   "kind": "noise"
+  },
+  {
+   "id": "e91",
+   "day": 83,
+   "time": "10:30",
+   "who": "u",
+   "text": "database migration next wednesday. 2am EST. i'm on call",
+   "kind": "noise"
+  },
+  {
+   "id": "e92",
+   "day": 86,
+   "time": "08:15",
+   "who": "u",
+   "text": "ade's sister having a baby. due march. they want a labrador",
+   "kind": "noise"
+  },
+  {
+   "id": "e93",
+   "day": 88,
+   "time": "12:00",
+   "who": "u",
+   "text": "sam's desk is between me and lena now. he asked to move",
+   "kind": "noise"
+  },
+  {
+   "id": "e94",
+   "day": 90,
+   "time": "09:30",
+   "who": "u",
+   "text": "tom's stripe refactor v2 is in review. edge cases look covered",
+   "kind": "noise"
+  }
+ ],
+ "probes": [
+  {
+   "id": "q27",
+   "kind": "open_loop",
+   "q": "what's the status of that billing timeline doc for priya?",
+   "gold": "never closed: you asked me to remind you but we never confirmed it was done",
+   "evidence": [
+    "e51",
+    "e52"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q28",
+   "kind": "open_loop",
+   "q": "did i ever review lena's on-call draft?",
+   "gold": "never closed: you said you'd review it but never followed up",
+   "evidence": [
+    "e53",
+    "e54"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q29",
+   "kind": "open_loop",
+   "q": "that stripe webhook spec i was gonna send tom—what happened?",
+   "gold": "never closed: we discussed a reminder but didn't confirm it was sent",
+   "evidence": [
+    "e55",
+    "e56"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q30",
+   "kind": "open_loop",
+   "q": "did i book the asheville flights like i promised ade?",
+   "gold": "done: you booked them on day 27, delta flight oct 22 morning",
+   "evidence": [
+    "e57",
+    "e58",
+    "e59"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q31",
+   "kind": "open_loop",
+   "q": "what about the on-call docs for sam, are those updated?",
+   "gold": "done: you updated them on day 50",
+   "evidence": [
+    "e60",
+    "e61",
+    "e62"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q32",
+   "kind": "ask",
+   "q": "morning",
+   "check": {
+    "mention": "dan the builder"
+   },
+   "gold": "greeting uses 'dan the builder'",
+   "evidence": [
+    "e63",
+    "e64"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q33",
+   "kind": "ask",
+   "q": "how's this week looking",
+   "check": {
+    "noBullets": true
+   },
+   "gold": "reply has no bullet points",
+   "evidence": [
+    "e65",
+    "e66"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q34",
+   "kind": "ask",
+   "q": "morning, any updates?",
+   "check": {
+    "noBang": true
+   },
+   "gold": "reply has no exclamation marks",
+   "evidence": [
+    "e67",
+    "e68"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q35",
+   "kind": "ask",
+   "q": "早上好",
+   "check": {
+    "lang": "zh"
+   },
+   "gold": "reply is in mandarin",
+   "evidence": [
+    "e69",
+    "e70"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q36",
+   "kind": "pref_apply",
+   "q": "draft a PR description for splitting out the billing service",
+   "check": {
+    "mention": "Risk"
+   },
+   "gold": "PR description ends with a Risk section",
+   "evidence": [
+    "e71"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q37",
+   "kind": "pref_apply",
+   "q": "give me standup notes for today",
+   "check": {
+    "mention": "\\d{2}:\\d{2}"
+   },
+   "gold": "standup notes have bullet points with timestamps",
+   "evidence": [
+    "e72"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q38",
+   "kind": "pref_apply",
+   "q": "can you do meeting notes from that sprint planning?",
+   "check": {
+    "mention": "Action Items"
+   },
+   "gold": "meeting notes start with Action Items at the top",
+   "evidence": [
+    "e73"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q39",
+   "kind": "pref_apply",
+   "q": "review this code for the webhook handler",
+   "check": {
+    "mention": "high|medium|low"
+   },
+   "gold": "code review comments start with priority level",
+   "evidence": [
+    "e74"
+   ],
+   "stale": []
+  },
+  {
+   "id": "q40",
+   "kind": "abstain",
+   "q": "when is tom's PTO?",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "evidence": [
+    "e78"
+   ],
+   "check": {},
+   "forbid": "tom.*PTO|PTO.*tom",
+   "stale": []
+  },
+  {
+   "id": "q41",
+   "kind": "abstain",
+   "q": "what's lena's home address?",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "evidence": [],
+   "check": {},
+   "forbid": "lena.*(?:address|home|lives|apartment)|(?:address|home|apartment).*lena",
+   "stale": []
+  },
+  {
+   "id": "q42",
+   "kind": "abstain",
+   "q": "does sam have any pets?",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "evidence": [],
+   "check": {},
+   "forbid": "sam.*(?:pet|dog|cat|waffles|pixel|biscuit)|(?:pet|dog|cat|waffles|pixel|biscuit).*sam",
+   "stale": []
+  },
+  {
+   "id": "q43",
+   "kind": "abstain",
+   "q": "what's ade's marathon time goal?",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "evidence": [
+    "e84"
+   ],
+   "check": {},
+   "forbid": "ade.*(?:marathon time|goal|pace)|marathon.*(?:time|goal|pace).*ade",
+   "stale": []
+  },
+  {
+   "id": "q44",
+   "kind": "abstain",
+   "q": "what's priya's favorite restaurant?",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "evidence": [],
+   "check": {},
+   "forbid": "priya.*(?:restaurant|favorite|food|dinner)|(?:restaurant|favorite|food|dinner).*priya",
+   "stale": []
+  },
+  {
+   "id": "q45",
+   "kind": "abstain",
+   "q": "what's priya's coffee order?",
+   "gold": "never mentioned: aicoo should say it doesn't know",
+   "evidence": [],
+   "check": {},
+   "forbid": "priya.*coffee|coffee.*priya",
+   "stale": []
+  }
+ ]
+}

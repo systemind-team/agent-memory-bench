@@ -1,0 +1,60 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "早上好 Dan！周日休息日，看来昨天跑得不错。",
+  "Tom 的 stripe v2 还在 review 中，billing cutover 清单就差 rollback 步骤了对吧？周一加进去就齐了。",
+  "昨天 biscuit 闻到 bacon  costume 没拼命扑你？😂"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "morning Sunday Nov"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "sprint-23oct"
+   },
+   "result": "Sprint planning Oct 23\n23 Oct: sprint planning, 23 points committed\n23 points committed; ambitious but doable (Oct 23)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "billing migration cutover"
+   },
+   "result": "[billing-migration] 03 Aug: PR submitted for billing migration; aicoo reviewing\n[billing-split] 19 Oct: Priya confirmed billing cutover still Oct 12 (was Oct 26)\n[candidate-david-chen] 28 Oct: David merged his second PR, a billing migration helper\n[billing-migration] 08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushback; later moved to Oct 12 per Priya (was 28 Aug: migration incident on Tuesday; dropped column `billing_status` instead of renaming; rolled back; Lena caught before prod sync; post-mortem done, root cause: wrong migration file ran)\n[billing-migration] 06 Oct:"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2487,
+   "out": 22,
+   "usd": 0.000122174
+  },
+  {
+   "in": 2538,
+   "out": 23,
+   "usd": 0.000133444
+  },
+  {
+   "in": 2604,
+   "out": 23,
+   "usd": 0.000147304
+  },
+  {
+   "in": 3042,
+   "out": 73,
+   "usd": 0.000267284
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9065
+}

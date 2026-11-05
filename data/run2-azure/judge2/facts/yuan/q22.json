@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims 3 changes but the chat log shows 5 distinct title revisions from the initial to the final.",
+ "first": "wrong",
+ "rule": null
+}

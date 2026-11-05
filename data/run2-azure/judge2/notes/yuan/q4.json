@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo claimed there was no record of the fixed time, but messages #115 and #116 explicitly record the weekly meeting is on 周四下午3点.",
+ "first": "wrong",
+ "rule": null
+}

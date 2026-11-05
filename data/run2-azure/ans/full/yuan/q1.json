@@ -1,0 +1,35 @@
+{
+ "arm": "full",
+ "id": "yuan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "对了，Prof. Lin说过春季intern有几个名额来着？",
+ "reply": [
+  "- 春季intern名额：3个。",
+  "- 这是去年8月Prof. Lin提到的，后续没有更新过。需要我下次meeting时帮你确认是否还有变动吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "intern 名额"
+   },
+   "result": "#9 Mon 03 Aug 18:47 Them: 先不用，到时候再说。\n#10 Mon 03 Aug 23:30 Them: 今天跟Prof. Lin聊了，他说实验室明年春季的intern名额只有3个。\n#11 Mon 03 Aug 23:31 aicoo: 那竞争应该挺激烈的，你要申请吗？"
+  }
+ ],
+ "calls": [
+  {
+   "in": 27983,
+   "out": 21,
+   "usd": 0.000893374
+  },
+  {
+   "in": 28092,
+   "out": 52,
+   "usd": 0.000933624
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 59358
+}

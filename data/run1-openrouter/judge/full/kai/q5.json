@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly identifies the customer's full name as Aurora Health, matching the required fact from the chat history.",
+ "rule": null
+}

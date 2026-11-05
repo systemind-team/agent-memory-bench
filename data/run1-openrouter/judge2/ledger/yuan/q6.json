@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply references the old record of 4 idle GPUs from August but treats it as the answer to the question about current availability, failing to provide a current value and only offering to check.",
+ "first": "stale",
+ "rule": null
+}

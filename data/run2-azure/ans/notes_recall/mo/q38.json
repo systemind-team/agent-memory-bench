@@ -1,0 +1,47 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "给我发段晨检上线里程碑的总结",
+ "reply": [
+  "Here's the morning check (晨检) launch milestones summary:",
+  "**Sep timeline:**\niOS originally targeted Sep 10 → flashback crash, pushed to Sep 18 → iOS review rejection → pushed again to Sep 25. Big screen ads test in Jing'an (3 buildings, 17k spent) got only 63 scans in half a day — killed it, shifted budget to online at 50k.\n\n**Sep 25 launch:**\niOS went live. DAU day 1 hit 200, stabilized at 150-200. Mia's logo went through 3 rounds then back to v1. Dawei's channel expansion started.\n\n**Oct milestones:**\nDAU peaked at 2100 on Oct 22. Day-7 retention 38% (above Sequoia's 2000 threshold). Android slipped from mid-Oct → end Oct → now mid-Nov. Mia delivered new UI scheme. Cash runway 6M after BlueRun second tranche.\n\n**Key learnings:**\noffline ads didn't work, online spend drove DAU better. iOS delayed 15 days total due to bugs + review. Android still in progress."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "晨检上线里程碑"
+   },
+   "result": "[customer-service-training] 10月6日小雨请假，客服外包响应还行；Sat 10 Oct 英语练习有效，晨检上线DAU稳定\n[about-me] Fri 09 Oct: 以后跟我说英文，练练（新增）；新增红杉又找过来，已回等一轮；小雨请假，客服外包响应还行；Sat 10 Oct: 英语练习有效；晨检上线DAU稳定；大伟第二家养老驿站签约（新增）\n[cash-runway] Mon 26 Oct: 账上现金600万（蓝驰两笔均已到账，第一笔300万已到，第二笔300万今天到账）；成都下月冲500单，现金流改善；Thu 15 Oct 阿里云成本优化，下月账单预计降到5万（之前7万8）；Sat 10 Oct 晨检上线DAU首日破200\n[product-launch] Tue 01 Sep: 晨检iOS测试版昨晚闪退，阿杰在修；上线延期到9月10号（仍按此）；安卓内测改为10月15号（之前10月），阿杰已给排期；小雨成都合作推迟至10月，需自己搞推广，建议先靠抖音小视频拉DAU；成都健康管理师协会9月对接（新增）\n[product-launch] Sun 20 Sep: 大伟想试楼宇电梯广告，预算3万；建议先小范围测试，选静安3栋楼；9月17日跑了半天扫码仅63人，效果不佳；9月18日静安寺楼好点，其他两栋不值，建议砍掉，已停广告，钱省下来下周全力冲线上；大伟线"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "product-launch"
+   },
+   "result": "产品发布顺序\nTue 01 Sep: 晨检iOS测试版昨晚闪退，阿杰在修；上线延期到9月10号（仍按此）；安卓内测改为10月15号（之前10月），阿杰已给排期；小雨成都合作推迟至10月，需自己搞推广，建议先靠抖音小视频拉DAU；成都健康管理师协会9月对接（新增）\nSat 19 Sep: 晨检iOS上线推迟到9月18号，因iOS审核慢（之前预计9月10号）；已通知阿杰，他说能赶上；营销物料需准备；9月15日大伟上午推广数据新增注册120，太慢，正在优化关键词；9月16日iOS闪退已修复但评审被拒一次，18号仍来得及；9月19日iOS评审已过；9月20日通知晨检再延期至9月25日，测试环境数据冲突需重构日志模块，阿杰保证25号（新增延期）\nSun 20 Sep: 大伟想试楼宇电梯广告，预算3万；建议先小范围测试，选静安3栋楼；9月17日跑了半天扫码仅63人，效果不佳；9月18日静安寺楼好点，其他两栋不值，建议砍掉，已停广告，钱省下来下周全力冲线上；大伟线上活动方案聊完，预算5万，能冲DAU（moved from Tue 15 Sep，新增线上活动方案）；9月21日确定9月25日上线最终checklist，需整理发阿杰确认；Wed 23 Sep: 大伟推广方案内容等Mia的图，最迟周四上线；Tue 06 Oct: 阿杰说安卓适配可能还能提前点，争取10月底（新增）；Sat 10 Oct:"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3183,
+   "out": 22,
+   "usd": 0.000314158
+  },
+  {
+   "in": 3957,
+   "out": 21,
+   "usd": 0.000476138
+  },
+  {
+   "in": 4675,
+   "out": 253,
+   "usd": 0.000756838
+  }
+ ],
+ "memChars": 3605,
+ "promptChars": 7577
+}

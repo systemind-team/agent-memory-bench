@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The standup notes are presented as bullet points with timestamps, matching the user's requested format.",
+ "rule": false
+}

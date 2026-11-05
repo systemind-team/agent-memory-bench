@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "山海餐厅订到哪天了？",
+ "reply": [
+  "好的周周，我查一下之前的聊天记录。\n\n[search_chat: {\"query\": \"山海餐厅 预订 生日\"}]"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 6877,
+   "out": 29,
+   "usd": 0.00014852292
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16034
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant did not draft meeting minutes with a summary sentence on decisions as the preference requires; it only described the communication and asked whether to draft now or later.",
+ "rule": false
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The reply claims the first change happened around Sep 23-24 and gives 7C2E9B as the key after it, but messages #321-322 show the first documented change was on Sep 13 to 3F8D1A; the Sep 24 change to 7C2E9B was a later change, not the first.",
+ "first": "made_up",
+ "rule": null
+}

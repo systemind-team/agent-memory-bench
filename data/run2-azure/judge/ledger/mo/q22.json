@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant's answer says final launch was on 9月28日 and lists 3 delays, but chat shows final launch on 9月25日 with 2 prior delays (9月10日→9月18日→9月25日); also confuses a pre-chat original plan date and fabricates download/rating details not in chat.",
+ "rule": null
+}

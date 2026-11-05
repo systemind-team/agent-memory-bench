@@ -1,0 +1,59 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "what were all the billing cutover dates we discussed?",
+ "reply": [
+  "let's see — i've got a few shifts in memory:",
+  "originally nov 5 (back in august), then sept 18 you said it was back to oct 12, then sept 17 priya mentioned a possible shift pending legal, and by oct 3 it was locked to oct 26 with the timeline updated.",
+  "so the final locked date was oct 26. that's the one that stuck. want me to double-check anything else from chat around that timeline doc?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing cutover date timeline"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover date"
+   },
+   "result": "#590 Fri 09 Oct 08:45 aicoo: 好，明白了\n#591 Fri 09 Oct 09:30 Them: priya just sent a slack asking about the cutover checklist. i'll update it this morning\n#592 Fri 09 Oct 10:15 Them: checklist updated. added a row for webhook service url swap\n---\n#378 Fri 18 Sep 09:17 aicoo: tea day? or a bold experiment\n#379 Fri 18 Sep 10:00 Them: billing cutover final date: oct 12 again. we got back on track.\n#380 Fri 18 Sep 10:02 aicoo: that's great. back to the original plan. you can lock in the timeline now\n---\n#372 Thu 17 Sep 15:22 aicoo: a diplomatic start\n#373 Thu 17 Sep 16:45 Them: priya mentioned the cut"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "cutover date timeline"
+   },
+   "result": "- 03 Oct: Oct 26 cutover is locked and timeline updated.\n- 17 Sep: Priya mentioned the cutover date might shift again, pending legal.\n- 05 Oct: Priya asked Dan for a status on the billing dry run results from last week. 15 Oct: Priya asked about the cutover timeline again\n- 07 Aug: need to finish the timeline doc today.\n- Them wants aicoo to remind them to send Priya the billing timeline doc by Friday. 07 Aug: Dan Okafor sent the timeline doc to Priya right before the deadline.\n- 26 Oct: Priya wants the cutover checklist ready by Friday.\n- 01 Sep: Sam Ortiz start date is September 14. 11 Sep: "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1506,
+   "out": 24,
+   "usd": 0.00003814776
+  },
+  {
+   "in": 1559,
+   "out": 21,
+   "usd": 0.00004005596
+  },
+  {
+   "in": 1902,
+   "out": 22,
+   "usd": 0.00002911832
+  },
+  {
+   "in": 2169,
+   "out": 111,
+   "usd": 0.00007212996
+  }
+ ],
+ "memChars": 1046,
+ "promptChars": 5565
+}

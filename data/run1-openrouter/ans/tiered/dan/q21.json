@@ -1,0 +1,81 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "did stripe webhooks or sam's onboarding happen first?",
+ "reply": [
+  "stripe webhook pr merged sun sep 13. sam joined officially mon sep 14. so webhook came first by a day."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam onboarding Stripe webhook"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam onboarding billing schema Stripe webhook"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam joined Stripe webhook"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam onboarded billing schema"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Stripe webhook PR merged"
+   },
+   "result": "#384 Fri 18 Sep 13:42 aicoo: he'll be a strong addition. glad he's engaging with the architecture\n#385 Fri 18 Sep 15:10 Them: stripe webhook pr merged. finally\n#386 Fri 18 Sep 15:12 aicoo: congratulations. that's a big piece done\n---\n#326 Sun 13 Sep 09:35 aicoo: promising start.\n#327 Sun 13 Sep 14:00 Them: stripe webhook PR merged. next up: idempotency keys\n#328 Sun 13 Sep 14:02 aicoo: solid progress. let me know if you need help with the design."
+  }
+ ],
+ "calls": [
+  {
+   "in": 5328,
+   "out": 24,
+   "usd": 0.000051968
+  },
+  {
+   "in": 5381,
+   "out": 26,
+   "usd": 0.0000542822
+  },
+  {
+   "in": 5436,
+   "out": 24,
+   "usd": 0.0000563528
+  },
+  {
+   "in": 5489,
+   "out": 23,
+   "usd": 0.0000584234
+  },
+  {
+   "in": 5541,
+   "out": 24,
+   "usd": 0.00005230092
+  },
+  {
+   "in": 5736,
+   "out": 34,
+   "usd": 0.00006102992
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17931
+}

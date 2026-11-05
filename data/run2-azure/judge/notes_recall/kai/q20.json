@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It claimed the roadmap review was Aug 27 Q3 review, but the chat shows the relevant Q4 roadmap review is Oct 10, and integration rollout Sep 22 came before Oct 10.",
+ "rule": null
+}

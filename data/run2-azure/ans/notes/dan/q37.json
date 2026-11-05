@@ -1,0 +1,48 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "give me standup notes for today",
+ "reply": [
+  "早上好, Dan",
+  "今天sunday不开工吧? 不过照你想要的话, 我把昨天的情况理了一下: 昨天stripe refactor v2在审, cutover checklist就差rollback步骤, 电池79%你说了这周下单, 晚上和Ade+Biscuit跑了步. 今天的standup如果照平日来写, 大概是这样:",
+  "1. stripe refactor v2 — 在review, edge cases已覆盖, 等Tom final CR\n2. billing migration cutover — checklist基本完成, 加rollback步骤+dry run结果\n3. 电池 — 79%, 这周下单换新\n4. 没有blocker\n\n但这个版本你先看, 或者你其实想写点别的? 比如Halloween的事?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "standup notes"
+   },
+   "result": "[stripe-webhook] 16 Oct: on-call handoff notes ready for Lena\n[stripe-webhook] 03 Sep: standup notes: 09:30 fixed flaky webhook test (shared state); 10:15 reviewed Tom's PR on retry logic; 10:45 updated onboarding doc for Sam; 11:00 prep for Priya sync\n[stripe-webhook] 15 Aug: on-call handoff notes ready; Lena takes over tomorrow\n[billing-migration] 24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n[stripe-webhook] 17 Oct: Tom's frontend refactor broke webhooks again (payload format changed without handler update); Dan will help debug after standup; issue found, payl"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "stripe-webhook"
+   },
+   "result": "Stripe webhook retry logic\n03 Aug: retry was failing due to idempotency; fixed after reading Stripe docs\n04 Aug: Tom asking about stability; retry fix covers main failure case\n12 Aug: stripe webhook idempotency test passes; coverage back up\n10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved\n14 Aug: Tom pushed a fix for the webhook frontend; Dan's tests pass now\n15 Aug: on-call handoff notes ready; Lena takes over tomorrow\n18 Aug: webhook test flaked again overnight; fixed by bumping jest timeout (was timeout on stripe mock)\n19 Aug: working on stripe webhook error handling\n20 Aug"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2492,
+   "out": 21,
+   "usd": 0.000122664
+  },
+  {
+   "in": 2744,
+   "out": 22,
+   "usd": 0.000176144
+  },
+  {
+   "in": 3773,
+   "out": 174,
+   "usd": 0.00043153
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9089
+}

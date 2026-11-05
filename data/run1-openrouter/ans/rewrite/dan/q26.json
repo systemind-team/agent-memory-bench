@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "who were all the data eng candidates, and who took it?",
+ "reply": [
+  "从记录看，只有一个数据工程候选人：Maria Torres，8月12日面试，SQL不错，但8月14日她拒绝了offer。之后Priya让你重新开始面试，但没看到后续有新的候选人进来。还有Jordan Liu，8月21日提到是Spotify的数据工程师，但只是候选人，没进入面试流程。",
+  "要不要我帮你整理一下数据工程的面试需求，下周跟Priya对齐一下？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3001,
+   "out": 96,
+   "usd": 0.00003817212
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10715
+}

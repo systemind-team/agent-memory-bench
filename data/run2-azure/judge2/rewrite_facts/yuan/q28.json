@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claimed the reminder was 'done' and added a fabricated 'wait until paper is finalized' detail, when in reality the reminder from Aug 21 remains open with no execution or closure.",
+ "first": "stale",
+ "rule": null
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "5 now. you, tom, lena, sam, and david chen. priya manages. david's been around since mid-october — merged his first PR a few days ago.",
+  "still waiting on tom's stripe refactor v2 to land before the cutover. anything else on your mind?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "team size people priya tom lena sam david"
+   },
+   "result": "[423] 21 Oct · person: david chen joined officially. team now 5.  (from #721)\n[356] 11 Oct · fact: teammate count: 4 eng. dan, tom, lena, sam. priya manages  (from #605)\n[176] 10 Sep · fact: sam ortiz onboarding starts with david chen  (from #298)\n[168] 07 Sep · fact: priya wants to move fast on david chen  (from #285)\n[239] 23 Sep · fact: david chen sat next to tom at the office  (from #428)\n[426] 21 Oct · fact: david is sitting at desk 12. sam is showing him around.  (from #725)\n[107] 22 Aug · fact: dan will onboard sam with priya  (from #179, #180)\n[171] 09 Sep · fact: dan had lunch with sa"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3063,
+   "out": 29,
+   "usd": 0.000155406
+  },
+  {
+   "in": 3373,
+   "out": 72,
+   "usd": 0.000244586
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10794
+}

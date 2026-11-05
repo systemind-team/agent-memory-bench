@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q21",
+ "kind": "update",
+ "q": "论文标题最初叫什么？",
+ "reply": [
+  "最早是 Planning with Hierarchical Graphs（8月20日），然后改成 Hierarchical Planning with Graph Attention（8月20日当晚），再变成 Context-Aware Hierarchical Planning for LLMs（9月13日），9月27日简化为 Context-Aware Planning，10月26日最终定为 Context-Aware Planning via Hierarchical Decomposition。",
+  "你想问哪个阶段的变化？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "论文标题"
+   },
+   "result": "[项目] 20 Aug: 论文标题改为Hierarchical Planning with Graph Attention（之前是Planning with Hierarchical Graphs）；13 Sep: 标题改为Context-Aware Hierarchical Planning for LLMs\n[about-me] 26 Oct 09:15 开始finalize论文标题，跑最后一个实验；26 Oct 11:30 环境4还是45%，可能intermediate supervision的权重需要调\n[about-me] 26 Oct 09:15 开始finalize论文标题，跑最后一个实验；26 Oct 11:30 环境4还是45%，可能intermediate supervision的权重需要调；27 Oct 14:30 每个step加supervision环境4跑到52%\n[个人] 26 Oct 09:15 开始finalize论文标题，跑最后一个实验；26 Oct 14:00 调supervision loss权重到0.5，环境4跑到48%；26 Oct 23:40 确认final title: Context-Aware Planning via Hierarchical Decomposition；27 Oct 14:30 每个step加supervisio"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3704,
+   "out": 20,
+   "usd": 0.000697392
+  },
+  {
+   "in": 4641,
+   "out": 87,
+   "usd": 0.000381794
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9608
+}

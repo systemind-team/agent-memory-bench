@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It mentions the correct first-changed key (3F8D1A) but then incorrectly implies 7C2E9B was still the working key, presenting an outdated value as current.",
+ "rule": null
+}

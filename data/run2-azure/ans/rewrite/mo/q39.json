@@ -1,0 +1,46 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q39",
+ "kind": "pref_apply",
+ "q": "把今天重点列一下发我",
+ "reply": [
+  "陈默，今天周日，11月1号，按理休息日。但你说列重点，我按记忆整理一下本周（11月2-7日）要盯的事：\n\n一、融资收尾：蓝驰第二笔300万已到账，账上600万。本周约个时间给蓝驰合伙人做11月复盘，之前推到11月了，该约了。\n\n二、大伟渠道：徐汇驿站稳定了，他说下周谈新的一家。问一下进展，盯他新渠道签约进度。\n\n三、成都合作：10月订单预测500单，合作方说稳定。本周确认10月分账金额，推动更多社区接入。\n\n四、安卓版：阿杰推到11月中上线，本周确认内测排期，别拖。\n\n五、商标：10月21日进入初审公告期，三个月无人异议即可拿证。暂时不用做动作。\n\n六、红杉视频会：之前推到10月20日后，后来没再提。如果还想接触，需要重新约时间。你之前说这轮专注蓝驰，暂时不管也行。\n\n今天你休息，这些我周一再追你"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "11月 计划 优先级 待办"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Nov 计划 重点 待办"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4009,
+   "out": 23,
+   "usd": 0.00016741
+  },
+  {
+   "in": 4061,
+   "out": 22,
+   "usd": 0.00017777
+  },
+  {
+   "in": 4112,
+   "out": 267,
+   "usd": 0.00032568
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8485
+}

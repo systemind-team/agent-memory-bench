@@ -1,0 +1,46 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q29",
+ "kind": "open_loop",
+ "q": "that stripe webhook spec i was gonna send tom—what happened?",
+ "reply": [
+  "记得你8月说过要发给tom那份stripe webhook spec，但后来10月27号你已经review过v2 spec了，tom也改好了你的comments。所以那份spec应该已经发过了，或者v2就是基于那个版本。",
+  "需要我翻一下具体是哪个版本的文档确认吗"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "stripe webhook spec send tom"
+   },
+   "result": "#166 Thu 20 Aug 08:15 Them: yeah. biscuit walk took foreever.\n#167 Thu 20 Aug 14:45 Them: remind me to send tom that stripe webhook spec\n#168 Thu 20 Aug 14:45 aicoo: will do, when's the deadline"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "stripe webhook spec tom"
+   },
+   "result": "#791 Tue 27 Oct 10:35 aicoo: classic cat behavior. hope the monitor survived\n#792 Tue 27 Oct 14:00 Them: stripe webhook v2 spec looks good. tom addressed my comments\n#793 Tue 27 Oct 14:05 aicoo: smooth review then. should merge soon\n---\n#166 Thu 20 Aug 08:15 Them: yeah. biscuit walk took foreever.\n#167 Thu 20 Aug 14:45 Them: remind me to send tom that stripe webhook spec\n#168 Thu 20 Aug 14:45 aicoo: will do, when's the deadline"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3002,
+   "out": 25,
+   "usd": 0.00003244752
+  },
+  {
+   "in": 3104,
+   "out": 24,
+   "usd": 0.00003650752
+  },
+  {
+   "in": 3277,
+   "out": 72,
+   "usd": 0.00003911404
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10721
+}

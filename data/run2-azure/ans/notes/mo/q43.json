@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "阿杰去日本是几号？",
+ "reply": [
+  "你记录里没有阿杰去日本的信息。Mia是10月5-9号去的日本采风。阿杰没有日本相关的安排。",
+  "你是不是记混了，还是阿杰有新计划没告诉我"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "阿杰 日本"
+   },
+   "result": "[mia-japan-inspiration] Wed 21 Oct: Mia日本采风回来，说设计灵感有了\n[about-me] Thu 01 Oct: Mia申请10月5-9号日本采风，已批，需出采风报告（新增）；Fri 09 Oct: 以后跟我说英文，练练（新增）\n[ajie-salary] Thu 06 Aug: 阿杰8月10号到15号休假\n[ajie-macbook] Tue 11 Aug: 阿杰MacBook Pro取消（预算改为1万5，后取消）\n[ajie-macbook] Tue 11 Aug: 阿杰MacBook Pro取消（预算改为1万5，后取消）\n[ajie-salary] Tue 04 Aug: 阿杰薪资谈到税前4万，期权等seed轮定了再说\nSat 08 Aug: 下周三（8月12日）需提醒发薪资确认邮件给阿杰（新增承诺）\n[product-launch] Thu 15 Oct 安卓适配阿杰说这周末能跑通核心流程，下周内测；Mon 19 Oct: 阿杰说安卓适配差不多了，我让他再压两周测试\n[product-launch] Thu 08 Oct: 安卓适配阿杰说能提前到10月中（之前10月底）\n[ajie-macbook] Mon 10 Aug: 预算改为1万8（之前说给阿杰配，预算1万8）\n[ajie-macbook] Mon 10 Aug: 预算改为1万"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2427,
+   "out": 22,
+   "usd": 0.000109574
+  },
+  {
+   "in": 2802,
+   "out": 52,
+   "usd": 0.000205124
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6253
+}

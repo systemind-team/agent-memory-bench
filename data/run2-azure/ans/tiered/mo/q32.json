@@ -1,0 +1,70 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "早，这周怎么安排？",
+ "reply": [
+  "早，新一周安排如下：\n\n周一先过一下上周遗留：大伟新渠道推进、成都合作订单确认、安卓版11月中上线的内测排期。小雨那边客服晚班兼职这周也到位了，让安排培训。\n\n红杉视频会议材料早就说要准备，这周集中整一下DAU趋势和留存数据，你周三前有空过一遍？\n\n周五前最好定个时间来跟蓝驰约复盘，推到11月的第一周，趁安卓上线前把增长模型对齐。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周日 周报 计划 本周"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周日 本周 安排 计划"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "早 这周 怎么 安排"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sun 周 计划"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5557,
+   "out": 26,
+   "usd": 0.000219226
+  },
+  {
+   "in": 5612,
+   "out": 25,
+   "usd": 0.000230216
+  },
+  {
+   "in": 5666,
+   "out": 26,
+   "usd": 0.000196292
+  },
+  {
+   "in": 5721,
+   "out": 23,
+   "usd": 0.000251986
+  },
+  {
+   "in": 5773,
+   "out": 123,
+   "usd": 0.000273082
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10952
+}

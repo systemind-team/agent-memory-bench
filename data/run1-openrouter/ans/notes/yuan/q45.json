@@ -1,0 +1,58 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "实验室那8张H100 GPU是什么时候到货的？",
+ "reply": [
+  "从我之前的记录里，9月29日Kevin说系里买了8张H100，10月2日你的申请已经签了、排实验室第一个。但具体到货时间我没有记录。",
+  "不过最近几次组会都没提到H100到了——你还在用A100跑实验。要不等会儿周一meeting问问Prof. Lin？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "H100 到货 实验室 GPU"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "H100"
+   },
+   "result": "[个人] 02 Oct: 早。今天连meeting，下午Prof. Lin meeting，晚上组会。得把paper和statement都过下；H100申请理由已写（hierarchical planning需要大模型推理，H100对scalability critical），组会slides已加H100性能对比；NSF fellowship statement需加embodied AI long-term vision（之前01 Oct draft保守）\n[人物] 05 Oct: Coco说推荐信本周能发；Kevin说H100申请还在排队\n[项目] 02 Oct: 下午Prof. Lin meeting, 他对paper很满意，建议投ICLR，H100申请已签（排实验室第一个），基于A100数据推算了H100性能（H100 FP16 tensor ops是A100的3倍，预估inference speedup 2.5x）；晚上组会，Kevin和Mei给建议但整体认可；03 Oct: 开始打包ICLR submission；NSF fellowship personal statement需加embodied AI long-term vision（之前01 Oct写draft未写完）\n[个人] 02 Oct: 下午Prof. Lin meeting, 他对paper很满意，建议投"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "到货 H100 GPU 实验室 购买"
+   },
+   "result": "[个人] 11 Aug: 晚上跑GPU实验，accuracy提升了一点点\n[个人] 02 Oct: H100申请已签，排实验室第一个；实验A100利用率30%（之前01 Oct已决定投ICLR deadline 11月15日）；04 Oct: 上午final check论文全部通过，下午放松去gym和打游戏\n[项目] 02 Oct: 下午Prof. Lin meeting, 他对paper很满意，建议投ICLR，H100申请已签（排实验室第一个），基于A100数据推算了H100性能（H100 FP16 tensor ops是A100的3倍，预估inference speedup 2.5x）；晚上组会，Kevin和Mei给建议但整体认可；03 Oct: 开始打包ICLR submission；NSF fellowship personal statement需加embodied AI long-term vision（之前01 Oct写draft未写完）\n[个人] 12 Aug: 跑GPU实验，昨晚loss曲线有点炸，batch size 64需要检查\n[项目] 16 Aug: GPU实验batch size 128跑了一轮，loss曲线比64稳定但memory快满了\n[个人] 07 Aug: 周末也得去实验室，论文deadline快到了\n[实验室] 02 Oct: 下午Prof. "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3735,
+   "out": 26,
+   "usd": 0.00003734388
+  },
+  {
+   "in": 3790,
+   "out": 20,
+   "usd": 0.00003908968
+  },
+  {
+   "in": 4551,
+   "out": 27,
+   "usd": 0.00007055468
+  },
+  {
+   "in": 5201,
+   "out": 80,
+   "usd": 0.00010124828
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9621
+}

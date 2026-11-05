@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "陈默 previously asked aicoo to reply in English, but this reply is entirely in Chinese.",
+ "rule": false
+}

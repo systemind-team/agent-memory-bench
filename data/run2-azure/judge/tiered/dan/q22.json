@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant stated only one candidate was interviewed (Maria Torres), but the chat shows three candidates: Maria Torres, Jordan Liu, and David Chen.",
+ "rule": null
+}

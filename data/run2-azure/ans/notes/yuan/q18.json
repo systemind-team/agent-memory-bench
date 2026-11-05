@@ -1,0 +1,70 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q18",
+ "kind": "aggregate",
+ "q": "GPTR复现那段时间我大概都干了什么？",
+ "reply": [
+  "根据笔记和记录，你复现GPTR的时间线是这样的：\n\n**9月4日（周五）晚上** — 决定给论文加一个baseline叫GPTR，开始复现代码\n**9月6日（周日）** — 继续debug GPTR\n**9月7日（周一）** — 继续debug\n**9月9日（周三）** — 太累休息，隔天继续调\n**9月10日（周四）** — 把learning rate调到1e-5后指标接近了\n**9月16日（周三）** — GPTR跑出正常结果，开始与其他baseline对比\n**9月17日（周四）** — Mei说结果比她预期的好\n**10月12日（周一）** — GPTR在THOR上比baseline高2.5个点，但有一个环境报错待debug\n\n差不多前后花了近两周完整时间，从零开始debug到跑出结果。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR 复现 实验"
+   },
+   "result": "#332 Fri 04 Sep 22:00 Them: 晚上想想还有什么实验可以加。\n#333 Fri 04 Sep 23:45 Them: 论文实验想加一个baseline叫GPTR，得先复现它代码。\n#334 Fri 04 Sep 23:50 aicoo: 了解，需要我帮忙查GPTR的代码仓库吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR baseline 结果 复现"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR 跑 实验 环境"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "GPTR 复现"
+   },
+   "result": "[项目] 04 Sep: 晚上想加新实验，决定加baseline GPTR，先复现代码\n[个人] 04 Sep: 晚上决定给论文加一个baseline叫GPTR，先复现代码\n[项目] 07 Sep: 继续debug GPTR\n[个人] 09 Sep: 晚上太累休息，明天继续调GPTR；10 Sep GPTR调到1e-5后接近指标\n[人物] 16 Sep: GPTR跑出正常结果，正在与其他baseline对比；17 Sep Mei说GPTR结果比她预期的好\n[项目] 12 Oct: GPTR在THOR上比baseline高2.5个点，但有一个环境报错待debug（之前16 Sep GPTR跑出正常结果）\n[个人] 06 Sep: 今天先这样，明天继续debug GPTR\n[人物] 16 Sep GPTR跑出正常结果，正在与其他baseline对比；17 Sep Mei说GPTR结果比她预期的好\n25 Sep Kevin的diffusion work与讨论相关\n[个人] 16 Sep: GPTR跑出正常结果，与其他baseline对比中\n[项目] 16 Sep: GPTR跑出正常结果，正在与其他baseline对比"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3711,
+   "out": 25,
+   "usd": 0.000151774
+  },
+  {
+   "in": 3827,
+   "out": 26,
+   "usd": 0.000176694
+  },
+  {
+   "in": 3882,
+   "out": 26,
+   "usd": 0.00014242
+  },
+  {
+   "in": 3937,
+   "out": 23,
+   "usd": 0.00015229
+  },
+  {
+   "in": 4238,
+   "out": 218,
+   "usd": 0.000370524
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9617
+}

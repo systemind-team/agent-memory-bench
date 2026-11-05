@@ -1,0 +1,34 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "when did i have the billing_status panic?",
+ "reply": [
+  "the billing_status drop incident was on tuesday sep 15. you mentioned it again on saturday the 29th — 3 hours of panic, but rollback worked.",
+  "post-mortem's done and ci dry-run ticket was created. sam asked about it and you showed him the rollback script."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing_status"
+   },
+   "result": "#351 Wed 16 Sep 09:35 Them: tuesday just after sam's start we had that incident. sep 15 if i recall.\n#352 Wed 16 Sep 09:37 aicoo: correct. sep 15. the billing_status drop incident. post-mortem done and ci dry-run ticket created\n#353 Wed 16 Sep 10:20 Them: sam asked about it. i showed him the rollback script\n---\n#236 Sat 29 Aug 18:05 aicoo: nice, asheville here you come\n#237 Sun 30 Aug 08:30 Them: the dropped column was `billing_status`. 3h of panic.\n#238 Sun 30 Aug 08:30 aicoo: critical column. glad rollback worked"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1139,
+   "out": 21,
+   "usd": 0.000032562
+  },
+  {
+   "in": 1337,
+   "out": 73,
+   "usd": 0.000059742
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4203
+}

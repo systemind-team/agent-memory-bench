@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "how much does biscuit weigh now?",
+ "reply": [
+  "dan the builder，上次我记得是10月13号 vet visit的时候称的，42磅，医生说很健康。之后就没再称过啦。要不要这周带他去再称一下"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Biscuit weight"
+   },
+   "result": "- 27 Oct: Biscuit will have a cousin, but Dan is unsure how Biscuit will handle a puppy.\n- 12 Oct: Biscuit's birthday is February 14.\n- 17 Sep: Biscuit and Waffles are getting along.\n- 28 Oct: Dan thinks Biscuit is enough for now.\n- 12 Oct: Ade is set on baking a cake for Biscuit's birthday.\n- 23 Oct: Feeling better; Biscuit slept through the night.\n- 30 Oct: The pumpkin is carved, and Biscuit tried to eat the seeds.\n- 04 Oct: Dan has an on-call phone by his bed while Biscuit is snoring. 25 Oct: Biscuit wore a tiny jollof rice apron.\n- 12 Oct: Ade wants a party for Biscuit's birthday. 16 Oct: "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3255,
+   "out": 22,
+   "usd": 0.00012562452
+  },
+  {
+   "in": 3501,
+   "out": 40,
+   "usd": 0.0000622398
+  }
+ ],
+ "memChars": 7028,
+ "promptChars": 11643
+}

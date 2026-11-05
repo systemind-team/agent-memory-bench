@@ -1,0 +1,83 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "小雨的休假日期记得吗？",
+ "reply": [
+  "翻了记录，最早提到小雨请假是9月21号那周（客服响应慢问谁盯着），然后10月6号也提到她请假了。但没找到你告诉我具体休假起止日期的记录。",
+  "最近一次说她在休假是10月6号，之后有销假记录吗？还是她现在还在休"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "小雨 休假"
+   },
+   "result": "[14] 07 Aug · fact: 阿杰8月10号到15号休假  (from #21)\n[34] 13 Aug · feeling: 阿杰休假期间想再谈谈薪资  (from #60)\n[21] 10 Aug · promise: aicoo同意：阿杰休假期间（8月10-15日）盯着服务器，有异常通知  (from #37)\n[103] 29 Aug · ask: 小雨社裙裂变方案发我看下  (from #185)\n[179] 18 Sep · fact: 小雨下周（9月14号到18号）请年假  (from #354)\n[184] 18 Sep · feeling: 小雨不在，客服响应慢了，投诉多了  (from #360)\n[274] 06 Oct · fact: 小雨请假了，客服外包响应还行  (from #522)\n[175] 15 Sep · done: 小雨签回客服外包合同，4万2含税  (from #343)\n[131] 02 Sep · decision: 客服预算小雨压到4万2，行，签合同吧  (from #232, #233)\n[194] 20 Sep · plan: 小雨下午销假回来，北京主管明早交接  (from #374)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 休假 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 请假"
+   },
+   "result": "#521 Tue 06 Oct 10:17 aicoo: 明白，我回他们等下一轮\n#522 Tue 06 Oct 14:00 Them: 小雨请假了，客服外包那个响应还行\n#523 Tue 06 Oct 14:01 aicoo: 3万8包半年，性价比能接受\n---\n#393 Mon 21 Sep 11:31 aicoo: 阿杰说是测试环境忘关了，下午能恢复\n#394 Mon 21 Sep 12:15 Them: 客服响应还是慢，小雨请假这周谁盯着\n#395 Mon 21 Sep 12:16 aicoo: 北京兼职主管在跟，今早也培训了两个临时客服"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 休假 日期 9月"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 休"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2598,
+   "out": 21,
+   "usd": 0.0000991
+  },
+  {
+   "in": 2911,
+   "out": 23,
+   "usd": 0.00016595
+  },
+  {
+   "in": 2963,
+   "out": 21,
+   "usd": 0.000129926
+  },
+  {
+   "in": 3149,
+   "out": 26,
+   "usd": 0.000171786
+  },
+  {
+   "in": 3204,
+   "out": 21,
+   "usd": 0.00022636
+  },
+  {
+   "in": 3268,
+   "out": 77,
+   "usd": 0.000179512
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6685
+}

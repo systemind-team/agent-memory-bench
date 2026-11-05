@@ -1,0 +1,58 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "给我阿杰薪资确认那个提醒，还有吗？",
+ "reply": [
+  "阿杰薪资确认的提醒已经完成并归档了。8月20日你告诉我邮件已经发过，不用再提醒。",
+  "薪资最终是3万5，期权等seed轮定了再说。需要我查其他信息吗？"
+ ],
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "ajie-salary"
+   },
+   "result": "阿杰薪资\nTue 04 Aug: 阿杰薪资谈到税前4万，期权等seed轮定了再说\nSat 08 Aug: 下周三（8月12日）需提醒发薪资确认邮件给阿杰（新增承诺）\nThu 06 Aug: 阿杰8月10号到15号休假\nSat 22 Aug: 阿杰薪资最终定3万5（之前3万8），期权等seed轮定了再说"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "ajie salary confirmation reminder"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 薪资 确认 提醒"
+   },
+   "result": "#105 Thu 20 Aug 10:05 Them: 配吧，阿杰要用，不能等了\n#106 Thu 20 Aug 11:00 Them: 阿杰的薪资确认邮件发过了，不用再提醒\n#107 Thu 20 Aug 11:02 aicoo: 好的，已归档\n---\n#29 Sat 08 Aug 09:30 Them: 下周三提醒我给阿杰发薪资确认邮件\n#30 Sat 08 Aug 09:31 aicoo: 好的，下周三提醒你发薪资确认邮件给阿杰\n#31 Sat 08 Aug 10:00 Them: 周末休息，周一继续\n---\n#28 Sat 08 Aug 09:01 aicoo: 1万8+绩效，我草拟offer邮件吧\n#29 Sat 08 Aug 09:30 Them: 下周三提醒我给阿杰发薪资确认邮件\n#30 Sat 08 Aug 09:31 aicoo: 好的，下周三提醒你发薪资确认邮件给阿杰"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2453,
+   "out": 22,
+   "usd": 0.00002654428
+  },
+  {
+   "in": 2582,
+   "out": 23,
+   "usd": 0.00003186288
+  },
+  {
+   "in": 2634,
+   "out": 26,
+   "usd": 0.00003421768
+  },
+  {
+   "in": 2895,
+   "out": 57,
+   "usd": 0.0000390166
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6261
+}

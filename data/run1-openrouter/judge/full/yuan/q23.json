@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The question asks for the second revised title, which is 'Context-Aware Hierarchical Planning for LLMs', not the first revision 'Hierarchical Planning with Graph Attention' that the probe expects; the assistant correctly states the full history but the probe's expected answer is outdated.",
+ "rule": null
+}

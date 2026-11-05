@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "那个PM candidate我们最后hire了谁，名字和start date是啥？",
+ "reply": [
+  "凯哥，最后hire的是Jason Chen，start date是下周一11月10日。你之前让我整理他的reference check，我记得结果很正面，尤其是他之前在fintech的场景经验。",
+  "周一提醒我发welcome package给他？还是你交给Emily来管了？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5082,
+   "out": 66,
+   "usd": 0.000233524
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14925
+}

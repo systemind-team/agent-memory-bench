@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "要求正式一点、不使用emoji和stickers，但回复中使用了emoji（太阳符号）和stickers风格的称呼（周周），不符合用户要求。",
+ "rule": true
+}

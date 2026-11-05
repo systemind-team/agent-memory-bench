@@ -1,0 +1,59 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q14",
+ "kind": "update",
+ "q": "who was the second candidate for data eng?",
+ "reply": [
+  "第二个候选人是 jordan liu，之前在 spotify 做数据工程。take-home 做得不错，但后来反馈说她 schema 设计偏弱，没有发 offer。",
+  "第一个是 maria torres（sql 很强但被抢走了），第三个是 david chen（已经入职）。需要帮你拉她和 maria 的面试笔记吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "second candidate data engineer"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "candidate data engineer second"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "jordan liu data eng"
+   },
+   "result": "#173 Fri 21 Aug 07:30 aicoo: morning. you're off rotation at 5?\n#174 Fri 21 Aug 10:15 Them: new candidate: jordan liu. data eng at spotify before. good take-home.\n#175 Fri 21 Aug 10:16 aicoo: promising. lena might like the experience."
+  }
+ ],
+ "calls": [
+  {
+   "in": 21324,
+   "out": 22,
+   "usd": 0.004444536
+  },
+  {
+   "in": 21375,
+   "out": 23,
+   "usd": 0.000698238
+  },
+  {
+   "in": 21427,
+   "out": 24,
+   "usd": 0.000709718
+  },
+  {
+   "in": 21541,
+   "out": 82,
+   "usd": 0.000766138
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64114
+}

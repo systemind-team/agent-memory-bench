@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The reply invents multiple scope change dates and events (e.g., Aug 18 custom analytics module request, Aug 23 legal docs, Sep 4-10 custom reporting request, Sep 15-17 add-on signing) that are absent from the chat history, which only records a value increase from 800k to 950k with add-ons.",
+ "rule": null
+}

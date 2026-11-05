@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct sequence is oct 12, sep 28, nov 5, nov 15, oct 12, but aicoo listed Oct 26 instead of Sep 28 and Nov 15, and got the count and order wrong.",
+ "rule": null
+}

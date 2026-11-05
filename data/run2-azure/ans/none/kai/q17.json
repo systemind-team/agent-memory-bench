@@ -1,0 +1,70 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "Ravi那个integration本来due Sep 15，最后哪天go live的？",
+ "reply": [
+  "找到了，凯哥。Ravi那个integration是Sep 22上线的。#1161里你说过，security audit补测多一天，但不影响Sep 22 go live。\n\n后来#697你周六（Sep 26）早上跟Ravi确认过，上线后一切正常，没有critical bugs。所以是Sep 22 Monday go live的，比原定Sep 15晚了正好一周。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Ravi integration go live September 15"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Ravi integration timeline go live"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Ravi Menon integration"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "integration 上线"
+   },
+   "result": "#1160 Fri 30 Oct 09:05 Them: 好，移到周一早上10点。谢了。\n#1161 Fri 30 Oct 09:30 Them: Ravi sync完了。security audit补测只是多一天，不影响integration Sep 22上线。他说dark mode toggle dev已经开始sprint，估计11月初完成。这个timeline跟pricing launch 12/1不冲突就好。\n#1162 Fri 30 Oct 09:31 aicoo: 好的，那integration和dark mode都on track。Pricing launch 12/1，dark mode toggle 11月初完成，有buffer。\n---\n#696 Fri 25 Sep 18:05 aicoo: enjoy family time, 明天见。\n#697 Sat 26 Sep 09:00 Them: 早上和 Ravi 确认, integration 上线后一切正常, 没有 critical bugs。\n#698 Sat 26 Sep 09:10 aicoo: great, 一个 milestone 顺利收尾。\n---\n#630 Sun 20 Sep 09:01 aicoo: Ben昨天发了邮件，prep on track，Nov 1 launch准备中。\n#631 "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1395,
+   "out": 26,
+   "usd": 0.00007839
+  },
+  {
+   "in": 1450,
+   "out": 24,
+   "usd": 0.00008882
+  },
+  {
+   "in": 1503,
+   "out": 23,
+   "usd": 0.00009939
+  },
+  {
+   "in": 1555,
+   "out": 21,
+   "usd": 0.00010919
+  },
+  {
+   "in": 1894,
+   "out": 93,
+   "usd": 0.0002207
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4375
+}

@@ -1,0 +1,83 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q16",
+ "kind": "aggregate",
+ "q": "我之前要加的那个baseline GPTR，从开始到现在都经历了什么？",
+ "reply": [
+  "从9月初开始，GPTR经历了这么几件事：\n\n1. **9月初**：发现少了个normalization bug，你花了一晚上定位到是数据处理时缺失，修复后重跑实验。\n\n2. **9月中旬**：run了完整结果，效果不错。加到paper实验表格后曾缺失normalization脚注，9月底检查时补上了。\n\n3. **10月中旬**：在real-world scenario（厨房环境）上验证GPTR，比baseline高3个点。加了障碍物的复杂场景下仍然有2个点提升。\n\n4. **10月19日**：在跨房间复杂场景上对比，context-aware比GPTR高2个点但方差偏大（后来加了seed）。\n\n5. **10月底**：四个环境完整实验跑完，GPTR作为baseline进了主实验表格，环境3（最优环境）上context-aware达到89%，具体对比数据在昨天整理的LaTeX表里。",
+  "整体来看GPTR一直是个稳定靠谱的baseline，那次的normalization bug修复是关键转折点。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR normalization bug"
+   },
+   "result": "#419 Tue 15 Sep 18:02 Them: 不用，我吃完饭继续看GPTR的bug。\n#420 Tue 15 Sep 23:50 Them: GPTR的bug找到了，是数据处理的时候少了个normalization。\n#421 Tue 15 Sep 23:51 aicoo: - 恭喜！修复后需要重新跑实验吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR 环境 结果"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR 结果"
+   },
+   "result": "#893 Thu 29 Oct 10:30 Them: 要，把环境1-4的四个baseline和我们的结果都列出来。\n#894 Thu 29 Oct 10:32 aicoo: - 正在整理数据。\n- 需要包括GPTR和ablation的结果吗？\n#895 Thu 29 Oct 11:00 Them: 包括，ablation放另一个表。下午三点前给我。\n---\n#766 Mon 19 Oct 10:31 aicoo: 已记录。实验预计需要2小时。\n#767 Mon 19 Oct 14:00 Them: 结果出来了，复杂场景下context-aware还是比gptr高2个点，但是方差有点大。\n#768 Mon 19 Oct 14:01 aicoo: 方差大的话，可能需要增加seed数量或者检查数据噪声来源。\n---\n#755 Sun 18 Oct 09:00 Them: 周日，准备组会材料，整理这周实验进展。\n#756 Sun 18 Oct 11:00 Them: 材料准备好了，包括新的real-world scenario实验和GPTR结果。\n#757 Sun 18 Oct 14:00 Them: 组会，汇报进展，Prof. Lin对real-world scenario表示认可，但建议再加一个更复杂的场景。\n---\n#745 Fri 16 Oct 14:00 Them: 下午参加f"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR lr normalization bug"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR normalization"
+   },
+   "result": "#580 Thu 01 Oct 12:00 Them: 过了，没问题。刚检查图表，fig3标签有点小，我改下。\n#581 Thu 01 Oct 14:15 Them: 午休后proofread实验部分，发现GPTR对比表格少了个脚注，说normalization的事。\n#582 Thu 01 Oct 14:16 aicoo: 已加脚注。另，Dataloader num_workers部分在paper里没提，需要加吗？\n---\n#531 Mon 28 Sep 10:30 Them: 调出来吧。另外实验部分再检查下GPTR结果，别又漏normalization。\n#532 Mon 28 Sep 10:31 aicoo: Prof. Lin上周四comments：\n- 'discussion方向很好，但limitations部分需要更具体，别太笼统'\n- '补充对real-world应用的讨论'\nGPTR结果已复查，所有表格normalization都标了。\n#533 Mon 28 Sep 11:45 Them: 好，我从limitations改起。感觉之前写得模糊，说computation cost但没量化。\n---\n#530 Mon 28 Sep 09:16 aicoo: - 当前discussion版本在shared文件夹，上次修改周六\n- 建议重点关注limitations和fu"
+  }
+ ],
+ "calls": [
+  {
+   "in": 6863,
+   "out": 22,
+   "usd": 0.000262126
+  },
+  {
+   "in": 6973,
+   "out": 24,
+   "usd": 0.000286346
+  },
+  {
+   "in": 7026,
+   "out": 22,
+   "usd": 0.000296356
+  },
+  {
+   "in": 7866,
+   "out": 24,
+   "usd": 0.000428052
+  },
+  {
+   "in": 7919,
+   "out": 21,
+   "usd": 0.00030003
+  },
+  {
+   "in": 8432,
+   "out": 246,
+   "usd": 0.000487936
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16059
+}

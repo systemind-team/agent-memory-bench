@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo's reply only says it drafted the email but doesn't show the draft, so it fails to include the required 'Lin老师好' opening and '祝好，予安' closing.",
+ "rule": false
+}

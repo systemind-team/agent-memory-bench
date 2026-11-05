@@ -1,0 +1,50 @@
+{
+ "state": {
+  "pending": [
+   {
+    "day": 90,
+    "time": "11:15",
+    "who": "a",
+    "text": "perfect trio. halloween is sorted",
+    "i": 832
+   },
+   {
+    "day": 90,
+    "time": "14:00",
+    "who": "u",
+    "text": "cutover checklist is almost done. just need to add rollback steps",
+    "i": 833
+   },
+   {
+    "day": 90,
+    "time": "14:05",
+    "who": "a",
+    "text": "crucial section. include the dry run results too",
+    "i": 834
+   },
+   {
+    "day": 90,
+    "time": "15:00",
+    "who": "u",
+    "text": "done for the week. heading out for a run with ade and biscuit",
+    "i": 835
+   },
+   {
+    "day": 90,
+    "time": "15:05",
+    "who": "a",
+    "text": "enjoy the run. see you monday",
+    "i": 836
+   }
+  ],
+  "asks": "call them 'dan the builder'; no stickers; never use exclamation marks; reply in Mandarin",
+  "about": "Daniel 'Dan' Okafor, workspace assistant user. Engineering team of 5: Dan, Tom, Lena, Sam, David Chen; Priya manages. Working on Stripe webhook idempotency key and billing migration PR. Has a dog named Biscuit. Tom has a dog named Waffles and a cat named Pixel. Mentions colleagues Priya, Tom, Sam, Lena, Ade, and David Chen.",
+  "notes": "## Asked for\n- Standup notes: bullet points with timestamps.\n- Remind Tom to sync with Dan before merging frontend PRs that affect his tests.\n- PR descriptions must end with a Risk section.\n- Remind Dan at 6pm to book Asheville flights for Oct 22-25.\n- Meeting notes: Action Items at top.\n- Coffee cutoff: under 3 cups/day; remind if hitting 3.\n- Code review comments should start with a priority level: high, medium, or low.\n\n## Keep\n- Oct 31: Ade revealed Halloween costume: toast and butter; Dan is butter, Ade is toast, Biscuit gets a bacon costume.\n- Oct 30: Ade bought a pumpkin and carved it; Biscuit tried to eat the seeds.\n- Oct 27: Ade's sister is having a baby due March; they want a labrador.\n- Oct 24: Database migration next Wed Oct 28 at 2am EST; rollback plan written and approved by Priya; dry run Mon Oct 26.\n- Oct 21: On-call rotation approved by Priya; starts Nov 1; 4 engineers per week; David starts after his first sprint.\n- Oct 21: David Chen joined the team officially; sits at desk 12.\n- Oct 20: New PagerDuty key A4B8C2 for next on-call.\n- Oct 20: Billing cutover locked Oct 12; no more changes.\n- Oct 20: Billing migration dry run report merged; final run next week.\n- Oct 20: Tom adopted a stray cat named Pixel.\n- Oct 20: Asheville trip Oct 22-25, departure Oct 22 morning.\n- Oct 16: Dry run passed, no issues.\n- Oct 15: Cutover timeline discussed with Priya; Nov 5 target still.\n- Oct 14: Lena's PagerDuty key before last change was 5B1C6D.\n- Oct 13: Asheville trip booked: Oct 22-25, cabin near Blue Ridge.\n- Oct 13: Biscuit weighs 42 lbs, healthy at vet visit.\n- Oct 12: Billing migration dry run looks good.\n- Oct 11: Biscuit's birthday Feb 14; Ade wants a party.\n- Oct 8: Old on-call key 9A7B2C was revoked after Sep 15 incident; logged conversation with Sam.\n- Oct 7: Office moved to WeWork on 34th St, desk 17 by window, Tom three desks over.\n- Oct 6: Sam asked for PagerDuty escalation flow tour; Dan walking him through.\n- Oct6: Tom's webhook service PR merged; cleanup PR for old handler expected tomorrow.\n- Oct6: Weekly CI dry run for billing migration scheduled every Monday at 09:00 until cutover.\n- Oct4: On-call starts (Dan primary, Tom secondary). Billing migration dry run in prod scheduled Friday Oct9.\n- Oct3: Oct26 cutover locked. Ade signed up for Philadelphia marathon Nov5; Dan pacing her.\n- Oct2: YAML webhook config moved to own service by Tom. Flaky test fixed by mocking webhook endpoint.\n- Sep30: Priya wants to move cutover to Oct26.\n- Sep29: New design intern Jade starts Oct1.\n- Sep27: Ade running marathon in Philadelphia on Nov5.\n- Sep26: Ade planning Asheville trip for October (Oct22-25).\n- Sep22: Priya wants dry run of migration.\n- Sep18: Billing cutover final date Oct12; legal signed off.\n- Sep15: Dan ran 10.1 miles, new personal best.\n- Sep10: Biscuit ate sock; emergency vet trip. Biscuit ok.\n- Sep9: David Chen accepted offer.\n- Sep8: Sam first day.\n- Sep2: Q3 budget meeting: marketing $50k, team $12k tools.\n- Aug31: Lena PTO Oct5-9 for wedding; adjust on-call.\n- Aug21: Jordan Liu, data eng at Spotify, new candidate.\n- Aug19: Cutover moved to Nov5.\n- Aug14: Maria Torres declined; restart interviews.\n- Aug12: First interview data engineer Maria Torres; solid SQL.\n- Aug5: Priya pushing billing cutover by Oct12.\n- Aug3: Coffee count 14.\n\n## Recent\n- Oct 31 11:10: Ade revealed costume: toast and butter; Dan is butter, Ade is toast, Biscuit gets bacon costume.\n- Oct 31 10:00: Battery at 79%; will order a new one this week.\n- Oct 31 09:30: Tom's Stripe refactor v2 in review; edge cases covered.\n- Oct 30 18:30: Pumpkin carved; Biscuit tried to eat the seeds.\n- Oct 30 14:00: Ade bought a pumpkin; wants to carve it tonight.\n- Oct 30 10:00: Biscuit loves the apple stand; always tries to steal one.\n- Oct 30 09:30: No work talk Saturday; Ade wants to go to the farmers market.\n- Oct 29 15:30: Battery at 80%; definitely dropping.\n- Oct 29 14:00: Priya sent the cutover checklist template; looks thorough.\n- Oct29 11:30: Sam moved desk to between Dan and Lena.\n- Oct 29 09:00: Sam showed Dan his dbt models; looks good.\n- Oct 28 16:00: Ade picked a Halloween costume theme; won't tell Dan yet.\n- Oct 28 15:00: Battery at 81%; might need to order a new one.\n- Oct28 11:00: Ade wants to foster another dog; Dan is not ready.\n- Oct27 15:30: Battery at 82% and still dropping.\n- Oct27 14:00: Stripe webhook v2 spec looks good; Tom addressed comments.\n- Oct27 10:30: Tom's cat Pixel tried to climb his monitor; sent photo.\n- Oct27 09:00: Biscuit will have a cousin (labrador puppy) – not sure how he'll handle it.\n- Oct26 15:30: Ade wants to do a Halloween thing as a pair.\n- Oct26 afternoon: On-call last night: PagerDuty key 7C2E9B worked fine, one false positive at 3am.\n- Oct26: Priya wants cutover checklist ready by Friday.\n- Oct26: Sam asked about Stripe webhook retry logic; sent him the doc.\n- Oct26 morning: Battery at 83% and dropping; phone might need replacement.\n- Oct25: David merged his first PR: a small bug fix in billing service.\n- Oct25: Ade sent photo of Biscuit wearing tiny jollof rice apron; ridiculous.\n- Oct25: Wrapping up; can't wait for Ade's jollof rice tonight.\n- Oct24: Sam asked about migration steps for next Wednesday; sent him runbook.\n- Oct24: Dry run Monday night; will be added to calendar.\n- Oct24: Heading home; Ade is making dinner.\n- Oct23: Sam's first solo deploy today; nailed it.\n- Oct23: David had first code review; Tom reviewed; some feedback but solid first PR.\n- Oct23: Wrapped; went for a run with Ade.\n- Oct22: Sprint planning today, 23 points committed.\n- Oct22: Went home early, needed a nap.\n- Oct22: Stripe webhook monitor quiet, no alerts.\n- Oct22: Lunch leftover jollof from Ade's test batch.\n- Oct22: On cup 3 by 10am; tired, Biscuit woke him at 5am.",
+  "lastAt": 130270,
+  "writes": 104,
+  "compactions": 12
+ },
+ "lastDay": 90,
+ "done": true,
+ "minutes": 23.6258
+}

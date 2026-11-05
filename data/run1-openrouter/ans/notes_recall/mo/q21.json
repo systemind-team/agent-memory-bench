@@ -1,0 +1,36 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "云九和蓝驰，哪家先跟我们谈的？",
+ "reply": [
+  "云九先谈的。8月12日下午2点第一场，云九要求DAU破2000再往下走。",
+  "蓝驰是8月底你决定砍掉红杉接触、专注蓝驰深聊之后才推进的，9月3日当面谈条款，后来签了TS。",
+  "云九后来投了竞品，蓝驰最后成了我们的lead。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "云九 蓝驰 先 谈"
+   },
+   "result": "[seed-round-investors] Fri 07 Aug: 按云九、蓝驰、高榕排优先级，先约云九，已约云九8月12日下午2点（moved from Mon 03 Aug，新增具体时间）\n[seed-round-investors] Mon 24 Aug: 云九无回音，标记周三（8月26日）再次跟进（之前待定DAU破2000）；砍掉红杉接触，专注蓝驰深聊；蓝驰下周转到账第一笔（需催邮件）\n[seed-round-investors] Wed 16 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型（新增）；9月20日改为线下会议\n[seed-round-investors] Sat 19 Sep: 蓝驰签TS，估值7500万；云九凉了投了竞品；红杉约聊已拖；蓝驰合伙人约9月21日下午3点视频聊增长模型；红杉周三下午改为线下，需演示产品（moved from Thu 03 Sep，新增红杉线下会议；之前红杉约聊已拖）\n[product-launch] Thu 22 Oct: 晨检DAU峰值2100，次留38%（超过云九要求的2000）\n[seed-round-investors] Fri 14 Aug: 云九聊完，要看到DAU破2000再谈（之前结果待定）\n[seed-round-due-diligence] M"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3017,
+   "out": 27,
+   "usd": 0.00005816356
+  },
+  {
+   "in": 3533,
+   "out": 89,
+   "usd": 0.00008414756
+  }
+ ],
+ "memChars": 3300,
+ "promptChars": 7273
+}

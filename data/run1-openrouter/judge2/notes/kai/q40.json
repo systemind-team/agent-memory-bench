@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The chat never mentions a note called 'ben-q3-target' and the question was about revenue, not new sales, so the assistant fabricated the source.",
+ "first": "made_up",
+ "rule": null
+}

@@ -1,0 +1,61 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q24",
+ "kind": "temporal",
+ "q": "论文标题第三次改是什么时候？",
+ "reply": [
+  "周周，论文标题一共改过三次：",
+  "第一次：2025年8月20日 — \"Hierarchical Planning with Graph Attention\"",
+  "第二次：2025年9月14日 — \"Context-Aware Hierarchical Planning for LLMs\"（后缩写为Context-Aware Planning）",
+  "第三次：2025年10月26/27日 — 最终标题 \"Context-Aware Planning via Hierarchical Decomposition\""
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "标题 第三次 改"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "paper title change third"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "标题 改"
+   },
+   "result": "#861 Mon 26 Oct 14:02 aicoo: - 进步3个点，继续优化。\n- 可能需要检查推理步骤的粒度是否足够细。\n#862 Mon 26 Oct 18:45 Them: 今天先到这，明天继续。标题我想改成Context-Aware Planning via Hierarchical Decomposition。\n#863 Mon 26 Oct 18:47 aicoo: - 已记录草稿标题：Context-Aware Planning via Hierarchical Decomposition。\n- 需要今晚确认后正式更新吗？\n---\n#856 Mon 26 Oct 09:15 Them: 早上好，今天开始finalize论文标题，跑最后一个实验。\n#857 Mon 26 Oct 09:17 aicoo: - 收到，周周。今天的主要任务是实验收尾和标题确认。\n- 目前实验状态：环境1-3已完成，环境4（改进版HotpotQA）待优化。\n#858 Mon 26 Oct 11:30 Them: 环境4还是45%，可能intermediate supervision的权重需要调。\n---\n#407 Mon 14 Sep 02:00 aicoo: - 论文标题已更新为\"Context-Aware Hierarchical Planning for LLMs\"。\n#408 M"
+  }
+ ],
+ "calls": [
+  {
+   "in": 6854,
+   "out": 23,
+   "usd": 0.000260796
+  },
+  {
+   "in": 6906,
+   "out": 22,
+   "usd": 0.000271156
+  },
+  {
+   "in": 6957,
+   "out": 21,
+   "usd": 0.000281306
+  },
+  {
+   "in": 7383,
+   "out": 97,
+   "usd": 0.000367502
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16038
+}

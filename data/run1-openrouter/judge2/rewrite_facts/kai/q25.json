@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The reply claims multiple scope changes including custom reporting and export, but the provided chat shows only one confirmed change (custom analytics module raising value to 950k), and later additions are not confirmed scope changes in the messages.",
+ "first": "stale",
+ "rule": null
+}

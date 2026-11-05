@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "它回答的截止日期是12月20日，但用户之前明确说过第一个fellowship截止是11月15号。",
+ "rule": null
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "Ravi的vacation是下个月吗? 上次好像说了.",
+ "reply": [
+  "凯哥，根据之前的记录，Ravi没有提过下个月vacation的安排。我帮你查一下他最近的calendar或消息，看他有没有说过。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36343,
+   "out": 33,
+   "usd": 0.00030580732
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91598
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "Assistant cited Aug 30 from the chat message date, but the user later clarified the incident occurred on Aug 18.",
+ "first": "wrong",
+ "rule": null
+}

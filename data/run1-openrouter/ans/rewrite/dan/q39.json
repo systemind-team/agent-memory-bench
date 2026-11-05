@@ -1,0 +1,58 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q39",
+ "kind": "pref_apply",
+ "q": "review this code for the webhook handler",
+ "reply": [
+  "dan the builder, 我没找到你发来的具体代码。你贴一下代码？我按你的标准来——priority level 开头，然后过一遍逻辑、边缘情况和风险",
+  "另外提醒一下，今天是周日，你上周五说周末不谈工作。如果这是紧急的事，我直接看；如果不是，可以等周一再聊"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "webhook handler code review"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Stripe webhook handler"
+   },
+   "result": "#81 Tue 11 Aug 08:13 aicoo: biscuit tax. hope the second cup kicks in\n#82 Tue 11 Aug 09:00 Them: stripe webhook handler is almost done. just need to test the idempotency key path\n#83 Tue 11 Aug 09:01 aicoo: nice. let me know if you need a review slot"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "code review"
+   },
+   "result": "#746 Fri 23 Oct 14:01 aicoo: sam is growing fast. first solo deploy success.\n#747 Fri 23 Oct 16:00 Them: david had his first code review. tom reviewed it. some feedback but solid first PR.\n#748 Fri 23 Oct 16:01 aicoo: good first PR. david will settle in quickly.\n---\n#666 Fri 16 Oct 13:05 aicoo: 完美, 信心大增\n#667 Fri 16 Oct 14:00 Them: code review comments should start with a priority level: high, medium, or low\n#668 Fri 16 Oct 14:05 aicoo: 这个标准很实用, 我会记住\n---\n#654 Thu 15 Oct 12:05 aicoo: 享受好天气\n#655 Thu 15 Oct 14:00 Them: code review for sam's pr, looks clean\n#656 Thu 15 Oct 14:05 aicoo: 山姆学得很快\n---\n#"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2996,
+   "out": 23,
+   "usd": 0.00003204152
+  },
+  {
+   "in": 3048,
+   "out": 23,
+   "usd": 0.00003415272
+  },
+  {
+   "in": 3165,
+   "out": 20,
+   "usd": 0.00003865932
+  },
+  {
+   "in": 3790,
+   "out": 77,
+   "usd": 0.00006866272
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10701
+}

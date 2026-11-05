@@ -1,0 +1,22 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "Hey aicoo, 今天有啥好消息?",
+ "reply": [
+  "凯哥早！周日好呀。好消息：你父亲血压稳定，女儿Halloween超开心，这都是大好事。",
+  "另外，周一priority已经排好：pricing meeting、Grace的headcount timeline、Ravi的integration timeline，还有跟Lily和Omar要customer quote的事。这些都在你掌控中，今天先别想工作。",
+  "今天有什么安排？带家人出去吃个早午餐，或者在家放松一下？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1412,
+   "out": 101,
+   "usd": 0.000023954
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4351
+}

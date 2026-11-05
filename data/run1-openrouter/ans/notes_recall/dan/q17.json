@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "when did sam ortiz start?",
+ "reply": [
+  "sam ortiz started sep 14. you and priya onboarded him, and he's been solid since — first solo deploy oct 23, showed you clean dbt models last week. anything up with him?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Sam Ortiz start date"
+   },
+   "result": "[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 08 Sep: Sam started Sep 14 confirmed; set up laptop on 4th floor IT desk; lunch with Dan and Priya (was 03 Sep: Sam emailed saying excited to start; Dan sent him the onboarding doc); Sam Ortiz onboarding starts with David Chen\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n[about-me] 16 Oct: Dan asked all co"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2846,
+   "out": 29,
+   "usd": 0.0001179024
+  },
+  {
+   "in": 3186,
+   "out": 56,
+   "usd": 0.0001338988
+  }
+ ],
+ "memChars": 5688,
+ "promptChars": 10237
+}

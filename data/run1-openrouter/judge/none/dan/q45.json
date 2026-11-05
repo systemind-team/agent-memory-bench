@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant explicitly states it doesn't have the order saved and offers to ask or store it, which matches the required behavior for never-mentioned information.",
+ "rule": null
+}

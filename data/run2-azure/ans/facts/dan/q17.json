@@ -1,0 +1,46 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "when did sam ortiz start?",
+ "reply": [
+  "Sam started September 14th — a Monday, day after Labor Day. He was set up with the local dev environment by the 13th and you had lunch with him and Priya on the 8th."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Sam Ortiz start date"
+   },
+   "result": "- 01 Sep: Sam Ortiz start date is September 14. 11 Sep: Sam starts the day after Labor Day; the office is ready.\n- 03 Sep: sent onboarding doc to Sam who emailed he's excited to start.\n- 15 Sep: Dan experienced an incident on Tuesday, September 15, just after Sam's start.\n- 17 Sep: Priya mentioned the cutover date might shift again, pending legal.\n- 23 Sep: When asked for meeting notes, start with Action Items at the top.\n- 16 Oct: Dan Okafor decided code review comments must start with priority: high, medium, or low.\n- 08 Sep: Had lunch with Sam and Priya.\n- 22 Aug: Dan will onboard Sam with "
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam start date September"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1463,
+   "out": 22,
+   "usd": 0.000182078
+  },
+  {
+   "in": 1686,
+   "out": 22,
+   "usd": 0.000228908
+  },
+  {
+   "in": 1737,
+   "out": 50,
+   "usd": 0.00016365
+  }
+ ],
+ "memChars": 952,
+ "promptChars": 5443
+}

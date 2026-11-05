@@ -1,0 +1,47 @@
+{
+ "arm": "facts",
+ "id": "mo",
+ "qid": "q36",
+ "kind": "pref_apply",
+ "q": "帮我写个周报草稿",
+ "reply": [
+  "好的，根据上周最后的情况，我帮你拟一版周报草稿：",
+  "**本周完成**\n1. 崇明团队 offsite（28-30日）\n2. 蓝驰第二笔投资到账，账面现金600万\n3. 团队休整\n\n**下周重点**\n1. 大伟推进新渠道拓展\n2. 成都合作继续推进\n3. 安卓版11月中上线准备\n\n**本周风险**\n暂未发现重大风险。用户反馈汇总：本周无新增用户反馈。",
+  "你看看还需要加什么内容？比如大伟的KPI进度、具体渠道名字这些，我补进去。"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "周报 格式"
+   },
+   "result": "- 31 Oct: 陈默要求aicoo发送周报。\n- 27 Sep: 甲方广告位换了，需调整格式，下午发。\n- 以后周报里加一段「本周风险」，放在最后，并加用户反馈汇总。PR描述最后必须加一个Risk部分。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周报 本周完成 下周重点"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1271,
+   "out": 18,
+   "usd": 0.00002811956
+  },
+  {
+   "in": 1365,
+   "out": 22,
+   "usd": 0.00003226076
+  },
+  {
+   "in": 1416,
+   "out": 152,
+   "usd": 0.0000282576
+  }
+ ],
+ "memChars": 145,
+ "promptChars": 4053
+}

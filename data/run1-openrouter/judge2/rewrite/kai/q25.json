@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "aicoo claims two scope changes and an unconfirmed export request on 10/14, but the chat only shows one scope change (adding a custom analytics module) and the 10/14 export inquiry; the reply misses the single recorded change with value increase from 800k to 950k.",
+ "first": "made_up",
+ "rule": null
+}

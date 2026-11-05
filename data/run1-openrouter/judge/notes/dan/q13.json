@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It says 2 candidates, but 3 were interviewed (Maria, Jordan, David), so it's using an outdated value.",
+ "rule": null
+}

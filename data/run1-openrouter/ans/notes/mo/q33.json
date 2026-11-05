@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "早啊，汇报下今天待办",
+ "reply": [
+  "早。今天周日，休息日，没有固定待办。",
+  "不过如果你想提前做点事：红杉视频会议的材料你上周说10月25日准备，我还没见你发过来，需要我调出上次准备的版本帮你过一遍？",
+  "另外成都协会加单的状态你上次没确认，今天要我跟进一下吗"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "today tasks"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2450,
+   "out": 20,
+   "usd": 0.00002626008
+  },
+  {
+   "in": 2499,
+   "out": 80,
+   "usd": 0.00003312148
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6254
+}

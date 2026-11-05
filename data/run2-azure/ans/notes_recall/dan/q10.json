@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "现在是5个人。David Chen 10月21号正式加入之后就是5人团队了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "team size current count"
+   },
+   "result": "[about-me] 16 Oct: team agreed on the priority level standard\n[candidate-david-chen] 21 Oct: David Chen joined officially; team now 5\n[checkout-spec] 11 Aug: flaky test fixed by Dan; was a race condition in the billing factory; count down to 2; one more flaky in search owned by Lena; 14 Aug: billing flaky test also fixed, count down to 0"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2544,
+   "out": 22,
+   "usd": 0.000179968
+  },
+  {
+   "in": 2673,
+   "out": 27,
+   "usd": 0.00011821
+  }
+ ],
+ "memChars": 4730,
+ "promptChars": 9283
+}

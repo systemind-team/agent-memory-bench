@@ -1,0 +1,34 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我现在论文的title是什么？",
+ "reply": [
+  "你目前论文的title是 **Context-Aware Planning**（在9月27日精简后的版本），不再用之前的Planning with Hierarchical Graphs。\n\n需要我帮你确认overleaf上的最新编译版本和这个title一致吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文 title"
+   },
+   "result": "#513 Sat 26 Sep 22:01 aicoo: 好的，之后会称你为'周周'。\n#514 Sun 27 Sep 01:00 Them: 又把论文title精简成Context-Aware Planning了，不想太长。\n#515 Sun 27 Sep 01:02 aicoo: - 新标题更简洁有力。\n- 已更新标题记录，并在编译好的draft中应用。\n---\n#46 Fri 07 Aug 00:31 aicoo: 这么晚还不休息，注意身体。\n#47 Fri 07 Aug 01:00 Them: 论文working title先叫Planning with Hierarchical Graphs吧，以后再改。\n#48 Fri 07 Aug 01:01 aicoo: 收到，先记下来。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1242,
+   "out": 20,
+   "usd": 0.000088724
+  },
+  {
+   "in": 1438,
+   "out": 57,
+   "usd": 0.000150604
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4000
+}

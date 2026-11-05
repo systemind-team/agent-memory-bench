@@ -1,0 +1,48 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "this week's a big one. monday is oct 26 recheck reminder i set, and priya wants the cutover checklist done by friday with rollback steps. you said you'd add those and include dry run results.",
+  "db migration is wednesday 2am, you're on call. tuesday night dry run with sam. and your laptop battery at 79% — check with IT about ordering a replacement before cutover. david's fully onboarded now, so the team's five strong.",
+  "ade's sister expecting a labrador is still fresh. oh, and the on-call rotation starts nov 1 — you sent priya the proposal on wed, she approved. want me to send you the schedule so you know who's covering?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "week of Nov 1"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Nov 1 cutover migration on-call"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5299,
+   "out": 23,
+   "usd": 0.00020919
+  },
+  {
+   "in": 5351,
+   "out": 27,
+   "usd": 0.00022235
+  },
+  {
+   "in": 5407,
+   "out": 163,
+   "usd": 0.000264446
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17901
+}

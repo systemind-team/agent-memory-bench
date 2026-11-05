@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The gold requirement is to reply in English, but aicoo's reply is in Chinese, not English.",
+ "rule": true
+}

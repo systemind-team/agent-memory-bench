@@ -1,0 +1,81 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "did i book the asheville flights like i promised ade?",
+ "reply": [
+  "dan the builder, 我翻了一遍记录，10月13号你说asheville trip booked了——是cabin near blue ridge，10月22-25。但没看到具体的航班预订记录。你当时是订了cabin加上航班，还是只订了住宿？如果航班没订，今天周日可以搞定，周一早上提醒我也行。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville flights booked"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville 航班 预订"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Asheville trip"
+   },
+   "result": "#622 Mon 12 Oct 16:05 aicoo: 已注意到, 我会追踪\n#623 Tue 13 Oct 09:30 Them: asheville trip booked: oct 22-25. cabin near blue ridge\n#624 Tue 13 Oct 09:35 aicoo: 秋天去蓝岭, 完美时机\n---\n#449 Sat 26 Sep 10:01 aicoo: a rare win. enjoy it\n#450 Sat 26 Sep 14:20 Them: ade's planning a trip to asheville for us. october\n#451 Sat 26 Sep 14:21 aicoo: nice. asheville is great this time of year"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "book Asheville flights"
+   },
+   "result": "#230 Sat 29 Aug 10:30 aicoo: big milestone\n#231 Sat 29 Aug 11:20 Them: promised ade i'd book asheville flights tonight. remind me at 6\n#232 Sat 29 Aug 11:20 aicoo: sure, reminder set for 6pm"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "6pm 提醒 预订 航班 Asheville"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3002,
+   "out": 23,
+   "usd": 0.00003228512
+  },
+  {
+   "in": 3054,
+   "out": 25,
+   "usd": 0.00003455872
+  },
+  {
+   "in": 3108,
+   "out": 22,
+   "usd": 0.00003650752
+  },
+  {
+   "in": 3292,
+   "out": 22,
+   "usd": 0.00004397792
+  },
+  {
+   "in": 3395,
+   "out": 40,
+   "usd": 0.000141085
+  },
+  {
+   "in": 3478,
+   "out": 82,
+   "usd": 0.00003977176
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10714
+}

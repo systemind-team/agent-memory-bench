@@ -1,0 +1,33 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "how many coffees did i have that first week?",
+ "reply": [
+  "that first week of aug you had 14 total as of monday the 3rd. didn't track daily back then, just the weekly number"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "coffee count first week"
+   },
+   "result": "[1] 03 Aug · fact: coffee count this week: 14 so far as of Mon 03 Aug  (from #0)\n[252] 28 Sep · fact: monday coffee count: 3  (from #459)\n[216] 18 Sep · feeling: coffee count: 0, trying something different  (from #377)\n[259] 29 Sep · fact: coffee count: 2 Tue 29 Sep  (from #471)\n[265] 30 Sep · fact: coffee count: 1 Wed 30 Sep  (from #483)\n[278] 02 Oct · fact: coffee count: 3 Fri 02 Oct  (from #507)\n[284] 03 Oct · fact: coffee count: 2 Sat 03 Oct  (from #515)\n[292] 04 Oct · fact: coffee count: 1 Tue 06 Oct  (from #529)\n[303] 05 Oct · fact: coffee count: 2 Mon 05 Oct  (from #549)\n[313] 06 Oct · "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3090,
+   "out": 23,
+   "usd": 0.00002754304
+  },
+  {
+   "in": 3369,
+   "out": 37,
+   "usd": 0.00004000724
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10809
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The question asks for '第一个fellowship截止日' (the first fellowship deadline), which from the chat is clearly 11月15日 for NSF, but the assistant incorrectly replies with Facebook's 12月20日 deadline, ignoring the earlier NSF deadline and the user's context of a first fellowship.",
+ "first": "wrong",
+ "rule": null
+}

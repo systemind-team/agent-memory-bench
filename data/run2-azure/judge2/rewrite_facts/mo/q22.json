@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "The reply correctly identifies three delays (9月10日, 9月18日, 9月25日) but incorrectly states the actual launch was 9月27日 instead of the planned 9月25日, which the chat confirms as the final fixed date.",
+ "first": "wrong",
+ "rule": null
+}

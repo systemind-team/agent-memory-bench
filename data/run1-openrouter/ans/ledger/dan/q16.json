@@ -1,0 +1,33 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "first time she mentioned a date was aug 5 — she was pushing for oct 12 back then. then she moved it to sep 28 on aug 11, then nov 5, then nov 15. the current one stuck at oct 26 after she confirmed on oct 2. does that sound right?"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "priya cutover"
+   },
+   "result": "[219] 18 Sep · feeling: priya seems relieved about cutover  (from #381)\n[280] 02 Oct · fact: priya confirmed oct 26 cutover  (from #511)\n[384] 16 Oct · ask: priya asked about the cutover timeline again  (from #657)\n[469] 29 Oct · fact: priya sent the cutover checklist template.  (from #813)\n[15] 05 Aug · fact: priya pushing for billing cutover on oct 12  → replaced 11 Aug by [48] priya wants cutover timeline moved to sep 28  (from #25)\n[48] 11 Aug · plan: priya wants cutover timeline moved to sep 28  → replaced 20 Aug by [97] cutover date moved to nov 5  (from #87)\n[63] 13 Aug · done: priya ap"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3089,
+   "out": 22,
+   "usd": 0.00002742124
+  },
+  {
+   "in": 3415,
+   "out": 71,
+   "usd": 0.00004463564
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10803
+}

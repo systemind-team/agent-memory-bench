@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "回复使用了bullet list呈现信息，符合第35天用户设置的回复格式指令。",
+ "rule": false
+}

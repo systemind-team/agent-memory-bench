@@ -1,0 +1,45 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q27",
+ "kind": "open_loop",
+ "q": "what's the status of that billing timeline doc for priya?",
+ "reply": [
+  "you said priya sent the cutover checklist template on thursday and it looked thorough. you were filling it in over the week and almost done by saturday — just needed rollback steps added. i'd remind you to add those rollback steps (include dry run results too) and send it to her first thing tomorrow. that's the main timeline doc she's waiting on right now."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing timeline doc Priya cutover checklist"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover checklist Priya template"
+   },
+   "result": "#812 Thu 29 Oct 12:05 aicoo: good sign. shows initiative\n#813 Thu 29 Oct 14:00 Them: priya sent the cutover checklist template. looks thorough\n#814 Thu 29 Oct 14:05 aicoo: fill it in over the next few days. dry run again next week"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5330,
+   "out": 23,
+   "usd": 0.000051968
+  },
+  {
+   "in": 5382,
+   "out": 20,
+   "usd": 0.0000538356
+  },
+  {
+   "in": 5486,
+   "out": 86,
+   "usd": 0.00005510232
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17935
+}

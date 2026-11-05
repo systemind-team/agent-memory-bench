@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The latest title is 'Hierarchical Planning with Graph Attention', but aicoo incorrectly states it as 'Context-Aware Planning via Hierarchical Decomposition'.",
+ "rule": null
+}

@@ -1,0 +1,82 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "给蓝驰的用户次留数据是多少？",
+ "reply": [
+  "上次发蓝驰的用户次留存是34%，9月22号给的。后面10月18号涨到37%，不过没有单独再给蓝驰更新过。要不要我把最新数据整理一下发给他们"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "用户次留蓝驰 数据"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "次留存 蓝驰"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "用户次留 数据"
+   },
+   "result": "#397 Mon 21 Sep 14:01 aicoo: 好的，以后不发贴图\n#398 Tue 22 Sep 09:20 Them: 蓝驰尽调要我们用户次留数据，现在34%\n#399 Tue 22 Sep 09:21 aicoo: 34%对健康类小程序算中上，我准备一下对比数据包"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "次留存 37%"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "次留存 涨至"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4011,
+   "out": 25,
+   "usd": 0.00085631
+  },
+  {
+   "in": 4065,
+   "out": 23,
+   "usd": 0.00017917
+  },
+  {
+   "in": 4117,
+   "out": 23,
+   "usd": 0.00019009
+  },
+  {
+   "in": 4232,
+   "out": 22,
+   "usd": 0.000167856
+  },
+  {
+   "in": 4283,
+   "out": 23,
+   "usd": 0.00022495
+  },
+  {
+   "in": 4349,
+   "out": 50,
+   "usd": 0.000208106
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8489
+}

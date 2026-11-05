@@ -1,0 +1,59 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "Mia的休假是什么时候来着？",
+ "reply": [
+  "我们之前的聊天里没有提过Mia的休假时间。你是有在别的文档里记过吗，还是我跟你们聊的时候漏掉了？",
+  "如果知道的话告诉我，我记下来提醒大家。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mia 休假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mia 假期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mia 休息"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1103,
+   "out": 22,
+   "usd": 0.000060654
+  },
+  {
+   "in": 1154,
+   "out": 22,
+   "usd": 0.000071364
+  },
+  {
+   "in": 1205,
+   "out": 22,
+   "usd": 0.000082074
+  },
+  {
+   "in": 1256,
+   "out": 51,
+   "usd": 0.000109024
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3627
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant searched the chat and said it couldn't find the information, then asked the user to tell it which conference.",
+ "rule": null
+}

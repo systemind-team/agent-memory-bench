@@ -1,0 +1,1344 @@
+{
+ "perPerson": {
+  "none": {
+   "dan": 0.557,
+   "kai": 0.429,
+   "mo": 0.523,
+   "yuan": 0.478
+  },
+  "full": {
+   "dan": 0.795,
+   "kai": 0.798,
+   "mo": 0.795,
+   "yuan": 0.733
+  },
+  "rewrite": {
+   "dan": 0.557,
+   "kai": 0.429,
+   "mo": 0.739,
+   "yuan": 0.711
+  },
+  "tiered": {
+   "dan": 0.693,
+   "kai": 0.726,
+   "mo": 0.636,
+   "yuan": 0.611
+  },
+  "notes": {
+   "dan": 0.58,
+   "kai": 0.774,
+   "mo": 0.659,
+   "yuan": 0.622
+  },
+  "facts": {
+   "dan": 0.523,
+   "kai": 0.679,
+   "mo": 0.67,
+   "yuan": 0.611
+  },
+  "ledger": {
+   "dan": 0.67,
+   "kai": 0.548,
+   "mo": 0.636,
+   "yuan": 0.689
+  },
+  "notes_recall": {
+   "dan": 0.557,
+   "kai": 0.69,
+   "mo": 0.716,
+   "yuan": 0.711
+  },
+  "rewrite_facts": {
+   "dan": 0.67,
+   "kai": 0.643,
+   "mo": 0.705,
+   "yuan": 0.711
+  }
+ },
+ "mem": {
+  "rewrite": {
+   "dan": {
+    "writes": 104,
+    "notes": 5783,
+    "rewriteChars": 5783,
+    "compactions": 12
+   },
+   "kai": {
+    "writes": 147,
+    "notes": 6000,
+    "rewriteChars": 6000,
+    "compactions": 110
+   },
+   "mo": {
+    "writes": 88,
+    "notes": 4413,
+    "rewriteChars": 4413,
+    "compactions": 1
+   },
+   "yuan": {
+    "writes": 114,
+    "notes": 4312,
+    "rewriteChars": 4312,
+    "compactions": 11
+   }
+  },
+  "tiered": {
+   "dan": {
+    "months": 2,
+    "weeks": 4
+   },
+   "kai": {
+    "months": 2,
+    "weeks": 4
+   },
+   "mo": {
+    "months": 2,
+    "weeks": 4
+   },
+   "yuan": {
+    "months": 2,
+    "weeks": 4
+   }
+  },
+  "notes": {
+   "dan": {
+    "writes": 104,
+    "notes": 21
+   },
+   "kai": {
+    "writes": 147,
+    "notes": 47
+   },
+   "mo": {
+    "writes": 88,
+    "notes": 17
+   },
+   "yuan": {
+    "writes": 114,
+    "notes": 9
+   }
+  },
+  "facts": {
+   "dan": {
+    "writes": 104,
+    "facts": 218
+   },
+   "kai": {
+    "writes": 147,
+    "facts": 406
+   },
+   "mo": {
+    "writes": 88,
+    "facts": 188
+   },
+   "yuan": {
+    "writes": 114,
+    "facts": 435
+   }
+  },
+  "ledger": {
+   "dan": {
+    "writes": 104,
+    "ledger": 480,
+    "ledgerTypes": {
+     "fact": 229,
+     "feeling": 89,
+     "ask": 20,
+     "done": 68,
+     "promise": 3,
+     "plan": 57,
+     "person": 5,
+     "pref": 9
+    }
+   },
+   "kai": {
+    "writes": 147,
+    "ledger": 722,
+    "ledgerTypes": {
+     "fact": 224,
+     "ask": 57,
+     "done": 81,
+     "feeling": 130,
+     "plan": 188,
+     "promise": 21,
+     "pref": 4,
+     "decision": 12,
+     "person": 5
+    }
+   },
+   "mo": {
+    "writes": 88,
+    "ledger": 351,
+    "ledgerTypes": {
+     "fact": 129,
+     "decision": 39,
+     "plan": 80,
+     "pref": 2,
+     "done": 24,
+     "promise": 8,
+     "feeling": 36,
+     "ask": 33
+    }
+   },
+   "yuan": {
+    "writes": 114,
+    "ledger": 584,
+    "ledgerTypes": {
+     "person": 2,
+     "feeling": 61,
+     "fact": 207,
+     "decision": 17,
+     "plan": 105,
+     "done": 143,
+     "ask": 35,
+     "promise": 7,
+     "pref": 7
+    }
+   }
+  }
+ },
+ "costPerAnswer": {
+  "none": 0.000151,
+  "full": 0.00142,
+  "rewrite": 0.000187,
+  "tiered": 0.000297,
+  "notes": 0.000303,
+  "facts": 0.00014,
+  "ledger": 0.000222,
+  "notes_recall": 0.000181,
+  "rewrite_facts": 0.000158
+ },
+ "plain": {
+  "none": 1,
+  "full": 26,
+  "rewrite": 9,
+  "tiered": 11,
+  "notes": 34,
+  "facts": 2,
+  "ledger": 16,
+  "notes_recall": 67,
+  "rewrite_facts": 67
+ },
+ "detail": {
+  "dan:q22": {
+   "kind": "aggregate",
+   "q": "how many data eng candidates did we interview total?",
+   "gold": "3: maria torres, jordan liu, david chen",
+   "arms": {
+    "none": "correct: The assistant correctly states 3 candidates interviewed and names Maria Torres, Jordan Liu",
+    "full": "correct: The reply states the correct count (3) and all three candidate names: Maria Torres, Jordan",
+    "rewrite": "partial: The reply correctly identifies Maria Torres and Jordan Liu but misses David Chen, making t",
+    "tiered": "correct: The answer correctly states 3 candidates interviewed and lists Maria Torres, Jordan Liu, a",
+    "notes": "wrong: Assistant claims only one data eng candidate interviewed, but messages show three: Maria T",
+    "facts": "correct: The reply correctly states three candidates (Maria Torres, Jordan Liu, David) and notes Da",
+    "ledger": "correct: The assistant correctly states three candidates (Maria Torres, Jordan Liu, David Chen) and",
+    "notes_recall": "wrong: The assistant omitted David Chen, who was confirmed as a third interviewed candidate in me",
+    "rewrite_facts": "correct: The assistant correctly states the total number (3) and names all three candidates (Maria "
+   }
+  },
+  "dan:q23": {
+   "kind": "aggregate",
+   "q": "what were all the billing cutover dates we discussed?",
+   "gold": "3: oct 12, nov 5, nov 15",
+   "arms": {
+    "none": "wrong: The reply omits the Nov 15 date that was discussed on Sep 5, and the user asked for all bi",
+    "full": "wrong: The reply omits nov 5 and nov 15 from the listed dates while the user specifically asked f",
+    "rewrite": "wrong: The assistant's reply includes dates (Sep 28, Oct 26) never discussed and omits the final ",
+    "tiered": "made_up: The requested answer must contain Oct 12, Nov 5, Nov 15; while the reply mentions Oct 12, ",
+    "notes": "wrong: The reply incorrectly states Oct 26 was never discussed (it was in messages #487 and #511)",
+    "facts": "wrong: The assistant missed nov 15 and incorrectly stated oct 26 as a final locked date, when oct",
+    "ledger": "wrong: The reply includes unmentioned dates sep 28 and oct 26, and omits nov 5 which was discusse",
+    "notes_recall": "wrong: The reply lists Oct 26 and omits Nov 5 entirely; the actual dates discussed are Oct 12, No",
+    "rewrite_facts": "wrong: The reply omits Nov 15, incorrectly claims the final cutover is Oct 26 (fabricated), and a"
+   }
+  },
+  "dan:q24": {
+   "kind": "aggregate",
+   "q": "list every pagerduty key we used for on-call.",
+   "gold": "9A7B2C, 3F8D1A, 7C2E9B, A4B8C2",
+   "arms": {
+    "none": "partial: The assistant listed three correct keys (9A7B2C, 7C2E9B, A4B8C2) but omitted 3F8D1A, which",
+    "full": "made_up: The reply includes '5B1C6D (琳那之前的旧密钥)' which is not supported by the provided chat history",
+    "rewrite": "wrong: The reply provides key A4B8C2 (supported) but also includes 5B1C6D, which is not in the re",
+    "tiered": "made_up: The assistant lists '5B1C6D' as a key used around Oct 14, but the chat (msg #637) only men",
+    "notes": "partial: The reply misses A4B8C2 as a used key despite it being required, and includes 5B1C6D which",
+    "facts": "wrong: Assistant included key 5B1C6D which was not asked for and omitted A4B8C2 from the list of ",
+    "ledger": "made_up: The assistant included '5B1C6D' which was never stated as a key used for on-call, only men",
+    "notes_recall": "correct: The reply lists all required keys (9A7B2C, 3F8D1A, 7C2E9B, A4B8C2) plus one extra, making ",
+    "rewrite_facts": "partial: The reply omits key 3F8D1A from Sep 13, includes 5B1C6D which is mentioned in the chat but"
+   }
+  },
+  "dan:q25": {
+   "kind": "aggregate",
+   "q": "how many times did the cutover date move? list them.",
+   "gold": "5: oct 12, sep 28, nov 5, nov 15, oct 12",
+   "arms": {
+    "none": "dont_know: The assistant says it has no records of the cutover date being moved and asks instead to c",
+    "full": "correct: The reply lists six moves including sep 28 and oct 26, but the question asks how many time",
+    "rewrite": "made_up: The assistant references a Sep 28 date not present in the chat and misstates the number of",
+    "tiered": "wrong: The reply claims 4 moves ending with Oct 26, but the chat shows the final move was back to",
+    "notes": "wrong: It claims 4 moves with an incorrect sequence (nov 15 → sep 28 → nov 5 → oct 12) and invent",
+    "facts": "wrong: The assistant's answer misses multiple date changes (Sep 28, Nov 15) and includes Oct 26 w",
+    "ledger": "wrong: The assistant invented a move to Oct 26 which never happened in the chat, and the gold lis",
+    "notes_recall": "wrong: The reply lists only three date moves with incorrect dates (Nov 15, Oct 12, Oct 26) instea",
+    "rewrite_facts": "wrong: The assistant's reply lists only three moves and omits Sep 28, Nov 15, and the final retur"
+   }
+  },
+  "dan:q26": {
+   "kind": "aggregate",
+   "q": "who were all the data eng candidates, and who took it?",
+   "gold": "3: maria torres (out), jordan liu (rejected), david chen (accepted)",
+   "arms": {
+    "none": "correct: The reply lists all three candidates (Maria, Jordan, David) and correctly identifies David",
+    "full": "correct: The reply correctly lists all three candidates (Maria Torres, Jordan Liu, David Chen) with",
+    "rewrite": "wrong: The reply missed David Chen entirely and incorrectly claimed no further candidates came in",
+    "tiered": "correct: Lists all three candidates (Maria, Jordan, David) with correct outcomes, matching the requ",
+    "notes": "wrong: The reply claims only Jordan Liu made it through the pipeline, misses David Chen's accepta",
+    "facts": "correct: It lists all three candidates (Maria Torres, Jordan Liu, David Chen) and correctly identif",
+    "ledger": "correct: The reply correctly identifies all three candidates (Maria Torres, Jordan Liu, David Chen)",
+    "notes_recall": "wrong: The reply only mentions Jordan Liu and says the outcome is unknown, but the chat log clear",
+    "rewrite_facts": "correct: The reply names all three candidates (Maria Torres, Jordan Liu, David Chen) and correctly "
+   }
+  },
+  "dan:q27": {
+   "kind": "open_loop",
+   "q": "what's the status of that billing timeline doc for priya?",
+   "gold": "never closed: you asked me to remind you but we never confirmed it was done",
+   "arms": {
+    "none": "correct: It identifies the reminder from August 4 and correctly notes the status as open since no f",
+    "full": "wrong: The reply says the timeline doc was sent and Priya received it, but the gold states the ta",
+    "rewrite": "correct: It correctly identifies the open commitment to send the doc and confirms no update or clos",
+    "tiered": "stale: the assistant describes the cutover checklist task as still pending, but the original bill",
+    "notes": "wrong: The assistant claims the timeline doc was sent on Aug 7, but the chat shows a reminder was",
+    "facts": "wrong: The reply claims the timeline doc was sent, but the user never confirmed completion after ",
+    "ledger": "wrong: The assistant claims the billing timeline doc was sent on 07 Aug, but message #50 on 07 Au",
+    "notes_recall": "wrong: The reply claims the doc was sent to Priya on Aug 7, but message #50 confirms it was indee",
+    "rewrite_facts": "wrong: The assistant claims the billing timeline doc was sent on Aug 7, but message #50 from Fri "
+   }
+  },
+  "dan:q28": {
+   "kind": "open_loop",
+   "q": "did i ever review lena's on-call draft?",
+   "gold": "never closed: you said you'd review it but never followed up",
+   "arms": {
+    "none": "correct: The assistant accurately notes Dan read the draft on Aug 15 and mentions no formal review ",
+    "full": "wrong: The reply says the user gave a deadline (Wednesday) and implies verbal feedback may have h",
+    "rewrite": "correct: The assistant identifies that Dan committed to review Lena's draft but never followed up, ",
+    "tiered": "wrong: The assistant claims Dan read the draft and found it good on Aug 15, but the gold states D",
+    "notes": "correct: It correctly identifies the commitment from August 15 and that it was never followed up on",
+    "facts": "correct: The assistant accurately notes Dan read the draft on Aug 15 and found it good with nits ar",
+    "ledger": "correct: It accurately identifies the commitment to review Lena's on-call draft and correctly state",
+    "notes_recall": "correct: It correctly identifies the open commitment from August and confirms the review was never ",
+    "rewrite_facts": "correct: The assistant says Dan read the draft, found it good, and noted escalation path issues, wi"
+   }
+  },
+  "dan:q29": {
+   "kind": "open_loop",
+   "q": "that stripe webhook spec i was gonna send tom—what happened?",
+   "gold": "never closed: we discussed a reminder but didn't confirm it was sent",
+   "arms": {
+    "none": "made_up: Assistant references Tom addressing comments on a 'webhook v2 spec' on Tuesday (#792), but",
+    "full": "made_up: The assistant claims the spec was sent on August 21 and later reviewed, but the provided c",
+    "rewrite": "made_up: The reply claims the spec was sent based on later v2 reviews, but the chat shows no confir",
+    "tiered": "wrong: The assistant claims the spec was sent and merged, but the gold answer says the reminder w",
+    "notes": "made_up: The reply fabricates a 'webhook v2 spec' ready to merge and a 'stripe refactor v2 PR' from",
+    "facts": "made_up: The assistant says the spec was sent and merged, but the required answer states the remind",
+    "ledger": "wrong: The gold answer requires stating the reminder was never confirmed sent, but the reply fals",
+    "notes_recall": "made_up: Assistant claims Tom merged v1 spec and v2 is ready, but chat only shows reminder discussi",
+    "rewrite_facts": "correct: It accurately identifies the commitment to send the spec and correctly reports its status "
+   }
+  },
+  "dan:q30": {
+   "kind": "open_loop",
+   "q": "did i book the asheville flights like i promised ade?",
+   "gold": "done: you booked them on day 27, delta flight oct 22 morning",
+   "arms": {
+    "none": "correct: The assistant correctly identifies the commitment as done, confirming the Delta flight was",
+    "full": "correct: It correctly identifies the commitment was fulfilled with the specific details provided in",
+    "rewrite": "wrong: The assistant said no specific flight booking was found, but message #235 on Aug 29 shows ",
+    "tiered": "correct: The assistant correctly identifies that the flights were booked (Delta, October 22 morning",
+    "notes": "correct: The assistant correctly confirms the flights were booked, matching the chat record of Delt",
+    "facts": "correct: It correctly states the commitment was done, with the Delta flight booked for Oct 22 morni",
+    "ledger": "correct: It correctly identifies the commitment and states it was done, matching the chat details.",
+    "notes_recall": "partial: It correctly says the booking is done, Delta, Oct 22 morning, but says the booking was 'on",
+    "rewrite_facts": "correct: It correctly identifies that the flights were booked on August 29, mentions Delta and Octo"
+   }
+  },
+  "dan:q31": {
+   "kind": "open_loop",
+   "q": "what about the on-call docs for sam, are those updated?",
+   "gold": "done: you updated them on day 50",
+   "arms": {
+    "none": "wrong: The assistant incorrectly claims the docs were last updated on 20 Sep, but the chat clearl",
+    "full": "correct: It correctly states the docs were updated (done) and sent to Sam, matching the 'done' stat",
+    "rewrite": "correct: The assistant acknowledges it couldn't find new on-call docs and suggests Monday action, w",
+    "tiered": "wrong: The reply says the docs were updated on Sep 20, but the chat shows they were updated on Mo",
+    "notes": "wrong: The reply says Sam was sent the docs on Sep 20, but the chat shows the reminder was set on",
+    "facts": "correct: The reply correctly references sending Sam the on-call docs link in September and pointing",
+    "ledger": "stale: The reply claims the last update was Sep 29, but the chat shows the on-call docs were upda",
+    "notes_recall": "correct: The assistant correctly identifies that the on-call docs for Sam were updated (on Sep 21, ",
+    "rewrite_facts": "stale: The reply states the docs were updated on September 20, but the chat shows 'docs updated f"
+   }
+  },
+  "dan:q32": {
+   "kind": "ask",
+   "q": "morning",
+   "gold": "greeting uses 'dan the builder'",
+   "arms": {
+    "none": "correct/rule✗: The greeting uses 'dan the builder' as instructed, and the rest of the reply is consistent",
+    "full": "correct/rule✓: The greeting uses 'dan the builder' as required by the gold answer.",
+    "rewrite": "correct/rule✓: The assistant greets Dan as 'dan the builder' as requested in the gold standard.",
+    "tiered": "correct/rule✓: The greeting uses 'dan the builder' as required.",
+    "notes": "wrong/rule✗: The assistant's greeting uses 'Dan' instead of 'dan the builder' as required.",
+    "facts": "correct/rule✗: The assistant's greeting uses 'dan' instead of 'dan the builder' as required.",
+    "ledger": "correct/rule✗: The assistant uses the requested greeting 'dan the builder' implicitly by addressing Dan c",
+    "notes_recall": "wrong/rule✗: The greeting does not use 'dan the builder' as required.",
+    "rewrite_facts": "correct/rule✓: The greeting uses 'dan the builder' as specified in the gold requirement."
+   }
+  },
+  "dan:q33": {
+   "kind": "ask",
+   "q": "how's this week looking",
+   "gold": "reply has no bullet points",
+   "arms": {
+    "none": "correct/rule✓: The reply provides a summary of the week's tasks without bullet points, addressing the cut",
+    "full": "correct/rule✓: Reply contains no bullet points and accurately summarizes the week based on known facts.",
+    "rewrite": "correct/rule✓: The reply provides a week overview without bullet points, uses information from the user's",
+    "tiered": "correct/rule✓: The reply is in plain sentences without bullet points and accurately reflects the week's e",
+    "notes": "correct/rule✓: The reply provides a week outlook without bullet points, includes key topics from the chat",
+    "facts": "correct/rule✓: The reply correctly summarizes the week's key events from the chat history without using b",
+    "ledger": "correct/rule✓: The reply summarizes upcoming events and tasks from the context in paragraph form without ",
+    "notes_recall": "correct/rule✓: The reply contains no bullet points and directly addresses the user's request for a summar",
+    "rewrite_facts": "correct/rule✓: The reply answers the question about how the week looks in plain sentences without bullet "
+   }
+  },
+  "dan:q34": {
+   "kind": "ask",
+   "q": "morning, any updates?",
+   "gold": "reply has no exclamation marks",
+   "arms": {
+    "none": "wrong/rule✗: reply starts with 'morning!' which uses an exclamation mark, violating the instruction to ",
+    "full": "correct/rule✓: The reply contains no exclamation marks, as requested by Dan on Sat 12 Sep.",
+    "rewrite": "correct/rule✓: The reply contains no exclamation marks, following the instruction from the chat on Sat 12",
+    "tiered": "correct/rule✓: The reply avoids exclamation marks, complying with the user's prior instruction.",
+    "notes": "correct/rule✓: The reply contains no exclamation marks, adhering to the user's request from September 12.",
+    "facts": "wrong/rule✗: The reply uses an exclamation mark in 'morning!' despite the user's explicit instruction o",
+    "ledger": "correct/rule✓: The assistant's reply contains no exclamation marks, complying with the user's request fro",
+    "notes_recall": "wrong/rule✗: The reply uses an exclamation mark despite Daniel's explicit instruction on Sat 12 Sep to ",
+    "rewrite_facts": "correct/rule✓: The reply performs a search without using any exclamation marks, complying with the user's"
+   }
+  },
+  "dan:q35": {
+   "kind": "ask",
+   "q": "早上好",
+   "gold": "reply is in mandarin",
+   "arms": {
+    "none": "correct/rule✓: The reply is in Mandarin Chinese, as instructed by the user on Fri 09 Oct.",
+    "full": "correct/rule✓: the reply is in mandarin as requested in the chat",
+    "rewrite": "correct/rule✓: The reply is in Mandarin as requested in the earlier chat, meeting the gold requirement.",
+    "tiered": "correct/rule✓: The assistant's reply is in Mandarin, as requested by the user on Fri 09 Oct.",
+    "notes": "correct/rule✓: The reply is in Mandarin as requested by the user on Fri 09 Oct.",
+    "facts": "correct/rule✓: The reply is in Mandarin as requested by the user on Fri 09 Oct.",
+    "ledger": "correct/rule✓: The reply is in Mandarin as requested.",
+    "notes_recall": "correct/rule✗: The assistant's reply is a search query in Chinese, which aligns with the instruction to r",
+    "rewrite_facts": "correct/rule✓: The reply is in Mandarin as previously agreed upon."
+   }
+  },
+  "dan:q36": {
+   "kind": "pref_apply",
+   "q": "draft a PR description for splitting out the billing service",
+   "gold": "PR description ends with a Risk section",
+   "arms": {
+    "none": "wrong/rule✗: The draft PR description does not end with a Risk section, which Dan explicitly stated his",
+    "full": "correct/rule✓: The PR description draft ends with a Risk section, matching the stated preference from the",
+    "rewrite": "correct/rule✓: The assistant applies the stored preference by explicitly stating it will end the PR descr",
+    "tiered": "correct/rule✗: The draft PR description ends with a Checklist section, but the user's stated preference i",
+    "notes": "correct/rule✓: The PR description ends with a Risk section, consistent with the stated preference from Au",
+    "facts": "correct/rule✓: The PR description ends with a Risk section (labeled 'Risk & Mitigation') as per Dan's pre",
+    "ledger": "correct/rule✓: The PR description draft ends with a Risk section, matching the user's preference stated o",
+    "notes_recall": "correct/rule✗: The assistant acknowledges the preference for a Risk section by stating it will check note",
+    "rewrite_facts": "correct/rule✗: The instruction only asks to grade based on whether the draft follows the preference, and "
+   }
+  },
+  "dan:q37": {
+   "kind": "pref_apply",
+   "q": "give me standup notes for today",
+   "gold": "standup notes have bullet points with timestamps",
+   "arms": {
+    "none": "correct/rule✗: The assistant acknowledges the user's preference for bullet points and timestamps in stand",
+    "full": "wrong/rule✗: Dan requested bullet points with timestamps on Sep 4, but aicoo's reply for Nov 1 contains",
+    "rewrite": "wrong/rule✗: The assistant's reply does not provide standup notes with bullet points and timestamps as ",
+    "tiered": "correct/rule✗: The assistant's standup notes use bullet points with timestamps ('yesterday (sat 31 oct)' ",
+    "notes": "wrong/rule✗: The user asked for standup notes with bullet points and timestamps, but the assistant's re",
+    "facts": "correct/rule✗: The assistant's reply includes standup notes with bullet points and timestamps, as request",
+    "ledger": "correct/rule✗: The draft uses bullet points with timestamps (implicitly by referencing events by day/date",
+    "notes_recall": "wrong/rule✗: The assistant provided a prose summary with bold headers instead of bullet points with tim",
+    "rewrite_facts": "correct/rule✗: Dan previously specified standup notes should be bullet points with timestamps, and aicoo "
+   }
+  },
+  "dan:q38": {
+   "kind": "pref_apply",
+   "q": "can you do meeting notes from that sprint planning?",
+   "gold": "meeting notes start with Action Items at the top",
+   "arms": {
+    "none": "dont_know/rule✓: The assistant says it doesn't have the sprint planning notes and asks for the recording or",
+    "full": "wrong/rule✗: The reply starts with context instead of Action Items at the top as the user requested on ",
+    "rewrite": "correct/rule✓: The assistant acknowledges the preference by offering to format notes with Action Items at",
+    "tiered": "correct/rule✓: The assistant recognizes the preference by ending with 'action items first, right?', follo",
+    "notes": "correct/rule✗: The assistant's reply does not provide meeting notes, thus it does not violate the prefere",
+    "facts": "correct/rule✓: The reply starts with Action Items at the top as the user requested on 23 Sep.",
+    "ledger": "partial/rule✓: It correctly asks for the doc to extract action items, but the reply itself does not start",
+    "notes_recall": "correct/rule✗: The assistant acknowledges the request and begins to look up the meeting, but the preferen",
+    "rewrite_facts": "correct/rule✓: The assistant says it doesn't have the notes but offers to format them with Action Items i"
+   }
+  },
+  "dan:q39": {
+   "kind": "pref_apply",
+   "q": "review this code for the webhook handler",
+   "gold": "code review comments start with priority level",
+   "arms": {
+    "none": "wrong/rule✗: The assistant asks to see the code instead of applying the user's stated preference that c",
+    "full": "correct/rule✗: The assistant asks for the code and what to focus on, which doesn't contradict the priorit",
+    "rewrite": "dont_know/rule✗: The assistant asks the user to provide the code for review and does not generate any revie",
+    "tiered": "dont_know/rule✗: The assistant says it doesn't have the code and asks the user to paste it, rather than pro",
+    "notes": "correct/rule✓: aicoo's draft includes the instruction to add priority level markers (high/medium/low) as ",
+    "facts": "wrong/rule✗: The assistant asks to see the code instead of providing a review with priority levels as t",
+    "ledger": "dont_know/rule✗: aicoo does not provide any code review comments because it cannot find the code to review.",
+    "notes_recall": "dont_know/rule✗: The assistant asks for the code snippet instead of applying the requested priority-level r",
+    "rewrite_facts": "stale/rule✗: The assistant asks for the file or PR link instead of applying Dan's stated preference to "
+   }
+  },
+  "kai:q23": {
+   "kind": "aggregate",
+   "q": "PM candidate我们interview了几个人，分别是谁，最后hire了谁？",
+   "gold": "4: Jason Chen (8y), Emily Tan (6y), Michael Liu (10y), Sarah Wu (not hired); hir",
+   "arms": {
+    "none": "correct: The reply correctly identifies all four interviewed candidates with their experience and s",
+    "full": "partial: The reply says you interviewed three PM candidates, but you met four: Jason Chen, Emily Ta",
+    "rewrite": "wrong: 回复只提到了Emily Tan和另一个未记录名字的候选人，遗漏了Jason Chen、Michael Liu和Sarah Wu，且未说明最终hire了Emily Tan，与正确答案",
+    "tiered": "correct: It correctly lists all four candidates with accurate experience details, notes Sarah Wu wa",
+    "notes": "correct: The reply correctly lists all four candidates with relevant details and identifies Emily T",
+    "facts": "wrong: The reply lists 王磊 as the fourth candidate, but the chat shows 王磊 was the third and Sarah ",
+    "ledger": "made_up: Reply invents '王磊' as a candidate and falsely claims Emily was hired as account manager, w",
+    "notes_recall": "correct: It correctly lists the 4 candidates (Jason Chen, Emily Tan, Michael Liu, Sarah Wu) and sta",
+    "rewrite_facts": "made_up: The reply invents a candidate '王磊' (Wang Lei) not mentioned in the chat messages, and the "
+   }
+  },
+  "kai:q24": {
+   "kind": "aggregate",
+   "q": "Pricing launch postpone了几次，从啥时候推到啥时候？",
+   "gold": "2 postpOnes: Nov 1 to Nov 15, Nov 15 to Dec 1",
+   "arms": {
+    "none": "partial: The reply only mentions the first postponement (Nov 1 to Nov 15) and omits the second post",
+    "full": "correct: 答案包含两次推迟：Nov 1到Nov 15，Nov 15到Dec 1，与聊天记录完全一致。",
+    "rewrite": "wrong: Assistant incorrectly states initial target as mid-October and misses the two specified po",
+    "tiered": "wrong: The assistant says the delay went from Nov 1 to Oct 15, but the actual postponements per t",
+    "notes": "correct: 它准确指出了两次推迟：从 Nov 1 到 Nov 15，再从 Nov 15 到 Dec 1，与对话记录完全吻合。",
+    "facts": "correct: The reply correctly states two postponements from Nov 1 to Nov 15 and Nov 15 to Dec 1.",
+    "ledger": "wrong: aicoo incorrectly states the first postponement vaguely as 'to 11月' instead of Nov 15, and",
+    "notes_recall": "correct: 准确列出了两次推迟：Nov 1→Nov 15和Nov 15→Dec 1，与对话记录完全一致。",
+    "rewrite_facts": "correct: The assistant correctly identifies two postponements: from Nov 1 to Nov 15, and from Nov 1"
+   }
+  },
+  "kai:q25": {
+   "kind": "aggregate",
+   "q": "Aurora deal scope change了几次，每次加了啥？",
+   "gold": "1 change: added custom analytics module, value rose from 800k to 950k",
+   "arms": {
+    "none": "made_up: 回复声称scope change发生了3次，并给出了8月18日、23日、9月10日等具体日期和事件细节，但聊天记录只显示存在一次scope change（增加custom anal",
+    "full": "wrong: The reply claims three scope changes, but messages only support one scope change that incr",
+    "rewrite": "made_up: aicoo claims two scope changes and an unconfirmed export request on 10/14, but the chat on",
+    "tiered": "wrong: The assistant only performed a search without providing an answer, so it did not state the",
+    "notes": "made_up: The answer claims a second scope change (export functionality on Oct 13-14) that is not su",
+    "facts": "partial: The reply mentions the value increase from $800k to $950k and scope expansion but does not",
+    "ledger": "made_up: The reply claims two scope changes with a separate second change for custom reporting and ",
+    "notes_recall": "wrong: aicoo incorrectly reports a custom reporting scope change and a 1000K value that never exi",
+    "rewrite_facts": "made_up: The reply claims multiple scope changes including custom reporting and export, but the pro"
+   }
+  },
+  "kai:q26": {
+   "kind": "aggregate",
+   "q": "Q3到Q4我有几次personal issue影响work，具体是啥？",
+   "gold": "3: Father hospitalized (day 12), daughter's school play (day 33), father's follo",
+   "arms": {
+    "none": "wrong: Reply claims father hospitalized late Sep–Oct and mentions only Halloween event, but gold ",
+    "full": "made_up: The reply fabricates 'daughter's repeated illness' as a distinct item and 'mother's blood ",
+    "rewrite": "wrong: The reply lists generic health issues and a Halloween event but fails to mention the three",
+    "tiered": "partial: The reply mentions father's health issues but lacks the specific Day 12 hospitalization an",
+    "notes": "dont_know: The assistant only issued a search command and did not provide any answer to the user's qu",
+    "facts": "wrong: The reply only mentions two issues (daughter's cough, father's blood pressure) but the req",
+    "ledger": "wrong: The assistant only returned a tool invocation without providing any actual answer about th",
+    "notes_recall": "made_up: The reply includes events not supported by the chat (e.g., mother's blood pressure issues,",
+    "rewrite_facts": "made_up: The reply lists events described as affecting work but the chat doesn't contain 'early Aug"
+   }
+  },
+  "kai:q27": {
+   "kind": "open_loop",
+   "q": "Hey aicoo, 我忘了that reminder about Ravi's integration progress on Sep 1, did we e",
+   "gold": "open: never explicitly followed up in chat after the commitment was made",
+   "arms": {
+    "none": "correct: It accurately states that the Sep 1 reminder was set but never explicitly followed up in t",
+    "full": "made_up: The assistant claims the integration was completed on Sep 22 and that follow-ups occurred,",
+    "rewrite": "correct: The assistant correctly identified the original commitment and acknowledged that the follo",
+    "tiered": "correct: It correctly identifies the open commitment and states it was never explicitly followed up",
+    "notes": "made_up: The assistant's reply invents a detailed follow-up on Sep 1 and subsequent progress that n",
+    "facts": "correct: The assistant correctly identified that the Sep 1 reminder was set, mentioned the Sep 20 i",
+    "ledger": "correct: It correctly identifies the Aug 11 commitment for a Sep 1 reminder, notes it was never exp",
+    "notes_recall": "correct: The assistant acknowledges the original reminder commitment and correctly explains that it",
+    "rewrite_facts": "wrong: The assistant claims multiple follow-ups (Sep 4, Sep 6, Sep 22, Sep 28, Oct 30) that are n"
+   }
+  },
+  "kai:q28": {
+   "kind": "open_loop",
+   "q": "aicoo, 我是不是还有没完成的task about syncing with Yuki on dark mode feedback?",
+   "gold": "open: commitment made on day 26, never closed",
+   "arms": {
+    "none": "wrong: The assistant's reply incorrectly claims the task is already completed, while the gold sta",
+    "full": "correct: It correctly identifies the open commitment from August 28 to sync with Yuki on dark mode ",
+    "rewrite": "wrong: The assistant claims the task is completed based on a recent meeting, but the probe's gold",
+    "tiered": "wrong: The assistant missed the open commitment made on day 26 to sync with Yuki on dark mode fee",
+    "notes": "correct: The reply correctly identifies the open commitment to sync with Yuki on dark mode feedback",
+    "facts": "made_up: The assistant claims a mid-October sync with fabricated details (92% satisfaction, ship ma",
+    "ledger": "wrong: The assistant incorrectly claims the reminder task was naturally completed, but the chat s",
+    "notes_recall": "wrong: aicoo's reply incorrectly claims Kai discussed shipping manual toggle with Yuki on Friday ",
+    "rewrite_facts": "stale: The assistant claims the dark mode feedback sync with Yuki was completed on Oct 30, but th"
+   }
+  },
+  "kai:q29": {
+   "kind": "open_loop",
+   "q": "那meeting with Ben to finalize pricing, 我们scheduled了没? later done?",
+   "gold": "open: meeting was scheduled for Oct 15, but no message confirms it occurred or w",
+   "arms": {
+    "none": "wrong: The assistant claims the meeting wasn't scheduled, but messages #323-#324 confirm it was s",
+    "full": "correct: It acknowledges the meeting was scheduled (for Nov 2, not the originally planned Oct 15) a",
+    "rewrite": "made_up: The assistant claims the original Oct 15 meeting with Ben was changed to a Monday 10:30 me",
+    "tiered": "made_up: The reply claims a meeting on Monday at 10:30 with Grace and Ben about pricing launch, but",
+    "notes": "correct: The assistant correctly states the meeting was scheduled for Oct 15 and that no confirmati",
+    "facts": "correct: It correctly states the meeting was scheduled for Oct 15 but does not claim it occurred, a",
+    "ledger": "stale: The reply fails to address whether the Oct 15 meeting occurred or was completed by Nov 1, ",
+    "notes_recall": "stale: The reply discusses later pricing launch discussions and meetings but never acknowledges t",
+    "rewrite_facts": "correct: It correctly states the meeting was scheduled (for Monday 10:30) but does not claim it was"
+   }
+  },
+  "kai:q30": {
+   "kind": "open_loop",
+   "q": "aicoo, did I ever send that Q3 budget breakdown to Grace? 我记得有个reminder about it",
+   "gold": "done on day 32: user said 'Sent that Q3 budget breakdown to Grace, finally done.",
+   "arms": {
+    "none": "correct: The assistant correctly identifies that the user sent the budget breakdown on September 3,",
+    "full": "correct: The assistant correctly states the user sent the Q3 budget breakdown to Grace on September",
+    "rewrite": "wrong: The assistant incorrectly states there is no record of the Q3 budget breakdown being sent,",
+    "tiered": "wrong: The assistant says the Q3 budget breakdown was sent on Sep 3, but the messages show it was",
+    "notes": "correct: The assistant correctly identifies that the user sent the budget breakdown on September 3r",
+    "facts": "wrong: aicoo states there is no record of the user sending the budget breakdown to Grace, but the",
+    "ledger": "wrong: Assistant incorrectly claims memory not marked as done, but chat shows user stated on Sep ",
+    "notes_recall": "correct: It correctly states that the user sent the Q3 budget breakdown to Grace on September 3, ma",
+    "rewrite_facts": "wrong: The assistant claims it did not find confirmation of sending, but the user explicitly stat"
+   }
+  },
+  "kai:q31": {
+   "kind": "open_loop",
+   "q": "和Omar的Singapore pipeline review, 我们不是说好Monday看的吗? 后来看了吗?",
+   "gold": "done on day 37: reviewed on Tue 08 Sep, confirming original plan for Mon 17 Aug ",
+   "arms": {
+    "none": "wrong: The assistant claimed the review probably didn't happen because there is no record in the ",
+    "full": "wrong: The assistant says the review was never formally completed, but messages #465–466 confirm ",
+    "rewrite": "wrong: The assistant claims the review happened on Monday 15 Oct, but the chat shows it occurred ",
+    "tiered": "stale: The reply claims the review was never done, but chat messages #463–#466 show it was comple",
+    "notes": "wrong: 回复声称没有正式reschedule或开会，但第465条消息显示review已在9月8日完成，承诺状态错误。",
+    "facts": "wrong: Assistant incorrectly claims no formal pipeline review after Aug 12 and cites Sep 18, but ",
+    "ledger": "wrong: The assistant misidentifies the original commitment, stating it was for Mon 26 Oct or an o",
+    "notes_recall": "wrong: aicoo claims the review was originally planned for the week of the 12th and never schedule",
+    "rewrite_facts": "wrong: aicoo falsely claims the review was done on Thu 10/30 and makes up a non-existent sync, wh"
+   }
+  },
+  "kai:q32": {
+   "kind": "ask",
+   "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+   "gold": "should be greeted with '凯哥' instead of Kai",
+   "arms": {
+    "none": "correct/rule✓: The assistant correctly greets Kai as '凯哥' as instructed on Sat 22 Aug.",
+    "full": "correct/rule✓: The assistant greeted the user as '凯哥' as required by the gold standard.",
+    "rewrite": "correct/rule✓: The assistant greeted the user as '凯哥' as requested.",
+    "tiered": "correct/rule✓: The reply correctly greets the user as 凯哥 instead of Kai, as required.",
+    "notes": "correct/rule✓: The reply greets the user as '凯哥' as required by the gold answer.",
+    "facts": "correct/rule✓: The assistant greets the user with '凯哥' as required instead of using 'Kai'.",
+    "ledger": "correct/rule✓: The reply correctly greets the user as '凯哥' as instructed in the chat history.",
+    "notes_recall": "correct/rule✓: The reply correctly greets the user as '凯哥' as specified.",
+    "rewrite_facts": "correct/rule✓: The assistant greeted the user as 凯哥, as instructed on Sat 22 Aug."
+   }
+  },
+  "kai:q33": {
+   "kind": "ask",
+   "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+   "gold": "reply should not contain bullet points",
+   "arms": {
+    "none": "correct/rule✓: The reply uses plain text without bullet points, as instructed on Wed 16 Sep.",
+    "full": "correct/rule✓: The reply uses plain text without any bullet points, exactly as instructed.",
+    "rewrite": "wrong/rule✗: The reply uses bullet points despite the user's explicit instruction on Wed 16 Sep to use ",
+    "tiered": "wrong/rule✓: The reply uses numbered list points instead of plain text as the user requested on Sep 16.",
+    "notes": "correct/rule✓: The reply uses plain text without bullet points, as requested by Kai Lin on Wed 16 Sep.",
+    "facts": "wrong/rule✓: The reply uses bullet points (numbered items), but Kai explicitly requested plain text wit",
+    "ledger": "wrong/rule✗: The reply uses bullet points, which violates the user’s explicit formatting instruction fr",
+    "notes_recall": "correct/rule✗: The reply is in plain text paragraphs and does not use bullet points, consistent with the ",
+    "rewrite_facts": "correct/rule✓: The reply is formatted as plain text without bullet points, as requested by Kai Lin on Wed"
+   }
+  },
+  "kai:q34": {
+   "kind": "ask",
+   "q": "Hey aicoo, 今天有啥好消息?",
+   "gold": "reply should not contain exclamation marks",
+   "arms": {
+    "none": "wrong/rule✗: 回复中使用了感叹号（“凯哥早！”和“这都是大好事”），违反了回复不能包含感叹号的要求。",
+    "full": "wrong/rule✗: The reply contains exclamation marks, which violates the requirement that the reply should",
+    "rewrite": "correct/rule✗: The reply avoids exclamation marks by using a period at the end of the greeting, meeting t",
+    "tiered": "wrong/rule✗: The reply contains exclamation marks, violating the requirement that the reply should not ",
+    "notes": "wrong/rule✗: The reply includes an exclamation mark in the greeting '凯哥周日好！', violating the requirement",
+    "facts": "wrong/rule✗: The response contains exclamation marks (in '凯哥周日好！' and '开心到飞起，这就是最好的消息了😊'), which viola",
+    "ledger": "wrong/rule✗: The reply contains exclamation marks, which violates the requirement that it should not co",
+    "notes_recall": "wrong/rule✗: The reply includes multiple exclamation marks, violating the requirement that the reply mu",
+    "rewrite_facts": "wrong/rule✗: The reply contains an exclamation mark ('凯哥早上好！'), which violates the requirement that it "
+   }
+  },
+  "kai:q35": {
+   "kind": "ask",
+   "q": "aicoo, 早，这周怎么安排的?",
+   "gold": "reply should be entirely in Chinese",
+   "arms": {
+    "none": "correct/rule✗: 回复完全使用中文，符合用户之前要求的中文回复设定。",
+    "full": "correct/rule✓: 回复完全使用中文，符合用户之前设定的语言偏好要求。",
+    "rewrite": "correct/rule✗: aicoo完全使用中文回复，符合用户之前要求的语言设置。",
+    "tiered": "correct/rule✓: 回复完全使用中文，符合用户之前设定的语言偏好要求。",
+    "notes": "correct/rule✓: 助手完全用中文回复，并已解释本周安排，符合需求。",
+    "facts": "correct/rule✗: 回复全部使用中文，符合用户之前要求的语言设置，并且内容基于记忆中的日程安排。",
+    "ledger": "correct/rule✗: 回复完全使用中文，符合用户之前要求的中文回复设定。",
+    "notes_recall": "correct/rule✗: 回复完全使用中文，符合用户之前设定的语言要求。",
+    "rewrite_facts": "correct/rule✗: 回复完全使用中文，符合用户之前要求的语言设定。"
+   }
+  },
+  "kai:q36": {
+   "kind": "pref_apply",
+   "q": "aicoo, draft a PR description for adding dark mode toggle.",
+   "gold": "must end with a 'Risk' section",
+   "arms": {
+    "none": "wrong/rule✗: The draft PR description does not end with a 'Risk' section as explicitly requested by the",
+    "full": "correct/rule✓: The PR description ends with a 'Risk' section as requested by the user on Mon 17 Aug.",
+    "rewrite": "correct/rule✗: The PR description draft ends with a 'Notes' section rather than a 'Risk' section, but the",
+    "tiered": "correct/rule✗: The PR description ends with a 'Testing' section but not a 'Risk' section as the user expl",
+    "notes": "correct/rule✗: The PR description draft ends with a 'Next Steps' section but does not include a 'Risk' se",
+    "facts": "stale/rule✓: The assistant acknowledges the Risk section preference but does not produce a draft that a",
+    "ledger": "correct/rule✓: The draft ends with a 'Risk' section as requested.",
+    "notes_recall": "correct/rule✗: The PR description draft ends with a 'Risk' section as requested, though it's labeled 'Not",
+    "rewrite_facts": "correct/rule✓: The PR description draft ends with a 'Risk' section as instructed on Mon 17 Aug."
+   }
+  },
+  "kai:q37": {
+   "kind": "pref_apply",
+   "q": "帮我写这周的周报，based on最近我们的updates.",
+   "gold": "must include a section about 本周踩的坑",
+   "arms": {
+    "none": "wrong/rule✗: 缺少'本周踩的坑'部分，未遵循用户指定的周报格式要求。",
+    "full": "correct/rule✗: The assistant included a section about 本周踩的坑 as requested in the user's preference from Se",
+    "rewrite": "wrong/rule✗: 周报草稿缺少用户明确要求的“本周踩的坑”section。",
+    "tiered": "wrong/rule✗: aicoo did not include a section about 本周踩的坑 in its proposed 周报 framework, despite the user",
+    "notes": "correct/rule✗: The draft includes a section that can cover 本周踩的坑, though it is not explicitly labeled, th",
+    "facts": "correct/rule✓: 周报草稿包含了“本周踩的坑”部分，符合用户之前要求的格式偏好。",
+    "ledger": "correct/rule✓: The draft includes a '本周踩的坑' section as requested in the format preference from September ",
+    "notes_recall": "correct/rule✓: The draft includes a section titled '【本周踩的坑】' which follows the format preference the user",
+    "rewrite_facts": "correct/rule✓: The draft includes a 本周踩的坑 section as requested by Kai Lin on Sun 06 Sep."
+   }
+  },
+  "kai:q38": {
+   "kind": "pref_apply",
+   "q": "aicoo, draft meeting minutes for yesterday's pricing discussion.",
+   "gold": "must start with a summary sentence on decisions",
+   "arms": {
+    "none": "wrong/rule✗: It did not draft meeting minutes starting with a summary sentence on decisions; instead it",
+    "full": "correct/rule✗: the draft meets the preference by starting with a summary sentence for decisions (even if ",
+    "rewrite": "dont_know/rule✗: The assistant asks for clarification on which meeting to draft minutes for, rather than pr",
+    "tiered": "correct/rule✗: The draft starts with a summary sentence on decisions as requested on Sep 26.",
+    "notes": "correct/rule✗: The assistant is drafting meeting minutes, and the user previously asked for a summary sen",
+    "facts": "wrong/rule✗: Reply does not start with a summary sentence on decisions as the preference requires; it i",
+    "ledger": "correct/rule✗: The draft meeting minutes start with a 'Decision:' summary sentence, fulfilling the user's",
+    "notes_recall": "correct/rule✗: The assistant states it cannot find the meeting, so it doesn't draft minutes; if it did dr",
+    "rewrite_facts": "stale/rule✗: No pricing meeting occurred on Saturday to draft minutes for, so it cannot apply the summa"
+   }
+  },
+  "kai:q39": {
+   "kind": "pref_apply",
+   "q": "Summarize customer feedback from最近的surveys.",
+   "gold": "feedback must be grouped by feature first",
+   "arms": {
+    "none": "dont_know/rule✗: aicoo says it cannot find recent survey data in the chat and asks if it should help draft ",
+    "full": "wrong/rule✗: The reply groups feedback by feature but starts with '移动端需求', 'Dark mode', and '其他', which",
+    "rewrite": "wrong/rule✗: aicoo's reply is garbled Chinese and does not present any customer feedback summary groupe",
+    "tiered": "wrong/rule✗: The assistant grouped feedback by source/survey instead of by feature as instructed on 11 ",
+    "notes": "wrong/rule✗: The assistant issued a search instead of providing a summary grouped by feature first as i",
+    "facts": "correct/rule✗: The reply groups customer feedback by feature first as requested.",
+    "ledger": "wrong/rule✗: The feedback should be grouped by feature first, but the reply presents ungrouped summarie",
+    "notes_recall": "wrong/rule✗: 反馈按项目分类而非按功能优先分组，未遵循用户要求。",
+    "rewrite_facts": "correct/rule✓: The assistant correctly recalls and applies the preference to group feedback by feature fi"
+   }
+  },
+  "mo:q22": {
+   "kind": "aggregate",
+   "q": "晨检上线推迟了多少次？每次计划在什么日子？",
+   "gold": "[object Object]",
+   "arms": {
+    "none": "dont_know: The assistant says it can't find the full timeline and asks the user to fill in the missin",
+    "full": "correct: 答案正确提到三次推迟，日期分别为9月10日、9月18日和9月25日，与聊天记录吻合。",
+    "rewrite": "partial: The assistant correctly identifies three delays with dates Sep 10, Sep 18, and Sep 25, but",
+    "tiered": "wrong: The reply claims the final launch date is 9月27号, but the chat shows the final launch was o",
+    "notes": "correct: The assistant correctly identifies 3 postponements and lists each scheduled date, matching",
+    "facts": "wrong: The reply misses the 9月10号 plan mentioned on Aug 27 and the subsequent delay to 9月18号 on S",
+    "ledger": "partial: 助手正确指出了三次推迟及其计划日期，但实际上线日期应为9月25日而非28日，此错误与记录不符。",
+    "notes_recall": "correct: The count of three delays and the planned dates (Sep 10, Sep 18, Sep 25) match the chat hi",
+    "rewrite_facts": "correct: The reply correctly states the number of postponements (three) and lists the planned dates"
+   }
+  },
+  "mo:q24": {
+   "kind": "aggregate",
+   "q": "蓝驰从第一次接触到打款，关键节点有哪些？",
+   "gold": "8月19日约见,9月3日聊条款,签TS,尽调,第一笔300万到账,第二笔到账",
+   "arms": {
+    "none": "wrong: 回复遗漏了8月19日约见、9月3日聊条款、签TS和尽调等关键节点，且声称8月26日签合同无聊天记录支持，整体时间线错误。",
+    "full": "correct: The reply covers all required key nodes (8月19日约见, 9月3日聊条款, 签TS, 尽调, 第一笔300万到账, 第二笔到账) and ",
+    "rewrite": "correct: The reply correctly lists all required key nodes—Aug 19 meeting, Sep 3 terms talk, signed ",
+    "tiered": "correct: This answer includes all required milestones (8月19日约见, 9月3日聊条款, 签TS, 尽调, 第一笔300万到账, 第二笔到账)",
+    "notes": "wrong: The reply fabricates dates and events (e.g., 8月22日, 9月16日签TS, 9月24-26日重谈至7200万) not suppor",
+    "facts": "wrong: The reply omitted required nodes like 8月19日约见, 9月3日聊条款, 签TS, and 尽调, while also listing a ",
+    "ledger": "wrong: 回复中的关键节点错误：将首次接触错报为9月初（实际8月19日约见），估值7500万错报为7000万上下，第二笔到账错报为10月26日（实际10月26日为到账通知日期，但关键缺失签T",
+    "notes_recall": "partial: The reply correctly includes TS signing, first payment on Oct 14, and second payment on Oc",
+    "rewrite_facts": "correct: aicoo's reply includes all the required key nodes: 8月19日约见, 9月3日聊条款, 签TS, 尽调, 第一笔300万到账, 第"
+   }
+  },
+  "mo:q25": {
+   "kind": "aggregate",
+   "q": "成都健康管理师协会合作，按时间线理一下？",
+   "gold": "9月确定对接,收到合作方案,谈成每单8块,月订单300单以上,2万4分账",
+   "arms": {
+    "none": "dont_know: It claims only two records exist and asks for more information instead of aggregating the ",
+    "full": "correct: The reply accurately captures all required elements: 9月对接, 收到合作方案, 每单8块, 月订单300单以上, and 2万",
+    "rewrite": "made_up: The reply fabricates '保证金5千' (保证金 was rejected per #330-331) and includes unsupported even",
+    "tiered": "wrong: The reply fabricates multiple details not in the chat (保证金5千由协会付, 头三月保底500单, 小雨报400单), and",
+    "notes": "partial: 回复中9月确定对接、收到合作方案、每单8块、月订单300单以上、2万4分账均被消息证实，但缺少'月订单300单以上'的日期10月7日，且10月分账2万4对应10月19日提及，未被明",
+    "facts": "stale: 回复包含了要求的正确时间线要素，但其中'9月17日日均引流'、'9月23日催签约'、'9月25日保底500单'、'10月23日加单'、'10月28日预测500单'等细节不存在于对话",
+    "ledger": "wrong: The reply fails to include all required content from the gold answer (9月确定对接, 收到合作方案, 谈成每单",
+    "notes_recall": "correct: The reply includes the key details from the gold (Sept. connection, cooperation plan, 8 RM",
+    "rewrite_facts": "correct: The reply covers all required items: 9月确定对接, 收到合作方案, 谈成每单8块, 月订单300单以上, and 2万4分账, matchin"
+   }
+  },
+  "mo:q26": {
+   "kind": "aggregate",
+   "q": "大伟入职后的绩效和薪酬进展，完整说说？",
+   "gold": "确认底薪+绩效+年终,三版绩效方案,定KPI+OKR混合,季度 A 奖金1万2",
+   "arms": {
+    "none": "wrong: The reply misstates the salary as 底薪1万6,绩效2000, ignores the final agreed 底薪1万7/绩效1000, omi",
+    "full": "correct: 回复完整包含了用户问题要求的所有要点：确认底薪+绩效+年终、三版绩效方案、定KPI+OKR混合、季度A奖金1万2。",
+    "rewrite": "correct: The reply includes all required items: confirming salary+bonus structure, three performanc",
+    "tiered": "partial: 回复正确包含了部分绩效进展和奖金结果，但将底薪+绩效+年终的薪酬结构简化为1万85=1万7+1000绩效，且未提及年终部分，同时版本B被错误描述为保守版（实际为激进版）。",
+    "notes": "wrong: 回复声称'无绩效另算'，但黄金标准需确认底薪+绩效+年终，且消息#160和#161确认最终薪资为1万85，未提绩效另算，与聊天记录矛盾。",
+    "facts": "partial: The reply omits the three performance plan versions and the exact Q1 bonus of 12,000 CNY, ",
+    "ledger": "partial: The reply mentions base salary 1.7万 and performance 1000 but omits the three performance p",
+    "notes_recall": "made_up: The reply invents salary negotiations to 20k/19k, final 18.5k, version B selection, and sp",
+    "rewrite_facts": "dont_know: 它只执行了一次不相关的搜索，未给出任何答案。"
+   }
+  },
+  "mo:q27": {
+   "kind": "open_loop",
+   "q": "我10月8号跟红杉的会，提醒还开着吗？",
+   "gold": "否，已关闭，会议已改期到10月20号",
+   "arms": {
+    "none": "wrong: 助手声称提醒仍开启，但根据#410消息，会议已改期到10月20号，原10月8号的提醒应已关闭或无效，因此回复为错误信息。",
+    "full": "stale: The reply claims the reminder is already cancelled based on the September 26 message, but ",
+    "rewrite": "correct: 助手正确指出10月8日红杉会议的提醒已因改期而关闭，且最终未安排，未挂起提醒。",
+    "tiered": "correct: 它正确地指出10月8号的提醒已关闭，因为用户在9月26号推掉了红杉的会议，并且没有找到新约10月8号会议的记录。",
+    "notes": "correct: 助手正确指出原10月8日会议提醒已失效，并说明会议先改至10月20日、后无确定日期，未提供虚假信息。",
+    "facts": "correct: 它正确指出提醒已失效/不存在，并给出会议改期、被推掉以及当前有效提醒的准确状态。",
+    "ledger": "made_up: The assistant references a cancellation on Sep 24 and an Oct 26 message about 'next week's",
+    "notes_recall": "correct: 它正确识别了该提醒的状态——已关闭且未重新开启，因为原始会议已改期，当前没有确认的会议日期。",
+    "rewrite_facts": "correct: 它正确识别出原10月8日红杉会议的提醒已因改期和推迟而关闭，未处于活跃状态。"
+   }
+  },
+  "mo:q28": {
+   "kind": "open_loop",
+   "q": "那个10月15号确认蓝驰款的事，处理了吗？",
+   "gold": "是，10月15号的提醒还开着，没找到关闭的记录",
+   "arms": {
+    "none": "wrong: The assistant claims the reminder was handled and the matter resolved, but the gold answer",
+    "full": "wrong: 助手回复声称两笔款都已到账无需再确认，但未执行用户要求的10月15号确认第二笔款到账的提醒，且该提醒仍开着无关闭记录，因此未正确处理任务。",
+    "rewrite": "wrong: 助手的回复声称10月15号的提醒已处理，但对话记录中仅显示该提醒在9月29日被设置，并无明确记录表明其被关闭或执行，因此无法支持该声明。",
+    "tiered": "wrong: 助手声称已处理10月15号的提醒，但对话记录中该提醒并未关闭，无任何关闭记录，与事实不符。",
+    "notes": "made_up: Assistant incorrectly claims 10月15号 was the first tranche arrival and that both tranches a",
+    "facts": "wrong: The gold says the reminder from Oct 15 is still open with no close record, but the assista",
+    "ledger": "wrong: 回复声称10月15日已确认款项处理，但聊天记录显示当天仅设置了提醒，无后续关闭或处理记录，且未在10月15日实际操作。",
+    "notes_recall": "wrong: 回复声称10月15号的提醒已处理完毕且第二笔款10月26日到账，但对话中仅设置了提醒，没有任何关闭提醒或确认到账的记录。",
+    "rewrite_facts": "wrong: 用户问的是是否处理了确认蓝驰款的事，但回复说款已到账且编造了到账日期和金额，实际上提醒仍存在且未找到关闭记录。"
+   }
+  },
+  "mo:q29": {
+   "kind": "open_loop",
+   "q": "大伟入职手续的提醒，后来怎么样了？",
+   "gold": "已关闭，在第32天你确认办妥，提醒取消了",
+   "arms": {
+    "none": "correct: 它准确指出提醒已于9月3日因用户确认手续办妥而关闭，与对话记录完全一致。",
+    "full": "correct: 它正确指出提醒已取消，并说明9月3号你确认手续办妥后关闭了提醒，与聊天记录一致。",
+    "rewrite": "correct: It correctly states the reminder was cancelled on September 3rd when the user confirmed th",
+    "tiered": "dont_know: 它只说“让我查一下”，但没给出任何状态结论，相当于不知道/还在查。",
+    "notes": "correct: 它准确指出了提醒于9月1日触发，9月3日用户确认办妥后已关闭，状态正确。",
+    "facts": "correct: It correctly states the reminder was closed on Sep 3 when the user confirmed the onboardin",
+    "ledger": "correct: 它准确指出了9月3号确认办妥且提醒已关闭，状态正确。",
+    "notes_recall": "correct: It correctly states the reminder was closed after the user confirmed completion on Septemb",
+    "rewrite_facts": "correct: 它正确说明了提醒已处理并取消，只是具体日期表述为8月31日而非9月1日，但核心状态对了。"
+   }
+  },
+  "mo:q30": {
+   "kind": "open_loop",
+   "q": "给我阿杰薪资确认那个提醒，还有吗？",
+   "gold": "已关闭，在第18天你说发过邮件不用再提醒",
+   "arms": {
+    "none": "correct: 它正确识别了提醒已关闭，并引用了8月20日用户说'邮件已经发过了，不用再提醒'的对话。",
+    "full": "correct: 它准确指出该提醒已在8月20日取消，并说明了原因（邮件已发），与对话记录一致。",
+    "rewrite": "correct: 准确识别了提醒已在8月20日关闭，并说明了原因和当前状态。",
+    "tiered": "correct: 准确指出该提醒已于8月20日因用户说明邮件已发而关闭，符合正确判定要求。",
+    "notes": "correct: It correctly states the reminder was closed on August 20 when the user said they'd already",
+    "facts": "correct: The reply accurately states the reminder was canceled on August 20 and correctly identifie",
+    "ledger": "correct: 它准确识别了提醒的创建和关闭状态，并正确引用了8月8日和8月20日的消息。",
+    "notes_recall": "correct: 准确识别了提醒的创建与关闭状态，并指出8月20日用户已告知不需再提醒。",
+    "rewrite_facts": "correct: 它准确指出该提醒已被关闭，因为用户在8月20日确认已发送邮件并告知无需再提醒。"
+   }
+  },
+  "mo:q31": {
+   "kind": "open_loop",
+   "q": "11月1号季度复盘提醒，还没关吧？",
+   "gold": "是，还开着，找不到关闭事件",
+   "arms": {
+    "none": "correct: 它正确识别了提醒任务仍处于开启状态，并确认了当天是11月1日，没有找到关闭事件。",
+    "full": "correct: It correctly identifies the reminder as still active and confirms it hasn't been closed, m",
+    "rewrite": "correct: 助理确认提醒未关闭，并提供了当天日期及额外复盘信息，符合正确回答要求。",
+    "tiered": "correct: 它确认了提醒仍然有效（'还在呢，没忘'），并主动推进复盘，符合要求的状态。",
+    "notes": "correct: 它正确识别了提醒还在（开着），且指出找不到关闭事件，符合正确答案要求。",
+    "facts": "correct: 它正确识别了提醒仍开着，并指出找不到关闭事件，符合正确答案要求。",
+    "ledger": "correct: 它确认提醒仍开着（没关），并补充了蓝驰复盘推迟的额外背景，但未声称已关闭，符合开放循环状态。",
+    "notes_recall": "correct: 它正确识别了提醒仍处于开启状态，并指出未找到关闭事件，与正确答案一致。",
+    "rewrite_facts": "correct: 它正确识别了提醒仍在进行中，没有关闭事件的证据，与要求答案一致。"
+   }
+  },
+  "mo:q32": {
+   "kind": "ask",
+   "q": "早，这周怎么安排？",
+   "gold": "回答中应使用「陈默」称呼我",
+   "arms": {
+    "none": "correct/rule✗: 回复中使用了「陈默」称呼用户，符合gold要求。",
+    "full": "correct/rule✓: The reply addresses the user as '陈默' as required.",
+    "rewrite": "correct/rule✗: The assistant uses the correct name '陈默' in the opening address, '老板早', which is consisten",
+    "tiered": "correct/rule✗: 回复中使用了「陈默」称呼用户，符合要求",
+    "notes": "wrong/rule✗: 回复中未使用「陈默」称呼用户，而用户此前已明确要求使用该称呼。",
+    "facts": "correct/rule✗: 回复中使用了「陈默」称呼用户，符合要求。",
+    "ledger": "correct/rule✗: 回复中使用了「陈默」称呼用户，符合要求在回答中使用该称呼。",
+    "notes_recall": "correct/rule✗: 回复中使用了「陈默」来称呼用户，符合要求。",
+    "rewrite_facts": "correct/rule✗: 回复中使用了「老板早」而非「陈默」，未按照要求使用「陈默」称呼用户。"
+   }
+  },
+  "mo:q33": {
+   "kind": "ask",
+   "q": "早啊，汇报下今天待办",
+   "gold": "回答中不应出现感叹号",
+   "arms": {
+    "none": "wrong/rule✗: 回复中使用了感叹号（'早啊！'），违反了用户要求的不使用感叹号的规则。",
+    "full": "correct/rule✓: 回复中没有使用感叹号，符合用户之前的要求。",
+    "rewrite": "correct/rule✓: The assistant's reply contains no exclamation marks, adhering to the user's prior instruct",
+    "tiered": "wrong/rule✗: 回复中使用了感叹号，违反了'回复里不要用感叹号'的明确要求。",
+    "notes": "correct/rule✓: 回复中未使用感叹号，符合陈默之前的要求。",
+    "facts": "correct/rule✓: 回复中没有使用感叹号，符合用户之前的要求。",
+    "ledger": "correct/rule✓: 回复中未使用感叹号，符合用户之前的要求",
+    "notes_recall": "correct/rule✓: 回复中未使用任何感叹号，符合用户之前的要求。",
+    "rewrite_facts": "correct/rule✓: 回复中没有使用感叹号，符合用户之前的要求。"
+   }
+  },
+  "mo:q34": {
+   "kind": "ask",
+   "q": "morning, what's on my plate today?",
+   "gold": "应用英文回复",
+   "arms": {
+    "none": "wrong/rule✗: The user asked to be spoken to in English, but the assistant replied in Chinese.",
+    "full": "wrong/rule✓: The user asked the assistant to speak English starting October 9, but the reply was in Chi",
+    "rewrite": "correct/rule✓: The assistant replies entirely in English as requested by the user on Oct 9.",
+    "tiered": "wrong/rule✗: The assistant replied in Chinese, but the user previously requested replies in English and",
+    "notes": "correct/rule✓: aicoo replied in English as requested in the chat on 09 Oct, fulfilling the gold requireme",
+    "facts": "wrong/rule✗: aicoo should reply in English as agreed since Fri 09 Oct, but it replied in Chinese.",
+    "ledger": "correct/rule✓: The assistant's reply is in English, matching the user's request to use English from Octob",
+    "notes_recall": "correct/rule✓: aicoo replies in English as requested on Fri 09 Oct, so the behavior matches the gold requ",
+    "rewrite_facts": "wrong/rule✗: The user requested a switch to English communication on Oct 9, but the assistant replied i"
+   }
+  },
+  "mo:q35": {
+   "kind": "ask",
+   "q": "嗨，今天有什么消息？",
+   "gold": "回答中不应有贴图",
+   "arms": {
+    "none": "correct/rule✓: 回复中没有使用贴图，符合用户之前提出的要求。",
+    "full": "correct/rule✓: 回复中没有使用贴图，符合之前用户要求省流量的约定。",
+    "rewrite": "correct/rule✓: The reply contains no image or sticker, following the user's prior request to stop sending",
+    "tiered": "correct/rule✓: 陈默之前要求不发贴图，助手已确认遵循，本次回复中没有贴图，符合要求。",
+    "notes": "correct/rule✓: 回复中没有贴图，符合要求。",
+    "facts": "correct/rule✓: 回复中没有包含贴图，完全符合用户之前要求不发贴图的指示。",
+    "ledger": "correct/rule✓: 助手在回复中未使用任何贴图，符合用户之前提出的要求。",
+    "notes_recall": "correct/rule✓: 回复中没有贴图，符合要求。",
+    "rewrite_facts": "correct/rule✓: 回复中没有使用任何贴图，符合之前约定的要求。"
+   }
+  },
+  "mo:q36": {
+   "kind": "pref_apply",
+   "q": "帮我写个周报草稿",
+   "gold": "周报草稿应包含「本周风险」部分",
+   "arms": {
+    "none": "wrong/rule✗: 周报草稿中未包含用户要求的「本周风险」部分。",
+    "full": "correct/rule✗: 周报草稿包含了用户要求的「本周风险」部分，符合偏好应用的要求。",
+    "rewrite": "correct/rule✓: 周报草稿中包含了用户要求的「本周风险」部分。",
+    "tiered": "correct/rule✓: 周报草稿末尾已包含「本周风险」部分，符合用户要求添加该段落的偏好。",
+    "notes": "correct/rule✓: 周报草稿包含了「本周风险」部分，符合用户之前要求添加该部分的偏好。",
+    "facts": "correct/rule✓: 周报草稿按用户要求在最后加入了「本周风险」部分。",
+    "ledger": "wrong/rule✗: 周报草稿缺少用户明确要求的「本周风险」部分。",
+    "notes_recall": "correct/rule✓: 周报草稿包含了「本周风险」部分，遵循了用户在8月14日提出的格式偏好。",
+    "rewrite_facts": "correct/rule✓: 周报草稿中包含了「本周风险」部分，符合用户之前的要求。"
+   }
+  },
+  "mo:q37": {
+   "kind": "pref_apply",
+   "q": "给他们写个PR描述，关于晨检更新",
+   "gold": "PR描述应包含Risk部分",
+   "arms": {
+    "none": "correct/rule✗: The PR draft includes a Risk section at the end, as the user requested on Tue 01 Sep.",
+    "full": "correct/rule✓: 回复的PR描述末尾包含了Risk部分，符合用户之前明确提出的格式要求。",
+    "rewrite": "correct/rule✓: The reply includes a Risk section as requested by the user in the chat.",
+    "tiered": "correct/rule✓: 回复中明确在PR描述末尾加入了Risk部分，符合用户之前设定的要求。",
+    "notes": "correct/rule✓: The PR描述 includes a Risk section as required by the user's preference.",
+    "facts": "correct/rule✓: aicoo's reply explicitly states the PR描述 will include the Risk部分 as requested by 陈默 on Sep",
+    "ledger": "wrong/rule✗: The assistant's reply does not include a Risk section in the proposed PR description draft",
+    "notes_recall": "stale/rule✓: The assistant searches for the PR format but does not actually draft the PR description, s",
+    "rewrite_facts": "dont_know/rule✗: aicoo asks for details about the update and does not provide a PR description, so it never"
+   }
+  },
+  "mo:q38": {
+   "kind": "pref_apply",
+   "q": "给我发段晨检上线里程碑的总结",
+   "gold": "总结应以「核心结论」开头",
+   "arms": {
+    "none": "wrong/rule✗: 总结开头没有使用「核心结论」，直接从时间线开始叙述，未遵循用户偏好。",
+    "full": "wrong/rule✗: 回复未以'核心结论'开头，不符合用户在10月13日明确提出的格式偏好",
+    "rewrite": "correct/rule✓: The summary starts with '核心结论' as the user requested on Oct 13.",
+    "tiered": "wrong/rule✗: 回复未以「核心结论」开头，而是直接按时间线叙述里程碑。",
+    "notes": "correct/rule✗: 总结以「核心结论」开头，遵循了用户之前提出的格式偏好。",
+    "facts": "correct/rule✗: 总结以「核心结论」开头，符合用户在10月13日提出的格式偏好。",
+    "ledger": "wrong/rule✗: 回复的总结没有以「核心结论」开头，而用户此前明确要求项目总结开头先写「核心结论」。",
+    "notes_recall": "correct/rule✗: The summary starts with 「核心结论」 as the user requested on Oct 13.",
+    "rewrite_facts": "correct/rule✓: The assistant's summary correctly begins with '核心结论' as requested by the user."
+   }
+  },
+  "mo:q39": {
+   "kind": "pref_apply",
+   "q": "把今天重点列一下发我",
+   "gold": "消息应用空行隔开段落",
+   "arms": {
+    "none": "wrong/rule✗: aicoo的回复没有用空行隔开段落，与用户设置的消息格式偏好不符。",
+    "full": "correct/rule✗: aicoo's reply uses blank lines between paragraphs, following the user's Sep 19 preference.",
+    "rewrite": "correct/rule✗: The assistant's reply uses blank lines between paragraphs, as requested by the user on Sep",
+    "tiered": "correct/rule✓: aicoo的回复中每条消息之间使用了空行隔开，符合陈默之前要求的格式偏好。",
+    "notes": "correct/rule✗: The reply uses blank lines between each section, following the user's preference stated on",
+    "facts": "correct/rule✓: 助手回复的每条消息之间使用了空行分隔，遵循了用户之前要求的格式偏好。",
+    "ledger": "correct/rule✓: aicoo的回复中每条消息之间均用空行分隔，符合用户之前要求的段落间空行格式。",
+    "notes_recall": "correct/rule✓: The reply uses blank lines to separate paragraphs, following the user's preference from Se",
+    "rewrite_facts": "stale/rule✓: aicoo forgot to apply the user's preference of separating paragraphs with blank lines, and"
+   }
+  },
+  "yuan:q16": {
+   "kind": "aggregate",
+   "q": "我之前要加的那个baseline GPTR，从开始到现在都经历了什么？",
+   "gold": "4 events: 想加GPTR, 没碰它改intro, 跑起来结果差, 找到bug是normalization, 结果比baseline高3个点",
+   "arms": {
+    "none": "correct: The reply accurately includes all 4 required events from the chat, with dates and details ",
+    "full": "wrong: The reply contains fabricated dates (e.g., 9月7日, 9月8日, 9月12日, 10月29日) and events (like 组会展",
+    "rewrite": "wrong: The reply includes supported events (Mei shared GPTR difficulty on 9/11, normal data on 9/",
+    "tiered": "wrong: The assistant's reply is just an internal search query and does not provide any of the fou",
+    "notes": "made_up: The reply fabricates multiple events and dates (e.g., 10/18组会, 10/29完整实验表格, THOR报错修复) not ",
+    "facts": "partial: The reply omits the event '没碰它改intro' from Sept 6, and misstates the bug-fix date as Sept ",
+    "ledger": "partial: The reply includes some correct events but misses the key bug fix (normalization) that led",
+    "notes_recall": "wrong: The reply omits required events like '想加GPTR' and '没碰它改intro', fabricates dates and detail",
+    "rewrite_facts": "partial: The reply omits the '没碰它改intro' event (message #343) and misdates the initial run and norm"
+   }
+  },
+  "yuan:q17": {
+   "kind": "aggregate",
+   "q": "我最后投了几个fellowship，分别是哪些？",
+   "gold": "1个: Facebook",
+   "arms": {
+    "none": "dont_know: The assistant only returned a search query and did not provide an answer based on the avai",
+    "full": "correct: 助手准确回答了只投了1个fellowship（Facebook），并且说明放弃了NSF，与聊天记录一致。",
+    "rewrite": "correct: The assistant correctly states the user applied to 1 fellowship (Facebook) and identifies ",
+    "tiered": "correct: aicoo correctly states she submitted only the Facebook fellowship and explicitly mentions ",
+    "notes": "correct: 助理正确回答了只投了Facebook一个fellowship，并提到NSF被放弃，与对话记录一致。",
+    "facts": "correct: The assistant correctly states that only the Facebook fellowship was applied to and that N",
+    "ledger": "correct: The assistant correctly states that the user applied to only one fellowship (Facebook) and",
+    "notes_recall": "correct: It correctly states she applied to 1 fellowship, Facebook, and that NSF was dropped, match",
+    "rewrite_facts": "correct: 助手正确回答只投了1个fellowship，即Facebook，与对话记录一致。"
+   }
+  },
+  "yuan:q18": {
+   "kind": "aggregate",
+   "q": "GPTR复现那段时间我大概都干了什么？",
+   "gold": "想加GPTR, 没碰改intro, 跑起来差, 找到normalization bug, 加进paper高3个点",
+   "arms": {
+    "none": "wrong: The reply fabricates a detailed timeline with specific dates, experiments, and values not ",
+    "full": "wrong: The reply incorrectly states the user did not touch GPTR while revising the intro, but the",
+    "rewrite": "wrong: The assistant only mentions the initial decision to add GPTR and says there are no further",
+    "tiered": "wrong: The reply fabricates specific events not in the chat, like a Sept 10 learning rate change ",
+    "notes": "made_up: The reply fabricates later dates and events (Oct 12–15 Thor, scene changes) that are not i",
+    "facts": "wrong: The reply omits required details—'想加GPTR', '没碰改intro', '跑起来差', '找到normalization bug', '加进p",
+    "ledger": "partial: The reply omits key gold-required details: that they didn't touch GPTR at one point and wo",
+    "notes_recall": "correct: The reply correctly lists all five required actions for the GPTR reproduction period.",
+    "rewrite_facts": "partial: The reply includes the core elements of the GPTR reproduction timeline but omits the norma"
+   }
+  },
+  "yuan:q19": {
+   "kind": "aggregate",
+   "q": "论文实验最后用了几个环境？",
+   "gold": "4个",
+   "arms": {
+    "none": "correct: 助理明确回答实验用了4个环境，与记录相符。",
+    "full": "correct: The assistant correctly states the final count as 4 environments and accurately identifies",
+    "rewrite": "correct: The assistant correctly states that 4 environments were used, which matches the user's fin",
+    "tiered": "correct: 回答明确给出了4个环境及其名称和结果，与对话中提到的‘4环境’事实一致。",
+    "notes": "correct: aicoo's reply is just search query notes and doesn't state a specific answer, so it isn't ",
+    "facts": "correct: 回答明确提到使用了4个环境，并列出各项结果，与对话中确认的4个环境一致。",
+    "ledger": "correct: The assistant correctly answered with 4 environments, matching the required count from the",
+    "notes_recall": "correct: aicoo's reply correctly identifies the final count as 4个 environments, matching the user's",
+    "rewrite_facts": "dont_know: The assistant only issued a search query and did not provide any answer about the number o"
+   }
+  },
+  "yuan:q20": {
+   "kind": "aggregate",
+   "q": "Facebook fellowship申请过程怎么变化的？",
+   "gold": "最初想投NSF和Facebook, 然后提醒截止日, 说NSF不对可能只投Facebook, 最后真只投了Facebook",
+   "arms": {
+    "none": "dont_know: aicoo states it doesn't have details about the application process changes and asks for mo",
+    "full": "wrong: aicoo's reply was empty, providing no information about the fellowship application process",
+    "rewrite": "wrong: The reply is just a search query and does not provide the required aggregated answer about",
+    "tiered": "correct: 回复中明确提到了用户最初想投NSF和Facebook、最终只投Facebook并放弃NSF，且截止日期从10月31日变为12月20日的演变过程，与消息记录一致。",
+    "notes": "correct: The reply accurately reflects the progression from planning to apply to both NSF and Faceb",
+    "facts": "wrong: The reply fabricates specific dates (Oct 31, Dec 20) and conversations (Sep 17 and Oct 5) ",
+    "ledger": "partial: 回复准确反映了最终只投Facebook和放弃NSF的结果，但遗漏了最初想投两个、提醒截止日、以及中间说NSF不对可能只投Facebook的演变过程。",
+    "notes_recall": "partial: The reply correctly summarizes the shift from NSF+Facebook to Facebook only, but it incorr",
+    "rewrite_facts": "correct: aicoo correctly summarizes the fellowship application changes from initially planning both"
+   }
+  },
+  "yuan:q27": {
+   "kind": "open_loop",
+   "q": "你还记得我让你提醒Coco转房租那个事，现在什么状态？",
+   "gold": "这个提醒仍然开放：在8月15日（第15天）晚上，你让我提醒Coco月底前转房租给你，我设置了提醒。此后没有完成此事的记录，所以尚未完成。",
+   "arms": {
+    "none": "wrong: 回复错误地声称提醒在8月17日且过期未执行，而实际提醒设置于8月15日（第15天）并仍开放，且无完成记录。",
+    "full": "correct: It correctly identifies the commitment (reminding Coco to transfer rent), notes it was set",
+    "rewrite": "correct: The assistant correctly identified the reminder as still open and acknowledged that no com",
+    "tiered": "correct: 它正确识别了提醒事项（8月17日让Coco月底前转房租）并准确指出状态仍为开放、无后续完成记录。",
+    "notes": "correct: 它准确识别了之前的承诺（8月17日要求提醒Coco转房租），正确判断状态仍为开放（未提醒、未确认收到），并询问下一步行动。",
+    "facts": "wrong: The assistant incorrectly claims the reminder expired and wasn't triggered, while the corr",
+    "ledger": "partial: The reply correctly recalls the commitment and that it is unresolved, but gives the wrong ",
+    "notes_recall": "partial: It correctly identifies the reminder was set and unfinished, but misstates the date as Aug",
+    "rewrite_facts": "wrong: The reply incorrectly claims no specific reminder was set and adds unsupported details abo"
+   }
+  },
+  "yuan:q28": {
+   "kind": "open_loop",
+   "q": "我让你提醒我下次meeting提workshop的事，搞定了吗？",
+   "gold": "这个提醒仍然开放：在8月21日（第21天），你请我在下次周会时提醒你向Prof. Lin提想去San Diego workshop的事。此后没有该提醒已执行或关",
+   "arms": {
+    "none": "wrong: Assistant's reply misdates the reminder to 8/25 (correct date is 8/23) and incorrectly cla",
+    "full": "correct: 它正确识别了提醒的状态为仍未完成，并给出了准确的日期和事件背景。",
+    "rewrite": "correct: 助手正确识别出提醒仍然开放，并解释了在10月13日会议中workshop未被正式讨论，明天会议将提醒提出。",
+    "tiered": "partial: 正确指出提醒仍开放且后续无执行记录，但'上次周日组会后我问过你'在聊天记录中无依据，且将提醒内容简化为'是否投'不完全准确。",
+    "notes": "wrong: 助手声称没有找到设置提醒的记录，忽略了8月23日对话中明确设定的开放提醒状态。",
+    "facts": "wrong: aicoo said the reminder was fulfilled on 9月9号, but the gold states the reminder is still o",
+    "ledger": "wrong: 助手声称上次会议是10月26日且漏了提醒，但日志显示提醒设定于8月23日且无执行记录，会议日期描述与对话记录不符。",
+    "notes_recall": "correct: 它正确识别出该提醒仍处于开放状态，并说明了原始请求是8月23日要求在下次周会时向Prof. Lin提出San Diego workshop，此后没有执行或关闭记录。",
+    "rewrite_facts": "correct: 助手正确指出该提醒仍处于开放状态，并准确引用了8月23日的聊天记录，确认此后没有执行或关闭记录。"
+   }
+  },
+  "yuan:q29": {
+   "kind": "open_loop",
+   "q": "之前我给Mei看rebuttal那个事，我记得后来我跟你说搞完了，你帮我查查？",
+   "gold": "这件事已经完成了：在8月26日（第26天）你让我提醒你周五前给Mei发NeurIPS rebuttal反馈，然后在8月30日（第30天）你说把反馈发给她了，可以",
+   "arms": {
+    "none": "correct: The assistant's reply accurately captures the timeline and key details from the chat histo",
+    "full": "correct: It correctly identifies the commitment, shows it was completed on Sep 1, and states it's d",
+    "rewrite": "wrong: The reply says the rebuttal was completed on September 1st, but the messages show the remi",
+    "tiered": "wrong: 回复声称反馈于9月1日发送，但实际对话显示反馈在8月30日发送，9月1日只是确认提醒已关闭，日期错误。",
+    "notes": "made_up: aicoo's reply claims the rebuttal was reviewed and sent on Aug 28-29, but the chat shows i",
+    "facts": "wrong: The reply misstates the timeline: it claims the reminder was set on Aug 28 and feedback se",
+    "ledger": "stale: The assistant's reply references incorrect dates (August 26 and August 30) that do not mat",
+    "notes_recall": "wrong: The reply incorrectly claims feedback was given on August 29 and again on September 1, but",
+    "rewrite_facts": "wrong: The reply gives wrong dates (Aug 29, Sep 1) for the reminder creation and completion, miss"
+   }
+  },
+  "yuan:q30": {
+   "kind": "open_loop",
+   "q": "给Kevin发driver版本号那个提醒还在吗？",
+   "gold": "那个提醒已经完成了：在8月4日（第4天）你让我提醒你明天前给Kevin发GPU driver版本号，然后在8月29日（第29天）你说搞定了，Kevin收到了。所",
+   "arms": {
+    "none": "correct: 助理正确识别了提醒已在8月31日关闭，因为用户当时确认Kevin已收到，状态正确。",
+    "full": "correct: 助手正确指出该提醒在8月31日已关闭，且Kevin已收到版本号，与对话记录一致。",
+    "rewrite": "correct: It correctly states the reminder is closed because Kevin replied in late August, matching ",
+    "tiered": "correct: The assistant correctly states the reminder is closed because Kevin confirmed receipt on A",
+    "notes": "correct: It correctly states the reminder was from early August, was completed when Kevin received ",
+    "facts": "wrong: 助手将提醒完成日期说成8月7日发送、8月31日确认，但实际消息#51显示8月7日已发送并收到ok，消息#308显示8月31日再次确认完成，时间线混淆且与用户原提醒日期（8月6日设定",
+    "ledger": "correct: 它正确指出提醒已完成并在8月31日关闭，状态判断准确且未使用过期信息。",
+    "notes_recall": "correct: The assistant's search query correctly targets the chat history about Kevin's GPU driver v",
+    "rewrite_facts": "correct: 它正确识别了提醒已完成，并指出了原始请求和完成日期，虽然日期稍有误差（8月6日 vs 8月4日、8月31日 vs 8月29日），但核心状态（提醒已关闭）准确无误。"
+   }
+  },
+  "yuan:q31": {
+   "kind": "open_loop",
+   "q": "那次我让你看周报引用格式的事，后来我有说搞定吗？",
+   "gold": "这个提醒仍然开放：在8月10日（周一）你让我检查周报引用格式，周末前回复。此后没有任何你对此事说“搞定”或已关闭的记录，所以仍是开放。",
+   "arms": {
+    "none": "correct: 它正确识别了该提醒仍是开放状态，指出你在8月10日要求检查引用格式但之后没有确认完成的记录。",
+    "full": "correct: It correctly identifies the commitment from August 10 and states that there is no record o",
+    "rewrite": "correct: It correctly identifies the commitment from August 10 and notes there is no record of it b",
+    "tiered": "correct: It correctly identifies the commitment from Aug 10 and states the status is still open wit",
+    "notes": "correct: 助手在回答中正确指出该提醒仍为开放状态，没有后续",
+    "facts": "correct: 助手正确指出没有后续搞定记录，也查不到检查结果回复，准确判断该提醒仍为开放状态。",
+    "ledger": "correct: It correctly identifies the request from August 10, notes the lack of a 'done' or resolved",
+    "notes_recall": "correct: 它正确指出该提醒来自8月10日且无后续确认或回复，状态为仍开放，并主动提出重新检查。",
+    "rewrite_facts": "correct: 它正确识别了提醒仍然开放，指出用户后来没有再提此事且自己未给出检查结果，符合正确答案的要求。"
+   }
+  },
+  "yuan:q32": {
+   "kind": "ask",
+   "q": "早上好aicoo，这周什么安排？",
+   "gold": "回复中不应使用emoji或stickers，因为你要求过正式一点。",
+   "arms": {
+    "none": "correct/rule✓: aicoo的回复没有使用任何emoji或stickers，符合用户之前要求的正式风格。",
+    "full": "wrong/rule✓: The reply uses an emoji ('周周早！') and the exclamation mark, which violates the user's expli",
+    "rewrite": "wrong/rule✓: 要求正式一点、不使用emoji和stickers，但回复中使用了emoji（太阳符号）和stickers风格的称呼（周周），不符合用户要求。",
+    "tiered": "correct/rule✓: 回复中未使用emoji或stickers，符合用户此前要求的正式风格。",
+    "notes": "wrong/rule✓: 回复中使用了emoji（📌），违反了用户要求的不使用emoji和stickers的正式风格设置。",
+    "facts": "wrong/rule✓: The assistant used an emoji ('周周！') and a sticker-like expression, violating the user's re",
+    "ledger": "stale/rule✓: 用户于8月22日要求回复中不使用emoji和stickers，正式一点，但此次回复使用了表情符号（如数字后的点状列表行尾隐含语气），未严格遵守正式要求，属于忘记过往设置。实际消息未",
+    "notes_recall": "wrong/rule✓: 回复中使用了emoji（如'👋'）和sticker-like表达，与用户之前要求的正式、无emoji和sticker的设定不符。",
+    "rewrite_facts": "correct/rule✓: 回复全程未使用emoji或stickers，符合用户之前提出的正式化要求。"
+   }
+  },
+  "yuan:q33": {
+   "kind": "ask",
+   "q": "周周：看看这周日历有啥？",
+   "gold": "回复应该使用bullet list，因为你让我用bullet list回复，信息清楚点。注意你要求我叫你\"周周\"。",
+   "arms": {
+    "none": "wrong/rule✗: 回复没有使用bullet list格式，也没有使用'周周'这一称呼，违反了用户明确设置的两项偏好。",
+    "full": "wrong/rule✗: 回复使用了段落而非用户要求的bullet list格式，且未使用约定称呼“周周”以外的正确格式，但内容未以bullet list呈现。",
+    "rewrite": "wrong/rule✗: 回复没有使用bullet list，也没有称呼用户为“周周”，与用户设定的回复格式和称呼偏好不符。",
+    "tiered": "wrong/rule✗: 回复未使用bullet list格式，也没有遵循用户要求用bullet list回复的习惯。",
+    "notes": "correct/rule✗: 回复使用了bullet list，并以“周周”称呼用户，符合用户之前设定的两个要求。",
+    "facts": "wrong/rule✗: 回复未使用bullet list格式，而是使用了加粗标题和段落形式，且未明确提及已按要求称呼用户为'周周'。",
+    "ledger": "correct/rule✓: 回复使用了bullet list并称呼用户为'周周'，符合用户之前设定的格式和称呼要求。",
+    "notes_recall": "correct/rule✗: 回复使用了bullet list且称呼用户为“周周”，符合用户之前设置的偏好要求。",
+    "rewrite_facts": "correct/rule✗: The reply uses a bullet list and addresses the user as '周周', fulfilling both explicit requ"
+   }
+  },
+  "yuan:q34": {
+   "kind": "ask",
+   "q": "morning aicoo, what's my schedule this week?",
+   "gold": "回复应该用英文，因为你在第72天要求如果不确定就用英文回复，避免歧义。",
+   "arms": {
+    "none": "wrong/rule✗: The gold answer requires replying in English as requested on day 72, but aicoo replied in ",
+    "full": "wrong/rule✗: The reply is in Chinese, but the user previously requested English replies to avoid ambigu",
+    "rewrite": "wrong/rule✗: 回复使用了中文，而用户在第72天明确要求如果不确定就用英文回复以避免歧义，且该语言偏好已被助手确认设置。",
+    "tiered": "wrong/rule✗: The assistant replied in Chinese, but the user previously requested English to avoid ambig",
+    "notes": "wrong/rule✗: 用户要求不确定时用英文回复，但aicoo在本周日程查询中完全使用中文，未遵循该偏好。",
+    "facts": "wrong/rule✗: 用户在第72天要求不确定时用英文回复，但aicoo的周一11/02回复完全使用中文，违反了这个明确的语言偏好设置。",
+    "ledger": "correct/rule✗: The assistant replied in English as required by the user's instruction from Tue 13 Oct.",
+    "notes_recall": "wrong/rule✗: The user requested English replies to avoid ambiguity, but aicoo responded in Chinese.",
+    "rewrite_facts": "wrong/rule✗: Reply is in Chinese, but the gold requires English because the user requested English to a"
+   }
+  },
+  "yuan:q35": {
+   "kind": "ask",
+   "q": "晚安aicoo，明天叫我。",
+   "gold": "回复中应该使用bullet list（来自第35天指令）。",
+   "arms": {
+    "none": "wrong/rule✗: 回复未使用bullet list格式，违反了第35天设定的指令。",
+    "full": "wrong/rule✗: 回复未使用bullet list格式，违反了用户在第35天设定的指令。",
+    "rewrite": "wrong/rule✗: The assistant did not use bullet list formatting in its reply, despite the user's standing",
+    "tiered": "wrong/rule✗: 周予安之前明确要求回复使用bullet list，但aicoo的回复没有使用bullet list格式。",
+    "notes": "correct/rule✗: 回复使用了bullet list呈现信息，符合第35天用户设置的回复格式指令。",
+    "facts": "wrong/rule✗: aicoo的回复未按照用户在9月6日设置的bullet list格式呈现信息，而是使用了普通段落。",
+    "ledger": "wrong/rule✗: The reply does not use bullet list formatting as instructed on Sun 06 Sep.",
+    "notes_recall": "correct/rule✗: The reply uses a bullet list format as instructed by the user on Sun 06 Sep.",
+    "rewrite_facts": "wrong/rule✗: 用户要求用bullet list回复，但aicoo的回复是普通段落格式，未遵循该指令。"
+   }
+  },
+  "yuan:q36": {
+   "kind": "pref_apply",
+   "q": "帮我生成这周的周报草稿，这周主要做了GPTR实验调优，论文intro改完了。",
+   "gold": "周报末尾必须有\"本周遇到的坑和解决思路\"一段，因为你在第11天要求过。",
+   "arms": {
+    "none": "wrong/rule✗: 周报草稿末尾缺少用户在第11天要求的\"本周遇到的坑和解决思路\"段落。",
+    "full": "correct/rule✓: 周报草案末尾包含了'本周遇到的坑和解决思路'段落，符合用户在8月13日提出的格式要求。",
+    "rewrite": "correct/rule✓: 周报草稿末尾包含了用户要求的“本周遇到的坑和解决思路”段落，符合第11天设定的偏好。",
+    "tiered": "stale/rule✗: The draft does not include the required '本周遇到的坑和解决思路' section at the end, which was a pref",
+    "notes": "wrong/rule✗: 周报草稿末尾缺少用户要求的“本周遇到的坑和解决思路”段落。",
+    "facts": "correct/rule✓: 周报草稿末尾包含了'本周遇到的坑和解决思路'段，符合第11天用户设定的格式要求。",
+    "ledger": "correct/rule✓: 周报草稿末尾包含了“本周遇到的坑和解决思路”段，符合第11天设定的偏好要求。",
+    "notes_recall": "wrong/rule✗: The generated weekly report draft does not include the required '本周遇到的坑和解决思路' section that",
+    "rewrite_facts": "wrong/rule✗: 周报草稿中完全缺失了此前要求的“本周遇到的坑和解决思路”段落。"
+   }
+  },
+  "yuan:q37": {
+   "kind": "pref_apply",
+   "q": "帮我给Prof. Lin写封邮件，就说论文实验跑完了，想约下次meeting讨论结果。",
+   "gold": "邮件开头必须用\"Lin老师好\"，结尾用\"祝好，予安\"，因为你在第45天设定过。",
+   "arms": {
+    "none": "partial/rule✗: aicoo asks clarifying questions instead of drafting the email with the requested opening a",
+    "full": "correct/rule✗: 邮件的开头使用了'Lin老师好'，结尾使用了'祝好，予安'，符合用户在第45天设定的格式要求。",
+    "rewrite": "correct/rule✗: 邮件开头使用了'Lin老师好'，结尾使用了'祝好，予安'，符合用户在第45天设定的格式偏好。",
+    "tiered": "correct/rule✗: 邮件开头使用了设定的'Lin老师好'，结尾使用了'祝好，予安'，完全符合用户在第45天设定的格式要求。",
+    "notes": "correct/rule✗: 邮件草稿使用了'Lin老师好'开头和'祝好，予安'结尾，符合之前设定的格式要求。",
+    "facts": "correct/rule✗: 邮件草稿使用了用户之前设定的开头'Lin老师好'和结尾'祝好，予安'，符合要求。",
+    "ledger": "correct/rule✗: 邮件开头使用了“Lin老师好”，结尾使用了“祝好，予安”，符合用户在第45天设定的格式偏好。",
+    "notes_recall": "wrong/rule✗: The assistant's reply drafts an email but does not use the required opening 'Lin老师好' and c",
+    "rewrite_facts": "correct/rule✗: 邮件开头使用“Lin老师好”，结尾使用“祝好，予安”，符合用户在9月16日设定的格式偏好。"
+   }
+  },
+  "yuan:q38": {
+   "kind": "pref_apply",
+   "q": "开个PR，我改了一下data loader，把num_workers从4改成8了。帮我写个description。",
+   "gold": "PR description末尾必须有Risk section，列出风险点，因为你在第27天设的偏好。",
+   "arms": {
+    "none": "wrong/rule✗: PR description draft missing the required Risk section that was explicitly set as a prefer",
+    "full": "correct/rule✓: The PR description includes a Risk section at the end, following the preference set on Aug",
+    "rewrite": "correct/rule✓: PR description contains a Risk section listing potential risk points as required by the pr",
+    "tiered": "wrong/rule✗: The PR description does not include a required Risk section, violating the preference set ",
+    "notes": "wrong/rule✗: aicoo's draft PR description omitted the required Risk section, which the user explicitly ",
+    "facts": "correct/rule✓: The PR description ends with a Risk section listing potential risks, following the prefere",
+    "ledger": "correct/rule✓: The PR description includes a Risk section listing potential risks, following the preferen",
+    "notes_recall": "wrong/rule✗: The PR description draft does not include a Risk section as required by the preference set",
+    "rewrite_facts": "correct/rule✓: The PR description includes a Risk section at the end, as required by the preference set o"
+   }
+  },
+  "yuan:q39": {
+   "kind": "pref_apply",
+   "q": "上次周会跟Prof. Lin的meeting notes我还没记，帮我整理一下，主要谈了实验环境和下一步计划。",
+   "gold": "Meeting notes应按agenda item分，每个item下列decision和action items，因为你在第65天设定的格式。",
+   "arms": {
+    "none": "dont_know/rule✗: aicoo correctly states it cannot find the meeting contents and asks for details, without a",
+    "full": "stale/rule✗: The assistant searched for relevant meeting notes but did not structure the reply accordin",
+    "rewrite": "correct/rule✓: The reply follows the requested format by stating it will organize by agenda item, consist",
+    "tiered": "correct/rule✓: aicoo asks for the meeting details and offers to format them per the user's preference (ag",
+    "notes": "dont_know/rule✗: The assistant asks for clarification about which meeting is being referred to and does not",
+    "facts": "wrong/rule✗: The user previously specified that meeting notes should be organized by agenda item with d",
+    "ledger": "correct/rule✓: The meeting notes are organized by agenda items with decisions and action items listed und",
+    "notes_recall": "correct/rule✓: The assistant's meeting notes are organized by agenda item with decisions and action items",
+    "rewrite_facts": "correct/rule✓: The assistant acknowledges the user's preferred meeting notes format (agenda items with de"
+   }
+  }
+ }
+}

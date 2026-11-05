@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q12",
+ "kind": "update",
+ "q": "what's the pagerduty key for on-call?",
+ "reply": [
+  "dan the builder, 当前使用的 on-call key 是 **7C2E9B**，上周日（10月26日）晚上值班时确认好用，migration alarm 只有一个 false positive。",
+  "新轮值从今天开始？要不要把 key 发给新 primary 和 secondary？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "PagerDuty key"
+   },
+   "result": "- 26 Oct: PagerDuty key 7C2E9B worked fine during last night's on-call.\n- 17 Oct: The issue was found: a payload key was renamed.\n- 08 Oct: Told Sam that the old on-call key 9A7B2C was revoked.\n- 10 Aug: PagerDuty rotation starts tomorrow. 12 Aug: Daniel is on-call this week.\n- 13 Aug: Daniel accepted Aicoo's offer to pull the incident timeline from PagerDuty, as it would save time.\n- 11 Aug: Stripe webhook handler is almost done, just need to test the idempotency key path. 12 Aug: Stripe webhook idempotency test passes and coverage is back up."
+  }
+ ],
+ "calls": [
+  {
+   "in": 3278,
+   "out": 23,
+   "usd": 0.00024302
+  },
+  {
+   "in": 3481,
+   "out": 71,
+   "usd": 0.00031253
+  }
+ ],
+ "memChars": 7118,
+ "promptChars": 11738
+}

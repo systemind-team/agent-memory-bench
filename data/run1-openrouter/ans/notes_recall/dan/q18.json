@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q18",
+ "kind": "temporal",
+ "q": "what day was the migration incident?",
+ "reply": [
+  "migration incident was Tuesday, 28 Aug — the one where `billing_status` got dropped instead of renamed, and Lena caught it before prod sync."
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2837,
+   "out": 38,
+   "usd": 0.00005174876
+  }
+ ],
+ "memChars": 5686,
+ "promptChars": 10246
+}

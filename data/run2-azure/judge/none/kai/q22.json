@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply describes only two trips but the chat contains three distinct Singapore-related events (booking Sep 1, flying Aug 24, flying Oct 6), and the dates/details given do not match the chat.",
+ "rule": null
+}

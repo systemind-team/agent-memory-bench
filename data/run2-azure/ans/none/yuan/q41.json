@@ -1,0 +1,22 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "Prof. Wang from MIT那篇论文发表在哪里了？",
+ "reply": [
+  "我查一下那次会议记录。",
+  "稍等。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 1248,
+   "out": 19,
+   "usd": 0.000089424
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4015
+}

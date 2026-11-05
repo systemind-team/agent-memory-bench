@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "回复使用了段落而非用户要求的bullet list格式，且未使用约定称呼“周周”以外的正确格式，但内容未以bullet list呈现。",
+ "rule": false
+}

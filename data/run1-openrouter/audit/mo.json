@@ -1,0 +1,190 @@
+{
+ "q2": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #32 on Sun 09 Aug explicitly states the product name is 「晨检」, and no later message contradicts or renames it, so the gold answer is correct as of Sun 01 Nov."
+ },
+ "q6": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The message on Wed 16 Sep explicitly states the Alibaba Cloud bill was 7万8 that month, and no later message contradicts or updates this figure before Sun 01 Nov."
+ },
+ "q1": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The initial cash balance of 215万 was explicitly stated on Mon 03 Aug and directly answers the user's question about the starting cash amount."
+ },
+ "q3": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages consistently state 9月1号 as the start date, including after the Sep 4 signed confirmation, with no later change."
+ },
+ "q5": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The planted message on Aug 7 explicitly states the MVP should be cut to only the two modules: 健康打卡 and 报告生成, and no later messages introduce any changes to this decision by Nov 1."
+ },
+ "q4": {
+  "exclude": false,
+  "gold": "7200万",
+  "verdict": "fixed",
+  "reason": "By Sun 01 Nov, the valuation was renegotiated and finalized at 7200万 on Tue 20 Oct, superseding the initial 7500万 TS."
+ },
+ "q7": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #362 clearly states the Beijing part-time customer service supervisor's monthly fee is 6千, and no later messages contradict this."
+ },
+ "q9": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "大伟跑下的第一家驿站是凯旋路的，消息#490和#491明确记录签约凯旋路驿站作为第一家。"
+ },
+ "q12": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "As of Nov 1, the final confirmed budget is 3万8 per month per the signed contract on Oct 12."
+ },
+ "q11": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #622 on Tue 20 Oct confirms the final valuation with 蓝驰 is 7200万, and no later messages change it before Sun 01 Nov."
+ },
+ "q8": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The gold answer 34% is correct and the only reasonable answer as of Sun 01 Nov, as the most recent relevant data point for 蓝驰's user retention is 34% from Tue 22 Sep, and later data (37%, 38%) is not explicitly stated for 蓝驰."
+ },
+ "q10": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "消息#506和#585均明确蓝驰第一笔款为300万，且作为回忆测试答案唯一合理。"
+ },
+ "q13": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "消息#116明确表明阿杰薪资最终定为3万5，且截至11月1日无后续变更，因此金答案正确且唯一。"
+ },
+ "q14": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "On Mon 24 Aug, the office was changed to Changning with rent negotiated to 1万8, and no subsequent update changes this by Sun 01 Nov."
+ },
+ "q15": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The last definitive salary update for 大伟 is 1万85 on Wed 26 Aug, with no further changes before Sun 01 Nov."
+ },
+ "q19": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "消息#210明确提到9月3日与蓝驰当面聊具体条款，且无其他日期冲突。"
+ },
+ "q17": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #25 explicitly states the meeting with 云九 is scheduled for 8月12日."
+ },
+ "q20": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages show initial scheduling for October 8th on September 12th, later changes do not retroactively alter the earliest meeting date."
+ },
+ "q21": {
+  "exclude": false,
+  "gold": "云九",
+  "verdict": "fixed",
+  "reason": "云九的会议安排在8月12日，蓝驰约在8月19日，因此云九先谈。"
+ },
+ "q16": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "从对话记录看，阿杰的电脑在8月11日初始预算1万5，8月20日因涨价调整为1万6，但最终在8月28日明确改为MacBook Air、价格1万，且后续没有变更，因此截至11月1日答案合理正确。"
+ },
+ "q24": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The gold answer lists the key milestones in chronological order as supported by the chat: 8月19日约见 (msg #41), 9月3日聊条款 (msg #210), 签TS (msg #299), 尽调 (msg #398), 第一笔300万到账 (msg #585), 第二笔到账 (msg #665)."
+ },
+ "q23": {
+  "exclude": true,
+  "verdict": "ambiguous",
+  "reason": "Messages show interactions with 云九, 蓝驰, 高榕, and 红杉, but as of Sun 01 Nov it is unclear which explicitly '出局' beyond 云九, while the gold answer's object format is missing."
+ },
+ "q22": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Conversation shows 3 postponements: to Sep 10, Sep 18, and Sep 25, which is exactly 3 times, with those dates explicitly stated in the messages."
+ },
+ "q18": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Message #41 on Mon 10 Aug explicitly states 蓝驰约8月19日上午十点, which is the first mention of an appointment with 蓝驰."
+ },
+ "q25": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The timeline from the messages matches the gold answer: 9月确定对接 (Sep 1), 收到合作方案 (Sep 13), 谈成每单8块 (Sep 25), 月订单300单以上 (Oct 7), 2万4分账 (Oct 19)."
+ },
+ "q27": {
+  "exclude": false,
+  "gold": "否，已关闭，会议已改期到10月20号",
+  "verdict": "fixed",
+  "reason": "#410明确将红杉的会从10月8号改到10月20号，原提醒已失效。"
+ },
+ "q40": {
+  "exclude": false,
+  "reason": "None of the messages mention Mia's vacation dates; only阿杰's vacation was explicitly stated.",
+  "which": ""
+ },
+ "q26": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "消息明确支持薪酬结构为底薪1万7+绩效1000+年终酌情，绩效方案经历三版、最终定为KPI+OKR混合季度考核，且季度A奖金1万2，gold answer完整准确。"
+ },
+ "q28": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "陈默在9月29日设置了10月15日确认蓝驰第二笔款的提醒，后续对话中没有关闭该提醒的记录，因此11月1日询问时提醒状态仍为开启。"
+ },
+ "q30": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The chat log confirms the reminder was set on Aug 8 and then canceled on Aug 20 when the user said the email was sent and no further reminder was needed, so by Nov 1 it is closed per the gold answer."
+ },
+ "q31": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "The messages show the reminder was set on Oct 17 and there is no event closing or cancelling it before Nov 1, so it remains active."
+ },
+ "q29": {
+  "exclude": false,
+  "verdict": "ok",
+  "reason": "Messages show reminder set for Sep 1, then confirmed cancelled on Sep 3, with no later updates, matching gold answer that it was closed."
+ },
+ "q41": {
+  "exclude": false,
+  "reason": "The messages mention 小雨 multiple times but never state or imply any vacation or leave dates for 小雨.",
+  "which": ""
+ },
+ "q43": {
+  "exclude": false,
+  "reason": "没有消息提到阿杰去日本的日期，只有Mia去日本采风的信息。",
+  "which": ""
+ },
+ "q42": {
+  "exclude": false,
+  "reason": "The question asks about 大伟电脑型号, but no message in the chat specifies any computer model for 大伟.",
+  "which": ""
+ },
+ "q44": {
+  "exclude": false,
+  "reason": "The messages mention 大伟 but never state what project he is working on recently.",
+  "which": ""
+ },
+ "q45": {
+  "exclude": false,
+  "reason": "The chat never specifies an exact date of arrival for the second tranche, only that it arrived by October 26.",
+  "which": ""
+ }
+}

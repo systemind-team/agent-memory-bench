@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant incorrectly states the user '记错了一个月' and claims the offsite was not Oct 20-21, but the chat clearly confirms those dates.",
+ "first": "wrong",
+ "rule": null
+}

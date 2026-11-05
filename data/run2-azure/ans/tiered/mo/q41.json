@@ -1,0 +1,58 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "小雨的休假日期记得吗？",
+ "reply": [
+  "之前小雨请过年假是9月14到18号，但那之后没有新的休假记录。你是指她接下来有休假安排吗？我帮你确认一下她最近有没有提过。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 休假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 年假"
+   },
+   "result": "#353 Wed 16 Sep 16:55 aicoo: 嗯，带宽超额，我让阿杰压缩图片资源，下周降下来\n#354 Thu 17 Sep 09:00 Them: 小雨下周请年假，9月14号到18号\n#355 Thu 17 Sep 09:05 aicoo: 收到，客服那边我代管几天，放心"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 休假 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5557,
+   "out": 21,
+   "usd": 0.000216426
+  },
+  {
+   "in": 5607,
+   "out": 22,
+   "usd": 0.000227486
+  },
+  {
+   "in": 5725,
+   "out": 23,
+   "usd": 0.000252826
+  },
+  {
+   "in": 5777,
+   "out": 46,
+   "usd": 0.000230802
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10954
+}

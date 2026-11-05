@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "aicoo forgot to apply the user's preference of separating paragraphs with blank lines, and instead used numbered points without blank line separation.",
+ "rule": true
+}

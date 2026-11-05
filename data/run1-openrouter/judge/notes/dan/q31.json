@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The reply claims Sam was sent the docs on Sep 20 and asked about a runbook on Oct 13, but the chat only shows a reminder set on Sep 19 and completion on Sep 21 with no mention of those other dates or events.",
+ "rule": null
+}

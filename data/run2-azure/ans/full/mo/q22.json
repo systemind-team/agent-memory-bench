@@ -1,0 +1,59 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q22",
+ "kind": "aggregate",
+ "q": "晨检上线推迟了多少次？每次计划在什么日子？",
+ "reply": [
+  "推迟了三次。",
+  "第一次计划9月10号，推到9月18号，最后再推到9月25号才真正上线。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线 推迟"
+   },
+   "result": "#278 Tue 08 Sep 09:17 aicoo: 好的，版本B侧重用户增长和留存，我备注一下执行细节\n#279 Tue 08 Sep 12:00 aicoo: 晨检上线又推迟到9月18号，iOS审得慢\n#280 Tue 08 Sep 12:05 Them: 又推迟……好吧，18号就18号，跟阿杰说一声"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线 计划 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线 9月"
+   },
+   "result": "#558 Sat 10 Oct 09:01 aicoo: DAU holding steady around 150-200, retention improving\n#559 Sat 10 Oct 09:35 aicoo: 晨检终于在9月25号上线了，DAU首日破200\n#560 Sat 10 Oct 09:36 Them: Wait, we already launched. You mean the English update\n---\n#377 Sun 20 Sep 11:31 aicoo: 已校核成本，比上周方案更稳，下午发你确认\n#378 Sun 20 Sep 15:10 aicoo: 晨检上线再拖，9月25号，这次说死了\n#379 Sun 20 Sep 15:15 Them: 靠，又延期，阿杰怎么说的\n---\n#278 Tue 08 Sep 09:17 aicoo: 好的，版本B侧重用户增长和留存，我备注一下执行细节\n#279 Tue 08 Sep 12:00 aicoo: 晨检上线又推迟到9月18号，iOS审得慢\n#280 Tue 08 Sep 12:05 Them: 又推迟……好吧，18号就18号，跟阿杰说一声\n---\n#173 Thu 27 Aug 15:03 aicoo: PPT第三版今晚给你，增加了用户黏性数据\n#174 Thu 27 Aug 17:00 a"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18702,
+   "out": 24,
+   "usd": 0.000641532
+  },
+  {
+   "in": 18829,
+   "out": 26,
+   "usd": 0.000623498
+  },
+  {
+   "in": 18884,
+   "out": 25,
+   "usd": 0.000680312
+  },
+  {
+   "in": 19267,
+   "out": 37,
+   "usd": 0.000767462
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35687
+}

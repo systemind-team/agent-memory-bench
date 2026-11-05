@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant states it cannot find the booking date in memory and asks for clarification, despite the chat showing the user told it the date on Wed 14 Oct.",
+ "rule": null
+}

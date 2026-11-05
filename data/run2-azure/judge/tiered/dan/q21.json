@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "Sam joined September 14, and the Stripe webhooks work was already underway by late August and had a PR by September 10, which is before his start date.",
+ "rule": null
+}

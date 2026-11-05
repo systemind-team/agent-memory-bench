@@ -1,0 +1,23 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "早上好aicoo，这周什么安排？",
+ "reply": [
+  "早上好周周！",
+  "这周节奏挺紧的，帮你梳理一下：\n- 今天（周一）9:30 线上meeting with Prof. Lin，讨论论文投稿时间和Dr. Chen入职安排，别忘了提San Diego workshop",
+  "- 明天（周二）Dr. Chen入职，10:00提醒你带他熟悉环境\n- 这周还要继续改论文，环境4的55%看看能不能再拉一拉",
+  "另外，这个月房租Coco该转你了（1200），月底前提醒你。先忙meeting，需要我准备什么吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3587,
+   "out": 135,
+   "usd": 0.00004018588
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8750
+}

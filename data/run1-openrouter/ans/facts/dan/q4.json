@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "how far did i run the day i set a personal best?",
+ "reply": [
+  "10.1 miles on Sep 15. that was a good day.",
+  "biscuit was probably ready for a nap after too"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "personal best run"
+   },
+   "result": "- 15 Sep: Daniel 'Dan' Okafor hit a new personal best in his run, 10.1 miles.\n- 20 Oct: Billing migration dry run report was merged and final run is planned for next week.\n- 04 Aug: Went for a run at lunch to clear their head\n- 16 Oct: billing migration dry run #2 today\n- 28 Aug: Need to add a db migration dry-run step to CI. 01 Sep: Lena picked up the CI dry-run ticket for migration checks.\n- 16 Aug: Coffee count: 2 (pre-run coffee and a bagel).\n- 29 Aug: lunch run 5k, biscuit joined for first mile\n- 16 Oct: Dan Okafor passed dry run with no issues.\n- 24 Oct: Daniel said it is rainy and there"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1508,
+   "out": 21,
+   "usd": 0.00003798536
+  },
+  {
+   "in": 1760,
+   "out": 34,
+   "usd": 0.00004927216
+  }
+ ],
+ "memChars": 984,
+ "promptChars": 5498
+}

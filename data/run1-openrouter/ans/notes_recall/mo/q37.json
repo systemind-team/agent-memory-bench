@@ -1,0 +1,53 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "给他们写个PR描述，关于晨检更新",
+ "reply": [
+  "Sure, here's the PR description for the morning check-in update. Risk section included as requested:",
+  "---",
+  "## Summary  \nThis update rolls out the new UI design from Mia (simplified and cleaner — went back to the first logo direction after three rounds of iteration), plus stability improvements based on user feedback. Android version targeting mid-November, iOS already live with DAU peaked at 2,100, D1 retention at 38%.",
+  "## Changes  \n- Redesigned onboarding flow and home screen layout  \n- Fixed iOS crash bug (patch released Sep 15)  \n- Optimized backend logging to resolve data conflicts and reduce test environment downtime",
+  "## Impact  \n- DAU: from 150-200 at launch to current 2,100 peak  \n- D1 retention: 38% (above the 2,000 DAU threshold from Yunjiu)  \n- User feedback from social group suggests sharing-based check-in incentive drives ~30% new user growth",
+  "## Risk  \n- Android release pushed to mid-November; two more weeks of testing needed (Ajie is running internal test cycle now)  \n- Enterprise channel partnership (Chengdu association) requires 5k deposit paid, pending contract signing  \n- Customer service response lagged during Xiaoyu's absence; backup contractor contract signed at 38k/month for 6 months from Oct 12",
+  "---",
+  "Want me to format this into a PR on the repo, or just paste it into the PR directly?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "product-launch"
+   },
+   "result": "产品发布顺序\nTue 01 Sep: 晨检iOS测试版昨晚闪退，阿杰在修；上线延期到9月10号（仍按此）；安卓内测改为10月15号（之前10月），阿杰已给排期；小雨成都合作推迟至10月，需自己搞推广，建议先靠抖音小视频拉DAU；成都健康管理师协会9月对接（新增）\nSat 19 Sep: 晨检iOS上线推迟到9月18号，因iOS审核慢（之前预计9月10号）；已通知阿杰，他说能赶上；营销物料需准备；9月15日大伟上午推广数据新增注册120，太慢，正在优化关键词；9月16日iOS闪退已修复但评审被拒一次，18号仍来得及；9月19日iOS评审已过；9月20日通知晨检再延期至9月25日，测试环境数据冲突需重构日志模块，阿杰保证25号（新增延期）\nSun 20 Sep: 大伟想试楼宇电梯广告，预算3万；建议先小范围测试，选静安3栋楼；9月17日跑了半天扫码仅63人，效果不佳；9月18日静安寺楼好点，其他两栋不值，建议砍掉，已停广告，钱省下来下周全力冲线上；大伟线上活动方案聊完，预算5万，能冲DAU（moved from Tue 15 Sep，新增线上活动方案）；9月21日确定9月25日上线最终checklist，需整理发阿杰确认；Wed 23 Sep: 大伟推广方案内容等Mia的图，最迟周四上线；Tue 06 Oct: 阿杰说安卓适配可能还能提前点，争取10月底（新增）；Sat 10 Oct:"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "user-feedback-summary"
+   },
+   "result": "用户反馈汇总\nWed 19 Aug: 周报加用户反馈汇总\nSat 29 Aug: 小雨社裙裂变方案已收到，核心是打卡分享红包，预估拉新30%"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2889,
+   "out": 21,
+   "usd": 0.000251858
+  },
+  {
+   "in": 3607,
+   "out": 23,
+   "usd": 0.000266286
+  },
+  {
+   "in": 3685,
+   "out": 336,
+   "usd": 0.000320474
+  }
+ ],
+ "memChars": 3164,
+ "promptChars": 7138
+}

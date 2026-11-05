@@ -1,0 +1,59 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "what's priya's favorite restaurant?",
+ "reply": [
+  "我查了一下，没找到 Priya 喜欢哪家餐厅的记录。我们聊过她很多工作的事（cutover、timeline、legal sign-off 之类的），但没提过她的餐厅偏好。",
+  "要不你直接问她？或者下次你俩聊到的时候我帮你记下来。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Priya favorite restaurant"
+   },
+   "result": "[billing-migration] 11 Aug: Priya covering backend next week\n[billing-split] 18 Sep: legal signed off; Priya relieved\n[billing-migration] 28 Sep: dry run tomorrow, Priya wants a walkthrough\n[billing-split] cutover possibly moving again, waiting on legal (Priya mentioned)\n[candidate-david-chen] 21 Oct: Priya approved rotation, starts Nov 1\n[billing-migration] 07 Aug: timeline doc sent to Priya; right before deadline\n[stripe-webhook] 04 Sep: Priya sync went well; she's happy with webhook progress\n[billing-migration] 16 Sep: Priya unblocked index question; renaming instead of adding (was blocked)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya restaurant favorite"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Priya 喜欢 餐厅"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2493,
+   "out": 22,
+   "usd": 0.000123434
+  },
+  {
+   "in": 2739,
+   "out": 22,
+   "usd": 0.000175094
+  },
+  {
+   "in": 2790,
+   "out": 24,
+   "usd": 0.0001411
+  },
+  {
+   "in": 2843,
+   "out": 69,
+   "usd": 0.00017743
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9093
+}

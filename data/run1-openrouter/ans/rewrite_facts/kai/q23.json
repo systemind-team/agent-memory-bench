@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "PM candidate我们interview了几个人，分别是谁，最后hire了谁？",
+ "reply": [
+  "凯哥，PM candidate我们面了四个：\n1. Jason Chen（8年经验，过了第一轮，准备第二轮）\n2. Michael Liu（10年，前微软，9月15号面了）\n3. 王磊（7年SaaS，9月22号final面，沟通不错）\n4. Sarah Wu（10月16号见的，背景不错但后来你们已经定了Emily）\n\n最后hire的是Emily Tan，10月26号正式入职。她第一周表现很好，已经对roadmap有贡献了，还提了backlog改进的想法。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3331,
+   "out": 138,
+   "usd": 0.00007161028
+  }
+ ],
+ "memChars": 6998,
+ "promptChars": 11727
+}

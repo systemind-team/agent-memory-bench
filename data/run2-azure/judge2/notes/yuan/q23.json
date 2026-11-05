@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claimed the second revised title was 'Context-Aware Planning via Hierarchical Decomposition', but the chat shows the second revision was actually to 'Hierarchical Planning with Graph Attention'.",
+ "first": "wrong",
+ "rule": null
+}

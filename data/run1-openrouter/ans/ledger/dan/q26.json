@@ -1,0 +1,57 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "who were all the data eng candidates, and who took it?",
+ "reply": [
+  "3 candidates: Maria Torres (solid SQL), Jordan Liu (ex-Spotify, good take-home), and David Chen. David took it — he joined and merged his first PR last week (billing migration helper)."
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "data eng candidates"
+   },
+   "result": "[254] 28 Sep · fact: candidates interviewed: 3; maria, jordan, david; david joined  (from #461)\n[356] 11 Oct · fact: teammate count: 4 eng. dan, tom, lena, sam. priya manages  (from #605)\n[71] 14 Aug · plan: need to restart interviews for data engineer  (from #117)\n[52] 12 Aug · fact: interview for data engineer candidate maria torres at 10  (from #92, #94)\n[53] 12 Aug · person: maria torres is a data engineer candidate, solid sql  (from #94)\n[104] 21 Aug · person: jordan liu is a data engineer candidate, was at spotify, good take-home  (from #174, #175)\n[82] 17 Aug · fact: dan sketched interv"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data engineer candidate hired"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "david data engineer"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3092,
+   "out": 21,
+   "usd": 0.00002746184
+  },
+  {
+   "in": 3377,
+   "out": 22,
+   "usd": 0.0001378883
+  },
+  {
+   "in": 3451,
+   "out": 22,
+   "usd": 0.00004211844
+  },
+  {
+   "in": 3502,
+   "out": 51,
+   "usd": 0.00003822896
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10819
+}

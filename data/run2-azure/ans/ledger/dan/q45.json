@@ -1,0 +1,70 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "what's priya's coffee order?",
+ "reply": [
+  "i don't have that anywhere — never came up in our chat or notes. want me to ask her or check if someone else keeps it?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "priya coffee order"
+   },
+   "result": "[478] 31 Oct · plan: order a new battery this week  (from #828)\n[241] 23 Sep · fact: dry run prep needs index order check  (from #431)\n[252] 28 Sep · fact: monday coffee count: 3  (from #459)\n[2] 03 Aug · feeling: may need to cut back on coffee  (from #0)\n[36] 09 Aug · feeling: lazy sunday morning, coffee and a book  (from #62)\n[355] 11 Oct · feeling: sunday, lazy morning, coffee and the paper  (from #604)\n[373] 14 Oct · fact: priya is back today  (from #635)\n[216] 18 Sep · feeling: coffee count: 0, trying something different  (from #377)\n[259] 29 Sep · fact: coffee count: 2 Tue 29 Sep  (from "
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "priya coffee order drink"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "priya coffee"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "coffee order"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3064,
+   "out": 22,
+   "usd": 0.00019752
+  },
+  {
+   "in": 3326,
+   "out": 23,
+   "usd": 0.000207276
+  },
+  {
+   "in": 3378,
+   "out": 21,
+   "usd": 0.000125428
+  },
+  {
+   "in": 3428,
+   "out": 21,
+   "usd": 0.000135928
+  },
+  {
+   "in": 3478,
+   "out": 35,
+   "usd": 0.000154268
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10793
+}

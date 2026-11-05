@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo的回复没有用空行隔开段落，与用户设置的消息格式偏好不符。",
+ "rule": false
+}

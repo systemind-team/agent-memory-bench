@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It could not find the meeting record and asked for clarification instead of drafting minutes.",
+ "rule": false
+}

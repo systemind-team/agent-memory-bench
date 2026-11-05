@@ -1,0 +1,70 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "阿杰去日本是几号？",
+ "reply": [
+  "翻了下聊天记录和我的记忆，没找到阿杰去日本的信息。我这边只记了他8月10-15日休过假，但没写去哪。",
+  "你是不是记混了？还是Mia最近去日本采风的事？Mia是10月5-9号去的。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 日本 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 休假 日本"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 10-15 日 休假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5581,
+   "out": 24,
+   "usd": 0.00005392492
+  },
+  {
+   "in": 5634,
+   "out": 24,
+   "usd": 0.00005607672
+  },
+  {
+   "in": 5687,
+   "out": 22,
+   "usd": 0.00005806612
+  },
+  {
+   "in": 5738,
+   "out": 28,
+   "usd": 0.00006062392
+  },
+  {
+   "in": 5795,
+   "out": 71,
+   "usd": 0.00005811484
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10952
+}

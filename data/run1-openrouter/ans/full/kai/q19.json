@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "那个offsite在Hangzhou，日期是Oct 20-21对吗？",
+ "reply": [
+  "凯哥，是的，Q4 offsite是10月20-21号，在杭州，Grace订的民宿。之前已经确认过了，12个人参加。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36345,
+   "out": 35,
+   "usd": 0.00041414436
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91605
+}

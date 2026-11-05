@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims 6 moves and includes an unsupported 'Sep 28 again (Aug 13)' plus misdates the Nov 15 move, when the chat supports exactly 5 distinct cutover date movements.",
+ "first": "wrong",
+ "rule": null
+}

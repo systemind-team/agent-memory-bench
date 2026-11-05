@@ -1,0 +1,59 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "那个月阿里云账单超了，多少钱？",
+ "reply": [
+  "你之前记的是9月16号那会儿，阿里云账单超到7万8，当时让阿杰去优化降成本。后来10月15号他说下月账单能降到5万左右，省将近3万。",
+  "现在你是想查10月的实际账单，还是回忆之前超支那个数？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿里云 账单 超"
+   },
+   "result": "#350 Wed 16 Sep 13:01 aicoo: 正常，iOS 审核平均 7 天，18 号来得及\n#351 Wed 16 Sep 16:50 aicoo: 这个月服务器成本超了，阿里云账单7万8\n#352 Wed 16 Sep 16:51 Them: 怎么那么高，是不是推广流量撑的"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿里云 7.8万"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿里云 账单 7万8"
+   },
+   "result": "#350 Wed 16 Sep 13:01 aicoo: 正常，iOS 审核平均 7 天，18 号来得及\n#351 Wed 16 Sep 16:50 aicoo: 这个月服务器成本超了，阿里云账单7万8\n#352 Wed 16 Sep 16:51 Them: 怎么那么高，是不是推广流量撑的"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5560,
+   "out": 24,
+   "usd": 0.001089392
+  },
+  {
+   "in": 5678,
+   "out": 25,
+   "usd": 0.000244076
+  },
+  {
+   "in": 5732,
+   "out": 26,
+   "usd": 0.000255976
+  },
+  {
+   "in": 5852,
+   "out": 75,
+   "usd": 0.000308616
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10958
+}

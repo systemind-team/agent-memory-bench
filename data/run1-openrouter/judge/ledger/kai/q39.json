@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The feedback should be grouped by feature first, but the reply presents ungrouped summaries and only asks clarifying questions.",
+ "rule": false
+}

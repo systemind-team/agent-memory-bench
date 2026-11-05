@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q16",
+ "kind": "update",
+ "q": "阿杰的电脑最后配了什么，多少钱？",
+ "reply": [
+  "阿杰最后配了 MacBook Air，预算 1 万，省下的钱贴去 iOS 推广了。这台是 8 月 11 日定下来的。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4012,
+   "out": 45,
+   "usd": 0.00018036
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8491
+}

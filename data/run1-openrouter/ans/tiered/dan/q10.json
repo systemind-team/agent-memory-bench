@@ -1,0 +1,58 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "team is 4 engineers now: you, Tom, Lena, Sam. David Chen joined officially on Oct 21 but his first sprint starts this coming week, so once he's fully ramped it'll be 5.",
+  "Priya manages. you're 4 people shipping the billing migration. want me to pull up anything on the cutover checklist or the rollback steps you mentioned yesterday?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "team size engineers"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "team engineers Tom Lena Sam David"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "engineers team"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5324,
+   "out": 21,
+   "usd": 0.00008482152
+  },
+  {
+   "in": 5374,
+   "out": 24,
+   "usd": 0.0000538356
+  },
+  {
+   "in": 5427,
+   "out": 21,
+   "usd": 0.0000557438
+  },
+  {
+   "in": 5477,
+   "out": 86,
+   "usd": 0.00005473692
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17907
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q16",
+ "kind": "update",
+ "q": "Aurora最初名字是Aurora啥，我记得有歧义。",
+ "reply": [
+  "凯哥，之前你提过，Aurora Health 不是 Aurora TTech，差点混淆。后来在文档里已经统一用 Aurora Health 了。",
+  "所有记录都对的，放心。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 36344,
+   "out": 49,
+   "usd": 0.00030714712
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91597
+}

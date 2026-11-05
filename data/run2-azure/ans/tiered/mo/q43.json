@@ -1,0 +1,47 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "阿杰去日本是几号？",
+ "reply": [
+  "没查到阿杰去日本的信息。记录里只有他8月10-15日休过假，但那会儿没提具体去哪。",
+  "你是记混了，还是最近聊过他要去日本的事？我帮你再翻翻记忆。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 日本"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 休假"
+   },
+   "result": "#59 Wed 12 Aug 16:30 Them: 明天约了设计师看晨检UI稿。\n#60 Thu 13 Aug 10:00 Them: 阿杰休假，但他说薪资能不能再谈谈？\n#61 Thu 13 Aug 10:05 aicoo: 他想调多少？之前聊的是税前4万。\n---\n#35 Sun 09 Aug 14:01 aicoo: 列了to-do，明天发你确认\n#36 Mon 10 Aug 09:15 Them: 周一，阿杰休假第一天，服务器谁盯着？\n#37 Mon 10 Aug 09:17 aicoo: 服务器有监控告警，我帮你盯着，有异常马上通知你。\n---\n#20 Thu 06 Aug 14:02 aicoo: 位置不错，方便见投资人和客户\n#21 Thu 06 Aug 16:00 Them: 阿杰8月10号到15号休假\n#22 Thu 06 Aug 16:01 aicoo: 收到，我会避开那段时间安排会议"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5558,
+   "out": 22,
+   "usd": 0.000217196
+  },
+  {
+   "in": 5609,
+   "out": 22,
+   "usd": 0.000227906
+  },
+  {
+   "in": 5869,
+   "out": 70,
+   "usd": 0.000309386
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10952
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我们的pricing现在是多少per user，final decision是啥？",
+ "reply": [
+  "凯哥，pricing final decision是 $44/user/month，12月1号launch。之前Ben的A/B测试跑下来，$44那个variant转化率比预期高了8%，他建议直接上v3版本。11月3号A/B测试会继续跑，等launch前最后确认数据。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3442,
+   "out": 68,
+   "usd": 0.00007043288
+  }
+ ],
+ "memChars": 7306,
+ "promptChars": 12034
+}

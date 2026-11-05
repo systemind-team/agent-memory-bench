@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply gives only 3 date changes, missing the cutover moves to Sep 28 and Nov 15, and incorrectly lists an unspecified August date as the starting point rather than the specific dates supported by the chat.",
+ "first": "wrong",
+ "rule": null
+}

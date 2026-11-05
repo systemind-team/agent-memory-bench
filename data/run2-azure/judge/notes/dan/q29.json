@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims the spec was merged and refers to a v2 refactor and shared doc, but the chat only shows an unclosed reminder with no evidence any of that happened.",
+ "rule": null
+}

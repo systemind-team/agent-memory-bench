@@ -1,0 +1,20 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "what's the billing cutover date?",
+ "reply": [
+  "是十月十二日。普里亚确认过，之后没有再变动。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 21346,
+   "out": 22,
+   "usd": 0.00017829896
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64104
+}

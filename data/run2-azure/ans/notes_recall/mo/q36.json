@@ -1,0 +1,79 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q36",
+ "kind": "pref_apply",
+ "q": "帮我写个周报草稿",
+ "reply": [
+  "**周报｜W46 (Oct 26 – Nov 1)**\n\n**完成**\n- 崇明全员offsite顺利结束，团队状态不错\n- 蓝驰seed轮第二笔300万到账，账上现金600万\n- 成都合作下月预测冲到500单，分成方案已签\n- 大伟徐汇驿站首月流水破5万，凯旋路稳定运营\n- 安卓版适配核心流程跑通，进入最后测试\n- 阿里云成本优化，下月账单预计降到5万\n\n**本周风险**\n- 安卓版11月中上线排期偏紧，测试周期压到两周，bug积压风险\n- 成都协会加单后分成比例需重新谈判，可能影响利润\n- 红杉那边等着下一轮接触，但暂时没有新进展\n\n**下周重点**\n- 大伟拓展新渠道（徐汇第二家跑通后可复制）\n- 成都合作下周正式启动推广，跟踪首周订单量\n- 安卓版内测验收，准备上线物料\n- 季度复盘材料整理（下周日做）\n\n看看哪里需要调，还是直接发"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "周报模板 本周风险"
+   },
+   "result": "[about-me] Sun 06 Sep: 他们需要我帮忙盘点和排优先级，直说数据，不啰嗦；周报加「本周风险」；PR描述加Risk部分；称呼为陈默；回复不用感叹号；以后消息每段用空行隔开；不发贴图（moved from Tue 01 Sep，新增风格要求；Sat 19 Sep新增格式要求；Mon 21 Sep新增不发贴图）\n[about-me] Sat 31 Oct: 陈默要求aicoo发周报\n[user-feedback-summary] Wed 19 Aug: 周报加用户反馈汇总\n[seed-round-due-diligence] Fri 11 Sep: 蓝驰尽调今天开始财务部分，小雨在配合，预计本周完（之前Thu 10 Sep签TS）\n[trademark-rejection] 名成近去，重新申请，找代理费用8千（多收2千退差价），3个月出结果；代理同意退差价，本周退款中\n[seed-round-investors] Sun 30 Aug: 估值松到7500万（之前8000万），高榕会今天（30号）上午已安排，预演过；蓝驰下周转到账第一笔，催邮件已发；高榕会前复盘蓝驰要点（DAU增速、合规风险、变现路径）\n[customer-service-training] Wed 02 Sep: 客服外包培训 — 小雨说预算再确认，现压到4万2（之前预算4万3）；合同已签；本周熟悉流"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "cash-runway"
+   },
+   "result": "现金余额\nMon 26 Oct: 账上现金600万（蓝驰两笔均已到账，第一笔300万已到，第二笔300万今天到账）；成都下月冲500单，现金流改善；Thu 15 Oct 阿里云成本优化，下月账单预计降到5万（之前7万8）；Sat 10 Oct 晨检上线DAU首日破200\nTue 04 Aug: 注册地址用静安区集中登记地，年费3000\nThu 06 Aug: 办公室定在静安寺附近，月租2万2；后改为2万5（押金已付）\nFri 07 Aug: 产品MVP功能先砍到只保留健康打卡和报告生成两个模块\nWed 12 Aug: 客服外包预算压到每月4万5（小雨在谈，原报价超5万）\nSat 15 Aug: 账上现金208万4千，静安寺办公室押金已付6万6，月租改为2万5（之前2万2）\nMon 17 Aug: 大伟薪资改为1万9，无绩效另算\nSat 19 Sep: 现金流撑不到9月中，蓝驰9月3日当面聊条款的话到账需催；账上现金208万4千；长宁办公室签了两年，月租1万8，免租期一个月，签约8月26日下午3点（之前静安寺月租2万5，押金6万6待退，下周一退）；装修预计周三完工（需加班赶）；MacBook Air省下6千贴到iOS推广；9月16日阿里云账单7万8，服务器成本超支；9月21日阿杰需找到服务器超支原因（新增；moved from Wed 16 Sep，新增押金退还时间）；Mon 21 "
+  },
+  {
+   "tool": "read_note",
+   "result": "(no note with that slug)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "seed轮 蓝驰 成都 订单量"
+   },
+   "result": "[seed-round-investors] Fri 09 Oct: 成都合作订单量预测下月冲500单（新增）；Mon 19 Oct: 下月预测500单应该能到\n[ajie-salary] Sat 22 Aug: 阿杰薪资最终定3万5（之前3万8），期权等seed轮定了再说\n[ajie-salary] Tue 04 Aug: 阿杰薪资谈到税前4万，期权等seed轮定了再说\nSat 08 Aug: 下周三（8月12日）需提醒发薪资确认邮件给阿杰（新增承诺）\n[seed-round-investors] Thu 24 Sep: 蓝驰电话说估值要重新谈，认为用户数据不够支撑7500万；aicoo与蓝驰谈判，估值砍到7200万（对方要求不砍最好，真砍6800万也接受），aicoo强调成都合作马上签约，增长预期有保障，蓝驰明早内部确认；红杉改为10月20日线下（之前9月23日）；Sat 26 Sep红杉手里有健康项目，推掉10月20日会议（moved from Fri 25 Sep）\n[about-me] Sat 24 Oct: 晨检安卓版推到11月中；Mia新UI方案；成都协会加单\n[seed-round-investors] Fri 23 Oct: 成都协会想推产品到更多社区，加单，正在谈分成\n[cash-runway] Mon 26 Oct: 账上现金600万（蓝驰两笔均已到账，第一笔"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "大伟 新渠道 拓展 徐汇 驿站"
+   },
+   "result": "[dawei-salary] Tue 20 Oct: 徐汇驿站下周试运营（was 月底落地）\n[dawei-salary] Sun 25 Oct: 徐汇驿站首月流水破5万（新增）\n[dawei-salary] Thu 01 Oct: 大伟今天跑养老驿站（新增）\n[dawei-salary] Wed 07 Oct: 大伟说养老驿站签了第二家，在长宁（新增）；Sat 10 Oct: 大伟第二家养老驿站签约确认（moved from Wed 07 Oct）\n[dawei-salary] Mon 05 Oct: 大伟说凯旋路驿站下周能跑起来（moved from Sat 03 Oct）\n[dawei-salary] Thu 08 Oct: 大伟问驿站分成能不能再谈低一个点，aicoo说15%已经挺低了，再压怕合作方不乐意（新增）\n[about-me] Fri 09 Oct: 以后跟我说英文，练练（新增）；新增红杉又找过来，已回等一轮；小雨请假，客服外包响应还行；Sat 10 Oct: 英语练习有效；晨检上线DAU稳定；大伟第二家养老驿站签约（新增）\n[product-launch] Wed 16 Sep: 健康管理师协会要求先付保证金5千，已同意尽快付；9月17日渠道日均引流180，成本比线上低15%，考虑加大投放\n[dawei-salary] Fri 04 Sep: 大伟薪资最后谈到1万"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2645,
+   "out": 20,
+   "usd": 0.000200058
+  },
+  {
+   "in": 3044,
+   "out": 17,
+   "usd": 0.00019052
+  },
+  {
+   "in": 3522,
+   "out": 16,
+   "usd": 0.000244516
+  },
+  {
+   "in": 3557,
+   "out": 24,
+   "usd": 0.000164698
+  },
+  {
+   "in": 4123,
+   "out": 26,
+   "usd": 0.000284678
+  },
+  {
+   "in": 4675,
+   "out": 266,
+   "usd": 0.000764118
+  }
+ ],
+ "memChars": 2710,
+ "promptChars": 6676
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我们的pricing现在是多少per user，final decision是啥？",
+ "reply": [
+  "凯哥，当前定价是$44/user/month，这是Ben的A/B测试版本，8% conversion lift已验证。最终decision是12月1日直接上线v3版本，你、Grace、Ben周一10:30开会做final launch decision确认。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3023,
+   "out": 61,
+   "usd": 0.000164926
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10830
+}

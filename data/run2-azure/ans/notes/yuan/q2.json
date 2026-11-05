@@ -1,0 +1,46 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Coco说的那个餐厅叫什么名字？",
+ "reply": [
+  "叫"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Coco 餐厅 名字"
+   },
+   "result": "[生活] 01 Oct: Coco说山海餐厅需提前两周预订\n14 Oct: 预订了“山海”餐厅，11月20日（之前06 Oct无记录）\n[生活] 01 Oct: Coco说山海餐厅需提前两周预订；15 Oct: 平时喝blue bottle咖啡，最近打折；17 Oct: 下午和Coco去超市买菜，晚上在家做火锅\n[生活] 01 Oct: Coco说“山海”餐厅要提前两周预定，想带她去庆祝论文；aicoo已设提醒Mon 05 Oct 10:00预订\n[个人] 18 Aug: 月底前需提醒Coco转房租（16 Aug Coco问自习）\n[人物] 23 Aug: Coco做了饭叫一起吃（之前Coco多为点外卖或自习邀请）\n[生活] 22 Sep Coco去超市，一起去了买点东西\n26 Sep Coco说晚上做火锅\n[生活] 22 Oct 18:00 跟Coco去楼下吃饭；24 Oct 14:00 和Coco去布鲁克林逛了一圈买了点东西\n[个人] 22 Oct 18:00 跟Coco去楼下吃饭\n[生活] 18 Sep: Coco的房租每个月1200，周予安的1400（因为房间大）；30 Sep: Coco说周末去法拉盛买菜，那里东西便宜\n[个人] 08 Aug: Coco的猫叫年糕，已经5岁了，特别胖"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "生活"
+   },
+   "result": "生活\n18 Sep: Coco的房租每个月1200，周予安的1400（因为房间大）；30 Sep: Coco说周末去法拉盛买菜，那里东西便宜\n22 Sep Coco去超市，一起去了买点东西\n26 Sep Coco说晚上做火锅\n01 Oct: Coco说“山海”餐厅要提前两周预定，想带她去庆祝论文；aicoo已设提醒Mon 05 Oct 10:00预订\n04 Oct: 今年中秋10月4号，周予安忘了，晚上跟Kevin等人去打保龄球，Kevin最高分\n04 Oct: Coco说明天去法拉盛买月饼，中秋到了\n01 Oct: Coco说山海餐厅需提前两周预订\n14 Oct: 预订了“山海”餐厅，11月20日（之前06 Oct无记录）\n01 Oct: Coco说山海餐厅需提前两周预订；15 Oct: 平时喝blue bottle咖啡，最近打折；17 Oct: 下午和Coco去超市买菜，晚上在家做火锅\n22 Oct 18:00 跟Coco去楼下吃饭；24 Oct 14:00 和Coco去布鲁克林逛了一圈买了点东西\n28 Oct: 纽约开始供暖，暖气费每月多50刀"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3707,
+   "out": 24,
+   "usd": 0.000700262
+  },
+  {
+   "in": 4061,
+   "out": 19,
+   "usd": 0.000221914
+  },
+  {
+   "in": 4360,
+   "out": 10,
+   "usd": 0.000279664
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9614
+}

@@ -1,0 +1,36 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "早上好 Dan! 周日的节奏好像慢一点？",
+  "biscuit 今天有 costume rehearsal 吗，还是先歇一天？",
+  "对了——你周六说 cutover checklist 就差 rollback 步骤了，今天想自己补完，还是要我帮你拉一下之前的部署记录对照来写？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "早上好"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1132,
+   "out": 20,
+   "usd": 0.000065624
+  },
+  {
+   "in": 1181,
+   "out": 73,
+   "usd": 0.000105594
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4165
+}

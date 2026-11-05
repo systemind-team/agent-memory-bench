@@ -1,0 +1,59 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "did i ever review lena's on-call draft?",
+ "reply": [
+  "i don't see any record of you reviewing lena's on-call draft. back in aug you saw her pagerduty key update in a doc, but no review on a draft.",
+  "do you want me to find the latest version and look it over before you get to it?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "lena on-call draft review"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena PagerDuty key on-call"
+   },
+   "result": "#47 Fri 07 Aug 09:01 aicoo: remember thursday's reminder. you've got time\n#48 Fri 07 Aug 11:00 Them: saw lena's on-call doc update. pagerduty key is 9A7B2C. for next rotation.\n#49 Fri 07 Aug 11:01 aicoo: got it. i'll update the internal notes"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena oncall document review"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5306,
+   "out": 24,
+   "usd": 0.00021122
+  },
+  {
+   "in": 5359,
+   "out": 28,
+   "usd": 0.00022459
+  },
+  {
+   "in": 5487,
+   "out": 24,
+   "usd": 0.000203406
+  },
+  {
+   "in": 5540,
+   "out": 66,
+   "usd": 0.000238056
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17917
+}

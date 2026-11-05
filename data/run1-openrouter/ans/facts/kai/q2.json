@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Lily搞的那个大单，Aurora那个，最后签了多少？",
+ "reply": [
+  "Aurora那个deal最后签了$950K，Q3 closing的，Lily处理的final docs。官方announcement是下周一。",
+  "凯哥，你之前说周一要跟Lily要Aurora的customer testimonial quote，顺便跟她确认一下integration timeline有没有slip——她上次问过这个。"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Aurora deal amount"
+   },
+   "result": "- Aurora Health deal legal signed last week, deal is $800K and closing Monday.\n- Aurora deal is $950K and will be officially announced next Monday; deal closed today for $950K in Q3, Lily handled final docs.\n- 10 Sep: Aurora deal的scope和Q4 delivery schedule已明确\n- 04 Oct: 把Aurora 950k和其他deal列一下, 我下午用。\n- 16 Oct: Aurora deal从initial contact到close大概做了四版proposal。\n- 22 Aug: 周末要考虑Aurora deal的风险缓解，可能scope creep更大。\n- 16 Oct: Lily的persistence是Aurora deal win reason中必须写的内容。\n- 13 Sep: Q3 revenue迄今2.1M, 低于2.4M target, Grace要review。21 Sep: Grace meeting done. Q3 revenue 2.1M, she said focus on Q4. Aurora deal"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1781,
+   "out": 23,
+   "usd": 0.0000741762
+  },
+  {
+   "in": 2057,
+   "out": 77,
+   "usd": 0.00006482196
+  }
+ ],
+ "memChars": 827,
+ "promptChars": 5483
+}

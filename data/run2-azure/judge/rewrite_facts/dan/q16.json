@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The question asks when Priya first moved the cutover, but the assistant incorrectly states Sep 30 instead of Aug 19, which is the first move mentioned in the chat.",
+ "rule": null
+}

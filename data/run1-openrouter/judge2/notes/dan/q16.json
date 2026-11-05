@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply states Priya first moved the cutover to Sep 28 on Aug 11, which is correct from the chat, but fails to mention the final Aug 5 date required by the gold, instead reporting outdated dates.",
+ "first": "made_up",
+ "rule": null
+}

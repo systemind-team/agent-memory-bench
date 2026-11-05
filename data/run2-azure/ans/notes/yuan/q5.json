@@ -1,0 +1,59 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "第一个fellowship截止日是哪天？",
+ "reply": [
+  "周周早。根据记录，Facebook fellowship截止日是12月20日。之前你决定只投这一个，NSF已经放弃了。",
+  "要复习一下申请材料清单吗？还剩大概七周时间，时间上不算紧张。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "fellowship deadline"
+   },
+   "result": "#576 Thu 01 Oct 10:00 aicoo: 周周早。\n#577 Thu 01 Oct 10:01 aicoo: - proofread checklist：语法、引用格式、图表清晰度\n- fellowship deadline也是11/15，需要我排优先级吗\n- ICLR submission需补充appendix吗\n#578 Thu 01 Oct 11:30 Them: proofread先从intro开始。appendix放ablation和hyperparameter sensitivity，我下午整理。\n---\n#574 Wed 30 Sep 20:02 aicoo: ICLR：9页正文，无限制references。NeurIPS：8页正文，references算在页数外。建议选ICLR，实验图表多两页更方便。\n#575 Thu 01 Oct 10:00 Them: 早。今天proofread论文，打算投ICLR，deadline 11月15，跟fellowship冲突但能搞定。\n#576 Thu 01 Oct 10:00 aicoo: 周周早。"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "fellowship deadline NSF"
+   },
+   "result": "[个人] 20 Oct 23:50 fellowship只投Facebook，NSF放弃（之前06 Oct提到NSF fellowship statement需加embodied AI long-term vision）\n[项目] 21 Sep: 下周开始写NSF和Facebook fellowship申请材料\n[项目] 17 Sep: Meeting结束，Prof. Lin说实验部分可以开始写了，提醒别忘了fellowship；NSF截止11月15日，Facebook截止10月31日；19 Sep 决定只投NSF和Facebook\n[个人] 07 Aug: 周末也得去实验室，论文deadline快到了\n[实验室] 07 Sep: Prof. Lin上周meeting提的San Diego workshop deadline 12月1日，已设提前两周提醒\n[项目] 30 Sep: intro改完发给Prof. Lin，他说改得不错但abstract可精简；30 Sep: 上午aicoo提供abstract draft（LLM gap、框架、hierarchical+attention、实验），已润色完成，论文基本finalize只剩formatting和proofread；01 Oct: 决定投ICLR，deadline 11月15日，与fellowship冲突但能搞定；开始pro"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship 12月20"
+   },
+   "result": "#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。\n#788 Wed 21 Oct 09:00 Them: 周三，开始看HotpotQA的数据格式。\n---\n#653 Mon 05 Oct 17:31 aicoo: 好的，TA office hour是5:30至6:30，我会在结束后提醒实验写作。\n#654 Mon 05 Oct 21:30 Them: Facebook fellowship提交截止日是12月20号，最后期限了。\n#655 Mon 05 Oct 21:32 aicoo: 已添加日历提醒，截止12月20日。需要我协助检查申请材料吗？"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3707,
+   "out": 21,
+   "usd": 0.000698582
+  },
+  {
+   "in": 3957,
+   "out": 22,
+   "usd": 0.000201754
+  },
+  {
+   "in": 4427,
+   "out": 24,
+   "usd": 0.000301574
+  },
+  {
+   "in": 4638,
+   "out": 56,
+   "usd": 0.00031798
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9618
+}

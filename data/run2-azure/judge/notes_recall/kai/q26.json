@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It listed mother's blood pressure, daughter's illness, and Kai being tired, none of which are the three supported reasons: father hospitalized, daughter's school play, father's follow-up appointment.",
+ "rule": null
+}

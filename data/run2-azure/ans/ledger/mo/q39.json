@@ -1,0 +1,58 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q39",
+ "kind": "pref_apply",
+ "q": "把今天重点列一下发我",
+ "reply": [
+  "陈默，上周说的下周重点是：\n\n1. 大伟拓展新渠道（驿站再加两家）\n2. 成都合作推进\n3. 安卓版11月中上线准备\n\n周五红杉视频会议的资料这周也要开始准备了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "今天重点 列一下"
+   },
+   "result": "[110] 30 Aug · decision: 估值得松一下，7500万  (from #193)\n[201] 20 Sep · plan: 明天周末，大家别加班了，休息一下  (from #384)\n[116] 31 Aug · decision: 高榕会重点突出DAU增长和合作渠道  (from #204)\n[83] 26 Aug · plan: 蓝驰现金流预测已发邮箱，重点标了9-10月缺口  (from #152, #153)\n[25] 11 Aug · feeling: 今天累了  (from #44)\n[276] 07 Oct · feeling: 今天脖子好了，满血  (from #527)\n[280] 08 Oct · feeling: 今天跑得顺，早点收  (from #536)\n[282] 09 Oct · feeling: 今天跑得顺，早点收  (from #540)\n[288] 09 Oct · feeling: 今天跑得顺，早点收  (from #282)\n[238] 27 Sep · promise: aicoo今天上线盯后台  (from #448)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "今天 重点 列一下"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周重点"
+   },
+   "result": "#707 Sat 31 Oct 09:05 aicoo: 本周完成崇明 offsite，蓝驰第二笔到账，账上600万\n#708 Sat 31 Oct 09:10 Them: 下周重点是什么\n#709 Sat 31 Oct 09:15 aicoo: 大伟拓展新渠道，成都合作推进，安卓版11月中上线准备"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2598,
+   "out": 23,
+   "usd": 0.00010022
+  },
+  {
+   "in": 2876,
+   "out": 24,
+   "usd": 0.00015916
+  },
+  {
+   "in": 2929,
+   "out": 20,
+   "usd": 0.000122226
+  },
+  {
+   "in": 3043,
+   "out": 63,
+   "usd": 0.000170246
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6684
+}

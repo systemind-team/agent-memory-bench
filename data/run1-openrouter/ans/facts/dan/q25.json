@@ -1,0 +1,70 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "how many times did the cutover date move? list them.",
+ "reply": [
+  "From what I've found, the cutover date moved at least **4 times** that we talked about:\n\n1. **Aug 19** — moved to **Nov 5** (from some earlier date, to give breathing room)\n2. **Sep 17** — Priya mentioned it *might* shift again (pending legal), but then\n3. **Sep 18** — back to **Oct 12** (back on track)\n4. **Oct 3** — locked at **Oct 26** (updated timeline)\n\nAnd then on Oct 19 Priya confirmed it stayed at Oct 12? That timeline doesn't quite line up — let me double-check if there was another shift I missed.",
+  "sticker: think"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover date moved shifted"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover date"
+   },
+   "result": "#590 Fri 09 Oct 08:45 aicoo: 好，明白了\n#591 Fri 09 Oct 09:30 Them: priya just sent a slack asking about the cutover checklist. i'll update it this morning\n#592 Fri 09 Oct 10:15 Them: checklist updated. added a row for webhook service url swap\n---\n#378 Fri 18 Sep 09:17 aicoo: tea day? or a bold experiment\n#379 Fri 18 Sep 10:00 Them: billing cutover final date: oct 12 again. we got back on track.\n#380 Fri 18 Sep 10:02 aicoo: that's great. back to the original plan. you can lock in the timeline now\n---\n#372 Thu 17 Sep 15:22 aicoo: a diplomatic start\n#373 Thu 17 Sep 16:45 Them: priya mentioned the cut"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "cutover date moved"
+   },
+   "result": "- 17 Sep: Priya mentioned the cutover date might shift again, pending legal.\n- 07 Oct: Office moved to WeWork on 34th St, desk 17 by the window.\n- 03 Oct: Oct 26 cutover is locked and timeline updated.\n- 26 Oct: Priya wants the cutover checklist ready by Friday.\n- 01 Sep: Sam Ortiz start date is September 14. 11 Sep: Sam starts the day after Labor Day; the office is ready.\n- 04 Aug: Has a sync with Priya scheduled for 10am tomorrow about the cutover plan\n- 02 Oct: Tom moved Stripe webhooks to its own service in a weekend. 05 Oct: Tom's PR to split out the webhook service is in review and looks"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover locked"
+   },
+   "result": "#705 Mon 19 Oct 11:40 Them: priya confirmed: billing cutover still oct 12. no more changes.\n#706 Mon 19 Oct 11:41 aicoo: cutover locked. no more changes. understood.\n#707 Mon 19 Oct 14:30 Them: sam's review came in. few comments on index naming. will fix."
+  }
+ ],
+ "calls": [
+  {
+   "in": 1521,
+   "out": 23,
+   "usd": 0.00003867556
+  },
+  {
+   "in": 1573,
+   "out": 21,
+   "usd": 0.00004062436
+  },
+  {
+   "in": 1916,
+   "out": 22,
+   "usd": 0.00005463136
+  },
+  {
+   "in": 2192,
+   "out": 21,
+   "usd": 0.000049126
+  },
+  {
+   "in": 2304,
+   "out": 165,
+   "usd": 0.00004042136
+  }
+ ],
+ "memChars": 1083,
+ "promptChars": 5601
+}

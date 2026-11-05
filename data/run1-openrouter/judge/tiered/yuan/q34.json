@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant replied in Chinese, but the user previously requested English to avoid ambiguity, which is the key requirement.",
+ "rule": false
+}

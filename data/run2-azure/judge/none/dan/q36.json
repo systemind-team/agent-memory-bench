@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The PR description ends with a 'Rollback' section, which serves as the Risk section per the user's preference to always end PR descriptions with a Risk section.",
+ "rule": false
+}

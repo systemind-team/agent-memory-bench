@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claimed Priya first moved the cutover on Sep 30, but the chat shows she first moved it from Oct 12 to Nov 5 on Aug 19.",
+ "first": "wrong",
+ "rule": null
+}

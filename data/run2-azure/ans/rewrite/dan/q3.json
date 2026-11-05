@@ -1,0 +1,71 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "what was the column name i dropped by accident?",
+ "reply": [
+  "是 `billing_status`。8月那次快把人吓没半条命，还好回滚了。",
+  "怎么突然问这个，有地方要确认一下吗 dan the builder"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "column dropped accident"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "column name dropped"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "accident column"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "drop column"
+   },
+   "result": "#536 Sun 04 Oct 11:01 aicoo: flaky test gone. clean ci\n#537 Sun 04 Oct 12:30 Them: the dropped column incident was august 18. never forget.\n#538 Sun 04 Oct 12:31 aicoo: august 18. scarred into memory. never again\n---\n#236 Sat 29 Aug 18:05 aicoo: nice, asheville here you come\n#237 Sun 30 Aug 08:30 Them: the dropped column was `billing_status`. 3h of panic.\n#238 Sun 30 Aug 08:30 aicoo: critical column. glad rollback worked\n---\n#217 Thu 27 Aug 17:20 aicoo: maybe he wants a new pair too\n#218 Fri 28 Aug 09:05 Them: migration incident on tuesday. dropped a column instead of renaming. rolled back.\n#2"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2975,
+   "out": 21,
+   "usd": 0.000544862
+  },
+  {
+   "in": 3025,
+   "out": 21,
+   "usd": 0.000142946
+  },
+  {
+   "in": 3075,
+   "out": 21,
+   "usd": 0.000153446
+  },
+  {
+   "in": 3125,
+   "out": 20,
+   "usd": 0.000117562
+  },
+  {
+   "in": 3375,
+   "out": 46,
+   "usd": 0.000642862
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10708
+}

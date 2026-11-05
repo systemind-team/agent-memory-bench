@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It correctly recalls the 3 client request from August 19/20, but hedges by also mentioning an unrelated 4-user request from October and says it needs to search further, so it doesn't confirm the answer cleanly.",
+ "rule": null
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q13",
+ "kind": "temporal",
+ "q": "周五的guest talk是什么时候的事，speaker是谁？",
+ "reply": [
+  "是9月初的事，周五（具体是9月2号那周）有一个guest talk，speaker是Prof. Wang from MIT，讲RL planning。",
+  "你当时早上改intro，下午去听了，晚上回来跑GPTR但结果不对。跟你的工作还挺有关系的。怎么突然问这个？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "guest talk speaker"
+   },
+   "result": "[个人] 02 Sep: 周五有guest talk，speaker是Prof. Wang from MIT，讲RL\n[实验室] 06 Sep: 下午guest talk Prof. Wang讲RL planning\n[人物] 06 Sep: guest talk Prof. Wang from MIT讲RL planning，跟工作有点关系\n[项目] 06 Sep: 早上改intro，下午guest talk，晚上GPTR终于跑起来但结果不对需debug\n[个人] 06 Sep: 早上改intro，下午guest talk，晚上GPTR终于跑起来但结果不对需debug\n[个人] 06 Sep: 早上继续改intro，下午去听guest talk，GPTR跑起来了但结果不对待debug\n[项目] 06 Sep: 早上继续改intro，感觉比昨天顺；下午听guest talk；晚上GPTR跑起来但结果不对需debug"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4000,
+   "out": 21,
+   "usd": 0.000301872
+  },
+  {
+   "in": 4217,
+   "out": 73,
+   "usd": 0.00023909
+  }
+ ],
+ "memChars": 5924,
+ "promptChars": 10286
+}

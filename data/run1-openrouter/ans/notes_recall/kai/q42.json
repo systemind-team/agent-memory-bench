@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "Is Lily going on vacation anytime soon? 她是不是请假了?",
+ "reply": [
+  "凯哥，根据记录，Lily之前申请过10月6-7日休假，当时你批准了，Ben cover。但那是上个月的事了。\n\n最近Lily刚完成handover，这周开始转enterprise sales full-time，我这边没有她近期请假的信息。Emily已经接手她之前的accounts，过渡很顺利。\n\n需要我查一下Lily的calendar看看她下周的安排吗？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13323,
+   "out": 85,
+   "usd": 0.00015701644
+  }
+ ],
+ "memChars": 47928,
+ "promptChars": 52663
+}

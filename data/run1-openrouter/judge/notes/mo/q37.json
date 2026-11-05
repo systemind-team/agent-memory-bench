@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The PR描述 includes a Risk section as required by the user's preference.",
+ "rule": true
+}

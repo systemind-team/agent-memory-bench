@@ -1,0 +1,22 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q25",
+ "kind": "update",
+ "q": "论文title在改到Context-Aware Planning之后又改了什么？",
+ "reply": [
+  "没有改，10月26日确认的final title还是 **Context-Aware Planning via Hierarchical Decomposition**，之后没再动过。",
+  "你今天要发最新版给Prof. Lin的，需要我把overleaf上的标题再确认一下吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4459,
+   "out": 61,
+   "usd": 0.00008621004
+  }
+ ],
+ "memChars": 7396,
+ "promptChars": 11767
+}

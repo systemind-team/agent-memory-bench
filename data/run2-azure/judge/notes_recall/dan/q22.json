@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo incorrectly stated only one data eng candidate was interviewed when the chat shows three: Maria Torres, Jordan Liu, and David Chen.",
+ "rule": null
+}

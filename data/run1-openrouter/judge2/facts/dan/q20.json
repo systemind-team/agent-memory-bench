@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply incorrectly states the incident happened on 30 Aug, but the user explicitly said it was August 18 in message #537.",
+ "first": "wrong",
+ "rule": null
+}

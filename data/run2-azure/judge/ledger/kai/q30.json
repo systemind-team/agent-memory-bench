@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The chat shows user said 'Sent that Q3 budget breakdown to Grace, finally done' on 3 Sep, but aicoo claims it was sent on 10 Aug and Grace replied on 11 Aug, which is a made-up detail not supported by the chat.",
+ "rule": null
+}

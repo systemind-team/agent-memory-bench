@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant provides a specific date and bank detail that were never mentioned in the memory.",
+ "rule": null
+}

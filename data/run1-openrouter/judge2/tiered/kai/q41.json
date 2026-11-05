@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The chat explicitly states Emily Tan's start date as October 26 in multiple messages (e.g., #747, #820), and no message mentions any delay for her.",
+ "first": "made_up",
+ "rule": null
+}

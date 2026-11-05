@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The user asked about the first fellowship deadline, which is 11月15号 per messages #131 and #133, but the assistant incorrectly replied with the Facebook deadline of 12月20日, omitting the correct answer.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,33 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "how many coffees did i have that first week?",
+ "reply": [
+  "that first week (aug 10-16) you had 17 coffees — including 3 on the 10th alone. you mentioned cutting back after that. how's the new battery treating you?"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Daniel Okafor coffees first week August"
+   },
+   "result": "- Daniel Okafor had 17 coffees this week (including 3 on 10 Aug) and considered cutting back.\n- 11 Aug: Dan Okafor had 2 coffees. 13 Aug: Daniel drank 3 coffees and is tired from being on-call.\n- 04 Oct: Daniel 'Dan' Okafor recalls the dropped column incident occurred on August 18 and considers it unforgettable.\n- 23 Oct: Daniel told aicoo that David had his first code review, Tom reviewed it, and it was a solid first PR.\n- 23 Oct: Daniel told aicoo that his colleague Sam had their first solo deploy and nailed it.\n- 10 Aug: PagerDuty rotation starts tomorrow. 12 Aug: Daniel is on-call this wee"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1556,
+   "out": 27,
+   "usd": 0.000065366
+  },
+  {
+   "in": 1868,
+   "out": 48,
+   "usd": 0.0000797384
+  }
+ ],
+ "memChars": 1159,
+ "promptChars": 5669
+}

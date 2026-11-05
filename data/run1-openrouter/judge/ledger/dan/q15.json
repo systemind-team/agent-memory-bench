@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It gave the correct first change (3F8D1A) but then volunteered a later unrelated change (7C2E9B) as if it were the next key in sequence, introducing an unsupported value.",
+ "rule": null
+}

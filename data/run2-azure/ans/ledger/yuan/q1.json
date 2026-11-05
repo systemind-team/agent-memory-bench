@@ -1,0 +1,48 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "对了，Prof. Lin说过春季intern有几个名额来着？",
+ "reply": [
+  "Prof. Lin 之前提过实验室明年春季的intern名额只有3个。八月初你说想申请，但取决于论文进度。",
+  "现在论文实验基本收尾，环境1-3结果不错，环境4还在提升中。今天meeting可以问问Prof. Lin名额情况和申请时间线。",
+  "另外之前提到的NSF和Facebook fellowship截止日期也快到了，需要一起确认优先级吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Prof. Lin 春季 intern 名额"
+   },
+   "result": "[6] 04 Aug · fact: Prof. Lin说实验室明年春季的intern名额只有3个  (from #10)\n[7] 04 Aug · decision: 周予安想申请春季intern，但取决于论文进度  (from #12)\n[338] 28 Sep · ask: 希望aicoo调出Prof. Lin的comments  (from #531)\n[543] 25 Oct · plan: Mon 26 Oct 线上与Prof. Lin meeting  (from #838)\n[544] 25 Oct · ask: 线上meeting链接需要Prof. Lin提供  (from #839)\n[170] 29 Aug · done: Fri 28 Aug 把fellowship draft发给Prof. Lin  (from #280, #281)\n[1] 03 Aug · person: 周予安，CS PhD第三年，Prof. Lin实验室  (from #0)\n[281] 17 Sep · ask: 以后写邮件给Prof. Lin时，开头用\"Lin老师好\"，结尾用\"祝好，予安\"  (from #428)\n[65] 13 Aug · plan: 每周四下午3点与Prof. Lin的weekly meeting  (from #115)\n[164] 28 Aug · p"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "春季 intern 名额 3"
+   },
+   "result": "[6] 04 Aug · fact: Prof. Lin说实验室明年春季的intern名额只有3个  (from #10)\n[7] 04 Aug · decision: 周予安想申请春季intern，但取决于论文进度  (from #12)\n[198] 02 Sep · fact: Tue 01 Sep lr 1e-3比3e-3稳定  (from #316)\n[506] 20 Oct · plan: Tue 20 Oct 15:00 下午3点组会  (from #776)\n[65] 13 Aug · plan: 每周四下午3点与Prof. Lin的weekly meeting  (from #115)\n[523] 22 Oct · plan: Thu 22 Oct 15:00 下午3点和Prof. Lin meeting  (from #804)\n[237] 07 Sep · plan: 下周二的TA office hour改为周三下午3点  (from #358)\n[483] 16 Oct · done: Fri 16 Oct 01:30 GPTR结果加进paper，比baseline高3个点  (from #742)\n[515] 21 Oct · plan: 11月3日带Dr. Chen熟悉实验室和学校资源  (from #793)\n[564] 28 Oct · fact: W"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4564,
+   "out": 26,
+   "usd": 0.000881352
+  },
+  {
+   "in": 4892,
+   "out": 24,
+   "usd": 0.000261752
+  },
+  {
+   "in": 5232,
+   "out": 93,
+   "usd": 0.000371792
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11682
+}

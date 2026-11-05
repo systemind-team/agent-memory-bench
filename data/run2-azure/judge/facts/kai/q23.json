@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo's answer lists 5 candidates including 王磊 and an unnamed Friday interview, but the chat only mentions 4: Jason Chen, Emily Tan, Michael Liu, and Sarah Wu; the hire is correctly identified as Emily but the candidate list is incorrect.",
+ "rule": null
+}

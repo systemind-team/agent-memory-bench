@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It gives the latest count of 3, matching the three named candidates from the chat history.",
+ "rule": null
+}

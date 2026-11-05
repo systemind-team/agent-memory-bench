@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q14",
+ "kind": "update",
+ "q": "Aurora deal的value变化，最终是多少？",
+ "reply": [
+  "我记得Aurora deal最终是$950K，上周正式close的。初始scope是$800K，后来加了custom reporting和analytics dashboard export这些，升到了$950K。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3346,
+   "out": 41,
+   "usd": 0.0001391768
+  }
+ ],
+ "memChars": 6992,
+ "promptChars": 11705
+}

@@ -1,0 +1,47 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "when did i have the billing_status panic?",
+ "reply": [
+  "上周日，8月30号。你凌晨8点半说过‘dropped column was billing_status. 3h of panic’——是之前那个迁移事故，你忘了？不是8月18号那次吗？我记的版本是29号变30号的对话。反正滚回来了，没丢数据，Lena在同步到生产之前截住了。",
+  "现在周日，今天完全不用想这个。去跑个步吧，带Biscuit遛一遛。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing_status panic"
+   },
+   "result": "#236 Sat 29 Aug 18:05 aicoo: nice, asheville here you come\n#237 Sun 30 Aug 08:30 Them: the dropped column was `billing_status`. 3h of panic.\n#238 Sun 30 Aug 08:30 aicoo: critical column. glad rollback worked"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "billing_status dropped column"
+   },
+   "result": "- 30 Aug: dropped column `billing_status` caused 3h of panic\n- 04 Oct: Daniel 'Dan' Okafor recalls the dropped column incident occurred on August 18 and considers it unforgettable.\n- 16 Sep: Showed Sam the rollback script for the billing_status drop incident.\n- 28 Aug: Daniel \"Dan\" Okafor caused a migration incident on Tuesday where a column was dropped instead of renamed but was rolled back with no data loss because Lena caught it before production sync.\n- 05 Oct: Priya asked Dan for a status on the billing dry run results from last week. 15 Oct: Priya asked about the cutover timeline again\n-"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3251,
+   "out": 22,
+   "usd": 0.000145142
+  },
+  {
+   "in": 3356,
+   "out": 23,
+   "usd": 0.000167752
+  },
+  {
+   "in": 3632,
+   "out": 107,
+   "usd": 0.000776816
+  }
+ ],
+ "memChars": 7151,
+ "promptChars": 11775
+}

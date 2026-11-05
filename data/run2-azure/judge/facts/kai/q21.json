@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It states the delay is 14 days and mentions a 'Mar 1 launch' which is not in the chat, plus adds unsupported A/B testing and Dec 1 details.",
+ "rule": null
+}

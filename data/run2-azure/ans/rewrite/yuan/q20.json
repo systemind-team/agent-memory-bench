@@ -1,0 +1,63 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q20",
+ "kind": "aggregate",
+ "q": "Facebook fellowship申请过程怎么变化的？",
+ "reply": [
+  "周周早，关于Facebook fellowship的变化，目前我记得的有这些：",
+  "1. 最初你和我说只投NSF和Facebook两个（9月19日），后来决定重点准备Facebook（9月21日）。",
+  "2. 10月5日你确认截止日是12月20日，我设了提醒。",
+  "3. 10月20日你决定只投Facebook，NSF放弃了，20号说的。",
+  "4. 上周没看到你继续做申请材料，上次做完personal statement draft还是10月1号。",
+  "现在离截止还有49天，需要我把draft翻出来帮你review一下，或者加个timeline排每周做什么吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship 申请 截止 12月20日"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship 20 Dec"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "facebook fellowship"
+   },
+   "result": "#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。\n#788 Wed 21 Oct 09:00 Them: 周三，开始看HotpotQA的数据格式。\n---\n#785 Tue 20 Oct 16:30 Them: 好主意，我看看hotpotQA能不能用planning框架做。\n#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。\n---\n#653 Mon 05 Oct 17:31 aicoo: 好的，TA office hour是5:30至6:30，我会在结束后提醒实验写作。\n#654 Mon 05 Oct 21:30 Them: Facebook fellowship提交截止日是12月20号，最后期限了。\n#655 Mon 05 Oct 21:32 aicoo: 已添加日历提醒，截止12月20日。需要我协助检查申请材料吗？\n---\n#584 Thu 01 Oct 1"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3560,
+   "out": 29,
+   "usd": 0.000168128
+  },
+  {
+   "in": 3618,
+   "out": 23,
+   "usd": 0.000131124
+  },
+  {
+   "in": 3670,
+   "out": 20,
+   "usd": 0.000186188
+  },
+  {
+   "in": 4299,
+   "out": 153,
+   "usd": 0.000346934
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8763
+}

@@ -1,0 +1,70 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "which came first: sam joining or the migration incident?",
+ "reply": [
+  "the migration incident on Tuesday Aug 25 was before Sam joined on Sep 14. that was the dropped-column-renaming rollback. Sam came after.",
+  "so incident first. by about three weeks."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam joining migration incident"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam joined"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam Ortiz start"
+   },
+   "result": "#297 Wed 09 Sep 14:30 Them: david was solid. priya agrees\n#298 Wed 09 Sep 17:30 Them: david chen accepted. sam ortiz onboarding starts with him.\n#299 Wed 09 Sep 17:32 aicoo: great news. two strong hires.\n---\n#248 Mon 31 Aug 17:46 aicoo: oh no. hope the rug survives\n#249 Tue 01 Sep 09:00 Them: sam ortiz start date still sep 14, right?\n#250 Tue 01 Sep 09:01 aicoo: confirmed, september 14\n---\n#207 Wed 26 Aug 11:45 aicoo: your old nemesis. race condition?\n#208 Wed 26 Aug 15:40 Them: sam ortiz starts sep 14. finally a data engineer.\n#209 Wed 26 Aug 15:40 aicoo: great, another set of eyes on the dat"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "migration incident"
+   },
+   "result": "#217 Thu 27 Aug 17:20 aicoo: maybe he wants a new pair too\n#218 Fri 28 Aug 09:05 Them: migration incident on tuesday. dropped a column instead of renaming. rolled back.\n#219 Fri 28 Aug 09:05 aicoo: ouch. no data loss?\n---\n#106 Thu 13 Aug 10:00 Them: priya approved the sep 28 cutover. we're all aligned\n#107 Thu 13 Aug 10:30 Them: migration incident post-mortem this afternoon. i'll draft notes\n#108 Thu 13 Aug 10:31 aicoo: want me to pull the incident timeline from pagerduty?\n---\n#38 Thu 06 Aug 09:16 aicoo: good. tom's been solid lately\n#39 Thu 06 Aug 11:00 Them: migration incident from last week"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5328,
+   "out": 22,
+   "usd": 0.0000518056
+  },
+  {
+   "in": 5379,
+   "out": 20,
+   "usd": 0.0000537138
+  },
+  {
+   "in": 5428,
+   "out": 21,
+   "usd": 0.00004746952
+  },
+  {
+   "in": 5668,
+   "out": 21,
+   "usd": 0.00005721352
+  },
+  {
+   "in": 5928,
+   "out": 51,
+   "usd": 0.0000785204
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17934
+}

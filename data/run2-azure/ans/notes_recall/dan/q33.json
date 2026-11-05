@@ -1,0 +1,62 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "这周事情不少，但都在轨道上：",
+  "📋 计费迁移：Priya 给的 checklist 模板，你说快填完了，这周再补上 rollback 步骤和两次 dry run 结果。下周末前能搞定的话，11/15 的 cutover 很稳。",
+  "💳 Stripe webhook v2：Tom 在 review 中，应该是 cutover 前最后一块大石头了。",
+  "🔄 On-call：新轮值这周开始（你提过的 4 人制），周一确认一下谁第一周吧。",
+  "另外你新电池下单了吗？79% 撑不了太久 😅"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "billing-migration"
+   },
+   "result": "Billing migration PR\n03 Aug: PR submitted for billing migration; aicoo reviewing\n06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n07 Aug: timeline doc sent to Priya; right before deadline\n24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n11 Aug: Priya covering backend next week\n14 Aug: Maria out; took another offer; Priya gutted; need to restart interviews; 19 Aug: on-call quiet, one disk space alert overnight\n08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushb"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "pagerduty-key"
+   },
+   "result": "PagerDuty key\n20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "on-call rotation week 4 nov"
+   },
+   "result": "[candidate-david-chen] 21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n[candidate-david-chen] 21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n[candidate-david-chen] 21 Oct: Priya approved rotation, starts Nov 1\n[stripe-webhook] 25 Aug: pager duty rotation for Sep up, Dan week 2 (Sep 7-13)\n[billing-migration] 06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n[billing-split] 18 Sep: cutover moved to Oct"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2825,
+   "out": 22,
+   "usd": 0.000238978
+  },
+  {
+   "in": 3663,
+   "out": 23,
+   "usd": 0.000278046
+  },
+  {
+   "in": 3755,
+   "out": 26,
+   "usd": 0.000161574
+  },
+  {
+   "in": 4065,
+   "out": 151,
+   "usd": 0.000296674
+  }
+ ],
+ "memChars": 5749,
+ "promptChars": 10296
+}

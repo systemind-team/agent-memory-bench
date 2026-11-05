@@ -1,0 +1,28 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "aicoo, how's this week looking? 有什么重要的deadlines吗?",
+ "reply": [
+  "凯哥周日好。这周你周一已经排了不少，我帮你捋一下这周的重点：",
+  "1）周一10:30 pricing launch decision meeting with Grace和Ben，10点先做prep",
+  "2）周一跟Grace确认SEA expansion headcount approval timeline",
+  "3）周一找Lily要Aurora quote，找Omar要Singapore两个大客户的quote（Grace要加customer testimonial）",
+  "4）周一跟Ravi确认integration final timeline",
+  "5）Emily的weekly check-in这周也要安排",
+  "6）还有之前答应给Grace的Singapore expansion JD，我周五前帮你draft好了，你看这周什么时间review？",
+  "这周deadline比较多的在周一和周二，周三以后相对空一些。你父亲情况稳定的话，这周节奏应该能hold住。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5083,
+   "out": 184,
+   "usd": 0.000299814
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14933
+}

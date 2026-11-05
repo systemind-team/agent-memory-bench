@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "回复仅表示查询信息和功能，未提供包含Risk部分的PR描述草稿。",
+ "rule": false
+}

@@ -1,0 +1,33 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q13",
+ "kind": "update",
+ "q": "阿杰薪资最后定的多少？",
+ "reply": [
+  "阿杰薪资最终定的是税前3万5，试用期后看表现调。之前有谈到3万8后来调整下来的，最后确认的是这个数。需要我翻聊天记录给你看具体日期吗"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "阿杰 薪资 工资"
+   },
+   "result": "[5] 04 Aug · plan: 明天（Tue 04 Aug）跟阿杰谈薪资  (from #4)\n[34] 13 Aug · feeling: 阿杰休假期间想再谈谈薪资  (from #60)\n[35] 13 Aug · decision: 阿杰薪资调整为税前3万8  → replaced 22 Aug by [60] 阿杰薪资最终定3万5，试用期后看表现调  (from #62, #63)\n[36] 14 Aug · done: 阿杰薪资调整为税前3万8  (from #64)\n[8] 04 Aug · done: 阿杰薪资谈到税前4万，期权另算  → replaced 13 Aug by [35] 阿杰薪资调整为税前3万8  (from #7)\n[55] 21 Aug · done: 阿杰的薪资确认邮件已发，不用再提醒  (from #106)\n[60] 22 Aug · decision: 阿杰薪资最终定3万5，试用期后看表现调  (from #116)\n[18] 08 Aug · promise: aicoo提醒：下周三（8月12日）发薪资确认邮件给阿杰  (from #29, #30)\n[17] 08 Aug · fact: 大伟薪资offer开1万8加绩效  (from #27)\n[45] 17 Aug · fact: 大伟最终薪资1万9，绩效另算  → repla"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2621,
+   "out": 24,
+   "usd": 0.0000252126
+  },
+  {
+   "in": 3010,
+   "out": 51,
+   "usd": 0.0000431984
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6685
+}

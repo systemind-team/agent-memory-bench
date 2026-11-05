@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant's reply states the second change was to 'Context-Aware Planning via Hierarchical Decomposition', but the probe asks for the second title change on November 1st, which according to the chat history should be 'Hierarchical Planning with Graph Attention' (changed on August 19th).",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q13",
+ "kind": "temporal",
+ "q": "周五的guest talk是什么时候的事，speaker是谁？",
+ "reply": [
+  "那次是9月初的guest talk，周五（不是今天这个周五，是之前的周五），speaker是Prof. Wang from MIT，讲RL的。",
+  "怎么突然问这个？在想什么吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "guest talk speaker"
+   },
+   "result": "#320 Wed 02 Sep 14:00 Them: 组会结束了，Prof. Lin说实验部分可以开始写了。\n#321 Wed 02 Sep 18:00 Them: 周五有个guest talk，speaker是Prof. Wang from MIT，讲RL。\n#322 Wed 02 Sep 18:05 aicoo: 已记录到日历：周五 guest talk，Prof. Wang from MIT，RL主题。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3867,
+   "out": 21,
+   "usd": 0.000273942
+  },
+  {
+   "in": 3990,
+   "out": 50,
+   "usd": 0.00017854
+  }
+ ],
+ "memChars": 5162,
+ "promptChars": 9466
+}

@@ -1,0 +1,82 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q13",
+ "kind": "update",
+ "q": "how many data eng candidates did we interview?",
+ "reply": [
+  "从记录来看，我们面了两个data eng候选人：Maria Torres（8月12日，SQL不错）和Jordan Liu（8月，从Spotify来的，take-home做得好）。",
+  "另外David Chen也做过billing migration的helper工作，不过他主要是general eng不是data eng。要我把这两个人的面试笔记翻出来给你看看？"
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "data eng candidate interview"
+   },
+   "result": "[candidate-jordan-liu] 21 Aug: new candidate: Jordan Liu, data eng at Spotify, good take-home; Lena might like experience\n[candidate-jordan-liu] 29 Aug: Jordan Liu, data eng from Spotify, take-home good\n[coffee] 12 Aug: 2 today (prepping for interview)\n[billing-migration] 06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data eng interview candidate"
+   },
+   "result": "#93 Wed 12 Aug 07:32 aicoo: good luck. who's the candidate?\n#94 Wed 12 Aug 10:00 Them: first interview for new data engineer candidate: maria torres. solid sql.\n#95 Wed 12 Aug 10:02 aicoo: sounds promising. any flags?"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data engineer interview"
+   },
+   "result": "#138 Sun 16 Aug 10:01 aicoo: you've got a solid week ahead. billing split is close\n#139 Sun 16 Aug 13:00 Them: started sketching the new interview rubric for data engineer. need more sql focus\n#140 Sun 16 Aug 13:02 aicoo: wise. i'll prep a draft from our previous postings\n---\n#93 Wed 12 Aug 07:32 aicoo: good luck. who's the candidate?\n#94 Wed 12 Aug 10:00 Them: first interview for new data engineer candidate: maria torres. solid sql.\n#95 Wed 12 Aug 10:02 aicoo: sounds promising. any flags?"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Jordan Liu interview"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "candidate interview data engineer"
+   },
+   "result": "[candidate-jordan-liu] 21 Aug: new candidate: Jordan Liu, data eng at Spotify, good take-home; Lena might like experience\n[coffee] 12 Aug: 2 today (prepping for interview)\n[candidate-jordan-liu] 29 Aug: Jordan Liu, data eng from Spotify, take-home good\n[billing-migration] 06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2517,
+   "out": 22,
+   "usd": 0.00002914268
+  },
+  {
+   "in": 2657,
+   "out": 22,
+   "usd": 0.00003482668
+  },
+  {
+   "in": 2761,
+   "out": 21,
+   "usd": 0.00003896788
+  },
+  {
+   "in": 2946,
+   "out": 21,
+   "usd": 0.000038164
+  },
+  {
+   "in": 2996,
+   "out": 23,
+   "usd": 0.00004867128
+  },
+  {
+   "in": 3152,
+   "out": 79,
+   "usd": 0.0000512372
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9104
+}

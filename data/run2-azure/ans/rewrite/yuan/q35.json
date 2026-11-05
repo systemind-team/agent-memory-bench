@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "晚安aicoo，明天叫我。",
+ "reply": [
+  "你已经说晚安啦，刚才22:32说过。现在重新躺下？",
+  "明天9:30线上meeting，9:00会叫你起床。晚安周周:)"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3561,
+   "out": 44,
+   "usd": 0.000176738
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8747
+}

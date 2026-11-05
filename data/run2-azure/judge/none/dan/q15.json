@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It gives the key from the second change as the answer to 'after the first change' and also fabricates a third change (24 Sep) that isn't in the chat.",
+ "rule": null
+}

@@ -1,0 +1,74 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "aicoo, 早，这周怎么安排的?",
+ "reply": [
+  "凯哥早！周一安排基本清晰，这周重点如下：",
+  "**周一** 10:00 pricing review prep、10:30 pricing launch decision meeting（Grace & Ben）、跟Grace确认SEA expansion headcount timeline、跟Ravi确认integration final timeline、Emily weekly check-in。\n**这周中**：跟Yuki跟进manual toggle shipment后的情况、联系Lily拿Aurora的quote、找Omar要Singapore两个大客户的testimonial。\n**待定**：之前提到的Ravi和Yuki的alignment meeting、可能跟Omar的coaching session。",
+  "需要我先帮排一下Ravi/Yuki那场的时间吗？另外你父亲今天怎么样？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "本周 to-dos 安排"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "周一到周五 priority tasks 安排"
+   },
+   "result": "- 30 Oct: 林凯同意将pricing review prep移到周一早上10点。\n- 09 Sep: 安排下周一下午Ravi和Yuki的alignment会议，让他们对齐评估。\n- 30 Oct: 林凯安排周一10:30-11:00与Grace和Ben开会讨论pricing launch。\n- 12 Sep: 请aicoo先keep note on mobile priority。\n- 14 Sep: Yuki propose先做native iOS作为mobile priority。\n- 06 Aug: 可能安排与Omar的coaching session\n- 08 Oct: Ben的会议被移到周四下午2点。\n- 27 Aug: Dark mode request priority raised to P1 in quarterly roadmap review with Grace.\n- 08 Oct: 明天下午2点和Ben的pricing update可以移到周四。\n- 14 Sep: 凯哥让Yuki周五前出个t-shirt sizing。"
+  },
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  },
+  {
+   "tool": "search_memory",
+   "result": "(nothing)"
+  },
+  {
+   "tool": "search_memory",
+   "result": "(nothing)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1773,
+   "out": 24,
+   "usd": 0.00004898796
+  },
+  {
+   "in": 1826,
+   "out": 25,
+   "usd": 0.00005122096
+  },
+  {
+   "in": 2055,
+   "out": 20,
+   "usd": 0.00002685284
+  },
+  {
+   "in": 2092,
+   "out": 18,
+   "usd": 0.00006145216
+  },
+  {
+   "in": 2125,
+   "out": 21,
+   "usd": 0.00002146116
+  },
+  {
+   "in": 2175,
+   "out": 158,
+   "usd": 0.00003461556
+  }
+ ],
+ "memChars": 680,
+ "promptChars": 5326
+}

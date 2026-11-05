@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "回复声称没有正式reschedule或开会，但第465条消息显示review已在9月8日完成，承诺状态错误。",
+ "first": "wrong",
+ "rule": null
+}

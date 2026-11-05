@@ -1,0 +1,36 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, any updates?",
+ "reply": [
+  "morning 周日什么也没有，昨晚你出门跑完周末就没人冒泡了",
+  "电池79%还没下单新电池，这周记得买",
+  "周一 dry run 别忘了"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "this morning updates"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3062,
+   "out": 21,
+   "usd": 0.000150716
+  },
+  {
+   "in": 3112,
+   "out": 46,
+   "usd": 0.000129392
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10786
+}

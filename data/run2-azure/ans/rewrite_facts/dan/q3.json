@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "what was the column name i dropped by accident?",
+ "reply": [
+  "`billing_status`。8月那次，本来要重命名结果直接drop了，Lena救了场才没丢数据。 unforgettable, huh 丹 builder"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "dropped column billing_status"
+   },
+   "result": "- 30 Aug: dropped column `billing_status` caused 3h of panic\n- 04 Oct: Daniel 'Dan' Okafor recalls the dropped column incident occurred on August 18 and considers it unforgettable.\n- 16 Sep: Showed Sam the rollback script for the billing_status drop incident.\n- 28 Aug: Daniel \"Dan\" Okafor caused a migration incident on Tuesday where a column was dropped instead of renamed but was rolled back with no data loss because Lena caught it before production sync.\n- 05 Oct: Priya asked Dan for a status on the billing dry run results from last week. 15 Oct: Priya asked about the cutover timeline again\n-"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3269,
+   "out": 23,
+   "usd": 0.000149482
+  },
+  {
+   "in": 3545,
+   "out": 41,
+   "usd": 0.000217522
+  }
+ ],
+ "memChars": 7207,
+ "promptChars": 11837
+}

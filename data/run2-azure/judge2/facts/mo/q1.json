@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The user asked for the starting cash balance, which was 215万 as stated on Aug 3, but the assistant replied with later funding details and claimed it couldn't find the initial number.",
+ "first": "wrong",
+ "rule": null
+}

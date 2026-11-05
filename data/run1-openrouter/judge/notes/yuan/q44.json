@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo correctly says it doesn't have the airline information and only recalls a vague mention of the trip.",
+ "rule": null
+}

@@ -1,0 +1,47 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "给我阿杰薪资确认那个提醒，还有吗？",
+ "reply": [
+  "阿杰薪资确认邮件的提醒之前设过，但到期后已经取消了（8月12日发了薪资确认邮件给阿杰，之后提醒就关了）。",
+  "现在没有其他关于阿杰薪资的待办提醒了。你要我重新设一个吗，还是查别的什么"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰薪资确认 提醒"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "ajie salary remind confirm email"
+   },
+   "result": "(nothing)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2900,
+   "out": 20,
+   "usd": 0.000253608
+  },
+  {
+   "in": 2949,
+   "out": 20,
+   "usd": 0.000126426
+  },
+  {
+   "in": 2984,
+   "out": 66,
+   "usd": 0.000297008
+  }
+ ],
+ "memChars": 3151,
+ "promptChars": 7126
+}

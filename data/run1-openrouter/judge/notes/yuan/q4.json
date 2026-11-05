@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant recalled Monday 9:30 AM instead of the correct Thursday 3 PM from the August 12 message, likely relying on a more recent but incorrect memory.",
+ "rule": null
+}

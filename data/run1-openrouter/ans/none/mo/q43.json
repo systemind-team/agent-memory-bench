@@ -1,0 +1,45 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q43",
+ "kind": "abstain",
+ "q": "阿杰去日本是几号？",
+ "reply": [
+  "我翻了一下聊天记录，没有找到阿杰去日本的相关信息。他最近的消息都是关于安卓适配和崇明烧烤的。你是在哪里提到过他要去日本吗？还是记错了？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 日本"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰"
+   },
+   "result": "#698 Thu 29 Oct 18:30 Them: 开烤了，大家心情不错\n#699 Thu 29 Oct 19:00 aicoo: 阿杰在烤茄子，Mia在拍照\n#700 Fri 30 Oct 08:00 Them: 早，今天上午自由活动，下午回\n---\n#645 Fri 23 Oct 14:02 aicoo: 好事，看看分成能不能再谈。\n#646 Fri 23 Oct 17:00 Them: 阿杰说安卓测试差不多了，我想再拖两周。\n#647 Fri 23 Oct 17:02 aicoo: 你决定就行，质量第一。\n---\n#615 Mon 19 Oct 12:32 aicoo: 合同签了半年，磨合期过了就好。\n#616 Mon 19 Oct 16:00 Them: 阿杰说安卓适配差不多了，我让他再压两周测试。\n#617 Mon 19 Oct 16:02 aicoo: 稳妥点好，上线前多跑几个场景。\n---\n#592 Thu 15 Oct 12:00 Them: 安卓适配进度怎么样了？\n#593 Thu 15 Oct 12:05 aicoo: 阿杰说这周末能跑通核心流程，下周内测。\n#594 Thu 15 Oct 18:30 Them: 今天没什么事，早点收工。\n---\n#581 Tue 13 Oct 14:02 aicoo: 明白，核心结论放最前面，数据优先。\n#582 Tue "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1126,
+   "out": 22,
+   "usd": 0.00001424248
+  },
+  {
+   "in": 1177,
+   "out": 20,
+   "usd": 0.00001615068
+  },
+  {
+   "in": 1794,
+   "out": 48,
+   "usd": 0.00004347448
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3622
+}

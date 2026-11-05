@@ -1,0 +1,53 @@
+{
+ "arm": "full",
+ "id": "yuan",
+ "qid": "q16",
+ "kind": "aggregate",
+ "q": "我之前要加的那个baseline GPTR，从开始到现在都经历了什么？",
+ "reply": [
+  "周周，GPTR这个baseline从开始到现在经历了挺多波折，我帮你理一下：",
+  "- 9月4日：你决定加GPTR作为baseline，先自己找代码，没让我帮忙查仓库",
+  "- 9月5~6日：花了一下午配环境，出现依赖版本冲突，跑不起来；第二天才算跑起来但结果不对",
+  "- 9月9日：发现是数据加载时少了归一化步骤，修复后重新跑",
+  "- 9月10日：结果仍然偏低，怀疑learning rate太高，降到1e-5后好多了",
+  "- 9月15日：再次发现bug，是数据处理时少了一个normalization，修复后数据终于正常",
+  "- 10月15日：把GPTR结果加进论文，比baseline高3个点",
+  "- 整个过程中Mei也说过她跑这个baseline时费了不少时间，看来环境配置是普遍问题"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR 经历 开始 现在"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR baseline"
+   },
+   "result": "#741 Thu 15 Oct 22:00 Them: 改好了，明天再跑。\n#742 Fri 16 Oct 01:30 Them: 把GPTR的结果加进paper了，效果还行，比baseline高3个点。\n#743 Fri 16 Oct 09:30 Them: 周五，早上跑新scenario的实验。\n---\n#422 Tue 15 Sep 23:52 Them: 对，我重新提交了，等明天看结果。\n#423 Wed 16 Sep 10:00 Them: GPTR跑出来了，数据正常了。现在跟其他baseline对比一下。\n#424 Wed 16 Sep 10:01 aicoo: - 很好。需要我帮你整理对比表格吗？\n---\n#385 Fri 11 Sep 10:05 aicoo: - 添加后检查逻辑连贯性。\n- 需要引用相关文献吗？\n#386 Fri 11 Sep 14:00 Them: 嗯，引了几篇。下午Mei问我GPTR结果，我说正在调，她说她也跑过那个baseline，当时也费了不少时间。\n#387 Fri 11 Sep 14:05 aicoo: - 看来GPTR环境配置普遍有坑。\n- 可以分享你的解决步骤给Mei。\n---\n#348 Sun 06 Sep 16:00 Them: guest talk不错，Prof. Wang讲的RL planning方向跟我的工作有点关系。\n#"
+  }
+ ],
+ "calls": [
+  {
+   "in": 27987,
+   "out": 26,
+   "usd": 0.000897014
+  },
+  {
+   "in": 28042,
+   "out": 21,
+   "usd": 0.000905764
+  },
+  {
+   "in": 28505,
+   "out": 207,
+   "usd": 0.001107154
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 59363
+}

@@ -1,0 +1,58 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q26",
+ "kind": "update",
+ "q": "Context-Aware Hierarchical Planning for LLMs这个标题存在过吗？",
+ "reply": [
+  "存在过的。13 Sep 22:30 你改标题的时候用过 'Context-Aware Hierarchical Planning for LLMs'，后来24 Sep改成'Context-Aware Planning'，26 Oct最终定为'Context-Aware Planning via Hierarchical Decomposition'。没完全一样，但非常接近。怎么突然问这个？想用回这个方向吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Context-Aware Hierarchical Planning title"
+   },
+   "result": "#863 Mon 26 Oct 18:47 aicoo: - 已记录草稿标题：Context-Aware Planning via Hierarchical Decomposition。\n- 需要今晚确认后正式更新吗？\n#864 Mon 26 Oct 23:40 Them: Final title: Context-Aware Planning via Hierarchical Decomposition。\n#865 Mon 26 Oct 23:42 aicoo: - 已确认。明天上午更新所有文档中的标题。\n---\n#404 Sun 13 Sep 17:05 aicoo: - 那window size 128可能是最优。\n- 记录到论文里。\n#405 Sun 13 Sep 22:30 Them: Paper title又改了，现在叫Context-Aware Hierarchical Planning for LLMs。\n#406 Sun 13 Sep 22:35 aicoo: - 新标题更贴合内容。\n- 已更新记录。"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "项目-论文"
+   },
+   "result": "(no note with that slug)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Context-Aware Hierarchical Planning title"
+   },
+   "result": "[about-me] 26 Oct 23:40 确认final title: Context-Aware Planning via Hierarchical Decomposition\n[项目] 26 Oct 23:40 确认final title: Context-Aware Planning via Hierarchical Decomposition\n[个人] 26 Oct 23:40 确认final title: Context-Aware Planning via Hierarchical Decomposition\n[项目] 25 Oct 14:00 准备组会slides，放四个环境结果（THOR、real-world scenario、grid world、HotpotQA）；26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）；26 Oct 23:40 确认final title: Context-Aware Planning via Hierarchical Decomposition\n[about-me] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical D"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3714,
+   "out": 25,
+   "usd": 0.000152404
+  },
+  {
+   "in": 3934,
+   "out": 21,
+   "usd": 0.000196364
+  },
+  {
+   "in": 3974,
+   "out": 25,
+   "usd": 0.00016118
+  },
+  {
+   "in": 4591,
+   "out": 81,
+   "usd": 0.000367934
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9651
+}

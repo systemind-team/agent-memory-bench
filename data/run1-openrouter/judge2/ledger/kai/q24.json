@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo incorrectly states the first postponement vaguely as 'to 11月' instead of Nov 15, and claims the second postponement happened on Oct 27 which is unsupported by the messages.",
+ "first": "wrong",
+ "rule": null
+}

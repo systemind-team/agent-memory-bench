@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The chat only shows a reminder was set but never confirms the spec was sent, yet aicoo asserts it was sent and merged with specific dates and details.",
+ "rule": null
+}

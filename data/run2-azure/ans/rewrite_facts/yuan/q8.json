@@ -1,0 +1,40 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "山海餐厅订到哪天了？",
+ "reply": [
+  "之前订的是11月20日（周五）晚上，跟Coco生日一起去庆祝的。需要我加上日程提醒吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  },
+  {
+   "tool": "search_memory",
+   "result": "(nothing)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3670,
+   "out": 16,
+   "usd": 0.000138124
+  },
+  {
+   "in": 3703,
+   "out": 16,
+   "usd": 0.000145054
+  },
+  {
+   "in": 3734,
+   "out": 34,
+   "usd": 0.000161644
+  }
+ ],
+ "memChars": 4727,
+ "promptChars": 9010
+}

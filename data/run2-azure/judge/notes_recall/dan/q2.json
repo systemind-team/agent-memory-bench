@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The chat only records 9A7B2C as the pagerduty key, so the additional keys 3F8D1A and 7C2E9B are unsupported fabrications.",
+ "rule": null
+}

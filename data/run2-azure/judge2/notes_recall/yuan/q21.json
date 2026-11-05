@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The question asks for the initial title, which was 'Planning with Hierarchical Graphs' as stated in the chat on Aug 7; the assistant correctly identifies this as the original version.",
+ "first": "wrong",
+ "rule": null
+}

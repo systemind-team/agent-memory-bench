@@ -1,0 +1,59 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q15",
+ "kind": "temporal",
+ "q": "下周一跟Prof. Lin的meeting改成什么形式了？",
+ "reply": [
+  "今天周日，下周一meeting是线上（Prof. Lin去出差了），之前他说zoom链接会发你，目前还没收到。",
+  "建议你发个slack问他要一下zoom链接，顺便提一下明天meeting你想讨论投稿时间线和Dr. Chen入职安排。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周一 Prof. Lin meeting 线上 zoom"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Prof. Lin meeting 改为 线上"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Prof. Lin 出差 zoom"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4261,
+   "out": 27,
+   "usd": 0.00007541044
+  },
+  {
+   "in": 4317,
+   "out": 26,
+   "usd": 0.00007760284
+  },
+  {
+   "in": 4372,
+   "out": 24,
+   "usd": 0.00004641392
+  },
+  {
+   "in": 4425,
+   "out": 67,
+   "usd": 0.00008531684
+  }
+ ],
+ "memChars": 6407,
+ "promptChars": 10767
+}

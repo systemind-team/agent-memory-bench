@@ -1,0 +1,36 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q16",
+ "kind": "aggregate",
+ "q": "我之前要加的那个baseline GPTR，从开始到现在都经历了什么？",
+ "reply": [
+  "GPTR这个baseline的经历还挺曲折的，总结一下：",
+  "9月4号你决定加它作为baseline，开始复现代码。之后环境配置花了不少时间，9月6号晚上才跑起来但结果不对，debug了好几天。",
+  "9月11号Mei说她之前也跑过GPTR，也费了不少时间。9月16号终于跑出正常数据。10月16号你把GPTR结果加进paper，效果比baseline高3个点。",
+  "目前GPTR已经作为baseline在你的实验表格里了，环境1-4的结果对比都有包含它。不过具体每个环境的GPTR数值需要我查一下吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR baseline"
+   },
+   "result": "#741 Thu 15 Oct 22:00 Them: 改好了，明天再跑。\n#742 Fri 16 Oct 01:30 Them: 把GPTR的结果加进paper了，效果还行，比baseline高3个点。\n#743 Fri 16 Oct 09:30 Them: 周五，早上跑新scenario的实验。\n---\n#422 Tue 15 Sep 23:52 Them: 对，我重新提交了，等明天看结果。\n#423 Wed 16 Sep 10:00 Them: GPTR跑出来了，数据正常了。现在跟其他baseline对比一下。\n#424 Wed 16 Sep 10:01 aicoo: - 很好。需要我帮你整理对比表格吗？\n---\n#385 Fri 11 Sep 10:05 aicoo: - 添加后检查逻辑连贯性。\n- 需要引用相关文献吗？\n#386 Fri 11 Sep 14:00 Them: 嗯，引了几篇。下午Mei问我GPTR结果，我说正在调，她说她也跑过那个baseline，当时也费了不少时间。\n#387 Fri 11 Sep 14:05 aicoo: - 看来GPTR环境配置普遍有坑。\n- 可以分享你的解决步骤给Mei。\n---\n#348 Sun 06 Sep 16:00 Them: guest talk不错，Prof. Wang讲的RL planning方向跟我的工作有点关系。\n#"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3592,
+   "out": 22,
+   "usd": 0.00003952816
+  },
+  {
+   "in": 4056,
+   "out": 152,
+   "usd": 0.00006892256
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8769
+}

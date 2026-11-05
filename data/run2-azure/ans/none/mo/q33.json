@@ -1,0 +1,70 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "早啊，汇报下今天待办",
+ "reply": [
+  "早啊！今天是周日，明天周一恢复正常节奏。根据上周定下的方向，这周重点应该是：\n\n1. 大伟拓展新渠道\n2. 成都合作推进\n3. 安卓版11月中上线的准备\n\n今天休息日，但如果你现在想提前理一理明天的安排，我帮你列个待办草稿？还是今天就先不干活了？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "今日待办 今天 安排"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "待办事项 今天要做"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周一 工作 本周"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "新一周 加油"
+   },
+   "result": "#709 Sat 31 Oct 09:15 aicoo: 大伟拓展新渠道，成都合作推进，安卓版11月中上线准备\n#710 Sat 31 Oct 10:00 Them: 好，新一周加油"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1103,
+   "out": 25,
+   "usd": 0.000062334
+  },
+  {
+   "in": 1157,
+   "out": 24,
+   "usd": 0.000073114
+  },
+  {
+   "in": 1210,
+   "out": 23,
+   "usd": 0.000083684
+  },
+  {
+   "in": 1262,
+   "out": 22,
+   "usd": 0.000094044
+  },
+  {
+   "in": 1346,
+   "out": 91,
+   "usd": 0.0001045
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3623
+}

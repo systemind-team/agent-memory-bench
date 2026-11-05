@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "what was the flaky test called again?",
+ "reply": [
+  "你是说 `test_billing_webhook` 还是 `test_billing_cycle`？两个都出过问题。前者后来用 mock 修好了，后者是 billing factory 的竞态条件。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "flaky test"
+   },
+   "result": "[checkout-spec] 15 Oct: flaky test test_billing_webhook now 0% failure (was 20% failure)\n[checkout-spec] 07 Aug: flaky test happened again; filing a ticket\n[checkout-spec] 26 Aug: flaky test in CI again — `test_billing_cycle` fails randomly; likely race condition\n[checkout-spec] 11 Aug: flaky test fixed by Dan; was a race condition in the billing factory; count down to 2; one more flaky in search owned by Lena; 14 Aug: billing flaky test also fixed, count down to 0\n[stripe-webhook] 03 Sep: flaky test in CI: test_billing_webhook fails 20% of the time; root cause found (shared state between test"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2837,
+   "out": 21,
+   "usd": 0.000103466
+  },
+  {
+   "in": 3190,
+   "out": 51,
+   "usd": 0.000194396
+  }
+ ],
+ "memChars": 5721,
+ "promptChars": 10282
+}

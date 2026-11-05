@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant stated 38%, but the chat record from September 22 shows the user said the data is 34%.",
+ "rule": null
+}

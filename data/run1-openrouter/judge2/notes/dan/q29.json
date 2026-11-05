@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The reply fabricates a 'webhook v2 spec' ready to merge and a 'stripe refactor v2 PR' from yesterday, while the actual chat shows the original webhook spec reminder was never confirmed as sent.",
+ "first": "made_up",
+ "rule": null
+}

@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+ "reply": [
+  "凯哥早。今天是周日，没有meetings，好好休息。这周重点：",
+  "周一10:00 pricing review prep，10:30跟Grace和Ben的pricing launch decision meeting，问SEA headcount approval timeline。周一找Lily要Aurora quote，找Omar要Singapore客户quote，完成Q3 customer wins summary的testimonial section。跟Ravi确认integration final timeline，Emily weekly check-in。",
+  "周二周三有空可以开始准备Singapore office expansion JD。周四周五看有没有需要跟进的。你父亲身体刚好，周末先放松，别想工作太多。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3052,
+   "out": 135,
+   "usd": 0.00004340952
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10829
+}

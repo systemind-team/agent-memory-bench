@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The first title was 'Planning with Hierarchical Graphs' on Aug 7, but the reply incorrectly claims the initial title was 'Hierarchical Planning with Graph Attention' on Aug 20, omitting the earlier title.",
+ "first": "wrong",
+ "rule": null
+}

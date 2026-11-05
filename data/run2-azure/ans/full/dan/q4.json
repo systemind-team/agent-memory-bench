@@ -1,0 +1,35 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "how far did i run the day i set a personal best?",
+ "reply": [
+  "10.1 miles on tuesday 15 sep. you said your legs were shot afterwards but worth it",
+  "and biscuit got a walk instead of a run that evening"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "personal best miles run"
+   },
+   "result": "#344 Tue 15 Sep 11:47 aicoo: that's promising. sounds like he's picking things up fast\n#345 Tue 15 Sep 15:20 Them: run update: hit 10.1 miles. new personal best.\n#346 Tue 15 Sep 15:22 aicoo: congratulations. that's a solid milestone"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21328,
+   "out": 22,
+   "usd": 0.000687808
+  },
+  {
+   "in": 21436,
+   "out": 42,
+   "usd": 0.00452508
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64120
+}

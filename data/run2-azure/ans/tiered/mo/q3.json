@@ -1,0 +1,35 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "大伟是定在什么时候入职？",
+ "reply": [
+  "大伟是去年9月1号入职的，后来提前到8月31号周一来的。",
+  "现在是2026年11月，他已经入职一年多了。怎么了？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 入职"
+   },
+   "result": "#239 Wed 02 Sep 15:31 aicoo: 他说感觉不错，已经看代码库了。\n#240 Thu 03 Sep 09:00 Them: 大伟入职手续都办妥了，那个提醒可以取消\n#241 Thu 03 Sep 09:01 aicoo: 好的，入职提醒已关掉。\n---\n#233 Wed 02 Sep 10:31 aicoo: 4万2可以，签合同吧。\n#234 Wed 02 Sep 11:00 Them: 大伟入职培训日程发他了吗？\n#235 Wed 02 Sep 11:01 aicoo: 已经发他邮箱，还有团队wiki链接。\n---\n#220 Tue 01 Sep 10:01 aicoo: 好的，冲突都清掉了。\n#221 Tue 01 Sep 11:00 Them: 大伟入职介绍邮件发了吗？\n#222 Tue 01 Sep 11:01 aicoo: 还没，要现在写吗？\n---\n#214 Mon 31 Aug 14:45 Them: 不用，他自己能搞定。\n#215 Mon 31 Aug 16:00 Them: 大伟说想提前一天入职，行不行？\n#216 Mon 31 Aug 16:01 aicoo: 8月31号是周一，办公室准备好了，可以。\n---\n#206 Mon 31 Aug 09:31 aicoo: 已经三核了，尤其成本那块。\n#207 Mon 31 Aug 10:00 T"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5558,
+   "out": 22,
+   "usd": 0.001087852
+  },
+  {
+   "in": 6208,
+   "out": 44,
+   "usd": 0.000366016
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10955
+}

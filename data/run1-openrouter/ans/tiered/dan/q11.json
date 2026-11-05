@@ -1,0 +1,20 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "what's the billing cutover date?",
+ "reply": [
+  "Oct 12. locked in by Priya on Mon 19 Oct. no more changes."
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5325,
+   "out": 25,
+   "usd": 0.0000519274
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17910
+}

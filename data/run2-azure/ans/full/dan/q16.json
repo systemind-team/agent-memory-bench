@@ -1,0 +1,35 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q16",
+ "kind": "update",
+ "q": "when did priya first move the cutover?",
+ "reply": [
+  "第一次是 8 月 19 日，普里亚说 cutover 改到 11 月 5 日了。之前你跟她敲定的是 10 月 12 日，对吧。",
+  "后来 9 月 18 日又回到了 10 月 12 日，最后锁在 11 月 15 日到现在。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "priya cutover date moved"
+   },
+   "result": "#160 Wed 19 Aug 10:45 aicoo: glad it was minor. you're off rotation friday, right?\n#161 Wed 19 Aug 14:30 Them: cutover date moved. priya says nov 5 now. gives breathing room.\n#162 Wed 19 Aug 14:31 aicoo: that's huge. less stress."
+  }
+ ],
+ "calls": [
+  {
+   "in": 21325,
+   "out": 24,
+   "usd": 0.000688298
+  },
+  {
+   "in": 21439,
+   "out": 89,
+   "usd": 0.000748638
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64110
+}

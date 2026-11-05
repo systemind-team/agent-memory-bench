@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply omits required details—'想加GPTR', '没碰改intro', '跑起来差', '找到normalization bug', '加进paper高3个点'—and adds unsupported claims about HotpotQA and A100 coordination.",
+ "first": "wrong",
+ "rule": null
+}

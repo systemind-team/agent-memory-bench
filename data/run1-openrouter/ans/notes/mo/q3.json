@@ -1,0 +1,34 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "大伟是定在什么时候入职？",
+ "reply": [
+  "大伟是9月1号入职的，9月2号到岗。已经签了两家养老驿站（凯旋路和徐汇），最近在拓展新渠道。"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "大伟 入职 时间"
+   },
+   "result": "[dawei-salary] Sun 16 Aug: 大伟offer已发，9月1号入职，薪酬按之前定的1万7底薪+1000绩效\n[dawei-salary] Fri 04 Sep: 大伟薪资最后谈到1万85，9月1号起算；9月2日到岗，会议室已布置好；合同和电脑已好；入职资料、合同和绩效方案已发，周三（26 Aug）催回传，身份证已收到，合同和绩效回执未到；入职介绍邮件已发（承诺，已兑现）；培训日程和团队wiki链接已发他邮箱；入职手续全部办妥，提醒已取消；9月4日大伟在梳理渠道，明天出方案\n[customer-service-backup] Wed 23 Sep: 成都合作方催签约，今天打电话确认；Fri 25 Sep北京客服响应时间降到30秒\n[seed-round-investors] Fri 07 Aug: 按云九、蓝驰、高榕排优先级，先约云九，已约云九8月12日下午2点（moved from Mon 03 Aug，新增具体时间）\n[dawei-salary] Mon 21 Sep: 大伟绩效方案定为KPI+OKR混合，KPI占70%，OKR主要看增长创新；周五前催大伟提交具体指标；Thu 24 Sep: 大伟已发KPI草稿，aicoo明早给修改意见\n[dawei-salary] Thu 01 Oct: 大伟今天跑养老驿站（新增）\n[customer-service-tra"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2450,
+   "out": 24,
+   "usd": 0.0001014188
+  },
+  {
+   "in": 2946,
+   "out": 38,
+   "usd": 0.00004785928
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6256
+}

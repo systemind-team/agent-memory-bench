@@ -1,0 +1,60 @@
+{
+ "arm": "full",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "周周，根据之前的记录，你最终只投了Facebook fellowship这一个。",
+  "之前决定申请NSF和Facebook两个，后来在10月20号晚上你决定放弃NSF，只保留Facebook。它的截止日期是12月20日。",
+  "需要我帮你梳理Facebook fellowship的申请进度吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "fellowship 投了 哪些"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "fellowship 申请 了"
+   },
+   "result": "#447 Fri 18 Sep 14:00 Them: 写了一下午，methodology框架差不多了。明天再细化。\n#448 Sat 19 Sep 00:30 Them: fellowship申请我决定只投NSF和Facebook了，两个够了。\n#449 Sat 19 Sep 00:31 aicoo: - 了解。需要我帮你记录申请进度吗？\n---\n#26 Wed 05 Aug 11:01 aicoo: 那挺顺利的！\n#27 Wed 05 Aug 15:00 Them: 今天申请了一个fellowship的截止日期是下个月，得赶紧写材料。\n#28 Wed 05 Aug 15:01 aicoo: 需要我帮你列一个申请材料清单吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship 放弃 NSF"
+   },
+   "result": "#785 Tue 20 Oct 16:30 Them: 好主意，我看看hotpotQA能不能用planning框架做。\n#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 27981,
+   "out": 25,
+   "usd": 0.001445082
+  },
+  {
+   "in": 28035,
+   "out": 24,
+   "usd": 0.000905974
+  },
+  {
+   "in": 28225,
+   "out": 23,
+   "usd": 0.000945314
+  },
+  {
+   "in": 28343,
+   "out": 73,
+   "usd": 0.000998094
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 59352
+}

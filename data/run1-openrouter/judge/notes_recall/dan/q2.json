@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The chat only mentions the key 9A7B2C, not 3F8D1A or 7C2E9B, so these specific past values are unsupported.",
+ "rule": null
+}

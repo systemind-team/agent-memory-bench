@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+ "reply": [
+  "凯哥早上好！周日轻松一下，今天没有任何meetings，周末最后一天好好休息。",
+  "这周重点：周一10:30 pricing launch decision meeting with Grace和Ben，10点先做pricing review prep；跟Grace确认SEA expansion headcount timeline；跟Ravi确认integration final timeline；Emily weekly check-in。另外记得找Lily和Omar要customer quotes给Grace的summary加section。",
+  "父亲今天早上怎么样？血压稳定的话，今天可以带他们再出去走走？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5108,
+   "out": 115,
+   "usd": 0.00005874008
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14924
+}

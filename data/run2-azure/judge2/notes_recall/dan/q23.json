@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The required answer lists Oct 12, Nov 5, and Nov 15; the assistant's reply includes Oct 26 and presents an unsupported final date, failing to provide the correct set of billing cutover dates.",
+ "first": "wrong",
+ "rule": null
+}

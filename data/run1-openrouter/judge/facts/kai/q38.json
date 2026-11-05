@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Reply does not start with a summary sentence on decisions as the preference requires; it instead asks for missing details without attempting to draft minutes.",
+ "rule": false
+}

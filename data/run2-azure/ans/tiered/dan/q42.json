@@ -1,0 +1,47 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "does sam have any pets?",
+ "reply": [
+  "i don't think sam's mentioned any pets. i've got nothing in our chats about it.",
+  "want me to ask him about it later, or are you just curious?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam pet dog cat"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam Ortiz pet"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5300,
+   "out": 22,
+   "usd": 0.00020884
+  },
+  {
+   "in": 5351,
+   "out": 21,
+   "usd": 0.00021899
+  },
+  {
+   "in": 5401,
+   "out": 42,
+   "usd": 0.00024125
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17901
+}

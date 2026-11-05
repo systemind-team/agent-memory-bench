@@ -1,0 +1,103 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q36",
+ "kind": "pref_apply",
+ "q": "帮我生成这周的周报草稿，这周主要做了GPTR实验调优，论文intro改完了。",
+ "reply": [
+  "周周，根据你刚说的和最近的记录，我整理了一份本周周报草稿：",
+  "",
+  "**周报：Oct 26 - Nov 1**",
+  "",
+  "**论文进度**",
+  "- 论文标题最终确定为 *Context-Aware Planning via Hierarchical Decomposition*",
+  "- Intro已改完（最近一版是上周完成，这次是又一轮修改？如果是新改的，确认一下版本号）",
+  "- 实验部分初稿完成，数据表格已上传overleaf",
+  "- 环境1: 82%，环境2: 78%，环境3: 89%，环境4 (HotpotQA改版): 55%",
+  "",
+  "**GPTR实验调优**",
+  "- 这周对GPTR baseline做了进一步调优（具体调了什么参数？学习率？结构？还是训练策略？）",
+  "- 对比实验结果待补充",
+  "",
+  "**本周遇到的坑和解决思路**",
+  "- HotpotQA多跳推理中模型跳过中间步骤，加intermediate supervision后从30%提升到55%",
+  "- 环境2在加step-level supervision后性能下降，当前分开训练各环境",
+  "",
+  "**下周计划**",
+  "- 周二带Dr. Chen熟悉实验室环境",
+  "- 周一线上meeting与Prof. Lin讨论投稿时间线（目标12月）",
+  "- 继续调环境4，考虑权重调整或结构改进",
+  "- 根据Prof. Lin反馈修改discussion section"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "本周实验论文"
+   },
+   "result": "[139] 24 Aug · plan: 本周在A100切换前把GPU实验跑完  (from #230)\n[420] 05 Oct · fact: Mon 05 Oct 09:18 Fellowship推荐信Coco说本周能发  (from #645)\n[24] 07 Aug · feeling: 改论文改到凌晨，还在实验室  (from #45)\n[29] 07 Aug · feeling: 周末还得来实验室，论文deadline快到了  (from #55)\n[456] 11 Oct · plan: Sun 11 Oct 去lab写论文实验部分  (from #701)\n[468] 14 Oct · decision: Tue 13 Oct 15:00 论文增加real-world scenario实验  (from #723, #724)\n[146] 25 Aug · decision: 在slides里加一页总结本周进展和下周计划  (from #243, #244)\n[455] 11 Oct · done: Sat 10 Oct 19:00 开始写论文environment实验部分  (from #699)\n[70] 14 Aug · pref: 周报里最后加一段\"本周遇到的坑和解决思路\"  (from #125, #126)\n[130] 24 Aug · ask: 希望"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "GPTR实验调优"
+   },
+   "result": "[216] 04 Sep · fact: 实验想加baseline GPTR，需要先复现代码  (from #333)\n[263] 13 Sep · plan: Sun 13 Sep 组会展示完整实验结果包括GPTR  (from #397)\n[276] 16 Sep · plan: Tue 15 Sep 23:52 重新提交了GPTR实验，等明天看结果  (from #422)\n[269] 14 Sep · done: Sun 13 Sep 14:00 组会展示完整实验结果包括GPTR  (from #263, #401)\n[495] 18 Oct · done: Sun 18 Oct 11:00 组会材料准备好，包括real-world scenario实验和GPTR结果  (from #756)\n[377] 01 Oct · done: Thu 01 Oct 14:15 proofread实验部分，发现GPTR对比表格少了个脚注（normalization），已加  (from #581)\n[502] 19 Oct · done: Mon 19 Oct 14:00 复杂场景实验完成，context-aware比gptr高2个点，方差较大  (from #767)\n[232] 07 Sep · plan: Mon 07 Sep 继续debug GPTR  (from #353)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "论文intro改完"
+   },
+   "result": "[271] 15 Sep · done: Mon 14 Sep 21:00 改完了intro，发给Prof. Lin  (from #412, #413)\n[357] 30 Sep · done: Tue 29 Sep 17:00 周周改完intro并已发给Prof. Lin  (from #557)\n[129] 24 Aug · done: Sun 23 Aug 21:00-23:00 把论文method部分改完  (from #220, #221)\n[8] 04 Aug · feeling: 改论文改到头疼，intro写了四版都不满意  (from #13)\n[283] 17 Sep · fact: Thu 17 Sep 14:00 与Prof. Lin meeting讨论论文进度，他说intro改得不错  (from #432)\n[226] 06 Sep · done: Sun 06 Sep 14:00 intro改得差不多了  (from #347)\n[302] 21 Sep · done: Mon 21 Sep 20:20 批改完50份TA作业  (from #470)\n[223] 06 Sep · done: Sun 06 Sep 01:30 没碰GPTR，改了一晚上intro  (from #343)\n[273] 16 Sep · done: Tue 15 Sep 1"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "这周 10月最后一周 实验"
+   },
+   "result": "[550] 26 Oct · plan: Mon 26 Oct 09:15 今天finalize论文标题，跑最后一个实验  (from #856)\n[108] 20 Aug · done: Thu 20 Aug 14:30 最后一个baseline跑完，结果比预期好  (from #189)\n[133] 24 Aug · plan: Mon 24 Aug 周一上午收尾related work，下午开始跑最后一组ablation  (from #224)\n[137] 24 Aug · fact: Mon 24 Aug 14:30 ablation最后一组跑完，去掉attention后性能掉了将近4个点  (from #228)\n[380] 01 Oct · plan: Thu 01 Oct 17:30 开始写fellowship personal statement，已拖一周  (from #584)\n[124] 23 Aug · plan: Sun 23 Aug 13:00 整理一周结果和下周计划成slides  (from #215)\n[138] 24 Aug · fact: Mon 24 Aug 18:00 Mei下周开始用A100，周予安这周把实验都跑完  (from #230)\n[316] 25 Sep · plan: Fri 25 Sep 09:00 下午组会前最后确认s"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "周报格式 本周遇到的坑和解决思路"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4599,
+   "out": 21,
+   "usd": 0.00004707164
+  },
+  {
+   "in": 4925,
+   "out": 23,
+   "usd": 0.00006046964
+  },
+  {
+   "in": 5294,
+   "out": 22,
+   "usd": 0.00007536984
+  },
+  {
+   "in": 5651,
+   "out": 27,
+   "usd": 0.00007364028
+  },
+  {
+   "in": 6028,
+   "out": 28,
+   "usd": 0.00010565744
+  },
+  {
+   "in": 6099,
+   "out": 339,
+   "usd": 0.0001088486
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11690
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "回复未使用bullet list格式，而是使用了加粗标题和段落形式，且未明确提及已按要求称呼用户为'周周'。",
+ "rule": false
+}

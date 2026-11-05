@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Lily搞的那个大单，Aurora那个，最后签了多少？",
+ "reply": [
+  "凯哥，Aurora Health那单最终签的是$950K。你之前close的时候确认过这个数，Q4 pipeline里也一直track的是这个金额。",
+  "周一开始收quote时，Lily应该还能提供客户端的详细数据。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5082,
+   "out": 61,
+   "usd": 0.001009732
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14911
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "what were all the billing cutover dates we discussed?",
+ "reply": [
+  "here's what i have for billing cutover dates:",
+  "oct 12 was the original target (priya pushed for it), then moved to sep 28, back to oct 12, then to oct 26, and finally settled on nov 15. priya confirmed nov 15, no more changes.",
+  "the checklist you're working on is for that nov 15 date. want me to find the specific rollback steps you added yesterday?"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "billing cutover dates"
+   },
+   "result": "[218] 18 Sep · fact: legal signed off on billing cutover  (from #381)\n[281] 02 Oct · plan: billing migration cutover oct 26  (from #511)\n[15] 05 Aug · fact: priya pushing for billing cutover on oct 12  → replaced 11 Aug by [48] priya wants cutover timeline moved to sep 28  (from #25)\n[217] 18 Sep · fact: billing cutover final date: oct 12 again  (from #379)\n[282] 03 Oct · done: billing migration cutover date oct 26 locked, timeline updated  (from #512)\n[357] 11 Oct · plan: thinking about next sprint, billing migration should be the only focus until cutover  (from #607)\n[416] 20 Oct · fact: pri"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3090,
+   "out": 23,
+   "usd": 0.00002754304
+  },
+  {
+   "in": 3393,
+   "out": 98,
+   "usd": 0.00004593484
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10818
+}

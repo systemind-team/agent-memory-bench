@@ -1,0 +1,82 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "云九和蓝驰，哪家先跟我们谈的？",
+ "reply": [
+  "蓝驰先谈的。你最早定的优先级是云九第一，但8月14号云九要求DAU破2000再谈，后来投了竞品。蓝驰是8月19号第一次见面，一路走到TS和打款。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 蓝驰 先 谈"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 蓝驰 接触"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 蓝驰 约"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 蓝驰 见面"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 蓝驰 投资人"
+   },
+   "result": "#1 Mon 03 Aug 09:16 aicoo: 明白，先盘点投资人名单，我来排优先级\n#2 Mon 03 Aug 14:30 aicoo: 好，这周投资人名单我按云九、蓝驰、高榕排优先级\n#3 Mon 03 Aug 14:32 Them: 行，先约云九"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4015,
+   "out": 27,
+   "usd": 0.00017091
+  },
+  {
+   "in": 4071,
+   "out": 25,
+   "usd": 0.00018155
+  },
+  {
+   "in": 4125,
+   "out": 25,
+   "usd": 0.00019289
+  },
+  {
+   "in": 4179,
+   "out": 25,
+   "usd": 0.000158406
+  },
+  {
+   "in": 4233,
+   "out": 25,
+   "usd": 0.000169746
+  },
+  {
+   "in": 4364,
+   "out": 61,
+   "usd": 0.00026324
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8490
+}

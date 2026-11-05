@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "回复没有按照要求使用bullet list格式呈现信息。",
+ "rule": false
+}

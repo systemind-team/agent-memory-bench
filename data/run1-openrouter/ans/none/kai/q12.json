@@ -1,0 +1,21 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q12",
+ "kind": "update",
+ "q": "Pricing launch date最后定在什么时候了，Ben改了好几次？",
+ "reply": [
+  "凯哥，周一10:30的pricing launch decision meeting上会和Grace、Ben一起敲定最终日期。Ben上周四（10/30）下午提了两个版本：11/15或12/1，但他说还要跟工程确认release capacity。你当时回复说等他们数据出来再定。",
+  "周一早上我可以提醒你先把Ben的update拉一下，开会前心里有数。今天好好休息，明天再忙。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1417,
+   "out": 100,
+   "usd": 0.0000240758
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4370
+}

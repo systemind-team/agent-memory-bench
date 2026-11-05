@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It asks if you want help finding flights now, implying it doesn't know the status, but incorrectly claims no record exists when the chat shows the flights were booked.",
+ "rule": null
+}

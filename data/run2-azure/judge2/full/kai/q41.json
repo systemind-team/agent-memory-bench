@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The chat explicitly states Emily Tan's start date is Oct 26 in #747 and #820, but it never mentions whether there was a delay; the assistant fabricated the 'no delay' claim.",
+ "first": "made_up",
+ "rule": null
+}

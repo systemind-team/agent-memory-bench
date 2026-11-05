@@ -1,0 +1,62 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "how many times did the cutover date move? list them.",
+ "reply": [
+  "Four moves so far:",
+  "1. **Sep 28** → **Nov 5** (Aug 11 → Aug 20, per #48 replaced by #97)",
+  "2. **Nov 5** → **Nov 15** (Aug 20 → Sep 6, per #161)",
+  "3. **Nov 15** → **Oct 12** (Sep 6 → Sep 18, per #217)",
+  "4. **Oct 12** → **Oct 26** (Sep 18 → Oct 3, per #267 and #282)",
+  "After that priya asked again on Oct 16 (#384), but the current locked date is Oct 26. No further moves since then."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "cutover date moved timeline"
+   },
+   "result": "[97] 20 Aug · fact: cutover date moved to nov 5  → replaced 18 Sep by [217] billing cutover final date: oct 12 again  (from #161)\n[161] 06 Sep · fact: cutover date moved to nov 15  → replaced 30 Sep by [267] priya wants to move cutover to oct 26, says nov 15 is too far  (from #274)\n[48] 11 Aug · plan: priya wants cutover timeline moved to sep 28  → replaced 20 Aug by [97] cutover date moved to nov 5  (from #87)\n[282] 03 Oct · done: billing migration cutover date oct 26 locked, timeline updated  (from #512)\n[384] 16 Oct · ask: priya asked about the cutover timeline again  (from #657)\n[217] 18 S"
+  },
+  {
+   "tool": "open_source",
+   "args": {
+    "ids": [
+     48,
+     97,
+     161,
+     215,
+     217,
+     267,
+     274,
+     282,
+     316,
+     384
+    ]
+   },
+   "result": "#47 Fri 07 Aug 09:01 aicoo: remember thursday's reminder. you've got time\n#48 Fri 07 Aug 11:00 Them: saw lena's on-call doc update. pagerduty key is 9A7B2C. for next rotation.\n#49 Fri 07 Aug 11:01 aicoo: got it. i'll update the internal notes\n---\n#96 Wed 12 Aug 10:45 Them: none. she knew her stuff. pipelining and window functions. priya liked her\n#97 Wed 12 Aug 11:30 Them: on-call this week, so far quiet. just one alert about disk space at 3am\n#98 Wed 12 Aug 11:31 aicoo: hope that was a false alarm\n---\n#160 Wed 19 Aug 10:45 aicoo: glad it was minor. you're off rotation friday, right?\n#161 Wed "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3069,
+   "out": 23,
+   "usd": 0.000153306
+  },
+  {
+   "in": 3417,
+   "out": 45,
+   "usd": 0.000192882
+  },
+  {
+   "in": 3951,
+   "out": 157,
+   "usd": 0.000321918
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10817
+}

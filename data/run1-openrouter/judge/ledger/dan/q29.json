@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The reply claims Tom reviewed, merged, and a v2 refactor happened by 28 Oct, but the chat only shows an unclosed reminder with no confirmation it was ever sent.",
+ "rule": null
+}

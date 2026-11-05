@@ -1,0 +1,45 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "how many eng were on the team before david joined?",
+ "reply": [
+  "4个工程师——你、tom、lena和sam。priya是你们的经理。大卫加入后变成了5个。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "team count before david joined"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "teammate count 4 eng me tom lena sam"
+   },
+   "result": "#604 Sun 11 Oct 08:00 Them: sunday. lazy morning. coffee and the paper\n#605 Sun 11 Oct 08:45 Them: teammate count: 4 eng. me, tom, lena, sam. priya manages.\n#606 Sun 11 Oct 09:00 aicoo: 不错。small team, big impact. you've grown from three to four since june"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21350,
+   "out": 24,
+   "usd": 0.00017862376
+  },
+  {
+   "in": 21403,
+   "out": 30,
+   "usd": 0.00018126276
+  },
+  {
+   "in": 21533,
+   "out": 32,
+   "usd": 0.00018670316
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64122
+}

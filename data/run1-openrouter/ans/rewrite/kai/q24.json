@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "Pricing launch postpone了几次，从啥时候推到啥时候？",
+ "reply": [
+  "最开始定的目标是10月中旬上线，后来Ben需要更多测试时间，推迟到11月15日。",
+  "10月29日你和Ben确认了，A/B测试要再跑一轮，所以最终定在12月1日直接上v3。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3047,
+   "out": 59,
+   "usd": 0.00003703532
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10826
+}

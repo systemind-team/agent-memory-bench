@@ -1,0 +1,46 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "那个月阿里云账单超了，多少钱？",
+ "reply": [
+  "超了多少我没找到最新的具体数字。之前9月阿里云账单7万8，后来10月阿杰和阿里云聊了优化，预计降到5万左右。你有新账单数字吗，我帮你对一下"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿里云 账单 超支 服务器"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "阿里云 超支 服务器费用"
+   },
+   "result": "[177] 16 Sep · feeling: 服务器成本超预算，阿里云账单7万8  (from #351, #352)\n[205] 21 Sep · ask: 问阿杰服务器超支原因  (from #392)\n[206] 22 Sep · fact: 服务器超支原因是测试环境忘关，下午恢复  (from #393)\n[305] 14 Oct · fact: 阿里云说可以优化，阿杰去聊了  (from #582)\n[239] 27 Sep · fact: 上线两小时，下载320，服务器稳定  (from #452, #453)\n[309] 15 Oct · fact: 阿里云成本优化，下个月账单预计降到5万  (from #590, #591)\n[21] 10 Aug · promise: aicoo同意：阿杰休假期间（8月10-15日）盯着服务器，有异常通知  (from #37)\n[240] 27 Sep · fact: 商标重新提交了，找代理，费用8千，大概3个月出结果  (from #454, #455, #456)\n[228] 25 Sep · fact: 成都合作下周签约，服务费每单8块  (from #427)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2601,
+   "out": 27,
+   "usd": 0.000469682
+  },
+  {
+   "in": 2657,
+   "out": 26,
+   "usd": 0.00034341
+  },
+  {
+   "in": 2965,
+   "out": 53,
+   "usd": 0.00019409
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6689
+}

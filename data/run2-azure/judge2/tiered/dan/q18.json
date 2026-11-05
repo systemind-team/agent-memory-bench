@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant's answer claims the migration incident was August 25, but message #537 explicitly states it was August 18.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,47 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "Kevin的猫咪叫什么名字来着？我记得好像听他说过。",
+ "reply": [
+  "我也记不太清了，翻了下咱们的聊天记录没找到。可能之前是在别的地方聊到的？",
+  "要不你直接问一下Kevin？或者我帮你记着，下次他再提的时候我帮你存下来。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Kevin 猫咪 猫 名字"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Kevin cat name"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1249,
+   "out": 25,
+   "usd": 0.000092994
+  },
+  {
+   "in": 1303,
+   "out": 21,
+   "usd": 0.000102094
+  },
+  {
+   "in": 1353,
+   "out": 54,
+   "usd": 0.00008525
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4011
+}

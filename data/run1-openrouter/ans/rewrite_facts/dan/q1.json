@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "how many coffees did i have that first week?",
+ "reply": [
+  "17杯。那周8月10号你一个人就喝了3杯，后面自己也觉得该控制一下了。",
+  "现在稳定多了，今天还没开张吧"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Daniel Okafor coffee week 17"
+   },
+   "result": "- Daniel Okafor had 17 coffees this week (including 3 on 10 Aug) and considered cutting back.\n- 05 Oct: Dan had 2 cups of coffee on Monday and felt okay about the week ahead.\n- 09 Aug: Dan Okafor enjoys lazy Sunday mornings with coffee and a book.\n- 16 Aug: Coffee count: 2 (pre-run coffee and a bagel).\n- 10 Aug: PagerDuty rotation starts tomorrow. 12 Aug: Daniel is on-call this week.\n- 11 Aug: Dan Okafor had lunch at Dig Inn with Priya; she's covering backend next week.\n- 09 Aug: Daniel \"Dan\" Okafor plans to go for a short, light run later.\n- 02 Oct: coffee count 3 is my limit\n- 18 Oct: Daniel"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3337,
+   "out": 26,
+   "usd": 0.0001375934
+  },
+  {
+   "in": 3595,
+   "out": 42,
+   "usd": 0.0000662186
+  }
+ ],
+ "memChars": 7318,
+ "promptChars": 11945
+}

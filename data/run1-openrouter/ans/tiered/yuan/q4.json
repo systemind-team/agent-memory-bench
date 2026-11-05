@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "每周跟Prof. Lin的one-on-one是周几几点？",
+ "reply": [
+  "周周，目前记录里Prof. Lin的固定one-on-one是每周四下午3点（15:00），之前确认过的。",
+  "不过这次周一meeting是临时改到线上的，他出差了。你想确认的是常规时间还是下周一的那个？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 6884,
+   "out": 66,
+   "usd": 0.00015181152
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16053
+}

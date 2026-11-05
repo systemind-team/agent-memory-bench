@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "Mei的paper被哪个会接收了？",
+ "reply": [
+  "Mei的paper是被NeurIPS接收了呀，你10月11号晚上跟我说的记得不？那天你还说累了，推迟了庆祝。",
+  "不过之前8月还有个workshop接收的，NeurIPS才是最近那个正会～"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Mei paper accepted conference"
+   },
+   "result": "- 14 Aug: Mei的paper被workshop接受了\n- 12 Aug: meeting中，Prof. Lin说paper framework还行\n- 01 Oct: 计划把paper成果加入某事。\n- 04 Oct: Final check过了，觉得paper写得挺好。\n- 02 Oct: Prof. Lin对paper很满意，建议投ICLR。\n- 15 Aug: 周末还在写paper，学术圈没有假期。\n- 01 Sep: 到lab先改Mei的rebuttal。\n- 16 Aug: Prof. Lin发了个新paper链接，跟我们方向很像。\n- 02 Oct: 今天连meeting，下午有Prof. Lin meeting，晚上组会，需过paper和statement。\n- 16 Oct: 把GPTR的结果加进paper了，效果还行，比baseline高3个点。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3836,
+   "out": 23,
+   "usd": 0.000268552
+  },
+  {
+   "in": 4050,
+   "out": 60,
+   "usd": 0.00019674
+  }
+ ],
+ "memChars": 5093,
+ "promptChars": 9383
+}

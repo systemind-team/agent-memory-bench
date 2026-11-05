@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "It says it doesn't have that in memory and offers to ask, rather than making up an answer.",
+ "rule": null
+}

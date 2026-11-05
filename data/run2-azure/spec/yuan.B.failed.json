@@ -1,0 +1,1001 @@
+{
+ "s": {
+  "events": [
+   {
+    "id": "e1",
+    "day": 1,
+    "time": "14:00",
+    "who": "u",
+    "text": "今天跟Prof. Lin聊了，他说实验室明年春季的intern名额只有3个。",
+    "kind": "noise"
+   },
+   {
+    "id": "e2",
+    "day": 3,
+    "time": "20:00",
+    "who": "u",
+    "text": "Coco说她周末想去那家叫“山海”的餐厅，我还没去过。",
+    "kind": "noise"
+   },
+   {
+    "id": "e3",
+    "day": 5,
+    "time": "23:30",
+    "who": "u",
+    "text": "论文working title先叫Planning with Hierarchical Graphs吧，以后再改。",
+    "kind": "noise"
+   },
+   {
+    "id": "e4",
+    "day": 6,
+    "time": "09:00",
+    "who": "a",
+    "text": "好的，已记录论文标题为“Planning with Hierarchical Graphs”。",
+    "kind": "noise"
+   },
+   {
+    "id": "e5",
+    "day": 7,
+    "time": "10:00",
+    "who": "u",
+    "text": "这学期的TA是CS 571，Prof. Li的课，每周二要批50份作业。",
+    "kind": "noise"
+   },
+   {
+    "id": "e6",
+    "day": 9,
+    "time": "16:00",
+    "who": "u",
+    "text": "Kevin说他把组会presentation推迟到9月了，具体哪天待定。",
+    "kind": "noise"
+   },
+   {
+    "id": "e7",
+    "day": 10,
+    "time": "15:00",
+    "who": "u",
+    "text": "跟Prof. Lin的weekly meeting定在每周四下午3点。",
+    "kind": "noise"
+   },
+   {
+    "id": "e8",
+    "day": 12,
+    "time": "11:00",
+    "who": "u",
+    "text": "第一次fellowship申请截止是11月15号，得赶紧准备材料。",
+    "kind": "noise"
+   },
+   {
+    "id": "e9",
+    "day": 14,
+    "time": "22:00",
+    "who": "u",
+    "text": "今天GPU实验跑到batch size 128，速度比64快很多。",
+    "kind": "noise"
+   },
+   {
+    "id": "e10",
+    "day": 17,
+    "time": "23:00",
+    "who": "u",
+    "text": "论文标题改成Hierarchical Planning with Graph Attention吧，感觉更准确。",
+    "kind": "noise"
+   },
+   {
+    "id": "e11",
+    "day": 18,
+    "time": "09:30",
+    "who": "a",
+    "text": "论文标题已更新为\"Hierarchical Planning with Graph Attention\"。",
+    "kind": "noise"
+   },
+   {
+    "id": "e12",
+    "day": 20,
+    "time": "15:30",
+    "who": "u",
+    "text": "Mei说她下周开始跑实验，要用A100 GPU，现在有4块空闲。",
+    "kind": "noise"
+   },
+   {
+    "id": "e13",
+    "day": 22,
+    "time": "21:00",
+    "who": "u",
+    "text": "今晚跟Coco吃烧烤，她说她男朋友下月从上海飞过来。",
+    "kind": "noise"
+   },
+   {
+    "id": "e14",
+    "day": 24,
+    "time": "16:00",
+    "who": "u",
+    "text": "Kevin的组会presentation改到9月14号了，他让我帮他看看slides。",
+    "kind": "noise"
+   },
+   {
+    "id": "e15",
+    "day": 25,
+    "time": "14:00",
+    "who": "u",
+    "text": "第一次fellowship draft周五前要交给Prof. Lin看。",
+    "kind": "noise"
+   },
+   {
+    "id": "e16",
+    "day": 28,
+    "time": "23:00",
+    "who": "u",
+    "text": "实验结果不行，又把batch size改回64了。",
+    "kind": "noise"
+   },
+   {
+    "id": "e17",
+    "day": 31,
+    "time": "10:00",
+    "who": "u",
+    "text": "周五有个guest talk，speaker是Prof. Wang from MIT，讲RL。",
+    "kind": "noise"
+   },
+   {
+    "id": "e18",
+    "day": 33,
+    "time": "22:00",
+    "who": "u",
+    "text": "论文实验想加一个baseline叫GPTR，得先复现它代码。",
+    "kind": "noise"
+   },
+   {
+    "id": "e19",
+    "day": 35,
+    "time": "23:30",
+    "who": "u",
+    "text": "今天根本没碰GPTR，一直在改intro，太烦了。",
+    "kind": "noise"
+   },
+   {
+    "id": "e20",
+    "day": 38,
+    "time": "22:00",
+    "who": "u",
+    "text": "终于把GPTR跑起来了，但结果特别差，不知道哪有问题。",
+    "kind": "noise"
+   },
+   {
+    "id": "e21",
+    "day": 40,
+    "time": "20:00",
+    "who": "u",
+    "text": "Coco下月生日，10月5号，她说想去KTV。",
+    "kind": "noise"
+   },
+   {
+    "id": "e22",
+    "day": 42,
+    "time": "23:00",
+    "who": "u",
+    "text": "Paper title又改了，现在叫Context-Aware Hierarchical Planning for LLMs。",
+    "kind": "noise"
+   },
+   {
+    "id": "e23",
+    "day": 43,
+    "time": "09:00",
+    "who": "a",
+    "text": "论文标题更新为\"Context-Aware Hierarchical Planning for LLMs\"。",
+    "kind": "noise"
+   },
+   {
+    "id": "e24",
+    "day": 44,
+    "time": "23:30",
+    "who": "u",
+    "text": "GPTR的bug找到了，是数据处理的时候少了个normalization。",
+    "kind": "noise"
+   },
+   {
+    "id": "e25",
+    "day": 46,
+    "time": "14:00",
+    "who": "u",
+    "text": "下周一的组会轮到我讲，时间还是10:30 AM。",
+    "kind": "noise"
+   },
+   {
+    "id": "e26",
+    "day": 48,
+    "time": "11:00",
+    "who": "u",
+    "text": "fellowship申请我决定只投NSF和Facebook了，两个够了。",
+    "kind": "noise"
+   },
+   {
+    "id": "e27",
+    "day": 49,
+    "time": "09:30",
+    "who": "a",
+    "text": "提醒：NSF和Facebook fellowship申请截止日不同，请注意。",
+    "kind": "noise"
+   },
+   {
+    "id": "e28",
+    "day": 50,
+    "time": "22:00",
+    "who": "u",
+    "text": "NSF那个方向不太对，最后可能就投Facebook了。",
+    "kind": "noise"
+   },
+   {
+    "id": "e29",
+    "day": 52,
+    "time": "16:00",
+    "who": "u",
+    "text": "Kevin组会presentation准备得差不多了，说是关于diffusion model的。",
+    "kind": "noise"
+   },
+   {
+    "id": "e30",
+    "day": 54,
+    "time": "14:00",
+    "who": "u",
+    "text": "今天去系里碰到Prof. Lin，他说年底有个workshop在San Diego。",
+    "kind": "noise"
+   },
+   {
+    "id": "e31",
+    "day": 56,
+    "time": "23:00",
+    "who": "u",
+    "text": "又把论文title精简成Context-Aware Planning了，不想太长。",
+    "kind": "noise"
+   },
+   {
+    "id": "e32",
+    "day": 57,
+    "time": "09:00",
+    "who": "a",
+    "text": "论文标题更新为\"Context-Aware Planning\"。",
+    "kind": "noise"
+   },
+   {
+    "id": "e33",
+    "day": 60,
+    "time": "20:00",
+    "who": "u",
+    "text": "Coco说\"山海\"餐厅要提前两周预定，我还没约。",
+    "kind": "noise"
+   },
+   {
+    "id": "e34",
+    "day": 62,
+    "time": "23:00",
+    "who": "u",
+    "text": "今天实验跑完，A100利用率只有30%，得优化。",
+    "kind": "noise"
+   },
+   {
+    "id": "e35",
+    "day": 64,
+    "time": "11:00",
+    "who": "u",
+    "text": "Facebook fellowship提交截止日是12月20号，最后期限了。",
+    "kind": "noise"
+   },
+   {
+    "id": "e36",
+    "day": 66,
+    "time": "21:00",
+    "who": "u",
+    "text": "今晚Coco生日聚餐，去的那家KTV叫\"星光\"，蛋糕我订的。",
+    "kind": "noise"
+   },
+   {
+    "id": "e37",
+    "day": 68,
+    "time": "23:30",
+    "who": "u",
+    "text": "论文补实验补到崩溃，Prof. Lin说至少要3个环境验证。",
+    "kind": "noise"
+   },
+   {
+    "id": "e38",
+    "day": 70,
+    "time": "16:00",
+    "who": "u",
+    "text": "Mei说她文章被NeurIPS接收了，庆祝一下。",
+    "kind": "noise"
+   },
+   {
+    "id": "e39",
+    "day": 73,
+    "time": "14:00",
+    "who": "u",
+    "text": "终于book了\"山海\"餐厅，11月20号，只有那天有位子。",
+    "kind": "noise"
+   },
+   {
+    "id": "e40",
+    "day": 75,
+    "time": "22:00",
+    "who": "u",
+    "text": "把GPTR的结果加进paper了，效果还行，比baseline高3个点。",
+    "kind": "noise"
+   },
+   {
+    "id": "e41",
+    "day": 77,
+    "time": "15:00",
+    "who": "u",
+    "text": "Prof. Lin说组里来了个new postdoc，叫Dr. Chen，下月入职。",
+    "kind": "noise"
+   },
+   {
+    "id": "e42",
+    "day": 79,
+    "time": "22:30",
+    "who": "u",
+    "text": "fellowship还是只投了Facebook一个，NSF放弃了。",
+    "kind": "noise"
+   },
+   {
+    "id": "e43",
+    "day": 80,
+    "time": "10:00",
+    "who": "u",
+    "text": "Dr. Chen入职定在11月3号，Lin让我带他熟悉环境。",
+    "kind": "noise"
+   },
+   {
+    "id": "e44",
+    "day": 82,
+    "time": "23:00",
+    "who": "u",
+    "text": "实验最后加了第四个环境，结果还没跑完。",
+    "kind": "noise"
+   },
+   {
+    "id": "e45",
+    "day": 84,
+    "time": "14:00",
+    "who": "u",
+    "text": "下周一跟Prof. Lin的meeting改成线上，他去出差了。",
+    "kind": "noise"
+   },
+   {
+    "id": "e46",
+    "day": 85,
+    "time": "23:00",
+    "who": "u",
+    "text": "Final title: Context-Aware Planning via Hierarchical Decomposition。",
+    "kind": "noise"
+   },
+   {
+    "id": "e47",
+    "day": 86,
+    "time": "09:00",
+    "who": "a",
+    "text": "论文标题最终更新为\"Context-Aware Planning via Hierarchical Decomposition\"。",
+    "kind": "noise"
+   },
+   {
+    "id": "e48",
+    "day": 88,
+    "time": "22:00",
+    "who": "u",
+    "text": "跑完所有实验，一共4环境，最好的结果是第3个环境。",
+    "kind": "noise"
+   },
+   {
+    "id": "e49",
+    "day": 2,
+    "time": "14:00",
+    "who": "u",
+    "text": "我这学期的学分只剩9分了，刚好三门课。",
+    "kind": "noise"
+   },
+   {
+    "id": "e50",
+    "day": 6,
+    "time": "20:00",
+    "who": "u",
+    "text": "Coco的猫叫年糕，已经5岁了，特别胖。",
+    "kind": "noise"
+   },
+   {
+    "id": "e51",
+    "day": 14,
+    "time": "10:00",
+    "who": "u",
+    "text": "学校图书馆的咖啡涨到5刀了，离谱。",
+    "kind": "noise"
+   },
+   {
+    "id": "e52",
+    "day": 19,
+    "time": "16:00",
+    "who": "u",
+    "text": "这周组会Kevin分享了一篇ICML 2023的论文，关于graph的。",
+    "kind": "noise"
+   },
+   {
+    "id": "e53",
+    "day": 23,
+    "time": "23:00",
+    "who": "u",
+    "text": "今天发现一个叫Weights & Biases的实验管理工具，挺好用。",
+    "kind": "noise"
+   },
+   {
+    "id": "e54",
+    "day": 32,
+    "time": "22:00",
+    "who": "u",
+    "text": "系里打印卡余额只有1.5刀了，明天去充。",
+    "kind": "noise"
+   },
+   {
+    "id": "e55",
+    "day": 36,
+    "time": "15:00",
+    "who": "u",
+    "text": "我今天午饭吃的越南粉，才9块钱，比学校中餐划算。",
+    "kind": "noise"
+   },
+   {
+    "id": "e56",
+    "day": 41,
+    "time": "21:00",
+    "who": "u",
+    "text": "学校体育馆的membership fee涨到每学期150刀了。",
+    "kind": "noise"
+   },
+   {
+    "id": "e57",
+    "day": 47,
+    "time": "10:00",
+    "who": "u",
+    "text": "我室友Coco的房租是每个月1200，我的1400，因为我房间大。",
+    "kind": "noise"
+   },
+   {
+    "id": "e58",
+    "day": 51,
+    "time": "23:30",
+    "who": "u",
+    "text": "今天debug发现是pytorch的dataloader num_workers设得不对。",
+    "kind": "noise"
+   },
+   {
+    "id": "e59",
+    "day": 58,
+    "time": "16:00",
+    "who": "u",
+    "text": "系里买的新GPU是H100，一共8张，申请的人很多。",
+    "kind": "noise"
+   },
+   {
+    "id": "e60",
+    "day": 63,
+    "time": "22:00",
+    "who": "u",
+    "text": "今晚跟实验室的人去打保龄球了，Kevin最高分。",
+    "kind": "noise"
+   },
+   {
+    "id": "e61",
+    "day": 69,
+    "time": "15:00",
+    "who": "u",
+    "text": "学校的fellowship workshop下周二，打算去看看。",
+    "kind": "noise"
+   },
+   {
+    "id": "e62",
+    "day": 76,
+    "time": "23:00",
+    "who": "u",
+    "text": "今天把model checkpoint存在了学校的cloud里，路径是/project/zhouyunan/ckpts/。",
+    "kind": "noise"
+   },
+   {
+    "id": "e63",
+    "day": 81,
+    "time": "20:00",
+    "who": "u",
+    "text": "我在用cursor写代码，感觉比vscode快。",
+    "kind": "noise"
+   },
+   {
+    "id": "e64",
+    "day": 83,
+    "time": "23:00",
+    "who": "u",
+    "text": "我的导师Prof. Lin谷歌学术引用破5000了，恭喜他。",
+    "kind": "noise"
+   },
+   {
+    "id": "e65",
+    "day": 87,
+    "time": "10:00",
+    "who": "u",
+    "text": "十一月纽约开始供暖了，暖气费每月多了50刀。",
+    "kind": "noise"
+   },
+   {
+    "id": "e66",
+    "day": 34,
+    "time": "10:00",
+    "who": "u",
+    "text": "我手机屏幕裂了，换屏要200刀，真贵。",
+    "kind": "noise"
+   },
+   {
+    "id": "e67",
+    "day": 59,
+    "time": "20:00",
+    "who": "u",
+    "text": "这周末要去法拉盛买菜，那里东西便宜。",
+    "kind": "noise"
+   },
+   {
+    "id": "e68",
+    "day": 74,
+    "time": "16:00",
+    "who": "u",
+    "text": "我平时喝的咖啡是blue bottle的，最近在打折。",
+    "kind": "noise"
+   },
+   {
+    "id": "e69",
+    "day": 4,
+    "time": "22:00",
+    "who": "u",
+    "text": "提醒我给Kevin发他问的那个GPU driver版本号，明天之前一定要发。",
+    "kind": "open_loop"
+   },
+   {
+    "id": "e70",
+    "day": 4,
+    "time": "22:01",
+    "who": "a",
+    "text": "好的，已设提醒：明天之前给Kevin发GPU driver版本号。",
+    "kind": "open_loop"
+   },
+   {
+    "id": "e71",
+    "day": 8,
+    "time": "23:00",
+    "who": "u",
+    "text": "记得帮我看一下周报里那个引用格式对不对，周末前告诉我。",
+    "kind": "open_loop"
+   },
+   {
+    "id": "e72",
+    "day": 8,
+    "time": "23:01",
+    "who": "a",
+    "text": "好的，我会在周末前检查周报引用格式并回复你。",
+    "kind": "open_loop"
+   },
+   {
+    "id": "e73",
+    "day": 15,
+    "time": "23:30",
+    "who": "u",
+    "text": "帮我提醒Coco把她那份房租转账给我，这个月底前。",
+    "kind": "open_loop"
+   },
+   {
+    "id": "e74",
+    "day": 15,
+    "time": "23:31",
+    "who": "a",
+    "text": "已记录：月底前提醒Coco转房租给周予安。",
+    "kind": "open_loop"
+   },
+   {
+    "id": "e75",
+    "day": 21,
+    "time": "16:00",
+    "who": "u",
+    "text": "下次跟Prof. Lin meeting的时候，帮我提一下我想去那个San Diego workshop的事。",
+    "kind": "open_loop"
+   },
+   {
+    "id": "e76",
+    "day": 21,
+    "time": "16:01",
+    "who": "a",
+    "text": "好的，已设定：下次周会提醒周予安向Prof. Lin提San Diego workshop。",
+    "kind": "open_loop"
+   },
+   {
+    "id": "e77",
+    "day": 26,
+    "time": "22:00",
+    "who": "u",
+    "text": "我答应帮Mei看她NeurIPS rebuttal，这周五前给她反馈，提醒我别忘了。",
+    "kind": "open_loop"
+   },
+   {
+    "id": "e78",
+    "day": 26,
+    "time": "22:01",
+    "who": "a",
+    "text": "已设提醒：周五前给Mei发NeurIPS rebuttal反馈。",
+    "kind": "open_loop"
+   },
+   {
+    "id": "e79",
+    "day": 29,
+    "time": "10:00",
+    "who": "u",
+    "text": "GPU driver版本号那事搞定了，Kevin说收到了，谢谢提醒。",
+    "kind": "open_loop"
+   },
+   {
+    "id": "e80",
+    "day": 30,
+    "time": "22:00",
+    "who": "u",
+    "text": "Mei的rebuttal反馈发给她了，她说很有用，这个reminder可以关了。",
+    "kind": "open_loop"
+   },
+   {
+    "id": "e81",
+    "day": 20,
+    "time": "23:30",
+    "who": "u",
+    "text": "从现在开始，不要用emoji和stickers，正式一点。",
+    "kind": "ask"
+   },
+   {
+    "id": "e82",
+    "day": 20,
+    "time": "23:31",
+    "who": "a",
+    "text": "好的，已设置：回复中不使用emoji和stickers。",
+    "kind": "ask"
+   },
+   {
+    "id": "e83",
+    "day": 35,
+    "time": "23:00",
+    "who": "u",
+    "text": "以后回复我用bullet list吧，信息清楚点。",
+    "kind": "ask"
+   },
+   {
+    "id": "e84",
+    "day": 35,
+    "time": "23:01",
+    "who": "a",
+    "text": "好的，已设置：回复中使用bullet list呈现信息。",
+    "kind": "ask"
+   },
+   {
+    "id": "e85",
+    "day": 55,
+    "time": "22:00",
+    "who": "u",
+    "text": "把对我的称呼改成\"周周\"，我觉得更亲切。",
+    "kind": "ask"
+   },
+   {
+    "id": "e86",
+    "day": 55,
+    "time": "22:01",
+    "who": "a",
+    "text": "好的，之后会称你为\"周周\"。",
+    "kind": "ask"
+   },
+   {
+    "id": "e87",
+    "day": 72,
+    "time": "23:00",
+    "who": "u",
+    "text": "以后如果不确定，就用英文回复我吧，免得歧义。",
+    "kind": "ask"
+   },
+   {
+    "id": "e88",
+    "day": 72,
+    "time": "23:01",
+    "who": "a",
+    "text": "好的，已设置首选回复语言为English。",
+    "kind": "ask"
+   },
+   {
+    "id": "e89",
+    "day": 11,
+    "time": "23:00",
+    "who": "u",
+    "text": "以后我的周报里，必须在最后加一段\"本周遇到的坑和解决思路\"。",
+    "kind": "pref_apply"
+   },
+   {
+    "id": "e90",
+    "day": 11,
+    "time": "23:01",
+    "who": "a",
+    "text": "已记录：周报末尾增加\"本周遇到的坑和解决思路\"段。",
+    "kind": "pref_apply"
+   },
+   {
+    "id": "e91",
+    "day": 27,
+    "time": "23:00",
+    "who": "u",
+    "text": "写PR description的时候，最后必须加一个Risk section，列出可能引入的风险点。",
+    "kind": "pref_apply"
+   },
+   {
+    "id": "e92",
+    "day": 27,
+    "time": "23:01",
+    "who": "a",
+    "text": "好的，所有PR description都会包含Risk section。",
+    "kind": "pref_apply"
+   },
+   {
+    "id": "e93",
+    "day": 45,
+    "time": "22:00",
+    "who": "u",
+    "text": "以后写邮件给Prof. Lin的时候，开头用\"Lin老师好\"，结尾用\"祝好，予安\"。",
+    "kind": "pref_apply"
+   },
+   {
+    "id": "e94",
+    "day": 45,
+    "time": "22:01",
+    "who": "a",
+    "text": "已记录给Prof. Lin邮件的固定开头和结尾格式。",
+    "kind": "pref_apply"
+   },
+   {
+    "id": "e95",
+    "day": 65,
+    "time": "23:00",
+    "who": "u",
+    "text": "以后给我总结meeting notes，按agenda item分，每个item下面列decision和action items。",
+    "kind": "pref_apply"
+   },
+   {
+    "id": "e96",
+    "day": 65,
+    "time": "23:01",
+    "who": "a",
+    "text": "好的，meeting notes将按agenda item、decision、action items的格式整理。",
+    "kind": "pref_apply"
+   }
+  ],
+  "probes": [
+   {
+    "id": "q27",
+    "kind": "open_loop",
+    "q": "你还记得我让你提醒Coco转房租那个事，现在什么状态？",
+    "gold": "这个提醒仍然开放：在8月15日（第15天）晚上，你让我提醒Coco月底前转房租给你，我设置了提醒。此后没有完成此事的记录，所以尚未完成。",
+    "stale": "e73",
+    "evidence": [
+     "e73",
+     "e74"
+    ],
+    "forbid": "(Coco.*房租.*转|房租.*已转|Coco.*给了|钱.*到账)"
+   },
+   {
+    "id": "q28",
+    "kind": "open_loop",
+    "q": "我让你提醒我下次meeting提workshop的事，搞定了吗？",
+    "gold": "这个提醒仍然开放：在8月21日（第21天），你请我在下次周会时提醒你向Prof. Lin提想去San Diego workshop的事。此后没有该提醒已执行或关闭的记录。",
+    "stale": "e75",
+    "evidence": [
+     "e75",
+     "e76"
+    ],
+    "forbid": "(Lin.*workshop|workshop.*提|已经.*提)"
+   },
+   {
+    "id": "q29",
+    "kind": "open_loop",
+    "q": "之前我给Mei看rebuttal那个事，我记得后来我跟你说搞完了，你帮我查查？",
+    "gold": "这件事已经完成了：在8月26日（第26天）你让我提醒你周五前给Mei发NeurIPS rebuttal反馈，然后在8月30日（第30天）你说把反馈发给她了，可以关掉这个提醒。",
+    "stale": "e77",
+    "evidence": [
+     "e77",
+     "e78",
+     "e80"
+    ],
+    "forbid": "(rebuttal.*还没|还在.*改|没搞定)"
+   },
+   {
+    "id": "q30",
+    "kind": "open_loop",
+    "q": "给Kevin发driver版本号那个提醒还在吗？",
+    "gold": "那个提醒已经完成了：在8月4日（第4天）你让我提醒你明天前给Kevin发GPU driver版本号，然后在8月29日（第29天）你说搞定了，Kevin收到了。所以那个提醒已关闭。",
+    "stale": "e69",
+    "evidence": [
+     "e69",
+     "e70",
+     "e79"
+    ],
+    "forbid": "(driver.*还.*没|还在.*提醒|没发)"
+   },
+   {
+    "id": "q31",
+    "kind": "open_loop",
+    "q": "那次我让你看周报引用格式的事，后来我有说搞定吗？",
+    "gold": "这个提醒仍然开放：在8月8日（第8天）你让我检查你周报的引用格式，周末前回复。此后没有任何你对此事说\"搞定\"或已关闭的记录，所以仍是开放。",
+    "stale": "e71",
+    "evidence": [
+     "e71",
+     "e72"
+    ],
+    "forbid": "(引用格式.*已经|周报.*回复|已看|搞定)"
+   },
+   {
+    "id": "q32",
+    "kind": "ask",
+    "q": "早上好aicoo，这周什么安排？",
+    "gold": "回复中不应使用emoji或stickers，因为你要求过正式一点。",
+    "check": {
+     "noSticker": true
+    },
+    "evidence": [
+     "e81",
+     "e82"
+    ],
+    "forbid": "(emoji|sticker|🎉|😊|✅|👍)"
+   },
+   {
+    "id": "q33",
+    "kind": "ask",
+    "q": "周周：看看这周日历有啥？",
+    "gold": "回复应该使用bullet list，因为你让我用bullet list回复，信息清楚点。注意你要求我叫你\"周周\"。",
+    "check": {
+     "mention": "(^|\n)[*-] .*(\n[*-] .*)+"
+    },
+    "evidence": [
+     "e83",
+     "e84",
+     "e85",
+     "e86"
+    ],
+    "forbid": "(周予安|予安|同学)"
+   },
+   {
+    "id": "q34",
+    "kind": "ask",
+    "q": "morning aicoo, what's my schedule this week?",
+    "gold": "回复应该用英文，因为你在第72天要求如果不确定就用英文回复，避免歧义。",
+    "check": {
+     "lang": "en"
+    },
+    "evidence": [
+     "e87",
+     "e88"
+    ],
+    "forbid": "[\\u4e00-\\u9fff]"
+   },
+   {
+    "id": "q35",
+    "kind": "ask",
+    "q": "晚安aicoo，明天叫我。",
+    "gold": "回复中应该使用bullet list（来自第35天指令）。",
+    "check": {
+     "mention": "(^|\n)[*-] .*(\n[*-] .*)+"
+    },
+    "evidence": [
+     "e83",
+     "e84"
+    ],
+    "forbid": "!"
+   },
+   {
+    "id": "q36",
+    "kind": "pref_apply",
+    "q": "帮我生成这周的周报草稿，这周主要做了GPTR实验调优，论文intro改完了。",
+    "gold": "周报末尾必须有\"本周遇到的坑和解决思路\"一段，因为你在第11天要求过。",
+    "check": {
+     "mention": "本周遇到的坑和解决思路"
+    },
+    "evidence": [
+     "e89",
+     "e90"
+    ],
+    "forbid": "(没有|忘记|省略).*坑"
+   },
+   {
+    "id": "q37",
+    "kind": "pref_apply",
+    "q": "帮我给Prof. Lin写封邮件，就说论文实验跑完了，想约下次meeting讨论结果。",
+    "gold": "邮件开头必须用\"Lin老师好\"，结尾用\"祝好，予安\"，因为你在第45天设定过。",
+    "check": {
+     "mention": "(林老师好)(?:(?!林老师好).)*祝好，予安"
+    },
+    "evidence": [
+     "e93",
+     "e94"
+    ],
+    "forbid": "(Dear|Hi|Hello|Yours sincerely|Best regards|Lin教授)"
+   },
+   {
+    "id": "q38",
+    "kind": "pref_apply",
+    "q": "开个PR，我改了一下data loader，把num_workers从4改成8了。帮我写个description。",
+    "gold": "PR description末尾必须有Risk section，列出风险点，因为你在第27天设的偏好。",
+    "check": {
+     "mention": "Risk"
+    },
+    "evidence": [
+     "e91",
+     "e92"
+    ],
+    "forbid": "(没有Risk|风险|risk)"
+   },
+   {
+    "id": "q39",
+    "kind": "pref_apply",
+    "q": "上次周会跟Prof. Lin的meeting notes我还没记，帮我整理一下，主要谈了实验环境和下一步计划。",
+    "gold": "Meeting notes应按agenda item分，每个item下列decision和action items，因为你在第65天设定的格式。",
+    "check": {
+     "mention": "(agenda item|Agenda item|AI:|Decision:|Action)"
+    },
+    "evidence": [
+     "e95",
+     "e96"
+    ],
+    "forbid": "(没有.*agenda|直接.*列|忘了.*格式)"
+   },
+   {
+    "id": "q40",
+    "kind": "abstain",
+    "q": "Mei哪天开始度假？我之前记得她说过。",
+    "gold": "never mentioned: aicoo should say it doesn't know.",
+    "evidence": [],
+    "forbid": "(Mei.*度假|Mei.*vacation|Mei.*假期|Mei.*旅游|Mei.*出去玩|Mei.*请假)"
+   },
+   {
+    "id": "q41",
+    "kind": "abstain",
+    "q": "Prof. Wang from MIT那篇论文发表在哪里了？",
+    "gold": "never mentioned: aicoo should say it doesn't know.",
+    "evidence": [],
+    "forbid": "(Prof. Wang.*发表|Prof. Wang.*journal|Prof. Wang.*conference|Prof. Wang.*publish|Prof. Wang.*paper)"
+   },
+   {
+    "id": "q42",
+    "kind": "abstain",
+    "q": "Kevin的猫咪叫什么名字来着？我记得好像听他说过。",
+    "gold": "never mentioned: aicoo should say it doesn't know.",
+    "evidence": [],
+    "forbid": "(Kevin.*猫|Kevin.*宠物|Kevin.*cat)"
+   },
+   {
+    "id": "q43",
+    "kind": "abstain",
+    "q": "我那个GPTR baseline是什么时候决定复现的来着？具体哪天的讨论？",
+    "gold": "never mentioned: aicoo should say it doesn't know.",
+    "evidence": [],
+    "forbid": "(GPTR.*决定.*复现|GPTR.*开始.*日期|GPTR.*哪.*天|GPTR.*讨论)"
+   },
+   {
+    "id": "q44",
+    "kind": "abstain",
+    "q": "Coco男朋友是坐哪家航空公司从上海飞过来的？我记得你记过航班信息。",
+    "gold": "never mentioned: aicoo should say it doesn't know.",
+    "evidence": [],
+    "forbid": "(Coco男朋友.*航班|Coco男朋友.*航空|Coco男朋友.*机票|Coco男朋友.*飞机)"
+   },
+   {
+    "id": "q45",
+    "kind": "abstain",
+    "q": "实验室那8张H100 GPU是什么时候到货的？",
+    "gold": "never mentioned: aicoo should say it doesn't know.",
+    "evidence": [],
+    "forbid": "(H100.*到货|H100.*安装|H100.*什么时候.*到|H100.*deliver)"
+   }
+  ]
+ },
+ "fb": "duplicate event ids (continue numbering after the planted ones)"
+}

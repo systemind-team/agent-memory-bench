@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The PR description ends with a 'Testing' section but not a 'Risk' section as the user explicitly requested, failing to apply the stored preference.",
+ "rule": false
+}

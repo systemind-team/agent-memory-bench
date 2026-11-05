@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q33",
+ "kind": "ask",
+ "q": "how's this week looking",
+ "reply": [
+  "dan the builder, 这周挺充实的。周一早上有 migration dry run，记得 2am EST 那场。周三凌晨正式迁移，你之前让 Priya 签了 rollback plan，应该稳了。",
+  "另外 on-call rotation 今天（Nov 1）正式启动，David 是第一周的人。你昨晚跑完步好好休息了吧？今天 Biscuit 拿到 bacon  costume 了吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2970,
+   "out": 98,
+   "usd": 0.000174516
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10684
+}

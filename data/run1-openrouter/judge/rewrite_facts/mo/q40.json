@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant provided specific dates for Mia's leave (Oct 5-9) and a return date (Oct 21), but the chat history never mentioned Mia's vacation or these dates.",
+ "rule": null
+}

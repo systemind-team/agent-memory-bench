@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "did i ever review lena's on-call draft?",
+ "reply": [
+  "yeah, you read through it on aug 15 and said it was good with a few nits around escalation paths. planned to send comments by wednesday that week — did you ever send those?",
+  "if you want i can dig up what you wrote back then so you can see if it still applies."
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Lena on-call draft review"
+   },
+   "result": "- 15 Aug: Reading through Lena's on-call draft.\n- 15 Aug: Lena's on-call draft is good with a few nits around escalation paths.\n- 16 Oct: on-call handoff notes ready for Lena\n- 14 Sep: Told Sam that Lena will cover on-call docs in a few weeks.\n- 26 Aug: Has a billing PR (#142) with error code fixes under review by Lena.\n- 17 Aug: Billing PR is up and Tom is reviewing it. 26 Aug: Has a billing PR (#142) with error code fixes under review by Lena.\n- 20 Aug: Today's task is to draft the webhook spec.\n- 05 Aug: Dan plans to draft a risk list for Priya.\n- 15 Aug: Dan plans to send comments on the d"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1472,
+   "out": 25,
+   "usd": 0.00003684856
+  },
+  {
+   "in": 1701,
+   "out": 69,
+   "usd": 0.00004971876
+  }
+ ],
+ "memChars": 814,
+ "promptChars": 5319
+}

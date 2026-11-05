@@ -1,0 +1,47 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q13",
+ "kind": "update",
+ "q": "how many data eng candidates did we interview?",
+ "reply": [
+  "from memory: maria torres (12 aug), jordan liu (21 aug), david chen (9 sep). that's 3. david joined the team in the end.",
+  "anything else you need for the week ahead?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data eng candidates interview"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "data engineer candidates interview"
+   },
+   "result": "[52] 12 Aug · fact: interview for data engineer candidate maria torres at 10  (from #92, #94)\n[82] 17 Aug · fact: dan sketched interview rubric for data engineer, needs more sql focus  (from #139)\n[71] 14 Aug · plan: need to restart interviews for data engineer  (from #117)\n[53] 12 Aug · person: maria torres is a data engineer candidate, solid sql  (from #94)\n[104] 21 Aug · person: jordan liu is a data engineer candidate, was at spotify, good take-home  (from #174, #175)\n[254] 28 Sep · fact: candidates interviewed: 3; maria, jordan, david; david joined  (from #461)\n[174] 10 Sep · feeling: davi"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3088,
+   "out": 22,
+   "usd": 0.00002738064
+  },
+  {
+   "in": 3139,
+   "out": 22,
+   "usd": 0.00002945124
+  },
+  {
+   "in": 3449,
+   "out": 57,
+   "usd": 0.00004487924
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10811
+}

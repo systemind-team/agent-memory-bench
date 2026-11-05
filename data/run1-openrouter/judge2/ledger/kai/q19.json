@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the offsite was on Oct 27-28, but messages #914 and #1038 explicitly state the offsite dates are Oct 20-21.",
+ "first": "wrong",
+ "rule": null
+}

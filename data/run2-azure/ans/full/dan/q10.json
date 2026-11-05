@@ -1,0 +1,22 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "team is 5 now. you, tom, lena, sam, plus david chen who joined officially on wednesday. priya manages. that's 4 eng + 1 manager.",
+  "on-call rotation is being rebalanced with david starting after his first sprint. your proposal was approved for nov 1 start."
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 21322,
+   "out": 75,
+   "usd": 0.000716228
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64101
+}

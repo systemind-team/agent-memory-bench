@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "答案包含两次推迟：Nov 1到Nov 15，Nov 15到Dec 1，与聊天记录完全一致。",
+ "rule": null
+}

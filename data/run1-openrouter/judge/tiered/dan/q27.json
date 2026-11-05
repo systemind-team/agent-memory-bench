@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant's reply fabricates a detailed scenario about Priya sending a template and the user filling it in, which contradicts the chat where only a reminder was set and never confirmed as done.",
+ "rule": null
+}

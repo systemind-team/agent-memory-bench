@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The reply lists 'daughter's fever in early August' and 'daughter's cough in late October' instead of the correct items 'father hospitalized (Aug 14)', 'daughter's school play (Sep 4)', and 'father's follow-up (Oct 8)', all of which are unsupported by the provided chat.",
+ "rule": null
+}

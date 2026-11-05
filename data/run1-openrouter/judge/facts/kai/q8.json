@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It incorrectly states the launch date as December 1 instead of November 1 and the price is missing the currency, but the price fact matches.",
+ "rule": null
+}

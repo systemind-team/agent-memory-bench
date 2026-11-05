@@ -1,0 +1,47 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q13",
+ "kind": "update",
+ "q": "阿杰薪资最后定的多少？",
+ "reply": [
+  "阿杰的薪资最终定在3万5（税前），试用期后看表现调。之前从4万谈到3万8，再降到3万5。",
+  "你要我查一下具体应用的起始时间吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 薪资 最后 定"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 薪资"
+   },
+   "result": "#115 Fri 21 Aug 14:02 aicoo: 已发你邮箱，数据更新到上周\n#116 Sat 22 Aug 09:00 Them: 阿杰薪资最终定3万5，试用期后看表现调\n#117 Sat 22 Aug 09:02 aicoo: 好的，我更新一下记录\n---\n#105 Thu 20 Aug 10:05 Them: 配吧，阿杰要用，不能等了\n#106 Thu 20 Aug 11:00 Them: 阿杰的薪资确认邮件发过了，不用再提醒\n#107 Thu 20 Aug 11:02 aicoo: 好的，已归档\n---\n#62 Thu 13 Aug 11:20 Them: 他想要3万8，说接受这个数。\n#63 Thu 13 Aug 15:00 aicoo: 阿杰薪资调整，说好税前3万8，他接受\n#64 Thu 13 Aug 15:02 Them: 行，那按3万8走。\n---\n#59 Wed 12 Aug 16:30 Them: 明天约了设计师看晨检UI稿。\n#60 Thu 13 Aug 10:00 Them: 阿杰休假，但他说薪资能不能再谈谈？\n#61 Thu 13 Aug 10:05 aicoo: 他想调多少？之前聊的是税前4万。\n---\n#29 Sat 08 Aug 09:30 Them: 下周三提醒我给阿杰发薪资确认邮件\n#30 Sat 08 Aug 09:31 aicoo:"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5557,
+   "out": 26,
+   "usd": 0.000219226
+  },
+  {
+   "in": 5612,
+   "out": 22,
+   "usd": 0.000228536
+  },
+  {
+   "in": 6244,
+   "out": 54,
+   "usd": 0.000379176
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10954
+}

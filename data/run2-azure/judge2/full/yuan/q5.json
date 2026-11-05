@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The correct deadline for the first fellowship is 11月15日, but the assistant incorrectly stated it as 12月20日.",
+ "first": "wrong",
+ "rule": null
+}

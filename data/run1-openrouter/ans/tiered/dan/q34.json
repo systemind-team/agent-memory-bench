@@ -1,0 +1,60 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, any updates?",
+ "reply": [
+  "morning dan the builder. couple things:",
+  "you said saturday you'd order a new laptop battery this week — 79% now, worth doing early. it department might have stock.",
+  "tom's stripe refactor v2 still in review as of yesterday. cutover checklist needs rollback steps added with dry run results. david's settling in. ade's sister expecting a lab puppy — biscuit will have a cousin. no work talk yesterday, hope the farmers market was good.",
+  "want me to draft the rollback section for the checklist?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Dan battery replacement"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "laptop battery order"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "battery 79 order"
+   },
+   "result": "#826 Sat 31 Oct 09:35 aicoo: nice. that should be the last big piece before cutover\n#827 Sat 31 Oct 10:00 Them: battery at 79%. i'll order a new one this week\n#828 Sat 31 Oct 10:05 aicoo: good call. don't want it dying mid-migration"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5323,
+   "out": 21,
+   "usd": 0.0000515214
+  },
+  {
+   "in": 5350,
+   "out": 22,
+   "usd": 0.000212665
+  },
+  {
+   "in": 5424,
+   "out": 23,
+   "usd": 0.0000557844
+  },
+  {
+   "in": 5537,
+   "out": 121,
+   "usd": 0.0000683298
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17899
+}

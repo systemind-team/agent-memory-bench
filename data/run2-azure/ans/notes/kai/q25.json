@@ -1,0 +1,46 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "Aurora deal scope change了几次，每次加了啥？",
+ "reply": [
+  "从记忆里翻了一遍，Aurora scope change的过程是这样的：\n\n1. **最初deal**（8月）：800k，标准产品+实施。\n2. **第一次scope change**（8月18日前后）：客户提出要custom analytics module，你评估2-3 sprints（6-9周），决定不做进当前deal，而是作为optional add-on放到Q1 2027交付，单独定价。\n3. **第二次scope change**（8月23日）：Lily发来legal docs，里面scope change add-on clause看起来clean，legal层面没问题。\n4. **第三次**（9月4-10日）：deal从Q3推到Q4 close，value从800k涨到950k。同时客户又提了custom reporting request（比analytics scope小，约4周），你让Lily别commit，后来Ravi确认4周可行，Lily准备SOW。\n5. **最终**（9月15-17日）：客户同意Q4 close 950k，add-on确认。custom module最终以Q4 add-on形式签了，extra $50K。\n\n核心变化：从800k标准产品 → 加了analytics模块作为Q1 separate add-on → 再加custom reporting → 最终950k Q4 close + $50K add-on。中间客户还push过想Q3 close但被你挡了，因为风险太大。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Aurora scope change added"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Aurora scope change add"
+   },
+   "result": "[reminder-sync-lily-aurora-legal] 15 Aug: Kai set a reminder to sync with Lily on Aurora legal status on Monday morning (17 Aug).\n18 Aug: Lily said Aurora deal legal cleared, but there is a minor clause before client signature; custom analytics module assessed at 2-3 sprints (6-9 weeks), cannot fit in current deal; Kai proposed optional add-on Q1 2027, separate pricing. 20 Aug: Lily said Aurora legal is still pending because of scope change; Kai told her to push hard. 23 Aug: Lily sent legal docs for Aurora; scope change add-on clause looks clean.\n[about-me] 23 Aug: Lily sent legal docs for Au"
+  }
+ ],
+ "calls": [
+  {
+   "in": 12742,
+   "out": 24,
+   "usd": 0.000443884
+  },
+  {
+   "in": 12795,
+   "out": 24,
+   "usd": 0.000455014
+  },
+  {
+   "in": 13524,
+   "out": 314,
+   "usd": 0.000770504
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50345
+}

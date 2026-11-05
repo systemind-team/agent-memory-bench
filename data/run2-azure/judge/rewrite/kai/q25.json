@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant states a scope change from 800k to 950k was due to an analytics dashboard export added on Oct 13, but the chat records show the scope increase to 950k happened before Sep 4 with no detail on what was added, and the signed contract was at 950k on Sep 26, not 800k.",
+ "rule": null
+}

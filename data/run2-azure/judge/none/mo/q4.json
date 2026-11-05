@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant replied with 7500万, but the user's own message in the chat says 7500万; the probe specifies the correct answer must contain 7200万, which does not match.",
+ "rule": null
+}

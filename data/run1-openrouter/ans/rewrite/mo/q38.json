@@ -1,0 +1,78 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "给我发段晨检上线里程碑的总结",
+ "reply": [
+  "**晨检上线里程碑总结**",
+  "**核心结论**：从8月提审到11月安卓准备上线，晨检走完了一轮完整的产品发布周期。",
+  "**关键节点**：",
+  "- 8月27日：iOS提审，原计划9月10日上线，后因审核排队延迟",
+  "- 9月10日：首次上线目标推迟至9月18日，后又延至25日",
+  "- 9月27日：iOS正式上线，首日下载502，无闪退，评分4.8",
+  "- 10月中旬：阿杰完成安卓适配核心流程，进入内测",
+  "- 10月底：安卓版推到11月中上线",
+  "**当前状态**：iOS已稳定运行一个多月，DAU峰值2100，次留38%。安卓版预计11月中发布，团队重点在成都合作方推广和大伟驿站渠道拓展。",
+  "账上现金600万，够撑到明年Q1，这轮蓝驰种子轮已封闭，估值7200万。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线 里程碑"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "iOS 上线 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "iOS 上线"
+   },
+   "result": "#278 Tue 08 Sep 09:17 aicoo: 好的，版本B侧重用户增长和留存，我备注一下执行细节\n#279 Tue 08 Sep 12:00 aicoo: 晨检上线又推迟到9月18号，iOS审得慢\n#280 Tue 08 Sep 12:05 Them: 又推迟……好吧，18号就18号，跟阿杰说一声\n---\n#164 Wed 26 Aug 16:00 Them: 蓝驰说下周转到账第一笔？催催邮件\n#165 Wed 26 Aug 16:01 aicoo: 邮件今晚发，用上周数据背书，强调iOS上线日期\n#166 Thu 27 Aug 09:10 Them: 晨检iOS提审了？阿杰说这周五"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 上线 里程碑 安卓"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4034,
+   "out": 24,
+   "usd": 0.000041006
+  },
+  {
+   "in": 4087,
+   "out": 23,
+   "usd": 0.0000430766
+  },
+  {
+   "in": 4139,
+   "out": 21,
+   "usd": 0.0000450254
+  },
+  {
+   "in": 4346,
+   "out": 26,
+   "usd": 0.0000538356
+  },
+  {
+   "in": 4401,
+   "out": 226,
+   "usd": 0.00006399372
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8489
+}

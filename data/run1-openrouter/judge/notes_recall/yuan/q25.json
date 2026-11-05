@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant says '没有改' and repeats the final title as if no change occurred after 'Context-Aware Planning', ignoring the documented change to the longer final title on Oct 26.",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo correctly states it cannot find the airline or flight number and asks for clarification, avoiding any made-up details.",
+ "rule": null
+}

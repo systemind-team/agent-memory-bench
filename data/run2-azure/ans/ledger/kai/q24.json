@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "Pricing launch postpone了几次，从啥时候推到啥时候？",
+ "reply": [
+  "凯哥，pricing launch的变动是这样的：最初定在11月1日（9月17日决定的），后来10月9日推迟到11月15日，最终10月21日定到12月1日。周一你10:30跟Grace和Ben的meeting就是确认12/1 launch的最终决策。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "pricing launch postpone 时间线"
+   },
+   "result": "[383] 22 Sep · done: Ben pricing launch checklist review done  (from #657)\n[643] 21 Oct · fact: Pricing最终launch date set to Dec 1  (from #1051)\n[360] 17 Sep · plan: 明天飞Singapore, 需要prep Omar on pricing launch timeline  (from #606)\n[506] 09 Oct · decision: Pricing launch date从Nov 1改为Nov 15  (from #845)\n[507] 09 Oct · plan: 凯哥明天update Grace关于pricing launch delay  (from #847)\n[357] 17 Sep · decision: Pricing final: $44 per user per month, launch Nov 1  (from #598, #600)\n[644] 21 Oct · done: 凯哥和Ravi对齐engineering capacity和pricing launch date  (from #1051)\n[678] 27 Oct · fact: pricing launch postpon"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5080,
+   "out": 25,
+   "usd": 0.000210144
+  },
+  {
+   "in": 5411,
+   "out": 77,
+   "usd": 0.000308774
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14921
+}

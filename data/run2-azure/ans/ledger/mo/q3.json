@@ -1,0 +1,47 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "大伟是定在什么时候入职？",
+ "reply": [
+  "大伟9月1号入职的，已经两个多月了。",
+  "他元旦申请了连休12月28号到1月3号，你已经批了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "大伟 入职"
+   },
+   "result": "[117] 31 Aug · fact: 大伟入职准备待确认  (from #207)\n[121] 31 Aug · ask: 大伟想提前一天入职  (from #215)\n[129] 02 Sep · done: 大伟入职办公室已布置好  (from #229)\n[135] 03 Sep · done: 大伟入职手续已办妥，提醒取消  (from #240)\n[127] 01 Sep · plan: 写大伟入职介绍邮件发给全队  (from #221, #222, #223)\n[87] 26 Aug · promise: aicoo提醒：9月1日确认大伟入职手续  (from #158, #159)\n[126] 01 Sep · done: aicoo提醒大伟回传入职资料已执行  (from #221, #222, #223)\n[44] 17 Aug · done: 大伟offer已发，9月1号入职，薪酬按之前定的  (from #81, #82)\n[86] 26 Aug · promise: aicoo已设10点自动提醒大伟回传入职资料  (from #157)\n[84] 26 Aug · fact: 大伟入职资料还有合同和绩效回执未回传  (from #154, #155)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "大伟 元旦 入职 时间"
+   },
+   "result": "[332] 23 Oct · fact: 大伟元旦连休12月28号到1月3号  (from #641)\n[117] 31 Aug · fact: 大伟入职准备待确认  (from #207)\n[121] 31 Aug · ask: 大伟想提前一天入职  (from #215)\n[333] 24 Oct · done: 大伟元旦连休12月28号到1月3号, 陈默准假了  (from #643)\n[129] 02 Sep · done: 大伟入职办公室已布置好  (from #229)\n[135] 03 Sep · done: 大伟入职手续已办妥，提醒取消  (from #240)\n[127] 01 Sep · plan: 写大伟入职介绍邮件发给全队  (from #221, #222, #223)\n[231] 26 Sep · fact: 客服北京响应时间降到30秒  (from #433)\n[87] 26 Aug · promise: aicoo提醒：9月1日确认大伟入职手续  (from #158, #159)\n[126] 01 Sep · done: aicoo提醒大伟回传入职资料已执行  (from #221, #222, #223)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2599,
+   "out": 22,
+   "usd": 0.000466462
+  },
+  {
+   "in": 2919,
+   "out": 26,
+   "usd": 0.000535902
+  },
+  {
+   "in": 3236,
+   "out": 43,
+   "usd": 0.000199576
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6686
+}

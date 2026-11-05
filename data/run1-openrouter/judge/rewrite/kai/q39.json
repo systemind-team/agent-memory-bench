@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo's reply is garbled Chinese and does not present any customer feedback summary grouped by feature.",
+ "rule": false
+}

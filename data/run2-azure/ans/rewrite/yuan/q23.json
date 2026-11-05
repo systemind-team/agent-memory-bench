@@ -1,0 +1,83 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q23",
+ "kind": "update",
+ "q": "第二次改的title是什么？",
+ "reply": [
+  "Mon 26 Oct 23:40 你最终定的是 **\"Context-Aware Planning via Hierarchical Decomposition\"**，然后 Tue 27 Oct 08:30 你更新到了 overleaf、本地文件和周报模板里。",
+  "中间改过其他的版本吗？我这边只记录了这一次最终的。如果你有更早的草稿标题，给我几个关键词我帮你翻翻看。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题 title"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "title 标题"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题定为"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "最终论文标题"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "标题 更新 至 overleaf"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3559,
+   "out": 21,
+   "usd": 0.000163438
+  },
+  {
+   "in": 3609,
+   "out": 21,
+   "usd": 0.000173938
+  },
+  {
+   "in": 3659,
+   "out": 21,
+   "usd": 0.000184438
+  },
+  {
+   "in": 3709,
+   "out": 21,
+   "usd": 0.000149114
+  },
+  {
+   "in": 3759,
+   "out": 25,
+   "usd": 0.000161854
+  },
+  {
+   "in": 3827,
+   "out": 91,
+   "usd": 0.000258918
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8748
+}

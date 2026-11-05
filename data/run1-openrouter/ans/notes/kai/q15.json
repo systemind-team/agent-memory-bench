@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q15",
+ "kind": "update",
+ "q": "Pricing v3的时候Ben提的那个价格是多少来着，后来没用那个。",
+ "reply": [
+  "凯哥，Pricing v3的时候Ben提的是$49/user/month（Premium tier），是8月30号出的版本，后来你和他反复讨论，最后定下来是$44/user/month，11月1号（也就是今天！）按$44推。\n\n等一下——今天是11月1号，定价今天正式上线是吧？需要我提醒你什么吗？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12768,
+   "out": 78,
+   "usd": 0.00011728528
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50346
+}

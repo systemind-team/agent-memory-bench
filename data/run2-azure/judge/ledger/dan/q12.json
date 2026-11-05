@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It presents A4B8C2 as a potential latest, but 7C2E9B is the correct current key per the chat, so it fails to confirm the latest value.",
+ "rule": null
+}

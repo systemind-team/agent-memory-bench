@@ -1,0 +1,22 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "早上好, dan the builder。",
+  "breathing room sounds good. 三月份的时间给了更多空间来准备。你还在准备下周的迁移演练吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 21317,
+   "out": 41,
+   "usd": 0.000696138
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64079
+}

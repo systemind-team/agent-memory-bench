@@ -1,0 +1,34 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "when did i have the billing_status panic?",
+ "reply": [
+  "是8月30号的事。`billing_status` 列被你 drop 掉了，慌了三小时，回滚解决的。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing_status panic"
+   },
+   "result": "#236 Sat 29 Aug 18:05 aicoo: nice, asheville here you come\n#237 Sun 30 Aug 08:30 Them: the dropped column was `billing_status`. 3h of panic.\n#238 Sun 30 Aug 08:30 aicoo: critical column. glad rollback worked"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2494,
+   "out": 22,
+   "usd": 0.000123644
+  },
+  {
+   "in": 2599,
+   "out": 34,
+   "usd": 0.000152414
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9099
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "Emily Tan的start date是几号来着? 是不是delay了?",
+ "reply": [
+  "凯哥，Emily Tan是10月26日（上周一）正式入职的，没有delay。她当天就和Ravi做了onboarding session，挺顺利的。上周她还主动约了Yuki和Ravi的intro meeting。周一可以安排她的first weekly check-in。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3354,
+   "out": 59,
+   "usd": 0.00006612928
+  }
+ ],
+ "memChars": 6944,
+ "promptChars": 11668
+}

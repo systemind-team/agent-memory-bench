@@ -1,0 +1,71 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "第一个fellowship截止日是哪天？",
+ "reply": [
+  "你最后只投了Facebook fellowship，截止日是12月20号。NSF那个11月15号的早就放弃了。",
+  "之前设过提醒，现在还有50天左右，材料准备得怎么样了？需要review的话告诉我。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "fellowship deadline"
+   },
+   "result": "- 17 Sep: NSF fellowship deadline is November 15.\n- 17 Sep: Facebook fellowship deadline is October 31.\n- 07 Aug: 周末了，但明天还得去实验室，因为论文deadline快到了。\n- 17 Sep: Prof. Lin reminded me about the fellowship.\n- San Diego workshop（Workshop on Hierarchical Decision Making）的submission deadline是12月1日，通知日期11月1日。\n- 11 Aug: fellowship的statement of purpose让用户感到折磨，14 Aug: 第一次fellowship申请截止是11月15号\n- 05 Oct: Fellowship的推荐信Coco说本周能发。\n- 10 Oct: 学校的fellowship workshop下周二，打算去看看。\n- 21 Sep: NSF的fellowship研究方向要求仔细对照。\n- 01 Oct: 周予安需要为NSF和Facebook fellowship准备personal statement。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship deadline 截止"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship 截止"
+   },
+   "result": "#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。\n#788 Wed 21 Oct 09:00 Them: 周三，开始看HotpotQA的数据格式。\n---\n#653 Mon 05 Oct 17:31 aicoo: 好的，TA office hour是5:30至6:30，我会在结束后提醒实验写作。\n#654 Mon 05 Oct 21:30 Them: Facebook fellowship提交截止日是12月20号，最后期限了。\n#655 Mon 05 Oct 21:32 aicoo: 已添加日历提醒，截止12月20日。需要我协助检查申请材料吗？\n---\n#458 Sun 20 Sep 10:02 Them: 好，先记下来：写discussion，继续跑几个ablation实验。\n#459 Sun 20 Sep 14:00 aicoo: - 提醒：NSF和Facebook fellowship申请截止日不同，请注意。\n#460 Sun 20 Sep 14:01 Them: 知道了，我会注意的。下周开始写申请材料。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "12月20 fellowship"
+   },
+   "result": "#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。\n#788 Wed 21 Oct 09:00 Them: 周三，开始看HotpotQA的数据格式。\n---\n#653 Mon 05 Oct 17:31 aicoo: 好的，TA office hour是5:30至6:30，我会在结束后提醒实验写作。\n#654 Mon 05 Oct 21:30 Them: Facebook fellowship提交截止日是12月20号，最后期限了。\n#655 Mon 05 Oct 21:32 aicoo: 已添加日历提醒，截止12月20日。需要我协助检查申请材料吗？"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1653,
+   "out": 21,
+   "usd": 0.000221418
+  },
+  {
+   "in": 1874,
+   "out": 23,
+   "usd": 0.000268948
+  },
+  {
+   "in": 1926,
+   "out": 22,
+   "usd": 0.000096012
+  },
+  {
+   "in": 2221,
+   "out": 22,
+   "usd": 0.000157962
+  },
+  {
+   "in": 2430,
+   "out": 55,
+   "usd": 0.000174508
+  }
+ ],
+ "memChars": 802,
+ "promptChars": 5095
+}

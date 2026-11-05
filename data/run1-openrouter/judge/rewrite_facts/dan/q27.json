@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The memory shows no confirmation the doc was sent, but the assistant claims it was sent on Aug 7, which is not supported by the chat.",
+ "rule": null
+}

@@ -1,0 +1,64 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q16",
+ "kind": "aggregate",
+ "q": "我之前要加的那个baseline GPTR，从开始到现在都经历了什么？",
+ "reply": [
+  "GPTR这条baseline的完整时间线是这样的：",
+  "**9月初** — 你决定加GPTR做baseline，先复现它的代码。环境配置特别坑，搞了好几天，Mei说她之前也费了不少时间。一直到9月10号左右才调到接近论文指标，9月16号终于跑出正常结果。",
+  "**10月12日** — 在THOR环境上跑GPTR，比baseline高2.5个点，但有个环境报错。后来你修复了THOR报错。",
+  "**10月15-16日** — 把GPTR结果正式加进论文，效果还行，比baseline高3个点。有障碍物后模型下降，但GPTR仍有约2个点的提升。",
+  "**10月18日** — 组会汇报了GPTR结果，Prof. Lin认可。",
+  "**10月19日** — 复杂场景下context-aware比GPTR高2个点但方差大，加了2个seed。",
+  "**10月29日** — 最终完整实验表格里，GPTR作为baseline列在四个环境的结果中。",
+  "总的来说：9月初决定加→9月环境配置坑了快两周→10月中旬在THOR上跑出+2.5点→加进论文→到10月底成了四个baseline之一。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR"
+   },
+   "result": "#893 Thu 29 Oct 10:30 Them: 要，把环境1-4的四个baseline和我们的结果都列出来。\n#894 Thu 29 Oct 10:32 aicoo: - 正在整理数据。\n- 需要包括GPTR和ablation的结果吗？\n#895 Thu 29 Oct 11:00 Them: 包括，ablation放另一个表。下午三点前给我。\n---\n#766 Mon 19 Oct 10:31 aicoo: 已记录。实验预计需要2小时。\n#767 Mon 19 Oct 14:00 Them: 结果出来了，复杂场景下context-aware还是比gptr高2个点，但是方差有点大。\n#768 Mon 19 Oct 14:01 aicoo: 方差大的话，可能需要增加seed数量或者检查数据噪声来源。\n---\n#755 Sun 18 Oct 09:00 Them: 周日，准备组会材料，整理这周实验进展。\n#756 Sun 18 Oct 11:00 Them: 材料准备好了，包括新的real-world scenario实验和GPTR结果。\n#757 Sun 18 Oct 14:00 Them: 组会，汇报进展，Prof. Lin对real-world scenario表示认可，但建议再加一个更复杂的场景。\n---\n#745 Fri 16 Oct 14:00 Them: 下午参加f"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR baseline"
+   },
+   "result": "#741 Thu 15 Oct 22:00 Them: 改好了，明天再跑。\n#742 Fri 16 Oct 01:30 Them: 把GPTR的结果加进paper了，效果还行，比baseline高3个点。\n#743 Fri 16 Oct 09:30 Them: 周五，早上跑新scenario的实验。\n---\n#422 Tue 15 Sep 23:52 Them: 对，我重新提交了，等明天看结果。\n#423 Wed 16 Sep 10:00 Them: GPTR跑出来了，数据正常了。现在跟其他baseline对比一下。\n#424 Wed 16 Sep 10:01 aicoo: - 很好。需要我帮你整理对比表格吗？\n---\n#385 Fri 11 Sep 10:05 aicoo: - 添加后检查逻辑连贯性。\n- 需要引用相关文献吗？\n#386 Fri 11 Sep 14:00 Them: 嗯，引了几篇。下午Mei问我GPTR结果，我说正在调，她说她也跑过那个baseline，当时也费了不少时间。\n#387 Fri 11 Sep 14:05 aicoo: - 看来GPTR环境配置普遍有坑。\n- 可以分享你的解决步骤给Mei。\n---\n#348 Sun 06 Sep 16:00 Them: guest talk不错，Prof. Wang讲的RL planning方向跟我的工作有点关系。\n#"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "GPTR"
+   },
+   "result": "[项目] 07 Sep: 继续debug GPTR\n[个人] 09 Sep: 晚上太累休息，明天继续调GPTR；10 Sep GPTR调到1e-5后接近指标\n[人物] 16 Sep: GPTR跑出正常结果，正在与其他baseline对比；17 Sep Mei说GPTR结果比她预期的好\n[项目] 12 Oct: GPTR在THOR上比baseline高2.5个点，但有一个环境报错待debug（之前16 Sep GPTR跑出正常结果）\n[个人] 06 Sep: 今天先这样，明天继续debug GPTR\n[人物] 16 Sep GPTR跑出正常结果，正在与其他baseline对比；17 Sep Mei说GPTR结果比她预期的好\n25 Sep Kevin的diffusion work与讨论相关\n[个人] 16 Sep: GPTR跑出正常结果，与其他baseline对比中\n[项目] 16 Sep: GPTR跑出正常结果，正在与其他baseline对比\n[个人] 15 Sep: TA批了50份作业，累但GPTR bug找到并修复\n[人物] 16 Sep GPTR跑出正常结果，正在与其他baseline对比；17 Sep Mei说GPTR结果比她预期的好；29 Sep Kevin说系里买了H100共8张，需尽快申请"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3738,
+   "out": 20,
+   "usd": 0.00003697848
+  },
+  {
+   "in": 4477,
+   "out": 21,
+   "usd": 0.00006706308
+  },
+  {
+   "in": 4940,
+   "out": 31,
+   "usd": 0.00004509848
+  },
+  {
+   "in": 5267,
+   "out": 301,
+   "usd": 0.00009692844
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9633
+}

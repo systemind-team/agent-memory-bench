@@ -1,0 +1,45 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "Ravi那个integration本来due Sep 15，最后哪天go live的？",
+ "reply": [
+  "凯哥，Ravi那个integration是9月22号上线的，之前due Sep 15延了一周。上线后一切正常，没有critical bugs。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Ravi integration go live date"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Ravi integration 上线"
+   },
+   "result": "#1160 Fri 30 Oct 09:05 Them: 好，移到周一早上10点。谢了。\n#1161 Fri 30 Oct 09:30 Them: Ravi sync完了。security audit补测只是多一天，不影响integration Sep 22上线。他说dark mode toggle dev已经开始sprint，估计11月初完成。这个timeline跟pricing launch 12/1不冲突就好。\n#1162 Fri 30 Oct 09:31 aicoo: 好的，那integration和dark mode都on track。Pricing launch 12/1，dark mode toggle 11月初完成，有buffer。\n---\n#696 Fri 25 Sep 18:05 aicoo: enjoy family time, 明天见。\n#697 Sat 26 Sep 09:00 Them: 早上和 Ravi 确认, integration 上线后一切正常, 没有 critical bugs。\n#698 Sat 26 Sep 09:10 aicoo: great, 一个 milestone 顺利收尾。\n---\n#630 Sun 20 Sep 09:01 aicoo: Ben昨天发了邮件，prep on track，Nov 1 launch准备中。\n#631 "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1418,
+   "out": 24,
+   "usd": 0.0000179452
+  },
+  {
+   "in": 1471,
+   "out": 23,
+   "usd": 0.0000200158
+  },
+  {
+   "in": 1812,
+   "out": 40,
+   "usd": 0.0000352408
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4375
+}

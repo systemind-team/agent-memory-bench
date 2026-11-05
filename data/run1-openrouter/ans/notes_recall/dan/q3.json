@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "what was the column name i dropped by accident?",
+ "reply": [
+  "`billing_status` — you dropped it instead of renaming. the post-mortem said it was the wrong migration file running.",
+  "the rollback script Sam asked about in September still works if you need it. want me to find it?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "dropped column billing_status"
+   },
+   "result": "[billing-migration] 08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushback; later moved to Oct 12 per Priya (was 28 Aug: migration incident on Tuesday; dropped column `billing_status` instead of renaming; rolled back; Lena caught before prod sync; post-mortem done, root cause: wrong migration file ran)\n[candidate-sam] 16 Sep: Sam asked about billing_status rollback; Dan showed him the script\n[billing-split] 20 Sep: Priya asked for migration timeline status; Oct 12 still holds (moved to Oct 12, was Nov 15)\n[billing-migration] 29 Aug: billing PR merged; webhooks in staging\n["
+  }
+ ],
+ "calls": [
+  {
+   "in": 2901,
+   "out": 23,
+   "usd": 0.0001196482
+  },
+  {
+   "in": 3236,
+   "out": 56,
+   "usd": 0.0001359288
+  }
+ ],
+ "memChars": 5819,
+ "promptChars": 10390
+}

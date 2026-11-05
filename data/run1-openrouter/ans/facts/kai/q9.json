@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "那个PM candidate我们最后hire了谁，名字和start date是啥？",
+ "reply": [
+  "最后hire的是Emily Tan，她接受了PM offer，start date是10月26号，应该已经onboard了。",
+  "Ravi那边的new hire start date推迟到了11月15号，但跟PM这边不是同一个role。"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "PM candidate hire start date"
+   },
+   "result": "- 05 Sep: Ravi的新hire start date delayed to Nov 15。\n- 01 Sep: Next PM candidate interview on Friday.\n- 29 Oct: Singapore office expansion approved, 明年Q1 start, 需要hire 10 more\n- 14 Sep: 林凯在14 Sep 14:00提到，Emily Tan上周接受了offer，他让Ben安排onboarding。01 Oct: Emily Tan accepted the PM offer; start date Oct 26.\n- 15 Sep: Third PM candidate Michael Liu interviewed, 10 years, ex-Microsoft.\n- 01 Sep: New PM candidate Jason Chen interviewed, 8 years exp, moving to next round.\n- 22 Sep: 面试了final PM candidate王磊, 7年SaaS, 沟通不错。\n- 22 Sep: 今天跟Ben review pricing launch checklist, 下午面试PM final candidate。\n- 16 Oct: Met"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1754,
+   "out": 23,
+   "usd": 0.00004813536
+  },
+  {
+   "in": 2011,
+   "out": 56,
+   "usd": 0.00006124916
+  }
+ ],
+ "memChars": 849,
+ "promptChars": 5519
+}

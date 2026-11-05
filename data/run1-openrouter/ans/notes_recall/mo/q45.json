@@ -1,0 +1,34 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "蓝驰第二笔是几号到的？",
+ "reply": [
+  "10月26号到的，300万，今天到账。加上第一笔300万，账上现在600万。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "蓝驰第二笔 到账 日期"
+   },
+   "result": "[seed-round-investors] Wed 14 Oct: 蓝驰第一笔300万到账，第二笔11月中\n[seed-round-due-diligence] Mon 26 Oct: 种子轮封闭，估值7200万，蓝驰独投；蓝驰第二笔10月26日到账（was 月底到账）\n[seed-round-investors] Mon 26 Oct: 种子轮封闭，估值7200万，蓝驰独投（was 7500万）；蓝驰第二笔10月26日到账（was 月底到账）\n[seed-round-due-diligence] Sun 18 Oct: 蓝驰法务已审完，第一笔300万到账；第二笔11月中；用户次留37%（was 34%）\n[seed-round-due-diligence] Wed 16 Sep: 蓝驰合伙人约下周一（9月21日）下午3点视频聊用户增长模型，大伟数据需打包；蓝驰第二笔未定；9月20日改为线下会议（新增线下）；Tue 22 Sep蓝驰尽调要用户次留数据，目前34%，日活1200（新增）\n[cash-runway] Mon 26 Oct: 账上现金600万（蓝驰两笔均已到账，第一笔300万已到，第二笔300万今天到账）；成都下月冲500单，现金流改善；Thu 15 Oct 阿里云成本优化，下月账单预计降到5万（之前7万8）；Sat 10 Oct 晨检上线DAU首日破200\n[cash"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2975,
+   "out": 27,
+   "usd": 0.00005645836
+  },
+  {
+   "in": 3567,
+   "out": 32,
+   "usd": 0.00008089956
+  }
+ ],
+ "memChars": 3239,
+ "promptChars": 7208
+}

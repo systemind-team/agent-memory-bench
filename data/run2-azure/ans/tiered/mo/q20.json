@@ -1,0 +1,59 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "红杉最早约见面是排在哪天？",
+ "reply": [
+  "红杉最早约的是10月8号，后来改到了10月20号线下会议，但当时你决定专注蓝驰，推掉了。上周日（10月25号）你又说下周红杉视频会议准备下，不过没给具体日期。",
+  "所以目前记录里没有已确认的见面时间。如果你现在想约，我可以帮你定个时间推过去？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 见面 日"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 会议 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 会"
+   },
+   "result": "#658 Sun 25 Oct 10:02 aicoo: 复制起来应该快，大伟有经验了。\n#659 Sun 25 Oct 14:00 Them: 周末休息下，下周红杉视频会议准备下。\n#660 Sun 25 Oct 14:02 aicoo: 好，数据材料我提前整理好。\n---\n#409 Wed 23 Sep 11:01 aicoo: 合同我下午定稿发你\n#410 Wed 23 Sep 14:00 Them: 红杉的会改到10月20号了\n#411 Wed 23 Sep 14:01 aicoo: 收到，日程已更新\n---\n#370 Sat 19 Sep 10:10 Them: 到账后充现金流，蓝驰第二笔还没定\n#371 Sat 19 Sep 14:30 Them: 红杉周三下午把会议改成线下，要演示产品\n#372 Sat 19 Sep 14:31 aicoo: 我准备 demo 脚本，侧重展示实时报告功能\n---\n#305 Fri 11 Sep 11:00 Them: 10月8号提醒我跟红杉开会\n#306 Fri 11 Sep 11:01 aicoo: 好，10月8号提醒你与红杉会议\n#307 Fri 11 Sep 11:30 Them: 红杉那边谁联系的\n---\n#304 Thu 10 Sep 14:02 aicoo: 好的，我更新融资进度表\n#305 Fri 11 Sep 11:0"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5560,
+   "out": 24,
+   "usd": 0.000218736
+  },
+  {
+   "in": 5613,
+   "out": 24,
+   "usd": 0.000229866
+  },
+  {
+   "in": 5666,
+   "out": 22,
+   "usd": 0.000194052
+  },
+  {
+   "in": 6070,
+   "out": 88,
+   "usd": 0.000361676
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10956
+}

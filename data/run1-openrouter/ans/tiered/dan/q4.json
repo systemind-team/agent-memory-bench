@@ -1,0 +1,69 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "how far did i run the day i set a personal best?",
+ "reply": [
+  "you ran 10.1 miles on Tue Sep 15. that was your personal best. i remember tracking that one — good day."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "ran personal best mile"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "ran 10.1 miles"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "ran 9.2 mi"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "mile run best"
+   },
+   "result": "#344 Tue 15 Sep 11:47 aicoo: that's promising. sounds like he's picking things up fast\n#345 Tue 15 Sep 15:20 Them: run update: hit 10.1 miles. new personal best.\n#346 Tue 15 Sep 15:22 aicoo: congratulations. that's a solid milestone"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5330,
+   "out": 22,
+   "usd": 0.0000518868
+  },
+  {
+   "in": 5381,
+   "out": 24,
+   "usd": 0.0000541198
+  },
+  {
+   "in": 5434,
+   "out": 24,
+   "usd": 0.00004795672
+  },
+  {
+   "in": 5487,
+   "out": 21,
+   "usd": 0.00004986492
+  },
+  {
+   "in": 5594,
+   "out": 34,
+   "usd": 0.00005526472
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17926
+}

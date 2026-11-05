@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The question asks when Priya first moved the cutover, but the assistant answered when she first mentioned a date (Aug 5) and provided a history of changes rather than identifying Aug 19 as the first move.",
+ "rule": null
+}

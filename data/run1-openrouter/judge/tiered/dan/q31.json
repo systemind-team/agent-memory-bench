@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It says you updated them on Sep 20 and sent a link on Sep 29, but the chat shows the docs were updated on Mon 21 Sep and no link was mentioned.",
+ "rule": null
+}

@@ -1,0 +1,20 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "跟蓝驰签 TS 的时候估值是多少？",
+ "reply": [
+  "search_memory {\"query\": \"蓝驰 TS 估值\"}"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2624,
+   "out": 14,
+   "usd": 0.0000245224
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6691
+}

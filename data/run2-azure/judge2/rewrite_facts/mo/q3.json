@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the actual onboarding date was August 31, but the chat shows the agreed and actual start date was September 1, with no message confirming it changed to August 31.",
+ "first": "wrong",
+ "rule": null
+}

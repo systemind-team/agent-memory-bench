@@ -1,0 +1,48 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q22",
+ "kind": "update",
+ "q": "论文标题改过几次？",
+ "reply": [
+  "改过三次。",
+  "最早是\"Planning with Hierarchical Graphs\"，后来改成\"Hierarchical Planning with Graph Attention\"，最后定稿是现在的\"Context-Aware Planning via Hierarchical Decomposition\"。",
+  "上周二（10月27日）最终定下来的。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题 改 标题"
+   },
+   "result": "#181 Wed 19 Aug 18:00 Them: 出去买杯咖啡，回来继续。\n#182 Wed 19 Aug 22:50 Them: 论文标题改成Hierarchical Planning with Graph Attention吧，感觉更准确。\n#183 Thu 20 Aug 00:15 aicoo: 论文标题已更新为“Hierarchical Planning with Graph Attention”。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题 Hierarchical"
+   },
+   "result": "#872 Tue 27 Oct 18:02 aicoo: - 环境2之前是？需要重新跑一次验证。\n- 可能超参数调整影响了其他环境的泛化。\n#873 Tue 27 Oct 22:30 aicoo: 论文标题最终更新为“Context-Aware Planning via Hierarchical Decomposition”。\n#874 Tue 27 Oct 22:32 Them: 收到，明天重新跑一遍所有环境的完整实验。\n---\n#865 Mon 26 Oct 23:42 aicoo: - 已确认。明天上午更新所有文档中的标题。\n#866 Tue 27 Oct 08:30 aicoo: - 论文标题已更新为“Context-Aware Planning via Hierarchical Decomposition”。\n- 包括overleaf、本地文件、周报模板。\n#867 Tue 27 Oct 10:00 Them: 好，今天继续调环境4。试试把supervision加到每个step。\n---\n#406 Sun 13 Sep 22:35 aicoo: - 新标题更贴合内容。\n- 已更新记录。\n#407 Mon 14 Sep 02:00 aicoo: - 论文标题已更新为\"Context-Aware Hierarchical Planning for LLMs\"。\n#408 Mo"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3559,
+   "out": 24,
+   "usd": 0.000165118
+  },
+  {
+   "in": 3672,
+   "out": 22,
+   "usd": 0.000187728
+  },
+  {
+   "in": 4242,
+   "out": 65,
+   "usd": 0.000285684
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8743
+}

@@ -1,0 +1,47 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "team is 5 now — you, tom, lena, sam, and david — with priya managing. david officially joined last wednesday. ",
+  "biscuit still the only dog on the team though."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "team size"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "engineers team"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5301,
+   "out": 20,
+   "usd": 0.00020793
+  },
+  {
+   "in": 5350,
+   "out": 21,
+   "usd": 0.00021878
+  },
+  {
+   "in": 5400,
+   "out": 52,
+   "usd": 0.00024664
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17907
+}

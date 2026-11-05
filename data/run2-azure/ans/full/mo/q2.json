@@ -1,0 +1,71 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "我们的产品最后定名是什么？",
+ "reply": [
+  "产品定名「晨检」，Mia定稿的，8月9号就定下来了。",
+  "之后所有文档、BP、App store都用这个名字，没有变过。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "产品 名 定 晨检"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 定名"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 产品 名字"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "产品 叫 晨检"
+   },
+   "result": "#31 Sat 08 Aug 10:00 Them: 周末休息，周一继续\n#32 Sun 09 Aug 10:20 Them: 产品就叫「晨检」吧，Mia定稿了\n#33 Sun 09 Aug 10:21 aicoo: 「晨检」名字好记，我同步更新所有文档"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18696,
+   "out": 26,
+   "usd": 0.000595568
+  },
+  {
+   "in": 18751,
+   "out": 23,
+   "usd": 0.000651262
+  },
+  {
+   "in": 18803,
+   "out": 24,
+   "usd": 0.000662742
+  },
+  {
+   "in": 18856,
+   "out": 24,
+   "usd": 0.000628048
+  },
+  {
+   "in": 18965,
+   "out": 45,
+   "usd": 0.000662698
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35679
+}

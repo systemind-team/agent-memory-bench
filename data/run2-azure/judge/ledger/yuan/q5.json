@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant's memory states the deadline is November 15, but aicoo's reply mentions December 20 for a different fellowship, which is incorrect.",
+ "rule": null
+}

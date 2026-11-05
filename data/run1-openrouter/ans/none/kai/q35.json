@@ -1,0 +1,21 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "aicoo, 早，这周怎么安排的?",
+ "reply": [
+  "凯哥早！这周priority很明确：周一10:30 pricing launch decision meeting with Grace和Ben；跟Grace确认SEA expansion headcount approval timeline；跟Ravi确认integration final timeline；还有收集customer testimonial——找Lily要Aurora的quote，找Omar要Singapore两个大客户的quote。",
+  "你父亲最近情况稳定吧？这周节奏紧，周三下午我帮你留个buffer，你下午去接女儿放学时也能喘口气。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1414,
+   "out": 108,
+   "usd": 0.0000246036
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4349
+}

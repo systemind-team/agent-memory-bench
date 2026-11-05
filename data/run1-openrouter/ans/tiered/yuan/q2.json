@@ -1,0 +1,33 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Coco说的那个餐厅叫什么名字？",
+ "reply": [
+  "是山海，11月20号，只订到那天的位子。需要我把地址翻出来吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Coco 餐厅 生日"
+   },
+   "result": "#733 Wed 14 Oct 23:00 Them: 终于book了“山海”餐厅，11月20号，只有那天有位子。\n#734 Wed 14 Oct 23:01 aicoo: - 已记录：Coco生日聚餐在“山海”餐厅，11月20日。\n#735 Thu 15 Oct 09:00 Them: 周四，早上继续实现scenario。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 6878,
+   "out": 24,
+   "usd": 0.0002811956
+  },
+  {
+   "in": 7000,
+   "out": 30,
+   "usd": 0.00007044912
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16040
+}

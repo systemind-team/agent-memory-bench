@@ -1,0 +1,36 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q16",
+ "kind": "aggregate",
+ "q": "我之前要加的那个baseline GPTR，从开始到现在都经历了什么？",
+ "reply": [
+  "GPTR的完整时间线：",
+  "**9月4日**：你决定给论文加一个baseline叫GPTR，开始复现代码。\n**9月15日**：找到bug——少了一个normalization，修完后跑出正常结果。\n**9月16-17日**：与其他baseline对比，结果跑通；Mei说比预期好。\n**10月12日**：在THOR上比baseline高2.5个点，attention heads=8最优，但有一个环境报错需要debug。",
+  "之后就是10月中下旬加到paper里、以及后来你跑完整实验时GPTR已经被作为对比baseline放进去了。\n\n所以差不多是从9月初开始，花了两周把代码de出来，然后一直在用。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "GPTR baseline 时间线 过程"
+   },
+   "result": "[个人] 16 Sep: GPTR跑出正常结果，与其他baseline对比中\n[项目] 16 Sep: GPTR跑出正常结果，正在与其他baseline对比\n[项目] 04 Sep: 晚上想加新实验，决定加baseline GPTR，先复现代码\n[人物] 16 Sep: GPTR跑出正常结果，正在与其他baseline对比；17 Sep Mei说GPTR结果比她预期的好\n[项目] 12 Oct: GPTR在THOR上比baseline高2.5个点，但有一个环境报错待debug（之前16 Sep GPTR跑出正常结果）\n[个人] 04 Sep: 晚上决定给论文加一个baseline叫GPTR，先复现代码\n[项目] 15 Sep: GPTR bug找到，少normalization，修复后跑出正常结果，等待对比其他baseline\n[项目] 12 Oct: attention heads=8最优；GPTR在THOR上比baseline高2.5个点，但有一个环境报错待debug\n[人物] 16 Sep GPTR跑出正常结果，正在与其他baseline对比；17 Sep Mei说GPTR结果比她预期的好\n25 Sep Kevin的diffusion work与讨论相关\n[个人] 19 Aug: Mei问share A100使用时间，已同意"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4112,
+   "out": 26,
+   "usd": 0.000328192
+  },
+  {
+   "in": 4437,
+   "out": 178,
+   "usd": 0.000298266
+  }
+ ],
+ "memChars": 6087,
+ "promptChars": 10453
+}

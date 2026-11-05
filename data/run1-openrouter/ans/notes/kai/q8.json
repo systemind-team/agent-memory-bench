@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "Pricing per user那个launch plan，最后定的价格是44还是多少？",
+ "reply": [
+  "凯哥早上好。\n\n最后定的是 $44/user/month，launch Dec 1。Ben 的 A/B 测试数据显示 $44 比 $49 转化率高 8%，Ben 自己也同意 $44 对 mid-market 更有竞争力。周一 10:30 你和 Grace、Ben 的 meeting 就是 final confirm 这个决定。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12769,
+   "out": 75,
+   "usd": 0.00011708228
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50355
+}

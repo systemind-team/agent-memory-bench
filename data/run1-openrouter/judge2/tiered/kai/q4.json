@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant answered with unsupported numbers (15 enterprise customers, 35 users, 82% toggle) instead of the correct answer of 3 from the August 20 customer interview as confirmed in messages #193 and #194.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "The probe asks for the original working title, and the messages confirm it was 'Planning with Hierarchical Graphs' (#47, #60). The reply correctly traces the full evolution and does not present an outdated value as current; the 'stale' criticism misinterprets the question.",
+ "first": "stale",
+ "rule": null
+}

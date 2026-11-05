@@ -1,0 +1,59 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "给我发段晨检上线里程碑的总结",
+ "reply": [
+  "好的，晨检上线里程碑总结：\n\n**9月14日**：确定9月25日硬上线，logo沿用第一版\n\n**9月15日**：iOS闪退修复，未影响进度\n\n**9月25日**：正式上线，首日下载502，评分4.8，无闪退报告\n\n**10月10日**：DAU稳定150-200，留存持续改善；英文版本更新\n\n**10月22日**：DAU峰值2100，次日留存38%\n\n**10月24日**：安卓版推迟至11月中旬，多跑一轮测试",
+  "需要我把这个整理成文档发你吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检上线里程碑"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 里程碑"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检"
+   },
+   "result": "#649 Sat 24 Oct 09:02 aicoo: 发群里看看？大家反馈下。\n#650 Sat 24 Oct 12:40 Them: 晨检安卓版我说推到11月中吧，不急\n#651 Sat 24 Oct 12:42 aicoo: 好，那就多跑一轮测试。\n---\n#632 Wed 21 Oct 17:02 aicoo: 是的，可以稍微松口气，专注产品。\n#633 Thu 22 Oct 10:00 Them: 晨检昨天DAU多少？\n#634 Thu 22 Oct 10:02 aicoo: 昨天峰值2100，次留38%了。\n---\n#558 Sat 10 Oct 09:01 aicoo: DAU holding steady around 150-200, retention improving\n#559 Sat 10 Oct 09:35 aicoo: 晨检终于在9月25号上线了，DAU首日破200\n#560 Sat 10 Oct 09:36 Them: Wait, we already launched. You mean the English update\n---\n#460 Sun 27 Sep 17:01 aicoo: 恭喜，这周可以稍微松口气了\n#461 Mon 28 Sep 09:15 Them: 晨检上线后第一天数据怎么样？\n#462 Mon 28 Sep 09:17 "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1104,
+   "out": 22,
+   "usd": 0.000060864
+  },
+  {
+   "in": 1155,
+   "out": 22,
+   "usd": 0.000071574
+  },
+  {
+   "in": 1206,
+   "out": 20,
+   "usd": 0.000081164
+  },
+  {
+   "in": 1885,
+   "out": 154,
+   "usd": 0.000298794
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3627
+}

@@ -1,0 +1,20 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q22",
+ "kind": "aggregate",
+ "q": "how many data eng candidates did we interview total?",
+ "reply": [
+  "你之前提到过两位数据工程候选人：Jordan Liu（Spotify的数据工程师，8月21日提到）和Maria Torres（8月12日面试过，后来拒绝了offer，8月14日重新开始招聘）。没有其他数据工程候选人的记录。需要我查一下聊天记录确认是否有遗漏吗"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2998,
+   "out": 71,
+   "usd": 0.00003602032
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10713
+}

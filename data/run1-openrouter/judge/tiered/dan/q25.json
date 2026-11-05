@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct sequence is 5 moves: Oct 12, Sep 28, Nov 5, Nov 15, Oct 12, but aicoo listed 4 moves with an unsupported Oct 26 date and omitted the final Oct 12 reversion.",
+ "rule": null
+}

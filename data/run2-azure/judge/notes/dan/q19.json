@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant incorrectly says Sam joined first, but the chat shows the migration incident happened in August and Sam started September 14.",
+ "rule": null
+}

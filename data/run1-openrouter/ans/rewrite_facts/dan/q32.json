@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "morning",
+ "reply": [
+  "早上好 dan the builder。昨天跑得怎么样",
+  "万圣节就是今天了，你、Ade 和 Biscuit 的吐司黄油组合准备好了吗"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3077,
+   "out": 42,
+   "usd": 0.0000451878
+  }
+ ],
+ "memChars": 6434,
+ "promptChars": 11024
+}

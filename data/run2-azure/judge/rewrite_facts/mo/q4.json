@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant's answer states the initial TS valuation was 7500万 but the user's required answer is 7200万, which contradicts the chat record showing 7500万 at signing.",
+ "rule": null
+}

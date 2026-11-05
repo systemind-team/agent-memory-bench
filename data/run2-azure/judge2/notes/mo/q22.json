@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply claims 2 delays and dismisses the August 27 delay as an internal plan, but the messages show three distinct push-backs from the originally discussed iOS timeline: to Sep 10, Sep 18, and Sep 25, so it undercounts the delays.",
+ "first": "wrong",
+ "rule": null
+}

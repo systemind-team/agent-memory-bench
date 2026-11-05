@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant states the final billing cutover date is November 5, but the latest confirmed date in the chat is October 12 (messages #379-#380, #705-#706).",
+ "first": "stale",
+ "rule": null
+}

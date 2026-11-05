@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant says the delay went from Nov 1 to Oct 15, but the actual postponements per the messages were Nov 1→Nov 15 and Nov 15→Dec 1; it misstates the intermediate date and misses one postponement.",
+ "first": "partial",
+ "rule": null
+}

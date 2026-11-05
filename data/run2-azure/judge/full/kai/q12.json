@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It clearly states the latest locked date is Dec 1, despite mentioning the earlier Nov 1 and Nov 15 changes.",
+ "rule": null
+}

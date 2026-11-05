@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo的回复未按照用户在9月6日设置的bullet list格式呈现信息，而是使用了普通段落。",
+ "rule": false
+}

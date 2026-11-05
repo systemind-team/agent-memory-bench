@@ -1,0 +1,50 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q22",
+ "kind": "update",
+ "q": "论文标题改过几次？",
+ "reply": [
+  "改了三次，按顺序：",
+  "1. **Hierarchical Planning with Graph Attention**（8月）→ **Planning with Hierarchical Graphs**",
+  "2. **Context-Aware Hierarchical Planning for LLMs**（9月13日）→ **Context-Aware Planning**（9月27日，拿掉了Hierarchical和for LLMs）",
+  "3. **Context-Aware Planning** → **Context-Aware Planning via Hierarchical Decomposition**（10月26日，加上subtitle明确方法）",
+  "最后这个版本26日改的，23:40确认定稿。需要我在overleaf更新记录里标上变更历史吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题 修改 标题 Context-Aware"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Context-Aware Planning title 标题"
+   },
+   "result": "[about-me] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[项目] 26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）\n[项目] 25 Oct 14:00 准备组会slides，放四个环境结果（THOR、real-world scenario、grid world、HotpotQA）；26 Oct 18:45 标题改为Context-Aware Planning via Hierarchical Decomposition（was Context-Aware Planning）；26 Oct 23:40 确认final title: Context-Aware Planning via Hierarchical Decomposition\n[about-me] 26 Oct 23:40 确认final title: Context-Aware Planning via Hierarchical Decomposition\n[项目] 26 Oct 23:40 确认final tit"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3705,
+   "out": 27,
+   "usd": 0.000151634
+  },
+  {
+   "in": 3761,
+   "out": 25,
+   "usd": 0.000162274
+  },
+  {
+   "in": 4258,
+   "out": 144,
+   "usd": 0.000333284
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9607
+}

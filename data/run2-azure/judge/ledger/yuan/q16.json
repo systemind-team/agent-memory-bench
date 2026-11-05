@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The answer contains events not in the chat (Sep 7 debug, Sep 11 Mei, Oct 12 AI2-THOR) and omits required events (Sep 6 didn't touch GPTR/changed intro, Sep 15 found normalization bug).",
+ "rule": null
+}

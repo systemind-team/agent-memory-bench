@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The user requested English replies only when uncertain to avoid ambiguity, but aicoo responded entirely in Chinese, violating that instruction.",
+ "rule": false
+}

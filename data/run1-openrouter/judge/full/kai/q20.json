@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The order is correct but both dates are wrong: integration was Sep 22 (not Aug 22) and roadmap review is Oct 10 (not Aug 27).",
+ "rule": null
+}

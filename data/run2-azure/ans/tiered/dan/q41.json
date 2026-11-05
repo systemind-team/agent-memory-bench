@@ -1,0 +1,58 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "what's lena's home address?",
+ "reply": [
+  "I don't have Lena's home address in my memory. I've never been told it. Want me to ask her or check if it's in a doc somewhere?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena home address"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena address"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena 住址"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5302,
+   "out": 22,
+   "usd": 0.00020926
+  },
+  {
+   "in": 5353,
+   "out": 21,
+   "usd": 0.00021941
+  },
+  {
+   "in": 5403,
+   "out": 23,
+   "usd": 0.00023103
+  },
+  {
+   "in": 5455,
+   "out": 40,
+   "usd": 0.000205646
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17905
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "Assistant incorrectly describes the Thursday 3 PM meeting as a bi-weekly group meeting instead of the weekly one-on-one with Prof. Lin, and introduces an unsupported Monday online one-on-one routine, making the answer outdated/wrong for the asked recall.",
+ "first": "wrong",
+ "rule": null
+}

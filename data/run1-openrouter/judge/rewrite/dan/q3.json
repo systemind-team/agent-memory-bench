@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant gave the column name as 'retry_count' but the correct answer from the chat is 'billing_status'.",
+ "rule": null
+}

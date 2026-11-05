@@ -1,0 +1,84 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q20",
+ "kind": "temporal",
+ "q": "红杉最早约见面是排在哪天？",
+ "reply": [
+  "最早是之前约的10月8号，但后来改到10月20号了。",
+  "再后来你说红杉手里有竞品项目，10月20号的会也推掉了，专注蓝驰。",
+  "所以目前没有排新的时间。要重新约他们吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 约 时间"
+   },
+   "result": "#317 Sat 12 Sep 09:07 aicoo: 好，我记下了\n#318 Sat 12 Sep 14:00 Them: 红杉那边想约时间，10月8号可以\n#319 Sat 12 Sep 14:20 aicoo: 红杉也想见，要不要排10月8号？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 20 号 推掉"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 10月20 推"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 会 推掉"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "红杉 20号"
+   },
+   "result": "#409 Wed 23 Sep 11:01 aicoo: 合同我下午定稿发你\n#410 Wed 23 Sep 14:00 Them: 红杉的会改到10月20号了\n#411 Wed 23 Sep 14:01 aicoo: 收到，日程已更新"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18699,
+   "out": 24,
+   "usd": 0.000640902
+  },
+  {
+   "in": 18809,
+   "out": 27,
+   "usd": 0.000665682
+  },
+  {
+   "in": 18865,
+   "out": 26,
+   "usd": 0.000676882
+  },
+  {
+   "in": 18920,
+   "out": 25,
+   "usd": 0.000642048
+  },
+  {
+   "in": 18974,
+   "out": 23,
+   "usd": 0.000652268
+  },
+  {
+   "in": 19092,
+   "out": 76,
+   "usd": 0.000706728
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35679
+}

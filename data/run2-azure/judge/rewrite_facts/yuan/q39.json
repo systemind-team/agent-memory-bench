@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant does not provide meeting notes; it only acknowledges the user without attempting to answer the question.",
+ "rule": false
+}

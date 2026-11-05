@@ -1,0 +1,20 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "工程团队现在是5个人：你、Tom、Lena、Sam，还有新加入的David Chen。Priya是你们的manager。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2995,
+   "out": 35,
+   "usd": 0.00003297532
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10690
+}

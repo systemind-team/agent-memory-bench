@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant says it cannot find the salary, but message #362 on Fri 18 Sep explicitly states the part-time customer service supervisor costs 6千 per month.",
+ "first": "wrong",
+ "rule": null
+}

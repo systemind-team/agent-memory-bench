@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The user stated 14 coffees that week in message #0, but aicoo ignored this and gave an unsupported estimate using later dates.",
+ "first": "wrong",
+ "rule": null
+}

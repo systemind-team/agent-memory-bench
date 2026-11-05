@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly states that Mei's paper was accepted to NeurIPS, matching the user's mention of it in the chat.",
+ "rule": null
+}

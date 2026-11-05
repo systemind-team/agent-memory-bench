@@ -1,0 +1,41 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q15",
+ "kind": "temporal",
+ "q": "下周一跟Prof. Lin的meeting改成什么形式了？",
+ "reply": [
+  "上次说的是改成线上，Prof. Lin去出差，zoom链接稍后会给。你收到链接了吗？",
+  "如果还没收到，可以发邮件问一下他助理或者直接问Prof. Lin要链接。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "result": "(give some words)"
+  },
+  {
+   "tool": "search_memory",
+   "result": "(nothing)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3856,
+   "out": 22,
+   "usd": 0.000272192
+  },
+  {
+   "in": 3895,
+   "out": 24,
+   "usd": 0.00014403
+  },
+  {
+   "in": 3934,
+   "out": 51,
+   "usd": 0.00016734
+  }
+ ],
+ "memChars": 5199,
+ "promptChars": 9501
+}

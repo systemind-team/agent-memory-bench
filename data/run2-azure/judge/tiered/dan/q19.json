@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The migration incident occurred on Tuesday 25 Aug 2026, before Sam joined on 14 Sep 2026, but the response claims Sam was present for over a month before an unrelated October incident.",
+ "rule": null
+}

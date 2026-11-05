@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant claims first move was Sep 30, but the first cutover date change shown in chat was on Aug 5 (to Oct 12) and then Aug 11 (to Sep 28), before any mention of Nov 5.",
+ "first": "wrong",
+ "rule": null
+}

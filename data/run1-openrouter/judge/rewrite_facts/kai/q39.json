@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly recalls and applies the preference to group feedback by feature first, even though it lacks recent survey data to summarize.",
+ "rule": true
+}

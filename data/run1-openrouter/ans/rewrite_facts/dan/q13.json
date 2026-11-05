@@ -1,0 +1,23 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q13",
+ "kind": "update",
+ "q": "how many data eng candidates did we interview?",
+ "reply": [
+  "你们面了三个候选人：Maria Torres、Jordan Liu 和 David Chen，最后招了 David。",
+  "Maria 是第一个，SQL 扎实但后来拒了 offer。Jordan 是从 Spotify 来的，take-home 做得不错，但最后选了 David。",
+  "怎么突然问这个，又在改面试流程吗"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3155,
+   "out": 74,
+   "usd": 0.000050953
+  }
+ ],
+ "memChars": 6768,
+ "promptChars": 11397
+}

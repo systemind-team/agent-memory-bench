@@ -1,0 +1,33 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q15",
+ "kind": "update",
+ "q": "what was the pagerduty key after the first change?",
+ "reply": [
+  "after the first change, the key was 7C2E9B (was 3F8D1A before that). then it changed again to A4B8C2 on Oct 20 for the next on-call."
+ ],
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "pagerduty key change"
+   },
+   "result": "[checkout-spec] 14 Oct: Lena's PagerDuty key was 5B1C6D before last change\n[stripe-webhook] 24 Sep: PagerDuty key changed to 7C2E9B (was 3F8D1A)\n[pagerduty-key] 20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n[stripe-webhook] 10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved\n[pagerduty-key] 26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am\n[candidate-sam] 06 Oct: Sam asked for PagerDuty escalation tour; Dan walked him through Lena's doc\n[stripe-webhook] 12 Oct: found missing idempotency key check; PR up for fix\n[candidate-sam] 08 Oct:"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2521,
+   "out": 24,
+   "usd": 0.00002946748
+  },
+  {
+   "in": 2881,
+   "out": 55,
+   "usd": 0.00004660068
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9108
+}

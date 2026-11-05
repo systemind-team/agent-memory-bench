@@ -1,0 +1,20 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "how much does biscuit weigh now?",
+ "reply": [
+  "i don't have that recorded, sorry. last i remember is he tried to eat pumpkin seeds. is he getting heavy?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3087,
+   "out": 37,
+   "usd": 0.00002855804
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10797
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "It includes the key events (deciding to add GPTR, running with poor results, finding normalization bug) but misses '没碰改intro' and misstates '16号出结果比Mei预期的好' vs. the actual '把GPTR结果加进paper高3个点'.",
+ "rule": null
+}

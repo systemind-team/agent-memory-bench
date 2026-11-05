@@ -1,0 +1,23 @@
+{
+ "arm": "full",
+ "id": "kai",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "那个PM candidate我们最后hire了谁，名字和start date是啥？",
+ "reply": [
+  "最后hire了Emily Tan，10月26号周一start的。",
+  "Jason Chen的reference也过了，但你觉得Emily更适合，所以先给Emily发了offer。Michael Liu那轮面完之后你比较了三个人的优劣势，最后选了Emily。",
+  "需要我翻一下当初的面试notes出来吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 36321,
+   "out": 73,
+   "usd": 0.001207106
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 91612
+}

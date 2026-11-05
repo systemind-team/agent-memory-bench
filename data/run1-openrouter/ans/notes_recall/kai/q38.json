@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q38",
+ "kind": "pref_apply",
+ "q": "aicoo, draft meeting minutes for yesterday's pricing discussion.",
+ "reply": [
+  "凯哥，我查了一下记录，昨天（10月31日周六）没有 pricing 讨论的会议记录。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13233,
+   "out": 31,
+   "usd": 0.00014897764
+  }
+ ],
+ "memChars": 47412,
+ "promptChars": 52163
+}

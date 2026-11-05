@@ -1,0 +1,23 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "我让你提醒我下次meeting提workshop的事，搞定了吗？",
+ "reply": [
+  "- 还没有。上次（10月26日周一）是线上meeting，会议改成了线上，可能漏了提醒你提San Diego workshop。",
+  "- 抱歉，这个承诺应该更早执行。现在距离12月1日deadline还有4周，是否要在下周一的meeting（11月2日）提？还是你希望单独发邮件给Prof. Lin？",
+  "- 另外，下周一meeting的材料已经准备就绪，需要我把workshop这条加进你的meeting agenda吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4591,
+   "out": 123,
+   "usd": 0.00005502924
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11684
+}

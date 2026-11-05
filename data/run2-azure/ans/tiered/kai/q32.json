@@ -1,0 +1,23 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+ "reply": [
+  "凯哥周日好！今天周日，你这周meetings很多，但今天没有安排，好好休息。",
+  "这周关键节点：周一下午2点跟Ben pricing sync，周二杭州offsite回来。周三前要收完Q3 customer wins summary的quotes，周四前发给Grace。Emily onboarding进展好，你的father恢复不错，dark mode toggle dev这周进入sprint。",
+  "你女儿咳嗽好了吗？今天打算怎么安排？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8797,
+   "out": 104,
+   "usd": 0.000347594
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26050
+}

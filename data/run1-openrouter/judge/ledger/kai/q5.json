@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "aicoo's reply includes 'Aurora Health' but adds 'Systems Inc.' which is not mentioned in the chat; the core fact is correct but with unverified extra detail.",
+ "rule": null
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q22",
+ "kind": "update",
+ "q": "论文标题改过几次？",
+ "reply": [
+  "改过三次。8月20日定'Hierarchical Planning with Graph Attention'，9月13日改成'Context-Aware Hierarchical Planning for LLMs'，9月27日定稿'Context-Aware Planning via Hierarchical Decomposition'。",
+  "第三次之后没再动过了，上次10月26日你确认final后我更新了所有文档。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 6876,
+   "out": 84,
+   "usd": 0.00006979952
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16033
+}

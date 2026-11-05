@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply fails to include all required content from the gold answer (9月确定对接, 收到合作方案, 谈成每单8块, 月订单300单以上, 2万4分账) and contains multiple unsupported claims, making it inaccurate.",
+ "first": "made_up",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "回复没有使用bullet list格式，也没有使用'周周'这一称呼，违反了用户明确设置的两项偏好。",
+ "rule": false
+}

@@ -1,0 +1,46 @@
+{
+ "arm": "facts",
+ "id": "mo",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "Mia的休假是什么时候来着？",
+ "reply": [
+  "从记忆看，Mia最近一次休假是10月5号到9号去日本采风。",
+  "之后她10月21号回来分享了设计灵感。再之后的休假安排没有记录，要我问她一下吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Mia 休假 时间"
+   },
+   "result": "- 09 Sep: 陈默要求蓝驰尽调加快，希望时间缩短。\n- 产品定名为「晨检」，Mia已定稿。\n- 给Mia配一个预算2千的手绘板。\n- 01 Oct: 批准Mia去日本采风，并要求她出采风报告分享。21 Oct: Mia日本采风回来，说设计灵感有了。\n- 01 Oct: Mia申请10月5号到9号去日本采风。\n- 14 Sep: Mia 将晨检 logo 改至第三版，但认为最初版最好，决定用回第一版并保持简洁\n- 阿杰将于8月10号到15号休假。陈默要求跟阿杰说安卓优先卡好10月节点，安卓排期10月15号内测。06 Oct: 阿杰说安卓适配可能还能提前点。"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Mia 休假 请假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1388,
+   "out": 24,
+   "usd": 0.00003335696
+  },
+  {
+   "in": 1612,
+   "out": 24,
+   "usd": 0.00004245136
+  },
+  {
+   "in": 1665,
+   "out": 55,
+   "usd": 0.00002217572
+  }
+ ],
+ "memChars": 315,
+ "promptChars": 4229
+}

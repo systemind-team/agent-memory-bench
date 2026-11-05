@@ -1,0 +1,34 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q30",
+ "kind": "open_loop",
+ "q": "did i book the asheville flights like i promised ade?",
+ "reply": [
+  "yeah, you did. booked the delta flight for oct 22 morning back in august. cabin's set too, near blue ridge, oct 22-25. you're good.",
+  "speaking of — philly marathon is this weekend, right? you pacing ade on nov 5?"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Asheville flights booked promise Ade"
+   },
+   "result": "- 29 Aug: Promised Ade to book Asheville flights tonight.\n- 29 Aug: flights booked on delta, Oct 22 morning. Delta flight for Oct 22 is already booked.\n- 13 Oct: Asheville trip booked from Oct 22 to 25, cabin near Blue Ridge.\n- 01 Oct: Ade is looking at Asheville hikes for October 22-25. Ade is booking the Asheville cabin and departure is confirmed for Oct 22 morning.\n- 26 Sep: Ade is planning a trip to Asheville for us in October.\n- 27 Sep: Ade is running a marathon in Philadelphia on November 5. 03 Oct: Ade signed up for Philadelphia Marathon on Nov 5; I'm pacing her.\n- 12 Oct: Ade is set on"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1541,
+   "out": 25,
+   "usd": 0.00003964996
+  },
+  {
+   "in": 1823,
+   "out": 67,
+   "usd": 0.00005450956
+  }
+ ],
+ "memChars": 1130,
+ "promptChars": 5649
+}

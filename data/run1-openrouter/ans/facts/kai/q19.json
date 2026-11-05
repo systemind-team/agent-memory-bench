@@ -1,0 +1,33 @@
+{
+ "arm": "facts",
+ "id": "kai",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "那个offsite在Hangzhou，日期是Oct 20-21对吗？",
+ "reply": [
+  "对，凯哥，杭州offsite是10/20-21，已经过去一周多了。那次聊了engineering capacity和dark mode，Yuki的visuals反馈很好。周一的meeting你可以跟Grace和Ben更新一下后续进展。"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "杭州 offsite 20 21 Oct"
+   },
+   "result": "- 13 Oct: Q4 planning offsite in Hangzhou, Oct 20-21, Grace booked 民宿. 20 Oct: 杭州民宿已确认10/20-21，12人参加。17 Oct: 下周二周三（20-21 Oct）杭州有offsite。\n- 17 Oct: 下周二周三（20-21 Oct）杭州有offsite。\n- 27 Oct: 明天Q4 offsite在杭州，一共5人（Ravi、Yuki、Omar、Emily），明早8点出发。\n- 12 Oct: Grace pinged about Q4 offsite planning.\n- 20 Sep: 林凯计划下周一（21 Sep）处理一堆事情。\n- 27 Oct: offsite先讨论engineering capacity，Ravi说dark mode toggle需要额外资源。Yuki在offsite分享了dark mode final visuals，团队反馈很好。\n- 21 Oct: Engineering资源紧张。\n- 06 Oct: 航班是10:20 departure, gate 12, on time.\n- 21 Oct: 要求aicoo以后全部用中文回复。\n- 20 Sep: Ravi的集成上线了，虽有延迟但还算顺利，安全审计耗时较多。21 Sep: Ravi confirmed"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1808,
+   "out": 26,
+   "usd": 0.00005057136
+  },
+  {
+   "in": 2121,
+   "out": 58,
+   "usd": 0.00006587756
+  }
+ ],
+ "memChars": 795,
+ "promptChars": 5458
+}

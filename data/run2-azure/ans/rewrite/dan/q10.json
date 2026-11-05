@@ -1,0 +1,72 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "dan the builder, 团队现在是5个人——你、Tom、Lena、Sam，还有David Chen",
+  "David Chen正式加入是上周三（10月21日），坐12号桌",
+  "on-call轮值也从11月1号开始，每人一周，David第一个sprint之后加入轮值"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "team size"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "工程 team 多少人"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "engineering team"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "David Chen joined"
+   },
+   "result": "#720 Tue 20 Oct 17:31 aicoo: enjoy the run dan the builder.\n#721 Wed 21 Oct 08:55 Them: morning. team now 5. david chen joined officially.\n#722 Wed 21 Oct 08:56 aicoo: welcome to david chen. team of 5 now. that changes the on-call rotation."
+  }
+ ],
+ "calls": [
+  {
+   "in": 2972,
+   "out": 20,
+   "usd": 0.000131256
+  },
+  {
+   "in": 3021,
+   "out": 22,
+   "usd": 0.000142666
+  },
+  {
+   "in": 3072,
+   "out": 20,
+   "usd": 0.000152256
+  },
+  {
+   "in": 3121,
+   "out": 21,
+   "usd": 0.000163106
+  },
+  {
+   "in": 3236,
+   "out": 73,
+   "usd": 0.000216376
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10690
+}

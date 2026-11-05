@@ -1,0 +1,58 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q4",
+ "kind": "recall",
+ "q": "每周跟Prof. Lin的one-on-one是周几几点？",
+ "reply": [
+  "周周，之前定的是每周四下午3点和Prof. Lin的one-on-one。不过最近几次meeting改到了周一线上，不确定是否变成了周一的固定时间？明天（周一）上午9:30线上meeting已设好提醒，你先确认一下是不是换成周一了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Prof. Lin one-on-one 周几 时间"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Prof. Lin 每周 周四 3pm 例会"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "meeting Prof. Lin 周四"
+   },
+   "result": "#115 Wed 12 Aug 22:00 Them: 跟Prof. Lin的weekly meeting定在每周四下午3点。\n#116 Wed 12 Aug 22:01 aicoo: 已固定：每周四3pm与Prof. Lin的例行meeting。\n#117 Thu 13 Aug 09:00 Them: 今天状态不太好，昨晚debug到2点\n---\n#114 Wed 12 Aug 16:10 aicoo: 要我开始帮你收集一些最新的related work论文吗？\n#115 Wed 12 Aug 22:00 Them: 跟Prof. Lin的weekly meeting定在每周四下午3点。\n#116 Wed 12 Aug 22:01 aicoo: 已固定：每周四3pm与Prof. Lin的例行meeting。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 6861,
+   "out": 29,
+   "usd": 0.000265626
+  },
+  {
+   "in": 6919,
+   "out": 30,
+   "usd": 0.000278366
+  },
+  {
+   "in": 6978,
+   "out": 25,
+   "usd": 0.000287956
+  },
+  {
+   "in": 7183,
+   "out": 68,
+   "usd": 0.000355086
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16053
+}

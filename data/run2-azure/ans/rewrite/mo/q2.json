@@ -1,0 +1,59 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "我们的产品最后定名是什么？",
+ "reply": [
+  "产品名是「晨检」，8月9日Mia定稿的。老板忘了？",
+  "顺便说一句，今天11月1号，你让我提醒做季度复盘。要不要今天上午聊一下，还是你定个时间？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "产品名 定名 晨检"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "产品名 Mia 定稿"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "晨检 产品名"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4009,
+   "out": 26,
+   "usd": 0.00016909
+  },
+  {
+   "in": 4064,
+   "out": 24,
+   "usd": 0.00017952
+  },
+  {
+   "in": 4117,
+   "out": 23,
+   "usd": 0.00019009
+  },
+  {
+   "in": 4169,
+   "out": 58,
+   "usd": 0.00022061
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8488
+}

@@ -1,0 +1,33 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "does sam have any pets?",
+ "reply": [
+  "Not that I can remember—Sam's never mentioned a pet in our chats. Want me to ask him on Monday?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam pet"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5323,
+   "out": 20,
+   "usd": 0.0000514402
+  },
+  {
+   "in": 5372,
+   "out": 30,
+   "usd": 0.0000542416
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17901
+}

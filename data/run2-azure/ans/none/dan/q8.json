@@ -1,0 +1,47 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "how much does biscuit weigh now?",
+ "reply": [
+  "i don't think we've talked about biscuit's weight before — no records of that in our chat. when was the last time he was at the vet?",
+  "if you were just wondering mid-Sunday, no rush. i can note it down for next time you mention it."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "biscuit weight"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "biscuit"
+   },
+   "result": "#834 Sat 31 Oct 14:05 aicoo: crucial section. include the dry run results too\n#835 Sat 31 Oct 15:00 Them: done for the week. heading out for a run with ade and biscuit\n#836 Sat 31 Oct 15:05 aicoo: enjoy the run. see you monday\n---\n#830 Sat 31 Oct 11:05 aicoo: that's adorable. who's toast\n#831 Sat 31 Oct 11:10 Them: ade is toast. i'm butter. biscuit gets a little bacon costume\n#832 Sat 31 Oct 11:15 aicoo: perfect trio. halloween is sorted\n---\n#822 Fri 30 Oct 14:05 aicoo: fun. send a photo if you want\n#823 Fri 30 Oct 18:30 Them: pumpkin carved. biscuit tried to eat the seeds\n#824 Fri 30 Oct 18:3"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1138,
+   "out": 22,
+   "usd": 0.000205476
+  },
+  {
+   "in": 1189,
+   "out": 21,
+   "usd": 0.000078154
+  },
+  {
+   "in": 1833,
+   "out": 64,
+   "usd": 0.000237474
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4194
+}

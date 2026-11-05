@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Candidate list is wrong: lists 5 including 王磊 and an unnamed Friday interview, but gold requires 4 specific people—Jason Chen, Emily Tan, Michael Liu, Sarah Wu; misses Sarah Wu's not-hired status and misidentifies the count.",
+ "first": "wrong",
+ "rule": null
+}

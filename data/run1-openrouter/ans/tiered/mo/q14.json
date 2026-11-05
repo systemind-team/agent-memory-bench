@@ -1,0 +1,58 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q14",
+ "kind": "update",
+ "q": "办公室租金现在是多少？",
+ "reply": [
+  "长宁那间1万8，8月底签的两年合同，还有一个月免租期。后来没搬过，所以应该还是这个数。",
+  "怎么突然问这个，要重新算预算吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "办公室租金"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "房租"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "租金"
+   },
+   "result": "#140 Mon 24 Aug 16:00 Them: 办公室换到长宁，谈到1万8，明天去签\n#141 Mon 24 Aug 16:01 aicoo: 长宁不错，租金省不少，明天几点的签？\n#142 Mon 24 Aug 16:02 Them: 下午3点，我顺便看看工位布局"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5578,
+   "out": 20,
+   "usd": 0.00005347832
+  },
+  {
+   "in": 5627,
+   "out": 19,
+   "usd": 0.00005538652
+  },
+  {
+   "in": 5675,
+   "out": 19,
+   "usd": 0.00005733532
+  },
+  {
+   "in": 5785,
+   "out": 52,
+   "usd": 0.00006448092
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10954
+}

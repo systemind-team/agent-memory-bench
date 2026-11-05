@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant lists dates (Sep 28, Oct 26) and events (legal signature on Sep 18, Priya wanting Oct 26 on Sep 30) that are not mentioned in the chat.",
+ "rule": null
+}

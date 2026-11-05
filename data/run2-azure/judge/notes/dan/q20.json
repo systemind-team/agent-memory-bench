@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant gave August 30 but the correct date from the chat is August 18.",
+ "rule": null
+}

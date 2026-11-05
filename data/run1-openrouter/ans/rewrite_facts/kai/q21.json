@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "Pricing那个Nov 1 launch和Nov 15 delay，中间隔了多久？",
+ "reply": [
+  "11月1日那次是Ben原定的launch日期，9月20日确认的。后来10月9日Ben说需要更多testing time，延到11月15日。再到10月26日你决定推迟到12月1日，因为A/B测试11月3日才开始跑。所以从11月1日到12月1日，中间隔了整整一个月。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3472,
+   "out": 89,
+   "usd": 0.00014819
+  }
+ ],
+ "memChars": 7290,
+ "promptChars": 12019
+}

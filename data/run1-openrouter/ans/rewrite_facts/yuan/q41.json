@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "Prof. Wang from MIT那篇论文发表在哪里了？",
+ "reply": [
+  "我查了一下记录，当时只说Prof. Wang from MIT讲RL的guest talk，没有记他具体发在哪篇论文。",
+  "要不要我搜一下MIT Prof. Wang做RL方向的最近论文？你记得他全名或者具体讲的什么内容吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Prof. Wang MIT"
+   },
+   "result": "#321 Wed 02 Sep 18:00 Them: 周五有个guest talk，speaker是Prof. Wang from MIT，讲RL。\n#322 Wed 02 Sep 18:05 aicoo: 已记录到日历：周五 guest talk，Prof. Wang from MIT，RL主题。\n#323 Wed 02 Sep 20:00 Them: 晚上写实验部分，先整理ablation结果。\n---\n#320 Wed 02 Sep 14:00 Them: 组会结束了，Prof. Lin说实验部分可以开始写了。\n#321 Wed 02 Sep 18:00 Them: 周五有个guest talk，speaker是Prof. Wang from MIT，讲RL。\n#322 Wed 02 Sep 18:05 aicoo: 已记录到日历：周五 guest talk，Prof. Wang from MIT，RL主题。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3867,
+   "out": 22,
+   "usd": 0.00005900804
+  },
+  {
+   "in": 4079,
+   "out": 62,
+   "usd": 0.00007086324
+  }
+ ],
+ "memChars": 5108,
+ "promptChars": 9411
+}

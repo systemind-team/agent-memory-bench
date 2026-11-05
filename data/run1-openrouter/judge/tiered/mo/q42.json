@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo explicitly says it couldn't find the computer model in the records and offers to ask or prompts for user input, which is the correct abstain response.",
+ "rule": null
+}

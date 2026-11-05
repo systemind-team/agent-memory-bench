@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "when did sam ortiz start?",
+ "reply": [
+  "sam ortiz 正式入職是 9 月 14 日（那週的週一），不過他之前就設定好了本地環境。你當時和 priya 一起帶他 onboarding。",
+  "今天是 11 月 1 日，on-call 輪值從今天開始——需要我提醒大衛開始值班嗎？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Sam Ortiz start date"
+   },
+   "result": "- 01 Sep: Sam Ortiz start date is September 14. 11 Sep: Sam starts the day after Labor Day; the office is ready.\n- 03 Sep: sent onboarding doc to Sam who emailed he's excited to start.\n- 15 Sep: Dan experienced an incident on Tuesday, September 15, just after Sam's start.\n- 17 Sep: Priya mentioned the cutover date might shift again, pending legal.\n- 23 Sep: When asked for meeting notes, start with Action Items at the top.\n- 16 Oct: Dan Okafor decided code review comments must start with priority: high, medium, or low.\n- 08 Sep: Had lunch with Sam and Priya.\n- 22 Aug: Dan will onboard Sam with "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3244,
+   "out": 22,
+   "usd": 0.00023532
+  },
+  {
+   "in": 3467,
+   "out": 81,
+   "usd": 0.000223542
+  }
+ ],
+ "memChars": 7111,
+ "promptChars": 11719
+}

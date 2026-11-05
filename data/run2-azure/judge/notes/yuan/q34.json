@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The user requested that when uncertain, replies should be in English to avoid ambiguity, but aicoo responded in Chinese.",
+ "rule": false
+}

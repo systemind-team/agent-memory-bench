@@ -1,0 +1,33 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "does sam have any pets?",
+ "reply": [
+  "doesn't look like it — nothing in my memory about Sam having pets. you're the only one with the biscuit bacon costume situation around here 🐶🥓"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Sam Ortiz pet"
+   },
+   "result": "- 01 Sep: Sam Ortiz start date is September 14. 11 Sep: Sam starts the day after Labor Day; the office is ready.\n- 14 Oct: Daniel 'Dan' Okafor has a pet that needs to keep up runs as per vet advice.\n- 08 Sep: Had lunch with Sam and Priya.\n- 22 Aug: Dan will onboard Sam with Priya.\n- 18 Sep: likes Sam's curiosity about the webhook queue.\n- 13 Sep: Sam is set up with local dev environment.\n- 24 Oct: Rollback plan written and shared with Priya and Sam.\n- 25 Sep: Dan Okafor sent Sam the wiki page for the deploy process. 29 Sep: Sam asked about the on-call docs again, and Daniel sent him the link.\n"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1485,
+   "out": 21,
+   "usd": 0.00003705156
+  },
+  {
+   "in": 1721,
+   "out": 42,
+   "usd": 0.00004833836
+  }
+ ],
+ "memChars": 908,
+ "promptChars": 5397
+}

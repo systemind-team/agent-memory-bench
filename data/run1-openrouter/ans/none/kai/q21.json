@@ -1,0 +1,21 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "Pricing那个Nov 1 launch和Nov 15 delay，中间隔了多久？",
+ "reply": [
+  "从11月1日到11月15日，中间隔了两周。",
+  "这个delay主要是为了加manual toggle，Yuki那边已经在做了。周一跟Grace和Ben的10:30 meeting会做最终决定，要确认是走11月15还是继续11月1。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1420,
+   "out": 66,
+   "usd": 0.0000214368
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4374
+}

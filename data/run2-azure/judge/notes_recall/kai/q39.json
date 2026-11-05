@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply organizes feedback by survey round rather than grouping by feature first as requested.",
+ "rule": false
+}

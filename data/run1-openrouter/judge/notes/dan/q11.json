@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant gives the cutover date as nov 15, but the latest chat message confirms it is oct 12.",
+ "rule": null
+}

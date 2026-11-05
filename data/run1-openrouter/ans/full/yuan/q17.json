@@ -1,0 +1,46 @@
+{
+ "arm": "full",
+ "id": "yuan",
+ "qid": "q17",
+ "kind": "aggregate",
+ "q": "我最后投了几个fellowship，分别是哪些？",
+ "reply": [
+  "周周，你最后只投了Facebook fellowship一个，NSF放弃了。截止日期是12月20日，之前已经设了提醒。另外之前也提过想准备NSF但方向不太对就没继续。",
+  "需要我把Facebook fellowship的申请材料清单再发你一次吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "fellowship 投 了 哪些 申请 放弃 NSF Facebook"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "fellowship Facebook NSF 放弃"
+   },
+   "result": "#785 Tue 20 Oct 16:30 Them: 好主意，我看看hotpotQA能不能用planning框架做。\n#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 27981,
+   "out": 34,
+   "usd": 0.000515322
+  },
+  {
+   "in": 28044,
+   "out": 26,
+   "usd": 0.000519552
+  },
+  {
+   "in": 28165,
+   "out": 72,
+   "usd": 0.000538722
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 59352
+}

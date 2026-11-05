@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The chat only shows one scope change (custom analytics add-on increasing value from 800k to 950k), not three as stated in the reply.",
+ "rule": null
+}

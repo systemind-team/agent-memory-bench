@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q1",
+ "kind": "recall",
+ "q": "那个Q3 revenue target我们设了多少来着，Grace问起来我不想翻记录。",
+ "reply": [
+  "凯哥，Q3 revenue target是2.8M，目前tracking towards这个数，Grace之前在all-hands也提过。",
+  "你周一10:30和Grace确认pricing launch时可能会被问到，我帮你记着。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 5106,
+   "out": 58,
+   "usd": 0.0002120132
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14927
+}

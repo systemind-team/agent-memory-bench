@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "give me standup notes for today",
+ "reply": [
+  "周日没有 standup 啦 dan the builder。好好休息，明天再处理那些事：cutover checklist 还差 rollback steps，记得加上 dry run 的结果",
+  "今天跟 ade 和 biscuit 有什么计划吗"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "standup notes bullet points timestamps"
+   },
+   "result": "#266 Fri 04 Sep 09:30 Them: standup in 30. what do i have? let me think\n#267 Fri 04 Sep 11:00 Them: for standup notes, just give me bullet points with timestamps\n#268 Fri 04 Sep 11:01 aicoo: sure. i'll format them shortly"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2995,
+   "out": 25,
+   "usd": 0.00003216332
+  },
+  {
+   "in": 3106,
+   "out": 56,
+   "usd": 0.00003918712
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10692
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q16",
+ "kind": "update",
+ "q": "Aurora最初名字是Aurora啥，我记得有歧义。",
+ "reply": [
+  "凯哥，Aurora全名是Aurora Health，总部在芝加哥那家医疗数据平台公司。你是担心名字歧义还是跟别的Aurora搞混？我记得Grace在Q3 review时问过这个问题，说是业内都知道是Aurora Health。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5105,
+   "out": 65,
+   "usd": 0.00005455828
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14910
+}

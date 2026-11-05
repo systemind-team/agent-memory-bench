@@ -1,0 +1,35 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q21",
+ "kind": "temporal",
+ "q": "did stripe webhooks or sam's onboarding happen first?",
+ "reply": [
+  "Sam's onboarding started Sep 14 — he was asking about stripe webhook retry logic by Oct 26, but the webhook work was already being done by Tom in August. So onboarding came first, the stripe webhooks were already in flight.",
+  "具体来说: Tom 7月开始做 webhook 重试逻辑, Sam 9月14日入职, 然后后来才参与进来问问题。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Stripe webhook Sam Ortiz onboarding"
+   },
+   "result": "[candidate-sam] 08 Sep: Sam started Sep 14 confirmed; set up laptop on 4th floor IT desk; lunch with Dan and Priya (was 03 Sep: Sam emailed saying excited to start; Dan sent him the onboarding doc); Sam Ortiz onboarding starts with David Chen\n[stripe-webhook] 26 Oct: Sam asked about stripe webhook retry logic; Dan sent him the doc\n[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[stripe-webhook] 19 Aug: working on stri"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2496,
+   "out": 32,
+   "usd": 0.000129664
+  },
+  {
+   "in": 2861,
+   "out": 98,
+   "usd": 0.000243274
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9111
+}

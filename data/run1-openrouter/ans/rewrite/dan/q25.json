@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "how many times did the cutover date move? list them.",
+ "reply": [
+  "算了一下，cutover 日期动过几次：",
+  "8月19日定到 Nov5，8月5日 Priya 想推到 Oct12，9月18日法律签字后 Oct12 锁定，9月30日 Priya 又想改到 Oct26，10月3日 Oct26 锁定，10月20日说 billing cutover locked Oct12 不再改。",
+  "所以一共变动了四次：Nov5 → Oct12 → Oct26 → 回到 Oct12。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3001,
+   "out": 110,
+   "usd": 0.00003930892
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10713
+}

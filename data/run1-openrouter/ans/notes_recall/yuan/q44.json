@@ -1,0 +1,59 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "Coco男朋友是坐哪家航空公司从上海飞过来的？我记得你记过航班信息。",
+ "reply": [
+  "翻了翻记录，当时Coco只说了她男朋友下月从上海飞过来（8月24号吃烧烤时说的），但没提到具体哪家航空公司。",
+  "可能后来你们聊天时她提过但我没记下来。要不要直接问问Coco？或者我帮你记一下，下次知道了就补上。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Coco 男朋友 上海 航班 航空公司"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Coco 男朋友 飞 上海 航空"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Coco 男朋友 上海 航空 航班"
+   },
+   "result": "[个人] 24 Aug: 今晚跟Coco吃烧烤，她说她男朋友下月从上海飞过来\n[个人] 29 Aug: 晚上跟Coco看电影，她男朋友下月来她挺开心\n[个人] 18 Aug: 月底前需提醒Coco转房租（16 Aug Coco问自习）\n[人物] 23 Aug: Coco做了饭叫一起吃（之前Coco多为点外卖或自习邀请）\n[生活] 22 Sep Coco去超市，一起去了买点东西\n26 Sep Coco说晚上做火锅\n[生活] 22 Oct 18:00 跟Coco去楼下吃饭；24 Oct 14:00 和Coco去布鲁克林逛了一圈买了点东西\n[个人] 22 Oct 18:00 跟Coco去楼下吃饭\n[生活] 18 Sep: Coco的房租每个月1200，周予安的1400（因为房间大）；30 Sep: Coco说周末去法拉盛买菜，那里东西便宜\n[个人] 08 Aug: Coco的猫叫年糕，已经5岁了，特别胖\n[个人] 22 Aug: Coco去超市，一起去了买点东西"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4022,
+   "out": 28,
+   "usd": 0.00006578824
+  },
+  {
+   "in": 4079,
+   "out": 28,
+   "usd": 0.0000431578
+  },
+  {
+   "in": 4136,
+   "out": 28,
+   "usd": 0.00007041664
+  },
+  {
+   "in": 4433,
+   "out": 75,
+   "usd": 0.00008629124
+  }
+ ],
+ "memChars": 5780,
+ "promptChars": 10145
+}

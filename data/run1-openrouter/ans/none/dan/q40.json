@@ -1,0 +1,69 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q40",
+ "kind": "abstain",
+ "q": "when is tom's PTO?",
+ "reply": [
+  "I don't have Tom's PTO dates in our chat. Would you like me to check his calendar or the team schedule doc?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom PTO"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom vacation"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom off"
+   },
+   "result": "#427 Tue 22 Sep 14:00 Them: priya wants a dry run of the migration this friday\n#428 Tue 22 Sep 17:15 Them: saw david chen at the office. he sat next to tom\n#429 Wed 23 Sep 08:50 Them: when i ask for meeting notes, start with Action Items at the top\n---\n#330 Sun 13 Sep 17:02 aicoo: ha. enjoy the run.\n#331 Mon 14 Sep 08:20 Them: tom's dog is named waffles. he brings him to the office sometimes\n#332 Mon 14 Sep 08:22 aicoo: waffles is a great name for a dog. bet he and biscuit would get along\n---\n#119 Fri 14 Aug 10:16 aicoo: coordination works. progress\n#120 Fri 14 Aug 12:00 Them: on-call handoff "
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Tom PTO scheduled"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1137,
+   "out": 21,
+   "usd": 0.000032382
+  },
+  {
+   "in": 1187,
+   "out": 20,
+   "usd": 0.000036702
+  },
+  {
+   "in": 1236,
+   "out": 20,
+   "usd": 0.000041112
+  },
+  {
+   "in": 1495,
+   "out": 22,
+   "usd": 0.000064782
+  },
+  {
+   "in": 1546,
+   "out": 33,
+   "usd": 0.00005292
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4180
+}

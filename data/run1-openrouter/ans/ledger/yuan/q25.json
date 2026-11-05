@@ -1,0 +1,34 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q25",
+ "kind": "update",
+ "q": "论文title在改到Context-Aware Planning之后又改了什么？",
+ "reply": [
+  "从Context-Aware Planning改成Context-Aware Planning via Hierarchical Decomposition，是在10月26日最终确定的。",
+  "当时环境4结果还在跑，你决定加via Hierarchical Decomposition让标题更具体，突出层级分解这个核心方法。之后没有再改过了。"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "论文标题 Context-Aware Planning 修改 最终"
+   },
+   "result": "[345] 29 Sep · decision: Mon 28 Sep 19:00 论文标题最终定为Context-Aware Planning  (from #540, #541, #542)\n[554] 27 Oct · fact: Mon 26 Oct 23:40 论文标题最终定为Context-Aware Planning via Hierarchical Decomposition  → replaced 28 Oct by [560] Tue 27 Oct 22:30 论文标题更新为Context-Aware Planning via Hierarchical Decomposition  (from #864)\n[335] 28 Sep · fact: Sun 27 Sep 14:30 论文标题为Context-Aware Planning  → replaced 29 Sep by [345] Mon 28 Sep 19:00 论文标题最终定为Context-Aware Planning  (from #329)\n[329] 27 Sep · fact: Sun 27 Sep 01:00 论文标题改为Context-Aware Planning  (from #514)\n[268] 14 Sep · fact: Sun 13 Sep 22:30 论文标题改为Cont"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4589,
+   "out": 28,
+   "usd": 0.00004723404
+  },
+  {
+   "in": 5068,
+   "out": 65,
+   "usd": 0.00006968584
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11692
+}

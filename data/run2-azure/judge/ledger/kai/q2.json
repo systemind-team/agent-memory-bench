@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly states the final deal value as $950K, matching the signed contract amount from Sep 26, and does not use the stale 800k figure.",
+ "rule": null
+}

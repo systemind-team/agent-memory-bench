@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q24",
+ "kind": "aggregate",
+ "q": "Pricing launch postpone了几次，从啥时候推到啥时候？",
+ "reply": [
+  "从最早的计划算起：定价最初是Ben在8月底提的v3，原本9月底定稿。然后推到10月15日review，再推到11月1日上线。后来因为A/B测试多跑了两周，Ben建议直接12月1日launch，你上周五和Grace、Ben约了明天10:30确认这个日期。",
+  "所以现在是：明天meeting如果Grace点头，12月1日正式上线$44/user的v3定价。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 8815,
+   "out": 113,
+   "usd": 0.00008435868
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26047
+}

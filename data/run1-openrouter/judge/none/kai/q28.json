@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the task was completed on August 28, but the chat only shows a commitment to remind on Tuesday (September 1), with no evidence the sync actually occurred or was closed.",
+ "rule": null
+}

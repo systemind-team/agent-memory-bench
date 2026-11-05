@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It gives the latest count of 3 candidates, which matches the final state after all three interviews were conducted.",
+ "rule": null
+}

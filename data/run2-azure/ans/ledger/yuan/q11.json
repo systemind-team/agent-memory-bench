@@ -1,0 +1,35 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "我现在论文的title是什么？",
+ "reply": [
+  "当前论文标题是：**Context-Aware Planning via Hierarchical Decomposition**（10月27日最终确认）。",
+  "这个标题已更新在所有文档和overleaf里。如果需要调整，随时告诉我。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "论文标题 Context-Aware Planning via Hierarchical Decomposition"
+   },
+   "result": "[553] 27 Oct · fact: Mon 26 Oct 18:45 论文标题改为Context-Aware Planning via Hierarchical Decomposition  (from #862)\n[560] 28 Oct · fact: Tue 27 Oct 22:30 论文标题更新为Context-Aware Planning via Hierarchical Decomposition  (from #873)\n[554] 27 Oct · fact: Mon 26 Oct 23:40 论文标题最终定为Context-Aware Planning via Hierarchical Decomposition  → replaced 28 Oct by [560] Tue 27 Oct 22:30 论文标题更新为Context-Aware Planning via Hierarchical Decomposition  (from #864)\n[555] 27 Oct · done: Tue 27 Oct 08:30 aicoo更新所有文档中的论文标题为Context-Aware Planning via Hierarchical Decomposition  (from #866)\n[268] 14 Sep · fact: Sun 13 Sep 22:"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4558,
+   "out": 25,
+   "usd": 0.000192172
+  },
+  {
+   "in": 5055,
+   "out": 57,
+   "usd": 0.000314462
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11667
+}

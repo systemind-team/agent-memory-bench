@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant says the title was changed three times, but the correct answer is five changes.",
+ "rule": null
+}

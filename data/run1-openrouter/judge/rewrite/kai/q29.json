@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims the meeting was changed to a Monday 10:30 meeting with Grace, while the original chat only shows a meeting with Ben scheduled for Oct 15, with no evidence of completion or rescheduling.",
+ "rule": null
+}

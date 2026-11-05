@@ -1,0 +1,58 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "大伟电脑是什么型号？",
+ "reply": [
+  "记忆里没有记录大伟电脑的具体型号。只查到当时入职时确认过电脑已备好，但没有记型号。需要我去问他，还是你自己问问？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "大伟电脑型号"
+   },
+   "result": "[181] 18 Sep · feeling: 大伟电梯广告扫码才63人，效果差  (from #356)\n[118] 31 Aug · fact: 大伟入职准备：合同和电脑已备好，9月1日报到  (from #208)\n[101] 28 Aug · decision: 阿杰电脑换成MacBook Air，预算1万  (from #183)\n[102] 29 Aug · decision: 阿杰电脑换成MacBook Air，预算1万，省下的钱贴到iOS推广  (from #184, #185)\n[43] 16 Aug · fact: 大伟offer还没发  (from #79)\n[117] 31 Aug · fact: 大伟入职准备待确认  (from #207)\n[121] 31 Aug · ask: 大伟想提前一天入职  (from #215)\n[17] 08 Aug · fact: 大伟薪资offer开1万8加绩效  (from #27)\n[129] 02 Sep · done: 大伟入职办公室已布置好  (from #229)\n[295] 10 Oct · fact: 大伟签了第二家养老驿站  (from #562)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 电脑 型号"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 设备"
+   },
+   "result": "#494 Fri 02 Oct 15:00 Them: 10%还行，先跑起来\n#495 Fri 02 Oct 16:30 aicoo: 大伟说下周二带设备过去部署。\n#496 Sat 03 Oct 09:00 Them: 昨天凯旋路驿站反馈怎么样"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2597,
+   "out": 22,
+   "usd": 0.00009945
+  },
+  {
+   "in": 2894,
+   "out": 24,
+   "usd": 0.00016294
+  },
+  {
+   "in": 2947,
+   "out": 22,
+   "usd": 0.000127126
+  },
+  {
+   "in": 3047,
+   "out": 41,
+   "usd": 0.000158766
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6684
+}

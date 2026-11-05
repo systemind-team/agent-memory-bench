@@ -1,0 +1,22 @@
+{
+ "arm": "notes",
+ "id": "mo",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning, what's on my plate today?",
+ "reply": [
+  "Morning, it's Sunday. Your calendar is clear — no meetings.",
+  "Main thing: quarterly review prep is due Mon 03 Nov. You asked me to remind you on 18 Oct.",
+  "Want me to pull together the numbers (cash, users, progress vs last quarter) so you have a draft to work from Monday morning?"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 2452,
+   "out": 74,
+   "usd": 0.00003072608
+  }
+ ],
+ "memChars": 2286,
+ "promptChars": 6278
+}

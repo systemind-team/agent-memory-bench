@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "回复给出了$44/user/month但将launch日期错误地说成12月1号，且未提及当前有效的最终定价$44，而是混合了过时的日期信息。",
+ "first": "stale",
+ "rule": null
+}

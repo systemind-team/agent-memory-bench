@@ -1,0 +1,33 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "what was the column name i dropped by accident?",
+ "reply": [
+  "是 `billing_status` 那一列。8月18日那次事故，3小时恐慌，幸好回滚成功了。现在ci里加了dry-run步骤，不会再发生了。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "dropped column billing_status"
+   },
+   "result": "#236 Sat 29 Aug 18:05 aicoo: nice, asheville here you come\n#237 Sun 30 Aug 08:30 Them: the dropped column was `billing_status`. 3h of panic.\n#238 Sun 30 Aug 08:30 aicoo: critical column. glad rollback worked"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21348,
+   "out": 23,
+   "usd": 0.00017846136
+  },
+  {
+   "in": 21454,
+   "out": 44,
+   "usd": 0.00018447016
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64119
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant provided the latest title 'Context-Aware Planning via Hierarchical Decomposition' from October 27, mentioning the history without claiming the outdated 'Hierarchical Planning with Graph Attention' as current.",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly states the count is 3 and lists all three candidates by name (Maria, Jordan, David), matching the chat history exactly.",
+ "rule": null
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "mo",
+ "qid": "q31",
+ "kind": "open_loop",
+ "q": "11月1号季度复盘提醒，还没关吧？",
+ "reply": [
+  "老板，11月1号季度复盘提醒到了。\n\n上周 offsite 刚结束，这周你日程怎么样，蓝驰合伙人那边也推到11月了，要不要安排在一起聊"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 4453,
+   "out": 39,
+   "usd": 0.00006755028
+  }
+ ],
+ "memChars": 5197,
+ "promptChars": 9186
+}

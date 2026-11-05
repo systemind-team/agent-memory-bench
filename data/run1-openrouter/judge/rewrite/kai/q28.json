@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the task is completed based on a meeting that supposedly happened last Friday, but the chat history only shows an unfulfilled reminder commitment from 28 Aug with no evidence it was ever closed.",
+ "rule": null
+}

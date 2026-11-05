@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant's reply states the initial cash was 208万4千, but the chat only says 账上现金只剩 215 万, with no mention of 208万4千.",
+ "rule": null
+}

@@ -1,0 +1,59 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "Is Lily going on vacation anytime soon? 她是不是请假了?",
+ "reply": [
+  "没看到Lily最近请假的消息。她上周刚正式转Enterprise Sales，手头有Aurora和一些客户的handover正在跟Emily交接，应该近期都在。",
+  "怎么了凯哥，你是在找她拿Aurora的quote补customer testimonial吗？还是别的什么事？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lily leave vacation请假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lily 请假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lily leave"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 8815,
+   "out": 23,
+   "usd": 0.00009368044
+  },
+  {
+   "in": 8867,
+   "out": 22,
+   "usd": 0.00007908068
+  },
+  {
+   "in": 8918,
+   "out": 21,
+   "usd": 0.00009769984
+  },
+  {
+   "in": 8968,
+   "out": 68,
+   "usd": 0.00008691648
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26058
+}

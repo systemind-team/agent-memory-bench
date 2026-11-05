@@ -1,0 +1,5 @@
+{
+ "verdict": "partial",
+ "why": "The reply lists three trips but misstates the dates and purposes; the first trip was on Aug 24 (day 22), not Aug 12, and the second trip on Sep 19 was a return trip already in Singapore, not a separate new trip, so the count is wrong.",
+ "rule": null
+}

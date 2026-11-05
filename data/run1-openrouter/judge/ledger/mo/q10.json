@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant says the first tranche arrived on Oct 26 and then speculates about the amount, failing to recall the correct amount of 300万 stated in the chat.",
+ "rule": null
+}

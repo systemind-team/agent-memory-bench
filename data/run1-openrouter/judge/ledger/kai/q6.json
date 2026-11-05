@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly recalled Q3 actual revenue as 2.35M, matching the chat fact.",
+ "rule": null
+}

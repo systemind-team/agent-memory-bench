@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly identifies the open commitment from August and confirms the review was never completed, which matches the required answer.",
+ "rule": null
+}

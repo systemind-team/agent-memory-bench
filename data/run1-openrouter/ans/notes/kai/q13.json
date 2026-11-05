@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q13",
+ "kind": "update",
+ "q": "Pricing最初是多少，Ben第一次propose的。",
+ "reply": [
+  "凯哥，我查了一下记录。Ben最早在8月11日第一次提了pricing draft，当时没具体数字。第一次有明确价格是8月16日他给的v2，propose **$39/user/month** 的premium tier。后来到8月30日他出了v3，提价到$49，最后你们9月17日定在了$44。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12763,
+   "out": 84,
+   "usd": 0.00012588436
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50339
+}

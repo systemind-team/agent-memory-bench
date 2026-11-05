@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The query asks for specific personal issues affecting work in Q3–Q4; the assistant omitted the school play (day 33) and father's follow-up (day 67), misstated dates, and added unsupported items like mother's blood pressure.",
+ "first": "wrong",
+ "rule": null
+}

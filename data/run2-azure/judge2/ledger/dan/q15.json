@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The reply correctly identifies 3F8D1A as the key after the first change, but then says '7C2E9B was still working fine as of last night's on-call,' presenting an outdated value as current.",
+ "first": "stale",
+ "rule": null
+}

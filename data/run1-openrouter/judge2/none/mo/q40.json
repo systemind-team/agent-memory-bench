@@ -1,0 +1,6 @@
+{
+ "verdict": "correct",
+ "why": "Message #483 explicitly states Mia's Japan trip leave dates, so the assistant's answer is supported by the chat.",
+ "first": "made_up",
+ "rule": null
+}

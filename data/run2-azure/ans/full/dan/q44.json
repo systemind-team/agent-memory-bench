@@ -1,0 +1,58 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "what's priya's favorite restaurant?",
+ "reply": [
+  "i don't think you've mentioned priya's favorite restaurant in our chat. only thing that comes close is you had lunch at dig inn with her once. want me to ask her or check the team slack?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "priya restaurant favorite"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "priya lunch dinner"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "priya"
+   },
+   "result": "#812 Thu 29 Oct 12:05 aicoo: good sign. shows initiative\n#813 Thu 29 Oct 14:00 Them: priya sent the cutover checklist template. looks thorough\n#814 Thu 29 Oct 14:05 aicoo: fill it in over the next few days. dry run again next week\n---\n#795 Tue 27 Oct 15:35 aicoo: might need a replacement before cutover\n#796 Wed 28 Oct 09:00 Them: priya asked about dry run results. i told her clean\n#797 Wed 28 Oct 09:05 aicoo: she'll be happy with that\n---\n#778 Mon 26 Oct 10:35 aicoo: good. that doc covers the edge cases\n#779 Mon 26 Oct 11:00 Them: priya wants cutover checklist ready by friday\n#780 Mon 26 Oct 1"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21323,
+   "out": 22,
+   "usd": 0.000686758
+  },
+  {
+   "in": 21374,
+   "out": 22,
+   "usd": 0.000697468
+  },
+  {
+   "in": 21425,
+   "out": 20,
+   "usd": 0.000707058
+  },
+  {
+   "in": 22081,
+   "out": 49,
+   "usd": 0.000861058
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64107
+}

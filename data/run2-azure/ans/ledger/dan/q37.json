@@ -1,0 +1,85 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q37",
+ "kind": "pref_apply",
+ "q": "give me standup notes for today",
+ "reply": [
+  "- 10:05 — yesterday: tom's stripe refactor v2 in review, edge cases covered",
+  "- cutover checklist: rollback steps and dry run results to add. priya sent the template friday",
+  "- battery at 79%. ordering a new one this week",
+  "- monday dry run for the database migration? priya approved the rollback plan and wanted that"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "standup notes template bullet points timestamps"
+   },
+   "result": "[157] 04 Sep · pref: standup notes: bullet points with timestamps  (from #267)\n[307] 06 Oct · pref: priya likes bullet points for status updates  (from #552)\n[469] 29 Oct · fact: priya sent the cutover checklist template.  (from #813)\n[105] 22 Aug · done: handoff notes done  (from #176)\n[94] 19 Aug · fact: standup pushed to 10  (from #157)\n[435] 23 Oct · plan: sprint planning: committed to 23 points  (from #743)\n[73] 15 Aug · done: on-call handoff notes ready  (from #120)\n[378] 15 Oct · fact: standup done, sprint is on track  (from #647)\n[387] 16 Oct · done: on-call handoff notes ready for len"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "status yesterday Friday 30 Oct"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Friday 30 stripe refactor cutover checklist"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "tom stripe refactor v2 review edge cases"
+   },
+   "result": "#824 Fri 30 Oct 18:35 aicoo: hope you saved some for roasting\n#825 Sat 31 Oct 09:30 Them: tom's stripe refactor v2 is in review. edge cases look covered\n#826 Sat 31 Oct 09:35 aicoo: nice. that should be the last big piece before cutover"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover checklist rollback steps dry run"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3063,
+   "out": 26,
+   "usd": 0.000153726
+  },
+  {
+   "in": 3334,
+   "out": 24,
+   "usd": 0.000163692
+  },
+  {
+   "in": 3387,
+   "out": 27,
+   "usd": 0.000634742
+  },
+  {
+   "in": 3443,
+   "out": 27,
+   "usd": 0.000234086
+  },
+  {
+   "in": 3557,
+   "out": 26,
+   "usd": 0.000165818
+  },
+  {
+   "in": 3626,
+   "out": 85,
+   "usd": 0.000213348
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10796
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It says the deal is still at 950k and hasn't closed, but the chat shows it closed at 950k on 26 Sep, so the reply misses the final status while giving a past value as current.",
+ "rule": null
+}

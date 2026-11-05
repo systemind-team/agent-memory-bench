@@ -1,0 +1,645 @@
+{
+ "events": [
+  {
+   "id": "e1",
+   "day": 1,
+   "time": "09:15",
+   "who": "u",
+   "text": "Morning aicoo, Q3 revenue target is 2.4 million USD, just finalized with Grace.",
+   "kind": "recall"
+  },
+  {
+   "id": "e2",
+   "day": 3,
+   "time": "14:20",
+   "who": "u",
+   "text": "Ravi的team要在September 15前finish那个integration，tight deadline啊。",
+   "kind": "temporal"
+  },
+  {
+   "id": "e3",
+   "day": 5,
+   "time": "10:05",
+   "who": "u",
+   "text": "Lily刚confirm了，那enterprise deal worth 800k, 客户是Aurora Health。",
+   "kind": "recall"
+  },
+  {
+   "id": "e4",
+   "day": 7,
+   "time": "11:30",
+   "who": "u",
+   "text": "Yuki redesign了onboarding flow，AB test shows 23% conversion lift, impressive.",
+   "kind": "recall"
+  },
+  {
+   "id": "e5",
+   "day": 10,
+   "time": "08:45",
+   "who": "u",
+   "text": "Booked flight to Singapore for Sep 1, need to visit Omar's team那边。",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e6",
+   "day": 12,
+   "time": "16:50",
+   "who": "u",
+   "text": "老爸又进医院了，schedule for this week完全被打乱，Ben take over the pricing review.",
+   "kind": "noise"
+  },
+  {
+   "id": "e7",
+   "day": 14,
+   "time": "13:10",
+   "who": "u",
+   "text": "Just got pricing model v2 from Ben, plan to launch 39 per user per month.",
+   "kind": "update"
+  },
+  {
+   "id": "e8",
+   "day": 16,
+   "time": "10:25",
+   "who": "u",
+   "text": "Lily说Aurora deal可能会有scope change，要加custom analytics module.",
+   "kind": "noise"
+  },
+  {
+   "id": "e9",
+   "day": 18,
+   "time": "09:00",
+   "who": "u",
+   "text": "Customer interview里有3家requested dark mode，记下来给Yuki。",
+   "kind": "recall"
+  },
+  {
+   "id": "e10",
+   "day": 20,
+   "time": "15:40",
+   "who": "u",
+   "text": "Ravi confirmed integration rollout delayed to Sep 22，因为security audit。",
+   "kind": "temporal"
+  },
+  {
+   "id": "e11",
+   "day": 22,
+   "time": "07:55",
+   "who": "u",
+   "text": "Flew to Singapore today, meeting Omar and two enterprise prospects。",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e12",
+   "day": 25,
+   "time": "14:30",
+   "who": "u",
+   "text": "季度roadmap review with Grace, 把dark mode priority提到P1。",
+   "kind": "noise"
+  },
+  {
+   "id": "e13",
+   "day": 28,
+   "time": "10:10",
+   "who": "u",
+   "text": "Ben proposed pricing change to 49 per user for premium tier, v3 now。",
+   "kind": "update"
+  },
+  {
+   "id": "e14",
+   "day": 30,
+   "time": "16:05",
+   "who": "u",
+   "text": "New hire for PM role, first candidate Jason Chen interviewed, 8 years exp.",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e15",
+   "day": 33,
+   "time": "09:25",
+   "who": "u",
+   "text": "Lily update: Aurora deal pushed to Q4 close, value now 950k with add-ons。",
+   "kind": "recall"
+  },
+  {
+   "id": "e16",
+   "day": 36,
+   "time": "11:55",
+   "who": "u",
+   "text": "Second PM candidate Emily Tan interviewed, strong in B2B, 6 years exp。",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e17",
+   "day": 38,
+   "time": "08:35",
+   "who": "u",
+   "text": "Yuki finished dark mode mockups, 需要engineering estimate by next week。",
+   "kind": "noise"
+  },
+  {
+   "id": "e18",
+   "day": 40,
+   "time": "13:45",
+   "who": "u",
+   "text": "老爸情况稳定了，我可以focus on Aurora negotiations again。",
+   "kind": "noise"
+  },
+  {
+   "id": "e19",
+   "day": 42,
+   "time": "10:20",
+   "who": "u",
+   "text": "Q3 revenue hit 2.1M so far, tracking slightly below target, Grace要review。",
+   "kind": "recall"
+  },
+  {
+   "id": "e20",
+   "day": 44,
+   "time": "15:10",
+   "who": "u",
+   "text": "Third PM candidate Michael Liu interviewed, 10 years, ex-Microsoft.",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e21",
+   "day": 46,
+   "time": "09:40",
+   "who": "u",
+   "text": "Pricing final decision: 44 per user per month, launch Nov 1, after debate with Ben。",
+   "kind": "update"
+  },
+  {
+   "id": "e22",
+   "day": 48,
+   "time": "14:00",
+   "who": "u",
+   "text": "Flew back to Shanghai, Omar说Singapore pipeline healthy, 5 new leads。",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e23",
+   "day": 50,
+   "time": "11:15",
+   "who": "u",
+   "text": "Ravi confirmed integration went live Sep 22, 延迟了但还算顺利。",
+   "kind": "temporal"
+  },
+  {
+   "id": "e24",
+   "day": 53,
+   "time": "08:50",
+   "who": "u",
+   "text": "Grace asked me to present Q4 roadmap on Oct 10, Friday. 要准备deck。",
+   "kind": "temporal"
+  },
+  {
+   "id": "e25",
+   "day": 55,
+   "time": "16:30",
+   "who": "u",
+   "text": "Aurora contract signed, 950k deal closed, Lily和我庆祝了一下。",
+   "kind": "recall"
+  },
+  {
+   "id": "e26",
+   "day": 58,
+   "time": "10:40",
+   "who": "u",
+   "text": "Yuki的dark mode implementation started, target mid-Nov release。",
+   "kind": "noise"
+  },
+  {
+   "id": "e27",
+   "day": 60,
+   "time": "13:05",
+   "who": "u",
+   "text": "Hired Emily Tan as PM, 她接受offer了, start date Oct 26。",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e28",
+   "day": 63,
+   "time": "09:55",
+   "who": "u",
+   "text": "Q3 ended, revenue final 2.35M, 差一点点到target, Grace not thrilled。",
+   "kind": "recall"
+  },
+  {
+   "id": "e29",
+   "day": 65,
+   "time": "14:50",
+   "who": "u",
+   "text": "Flew to Singapore again for regional conference, spoke on SaaS trends。",
+   "kind": "aggregate"
+  },
+  {
+   "id": "e30",
+   "day": 68,
+   "time": "11:25",
+   "who": "u",
+   "text": "Pricing launch delayed to Nov 15, Ben需要更多testing time。",
+   "kind": "update"
+  },
+  {
+   "id": "e31",
+   "day": 70,
+   "time": "08:10",
+   "who": "u",
+   "text": "Remember Aurora deal名字是Aurora Health, not Aurora TTech，差点confuse。",
+   "kind": "recall"
+  },
+  {
+   "id": "e32",
+   "day": 72,
+   "time": "12:35",
+   "who": "u",
+   "text": "Q4 planning offsite in Hangzhou, Oct 20-21, Grace booked 民宿。",
+   "kind": "temporal"
+  },
+  {
+   "id": "e33",
+   "day": 75,
+   "time": "15:20",
+   "who": "u",
+   "text": "Met fourth PM candidate Sarah Wu, but we already hired Emily, just casual chat。",
+   "kind": "noise"
+  },
+  {
+   "id": "e34",
+   "day": 77,
+   "time": "10:05",
+   "who": "u",
+   "text": "Omar reported Singapore Q3 sales 600k, best quarter ever, 厉害了。",
+   "kind": "recall"
+  },
+  {
+   "id": "e35",
+   "day": 80,
+   "time": "09:30",
+   "who": "u",
+   "text": "Pricing最终launch date set to Dec 1, 因为engineering资源紧张。",
+   "kind": "update"
+  },
+  {
+   "id": "e36",
+   "day": 82,
+   "time": "14:15",
+   "who": "u",
+   "text": "Dark mode beta feedback很好，Yuki已经在做iterations。",
+   "kind": "noise"
+  },
+  {
+   "id": "e37",
+   "day": 84,
+   "time": "11:50",
+   "who": "u",
+   "text": "Emily started onboarding, taking over Lily's accounts, Lily moving to new role。",
+   "kind": "noise"
+  },
+  {
+   "id": "e38",
+   "day": 86,
+   "time": "08:40",
+   "who": "u",
+   "text": "Q4 revenue tracking towards 2.8M target, Grace mentioned in all-hands。",
+   "kind": "noise"
+  },
+  {
+   "id": "e39",
+   "day": 88,
+   "time": "16:10",
+   "who": "u",
+   "text": "Singapore office expansion approved, 明年Q1 start, 需要hire 10 more。",
+   "kind": "noise"
+  },
+  {
+   "id": "e40",
+   "day": 81,
+   "time": "10:00",
+   "who": "u",
+   "text": "Dad's checkup went well, finally discharged from hospital yesterday.",
+   "kind": "noise"
+  },
+  {
+   "id": "e41",
+   "day": 67,
+   "time": "15:30",
+   "who": "u",
+   "text": "需要take half day off tomorrow, 老爸要follow-up appointment at hospital.",
+   "kind": "noise"
+  },
+  {
+   "id": "e42",
+   "day": 33,
+   "time": "20:00",
+   "who": "u",
+   "text": "Daughter's school play tonight, 我得早点走.",
+   "kind": "noise"
+  }
+ ],
+ "probes": [
+  {
+   "id": "q1",
+   "kind": "recall",
+   "q": "那个Q3 revenue target我们设了多少来着，Grace问起来我不想翻记录。",
+   "gold": "2.4 million USD",
+   "evidence": [
+    "e1"
+   ]
+  },
+  {
+   "id": "q2",
+   "kind": "recall",
+   "q": "Lily搞的那个大单，Aurora那个，最后签了多少？",
+   "gold": "950k with add-ons",
+   "stale": [
+    "800k"
+   ],
+   "evidence": [
+    "e3",
+    "e15",
+    "e25"
+   ]
+  },
+  {
+   "id": "q3",
+   "kind": "recall",
+   "q": "Yuki那个onboarding redesign的conversion lift是多少啊，我忘了具体数字。",
+   "gold": "23%",
+   "evidence": [
+    "e4"
+   ]
+  },
+  {
+   "id": "q4",
+   "kind": "recall",
+   "q": "Customer interview里多少人requested dark mode？我记不清了。",
+   "gold": "3",
+   "evidence": [
+    "e9"
+   ]
+  },
+  {
+   "id": "q5",
+   "kind": "recall",
+   "q": "Aurora那个客户全名叫什么，我老怕写错。",
+   "gold": "Aurora Health",
+   "stale": [
+    "Aurora Tech"
+   ],
+   "evidence": [
+    "e3",
+    "e31"
+   ]
+  },
+  {
+   "id": "q6",
+   "kind": "recall",
+   "q": "Q3 actual revenue是多少来着，Grace要final number。",
+   "gold": "2.35M",
+   "evidence": [
+    "e28"
+   ]
+  },
+  {
+   "id": "q7",
+   "kind": "recall",
+   "q": "Singapore Q3 sales Omar报了多少，我记得他说best quarter ever。",
+   "gold": "600k",
+   "evidence": [
+    "e34"
+   ]
+  },
+  {
+   "id": "q8",
+   "kind": "recall",
+   "q": "Pricing per user那个launch plan，最后定的价格是44还是多少？",
+   "gold": "44 per user per month",
+   "evidence": [
+    "e21"
+   ]
+  },
+  {
+   "id": "q9",
+   "kind": "recall",
+   "q": "那个PM candidate我们最后hire了谁，名字和start date是啥？",
+   "gold": "Emily Tan, start date Oct 26",
+   "evidence": [
+    "e16",
+    "e27"
+   ]
+  },
+  {
+   "id": "q10",
+   "kind": "recall",
+   "q": "Aurora deal最初是多少value来着，我印象中后来加了custom模块涨了。",
+   "gold": "800k",
+   "evidence": [
+    "e3"
+   ]
+  },
+  {
+   "id": "q11",
+   "kind": "update",
+   "q": "我们的pricing现在是多少per user，final decision是啥？",
+   "gold": "44 per user per month",
+   "stale": [
+    "39 per user per month",
+    "49 per user for premium tier"
+   ],
+   "evidence": [
+    "e7",
+    "e13",
+    "e21"
+   ]
+  },
+  {
+   "id": "q12",
+   "kind": "update",
+   "q": "Pricing launch date最后定在什么时候了，Ben改了好几次？",
+   "gold": "Dec 1",
+   "stale": [
+    "Nov 1",
+    "Nov 15"
+   ],
+   "evidence": [
+    "e21",
+    "e30",
+    "e35"
+   ]
+  },
+  {
+   "id": "q13",
+   "kind": "update",
+   "q": "Pricing最初是多少，Ben第一次propose的。",
+   "gold": "39 per user per month",
+   "stale": [
+    "49 per user for premium tier",
+    "44 per user per month"
+   ],
+   "evidence": [
+    "e7",
+    "e13",
+    "e21"
+   ]
+  },
+  {
+   "id": "q14",
+   "kind": "update",
+   "q": "Aurora deal的value变化，最终是多少？",
+   "gold": "950k with add-ons",
+   "stale": [
+    "800k"
+   ],
+   "evidence": [
+    "e3",
+    "e15",
+    "e25"
+   ]
+  },
+  {
+   "id": "q15",
+   "kind": "update",
+   "q": "Pricing v3的时候Ben提的那个价格是多少来着，后来没用那个。",
+   "gold": "49 per user for premium tier",
+   "stale": [
+    "39 per user per month",
+    "44 per user per month"
+   ],
+   "evidence": [
+    "e7",
+    "e13",
+    "e21"
+   ]
+  },
+  {
+   "id": "q16",
+   "kind": "update",
+   "q": "Aurora最初名字是Aurora啥，我记得有歧义。",
+   "gold": "Aurora Health",
+   "stale": [
+    "Aurora Tech"
+   ],
+   "evidence": [
+    "e3",
+    "e31"
+   ]
+  },
+  {
+   "id": "q17",
+   "kind": "temporal",
+   "q": "Ravi那个integration本来due Sep 15，最后哪天go live的？",
+   "gold": "Sep 22",
+   "evidence": [
+    "e2",
+    "e10",
+    "e23"
+   ]
+  },
+  {
+   "id": "q18",
+   "kind": "temporal",
+   "q": "我和Grace做Q4 roadmap review是几号来着，我记得是个周五。",
+   "gold": "Oct 10",
+   "evidence": [
+    "e24"
+   ]
+  },
+  {
+   "id": "q19",
+   "kind": "temporal",
+   "q": "那个offsite在Hangzhou，日期是Oct 20-21对吗？",
+   "gold": "Oct 20-21",
+   "evidence": [
+    "e32"
+   ]
+  },
+  {
+   "id": "q20",
+   "kind": "temporal",
+   "q": "Integration rollout和roadmap review，哪个先发生的？",
+   "gold": "Integration rollout (Sep 22) before roadmap review (Oct 10)",
+   "check": {
+    "comparison": "which_first",
+    "options": [
+     "e23",
+     "e24"
+    ]
+   },
+   "evidence": [
+    "e23",
+    "e24"
+   ]
+  },
+  {
+   "id": "q21",
+   "kind": "temporal",
+   "q": "Pricing那个Nov 1 launch和Nov 15 delay，中间隔了多久？",
+   "gold": "Nov 1 originally, delayed to Nov 15 on day 68",
+   "evidence": [
+    "e21",
+    "e30"
+   ]
+  },
+  {
+   "id": "q22",
+   "kind": "aggregate",
+   "q": "我们Q3到Q4飞了几次Singapore，都是干嘛去的？",
+   "gold": "3: Booked flight to Singapore Sep 1, Flew to Singapore day 22, Flew for regional conference day 65",
+   "evidence": [
+    "e5",
+    "e11",
+    "e22",
+    "e29"
+   ]
+  },
+  {
+   "id": "q23",
+   "kind": "aggregate",
+   "q": "PM candidate我们interview了几个人，分别是谁，最后hire了谁？",
+   "gold": "4: Jason Chen (8y), Emily Tan (6y), Michael Liu (10y), Sarah Wu (not hired); hired Emily Tan",
+   "evidence": [
+    "e14",
+    "e16",
+    "e20",
+    "e27",
+    "e33"
+   ]
+  },
+  {
+   "id": "q24",
+   "kind": "aggregate",
+   "q": "Pricing launch postpone了几次，从啥时候推到啥时候？",
+   "gold": "2 postpOnes: Nov 1 to Nov 15, Nov 15 to Dec 1",
+   "evidence": [
+    "e21",
+    "e30",
+    "e35"
+   ]
+  },
+  {
+   "id": "q25",
+   "kind": "aggregate",
+   "q": "Aurora deal scope change了几次，每次加了啥？",
+   "gold": "1 change: added custom analytics module, value rose to 950k",
+   "evidence": [
+    "e3",
+    "e15",
+    "e25"
+   ]
+  },
+  {
+   "id": "q26",
+   "kind": "aggregate",
+   "q": "Q3到Q4我有几次personal issue影响work，具体是啥？",
+   "gold": "3: Father hospitalized (day 12), daughter's school play (day 33), father's follow-up (day 67)",
+   "evidence": [
+    "e6",
+    "e42",
+    "e41",
+    "e18",
+    "e40"
+   ]
+  }
+ ]
+}

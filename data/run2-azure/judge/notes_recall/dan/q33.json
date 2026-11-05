@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply summarizes the upcoming week's tasks based on prior conversation context without using bullet points, and all mentioned facts are supported by the chat history.",
+ "rule": true
+}

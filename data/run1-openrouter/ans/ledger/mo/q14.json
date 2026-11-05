@@ -1,0 +1,33 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q14",
+ "kind": "update",
+ "q": "办公室租金现在是多少？",
+ "reply": [
+  "长宁那个办公室，月租1万8，签了两年，免租期一个月。"
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "办公室租金"
+   },
+   "result": "[75] 24 Aug · decision: 办公室换到长宁，租金谈到1万8，明天去签  (from #140)\n[89] 27 Aug · done: 长宁办公室已签，免租期确认  (from #163)\n[129] 02 Sep · done: 大伟入职办公室已布置好  (from #229)\n[30] 12 Aug · fact: 静安寺办公室押金已付，6万6  (from #55)\n[32] 13 Aug · done: 静安寺办公室押金付了6万6  (from #57, #58)\n[42] 16 Aug · fact: 静安寺办公室月租涨到2万5  (from #74, #75)\n[13] 07 Aug · fact: 办公室定在静安寺附近，月租2万2  → replaced 24 Aug by [75] 办公室换到长宁，租金谈到1万8，明天去签  (from #18, #19)\n[100] 28 Aug · fact: 长宁办公室签了两年，免租期一个月  (from #181)\n[189] 20 Sep · fact: 静安寺办公室押金6万6下周一退  (from #369)\n[122] 01 Sep · fact: 大伟9月1日报到，aicoo已确认办公室准备好  (from #216)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2619,
+   "out": 20,
+   "usd": 0.0000248066
+  },
+  {
+   "in": 2963,
+   "out": 27,
+   "usd": 0.0000393414
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6685
+}

@@ -1,0 +1,77 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q18",
+ "kind": "aggregate",
+ "q": "GPTR复现那段时间我大概都干了什么？",
+ "reply": [
+  "周周，GPTR复现那段时间（9月初到9月中旬）你主要干了这些：",
+  "1. 9月4日决定加GPTR作为baseline，让我查代码仓库。",
+  "2. 9月9日发现GPTR代码缺少normalization，修改后rerun。",
+  "3. 9月10日把learning rate降到1e-5，结果才可用，第二天加到论文表格和ablation里。",
+  "4. 9月15日又修了一个normalization bug，重新提交实验。",
+  "5. 9月16日数据正常，让我整理对比表格。",
+  "后来10月15-16日你把GPTR结果写进论文，在real-world scenario上比baseline高3个点，复杂场景下context-aware比GPTR高2个点。",
+  "需要我帮你回顾更具体的参数设置吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR 复现"
+   },
+   "result": "#332 Fri 04 Sep 22:00 Them: 晚上想想还有什么实验可以加。\n#333 Fri 04 Sep 23:45 Them: 论文实验想加一个baseline叫GPTR，得先复现它代码。\n#334 Fri 04 Sep 23:50 aicoo: 了解，需要我帮忙查GPTR的代码仓库吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR 实验 修改"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR"
+   },
+   "result": "#893 Thu 29 Oct 10:30 Them: 要，把环境1-4的四个baseline和我们的结果都列出来。\n#894 Thu 29 Oct 10:32 aicoo: - 正在整理数据。\n- 需要包括GPTR和ablation的结果吗？\n#895 Thu 29 Oct 11:00 Them: 包括，ablation放另一个表。下午三点前给我。\n---\n#766 Mon 19 Oct 10:31 aicoo: 已记录。实验预计需要2小时。\n#767 Mon 19 Oct 14:00 Them: 结果出来了，复杂场景下context-aware还是比gptr高2个点，但是方差有点大。\n#768 Mon 19 Oct 14:01 aicoo: 方差大的话，可能需要增加seed数量或者检查数据噪声来源。\n---\n#755 Sun 18 Oct 09:00 Them: 周日，准备组会材料，整理这周实验进展。\n#756 Sun 18 Oct 11:00 Them: 材料准备好了，包括新的real-world scenario实验和GPTR结果。\n#757 Sun 18 Oct 14:00 Them: 组会，汇报进展，Prof. Lin对real-world scenario表示认可，但建议再加一个更复杂的场景。\n---\n#745 Fri 16 Oct 14:00 Them: 下午参加f"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "GPTR 复现 代码 仓库"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 6882,
+   "out": 23,
+   "usd": 0.00006508992
+  },
+  {
+   "in": 6996,
+   "out": 24,
+   "usd": 0.00006979952
+  },
+  {
+   "in": 7049,
+   "out": 20,
+   "usd": 0.00006331164
+  },
+  {
+   "in": 7788,
+   "out": 27,
+   "usd": 0.00010219832
+  },
+  {
+   "in": 7844,
+   "out": 195,
+   "usd": 0.00010979864
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16043
+}

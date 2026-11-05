@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The count is right (2 postpones) but the dates are wrong: the chat shows Nov 1 to Nov 15 then Nov 15 to Dec 1, but aicoo says first to November (vague) and second on Oct 27 to Dec 1 (unsupported).",
+ "rule": null
+}

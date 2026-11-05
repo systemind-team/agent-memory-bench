@@ -1,0 +1,58 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "how many eng were on the team before david joined?",
+ "reply": [
+  "I don't have that in my memory or chat history — I couldn't find anything about your eng team size before David joined. Want to fill me in so I can track it going forward?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "team size before david joined eng"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "how many engineers team david"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "engineers team size"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1142,
+   "out": 25,
+   "usd": 0.000207996
+  },
+  {
+   "in": 1196,
+   "out": 24,
+   "usd": 0.000081304
+  },
+  {
+   "in": 1249,
+   "out": 22,
+   "usd": 0.000228786
+  },
+  {
+   "in": 1300,
+   "out": 45,
+   "usd": 0.000114904
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4212
+}

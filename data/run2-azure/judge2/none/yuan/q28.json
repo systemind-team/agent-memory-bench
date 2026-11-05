@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant correctly states the open reminder from Aug 23, but the mention of the Oct 15 deadline is outdated (the workshop's notification date was Nov 1, and the user is asking on Nov 1, so the deadline passage is factual but stale context for the current query). The reminder status itself is correctly reported as still open.",
+ "first": "wrong",
+ "rule": null
+}

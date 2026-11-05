@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The correct answer specifies father hospitalized, daughter's school play, and father's follow-up; the assistant missed the school play and included mother's blood pressure and daughter's recurring illness instead, resulting in two incorrect items.",
+ "first": "wrong",
+ "rule": null
+}

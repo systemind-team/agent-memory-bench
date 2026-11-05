@@ -1,0 +1,22 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "晚安aicoo，明天叫我。",
+ "reply": [
+  "晚安周周，明天9:30 meeting，Prof. Lin的邮件会在9:00自动发出。",
+  "好好睡，明天见。",
+  "[sticker: wave]"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1554,
+   "out": 44,
+   "usd": 0.00004172056
+  }
+ ],
+ "memChars": 451,
+ "promptChars": 4737
+}

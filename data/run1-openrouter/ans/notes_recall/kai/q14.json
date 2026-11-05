@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q14",
+ "kind": "update",
+ "q": "Aurora deal的value变化，最终是多少？",
+ "reply": [
+  "凯哥，最终是 $950K Q4 close，custom module 作为 add-on 额外 $50K。10 月 26 日你和 Lily 确认过的。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13380,
+   "out": 38,
+   "usd": 0.00015551424
+  }
+ ],
+ "memChars": 47871,
+ "promptChars": 52584
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The reply acknowledges the request but does not include the actual PR draft, so we cannot verify if it ends with a Risk section as preferred.",
+ "rule": false
+}

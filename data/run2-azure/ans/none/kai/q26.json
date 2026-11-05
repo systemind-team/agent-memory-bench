@@ -1,0 +1,59 @@
+{
+ "arm": "none",
+ "id": "kai",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "Q3到Q4我有几次personal issue影响work，具体是啥？",
+ "reply": [
+  "凯哥，我翻了咱们之前的聊天记录，没有找到你具体提过Q3到Q4有personal issue影响work的内容。你父亲最近的血压情况我看到了，但那是在这周才提到的。",
+  "你是指之前家里有什么事吗？还是最近父亲的身体状况？跟我说说，我帮你整理一下如果需要跟谁同步或者调整安排。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "personal issue"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "父亲 血压 住院 请假"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "personal 家庭 问题 影响 工作"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1395,
+   "out": 16,
+   "usd": 0.00007279
+  },
+  {
+   "in": 1440,
+   "out": 21,
+   "usd": 0.00008504
+  },
+  {
+   "in": 1490,
+   "out": 23,
+   "usd": 0.00009666
+  },
+  {
+   "in": 1542,
+   "out": 79,
+   "usd": 0.000276412
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4367
+}

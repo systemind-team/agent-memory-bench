@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply omits Nov 15 entirely and includes Oct 26 which the chat history does not support as a final cutover date.",
+ "first": "partial",
+ "rule": null
+}

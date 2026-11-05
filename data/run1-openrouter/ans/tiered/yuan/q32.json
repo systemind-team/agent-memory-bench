@@ -1,0 +1,23 @@
+{
+ "arm": "tiered",
+ "id": "yuan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "早上好aicoo，这周什么安排？",
+ "reply": [
+  "早上好周周。这周重点：明天9:30线上meeting跟Prof. Lin讨论投稿时间线和Dr. Chen入职，材料已备好。",
+  "周二Dr. Chen入职（10:00带他熟悉GPU集群、存储、代码仓库），周三周四继续改discussion和limitations。",
+  "环境4（55%）标为preliminary，目标12月投ICLR或AAAI。你今天可以先过一遍slides和论文draft，meeting前有个清晰版本。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 6881,
+   "out": 121,
+   "usd": 0.00007300692
+  }
+ ],
+ "memChars": 7381,
+ "promptChars": 16040
+}

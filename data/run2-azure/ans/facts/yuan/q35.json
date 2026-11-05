@@ -1,0 +1,23 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "晚安aicoo，明天叫我。",
+ "reply": [
+  "晚安周周，今天也辛苦了。",
+  "明早9:30有meeting，9:00叫你起床，预留15分钟过一遍slides。",
+  "好好睡，明天见。 [sticker: wave]"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 1531,
+   "out": 53,
+   "usd": 0.000213718
+  }
+ ],
+ "memChars": 451,
+ "promptChars": 4737
+}

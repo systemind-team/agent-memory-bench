@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply uses bullet points despite the user explicitly requesting plain text without bullet points on Wed 16 Sep.",
+ "rule": false
+}

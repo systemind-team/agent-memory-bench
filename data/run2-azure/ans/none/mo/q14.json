@@ -1,0 +1,58 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q14",
+ "kind": "update",
+ "q": "办公室租金现在是多少？",
+ "reply": [
+  "之前没提过办公室租金的事，我翻了一下记录没找到。你告诉我数字我记下来，以后需要查就能直接回答你。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "租金 办公室 价格"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "办公室 租金"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "office rent"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1100,
+   "out": 23,
+   "usd": 0.000060584
+  },
+  {
+   "in": 1152,
+   "out": 21,
+   "usd": 0.000070384
+  },
+  {
+   "in": 1202,
+   "out": 20,
+   "usd": 0.000080324
+  },
+  {
+   "in": 1251,
+   "out": 37,
+   "usd": 0.000100134
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3624
+}

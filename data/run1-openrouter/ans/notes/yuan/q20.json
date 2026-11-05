@@ -1,0 +1,57 @@
+{
+ "arm": "notes",
+ "id": "yuan",
+ "qid": "q20",
+ "kind": "aggregate",
+ "q": "Facebook fellowship申请过程怎么变化的？",
+ "reply": [
+  "从你决定申请以来，变化主要有：\n\n1. 截止日从10月31日推迟到12月20日（你10月5日更新的）。\n2. 你9月21日说NSF方向不太对，后来10月20日正式放弃NSF，只投Facebook一个。\n3. 申请材料方面，10月初你加了paper成果到personal statement里，但之后论文实验一直很忙，还没看到你开始正式准备申请材料。\n\n现在是12月20日截止，还有一个月多一点。你之前提到NSF的draft需要加embodied AI long-term vision，后来放弃了，所以现在就是基于论文成果写Facebook的statement。需要我把之前9月底的draft调出来，帮你梳理当前版本吗？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship"
+   },
+   "result": "#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。\n#788 Wed 21 Oct 09:00 Them: 周三，开始看HotpotQA的数据格式。\n---\n#785 Tue 20 Oct 16:30 Them: 好主意，我看看hotpotQA能不能用planning框架做。\n#786 Tue 20 Oct 23:50 Them: fellowship还是只投了Facebook一个，NSF放弃了。\n#787 Tue 20 Oct 23:51 aicoo: 好的周周，Facebook fellowship截止12月20日，我会设置提醒。\n---\n#653 Mon 05 Oct 17:31 aicoo: 好的，TA office hour是5:30至6:30，我会在结束后提醒实验写作。\n#654 Mon 05 Oct 21:30 Them: Facebook fellowship提交截止日是12月20号，最后期限了。\n#655 Mon 05 Oct 21:32 aicoo: 已添加日历提醒，截止12月20日。需要我协助检查申请材料吗？\n---\n#584 Thu 01 Oct 1"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Facebook fellowship 申请 变化 过程"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Facebook fellowship"
+   },
+   "result": "[项目] 21 Sep: 下周开始写NSF和Facebook fellowship申请材料\n[个人] 20 Oct 23:50 fellowship只投Facebook，NSF放弃（之前06 Oct提到NSF fellowship statement需加embodied AI long-term vision）\n[个人] 05 Oct: 晚上写实验结果；Facebook fellowship截止日12月20日（moved to Dec 20, was Oct 31）\n[项目] 17 Sep: Meeting结束，Prof. Lin说实验部分可以开始写了，提醒别忘了fellowship；NSF截止11月15日，Facebook截止10月31日；19 Sep 决定只投NSF和Facebook\n[项目] 21 Sep: NSF方向不太对，最后可能只投Facebook\n[个人] 21 Sep: NSF方向不太对，最后可能只投Facebook\n[about-me] 21 Oct: 继续看HotpotQA数据格式；上午批了20份TA作业，下午批30份；下午lab meeting，Dr. Chen入职定11月3日，Lin让我带他熟悉环境；Facebook fellowship截止12月20日；21 Oct 22:00 HotpotQA dataloader截断问题修复后重新跑\n[项目] 19 S"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3729,
+   "out": 20,
+   "usd": 0.00003661308
+  },
+  {
+   "in": 4358,
+   "out": 26,
+   "usd": 0.00006263768
+  },
+  {
+   "in": 4413,
+   "out": 20,
+   "usd": 0.00006438348
+  },
+  {
+   "in": 4798,
+   "out": 173,
+   "usd": 0.00005917856
+  }
+ ],
+ "memChars": 5267,
+ "promptChars": 9627
+}

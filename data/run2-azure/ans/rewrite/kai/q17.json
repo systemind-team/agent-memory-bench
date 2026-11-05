@@ -1,0 +1,58 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "Ravi那个integration本来due Sep 15，最后哪天go live的？",
+ "reply": [
+  "凯哥，integration是在Sep 22上线的。昨天Ravi sync时也确认了，security audit补测只多一天，不影响上线。这个milestone已经顺利收尾了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "integration go live Ravi Sep 15"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "integration Ravi go live"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "integration 上线 Ravi"
+   },
+   "result": "#1160 Fri 30 Oct 09:05 Them: 好，移到周一早上10点。谢了。\n#1161 Fri 30 Oct 09:30 Them: Ravi sync完了。security audit补测只是多一天，不影响integration Sep 22上线。他说dark mode toggle dev已经开始sprint，估计11月初完成。这个timeline跟pricing launch 12/1不冲突就好。\n#1162 Fri 30 Oct 09:31 aicoo: 好的，那integration和dark mode都on track。Pricing launch 12/1，dark mode toggle 11月初完成，有buffer。\n---\n#696 Fri 25 Sep 18:05 aicoo: enjoy family time, 明天见。\n#697 Sat 26 Sep 09:00 Them: 早上和 Ravi 确认, integration 上线后一切正常, 没有 critical bugs。\n#698 Sat 26 Sep 09:10 aicoo: great, 一个 milestone 顺利收尾。\n---\n#630 Sun 20 Sep 09:01 aicoo: Ben昨天发了邮件，prep on track，Nov 1 launch准备中。\n#631 "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3026,
+   "out": 26,
+   "usd": 0.000145956
+  },
+  {
+   "in": 3081,
+   "out": 23,
+   "usd": 0.000155826
+  },
+  {
+   "in": 3133,
+   "out": 23,
+   "usd": 0.000166746
+  },
+  {
+   "in": 3474,
+   "out": 47,
+   "usd": 0.000205972
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10832
+}

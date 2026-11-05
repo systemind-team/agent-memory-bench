@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant asks for the code and what to focus on, which doesn't contradict the priority-level preference and is a reasonable pre-review response when no code was provided.",
+ "rule": false
+}

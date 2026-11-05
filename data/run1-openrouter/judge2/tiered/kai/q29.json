@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The reply claims a meeting on Monday at 10:30 with Grace and Ben about pricing launch, but no message mentions such a meeting scheduled for Monday; the only scheduled meeting is Oct 15 with Ben, which is outdated and unconfirmed.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "It answered with the outdated title 'Planning with Hierarchical Graphs' as the initial one when asked for the original title, but the right answer should be the latest title 'Context-Aware Planning via Hierarchical Decomposition'.",
+ "rule": null
+}

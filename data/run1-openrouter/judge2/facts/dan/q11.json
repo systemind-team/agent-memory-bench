@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant states the cutover is Oct 26, but the chat shows it was re-confirmed as Oct 12 on Mon 19 Oct and no later update overrides it.",
+ "first": "stale",
+ "rule": null
+}

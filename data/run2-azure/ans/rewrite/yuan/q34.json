@@ -1,0 +1,50 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q34",
+ "kind": "ask",
+ "q": "morning aicoo, what's my schedule this week?",
+ "reply": [
+  "早安周周，今天是周日，这周主要几件事：",
+  "1️⃣ 周一（明天）9:30 线上组会，和Prof. Lin讨论论文投稿时间和实验进展。已在明天9:00设好自动发论文给Prof. Lin。",
+  "2️⃣ 周二（3号）Dr. Chen入职，10:00提醒你带他熟悉实验室环境（GPU集群、存储、代码仓库）。",
+  "3️⃣ 周三继续调环境4的intermediate supervision，周四改discussion，周五整理新一周计划。",
+  "周末休息好了吗？今晚要不要提前看一眼明天meeting的slides和要问Prof. Lin的问题？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "schedule this week Dr. Chen meeting"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周 周二 组会 Prof. Lin"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3566,
+   "out": 26,
+   "usd": 0.000167708
+  },
+  {
+   "in": 3621,
+   "out": 27,
+   "usd": 0.000179818
+  },
+  {
+   "in": 3677,
+   "out": 147,
+   "usd": 0.000212954
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8778
+}

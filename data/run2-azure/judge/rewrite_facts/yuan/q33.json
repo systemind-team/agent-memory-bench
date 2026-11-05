@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "回复未使用bullet list格式，而是用了编号列表，不符合用户要求的bullet list呈现信息。",
+ "rule": false
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "Sam's onboarding was September, while Stripe webhooks moved to own service on October 2, so Stripe webhooks happened after Sam's onboarding, not before.",
+ "rule": null
+}

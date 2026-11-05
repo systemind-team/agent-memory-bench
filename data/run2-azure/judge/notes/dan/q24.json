@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply includes a key '5B1C6D' that is not supported by the chat history, and the question asks for keys used, not just those mentioned in passing.",
+ "rule": null
+}

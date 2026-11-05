@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The answer uses the count from before Sam joined (4 including Dan), missing that by the time David joined the team was 5 (Dan, Tom, Lena, Sam, Priya), so the correct answer before David joined was 4 engineers, not 5 including the user.",
+ "first": "wrong",
+ "rule": null
+}

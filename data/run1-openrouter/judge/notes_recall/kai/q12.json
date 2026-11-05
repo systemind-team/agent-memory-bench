@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It gives the latest launch date as Dec 1, mentions the history without presenting an outdated value as current.",
+ "rule": null
+}

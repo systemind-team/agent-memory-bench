@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the first meeting was August 10, but the chat shows it was scheduled for August 12.",
+ "first": "wrong",
+ "rule": null
+}

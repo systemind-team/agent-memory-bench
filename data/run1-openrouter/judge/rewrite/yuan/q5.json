@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant provided the Facebook fellowship deadline (12月20日) instead of the first fellowship deadline (11月15日) mentioned in the chat.",
+ "rule": null
+}

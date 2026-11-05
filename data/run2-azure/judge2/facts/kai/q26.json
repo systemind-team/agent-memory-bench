@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply misses the required father's hospitalization (day 12), daughter's school play (day 33), and father's follow-up (day 67), instead citing different or vague events not matching the gold aggregate answer.",
+ "first": "wrong",
+ "rule": null
+}

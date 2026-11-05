@@ -1,0 +1,46 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "does sam have any pets?",
+ "reply": [
+  "i don't think you've ever mentioned sam having pets. from what i've seen, it's all been about work — his dbt models, solo deploys, stripe webhooks. want me to ask him next time we chat?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "sam pets"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Sam"
+   },
+   "result": "#808 Thu 29 Oct 09:05 aicoo: great to hear. he's been learning fast\n#809 Thu 29 Oct 11:30 Them: sam's desk is between me and lena now. he asked to move\n#810 Thu 29 Oct 11:35 aicoo: makes sense. closer to the team for questions\n---\n#806 Wed 28 Oct 16:05 aicoo: mysterious. you'll find out soon enough\n#807 Thu 29 Oct 09:00 Them: sam showed me his dbt models. clean code.\n#808 Thu 29 Oct 09:05 aicoo: great to hear. he's been learning fast\n---\n#776 Mon 26 Oct 09:20 aicoo: noted. keep an eye on it this week\n#777 Mon 26 Oct 10:30 Them: sam asked about stripe webhook retry logic. sent him the doc\n#778 "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1136,
+   "out": 20,
+   "usd": 0.000066464
+  },
+  {
+   "in": 1185,
+   "out": 19,
+   "usd": 0.000076194
+  },
+  {
+   "in": 1822,
+   "out": 54,
+   "usd": 0.000229564
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4185
+}

@@ -1,0 +1,22 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q24",
+ "kind": "temporal",
+ "q": "论文标题第三次改是什么时候？",
+ "reply": [
+  "10月26日23:40定下的《Context-Aware Planning via Hierarchical Decomposition》，之后10月27日08:30你在overleaf、本地文件和周报模板上都更新了。之前没有更早的改标题记录，这是唯一一次确定的。",
+  "怎么了，是要改还是确认一下时间线？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3583,
+   "out": 74,
+   "usd": 0.0001514786
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8748
+}

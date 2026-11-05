@@ -1,0 +1,21 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q29",
+ "kind": "open_loop",
+ "q": "大伟入职手续的提醒，后来怎么样了？",
+ "reply": [
+  "让我查一下大伟入职相关的事情。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5583,
+   "out": 10,
+   "usd": 0.00009444372
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10960
+}

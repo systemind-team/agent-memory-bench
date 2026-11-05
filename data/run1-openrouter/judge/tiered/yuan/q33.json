@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "回复未使用bullet list格式，也没有遵循用户要求用bullet list回复的习惯。",
+ "rule": false
+}

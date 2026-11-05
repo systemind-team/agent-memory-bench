@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant gives 'Context-Aware Planning via Hierarchical Decomposition' as the current title, but the latest confirmed change in the chat was to 'Hierarchical Planning with Graph Attention' on Aug 20.",
+ "rule": null
+}

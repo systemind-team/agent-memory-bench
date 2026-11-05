@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "Emily Tan的start date是几号来着? 是不是delay了?",
+ "reply": [
+  "Emily Tan是10月26日正式入职的，没有delay。周一已经安排了跟Ravi的onboarding session，她在handle Singapore custom reporting。",
+  "她那边有什么问题吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 3048,
+   "out": 45,
+   "usd": 0.00003593912
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10826
+}

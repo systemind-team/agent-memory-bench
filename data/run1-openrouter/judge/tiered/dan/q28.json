@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "It incorrectly claims you read through the draft and mentioned reading it, when the chat only shows you said you'd review it by Wednesday with no follow-up.",
+ "rule": null
+}

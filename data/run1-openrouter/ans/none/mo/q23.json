@@ -1,0 +1,70 @@
+{
+ "arm": "none",
+ "id": "mo",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "我们接触过哪些 VC，后来哪些出局了？",
+ "reply": [
+  "我记得聊过的VC和进展我都记在跟你的聊天里，但刚才翻了一下，咱们的对话历史里没有详细记录接触了哪些、哪些出局了。蓝驰那笔到账我提过，但之前见过谁、谁没戏了——这个信息我手头没有。",
+  "你要不要我把咱们聊过的融资相关节点整理一下，还是你心里有数，告诉我哪几家，我帮你拉个表？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "VC 接触 投资 出局"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "投资人 拒绝 谈过"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 到账 投资"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 融资"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1130,
+   "out": 26,
+   "usd": 0.00001472968
+  },
+  {
+   "in": 1185,
+   "out": 24,
+   "usd": 0.00001680028
+  },
+  {
+   "in": 1238,
+   "out": 25,
+   "usd": 0.00001903328
+  },
+  {
+   "in": 1292,
+   "out": 22,
+   "usd": 0.00002098208
+  },
+  {
+   "in": 1343,
+   "out": 100,
+   "usd": 0.0000210714
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 3632
+}

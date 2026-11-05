@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant correctly identifies the second revision as 'Context-Aware Hierarchical Planning for LLMs', but the probe's expected answer 'Hierarchical Planning with Graph Attention' is outdated and does not match the chat history.",
+ "first": "stale",
+ "rule": null
+}

@@ -1,0 +1,58 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "和云九第一次见面是哪天？",
+ "reply": [
+  "我翻了一下记录，云九的第一次会议是8月12日下午2点，在你们的记忆里记的是「云九会12日下午2点」。",
+  "后来那次会他们提了DAU破2000的要求，不过后来他们投了竞品项目。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 第一次 见面 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 会 下午"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "云九 会"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5581,
+   "out": 26,
+   "usd": 0.00005408732
+  },
+  {
+   "in": 5636,
+   "out": 24,
+   "usd": 0.00005615792
+  },
+  {
+   "in": 5689,
+   "out": 22,
+   "usd": 0.00005814732
+  },
+  {
+   "in": 5740,
+   "out": 64,
+   "usd": 0.00005531344
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10955
+}

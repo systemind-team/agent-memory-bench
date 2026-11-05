@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly states the key after the first change as 3F8D1A, though it adds unsupported extra details.",
+ "rule": null
+}

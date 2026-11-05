@@ -1,0 +1,82 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "what's the billing cutover date?",
+ "reply": [
+  "cutover was locked for oct 26, but your last memory shows priya approved the rotation proposal for nov 1. did the cutover happen and i missed it, or did it shift again?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "cutover date billing"
+   },
+   "result": "[217] 18 Sep · fact: billing cutover final date: oct 12 again  (from #379)\n[282] 03 Oct · done: billing migration cutover date oct 26 locked, timeline updated  (from #512)\n[97] 20 Aug · fact: cutover date moved to nov 5  → replaced 18 Sep by [217] billing cutover final date: oct 12 again  (from #161)\n[161] 06 Sep · fact: cutover date moved to nov 15  → replaced 30 Sep by [267] priya wants to move cutover to oct 26, says nov 15 is too far  (from #274)\n[215] 17 Sep · fact: priya mentioned cutover date might shift again, waiting on legal  (from #373)\n[218] 18 Sep · fact: legal signed off on billi"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover date final oct 26"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing cutover date"
+   },
+   "result": "#378 Fri 18 Sep 09:17 aicoo: tea day? or a bold experiment\n#379 Fri 18 Sep 10:00 Them: billing cutover final date: oct 12 again. we got back on track.\n#380 Fri 18 Sep 10:02 aicoo: that's great. back to the original plan. you can lock in the timeline now"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "oct 26 billing cutover"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "cutover oct 26"
+   },
+   "result": "#510 Fri 02 Oct 14:01 aicoo: mock did it. flaky test conquered\n#511 Fri 02 Oct 16:00 Them: priya confirmed oct 26 cutover. new timeline set\n#512 Fri 02 Oct 16:01 aicoo: oct 26 locked. timeline updated\n---\n#486 Wed 30 Sep 10:01 aicoo: green across the board. solid\n#487 Wed 30 Sep 11:00 Them: priya wants to move cutover to oct 26. says nov 15 is too far\n#488 Wed 30 Sep 11:01 aicoo: oct 26. closer but doable"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3064,
+   "out": 22,
+   "usd": 0.000151696
+  },
+  {
+   "in": 3418,
+   "out": 25,
+   "usd": 0.000227716
+  },
+  {
+   "in": 3472,
+   "out": 23,
+   "usd": 0.000146288
+  },
+  {
+   "in": 3589,
+   "out": 24,
+   "usd": 0.000171418
+  },
+  {
+   "in": 3642,
+   "out": 23,
+   "usd": 0.000686052
+  },
+  {
+   "in": 3838,
+   "out": 47,
+   "usd": 0.000282412
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10797
+}

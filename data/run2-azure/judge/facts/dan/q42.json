@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The memory states Sam's pets were never mentioned, but the assistant's second line invents a hypothetical scenario implying Sam has a dog when it should have stopped at saying it doesn't know.",
+ "rule": null
+}

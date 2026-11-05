@@ -1,0 +1,83 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q26",
+ "kind": "aggregate",
+ "q": "大伟入职后的绩效和薪酬进展，完整说说？",
+ "reply": [
+  "大伟入职的薪酬从8月聊了几轮，最初我建议底薪1.6万+绩效2000，你调到底薪1.8万+绩效，后来调整为底薪1.7万+绩效1000，最后定在1.85万，绩效另算，9月1日入职。",
+  "入职后绩效是KPI+OKR混合，季度考核，KPI占70%，OKR看增长创新。第一季度的绩效他拿了A，奖金1万2。渠道这边他签了凯旋路驿站（分成10%，后调至15%，试用期两个月）、长宁第二家、徐汇驿站。徐汇那个月底试运营，你打算去看看。",
+  "目前没有新的薪酬调整，季度绩效奖金是按季度考核发的。需要我做薪酬汇总表还是提醒下一次考核时间？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 绩效 薪酬 入职"
+   },
+   "result": "#64 Thu 13 Aug 15:02 Them: 行，那按3万8走。\n#65 Fri 14 Aug 09:00 Them: 大伟入职前得先确认薪酬结构，底薪+绩效+年终\n#66 Fri 14 Aug 09:03 aicoo: 建议底薪1万6，绩效2000，年终1-2个月，你看行吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 薪资 1.9 1.85"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 底薪 绩效"
+   },
+   "result": "#64 Thu 13 Aug 15:02 Them: 行，那按3万8走。\n#65 Fri 14 Aug 09:00 Them: 大伟入职前得先确认薪酬结构，底薪+绩效+年终\n#66 Fri 14 Aug 09:03 aicoo: 建议底薪1万6，绩效2000，年终1-2个月，你看行吗？"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 1.85 9月1日"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 入职 1.8 1.7"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4037,
+   "out": 26,
+   "usd": 0.0000412902
+  },
+  {
+   "in": 4163,
+   "out": 30,
+   "usd": 0.0000467306
+  },
+  {
+   "in": 4222,
+   "out": 25,
+   "usd": 0.00004872
+  },
+  {
+   "in": 4347,
+   "out": 29,
+   "usd": 0.00004580492
+  },
+  {
+   "in": 4405,
+   "out": 30,
+   "usd": 0.0000565558
+  },
+  {
+   "in": 4478,
+   "out": 184,
+   "usd": 0.00006370952
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8494
+}

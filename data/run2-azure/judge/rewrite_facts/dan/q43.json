@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant correctly states it doesn't know and asks the user for the information, which matches the required behavior for a fact never mentioned.",
+ "rule": null
+}

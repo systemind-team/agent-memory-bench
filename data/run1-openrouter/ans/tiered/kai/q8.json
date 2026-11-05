@@ -1,0 +1,22 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "Pricing per user那个launch plan，最后定的价格是44还是多少？",
+ "reply": [
+  "凯哥，定价最后定的是$44/用户/月（premium tier）。Ben的A/B测试$44 variant conversion lift 8%，数据很稳。周一10:30你跟Grace和Ben的meeting就是finalize launch decision，目前计划12月1日直接上v3定价，不再多测一轮。",
+  "你周一记得也跟Grace对齐SEA expansion headcount approval timeline，Omar在催。另外Grace说Q3 customer wins summary要加testimonial section，周一找Lily和Omar要quote。",
+  "今天周日好好休息，陪陪家人。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 8818,
+   "out": 134,
+   "usd": 0.00010281544
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26054
+}

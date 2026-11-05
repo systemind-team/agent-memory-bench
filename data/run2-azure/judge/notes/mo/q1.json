@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The chat states 215万 as the initial cash, but the assistant says 208万4千.",
+ "rule": null
+}

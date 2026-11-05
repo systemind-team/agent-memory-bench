@@ -1,0 +1,47 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q27",
+ "kind": "open_loop",
+ "q": "what's the status of that billing timeline doc for priya?",
+ "reply": [
+  "the billing timeline doc is the `billing-migration` note — it was sent to Priya back on Aug 7. last update from her was Oct 30: she sent a cutover checklist template, and i said to fill it in and do another dry run next week.",
+  "did you want to pick it up today, or wait until monday? the checklist + rollback steps you mentioned yesterday would slot right into that doc."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "billing timeline doc Priya"
+   },
+   "result": "[billing-migration] 07 Aug: timeline doc sent to Priya; right before deadline\n[billing-migration] 15 Oct: Priya asked about cutover timeline again; aicoo said Nov 15\n[billing-migration] 22 Sep: Priya wants a dry run of the migration this Friday (was timeline still Oct 12)\n[billing-split] 20 Sep: Priya asked for migration timeline status; Oct 12 still holds (moved to Oct 12, was Nov 15)\n[billing-split] 19 Oct: Priya confirmed billing cutover still Oct 12 (was Oct 26)\n[billing-migration] 08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushback; later moved to Oct 12 per Priya "
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "billing-migration"
+   },
+   "result": "Billing migration PR\n03 Aug: PR submitted for billing migration; aicoo reviewing\n06 Aug: migration incident from last week still lingering; one customer's data out of sync; patch fix, Lena handling on-call doc update\n07 Aug: timeline doc sent to Priya; right before deadline\n24 Aug: Priya out all week; Tom handling billing standup (was PTO Aug 24-28)\n11 Aug: Priya covering backend next week\n14 Aug: Maria out; took another offer; Priya gutted; need to restart interviews; 19 Aug: on-call quiet, one disk space alert overnight\n08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushb"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2865,
+   "out": 20,
+   "usd": 0.00005142396
+  },
+  {
+   "in": 3248,
+   "out": 18,
+   "usd": 0.00004186672
+  },
+  {
+   "in": 4082,
+   "out": 96,
+   "usd": 0.00010700536
+  }
+ ],
+ "memChars": 5758,
+ "promptChars": 10339
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The chat record states the enterprise deal was worth 800k, but aicoo's reply says it was $950K, which contradicts the provided chat history.",
+ "rule": null
+}

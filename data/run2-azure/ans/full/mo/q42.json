@@ -1,0 +1,59 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "大伟电脑是什么型号？",
+ "reply": [
+  "大伟的电脑型号我记得没记过，之前只聊过阿杰的MacBook Pro和MacBook Air。大伟入职时你说给他配电脑，但具体型号没提过，我这边没有记录。",
+  "要不要我问问大伟现在用的是什么，或者直接给他统一配一台跟阿杰一样的MacBook Air？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 电脑 型号 MacBook"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 MacBook"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 电脑"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18695,
+   "out": 26,
+   "usd": 0.000595358
+  },
+  {
+   "in": 18750,
+   "out": 22,
+   "usd": 0.000604668
+  },
+  {
+   "in": 18801,
+   "out": 22,
+   "usd": 0.000615378
+  },
+  {
+   "in": 18852,
+   "out": 78,
+   "usd": 0.000657448
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35676
+}

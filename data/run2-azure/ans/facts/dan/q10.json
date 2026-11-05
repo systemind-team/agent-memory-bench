@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "what's the current team size?",
+ "reply": [
+  "it's 4 now — grew from 3 back in june. still you, priya, tom, and lena, right?",
+  "sam's been in a few cross-team syncs but not officially on yours. has that changed?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "team size"
+   },
+   "result": "- 24 Sep: Sprint retro indicates team feels okay about pace.\n- 11 Oct: The team has grown from 3 to 4 since June.\n- 16 Oct: Dan Okafor's team agreed to the new code review standard.\n- 17 Aug: Dan will push a Risk section as a team standard for all PR descriptions."
+  }
+ ],
+ "calls": [
+  {
+   "in": 1288,
+   "out": 20,
+   "usd": 0.000144208
+  },
+  {
+   "in": 1391,
+   "out": 56,
+   "usd": 0.000185998
+  }
+ ],
+ "memChars": 301,
+ "promptChars": 4796
+}

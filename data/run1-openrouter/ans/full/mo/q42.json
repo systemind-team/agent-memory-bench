@@ -1,0 +1,81 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "大伟电脑是什么型号？",
+ "reply": [
+  "翻了一下记录，大伟入职时没专门提他的电脑型号。阿杰的是 MacBook Air（后来从 Pro 降的预算），大伟的没记过。\n\n要不要我去问他一声？还是你心里有个预算，我直接帮他对接采购？"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 电脑 型号"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 MacBook"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 配"
+   },
+   "result": "#450 Sun 27 Sep 10:00 Them: 甲方说广告位换了，要调整格式，下午发\n#451 Sun 27 Sep 10:01 aicoo: 好，我提醒大伟配合出素材\n#452 Sun 27 Sep 11:00 Them: 下载量现在多少"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 电脑 设备"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 入职 电脑"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18718,
+   "out": 24,
+   "usd": 0.00015491336
+  },
+  {
+   "in": 18771,
+   "out": 22,
+   "usd": 0.00015690276
+  },
+  {
+   "in": 18822,
+   "out": 22,
+   "usd": 0.00015897336
+  },
+  {
+   "in": 18924,
+   "out": 24,
+   "usd": 0.00016327696
+  },
+  {
+   "in": 18977,
+   "out": 24,
+   "usd": 0.00016542876
+  },
+  {
+   "in": 19044,
+   "out": 65,
+   "usd": 0.00016316328
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35676
+}

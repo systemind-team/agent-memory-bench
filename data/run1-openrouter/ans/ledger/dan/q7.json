@@ -1,0 +1,58 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "what dates are the asheville trip?",
+ "reply": [
+  "the asheville trip was booked for **oct 22–25**, cabin near blue ridge, with a delta flight on the morning of the 22nd.",
+  "looks like those dates came and went — did you end up going? it was around when you had the 5am morning and the pumpkin carving, so i wasn't sure if the trip still happened with everything going on."
+ ],
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "asheville trip"
+   },
+   "result": "[248] 27 Sep · plan: dan and ade trip to asheville in october  → replaced 13 Oct by [367] asheville trip cabin near blue ridge booked oct 22-25  (from #450)\n[247] 27 Sep · fact: ade's planning a trip to asheville for them in october  (from #450)\n[368] 13 Oct · plan: asheville trip: cabin near blue ridge, oct 22-25  (from #623)\n[367] 13 Oct · fact: asheville trip cabin near blue ridge booked oct 22-25  (from #623)\n[137] 30 Aug · done: flights booked: delta, oct 22 morning, asheville  (from #235)\n[126] 27 Aug · plan: ade found a bakery in asheville, wants to go oct 22-25  (from #214)\n[422] 20 Oc"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "asheville october trip cancelled"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "asheville"
+   },
+   "result": "#716 Tue 20 Oct 14:01 aicoo: pixel. excellent name for a cat. waffles might have a new friend.\n#717 Tue 20 Oct 16:00 Them: ade is booking the asheville cabin. wants to confirm we leave oct 22 morning.\n#718 Tue 20 Oct 16:01 aicoo: oct 22 morning departure. delta flight is already booked.\n---\n#622 Mon 12 Oct 16:05 aicoo: 已注意到, 我会追踪\n#623 Tue 13 Oct 09:30 Them: asheville trip booked: oct 22-25. cabin near blue ridge\n#624 Tue 13 Oct 09:35 aicoo: 秋天去蓝岭, 完美时机\n---\n#497 Thu 01 Oct 10:00 Them: ade is looking at asheville hikes. oct 22-25\n#498 Thu 01 Oct 10:01 aicoo: asheville prep. nice\n#499 Thu 01 Oct "
+  }
+ ],
+ "calls": [
+  {
+   "in": 3088,
+   "out": 22,
+   "usd": 0.00002738064
+  },
+  {
+   "in": 3389,
+   "out": 25,
+   "usd": 0.00003984484
+  },
+  {
+   "in": 3443,
+   "out": 21,
+   "usd": 0.00004171244
+  },
+  {
+   "in": 4086,
+   "out": 86,
+   "usd": 0.00007309624
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10799
+}

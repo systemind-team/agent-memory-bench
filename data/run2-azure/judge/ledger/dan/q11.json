@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant gave oct 26 and nov 1 as possible dates, but the latest confirmed cutover date is oct 12.",
+ "rule": null
+}

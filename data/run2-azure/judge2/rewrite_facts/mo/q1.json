@@ -1,0 +1,6 @@
+{
+ "verdict": "partial",
+ "why": "Assistant mentions 208.4万 and estimates 'near 300万' but never states the initial cash amount of 215万 explicitly asked about.",
+ "first": "partial",
+ "rule": null
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply claims three scope changes, but messages only support one scope change that increased deal value from 800k to 950k (custom analytics add-on, #404); custom reporting (#460) and export (#934–935) are separate additions not documented as changing the deal value.",
+ "first": "wrong",
+ "rule": null
+}

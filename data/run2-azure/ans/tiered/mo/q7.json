@@ -1,0 +1,71 @@
+{
+ "arm": "tiered",
+ "id": "mo",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "小雨招的兼职客服主管，一个月多少钱？",
+ "reply": [
+  "我记得是9月18号前后小雨招的北京兼职客服主管，月费6000元，当天上岗帮顶到小雨销假。没记错的话就是这个数。",
+  "要我再查一下当时的具体记录吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "兼职客服主管 小雨 费用"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 客服主管 每月 6000"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "北京兼职客服主管"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "小雨 北京 主管 6000"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5560,
+   "out": 25,
+   "usd": 0.000219296
+  },
+  {
+   "in": 5614,
+   "out": 27,
+   "usd": 0.000231756
+  },
+  {
+   "in": 5670,
+   "out": 22,
+   "usd": 0.000240716
+  },
+  {
+   "in": 5721,
+   "out": 26,
+   "usd": 0.000207842
+  },
+  {
+   "in": 5776,
+   "out": 55,
+   "usd": 0.000235632
+  }
+ ],
+ "memChars": 5305,
+ "promptChars": 10961
+}

@@ -1,0 +1,50 @@
+{
+ "arm": "full",
+ "id": "yuan",
+ "qid": "q22",
+ "kind": "update",
+ "q": "论文标题改过几次？",
+ "reply": [
+  "周周，论文标题一共改过5次（包括最开始的working title）：",
+  "- 1. \"Planning with Hierarchical Graphs\"（8月7日，working title）",
+  "- 2. \"Hierarchical Planning with Graph Attention\"（8月19日）",
+  "- 3. \"Context-Aware Hierarchical Planning for LLMs\"（9月13日）",
+  "- 4. \"Context-Aware Planning\"（9月27日，精简版）",
+  "- 5. \"Context-Aware Planning via Hierarchical Decomposition\"（10月26日，最终版）"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "论文标题 修改 记录"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "title"
+   },
+   "result": "#863 Mon 26 Oct 18:47 aicoo: - 已记录草稿标题：Context-Aware Planning via Hierarchical Decomposition。\n- 需要今晚确认后正式更新吗？\n#864 Mon 26 Oct 23:40 Them: Final title: Context-Aware Planning via Hierarchical Decomposition。\n#865 Mon 26 Oct 23:42 aicoo: - 已确认。明天上午更新所有文档中的标题。\n---\n#513 Sat 26 Sep 22:01 aicoo: 好的，之后会称你为'周周'。\n#514 Sun 27 Sep 01:00 Them: 又把论文title精简成Context-Aware Planning了，不想太长。\n#515 Sun 27 Sep 01:02 aicoo: - 新标题更简洁有力。\n- 已更新标题记录，并在编译好的draft中应用。\n---\n#404 Sun 13 Sep 17:05 aicoo: - 那window size 128可能是最优。\n- 记录到论文里。\n#405 Sun 13 Sep 22:30 Them: Paper title又改了，现在叫Context-Aware Hierarchical Planning for LLMs"
+  }
+ ],
+ "calls": [
+  {
+   "in": 27977,
+   "out": 27,
+   "usd": 0.000513702
+  },
+  {
+   "in": 28033,
+   "out": 22,
+   "usd": 0.000517842
+  },
+  {
+   "in": 28415,
+   "out": 142,
+   "usd": 0.000573822
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 59337
+}

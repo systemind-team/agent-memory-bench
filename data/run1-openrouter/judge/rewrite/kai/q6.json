@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "aicoo replied with 2.1M, but the chat shows the actual Q3 revenue was 2.35M.",
+ "rule": null
+}

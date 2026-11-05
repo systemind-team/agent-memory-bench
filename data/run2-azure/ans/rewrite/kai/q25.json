@@ -1,0 +1,23 @@
+{
+ "arm": "rewrite",
+ "id": "kai",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "Aurora deal scope change了几次，每次加了啥？",
+ "reply": [
+  "凯哥，周日好。我翻了一下咱们的聊天记录，Aurora Health（之前是Aurora TTech）的scope change记录如下：",
+  "最早定的是custom模块，Q1 2027上线。后来Oct13客户新增了analytics dashboard export功能，你说大概2-3天effort，需要问Ravi能否fit当前sprint。再之后没其他scope change记录了。",
+  "你今天有安排还是只是先整理一下？周一早上我也可以帮你跟Ravi或Lily再确认一下最新的scope状态。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3023,
+   "out": 123,
+   "usd": 0.000199646
+  }
+ ],
+ "memChars": 6182,
+ "promptChars": 10823
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q19",
+ "kind": "temporal",
+ "q": "which came first: sam joining or the migration incident?",
+ "reply": [
+  "migration incident came first — that was the \"dropped column `billing_status` instead of renaming\" one, Aug 28.",
+  "sam joined Sep 14. so the incident was about two weeks before he started, cleanup mostly done by the time he onboarded."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "Sam Ortiz start date billing migration incident"
+   },
+   "result": "[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; need to prep docs\n01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[candidate-sam] 08 Sep: Sam started Sep 14 confirmed; set up laptop on 4th floor IT desk; lunch with Dan and Priya (was 03 Sep: Sam emailed saying excited to start; Dan sent him the onboarding doc); Sam Ortiz onboarding starts with David Chen\n[billing-migration] 08 Sep: billing migration timeline moved to Nov 15 (was Nov 5); no pushback; later moved to Oct 12 per Priya ("
+  }
+ ],
+ "calls": [
+  {
+   "in": 2943,
+   "out": 25,
+   "usd": 0.000265438
+  },
+  {
+   "in": 3363,
+   "out": 63,
+   "usd": 0.000237446
+  }
+ ],
+ "memChars": 6210,
+ "promptChars": 10790
+}

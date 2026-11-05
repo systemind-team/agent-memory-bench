@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It provides the latest known key 7C2E9B from October 26 and notes the old one was revoked, matching the update requirement.",
+ "rule": null
+}

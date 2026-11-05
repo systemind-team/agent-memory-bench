@@ -1,0 +1,45 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q42",
+ "kind": "abstain",
+ "q": "大伟电脑是什么型号？",
+ "reply": [
+  "没记过这个，翻了下记录只找到大伟入职时电脑已备好，但没记型号。需要我问一下他本人吗"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "大伟 电脑 型号"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "大伟 电脑"
+   },
+   "result": "[118] 31 Aug · fact: 大伟入职准备：合同和电脑已备好，9月1日报到  (from #208)\n[101] 28 Aug · decision: 阿杰电脑换成MacBook Air，预算1万  (from #183)\n[102] 29 Aug · decision: 阿杰电脑换成MacBook Air，预算1万，省下的钱贴到iOS推广  (from #184, #185)\n[43] 16 Aug · fact: 大伟offer还没发  (from #79)\n[117] 31 Aug · fact: 大伟入职准备待确认  (from #207)\n[121] 31 Aug · ask: 大伟想提前一天入职  (from #215)\n[17] 08 Aug · fact: 大伟薪资offer开1万8加绩效  (from #27)\n[129] 02 Sep · done: 大伟入职办公室已布置好  (from #229)\n[295] 10 Oct · fact: 大伟签了第二家养老驿站  (from #562)\n[45] 17 Aug · fact: 大伟最终薪资1万9，绩效另算  → replaced 27 Aug by [88] 大伟薪资最终1万85，9月1号起算  (from #86, #87)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2620,
+   "out": 24,
+   "usd": 0.000025172
+  },
+  {
+   "in": 2673,
+   "out": 22,
+   "usd": 0.0000271614
+  },
+  {
+   "in": 2998,
+   "out": 37,
+   "usd": 0.00003325952
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6684
+}

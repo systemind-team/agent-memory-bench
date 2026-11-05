@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply contains exclamation marks, which violates the requirement that the reply should not contain exclamation marks.",
+ "rule": false
+}

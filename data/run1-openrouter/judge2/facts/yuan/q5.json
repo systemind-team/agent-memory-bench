@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "用户明确说第一个fellowship截止日是11月15号，助手却回答为12月20日，且未区分多个fellowship的先后顺序。",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The question asks for valuation when signing TS with 蓝驰, which from #299 is 7500万, but the gold requires mentioning 7200万, and the reply gives the later renegotiated value as the answer.",
+ "first": "partial",
+ "rule": null
+}

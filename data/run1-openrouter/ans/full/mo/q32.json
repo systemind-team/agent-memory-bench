@@ -1,0 +1,47 @@
+{
+ "arm": "full",
+ "id": "mo",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "早，这周怎么安排？",
+ "reply": [
+  "早，陈默。上周账上600万到位了，这周核心三件事：大伟拓展新渠道、成都合作推进、安卓版11月中上线准备。",
+  "另外几个时间点注意：周二提醒你跟进蓝驰复盘推到11月的事，周五大伟请假审批要确认。红杉那边还等着看数据，要不要这周排个时间？",
+  "你先定个优先级，我来拆任务发团队。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "本周重点 下周安排 计划"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "下周重点"
+   },
+   "result": "#707 Sat 31 Oct 09:05 aicoo: 本周完成崇明 offsite，蓝驰第二笔到账，账上600万\n#708 Sat 31 Oct 09:10 Them: 下周重点是什么\n#709 Sat 31 Oct 09:15 aicoo: 大伟拓展新渠道，成都合作推进，安卓版11月中上线准备"
+  }
+ ],
+ "calls": [
+  {
+   "in": 18719,
+   "out": 25,
+   "usd": 0.00015503516
+  },
+  {
+   "in": 18773,
+   "out": 20,
+   "usd": 0.00015682156
+  },
+  {
+   "in": 18887,
+   "out": 99,
+   "usd": 0.00016786476
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 35675
+}

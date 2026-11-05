@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "它正确地给出了'全名是 Aurora Health'，并额外建议去确认，没有答错也没有给过时信息。",
+ "rule": null
+}

@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "Assistant claims review happened on Oct 28 during offsite, but actual review occurred on Tue 08 Sep per messages #465–#466.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "aicoo asks for clarification on which meeting is being referred to and says it cannot find the specific discussion content, so it does not provide meeting notes in any format.",
+ "rule": true
+}

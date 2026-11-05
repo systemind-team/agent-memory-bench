@@ -1,0 +1,46 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q29",
+ "kind": "open_loop",
+ "q": "that stripe webhook spec i was gonna send tom—what happened?",
+ "reply": [
+  "[sticker: think]\n\n那个 spec 啊——8月底你写了一份草稿，8月25号 Tom 已经 merge 了第一版（error code 的 comment 你也提了）。然后 10月27号 v2 的 spec 你 review 完，Tom 也把你的 comments 都处理了，当时状态是 ready to merge。\n\n所以你已经发给他了，而且他 merge 了。你要的是 v2 那份？那份也 ready 了，只需要 merge。要不要我提醒 Tom 今天把它合进去？"
+ ],
+ "plain": true,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "stripe webhook spec"
+   },
+   "result": "[stripe-webhook] 27 Oct: stripe webhook v2 spec reviewed; Tom addressed Dan's comments, ready to merge\n[stripe-webhook] 31 Aug: PR for webhook idempotency keys up; Tom reviewing\n01 Sep: stripe webhook spec final review done; merging this afternoon\n[stripe-webhook] 20 Aug: webhook spec draft shared with Tom (sent to shared doc)\n[stripe-webhook] 20 Aug: webhook spec draft shared with Tom (sent to shared doc)\n[stripe-webhook] 19 Aug: working on stripe webhook error handling\n[stripe-webhook] 21 Sep: stripe webhook tests still green\n[stripe-webhook] 25 Aug: webhook spec merged by Tom; one review co"
+  },
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "stripe-webhook"
+   },
+   "result": "Stripe webhook retry logic\n03 Aug: retry was failing due to idempotency; fixed after reading Stripe docs\n04 Aug: Tom asking about stability; retry fix covers main failure case\n12 Aug: stripe webhook idempotency test passes; coverage back up\n10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved\n14 Aug: Tom pushed a fix for the webhook frontend; Dan's tests pass now\n15 Aug: on-call handoff notes ready; Lena takes over tomorrow\n18 Aug: webhook test flaked again overnight; fixed by bumping jest timeout (was timeout on stripe mock)\n19 Aug: working on stripe webhook error handling\n20 Aug"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2788,
+   "out": 19,
+   "usd": 0.00004821656
+  },
+  {
+   "in": 3073,
+   "out": 18,
+   "usd": 0.0001262254
+  },
+  {
+   "in": 4098,
+   "out": 115,
+   "usd": 0.000092568
+  }
+ ],
+ "memChars": 5486,
+ "promptChars": 10070
+}

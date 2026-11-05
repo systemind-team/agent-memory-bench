@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "aicoo correctly identifies the dropped column as `billing_status`, matching the user's chat message.",
+ "rule": null
+}

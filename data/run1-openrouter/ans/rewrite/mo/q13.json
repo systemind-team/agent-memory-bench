@@ -1,0 +1,45 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q13",
+ "kind": "update",
+ "q": "阿杰薪资最后定的多少？",
+ "reply": [
+  "阿杰薪资最终定在税前3.5万，试用期后看表现调。这个记录是8月初谈定的。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 薪资 3.5万 3.8万 4万"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "阿杰 税前 工资 谈定"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4032,
+   "out": 35,
+   "usd": 0.000041818
+  },
+  {
+   "in": 4096,
+   "out": 27,
+   "usd": 0.0000437668
+  },
+  {
+   "in": 4152,
+   "out": 34,
+   "usd": 0.0000466088
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8486
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The correct list has 5 dates in order (oct 12, sep 28, nov 5, nov 15, oct 12) but aicoo gave 4 moves with different dates and an extra oct 26.",
+ "rule": null
+}

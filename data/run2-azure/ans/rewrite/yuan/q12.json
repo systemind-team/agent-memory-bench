@@ -1,0 +1,23 @@
+{
+ "arm": "rewrite",
+ "id": "yuan",
+ "qid": "q12",
+ "kind": "temporal",
+ "q": "Kevin组会presentation最后定在哪天了？",
+ "reply": [
+  "这问题我得翻翻聊天记录。等一下。",
+  "[sticker: thinking]",
+  "找到了——没找到具体日期。之前只记录了组会周周讲，但没说Kevin组会时间。要我问你，还是你大概记得什么时候？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3563,
+   "out": 58,
+   "usd": 0.000184998
+  }
+ ],
+ "memChars": 4541,
+ "promptChars": 8761
+}

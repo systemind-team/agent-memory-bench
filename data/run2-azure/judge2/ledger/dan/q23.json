@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant fabricated multiple dates (Aug 20, Sep 6, Sep 30, Oct 2, Oct 3, Oct 16, Oct 26) and details (legal signed off, priya confirmed, locked) not present in the chat, and failed to provide the correct three cutover dates: Oct 12, Nov 5, Nov 15.",
+ "first": "made_up",
+ "rule": null
+}

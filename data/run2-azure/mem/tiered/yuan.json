@@ -1,0 +1,66 @@
+{
+ "state": {
+  "days": {
+   "71": "Mon 12 Oct: 周予安开始新一周实验，先看上周notes。上午跑ablation on attention heads数量，发现attention heads=8最优（4和16较差），aicoo记录后续固定此参数。下午TA office hour答递归题。傍晚在AI2-THOR上验证GPTR，比baseline高2.5个点，但有一个环境报错，需明天debug。",
+   "72": "Tue 13 Oct: 早上处理了THOR版本报错，重新安装后继续跑实验。组会Prof. Lin建议论文加real-world scenario实验，决定下周汇报设计。晚上批改作业，50份中先改20份。要求aicoo以后用英文回复避免歧义，已设置首选语言为English。",
+   "73": "Wed 14 Oct: 上午改完30份作业并发给Prof. Li。下午设计机器人导航的real-world scenario，使用AI2-THOR厨房环境。晚上开始写代码。23:00预订了“山海”餐厅，11月20日为Coco生日聚餐。",
+   "74": "Thu 15 Oct: 完成scenario实现并跑实验，效果优于随机但与GPTR结合提升不大，认为场景太简单；晚上添加障碍物增加难度，改好待明天再跑；提到平时喝Blue Bottle咖啡，近期有打折。",
+   "75": "Fri 16 Oct: 把GPTR结果加进paper，比baseline高3个点；早上跑新scenario实验，有障碍物后模型下降但GPTR仍有2个点提升；下午参加fellowship workshop学到推荐信要提前要；晚上决定将GPTR结果加入paper充实实验部分；加数据时发现还有实验没跑完，先跑上；实验跑完后继续加数据。",
+   "76": "Sat 17 Oct: 睡到自然醒，起来改论文。下午和Coco去超市买菜，晚上做火锅。火锅后继续改论文。整理实验表格发现数据点不对，重新跑。将model checkpoint存在学校cloud，路径/project/zhouyunan/ckpts/。",
+   "77": "Sun 18 Oct: 整理实验进展并准备组会材料，汇报后Prof. Lin认可real-world scenario但建议增加更复杂场景；决定设计多房间跨房间规划的新场景，下周汇报。晚间得知新博士后Dr. Chen下月入职。",
+   "78": "Mon 19 Oct: 周予安运行复杂场景补充实验，参数batch size 64、lr 1e-4、跑4个seed。结果：context-aware比gptr高2个点但方差大，决定再加跑2个seed。修改discussion limitation部分，加入场景复杂度有限和模型对初始state的sensitivity两点。aicoo负责记录参数、提交新seed、更新草稿，并明早提醒检查结果。周予安表示累了先睡，实验明早看。",
+   "79": "Tue 20 Oct: 实验seed跑完，方差略降但结果不变。下午3点组会，决定不用新slides，只需更新进度。组会前整理上周notes：action item是设计机器人导航场景。组会后Prof. Lin要求再加场景，已有AI2-THOR、导航、grid world with partial obs，考虑加真实文本任务如HotpotQA。决定看看HotpotQA能否用planning框架做。Fellowship只投了Facebook，放弃NSF；截止12月20日，aicoo已设置提醒。",
+   "80": "Wed 21 Oct: 开始看HotpotQA数据格式，上午批了20份TA作业，还有30份下午继续。lab meeting确定Dr. Chen 11月3日入职，Lin让我带他熟悉环境。下午写HotpotQA dataloader，晚上跑baseline效果差，发现是max length截断问题，调整后新实验预计需3小时。",
+   "81": "Thu 22 Oct: HotpotQA精度仅30%，需调整。下午3点与Prof. Lin开会，诚实展示三个环境结果，包括低精度。Lin要求进一步分析失败原因。决定使用Cursor写代码（比VSCode快），但学校cloud可能无法安装。晚上与Coco吃饭，未继续工作。",
+   "82": "Fri 23 Oct: 周予安分析HotpotQA failure case，发现模型multi-hop忽略中间步骤。加intermediate supervision后HotpotQA提升至45%，grid world context-aware高基线5点。实验提交第四个环境（HotpotQA改版），预计次日早上出结果。周予安周末简化工作，整理实验。",
+   "83": "Sat 24 Oct: 第四个环境结果45%没变，周予安决定周末不折腾。下午和Coco去布鲁克林购物。Prof. Lin谷歌学术引用破5000，周予安在Slack发了恭喜并收到回复。明早组会需准备，今晚早睡。",
+   "84": "Sun 25 Oct: 下周一与Prof. Lin meeting改为线上，他说会发Zoom链接。下午3点组会，准备slides放四个环境结果，汇报HotpotQA挑战。Lin对进展满意但保留对HotpotQA意见，建议诚实写局限性。周二继续改discussion。周予安自己检查slides，今晚早休息。",
+   "85": "Mon 26 Oct: 周予安开始finalize论文标题并跑最后一个实验。环境4（改进版HotpotQA）准确率45%，尝试将intermediate supervision权重从0.2调至0.5，准确率升至48%后仍不满意。晚上确认最终论文标题为‘Context-Aware Planning via Hierarchical Decomposition’，aicoo承诺次日上午更新所有文档。周予安决定实验次日继续。",
+   "86": "Tue 27 Oct: 论文标题更新为“Context-Aware Planning via Hierarchical Decomposition”（含overleaf、本地、周报模板）。上午开始调环境4，在每个step加supervision，先小batch测试。14:30跑到52%较45%提升，继续跑更多epoch。18:00环境4达55%，但环境2结果下降需检查。22:32决定明天重新跑所有环境的完整实验。",
+   "87": "Wed 28 Oct: 开始跑全部四个环境实验，固定seed。环境1和2结果与之前一致。环境3结果比之前高2个点，说明intermediate supervision有效。环境4结果55%，没有退化。提到纽约11月供暖，暖气费每月多50刀，暂不调预算。",
+   "88": "Thu 29 Oct: 凌晨调参，环境3（89%）最优；环境1 82%、环境2 78%、环境4 55%。下午三点前aicoo交付LaTeX表格（含主实验+ablation）。周一meeting改线上，需讨论论文投稿时间和Dr. Chen（11月3日入职）事宜，aicoo已设9:30提醒。",
+   "89": "Fri 30 Oct: 完成论文实验部分初稿并上传Overleaf。aicoo检查数据一致性，修正环境2结果79%→78%。环境3的89%作为重点。周日需准备周一meeting。",
+   "90": "Sat 31 Oct: 准备周一meeting slides，包含实验总结、论文进度、目标12月投稿某会议（待Prof. Lin确认）。slides做完后交由aicoo review，标注环境4结果为preliminary。明天meeting前将论文最新版发给Prof. Lin（aicoo已设明早9:00自动发送，附overleaf和实验表格）。Dr. Chen周二入职，aicoo设提醒周二10:00带其熟悉环境（GPU集群、存储、代码仓库）。明天9:30线上meeting，材料已备。"
+  },
+  "weeks": {
+   "6": "Mon 14 Sep: 决定新标题“Context-Aware Hierarchical Planning for LLMs”；跑完实验改完intro发Prof. Lin。Tue 15 Sep: 修GPTR normalization bug，重提交实验。Wed 16 Sep: GPTR数据正常，要求aicoo整理对比表格；要求日后给Prof. Lin邮件开头“Lin老师好”，结尾“祝好，予安”。Thu 17 Sep: 完成GPTR表格；Prof. Lin认可intro，可写实验部分；查NSF (11/15)和Facebook (10/31)截止日，未定投哪些；下周一10:30组会由你主讲。Sat 19 Sep: 决定只投NSF和Facebook；要求aicoo设提醒：Facebook 10月17日，NSF 11月1日。Sun 20 Sep: 组会获Prof. Lin认可；下周开始写discussion、跑ablation、写两份fellowship申请。",
+   "7": "Mon 21 Sep: 定下discussion方向从attention各层行为切入；放弃NSF，改投Facebook fellowship。Tue 22 Sep: 保留NSF日程；实验因num_workers配置崩溃，已定位根因。Wed 23 Sep: num_workers改为4（集群最优）；需补两个实验图；slide完成一半，Kevin明日分享diffusion。Thu 24 Sep: 决定组会问Kevin；下午组会；discussion采用分解框架，初稿目标下周完成。Fri 25 Sep: 组会Prof. Lin满意；年底San Diego workshop下次meeting问是否投；改discussion参考Kevin自评。Sat 26 Sep: 周周让aicoo改称呼为“周周”；修改introduction强调时效性，计划对比LLM失败案例；处理3封学生邮件。Sun 27 Sep: 标题改为Context-Aware Planning；aicoo检查引用并添加2024 ICLR论文；discussion完成(含LLM agent framework)；aicoo编译新draft并提醒overfull hbox。",
+   "8": "Mon 28 Sep: 周予安改limitations, 加inference time多12%数据, 引ICRA论文, 标题改Context-Aware Planning. aicoo调Prof. Lin comments. 明天跑full pipeline.\nTue 29 Sep: pipeline跑完. 改introduction, contribution聚焦结构化分解/attention/效率. 系里新购H100 8张, 投出后申请.\nWed 30 Sep: Prof. Lin赞intro, abstract缩至4句. 改完论文. 检查ICLR(9pg) vs NeurIPS(8pg), 倾向ICLR.\nThu 01 Oct: proofread ICLR论文(deadline 11/15), 加appendix. 开始fellowship statement(NSF & Facebook, deadline 11/15). Coco要庆祝, 设提醒Mon 05 Oct 10:00订餐.\nFri 02 Oct: 组会slides加H100性能对比(A100推算2.5x). 写H100申请理由. fellowship加embodied AI vision. Prof. Lin建议投ICLR; H100申请已签, 排实验室第一. 周末finalize.\nSat 03 Oct: 周予安打包ICLR submission, A100上batch 128利用率30%→54%, 傍晚pinned memory后68%, 小模型掉回30%写入limitations. aicoo建议记录优化步骤.\nSun 04 Oct: 周予安放松. final check ICLR论文(下周due). 明天改计划法拉盛买菜(买月饼, 中秋10月4日). 晚上打保龄球.",
+   "9": "Mon 05 Oct: A100实验，Habitat dataloader慢需加num_workers。Fellowship推荐信Coco本周发。Kevin称H100申请排队，暂用A100。Facebook fellowship截止12月20日，aicoo已设提醒。\nTue 06 Oct: 组会改到11:00。Prof. Lin建议Habitat加visual grounding模块。Mei建议用预训练模型。要求aicoo以后按agenda item分，下列decision和action items。\nWed 07 Oct: Coco生日聚餐，周予安订蛋糕。visual grounding bug通过调batch size到32解决，训练时间加倍。\nThu 08 Oct: 组会取消。全力跑AI2-THOR，动作空间有问题，让aicoo调出文档。决定通宵实验，aicoo承诺明早汇总结果并嘱咐早点休息。\nFri 09 Oct: AI2-THOR结果波动大，建议检查随机种子和噪声参数。Prof. Lin要求至少三个环境验证，优先调参稳住THOR。让aicoo列出调试步骤。\nSat 10 Oct: THOR调试，随机种子设42，三个环境均跑通。下周二参加fellowship workshop，aicoo准备申请问题清单。aicoo备好数据可视化与写作模板。\nSun 11 Oct: 完成三个环境实验结果。Mei的NeurIPS被接收，需安排庆祝活动（待定）。"
+  },
+  "months": {
+   "Aug": "2025-08-10至16: GPU batch size 64→128（稳定但显存高）；Prof. Lin每周四3pm例会确认；Kevin组会推迟至9月；fellowship截止11月15日aicoo拆任务排时间表；aicoo曾提出帮忙查资料未明确接受。2025-08-17: GPU batch size 128梯度稳定但显存高，aicoo建议gradient accumulation。2025-08-18: lr从1e-4改为3e-4。2025-08-20: 论文标题定稿'Hierarchical Planning with Graph Attention'；跑4个baseline结果好。2025-08-21: Mei建议做ablation，删除attention layer确认必要。2025-08-22: aicoo要求之后不用emoji/贴图。2025-08-24: San Diego workshop deadline 10月15日通知11月1日；ablation结果attention去掉后性能掉近4个点；决定本周跑完所有GPU实验。2025-08-25: 确定lr=0.001为默认学习率；答应Mei本周五前帮她review NeurIPS rebuttal。2025-08-26: Kevin组会改到9月14日。2025-08-27: 给Mei的NeurIPS rebuttal提comments，她承诺明天改好；fellowship draft周五前交给Prof. Lin。2025-08-28: 改fellowship draft，16:00发给Prof. Lin要求周五前反馈。2025-08-30: GPU batch size改回64（128 loss振荡大且val acc低0.8%），确认可复现。2025-09-02: lr 1e-3比3e-3更稳定并记录。2025-09-05: 充打印卡；Mei NeurIPS rebuttal通过。2025-09-06: 手机屏裂暂不换。2025-09-07: aicoo回复改为bullet list。",
+   "Sep": "Mon 07 Sep: Prof. Lin's San Diego workshop deadline Dec 1, reminder set 2 weeks early. TA office hour changed to Wed 15:00. Batch size 128 faster but memory +30%. Tue 08 Sep: Final experiment uses batch size 64 (lower validation loss). Wed 09 Sep: GPTR missing normalization, modify and rerun. Meeting: paper priority > workshop, complete full experiment report before next group meeting. Thu 10 Sep: GPTR learning rate reduced to 1e-5, results usable; add to paper table and update ablation tomorrow. Fri 11 Sep: Coco birthday Oct 5, wants KTV, I arrange. Sat 12 Sep: Gym membership $150/semester, not renew. Sun 13 Sep: Group meeting done, Prof. Lin suggests discuss context window size; experiment: 128 optimal. Paper title changed to \"Context-Aware Hierarchical Planning for LLMs\", aicoo updated."
+  },
+  "fold": {
+   "Aug": [
+    "Mon 03 Aug: 与Prof. Lin讨论，实验室明年春季仅3个intern名额，予安想申请但取决于论文进度。实验室GPU排队决定下周提前预约。Tue 04 Aug: 本学期仅9学分（三门课）。Wed 05 Aug: 申请fellowship截止下个月，请aicoo帮忙整理申请材料清单。Coco周末想去“山海”餐厅。Thu 06 Aug: Prof. Lin要求多发论文。Mei论文被拒需打气。承诺明天前给Kevin发GPU driver版本号。Fri 07 Aug: 论文暂定标题“Planning with Hierarchical Graphs”。给Kevin发了driver版本号对方确认ok。Sat 08 Aug: 让aicoo记录论文标题“Planning with Hierarchical Graphs”，和Coco去“山海”吃饭。Sun 09 Aug: 这学期TA是CS 571 (Prof. Li的课)，每周二批50份作业。下周开始准备TA材料并继续写论文。需要分析实验没提升的原因（超参数）。",
+    "(quiet week)",
+    "Mon 10 Aug: GPU batch size 64 loss不稳定；Prof. Lin确认TA assignment，周三前回复；Kevin问GPU做ablation。Tue 11 Aug: Kevin组会推迟至9月；重写introduction；周末与Coco约山海；因fellowship压力。Wed 12 Aug: aicoo提醒slides；Kein GPU驱动解决；Prof. Lin要求加related work对比，aicoo帮忙搜集论文；确定每周四3pm与Prof. Lin例会。Thu 13 Aug: 凌晨发现data预处理顺序bug；开始写fellowship personal statement；决定周报加\"本周遇到的坑\"段落。Fri 14 Aug: 周予安要求aicoo每周提醒新格式段落；Mei论文被workshop接受；fellowship截止11月15日，aicoo拆任务排时间表。Sat 15 Aug: 22:00写完method部分；aicoo提出帮忙查资料未明确接受。Sun 16 Aug: 学校咖啡涨到5刀；Coco约明天一起自习；Prof. Lin发相似论文，请aicoo做quick summary对比；GPU batch size 128比64快，aicoo帮忙盯log。",
+    "(quiet week)",
+    "(quiet week)",
+    "Mon 17 Aug: batch size 128 gradient stable but memory high; aicoo suggested gradient accumulation. Remind Coco to transfer rent by end-Aug.\nTue 18 Aug: lr=1e-4 > 3e-4. Revise paper introduction tomorrow.\nWed 19 Aug: Title changed to 'Hierarchical Planning with Graph Attention'.\nThu 20 Aug: Title finalized. Intro draft done. Ran 4 baselines, results good. Sent table to Mei.\nFri 21 Aug: Mei suggested ablation study; designed remove attention layer; ablation results confirm attention needed.\nSat 22 Aug: Rewrote related work by methodology. aicoo: no emoji/stickers henceforth.\nSun 23 Aug: Will propose San Diego workshop to Prof. Lin (aicoo to remind). Paper method section revised.",
+    "(quiet week)",
+    "(quiet week)",
+    "(quiet week)",
+    "Mon 24 Aug: 收尾related work, 跑ablation最后一组; TA批改作业周二开始; San Diego workshop deadline 10月15日, 通知11月1日; ablation结果attention去掉后性能掉近4个点; 收到Mei邮件下周用A100, 决定本周跑完所有GPU实验, 当晚挂lr=0.001和0.0005两组对比. Tue 25 Aug: 确定lr=0.001为默认学习率; 答应Mei本周五前帮她review NeurIPS rebuttal. Wed 26 Aug: 批改50份作业; Kevin组会改到9月14日; Prof. Lin要求开始写论文实验部分. Thu 27 Aug: 写实验部分; 给Mei的NeurIPS rebuttal提comments, 她承诺明天改好; fellowship draft周五前交给Prof. Lin; 决定明天全天写fellowship. Fri 28 Aug: 改fellowship draft, 16:00发给Prof. Lin要求周五前反馈; 答应帮Mei看rebuttal需周五前给反馈, aicoo设置提醒. Sat 29 Aug: 收到Prof. Lin feedback, 在research statement加mini-Imagenet top-1 accuracy对比; 帮Mei改rebuttal; 整理论文实验代码push到repo, 约定PR description加Risk section. Sun 30 Aug: 实验对比batch size 128 vs 64, 128 loss振荡大且val acc低0.8%, 改回64并确认可复现; 决定下周继续改论文和准备组会.",
+    "(quiet week)",
+    "(quiet week)",
+    "(quiet week)",
+    "(quiet week)",
+    "Mon 31 Aug: GPU驱动修复，弃用batch size 128恢复64。写method未完成。\nTue 01 Sep: 改Mei rebuttal，lr 1e-3比3e-3更稳定并记录。\nWed 02 Sep: Prof. Lin同意写实验。周五MIT Prof. Wang RL guest talk记入日历。\nThu 03 Sep: 写完ablation发给Kevin，建议加complexity analysis。打印卡剩1.5刀，aicoo提醒明天充。\nFri 04 Sep: 充打印卡，完成complexity analysis。Mei NeurIPS rebuttal通过。计划加GPTR。\nSat 05 Sep: 找GPTR代码，手机屏裂暂不换。环境配置未跑通。\nSun 06 Sep: 改intro。听Prof. Wang talk。GPTR跑起来但结果不对需debug。aicoo回复改为bullet list。",
+    "(quiet week)",
+    "(quiet week)",
+    "(quiet week)",
+    "(quiet week)",
+    "(quiet week)"
+   ],
+   "Sep": [
+    "Mon 07 Sep: Prof. Lin's San Diego workshop deadline Dec 1, aicoo set reminder 2 weeks early. TA office hour changed to Wed 15:00. Batch size 128 loss drops faster but memory +30%. Tue 08 Sep: Final experiment uses batch size 64 (lower validation loss). Wed 09 Sep: GPTR missing normalization, modify and rerun. Meeting: paper priority > workshop, complete full experiment report before next week's group meeting. Thu 10 Sep: GPTR learning rate reduced to 1e-5, results usable; add to paper table and update ablation tomorrow. Fri 11 Sep: Coco birthday Oct 5, wants KTV, I arrange. Sat 12 Sep: Gym membership $150/semester, not renew. Tomorrow group meeting will show full results including GPTR. Sun 13 Sep: Group meeting done, Prof. Lin suggests discuss context window size. Experiment: 128 optimal. Paper title changed to \"Context-Aware Hierarchical Planning for LLMs\", aicoo updated."
+   ]
+  }
+ },
+ "lastDay": 90,
+ "done": true,
+ "minutes": 5.0755333333333335
+}

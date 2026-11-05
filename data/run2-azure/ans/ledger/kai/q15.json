@@ -1,0 +1,22 @@
+{
+ "arm": "ledger",
+ "id": "kai",
+ "qid": "q15",
+ "kind": "update",
+ "q": "Pricing v3的时候Ben提的那个价格是多少来着，后来没用那个。",
+ "reply": [
+  "Ben提的pricing v3是$48/user/month，segmentation pricing。后来团队觉得太激进，你们选了v2的$44/user/month，再加上premium tier的$59。",
+  "v3那个方案你们留了notes说如果Q4 tracking超预期可以Q1再考虑捡回来。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 5082,
+   "out": 73,
+   "usd": 0.000237444
+  }
+ ],
+ "memChars": 10048,
+ "promptChars": 14919
+}

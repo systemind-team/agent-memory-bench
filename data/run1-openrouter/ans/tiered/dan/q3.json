@@ -1,0 +1,69 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "what was the column name i dropped by accident?",
+ "reply": [
+  "`billing_status`. the one that took 3 hours of panic back in august. glad the rollback fix held up since then."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "column name dropped accident billing"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing_status drop rollback"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "column dropped billing migration"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "drop column billing"
+   },
+   "result": "#236 Sat 29 Aug 18:05 aicoo: nice, asheville here you come\n#237 Sun 30 Aug 08:30 Them: the dropped column was `billing_status`. 3h of panic.\n#238 Sun 30 Aug 08:30 aicoo: critical column. glad rollback worked"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5327,
+   "out": 23,
+   "usd": 0.0002181438
+  },
+  {
+   "in": 5379,
+   "out": 24,
+   "usd": 0.00008729812
+  },
+  {
+   "in": 5432,
+   "out": 22,
+   "usd": 0.000056028
+  },
+  {
+   "in": 5483,
+   "out": 21,
+   "usd": 0.00004970252
+  },
+  {
+   "in": 5587,
+   "out": 34,
+   "usd": 0.00005498052
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17925
+}

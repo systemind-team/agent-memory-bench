@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "yuan",
+ "qid": "q45",
+ "kind": "abstain",
+ "q": "实验室那8张H100 GPU是什么时候到货的？",
+ "reply": [
+  "我翻了一下笔记，系里买H100的事是29 Sep Kevin提到的——他说系里买了8张H100，申请的人很多，让你尽快申请。你02 Oct就去跟Prof. Lin说了，他签了申请，你排实验室第一个。",
+  "但到货时间没明确记下来。你当时签的是申请，不是到货通知对吧？要不要我去翻一下那周的聊天或者slack？或者你问问Kevin，他消息灵通。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "H100 GPU 到货 时间"
+   },
+   "result": "[个人] 11 Aug: 晚上跑GPU实验，accuracy提升了一点点\n[个人] 10 Aug: Kevin问有没有多余的GPU内存跑他的ablation study\n[个人] 12 Aug: 跑GPU实验，昨晚loss曲线有点炸，batch size 64需要检查\n[个人] 19 Aug: Mei问share A100使用时间，已同意\n[项目] 16 Aug: GPU实验batch size 128跑了一轮，loss曲线比64稳定但memory快满了\n[人物] 19 Aug: Mei问要不要share A100使用时间，我说好\n[项目] 07 Oct: batch size调到32稳定，visual grounding训练时间加倍\n[个人] 07 Oct: batch size调到32稳定，visual grounding训练时间加倍\n[个人] 06 Aug: 下午跑实验，GPU利用率上去了，开心（之前一个崩了、一个收敛很慢）\n[项目] 07 Oct: batch size调到32稳定，visual grounding训练时间加倍；07 Oct: 开始跑Habitat实验"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4404,
+   "out": 26,
+   "usd": 0.00008113504
+  },
+  {
+   "in": 4663,
+   "out": 105,
+   "usd": 0.00009806524
+  }
+ ],
+ "memChars": 6903,
+ "promptChars": 11257
+}

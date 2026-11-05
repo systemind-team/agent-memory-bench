@@ -1,0 +1,46 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q16",
+ "kind": "update",
+ "q": "Aurora最初名字是Aurora啥，我记得有歧义。",
+ "reply": [
+  "是Aurora Health，不是Aurora TTech。之前差点搞混过，所有文档和合同都是Aurora Health。你当时还特别记了一笔。",
+  "今天周日，不聊工作了，好好陪家人吧。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Aurora 名字"
+   },
+   "result": "#872 Sun 11 Oct 08:00 Them: Morning. Sunday Oct 11. Lazy morning with family.\n#873 Sun 11 Oct 08:10 Them: Remember Aurora deal名字是Aurora Health, not Aurora TTech，差点confuse.\n#874 Sun 11 Oct 08:12 aicoo: Good catch. Aurora Health all documents."
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Aurora Health 歧义"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 8817,
+   "out": 23,
+   "usd": 0.00007713188
+  },
+  {
+   "in": 8930,
+   "out": 25,
+   "usd": 0.00008188208
+  },
+  {
+   "in": 8984,
+   "out": 58,
+   "usd": 0.00008675408
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26036
+}

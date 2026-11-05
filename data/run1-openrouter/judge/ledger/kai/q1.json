@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply states the target is 2.8M, but the established fact from the chat is 2.4 million USD.",
+ "rule": null
+}

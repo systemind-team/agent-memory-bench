@@ -1,0 +1,21 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q17",
+ "kind": "temporal",
+ "q": "when did sam ortiz start?",
+ "reply": [
+  "sam ortiz 是九月十四号开始的。他和 priya 一起入职，现在坐在你和 lena 之间。",
+  "他已经完成了一次独立部署，并且开始问关于 on-call 文档的问题了。需要我调出他的完整入职计划吗？"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 21345,
+   "out": 62,
+   "usd": 0.00018150636
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64097
+}

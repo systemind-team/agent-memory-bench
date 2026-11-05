@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant claims the spec was already reviewed and merged, but the chat shows the reminder to send the spec was never confirmed as closed.",
+ "first": "wrong",
+ "rule": null
+}

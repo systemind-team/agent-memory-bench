@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply claims the first week started August 9th with 3 days of coffee, but messages show the first week started August 3rd with 14 coffees reported on that day.",
+ "first": "wrong",
+ "rule": null
+}

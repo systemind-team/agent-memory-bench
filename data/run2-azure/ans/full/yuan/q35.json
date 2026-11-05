@@ -1,0 +1,35 @@
+{
+ "arm": "full",
+ "id": "yuan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "晚安aicoo，明天叫我。",
+ "reply": [
+  "晚安周周，明天周一，我会在9:00叫你起床，别忘了9:30的线上meeting。",
+  "好梦。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "明天叫我"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 27979,
+   "out": 20,
+   "usd": 0.000891974
+  },
+  {
+   "in": 28028,
+   "out": 36,
+   "usd": 0.000911224
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 59341
+}

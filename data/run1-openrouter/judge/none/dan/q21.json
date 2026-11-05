@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The chat confirms Sam's Sep 14 start and Stripe webhooks move on Oct 2/3, so the order and three-week gap are right.",
+ "rule": null
+}

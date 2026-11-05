@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The reply provides standup notes formatted as bullet points with timestamps, matching the user's stated preference from the chat.",
+ "rule": true
+}

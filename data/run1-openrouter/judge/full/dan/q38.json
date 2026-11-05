@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The reply starts with context instead of Action Items at the top as the user requested on September 23.",
+ "rule": false
+}

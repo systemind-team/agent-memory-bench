@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It gives October 12 as the current cutover date, matching the latest confirmed value from the chat.",
+ "rule": null
+}

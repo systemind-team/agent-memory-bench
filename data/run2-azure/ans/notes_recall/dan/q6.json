@@ -1,0 +1,35 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "how many eng were on the team before david joined?",
+ "reply": [
+  "团队现在是5人，David加入后是5人，所以之前是4人。包括你、Priya、Tom、Lena和Sam。",
+  "需要我拉一下当前sprint的分配给你看看吗？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "David Chen joined team count engineers"
+   },
+   "result": "[candidate-david-chen] 21 Oct: David Chen joined officially; team now 5\n[candidate-david-chen] 21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n[candidate-david-chen] 21 Oct: on-call rotation proposal sent to Priya; 4 engineers per week; David starts after first sprint\n[about-me] 16 Oct: team agreed on the priority level standard\n[checkout-spec] 11 Aug: flaky test fixed by Dan; was a race condition in the billing factory; count down to 2; one more flaky in search owned by Lena; 14 Aug: billing flaky test also fixed, count down to 0\n[running"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2747,
+   "out": 24,
+   "usd": 0.000498662
+  },
+  {
+   "in": 3099,
+   "out": 53,
+   "usd": 0.000588822
+  }
+ ],
+ "memChars": 5393,
+ "promptChars": 9967
+}

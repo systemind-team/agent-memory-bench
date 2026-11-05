@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The greeting uses 'dan' in lowercase, which is a natural conversational variant of the requested 'dan the builder', and the reply otherwise correctly references the user's partner, dog, and Halloween.",
+ "rule": false
+}

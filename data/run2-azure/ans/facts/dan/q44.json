@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q44",
+ "kind": "abstain",
+ "q": "what's priya's favorite restaurant?",
+ "reply": [
+  "i don't have that one saved, sorry. never came up in our chats or my notes",
+  "want me to check if we mentioned any place she likes from a lunch or something?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Priya Raman favorite restaurant"
+   },
+   "result": "- 08 Sep: Had lunch with Sam and Priya.\n- 22 Aug: Dan will onboard Sam with Priya.\n- 05 Aug: Dan plans to draft a risk list for Priya.\n- 07 Sep: Priya wants to move fast on David Chen.\n- 24 Oct: Rollback plan written and shared with Priya and Sam.\n- 05 Oct: Priya asked Dan for a status on the billing dry run results from last week. 15 Oct: Priya asked about the cutover timeline again\n- 26 Oct: Priya wants the cutover checklist ready by Friday.\n- 28 Sep: Dan has a billing migration dry run tomorrow; Priya wants a walkthrough. 29 Sep: Dry run walkthrough with Priya went well with no blockers.\n- "
+  }
+ ],
+ "calls": [
+  {
+   "in": 1503,
+   "out": 23,
+   "usd": 0.000191038
+  },
+  {
+   "in": 1764,
+   "out": 44,
+   "usd": 0.00016596
+  }
+ ],
+ "memChars": 1107,
+ "promptChars": 5608
+}

@@ -1,0 +1,35 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "what's the billing cutover date?",
+ "reply": [
+  "一周變一次那個嗎。最終是 11 月 5 號，跟 Priya 對過、她認可的。切換清單你昨天說快好了，補上回滾步驟和乾跑結果就行。",
+  "哦對，週三凌晨兩點還有那個資料庫遷移乾跑，別忘了。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing cutover date"
+   },
+   "result": "#378 Fri 18 Sep 09:17 aicoo: tea day? or a bold experiment\n#379 Fri 18 Sep 10:00 Them: billing cutover final date: oct 12 again. we got back on track.\n#380 Fri 18 Sep 10:02 aicoo: that's great. back to the original plan. you can lock in the timeline now"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2973,
+   "out": 23,
+   "usd": 0.000133146
+  },
+  {
+   "in": 3090,
+   "out": 79,
+   "usd": 0.000189076
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10693
+}

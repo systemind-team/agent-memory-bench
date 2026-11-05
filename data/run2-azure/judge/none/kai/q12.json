@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It gives Dec 1 as the latest confirmed date and acknowledges Ben might have changed it but no record of that, so it provides the current value per the chat.",
+ "rule": null
+}

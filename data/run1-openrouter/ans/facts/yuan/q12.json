@@ -1,0 +1,46 @@
+{
+ "arm": "facts",
+ "id": "yuan",
+ "qid": "q12",
+ "kind": "temporal",
+ "q": "Kevin组会presentation最后定在哪天了？",
+ "reply": [
+  "记忆里Kevin最近的组会presentation是9月14日那场，10月2日组会结束后就进入submission package阶段了。",
+  "目前没有找到新的组会presentation日期安排，如果需要定新的时间，需要直接问Kevin。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Kevin 组会 presentation 日期"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Kevin 组会 presentation 日期"
+   },
+   "result": "- 26 Aug: Kevin的组会presentation改到9月14日，他让周予安帮忙看slides。\n- 11 Aug: Kevin说他把组会presentation推迟到9月了，具体哪天待定。后来于26 Aug改成9月14日。\n- 02 Oct: 组会结束，Kevin和Mei整体认可，明天开始搞submission package。\n- 19 Sep: 需要设置两个提醒：Facebook 截止日期为10月31日前两周，NSF 截止日期为11月15日前两周。\n- 25 Oct: 周予安提到组会中Kevin和Mei都没什么特别要说的。\n- 21 Aug: 周予安在组会上听到Kevin分享了一篇ICML 2023的关于graph的论文。\n- 05 Aug: 今天申请了一个fellowship的截止日期是下个月，得赶紧写材料。\n- San Diego workshop（Workshop on Hierarchical Decision Making）的submission deadline是12月1日，通知日期11月1日。\n- 03 Sep: 写完了ablation小节，发给Kevin看看。\n- 04 Oct: 周予安晚上和实验室的人（包括Kevin）一起去打了保龄球，Kevin是最高分。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1613,
+   "out": 25,
+   "usd": 0.00004257316
+  },
+  {
+   "in": 1667,
+   "out": 25,
+   "usd": 0.00004476556
+  },
+  {
+   "in": 1970,
+   "out": 61,
+   "usd": 0.00003504592
+  }
+ ],
+ "memChars": 572,
+ "promptChars": 4872
+}

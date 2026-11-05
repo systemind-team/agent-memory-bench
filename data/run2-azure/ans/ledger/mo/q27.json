@@ -1,0 +1,35 @@
+{
+ "arm": "ledger",
+ "id": "mo",
+ "qid": "q27",
+ "kind": "open_loop",
+ "q": "我10月8号跟红杉的会，提醒还开着吗？",
+ "reply": [
+  "找到了，10月8号跟红杉的会，提醒之前设过。",
+  "不过这个提醒是9月设的，当时写的是「10月8号提醒跟红杉开会」。现在10月8号已经过了，你那天实际上开了吗，还是改期了？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "redwood meeting october 8 reminder"
+   },
+   "result": "[20] 10 Aug · plan: 云九会面在8月12日下午2点，明天是8月10日  (from #34)\n[149] 08 Sep · plan: 明天（8 Sep）催蓝驰进度  → replaced 08 Sep by [152] 明天（9 Sep）催蓝驰进度  (from #274, #275, #276)\n[14] 07 Aug · fact: 阿杰8月10号到15号休假  (from #21)\n[163] 12 Sep · plan: 10月8号与红杉开会  (from #318, #319)\n[17] 08 Aug · fact: 大伟薪资offer开1万8加绩效  (from #27)\n[59] 22 Aug · plan: 8月底提交iOS审核，9月初上线  → replaced 27 Aug by [95] 晨检上线延期到9月10号  (from #113)\n[158] 11 Sep · plan: 10月8号提醒跟红杉开会  → replaced 12 Sep by [163] 10月8号与红杉开会  (from #305, #306)\n[35] 13 Aug · decision: 阿杰薪资调整为税前3万8  → replaced 22 Aug by [60] 阿杰薪资最终定3万5，试用期后看表现调  (from #62, #63)\n[36] 14 Aug"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2607,
+   "out": 26,
+   "usd": 0.00010379
+  },
+  {
+   "in": 3006,
+   "out": 68,
+   "usd": 0.0002111
+  }
+ ],
+ "memChars": 2567,
+ "promptChars": 6693
+}

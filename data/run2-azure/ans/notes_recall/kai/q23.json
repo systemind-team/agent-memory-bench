@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q23",
+ "kind": "aggregate",
+ "q": "PM candidate我们interview了几个人，分别是谁，最后hire了谁？",
+ "reply": [
+  "凯哥周日好。PM candidate一共4人：Jason Chen（8年，product sense好但执行细节不够深）, Emily Tan（6年B2B，你prefer她）, Michael Liu（10年，ex-Microsoft，offer发了）, Sarah Wu（background strong，留作future pipeline）。最后hire的是Emily Tan，她10月26号已经入职了。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13503,
+   "out": 86,
+   "usd": 0.000730062
+  }
+ ],
+ "memChars": 48660,
+ "promptChars": 53389
+}

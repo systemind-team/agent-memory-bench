@@ -1,0 +1,47 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q8",
+ "kind": "recall",
+ "q": "山海餐厅订到哪天了？",
+ "reply": [
+  "周周，我翻了一下记录，关于“山海餐厅”预订，目前没有看到你告诉我具体订到了哪天。",
+  "之前有一条计划是说11月20日Coco生日聚餐去山海，但从来还没有确认过预订日期。你是已经订好了但没告诉我，还是还在等餐厅回复？"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "山海餐厅"
+   },
+   "result": "[387] 02 Oct · plan: Mon 05 Oct 10:00 预订山海餐厅  (from #590, #591)\n[18] 06 Aug · plan: 周末（09 Aug？）和Coco去\"山海\"餐厅  (from #32)\n[477] 15 Oct · plan: 11月20日 去“山海”餐厅（Coco生日聚餐）  (from #733, #734)\n[386] 02 Oct · fact: Thu 01 Oct 21:00 Coco说“山海”餐厅要提前两周预定，周周还没约，想带她去庆祝论文  (from #587, #589)\n[56] 11 Aug · plan: 周末和Coco去'山海'吃饭  (from #98)\n[33] 08 Aug · plan: 今晚（08 Aug）和Coco去\"山海\"吃饭。  (from #63)\n[35] 09 Aug · plan: 08 Aug晚上和Coco去'山海'吃饭  (from #33, #67)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "山海餐厅 订到 哪天"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4559,
+   "out": 20,
+   "usd": 0.000876942
+  },
+  {
+   "in": 4819,
+   "out": 25,
+   "usd": 0.000246982
+  },
+  {
+   "in": 4873,
+   "out": 71,
+   "usd": 0.00106309
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11662
+}

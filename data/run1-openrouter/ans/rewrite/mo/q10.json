@@ -1,0 +1,45 @@
+{
+ "arm": "rewrite",
+ "id": "mo",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "蓝驰第一笔款要打多少？",
+ "reply": [
+  "蓝驰第一笔300万已经到账了，10月14号。第二笔300万10月26号也到了，现在账上总共600万。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰第一笔款"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "蓝驰 300万 到账"
+   },
+   "result": "#584 Wed 14 Oct 10:00 Them: 蓝驰那边有消息吗？\n#585 Wed 14 Oct 10:05 aicoo: 刚收到通知，蓝驰第一笔300万到账了\n#586 Wed 14 Oct 10:06 Them: 终于来了。现金瞬间舒服很多。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4034,
+   "out": 23,
+   "usd": 0.0000409248
+  },
+  {
+   "in": 4086,
+   "out": 26,
+   "usd": 0.0000432796
+  },
+  {
+   "in": 4194,
+   "out": 41,
+   "usd": 0.0000488824
+  }
+ ],
+ "memChars": 4583,
+ "promptChars": 8486
+}

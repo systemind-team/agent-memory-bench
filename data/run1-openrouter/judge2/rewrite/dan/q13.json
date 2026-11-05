@@ -1,0 +1,6 @@
+{
+ "verdict": "stale",
+ "why": "The assistant's memory only mentions one candidate (Maria Torres) as interviewed, using the outdated value of 1, while the correct number based on the chat is 3.",
+ "first": "stale",
+ "rule": null
+}

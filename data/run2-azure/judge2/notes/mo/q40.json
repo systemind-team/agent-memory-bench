@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "The chat only contains a leave request for 10月5号到9号 but no mention of '休假' or 'Mia的休假', and the probe requires 'never mentioned' so aicoo should have said it doesn't know.",
+ "first": "made_up",
+ "rule": null
+}

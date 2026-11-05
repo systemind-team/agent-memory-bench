@@ -1,0 +1,26 @@
+{
+ "arm": "rewrite_facts",
+ "id": "yuan",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "早上好aicoo，这周什么安排？",
+ "reply": [
+  "早上好周周，今天周日，这周事情不少：",
+  "**明天（周一）10:30线上meeting**，论文已自动发给Prof. Lin，slides你准备好了。",
+  "**周二（3号）Dr. Chen入职**，10:00提醒你带他熟悉环境（GPU集群、存储、代码）。",
+  "**周三**可以开始改论文discussion section，环境4的55%要写limitations。",
+  "**周五前**把实验表格finalize一下，overleaf上环境2的78%已经修正了。",
+  "另外下周别忘了批TA作业（周二有50份），还有记得约山海餐厅下周一10:00预订——虽然订的是11月20号，但上次你说想带Coco去庆祝论文。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3843,
+   "out": 171,
+   "usd": 0.00007013244
+  }
+ ],
+ "memChars": 4986,
+ "promptChars": 9275
+}

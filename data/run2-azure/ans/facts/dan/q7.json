@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q7",
+ "kind": "recall",
+ "q": "what dates are the asheville trip?",
+ "reply": [
+  "The Asheville trip was October 22 to 25 — cabin near Blue Ridge. That's already passed, hope it was a good one.",
+  "Wait, I just realized — are you thinking of another trip? Or was the memory for a different year?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Asheville trip dates"
+   },
+   "result": "- 26 Sep: Ade is planning a trip to Asheville for us in October.\n- 13 Oct: Asheville trip booked from Oct 22 to 25, cabin near Blue Ridge.\n- 01 Oct: Ade is looking at Asheville hikes for October 22-25. Ade is booking the Asheville cabin and departure is confirmed for Oct 22 morning.\n- 29 Aug: Promised Ade to book Asheville flights tonight.\n- 10 Sep: Daniel's dog ate an expensive sock and needed induced vomiting; emergency vet trip."
+  }
+ ],
+ "calls": [
+  {
+   "in": 1509,
+   "out": 23,
+   "usd": 0.000238122
+  },
+  {
+   "in": 1656,
+   "out": 58,
+   "usd": 0.000242768
+  }
+ ],
+ "memChars": 1169,
+ "promptChars": 5669
+}

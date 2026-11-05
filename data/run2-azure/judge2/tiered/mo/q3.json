@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant incorrectly states 大伟入职是去年9月1号 and adds a factual error by claiming a premature start to 8月31号, contradicting the actual chat record.",
+ "first": "wrong",
+ "rule": null
+}

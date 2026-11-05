@@ -1,0 +1,57 @@
+{
+ "arm": "rewrite",
+ "id": "dan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "what was the old pagerduty key before the first change?",
+ "reply": [
+  "之前第一次改之前的旧 key 是 9A7B2C，那次是在 8月初 Lena 的 on-call 文档里用的，后来 9月15 的事件之后被 revoke 了。新的 key 你后来换成 A4B8C2 了。"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "old PagerDuty key before change"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "PagerDuty key 9A7B2C"
+   },
+   "result": "#47 Fri 07 Aug 09:01 aicoo: remember thursday's reminder. you've got time\n#48 Fri 07 Aug 11:00 Them: saw lena's on-call doc update. pagerduty key is 9A7B2C. for next rotation.\n#49 Fri 07 Aug 11:01 aicoo: got it. i'll update the internal notes"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "9A7B2C revoked"
+   },
+   "result": "#581 Thu 08 Oct 10:00 Them: pairing session went well. he gets the composite index logic now\n#582 Thu 08 Oct 11:00 Them: sam asked about the old on-call key. told him 9A7B2C was revoked.\n#583 Thu 08 Oct 11:05 aicoo: good. that key was deprecated after the sep 15 incident. i logged the conversation"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3002,
+   "out": 26,
+   "usd": 0.0001239924
+  },
+  {
+   "in": 3057,
+   "out": 30,
+   "usd": 0.00003508652
+  },
+  {
+   "in": 3187,
+   "out": 25,
+   "usd": 0.00003995852
+  },
+  {
+   "in": 3314,
+   "out": 68,
+   "usd": 0.00004860632
+  }
+ ],
+ "memChars": 6158,
+ "promptChars": 10716
+}

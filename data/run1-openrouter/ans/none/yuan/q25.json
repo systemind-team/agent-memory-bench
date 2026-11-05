@@ -1,0 +1,33 @@
+{
+ "arm": "none",
+ "id": "yuan",
+ "qid": "q25",
+ "kind": "update",
+ "q": "论文title在改到Context-Aware Planning之后又改了什么？",
+ "reply": [
+  "从我之前的记录看，论文title最后的状态是"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Context-Aware Planning 论文 title"
+   },
+   "result": "#513 Sat 26 Sep 22:01 aicoo: 好的，之后会称你为'周周'。\n#514 Sun 27 Sep 01:00 Them: 又把论文title精简成Context-Aware Planning了，不想太长。\n#515 Sun 27 Sep 01:02 aicoo: - 新标题更简洁有力。\n- 已更新标题记录，并在编译好的draft中应用。"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1250,
+   "out": 25,
+   "usd": 0.000043272
+  },
+  {
+   "in": 1378,
+   "out": 19,
+   "usd": 0.000053712
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4025
+}

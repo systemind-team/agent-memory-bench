@@ -1,0 +1,21 @@
+{
+ "arm": "rewrite_facts",
+ "id": "kai",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "Lily搞的那个大单，Aurora那个，最后签了多少？",
+ "reply": [
+  "凯哥，Aurora那个deal是$950K，上周正式close的，Lily负责了最后的签约和文档。今天周日，你在休息吧？这个不急，明天再跟进也行。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 3359,
+   "out": 43,
+   "usd": 0.00006503308
+  }
+ ],
+ "memChars": 7010,
+ "promptChars": 11724
+}

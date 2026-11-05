@@ -1,0 +1,22 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "早上好！昨晚的万圣节过得怎么样？Toast和Butter组合一定很受欢迎吧",
+  "今天有什么需要我帮你盯着的吗？周日安心休息一下，Biscuit的生日派对菜单Ade应该还在策划中"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2502,
+   "out": 56,
+   "usd": 0.000144364
+  }
+ ],
+ "memChars": 4599,
+ "promptChars": 9126
+}

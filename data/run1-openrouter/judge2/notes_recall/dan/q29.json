@@ -1,0 +1,6 @@
+{
+ "verdict": "made_up",
+ "why": "Assistant claims Tom merged v1 spec and v2 is ready, but chat only shows reminder discussion with no confirmation it was ever sent or merged.",
+ "first": "made_up",
+ "rule": null
+}

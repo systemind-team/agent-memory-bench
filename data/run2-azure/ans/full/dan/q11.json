@@ -1,0 +1,34 @@
+{
+ "arm": "full",
+ "id": "dan",
+ "qid": "q11",
+ "kind": "update",
+ "q": "what's the billing cutover date?",
+ "reply": [
+  "october 12. that's the last confirmed date priya locked in. no more changes since then."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing cutover date"
+   },
+   "result": "#378 Fri 18 Sep 09:17 aicoo: tea day? or a bold experiment\n#379 Fri 18 Sep 10:00 Them: billing cutover final date: oct 12 again. we got back on track.\n#380 Fri 18 Sep 10:02 aicoo: that's great. back to the original plan. you can lock in the timeline now"
+  }
+ ],
+ "calls": [
+  {
+   "in": 21323,
+   "out": 19,
+   "usd": 0.000685078
+  },
+  {
+   "in": 21436,
+   "out": 28,
+   "usd": 0.000713848
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 64104
+}

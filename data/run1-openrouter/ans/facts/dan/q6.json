@@ -1,0 +1,21 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "how many eng were on the team before david joined?",
+ "reply": [
+  "four — you, tom, lena, and sam. david made it five. priya manages all of you.",
+  "that was back in september when you interviewed him. he started soon after."
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 1483,
+   "out": 47,
+   "usd": 0.00003908156
+  }
+ ],
+ "memChars": 884,
+ "promptChars": 5400
+}

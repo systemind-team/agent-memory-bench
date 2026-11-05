@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q32",
+ "kind": "ask",
+ "q": "Morning aicoo, 今天我有几个meetings? 或者简单说说这周.",
+ "reply": [
+  "凯哥周日好。今天没有meeting，你周末好好休息。\n\n这周几个关键点：周一10:30和Grace、Ben敲定pricing launch decision，顺便问SEA headcount timeline。另外记得找Lily和Omar拿customer quotes补进Q3 summary。Ravi那边integration收尾和dark mode toggle进度也可以周一问问。\n\n你父亲今天怎么样？女儿周末玩得开心吧？"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12771,
+   "out": 89,
+   "usd": 0.00011830028
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50351
+}

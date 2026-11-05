@@ -1,0 +1,47 @@
+{
+ "arm": "ledger",
+ "id": "yuan",
+ "qid": "q19",
+ "kind": "aggregate",
+ "q": "论文实验最后用了几个环境？",
+ "reply": [
+  "- 论文最终用了4个环境：环境1 (grid world) 82%，环境2 (另一grid world变体) 78%，环境3 (原始HotpotQA) 89%，环境4 (改进版HotpotQA) 55%。",
+  "- 环境4的结果标注为preliminary，放在discussion的limitations里讨论。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "环境 数量 实验"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "环境 实验 结果"
+   },
+   "result": "[568] 29 Oct · fact: Thu 29 Oct 01:15 四个环境结果：环境1 82%，环境2 78%，环境3 89%，环境4 55%  (from #889)\n[558] 28 Oct · fact: Tue 27 Oct 18:00 环境4跑到55%，但环境2结果下降  (from #871)\n[457] 11 Oct · done: Sun 11 Oct 18:00 实验部分写完，三个环境结果都放进去了  (from #705)\n[458] 12 Oct · fact: Sun 11 Oct 18:00 实验部分写完，三个环境结果都放进去了  (from #706)\n[536] 24 Oct · fact: Sat 24 Oct 10:00 第四个环境（HotpotQA改版）结果45%没变  (from #830, #831)\n[574] 31 Oct · done: Fri 30 Oct 11:30 aicoo检查论文实验部分数据和表格引用，修正环境2结果79%→78%  (from #904, #905, #906)\n[564] 28 Oct · fact: Wed 28 Oct 15:20 环境3跑完，结果比之前高2个点  (from #881)\n[582] 31 Oct · fact: Sat 31 Oct 14:05 slides中环境4的结果标注"
+  }
+ ],
+ "calls": [
+  {
+   "in": 4559,
+   "out": 23,
+   "usd": 0.000878622
+  },
+  {
+   "in": 4611,
+   "out": 23,
+   "usd": 0.000202182
+  },
+  {
+   "in": 5028,
+   "out": 87,
+   "usd": 0.000279768
+  }
+ ],
+ "memChars": 7172,
+ "promptChars": 11665
+}

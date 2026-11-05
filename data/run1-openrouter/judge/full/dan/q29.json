@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims the spec was sent on August 21 and later reviewed, but the provided chat excerpt only shows a reminder request on August 20 with no confirmation it was ever sent.",
+ "rule": null
+}

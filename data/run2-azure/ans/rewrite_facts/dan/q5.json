@@ -1,0 +1,34 @@
+{
+ "arm": "rewrite_facts",
+ "id": "dan",
+ "qid": "q5",
+ "kind": "recall",
+ "q": "what was the flaky test called again?",
+ "reply": [
+  "是 `test_billing_webhook`，那个你十月份用 mock 修好了的。不过月初你提过另一个 `test_billing_cycle` 也偶尔随机挂，那个后来处理了吗"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "flaky test name test_billing_webhook"
+   },
+   "result": "- 15 Oct: Dan resolved a flaky test (test_billing_webhook) that had been haunting him for weeks, reducing failure rate to 0%.\n- 03 Sep: Flaky test in CI: test_billing_webhook fails 20% of the time. 03 Sep: root cause was shared state between test cases, fixing with a fresh mock per test.\n- 20 Sep: Stepping away from flaky test to work on billing migration.\n- 26 Aug: A flaky test `test_billing_cycle` in CI is failing randomly, which is a recurring issue for him.\n- 13 Aug: Flaky test count is 0; Lena fixed the search flaky test.\n- 28 Sep: Flaky test fix attempt failed, still 20%. Tried exponenti"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3347,
+   "out": 28,
+   "usd": 0.00026031
+  },
+  {
+   "in": 3721,
+   "out": 51,
+   "usd": 0.000214258
+  }
+ ],
+ "memChars": 7440,
+ "promptChars": 12060
+}

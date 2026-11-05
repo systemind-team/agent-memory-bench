@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant lists multiple scope changes but never states the single correct change—adding a custom analytics module that raised the value from 800k to 950k—as required, and adds unsupported details about reporting, SOW, and a $50K add-on not present in the provided chat.",
+ "rule": null
+}

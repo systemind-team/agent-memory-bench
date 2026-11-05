@@ -1,0 +1,46 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q41",
+ "kind": "abstain",
+ "q": "what's lena's home address?",
+ "reply": [
+  "i don't have lena's home address, dan. that's not something i'd store unless you told me. want me to check the team directory or your google contacts?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena home address"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Lena Park home address"
+   },
+   "result": "- 17 Aug: Dan ran 9.2 miles in Prospect Park loop and felt good.\n- 22 Oct: Going home early to take a nap.\n- 17 Sep: Biscuit is tired, so Dan is going home early.\n- 21 Aug: A new candidate, Jordan Liu, formerly a data engineer at Spotify, has a good take-home.\n- 07 Oct: Heading home early because there are no on-call issues; first good day in a while.\n- 15 Aug: Reading through Lena's on-call draft.\n- 16 Oct: on-call handoff notes ready for Lena\n- 11 Aug: PR up for billing split, Lena is reviewing.\n- 31 Aug: Lena's PTO is Oct 5-9 for a wedding.\n- 13 Aug: Flaky test count is 0; Lena fixed the se"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1452,
+   "out": 22,
+   "usd": 0.000179768
+  },
+  {
+   "in": 1503,
+   "out": 23,
+   "usd": 0.000191038
+  },
+  {
+   "in": 1721,
+   "out": 42,
+   "usd": 0.000247458
+  }
+ ],
+ "memChars": 820,
+ "promptChars": 5313
+}

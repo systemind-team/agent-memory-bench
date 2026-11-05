@@ -1,0 +1,46 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q28",
+ "kind": "open_loop",
+ "q": "did i ever review lena's on-call draft?",
+ "reply": [
+  "you did — 15 Aug you read through it and said it was good with a few nits around escalation paths. never saw a follow-up on sending those comments by Wednesday though. want me to dig up the draft so you can add them now?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Lena on-call draft"
+   },
+   "result": "#125 Fri 14 Aug 17:01 aicoo: enjoy. see you monday\n#126 Sat 15 Aug 08:30 Them: coffee count: 1. lazy saturday. reading through lena's on-call draft\n#127 Sat 15 Aug 08:30 aicoo: understood, i'll note that"
+  },
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "Lena on-call draft review"
+   },
+   "result": "- 15 Aug: Reading through Lena's on-call draft.\n- 15 Aug: Lena's on-call draft is good with a few nits around escalation paths.\n- 16 Oct: on-call handoff notes ready for Lena\n- 14 Sep: Told Sam that Lena will cover on-call docs in a few weeks.\n- 26 Aug: Has a billing PR (#142) with error code fixes under review by Lena.\n- 17 Aug: Billing PR is up and Tom is reviewing it. 26 Aug: Has a billing PR (#142) with error code fixes under review by Lena.\n- 20 Aug: Today's task is to draft the webhook spec.\n- 05 Aug: Dan plans to draft a risk list for Priya.\n- 15 Aug: Dan plans to send comments on the d"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1449,
+   "out": 24,
+   "usd": 0.000180258
+  },
+  {
+   "in": 1559,
+   "out": 25,
+   "usd": 0.00011227
+  },
+  {
+   "in": 1788,
+   "out": 57,
+   "usd": 0.000132456
+  }
+ ],
+ "memChars": 814,
+ "promptChars": 5319
+}

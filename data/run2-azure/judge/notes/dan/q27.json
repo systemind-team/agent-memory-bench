@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant conflates the early August reminder request about a billing timeline doc with an unrelated October cutover checklist, never addressing whether the original commitment was fulfilled.",
+ "rule": null
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant gives A4B8C2 as the current key, but the chat only supports 7C2E9B as the latest value.",
+ "rule": null
+}

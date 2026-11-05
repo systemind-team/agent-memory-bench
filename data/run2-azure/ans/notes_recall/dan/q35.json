@@ -1,0 +1,22 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q35",
+ "kind": "ask",
+ "q": "早上好",
+ "reply": [
+  "早上好 Dan！ 周六跑得怎么样？",
+  "今天计划是休息日？需要我帮你理一下周一要推进的事吗？"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2502,
+   "out": 36,
+   "usd": 0.000178988
+  }
+ ],
+ "memChars": 4599,
+ "promptChars": 9126
+}

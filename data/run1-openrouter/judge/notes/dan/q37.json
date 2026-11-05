@@ -1,0 +1,5 @@
+{
+ "verdict": "wrong",
+ "why": "The user asked for standup notes with bullet points and timestamps, but the assistant's reply contains bullet points without any timestamps.",
+ "rule": false
+}

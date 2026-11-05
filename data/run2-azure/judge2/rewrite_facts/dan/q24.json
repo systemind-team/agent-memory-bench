@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The reply lists 5B1C6D as a separate key but the chat only mentions it as the previous key before the last change, and it incorrectly omits 9A7B2C which was explicitly given on Aug 7 and should be listed as a used key.",
+ "first": "wrong",
+ "rule": null
+}

@@ -1,0 +1,28 @@
+{
+ "arm": "notes_recall",
+ "id": "mo",
+ "qid": "q31",
+ "kind": "open_loop",
+ "q": "11月1号季度复盘提醒，还没关吧？",
+ "reply": [
+  "No, it's not off",
+  "Here's what's on the table for quarterly review:",
+  "- Product: 晨检上线 DAU 稳定，安卓版 11 月中，Mia 新 UI 方案",
+  "- Business Dev: 大伟签了第二家驿站（徐汇），分成 10% ；成都合作每月 300+ 单",
+  "- Finance: 蓝驰两笔到账，账上 600 万，现金余额 398 万（需核对）",
+  "- Team: Mia 日本采风，大伟季度绩效 A 奖金 1 万 2，阿杰薪资方案等 seed 轮",
+  "- Risks: 红杉视频会议待准备，晨检安卓版压到 11 月中",
+  "要我先整理成文档格式，还是直接顺着这个过一遍"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 2865,
+   "out": 180,
+   "usd": 0.000335858
+  }
+ ],
+ "memChars": 3059,
+ "promptChars": 7034
+}

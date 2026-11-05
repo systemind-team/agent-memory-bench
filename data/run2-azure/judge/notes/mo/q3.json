@@ -1,0 +1,5 @@
+{
+ "verdict": "stale",
+ "why": "The assistant states 9月2日到岗 with 9月1号起算薪资, but the chat evidence only confirms 9月1号准到（入职）.",
+ "rule": null
+}

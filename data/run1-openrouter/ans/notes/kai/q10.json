@@ -1,0 +1,20 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q10",
+ "kind": "recall",
+ "q": "Aurora deal最初是多少value来着，我印象中后来加了custom模块涨了。",
+ "reply": [
+  "Aurora deal最初是800K，Q3 closing。后来Q4加了个custom reporting add-on，涨到950K了。最后签约是950K，额外那个50K的custom module。"
+ ],
+ "steps": [],
+ "calls": [
+  {
+   "in": 12771,
+   "out": 50,
+   "usd": 0.00011513348
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50354
+}

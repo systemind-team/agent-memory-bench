@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly lists the three VCs contacted (云九, 蓝驰, 红杉) and accurately identifies 云九 as dropped, with supporting details from the chat.",
+ "rule": null
+}

@@ -1,0 +1,45 @@
+{
+ "arm": "notes",
+ "id": "dan",
+ "qid": "q2",
+ "kind": "recall",
+ "q": "what was the old pagerduty key before the first change?",
+ "reply": [
+  "The earliest key I have on record before any change was **3F8D1A** — that was the one active before it got rotated to 7C2E9B on Sep 24."
+ ],
+ "steps": [
+  {
+   "tool": "read_note",
+   "args": {
+    "slug": "pagerduty-key"
+   },
+   "result": "PagerDuty key\n20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am"
+  },
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "PagerDuty key old"
+   },
+   "result": "[stripe-webhook] 24 Sep: PagerDuty key changed to 7C2E9B (was 3F8D1A)\n[candidate-sam] 08 Oct: Sam asked about old on-call key 9A7B2C; told it was revoked after Sep 15 incident\n[checkout-spec] 14 Oct: Lena's PagerDuty key was 5B1C6D before last change\n[pagerduty-key] 20 Oct: new PagerDuty key A4B8C2 for next on-call; saved\n[stripe-webhook] 10 Aug: PagerDuty rotation starts tomorrow; Dan has the key saved\n[pagerduty-key] 26 Oct: PagerDuty key 7C2E9B worked fine last night; one false positive alert at 3am\n[candidate-sam] 06 Oct: Sam asked for PagerDuty escalation tour; Dan walked him through Lena"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2522,
+   "out": 23,
+   "usd": 0.00009594592
+  },
+  {
+   "in": 2614,
+   "out": 24,
+   "usd": 0.00009144744
+  },
+  {
+   "in": 2974,
+   "out": 48,
+   "usd": 0.00004980808
+  }
+ ],
+ "memChars": 4534,
+ "promptChars": 9113
+}

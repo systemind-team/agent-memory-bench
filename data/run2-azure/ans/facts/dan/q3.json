@@ -1,0 +1,35 @@
+{
+ "arm": "facts",
+ "id": "dan",
+ "qid": "q3",
+ "kind": "recall",
+ "q": "what was the column name i dropped by accident?",
+ "reply": [
+  "it was `billing_status` — the column you meant to rename, not drop. august 18th, but i know you remember it well. lena caught it before production sync though, so no data loss.",
+  "still makes me a little nervous thinking about it, but that's why we have rollback scripts and a lena on the team."
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "dropped column name billing_status"
+   },
+   "result": "- 30 Aug: dropped column `billing_status` caused 3h of panic\n- 04 Oct: Daniel 'Dan' Okafor recalls the dropped column incident occurred on August 18 and considers it unforgettable.\n- 16 Sep: Showed Sam the rollback script for the billing_status drop incident.\n- 28 Aug: Daniel \"Dan\" Okafor caused a migration incident on Tuesday where a column was dropped instead of renamed but was rolled back with no data loss because Lena caught it before production sync.\n- 05 Oct: Priya asked Dan for a status on the billing dry run results from last week. 15 Oct: Priya asked about the cutover timeline again\n-"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1488,
+   "out": 24,
+   "usd": 0.000234272
+  },
+  {
+   "in": 1765,
+   "out": 79,
+   "usd": 0.000323242
+  }
+ ],
+ "memChars": 1048,
+ "promptChars": 5561
+}

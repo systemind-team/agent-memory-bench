@@ -1,0 +1,38 @@
+{
+ "arm": "notes_recall",
+ "id": "dan",
+ "qid": "q25",
+ "kind": "aggregate",
+ "q": "how many times did the cutover date move? list them.",
+ "reply": [
+  "从我的记录看，cutover 日期动过三次：",
+  "1. 最初是 Nov 15，后来移到 Oct 12（billing-split 那边，Sep 18 记录的）",
+  "2. Oct 12 又移到 Oct 26（后来 Priya 确认还是 Oct 12，所以 Oct 26 可能是一个过渡版本）",
+  "3. 最后 billing-migration 定在 Nov 15（Oct 15 跟 Priya 说的）",
+  "所以如果从最早版本算起，从 Nov 15 → Oct 12 → Nov 15，来回了一次。但如果你问的是最终确定的那个，现在是 Nov 15。"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_notes",
+   "args": {
+    "query": "cutover date moved"
+   },
+   "result": "[billing-split] 18 Sep: cutover moved to Oct 12 (was Nov 15)\n[candidate-sam] 01 Sep: Sam Ortiz start date confirmed Sep 14 (unchanged)\n[billing-migration] 26 Oct: Priya wants cutover checklist ready by Friday (moved from previous generic checklist); 28 Oct: database migration Wednesday Oct 28 2am EST completed; dry run clean per Priya check\n[billing-split] cutover possibly moving again, waiting on legal (Priya mentioned)\n[billing-migration] 09 Oct: Priya asked about cutover checklist; Dan will update it this morning\n[candidate-sam] 27 Aug: Sam Ortiz starts Sep 14; Dan and Priya will onboard; n"
+  }
+ ],
+ "calls": [
+  {
+   "in": 2853,
+   "out": 22,
+   "usd": 0.0001176182
+  },
+  {
+   "in": 3164,
+   "out": 149,
+   "usd": 0.00004909352
+  }
+ ],
+ "memChars": 5681,
+ "promptChars": 10257
+}

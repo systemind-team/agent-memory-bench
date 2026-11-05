@@ -1,0 +1,22 @@
+{
+ "arm": "tiered",
+ "id": "kai",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "Q3 actual revenue是多少来着，Grace要final number。",
+ "reply": [
+  "凯哥周日好，Q3 actual revenue是2.35M，比target 2.4M差50k。这个数字在Q3 customer wins summary里已经列出来了，Grace那里应该也有一份。需要我帮你把详细breakdown（Aurora、Singapore fintech、dark mode upsell这top 3 deals的贡献）整理出来发给她吗？",
+  "另外，今天女儿咳嗽好点了吗？你父亲血压稳定吧。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 8790,
+   "out": 104,
+   "usd": 0.000346124
+  }
+ ],
+ "memChars": 14869,
+ "promptChars": 26052
+}

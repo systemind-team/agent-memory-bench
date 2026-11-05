@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "The assistant correctly identifies that Sam's onboarding (Sep 14) occurred before the Stripe webhooks were moved to their own service by Tom (which happened by Oct 2), matching the chat's timeline.",
+ "rule": null
+}

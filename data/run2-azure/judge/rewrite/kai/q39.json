@@ -1,0 +1,5 @@
+{
+ "verdict": "dont_know",
+ "why": "The assistant states it cannot find a complete survey or feedback summary and asks for direction, rather than summarizing feedback grouped by feature.",
+ "rule": false
+}

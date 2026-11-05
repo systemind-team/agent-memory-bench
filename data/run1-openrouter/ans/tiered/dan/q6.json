@@ -1,0 +1,69 @@
+{
+ "arm": "tiered",
+ "id": "dan",
+ "qid": "q6",
+ "kind": "recall",
+ "q": "how many eng were on the team before david joined?",
+ "reply": [
+  "before david joined, it was 4 engineers: you, tom, lena, and sam. priya manages the team. so when david joined on wed oct 21, it became 5."
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "team size before david"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "engineers team Tom Lena Sam"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "Dan Tom Lena Sam"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "David joined"
+   },
+   "result": "#720 Tue 20 Oct 17:31 aicoo: enjoy the run dan the builder.\n#721 Wed 21 Oct 08:55 Them: morning. team now 5. david chen joined officially.\n#722 Wed 21 Oct 08:56 aicoo: welcome to david chen. team of 5 now. that changes the on-call rotation.\n---\n#460 Mon 28 Sep 08:16 aicoo: dan the builder fueled up. good monday energy\n#461 Mon 28 Sep 10:05 Them: candidates interviewed: 3. maria, jordan, david. david joined.\n#462 Mon 28 Sep 10:06 aicoo: three down one in. solid conversion"
+  }
+ ],
+ "calls": [
+  {
+   "in": 5327,
+   "out": 23,
+   "usd": 0.000564165
+  },
+  {
+   "in": 5381,
+   "out": 24,
+   "usd": 0.0000541198
+  },
+  {
+   "in": 5434,
+   "out": 22,
+   "usd": 0.00004779432
+  },
+  {
+   "in": 5485,
+   "out": 20,
+   "usd": 0.0000580174
+  },
+  {
+   "in": 5677,
+   "out": 49,
+   "usd": 0.00005985252
+  }
+ ],
+ "memChars": 8889,
+ "promptChars": 17928
+}

@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "It correctly identifies the request from August 10, notes the lack of a 'done' or resolved follow-up, and asks whether it was handled offline—matching the requirement to recognize the commitment is still open.",
+ "rule": null
+}

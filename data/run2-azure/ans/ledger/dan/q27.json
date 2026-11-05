@@ -1,0 +1,47 @@
+{
+ "arm": "ledger",
+ "id": "dan",
+ "qid": "q27",
+ "kind": "open_loop",
+ "q": "what's the status of that billing timeline doc for priya?",
+ "reply": [
+  "the billing timeline doc was sent to priya back in august — that one's done. the more recent thread is the cutover checklist, which priya sent a template for and you're almost done with. just the rollback steps left to add, plus i'd include the dry run results from monday night.",
+  "you want me to pull up the current checklist doc so you can finish it this morning?"
+ ],
+ "plain": false,
+ "steps": [
+  {
+   "tool": "search_memory",
+   "args": {
+    "query": "billing timeline doc priya"
+   },
+   "result": "[28] 07 Aug · done: timeline doc sent to priya  (from #50)\n[8] 04 Aug · ask: remind me to send priya the billing timeline doc by friday  (from #12)\n[30] 07 Aug · done: dan sent timeline doc to priya  (from #50)\n[29] 07 Aug · done: aicoo reminded daniel thursday afternoon to send priya the billing timeline doc by friday  (from #9)\n[9] 04 Aug · promise: aicoo will remind daniel thursday afternoon to send priya the billing timeline doc by friday  (from #12, #13)\n[26] 07 Aug · plan: need to finish the timeline doc today Fri 07 Aug  (from #46)\n[384] 16 Oct · ask: priya asked about the cutover timel"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "billing timeline doc"
+   },
+   "result": "#11 Mon 03 Aug 17:46 aicoo: have a good evening. say hi to biscuit\n#12 Tue 04 Aug 09:15 Them: remind me to send priya the billing timeline doc by friday\n#13 Tue 04 Aug 09:15 aicoo: ok, will remind you thursday afternoon"
+  }
+ ],
+ "calls": [
+  {
+   "in": 3069,
+   "out": 24,
+   "usd": 0.000153866
+  },
+  {
+   "in": 3399,
+   "out": 22,
+   "usd": 0.000176222
+  },
+  {
+   "in": 3506,
+   "out": 89,
+   "usd": 0.000190388
+  }
+ ],
+ "memChars": 6092,
+ "promptChars": 10822
+}

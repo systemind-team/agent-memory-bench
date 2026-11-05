@@ -1,0 +1,6 @@
+{
+ "verdict": "wrong",
+ "why": "The assistant gave August 25, but the chat explicitly states the dropped column incident was on August 18 (#537, #538).",
+ "first": "wrong",
+ "rule": null
+}

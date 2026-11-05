@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "PR description includes a Risk section listing potential risks, which follows the user's preference set on Aug 29.",
+ "rule": true
+}

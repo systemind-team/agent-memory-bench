@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The answer claims the old key was 5B1C6D, but the chat only contains 9A7B2C with no mention of any earlier key or a 'sep 13 change'.",
+ "rule": null
+}

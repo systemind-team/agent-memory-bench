@@ -1,0 +1,21 @@
+{
+ "arm": "notes",
+ "id": "kai",
+ "qid": "q9",
+ "kind": "recall",
+ "q": "那个PM candidate我们最后hire了谁，名字和start date是啥？",
+ "reply": [
+  "Emily Tan，start date Oct 26，上周一已经入职了。她接替了Lily的部分accounts，这周开始已经在看product backlog了。"
+ ],
+ "plain": false,
+ "steps": [],
+ "calls": [
+  {
+   "in": 12745,
+   "out": 40,
+   "usd": 0.000453474
+  }
+ ],
+ "memChars": 45624,
+ "promptChars": 50352
+}

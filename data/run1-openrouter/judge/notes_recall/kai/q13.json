@@ -1,0 +1,5 @@
+{
+ "verdict": "made_up",
+ "why": "The assistant claims Ben's first proposal was $41/user/month (v1), but the chat only mentions v2 at $39 and v3 at $49, with no $41 figure anywhere.",
+ "rule": null
+}

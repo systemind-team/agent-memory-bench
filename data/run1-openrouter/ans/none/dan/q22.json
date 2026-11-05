@@ -1,0 +1,82 @@
+{
+ "arm": "none",
+ "id": "dan",
+ "qid": "q22",
+ "kind": "aggregate",
+ "q": "how many data eng candidates did we interview total?",
+ "reply": [
+  "from what i can see in our chat, we interviewed 3 data eng candidates: maria torres, jordan liu, and david chen. david ended up joining us.",
+  "that was back in sept — any new rounds i missed?"
+ ],
+ "steps": [
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data eng candidates interview total"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data engineer interview count"
+   },
+   "result": "(no messages contain all of those words; try other wording or the other language)"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "interview data"
+   },
+   "result": "#138 Sun 16 Aug 10:01 aicoo: you've got a solid week ahead. billing split is close\n#139 Sun 16 Aug 13:00 Them: started sketching the new interview rubric for data engineer. need more sql focus\n#140 Sun 16 Aug 13:02 aicoo: wise. i'll prep a draft from our previous postings\n---\n#93 Wed 12 Aug 07:32 aicoo: good luck. who's the candidate?\n#94 Wed 12 Aug 10:00 Them: first interview for new data engineer candidate: maria torres. solid sql.\n#95 Wed 12 Aug 10:02 aicoo: sounds promising. any flags?"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "data engineer interview"
+   },
+   "result": "#138 Sun 16 Aug 10:01 aicoo: you've got a solid week ahead. billing split is close\n#139 Sun 16 Aug 13:00 Them: started sketching the new interview rubric for data engineer. need more sql focus\n#140 Sun 16 Aug 13:02 aicoo: wise. i'll prep a draft from our previous postings\n---\n#93 Wed 12 Aug 07:32 aicoo: good luck. who's the candidate?\n#94 Wed 12 Aug 10:00 Them: first interview for new data engineer candidate: maria torres. solid sql.\n#95 Wed 12 Aug 10:02 aicoo: sounds promising. any flags?"
+  },
+  {
+   "tool": "search_chat",
+   "args": {
+    "query": "candidate"
+   },
+   "result": "#460 Mon 28 Sep 08:16 aicoo: dan the builder fueled up. good monday energy\n#461 Mon 28 Sep 10:05 Them: candidates interviewed: 3. maria, jordan, david. david joined.\n#462 Mon 28 Sep 10:06 aicoo: three down one in. solid conversion\n---\n#282 Sun 06 Sep 17:45 Them: biscuit is staring at me. dinner time apparently\n#283 Mon 07 Sep 09:45 Them: candidate three: david chen. contractor at doordash. knows dbt.\n#284 Mon 07 Sep 09:47 aicoo: noted. doordash scale experience could be useful.\n---\n#173 Fri 21 Aug 07:30 aicoo: morning. you're off rotation at 5?\n#174 Fri 21 Aug 10:15 Them: new candidate: jordan"
+  }
+ ],
+ "calls": [
+  {
+   "in": 1140,
+   "out": 23,
+   "usd": 0.000033012
+  },
+  {
+   "in": 1192,
+   "out": 22,
+   "usd": 0.000037512
+  },
+  {
+   "in": 1243,
+   "out": 20,
+   "usd": 0.000041742
+  },
+  {
+   "in": 1427,
+   "out": 21,
+   "usd": 0.000058482
+  },
+  {
+   "in": 1612,
+   "out": 20,
+   "usd": 0.00005652
+  },
+  {
+   "in": 2042,
+   "out": 59,
+   "usd": 0.000083808
+  }
+ ],
+ "memChars": 0,
+ "promptChars": 4214
+}

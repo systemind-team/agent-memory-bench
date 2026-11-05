@@ -1,0 +1,5 @@
+{
+ "verdict": "correct",
+ "why": "User mentioned the meeting was changed to online on Sun Oct 25, and aicoo correctly replied with 线上 based on that prior chat message.",
+ "rule": null
+}

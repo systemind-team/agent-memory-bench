@@ -1,0 +1,21 @@
+{
+ "arm": "notes_recall",
+ "id": "kai",
+ "qid": "q12",
+ "kind": "update",
+ "q": "Pricing launch date最后定在什么时候了，Ben改了好几次？",
+ "reply": [
+  "凯哥周日好。最终定价是Dec 1 launch，10月26日跟Ben确认的。之前改了两次——从Nov 1拖到Nov 15（Ben要多做A/B测试），最后因为dark mode并行占用工程资源，推到了Dec 1。Ben已经同意了，A/B测试11月3日按计划启动，Dec 1直接上v3定价。\n\n你周一10:30跟Grace和Ben的meeting就是final confirmation，应该没问题。"
+ ],
+ "plain": true,
+ "steps": [],
+ "calls": [
+  {
+   "in": 13422,
+   "out": 102,
+   "usd": 0.00016241624
+  }
+ ],
+ "memChars": 48163,
+ "promptChars": 52888
+}
